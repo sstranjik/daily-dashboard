@@ -69,6 +69,7 @@
 
 /* ─── RESET ──────────────────────────────────────────────────────────────── */
 *,*::before,*::after { box-sizing:border-box; margin:0; padding:0; }
+[hidden] { display:none !important; }
 
 html {
   font-size: 14px;
@@ -270,13 +271,31 @@ img    { max-width: 100%; display: block; }
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: var(--sp-5);
-  align-items: start;
+  align-items: stretch;
 }
 
-/* Ensure sections fill their grid cell */
+/* Sections fill cell height; widgets fill section */
 #section-calendar,
 #section-tasks,
-#section-weather { min-width: 0; }
+#section-weather {
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+}
+#section-calendar .widget,
+#section-tasks    .widget,
+#section-weather  .widget {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Sign-in wrapper — Google renderButton target */
+.btn-signin-wrap {
+  display: flex;
+  align-items: center;
+  min-width: 80px;
+}
 
 /* Rows 2-3 span full width naturally */
 

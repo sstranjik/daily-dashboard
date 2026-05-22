@@ -636,7 +636,7 @@
 }
 
 .cal-events-list { display: flex; flex-direction: column; gap: 1px; }
-.cal-scroll { overflow-y: auto; flex: 1; max-height: 320px; scrollbar-width: thin; scrollbar-color: var(--border-subtle) transparent; }
+.cal-scroll { overflow-y: auto; flex: 1; scrollbar-width: thin; scrollbar-color: var(--border-subtle) transparent; }
 .cal-scroll::-webkit-scrollbar { width: 3px; }
 .cal-scroll::-webkit-scrollbar-thumb { background: var(--border-subtle); border-radius: 2px; }
 
@@ -646,7 +646,6 @@
 .tasks-scroll {
   overflow-y: auto;
   flex: 1;
-  max-height: 320px;
   scrollbar-width: thin;
   scrollbar-color: var(--border-subtle) transparent;
 }
@@ -856,6 +855,7 @@
   display: flex;
   flex-direction: column;
   gap: 2px;
+  flex: 1;
 }
 .weather-7day-row {
   display: flex;
@@ -917,6 +917,36 @@
 }
 .unified-news-tab:hover  { color: var(--text-secondary); }
 .unified-news-tab.active { color: var(--accent); border-bottom-color: var(--accent); }
+
+/* Sub-tabs (source filter within a main tab) */
+.unified-news-subtabs {
+  display: flex;
+  gap: 4px;
+  flex-wrap: wrap;
+  margin-bottom: var(--sp-3);
+  padding-bottom: var(--sp-3);
+  border-bottom: 1px solid var(--border-faint);
+}
+.unified-news-subtab {
+  padding: 3px 10px;
+  font-family: var(--font-mono);
+  font-size: 10px;
+  font-weight: 500;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+  background: var(--bg-tertiary);
+  border: 1px solid var(--border-faint);
+  border-radius: var(--r-full);
+  transition: color var(--dur), border-color var(--dur), background var(--dur);
+  white-space: nowrap;
+}
+.unified-news-subtab:hover  { color: var(--text-secondary); border-color: var(--border-subtle); }
+.unified-news-subtab.active {
+  color: var(--accent);
+  border-color: var(--accent-border);
+  background: var(--accent-bg);
+}
 
 .unified-news-panels { flex: 1; overflow: hidden; position: relative; }
 .unified-news-panel {

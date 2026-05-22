@@ -90,19 +90,19 @@ function loadStoredUser() {
 }
 
 function updateUI() {
-  const signinBtn  = document.getElementById('google-signin-btn');
+  const signinWrap = document.getElementById('google-signin-btn');
   const avatarArea = document.getElementById('user-avatar-area');
   const userImg    = document.getElementById('user-img');
   const userName   = document.getElementById('user-display-name');
 
   if (_user) {
-    signinBtn?.setAttribute('hidden', '');
-    avatarArea?.removeAttribute('hidden');
+    signinWrap?.classList.add('hidden');
+    avatarArea?.classList.remove('hidden');
     if (userImg && _user.picture) { userImg.src = _user.picture; userImg.alt = _user.name; }
     if (userName) userName.textContent = _user.name;
   } else {
-    signinBtn?.removeAttribute('hidden');
-    avatarArea?.setAttribute('hidden', '');
+    signinWrap?.classList.remove('hidden');
+    avatarArea?.classList.add('hidden');
   }
 }
 

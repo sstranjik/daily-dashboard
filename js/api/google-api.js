@@ -25,14 +25,14 @@ export function clearAccessToken() {
 export async function fetchCalendarEvents(token) {
   const now     = new Date();
   const timeMin = now.toISOString();
-  const timeMax = new Date(now.getTime() + 7 * 24 * 60 * 60 * 1000).toISOString();
+  const timeMax = new Date(now.getTime() + 30 * 24 * 60 * 60 * 1000).toISOString();
 
   const params = new URLSearchParams({
     timeMin,
     timeMax,
     singleEvents: 'true',
     orderBy:      'startTime',
-    maxResults:   '30',
+    maxResults:   '50',
   });
 
   const res = await fetch(`${CALENDAR_API}/calendars/primary/events?${params}`, {

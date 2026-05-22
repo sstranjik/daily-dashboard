@@ -12,19 +12,24 @@
     "auto_detect": true
   },
   "widgets": {
-    "briefing":     { "enabled": true,  "order": 1 },
-    "weather":      { "enabled": true,  "order": 2 },
-    "hr_news":      { "enabled": true,  "order": 3 },
-    "tech_news":    { "enabled": true,  "order": 4 },
-    "science":      { "enabled": true,  "order": 5 },
-    "sports":       { "enabled": true,  "order": 6 },
-    "productivity": { "enabled": true,  "order": 7 }
+    "calendar": { "enabled": true, "order": 1 },
+    "tasks":    { "enabled": true, "order": 2 },
+    "weather":  { "enabled": true, "order": 3 },
+    "briefing": { "enabled": true, "order": 4 },
+    "news":     { "enabled": true, "order": 5 }
   },
   "news": {
-    "max_items": 12,
-    "max_age_hours": 36,
+    "max_items": 20,
+    "max_age_hours": 48,
     "deduplicate": true,
-    "show_summary": true
+    "show_summary": true,
+    "tabs": [
+      { "key": "hr",      "label": "HR Vijesti", "file": "data/hr-news.json"      },
+      { "key": "tech",    "label": "Tech / AI",  "file": "data/tech-news.json"    },
+      { "key": "science", "label": "Znanost",    "file": "data/science-news.json" },
+      { "key": "sport",   "label": "Sport",      "file": "data/sports.json"       },
+      { "key": "ostalo",  "label": "Ostalo",     "files": [],   "catch_all": true }
+    ]
   },
   "weather": {
     "units": "celsius",

@@ -39,7 +39,16 @@ function getDefaultConfig() {
       briefing: { enabled: true, order: 4 },
       news:     { enabled: true, order: 5 },
     },
-    news:    { max_items: 12, max_age_hours: 36, deduplicate: true, show_summary: true },
+    news: {
+      max_items: 20, max_age_hours: 48, deduplicate: true, show_summary: true,
+      tabs: [
+        { key: 'hr',      label: 'HR Vijesti', file: 'data/hr-news.json'      },
+        { key: 'tech',    label: 'Tech / AI',  file: 'data/tech-news.json'    },
+        { key: 'science', label: 'Znanost',    file: 'data/science-news.json' },
+        { key: 'sport',   label: 'Sport',      file: 'data/sports.json'       },
+        { key: 'ostalo',  label: 'Ostalo',     files: [],  catch_all: true    },
+      ],
+    },
     weather: { units: 'celsius', hourly_count: 8, forecast_days: 3 },
     refresh: { weather_interval_min: 30, auto_refresh_news: false },
     theme:   { mode: 'dark', accent: '#58a6ff' },

@@ -2,7 +2,8 @@ import { getAccessToken } from '../api/google-api.js';
 import { fetchCalendarEvents } from '../api/google-api.js';
 import { requestApiAccess } from '../auth.js';
 
-const shortDays = ['Ned', 'Pon', 'Uto', 'Sri', 'Čet', 'Pet', 'Sub'];
+const shortDays  = ['Ned', 'Pon', 'Uto', 'Sri', 'Čet', 'Pet', 'Sub'];
+const shortMonths = ['sij','velj','ožu','tra','svi','lip','srp','kol','ruj','lis','stu','pro'];
 
 export async function renderCalendar(config) {
   const el = document.getElementById('widget-calendar');
@@ -47,11 +48,12 @@ function renderEvents(el, events) {
   const today  = toDateKey(new Date());
 
   const groupsHtml = Object.entries(groups).map(([dateKey, dayEvents]) => {
-    const isToday  = dateKey === today;
-    const dateObj  = new Date(dateKey + 'T00:00:00');
-    const dayLabel = isToday
-      ? 'Danas'
-      : `${shortDays[dateObj.getDay()]}, ${dateObj.getDate()}.${dateObj.getMonth() + 1}.`;
+    const isToday    = dateKey === today;
+    const isTomorrow = dateKey === tomorrowKey();
+    const dateObj    = new Date(dateKey + 'T00:00:00');
+    const dayLabel   = isToday    ? 'Danas'
+      : isTomorrow   ? 'Sutra'
+      : `${shortDays[dateObj.getDay()]}, ${dateObj.getDate()}. ${shortMonths[dateObj.getMonth()]}.`;
 
     const eventsHtml = dayEvents.map(ev => renderEvent(ev)).join('');
 
@@ -132,6 +134,12 @@ function groupByDay(events) {
 
 function toDateKey(date) {
   return date.toISOString().slice(0, 10);
+}
+
+function tomorrowKey() {
+  const d = new Date();
+  d.setDate(d.getDate() + 1);
+  return toDateKey(d);
 }
 
 function calColor(colorId) {
