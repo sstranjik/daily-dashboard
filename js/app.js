@@ -53,6 +53,18 @@ async function init() {
   renderCalendar(appConfig);
   renderTasks(appConfig);
 
+  // Re-render Google widgets after successful token acquisition (auto-reconnect on reload)
+  window.addEventListener('auth:token', () => {
+    renderCalendar(appConfig);
+    renderTasks(appConfig);
+  });
+
+  // Re-render Google widgets after sign-in (first time, before API access granted)
+  window.addEventListener('auth:signin', () => {
+    renderCalendar(appConfig);
+    renderTasks(appConfig);
+  });
+
   // Re-render Google widgets after sign-out
   window.addEventListener('auth:signout', () => {
     renderCalendar(appConfig);

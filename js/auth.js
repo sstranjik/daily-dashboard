@@ -1,14 +1,18 @@
 import { setAccessToken, clearAccessToken } from './api/google-api.js';
 
 const STORAGE_KEY = 'dashboard_user';
-const SCOPES = 'https://www.googleapis.com/auth/calendar.readonly https://www.googleapis.com/auth/tasks';
+const GRANTED_KEY = 'google_api_granted'; // set once user grants Calendar+Tasks access
+const SCOPES      = 'https://www.googleapis.com/auth/calendar.readonly https://www.googleapis.com/auth/tasks';
 
 let _user        = null;
+let _config      = null;
 let _tokenClient = null;
-let _apiReadyCbs = [];
+let _tokenCbs    = []; // per-request callbacks waiting for a fresh token
 
+// ─── ENTRY POINT ──────────────────────────────────────────────────────────────
 export function initAuth(config) {
-  _user = loadStoredUser();
+  _config = config;
+  _user   = loadStoredUser();
   updateUI();
 
   const clientId = config?.google?.client_id;
@@ -22,14 +26,12 @@ export function initAuth(config) {
         )
       );
     } else {
-      // Wait for GIS to load, then render the official button into the existing container
       waitForGIS(() => {
         window.google.accounts.id.initialize({
           client_id:   clientId,
           callback:    handleCredentialResponse,
           auto_select: false,
         });
-        // Replace custom button with rendered Google button
         window.google.accounts.id.renderButton(signinBtn, {
           theme: 'filled_black',
           size:  'small',
@@ -37,6 +39,11 @@ export function initAuth(config) {
           text:  'signin',
           logo_alignment: 'left',
         });
+
+        // If user was previously signed in and has granted API access → reconnect silently
+        if (_user && localStorage.getItem(GRANTED_KEY)) {
+          waitForOAuth2(() => _requestToken(config, ''));
+        }
       });
     }
   }
@@ -45,12 +52,51 @@ export function initAuth(config) {
   window.handleGoogleSignIn = handleCredentialResponse;
 }
 
+// ─── GIS / OAUTH2 READINESS ───────────────────────────────────────────────────
 function waitForGIS(cb, attempts = 0) {
   if (window.google?.accounts?.id) { cb(); return; }
-  if (attempts > 20) return; // give up after ~2s
+  if (attempts > 20) return;
   setTimeout(() => waitForGIS(cb, attempts + 1), 100);
 }
 
+function waitForOAuth2(cb, attempts = 0) {
+  if (window.google?.accounts?.oauth2) { cb(); return; }
+  if (attempts > 20) return;
+  setTimeout(() => waitForOAuth2(cb, attempts + 1), 100);
+}
+
+// ─── TOKEN REQUEST (internal) ─────────────────────────────────────────────────
+function _requestToken(config, prompt = '') {
+  const clientId = config?.google?.client_id;
+  if (!clientId || clientId.includes('YOUR_GOOGLE')) return;
+
+  if (!_tokenClient) {
+    _tokenClient = window.google.accounts.oauth2.initTokenClient({
+      client_id: clientId,
+      scope:     SCOPES,
+      callback:  (tokenResponse) => {
+        if (tokenResponse.error) {
+          console.error('OAuth error:', tokenResponse.error);
+          _tokenCbs = [];
+          return;
+        }
+        setAccessToken(tokenResponse.access_token, tokenResponse.expires_in ?? 3600);
+        localStorage.setItem(GRANTED_KEY, '1');
+
+        // Notify widgets that a fresh token is available
+        window.dispatchEvent(new CustomEvent('auth:token'));
+
+        // Fire any per-request callbacks
+        _tokenCbs.forEach(cb => cb(tokenResponse.access_token));
+        _tokenCbs = [];
+      },
+    });
+  }
+
+  _tokenClient.requestAccessToken({ prompt });
+}
+
+// ─── SIGN-IN CALLBACK ─────────────────────────────────────────────────────────
 function handleCredentialResponse(response) {
   if (!response?.credential) return;
   const payload = parseJwt(response.credential);
@@ -66,22 +112,30 @@ function handleCredentialResponse(response) {
   localStorage.setItem(STORAGE_KEY, JSON.stringify(_user));
   updateUI();
 
-  // Notify any widgets waiting for sign-in
-  _apiReadyCbs.forEach(cb => cb());
-  _apiReadyCbs = [];
+  // After sign-in: if user previously granted access, get token immediately (no popup)
+  // Otherwise widgets will show the "Poveži" button for first-time consent
+  if (localStorage.getItem(GRANTED_KEY)) {
+    waitForOAuth2(() => _requestToken(_config, ''));
+  } else {
+    // First time — dispatch sign-in so widgets refresh and show connect button
+    window.dispatchEvent(new CustomEvent('auth:signin'));
+  }
 }
 
+// ─── SIGN OUT ─────────────────────────────────────────────────────────────────
 function signOut() {
-  _user = null;
-  localStorage.removeItem(STORAGE_KEY);
-  clearAccessToken();
+  _user        = null;
   _tokenClient = null;
+  _tokenCbs    = [];
+  localStorage.removeItem(STORAGE_KEY);
+  localStorage.removeItem(GRANTED_KEY);
+  clearAccessToken();
   updateUI();
   window.google?.accounts?.id?.disableAutoSelect();
-  // Reload widgets to show sign-in prompts
   window.dispatchEvent(new CustomEvent('auth:signout'));
 }
 
+// ─── UI ───────────────────────────────────────────────────────────────────────
 function loadStoredUser() {
   try {
     const raw = localStorage.getItem(STORAGE_KEY);
@@ -106,42 +160,25 @@ function updateUI() {
   }
 }
 
-export function getUser() { return _user; }
-
-export function isSignedIn() { return !!_user; }
+// ─── PUBLIC API ───────────────────────────────────────────────────────────────
+export function getUser()     { return _user; }
+export function isSignedIn()  { return !!_user; }
 
 /**
  * Request an OAuth token for Calendar + Tasks.
  * `callback` is called with the token string on success.
- * If user isn't signed in yet, queues the request for after sign-in.
+ * Uses empty prompt (no popup) if user has already granted access.
  */
 export function requestApiAccess(config, callback) {
   if (!window.google?.accounts?.oauth2) {
-    console.warn('GIS not loaded yet');
+    console.warn('GIS oauth2 not loaded yet');
     return;
   }
-
-  const clientId = config?.google?.client_id;
-  if (!clientId || clientId.includes('YOUR_GOOGLE')) return;
-
-  if (!_tokenClient) {
-    _tokenClient = window.google.accounts.oauth2.initTokenClient({
-      client_id: clientId,
-      scope:     SCOPES,
-      callback:  (tokenResponse) => {
-        if (tokenResponse.error) {
-          console.error('OAuth error:', tokenResponse.error);
-          return;
-        }
-        setAccessToken(tokenResponse.access_token, tokenResponse.expires_in ?? 3600);
-        if (callback) callback(tokenResponse.access_token);
-      },
-    });
-  }
-
-  _tokenClient.requestAccessToken({ prompt: '' });
+  if (callback) _tokenCbs.push(callback);
+  _requestToken(config, '');
 }
 
+// ─── HELPERS ──────────────────────────────────────────────────────────────────
 function parseJwt(token) {
   try {
     return JSON.parse(atob(token.split('.')[1].replace(/-/g, '+').replace(/_/g, '/')));
