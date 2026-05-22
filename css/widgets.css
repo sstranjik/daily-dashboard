@@ -560,7 +560,7 @@
 .todo-clear-done:hover { color: var(--color-danger); }
 
 /* ─── CALENDAR WIDGET ────────────────────────────────────────────────────── */
-.widget-calendar { animation: fade-in 0.35s var(--ease); display: flex; flex-direction: column; }
+.widget-calendar { animation: fade-in 0.35s var(--ease); display: flex; flex-direction: column; min-height: 0; }
 
 .cal-day-group { margin-bottom: var(--sp-4); }
 .cal-day-group:last-child { margin-bottom: 0; }
@@ -636,16 +636,17 @@
 }
 
 .cal-events-list { display: flex; flex-direction: column; gap: 1px; }
-.cal-scroll { overflow-y: auto; flex: 1; scrollbar-width: thin; scrollbar-color: var(--border-subtle) transparent; }
+.cal-scroll { overflow-y: auto; flex: 1; max-height: 310px; scrollbar-width: thin; scrollbar-color: var(--border-subtle) transparent; }
 .cal-scroll::-webkit-scrollbar { width: 3px; }
 .cal-scroll::-webkit-scrollbar-thumb { background: var(--border-subtle); border-radius: 2px; }
 
 /* ─── TASKS WIDGET ───────────────────────────────────────────────────────── */
-.widget-tasks { animation: fade-in 0.4s var(--ease); display: flex; flex-direction: column; }
+.widget-tasks { animation: fade-in 0.4s var(--ease); display: flex; flex-direction: column; min-height: 0; }
 
 .tasks-scroll {
   overflow-y: auto;
   flex: 1;
+  max-height: 310px;
   scrollbar-width: thin;
   scrollbar-color: var(--border-subtle) transparent;
 }
@@ -855,7 +856,6 @@
   display: flex;
   flex-direction: column;
   gap: 2px;
-  flex: 1;
 }
 .weather-7day-row {
   display: flex;

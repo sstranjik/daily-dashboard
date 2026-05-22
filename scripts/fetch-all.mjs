@@ -178,7 +178,7 @@ async function main() {
   writeDataFile('hr-news.json',      { last_updated: NOW_ISO, source_count: cfg.hr.length,      items: hrItems.slice(0, 20) });
   writeDataFile('tech-news.json',    { last_updated: NOW_ISO, source_count: cfg.tech.length,    items: techItems.slice(0, 15) });
   writeDataFile('science-news.json', { last_updated: NOW_ISO, source_count: cfg.science.length, items: sciItems.slice(0, 12) });
-  writeDataFile('sports.json',       buildSportsData(sportsItems));
+  writeDataFile('sports.json',       { last_updated: NOW_ISO, source_count: cfg.sports?.length ?? 0, items: sportsItems.slice(0, 20) });
 
   // Update metadata
   const metadata = {
@@ -199,24 +199,5 @@ async function main() {
   return { hrItems, techItems, sciItems };
 }
 
-function buildSportsData(items) {
-  // Sports RSS items → simple display format
-  // For real scores you'd integrate a sports API; for now parse titles
-  const matches = items.slice(0, 10).map((item, i) => ({
-    league: 'sport',
-    home:   item.source,
-    away:   item.title.slice(0, 40),
-    score_home: null, score_away: null,
-    status: 'upcoming',
-    time: new Date(item.published).toLocaleTimeString('hr-HR', { hour: '2-digit', minute: '2-digit' }),
-    link: item.link,
-  }));
-
-  return {
-    last_updated: NOW_ISO,
-    leagues: [{ id: 'sport', name: 'Sport' }],
-    matches,
-  };
-}
 
 main().catch(err => { console.error('Fatal:', err); process.exit(1); });

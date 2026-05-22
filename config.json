@@ -55,10 +55,15 @@
       { "name": "Jutarnji",    "rss": "https://www.jutarnji.hr/feed",    "enabled": true }
     ],
     "tech": [
-      { "name": "TechCrunch AI", "rss": "https://techcrunch.com/category/artificial-intelligence/feed/", "enabled": true },
-      { "name": "The Verge",     "rss": "https://www.theverge.com/rss/index.xml",                        "enabled": true },
-      { "name": "VentureBeat",   "rss": "https://venturebeat.com/feed/",                                 "enabled": true },
-      { "name": "Ars Technica",  "rss": "https://feeds.arstechnica.com/arstechnica/technology-lab",      "enabled": true }
+      { "name": "Bug.hr",         "rss": "https://www.bug.hr/rss/",                                                 "enabled": true },
+      { "name": "ICTbusiness",    "rss": "https://www.ictbusiness.info/feed/",                                      "enabled": true },
+      { "name": "Netokracija",    "rss": "https://www.netokracija.com/feed",                                        "enabled": true },
+      { "name": "TechCrunch AI",  "rss": "https://techcrunch.com/category/artificial-intelligence/feed/",           "enabled": true },
+      { "name": "The Verge",      "rss": "https://www.theverge.com/rss/index.xml",                                  "enabled": true },
+      { "name": "VentureBeat",    "rss": "https://venturebeat.com/feed/",                                           "enabled": true },
+      { "name": "Ars Technica",   "rss": "https://feeds.arstechnica.com/arstechnica/technology-lab",                "enabled": true },
+      { "name": "The Next Web",   "rss": "https://thenextweb.com/feed/",                                            "enabled": true },
+      { "name": "ZDNet",          "rss": "https://www.zdnet.com/news/rss.xml",                                      "enabled": true }
     ],
     "science": [
       { "name": "ScienceDaily", "rss": "https://www.sciencedaily.com/rss/all.xml",              "enabled": true },
@@ -66,8 +71,13 @@
       { "name": "NASA",         "rss": "https://www.nasa.gov/rss/dyn/breaking_news.rss",        "enabled": true }
     ],
     "sports": [
-      { "name": "SportSport",   "rss": "https://www.sportsport.ba/rss",  "enabled": true },
-      { "name": "Index Sport",  "rss": "https://www.index.hr/sport/rss", "enabled": true }
+      { "name": "Index Sport",  "rss": "https://www.index.hr/sport/rss",                        "enabled": true },
+      { "name": "24sata Sport", "rss": "https://www.24sata.hr/feeds/sport.xml",                 "enabled": true },
+      { "name": "SportSport",   "rss": "https://www.sportsport.ba/rss",                         "enabled": true },
+      { "name": "ESPN NBA",     "rss": "https://www.espn.com/espn/rss/nba/news",                "enabled": true },
+      { "name": "NBA.com",      "rss": "https://www.nba.com/news/rss",                          "enabled": true },
+      { "name": "BBC Sport",    "rss": "https://feeds.bbci.co.uk/sport/rss.xml",                "enabled": true },
+      { "name": "Sky Sports",   "rss": "https://www.skysports.com/rss/12040",                   "enabled": true }
     ]
   }
 }
