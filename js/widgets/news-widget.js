@@ -1,4 +1,5 @@
 import { escapeHtml, truncate, stripHtml, timeAgo } from '../utils/helpers.js';
+import { showToast } from '../app.js';
 
 const DEFAULT_TABS = [
   { key: 'hr',            label: 'HR Vijesti', file: 'data/hr-news.json'            },
@@ -221,9 +222,7 @@ function attachRefreshHandler(el) {
           }
         );
         if (res.status === 204) {
-          import('../app.js').then(m =>
-            m.showToast('GitHub Actions workflow pokrenut · vijesti će biti osvježene za ~2 minute', 'success', 6000)
-          );
+          showToast('GitHub Actions workflow pokrenut · vijesti će biti osvježene za ~2 minute', 'success', 6000);
           // After ~2.5 min automatically reload news data
           setTimeout(async () => {
             await refreshAllTabs(el);
@@ -231,14 +230,10 @@ function attachRefreshHandler(el) {
           }, 150_000);
         } else {
           const body = await res.json().catch(() => ({}));
-          import('../app.js').then(m =>
-            m.showToast(`Greška ${res.status}: ${body.message ?? 'Provjeri PAT token u postavkama'}`, 'error', 5000)
-          );
+          showToast(`Greška ${res.status}: ${body.message ?? 'Provjeri PAT token u postavkama'}`, 'error', 5000);
         }
       } catch (err) {
-        import('../app.js').then(m =>
-          m.showToast('Nije moguće pokrenuti workflow · provjeri internetsku vezu', 'error', 4000)
-        );
+        showToast('Nije moguće pokrenuti workflow · provjeri internetsku vezu', 'error', 4000);
       } finally {
         btn?.classList.remove('spinning');
       }
@@ -256,9 +251,7 @@ function attachRefreshHandler(el) {
       if (meta?.last_updated) {
         const age = new Date(meta.last_updated);
         const label = age.toLocaleString('hr-HR', { day:'numeric', month:'numeric', hour:'2-digit', minute:'2-digit' });
-        import('../app.js').then(m =>
-          m.showToast(`Vijesti osvježene · Podaci od ${label} · Dodaj GitHub PAT u postavkama za live refresh`, 'info', 6000)
-        );
+        showToast(`Vijesti osvježene · Podaci od ${label} · Dodaj GitHub PAT u postavkama za live refresh`, 'info', 6000);
       }
     } catch { /* no metadata */ }
   });
