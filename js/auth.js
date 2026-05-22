@@ -11,29 +11,44 @@ export function initAuth(config) {
   _user = loadStoredUser();
   updateUI();
 
-  document.getElementById('google-signin-btn')?.addEventListener('click', () => {
-    const clientId = config?.google?.client_id;
+  const clientId = config?.google?.client_id;
+  const signinBtn = document.getElementById('google-signin-btn');
+
+  if (signinBtn) {
     if (!clientId || clientId.includes('YOUR_GOOGLE')) {
-      import('./app.js').then(m =>
-        m.showToast('Dodaj Google Client ID u config.json.', 'info', 5000)
+      signinBtn.addEventListener('click', () =>
+        import('./app.js').then(m =>
+          m.showToast('Dodaj Google Client ID u config.json.', 'info', 5000)
+        )
       );
-      return;
+    } else {
+      // Wait for GIS to load, then render the official button into the existing container
+      waitForGIS(() => {
+        window.google.accounts.id.initialize({
+          client_id:   clientId,
+          callback:    handleCredentialResponse,
+          auto_select: false,
+        });
+        // Replace custom button with rendered Google button
+        window.google.accounts.id.renderButton(signinBtn, {
+          theme: 'filled_black',
+          size:  'small',
+          shape: 'pill',
+          text:  'signin',
+          logo_alignment: 'left',
+        });
+      });
     }
-    triggerSignIn(clientId);
-  });
+  }
 
   document.getElementById('signout-btn')?.addEventListener('click', signOut);
   window.handleGoogleSignIn = handleCredentialResponse;
 }
 
-function triggerSignIn(clientId) {
-  if (!window.google?.accounts?.id) return;
-  window.google.accounts.id.initialize({
-    client_id: clientId,
-    callback:  handleCredentialResponse,
-    auto_select: false,
-  });
-  window.google.accounts.id.prompt();
+function waitForGIS(cb, attempts = 0) {
+  if (window.google?.accounts?.id) { cb(); return; }
+  if (attempts > 20) return; // give up after ~2s
+  setTimeout(() => waitForGIS(cb, attempts + 1), 100);
 }
 
 function handleCredentialResponse(response) {
