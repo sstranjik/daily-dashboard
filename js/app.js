@@ -68,6 +68,7 @@ async function initWeather(location) {
   const cached = cache.get(CACHE_KEY);
   if (cached) {
     renderWeather(cached, location);
+    updateTopbarForecast(cached);
     return;
   }
 
@@ -98,6 +99,7 @@ async function initWeather(location) {
     data._city  = city;
     cache.set(CACHE_KEY, data, CACHE_TTL);
     renderWeather(data, { ...location, _city: city });
+    updateTopbarForecast(data);
   } catch (err) {
     console.error('Weather fetch failed:', err);
     const el = document.getElementById('widget-weather');
@@ -108,6 +110,34 @@ async function initWeather(location) {
         <div class="error-state">⚠ Nije moguće dohvatiti podatke o vremenu.</div>`;
     }
   }
+}
+
+// ─── TOPBAR 7-DAY FORECAST ────────────────────────────────────────────────────
+function updateTopbarForecast(data) {
+  const el = document.getElementById('topbar-weather');
+  if (!el || !data?.daily) return;
+
+  const days      = data.daily;
+  const shortDays = ['Ned','Pon','Uto','Sri','Čet','Pet','Sub'];
+
+  const html = (days.time ?? []).slice(0, 7).map((dateStr, i) => {
+    const date    = new Date(dateStr + 'T12:00:00');
+    const isToday = i === 0;
+    const name    = isToday ? 'Danas' : shortDays[date.getDay()];
+    const icon    = weatherCodeToEmoji(days.weathercode[i]);
+    const temp    = Math.round(days.temperature_2m_max[i]);
+    const rain    = days.precipitation_probability_max?.[i] ?? 0;
+
+    return `
+      <div class="topbar-fc-day${isToday ? ' is-today' : ''}" title="${dateStr}: ${temp}°">
+        <span class="topbar-fc-name">${name}</span>
+        <span class="topbar-fc-icon">${icon}</span>
+        <span class="topbar-fc-temp">${temp}°</span>
+        ${rain >= 30 ? `<span class="topbar-fc-rain">${rain}%</span>` : ''}
+      </div>`;
+  }).join('');
+
+  el.innerHTML = html;
 }
 
 // ─── LAST UPDATE BADGE ────────────────────────────────────────────────────────

@@ -51,28 +51,42 @@ function renderTaskList(el, tasks) {
     return;
   }
 
-  const today = new Date();
-  today.setHours(0, 0, 0, 0);
+  const now   = new Date();
+  const today = new Date(now); today.setHours(0, 0, 0, 0);
 
+  // Sort: overdue first, then by due date ascending, undated last
   const sorted = [...tasks].sort((a, b) => {
     if (a.due && !b.due) return -1;
-    if (!a.due && b.due) return 1;
-    if (a.due && b.due) return new Date(a.due) - new Date(b.due);
+    if (!a.due && b.due) return  1;
+    if (a.due && b.due)  return new Date(a.due) - new Date(b.due);
     return 0;
   });
 
   const itemsHtml = sorted.map(task => {
+    // Notes snippet — max 150 chars
+    const notes = task.notes
+      ? task.notes.replace(/\s+/g, ' ').trim().slice(0, 150) + (task.notes.length > 150 ? '…' : '')
+      : null;
+
     let dueHtml = '';
     if (task.due) {
       const dueDate = new Date(task.due);
-      dueDate.setHours(0, 0, 0, 0);
-      const diff = Math.round((dueDate - today) / 86400000);
-      let cls  = '';
+      // Google Tasks always returns midnight UTC; convert to local
+      const dueMidnight = new Date(dueDate);
+      dueMidnight.setHours(0, 0, 0, 0);
+      const diff = Math.round((dueMidnight - today) / 86400000);
+
+      let cls   = '';
       let label = '';
-      if (diff < 0)      { cls = 'overdue'; label = `Zakašnjelo ${Math.abs(diff)}d`; }
+      if      (diff < 0)  { cls = 'overdue'; label = `Zakašnjelo ${Math.abs(diff)}d`; }
       else if (diff === 0) { cls = 'today';   label = 'Danas'; }
       else if (diff === 1) { label = 'Sutra'; }
-      else                 { label = dueDate.toLocaleDateString('hr-HR', { day:'numeric', month:'short' }); }
+      else if (diff <= 6)  { label = dueMidnight.toLocaleDateString('hr-HR', { weekday:'short', day:'numeric', month:'numeric' }); }
+      else                 { label = dueMidnight.toLocaleDateString('hr-HR', { day:'numeric', month:'short' }); }
+
+      // Show time if not midnight (some integrations populate it)
+      const h = dueDate.getHours(), m = dueDate.getMinutes();
+      const timeStr = (h || m) ? ` ${String(h).padStart(2,'0')}:${String(m).padStart(2,'0')}` : '';
 
       dueHtml = `
         <div class="task-meta">
@@ -81,7 +95,7 @@ function renderTaskList(el, tasks) {
               <rect x="0.5" y="1" width="8" height="7" rx="1" stroke="currentColor" stroke-width="0.9"/>
               <path d="M0.5 3.5h8M2.5 0.5v1.5M6.5 0.5v1.5" stroke="currentColor" stroke-width="0.9" stroke-linecap="round"/>
             </svg>
-            ${label}
+            ${label}${timeStr}
           </span>
         </div>`;
     }
@@ -91,6 +105,7 @@ function renderTaskList(el, tasks) {
         <input type="checkbox" class="task-check" aria-label="Završi zadatak">
         <div class="task-body">
           <div class="task-title">${escHtml(task.title || '(bez naslova)')}</div>
+          ${notes ? `<div class="task-notes">${escHtml(notes)}</div>` : ''}
           ${dueHtml}
         </div>
         <span class="task-edit-hint">uredi →</span>

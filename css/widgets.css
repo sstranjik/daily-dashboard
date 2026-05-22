@@ -707,6 +707,15 @@
 }
 .task-item.completed .task-title { text-decoration: line-through; opacity: 0.5; color: var(--text-muted); }
 
+.task-notes {
+  font-size: 11px;
+  color: var(--text-muted);
+  line-height: var(--lh-relaxed);
+  margin-top: 2px;
+  font-family: var(--font-body);
+  word-break: break-word;
+}
+
 .task-meta {
   display: flex;
   align-items: center;
