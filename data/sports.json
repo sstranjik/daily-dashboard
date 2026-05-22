@@ -1,17 +1,10 @@
 {
-  "last_updated": "2026-05-21T05:00:00.000Z",
+  "last_updated": "2026-05-22T07:49:32.271Z",
   "leagues": [
-    { "id": "hnl",  "name": "HNL" },
-    { "id": "nba",  "name": "NBA" },
-    { "id": "f1",   "name": "F1" },
-    { "id": "ucl",  "name": "UEFA" }
+    {
+      "id": "sport",
+      "name": "Sport"
+    }
   ],
-  "matches": [
-    { "league": "hnl",  "home": "Dinamo Zagreb",      "away": "Hajduk Split",    "score_home": 2,  "score_away": 1,  "status": "finished" },
-    { "league": "hnl",  "home": "Rijeka",              "away": "Osijek",          "score_home": 1,  "score_away": 1,  "status": "finished" },
-    { "league": "nba",  "home": "Boston Celtics",      "away": "LA Lakers",       "score_home": 112,"score_away": 108,"status": "finished" },
-    { "league": "nba",  "home": "Golden State Warriors","away": "Miami Heat",     "score_home": null,"score_away": null,"status": "upcoming", "time": "21:30" },
-    { "league": "f1",   "home": "Verstappen (Red Bull)","away": "Hamilton (Mercedes)","score_home": 25,"score_away": 18,"status": "finished" },
-    { "league": "ucl",  "home": "Real Madrid",         "away": "Bayern Munich",   "score_home": 2,  "score_away": 2,  "status": "finished" }
-  ]
+  "matches": []
 }

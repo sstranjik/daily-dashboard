@@ -1,36 +1,226 @@
 {
-  "last_updated": "2026-05-21T05:00:00.000Z",
-  "source_count": 3,
+  "last_updated": "2026-05-22T07:49:32.271Z",
+  "source_count": 4,
   "items": [
     {
-      "id": "hr-1",
-      "title": "Primjer hrvatske vijesti — naslovi se generiraju automatski svako jutro",
-      "summary": "Ovo je demo vijest. Kad postaviš GitHub Actions workflow, ovdje će se prikazivati stvarne vijesti iz Index.hr, N1, Jutarnjeg i Tportala.",
-      "link": "https://index.hr",
-      "published": "2026-05-21T04:30:00.000Z",
+      "id": "jutarnji-0",
+      "title": "Akcija obišla istarsku županiju: građane iznenadile visoke kazne i obveza vraćanja cjelokupno isplaćenog iznosa štete",
+      "summary": "S ciljem podizanja svijest o važnosti osiguranja i registracije motornih vozila, u organizaciji Hrvatskog ureda za osiguranje (HUO), Ministarstva unutarnjih poslova RH te Ravnateljstva policije u travnju i svibnju su u Puli, Pazinu, Poreču i Buzetu održane edukativno-preventivne akcije u sklopu kamp",
+      "link": "https://www.jutarnji.hr/promo/akcija-obisla-istarsku-zupaniju-gradane-iznenadile-visoke-kazne-i-obveza-vracanja-cjelokupno-isplacenog-iznosa-stete-15710874",
+      "published": "2026-05-22T07:47:30.000Z",
+      "source": "Jutarnji",
+      "category": "general",
+      "tags": [],
+      "image": "https://media.jutarnji.hr/images/slike/2026/05/19/f_38970925_1280.jpg?1779436075"
+    },
+    {
+      "id": "n1-info-0",
+      "title": "Vraćaju su se omražene sandale iz Jugoslavije, bit će hit ovog ljeta",
+      "summary": "Posljednjih godina moda uporno kopa po prošlosti, ali malo koji povratak izaziva toliko podijeljenih reakcija kao plastične sandale iz 1970-ih i 1980-",
+      "link": "https://n1info.hr/magazin/lifestyle/vracaju-su-se-omrazene-sandale-iz-jugoslavije-bit-ce-hit-ovog-ljeta/",
+      "published": "2026-05-22T07:40:38.000Z",
+      "source": "N1 Info",
+      "category": "general",
+      "tags": [],
+      "image": "https://n1info.hr/media/images/2026/5/22/1779433961_haberdoedas-vjvXC4xnOYY-unsplash.width-1200.jpg"
+    },
+    {
+      "id": "tportal-0",
+      "title": "Putujete u BiH ili iz nje? Evo zašto se na novom prijelazu više ne stvaraju gužve",
+      "summary": "Puknuće i zatvaranje starog mosta preko Save izazvalo je prometni kolaps, no samo 18 sati kasnije uslijedio je preokret.",
+      "link": "https://www.tportal.hr/vijesti/clanak/putujete-u-bih-ili-iz-nje-evo-zasto-se-na-novom-prijelazu-vise-ne-stvaraju-guzve-foto-20260522",
+      "published": "2026-05-22T07:40:00.000Z",
+      "source": "Tportal",
+      "category": "general",
+      "tags": [],
+      "image": null
+    },
+    {
+      "id": "jutarnji-1",
+      "title": "Splitovom treneru uoči prve polufinalne utakmice stigla sjajna vijest, može bez ograničenja voditi momčad",
+      "summary": "Miodrag Rajković (55) je na klupi Splita naslijedio Dina Repešu tamo sredinom ožujka, prije nešto više od dva mjeseca. Pritom, utakmice ABA lige vodio je bez ikakvih ograničenja, a što nije bio slučaj s domaćim prvenstvom. Tu je uz aut liniju bio Ante Marović jer srpski stručnjak nikako nije mogao i",
+      "link": "https://www.jutarnji.hr/sportske/kosarka/hrvatska-liga/rajkovic-sluzbeno-vodi-split-protiv-cibone-radna-dozvola-priznate-diplome-15710870",
+      "published": "2026-05-22T07:39:53.000Z",
+      "source": "Jutarnji",
+      "category": "general",
+      "tags": [],
+      "image": "https://media.jutarnji.hr/images/slike/2026/05/22/f_38909807_1280.jpg?1779436075"
+    },
+    {
+      "id": "index.hr-0",
+      "title": "Na veliki ruski forum prvi put nakon dugo vremena dolazi Amerikanac, Trumpov čovjek",
+      "summary": "AMERIČKI dužnosnik, Trumpov čovjek, prvi put nakon dugo vremena sudjeluje na ekonomskom forumu u Sankt-Peterburgu.",
+      "link": "https://www.index.hr/vijesti/clanak/na-veliki-ruski-forum-prvi-put-nakon-dugo-vremena-dolazi-amerikanac-trumpov-covjek/2794837.aspx",
+      "published": "2026-05-22T07:39:00.000Z",
       "source": "Index.hr",
       "category": "general",
-      "tags": ["demo"]
+      "tags": [],
+      "image": null
     },
     {
-      "id": "hr-2",
-      "title": "Druga demo vijest — RSS feedovi se parsiraju i pohranjuju u JSON",
-      "summary": "GitHub Actions pokreće Node.js skriptu svako jutro u 5:00 UTC, dohvaća RSS feedove, filtrira duplikate i sprema rezultate.",
-      "link": "https://n1info.hr",
-      "published": "2026-05-21T03:15:00.000Z",
-      "source": "N1 Info",
-      "category": "tech",
-      "tags": ["tech", "automation"]
-    },
-    {
-      "id": "hr-3",
-      "title": "Treća demo vijest — bez serverske infrastrukture",
-      "summary": "Sve radi statički — nema baze podataka, nema servera. Samo GitHub Pages i GitHub Actions.",
-      "link": "https://www.tportal.hr",
-      "published": "2026-05-21T02:00:00.000Z",
+      "id": "tportal-1",
+      "title": "Otkrivena obiteljska priča Jakova Jozinovića: Stric mu je bivši nogometaš i trener",
+      "summary": "O mladom slavonskom fenomenu ne prestaje se pričati - gdje god se pojavi, Jakov Jozinović puni dvorane i arene, a ulaznice za njegove koncerte u minuti planu. No, mnogi tek sada otkrivaju da talentirani pjevač dolazi iz sportske obitelji i da mu je stric proslavljeni bivši nogometaš i danas cijenjen",
+      "link": "https://www.tportal.hr/showtime/clanak/otkrivena-obiteljska-prica-jakova-jozinovica-stric-mu-je-bivsi-nogometas-i-trener-foto-20260522",
+      "published": "2026-05-22T07:38:00.000Z",
       "source": "Tportal",
-      "category": "ekonomija",
-      "tags": ["ekonomija"]
+      "category": "general",
+      "tags": [],
+      "image": null
+    },
+    {
+      "id": "n1-info-1",
+      "title": "Vraća se legendarni Spaček! Objavljena je i prva fotografija",
+      "summary": "Citroën neće biti jedini koji koketira s retro valom. Fiat će koristiti istu platformu za oživljavanje svog kultnog automobila: originalne kutijaste P",
+      "link": "https://n1info.hr/magazin/auto/vraca-se-legendarni-spacek-objavljena-je-i-prva-fotografija/",
+      "published": "2026-05-22T07:32:25.000Z",
+      "source": "N1 Info",
+      "category": "general",
+      "tags": [],
+      "image": "https://n1info.hr/media/images/2026/5/22/1779434782_Spacek_Unsplash.width-1200.jpg"
+    },
+    {
+      "id": "index.hr-1",
+      "title": "Dan kada je u kina stigao akcijski film koji prkosi zakonima fizike i očekivanjima",
+      "summary": "22. SVIBNJA 1996. godine, svjetsku premijeru imao je film Nemoguća misija.",
+      "link": "https://www.index.hr/chill/clanak/dan-kada-je-u-kina-stigao-akcijski-film-koji-prkosi-zakonima-fizike-i-ocekivanjima/2673092.aspx",
+      "published": "2026-05-22T07:30:36.000Z",
+      "source": "Index.hr",
+      "category": "general",
+      "tags": [],
+      "image": null
+    },
+    {
+      "id": "jutarnji-2",
+      "title": "Dugoročna ulaganja doprinose financijskoj snazi i stabilnosti ulagatelja",
+      "summary": "Priznanja Top of the Funds dodijeljena HPB Investu naglašavaju značaj kvalitete upravljanja investicijskim fondovima kao obliku ulaganja HPB Invest je drugu godinu zaredom osvojio nagrade Udruženja društava za upravljanje investicijskim i mirovinskim fondovima HGK-a za HPB Obveznički fond, kao najbo",
+      "link": "https://www.jutarnji.hr/promo/dugorocna-ulaganja-doprinose-financijskoj-snazi-i-stabilnosti-ulagatelja-15710868",
+      "published": "2026-05-22T07:29:28.000Z",
+      "source": "Jutarnji",
+      "category": "general",
+      "tags": [],
+      "image": "https://media.jutarnji.hr/images/slike/2026/05/21/f_38964483_1280.jpg?1779436075"
+    },
+    {
+      "id": "n1-info-2",
+      "title": "N1 komentar: Nema moralne odgovornosti ministra",
+      "summary": "Donosimo jutarnju analizu našeg Andreja Dimitrijevića.",
+      "link": "https://n1info.hr/n1-komentar/n1-komentar-nema-moralne-odgovornosti-ministra/",
+      "published": "2026-05-22T07:28:58.000Z",
+      "source": "N1 Info",
+      "category": "general",
+      "tags": [],
+      "image": "https://n1info.hr/media/images/2026/4/17/1776411228_dgfrdrr.width-1200.jpg"
+    },
+    {
+      "id": "jutarnji-3",
+      "title": "VIDEO Yamal u javnosti s novom djevojkom, otkrila kako mu je ukrala srce: ‘Nisam znala da je nogometaš‘",
+      "summary": "Barcelonina nogometna zvijezda Lamine Yamal posljednjih je dana ponovno počeo puniti naslovnice španjolskih medija, ali ovog puta u centru pozornosti bio je njegov privatni život. Mladi as katalonskog velikana već neko vrijeme uživa u vezi s influencericom Ines Garcijom, a nedavno je par zajedno viđ",
+      "link": "https://www.jutarnji.hr/sportske/nogomet/ines-garcia-otkriva-romansu-s-lamineom-yamalom-od-kase-do-barcelone-15710865",
+      "published": "2026-05-22T07:28:54.000Z",
+      "source": "Jutarnji",
+      "category": "general",
+      "tags": [],
+      "image": "https://media.jutarnji.hr/images/slike/2026/05/22/f_38970743_1280.png?1779436075"
+    },
+    {
+      "id": "n1-info-3",
+      "title": "Krajač za N1: Mateša je ovlastio Sandu Čorak da vodi HOO do izbora nasljednika",
+      "summary": "Siniša Krajač, glavni tajnik Hrvatskog olimpijskog odbora, komentirao je za N1 ostavku Zlatka Mateše te koji su idući koraci u Olimpijskom odboru.",
+      "link": "https://n1info.hr/vijesti/krajac-za-n1-novom-cu-predsjedniku-dati-mandat-na-raspolaganje-ako-ce-moje-mjesto-biti-upitno-nije-nikakav-problem/",
+      "published": "2026-05-22T07:28:39.000Z",
+      "source": "N1 Info",
+      "category": "general",
+      "tags": [],
+      "image": "https://n1info.hr/media/images/2026/5/22/1779434749_Snimka_zaslona_2026-05-22_092337.width-1200.png"
+    },
+    {
+      "id": "tportal-2",
+      "title": "Dinamo za zvijezdu dobio četiri ponude, jedna je iz Premiershipa: &#039;Možda je i 15 milijuna eura premalo&#039;",
+      "summary": "Dinamo bi ovog ljeta mogao prodati Sergija Domingueza, 21-godišnjeg stopera.",
+      "link": "https://www.tportal.hr/sport/clanak/dinamo-za-zvijezdu-dobio-cetiri-ponude-jedna-je-iz-premiershipa-mozda-je-i-15-milijuna-eura-premalo-20260522",
+      "published": "2026-05-22T07:28:00.000Z",
+      "source": "Tportal",
+      "category": "sport",
+      "tags": [],
+      "image": null
+    },
+    {
+      "id": "index.hr-2",
+      "title": "SAD nudi 10 milijuna dolara za informacije o financijama Hezbollaha",
+      "summary": "AMERIČKI State Department nudi nagradu do 10 milijuna dolara za informacije o financijskim mrežama Hezbolaha, nakon što je uveo niz sankcija protiv pojedinaca i subjekata povezanih s tom skupinom.",
+      "link": "https://www.index.hr/vijesti/clanak/sad-nudi-10-milijuna-dolara-za-informacije-o-financijama-hezbollaha/2794828.aspx",
+      "published": "2026-05-22T07:27:00.000Z",
+      "source": "Index.hr",
+      "category": "general",
+      "tags": [],
+      "image": null
+    },
+    {
+      "id": "jutarnji-4",
+      "title": "Ovo ljudsko stanje tjeskobe proizlazi, između ostaloga, iz svijesti o smrti i o uzaludnosti ljudskih napora",
+      "summary": "Jagor Bučan, slikar i teoretičar umjetnosti, smatra da je ono što bi nas trebalo najviše zanimati, što je od ključne važnosti za čovjekovu spoznaju svijeta i sebe - fenomen rupe. To mišljenje elaborira i potkrepljuje u eseju \"Pohvala rupi\", koji je nedavno izašao u izdanju Frakture. Izlaganje počinj",
+      "link": "https://www.jutarnji.hr/kultura/art/ovo-ljudsko-stanje-tjeskobe-proizlazi-izmedu-ostaloga-iz-svijesti-o-smrti-i-o-uzaludnosti-ljudskih-napora-15710864",
+      "published": "2026-05-22T07:26:55.000Z",
+      "source": "Jutarnji",
+      "category": "general",
+      "tags": [],
+      "image": "https://media.jutarnji.hr/images/slike/2026/05/07/f_38870647_1280.jpg?1779436075"
+    },
+    {
+      "id": "index.hr-3",
+      "title": "Kyiv Independent: Još jedna država ulazi u rat protiv Ukrajine?",
+      "summary": "ANALIZA mogućnosti ulaska Bjelorusije u rat na strani Rusije. Razmatraju se scenariji invazije, slabosti bjeloruske vojske i mogući odgovori Zapada na novu prijetnju sa sjevera Ukrajine.",
+      "link": "https://www.index.hr/vijesti/clanak/kyiv-independent-jos-jedna-drzava-ulazi-u-rat-protiv-ukrajine/2794829.aspx",
+      "published": "2026-05-22T07:25:00.000Z",
+      "source": "Index.hr",
+      "category": "general",
+      "tags": [],
+      "image": null
+    },
+    {
+      "id": "index.hr-4",
+      "title": "VIDEO Maturanti u Vrgorcu okrenuli janje ispred škole",
+      "summary": "SIGURNO neće biti gladni.",
+      "link": "https://www.index.hr/magazin/clanak/video-maturanti-u-vrgorcu-okrenuli-janje-ispred-skole/2794827.aspx",
+      "published": "2026-05-22T07:24:00.000Z",
+      "source": "Index.hr",
+      "category": "general",
+      "tags": [],
+      "image": null
+    },
+    {
+      "id": "index.hr-5",
+      "title": "Dončiću dolazi superzvijezda NBA lige?",
+      "summary": "LA LAKERSI bi mogli dovesti još jedno jako ime.",
+      "link": "https://www.index.hr/sport/clanak/doncicu-dolazi-superzvijezda-nba-lige/2794825.aspx",
+      "published": "2026-05-22T07:22:00.000Z",
+      "source": "Index.hr",
+      "category": "sport",
+      "tags": [],
+      "image": null
+    },
+    {
+      "id": "tportal-3",
+      "title": "Kolinda Grabar-Kitarović: Slažem se s Trumpom, švercali smo se",
+      "summary": "Bivša predsjednica Kolinda Grabar-Kitarović za RTL Danas komentirala je situaciju na Baltiku i optužbe iz Rusije",
+      "link": "https://www.tportal.hr/vijesti/clanak/grabar-kitarovic-slazem-se-s-trumpom-svercali-smo-se-20260522",
+      "published": "2026-05-22T07:21:00.000Z",
+      "source": "Tportal",
+      "category": "general",
+      "tags": [],
+      "image": null
+    },
+    {
+      "id": "n1-info-4",
+      "title": "Bijes zbog izbijanja nove epidemije: Stanovnici zapalili centar za liječenje",
+      "summary": "Ljudi su u četvrtak zapalili centar za liječenje ebole u gradu u središtu izbijanja zaraze na istoku Konga nakon što su spriječeni da preuzmu tijelo l",
+      "link": "https://n1info.hr/svijet/bijes-zbog-izbijanja-nove-epidemije-stanovnici-zapalili-centar-za-lijecenje/",
+      "published": "2026-05-22T07:18:55.000Z",
+      "source": "N1 Info",
+      "category": "general",
+      "tags": [],
+      "image": "https://n1info.hr/media/images/2026/5/22/1779434233_Congo_REUTERS_22.5.2026..width-1200.JPG"
     }
   ]
 }

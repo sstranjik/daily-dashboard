@@ -1,11 +1,31 @@
 {
-  "last_updated": "2026-05-21T05:00:00.000Z",
+  "last_updated": "2026-05-22T07:49:32.271Z",
   "generator": "dashboard-bot/1.0",
   "sources": {
-    "hr_news":   { "updated_at": "2026-05-21T05:00:00.000Z", "item_count": 3, "ok": true },
-    "tech_news": { "updated_at": "2026-05-21T05:00:00.000Z", "item_count": 3, "ok": true },
-    "science":   { "updated_at": "2026-05-21T05:00:00.000Z", "item_count": 2, "ok": true },
-    "sports":    { "updated_at": "2026-05-21T05:00:00.000Z", "item_count": 6, "ok": true },
-    "briefing":  { "updated_at": "2026-05-21T05:00:00.000Z", "ok": true, "ai_used": false }
+    "hr_news": {
+      "updated_at": "2026-05-22T07:49:32.271Z",
+      "item_count": 80,
+      "ok": true
+    },
+    "tech_news": {
+      "updated_at": "2026-05-22T07:49:32.271Z",
+      "item_count": 36,
+      "ok": true
+    },
+    "science": {
+      "updated_at": "2026-05-22T07:49:32.271Z",
+      "item_count": 50,
+      "ok": true
+    },
+    "sports": {
+      "updated_at": "2026-05-22T07:49:32.271Z",
+      "item_count": 0,
+      "ok": true
+    },
+    "briefing": {
+      "updated_at": "2026-05-22T07:49:35.842Z",
+      "ok": true,
+      "ai_used": false
+    }
   }
 }
