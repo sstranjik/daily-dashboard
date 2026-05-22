@@ -1,10 +1,12 @@
-import { getAccessToken, fetchTaskLists, fetchTasks, updateTask } from '../api/google-api.js';
+import { getAccessToken, fetchTaskLists, fetchTasks, updateTask, createTask } from '../api/google-api.js';
 import { requestApiAccess } from '../auth.js';
+import { showToast } from '../app.js';
 
 let _listId    = '@default';
-let _tasks     = [];
+let _allTasks  = [];          // all tasks incl. subtasks and completed
 let _appConfig = null;
 
+// ─── ENTRY POINT ──────────────────────────────────────────────────────────────
 export async function renderTasks(config) {
   _appConfig = config;
   const el = document.getElementById('widget-tasks');
@@ -12,33 +14,30 @@ export async function renderTasks(config) {
   el.classList.remove('loading');
 
   const token = getAccessToken();
-  if (!token) {
-    showConnectPrompt(el, config);
-    return;
-  }
+  if (!token) { showConnectPrompt(el, config); return; }
 
   el.innerHTML = headerHtml() + skeletonHtml();
 
   try {
-    // Try to get first task list id
     try {
       const lists = await fetchTaskLists(token);
       if (lists.items?.length) _listId = lists.items[0].id;
     } catch { /* keep @default */ }
 
-    const data = await fetchTasks(token, _listId);
-    _tasks = (data.items ?? []).filter(t => t.status !== 'completed');
-    renderTaskList(el, _tasks);
+    const data  = await fetchTasks(token, _listId);
+    _allTasks   = data.items ?? [];
+
+    // Root tasks that are not completed
+    const rootTasks = _allTasks.filter(t => !t.parent && t.status !== 'completed');
+    renderTaskList(el, rootTasks);
   } catch (err) {
     console.error('Tasks fetch failed:', err);
-    if (err.message?.includes('401')) {
-      showConnectPrompt(el, config);
-    } else {
-      el.innerHTML = headerHtml() + `<div class="error-state">⚠ Greška pri dohvaćanju taskova.</div>`;
-    }
+    if (err.message?.includes('401')) showConnectPrompt(el, config);
+    else el.innerHTML = headerHtml() + `<div class="error-state">⚠ Greška pri dohvaćanju taskova.</div>`;
   }
 }
 
+// ─── RENDER LIST ──────────────────────────────────────────────────────────────
 function renderTaskList(el, tasks) {
   if (!tasks.length) {
     el.innerHTML = `
@@ -51,42 +50,36 @@ function renderTaskList(el, tasks) {
     return;
   }
 
-  const now   = new Date();
-  const today = new Date(now); today.setHours(0, 0, 0, 0);
+  const today = localMidnight(new Date());
 
-  // Sort: overdue first, then by due date ascending, undated last
   const sorted = [...tasks].sort((a, b) => {
     if (a.due && !b.due) return -1;
     if (!a.due && b.due) return  1;
-    if (a.due && b.due)  return new Date(a.due) - new Date(b.due);
+    if (a.due && b.due)  return parseDueDate(a.due) - parseDueDate(b.due);
     return 0;
   });
 
   const itemsHtml = sorted.map(task => {
-    // Notes snippet — max 150 chars
-    const notes = task.notes
-      ? task.notes.replace(/\s+/g, ' ').trim().slice(0, 150) + (task.notes.length > 150 ? '…' : '')
-      : null;
+    const subtaskCount = _allTasks.filter(t => t.parent === task.id && t.status !== 'completed').length;
+    const subtaskDone  = _allTasks.filter(t => t.parent === task.id && t.status === 'completed').length;
+    const subtaskTotal = subtaskCount + subtaskDone;
 
+    // Notes — single line, truncated by CSS
+    const notesHtml = task.notes
+      ? `<div class="task-notes">${escHtml(task.notes.replace(/\s+/g, ' ').trim())}</div>`
+      : '';
+
+    // Due date — date only, no time (Google Tasks is date-only)
     let dueHtml = '';
     if (task.due) {
-      const dueDate = new Date(task.due);
-      // Google Tasks always returns midnight UTC; convert to local
-      const dueMidnight = new Date(dueDate);
-      dueMidnight.setHours(0, 0, 0, 0);
-      const diff = Math.round((dueMidnight - today) / 86400000);
-
-      let cls   = '';
-      let label = '';
+      const due  = parseDueDate(task.due);
+      const diff = Math.round((due - today) / 86400000);
+      let cls = '', label = '';
       if      (diff < 0)  { cls = 'overdue'; label = `Zakašnjelo ${Math.abs(diff)}d`; }
       else if (diff === 0) { cls = 'today';   label = 'Danas'; }
       else if (diff === 1) { label = 'Sutra'; }
-      else if (diff <= 6)  { label = dueMidnight.toLocaleDateString('hr-HR', { weekday:'short', day:'numeric', month:'numeric' }); }
-      else                 { label = dueMidnight.toLocaleDateString('hr-HR', { day:'numeric', month:'short' }); }
-
-      // Show time if not midnight (some integrations populate it)
-      const h = dueDate.getHours(), m = dueDate.getMinutes();
-      const timeStr = (h || m) ? ` ${String(h).padStart(2,'0')}:${String(m).padStart(2,'0')}` : '';
+      else if (diff <= 6)  { label = due.toLocaleDateString('hr-HR', { weekday: 'short', day: 'numeric', month: 'numeric' }); }
+      else                 { label = due.toLocaleDateString('hr-HR', { day: 'numeric', month: 'short' }); }
 
       dueHtml = `
         <div class="task-meta">
@@ -95,8 +88,14 @@ function renderTaskList(el, tasks) {
               <rect x="0.5" y="1" width="8" height="7" rx="1" stroke="currentColor" stroke-width="0.9"/>
               <path d="M0.5 3.5h8M2.5 0.5v1.5M6.5 0.5v1.5" stroke="currentColor" stroke-width="0.9" stroke-linecap="round"/>
             </svg>
-            ${label}${timeStr}
+            ${label}
           </span>
+          ${subtaskTotal ? `<span class="task-subtask-badge">${subtaskDone}/${subtaskTotal}</span>` : ''}
+        </div>`;
+    } else if (subtaskTotal) {
+      dueHtml = `
+        <div class="task-meta">
+          <span class="task-subtask-badge">${subtaskDone}/${subtaskTotal}</span>
         </div>`;
     }
 
@@ -105,7 +104,7 @@ function renderTaskList(el, tasks) {
         <input type="checkbox" class="task-check" aria-label="Završi zadatak">
         <div class="task-body">
           <div class="task-title">${escHtml(task.title || '(bez naslova)')}</div>
-          ${notes ? `<div class="task-notes">${escHtml(notes)}</div>` : ''}
+          ${notesHtml}
           ${dueHtml}
         </div>
         <span class="task-edit-hint">uredi →</span>
@@ -125,20 +124,18 @@ function renderTaskList(el, tasks) {
   attachTaskHandlers(el, sorted);
 }
 
+// ─── EVENT HANDLERS ───────────────────────────────────────────────────────────
 function attachTaskHandlers(el, tasks) {
-  // Click task row → open modal
   el.querySelectorAll('.task-item').forEach(row => {
-    row.addEventListener('click', (e) => {
+    row.addEventListener('click', e => {
       if (e.target.classList.contains('task-check')) return;
-      const taskId = row.dataset.taskId;
-      const task   = tasks.find(t => t.id === taskId);
+      const task = tasks.find(t => t.id === row.dataset.taskId);
       if (task) openTaskModal(task);
     });
   });
 
-  // Checkbox → complete task
   el.querySelectorAll('.task-check').forEach(chk => {
-    chk.addEventListener('change', async (e) => {
+    chk.addEventListener('change', async e => {
       e.stopPropagation();
       const row    = chk.closest('.task-item');
       const taskId = row.dataset.taskId;
@@ -165,33 +162,34 @@ function attachTaskHandlers(el, tasks) {
   });
 }
 
+// ─── TASK MODAL ───────────────────────────────────────────────────────────────
 function openTaskModal(task) {
   const modal   = document.getElementById('task-modal');
   const overlay = document.getElementById('task-modal-overlay');
   if (!modal) return;
 
-  // Fill fields
   const titleEl = document.getElementById('task-edit-title');
   const dateEl  = document.getElementById('task-edit-date');
-  const timeEl  = document.getElementById('task-edit-time');
   const notesEl = document.getElementById('task-edit-notes');
+
+  // Hide the unused time row
+  const timeRow = dateEl?.closest('.modal-row');
+  if (timeRow) {
+    const timeField = document.getElementById('task-edit-time')?.closest('.modal-field');
+    if (timeField) timeField.style.display = 'none';
+  }
 
   if (titleEl) titleEl.value = task.title || '';
   if (notesEl) notesEl.value = task.notes || '';
+  if (dateEl)  dateEl.value  = task.due ? task.due.slice(0, 10) : '';
 
-  if (task.due) {
-    const d = new Date(task.due);
-    if (dateEl) dateEl.value = d.toISOString().slice(0, 10);
-  } else {
-    if (dateEl) dateEl.value = '';
-  }
-  if (timeEl) timeEl.value = '';
+  // Render subtasks section
+  renderSubtasksInModal(modal, task);
 
   modal.classList.remove('hidden');
   overlay.classList.remove('hidden');
   titleEl?.focus();
 
-  // Save handler
   const saveBtn   = document.getElementById('task-modal-save');
   const cancelBtn = document.getElementById('task-modal-cancel');
   const closeBtn  = document.getElementById('task-modal-close');
@@ -207,11 +205,11 @@ function openTaskModal(task) {
 
   const onSave = async () => {
     const updates = { title: titleEl?.value?.trim() || task.title };
-    if (notesEl?.value) updates.notes = notesEl.value;
-
+    if (notesEl?.value !== undefined) updates.notes = notesEl.value;
     if (dateEl?.value) {
-      const dueDate = new Date(dateEl.value + 'T00:00:00Z');
-      updates.due = dueDate.toISOString();
+      updates.due = dateEl.value + 'T00:00:00.000Z';
+    } else {
+      updates.due = null;
     }
 
     const token = getAccessToken();
@@ -220,12 +218,11 @@ function openTaskModal(task) {
     try {
       await updateTask(token, _listId, task.id, updates);
       cleanup();
-      // Refresh widget
-      const el = document.getElementById('widget-tasks');
-      if (el) renderTasks(_appConfig);
+      renderTasks(_appConfig);
+      showToast('Zadatak spremljen', 'success');
     } catch (err) {
       console.error('Task save failed:', err);
-      import('../app.js').then(m => m.showToast('Greška pri spremanju.', 'error'));
+      showToast('Greška pri spremanju.', 'error');
     }
   };
 
@@ -235,6 +232,106 @@ function openTaskModal(task) {
   overlay?.addEventListener('click', cleanup);
 }
 
+function renderSubtasksInModal(modal, task) {
+  // Remove existing subtasks section if any
+  modal.querySelector('.task-modal-subtasks')?.remove();
+
+  const subtasks = _allTasks.filter(t => t.parent === task.id);
+  const modalBody = modal.querySelector('.modal-body');
+  if (!modalBody) return;
+
+  const section = document.createElement('div');
+  section.className = 'task-modal-subtasks';
+
+  const itemsHtml = subtasks.map(sub => `
+    <div class="task-subtask-row" data-subtask-id="${escHtml(sub.id)}">
+      <input type="checkbox" class="task-check subtask-modal-check"
+             ${sub.status === 'completed' ? 'checked' : ''}
+             aria-label="${escHtml(sub.title)}">
+      <span class="task-subtask-title${sub.status === 'completed' ? ' done' : ''}">${escHtml(sub.title || '')}</span>
+    </div>`).join('');
+
+  section.innerHTML = `
+    <div class="modal-label" style="margin-top:var(--sp-3);margin-bottom:6px">
+      Podzadaci${subtasks.length ? ` <span style="color:var(--text-muted);font-weight:400">(${subtasks.filter(s=>s.status==='completed').length}/${subtasks.length})</span>` : ''}
+    </div>
+    <div class="task-subtask-list">${itemsHtml}</div>
+    <div style="display:flex;gap:var(--sp-2);margin-top:6px">
+      <input type="text" class="modal-input" id="new-subtask-input"
+             placeholder="Novi podzadatak…" style="flex:1;font-size:12px">
+      <button class="btn-secondary" id="add-subtask-btn" style="font-size:12px;padding:6px 12px;white-space:nowrap">+ Dodaj</button>
+    </div>`;
+
+  modalBody.appendChild(section);
+
+  // Wire up subtask checkboxes
+  section.querySelectorAll('.subtask-modal-check').forEach(chk => {
+    chk.addEventListener('change', async () => {
+      const row      = chk.closest('.task-subtask-row');
+      const subtaskId = row.dataset.subtaskId;
+      const titleEl  = row.querySelector('.task-subtask-title');
+      const token    = getAccessToken();
+      if (!token) return;
+      try {
+        const newStatus = chk.checked ? 'completed' : 'needsAction';
+        await updateTask(token, _listId, subtaskId, { status: newStatus });
+        // Update local cache
+        const sub = _allTasks.find(t => t.id === subtaskId);
+        if (sub) sub.status = newStatus;
+        titleEl?.classList.toggle('done', chk.checked);
+        // Update badge in list without full re-render
+        updateSubtaskBadge(task.id);
+      } catch (err) {
+        console.error('Subtask toggle failed:', err);
+        chk.checked = !chk.checked;
+      }
+    });
+  });
+
+  // Add subtask
+  section.querySelector('#add-subtask-btn')?.addEventListener('click', async () => {
+    const input = section.querySelector('#new-subtask-input');
+    const title = input?.value?.trim();
+    if (!title) return;
+    const token = getAccessToken();
+    if (!token) return;
+    try {
+      const newSub = await createTask(token, _listId, { title, parent: task.id });
+      _allTasks.push(newSub);
+      input.value = '';
+      // Re-render subtasks section
+      renderSubtasksInModal(modal, task);
+      updateSubtaskBadge(task.id);
+      showToast('Podzadatak dodan', 'success');
+    } catch (err) {
+      console.error('Create subtask failed:', err);
+      showToast('Greška pri dodavanju podzadatka.', 'error');
+    }
+  });
+}
+
+function updateSubtaskBadge(parentId) {
+  const row = document.querySelector(`[data-task-id="${CSS.escape(parentId)}"]`);
+  if (!row) return;
+  const subs  = _allTasks.filter(t => t.parent === parentId);
+  const done  = subs.filter(t => t.status === 'completed').length;
+  const total = subs.length;
+  let badge = row.querySelector('.task-subtask-badge');
+  if (!badge && total) {
+    const meta = row.querySelector('.task-meta') ?? (() => {
+      const m = document.createElement('div');
+      m.className = 'task-meta';
+      row.querySelector('.task-body')?.appendChild(m);
+      return m;
+    })();
+    badge = document.createElement('span');
+    badge.className = 'task-subtask-badge';
+    meta.appendChild(badge);
+  }
+  if (badge) badge.textContent = `${done}/${total}`;
+}
+
+// ─── CONNECT PROMPT ───────────────────────────────────────────────────────────
 function showConnectPrompt(el, config) {
   el.innerHTML = `
     ${headerHtml()}
@@ -244,14 +341,26 @@ function showConnectPrompt(el, config) {
       <div class="connect-prompt-desc">Prikaži i uređuj svoje Google zadatke s podsjetnicima.</div>
       <button class="btn-connect" id="tasks-connect-btn">Poveži</button>
     </div>`;
-
   el.querySelector('#tasks-connect-btn')?.addEventListener('click', () => {
-    requestApiAccess(config, async () => {
-      await renderTasks(config);
-    });
+    requestApiAccess(config, async () => { await renderTasks(config); });
   });
 }
 
+// ─── DATE HELPERS ─────────────────────────────────────────────────────────────
+/** Parse Google Tasks due date (always UTC midnight) as local date */
+function parseDueDate(due) {
+  const s = due.slice(0, 10); // "2026-05-22"
+  const [y, m, d] = s.split('-').map(Number);
+  return new Date(y, m - 1, d); // local midnight — no timezone offset
+}
+
+function localMidnight(date) {
+  const d = new Date(date);
+  d.setHours(0, 0, 0, 0);
+  return d;
+}
+
+// ─── HTML HELPERS ─────────────────────────────────────────────────────────────
 function headerHtml() {
   return `
     <div class="widget-header">

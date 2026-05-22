@@ -656,7 +656,7 @@
 
 .task-item {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   gap: var(--sp-2);
   padding: 7px 8px;
   border-radius: var(--r-md);
@@ -709,10 +709,57 @@
 .task-notes {
   font-size: 11px;
   color: var(--text-muted);
-  line-height: var(--lh-relaxed);
+  line-height: var(--lh-tight);
   margin-top: 2px;
   font-family: var(--font-body);
-  word-break: break-word;
+  /* Single-line truncation */
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.task-check { margin-top: 2px; } /* align checkbox to first row */
+
+.task-subtask-badge {
+  font-family: var(--font-mono);
+  font-size: 9px;
+  color: var(--text-muted);
+  background: var(--bg-tertiary);
+  border: 1px solid var(--border-faint);
+  border-radius: var(--r-sm);
+  padding: 1px 5px;
+}
+
+/* ─── TASK MODAL SUBTASKS ──────────────────────────────────────────────────── */
+.task-modal-subtasks { }
+
+.task-subtask-list {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  margin-bottom: 6px;
+}
+
+.task-subtask-row {
+  display: flex;
+  align-items: center;
+  gap: var(--sp-2);
+  padding: 5px 8px;
+  border-radius: var(--r-md);
+  transition: background var(--dur);
+}
+.task-subtask-row:hover { background: var(--bg-tertiary); }
+
+.task-subtask-title {
+  font-size: var(--text-sm);
+  color: var(--text-primary);
+  font-family: var(--font-body);
+  flex: 1;
+}
+.task-subtask-title.done {
+  text-decoration: line-through;
+  color: var(--text-muted);
+  opacity: 0.6;
 }
 
 .task-meta {

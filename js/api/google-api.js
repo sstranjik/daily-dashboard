@@ -52,14 +52,29 @@ export async function fetchTaskLists(token) {
 
 export async function fetchTasks(token, listId = '@default') {
   const params = new URLSearchParams({
-    showCompleted: 'false',
-    maxResults:    '50',
+    showCompleted: 'true',   // fetch all incl. subtasks (we filter in JS)
+    maxResults:    '100',
     showHidden:    'false',
   });
   const res = await fetch(`${TASKS_API}/lists/${encodeURIComponent(listId)}/tasks?${params}`, {
     headers: { Authorization: `Bearer ${token}` },
   });
   if (!res.ok) throw new Error(`Tasks API ${res.status}`);
+  return res.json();
+}
+
+export async function createTask(token, listId, taskData) {
+  const params = new URLSearchParams();
+  if (taskData.parent) params.set('parent', taskData.parent);
+  const res = await fetch(
+    `${TASKS_API}/lists/${encodeURIComponent(listId)}/tasks?${params}`,
+    {
+      method:  'POST',
+      headers: { Authorization: `Bearer ${token}`, 'Content-Type': 'application/json' },
+      body: JSON.stringify({ title: taskData.title, notes: taskData.notes ?? '' }),
+    }
+  );
+  if (!res.ok) throw new Error(`Tasks create ${res.status}`);
   return res.json();
 }
 
