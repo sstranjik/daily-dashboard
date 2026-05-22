@@ -271,14 +271,15 @@ img    { max-width: 100%; display: block; }
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: var(--sp-5);
-  align-items: stretch;
+  align-items: start;
 }
 
-/* All three sections equal height — sized to weather content */
+/* Fixed height so tall calendar content doesn't stretch siblings */
 #section-calendar,
 #section-tasks,
 #section-weather {
   min-width: 0;
+  height: 252px;
   display: flex;
   flex-direction: column;
 }
@@ -290,6 +291,7 @@ img    { max-width: 100%; display: block; }
   display: flex;
   flex-direction: column;
   overflow: hidden;
+  min-height: 0;
 }
 
 /* Sign-in wrapper — Google renderButton target */

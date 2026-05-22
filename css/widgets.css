@@ -779,6 +779,17 @@
   line-height: var(--lh-relaxed);
 }
 
+/* Scrollable body within fixed-height weather widget */
+.weather-body {
+  flex: 1;
+  overflow-y: auto;
+  min-height: 0;
+  scrollbar-width: thin;
+  scrollbar-color: var(--border-subtle) transparent;
+}
+.weather-body::-webkit-scrollbar { width: 3px; }
+.weather-body::-webkit-scrollbar-thumb { background: var(--border-subtle); border-radius: 2px; }
+
 /* ─── COMPACT WEATHER (300px column) ─────────────────────────────────────── */
 .weather-compact-top {
   display: flex;

@@ -61,34 +61,36 @@ export function renderWeather(data, location) {
       </button>
     </div>
 
-    <div class="weather-compact-top">
-      <span class="weather-compact-icon">${icon}</span>
-      <div class="weather-compact-info">
-        <div class="weather-compact-temp">${temp}<span class="weather-compact-temp-unit">°</span></div>
-        <div class="weather-compact-condition">${condition}</div>
-        <div class="weather-compact-loc">
-          <svg width="9" height="9" viewBox="0 0 10 10" fill="none"><path d="M5 1C3.3 1 2 2.3 2 4c0 2.5 3 5 3 5s3-2.5 3-5c0-1.7-1.3-3-3-3zm0 4a1 1 0 1 1 0-2 1 1 0 0 1 0 2z" fill="currentColor"/></svg>
-          ${city}
+    <div class="weather-body">
+      <div class="weather-compact-top">
+        <span class="weather-compact-icon">${icon}</span>
+        <div class="weather-compact-info">
+          <div class="weather-compact-temp">${temp}<span class="weather-compact-temp-unit">°</span></div>
+          <div class="weather-compact-condition">${condition}</div>
+          <div class="weather-compact-loc">
+            <svg width="9" height="9" viewBox="0 0 10 10" fill="none"><path d="M5 1C3.3 1 2 2.3 2 4c0 2.5 3 5 3 5s3-2.5 3-5c0-1.7-1.3-3-3-3zm0 4a1 1 0 1 1 0-2 1 1 0 0 1 0 2z" fill="currentColor"/></svg>
+            ${city}
+          </div>
         </div>
       </div>
-    </div>
 
-    <div class="weather-compact-stats">
-      <span class="weather-stat-pill"><span class="weather-stat-pill-icon">🌡️</span> ${feelsLike}°</span>
-      <span class="weather-stat-pill"><span class="weather-stat-pill-icon">💧</span> ${humidity}%</span>
-      <span class="weather-stat-pill"><span class="weather-stat-pill-icon">💨</span> ${windSpd} km/h ${windDir}</span>
-    </div>
+      <div class="weather-compact-stats">
+        <span class="weather-stat-pill"><span class="weather-stat-pill-icon">🌡️</span> ${feelsLike}°</span>
+        <span class="weather-stat-pill"><span class="weather-stat-pill-icon">💧</span> ${humidity}%</span>
+        <span class="weather-stat-pill"><span class="weather-stat-pill-icon">💨</span> ${windSpd} km/h ${windDir}</span>
+      </div>
 
-    <div class="weather-sun-compact">
-      <div class="weather-sun-compact-item">☀️ ${sunrise}</div>
-      <div class="weather-sun-compact-item">🌇 ${sunset}</div>
-    </div>
+      <div class="weather-sun-compact">
+        <div class="weather-sun-compact-item">☀️ ${sunrise}</div>
+        <div class="weather-sun-compact-item">🌇 ${sunset}</div>
+      </div>
 
-    <div class="weather-section-label">7 dana</div>
-    <div class="weather-7day">${dailyHtml}</div>
+      <div class="weather-section-label">7 dana</div>
+      <div class="weather-7day">${dailyHtml}</div>
 
-    <div class="weather-footer">
-      <span class="weather-updated">${new Date().toLocaleTimeString('hr-HR', {hour:'2-digit',minute:'2-digit'})}</span>
+      <div class="weather-footer">
+        <span class="weather-updated">${new Date().toLocaleTimeString('hr-HR', {hour:'2-digit',minute:'2-digit'})}</span>
+      </div>
     </div>`;
 
   el.querySelector('#weather-refresh-btn')?.addEventListener('click', async () => {

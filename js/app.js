@@ -220,6 +220,22 @@ function renderSettingsBody(cfg, container) {
       </div>
     </div>
     <div class="settings-section">
+      <div class="settings-section-title">GitHub vijesti (on-demand refresh)</div>
+      <div class="settings-row" style="flex-direction:column;align-items:stretch;gap:var(--sp-2)">
+        <div>
+          <div class="settings-row-label">GitHub Personal Access Token</div>
+          <div class="settings-row-sublabel">Potrebno za pokretanje GitHub Actions job-a koji povuče svježe vijesti s interneta. Token treba <code style="font-size:10px;color:var(--accent)">repo</code> ili <code style="font-size:10px;color:var(--accent)">workflow</code> scope.</div>
+        </div>
+        <div style="display:flex;gap:var(--sp-2);margin-top:2px">
+          <input type="password" id="settings-github-pat"
+            class="modal-input" style="flex:1;font-size:12px"
+            placeholder="ghp_xxxxxxxxxxxxxxxxxxxx"
+            value="${localStorage.getItem('dashboard_github_pat') || ''}">
+          <button class="btn-secondary" id="settings-github-pat-save" style="font-size:12px;padding:6px 12px">Spremi</button>
+        </div>
+      </div>
+    </div>
+    <div class="settings-section">
       <div class="settings-section-title">O dashboardu</div>
       <div class="settings-row">
         <div class="settings-row-label">Verzija</div>
@@ -239,6 +255,17 @@ function renderSettingsBody(cfg, container) {
       const section = document.querySelector(`[data-widget="${input.dataset.widgetKey}"]`);
       if (section) section.style.display = input.checked ? '' : 'none';
     });
+  });
+
+  container.querySelector('#settings-github-pat-save')?.addEventListener('click', () => {
+    const val = container.querySelector('#settings-github-pat')?.value?.trim() ?? '';
+    if (val) {
+      localStorage.setItem('dashboard_github_pat', val);
+      showToast('GitHub PAT spremljen', 'success');
+    } else {
+      localStorage.removeItem('dashboard_github_pat');
+      showToast('GitHub PAT obrisan', 'info');
+    }
   });
 }
 

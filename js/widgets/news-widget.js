@@ -196,11 +196,54 @@ async function maybeLoadTab(key) {
 function attachRefreshHandler(el) {
   el.querySelector('#news-refresh-btn')?.addEventListener('click', async () => {
     const btn = el.querySelector('#news-refresh-btn');
+    const pat = localStorage.getItem('dashboard_github_pat');
+
+    if (pat) {
+      // Trigger live RSS fetch via GitHub Actions workflow_dispatch
+      btn?.classList.add('spinning');
+      try {
+        const res = await fetch(
+          'https://api.github.com/repos/sstranjik/daily-dashboard/actions/workflows/daily-update.yml/dispatches',
+          {
+            method: 'POST',
+            headers: {
+              'Authorization': `Bearer ${pat}`,
+              'Accept': 'application/vnd.github.v3+json',
+              'Content-Type': 'application/json',
+            },
+            body: JSON.stringify({ ref: 'main' }),
+          }
+        );
+        if (res.status === 204) {
+          import('../app.js').then(m =>
+            m.showToast('GitHub Actions workflow pokrenut · vijesti će biti osvježene za ~2 minute', 'success', 6000)
+          );
+          // After ~2.5 min automatically reload news data
+          setTimeout(async () => {
+            await refreshAllTabs(el);
+            updateFooterLabel();
+          }, 150_000);
+        } else {
+          const body = await res.json().catch(() => ({}));
+          import('../app.js').then(m =>
+            m.showToast(`Greška ${res.status}: ${body.message ?? 'Provjeri PAT token u postavkama'}`, 'error', 5000)
+          );
+        }
+      } catch (err) {
+        import('../app.js').then(m =>
+          m.showToast('Nije moguće pokrenuti workflow · provjeri internetsku vezu', 'error', 4000)
+        );
+      } finally {
+        btn?.classList.remove('spinning');
+      }
+      return;
+    }
+
+    // No PAT — reload current static JSON files (data from last morning run)
     btn?.classList.add('spinning');
     await refreshAllTabs(el);
     btn?.classList.remove('spinning');
     updateFooterLabel();
-    // Show data age so user knows if content actually changed
     try {
       const { loadDataFile } = await import('../api/data-loader.js');
       const meta = await loadDataFile('data/metadata.json');
@@ -208,7 +251,7 @@ function attachRefreshHandler(el) {
         const age = new Date(meta.last_updated);
         const label = age.toLocaleString('hr-HR', { day:'numeric', month:'numeric', hour:'2-digit', minute:'2-digit' });
         import('../app.js').then(m =>
-          m.showToast(`Vijesti osvježene · Podaci od ${label}`, 'info', 4000)
+          m.showToast(`Vijesti osvježene · Podaci od ${label} · Dodaj GitHub PAT u postavkama za live refresh`, 'info', 6000)
         );
       }
     } catch { /* no metadata */ }
