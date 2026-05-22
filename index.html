@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Personal daily dashboard — morning briefing, weather, news">
-  <title>Dashboard</title>
+  <meta name="description" content="Personal daily dashboard">
+  <title>Morning Insight</title>
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -31,31 +31,22 @@
     </div>
   </div>
 
-  <!-- CENTER: clock + date + 7-day forecast -->
   <div class="topbar-center">
-    <div class="topbar-datetime">
-      <time id="topbar-clock" class="topbar-clock font-mono" aria-live="polite">--:--:--</time>
-      <span id="topbar-date" class="topbar-date">---</span>
-    </div>
-    <div class="topbar-divider" aria-hidden="true"></div>
-    <!-- 7-day weather forecast strip -->
-    <div id="topbar-weather" class="topbar-forecast" aria-label="7-day forecast">
-      <div class="fc-loading">
-        <span class="fc-dot"></span><span class="fc-dot"></span><span class="fc-dot"></span>
-      </div>
-    </div>
+    <time id="topbar-clock" class="topbar-clock font-mono" aria-live="polite">--:--:--</time>
+    <span class="topbar-date-sep" aria-hidden="true">·</span>
+    <span id="topbar-date" class="topbar-date">---</span>
   </div>
 
   <div class="topbar-right">
     <span id="last-update-badge" class="last-update-badge" hidden></span>
     <button id="refresh-all-btn" class="btn-icon" title="Osvježi sve" aria-label="Refresh all">
-      <svg width="14" height="14" viewBox="0 0 14 14" fill="none" aria-hidden="true">
+      <svg width="14" height="14" viewBox="0 0 14 14" fill="none">
         <path d="M13 2.5A6.5 6.5 0 1 1 6.5 1" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
         <path d="M9 1l4 1.5L11.5 6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
       </svg>
     </button>
     <button id="settings-btn" class="btn-icon" title="Settings" aria-label="Settings">
-      <svg width="14" height="14" viewBox="0 0 14 14" fill="none" aria-hidden="true">
+      <svg width="14" height="14" viewBox="0 0 14 14" fill="none">
         <circle cx="7" cy="7" r="2" stroke="currentColor" stroke-width="1.5"/>
         <path d="M7 1v1M7 12v1M1 7h1M12 7h1M2.6 2.6l.7.7M10.7 10.7l.7.7M2.6 11.4l.7-.7M10.7 3.3l.7-.7" stroke="currentColor" stroke-width="1.3" stroke-linecap="round"/>
       </svg>
@@ -82,99 +73,117 @@
 <!-- MAIN CONTENT -->
 <main class="dashboard" id="dashboard">
 
-  <!-- HERO: AI DAILY BRIEFING -->
-  <section class="section-hero" id="section-briefing" data-widget="briefing">
-    <div id="widget-briefing" class="widget widget-briefing loading">
-      <div class="skeleton-hero">
-        <div class="sk sk-line sk-title"></div>
-        <div class="sk sk-line sk-sm" style="width:38%"></div>
-        <div style="margin-top:20px">
-          <div class="sk sk-line" style="width:92%"></div>
-          <div class="sk sk-line" style="width:86%"></div>
-          <div class="sk sk-line" style="width:78%"></div>
-          <div class="sk sk-line" style="width:82%"></div>
-          <div class="sk sk-line" style="width:62%"></div>
-        </div>
-      </div>
-    </div>
-  </section>
+  <!-- ROW 1: KALENDAR | TASKOVI | VRIJEME -->
+  <div class="row-top">
 
-  <!-- WIDGET GRID -->
-  <div class="dashboard-grid" id="dashboard-grid">
-
-    <!-- WEATHER -->
-    <div class="gi gi-weather" id="section-weather" data-widget="weather">
-      <div id="widget-weather" class="widget widget-weather loading">
-        <div class="sk sk-line sk-xl" style="width:55%;margin-bottom:10px"></div>
-        <div class="sk sk-line sk-sm" style="width:38%"></div>
-        <div class="sk sk-block" style="height:80px;margin-top:18px"></div>
-        <div class="sk sk-block" style="height:52px;margin-top:14px"></div>
+    <!-- GOOGLE CALENDAR -->
+    <div id="section-calendar" data-widget="calendar">
+      <div id="widget-calendar" class="widget widget-calendar loading">
+        <div class="sk sk-title" style="width:55%;margin-bottom:16px"></div>
+        <div class="sk sk-line sk-sm" style="width:30%;margin-bottom:12px"></div>
+        <div class="sk sk-line" style="width:90%"></div>
+        <div class="sk sk-line" style="width:80%"></div>
+        <div class="sk sk-line sk-sm" style="width:28%;margin-top:12px;margin-bottom:8px"></div>
+        <div class="sk sk-line" style="width:85%"></div>
+        <div class="sk sk-line" style="width:70%"></div>
       </div>
     </div>
 
-    <!-- PRODUKTIVNOST -->
-    <div class="gi gi-productivity" id="section-productivity" data-widget="productivity">
-      <div id="widget-productivity" class="widget widget-productivity loading">
-        <div class="sk sk-line sk-title" style="width:55%"></div>
-        <div class="sk sk-line" style="width:82%"></div>
-        <div class="sk sk-line" style="width:72%"></div>
-        <div class="sk sk-line" style="width:58%"></div>
-      </div>
-    </div>
-
-    <!-- HR VIJESTI -->
-    <div class="gi gi-hr-news" id="section-hr-news" data-widget="hr_news">
-      <div id="widget-hr-news" class="widget widget-news loading">
-        <div class="sk sk-line sk-title" style="width:48%"></div>
-        <div class="sk sk-card"></div>
-        <div class="sk sk-card"></div>
-        <div class="sk sk-card"></div>
-        <div class="sk sk-card"></div>
-      </div>
-    </div>
-
-    <!-- TECH / AI -->
-    <div class="gi gi-tech" id="section-tech" data-widget="tech_news">
-      <div id="widget-tech" class="widget widget-news loading">
-        <div class="sk sk-line sk-title" style="width:52%"></div>
-        <div class="sk sk-card"></div>
-        <div class="sk sk-card"></div>
-        <div class="sk sk-card"></div>
-      </div>
-    </div>
-
-    <!-- SCIENCE -->
-    <div class="gi gi-science" id="section-science" data-widget="science">
-      <div id="widget-science" class="widget widget-news loading">
-        <div class="sk sk-line sk-title" style="width:44%"></div>
-        <div class="sk sk-card"></div>
-        <div class="sk sk-card"></div>
-      </div>
-    </div>
-
-    <!-- SPORT -->
-    <div class="gi gi-sports" id="section-sports" data-widget="sports">
-      <div id="widget-sports" class="widget widget-sports loading">
-        <div class="sk sk-line sk-title" style="width:38%"></div>
+    <!-- GOOGLE TASKS -->
+    <div id="section-tasks" data-widget="tasks">
+      <div id="widget-tasks" class="widget widget-tasks loading">
+        <div class="sk sk-title" style="width:50%;margin-bottom:16px"></div>
+        <div class="sk sk-line" style="width:95%"></div>
+        <div class="sk sk-line" style="width:88%"></div>
         <div class="sk sk-line" style="width:92%"></div>
-        <div class="sk sk-line" style="width:86%"></div>
         <div class="sk sk-line" style="width:76%"></div>
+        <div class="sk sk-line" style="width:84%"></div>
+      </div>
+    </div>
+
+    <!-- COMPACT WEATHER + 7-DAY -->
+    <div id="section-weather" data-widget="weather">
+      <div id="widget-weather" class="widget widget-weather loading">
+        <div class="sk sk-xl" style="width:60%;margin-bottom:8px"></div>
+        <div class="sk sk-line sk-sm" style="width:45%"></div>
+        <div class="sk sk-block" style="height:72px;margin-top:16px"></div>
+        <div class="sk sk-block" style="height:44px;margin-top:12px"></div>
       </div>
     </div>
 
   </div>
+
+  <!-- ROW 2: JUTARNJI PREGLED -->
+  <section id="section-briefing" data-widget="briefing">
+    <div id="widget-briefing" class="widget widget-briefing loading">
+      <div class="sk sk-title" style="width:40%;margin-bottom:8px"></div>
+      <div class="sk sk-line sk-sm" style="width:30%;margin-bottom:20px"></div>
+      <div class="sk sk-line" style="width:94%"></div>
+      <div class="sk sk-line" style="width:88%"></div>
+      <div class="sk sk-line" style="width:82%"></div>
+      <div class="sk sk-line" style="width:90%"></div>
+      <div class="sk sk-line" style="width:72%"></div>
+    </div>
+  </section>
+
+  <!-- ROW 3: VIJESTI (tabs, scrollable) -->
+  <section id="section-news" data-widget="news">
+    <div id="widget-news" class="widget widget-news-unified loading">
+      <div class="sk sk-title" style="width:50%;margin-bottom:16px"></div>
+      <div style="display:flex;gap:16px;margin-bottom:16px">
+        <div class="sk sk-line" style="width:60px;height:12px"></div>
+        <div class="sk sk-line" style="width:60px;height:12px"></div>
+        <div class="sk sk-line" style="width:60px;height:12px"></div>
+        <div class="sk sk-line" style="width:60px;height:12px"></div>
+      </div>
+      <div class="sk sk-card"></div>
+      <div class="sk sk-card"></div>
+      <div class="sk sk-card"></div>
+      <div class="sk sk-card"></div>
+    </div>
+  </section>
+
 </main>
 
 <!-- TOAST -->
-<div id="toast-container" class="toast-container" aria-live="polite" aria-atomic="true"></div>
+<div id="toast-container" class="toast-container" aria-live="polite"></div>
+
+<!-- TASK EDIT MODAL -->
+<div id="task-modal-overlay" class="modal-overlay hidden"></div>
+<div id="task-modal" class="modal hidden" role="dialog" aria-modal="true" aria-labelledby="task-modal-title">
+  <div class="modal-header">
+    <h3 class="modal-title" id="task-modal-title">Uredi zadatak</h3>
+    <button class="btn-icon" id="task-modal-close" aria-label="Zatvori">
+      <svg width="13" height="13" viewBox="0 0 13 13" fill="none"><path d="M1 1l11 11M12 1L1 12" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+    </button>
+  </div>
+  <div class="modal-body">
+    <input id="task-edit-title" type="text" class="modal-input" placeholder="Naziv zadatka" maxlength="200">
+    <div class="modal-row">
+      <div class="modal-field">
+        <label class="modal-label">Datum</label>
+        <input id="task-edit-date" type="date" class="modal-input">
+      </div>
+      <div class="modal-field">
+        <label class="modal-label">Podsjetnik</label>
+        <input id="task-edit-time" type="time" class="modal-input">
+      </div>
+    </div>
+    <textarea id="task-edit-notes" class="modal-textarea" placeholder="Bilješke (opcionalno)" rows="3"></textarea>
+  </div>
+  <div class="modal-footer">
+    <button id="task-modal-cancel" class="btn-secondary">Odustani</button>
+    <button id="task-modal-save" class="btn-primary">Spremi</button>
+  </div>
+</div>
 
 <!-- SETTINGS PANEL -->
 <div id="settings-overlay" class="settings-overlay hidden"></div>
 <aside id="settings-panel" class="settings-panel hidden" aria-label="Settings">
   <div class="settings-header">
     <h2 class="settings-title">Settings</h2>
-    <button id="close-settings-btn" class="btn-icon" aria-label="Close settings">
-      <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M1 1l12 12M13 1L1 13" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+    <button id="close-settings-btn" class="btn-icon" aria-label="Close">
+      <svg width="13" height="13" viewBox="0 0 13 13" fill="none"><path d="M1 1l11 11M12 1L1 12" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
     </button>
   </div>
   <div class="settings-body" id="settings-body"></div>

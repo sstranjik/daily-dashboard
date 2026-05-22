@@ -38,11 +38,28 @@ export function renderBriefing(data) {
     : null;
 
   const bulletsHtml = (data.bullets ?? []).map(b => {
-    const icon = b.icon || CATEGORY_ICONS[b.category] || CATEGORY_ICONS.default;
+    const icon    = b.icon || CATEGORY_ICONS[b.category] || CATEGORY_ICONS.default;
+    const sources = Array.isArray(b.sources) ? b.sources : [];
+
+    const sourcesHtml = sources.length
+      ? `<div class="briefing-bullet-sources">
+          ${sources.map(s => `
+            <a href="${escapeHtml(s.url || '#')}" class="briefing-source-link" target="_blank" rel="noopener noreferrer" title="${escapeHtml(s.title || s.url || '')}">
+              <svg width="8" height="8" viewBox="0 0 8 8" fill="none" aria-hidden="true">
+                <path d="M1 4h6M4 1l3 3-3 3" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+              ${escapeHtml(s.title || safeHostname(s.url))}
+            </a>`).join('')}
+        </div>`
+      : '';
+
     return `
       <li class="briefing-bullet">
         <span class="briefing-bullet-icon">${icon}</span>
-        <span class="briefing-bullet-text">${escapeHtml(b.text)}</span>
+        <div>
+          <span class="briefing-bullet-text">${escapeHtml(b.text)}</span>
+          ${sourcesHtml}
+        </div>
       </li>`;
   }).join('');
 
@@ -75,15 +92,12 @@ export function renderBriefing(data) {
   el.querySelector('#briefing-refresh-btn')?.addEventListener('click', async () => {
     const btn = el.querySelector('#briefing-refresh-btn');
     btn?.classList.add('spinning');
-    // Bust data cache and reload
-    const { bustCache }     = await import('../api/data-loader.js');
-    const { loadDataFile }  = await import('../api/data-loader.js');
+    const { bustCache, loadDataFile } = await import('../api/data-loader.js');
     bustCache('data/briefing.json');
     try {
       const fresh = await loadDataFile('data/briefing.json');
       renderBriefing(fresh);
     } catch {
-      // Generate rule-based summary from cached news
       const ruleData = await generateRuleBased();
       renderBriefing(ruleData);
     }
@@ -105,7 +119,11 @@ async function generateRuleBased() {
       const d = await loadDataFile(src.key);
       const items = d?.items?.slice(0, 2) ?? [];
       items.forEach(item => {
-        bullets.push({ category: src.cat, text: item.title });
+        bullets.push({
+          category: src.cat,
+          text: item.title,
+          sources: item.link ? [{ title: item.source || item.link, url: item.link }] : [],
+        });
       });
     } catch { /* source unavailable */ }
   }
@@ -118,6 +136,10 @@ async function generateRuleBased() {
     bullets,
     weather_note: null,
   };
+}
+
+function safeHostname(url) {
+  try { return new URL(url).hostname.replace('www.', ''); } catch { return url || ''; }
 }
 
 function emptyState() {
@@ -133,9 +155,6 @@ function emptyState() {
     <div class="empty-state">
       <div class="empty-state-icon">📋</div>
       <div class="empty-state-title">Sažetak još nije generiran</div>
-      <div class="empty-state-desc">
-        Postavi GitHub Actions workflow za automatsko generiranje svakog jutra.
-        Pogledaj README za upute.
-      </div>
+      <div class="empty-state-desc">Postavi GitHub Actions workflow za automatsko generiranje svakog jutra.</div>
     </div>`;
 }

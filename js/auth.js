@@ -1,6 +1,11 @@
-const STORAGE_KEY = 'dashboard_user';
+import { setAccessToken, clearAccessToken } from './api/google-api.js';
 
-let _user = null;
+const STORAGE_KEY = 'dashboard_user';
+const SCOPES = 'https://www.googleapis.com/auth/calendar.readonly https://www.googleapis.com/auth/tasks';
+
+let _user        = null;
+let _tokenClient = null;
+let _apiReadyCbs = [];
 
 export function initAuth(config) {
   _user = loadStoredUser();
@@ -9,24 +14,26 @@ export function initAuth(config) {
   document.getElementById('google-signin-btn')?.addEventListener('click', () => {
     const clientId = config?.google?.client_id;
     if (!clientId || clientId.includes('YOUR_GOOGLE')) {
-      showAuthNotice();
+      import('./app.js').then(m =>
+        m.showToast('Dodaj Google Client ID u config.json.', 'info', 5000)
+      );
       return;
     }
-    // Trigger Google One Tap or button flow
-    if (window.google?.accounts?.id) {
-      window.google.accounts.id.initialize({
-        client_id: clientId,
-        callback: handleCredentialResponse,
-        auto_select: false,
-      });
-      window.google.accounts.id.prompt();
-    }
+    triggerSignIn(clientId);
   });
 
   document.getElementById('signout-btn')?.addEventListener('click', signOut);
-
-  // GIS global callback
   window.handleGoogleSignIn = handleCredentialResponse;
+}
+
+function triggerSignIn(clientId) {
+  if (!window.google?.accounts?.id) return;
+  window.google.accounts.id.initialize({
+    client_id: clientId,
+    callback:  handleCredentialResponse,
+    auto_select: false,
+  });
+  window.google.accounts.id.prompt();
 }
 
 function handleCredentialResponse(response) {
@@ -43,15 +50,21 @@ function handleCredentialResponse(response) {
 
   localStorage.setItem(STORAGE_KEY, JSON.stringify(_user));
   updateUI();
+
+  // Notify any widgets waiting for sign-in
+  _apiReadyCbs.forEach(cb => cb());
+  _apiReadyCbs = [];
 }
 
 function signOut() {
   _user = null;
   localStorage.removeItem(STORAGE_KEY);
+  clearAccessToken();
+  _tokenClient = null;
   updateUI();
-  if (window.google?.accounts?.id) {
-    window.google.accounts.id.disableAutoSelect();
-  }
+  window.google?.accounts?.id?.disableAutoSelect();
+  // Reload widgets to show sign-in prompts
+  window.dispatchEvent(new CustomEvent('auth:signout'));
 }
 
 function loadStoredUser() {
@@ -62,10 +75,10 @@ function loadStoredUser() {
 }
 
 function updateUI() {
-  const signinBtn   = document.getElementById('google-signin-btn');
-  const avatarArea  = document.getElementById('user-avatar-area');
-  const userImg     = document.getElementById('user-img');
-  const userName    = document.getElementById('user-display-name');
+  const signinBtn  = document.getElementById('google-signin-btn');
+  const avatarArea = document.getElementById('user-avatar-area');
+  const userImg    = document.getElementById('user-img');
+  const userName   = document.getElementById('user-display-name');
 
   if (_user) {
     signinBtn?.setAttribute('hidden', '');
@@ -78,10 +91,40 @@ function updateUI() {
   }
 }
 
-function showAuthNotice() {
-  import('./app.js').then(m => {
-    m.showToast('Dodaj Google Client ID u config.json da aktiviraš prijavu.', 'info', 5000);
-  });
+export function getUser() { return _user; }
+
+export function isSignedIn() { return !!_user; }
+
+/**
+ * Request an OAuth token for Calendar + Tasks.
+ * `callback` is called with the token string on success.
+ * If user isn't signed in yet, queues the request for after sign-in.
+ */
+export function requestApiAccess(config, callback) {
+  if (!window.google?.accounts?.oauth2) {
+    console.warn('GIS not loaded yet');
+    return;
+  }
+
+  const clientId = config?.google?.client_id;
+  if (!clientId || clientId.includes('YOUR_GOOGLE')) return;
+
+  if (!_tokenClient) {
+    _tokenClient = window.google.accounts.oauth2.initTokenClient({
+      client_id: clientId,
+      scope:     SCOPES,
+      callback:  (tokenResponse) => {
+        if (tokenResponse.error) {
+          console.error('OAuth error:', tokenResponse.error);
+          return;
+        }
+        setAccessToken(tokenResponse.access_token, tokenResponse.expires_in ?? 3600);
+        if (callback) callback(tokenResponse.access_token);
+      },
+    });
+  }
+
+  _tokenClient.requestAccessToken({ prompt: '' });
 }
 
 function parseJwt(token) {
@@ -89,5 +132,3 @@ function parseJwt(token) {
     return JSON.parse(atob(token.split('.')[1].replace(/-/g, '+').replace(/_/g, '/')));
   } catch { return null; }
 }
-
-export function getUser() { return _user; }

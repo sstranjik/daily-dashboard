@@ -1,17 +1,18 @@
 import { loadConfig, applyWidgetVisibility } from './config.js';
-import { initAuth }            from './auth.js';
-import { cache }               from './utils/cache.js';
-import { timeAgo, formatDate } from './utils/helpers.js';
-import { fetchWeatherData }    from './api/weather-api.js';
-import { loadDataFile }        from './api/data-loader.js';
-import { initClock }           from './widgets/clock-widget.js';
-import { renderWeather }       from './widgets/weather-widget.js';
-import { renderBriefing }      from './widgets/briefing-widget.js';
-import { renderNews }          from './widgets/news-widget.js';
-import { renderSports }        from './widgets/sports-widget.js';
-import { renderProductivity }  from './widgets/productivity-widget.js';
+import { initAuth }                          from './auth.js';
+import { cache }                             from './utils/cache.js';
+import { timeAgo }                           from './utils/helpers.js';
+import { fetchWeatherData }                  from './api/weather-api.js';
+import { getAccessToken }                    from './api/google-api.js';
+import { initClock }                         from './widgets/clock-widget.js';
+import { renderWeather }                     from './widgets/weather-widget.js';
+import { renderBriefing }                    from './widgets/briefing-widget.js';
+import { renderUnifiedNews }                 from './widgets/news-widget.js';
+import { renderCalendar }                    from './widgets/calendar-widget.js';
+import { renderTasks }                       from './widgets/tasks-widget.js';
+import { loadDataFile }                      from './api/data-loader.js';
 
-let appConfig   = null;
+let appConfig    = null;
 let isRefreshing = false;
 
 // ─── INIT ─────────────────────────────────────────────────────────────────────
@@ -34,30 +35,29 @@ async function init() {
 
   renderBriefing(briefing.status === 'fulfilled' ? briefing.value : null);
 
-  renderNews('widget-hr-news', {
-    title: '🇭🇷 Hrvatske vijesti', label: 'HR VIJESTI',
-    data: hrNews.status === 'fulfilled' ? hrNews.value : null,
-    config: appConfig.news,
+  renderUnifiedNews({
+    hrNews:   hrNews.status   === 'fulfilled' ? hrNews.value   : null,
+    techNews: techNews.status === 'fulfilled' ? techNews.value : null,
+    science:  science.status  === 'fulfilled' ? science.value  : null,
+    sports:   sports.status   === 'fulfilled' ? sports.value   : null,
+    config:   appConfig.news,
   });
-  renderNews('widget-tech', {
-    title: '💻 Tech & AI', label: 'TECH / AI',
-    data: techNews.status === 'fulfilled' ? techNews.value : null,
-    config: appConfig.news,
-  });
-  renderNews('widget-science', {
-    title: '🔬 Znanost', label: 'ZNANOST',
-    data: science.status === 'fulfilled' ? science.value : null,
-    config: appConfig.news,
-  });
-
-  renderSports(sports.status === 'fulfilled' ? sports.value : null);
-  renderProductivity();
 
   if (metadata.status === 'fulfilled' && metadata.value) {
     updateLastUpdateBadge(metadata.value.last_updated);
   }
 
   initWeather(appConfig.location);
+
+  // Render Google widgets (will show connect prompts if no token yet)
+  renderCalendar(appConfig);
+  renderTasks(appConfig);
+
+  // Re-render Google widgets after sign-out
+  window.addEventListener('auth:signout', () => {
+    renderCalendar(appConfig);
+    renderTasks(appConfig);
+  });
 }
 
 // ─── WEATHER ──────────────────────────────────────────────────────────────────
@@ -68,7 +68,6 @@ async function initWeather(location) {
   const cached = cache.get(CACHE_KEY);
   if (cached) {
     renderWeather(cached, location);
-    updateTopbarForecast(cached);
     return;
   }
 
@@ -99,43 +98,16 @@ async function initWeather(location) {
     data._city  = city;
     cache.set(CACHE_KEY, data, CACHE_TTL);
     renderWeather(data, { ...location, _city: city });
-    updateTopbarForecast(data);
   } catch (err) {
     console.error('Weather fetch failed:', err);
-    document.getElementById('widget-weather').innerHTML = `
-      <div class="widget-header"><span class="widget-label">WEATHER</span></div>
-      <div class="error-state">⚠ Nije moguće dohvatiti podatke o vremenu.</div>`;
-    document.getElementById('topbar-weather').innerHTML =
-      `<span style="font-size:11px;color:var(--text-muted);font-family:var(--font-mono)">–</span>`;
+    const el = document.getElementById('widget-weather');
+    if (el) {
+      el.classList.remove('loading');
+      el.innerHTML = `
+        <div class="widget-header"><span class="widget-label">WEATHER</span></div>
+        <div class="error-state">⚠ Nije moguće dohvatiti podatke o vremenu.</div>`;
+    }
   }
-}
-
-// ─── TOPBAR 7-DAY FORECAST STRIP ──────────────────────────────────────────────
-function updateTopbarForecast(data) {
-  const el = document.getElementById('topbar-weather');
-  if (!el || !data?.daily) return;
-
-  const days = data.daily;
-  const shortDays = ['NED','PON','UTO','SRI','ČET','PET','SUB'];
-
-  const items = (days.time ?? []).slice(0, 7).map((dateStr, i) => {
-    const date   = new Date(dateStr + 'T12:00:00');
-    const isToday = i === 0;
-    const name   = isToday ? 'DANAS' : shortDays[date.getDay()];
-    const icon   = weatherCodeToEmoji(days.weathercode[i]);
-    const temp   = Math.round(days.temperature_2m_max[i]);
-    const rain   = days.precipitation_probability_max?.[i] ?? 0;
-
-    return `
-      <div class="fc-day${isToday ? ' is-today' : ''}" title="${dateStr}">
-        <span class="fc-name">${name}</span>
-        <span class="fc-icon">${icon}</span>
-        <span class="fc-temp">${temp}°</span>
-        ${rain >= 30 ? `<span class="fc-rain">${rain}%</span>` : ''}
-      </div>`;
-  });
-
-  el.innerHTML = items.join('');
 }
 
 // ─── LAST UPDATE BADGE ────────────────────────────────────────────────────────
@@ -181,10 +153,11 @@ function attachSettingsPanel(cfg) {
 
 function renderSettingsBody(cfg, container) {
   const widgetNames = {
-    briefing: 'Jutarnji pregled', weather: 'Vrijeme',
-    hr_news: 'Hrvatske vijesti',  tech_news: 'Tech / AI',
-    science: 'Znanost',           sports: 'Sport',
-    productivity: 'Produktivnost',
+    calendar:  'Kalendar',
+    tasks:     'Taskovi',
+    weather:   'Vrijeme',
+    briefing:  'Jutarnji pregled',
+    news:      'Vijesti',
   };
   const savedPrefs = JSON.parse(localStorage.getItem('dashboard_prefs') || '{}');
 
@@ -192,7 +165,7 @@ function renderSettingsBody(cfg, container) {
     <div class="settings-section">
       <div class="settings-section-title">Widgeti</div>
       ${Object.entries(widgetNames).map(([key, name]) => {
-        const enabled = savedPrefs[key] !== undefined ? savedPrefs[key] : (cfg.widgets[key]?.enabled !== false);
+        const enabled = savedPrefs[key] !== undefined ? savedPrefs[key] : true;
         return `
           <div class="settings-row">
             <div><div class="settings-row-label">${name}</div></div>
@@ -211,7 +184,7 @@ function renderSettingsBody(cfg, container) {
           <div class="settings-row-sublabel">Koristi GPS za lokaciju</div>
         </div>
         <label class="toggle">
-          <input type="checkbox" ${cfg.location.auto_detect ? 'checked' : ''}>
+          <input type="checkbox" ${cfg.location?.auto_detect ? 'checked' : ''}>
           <span class="toggle-track"></span>
         </label>
       </div>
@@ -220,7 +193,7 @@ function renderSettingsBody(cfg, container) {
       <div class="settings-section-title">O dashboardu</div>
       <div class="settings-row">
         <div class="settings-row-label">Verzija</div>
-        <span style="font-family:var(--font-mono);font-size:11px;color:var(--text-muted)">1.1.0</span>
+        <span style="font-family:var(--font-mono);font-size:11px;color:var(--text-muted)">1.2.0</span>
       </div>
       <div class="settings-row">
         <div class="settings-row-label">Automatski refresh</div>
