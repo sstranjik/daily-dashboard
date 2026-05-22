@@ -1,0 +1,13 @@
+{
+  "name": "dashboard-scripts",
+  "version": "1.0.0",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "fetch": "node fetch-all.mjs",
+    "briefing": "node generate-briefing.mjs"
+  },
+  "dependencies": {
+    "fast-xml-parser": "^4.3.6"
+  }
+}

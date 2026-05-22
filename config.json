@@ -1,0 +1,68 @@
+{
+  "site": {
+    "title": "Dashboard",
+    "timezone": "Europe/Zagreb",
+    "language": "hr",
+    "base_url": ""
+  },
+  "location": {
+    "default_city": "Zagreb",
+    "lat": 45.815,
+    "lon": 15.9819,
+    "auto_detect": true
+  },
+  "widgets": {
+    "briefing":     { "enabled": true,  "order": 1 },
+    "weather":      { "enabled": true,  "order": 2 },
+    "hr_news":      { "enabled": true,  "order": 3 },
+    "tech_news":    { "enabled": true,  "order": 4 },
+    "science":      { "enabled": true,  "order": 5 },
+    "sports":       { "enabled": true,  "order": 6 },
+    "productivity": { "enabled": true,  "order": 7 }
+  },
+  "news": {
+    "max_items": 12,
+    "max_age_hours": 36,
+    "deduplicate": true,
+    "show_summary": true
+  },
+  "weather": {
+    "units": "celsius",
+    "hourly_count": 8,
+    "forecast_days": 3
+  },
+  "refresh": {
+    "weather_interval_min": 30,
+    "auto_refresh_news": false
+  },
+  "theme": {
+    "mode": "dark",
+    "accent": "#58a6ff"
+  },
+  "google": {
+    "client_id": "YOUR_GOOGLE_CLIENT_ID.apps.googleusercontent.com"
+  },
+  "news_sources": {
+    "hr": [
+      { "name": "Index.hr",    "rss": "https://www.index.hr/rss",        "enabled": true },
+      { "name": "N1 Info",     "rss": "https://n1info.hr/feed/",         "enabled": true },
+      { "name": "Tportal",     "rss": "https://www.tportal.hr/rss",      "enabled": true },
+      { "name": "Jutarnji",    "rss": "https://www.jutarnji.hr/feed",    "enabled": true }
+    ],
+    "tech": [
+      { "name": "TechCrunch AI", "rss": "https://techcrunch.com/category/artificial-intelligence/feed/", "enabled": true },
+      { "name": "The Verge",     "rss": "https://www.theverge.com/rss/index.xml",                        "enabled": true },
+      { "name": "VentureBeat",   "rss": "https://venturebeat.com/feed/",                                 "enabled": true },
+      { "name": "Ars Technica",  "rss": "https://feeds.arstechnica.com/arstechnica/technology-lab",      "enabled": true }
+    ],
+    "science": [
+      { "name": "ScienceDaily", "rss": "https://www.sciencedaily.com/rss/all.xml",              "enabled": true },
+      { "name": "Phys.org",     "rss": "https://phys.org/rss-feed/",                            "enabled": true },
+      { "name": "NASA",         "rss": "https://www.nasa.gov/rss/dyn/breaking_news.rss",        "enabled": true }
+    ],
+    "sports": [
+      { "name": "SportSport",   "rss": "https://www.sportsport.ba/rss",  "enabled": true },
+      { "name": "Index Sport",  "rss": "https://www.index.hr/sport/rss", "enabled": true }
+    ]
+  }
+}
