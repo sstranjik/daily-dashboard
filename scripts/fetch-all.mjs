@@ -165,38 +165,54 @@ async function fetchCategory(sources, maxAge = 36) {
 async function main() {
   console.log(`\n📰 Dashboard data fetch started at ${NOW_ISO}\n`);
 
-  const cfg  = CONFIG.news_sources;
+  const cfg    = CONFIG.news_sources;
   const maxAge = CONFIG.news?.max_age_hours ?? 36;
 
-  const [hrItems, techItems, sciItems, sportsItems] = await Promise.all([
-    fetchCategory(cfg.hr,      maxAge),
-    fetchCategory(cfg.tech,    maxAge),
-    fetchCategory(cfg.science, maxAge),
-    fetchCategory(cfg.sports ?? [], maxAge),
+  const [
+    hrItems, worldItems, financeItems, techItems, sciItems,
+    sportsItems, entertainItems, healthItems, foodItems,
+  ] = await Promise.all([
+    fetchCategory(cfg.hr            ?? [], maxAge),
+    fetchCategory(cfg.world         ?? [], maxAge),
+    fetchCategory(cfg.finance       ?? [], maxAge),
+    fetchCategory(cfg.tech          ?? [], maxAge),
+    fetchCategory(cfg.science       ?? [], maxAge),
+    fetchCategory(cfg.sports        ?? [], maxAge),
+    fetchCategory(cfg.entertainment ?? [], maxAge),
+    fetchCategory(cfg.health        ?? [], maxAge),
+    fetchCategory(cfg.food          ?? [], maxAge),
   ]);
 
-  writeDataFile('hr-news.json',      { last_updated: NOW_ISO, source_count: cfg.hr.length,      items: hrItems.slice(0, 20) });
-  writeDataFile('tech-news.json',    { last_updated: NOW_ISO, source_count: cfg.tech.length,    items: techItems.slice(0, 15) });
-  writeDataFile('science-news.json', { last_updated: NOW_ISO, source_count: cfg.science.length, items: sciItems.slice(0, 12) });
-  writeDataFile('sports.json',       { last_updated: NOW_ISO, source_count: cfg.sports?.length ?? 0, items: sportsItems.slice(0, 20) });
+  writeDataFile('hr-news.json',          { last_updated: NOW_ISO, source_count: cfg.hr?.length            ?? 0, items: hrItems.slice(0, 20)       });
+  writeDataFile('world-news.json',       { last_updated: NOW_ISO, source_count: cfg.world?.length         ?? 0, items: worldItems.slice(0, 20)    });
+  writeDataFile('finance-news.json',     { last_updated: NOW_ISO, source_count: cfg.finance?.length       ?? 0, items: financeItems.slice(0, 20)  });
+  writeDataFile('tech-news.json',        { last_updated: NOW_ISO, source_count: cfg.tech?.length          ?? 0, items: techItems.slice(0, 20)     });
+  writeDataFile('science-news.json',     { last_updated: NOW_ISO, source_count: cfg.science?.length       ?? 0, items: sciItems.slice(0, 20)      });
+  writeDataFile('sports.json',           { last_updated: NOW_ISO, source_count: cfg.sports?.length        ?? 0, items: sportsItems.slice(0, 20)   });
+  writeDataFile('entertainment-news.json',{ last_updated: NOW_ISO, source_count: cfg.entertainment?.length ?? 0, items: entertainItems.slice(0, 20) });
+  writeDataFile('health-news.json',      { last_updated: NOW_ISO, source_count: cfg.health?.length        ?? 0, items: healthItems.slice(0, 20)   });
+  writeDataFile('food-news.json',        { last_updated: NOW_ISO, source_count: cfg.food?.length          ?? 0, items: foodItems.slice(0, 20)     });
 
   // Update metadata
   const metadata = {
     last_updated: NOW_ISO,
     generator: 'dashboard-bot/1.0',
     sources: {
-      hr_news:   { updated_at: NOW_ISO, item_count: hrItems.length,    ok: true },
-      tech_news: { updated_at: NOW_ISO, item_count: techItems.length,  ok: true },
-      science:   { updated_at: NOW_ISO, item_count: sciItems.length,   ok: true },
-      sports:    { updated_at: NOW_ISO, item_count: sportsItems.length,ok: true },
-      briefing:  { updated_at: NOW_ISO, ok: false, ai_used: false },
+      hr_news:       { updated_at: NOW_ISO, item_count: hrItems.length,       ok: true },
+      world_news:    { updated_at: NOW_ISO, item_count: worldItems.length,    ok: true },
+      finance_news:  { updated_at: NOW_ISO, item_count: financeItems.length,  ok: true },
+      tech_news:     { updated_at: NOW_ISO, item_count: techItems.length,     ok: true },
+      science:       { updated_at: NOW_ISO, item_count: sciItems.length,      ok: true },
+      sports:        { updated_at: NOW_ISO, item_count: sportsItems.length,   ok: true },
+      entertainment: { updated_at: NOW_ISO, item_count: entertainItems.length,ok: true },
+      health:        { updated_at: NOW_ISO, item_count: healthItems.length,   ok: true },
+      food:          { updated_at: NOW_ISO, item_count: foodItems.length,     ok: true },
+      briefing:      { updated_at: NOW_ISO, ok: false, ai_used: false },
     },
   };
 
   writeFileSync(join(DATA, 'metadata.json'), JSON.stringify(metadata, null, 2), 'utf8');
   console.log('\n✅ Fetch complete. Run generate-briefing.mjs next.\n');
-
-  return { hrItems, techItems, sciItems };
 }
 
 

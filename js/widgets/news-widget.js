@@ -1,11 +1,17 @@
 import { escapeHtml, truncate, stripHtml, timeAgo } from '../utils/helpers.js';
 
 const DEFAULT_TABS = [
-  { key: 'hr',      label: 'HR Vijesti', file: 'data/hr-news.json'      },
-  { key: 'tech',    label: 'Tech / AI',  file: 'data/tech-news.json'    },
-  { key: 'science', label: 'Znanost',    file: 'data/science-news.json' },
-  { key: 'sport',   label: 'Sport',      file: 'data/sports.json'       },
-  { key: 'ostalo',  label: 'Ostalo',     files: [],  catch_all: true    },
+  { key: 'hr',            label: 'HR Vijesti', file: 'data/hr-news.json'            },
+  { key: 'world',         label: 'Svijet',     file: 'data/world-news.json'         },
+  { key: 'finance',       label: 'Financije',  file: 'data/finance-news.json'       },
+  { key: 'tech',          label: 'Tech / AI',  file: 'data/tech-news.json'          },
+  { key: 'science',       label: 'Znanost',    file: 'data/science-news.json'       },
+  { key: 'sport',         label: 'Sport',      file: 'data/sports.json'             },
+  { key: 'entertainment', label: 'Zabava',     file: 'data/entertainment-news.json' },
+  { key: 'health',        label: 'Zdravlje',   file: 'data/health-news.json'        },
+  { key: 'food',          label: 'Hrana',      file: 'data/food-news.json'          },
+  { key: 'zbivanja',      label: 'Zbivanja',   file: 'data/zbivanja.json'           },
+  { key: 'ostalo',        label: 'Ostalo',     files: [],  catch_all: true          },
 ];
 
 const MAX_ITEMS      = 20;
