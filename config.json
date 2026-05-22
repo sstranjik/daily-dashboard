@@ -28,7 +28,8 @@
       { "key": "tech",    "label": "Tech / AI",  "file": "data/tech-news.json"    },
       { "key": "science", "label": "Znanost",    "file": "data/science-news.json" },
       { "key": "sport",   "label": "Sport",      "file": "data/sports.json"       },
-      { "key": "ostalo",  "label": "Ostalo",     "files": [],   "catch_all": true }
+      { "key": "zbivanja", "label": "Zbivanja",   "file": "data/zbivanja.json"      },
+      { "key": "ostalo",   "label": "Ostalo",    "files": [],   "catch_all": true }
     ]
   },
   "weather": {

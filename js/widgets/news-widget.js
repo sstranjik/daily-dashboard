@@ -200,6 +200,18 @@ function attachRefreshHandler(el) {
     await refreshAllTabs(el);
     btn?.classList.remove('spinning');
     updateFooterLabel();
+    // Show data age so user knows if content actually changed
+    try {
+      const { loadDataFile } = await import('../api/data-loader.js');
+      const meta = await loadDataFile('data/metadata.json');
+      if (meta?.last_updated) {
+        const age = new Date(meta.last_updated);
+        const label = age.toLocaleString('hr-HR', { day:'numeric', month:'numeric', hour:'2-digit', minute:'2-digit' });
+        import('../app.js').then(m =>
+          m.showToast(`Vijesti osvježene · Podaci od ${label}`, 'info', 4000)
+        );
+      }
+    } catch { /* no metadata */ }
   });
 }
 
