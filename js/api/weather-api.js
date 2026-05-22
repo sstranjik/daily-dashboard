@@ -28,8 +28,8 @@ export async function fetchWeatherData(lat, lon) {
       'precipitation_sum',
       'precipitation_probability_max',
     ].join(','),
-    timezone:      'auto',
-    forecast_days: '4',
+    timezone:        'auto',
+    forecast_days:   '7',    // 7 days for topbar strip
     wind_speed_unit: 'kmh',
   });
 

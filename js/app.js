@@ -11,8 +11,7 @@ import { renderNews }          from './widgets/news-widget.js';
 import { renderSports }        from './widgets/sports-widget.js';
 import { renderProductivity }  from './widgets/productivity-widget.js';
 
-// ─── STATE ───────────────────────────────────────────────────────────────────
-let appConfig = null;
+let appConfig   = null;
 let isRefreshing = false;
 
 // ─── INIT ─────────────────────────────────────────────────────────────────────
@@ -24,7 +23,6 @@ async function init() {
   attachTopbarHandlers();
   attachSettingsPanel(appConfig);
 
-  // Load all data in parallel, don't let one failure block others
   const [briefing, hrNews, techNews, science, sports, metadata] = await Promise.allSettled([
     loadDataFile('data/briefing.json'),
     loadDataFile('data/hr-news.json'),
@@ -37,22 +35,17 @@ async function init() {
   renderBriefing(briefing.status === 'fulfilled' ? briefing.value : null);
 
   renderNews('widget-hr-news', {
-    title: '🇭🇷 Hrvatske vijesti',
-    label: 'HR VIJESTI',
+    title: '🇭🇷 Hrvatske vijesti', label: 'HR VIJESTI',
     data: hrNews.status === 'fulfilled' ? hrNews.value : null,
     config: appConfig.news,
   });
-
   renderNews('widget-tech', {
-    title: '💻 Tech & AI',
-    label: 'TECH / AI',
+    title: '💻 Tech & AI', label: 'TECH / AI',
     data: techNews.status === 'fulfilled' ? techNews.value : null,
     config: appConfig.news,
   });
-
   renderNews('widget-science', {
-    title: '🔬 Znanost',
-    label: 'ZNANOST',
+    title: '🔬 Znanost', label: 'ZNANOST',
     data: science.status === 'fulfilled' ? science.value : null,
     config: appConfig.news,
   });
@@ -64,7 +57,6 @@ async function init() {
     updateLastUpdateBadge(metadata.value.last_updated);
   }
 
-  // Weather is fetched live from Open-Meteo
   initWeather(appConfig.location);
 }
 
@@ -76,13 +68,13 @@ async function initWeather(location) {
   const cached = cache.get(CACHE_KEY);
   if (cached) {
     renderWeather(cached, location);
-    updateTopbarWeather(cached);
+    updateTopbarForecast(cached);
     return;
   }
 
   try {
-    let lat = location.lat;
-    let lon = location.lon;
+    let lat  = location.lat;
+    let lon  = location.lon;
     let city = location.default_city;
 
     if (location.auto_detect && navigator.geolocation) {
@@ -103,38 +95,54 @@ async function initWeather(location) {
       } catch { /* fall back to default coords */ }
     }
 
-    const data = await fetchWeatherData(lat, lon);
-    data._city = city;
+    const data  = await fetchWeatherData(lat, lon);
+    data._city  = city;
     cache.set(CACHE_KEY, data, CACHE_TTL);
     renderWeather(data, { ...location, _city: city });
-    updateTopbarWeather(data);
+    updateTopbarForecast(data);
   } catch (err) {
     console.error('Weather fetch failed:', err);
     document.getElementById('widget-weather').innerHTML = `
-      <div class="widget-header">
-        <span class="widget-label">WEATHER</span>
-      </div>
-      <div class="error-state">⚠ Nije moguće dohvatiti podatke o vremenu. Provjeri internet vezu.</div>`;
+      <div class="widget-header"><span class="widget-label">WEATHER</span></div>
+      <div class="error-state">⚠ Nije moguće dohvatiti podatke o vremenu.</div>`;
+    document.getElementById('topbar-weather').innerHTML =
+      `<span style="font-size:11px;color:var(--text-muted);font-family:var(--font-mono)">–</span>`;
   }
 }
 
-// ─── TOPBAR WEATHER SUMMARY ───────────────────────────────────────────────────
-function updateTopbarWeather(data) {
+// ─── TOPBAR 7-DAY FORECAST STRIP ──────────────────────────────────────────────
+function updateTopbarForecast(data) {
   const el = document.getElementById('topbar-weather');
-  if (!el || !data?.current) return;
-  const { temperature_2m, weathercode } = data.current;
-  const icon = weatherCodeToEmoji(weathercode);
-  el.innerHTML = `
-    <span class="topbar-weather-icon">${icon}</span>
-    <span class="topbar-weather-temp">${Math.round(temperature_2m)}°C</span>
-    <span class="topbar-weather-desc">${weatherCodeToText(weathercode)}</span>`;
+  if (!el || !data?.daily) return;
+
+  const days = data.daily;
+  const shortDays = ['NED','PON','UTO','SRI','ČET','PET','SUB'];
+
+  const items = (days.time ?? []).slice(0, 7).map((dateStr, i) => {
+    const date   = new Date(dateStr + 'T12:00:00');
+    const isToday = i === 0;
+    const name   = isToday ? 'DANAS' : shortDays[date.getDay()];
+    const icon   = weatherCodeToEmoji(days.weathercode[i]);
+    const temp   = Math.round(days.temperature_2m_max[i]);
+    const rain   = days.precipitation_probability_max?.[i] ?? 0;
+
+    return `
+      <div class="fc-day${isToday ? ' is-today' : ''}" title="${dateStr}">
+        <span class="fc-name">${name}</span>
+        <span class="fc-icon">${icon}</span>
+        <span class="fc-temp">${temp}°</span>
+        ${rain >= 30 ? `<span class="fc-rain">${rain}%</span>` : ''}
+      </div>`;
+  });
+
+  el.innerHTML = items.join('');
 }
 
 // ─── LAST UPDATE BADGE ────────────────────────────────────────────────────────
 function updateLastUpdateBadge(isoStr) {
   const el = document.getElementById('last-update-badge');
   if (!el || !isoStr) return;
-  el.textContent = `Updated ${timeAgo(new Date(isoStr))}`;
+  el.textContent = `↻ ${timeAgo(new Date(isoStr))}`;
   el.removeAttribute('hidden');
 }
 
@@ -149,19 +157,18 @@ async function refreshAll() {
   cache.remove('weather_data');
   await initWeather(appConfig.location);
 
-  showToast('Dashboard refreshed', 'success');
-
+  showToast('Dashboard osvježen', 'success');
   btn?.classList.remove('spinning');
   isRefreshing = false;
 }
 
 // ─── SETTINGS ─────────────────────────────────────────────────────────────────
 function attachSettingsPanel(cfg) {
-  const panel   = document.getElementById('settings-panel');
-  const overlay = document.getElementById('settings-overlay');
-  const body    = document.getElementById('settings-body');
-  const openBtn = document.getElementById('settings-btn');
-  const closeBtn= document.getElementById('close-settings-btn');
+  const panel    = document.getElementById('settings-panel');
+  const overlay  = document.getElementById('settings-overlay');
+  const body     = document.getElementById('settings-body');
+  const openBtn  = document.getElementById('settings-btn');
+  const closeBtn = document.getElementById('close-settings-btn');
 
   const open  = () => { panel.classList.remove('hidden'); overlay.classList.remove('hidden'); renderSettingsBody(cfg, body); };
   const close = () => { panel.classList.add('hidden'); overlay.classList.add('hidden'); };
@@ -174,15 +181,11 @@ function attachSettingsPanel(cfg) {
 
 function renderSettingsBody(cfg, container) {
   const widgetNames = {
-    briefing: 'Jutarnji pregled',
-    weather: 'Vrijeme',
-    hr_news: 'Hrvatske vijesti',
-    tech_news: 'Tech / AI',
-    science: 'Znanost',
-    sports: 'Sport',
+    briefing: 'Jutarnji pregled', weather: 'Vrijeme',
+    hr_news: 'Hrvatske vijesti',  tech_news: 'Tech / AI',
+    science: 'Znanost',           sports: 'Sport',
     productivity: 'Produktivnost',
   };
-
   const savedPrefs = JSON.parse(localStorage.getItem('dashboard_prefs') || '{}');
 
   container.innerHTML = `
@@ -191,26 +194,24 @@ function renderSettingsBody(cfg, container) {
       ${Object.entries(widgetNames).map(([key, name]) => {
         const enabled = savedPrefs[key] !== undefined ? savedPrefs[key] : (cfg.widgets[key]?.enabled !== false);
         return `
-        <div class="settings-row">
-          <div>
-            <div class="settings-row-label">${name}</div>
-          </div>
-          <label class="toggle">
-            <input type="checkbox" data-widget-key="${key}" ${enabled ? 'checked' : ''}>
-            <span class="toggle-track"></span>
-          </label>
-        </div>`;
+          <div class="settings-row">
+            <div><div class="settings-row-label">${name}</div></div>
+            <label class="toggle">
+              <input type="checkbox" data-widget-key="${key}" ${enabled ? 'checked' : ''}>
+              <span class="toggle-track"></span>
+            </label>
+          </div>`;
       }).join('')}
     </div>
     <div class="settings-section">
       <div class="settings-section-title">Lokacija</div>
       <div class="settings-row">
         <div>
-          <div class="settings-row-label">Automatski detekcija</div>
+          <div class="settings-row-label">Automatska detekcija</div>
           <div class="settings-row-sublabel">Koristi GPS za lokaciju</div>
         </div>
         <label class="toggle">
-          <input type="checkbox" id="pref-geolocation" ${cfg.location.auto_detect ? 'checked' : ''}>
+          <input type="checkbox" ${cfg.location.auto_detect ? 'checked' : ''}>
           <span class="toggle-track"></span>
         </label>
       </div>
@@ -219,11 +220,11 @@ function renderSettingsBody(cfg, container) {
       <div class="settings-section-title">O dashboardu</div>
       <div class="settings-row">
         <div class="settings-row-label">Verzija</div>
-        <span style="font-size:12px;color:var(--text-muted)">1.0.0</span>
+        <span style="font-family:var(--font-mono);font-size:11px;color:var(--text-muted)">1.1.0</span>
       </div>
       <div class="settings-row">
-        <div class="settings-row-label">Podaci se osvježavaju</div>
-        <span style="font-size:12px;color:var(--text-muted)">Svako jutro u 7:00</span>
+        <div class="settings-row-label">Automatski refresh</div>
+        <span style="font-family:var(--font-mono);font-size:11px;color:var(--text-muted)">07:00 svaki dan</span>
       </div>
     </div>`;
 
@@ -232,20 +233,16 @@ function renderSettingsBody(cfg, container) {
       const prefs = JSON.parse(localStorage.getItem('dashboard_prefs') || '{}');
       prefs[input.dataset.widgetKey] = input.checked;
       localStorage.setItem('dashboard_prefs', JSON.stringify(prefs));
-
-      const sectionId = `section-${input.dataset.widgetKey.replace('_', '-')}`;
-      const section = document.getElementById(sectionId) ||
-        document.querySelector(`[data-widget="${input.dataset.widgetKey}"]`);
+      const section = document.querySelector(`[data-widget="${input.dataset.widgetKey}"]`);
       if (section) section.style.display = input.checked ? '' : 'none';
     });
   });
 }
 
-// ─── EVENT HANDLERS ───────────────────────────────────────────────────────────
+// ─── TOPBAR HANDLERS ──────────────────────────────────────────────────────────
 function attachTopbarHandlers() {
   document.getElementById('refresh-all-btn')?.addEventListener('click', refreshAll);
 
-  // Apply saved widget visibility on load
   const prefs = JSON.parse(localStorage.getItem('dashboard_prefs') || '{}');
   Object.entries(prefs).forEach(([key, visible]) => {
     const section = document.querySelector(`[data-widget="${key}"]`);
@@ -264,18 +261,18 @@ export function showToast(message, type = 'info', duration = 3000) {
   setTimeout(() => toast.remove(), duration);
 }
 
-// ─── WEATHER HELPERS (shared with topbar) ─────────────────────────────────────
+// ─── WEATHER HELPERS ──────────────────────────────────────────────────────────
 export function weatherCodeToEmoji(code) {
-  if (code === 0) return '☀️';
-  if (code <= 2) return '🌤️';
-  if (code === 3) return '☁️';
-  if (code <= 48) return '🌫️';
-  if (code <= 57) return '🌦️';
-  if (code <= 67) return '🌧️';
-  if (code <= 77) return '❄️';
-  if (code <= 82) return '🌦️';
-  if (code <= 86) return '🌨️';
-  if (code <= 99) return '⛈️';
+  if (code === 0)  return '☀️';
+  if (code <= 2)   return '🌤️';
+  if (code === 3)  return '☁️';
+  if (code <= 48)  return '🌫️';
+  if (code <= 57)  return '🌦️';
+  if (code <= 67)  return '🌧️';
+  if (code <= 77)  return '❄️';
+  if (code <= 82)  return '🌦️';
+  if (code <= 86)  return '🌨️';
+  if (code <= 99)  return '⛈️';
   return '🌡️';
 }
 
