@@ -1121,3 +1121,30 @@
   color: var(--text-primary);
   background: var(--bg-tertiary);
 }
+
+/* Keep link badge (clickable) */
+a.task-keep-badge.task-keep-link {
+  text-decoration: none;
+  cursor: pointer;
+  color: var(--text-muted);
+  border-color: var(--border-faint);
+}
+a.task-keep-badge.task-keep-link:hover {
+  color: var(--accent);
+  border-color: var(--accent-border);
+  background: var(--accent-bg);
+}
+
+/* Keep open banner in edit modal */
+.task-keep-open-banner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--sp-3);
+  padding: 8px 10px;
+  margin-bottom: var(--sp-3);
+  background: var(--bg-tertiary);
+  border: 1px solid var(--border-faint);
+  border-radius: var(--r-md);
+  flex-wrap: wrap;
+}

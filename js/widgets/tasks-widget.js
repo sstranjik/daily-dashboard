@@ -48,6 +48,16 @@ export async function renderTasks(config) {
     const data  = await fetchTasks(token, _listId);
     _allTasks   = data.items ?? [];
 
+    // ── DEBUG: log raw task data so we can inspect Keep fields ──────────────
+    // Check DevTools Console → "Tasks raw" to see full task objects incl. links[]
+    const rootForLog = _allTasks.filter(t => !t.parent && t.status !== 'completed');
+    console.group('Tasks raw (%d root tasks)', rootForLog.length);
+    rootForLog.forEach(t => console.log(
+      JSON.stringify({ id: t.id, title: t.title, due: t.due, notes: t.notes?.slice(0,80), links: t.links }, null, 2)
+    ));
+    console.groupEnd();
+    // ────────────────────────────────────────────────────────────────────────
+
     const rootTasks = _allTasks.filter(t => !t.parent && t.status !== 'completed');
     renderTaskList(el, rootTasks);
   } catch (err) {
@@ -58,6 +68,32 @@ export async function renderTasks(config) {
 }
 
 // ─── KEEP / MULTI-LINE NOTE HELPERS ──────────────────────────────────────────
+
+/**
+ * Returns the Keep note URL from task.links[] if Google set one,
+ * or null if the task has no Keep link.
+ * Google Tasks stores Keep note links in the links[] array with type "email"
+ * and a description containing "keep" or a link pointing to keep.google.com.
+ */
+function getKeepLink(task) {
+  if (!task.links?.length) return null;
+  for (const l of task.links) {
+    const url = l.link || '';
+    if (url.includes('keep.google.com') || url.includes('keep.googleapis.com')) {
+      return url;
+    }
+  }
+  return null;
+}
+
+/**
+ * Returns true if the task was imported from / linked to Google Keep.
+ * Detection: task.links[] contains a Keep URL, OR title is empty with multi-line notes.
+ */
+function isKeepTask(task) {
+  return !!(getKeepLink(task) || (!task.title?.trim() && task.notes?.includes('\n')));
+}
+
 function isMultiLineNote(task) {
   return !!(task.notes && task.notes.includes('\n'));
 }
@@ -131,18 +167,25 @@ function renderTaskList(el, tasks) {
     const subtaskDone  = _allTasks.filter(t => t.parent === task.id && t.status === 'completed').length;
     const subtaskTotal = subtaskCount + subtaskDone;
 
-    const displayTitle   = getDisplayTitle(task);
-    const notesPreview   = getNotesPreview(task);
-    const multiLine      = isMultiLineNote(task);
-    const hasNoTitle     = !task.title || !task.title.trim();
+    const displayTitle = getDisplayTitle(task);
+    const notesPreview = getNotesPreview(task);
+    const multiLine    = isMultiLineNote(task);
+    const hasNoTitle   = !task.title || !task.title.trim();
+    const keepLink     = getKeepLink(task);
+    const fromKeep     = isKeepTask(task);
 
-    const noteText = notesPreview.replace(/\s+/g, ' ').trim();
-    const notesHtml = noteText
-      ? `<div class="task-notes">${escHtml(noteText)}${hasNoTitle ? ' <span class="task-keep-badge">bilj.</span>' : ''}</div>`
-      : hasNoTitle && multiLine
-        ? `<div class="task-notes"><span class="task-keep-badge">bilj.</span></div>`
-        : '';
+    // Notes row: preview text + Keep badge (clickable if we have a link)
+    const noteText   = notesPreview.replace(/\s+/g, ' ').trim();
+    const keepBadge  = fromKeep
+      ? keepLink
+        ? `<a class="task-keep-badge task-keep-link" href="${escHtml(keepLink)}" target="_blank" rel="noopener" title="Otvori u Google Keep" onclick="event.stopPropagation()">Keep ↗</a>`
+        : `<span class="task-keep-badge" title="Iz Google Keep">Keep</span>`
+      : '';
+    const notesHtml  = (noteText || fromKeep)
+      ? `<div class="task-notes">${noteText ? escHtml(noteText) + ' ' : ''}${keepBadge}</div>`
+      : '';
 
+    // Due date row
     let dueHtml = '';
     if (task.due) {
       const dueInfo = parseDueInfo(task.due);
@@ -179,14 +222,14 @@ function renderTaskList(el, tasks) {
     }
 
     return `
-      <div class="task-item" data-task-id="${escHtml(task.id)}" data-list-id="${escHtml(_listId)}">
+      <div class="task-item" data-task-id="${escHtml(task.id)}" data-list-id="${escHtml(_listId)}"${keepLink ? ` data-keep-link="${escHtml(keepLink)}"` : ''}>
         <input type="checkbox" class="task-check" aria-label="Završi zadatak">
         <div class="task-body">
           <div class="task-title">${escHtml(displayTitle)}</div>
           ${notesHtml}
           ${dueHtml}
         </div>
-        <span class="task-edit-hint">uredi →</span>
+        <span class="task-edit-hint">${fromKeep && keepLink ? 'Keep ↗' : 'uredi →'}</span>
       </div>`;
   }).join('');
 
@@ -207,7 +250,17 @@ function renderTaskList(el, tasks) {
 function attachTaskHandlers(el, tasks) {
   el.querySelectorAll('.task-item').forEach(row => {
     row.addEventListener('click', e => {
+      // Let anchor clicks (Keep badge link) pass through natively
+      if (e.target.closest('a')) return;
       if (e.target.classList.contains('task-check')) return;
+
+      // If task has a Keep link and user clicked the edit-hint area → open Keep
+      const keepLink = row.dataset.keepLink;
+      if (keepLink && e.target.classList.contains('task-edit-hint')) {
+        window.open(keepLink, '_blank', 'noopener');
+        return;
+      }
+
       const task = tasks.find(t => t.id === row.dataset.taskId);
       if (task) openTaskModal(task);
     });
@@ -247,10 +300,18 @@ function openTaskModal(task) {
   const overlay = document.getElementById('task-modal-overlay');
   if (!modal) return;
 
-  const titleEl = document.getElementById('task-edit-title');
-  const dateEl  = document.getElementById('task-edit-date');
-  const timeEl  = document.getElementById('task-edit-time');
-  const notesEl = document.getElementById('task-edit-notes');
+  const titleEl  = document.getElementById('task-edit-title');
+  const dateEl   = document.getElementById('task-edit-date');
+  const timeEl   = document.getElementById('task-edit-time');
+  const notesEl  = document.getElementById('task-edit-notes');
+  const keepLink = getKeepLink(task);
+  const fromKeep = isKeepTask(task);
+
+  // Update modal title to hint Keep origin
+  const modalTitle = document.getElementById('task-modal-title');
+  if (modalTitle) {
+    modalTitle.textContent = fromKeep ? 'Zadatak (Google Keep)' : 'Uredi zadatak';
+  }
 
   if (titleEl) titleEl.value = task.title || '';
   if (dateEl)  dateEl.value  = task.due ? task.due.slice(0, 10) : '';
@@ -282,7 +343,7 @@ function openTaskModal(task) {
   }
 
   // Render subtasks + Keep checklist sections
-  renderSubtasksInModal(modal, task);
+  renderSubtasksInModal(modal, task, keepLink);
 
   modal.classList.remove('hidden');
   overlay.classList.remove('hidden');
@@ -354,12 +415,26 @@ function openTaskModal(task) {
   overlay?.addEventListener('click', cleanup);
 }
 
-function renderSubtasksInModal(modal, task) {
+function renderSubtasksInModal(modal, task, keepLink = null) {
   modal.querySelector('.task-modal-subtasks')?.remove();
   modal.querySelector('.task-keep-checklist-section')?.remove();
+  modal.querySelector('.task-keep-open-banner')?.remove();
 
   const modalBody = modal.querySelector('.modal-body');
   if (!modalBody) return;
+
+  // If task has a Keep link — show an "Open in Keep" banner at the top
+  if (keepLink) {
+    const banner = document.createElement('div');
+    banner.className = 'task-keep-open-banner';
+    banner.innerHTML = `
+      <span style="color:var(--text-muted);font-size:12px">Bilješka u Google Keep — uređivanje tamo je direktno.</span>
+      <a class="btn-secondary" href="${escHtml(keepLink)}" target="_blank" rel="noopener"
+         style="font-size:12px;padding:5px 12px;text-decoration:none;white-space:nowrap">
+        Otvori u Keep ↗
+      </a>`;
+    modalBody.insertBefore(banner, modalBody.firstChild);
+  }
 
   // Keep / multi-line notes checklist
   if (isMultiLineNote(task)) {
