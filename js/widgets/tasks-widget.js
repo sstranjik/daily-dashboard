@@ -1,5 +1,5 @@
 import { getAccessToken, fetchTaskLists, fetchTasks, updateTask, createTask } from '../api/google-api.js';
-import { requestApiAccess } from '../auth.js';
+import { requestApiAccess, GRANTED_KEY } from '../auth.js';
 import { showToast } from '../app.js';
 
 let _listId    = '@default';
@@ -14,7 +14,28 @@ export async function renderTasks(config) {
   el.classList.remove('loading');
 
   const token = getAccessToken();
-  if (!token) { showConnectPrompt(el, config); return; }
+  if (!token) {
+    // If user previously granted access, show skeleton while silent re-auth runs.
+    // auth:token  → app.js re-renders this widget once the token arrives.
+    // auth:silent-failed → fall back to the connect prompt.
+    if (localStorage.getItem(GRANTED_KEY)) {
+      el.innerHTML = headerHtml() + skeletonHtml();
+
+      const onFail = () => {
+        if (!getAccessToken()) showConnectPrompt(el, config);
+      };
+      window.addEventListener('auth:silent-failed', onFail, { once: true });
+
+      // Safety timeout: if nothing fires in 8 s, fall back to connect prompt
+      setTimeout(() => {
+        window.removeEventListener('auth:silent-failed', onFail);
+        if (!getAccessToken()) showConnectPrompt(el, config);
+      }, 8000);
+    } else {
+      showConnectPrompt(el, config);
+    }
+    return;
+  }
 
   el.innerHTML = headerHtml() + skeletonHtml();
 

@@ -1,6 +1,6 @@
 import { getAccessToken } from '../api/google-api.js';
 import { fetchCalendarEvents } from '../api/google-api.js';
-import { requestApiAccess } from '../auth.js';
+import { requestApiAccess, GRANTED_KEY } from '../auth.js';
 
 const shortDays  = ['Ned', 'Pon', 'Uto', 'Sri', 'Čet', 'Pet', 'Sub'];
 const shortMonths = ['sij','velj','ožu','tra','svi','lip','srp','kol','ruj','lis','stu','pro'];
@@ -13,7 +13,25 @@ export async function renderCalendar(config) {
   const token = getAccessToken();
 
   if (!token) {
-    showConnectPrompt(el, config);
+    // If user previously granted access, show skeleton while silent re-auth runs.
+    // auth:token  → app.js re-renders this widget once the token arrives.
+    // auth:silent-failed → fall back to the connect prompt.
+    if (localStorage.getItem(GRANTED_KEY)) {
+      el.innerHTML = loadingHtml();
+
+      const onFail = () => {
+        if (!getAccessToken()) showConnectPrompt(el, config);
+      };
+      window.addEventListener('auth:silent-failed', onFail, { once: true });
+
+      // Safety timeout: if nothing fires in 8 s, fall back to connect prompt
+      setTimeout(() => {
+        window.removeEventListener('auth:silent-failed', onFail);
+        if (!getAccessToken()) showConnectPrompt(el, config);
+      }, 8000);
+    } else {
+      showConnectPrompt(el, config);
+    }
     return;
   }
 
