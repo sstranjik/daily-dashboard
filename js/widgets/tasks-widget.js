@@ -27,7 +27,6 @@ export async function renderTasks(config) {
     const data  = await fetchTasks(token, _listId);
     _allTasks   = data.items ?? [];
 
-    // Root tasks that are not completed
     const rootTasks = _allTasks.filter(t => !t.parent && t.status !== 'completed');
     renderTaskList(el, rootTasks);
   } catch (err) {
@@ -35,6 +34,52 @@ export async function renderTasks(config) {
     if (err.message?.includes('401')) showConnectPrompt(el, config);
     else el.innerHTML = headerHtml() + `<div class="error-state">⚠ Greška pri dohvaćanju taskova.</div>`;
   }
+}
+
+// ─── KEEP / MULTI-LINE NOTE HELPERS ──────────────────────────────────────────
+function isMultiLineNote(task) {
+  return !!(task.notes && task.notes.includes('\n'));
+}
+
+function getDisplayTitle(task) {
+  if (task.title && task.title.trim()) return task.title;
+  if (task.notes) {
+    const firstLine = task.notes.split('\n')[0].trim();
+    if (firstLine) return firstLine;
+  }
+  return '(bez naslova)';
+}
+
+function getNotesPreview(task) {
+  if (!task.notes) return '';
+  const lines = task.notes.split('\n').filter(l => l.trim());
+  if (!task.title || !task.title.trim()) {
+    // Title derived from first line — show second line as preview
+    return lines.length > 1 ? lines[1].trim() : '';
+  }
+  return lines[0] || '';
+}
+
+// ─── DUE DATE HELPERS ─────────────────────────────────────────────────────────
+/**
+ * Returns { date: Date, showTime: boolean }.
+ * Midnight UTC (Google Tasks date-only) → local-date parse, no time shown.
+ * Any other time → UTC Date parse, time shown in local timezone.
+ */
+function parseDueInfo(due) {
+  if (!due) return null;
+  const isDateOnly = /T00:00:00(\.000)?Z$/.test(due);
+  if (isDateOnly) {
+    const [y, m, d] = due.slice(0, 10).split('-').map(Number);
+    return { date: new Date(y, m - 1, d), showTime: false };
+  }
+  return { date: new Date(due), showTime: true };
+}
+
+function localMidnight(date) {
+  const d = new Date(date);
+  d.setHours(0, 0, 0, 0);
+  return d;
 }
 
 // ─── RENDER LIST ──────────────────────────────────────────────────────────────
@@ -52,10 +97,11 @@ function renderTaskList(el, tasks) {
 
   const today = localMidnight(new Date());
 
+  // Sort ascending by full datetime; tasks without due date go last
   const sorted = [...tasks].sort((a, b) => {
     if (a.due && !b.due) return -1;
     if (!a.due && b.due) return  1;
-    if (a.due && b.due)  return parseDueDate(a.due) - parseDueDate(b.due);
+    if (a.due && b.due)  return parseDueInfo(a.due).date - parseDueInfo(b.due).date;
     return 0;
   });
 
@@ -64,22 +110,34 @@ function renderTaskList(el, tasks) {
     const subtaskDone  = _allTasks.filter(t => t.parent === task.id && t.status === 'completed').length;
     const subtaskTotal = subtaskCount + subtaskDone;
 
-    // Notes — single line, truncated by CSS
-    const notesHtml = task.notes
-      ? `<div class="task-notes">${escHtml(task.notes.replace(/\s+/g, ' ').trim())}</div>`
-      : '';
+    const displayTitle   = getDisplayTitle(task);
+    const notesPreview   = getNotesPreview(task);
+    const multiLine      = isMultiLineNote(task);
+    const hasNoTitle     = !task.title || !task.title.trim();
 
-    // Due date — date only, no time (Google Tasks is date-only)
+    const noteText = notesPreview.replace(/\s+/g, ' ').trim();
+    const notesHtml = noteText
+      ? `<div class="task-notes">${escHtml(noteText)}${hasNoTitle ? ' <span class="task-keep-badge">bilj.</span>' : ''}</div>`
+      : hasNoTitle && multiLine
+        ? `<div class="task-notes"><span class="task-keep-badge">bilj.</span></div>`
+        : '';
+
     let dueHtml = '';
     if (task.due) {
-      const due  = parseDueDate(task.due);
-      const diff = Math.round((due - today) / 86400000);
+      const dueInfo = parseDueInfo(task.due);
+      const due     = dueInfo.date;
+      const diff    = Math.round((localMidnight(due) - today) / 86400000);
       let cls = '', label = '';
       if      (diff < 0)  { cls = 'overdue'; label = `Zakašnjelo ${Math.abs(diff)}d`; }
       else if (diff === 0) { cls = 'today';   label = 'Danas'; }
       else if (diff === 1) { label = 'Sutra'; }
       else if (diff <= 6)  { label = due.toLocaleDateString('hr-HR', { weekday: 'short', day: 'numeric', month: 'numeric' }); }
       else                 { label = due.toLocaleDateString('hr-HR', { day: 'numeric', month: 'short' }); }
+
+      if (dueInfo.showTime) {
+        const timeStr = due.toLocaleTimeString('hr-HR', { hour: '2-digit', minute: '2-digit' });
+        label += ` · ${timeStr}`;
+      }
 
       dueHtml = `
         <div class="task-meta">
@@ -103,7 +161,7 @@ function renderTaskList(el, tasks) {
       <div class="task-item" data-task-id="${escHtml(task.id)}" data-list-id="${escHtml(_listId)}">
         <input type="checkbox" class="task-check" aria-label="Završi zadatak">
         <div class="task-body">
-          <div class="task-title">${escHtml(task.title || '(bez naslova)')}</div>
+          <div class="task-title">${escHtml(displayTitle)}</div>
           ${notesHtml}
           ${dueHtml}
         </div>
@@ -170,20 +228,39 @@ function openTaskModal(task) {
 
   const titleEl = document.getElementById('task-edit-title');
   const dateEl  = document.getElementById('task-edit-date');
+  const timeEl  = document.getElementById('task-edit-time');
   const notesEl = document.getElementById('task-edit-notes');
 
-  // Hide the unused time row
-  const timeRow = dateEl?.closest('.modal-row');
-  if (timeRow) {
-    const timeField = document.getElementById('task-edit-time')?.closest('.modal-field');
-    if (timeField) timeField.style.display = 'none';
-  }
-
   if (titleEl) titleEl.value = task.title || '';
-  if (notesEl) notesEl.value = task.notes || '';
   if (dateEl)  dateEl.value  = task.due ? task.due.slice(0, 10) : '';
 
-  // Render subtasks section
+  // Show/hide time field based on whether task has a real (non-midnight) time
+  const timeField = timeEl?.closest('.modal-field');
+  if (timeField) {
+    const dueInfo = task.due ? parseDueInfo(task.due) : null;
+    if (dueInfo?.showTime) {
+      timeField.style.display = '';
+      timeEl.value = dueInfo.date.toLocaleTimeString('hr-HR', {
+        hour: '2-digit', minute: '2-digit', hour12: false,
+      });
+    } else {
+      timeField.style.display = 'none';
+      if (timeEl) timeEl.value = '';
+    }
+  }
+
+  // Notes: hide textarea for multi-line notes (shown as checklist instead)
+  const multiLine = isMultiLineNote(task);
+  if (notesEl) {
+    if (multiLine) {
+      notesEl.style.display = 'none';
+    } else {
+      notesEl.style.display = '';
+      notesEl.value = task.notes || '';
+    }
+  }
+
+  // Render subtasks + Keep checklist sections
   renderSubtasksInModal(modal, task);
 
   modal.classList.remove('hidden');
@@ -197,6 +274,8 @@ function openTaskModal(task) {
   const cleanup = () => {
     modal.classList.add('hidden');
     overlay.classList.add('hidden');
+    if (notesEl) notesEl.style.display = '';
+    if (timeField) timeField.style.display = 'none';
     saveBtn?.removeEventListener('click', onSave);
     cancelBtn?.removeEventListener('click', cleanup);
     closeBtn?.removeEventListener('click', cleanup);
@@ -205,9 +284,31 @@ function openTaskModal(task) {
 
   const onSave = async () => {
     const updates = { title: titleEl?.value?.trim() || task.title };
-    if (notesEl?.value !== undefined) updates.notes = notesEl.value;
+
+    // Collect notes from checklist or textarea
+    if (multiLine) {
+      const checklist = modal.querySelector('.task-keep-checklist');
+      if (checklist) {
+        const lines = [];
+        checklist.querySelectorAll('.keep-item-text').forEach(inp => {
+          const v = inp.value.trim();
+          if (v) lines.push(v);
+        });
+        updates.notes = lines.join('\n');
+      }
+    } else {
+      if (notesEl?.value !== undefined) updates.notes = notesEl.value;
+    }
+
     if (dateEl?.value) {
-      updates.due = dateEl.value + 'T00:00:00.000Z';
+      const timeVisible = timeField && timeField.style.display !== 'none';
+      if (timeVisible && timeEl?.value) {
+        // Combine date + local time → UTC ISO string
+        const localDt = new Date(dateEl.value + 'T' + timeEl.value + ':00');
+        updates.due = localDt.toISOString();
+      } else {
+        updates.due = dateEl.value + 'T00:00:00.000Z';
+      }
     } else {
       updates.due = null;
     }
@@ -233,12 +334,19 @@ function openTaskModal(task) {
 }
 
 function renderSubtasksInModal(modal, task) {
-  // Remove existing subtasks section if any
   modal.querySelector('.task-modal-subtasks')?.remove();
+  modal.querySelector('.task-keep-checklist-section')?.remove();
 
-  const subtasks = _allTasks.filter(t => t.parent === task.id);
   const modalBody = modal.querySelector('.modal-body');
   if (!modalBody) return;
+
+  // Keep / multi-line notes checklist
+  if (isMultiLineNote(task)) {
+    renderKeepChecklist(modalBody, task);
+  }
+
+  // Regular subtasks section
+  const subtasks = _allTasks.filter(t => t.parent === task.id);
 
   const section = document.createElement('div');
   section.className = 'task-modal-subtasks';
@@ -264,22 +372,19 @@ function renderSubtasksInModal(modal, task) {
 
   modalBody.appendChild(section);
 
-  // Wire up subtask checkboxes
   section.querySelectorAll('.subtask-modal-check').forEach(chk => {
     chk.addEventListener('change', async () => {
-      const row      = chk.closest('.task-subtask-row');
+      const row       = chk.closest('.task-subtask-row');
       const subtaskId = row.dataset.subtaskId;
-      const titleEl  = row.querySelector('.task-subtask-title');
-      const token    = getAccessToken();
+      const titleEl   = row.querySelector('.task-subtask-title');
+      const token     = getAccessToken();
       if (!token) return;
       try {
         const newStatus = chk.checked ? 'completed' : 'needsAction';
         await updateTask(token, _listId, subtaskId, { status: newStatus });
-        // Update local cache
         const sub = _allTasks.find(t => t.id === subtaskId);
         if (sub) sub.status = newStatus;
         titleEl?.classList.toggle('done', chk.checked);
-        // Update badge in list without full re-render
         updateSubtaskBadge(task.id);
       } catch (err) {
         console.error('Subtask toggle failed:', err);
@@ -288,7 +393,6 @@ function renderSubtasksInModal(modal, task) {
     });
   });
 
-  // Add subtask
   section.querySelector('#add-subtask-btn')?.addEventListener('click', async () => {
     const input = section.querySelector('#new-subtask-input');
     const title = input?.value?.trim();
@@ -299,7 +403,6 @@ function renderSubtasksInModal(modal, task) {
       const newSub = await createTask(token, _listId, { title, parent: task.id });
       _allTasks.push(newSub);
       input.value = '';
-      // Re-render subtasks section
       renderSubtasksInModal(modal, task);
       updateSubtaskBadge(task.id);
       showToast('Podzadatak dodan', 'success');
@@ -307,6 +410,52 @@ function renderSubtasksInModal(modal, task) {
       console.error('Create subtask failed:', err);
       showToast('Greška pri dodavanju podzadatka.', 'error');
     }
+  });
+}
+
+function renderKeepChecklist(modalBody, task) {
+  const lines = task.notes.split('\n').filter(l => l.trim());
+
+  const section = document.createElement('div');
+  section.className = 'task-keep-checklist-section';
+
+  const itemsHtml = lines.map(line => `
+    <div class="keep-item">
+      <button class="keep-item-remove" aria-label="Ukloni stavku" title="Ukloni">×</button>
+      <input type="text" class="keep-item-text modal-input" value="${escHtml(line.trim())}" style="flex:1;font-size:12px">
+    </div>`).join('');
+
+  section.innerHTML = `
+    <div class="modal-label" style="margin-top:var(--sp-3);margin-bottom:6px">
+      Sadržaj bilješke <span style="color:var(--text-muted);font-weight:400">(${lines.length} stavki)</span>
+    </div>
+    <div class="task-keep-checklist">${itemsHtml}</div>
+    <div style="display:flex;gap:var(--sp-2);margin-top:6px">
+      <input type="text" class="modal-input" id="new-keep-line-input"
+             placeholder="Nova stavka…" style="flex:1;font-size:12px">
+      <button class="btn-secondary" id="add-keep-line-btn" style="font-size:12px;padding:6px 12px;white-space:nowrap">+ Dodaj</button>
+    </div>`;
+
+  modalBody.appendChild(section);
+
+  section.querySelectorAll('.keep-item-remove').forEach(btn => {
+    btn.addEventListener('click', () => btn.closest('.keep-item')?.remove());
+  });
+
+  section.querySelector('#add-keep-line-btn')?.addEventListener('click', () => {
+    const input    = section.querySelector('#new-keep-line-input');
+    const text     = input?.value?.trim();
+    if (!text) return;
+    const checklist = section.querySelector('.task-keep-checklist');
+    const newItem   = document.createElement('div');
+    newItem.className = 'keep-item';
+    newItem.innerHTML = `
+      <button class="keep-item-remove" aria-label="Ukloni stavku" title="Ukloni">×</button>
+      <input type="text" class="keep-item-text modal-input" value="${escHtml(text)}" style="flex:1;font-size:12px">`;
+    newItem.querySelector('.keep-item-remove')?.addEventListener('click', () => newItem.remove());
+    checklist.appendChild(newItem);
+    if (input) input.value = '';
+    input?.focus();
   });
 }
 
@@ -344,20 +493,6 @@ function showConnectPrompt(el, config) {
   el.querySelector('#tasks-connect-btn')?.addEventListener('click', () => {
     requestApiAccess(config, async () => { await renderTasks(config); });
   });
-}
-
-// ─── DATE HELPERS ─────────────────────────────────────────────────────────────
-/** Parse Google Tasks due date (always UTC midnight) as local date */
-function parseDueDate(due) {
-  const s = due.slice(0, 10); // "2026-05-22"
-  const [y, m, d] = s.split('-').map(Number);
-  return new Date(y, m - 1, d); // local midnight — no timezone offset
-}
-
-function localMidnight(date) {
-  const d = new Date(date);
-  d.setHours(0, 0, 0, 0);
-  return d;
 }
 
 // ─── HTML HELPERS ─────────────────────────────────────────────────────────────

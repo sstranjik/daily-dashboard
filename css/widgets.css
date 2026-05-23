@@ -1064,3 +1064,60 @@
   background: var(--accent-bg);
 }
 .briefing-source-link svg { flex-shrink: 0; }
+
+/* ─── KEEP / MULTI-LINE NOTE STYLES ─────────────────────────────────────── */
+.task-keep-badge {
+  display: inline-block;
+  padding: 0 4px;
+  font-family: var(--font-mono);
+  font-size: 9px;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  color: var(--text-muted);
+  background: var(--bg-tertiary);
+  border: 1px solid var(--border-faint);
+  border-radius: 3px;
+  vertical-align: middle;
+  line-height: 14px;
+}
+
+.task-keep-checklist-section { margin-top: 0; }
+
+.task-keep-checklist {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  max-height: 180px;
+  overflow-y: auto;
+  scrollbar-width: thin;
+  scrollbar-color: var(--border-subtle) transparent;
+  padding-right: 2px;
+}
+
+.keep-item {
+  display: flex;
+  align-items: center;
+  gap: var(--sp-2);
+}
+
+.keep-item-remove {
+  flex-shrink: 0;
+  width: 18px;
+  height: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  line-height: 1;
+  color: var(--text-muted);
+  background: none;
+  border: none;
+  border-radius: var(--r-sm);
+  cursor: pointer;
+  padding: 0;
+  transition: color var(--dur), background var(--dur);
+}
+.keep-item-remove:hover {
+  color: var(--text-primary);
+  background: var(--bg-tertiary);
+}
