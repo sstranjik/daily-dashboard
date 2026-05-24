@@ -10,7 +10,7 @@ import { renderBriefing }                    from './widgets/briefing-widget.js'
 import { renderUnifiedNews }                 from './widgets/news-widget.js';
 import { renderCalendar }                    from './widgets/calendar-widget.js';
 import { renderTasks }                       from './widgets/tasks-widget.js';
-import { loadDataFile }                      from './api/data-loader.js';
+import { loadDataFile, bustCache }            from './api/data-loader.js';
 
 let appConfig    = null;
 let isRefreshing = false;
@@ -168,6 +168,23 @@ async function refreshAll() {
   const btn = document.getElementById('refresh-all-btn');
   btn?.classList.add('spinning');
 
+  // Bust in-memory cache for static data files
+  bustCache('data/briefing.json');
+  bustCache('data/metadata.json');
+
+  // Re-fetch briefing + metadata in parallel with weather
+  const [briefingRes, metaRes] = await Promise.allSettled([
+    loadDataFile('data/briefing.json'),
+    loadDataFile('data/metadata.json'),
+  ]);
+
+  renderBriefing(briefingRes.status === 'fulfilled' ? briefingRes.value : null);
+
+  if (metaRes.status === 'fulfilled' && metaRes.value) {
+    updateLastUpdateBadge(metaRes.value.last_updated);
+  }
+
+  // Re-fetch weather (separate cache layer)
   cache.remove('weather_data');
   await initWeather(appConfig.location);
 
