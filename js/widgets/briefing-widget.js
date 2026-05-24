@@ -9,14 +9,27 @@ export function renderBriefing(data) {
   if (!el) return;
   el.classList.remove('loading');
 
-  if (!data) { el.innerHTML = emptyState(); return; }
+  if (!data) { el.innerHTML = emptyState(); }
+  else if (data.version === 2) { renderV2(el, data); }
+  else { renderV1(el, data); }
 
-  // Version 2 = new structured format; anything else = legacy
-  if (data.version === 2) {
-    renderV2(el, data);
-  } else {
-    renderV1(el, data);
-  }
+  attachRefreshBtn(el);
+}
+
+function attachRefreshBtn(el) {
+  const header = el.querySelector('.widget-header');
+  if (!header || header.querySelector('.brf-refresh-btn')) return;
+
+  const btn = document.createElement('button');
+  btn.className  = 'brf-refresh-btn';
+  btn.id         = 'brf-refresh-btn';
+  btn.title      = 'Pokreni ručni refresh (GitHub Actions)';
+  btn.innerHTML  = `<svg width="11" height="11" viewBox="0 0 11 11" fill="none">
+    <path d="M9.5 5.5A4 4 0 1 1 6.8 1.6" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"/>
+    <path d="M6.5 1h2.5v2.5" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+  </svg>`;
+  btn.addEventListener('click', () => triggerBriefingJob(btn));
+  header.appendChild(btn);
 }
 
 // ─── V2 RENDER ────────────────────────────────────────────────────────────────
@@ -38,12 +51,6 @@ function renderV2(el, d) {
       <div style="display:flex;align-items:center;gap:var(--sp-2)">
         <span style="font-family:var(--font-mono);font-size:10px;color:var(--text-muted)">${d.date_hr ?? formatDate(new Date(d.date))}</span>
         ${genTime ? `<span style="font-family:var(--font-mono);font-size:10px;color:var(--text-muted)">· ${genTime}</span>` : ''}
-        <button class="brf-refresh-btn" id="brf-refresh-btn" title="Pokreni ručni refresh (GitHub Actions)">
-          <svg width="11" height="11" viewBox="0 0 11 11" fill="none">
-            <path d="M9.5 5.5A4 4 0 1 1 6.8 1.6" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"/>
-            <path d="M6.5 1h2.5v2.5" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
-          </svg>
-        </button>
       </div>
     </div>
     <div class="briefing-v2 briefing-scroll">
@@ -53,10 +60,6 @@ function renderV2(el, d) {
       ${aiNewsSection(d.ai_news)}
       ${microTipsSection(d.micro_tips)}
     </div>`;
-
-  el.querySelector('#brf-refresh-btn')?.addEventListener('click', () => triggerBriefingJob(
-    el.querySelector('#brf-refresh-btn')
-  ));
 }
 
 // ─── SECTION: WEATHER ─────────────────────────────────────────────────────────
