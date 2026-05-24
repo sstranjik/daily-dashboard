@@ -5,21 +5,22 @@ const TOKEN_KEY     = 'g_access_token';
 const TOKEN_EXP_KEY = 'g_token_expiry';
 
 export function setAccessToken(token, expiresIn = 3600) {
+  // Store in localStorage so it survives page reloads (valid ~1 hour)
   const expiry = Date.now() + expiresIn * 1000 - 60_000;
-  sessionStorage.setItem(TOKEN_KEY, token);
-  sessionStorage.setItem(TOKEN_EXP_KEY, String(expiry));
+  localStorage.setItem(TOKEN_KEY, token);
+  localStorage.setItem(TOKEN_EXP_KEY, String(expiry));
 }
 
 export function getAccessToken() {
-  const token  = sessionStorage.getItem(TOKEN_KEY);
-  const expiry = Number(sessionStorage.getItem(TOKEN_EXP_KEY));
+  const token  = localStorage.getItem(TOKEN_KEY);
+  const expiry = Number(localStorage.getItem(TOKEN_EXP_KEY));
   if (!token || Date.now() > expiry) return null;
   return token;
 }
 
 export function clearAccessToken() {
-  sessionStorage.removeItem(TOKEN_KEY);
-  sessionStorage.removeItem(TOKEN_EXP_KEY);
+  localStorage.removeItem(TOKEN_KEY);
+  localStorage.removeItem(TOKEN_EXP_KEY);
 }
 
 export async function fetchCalendarEvents(token) {

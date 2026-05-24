@@ -26,11 +26,11 @@ export async function renderTasks(config) {
       };
       window.addEventListener('auth:silent-failed', onFail, { once: true });
 
-      // Safety timeout: if nothing fires in 8 s, fall back to connect prompt
+      // Safety timeout: if nothing fires in 5 s, fall back to connect prompt
       setTimeout(() => {
         window.removeEventListener('auth:silent-failed', onFail);
         if (!getAccessToken()) showConnectPrompt(el, config);
-      }, 8000);
+      }, 5000);
     } else {
       showConnectPrompt(el, config);
     }

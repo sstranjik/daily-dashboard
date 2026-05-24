@@ -1,14 +1,15 @@
-import { setAccessToken, clearAccessToken } from './api/google-api.js';
+import { setAccessToken, clearAccessToken, getAccessToken } from './api/google-api.js';
 
 const STORAGE_KEY = 'dashboard_user';
-export const GRANTED_KEY = 'google_api_granted'; // set once user grants Calendar+Tasks access
+export const GRANTED_KEY = 'google_api_granted';
 const SCOPES      = 'https://www.googleapis.com/auth/calendar.readonly https://www.googleapis.com/auth/tasks';
 
 let _user        = null;
 let _config      = null;
 let _tokenClient = null;
-let _tokenCbs    = []; // per-request callbacks waiting for a fresh token
-let _lastPrompt  = 'none'; // track whether the last requestAccessToken was silent
+let _tokenCbs    = [];
+let _lastPrompt  = 'none';
+let _silentTried = false; // prevent duplicate silent-auth attempts
 
 // ─── ENTRY POINT ──────────────────────────────────────────────────────────────
 export function initAuth(config) {
@@ -26,39 +27,58 @@ export function initAuth(config) {
           m.showToast('Dodaj Google Client ID u config.json.', 'info', 5000)
         )
       );
-    } else {
-      waitForGIS(() => {
-        window.google.accounts.id.initialize({
-          client_id:   clientId,
-          callback:    handleCredentialResponse,
-          auto_select: false,
-        });
-        window.google.accounts.id.renderButton(signinBtn, {
-          theme:          'filled_black',
-          size:           'small',
-          shape:          'pill',
-          text:           'signin',
-          logo_alignment: 'left',
-        });
-
-        // If user previously granted API access → try silent reconnect immediately.
-        // Uses prompt:'none' — no popup, returns token or error, never blocks.
-        if (localStorage.getItem(GRANTED_KEY)) {
-          waitForOAuth2(() => _requestToken(config, 'none'));
-        }
-      });
+      return;
     }
+
+    // ── FAST PATH: valid cached token in localStorage ─────────────────────
+    // Widgets will read it directly from getAccessToken() — no OAuth needed.
+    // Dispatch auth:token on next tick so any listeners set up after initAuth fire.
+    if (getAccessToken()) {
+      setTimeout(() => window.dispatchEvent(new CustomEvent('auth:token')), 0);
+    }
+
+    // ── GIS INIT ─────────────────────────────────────────────────────────
+    waitForGIS(() => {
+      window.google.accounts.id.initialize({
+        client_id:   clientId,
+        callback:    handleCredentialResponse,
+        auto_select: false,
+      });
+      window.google.accounts.id.renderButton(signinBtn, {
+        theme:          'filled_black',
+        size:           'small',
+        shape:          'pill',
+        text:           'signin',
+        logo_alignment: 'left',
+      });
+
+      // If no valid cached token but user previously granted access → silent GIS auth
+      if (!getAccessToken() && localStorage.getItem(GRANTED_KEY) && !_silentTried) {
+        _silentTried = true;
+        _toast('info', 'Spajanje s Google...', 3000);
+        waitForOAuth2(() => _requestToken(config, 'none'));
+      }
+    });
   }
 
   document.getElementById('signout-btn')?.addEventListener('click', signOut);
   window.handleGoogleSignIn = handleCredentialResponse;
 }
 
+// ─── TOAST HELPER (avoids circular import with app.js) ────────────────────────
+function _toast(type, msg, duration = 4000) {
+  import('./app.js').then(m => m.showToast(msg, type, duration)).catch(() => {});
+}
+
 // ─── GIS / OAUTH2 READINESS ───────────────────────────────────────────────────
 function waitForGIS(cb, attempts = 0) {
   if (window.google?.accounts?.id) { cb(); return; }
   if (attempts > 60) {
-    console.warn('GIS did not load in time');
+    console.warn('[Auth] GIS library did not load in time');
+    if (!getAccessToken() && localStorage.getItem(GRANTED_KEY)) {
+      _toast('warning', 'Google biblioteka nije se učitala. Klikni "Poveži" za ručno spajanje.', 6000);
+      window.dispatchEvent(new CustomEvent('auth:silent-failed'));
+    }
     return;
   }
   setTimeout(() => waitForGIS(cb, attempts + 1), 100);
@@ -67,11 +87,9 @@ function waitForGIS(cb, attempts = 0) {
 function waitForOAuth2(cb, attempts = 0) {
   if (window.google?.accounts?.oauth2) { cb(); return; }
   if (attempts > 60) {
-    console.warn('GIS oauth2 did not load in time');
-    // If it never loads and user had granted access, fire silent-failed so widgets fall back
-    if (localStorage.getItem(GRANTED_KEY)) {
-      window.dispatchEvent(new CustomEvent('auth:silent-failed'));
-    }
+    console.warn('[Auth] GIS oauth2 not available');
+    _toast('warning', 'OAuth2 nije dostupan. Klikni "Poveži" za ručno spajanje.', 6000);
+    window.dispatchEvent(new CustomEvent('auth:silent-failed'));
     return;
   }
   setTimeout(() => waitForOAuth2(cb, attempts + 1), 100);
@@ -99,13 +117,16 @@ function _handleTokenResponse(tokenResponse) {
   const wasSilent = _lastPrompt === 'none';
 
   if (tokenResponse.error) {
-    if (!wasSilent) {
-      // Non-silent failures are unexpected — log them
-      console.error('OAuth error:', tokenResponse.error);
-    }
-    // For silent failures, tell widgets to fall back to the connect prompt
+    console.warn('[Auth] Token error:', tokenResponse.error, '(silent:', wasSilent, ')');
+
     if (wasSilent) {
+      _toast('warning',
+        `Auto-spajanje nije uspjelo (${tokenResponse.error}). Klikni "Poveži" u widgetu.`,
+        7000
+      );
       window.dispatchEvent(new CustomEvent('auth:silent-failed'));
+    } else {
+      _toast('error', `Spajanje nije uspjelo: ${tokenResponse.error}`, 6000);
     }
     _tokenCbs = [];
     return;
@@ -114,10 +135,12 @@ function _handleTokenResponse(tokenResponse) {
   setAccessToken(tokenResponse.access_token, tokenResponse.expires_in ?? 3600);
   localStorage.setItem(GRANTED_KEY, '1');
 
-  // Notify widgets that a fresh token is available
-  window.dispatchEvent(new CustomEvent('auth:token'));
+  const wasAutoReconnect = wasSilent;
+  if (wasAutoReconnect) {
+    _toast('success', 'Google Calendar i Tasks spojeni ✓', 3000);
+  }
 
-  // Fire any per-request callbacks (e.g. from "Poveži" button)
+  window.dispatchEvent(new CustomEvent('auth:token'));
   _tokenCbs.forEach(cb => cb(tokenResponse.access_token));
   _tokenCbs = [];
 }
@@ -138,11 +161,10 @@ function handleCredentialResponse(response) {
   localStorage.setItem(STORAGE_KEY, JSON.stringify(_user));
   updateUI();
 
-  // After sign-in: if user previously granted access, get token silently (no popup)
   if (localStorage.getItem(GRANTED_KEY)) {
+    // Previously granted — get token silently
     waitForOAuth2(() => _requestToken(_config, 'none'));
   } else {
-    // First time — dispatch sign-in so widgets refresh and show "Poveži" button
     window.dispatchEvent(new CustomEvent('auth:signin'));
   }
 }
@@ -153,6 +175,7 @@ function signOut() {
   _tokenClient = null;
   _tokenCbs    = [];
   _lastPrompt  = 'none';
+  _silentTried = false;
   localStorage.removeItem(STORAGE_KEY);
   localStorage.removeItem(GRANTED_KEY);
   clearAccessToken();
@@ -191,18 +214,15 @@ export function getUser()    { return _user; }
 export function isSignedIn() { return !!_user; }
 
 /**
- * Request an OAuth token for Calendar + Tasks.
- * Call this from a user-gesture handler (button click) — prompt:'' allows popup.
- * `callback` is called with the token string on success.
+ * Request OAuth token from a user-gesture handler (button click).
+ * Uses prompt:'' so the OAuth popup is allowed by the browser.
  */
 export function requestApiAccess(config, callback) {
   if (!window.google?.accounts?.oauth2) {
-    // GIS not loaded yet — wait for it
     waitForOAuth2(() => requestApiAccess(config, callback));
     return;
   }
   if (callback) _tokenCbs.push(callback);
-  // Use empty prompt so popup is allowed (must be called from user gesture)
   _requestToken(config, '');
 }
 
