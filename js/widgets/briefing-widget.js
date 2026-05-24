@@ -1,4 +1,8 @@
 import { escapeHtml, formatDate } from '../utils/helpers.js';
+import { bustCache, loadDataFile } from '../api/data-loader.js';
+
+const GITHUB_REPO    = 'sstranjik/daily-dashboard';
+const WORKFLOW_FILE  = 'daily-update.yml';
 
 export function renderBriefing(data) {
   const el = document.getElementById('widget-briefing');
@@ -34,6 +38,12 @@ function renderV2(el, d) {
       <div style="display:flex;align-items:center;gap:var(--sp-2)">
         <span style="font-family:var(--font-mono);font-size:10px;color:var(--text-muted)">${d.date_hr ?? formatDate(new Date(d.date))}</span>
         ${genTime ? `<span style="font-family:var(--font-mono);font-size:10px;color:var(--text-muted)">· ${genTime}</span>` : ''}
+        <button class="brf-refresh-btn" id="brf-refresh-btn" title="Pokreni ručni refresh (GitHub Actions)">
+          <svg width="11" height="11" viewBox="0 0 11 11" fill="none">
+            <path d="M9.5 5.5A4 4 0 1 1 6.8 1.6" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"/>
+            <path d="M6.5 1h2.5v2.5" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </button>
       </div>
     </div>
     <div class="briefing-v2 briefing-scroll">
@@ -43,6 +53,10 @@ function renderV2(el, d) {
       ${aiNewsSection(d.ai_news)}
       ${microTipsSection(d.micro_tips)}
     </div>`;
+
+  el.querySelector('#brf-refresh-btn')?.addEventListener('click', () => triggerBriefingJob(
+    el.querySelector('#brf-refresh-btn')
+  ));
 }
 
 // ─── SECTION: WEATHER ─────────────────────────────────────────────────────────
@@ -234,6 +248,79 @@ function renderV1(el, data) {
     </div>
     ${data.summary ? `<p class="briefing-summary">${escapeHtml(data.summary)}</p>` : ''}
     ${bulletsHtml ? `<ul class="briefing-bullets">${bulletsHtml}</ul>` : ''}`;
+}
+
+// ─── GITHUB ACTIONS TRIGGER ───────────────────────────────────────────────────
+
+async function triggerBriefingJob(btn) {
+  const pat = localStorage.getItem('dashboard_github_pat');
+  if (!pat) {
+    _toast('warning', 'Dodaj GitHub PAT u Postavkama (⚙) za pokretanje refresha', 5000);
+    return;
+  }
+
+  btn.disabled = true;
+  btn.classList.add('brf-refresh-spinning');
+  _toast('info', 'Pokrećem GitHub Actions job…', 3000);
+
+  try {
+    const res = await fetch(
+      `https://api.github.com/repos/${GITHUB_REPO}/actions/workflows/${WORKFLOW_FILE}/dispatches`,
+      {
+        method: 'POST',
+        headers: {
+          'Authorization': `Bearer ${pat}`,
+          'Accept': 'application/vnd.github+json',
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({ ref: 'main' }),
+      }
+    );
+
+    if (res.status === 204) {
+      _toast('success', 'Job pokrenut ✓  Osvježavam za ~2 min…', 6000);
+      // Poll: after 2 min try to pull fresh briefing.json
+      setTimeout(() => _pollBriefing(btn, 0), 2 * 60 * 1000);
+    } else if (res.status === 401) {
+      _toast('error', 'GitHub PAT nije valjan ili je istekao', 5000);
+      btn.disabled = false; btn.classList.remove('brf-refresh-spinning');
+    } else if (res.status === 403) {
+      _toast('error', 'PAT nema "workflow" scope — generiraj novi token', 5000);
+      btn.disabled = false; btn.classList.remove('brf-refresh-spinning');
+    } else {
+      _toast('error', `GitHub API greška: ${res.status}`, 5000);
+      btn.disabled = false; btn.classList.remove('brf-refresh-spinning');
+    }
+  } catch {
+    _toast('error', 'Nije moguće spojiti se na GitHub API', 5000);
+    btn.disabled = false; btn.classList.remove('brf-refresh-spinning');
+  }
+}
+
+// Poll for fresh briefing.json — retry up to 4× every 30 s
+async function _pollBriefing(btn, attempt) {
+  try {
+    bustCache('data/briefing.json');
+    const data = await loadDataFile('data/briefing.json');
+
+    // Check if the file is newer than before (generated_at changed)
+    const el = document.getElementById('widget-briefing');
+    if (el) renderBriefing(data);
+    _toast('success', 'Jutarnji pregled osvježen ✓', 3000);
+  } catch {
+    if (attempt < 3) {
+      setTimeout(() => _pollBriefing(btn, attempt + 1), 30_000);
+    } else {
+      _toast('warning', 'Nije moguće dohvatiti novi pregled — osvježi ručno (↻)', 5000);
+    }
+  } finally {
+    btn.disabled = false;
+    btn.classList.remove('brf-refresh-spinning');
+  }
+}
+
+function _toast(type, msg, duration = 4000) {
+  import('../app.js').then(m => m.showToast(msg, type, duration)).catch(() => {});
 }
 
 // ─── EMPTY STATE ──────────────────────────────────────────────────────────────

@@ -1188,6 +1188,39 @@ a.task-keep-badge.task-keep-link:hover {
   font-family: var(--font-body);
 }
 
+/* Briefing refresh button */
+.brf-refresh-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 20px;
+  height: 20px;
+  padding: 0;
+  background: transparent;
+  border: 1px solid transparent;
+  border-radius: var(--r-sm);
+  color: var(--text-muted);
+  cursor: pointer;
+  transition: color var(--dur), border-color var(--dur), background var(--dur);
+  flex-shrink: 0;
+}
+.brf-refresh-btn:hover {
+  color: var(--accent);
+  border-color: var(--accent-border);
+  background: var(--accent-bg);
+}
+.brf-refresh-btn:disabled {
+  opacity: 0.4;
+  cursor: default;
+  pointer-events: none;
+}
+.brf-refresh-btn.brf-refresh-spinning svg {
+  animation: spin 1s linear infinite;
+}
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
+
 /* ── Weather ── */
 .brf-weather-row {
   display: flex;
