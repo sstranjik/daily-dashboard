@@ -84,12 +84,12 @@ async function callGemini(prompt, { model = 'gemini-2.0-flash', useSearch = fals
 }
 
 async function gemini(prompt, useSearch = false) {
-  // Try 2.0-flash first; fall back to 1.5-flash
+  // Try 2.0-flash first; fall back to 2.0-flash-lite
   try {
     return await callGemini(prompt, { model: 'gemini-2.0-flash', useSearch });
   } catch (e) {
-    console.warn(`  gemini-2.0-flash: ${e.message} → trying 1.5-flash`);
-    return await callGemini(prompt, { model: 'gemini-1.5-flash', useSearch });
+    console.warn(`  gemini-2.0-flash: ${e.message} → trying 2.0-flash-lite`);
+    return await callGemini(prompt, { model: 'gemini-2.0-flash-lite', useSearch });
   }
 }
 
@@ -343,7 +343,7 @@ Zahtjevi:
 - Regex: praktičan metacharacter ili pattern s primjerom primjene`;
 
   try {
-    const text   = await callGemini(prompt, { model: 'gemini-1.5-flash', useSearch: false });
+    const text   = await callGemini(prompt, { model: 'gemini-2.0-flash-lite', useSearch: false });
     const parsed = extractJSON(text);
     if (!parsed?.vscode || !parsed?.sql || !parsed?.oracle || !parsed?.regex)
       throw new Error('Missing fields');
