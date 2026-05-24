@@ -1,0 +1,49 @@
+name: Hourly News Refresh
+
+on:
+  schedule:
+    # Every hour from 06:00–20:00 UTC = 08:00–22:00 CEST
+    # 07:00 CEST slot is covered by the daily-update.yml job (05:00 UTC)
+    - cron: '0 6-20 * * *'
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  refresh-news:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+          cache-dependency-path: scripts/package.json
+
+      - name: Install dependencies
+        working-directory: scripts
+        run: npm install
+
+      - name: Fetch news and data
+        working-directory: scripts
+        run: node fetch-all.mjs
+
+      - name: Commit updated news files
+        run: |
+          git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config --local user.name  "github-actions[bot]"
+          git add data/
+          if git diff --staged --quiet; then
+            echo "No news changes to commit"
+          else
+            git commit -m "news: hourly refresh $(date +'%H:%M UTC')"
+            git push
+          fi
