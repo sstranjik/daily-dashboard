@@ -1,7 +1,7 @@
 {
   "version": 2,
   "date": "2026-05-25",
-  "generated_at": "2026-05-25T05:51:22.110Z",
+  "generated_at": "2026-05-25T08:51:12.900Z",
   "date_hr": "Ponedjeljak, 25. svibnja 2026.",
   "weather": {
     "icon": "☁️",
@@ -9,20 +9,30 @@
     "alerts": []
   },
   "fuel": {
-    "error": "Gemini 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota ex"
+    "error": "Nije moguće dohvatiti stranicu s cijenama goriva"
   },
   "market": {
-    "updated_at": "2026-05-25T05:51:22.110Z",
-    "btc_usd": 77341,
-    "btc_eur": 66428,
-    "btc_change_24h": 0.77,
+    "updated_at": "2026-05-25T08:51:12.900Z",
+    "btc_usd": 77253,
+    "btc_eur": 66355,
+    "btc_change_24h": 0.69,
     "usd_eur": 0.8599
   },
   "ai_news": [
     {
-      "title": "The AI security gap nobody wants to admit is already here",
-      "link": "https://thenextweb.com/news/ai-security-gap-claude-code-leak",
+      "title": "The ECB is convening banks to fix the cybersecurity flaws that AI models like Mythos keep finding",
+      "link": "https://thenextweb.com/news/ecb-banks-cybersecurity-ai-mythos-elderson",
       "source": "The Next Web"
+    },
+    {
+      "title": "SoftBank hits a fresh record as Tokyo bets the OpenAI IPO is finally coming",
+      "link": "https://thenextweb.com/news/softbank-record-high-openai-ipo-nikkei",
+      "source": "The Next Web"
+    },
+    {
+      "title": "Projekt Glasswing pronalazi softverske rupe brže nego što ih itko stigne krpati",
+      "link": "https://www.bug.hr/sigurnost/projekt-glasswing-pronalazi-softverske-rupe-brze-nego-sto-ih-itko-stigne-krpati-60016",
+      "source": "Bug.hr"
     }
   ],
   "micro_tips": {
