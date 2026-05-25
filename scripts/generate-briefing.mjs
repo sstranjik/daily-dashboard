@@ -157,103 +157,101 @@ async function fetchWeather(lat, lon) {
 }
 
 // ─── 2. FUEL PRICES ───────────────────────────────────────────────────────────
-// Approach: fetch a Croatian fuel-price page directly (plain HTTP, no Gemini quota),
-// then ask Gemini to extract structured JSON from the page text — no search grounding.
-// This avoids the low Grounding-with-Google-Search quota (~500 req/day free tier).
+// Direct HTML parser — hak.hr/info/cijene-goriva/ has a static table:
+//   Obveznik | Gorivo | Minimalna | Maksimalna | Medijan
+// We parse it with regex — zero Gemini quota used, no rate limits.
 
-const FUEL_SOURCES = [
-  'https://www.hak.hr/info/cijene-goriva/',
-];
+const HAK_FUEL_URL = 'https://www.hak.hr/info/cijene-goriva/';
+const RE_IS_DIESEL  = /dizel|diesel/i;
+const RE_IS_SKIP    = /plavi|lo[zž]|autoplin|^plin\s|unp\s|lo[zž]iv/i;
+const RE_IS_PREMIUM = /premium|v-power|ecto|q[\s-]*max/i;
 
-async function scrapeFuelPage() {
-  for (const url of FUEL_SOURCES) {
-    try {
-      console.log(`  Fetching fuel page: ${url}`);
-      const res = await fetch(url, {
-        headers: {
-          'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 Chrome/124 Safari/537.36',
-          'Accept': 'text/html,application/xhtml+xml',
-          'Accept-Language': 'hr,en;q=0.9',
-        },
-        signal: AbortSignal.timeout(15000),
-      });
-      if (!res.ok) { console.warn(`  ${url}: HTTP ${res.status}`); continue; }
-      const html = await res.text();
-      // Strip scripts, styles, comments, tags → readable text
-      const text = html
-        .replace(/<script[^>]*>[\s\S]*?<\/script>/gi, '')
-        .replace(/<style[^>]*>[\s\S]*?<\/style>/gi, '')
-        .replace(/<!--[\s\S]*?-->/g, '')
-        .replace(/<[^>]+>/g, ' ')
-        .replace(/&nbsp;/g, ' ').replace(/&amp;/g, '&')
-        .replace(/&lt;/g, '<').replace(/&gt;/g, '>')
-        .replace(/&#\d+;/g, ' ')
-        .replace(/\s+/g, ' ')
-        .trim();
-      if (text.length > 300) return { url, text: text.slice(0, 12000) };
-    } catch (err) {
-      console.warn(`  ${url}: ${err.message}`);
-    }
+function _stripTags(html) {
+  return html
+    .replace(/<[^>]+>/g, '')
+    .replace(/&nbsp;/g, ' ').replace(/&amp;/g, '&')
+    .replace(/&lt;/g, '<').replace(/&gt;/g, '>')
+    .replace(/&#\d+;/g, ' ').replace(/\s+/g, ' ').trim();
+}
+
+function _parseEuroPrice(str) {
+  if (!str) return null;
+  const m = str.replace(',', '.').match(/(\d+\.\d+)/);
+  return m ? parseFloat(m[1]) : null;
+}
+
+function _cleanCompany(raw) {
+  let s = _stripTags(raw || '');
+  s = s.split(/\s*[–—]\s*/)[0].trim();
+  s = s.replace(/\s+(d\.o\.o\.|d\.d\.|j\.d\.o\.o\.|s\.p\.)\.?\s*$/i, '').trim();
+  return s;
+}
+
+function parseHakHtml(html) {
+  let current_date = null;
+  const dateM = html.match(/(\d{1,2})\.(\d{1,2})\.(\d{4})/);
+  if (dateM) current_date = `${dateM[1].padStart(2,'0')}.${dateM[2].padStart(2,'0')}.${dateM[3]}`;
+
+  const standardMap = {};
+  const premiumMap  = {};
+
+  const rowRe = /<tr[^>]*>([\s\S]*?)<\/tr>/gi;
+  let rowM;
+  while ((rowM = rowRe.exec(html)) !== null) {
+    const cells = [];
+    const tdRe  = /<td[^>]*>([\s\S]*?)<\/td>/gi;
+    let tdM;
+    while ((tdM = tdRe.exec(rowM[1])) !== null) cells.push(tdM[1]);
+    if (cells.length < 3) continue;
+
+    const company  = _cleanCompany(cells[0]);
+    const fuelType = _stripTags(cells[1] || '');
+    // [Obveznik, Gorivo, Minimalna, Maksimalna, Medijan] — prefer Medijan (index 4)
+    const price = _parseEuroPrice(_stripTags(cells[4] || cells[2] || ''));
+
+    if (!company || !price || !RE_IS_DIESEL.test(fuelType)) continue;
+    if (RE_IS_SKIP.test(fuelType)) continue;
+
+    const bucket = RE_IS_PREMIUM.test(fuelType) ? premiumMap : standardMap;
+    if (!(company in bucket) || price < bucket[company]) bucket[company] = price;
   }
-  return null;
+
+  const toArr = map => Object.entries(map)
+    .map(([company, price]) => ({ company, price: +price.toFixed(3) }))
+    .sort((a, b) => a.price - b.price);
+
+  return {
+    current_date,
+    eurodiesel:          toArr(standardMap),
+    premium_eurodiesel:  toArr(premiumMap),
+    upcoming_date:       null,
+    upcoming_eurodiesel: null,
+    upcoming_premium:    null,
+  };
 }
 
 async function fetchFuelPrices() {
-  if (!GEMINI_KEY) {
-    console.log('⚠ No Gemini key — fuel prices skipped');
-    return { error: 'no_api_key' };
-  }
-
-  // Step 1: fetch page directly — free, no Gemini quota used
-  const page = await scrapeFuelPage();
-  if (!page) {
-    const stale = readJson('briefing.json')?.fuel;
-    if (stale && !stale.error && stale.eurodiesel?.length) {
-      console.warn('All fuel sources unreachable — using cached data');
-      return stale;
-    }
-    return { error: 'Nije moguće dohvatiti stranicu s cijenama goriva' };
-  }
-
-  // Step 2: Gemini extracts JSON from the text we fetched — plain call, no grounding
-  const today = NOW.toLocaleDateString('hr-HR', { day:'2-digit', month:'2-digit', year:'numeric' });
-  const prompt = `Iz sljedećeg teksta s HAK web stranice o cijenama goriva u Hrvatskoj, izvuci trenutne maloprodajne cijene goriva.
-
-NAPOMENA: Cijene su prikazane kao raspon (min–max) jer autocestovne postaje naplaćuju više.
-Koristi MINIMALNU cijenu iz raspona (to je cijena na standardnoj postaji).
-Ako je samo jedna cijena (ne raspon), koristi tu cijenu.
-Danas je ${today}.
-
-TEKST STRANICE:
-${page.text}
-
-Odgovori ISKLJUČIVO validnim JSON-om, bez ikakvog drugog teksta:
-{
-  "current_date": "DD.MM.YYYY",
-  "eurodiesel": [{"company": "Naziv", "price": 1.234}],
-  "premium_eurodiesel": [{"company": "Naziv", "price": 1.234}],
-  "upcoming_date": null,
-  "upcoming_eurodiesel": null,
-  "upcoming_premium": null
-}
-
-Pravila:
-- company = skraćeni naziv kompanije (INA, Petrol, Lukoil, Coral, Tifon, Adria Oil, MOL...)
-- Sortiraj po cijeni od NAJNIŽE prema NAJVIŠOJ unutar svake grupe
-- Cijene u EUR/l kao decimalni broj s 3 decimalna mjesta (npr. 1.459)
-- upcoming_* popuni samo ako u tekstu postoji konkretna najava s datumom`;
-
   try {
-    console.log('🔍 Extracting fuel prices from page text (no grounding)...');
-    const text   = await callGemini(prompt, { model: 'gemini-2.0-flash', useSearch: false });
-    const parsed = extractJSON(text);
-    if (!parsed?.eurodiesel?.length) throw new Error('No eurodiesel data in response');
-    console.log(`✓ Fuel: ${parsed.eurodiesel.length} companies from ${page.url}, date: ${parsed.current_date}`);
+    console.log('⛽ Fetching fuel prices from HAK (direct HTML parse, no Gemini)...');
+    const res = await fetch(HAK_FUEL_URL, {
+      headers: {
+        'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 Chrome/124 Safari/537.36',
+        'Accept': 'text/html,application/xhtml+xml',
+        'Accept-Language': 'hr,en;q=0.9',
+      },
+      signal: AbortSignal.timeout(15000),
+    });
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+
+    const parsed = parseHakHtml(await res.text());
+    if (!parsed.eurodiesel.length) throw new Error('No diesel rows found in HAK table');
+    console.log(`✓ Fuel: ${parsed.eurodiesel.length} standard, ${parsed.premium_eurodiesel.length} premium. Date: ${parsed.current_date}`);
     return parsed;
+
   } catch (err) {
     const stale = readJson('briefing.json')?.fuel;
     if (stale && !stale.error && stale.eurodiesel?.length) {
-      console.warn(`Fuel extraction failed (${err.message}) — using cached data`);
+      console.warn(`HAK fetch failed (${err.message}) — using cached fuel data`);
       return stale;
     }
     console.warn(`Fuel prices failed: ${err.message}`);
