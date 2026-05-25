@@ -1,7 +1,7 @@
 {
   "version": 2,
   "date": "2026-05-25",
-  "generated_at": "2026-05-25T08:56:53.459Z",
+  "generated_at": "2026-05-25T09:13:14.883Z",
   "date_hr": "Ponedjeljak, 25. svibnja 2026.",
   "weather": {
     "icon": "☁️",
@@ -9,16 +9,72 @@
     "alerts": []
   },
   "fuel": {
-    "error": "Gemini 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota ex"
+    "current_date": "25.05.2026",
+    "eurodiesel": [
+      {
+        "company": "Adria Oil",
+        "price": 1.66
+      },
+      {
+        "company": "Coral Croatia",
+        "price": 1.66
+      },
+      {
+        "company": "INA",
+        "price": 1.66
+      },
+      {
+        "company": "LUKOIL Croatia",
+        "price": 1.66
+      },
+      {
+        "company": "Petrol",
+        "price": 1.66
+      },
+      {
+        "company": "Tifon",
+        "price": 1.66
+      }
+    ],
+    "premium_eurodiesel": [
+      {
+        "company": "LUKOIL Croatia",
+        "price": 1.82
+      },
+      {
+        "company": "INA",
+        "price": 1.93
+      },
+      {
+        "company": "Tifon",
+        "price": 1.93
+      },
+      {
+        "company": "Petrol",
+        "price": 1.95
+      },
+      {
+        "company": "Coral Croatia",
+        "price": 1.98
+      }
+    ],
+    "upcoming_date": null,
+    "upcoming_eurodiesel": null,
+    "upcoming_premium": null
   },
   "market": {
-    "updated_at": "2026-05-25T08:56:53.459Z",
-    "btc_usd": 77337,
-    "btc_eur": 66419,
-    "btc_change_24h": 0.8,
+    "updated_at": "2026-05-25T09:13:14.883Z",
+    "btc_usd": 77397,
+    "btc_eur": 66477,
+    "btc_change_24h": 0.77,
     "usd_eur": 0.8599
   },
   "ai_news": [
+    {
+      "title": "I saw the future of Android Auto, and now Google has me dreading my own car",
+      "link": "https://www.zdnet.com/article/google-io-android-auto-demo/",
+      "source": "ZDNet"
+    },
     {
       "title": "The ECB is convening banks to fix the cybersecurity flaws that AI models like Mythos keep finding",
       "link": "https://thenextweb.com/news/ecb-banks-cybersecurity-ai-mythos-elderson",
