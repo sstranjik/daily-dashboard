@@ -1,47 +1,37 @@
 {
   "version": 2,
-  "date": "2026-05-24",
-  "generated_at": "2026-05-24T18:56:55.562Z",
-  "date_hr": "Nedjelja, 24. svibnja 2026.",
+  "date": "2026-05-25",
+  "generated_at": "2026-05-25T05:51:22.110Z",
+  "date_hr": "Ponedjeljak, 25. svibnja 2026.",
   "weather": {
-    "icon": "🌤️",
-    "summary": "14–28°C, djelomično oblačno",
+    "icon": "☁️",
+    "summary": "17–31°C, oblačno",
     "alerts": []
   },
   "fuel": {
     "error": "Gemini 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota ex"
   },
   "market": {
-    "updated_at": "2026-05-24T18:56:55.562Z",
-    "btc_usd": 76563,
-    "btc_eur": 65980,
-    "btc_change_24h": 1.06,
-    "usd_eur": 0.862
+    "updated_at": "2026-05-25T05:51:22.110Z",
+    "btc_usd": 77341,
+    "btc_eur": 66428,
+    "btc_change_24h": 0.77,
+    "usd_eur": 0.8599
   },
   "ai_news": [
     {
-      "title": "The US blacklisted Anthropic as a security threat. Its spy agencies are using Claude anyway.",
-      "link": "https://thenextweb.com/news/us-government-chip-shortage-anthropic-nsa-9-billion",
+      "title": "The AI security gap nobody wants to admit is already here",
+      "link": "https://thenextweb.com/news/ai-security-gap-claude-code-leak",
       "source": "The Next Web"
-    },
-    {
-      "title": "AI agents are quietly generating chaos engineering failures enterprises don’t track yet",
-      "link": "https://venturebeat.com/orchestration/ai-agents-are-quietly-generating-chaos-engineering-failures-enterprises-dont-track-yet",
-      "source": "VentureBeat"
-    },
-    {
-      "title": "Hackers are learning to exploit chatbot &#8216;personalities&#8217;",
-      "link": "https://www.theverge.com/column/935545/hackers-ai-chatbots",
-      "source": "The Verge"
     }
   ],
   "micro_tips": {
     "vscode": {
-      "tip": "Peek Definition bez napuštanja fajla",
-      "keys": "Alt+F12"
+      "tip": "Dupliciraj trenutnu liniju ispod",
+      "keys": "Shift+Alt+↓"
     },
-    "sql": "EXPLAIN ANALYZE prikazuje stvarne vs procijenjene redove — ključno za tuning",
-    "oracle": "CONNECT BY LEVEL <= n generira broj redova bez pomoćne tablice",
-    "regex": "[^\\n]* svaki znak osim newline — dohvati cijelu liniju bez dotall flaga"
+    "sql": "Partial index s WHERE klauzulom smanjuje veličinu i ubrzava specifična filtriranja",
+    "oracle": "LISTAGG(col, ',') WITHIN GROUP (ORDER BY col) konkatenira u jedan string",
+    "regex": "(?<ime>\\d{4}) named group — referenciraj s \\k<ime> ili $<ime> u replace"
   }
 }
