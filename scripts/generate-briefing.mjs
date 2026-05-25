@@ -158,11 +158,38 @@ async function fetchWeather(lat, lon) {
 
 // ─── 2. FUEL PRICES ───────────────────────────────────────────────────────────
 
+// Fuel prices in Croatia change ~weekly (usually Fri). Cache for 5 days
+// to avoid burning Gemini quota on days with no price changes.
+const FUEL_CACHE_DAYS = 5;
+
+function cachedFuelData() {
+  try {
+    const existing = readJson('briefing.json');
+    const fuel = existing?.fuel;
+    if (!fuel || fuel.error || !fuel.eurodiesel?.length) return null;
+
+    // Use generated_at of the briefing as the fuel fetch timestamp
+    const fetchedAt = existing.generated_at ? new Date(existing.generated_at) : null;
+    if (!fetchedAt) return null;
+
+    const ageMs = NOW - fetchedAt;
+    const ageDays = ageMs / (1000 * 60 * 60 * 24);
+    if (ageDays > FUEL_CACHE_DAYS) return null;
+
+    console.log(`♻ Reusing cached fuel data (${ageDays.toFixed(1)}d old, limit ${FUEL_CACHE_DAYS}d)`);
+    return fuel;
+  } catch { return null; }
+}
+
 async function fetchFuelPrices() {
   if (!GEMINI_KEY) {
     console.log('⚠ No Gemini key — fuel prices skipped');
     return { error: 'no_api_key' };
   }
+
+  // Return cached data if still fresh — saves Gemini quota
+  const cached = cachedFuelData();
+  if (cached) return cached;
 
   const prompt = `Pronađi TRENUTNE maloprodajne cijene goriva u Hrvatskoj za sve dostupne benzinske kompanije. Provjeri i je li najavljena nova cijena za sljedeći tjedan.
 
@@ -190,6 +217,17 @@ Pravila:
     console.log(`✓ Fuel: ${parsed.eurodiesel.length} companies, date: ${parsed.current_date}`);
     return parsed;
   } catch (err) {
+    // On API error, fall back to cached data even if stale rather than showing error
+    const stale = (() => {
+      try {
+        const f = readJson('briefing.json')?.fuel;
+        return (f && !f.error && f.eurodiesel?.length) ? f : null;
+      } catch { return null; }
+    })();
+    if (stale) {
+      console.warn(`Fuel API failed (${err.message}) — using stale cached data`);
+      return stale;
+    }
     console.warn(`Fuel prices failed: ${err.message}`);
     return { error: err.message };
   }
