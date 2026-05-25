@@ -1,7 +1,7 @@
 {
   "version": 2,
   "date": "2026-05-25",
-  "generated_at": "2026-05-25T08:53:10.166Z",
+  "generated_at": "2026-05-25T08:56:53.459Z",
   "date_hr": "Ponedjeljak, 25. svibnja 2026.",
   "weather": {
     "icon": "☁️",
@@ -9,13 +9,13 @@
     "alerts": []
   },
   "fuel": {
-    "error": "Nije moguće dohvatiti stranicu s cijenama goriva"
+    "error": "Gemini 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota ex"
   },
   "market": {
-    "updated_at": "2026-05-25T08:53:10.166Z",
-    "btc_usd": 77286,
-    "btc_eur": 66376,
-    "btc_change_24h": 0.73,
+    "updated_at": "2026-05-25T08:56:53.459Z",
+    "btc_usd": 77337,
+    "btc_eur": 66419,
+    "btc_change_24h": 0.8,
     "usd_eur": 0.8599
   },
   "ai_news": [
