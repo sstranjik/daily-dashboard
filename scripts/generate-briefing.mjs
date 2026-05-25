@@ -157,28 +157,46 @@ async function fetchWeather(lat, lon) {
 }
 
 // ─── 2. FUEL PRICES ───────────────────────────────────────────────────────────
+// Approach: fetch a Croatian fuel-price page directly (plain HTTP, no Gemini quota),
+// then ask Gemini to extract structured JSON from the page text — no search grounding.
+// This avoids the low Grounding-with-Google-Search quota (~500 req/day free tier).
 
-// Fuel prices in Croatia change ~weekly (usually Fri). Cache for 5 days
-// to avoid burning Gemini quota on days with no price changes.
-const FUEL_CACHE_DAYS = 5;
+const FUEL_SOURCES = [
+  'https://gorivohr.com/',
+  'https://www.hak.hr/voznja/gorivo/',
+];
 
-function cachedFuelData() {
-  try {
-    const existing = readJson('briefing.json');
-    const fuel = existing?.fuel;
-    if (!fuel || fuel.error || !fuel.eurodiesel?.length) return null;
-
-    // Use generated_at of the briefing as the fuel fetch timestamp
-    const fetchedAt = existing.generated_at ? new Date(existing.generated_at) : null;
-    if (!fetchedAt) return null;
-
-    const ageMs = NOW - fetchedAt;
-    const ageDays = ageMs / (1000 * 60 * 60 * 24);
-    if (ageDays > FUEL_CACHE_DAYS) return null;
-
-    console.log(`♻ Reusing cached fuel data (${ageDays.toFixed(1)}d old, limit ${FUEL_CACHE_DAYS}d)`);
-    return fuel;
-  } catch { return null; }
+async function scrapeFuelPage() {
+  for (const url of FUEL_SOURCES) {
+    try {
+      console.log(`  Fetching fuel page: ${url}`);
+      const res = await fetch(url, {
+        headers: {
+          'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 Chrome/124 Safari/537.36',
+          'Accept': 'text/html,application/xhtml+xml',
+          'Accept-Language': 'hr,en;q=0.9',
+        },
+        signal: AbortSignal.timeout(15000),
+      });
+      if (!res.ok) { console.warn(`  ${url}: HTTP ${res.status}`); continue; }
+      const html = await res.text();
+      // Strip scripts, styles, comments, tags → readable text
+      const text = html
+        .replace(/<script[^>]*>[\s\S]*?<\/script>/gi, '')
+        .replace(/<style[^>]*>[\s\S]*?<\/style>/gi, '')
+        .replace(/<!--[\s\S]*?-->/g, '')
+        .replace(/<[^>]+>/g, ' ')
+        .replace(/&nbsp;/g, ' ').replace(/&amp;/g, '&')
+        .replace(/&lt;/g, '<').replace(/&gt;/g, '>')
+        .replace(/&#\d+;/g, ' ')
+        .replace(/\s+/g, ' ')
+        .trim();
+      if (text.length > 300) return { url, text: text.slice(0, 12000) };
+    } catch (err) {
+      console.warn(`  ${url}: ${err.message}`);
+    }
+  }
+  return null;
 }
 
 async function fetchFuelPrices() {
@@ -187,45 +205,50 @@ async function fetchFuelPrices() {
     return { error: 'no_api_key' };
   }
 
-  // Return cached data if still fresh — saves Gemini quota
-  const cached = cachedFuelData();
-  if (cached) return cached;
+  // Step 1: fetch page directly — free, no Gemini quota used
+  const page = await scrapeFuelPage();
+  if (!page) {
+    const stale = readJson('briefing.json')?.fuel;
+    if (stale && !stale.error && stale.eurodiesel?.length) {
+      console.warn('All fuel sources unreachable — using cached data');
+      return stale;
+    }
+    return { error: 'Nije moguće dohvatiti stranicu s cijenama goriva' };
+  }
 
-  const prompt = `Pronađi TRENUTNE maloprodajne cijene goriva u Hrvatskoj za sve dostupne benzinske kompanije. Provjeri i je li najavljena nova cijena za sljedeći tjedan.
+  // Step 2: Gemini extracts JSON from the text we fetched — plain call, no grounding
+  const prompt = `Iz sljedećeg teksta s web stranice o cijenama goriva u Hrvatskoj (${page.url}), izvuci TRENUTNE maloprodajne cijene goriva na postajama.
+
+TEKST STRANICE:
+${page.text}
 
 Odgovori ISKLJUČIVO validnim JSON-om, bez ikakvog drugog teksta:
 {
   "current_date": "DD.MM.YYYY",
-  "eurodiesel": [{"company": "Naziv", "price": 1.234}, ...],
-  "premium_eurodiesel": [{"company": "Naziv", "price": 1.234}, ...],
+  "eurodiesel": [{"company": "Naziv", "price": 1.234}],
+  "premium_eurodiesel": [{"company": "Naziv", "price": 1.234}],
   "upcoming_date": null,
   "upcoming_eurodiesel": null,
   "upcoming_premium": null
 }
 
 Pravila:
-- Kompanija je onaj koji prodaje gorivo (INA, MOL, Petrol, Tifon, BP, OMV, Lukoil, NIS Petrol...)
+- company = naziv kompanije (INA, MOL, Petrol, Tifon, BP, OMV, Lukoil, NIS Petrol...)
 - Sortiraj po cijeni od NAJNIŽE prema NAJVIŠOJ unutar svake grupe
-- Cijene u EUR/l kao broj s 3 decimalna mjesta
-- upcoming_* popuni samo ako postoji konkretna najava nove cijene s datumom`;
+- Cijene u EUR/l kao decimalni broj s 3 mjesta (npr. 1.459)
+- upcoming_* popuni samo ako u tekstu postoji konkretna najava s datumom`;
 
   try {
-    console.log('🔍 Fetching fuel prices via Gemini search...');
-    const text   = await gemini(prompt, true);
+    console.log('🔍 Extracting fuel prices from page text (no grounding)...');
+    const text   = await callGemini(prompt, { model: 'gemini-2.0-flash', useSearch: false });
     const parsed = extractJSON(text);
-    if (!parsed?.eurodiesel?.length) throw new Error('Invalid fuel data');
-    console.log(`✓ Fuel: ${parsed.eurodiesel.length} companies, date: ${parsed.current_date}`);
+    if (!parsed?.eurodiesel?.length) throw new Error('No eurodiesel data in response');
+    console.log(`✓ Fuel: ${parsed.eurodiesel.length} companies from ${page.url}, date: ${parsed.current_date}`);
     return parsed;
   } catch (err) {
-    // On API error, fall back to cached data even if stale rather than showing error
-    const stale = (() => {
-      try {
-        const f = readJson('briefing.json')?.fuel;
-        return (f && !f.error && f.eurodiesel?.length) ? f : null;
-      } catch { return null; }
-    })();
-    if (stale) {
-      console.warn(`Fuel API failed (${err.message}) — using stale cached data`);
+    const stale = readJson('briefing.json')?.fuel;
+    if (stale && !stale.error && stale.eurodiesel?.length) {
+      console.warn(`Fuel extraction failed (${err.message}) — using cached data`);
       return stale;
     }
     console.warn(`Fuel prices failed: ${err.message}`);
