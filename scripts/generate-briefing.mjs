@@ -162,8 +162,7 @@ async function fetchWeather(lat, lon) {
 // This avoids the low Grounding-with-Google-Search quota (~500 req/day free tier).
 
 const FUEL_SOURCES = [
-  'https://gorivohr.com/',
-  'https://www.hak.hr/voznja/gorivo/',
+  'https://www.hak.hr/info/cijene-goriva/',
 ];
 
 async function scrapeFuelPage() {
@@ -217,7 +216,13 @@ async function fetchFuelPrices() {
   }
 
   // Step 2: Gemini extracts JSON from the text we fetched — plain call, no grounding
-  const prompt = `Iz sljedećeg teksta s web stranice o cijenama goriva u Hrvatskoj (${page.url}), izvuci TRENUTNE maloprodajne cijene goriva na postajama.
+  const today = NOW.toLocaleDateString('hr-HR', { day:'2-digit', month:'2-digit', year:'numeric' });
+  const prompt = `Iz sljedećeg teksta s HAK web stranice o cijenama goriva u Hrvatskoj, izvuci trenutne maloprodajne cijene goriva.
+
+NAPOMENA: Cijene su prikazane kao raspon (min–max) jer autocestovne postaje naplaćuju više.
+Koristi MINIMALNU cijenu iz raspona (to je cijena na standardnoj postaji).
+Ako je samo jedna cijena (ne raspon), koristi tu cijenu.
+Danas je ${today}.
 
 TEKST STRANICE:
 ${page.text}
@@ -233,9 +238,9 @@ Odgovori ISKLJUČIVO validnim JSON-om, bez ikakvog drugog teksta:
 }
 
 Pravila:
-- company = naziv kompanije (INA, MOL, Petrol, Tifon, BP, OMV, Lukoil, NIS Petrol...)
+- company = skraćeni naziv kompanije (INA, Petrol, Lukoil, Coral, Tifon, Adria Oil, MOL...)
 - Sortiraj po cijeni od NAJNIŽE prema NAJVIŠOJ unutar svake grupe
-- Cijene u EUR/l kao decimalni broj s 3 mjesta (npr. 1.459)
+- Cijene u EUR/l kao decimalni broj s 3 decimalna mjesta (npr. 1.459)
 - upcoming_* popuni samo ako u tekstu postoji konkretna najava s datumom`;
 
   try {
