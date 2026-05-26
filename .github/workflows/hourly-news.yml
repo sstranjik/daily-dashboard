@@ -36,6 +36,10 @@ jobs:
         working-directory: scripts
         run: node fetch-all.mjs
 
+      - name: Fetch events (concerts + theater)
+        working-directory: scripts
+        run: node fetch-events.mjs
+
       - name: Commit updated news files
         run: |
           git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
