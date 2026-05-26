@@ -40,6 +40,10 @@ jobs:
         working-directory: scripts
         run: node fetch-all.mjs
 
+      - name: Fetch events (concerts + theater)
+        working-directory: scripts
+        run: node fetch-events.mjs
+
       - name: Generate daily briefing
         if: ${{ !inputs.skip_briefing }}
         working-directory: scripts
