@@ -1,15 +1,15 @@
 {
   "version": 2,
-  "date": "2026-05-25",
-  "generated_at": "2026-05-25T09:13:14.883Z",
-  "date_hr": "Ponedjeljak, 25. svibnja 2026.",
+  "date": "2026-05-26",
+  "generated_at": "2026-05-26T05:29:46.749Z",
+  "date_hr": "Utorak, 26. svibnja 2026.",
   "weather": {
-    "icon": "☁️",
-    "summary": "17–31°C, oblačno",
+    "icon": "🌤️",
+    "summary": "19–30°C, djelomično oblačno",
     "alerts": []
   },
   "fuel": {
-    "current_date": "25.05.2026",
+    "current_date": "26.05.2026",
     "eurodiesel": [
       {
         "company": "Adria Oil",
@@ -51,7 +51,7 @@
       },
       {
         "company": "Petrol",
-        "price": 1.95
+        "price": 1.94
       },
       {
         "company": "Coral Croatia",
@@ -63,41 +63,26 @@
     "upcoming_premium": null
   },
   "market": {
-    "updated_at": "2026-05-25T09:13:14.883Z",
-    "btc_usd": 77397,
-    "btc_eur": 66477,
-    "btc_change_24h": 0.77,
-    "usd_eur": 0.8599
+    "updated_at": "2026-05-26T05:29:46.749Z",
+    "btc_usd": 76782,
+    "btc_eur": 66029,
+    "btc_change_24h": -0.68,
+    "usd_eur": 0.8591
   },
   "ai_news": [
     {
-      "title": "I saw the future of Android Auto, and now Google has me dreading my own car",
-      "link": "https://www.zdnet.com/article/google-io-android-auto-demo/",
-      "source": "ZDNet"
-    },
-    {
-      "title": "The ECB is convening banks to fix the cybersecurity flaws that AI models like Mythos keep finding",
-      "link": "https://thenextweb.com/news/ecb-banks-cybersecurity-ai-mythos-elderson",
+      "title": "Only 3.3 per cent of users pay for Copilot, so Microsoft is finally making it optional",
+      "link": "https://thenextweb.com/news/only-3-3-per-cent-of-users-pay-for-copilot-so-microsoft-is-finally-making-it-optional",
       "source": "The Next Web"
-    },
-    {
-      "title": "SoftBank hits a fresh record as Tokyo bets the OpenAI IPO is finally coming",
-      "link": "https://thenextweb.com/news/softbank-record-high-openai-ipo-nikkei",
-      "source": "The Next Web"
-    },
-    {
-      "title": "Projekt Glasswing pronalazi softverske rupe brže nego što ih itko stigne krpati",
-      "link": "https://www.bug.hr/sigurnost/projekt-glasswing-pronalazi-softverske-rupe-brze-nego-sto-ih-itko-stigne-krpati-60016",
-      "source": "Bug.hr"
     }
   ],
   "micro_tips": {
     "vscode": {
-      "tip": "Dupliciraj trenutnu liniju ispod",
-      "keys": "Shift+Alt+↓"
+      "tip": "Obriši cijelu liniju odjednom",
+      "keys": "Ctrl+Shift+K"
     },
-    "sql": "Partial index s WHERE klauzulom smanjuje veličinu i ubrzava specifična filtriranja",
-    "oracle": "LISTAGG(col, ',') WITHIN GROUP (ORDER BY col) konkatenira u jedan string",
-    "regex": "(?<ime>\\d{4}) named group — referenciraj s \\k<ime> ili $<ime> u replace"
+    "sql": "GROUP BY s ROLLUP za subtotale u jednom prolasku: GROUP BY ROLLUP(god, mj)",
+    "oracle": "TRUNC(datum_kolona) = TRUNC(SYSDATE) koristi B-tree index na datumskoj koloni",
+    "regex": "\\d{4}-\\d{2}-\\d{2} ISO datum pattern; za validaciju zatvori s ^...$"
   }
 }
