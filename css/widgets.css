@@ -1424,3 +1424,230 @@ a.brf-news-title:hover { color: var(--accent); }
   font-family: var(--font-body);
   line-height: var(--lh-relaxed);
 }
+
+/* ─── ZBIVANJA (EVENTS) TAB ──────────────────────────────────────────────── */
+
+/* Sub-navigation inside Zbivanja: Koncerti | Kazalište | Novo | Inozemstvo */
+.zbv-subnav {
+  display: flex;
+  gap: var(--sp-1);
+  padding: var(--sp-2) 0 var(--sp-2);
+  flex-shrink: 0;
+  overflow-x: auto;
+  scrollbar-width: none;
+}
+.zbv-subnav::-webkit-scrollbar { display: none; }
+
+.zbv-tab {
+  flex-shrink: 0;
+  padding: 3px 10px;
+  font-family: var(--font-mono);
+  font-size: var(--text-xs);
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  color: var(--text-muted);
+  background: transparent;
+  border: 1px solid var(--border-faint);
+  border-radius: var(--r-sm);
+  cursor: pointer;
+  transition: color var(--dur), border-color var(--dur), background var(--dur);
+}
+.zbv-tab:hover  { color: var(--text-secondary); border-color: var(--border-subtle); }
+.zbv-tab.active {
+  color: var(--accent);
+  border-color: var(--accent-border);
+  background: var(--accent-bg);
+}
+.zbv-tab .zbv-count {
+  display: inline-block;
+  margin-left: 4px;
+  font-size: 9px;
+  opacity: 0.7;
+}
+
+/* Event list */
+.zbv-list {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  padding-right: var(--sp-1);
+}
+
+/* Single event card */
+.zbv-card {
+  display: grid;
+  grid-template-columns: 52px 1fr auto;
+  align-items: start;
+  gap: var(--sp-3);
+  padding: var(--sp-3) var(--sp-3);
+  border-radius: var(--r-sm);
+  background: transparent;
+  transition: background var(--dur);
+  position: relative;
+}
+.zbv-card:hover { background: var(--bg-elevated); }
+
+/* Date column */
+.zbv-date {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-width: 44px;
+  line-height: 1;
+}
+.zbv-date-day {
+  font-family: var(--font-mono);
+  font-size: 18px;
+  font-weight: 600;
+  color: var(--text-primary);
+  line-height: 1;
+}
+.zbv-date-mon {
+  font-family: var(--font-mono);
+  font-size: 9px;
+  font-weight: 500;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+  margin-top: 1px;
+}
+.zbv-date-time {
+  font-family: var(--font-mono);
+  font-size: 9px;
+  color: var(--text-muted);
+  margin-top: 2px;
+}
+
+/* Main content column */
+.zbv-body  { min-width: 0; }
+.zbv-title {
+  font-size: var(--text-sm);
+  font-weight: 500;
+  color: var(--text-primary);
+  text-decoration: none;
+  line-height: var(--lh-snug);
+  display: block;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.zbv-title:hover { color: var(--accent); }
+
+.zbv-meta {
+  display: flex;
+  align-items: center;
+  gap: var(--sp-2);
+  margin-top: 2px;
+  flex-wrap: wrap;
+}
+.zbv-venue {
+  font-family: var(--font-mono);
+  font-size: 10px;
+  color: var(--text-muted);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 160px;
+}
+.zbv-source {
+  font-family: var(--font-mono);
+  font-size: 9px;
+  color: var(--border-subtle);
+}
+.zbv-new-badge {
+  display: inline-block;
+  padding: 1px 5px;
+  font-family: var(--font-mono);
+  font-size: 8px;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--accent);
+  background: var(--accent-bg);
+  border: 1px solid var(--accent-border);
+  border-radius: 3px;
+  flex-shrink: 0;
+}
+.zbv-country-flag {
+  font-size: 10px;
+  flex-shrink: 0;
+}
+
+/* ⋮ menu button */
+.zbv-menu-btn {
+  width: 20px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: var(--r-sm);
+  background: transparent;
+  color: var(--text-muted);
+  font-size: 14px;
+  line-height: 1;
+  cursor: pointer;
+  opacity: 0;
+  transition: opacity var(--dur), background var(--dur), color var(--dur);
+  flex-shrink: 0;
+  margin-top: 1px;
+  letter-spacing: -1px;
+}
+.zbv-card:hover .zbv-menu-btn { opacity: 1; }
+.zbv-menu-btn:hover { background: var(--bg-tertiary); color: var(--text-primary); }
+
+/* Dropdown menu */
+.zbv-dropdown {
+  position: absolute;
+  right: var(--sp-2);
+  top: calc(100% - var(--sp-3));
+  z-index: 100;
+  background: var(--bg-overlay);
+  border: 1px solid var(--border-default);
+  border-radius: var(--r-md);
+  box-shadow: var(--shadow-lg);
+  min-width: 180px;
+  overflow: hidden;
+  animation: fade-in 0.12s var(--ease);
+}
+.zbv-dropdown-item {
+  display: flex;
+  align-items: center;
+  gap: var(--sp-3);
+  padding: var(--sp-3) var(--sp-4);
+  font-size: var(--text-sm);
+  color: var(--text-secondary);
+  cursor: pointer;
+  transition: background var(--dur), color var(--dur);
+  white-space: nowrap;
+}
+.zbv-dropdown-item:hover { background: var(--bg-elevated); color: var(--text-primary); }
+.zbv-dropdown-item svg  { flex-shrink: 0; }
+
+/* Empty + error states */
+.zbv-empty {
+  padding: var(--sp-8) var(--sp-4);
+  text-align: center;
+  color: var(--text-muted);
+  font-size: var(--text-sm);
+}
+.zbv-loading { color: var(--text-muted); font-size: var(--text-xs); padding: var(--sp-4); }
+
+/* Filtered-out event: hidden */
+.zbv-card[hidden] { display: none; }
+
+/* "Više" / show-more button */
+.zbv-show-more {
+  display: block;
+  width: 100%;
+  padding: var(--sp-2) 0;
+  text-align: center;
+  font-family: var(--font-mono);
+  font-size: var(--text-xs);
+  color: var(--text-muted);
+  cursor: pointer;
+  border: none;
+  background: transparent;
+  transition: color var(--dur);
+}
+.zbv-show-more:hover { color: var(--accent); }

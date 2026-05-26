@@ -1,6 +1,238 @@
 import { escapeHtml, truncate, stripHtml, timeAgo } from '../utils/helpers.js';
 import { showToast } from '../app.js';
 
+// ─── EVENTS (ZBIVANJA) HELPERS ────────────────────────────────────────────────
+
+const ZBV_SUB_TABS = [
+  { key: 'koncerti',    label: 'Koncerti',    field: 'concerts'  },
+  { key: 'kazaliste',   label: 'Kazalište',   field: 'theater'   },
+  { key: 'novo',        label: 'Novo',        field: '_new'      },
+  { key: 'inozemstvo',  label: 'Inozemstvo',  field: 'abroad'    },
+];
+const ZBV_SHOW_INIT = 15; // cards shown before "Prikaži više"
+
+let _zbvData     = null;  // raw events.json
+let _zbvSub      = 'koncerti';
+let _zbvFiltered = new Set();  // set of event IDs hidden by filter
+let _zbvPerformerFilter = new Set(); // performer names filtered globally
+
+const MONTH_SHORT = ['sij','velj','ožu','tra','svi','lip','srp','kol','ruj','lis','stu','pro'];
+const COUNTRY_FLAG = { HR:'🇭🇷', RS:'🇷🇸', AT:'🇦🇹', HU:'🇭🇺', SI:'🇸🇮', DE:'🇩🇪', GB:'🇬🇧', BA:'🇧🇦', EU:'🇪🇺' };
+
+function loadZbvFilter() {
+  try {
+    const d = JSON.parse(localStorage.getItem('zbv_filter') || '{}');
+    _zbvFiltered        = new Set(d.ids        ?? []);
+    _zbvPerformerFilter = new Set(d.performers ?? []);
+  } catch { /* ignore */ }
+}
+
+function saveZbvFilter() {
+  localStorage.setItem('zbv_filter', JSON.stringify({
+    ids:        [..._zbvFiltered],
+    performers: [..._zbvPerformerFilter],
+  }));
+}
+
+function isZbvVisible(ev) {
+  if (_zbvFiltered.has(ev.id)) return false;
+  if (_zbvPerformerFilter.size > 0) {
+    const titleL = ev.title.toLowerCase();
+    for (const p of _zbvPerformerFilter) {
+      if (titleL.includes(p.toLowerCase())) return false;
+    }
+  }
+  return true;
+}
+
+function zbvItemsForSub(sub) {
+  if (!_zbvData) return [];
+  if (sub === '_new') {
+    const allNew = [
+      ...(_zbvData.concerts ?? []),
+      ...(_zbvData.theater  ?? []),
+      ...(_zbvData.abroad   ?? []),
+    ].filter(e => e.is_new);
+    return allNew.sort((a, b) => a.date_iso.localeCompare(b.date_iso));
+  }
+  const field = ZBV_SUB_TABS.find(t => t.key === sub)?.field;
+  return _zbvData[field] ?? [];
+}
+
+function renderZbvCard(ev) {
+  const d   = new Date(ev.date_iso);
+  const day = d.getDate();
+  const mon = MONTH_SHORT[d.getMonth()] ?? '';
+  const timeStr = ev.time ?? '';
+  const flag    = ev.country && ev.country !== 'HR' ? (COUNTRY_FLAG[ev.country] ?? '🌍') : '';
+
+  return `
+    <div class="zbv-card" data-evid="${escapeHtml(ev.id)}" data-title="${escapeHtml(ev.title)}">
+      <div class="zbv-date">
+        <span class="zbv-date-day">${day}</span>
+        <span class="zbv-date-mon">${mon}</span>
+        ${timeStr ? `<span class="zbv-date-time">${timeStr}</span>` : ''}
+      </div>
+      <div class="zbv-body">
+        ${ev.link
+          ? `<a href="${escapeHtml(ev.link)}" class="zbv-title" target="_blank" rel="noopener">${escapeHtml(ev.title)}</a>`
+          : `<span class="zbv-title">${escapeHtml(ev.title)}</span>`
+        }
+        <div class="zbv-meta">
+          ${ev.venue ? `<span class="zbv-venue">${escapeHtml(ev.venue)}</span>` : ''}
+          ${flag     ? `<span class="zbv-country-flag" title="${escapeHtml(ev.city ?? '')}">${flag}</span>` : ''}
+          ${ev.source ? `<span class="zbv-source">${escapeHtml(ev.source)}</span>` : ''}
+          ${ev.is_new ? `<span class="zbv-new-badge">novo</span>` : ''}
+        </div>
+      </div>
+      <button class="zbv-menu-btn" aria-label="Opcije" title="Opcije">⋮</button>
+    </div>`;
+}
+
+function renderZbvList(items, listEl, showAll = false) {
+  const visible   = items.filter(isZbvVisible);
+  const truncated = showAll ? visible : visible.slice(0, ZBV_SHOW_INIT);
+  const hasMore   = !showAll && visible.length > ZBV_SHOW_INIT;
+
+  if (!visible.length) {
+    listEl.innerHTML = `<div class="zbv-empty">Nema događaja</div>`;
+    return;
+  }
+
+  listEl.innerHTML = truncated.map(renderZbvCard).join('')
+    + (hasMore ? `<button class="zbv-show-more" data-showall>Prikaži sve (${visible.length}) →</button>` : '');
+
+  listEl.querySelector('[data-showall]')?.addEventListener('click', () => {
+    renderZbvList(items, listEl, true);
+  });
+
+  // ⋮ menu handlers
+  listEl.querySelectorAll('.zbv-menu-btn').forEach(btn => {
+    btn.addEventListener('click', e => {
+      e.stopPropagation();
+      openZbvMenu(btn, listEl, items);
+    });
+  });
+}
+
+function openZbvMenu(btn, listEl, items) {
+  // Close any existing dropdown
+  document.querySelectorAll('.zbv-dropdown').forEach(d => d.remove());
+  document.removeEventListener('click', _closeDropdowns, true);
+
+  const card  = btn.closest('.zbv-card');
+  const evId  = card?.dataset.evid;
+  const title = card?.dataset.title ?? '';
+  const ev    = items.find(e => e.id === evId);
+  if (!ev) return;
+
+  const dropdown = document.createElement('div');
+  dropdown.className = 'zbv-dropdown';
+  dropdown.innerHTML = `
+    ${ev.link ? `
+    <div class="zbv-dropdown-item" data-action="open">
+      <svg width="12" height="12" viewBox="0 0 12 12" fill="none">
+        <path d="M2 10L10 2M10 2H5M10 2v5" stroke="currentColor" stroke-width="1.3" stroke-linecap="round"/>
+      </svg>
+      Otvori link
+    </div>` : ''}
+    <div class="zbv-dropdown-item" data-action="hide-event">
+      <svg width="12" height="12" viewBox="0 0 12 12" fill="none">
+        <path d="M2 2l8 8M10 2l-8 8" stroke="currentColor" stroke-width="1.3" stroke-linecap="round"/>
+      </svg>
+      Sakrij ovaj događaj
+    </div>
+    <div class="zbv-dropdown-item" data-action="hide-performer">
+      <svg width="12" height="12" viewBox="0 0 12 12" fill="none">
+        <circle cx="6" cy="4" r="2.5" stroke="currentColor" stroke-width="1.2"/>
+        <path d="M1 10c0-2.2 2.2-4 5-4s5 1.8 5 4" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"/>
+        <path d="M9 1l2 2" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"/>
+      </svg>
+      Filtriraj izvođača
+    </div>`;
+
+  card.style.position = 'relative';
+  card.appendChild(dropdown);
+
+  dropdown.addEventListener('click', e => {
+    const action = e.target.closest('[data-action]')?.dataset.action;
+    if (!action) return;
+    dropdown.remove();
+
+    if (action === 'open' && ev.link) {
+      window.open(ev.link, '_blank', 'noopener');
+    } else if (action === 'hide-event') {
+      _zbvFiltered.add(evId);
+      saveZbvFilter();
+      renderZbvList(items, listEl);
+      showToast(`"${title.slice(0, 30)}" sakriven`, 'info', 3000);
+    } else if (action === 'hide-performer') {
+      _zbvPerformerFilter.add(title);
+      saveZbvFilter();
+      renderZbvList(items, listEl);
+      showToast(`Izvođač "${title.slice(0, 30)}" filtriran`, 'info', 3000);
+    }
+  });
+
+  setTimeout(() => {
+    document.addEventListener('click', _closeDropdowns, true);
+  }, 0);
+}
+
+function _closeDropdowns() {
+  document.querySelectorAll('.zbv-dropdown').forEach(d => d.remove());
+  document.removeEventListener('click', _closeDropdowns, true);
+}
+
+function buildZbivanja(panelEl) {
+  loadZbvFilter();
+
+  if (!_zbvData) {
+    panelEl.innerHTML = `<div class="zbv-loading">Učitavam zbivanja…</div>`;
+    return;
+  }
+
+  // Count per sub-tab
+  const counts = {};
+  ZBV_SUB_TABS.forEach(t => { counts[t.key] = zbvItemsForSub(t.key).filter(isZbvVisible).length; });
+
+  const subNavHtml = ZBV_SUB_TABS.map(t => `
+    <button class="zbv-tab${t.key === _zbvSub ? ' active' : ''}" data-zbvsub="${t.key}">
+      ${t.label}<span class="zbv-count">${counts[t.key]}</span>
+    </button>`).join('');
+
+  // Optionally show "clear filters" if any active
+  const hasFilter = _zbvFiltered.size > 0 || _zbvPerformerFilter.size > 0;
+  const clearBtn = hasFilter ? `<button class="zbv-tab" id="zbv-clear-filter" style="margin-left:auto;color:var(--text-muted)">✕ Filtri</button>` : '';
+
+  panelEl.innerHTML = `
+    <div class="zbv-subnav">${subNavHtml}${clearBtn}</div>
+    <div class="zbv-list" id="zbv-list"></div>`;
+
+  const listEl = panelEl.querySelector('#zbv-list');
+  renderZbvList(zbvItemsForSub(_zbvSub), listEl);
+
+  // Sub-tab switching
+  panelEl.querySelector('.zbv-subnav').addEventListener('click', e => {
+    const btn = e.target.closest('[data-zbvsub]');
+    if (btn) {
+      _zbvSub = btn.dataset.zbvsub;
+      panelEl.querySelectorAll('.zbv-tab[data-zbvsub]').forEach(b =>
+        b.classList.toggle('active', b.dataset.zbvsub === _zbvSub)
+      );
+      renderZbvList(zbvItemsForSub(_zbvSub), listEl);
+      return;
+    }
+    if (e.target.closest('#zbv-clear-filter')) {
+      _zbvFiltered.clear();
+      _zbvPerformerFilter.clear();
+      saveZbvFilter();
+      buildZbivanja(panelEl);
+      showToast('Filteri obrisani', 'info', 2000);
+    }
+  });
+}
+
 const DEFAULT_TABS = [
   { key: 'hr',            label: 'HR Vijesti', file: 'data/hr-news.json'            },
   { key: 'world',         label: 'Svijet',     file: 'data/world-news.json'         },
@@ -41,7 +273,9 @@ export function renderUnifiedNews({ hrNews, techNews, science, sports, config })
 
   _tabItems = {};
   for (const tab of _tabs) {
-    if (tab.file && fileMap[tab.file] !== undefined) {
+    if (tab.key === 'zbivanja') {
+      _tabItems[tab.key] = 'zbivanja';  // special marker — handled separately
+    } else if (tab.file && fileMap[tab.file] !== undefined) {
       _tabItems[tab.key] = fileMap[tab.file];
     } else if (tab.files) {
       // Multi-file tab (Ostalo): merged on first activation
@@ -60,6 +294,10 @@ export function renderUnifiedNews({ hrNews, techNews, science, sports, config })
 
   buildWidget(el);
   scheduleAutoRefresh();
+  maybeLoadTab(_activeTab);
+
+  // Eagerly pre-fetch events data in background
+  _loadZbivanja();
 }
 
 // ─── BUILD WIDGET ─────────────────────────────────────────────────────────────
@@ -69,13 +307,19 @@ function buildWidget(el) {
       ${escapeHtml(t.label)}
     </button>`).join('');
 
-  const panelsHtml = _tabs.map(t => `
-    <div class="unified-news-panel${t.key === _activeTab ? ' active' : ''}"
-         id="news-panel-${t.key}">
-      <div class="unified-news-list" id="news-list-${t.key}">
-        ${_tabItems[t.key] !== null ? renderItems(_tabItems[t.key]) : skeletonHtml()}
-      </div>
-    </div>`).join('');
+  const panelsHtml = _tabs.map(t => {
+    const isZbv = t.key === 'zbivanja';
+    const inner = isZbv
+      ? `<div class="zbv-loading">Učitavam zbivanja…</div>`
+      : (_tabItems[t.key] !== null && _tabItems[t.key] !== 'zbivanja'
+          ? renderItems(_tabItems[t.key])
+          : skeletonHtml());
+    return `
+      <div class="unified-news-panel${t.key === _activeTab ? ' active' : ''}"
+           id="news-panel-${t.key}">
+        ${isZbv ? inner : `<div class="unified-news-list" id="news-list-${t.key}">${inner}</div>`}
+      </div>`;
+  }).join('');
 
   el.innerHTML = `
     <div class="widget-header">
@@ -100,7 +344,24 @@ function buildWidget(el) {
   attachMainTabHandlers(el);
   attachRefreshHandler(el);
   renderSubTabs(el, _activeTab);
-  maybeLoadTab(_activeTab);
+  // Note: maybeLoadTab is called from renderUnifiedNews after buildWidget
+}
+
+// ─── ZBIVANJA LOADER ──────────────────────────────────────────────────────────
+async function _loadZbivanja() {
+  try {
+    const { loadDataFile } = await import('../api/data-loader.js');
+    _zbvData = await loadDataFile('data/zbivanja.json');
+    // If Zbivanja tab is currently active, render it now
+    if (_activeTab === 'zbivanja') {
+      const el  = document.getElementById('widget-news');
+      const pan = el?.querySelector('#news-panel-zbivanja');
+      if (pan) buildZbivanja(pan);
+    }
+  } catch (err) {
+    console.warn('Events data not available:', err.message);
+    // Leave zbvData null — panel shows "Nema događaja"
+  }
 }
 
 // ─── MAIN TAB SWITCHING ───────────────────────────────────────────────────────
@@ -122,7 +383,13 @@ function attachMainTabHandlers(el) {
     );
 
     renderSubTabs(el, key);
-    maybeLoadTab(key);
+
+    if (key === 'zbivanja') {
+      const pan = el.querySelector('#news-panel-zbivanja');
+      if (pan) buildZbivanja(pan);
+    } else {
+      maybeLoadTab(key);
+    }
   });
 }
 
@@ -131,8 +398,11 @@ function renderSubTabs(el, tabKey) {
   const subtabsEl = el.querySelector('#news-subtabs');
   if (!subtabsEl) return;
 
+  // Zbivanja manages its own internal sub-nav; hide the generic subtabs bar
+  if (tabKey === 'zbivanja') { subtabsEl.style.display = 'none'; return; }
+
   const items = _tabItems[tabKey];
-  if (!items?.length) { subtabsEl.style.display = 'none'; return; }
+  if (!items?.length || items === 'zbivanja') { subtabsEl.style.display = 'none'; return; }
 
   const sources = getUniqueSources(items);
   if (sources.length < 2) { subtabsEl.style.display = 'none'; return; }
@@ -169,6 +439,7 @@ function getUniqueSources(items) {
 
 // ─── LAZY LOAD MULTI-FILE TABS ────────────────────────────────────────────────
 async function maybeLoadTab(key) {
+  if (key === 'zbivanja') return;       // Zbivanja has its own loader
   if (_tabItems[key] !== null) return; // already loaded or pre-populated
 
   const tab = _tabs.find(t => t.key === key);
@@ -261,6 +532,7 @@ async function refreshAllTabs(el) {
   const { bustCache, loadDataFile } = await import('../api/data-loader.js');
 
   for (const tab of _tabs) {
+    if (tab.key === 'zbivanja') continue; // handled separately below
     const files = tab.files ?? (tab.file ? [tab.file] : []);
     if (!files.length) continue;
     try {
@@ -279,6 +551,16 @@ async function refreshAllTabs(el) {
       }
     } catch { /* keep existing */ }
   }
+
+  // Refresh events
+  try {
+    bustCache('data/zbivanja.json');
+    _zbvData = await loadDataFile('data/zbivanja.json');
+    if (_activeTab === 'zbivanja') {
+      const pan = el?.querySelector('#news-panel-zbivanja');
+      if (pan) buildZbivanja(pan);
+    }
+  } catch { /* events not yet available */ }
 
   if (el) renderSubTabs(el, _activeTab);
 }
