@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-27T09:01:07.931Z",
+  "generated_at": "2026-05-27T10:01:08.969Z",
   "stats": {
     "muzika.hr": {
       "ok": true,
@@ -33,10 +33,6 @@
       "ok": true,
       "count": 38
     },
-    "Pogon": {
-      "ok": true,
-      "count": 0
-    },
     "Kerempuh": {
       "ok": true,
       "count": 0
@@ -44,6 +40,10 @@
     "Trešnja": {
       "ok": true,
       "count": 0
+    },
+    "Pogon": {
+      "ok": false,
+      "error": "The operation was aborted due to timeout"
     }
   },
   "concerts": [
