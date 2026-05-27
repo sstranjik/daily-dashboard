@@ -779,6 +779,22 @@
 .task-due.overdue { color: #f87171; }
 .task-due.today   { color: var(--accent); }
 
+.task-reminder-time {
+  font-family: var(--font-mono);
+  font-size: 10px;
+  font-weight: 500;
+  color: var(--text-secondary);
+  display: flex;
+  align-items: center;
+  gap: 3px;
+  padding: 1px 5px;
+  background: var(--bg-elevated);
+  border: 1px solid var(--border-faint);
+  border-radius: 3px;
+}
+.task-reminder-time.overdue { color: #f87171; border-color: rgba(248,113,113,.25); background: rgba(248,113,113,.06); }
+.task-reminder-time.today   { color: var(--accent); border-color: var(--accent-border); background: var(--accent-bg); }
+
 .task-edit-hint {
   font-family: var(--font-mono);
   font-size: 9px;

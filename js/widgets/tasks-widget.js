@@ -154,12 +154,11 @@ function renderTaskList(el, tasks) {
 
   const today = localMidnight(new Date());
 
-  // Sort ascending by full datetime; tasks without due date go last
+  // Sort ascending by full date+time; tasks without due date go last
   const sorted = [...tasks].sort((a, b) => {
-    if (a.due && !b.due) return -1;
-    if (!a.due && b.due) return  1;
-    if (a.due && b.due)  return parseDueInfo(a.due).date - parseDueInfo(b.due).date;
-    return 0;
+    const aT = a.due ? parseDueInfo(a.due).date.getTime() : Infinity;
+    const bT = b.due ? parseDueInfo(b.due).date.getTime() : Infinity;
+    return aT - bT;
   });
 
   const itemsHtml = sorted.map(task => {
@@ -198,10 +197,15 @@ function renderTaskList(el, tasks) {
       else if (diff <= 6)  { label = due.toLocaleDateString('hr-HR', { weekday: 'short', day: 'numeric', month: 'numeric' }); }
       else                 { label = due.toLocaleDateString('hr-HR', { day: 'numeric', month: 'short' }); }
 
-      if (dueInfo.showTime) {
-        const timeStr = due.toLocaleTimeString('hr-HR', { hour: '2-digit', minute: '2-digit' });
-        label += ` · ${timeStr}`;
-      }
+      const timeHtml = dueInfo.showTime
+        ? `<span class="task-reminder-time${cls === 'overdue' ? ' overdue' : cls === 'today' ? ' today' : ''}">
+            <svg width="9" height="9" viewBox="0 0 9 9" fill="none">
+              <circle cx="4.5" cy="4.5" r="4" stroke="currentColor" stroke-width="0.9"/>
+              <path d="M4.5 2.5v2.2l1.5 1" stroke="currentColor" stroke-width="0.9" stroke-linecap="round"/>
+            </svg>
+            ${due.toLocaleTimeString('hr-HR', { hour: '2-digit', minute: '2-digit' })}
+           </span>`
+        : '';
 
       dueHtml = `
         <div class="task-meta">
@@ -212,6 +216,7 @@ function renderTaskList(el, tasks) {
             </svg>
             ${label}
           </span>
+          ${timeHtml}
           ${subtaskTotal ? `<span class="task-subtask-badge">${subtaskDone}/${subtaskTotal}</span>` : ''}
         </div>`;
     } else if (subtaskTotal) {
