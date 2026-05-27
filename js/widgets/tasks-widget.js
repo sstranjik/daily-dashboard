@@ -71,13 +71,10 @@ export async function renderTasks(config) {
     }
     // ─────────────────────────────────────────────────────────────────────────
 
-    // ── DEBUG: log raw task data so we can inspect Keep fields ──────────────
-    // Check DevTools Console → "Tasks raw" to see full task objects incl. links[]
+    // ── DEBUG: log FULL raw task objects to find any hidden time fields ──────
     const rootForLog = _allTasks.filter(t => !t.parent && t.status !== 'completed');
-    console.group('Tasks raw (%d root tasks)', rootForLog.length);
-    rootForLog.forEach(t => console.log(
-      JSON.stringify({ id: t.id, title: t.title, due: t.due, notes: t.notes?.slice(0,80), links: t.links }, null, 2)
-    ));
+    console.group('Tasks raw — FULL objects (%d tasks)', rootForLog.length);
+    rootForLog.forEach(t => console.log(t.title, JSON.parse(JSON.stringify(t))));
     console.groupEnd();
     // ────────────────────────────────────────────────────────────────────────
 
