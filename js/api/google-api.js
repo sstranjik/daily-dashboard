@@ -84,10 +84,10 @@ export async function fetchTaskTimesFromCalendar(token, calendarId = 'primary') 
   const allItems = data.items ?? [];
   const taskItems = allItems.filter(ev => ev.eventType === 'task');
 
-  console.group(`[CalendarSync] ${allItems.length} total events, ${taskItems.length} with eventType=task`);
+  console.group(`[CalendarSync] ${allItems.length} total events, ${taskItems.length} with eventType=task (calendarId=${calendarId})`);
   if (taskItems.length === 0) {
-    console.warn('No task-type events found in primary calendar.');
-    console.log('Sample of all event types returned:', [...new Set(allItems.map(e => e.eventType))]);
+    console.warn(`No task-type events found on calendar "${calendarId}".`);
+    console.log('Event types returned:', [...new Set(allItems.map(e => e.eventType))]);
   } else {
     taskItems.forEach(ev => console.log(
       `  "${ev.summary}"  start=${ev.start?.dateTime ?? ev.start?.date}  eventType=${ev.eventType}`
@@ -111,6 +111,20 @@ export async function fetchTaskTimesFromCalendar(token, calendarId = 'primary') 
   }
 
   return new Map([...map.entries()].map(([k, v]) => [k, v.time]));
+}
+
+/** DEBUG — lists all calendars available to the user (call once from console) */
+export async function debugListAllCalendars(token) {
+  const res = await fetch(`${CALENDAR_API}/users/me/calendarList?maxResults=50`, {
+    headers: { Authorization: `Bearer ${token}` },
+  });
+  const data = await res.json();
+  console.group(`[Calendars] ${data.items?.length ?? 0} calendars found`);
+  (data.items ?? []).forEach(c => console.log(
+    `  id="${c.id}"  summary="${c.summary}"  accessRole=${c.accessRole}`
+  ));
+  console.groupEnd();
+  return data.items ?? [];
 }
 
 export async function fetchTaskLists(token) {

@@ -1,4 +1,4 @@
-import { getAccessToken, fetchTaskLists, fetchTasks, updateTask, createTask, fetchTaskTimesFromCalendar } from '../api/google-api.js';
+import { getAccessToken, fetchTaskLists, fetchTasks, updateTask, createTask, fetchTaskTimesFromCalendar, debugListAllCalendars } from '../api/google-api.js';
 import { requestApiAccess, GRANTED_KEY } from '../auth.js';
 import { showToast } from '../app.js';
 
@@ -47,6 +47,10 @@ export async function renderTasks(config) {
 
     const data  = await fetchTasks(token, _listId);
     _allTasks   = data.items ?? [];
+
+    // ── DEBUG: list all calendars so we can find the Tasks calendar ID ───────
+    try { await debugListAllCalendars(token); } catch (e) { console.warn('calendarList failed:', e.message); }
+    // ─────────────────────────────────────────────────────────────────────────
 
     // ── Auto-populate reminder times from Google Calendar ───────────────────
     // Tasks API always returns due as midnight UTC (strips time).
