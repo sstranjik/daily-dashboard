@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-05-27T08:01:04.868Z",
+  "generated_at": "2026-05-27T08:36:49.476Z",
   "stats": {
-    "muzika.hr": {
+    "Gavella": {
       "ok": true,
-      "count": 25
+      "count": 3
     },
     "Lisinski": {
       "ok": true,
@@ -13,9 +13,13 @@
       "ok": true,
       "count": 12
     },
-    "Gavella": {
+    "Tvornica": {
       "ok": true,
       "count": 3
+    },
+    "muzika.hr": {
+      "ok": true,
+      "count": 25
     },
     "ZeKaeM": {
       "ok": true,
@@ -29,19 +33,15 @@
       "ok": true,
       "count": 38
     },
-    "Tvornica": {
-      "ok": true,
-      "count": 3
-    },
     "Kerempuh": {
       "ok": true,
       "count": 0
     },
-    "Trešnja": {
+    "Pogon": {
       "ok": true,
       "count": 0
     },
-    "Pogon": {
+    "Trešnja": {
       "ok": true,
       "count": 0
     }
@@ -316,6 +316,21 @@
       "source": "muzika.hr",
       "is_new": false,
       "first_seen": "2026-05-26T20:26:55.235Z"
+    },
+    {
+      "id": "09d45a83ba",
+      "title": "KRS-One",
+      "venue": "Grada Vukovara 68",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-06-04T00:00:00",
+      "date_display": "čet, 04. 06. 2026.",
+      "time": null,
+      "link": "https://www.muzika.hr/event/krs-one/",
+      "source": "muzika.hr",
+      "is_new": true,
+      "first_seen": "2026-05-27T08:36:49.476Z"
     },
     {
       "id": "35907002da",
@@ -1162,6 +1177,21 @@
       "first_seen": "2026-05-26T20:26:55.235Z"
     },
     {
+      "id": "42bbc7ad64",
+      "title": "3 Suns of Aberran promocija albuma Exhale (+ Tight Grips, Take The Tides)",
+      "venue": "Tight Grips",
+      "city": "Take",
+      "country": "EU",
+      "category": "concert",
+      "date_iso": "2026-06-03T20:00:00",
+      "date_display": "sri, 03. 06. 2026.",
+      "time": "20:00",
+      "link": "https://www.muzika.hr/event/3-suns-of-aberran-promocija-albuma-exhale-tight-grips-take-the-tides/",
+      "source": "muzika.hr",
+      "is_new": true,
+      "first_seen": "2026-05-27T08:36:49.476Z"
+    },
+    {
       "id": "0ba70250b8",
       "title": "Gates of Agartha",
       "venue": "Agartha Cave Romane Vinkuranska cesta 2",
@@ -1297,5 +1327,5 @@
       "first_seen": "2026-05-26T20:26:55.235Z"
     }
   ],
-  "new_count": 0
+  "new_count": 2
 }
