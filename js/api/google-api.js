@@ -56,7 +56,14 @@ export async function fetchCalendarEvents(token) {
  *
  * Returns Map<titleLowerCase → "HH:MM">
  */
-export async function fetchTaskTimesFromCalendar(token) {
+/**
+ * calendarId — pass the task-list ID from Tasks API (same ID is used as
+ * the calendar ID for the corresponding Tasks calendar in Calendar API).
+ * Falls back to 'primary' if not provided, but task events are NOT on the
+ * primary calendar — they live on the Tasks calendar whose ID matches the
+ * task list ID returned by fetchTaskLists().
+ */
+export async function fetchTaskTimesFromCalendar(token, calendarId = 'primary') {
   const now     = new Date();
   const timeMin = new Date(now.getTime() -  90 * 24 * 3600 * 1000).toISOString();
   const timeMax = new Date(now.getTime() + 365 * 24 * 3600 * 1000).toISOString();
@@ -68,7 +75,7 @@ export async function fetchTaskTimesFromCalendar(token) {
     maxResults:   '250',
   });
 
-  const res = await fetch(`${CALENDAR_API}/calendars/primary/events?${params}`, {
+  const res = await fetch(`${CALENDAR_API}/calendars/${encodeURIComponent(calendarId)}/events?${params}`, {
     headers: { Authorization: `Bearer ${token}` },
   });
   if (!res.ok) throw new Error(`Calendar API ${res.status}`);
