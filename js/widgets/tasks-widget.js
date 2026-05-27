@@ -155,11 +155,41 @@ function setStoredTime(taskId, time) {
   } catch {}
 }
 
+/**
+ * Extracts a time string "HH:MM" from task title patterns like:
+ *   "zubar – Oskar 26.05., u 16:20h"   → "16:20"
+ *   "duspara ..., 18h m..."             → "18:00"
+ *   "VRIJEJE : 08:30"                   → "08:30"
+ *   "termin u 9:00"                     → "09:00"
+ *   "sastanak 14:30h"                   → "14:30"
+ */
+function extractTimeFromTitle(title) {
+  if (!title) return null;
+  let m;
+  // "u HH:MM h" or "u HH:MM" (Croatian preposition "u" before time)
+  m = title.match(/\bu\s+(\d{1,2}):(\d{2})h?\b/i);
+  if (m) return `${m[1].padStart(2, '0')}:${m[2]}`;
+  // "HH:MMh" with explicit h suffix (e.g. "16:20h")
+  m = title.match(/\b(\d{1,2}):(\d{2})h\b/);
+  if (m) return `${m[1].padStart(2, '0')}:${m[2]}`;
+  // "vrijeje/vrijeje/vrijeje : HH:MM" (common Croatian task title prefix for time)
+  m = title.match(/(?:vrijej\w*|vreme\w*|time|sat)\s*[:\-]\s*(\d{1,2}):(\d{2})/i);
+  if (m) return `${m[1].padStart(2, '0')}:${m[2]}`;
+  // ", 18h" or " 18h" — standalone hour with h suffix preceded by comma/space
+  m = title.match(/[,\s](\d{1,2})h\b/);
+  if (m && +m[1] >= 6 && +m[1] <= 23) return `${m[1].padStart(2, '0')}:00`;
+  return null;
+}
+
 /** Returns "HH:MM" string if any time is known for this task, otherwise null */
 function getEffectiveTime(task) {
+  // 1. Manually stored time (set via modal or Calendar API auto-detect)
   const stored = getStoredTime(task.id);
   if (stored) return stored;
-  // Fallback: Google preserved a non-midnight timestamp (rare, but handle it)
+  // 2. Parse time from task title (e.g. "zubar u 16:20h", "duspara, 18h")
+  const fromTitle = extractTimeFromTitle(getDisplayTitle(task));
+  if (fromTitle) return fromTitle;
+  // 3. Fallback: Google preserved a non-midnight timestamp (rare)
   if (task.due && !/T00:00:00(\.000)?Z$/.test(task.due)) {
     const d = new Date(task.due);
     return d.toLocaleTimeString('hr-HR', { hour: '2-digit', minute: '2-digit', hour12: false });
