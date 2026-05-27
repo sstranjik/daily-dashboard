@@ -56,8 +56,7 @@ export async function renderTasks(config) {
     // Tasks API always returns due as midnight UTC (strips time).
     // Calendar API returns task events with the actual scheduled time.
     try {
-      // _listId from Tasks API == calendar ID for the Tasks calendar in Calendar API
-      const calTimes = await fetchTaskTimesFromCalendar(token, _listId);
+      const calTimes = await fetchTaskTimesFromCalendar(token, 'primary');
       let hits = 0;
       for (const task of _allTasks.filter(t => !t.parent)) {
         const key = getDisplayTitle(task).trim().toLowerCase();
