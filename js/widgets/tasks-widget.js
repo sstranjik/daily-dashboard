@@ -1,4 +1,4 @@
-import { getAccessToken, fetchTaskLists, fetchTasks, updateTask, createTask, fetchTaskTimesFromCalendar, debugListAllCalendars } from '../api/google-api.js';
+import { getAccessToken, fetchTaskLists, fetchTasks, updateTask, createTask } from '../api/google-api.js';
 import { requestApiAccess, GRANTED_KEY } from '../auth.js';
 import { showToast } from '../app.js';
 
@@ -47,36 +47,6 @@ export async function renderTasks(config) {
 
     const data  = await fetchTasks(token, _listId);
     _allTasks   = data.items ?? [];
-
-    // ── DEBUG: list all calendars so we can find the Tasks calendar ID ───────
-    try { await debugListAllCalendars(token); } catch (e) { console.warn('calendarList failed:', e.message); }
-    // ─────────────────────────────────────────────────────────────────────────
-
-    // ── Auto-populate reminder times from Google Calendar ───────────────────
-    // Tasks API always returns due as midnight UTC (strips time).
-    // Calendar API returns task events with the actual scheduled time.
-    try {
-      const calTimes = await fetchTaskTimesFromCalendar(token, 'primary');
-      let hits = 0;
-      for (const task of _allTasks.filter(t => !t.parent)) {
-        const key = getDisplayTitle(task).trim().toLowerCase();
-        if (calTimes.has(key) && !getStoredTime(task.id)) {
-          setStoredTime(task.id, calTimes.get(key));
-          hits++;
-        }
-      }
-      console.log(`[Tasks] Calendar time sync: ${calTimes.size} cal events, ${hits} new hit(s)`);
-    } catch (err) {
-      console.warn('[Tasks] Calendar time sync skipped:', err.message);
-    }
-    // ─────────────────────────────────────────────────────────────────────────
-
-    // ── DEBUG: log FULL raw task objects to find any hidden time fields ──────
-    const rootForLog = _allTasks.filter(t => !t.parent && t.status !== 'completed');
-    console.group('Tasks raw — FULL objects (%d tasks)', rootForLog.length);
-    rootForLog.forEach(t => console.log(t.title, JSON.parse(JSON.stringify(t))));
-    console.groupEnd();
-    // ────────────────────────────────────────────────────────────────────────
 
     const rootTasks = _allTasks.filter(t => !t.parent && t.status !== 'completed');
     renderTaskList(el, rootTasks);
