@@ -43,6 +43,56 @@ export async function fetchCalendarEvents(token) {
   return res.json();
 }
 
+/**
+ * Reads task-event times from Google Calendar.
+ *
+ * Google Tasks API strips the time from `due` (always returns midnight UTC).
+ * Google Calendar renders tasks as events with eventType:'task' and preserves
+ * their scheduled time in start.dateTime.
+ *
+ * NOTE: `eventTypes=task` as a *query parameter* returns HTTP 400 —
+ * `task` is not a valid query value. We fetch all events and filter
+ * in JS by the *response field* ev.eventType === 'task'.
+ *
+ * Returns Map<titleLowerCase → "HH:MM">
+ */
+export async function fetchTaskTimesFromCalendar(token) {
+  const now     = new Date();
+  const timeMin = new Date(now.getTime() -  90 * 24 * 3600 * 1000).toISOString();
+  const timeMax = new Date(now.getTime() + 365 * 24 * 3600 * 1000).toISOString();
+
+  const params = new URLSearchParams({
+    timeMin,
+    timeMax,
+    singleEvents: 'true',
+    maxResults:   '250',
+  });
+
+  const res = await fetch(`${CALENDAR_API}/calendars/primary/events?${params}`, {
+    headers: { Authorization: `Bearer ${token}` },
+  });
+  if (!res.ok) throw new Error(`Calendar API ${res.status}`);
+  const data = await res.json();
+
+  const map   = new Map();
+  const nowMs = now.getTime();
+
+  for (const ev of data.items ?? []) {
+    if (ev.eventType !== 'task') continue;  // response field — always valid
+    const dt = ev.start?.dateTime;
+    if (!dt || !ev.summary) continue;
+    const key  = ev.summary.trim().toLowerCase();
+    const evMs = new Date(dt).getTime();
+    const time = new Date(dt).toLocaleTimeString('hr-HR', { hour: '2-digit', minute: '2-digit', hour12: false });
+    // Multiple occurrences of same title → keep the one closest to today
+    if (!map.has(key) || Math.abs(evMs - nowMs) < Math.abs(map.get(key)._ms - nowMs)) {
+      map.set(key, { time, _ms: evMs });
+    }
+  }
+
+  return new Map([...map.entries()].map(([k, v]) => [k, v.time]));
+}
+
 export async function fetchTaskLists(token) {
   const res = await fetch(`${TASKS_API}/users/@me/lists`, {
     headers: { Authorization: `Bearer ${token}` },

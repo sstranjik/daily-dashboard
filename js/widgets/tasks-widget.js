@@ -1,4 +1,4 @@
-import { getAccessToken, fetchTaskLists, fetchTasks, updateTask, createTask } from '../api/google-api.js';
+import { getAccessToken, fetchTaskLists, fetchTasks, updateTask, createTask, fetchTaskTimesFromCalendar } from '../api/google-api.js';
 import { requestApiAccess, GRANTED_KEY } from '../auth.js';
 import { showToast } from '../app.js';
 
@@ -47,6 +47,25 @@ export async function renderTasks(config) {
 
     const data  = await fetchTasks(token, _listId);
     _allTasks   = data.items ?? [];
+
+    // ── Auto-populate reminder times from Google Calendar ───────────────────
+    // Tasks API always returns due as midnight UTC (strips time).
+    // Calendar API returns task events with the actual scheduled time.
+    try {
+      const calTimes = await fetchTaskTimesFromCalendar(token);
+      let hits = 0;
+      for (const task of _allTasks.filter(t => !t.parent)) {
+        const key = getDisplayTitle(task).trim().toLowerCase();
+        if (calTimes.has(key) && !getStoredTime(task.id)) {
+          setStoredTime(task.id, calTimes.get(key));
+          hits++;
+        }
+      }
+      console.log(`[Tasks] Calendar time sync: ${calTimes.size} cal events, ${hits} new hit(s)`);
+    } catch (err) {
+      console.warn('[Tasks] Calendar time sync skipped:', err.message);
+    }
+    // ─────────────────────────────────────────────────────────────────────────
 
     // ── DEBUG: log raw task data so we can inspect Keep fields ──────────────
     // Check DevTools Console → "Tasks raw" to see full task objects incl. links[]
@@ -115,6 +134,37 @@ function getNotesPreview(task) {
     return lines.length > 1 ? lines[1].trim() : '';
   }
   return lines[0] || '';
+}
+
+// ─── REMINDER TIME STORAGE ───────────────────────────────────────────────────
+// Google Tasks API always returns due as T00:00:00Z (strips time).
+// We store reminder times in localStorage, auto-populated from Calendar API.
+const TASK_TIMES_KEY = 'dashboard_task_times';
+
+function getStoredTime(taskId) {
+  try { return JSON.parse(localStorage.getItem(TASK_TIMES_KEY) || '{}')[taskId] ?? null; }
+  catch { return null; }
+}
+
+function setStoredTime(taskId, time) {
+  try {
+    const map = JSON.parse(localStorage.getItem(TASK_TIMES_KEY) || '{}');
+    if (time) map[taskId] = time;
+    else      delete map[taskId];
+    localStorage.setItem(TASK_TIMES_KEY, JSON.stringify(map));
+  } catch {}
+}
+
+/** Returns "HH:MM" if a reminder time is known for this task, otherwise null. */
+function getEffectiveTime(task) {
+  // 1. Manually set or Calendar-auto-detected (persisted in localStorage)
+  const stored = getStoredTime(task.id);
+  if (stored) return stored;
+  // 2. Rare: Google API returned a non-midnight timestamp
+  if (task.due && !/T00:00:00(\.000)?Z$/.test(task.due)) {
+    return new Date(task.due).toLocaleTimeString('hr-HR', { hour: '2-digit', minute: '2-digit', hour12: false });
+  }
+  return null;
 }
 
 // ─── DUE DATE HELPERS ─────────────────────────────────────────────────────────
@@ -197,13 +247,15 @@ function renderTaskList(el, tasks) {
       else if (diff <= 6)  { label = due.toLocaleDateString('hr-HR', { weekday: 'short', day: 'numeric', month: 'numeric' }); }
       else                 { label = due.toLocaleDateString('hr-HR', { day: 'numeric', month: 'short' }); }
 
-      const timeHtml = dueInfo.showTime
-        ? `<span class="task-reminder-time${cls === 'overdue' ? ' overdue' : cls === 'today' ? ' today' : ''}">
+      // Show time badge only for today and future tasks (not overdue)
+      const effectiveTime = diff >= 0 ? getEffectiveTime(task) : null;
+      const timeHtml = effectiveTime
+        ? `<span class="task-reminder-time${cls === 'today' ? ' today' : ''}">
             <svg width="9" height="9" viewBox="0 0 9 9" fill="none">
               <circle cx="4.5" cy="4.5" r="4" stroke="currentColor" stroke-width="0.9"/>
               <path d="M4.5 2.5v2.2l1.5 1" stroke="currentColor" stroke-width="0.9" stroke-linecap="round"/>
             </svg>
-            ${due.toLocaleTimeString('hr-HR', { hour: '2-digit', minute: '2-digit' })}
+            ${effectiveTime}
            </span>`
         : '';
 
@@ -321,20 +373,10 @@ function openTaskModal(task) {
   if (titleEl) titleEl.value = task.title || '';
   if (dateEl)  dateEl.value  = task.due ? task.due.slice(0, 10) : '';
 
-  // Show/hide time field based on whether task has a real (non-midnight) time
+  // Always show time field; pre-fill from localStorage or Calendar-detected time
   const timeField = timeEl?.closest('.modal-field');
-  if (timeField) {
-    const dueInfo = task.due ? parseDueInfo(task.due) : null;
-    if (dueInfo?.showTime) {
-      timeField.style.display = '';
-      timeEl.value = dueInfo.date.toLocaleTimeString('hr-HR', {
-        hour: '2-digit', minute: '2-digit', hour12: false,
-      });
-    } else {
-      timeField.style.display = 'none';
-      if (timeEl) timeEl.value = '';
-    }
-  }
+  if (timeField) timeField.style.display = '';
+  if (timeEl) timeEl.value = getEffectiveTime(task) ?? '';
 
   // Notes: hide textarea for multi-line notes (shown as checklist instead)
   const multiLine = isMultiLineNote(task);
@@ -362,7 +404,7 @@ function openTaskModal(task) {
     modal.classList.add('hidden');
     overlay.classList.add('hidden');
     if (notesEl) notesEl.style.display = '';
-    if (timeField) timeField.style.display = 'none';
+    if (timeField) timeField.style.display = '';
     saveBtn?.removeEventListener('click', onSave);
     cancelBtn?.removeEventListener('click', cleanup);
     closeBtn?.removeEventListener('click', cleanup);
@@ -405,6 +447,8 @@ function openTaskModal(task) {
 
     try {
       await updateTask(token, _listId, task.id, updates);
+      // Persist reminder time locally (Google API strips the time from `due`)
+      setStoredTime(task.id, timeEl?.value?.trim() || null);
       cleanup();
       renderTasks(_appConfig);
       showToast('Zadatak spremljen', 'success');
