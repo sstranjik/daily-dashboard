@@ -74,11 +74,24 @@ export async function fetchTaskTimesFromCalendar(token) {
   if (!res.ok) throw new Error(`Calendar API ${res.status}`);
   const data = await res.json();
 
+  const allItems = data.items ?? [];
+  const taskItems = allItems.filter(ev => ev.eventType === 'task');
+
+  console.group(`[CalendarSync] ${allItems.length} total events, ${taskItems.length} with eventType=task`);
+  if (taskItems.length === 0) {
+    console.warn('No task-type events found in primary calendar.');
+    console.log('Sample of all event types returned:', [...new Set(allItems.map(e => e.eventType))]);
+  } else {
+    taskItems.forEach(ev => console.log(
+      `  "${ev.summary}"  start=${ev.start?.dateTime ?? ev.start?.date}  eventType=${ev.eventType}`
+    ));
+  }
+  console.groupEnd();
+
   const map   = new Map();
   const nowMs = now.getTime();
 
-  for (const ev of data.items ?? []) {
-    if (ev.eventType !== 'task') continue;  // response field — always valid
+  for (const ev of taskItems) {
     const dt = ev.start?.dateTime;
     if (!dt || !ev.summary) continue;
     const key  = ev.summary.trim().toLowerCase();
