@@ -1,4 +1,4 @@
-import { getAccessToken, fetchTaskLists, fetchTasks, updateTask, createTask } from '../api/google-api.js';
+import { getAccessToken, fetchTaskLists, fetchTasks, updateTask, createTask, fetchTaskTimesFromCalendar } from '../api/google-api.js';
 import { requestApiAccess, GRANTED_KEY } from '../auth.js';
 import { showToast } from '../app.js';
 
@@ -47,6 +47,25 @@ export async function renderTasks(config) {
 
     const data  = await fetchTasks(token, _listId);
     _allTasks   = data.items ?? [];
+
+    // ── Auto-detect reminder times from Google Calendar ──────────────────────
+    // Calendar API returns task events WITH their times (Tasks API strips them).
+    // We match by lowercase title and persist to localStorage for display/sort.
+    try {
+      const calTimes = await fetchTaskTimesFromCalendar(token);
+      let hits = 0;
+      for (const task of _allTasks.filter(t => !t.parent)) {
+        const key = getDisplayTitle(task).trim().toLowerCase();
+        if (calTimes.has(key) && !getStoredTime(task.id)) {
+          setStoredTime(task.id, calTimes.get(key));
+          hits++;
+        }
+      }
+      if (hits) console.log(`[Tasks] Auto-set ${hits} reminder time(s) from Calendar API`);
+    } catch (err) {
+      console.warn('[Tasks] Calendar time sync skipped:', err.message);
+    }
+    // ─────────────────────────────────────────────────────────────────────────
 
     // ── DEBUG: log raw task data so we can inspect Keep fields ──────────────
     // Check DevTools Console → "Tasks raw" to see full task objects incl. links[]

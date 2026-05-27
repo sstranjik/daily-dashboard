@@ -43,6 +43,50 @@ export async function fetchCalendarEvents(token) {
   return res.json();
 }
 
+/**
+ * Fetch task-type events from Google Calendar to read their reminder times.
+ * Google Tasks API discards the time from `due`, but Calendar API exposes it.
+ * Returns Map<titleLowerCase → "HH:MM">
+ */
+export async function fetchTaskTimesFromCalendar(token) {
+  const now     = new Date();
+  const timeMin = new Date(now.getTime() -  60 * 24 * 3600 * 1000).toISOString(); // 60 days back
+  const timeMax = new Date(now.getTime() + 365 * 24 * 3600 * 1000).toISOString(); // 1 year ahead
+
+  const params = new URLSearchParams({
+    timeMin,
+    timeMax,
+    singleEvents: 'true',
+    maxResults:   '250',
+    eventTypes:   'task',
+  });
+
+  const res = await fetch(`${CALENDAR_API}/calendars/primary/events?${params}`, {
+    headers: { Authorization: `Bearer ${token}` },
+  });
+  if (!res.ok) throw new Error(`Calendar eventTypes=task: ${res.status}`);
+  const data = await res.json();
+
+  const map   = new Map();
+  const nowMs = now.getTime();
+
+  for (const ev of data.items ?? []) {
+    const dt = ev.start?.dateTime;
+    if (!dt || !ev.summary) continue;    // skip date-only tasks (no time info)
+    const key  = ev.summary.trim().toLowerCase();
+    const evMs = new Date(dt).getTime();
+    const d    = new Date(dt);
+    const time = d.toLocaleTimeString('hr-HR', { hour: '2-digit', minute: '2-digit', hour12: false });
+
+    // If multiple tasks share the same title, keep the one closest to today
+    if (!map.has(key) || Math.abs(evMs - nowMs) < Math.abs(map.get(key)._ms - nowMs)) {
+      map.set(key, { time, _ms: evMs });
+    }
+  }
+
+  return new Map([...map.entries()].map(([k, v]) => [k, v.time]));
+}
+
 export async function fetchTaskLists(token) {
   const res = await fetch(`${TASKS_API}/users/@me/lists`, {
     headers: { Authorization: `Bearer ${token}` },
