@@ -1,56 +1,63 @@
 {
-  "last_updated": "2026-05-27T06:00:55.896Z",
+  "last_updated": "2026-05-27T07:00:26.914Z",
   "generator": "dashboard-bot/1.0",
   "sources": {
     "hr_news": {
-      "updated_at": "2026-05-27T06:00:55.896Z",
-      "item_count": 106,
+      "updated_at": "2026-05-27T07:00:26.914Z",
+      "item_count": 107,
       "ok": true
     },
     "world_news": {
-      "updated_at": "2026-05-27T06:00:55.896Z",
+      "updated_at": "2026-05-27T07:00:26.914Z",
       "item_count": 76,
       "ok": true
     },
     "finance_news": {
-      "updated_at": "2026-05-27T06:00:55.896Z",
-      "item_count": 5,
+      "updated_at": "2026-05-27T07:00:26.914Z",
+      "item_count": 4,
       "ok": true
     },
     "tech_news": {
-      "updated_at": "2026-05-27T06:00:55.896Z",
-      "item_count": 74,
+      "updated_at": "2026-05-27T07:00:26.914Z",
+      "item_count": 78,
       "ok": true
     },
     "science": {
-      "updated_at": "2026-05-27T06:00:55.896Z",
-      "item_count": 55,
+      "updated_at": "2026-05-27T07:00:26.914Z",
+      "item_count": 54,
       "ok": true
     },
     "sports": {
-      "updated_at": "2026-05-27T06:00:55.896Z",
+      "updated_at": "2026-05-27T07:00:26.914Z",
       "item_count": 59,
       "ok": true
     },
     "entertainment": {
-      "updated_at": "2026-05-27T06:00:55.896Z",
-      "item_count": 67,
+      "updated_at": "2026-05-27T07:00:26.914Z",
+      "item_count": 65,
       "ok": true
     },
     "health": {
-      "updated_at": "2026-05-27T06:00:55.896Z",
+      "updated_at": "2026-05-27T07:00:26.914Z",
       "item_count": 33,
       "ok": true
     },
     "food": {
-      "updated_at": "2026-05-27T06:00:55.896Z",
+      "updated_at": "2026-05-27T07:00:26.914Z",
       "item_count": 25,
       "ok": true
     },
     "briefing": {
-      "updated_at": "2026-05-27T06:00:55.896Z",
-      "ok": false,
-      "ai_used": false
+      "updated_at": "2026-05-27T07:00:50.221Z",
+      "ok": true,
+      "ai_used": true,
+      "sections": [
+        "weather",
+        "fuel",
+        "market",
+        "ai_news",
+        "micro_tips"
+      ]
     }
   }
 }

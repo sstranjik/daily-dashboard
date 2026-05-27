@@ -1,15 +1,15 @@
 {
   "version": 2,
-  "date": "2026-05-26",
-  "generated_at": "2026-05-26T20:32:31.009Z",
-  "date_hr": "Utorak, 26. svibnja 2026.",
+  "date": "2026-05-27",
+  "generated_at": "2026-05-27T07:00:50.221Z",
+  "date_hr": "Srijeda, 27. svibnja 2026.",
   "weather": {
-    "icon": "🌤️",
-    "summary": "19–31°C, djelomično oblačno",
+    "icon": "🌧️",
+    "summary": "18–32°C, lagana kiša",
     "alerts": []
   },
   "fuel": {
-    "current_date": "26.05.2026",
+    "current_date": "27.05.2026",
     "eurodiesel": [
       {
         "company": "Adria Oil",
@@ -63,20 +63,31 @@
     "upcoming_premium": null
   },
   "market": {
-    "updated_at": "2026-05-26T20:32:31.009Z",
-    "btc_usd": 76044,
-    "btc_eur": 65383,
-    "btc_change_24h": -1.74,
-    "usd_eur": 0.8591
+    "updated_at": "2026-05-27T07:00:50.221Z",
+    "btc_usd": 75719,
+    "btc_eur": 65023,
+    "btc_change_24h": -1.45,
+    "usd_eur": 0.8597
   },
-  "ai_news": [],
+  "ai_news": [
+    {
+      "title": "I was intrigued by Google's new video-cloning Omni AI - then I considered the implications",
+      "link": "https://www.zdnet.com/article/google-omni-ai-tool-video-gemini/",
+      "source": "ZDNet"
+    },
+    {
+      "title": "DuckDuckGo installs are up 30% as users reject being ‘force-fed’ Google’s AI Search",
+      "link": "https://techcrunch.com/2026/05/26/duckduckgo-installs-are-up-30-as-users-reject-being-force-fed-googles-ai-search/",
+      "source": "TechCrunch AI"
+    }
+  ],
   "micro_tips": {
     "vscode": {
-      "tip": "Obriši cijelu liniju odjednom",
-      "keys": "Ctrl+Shift+K"
+      "tip": "Otvori datoteku brzim pretraživanjem",
+      "keys": "Ctrl+P"
     },
-    "sql": "GROUP BY s ROLLUP za subtotale u jednom prolasku: GROUP BY ROLLUP(god, mj)",
-    "oracle": "TRUNC(datum_kolona) = TRUNC(SYSDATE) koristi B-tree index na datumskoj koloni",
-    "regex": "\\d{4}-\\d{2}-\\d{2} ISO datum pattern; za validaciju zatvori s ^...$"
+    "sql": "NOT EXISTS brži od NOT IN kad subquery može vratiti NULL vrijednost",
+    "oracle": "DBMS_STATS.GATHER_TABLE_STATS osvježava statistike za točniji execution plan",
+    "regex": "(?i) inline flag za case-insensitive bez mijenjanja ostatka patternahe"
   }
 }
