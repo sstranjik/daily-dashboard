@@ -117,20 +117,51 @@ function getNotesPreview(task) {
   return lines[0] || '';
 }
 
+// ─── LOCAL REMINDER TIME STORAGE ─────────────────────────────────────────────
+// Google Tasks API discards the time portion from `due` (always returns midnight UTC).
+// We store reminder times locally in localStorage keyed by task ID.
+const TASK_TIMES_KEY = 'dashboard_task_times';
+
+function getStoredTime(taskId) {
+  try { return JSON.parse(localStorage.getItem(TASK_TIMES_KEY) || '{}')[taskId] ?? null; }
+  catch { return null; }
+}
+
+function setStoredTime(taskId, time) {
+  try {
+    const map = JSON.parse(localStorage.getItem(TASK_TIMES_KEY) || '{}');
+    if (time) map[taskId] = time;
+    else      delete map[taskId];
+    localStorage.setItem(TASK_TIMES_KEY, JSON.stringify(map));
+  } catch {}
+}
+
+/** Returns "HH:MM" string if any time is known for this task, otherwise null */
+function getEffectiveTime(task) {
+  const stored = getStoredTime(task.id);
+  if (stored) return stored;
+  // Fallback: Google preserved a non-midnight timestamp (rare, but handle it)
+  if (task.due && !/T00:00:00(\.000)?Z$/.test(task.due)) {
+    const d = new Date(task.due);
+    return d.toLocaleTimeString('hr-HR', { hour: '2-digit', minute: '2-digit', hour12: false });
+  }
+  return null;
+}
+
 // ─── DUE DATE HELPERS ─────────────────────────────────────────────────────────
 /**
- * Returns { date: Date, showTime: boolean }.
- * Midnight UTC (Google Tasks date-only) → local-date parse, no time shown.
- * Any other time → UTC Date parse, time shown in local timezone.
+ * Returns { date: Date }.
+ * Midnight UTC (Google Tasks date-only) → local-date parse.
+ * Any other time → UTC Date parse.
  */
 function parseDueInfo(due) {
   if (!due) return null;
   const isDateOnly = /T00:00:00(\.000)?Z$/.test(due);
   if (isDateOnly) {
     const [y, m, d] = due.slice(0, 10).split('-').map(Number);
-    return { date: new Date(y, m - 1, d), showTime: false };
+    return { date: new Date(y, m - 1, d) };
   }
-  return { date: new Date(due), showTime: true };
+  return { date: new Date(due) };
 }
 
 function localMidnight(date) {
@@ -154,12 +185,18 @@ function renderTaskList(el, tasks) {
 
   const today = localMidnight(new Date());
 
-  // Sort ascending by full date+time; tasks without due date go last
-  const sorted = [...tasks].sort((a, b) => {
-    const aT = a.due ? parseDueInfo(a.due).date.getTime() : Infinity;
-    const bT = b.due ? parseDueInfo(b.due).date.getTime() : Infinity;
-    return aT - bT;
-  });
+  // Sort ascending by date + stored reminder time; tasks without due date go last
+  const toSortMs = t => {
+    if (!t.due) return Infinity;
+    const d = new Date(parseDueInfo(t.due).date); // copy
+    const timeStr = getEffectiveTime(t);
+    if (timeStr) {
+      const [h, m] = timeStr.split(':').map(Number);
+      d.setHours(h, m, 0, 0);
+    }
+    return d.getTime();
+  };
+  const sorted = [...tasks].sort((a, b) => toSortMs(a) - toSortMs(b));
 
   const itemsHtml = sorted.map(task => {
     const subtaskCount = _allTasks.filter(t => t.parent === task.id && t.status !== 'completed').length;
@@ -197,13 +234,14 @@ function renderTaskList(el, tasks) {
       else if (diff <= 6)  { label = due.toLocaleDateString('hr-HR', { weekday: 'short', day: 'numeric', month: 'numeric' }); }
       else                 { label = due.toLocaleDateString('hr-HR', { day: 'numeric', month: 'short' }); }
 
-      const timeHtml = dueInfo.showTime
+      const effectiveTime = getEffectiveTime(task);
+      const timeHtml = effectiveTime
         ? `<span class="task-reminder-time${cls === 'overdue' ? ' overdue' : cls === 'today' ? ' today' : ''}">
             <svg width="9" height="9" viewBox="0 0 9 9" fill="none">
               <circle cx="4.5" cy="4.5" r="4" stroke="currentColor" stroke-width="0.9"/>
               <path d="M4.5 2.5v2.2l1.5 1" stroke="currentColor" stroke-width="0.9" stroke-linecap="round"/>
             </svg>
-            ${due.toLocaleTimeString('hr-HR', { hour: '2-digit', minute: '2-digit' })}
+            ${effectiveTime}
            </span>`
         : '';
 
@@ -321,20 +359,10 @@ function openTaskModal(task) {
   if (titleEl) titleEl.value = task.title || '';
   if (dateEl)  dateEl.value  = task.due ? task.due.slice(0, 10) : '';
 
-  // Show/hide time field based on whether task has a real (non-midnight) time
+  // Always show the time field; pre-fill from localStorage (or API if non-midnight)
   const timeField = timeEl?.closest('.modal-field');
-  if (timeField) {
-    const dueInfo = task.due ? parseDueInfo(task.due) : null;
-    if (dueInfo?.showTime) {
-      timeField.style.display = '';
-      timeEl.value = dueInfo.date.toLocaleTimeString('hr-HR', {
-        hour: '2-digit', minute: '2-digit', hour12: false,
-      });
-    } else {
-      timeField.style.display = 'none';
-      if (timeEl) timeEl.value = '';
-    }
-  }
+  if (timeField) timeField.style.display = '';
+  if (timeEl) timeEl.value = getEffectiveTime(task) ?? '';
 
   // Notes: hide textarea for multi-line notes (shown as checklist instead)
   const multiLine = isMultiLineNote(task);
@@ -362,7 +390,7 @@ function openTaskModal(task) {
     modal.classList.add('hidden');
     overlay.classList.add('hidden');
     if (notesEl) notesEl.style.display = '';
-    if (timeField) timeField.style.display = 'none';
+    if (timeField) timeField.style.display = '';
     saveBtn?.removeEventListener('click', onSave);
     cancelBtn?.removeEventListener('click', cleanup);
     closeBtn?.removeEventListener('click', cleanup);
@@ -405,6 +433,8 @@ function openTaskModal(task) {
 
     try {
       await updateTask(token, _listId, task.id, updates);
+      // Save reminder time to localStorage (Google API discards the time portion)
+      setStoredTime(task.id, timeEl?.value?.trim() || null);
       cleanup();
       renderTasks(_appConfig);
       showToast('Zadatak spremljen', 'success');
