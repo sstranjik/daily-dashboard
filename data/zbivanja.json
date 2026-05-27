@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-05-26T21:26:20.720Z",
+  "generated_at": "2026-05-27T05:01:02.697Z",
   "stats": {
-    "muzika.hr": {
+    "Gavella": {
       "ok": true,
-      "count": 25
+      "count": 3
     },
     "Mochvara": {
       "ok": true,
@@ -13,10 +13,6 @@
       "ok": true,
       "count": 0
     },
-    "Gavella": {
-      "ok": true,
-      "count": 3
-    },
     "Tvornica": {
       "ok": true,
       "count": 3
@@ -25,17 +21,21 @@
       "ok": true,
       "count": 0
     },
-    "Komedija": {
+    "muzika.hr": {
       "ok": true,
-      "count": 0
+      "count": 25
     },
     "Pogon": {
       "ok": true,
       "count": 0
     },
+    "Komedija": {
+      "ok": true,
+      "count": 0
+    },
     "HNK Zagreb": {
       "ok": true,
-      "count": 39
+      "count": 38
     },
     "Kerempuh": {
       "ok": true,
@@ -256,6 +256,21 @@
       "source": "muzika.hr",
       "is_new": false,
       "first_seen": "2026-05-26T20:26:55.235Z"
+    },
+    {
+      "id": "37dc6ac1de",
+      "title": "Stoner doom koncert: Acid King, OMEGA SUN, Canubis",
+      "venue": "Mochvara",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-05-31T20:00:00",
+      "date_display": "ned, 31. 05. 2026.",
+      "time": "20:00",
+      "link": "https://mochvara.hr/event-detail/69737a71bb5d558dd6536483/?lang=hr",
+      "source": "Mochvara",
+      "is_new": true,
+      "first_seen": "2026-05-27T05:01:02.697Z"
     },
     {
       "id": "a1e032ceb0",
@@ -1282,5 +1297,5 @@
       "first_seen": "2026-05-26T20:26:55.235Z"
     }
   ],
-  "new_count": 0
+  "new_count": 1
 }
