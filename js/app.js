@@ -422,6 +422,17 @@ const _WX_SVG = {
     `</g>`
   ),
 
+  /* 🌙  clear night — crescent moon */
+  moon: _svg(
+    `<path d="M26,17 A11,11 0,1,1 15,4 A9,9 0,0,0 26,17Z" fill="#8fa8c0"/>`
+  ),
+
+  /* 🌛  partly cloudy night — small crescent (upper-right) + light cloud */
+  pMoon: _svg(
+    `<path d="M29,11 A7,7 0,1,1 22,3 A5.5,5.5 0,0,0 29,11Z" fill="#8fa8c0"/>` +
+    `<path d="${_CS}" fill="#D0D0D0"/>`
+  ),
+
   /* 🌡️  thermometer — fallback */
   thermo: _svg(
     `<rect x="14" y="5" width="4" height="17" rx="2" fill="#B0B0B0"/>` +
@@ -430,9 +441,9 @@ const _WX_SVG = {
   ),
 };
 
-export function weatherCodeToEmoji(code) {
-  if (code === 0)  return _WX_SVG.sun;
-  if (code <= 2)   return _WX_SVG.pSun;
+export function weatherCodeToEmoji(code, isNight = false) {
+  if (code === 0)  return isNight ? _WX_SVG.moon  : _WX_SVG.sun;
+  if (code <= 2)   return isNight ? _WX_SVG.pMoon : _WX_SVG.pSun;
   if (code === 3)  return _WX_SVG.cloud;
   if (code <= 48)  return _WX_SVG.fog;
   if (code <= 57)  return _WX_SVG.dzl;

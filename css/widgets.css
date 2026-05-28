@@ -893,23 +893,33 @@
 .weather-compact-stats {
   display: flex;
   flex-direction: column;
-  gap: 3px;
+  gap: 4px;
   align-self: flex-start;
   flex-shrink: 0;
+  min-width: 72px; /* invisible box — keeps stats left-aligned */
 }
-.weather-stat-pill {
+.weather-stat-row {
   display: flex;
   align-items: center;
-  gap: 3px;
-  padding: 3px 8px;
-  background: var(--bg-tertiary);
-  border: 1px solid var(--border-faint);
-  border-radius: var(--r-md);
+  gap: 5px;
   font-family: var(--font-mono);
-  font-size: 10px;
+  font-size: 11px;
   color: var(--text-secondary);
 }
-.weather-stat-pill-icon { font-size: 10px; }
+.wx-stat-icon {
+  height: 12px;
+  width: 12px;
+  display: block;
+  flex-shrink: 0;
+  color: var(--text-muted);
+}
+.wx-sun-sm {
+  height: 14px;
+  width: auto;
+  display: block;
+  flex-shrink: 0;
+  color: var(--text-muted);
+}
 
 .weather-sun-compact {
   display: flex;

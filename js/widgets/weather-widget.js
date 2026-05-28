@@ -15,7 +15,13 @@ export function renderWeather(data, location) {
   const h    = data.hourly;
   const city = location?._city || location?.default_city || 'Zagreb';
 
-  const icon      = weatherCodeToEmoji(c.weathercode);
+  // Determine day/night from sunrise & sunset
+  const nowMs      = Date.now();
+  const sunriseMs  = d?.sunrise?.[0] ? new Date(d.sunrise[0]).getTime() : 0;
+  const sunsetMs   = d?.sunset?.[0]  ? new Date(d.sunset[0]).getTime()  : Infinity;
+  const isNight    = nowMs < sunriseMs || nowMs > sunsetMs;
+
+  const icon      = weatherCodeToEmoji(c.weathercode, isNight);
   const condition = weatherCodeToText(c.weathercode);
   const temp      = Math.round(c.temperature_2m);
   const feelsLike = Math.round(c.apparent_temperature);
@@ -30,8 +36,17 @@ export function renderWeather(data, location) {
   const fetchedAt  = data._fetchedAt ? new Date(data._fetchedAt) : new Date();
   const updatedStr = fetchedAt.toLocaleTimeString('hr-HR', { hour: '2-digit', minute: '2-digit' });
 
+  // ── Stat icons (inline SVG, no pill boxes) ─────────────────────────────────
+  const _iFeel  = `<svg class="wx-stat-icon" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg" fill="none"><rect x="5" y="1" width="2.2" height="6.5" rx="1.1" fill="currentColor" opacity="0.65"/><circle cx="6.1" cy="9.5" r="2" fill="currentColor"/></svg>`;
+  const _iHumid = `<svg class="wx-stat-icon" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg"><path d="M6 2L9.5 7.5A3.5 3.5 0 1 1 2.5 7.5Z" fill="#4A9EDE"/></svg>`;
+  const _iWind  = `<svg class="wx-stat-icon" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg" fill="none"><path d="M1 4.5h5.5a2 2 0 0 0 0-4" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"/><path d="M1 7.5h7.5a2 2 0 0 1 0 4" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"/></svg>`;
+
+  // Sunrise / sunset icons (small SVGs)
+  const _iSunrise = `<svg class="wx-sun-sm" viewBox="0 0 14 10" xmlns="http://www.w3.org/2000/svg"><path d="M1,9.5 A6,6 0,0,1 13,9.5Z" fill="#FFC107"/><line x1="0" y1="9.5" x2="14" y2="9.5" stroke="currentColor" stroke-width="1.1" stroke-linecap="round" opacity="0.4"/></svg>`;
+  const _iSunset  = `<svg class="wx-sun-sm" viewBox="0 0 14 12" xmlns="http://www.w3.org/2000/svg"><path d="M10,6.5 A5,5 0,1,1 5,1 A4,4 0,0,0 10,6.5Z" fill="#8fa8c0"/></svg>`;
+
   // ── Hourly strip (next 12 h from current hour) ─────────────────────────────
-  const hourlyHtml = buildHourlyStrip(h);
+  const hourlyHtml = buildHourlyStrip(h, sunriseMs, sunsetMs);
 
   // ── 7-day forecast ─────────────────────────────────────────────────────────
   const shortDays = ['Ned','Pon','Uto','Sri','Čet','Pet','Sub'];
@@ -84,9 +99,9 @@ export function renderWeather(data, location) {
           </div>
         </div>
         <div class="weather-compact-stats">
-          <span class="weather-stat-pill"><span class="weather-stat-pill-icon">🌡️</span> ${feelsLike}°</span>
-          <span class="weather-stat-pill"><span class="weather-stat-pill-icon">💧</span> ${humidity}%</span>
-          <span class="weather-stat-pill"><span class="weather-stat-pill-icon">💨</span> ${windSpd} km/h ${windDir}</span>
+          <div class="weather-stat-row">${_iFeel} ${feelsLike}°</div>
+          <div class="weather-stat-row">${_iHumid} ${humidity}%</div>
+          <div class="weather-stat-row">${_iWind} ${windSpd} km/h ${windDir}</div>
         </div>
       </div>
 
@@ -95,8 +110,8 @@ export function renderWeather(data, location) {
       <div class="weather-hourly">${hourlyHtml}</div>` : ''}
 
       <div class="weather-sun-compact" style="margin-top:var(--sp-3)">
-        <div class="weather-sun-compact-item">☀️ ${sunrise}</div>
-        <div class="weather-sun-compact-item">🌇 ${sunset}</div>
+        <div class="weather-sun-compact-item">${_iSunrise} ${sunrise}</div>
+        <div class="weather-sun-compact-item">${_iSunset} ${sunset}</div>
       </div>
 
       <div class="weather-section-label">7 dana</div>
@@ -123,7 +138,7 @@ export function renderWeather(data, location) {
 }
 
 // ── Hourly strip — next 12 hours from current local hour ──────────────────────
-function buildHourlyStrip(hourly) {
+function buildHourlyStrip(hourly, sunriseMs = 0, sunsetMs = Infinity) {
   if (!hourly?.time?.length) return '';
 
   // Match current local hour to Open-Meteo time strings (local tz)
@@ -134,13 +149,15 @@ function buildHourlyStrip(hourly) {
   if (start < 0) return '';  // current hour not found in data
 
   return hourly.time.slice(start, start + 12).map((t, i) => {
-    const idx  = start + i;
-    const code = hourly.weathercode[idx];
-    const temp = Math.round(hourly.temperature_2m[idx]);
-    const rain = hourly.precipitation_probability?.[idx] ?? 0;
-    const hhmm = t.slice(11, 16);          // "HH:MM"
-    const icon = weatherCodeToEmoji(code);
-    const now_ = i === 0;
+    const idx   = start + i;
+    const code  = hourly.weathercode[idx];
+    const temp  = Math.round(hourly.temperature_2m[idx]);
+    const rain  = hourly.precipitation_probability?.[idx] ?? 0;
+    const hhmm  = t.slice(11, 16);          // "HH:MM"
+    const tMs   = new Date(t).getTime();
+    const night = tMs < sunriseMs || tMs > sunsetMs;
+    const icon  = weatherCodeToEmoji(code, night);
+    const now_  = i === 0;
     return `
       <div class="weather-hour-item${now_ ? ' is-now' : ''}">
         <span class="weather-hour-time">${now_ ? 'sad' : hhmm}</span>
