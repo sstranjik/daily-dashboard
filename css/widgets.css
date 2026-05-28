@@ -201,9 +201,9 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 3px;
-  min-width: 44px;
-  padding: 6px 4px;
+  gap: 2px;
+  min-width: 40px;
+  padding: 3px 4px;
   background: var(--bg-tertiary);
   border-radius: var(--r-lg);
   border: 1px solid var(--border-faint);
@@ -213,8 +213,8 @@
 .weather-hour-item.is-now { border-color: var(--accent-border); background: var(--accent-bg); }
 
 .weather-hour-time { font-family: var(--font-mono); font-size: 9px; color: var(--text-muted); }
-.weather-hour-icon { font-size: 24px; }
-.weather-hour-temp { font-family: var(--font-mono); font-size: var(--text-sm); font-weight: 500; color: var(--text-primary); }
+.weather-hour-icon { font-size: 20px; }
+.weather-hour-temp { font-family: var(--font-mono); font-size: var(--text-xs); font-weight: 500; color: var(--text-primary); }
 .weather-hour-rain { font-family: var(--font-mono); font-size: 9px; color: #1a73e8; }
 .weather-hour-item.is-now .weather-hour-time,
 .weather-hour-item.is-now .weather-hour-temp { color: var(--accent); }
@@ -859,7 +859,7 @@
 /* ─── COMPACT WEATHER (300px column) ─────────────────────────────────────── */
 .weather-compact-top {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   gap: var(--sp-3);
   margin-bottom: var(--sp-3);
 }
@@ -892,9 +892,11 @@
 
 .weather-compact-stats {
   display: flex;
-  gap: var(--sp-1);
-  margin-bottom: var(--sp-3);
-  flex-wrap: wrap;
+  flex-direction: column;
+  gap: 3px;
+  margin-left: auto;
+  align-self: flex-start;
+  flex-shrink: 0;
 }
 .weather-stat-pill {
   display: flex;
@@ -937,7 +939,7 @@
   display: flex;
   align-items: center;
   gap: var(--sp-1);
-  padding: 4px var(--sp-2);
+  padding: 2px var(--sp-2);
   border-radius: var(--r-sm);
   transition: background var(--dur);
 }
@@ -950,7 +952,7 @@
   flex-shrink: 0;
 }
 .weather-7day-name.is-today { color: var(--accent); font-weight: 600; }
-.weather-7day-icon { font-size: 24px; flex-shrink: 0; }
+.weather-7day-icon { font-size: 20px; flex-shrink: 0; }
 .weather-7day-rain {
   font-family: var(--font-mono);
   font-size: 9px;

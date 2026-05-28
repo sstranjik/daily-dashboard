@@ -83,12 +83,11 @@ export function renderWeather(data, location) {
             ${city}
           </div>
         </div>
-      </div>
-
-      <div class="weather-compact-stats">
-        <span class="weather-stat-pill"><span class="weather-stat-pill-icon">🌡️</span> ${feelsLike}°</span>
-        <span class="weather-stat-pill"><span class="weather-stat-pill-icon">💧</span> ${humidity}%</span>
-        <span class="weather-stat-pill"><span class="weather-stat-pill-icon">💨</span> ${windSpd} km/h ${windDir}</span>
+        <div class="weather-compact-stats">
+          <span class="weather-stat-pill"><span class="weather-stat-pill-icon">🌡️</span> ${feelsLike}°</span>
+          <span class="weather-stat-pill"><span class="weather-stat-pill-icon">💧</span> ${humidity}%</span>
+          <span class="weather-stat-pill"><span class="weather-stat-pill-icon">💨</span> ${windSpd} km/h ${windDir}</span>
+        </div>
       </div>
 
       ${hourlyHtml ? `
