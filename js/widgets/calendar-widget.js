@@ -50,7 +50,30 @@ export async function renderCalendar(config) {
 }
 
 function renderEvents(el, events) {
-  if (!events.length) {
+  // Split holidays from regular events
+  const holidays = {};   // dateKey → string[]
+  const regular  = [];
+
+  for (const ev of events) {
+    const dk = ev.start?.date ?? ev.start?.dateTime?.slice(0, 10);
+    if (!dk) continue;
+    if (ev._isHoliday) {
+      if (!holidays[dk]) holidays[dk] = [];
+      holidays[dk].push(ev.summary || '');
+    } else {
+      regular.push(ev);
+    }
+  }
+
+  // Days with regular events
+  const groups = groupByDay(regular);
+
+  // Add holiday-only days (no regular events that day)
+  for (const dk of Object.keys(holidays)) {
+    if (!groups[dk]) groups[dk] = [];
+  }
+
+  if (!Object.keys(groups).length) {
     el.innerHTML = headerHtml() + `
       <div class="empty-state">
         <div class="empty-state-icon">📅</div>
@@ -60,11 +83,10 @@ function renderEvents(el, events) {
     return;
   }
 
-  // Group by date
-  const groups = groupByDay(events);
-  const today  = toDateKey(new Date());
+  const today      = toDateKey(new Date());
+  const sortedDays = Object.keys(groups).sort();
 
-  const groupsHtml = Object.entries(groups).map(([dateKey, dayEvents]) => {
+  const groupsHtml = sortedDays.map(dateKey => {
     const isToday    = dateKey === today;
     const isTomorrow = dateKey === tomorrowKey();
     const dateObj    = new Date(dateKey + 'T00:00:00');
@@ -72,13 +94,21 @@ function renderEvents(el, events) {
       : isTomorrow   ? 'Sutra'
       : `${shortDays[dateObj.getDay()]}, ${dateObj.getDate()}. ${shortMonths[dateObj.getMonth()]}.`;
 
+    const dayHolidays = holidays[dateKey] ?? [];
+    const dayEvents   = groups[dateKey]   ?? [];
+
+    const holidayBadges = dayHolidays
+      .map(name => `<span class="cal-holiday-badge">${escHtml(name)}</span>`)
+      .join('');
+
     const eventsHtml = dayEvents.map(ev => renderEvent(ev)).join('');
 
     return `
       <div class="cal-day-group">
         <div class="cal-day-header${isToday ? ' is-today' : ''}">
           ${isToday ? '<span class="cal-day-header-dot"></span>' : ''}
-          ${dayLabel}
+          <span>${dayLabel}</span>
+          ${holidayBadges}
         </div>
         <div class="cal-events-list">${eventsHtml}</div>
       </div>`;

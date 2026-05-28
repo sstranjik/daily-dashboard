@@ -59,15 +59,17 @@ export async function fetchAllCalendarEvents(token) {
 
   // 2. Fetch events from every calendar in parallel; ignore individual failures
   const results = await Promise.allSettled(
-    calendars.map(cal =>
-      fetchCalendarEvents(token, cal.id).then(data =>
+    calendars.map(cal => {
+      const isHolidayCal = /holiday|blagdan|praznik/i.test(cal.summary);
+      return fetchCalendarEvents(token, cal.id).then(data =>
         (data.items ?? []).map(ev => ({
           ...ev,
-          _calColor: ev.colorId ? null : cal.backgroundColor,   // use cal colour if event has none
-          _calName:  cal.summary,
+          _calColor:  ev.colorId ? null : cal.backgroundColor,
+          _calName:   cal.summary,
+          _isHoliday: isHolidayCal,
         }))
-      )
-    )
+      );
+    })
   );
 
   // 3. Merge + sort by start time

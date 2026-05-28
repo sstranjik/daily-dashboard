@@ -583,6 +583,21 @@
   gap: var(--sp-2);
 }
 .cal-day-header.is-today { color: var(--accent); }
+
+.cal-holiday-badge {
+  display: inline-flex;
+  align-items: center;
+  padding: 1px 6px;
+  font-family: var(--font-mono);
+  font-size: 10px;
+  font-weight: 500;
+  color: var(--accent);
+  background: var(--accent-bg);
+  border: 1px solid var(--accent-border);
+  border-radius: var(--r-sm);
+  white-space: nowrap;
+  margin-left: auto;
+}
 .cal-day-header-dot {
   width: 5px; height: 5px;
   border-radius: 50%;
