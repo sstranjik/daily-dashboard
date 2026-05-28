@@ -108,7 +108,8 @@ async function initWeather(location) {
     }
 
     const data  = await fetchWeatherData(lat, lon);
-    data._city  = city;
+    data._city      = city;
+    data._fetchedAt = Date.now();
     cache.set(CACHE_KEY, data, CACHE_TTL);
     renderWeather(data, { ...location, _city: city });
     updateTopbarForecast(data);
@@ -138,14 +139,12 @@ function updateTopbarForecast(data) {
     const name    = isToday ? 'Danas' : shortDays[date.getDay()];
     const icon    = weatherCodeToEmoji(days.weathercode[i]);
     const temp    = Math.round(days.temperature_2m_max[i]);
-    const rain    = days.precipitation_probability_max?.[i] ?? 0;
 
     return `
       <div class="topbar-fc-day${isToday ? ' is-today' : ''}" title="${dateStr}: ${temp}°">
         <span class="topbar-fc-name">${name}</span>
         <span class="topbar-fc-icon">${icon}</span>
         <span class="topbar-fc-temp">${temp}°</span>
-        ${rain >= 30 ? `<span class="topbar-fc-rain">${rain}%</span>` : ''}
       </div>`;
   }).join('');
 
@@ -411,10 +410,16 @@ const _WX_SVG = {
     _snowMark(10, 27) + _snowMark(22, 27)
   ),
 
-  /* 🌩️  thunderstorm — dark cloud + yellow lightning bolt */
+  /* 🌩️  thunderstorm — dark cloud + yellow lightning + blue rain drops */
   storm: _svg(
     `<path d="${_CM}" fill="#505050"/>` +
-    `<path d="M17,22 L13,29 L17.5,29 L13.5,32 L22,24 L17.5,24 L20.5,22Z" fill="#FFD700"/>`
+    `<path d="M17,22 L13,29 L17.5,29 L13.5,32 L22,24 L17.5,24 L20.5,22Z" fill="#FFD700"/>` +
+    `<g fill="#4A9EDE">` +
+    `<ellipse cx="7" cy="26" rx="1.3" ry="2"/>` +
+    `<ellipse cx="7" cy="30" rx="1.3" ry="2"/>` +
+    `<ellipse cx="11" cy="25" rx="1.3" ry="2"/>` +
+    `<ellipse cx="11" cy="29" rx="1.3" ry="2"/>` +
+    `</g>`
   ),
 
   /* 🌡️  thermometer — fallback */
@@ -433,7 +438,7 @@ export function weatherCodeToEmoji(code) {
   if (code <= 57)  return _WX_SVG.dzl;
   if (code <= 67)  return _WX_SVG.rain;
   if (code <= 77)  return _WX_SVG.snow;
-  if (code <= 82)  return _WX_SVG.dzl;
+  if (code <= 82)  return _WX_SVG.rain;   // 80-82 rain showers (not drizzle)
   if (code <= 86)  return _WX_SVG.snowSh;
   if (code <= 99)  return _WX_SVG.storm;
   return _WX_SVG.thermo;
@@ -455,5 +460,31 @@ export function weatherCodeToText(code) {
   return 'Nepoznato';
 }
 
+// ─── AUTO REFRESH ─────────────────────────────────────────────────────────────
+// Refreshes the page at :10 past each hour from 07:10 to 22:10 (data update window).
+function scheduleAutoRefresh() {
+  const now   = new Date();
+  const nowMs = now.getTime();
+
+  // Try each refresh slot today (07:10 … 22:10)
+  for (let h = 7; h <= 22; h++) {
+    const t = new Date(now);
+    t.setHours(h, 10, 0, 0);
+    if (t.getTime() > nowMs) {
+      const delay = t.getTime() - nowMs;
+      setTimeout(() => location.reload(), delay);
+      console.log(`[autoRefresh] next reload at ${t.toLocaleTimeString('hr-HR')} (in ${Math.round(delay/60000)} min)`);
+      return;
+    }
+  }
+  // All today's slots passed → schedule first slot tomorrow
+  const tomorrow = new Date(now);
+  tomorrow.setDate(tomorrow.getDate() + 1);
+  tomorrow.setHours(7, 10, 0, 0);
+  const delay = tomorrow.getTime() - nowMs;
+  setTimeout(() => location.reload(), delay);
+  console.log(`[autoRefresh] next reload at 07:10 tomorrow (in ${Math.round(delay/60000)} min)`);
+}
+
 // ─── BOOT ─────────────────────────────────────────────────────────────────────
-document.addEventListener('DOMContentLoaded', init);
+document.addEventListener('DOMContentLoaded', () => { init(); scheduleAutoRefresh(); });
