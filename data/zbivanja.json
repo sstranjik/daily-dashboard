@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-05-28T05:01:02.800Z",
+  "generated_at": "2026-05-28T06:01:03.073Z",
   "stats": {
-    "Mochvara": {
+    "muzika.hr": {
       "ok": true,
-      "count": 12
+      "count": 25
     },
     "Gavella": {
       "ok": true,
@@ -13,19 +13,15 @@
       "ok": true,
       "count": 0
     },
-    "muzika.hr": {
+    "Mochvara": {
       "ok": true,
-      "count": 25
+      "count": 12
     },
     "Tvornica": {
       "ok": true,
       "count": 3
     },
     "ZeKaeM": {
-      "ok": true,
-      "count": 0
-    },
-    "Komedija": {
       "ok": true,
       "count": 0
     },
@@ -44,6 +40,10 @@
     "HNK Zagreb": {
       "ok": true,
       "count": 36
+    },
+    "Komedija": {
+      "ok": true,
+      "count": 0
     }
   },
   "concerts": [
@@ -329,7 +329,7 @@
       "time": "18:30",
       "link": "https://mochvara.hr/event-detail/69f9b982d979744f25f7cad8/?lang=hr",
       "source": "Mochvara",
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-05-28T05:01:02.800Z"
     },
     {
@@ -1357,5 +1357,5 @@
       "first_seen": "2026-05-26T20:26:55.235Z"
     }
   ],
-  "new_count": 1
+  "new_count": 0
 }
