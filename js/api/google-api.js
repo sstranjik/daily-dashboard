@@ -23,7 +23,15 @@ export function clearAccessToken() {
   localStorage.removeItem(TOKEN_EXP_KEY);
 }
 
-export async function fetchCalendarEvents(token) {
+export async function fetchCalendarList(token) {
+  const res = await fetch(`${CALENDAR_API}/users/me/calendarList`, {
+    headers: { Authorization: `Bearer ${token}` },
+  });
+  if (!res.ok) throw new Error(`CalendarList API ${res.status}`);
+  return res.json();
+}
+
+export async function fetchCalendarEvents(token, calendarId = 'primary') {
   const now     = new Date();
   const timeMin = now.toISOString();
   const timeMax = new Date(now.getTime() + 30 * 24 * 60 * 60 * 1000).toISOString();
@@ -36,11 +44,44 @@ export async function fetchCalendarEvents(token) {
     maxResults:   '50',
   });
 
-  const res = await fetch(`${CALENDAR_API}/calendars/primary/events?${params}`, {
-    headers: { Authorization: `Bearer ${token}` },
-  });
+  const res = await fetch(
+    `${CALENDAR_API}/calendars/${encodeURIComponent(calendarId)}/events?${params}`,
+    { headers: { Authorization: `Bearer ${token}` } }
+  );
   if (!res.ok) throw new Error(`Calendar API ${res.status}`);
   return res.json();
+}
+
+export async function fetchAllCalendarEvents(token) {
+  // 1. Get list of all calendars the user has
+  const calList   = await fetchCalendarList(token);
+  const calendars = (calList.items ?? []).filter(cal => cal.selected !== false);
+
+  // 2. Fetch events from every calendar in parallel; ignore individual failures
+  const results = await Promise.allSettled(
+    calendars.map(cal =>
+      fetchCalendarEvents(token, cal.id).then(data =>
+        (data.items ?? []).map(ev => ({
+          ...ev,
+          _calColor: ev.colorId ? null : cal.backgroundColor,   // use cal colour if event has none
+          _calName:  cal.summary,
+        }))
+      )
+    )
+  );
+
+  // 3. Merge + sort by start time
+  const all = results
+    .filter(r => r.status === 'fulfilled')
+    .flatMap(r => r.value);
+
+  all.sort((a, b) => {
+    const aT = a.start?.dateTime ?? a.start?.date ?? '';
+    const bT = b.start?.dateTime ?? b.start?.date ?? '';
+    return aT.localeCompare(bT);
+  });
+
+  return { items: all };
 }
 
 export async function fetchTaskLists(token) {

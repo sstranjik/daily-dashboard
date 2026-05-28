@@ -1,5 +1,4 @@
-import { getAccessToken } from '../api/google-api.js';
-import { fetchCalendarEvents } from '../api/google-api.js';
+import { getAccessToken, fetchAllCalendarEvents } from '../api/google-api.js';
 import { requestApiAccess, GRANTED_KEY } from '../auth.js';
 
 const shortDays  = ['Ned', 'Pon', 'Uto', 'Sri', 'Čet', 'Pet', 'Sub'];
@@ -37,7 +36,7 @@ export async function renderCalendar(config) {
 
   el.innerHTML = loadingHtml();
   try {
-    const data   = await fetchCalendarEvents(token);
+    const data   = await fetchAllCalendarEvents(token);
     const events = data.items ?? [];
     renderEvents(el, events);
   } catch (err) {
@@ -109,6 +108,8 @@ function renderEvent(ev) {
 
   const colorStyle = ev.colorId
     ? `background: ${calColor(ev.colorId)}`
+    : ev._calColor
+    ? `background: ${ev._calColor}`
     : '';
 
   return `
