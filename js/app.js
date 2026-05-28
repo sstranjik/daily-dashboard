@@ -321,18 +321,37 @@ export function showToast(message, type = 'info', duration = 3000) {
 }
 
 // ─── WEATHER HELPERS ──────────────────────────────────────────────────────────
+// Twemoji SVGs: white/gray clouds, yellow sun, blue rain drops, dark-gray storm
+// Avoids Windows Segoe UI Emoji which renders clouds as bright blue.
+const _TWEMOJI = 'https://cdn.jsdelivr.net/npm/twemoji@14.0.2/2/svg';
+const _WX = {
+  sun:    '2600',   // ☀️  — orange-yellow sun
+  pSun:   '1f324',  // 🌤️  — yellow sun, light-gray cloud
+  cloud:  '2601',   // ☁️  — white/light-gray cloud
+  fog:    '1f32b',  // 🌫️  — gray fog streaks
+  dzl:    '1f326',  // 🌦️  — gray cloud + yellow sun + blue rain drops
+  rain:   '1f327',  // 🌧️  — gray cloud + blue rain drops
+  snow:   '2744',   // ❄️  — white/blue snowflake
+  snowSh: '1f328',  // 🌨️  — gray cloud + white snowflakes
+  storm:  '1f329',  // 🌩️  — dark-gray cloud + yellow lightning
+  thermo: '1f321',  // 🌡️  — fallback
+};
+function _wxImg(key) {
+  return `<img src="${_TWEMOJI}/${_WX[key]}.svg" class="wx-emoji" alt="${key}">`;
+}
+
 export function weatherCodeToEmoji(code) {
-  if (code === 0)  return '☀️';
-  if (code <= 2)   return '🌤️';
-  if (code === 3)  return '☁️';
-  if (code <= 48)  return '🌫️';
-  if (code <= 57)  return '🌦️';
-  if (code <= 67)  return '🌧️';
-  if (code <= 77)  return '❄️';
-  if (code <= 82)  return '🌦️';
-  if (code <= 86)  return '🌨️';
-  if (code <= 99)  return '🌩️';  // ⛈️ renders blue on Windows; 🌩️ is gray
-  return '🌡️';
+  if (code === 0)  return _wxImg('sun');
+  if (code <= 2)   return _wxImg('pSun');
+  if (code === 3)  return _wxImg('cloud');
+  if (code <= 48)  return _wxImg('fog');
+  if (code <= 57)  return _wxImg('dzl');
+  if (code <= 67)  return _wxImg('rain');
+  if (code <= 77)  return _wxImg('snow');
+  if (code <= 82)  return _wxImg('dzl');
+  if (code <= 86)  return _wxImg('snowSh');
+  if (code <= 99)  return _wxImg('storm');
+  return _wxImg('thermo');
 }
 
 export function weatherCodeToText(code) {
