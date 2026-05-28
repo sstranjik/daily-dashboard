@@ -331,7 +331,7 @@ export function weatherCodeToEmoji(code) {
   if (code <= 77)  return '❄️';
   if (code <= 82)  return '🌦️';
   if (code <= 86)  return '🌨️';
-  if (code <= 99)  return '⛈️';
+  if (code <= 99)  return '🌩️';  // ⛈️ renders blue on Windows; 🌩️ is gray
   return '🌡️';
 }
 
