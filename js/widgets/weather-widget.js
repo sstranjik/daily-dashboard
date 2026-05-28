@@ -97,11 +97,11 @@ export function renderWeather(data, location) {
             <svg width="9" height="9" viewBox="0 0 10 10" fill="none"><path d="M5 1C3.3 1 2 2.3 2 4c0 2.5 3 5 3 5s3-2.5 3-5c0-1.7-1.3-3-3-3zm0 4a1 1 0 1 1 0-2 1 1 0 0 1 0 2z" fill="currentColor"/></svg>
             ${city}
           </div>
-          <div class="weather-compact-stats">
-            <div class="weather-stat-row">${_iFeel} ${feelsLike}°</div>
-            <div class="weather-stat-row">${_iHumid} ${humidity}%</div>
-            <div class="weather-stat-row">${_iWind} ${windSpd} km/h ${windDir}</div>
-          </div>
+        </div>
+        <div class="weather-compact-stats">
+          <div class="weather-stat-row">${_iFeel} ${feelsLike}°</div>
+          <div class="weather-stat-row">${_iHumid} ${humidity}%</div>
+          <div class="weather-stat-row">${_iWind} ${windSpd} km/h ${windDir}</div>
         </div>
       </div>
 
