@@ -1,15 +1,15 @@
 {
   "version": 2,
-  "date": "2026-05-27",
-  "generated_at": "2026-05-27T08:36:57.376Z",
-  "date_hr": "Srijeda, 27. svibnja 2026.",
+  "date": "2026-05-28",
+  "generated_at": "2026-05-28T08:39:50.197Z",
+  "date_hr": "Četvrtak, 28. svibnja 2026.",
   "weather": {
     "icon": "🌦️",
-    "summary": "18–32°C, pljuskovi",
+    "summary": "18–26°C, pljuskovi",
     "alerts": []
   },
   "fuel": {
-    "current_date": "27.05.2026",
+    "current_date": "28.05.2026",
     "eurodiesel": [
       {
         "company": "Adria Oil",
@@ -63,20 +63,41 @@
     "upcoming_premium": null
   },
   "market": {
-    "updated_at": "2026-05-27T08:36:57.376Z",
-    "btc_usd": 75896,
-    "btc_eur": 65175,
-    "btc_change_24h": -1.08,
+    "updated_at": "2026-05-28T08:39:50.197Z",
+    "btc_usd": 73156,
+    "btc_eur": 63008,
+    "btc_change_24h": -3.58,
     "usd_eur": 0.8597
   },
-  "ai_news": [],
+  "ai_news": [
+    {
+      "title": "Tvornica koja ne spava",
+      "link": "https://www.bug.hr/komentar/tvornica-koja-ne-spava-60131",
+      "source": "Bug.hr"
+    },
+    {
+      "title": "Musk walks back the Anthropic Colossus deal to a six-month lease",
+      "link": "https://thenextweb.com/news/musk-spacex-colossus-anthropic-180-day-lease",
+      "source": "The Next Web"
+    },
+    {
+      "title": "Tvorac Claude Codea: \"Nisam napisao liniju koda rukom već šest mjeseci\"",
+      "link": "https://www.bug.hr/umjetna-inteligencija/tvorac-claude-codea-nisam-napisao-liniju-koda-rukom-vec-sest-mjeseci-60122",
+      "source": "Bug.hr"
+    },
+    {
+      "title": "Robinhood otvorio API za AI agente: tko snosi rizik?",
+      "link": "https://www.bug.hr/biznis/robinhood-otvorio-api-za-ai-agente-tko-snosi-rizik-60124",
+      "source": "Bug.hr"
+    }
+  ],
   "micro_tips": {
     "vscode": {
-      "tip": "Otvori datoteku brzim pretraživanjem",
-      "keys": "Ctrl+P"
+      "tip": "Toggle Word Wrap za dugačke linije",
+      "keys": "Alt+Z"
     },
-    "sql": "NOT EXISTS brži od NOT IN kad subquery može vratiti NULL vrijednost",
-    "oracle": "DBMS_STATS.GATHER_TABLE_STATS osvježava statistike za točniji execution plan",
-    "regex": "(?i) inline flag za case-insensitive bez mijenjanja ostatka patternahe"
+    "sql": "Parametrizirani upiti = plan cache reuse + SQL injection zaštita istovremeno",
+    "oracle": "NVL2(expr, kad_nije_null, kad_je_null) kompaktnija od dvostrukog NVL-a",
+    "regex": "\\s+ pokriva space, tab i newline; \\S je negacija (svaki ne-whitespace)"
   }
 }
