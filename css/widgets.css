@@ -114,8 +114,8 @@
 .weather-left  { display: flex; align-items: center; gap: var(--sp-3); }
 .weather-right { text-align: right; }
 
-/* Twemoji <img> — scales with font-size of parent span */
-.wx-emoji { height: 1em; width: auto; display: block; }
+/* Inline SVG weather icons — scales with font-size of parent element */
+.wx-emoji { height: 1em; width: auto; display: block; overflow: visible; }
 
 .weather-icon-main { font-size: 76px; line-height: 1; }
 .weather-temp-main {
