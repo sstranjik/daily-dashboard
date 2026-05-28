@@ -114,7 +114,7 @@
 .weather-left  { display: flex; align-items: center; gap: var(--sp-3); }
 .weather-right { text-align: right; }
 
-.weather-icon-main { font-size: 48px; line-height: 1; }
+.weather-icon-main { font-size: 64px; line-height: 1; }
 .weather-temp-main {
   font-family: var(--font-display);
   font-size: 46px;
@@ -210,7 +210,7 @@
 .weather-hour-item.is-now { border-color: var(--accent-border); background: var(--accent-bg); }
 
 .weather-hour-time { font-family: var(--font-mono); font-size: 9px; color: var(--text-muted); }
-.weather-hour-icon { font-size: 16px; }
+.weather-hour-icon { font-size: 20px; }
 .weather-hour-temp { font-family: var(--font-mono); font-size: var(--text-sm); font-weight: 500; color: var(--text-primary); }
 .weather-hour-rain { font-family: var(--font-mono); font-size: 9px; color: #1a73e8; }
 .weather-hour-item.is-now .weather-hour-time,
@@ -229,7 +229,7 @@
 .weather-day-row:hover { background: var(--bg-tertiary); }
 .weather-day-name { font-size: var(--text-sm); color: var(--text-secondary); width: 52px; font-family: var(--font-mono); font-size: var(--text-xs); }
 .weather-day-name.is-today { color: var(--accent); font-weight: 600; }
-.weather-day-icon { font-size: 16px; }
+.weather-day-icon { font-size: 20px; }
 .weather-day-range { display: flex; align-items: center; gap: 6px; }
 .weather-day-max { font-family: var(--font-mono); font-size: var(--text-sm); font-weight: 500; color: var(--text-primary); }
 .weather-day-min { font-family: var(--font-mono); font-size: var(--text-sm); color: var(--text-muted); }
@@ -860,7 +860,7 @@
   gap: var(--sp-3);
   margin-bottom: var(--sp-3);
 }
-.weather-compact-icon { font-size: 36px; line-height: 1; flex-shrink: 0; }
+.weather-compact-icon { font-size: 48px; line-height: 1; flex-shrink: 0; }
 .weather-compact-info { flex: 1; min-width: 0; }
 .weather-compact-temp {
   font-family: var(--font-display);
@@ -947,7 +947,7 @@
   flex-shrink: 0;
 }
 .weather-7day-name.is-today { color: var(--accent); font-weight: 600; }
-.weather-7day-icon { font-size: 14px; flex-shrink: 0; }
+.weather-7day-icon { font-size: 20px; flex-shrink: 0; }
 .weather-7day-rain {
   font-family: var(--font-mono);
   font-size: 9px;
