@@ -1,36 +1,36 @@
 /* ─── DESIGN TOKENS ──────────────────────────────────────────────────────── */
 :root {
-  --bg-base:       #09100d;
-  --bg-primary:    #0e1512;
-  --bg-secondary:  #161d1a;
-  --bg-tertiary:   #1a211e;
-  --bg-elevated:   #252b28;
-  --bg-highest:    #2f3633;
-  --bg-hover:      #1f2922;
+  --bg-base:       #f5f3ef;
+  --bg-primary:    #faf9f7;
+  --bg-secondary:  #ffffff;
+  --bg-tertiary:   #f5f3ef;
+  --bg-elevated:   #ffffff;
+  --bg-highest:    #ede9e3;
+  --bg-hover:      #f0ede8;
 
-  --border-faint:   #161d1a;
-  --border-subtle:  #3d4a44;
-  --border-default: #4a5c53;
-  --border-strong:  #86948d;
+  --border-faint:   #ede9e3;
+  --border-subtle:  #dfd9d1;
+  --border-default: #c5bdb3;
+  --border-strong:  #9e968c;
 
-  --text-primary:   #dde4df;
-  --text-secondary: #bccac2;
-  --text-muted:     #86948d;
-  --text-disabled:  #3d4a44;
+  --text-primary:   #1a1714;
+  --text-secondary: #4a4540;
+  --text-muted:     #7a7268;
+  --text-disabled:  #c0b8b0;
 
-  --accent:         #60dcb3;
-  --accent-dim:     #0ea47f;
-  --accent-bg:      rgba(96,220,179,0.07);
-  --accent-bg-med:  rgba(96,220,179,0.14);
-  --accent-border:  rgba(96,220,179,0.25);
+  --accent:         #0a8f6e;
+  --accent-dim:     #076e54;
+  --accent-bg:      rgba(10,143,110,0.07);
+  --accent-bg-med:  rgba(10,143,110,0.13);
+  --accent-border:  rgba(10,143,110,0.22);
 
-  --color-success:    #60dcb3;
-  --color-success-bg: rgba(96,220,179,0.1);
-  --color-warning:    #e3b341;
-  --color-warning-bg: rgba(227,179,65,0.1);
-  --color-danger:     #ffb4aa;
-  --color-danger-bg:  rgba(255,180,170,0.1);
-  --color-secondary:  #a3d0bd;
+  --color-success:    #0a8f6e;
+  --color-success-bg: rgba(10,143,110,0.08);
+  --color-warning:    #9a6800;
+  --color-warning-bg: rgba(154,104,0,0.08);
+  --color-danger:     #c0392b;
+  --color-danger-bg:  rgba(192,57,43,0.08);
+  --color-secondary:  #3a8060;
 
   --font-display: 'Manrope', -apple-system, sans-serif;
   --font-body:    'Hanken Grotesk', -apple-system, sans-serif;
@@ -59,9 +59,9 @@
   --topbar-h:    52px;
   --content-max: 1440px;
 
-  --shadow-sm: 0 1px 3px rgba(0,0,0,0.5);
-  --shadow-md: 0 4px 16px rgba(0,0,0,0.4);
-  --shadow-lg: 0 12px 40px rgba(0,0,0,0.55);
+  --shadow-sm: 0 1px 3px rgba(0,0,0,0.08);
+  --shadow-md: 0 4px 16px rgba(0,0,0,0.10);
+  --shadow-lg: 0 12px 40px rgba(0,0,0,0.15);
 
   --ease: cubic-bezier(0.4,0,0.2,1);
   --dur:  150ms;
@@ -101,10 +101,11 @@ img    { max-width: 100%; display: block; }
   align-items: center;
   justify-content: space-between;
   padding: 0 var(--sp-8);
-  background: rgba(14,21,18,0.92);
+  background: rgba(250,249,247,0.94);
   backdrop-filter: blur(20px) saturate(160%);
   -webkit-backdrop-filter: blur(20px) saturate(160%);
   border-bottom: 1px solid var(--border-faint);
+  box-shadow: 0 1px 0 var(--border-faint);
   z-index: 100;
   gap: var(--sp-4);
 }
@@ -158,8 +159,8 @@ img    { max-width: 100%; display: block; }
 }
 .topbar-fc-day.is-today .topbar-fc-name { color: var(--accent); }
 
-.topbar-fc-icon       { font-size: 13px; line-height: 1; }
-.topbar-fc-day.is-today .topbar-fc-icon { font-size: 20px; }
+.topbar-fc-icon       { font-size: 16px; line-height: 1; }
+.topbar-fc-day.is-today .topbar-fc-icon { font-size: 24px; }
 
 .topbar-fc-temp {
   font-family: var(--font-mono);
@@ -172,7 +173,7 @@ img    { max-width: 100%; display: block; }
 .topbar-fc-rain {
   font-family: var(--font-mono);
   font-size: 8px;
-  color: #58b4ff;
+  color: #1a73e8;
 }
 
 /* Hide last few days on narrower screens */
@@ -346,7 +347,7 @@ img    { max-width: 100%; display: block; }
 
 .sk {
   background: linear-gradient(90deg,
-    var(--bg-tertiary) 25%, var(--bg-elevated) 50%, var(--bg-tertiary) 75%);
+    #ede9e3 25%, #f5f3ef 50%, #ede9e3 75%);
   background-size: 1000px 100%;
   animation: shimmer 1.8s ease-in-out infinite;
   border-radius: var(--r-md);
@@ -433,7 +434,7 @@ img    { max-width: 100%; display: block; }
 /* ─── MODAL ──────────────────────────────────────────────────────────────── */
 .modal-overlay {
   position: fixed; inset: 0;
-  background: rgba(0,0,0,0.65);
+  background: rgba(0,0,0,0.3);
   z-index: 400; backdrop-filter: blur(3px);
 }
 .modal {
@@ -481,15 +482,15 @@ img    { max-width: 100%; display: block; }
 .modal-input::placeholder, .modal-textarea::placeholder { color: var(--text-muted); }
 .modal-textarea { resize: vertical; min-height: 72px; }
 
-/* Date/time inputs dark fix */
+/* Date/time inputs — inherit light color scheme */
 input[type="date"], input[type="time"] {
-  color-scheme: dark;
+  color-scheme: light;
 }
 
 /* ─── SETTINGS PANEL ─────────────────────────────────────────────────────── */
 .settings-overlay {
   position: fixed; inset: 0;
-  background: rgba(0,0,0,0.6); z-index: 200; backdrop-filter: blur(3px);
+  background: rgba(0,0,0,0.25); z-index: 200; backdrop-filter: blur(3px);
 }
 .settings-panel {
   position: fixed; top: 0; right: 0; bottom: 0;

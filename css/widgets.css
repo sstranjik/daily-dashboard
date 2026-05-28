@@ -1,6 +1,6 @@
 /* ─── BRIEFING WIDGET ────────────────────────────────────────────────────── */
 .widget-briefing {
-  background: linear-gradient(135deg, #0e1512 0%, #111f1a 60%, #0e1c17 100%);
+  background: linear-gradient(135deg, #f0f7f4 0%, #eef6f2 60%, #f0f7f4 100%);
   border-color: var(--border-default);
   border-left: 2px solid var(--accent);
   padding: var(--sp-6) var(--sp-8);
@@ -212,7 +212,7 @@
 .weather-hour-time { font-family: var(--font-mono); font-size: 9px; color: var(--text-muted); }
 .weather-hour-icon { font-size: 16px; }
 .weather-hour-temp { font-family: var(--font-mono); font-size: var(--text-sm); font-weight: 500; color: var(--text-primary); }
-.weather-hour-rain { font-family: var(--font-mono); font-size: 9px; color: #58b4ff; }
+.weather-hour-rain { font-family: var(--font-mono); font-size: 9px; color: #1a73e8; }
 .weather-hour-item.is-now .weather-hour-time,
 .weather-hour-item.is-now .weather-hour-temp { color: var(--accent); }
 
@@ -776,7 +776,7 @@
   align-items: center;
   gap: 3px;
 }
-.task-due.overdue { color: #f87171; }
+.task-due.overdue { color: #c0392b; }
 .task-due.today   { color: var(--accent); }
 
 .task-reminder-time {
@@ -792,7 +792,7 @@
   border: 1px solid var(--border-faint);
   border-radius: 3px;
 }
-.task-reminder-time.overdue { color: #f87171; border-color: rgba(248,113,113,.25); background: rgba(248,113,113,.06); }
+.task-reminder-time.overdue { color: #c0392b; border-color: rgba(192,57,43,.2); background: rgba(192,57,43,.06); }
 .task-reminder-time.today   { color: var(--accent); border-color: var(--accent-border); background: var(--accent-bg); }
 
 .task-edit-hint {
@@ -951,7 +951,7 @@
 .weather-7day-rain {
   font-family: var(--font-mono);
   font-size: 9px;
-  color: #58b4ff;
+  color: #1a73e8;
   flex: 1;
 }
 .weather-7day-temps {
@@ -1269,12 +1269,12 @@ a.task-keep-badge.task-keep-link:hover {
   border: 1px solid transparent;
 }
 .brf-alert-warning {
-  color: #f5c842;
+  color: #9a6800;
   background: rgba(245,200,66,0.08);
   border-color: rgba(245,200,66,0.25);
 }
 .brf-alert-danger {
-  color: #ff6b6b;
+  color: #c0392b;
   background: rgba(255,107,107,0.08);
   border-color: rgba(255,107,107,0.25);
 }
@@ -1346,8 +1346,8 @@ a.task-keep-badge.task-keep-link:hover {
   padding: 1px 5px;
   border-radius: var(--r-sm);
 }
-.brf-market-change.up   { color: #4ade80; background: rgba(74,222,128,0.1); }
-.brf-market-change.down { color: #f87171; background: rgba(248,113,113,0.1); }
+.brf-market-change.up   { color: #166534; background: rgba(22,101,52,0.08); }
+.brf-market-change.down { color: #c0392b; background: rgba(192,57,43,0.08); }
 .brf-market-change.flat { color: var(--text-muted); }
 .brf-market-divider {
   color: var(--border-subtle);
