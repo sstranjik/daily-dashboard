@@ -46,7 +46,11 @@ export function renderWeather(data, location) {
   const _iSunset  = `<svg class="wx-sun-sm" viewBox="0 0 14 12" xmlns="http://www.w3.org/2000/svg"><path d="M10,6.5 A5,5 0,1,1 5,1 A4,4 0,0,0 10,6.5Z" fill="#8fa8c0"/></svg>`;
 
   // ── Hourly strip (next 12 h from current hour) ─────────────────────────────
-  const hourlyHtml = buildHourlyStrip(h, sunriseMs, sunsetMs);
+  // Also need tomorrow's sunrise so post-midnight hours aren't marked as night
+  const nextSunriseMs = d?.sunrise?.[1]
+    ? new Date(d.sunrise[1]).getTime()
+    : sunriseMs + 24 * 60 * 60 * 1000;   // fallback: +24 h
+  const hourlyHtml = buildHourlyStrip(h, sunriseMs, sunsetMs, nextSunriseMs);
 
   // ── 7-day forecast ─────────────────────────────────────────────────────────
   const shortDays = ['Ned','Pon','Uto','Sri','Čet','Pet','Sub'];
@@ -138,7 +142,7 @@ export function renderWeather(data, location) {
 }
 
 // ── Hourly strip — next 12 hours from current local hour ──────────────────────
-function buildHourlyStrip(hourly, sunriseMs = 0, sunsetMs = Infinity) {
+function buildHourlyStrip(hourly, sunriseMs = 0, sunsetMs = Infinity, nextSunriseMs = Infinity) {
   if (!hourly?.time?.length) return '';
 
   // Match current local hour to Open-Meteo time strings (local tz)
@@ -155,7 +159,7 @@ function buildHourlyStrip(hourly, sunriseMs = 0, sunsetMs = Infinity) {
     const rain  = hourly.precipitation_probability?.[idx] ?? 0;
     const hhmm  = t.slice(11, 16);          // "HH:MM"
     const tMs   = new Date(t).getTime();
-    const night = tMs < sunriseMs || tMs > sunsetMs;
+    const night = tMs < sunriseMs || (tMs > sunsetMs && tMs < nextSunriseMs);
     const icon  = weatherCodeToEmoji(code, night);
     const now_  = i === 0;
     return `
