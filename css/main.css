@@ -159,8 +159,8 @@ img    { max-width: 100%; display: block; }
 }
 .topbar-fc-day.is-today .topbar-fc-name { color: var(--accent); }
 
-.topbar-fc-icon       { font-size: 16px; line-height: 1; filter: saturate(0.65); }
-.topbar-fc-day.is-today .topbar-fc-icon { font-size: 24px; }
+.topbar-fc-icon       { font-size: 18px; line-height: 1; filter: grayscale(1); }
+.topbar-fc-day.is-today .topbar-fc-icon { font-size: 26px; }
 
 .topbar-fc-temp {
   font-family: var(--font-mono);

@@ -114,7 +114,7 @@
 .weather-left  { display: flex; align-items: center; gap: var(--sp-3); }
 .weather-right { text-align: right; }
 
-.weather-icon-main { font-size: 64px; line-height: 1; filter: saturate(0.65); }
+.weather-icon-main { font-size: 76px; line-height: 1; filter: grayscale(1); }
 .weather-temp-main {
   font-family: var(--font-display);
   font-size: 46px;
@@ -210,7 +210,7 @@
 .weather-hour-item.is-now { border-color: var(--accent-border); background: var(--accent-bg); }
 
 .weather-hour-time { font-family: var(--font-mono); font-size: 9px; color: var(--text-muted); }
-.weather-hour-icon { font-size: 20px; filter: saturate(0.65); }
+.weather-hour-icon { font-size: 24px; filter: grayscale(1); }
 .weather-hour-temp { font-family: var(--font-mono); font-size: var(--text-sm); font-weight: 500; color: var(--text-primary); }
 .weather-hour-rain { font-family: var(--font-mono); font-size: 9px; color: #1a73e8; }
 .weather-hour-item.is-now .weather-hour-time,
@@ -229,7 +229,7 @@
 .weather-day-row:hover { background: var(--bg-tertiary); }
 .weather-day-name { font-size: var(--text-sm); color: var(--text-secondary); width: 52px; font-family: var(--font-mono); font-size: var(--text-xs); }
 .weather-day-name.is-today { color: var(--accent); font-weight: 600; }
-.weather-day-icon { font-size: 20px; filter: saturate(0.65); }
+.weather-day-icon { font-size: 24px; filter: grayscale(1); }
 .weather-day-range { display: flex; align-items: center; gap: 6px; }
 .weather-day-max { font-family: var(--font-mono); font-size: var(--text-sm); font-weight: 500; color: var(--text-primary); }
 .weather-day-min { font-family: var(--font-mono); font-size: var(--text-sm); color: var(--text-muted); }
@@ -562,7 +562,7 @@
 /* ─── CALENDAR WIDGET ────────────────────────────────────────────────────── */
 .widget-calendar { animation: fade-in 0.35s var(--ease); display: flex; flex-direction: column; min-height: 0; }
 
-.cal-day-group { margin-bottom: var(--sp-4); }
+.cal-day-group { margin-bottom: var(--sp-3); }
 .cal-day-group:last-child { margin-bottom: 0; }
 
 .cal-day-header {
@@ -572,8 +572,8 @@
   text-transform: uppercase;
   letter-spacing: 0.07em;
   color: var(--text-muted);
-  padding: 4px 0;
-  margin-bottom: var(--sp-2);
+  padding: 3px 0;
+  margin-bottom: 4px;
   border-bottom: 1px solid var(--border-faint);
   display: flex;
   align-items: center;
@@ -591,7 +591,7 @@
   display: flex;
   align-items: flex-start;
   gap: var(--sp-2);
-  padding: 6px 8px;
+  padding: 3px 6px;
   border-radius: var(--r-md);
   transition: background var(--dur);
   cursor: default;
@@ -600,11 +600,11 @@
 
 .cal-event-time {
   font-family: var(--font-mono);
-  font-size: 10px;
+  font-size: 11px;
   color: var(--text-muted);
   white-space: nowrap;
   min-width: 44px;
-  padding-top: 2px;
+  padding-top: 1px;
   flex-shrink: 0;
 }
 .cal-event-time.all-day {
@@ -623,19 +623,19 @@
 }
 
 .cal-event-title {
-  font-size: var(--text-sm);
+  font-size: var(--text-base);
   color: var(--text-primary);
   font-family: var(--font-body);
   line-height: var(--lh-tight);
   word-break: break-word;
 }
 .cal-event-location {
-  font-size: 11px;
+  font-size: 12px;
   color: var(--text-muted);
-  margin-top: 2px;
+  margin-top: 1px;
 }
 
-.cal-events-list { display: flex; flex-direction: column; gap: 1px; }
+.cal-events-list { display: flex; flex-direction: column; gap: 0; }
 .cal-scroll { overflow-y: auto; flex: 1; scrollbar-width: thin; scrollbar-color: var(--border-subtle) transparent; }
 .cal-scroll::-webkit-scrollbar { width: 3px; }
 .cal-scroll::-webkit-scrollbar-thumb { background: var(--border-subtle); border-radius: 2px; }
@@ -860,7 +860,7 @@
   gap: var(--sp-3);
   margin-bottom: var(--sp-3);
 }
-.weather-compact-icon { font-size: 48px; line-height: 1; flex-shrink: 0; filter: saturate(0.65); }
+.weather-compact-icon { font-size: 58px; line-height: 1; flex-shrink: 0; filter: grayscale(1); }
 .weather-compact-info { flex: 1; min-width: 0; }
 .weather-compact-temp {
   font-family: var(--font-display);
@@ -947,7 +947,7 @@
   flex-shrink: 0;
 }
 .weather-7day-name.is-today { color: var(--accent); font-weight: 600; }
-.weather-7day-icon { font-size: 20px; flex-shrink: 0; filter: saturate(0.65); }
+.weather-7day-icon { font-size: 24px; flex-shrink: 0; filter: grayscale(1); }
 .weather-7day-rain {
   font-family: var(--font-mono);
   font-size: 9px;
@@ -1248,7 +1248,7 @@ a.task-keep-badge.task-keep-link:hover {
   line-height: 1;
   flex-shrink: 0;
   margin-top: 1px;
-  filter: saturate(0.65);
+  filter: grayscale(1);
 }
 .brf-weather-text {
   font-size: var(--text-sm);
