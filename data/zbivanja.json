@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-05-27T21:43:30.967Z",
+  "generated_at": "2026-05-28T05:01:02.800Z",
   "stats": {
-    "muzika.hr": {
-      "ok": true,
-      "count": 25
-    },
     "Mochvara": {
       "ok": true,
       "count": 12
+    },
+    "Gavella": {
+      "ok": true,
+      "count": 2
     },
     "Lisinski": {
       "ok": true,
       "count": 0
     },
-    "Gavella": {
+    "muzika.hr": {
       "ok": true,
-      "count": 2
+      "count": 25
     },
     "Tvornica": {
       "ok": true,
@@ -37,13 +37,13 @@
       "ok": true,
       "count": 0
     },
-    "HNK Zagreb": {
-      "ok": true,
-      "count": 38
-    },
     "Trešnja": {
       "ok": true,
       "count": 0
+    },
+    "HNK Zagreb": {
+      "ok": true,
+      "count": 36
     }
   },
   "concerts": [
@@ -316,6 +316,21 @@
       "source": "HNK Zagreb",
       "is_new": false,
       "first_seen": "2026-05-26T20:26:55.235Z"
+    },
+    {
+      "id": "a3baebcb88",
+      "title": "Filmske večeri u Močvari: Trojac bez kormilara",
+      "venue": "Mochvara",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-06-02T18:30:00",
+      "date_display": "uto, 02. 06. 2026.",
+      "time": "18:30",
+      "link": "https://mochvara.hr/event-detail/69f9b982d979744f25f7cad8/?lang=hr",
+      "source": "Mochvara",
+      "is_new": true,
+      "first_seen": "2026-05-28T05:01:02.800Z"
     },
     {
       "id": "b9ebdbcef6",
@@ -1342,5 +1357,5 @@
       "first_seen": "2026-05-26T20:26:55.235Z"
     }
   ],
-  "new_count": 0
+  "new_count": 1
 }
