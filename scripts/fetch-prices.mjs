@@ -165,33 +165,75 @@ function mapProduct(raw) {
   };
 }
 
-// ─── PARSER: HTML REGEX FALLBACK ──────────────────────────────────────────────
-// If __NEXT_DATA__ didn't work, extract products from rendered HTML text.
-// Works because najcijena.hr is server-side rendered.
+// ─── PARSER: HTML ─────────────────────────────────────────────────────────────
+// najcijena.hr uses Next.js App Router (no __NEXT_DATA__).
+// Product data IS server-rendered. Parsed by class/alt-text patterns.
+//
+// Card structure (verified from live HTML):
+//   <a href="/akcija/milbona-mozzarella-125-379754">
+//     <span class="product-card__badge">-<!-- -->34<!-- -->%</span>
+//     <img alt="Milbona Mozzarella 125 g - Akcija u trgovini Lidl" .../>
+//     <span class="item-date future">03.06. do 07.06.</span>
+//     <span class="text-price fw-bold pe-6">0,75 €</span>
+//     <span class="regular-price ...">1,15 €</span>
+//     <img alt="Logo trgovine Lidl" .../>     ← logo alt for store name
+//   </a>
 
 function parseFromHtml(html) {
   const items = [];
 
-  // Find all blocks between /akcija/ anchors
-  // Each block should contain: product name, store name, price, validity
-  const blockRe = /href="(\/akcija\/[^"]+)"[^>]*>([\s\S]{10,400}?)(?=href="\/akcija\/|$)/g;
-  let m;
-  while ((m = blockRe.exec(html)) !== null) {
-    const slug = m[1];
-    const block = m[2].replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ').trim();
+  // Split by product card anchor hrefs. Each part[i] (i>=1):
+  //   starts with: slug-id">[card content]
+  //   ends before: next href="/akcija/
+  // This is reliable and avoids regex lookahead/size issues.
+  const parts = html.split('href="/akcija/');
 
-    const price = extractPriceFromText(block);
-    if (!price) continue;
+  for (let i = 1; i < parts.length; i++) {
+    const part = parts[i];
 
-    const store = extractStoreFromText(block);
+    // ── URL slug ───────────────────────────────────────────────────────────
+    const slugEnd = part.indexOf('"');
+    if (slugEnd < 1) continue;
+    const slug = '/akcija/' + part.slice(0, slugEnd);
+
+    const block = part.slice(slugEnd);
+
+    // ── Store ──────────────────────────────────────────────────────────────
+    // "alt="Logo trgovine Lidl"" is the most reliable marker
+    const logoM    = block.match(/alt="Logo trgovine ([^"]+)"/i);
+    const store    = normalizeStore(logoM?.[1]);
     if (!store) continue;
 
-    const name    = extractNameFromBlock(html, slug, block);
-    const valid   = extractValidityFromText(block);
-    const discM   = block.match(/-\s*(\d+)\s*%/);
-    const disc    = discM ? parseInt(discM[1], 10) : null;
+    // ── Name ───────────────────────────────────────────────────────────────
+    // alt="Milbona Mozzarella 125 g - Akcija u trgovini Lidl"
+    const altM  = block.match(/alt="([^"]+?)\s*-\s*Akcija u trgovini/i);
+    let name    = altM?.[1]?.trim();
 
-    if (!name) continue;
+    // Fallback: <span class="link text-line-1">Name<!-- --> …</span>
+    if (!name) {
+      const spanM = block.match(/text-line-1[^>]*>([\s\S]{3,80}?)<\/span>/);
+      if (spanM) name = spanM[1].replace(/<!--[\s\S]*?-->/g, '').replace(/\s+/g, ' ').trim();
+    }
+    if (!name || name.length < 2) continue;
+    name = decodeHtmlEntities(name);
+
+    // ── Price ──────────────────────────────────────────────────────────────
+    const priceM = block.match(/text-price[^>]*>([\d,. ]+)\s*€/);
+    const price  = priceM ? parsePrice(priceM[1]) : null;
+    if (!price) continue;
+
+    // ── Discount % ─────────────────────────────────────────────────────────
+    // Badge contains HTML comments: -<!-- -->34<!-- -->%
+    const discM  = block.match(/product-card__badge[^>]*>[\s\S]{0,30}?(\d+)[\s\S]{0,10}?%/);
+    const disc   = discM ? parseInt(discM[1], 10) : null;
+
+    // ── Validity date ──────────────────────────────────────────────────────
+    const dateM  = block.match(/item-date[^>]*>([^<]{4,30})<\/span>/);
+    const valid  = dateM ? dateM[1].trim() : null;
+
+    // ── Image ──────────────────────────────────────────────────────────────
+    const imgM   = block.match(/cdn\.najcijena\.hr\/images\/[a-f0-9-]+\.jpg/);
+    const image  = imgM ? `https://${imgM[0]}` : null;
 
     items.push({
       name,
@@ -200,52 +242,22 @@ function parseFromHtml(html) {
       price_str: formatPrice(price),
       discount:  disc,
       valid,
-      url: `${BASE}${slug}`,
-      image: null,
+      url:   `${BASE}${slug}`,
+      image,
     });
   }
 
   return items;
 }
 
-// Try to extract the product name from meta tags or title attributes
-function extractNameFromBlock(html, slug, block) {
-  // From slug: "/akcija/milbona-mozzarella-125g-377929" → "Milbona mozzarella 125g"
-  const slugPart = slug.split('/').pop().replace(/-\d{4,}$/, '').replace(/-/g, ' ');
-  // Try to get a cleaner name from the text block (before the price)
-  const priceRe = /\d+[,\.]\d{2}\s*€/;
-  const priceMatch = block.search(priceRe);
-  if (priceMatch > 10) {
-    const candidate = block.slice(0, priceMatch).trim();
-    const clean = candidate.replace(/^\s*[\d.]+\s*/, '').trim();
-    if (clean.length >= 5 && clean.length <= 80) return clean;
-  }
-  // Fall back to slug-derived name (title-case)
-  return slugPart.split(' ').map(w => w.charAt(0).toUpperCase() + w.slice(1)).join(' ');
-}
-
-function extractPriceFromText(text) {
-  const m = text.match(/(\d{1,4})[,.](\d{2})\s*€?/);
-  if (!m) return null;
-  return parseFloat(`${m[1]}.${m[2]}`);
-}
-
-function extractStoreFromText(text) {
-  for (const t of TARGET_STORES) {
-    if (t.re.test(text) || new RegExp(t.label, 'i').test(text)) return t.label;
-  }
-  // Also check for common variations in text
-  if (/interspar/i.test(text) || /\bspar\b/i.test(text)) return 'Spar';
-  return null;
-}
-
-function extractValidityFromText(text) {
-  // "do 02.06." or "01.06-07.06" or "01.06.-07.06."
-  const m = text.match(/(?:do\s+)?(\d{1,2}\.\d{1,2}\.?(?:\s*[-–]\s*\d{1,2}\.\d{1,2}\.?)?)/);
-  return m ? m[0].trim() : null;
-}
-
 // ─── HELPERS ──────────────────────────────────────────────────────────────────
+
+function decodeHtmlEntities(s) {
+  return String(s)
+    .replace(/&amp;/g, '&').replace(/&lt;/g, '<').replace(/&gt;/g, '>')
+    .replace(/&quot;/g, '"').replace(/&#x27;/g, "'").replace(/&#39;/g, "'")
+    .replace(/&nbsp;/g, ' ').replace(/&#(\d+);/g, (_, n) => String.fromCharCode(Number(n)));
+}
 
 function parsePrice(raw) {
   if (raw == null) return null;
