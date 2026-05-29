@@ -207,6 +207,7 @@ img    { max-width: 100%; display: block; }
   transition: background var(--dur), color var(--dur);
 }
 .btn-icon:hover { background: var(--bg-tertiary); color: var(--text-primary); }
+a.btn-icon { border: none; text-decoration: none; }
 .btn-icon.spinning svg { animation: spin 0.85s linear infinite; }
 
 .btn-signin {

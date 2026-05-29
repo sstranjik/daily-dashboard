@@ -44,6 +44,10 @@ jobs:
         working-directory: scripts
         run: node fetch-events.mjs
 
+      - name: Fetch supermarket prices
+        working-directory: scripts
+        run: node fetch-prices.mjs
+
       - name: Generate daily briefing
         if: ${{ !inputs.skip_briefing }}
         working-directory: scripts

@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="hr" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cijene · Morning Insight</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Hanken+Grotesk:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&family=Outfit:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/prices.css">
+</head>
+<body>
+
+<!-- TOP BAR -->
+<header class="topbar" id="topbar">
+  <div class="topbar-left">
+    <div class="topbar-brand">
+      <svg width="20" height="20" viewBox="0 0 20 20" fill="none" aria-hidden="true">
+        <rect width="8" height="8" rx="1.5" fill="var(--accent)"/>
+        <rect x="10" y="0" width="10" height="10" rx="1.5" fill="var(--accent)" opacity="0.6"/>
+        <rect x="0" y="10" width="10" height="10" rx="1.5" fill="var(--accent)" opacity="0.4"/>
+        <rect x="12" y="12" width="8" height="8" rx="1.5" fill="var(--accent)" opacity="0.2"/>
+      </svg>
+      <span class="topbar-title">Morning Insight</span>
+    </div>
+  </div>
+
+  <div class="topbar-center">
+    <nav class="topbar-nav">
+      <a href="index.html" class="topbar-nav-link">
+        <svg width="12" height="12" viewBox="0 0 12 12" fill="none" aria-hidden="true">
+          <path d="M6 1L1 6h2v5h3V8h2v3h3V6h2z" stroke="currentColor" stroke-width="1.2" stroke-linejoin="round" fill="none"/>
+        </svg>
+        Dashboard
+      </a>
+      <span class="topbar-nav-sep">·</span>
+      <span class="topbar-nav-link is-active">
+        <svg width="12" height="12" viewBox="0 0 12 12" fill="none" aria-hidden="true">
+          <rect x="1" y="3" width="10" height="8" rx="1" stroke="currentColor" stroke-width="1.2"/>
+          <path d="M4 3V2a2 2 0 014 0v1" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"/>
+        </svg>
+        Cijene
+      </span>
+    </nav>
+  </div>
+
+  <div class="topbar-right">
+    <span id="prices-updated" class="last-update-badge" hidden></span>
+    <button id="refresh-btn" class="btn-icon" title="Osvježi" aria-label="Refresh">
+      <svg width="14" height="14" viewBox="0 0 14 14" fill="none">
+        <path d="M13 2.5A6.5 6.5 0 1 1 6.5 1" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+        <path d="M9 1l4 1.5L11.5 6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+    </button>
+  </div>
+</header>
+
+<!-- MAIN CONTENT -->
+<main class="prices-main" id="prices-main">
+
+  <!-- FILTERS BAR -->
+  <div class="prices-toolbar" id="prices-toolbar">
+    <div class="prices-group-tabs" id="group-tabs" role="tablist">
+      <button class="pgp-tab is-active" data-group="sve"       role="tab">Sve kategorije</button>
+      <button class="pgp-tab"           data-group="hrana"     role="tab">🥦 Hrana</button>
+      <button class="pgp-tab"           data-group="pica"      role="tab">🍺 Pića</button>
+      <button class="pgp-tab"           data-group="kozmetika" role="tab">🧴 Kozmetika</button>
+    </div>
+    <div class="prices-store-toggles" id="store-toggles">
+      <button class="pst-btn is-active" data-store="Lidl"     >Lidl</button>
+      <button class="pst-btn is-active" data-store="Konzum"   >Konzum</button>
+      <button class="pst-btn is-active" data-store="Spar"     >Spar</button>
+      <button class="pst-btn is-active" data-store="Studenac" >Studenac</button>
+    </div>
+  </div>
+
+  <!-- CONTENT AREA -->
+  <div class="prices-content" id="prices-content">
+    <div class="prices-loading" id="prices-loading">
+      <div class="sk sk-line" style="width:40%;margin-bottom:20px;height:16px"></div>
+      <div class="sk sk-block" style="height:180px;margin-bottom:16px"></div>
+      <div class="sk sk-block" style="height:180px;margin-bottom:16px"></div>
+      <div class="sk sk-block" style="height:180px"></div>
+    </div>
+    <div id="prices-grid" class="prices-grid" hidden></div>
+    <div id="prices-empty" class="prices-empty" hidden>
+      <div class="prices-empty-icon">🛒</div>
+      <div class="prices-empty-title">Nema podataka</div>
+      <div class="prices-empty-desc">Podaci o cijenama se ažuriraju jednom dnevno. Pokušajte ponovo sutra.</div>
+    </div>
+    <div id="prices-error" class="prices-empty" hidden>
+      <div class="prices-empty-icon">⚠</div>
+      <div class="prices-empty-title">Greška pri učitavanju</div>
+      <div class="prices-empty-desc" id="prices-error-msg"></div>
+    </div>
+  </div>
+
+</main>
+
+<script type="module">
+// ─── STATE ────────────────────────────────────────────────────────────────────
+let _data        = null;
+let _activeGroup = 'sve';
+let _activeStores = new Set(['Lidl', 'Konzum', 'Spar', 'Studenac']);
+
+// ─── LOAD DATA ────────────────────────────────────────────────────────────────
+async function loadData() {
+  try {
+    const r = await fetch(`data/prices.json?_=${Date.now()}`);
+    if (!r.ok) throw new Error(`HTTP ${r.status}`);
+    _data = await r.json();
+    showUpdated(_data.last_updated);
+    render();
+  } catch (err) {
+    hide('prices-loading');
+    show('prices-error');
+    document.getElementById('prices-error-msg').textContent = err.message;
+  }
+}
+
+// ─── RENDER ───────────────────────────────────────────────────────────────────
+function render() {
+  hide('prices-loading');
+
+  if (!_data || !_data.categories?.length) {
+    show('prices-empty');
+    return;
+  }
+
+  const cats = _data.categories.filter(c =>
+    _activeGroup === 'sve' || c.group === _activeGroup
+  );
+
+  // Only include categories that have at least 1 item in active stores
+  const visible = cats.filter(c =>
+    [..._activeStores].some(s => (c.items?.[s]?.length ?? 0) > 0)
+  );
+
+  if (!visible.length) {
+    hide('prices-grid');
+    show('prices-empty');
+    return;
+  }
+
+  hide('prices-empty');
+  const grid = document.getElementById('prices-grid');
+  grid.innerHTML = visible.map(c => renderCategory(c)).join('');
+  show('prices-grid');
+}
+
+function renderCategory(cat) {
+  const storeOrder = ['Lidl', 'Konzum', 'Spar', 'Studenac'];
+  const activeList = storeOrder.filter(s => _activeStores.has(s));
+
+  const cols = activeList.map(store => {
+    const items = (cat.items?.[store] ?? []).slice(0, 20);
+    const cards = items.length
+      ? items.map(renderCard).join('')
+      : `<div class="prc-empty-store">Nema akcija ovaj tjedan</div>`;
+
+    return `
+      <div class="prc-store-col" data-store="${esc(store)}">
+        <div class="prc-store-header prc-store-${store.toLowerCase()}">
+          ${esc(store)}
+          <span class="prc-store-count">${items.length}</span>
+        </div>
+        <div class="prc-store-items">${cards}</div>
+      </div>`;
+  }).join('');
+
+  return `
+    <section class="prc-category" data-group="${esc(cat.group)}">
+      <h2 class="prc-category-title">${esc(cat.label)}</h2>
+      <div class="prc-store-grid" style="--col-count:${activeList.length}">${cols}</div>
+    </section>`;
+}
+
+function renderCard(item) {
+  const discBadge = item.discount
+    ? `<span class="prc-card-disc">-${item.discount}%</span>`
+    : '';
+  const valid = item.valid
+    ? `<span class="prc-card-valid">${esc(item.valid)}</span>`
+    : '';
+  const link = item.url
+    ? `href="${esc(item.url)}" target="_blank" rel="noopener"`
+    : '';
+
+  return `
+    <a class="prc-card" ${link}>
+      <div class="prc-card-name">${esc(item.name)}</div>
+      <div class="prc-card-bottom">
+        <span class="prc-card-price">${esc(item.price_str)}</span>
+        ${discBadge}
+        ${valid}
+      </div>
+    </a>`;
+}
+
+// ─── FILTERS ──────────────────────────────────────────────────────────────────
+document.getElementById('group-tabs').addEventListener('click', e => {
+  const btn = e.target.closest('.pgp-tab');
+  if (!btn) return;
+  document.querySelectorAll('.pgp-tab').forEach(b => b.classList.remove('is-active'));
+  btn.classList.add('is-active');
+  _activeGroup = btn.dataset.group;
+  render();
+});
+
+document.getElementById('store-toggles').addEventListener('click', e => {
+  const btn = e.target.closest('.pst-btn');
+  if (!btn) return;
+  const store = btn.dataset.store;
+  if (_activeStores.has(store)) {
+    if (_activeStores.size === 1) return; // keep at least one
+    _activeStores.delete(store);
+    btn.classList.remove('is-active');
+  } else {
+    _activeStores.add(store);
+    btn.classList.add('is-active');
+  }
+  render();
+});
+
+document.getElementById('refresh-btn').addEventListener('click', () => {
+  show('prices-loading');
+  hide('prices-grid');
+  hide('prices-empty');
+  hide('prices-error');
+  loadData();
+});
+
+// ─── UTILS ────────────────────────────────────────────────────────────────────
+function show(id) { document.getElementById(id)?.removeAttribute('hidden'); }
+function hide(id) { document.getElementById(id)?.setAttribute('hidden', ''); }
+function esc(s) {
+  return String(s ?? '').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+}
+function showUpdated(iso) {
+  if (!iso) return;
+  const el = document.getElementById('prices-updated');
+  if (!el) return;
+  const d = new Date(iso);
+  const fmt = d.toLocaleString('hr-HR', { day:'numeric', month:'numeric', hour:'2-digit', minute:'2-digit' });
+  el.textContent = `Ažurirano: ${fmt}`;
+  el.removeAttribute('hidden');
+}
+
+// ─── INIT ─────────────────────────────────────────────────────────────────────
+loadData();
+</script>
+</body>
+</html>
