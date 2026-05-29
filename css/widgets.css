@@ -598,6 +598,41 @@
   white-space: nowrap;
   margin-left: auto;
 }
+
+/* Birthday events — in the events list, styled like a badge */
+.cal-birthday-event { padding: 2px 6px; }
+.cal-birthday-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  padding: 1px 8px;
+  font-family: var(--font-mono);
+  font-size: 10px;
+  font-weight: 500;
+  color: #8a4500;
+  background: rgba(255,150,40,0.1);
+  border: 1px solid rgba(255,150,40,0.3);
+  border-radius: var(--r-sm);
+  white-space: nowrap;
+}
+
+/* Briefing quick-info row (birthdays + holidays) */
+.brf-quick-info {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 3px var(--sp-1);
+  padding: var(--sp-2) var(--sp-6) var(--sp-2);
+  border-bottom: 1px solid var(--border-faint);
+  font-family: var(--font-mono);
+  font-size: 11px;
+  color: var(--text-secondary);
+  line-height: var(--lh-relaxed);
+  background: var(--bg-tertiary);
+}
+.brf-qi-item { white-space: nowrap; }
+.brf-qi-sep  { color: var(--border-default); user-select: none; }
+.brf-qi-hl   { font-weight: 700; color: var(--accent); font-style: normal; }
 .cal-day-header-dot {
   width: 5px; height: 5px;
   border-radius: 50%;
@@ -632,9 +667,9 @@
 }
 
 .cal-event-bar {
-  width: 2px;
+  width: 3px;
   min-height: 18px;
-  border-radius: 1px;
+  border-radius: 2px;
   background: var(--accent);
   flex-shrink: 0;
   align-self: stretch;

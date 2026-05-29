@@ -39,6 +39,9 @@ export async function renderCalendar(config) {
     const data   = await fetchAllCalendarEvents(token);
     const events = data.items ?? [];
     renderEvents(el, events);
+    // Share events with other widgets (e.g. briefing quick-info)
+    window._calEvents = events;
+    window.dispatchEvent(new CustomEvent('calendar:loaded', { detail: events }));
   } catch (err) {
     console.error('Calendar fetch failed:', err);
     if (err.message?.includes('401')) {
@@ -120,6 +123,14 @@ function renderEvents(el, events) {
 }
 
 function renderEvent(ev) {
+  // Birthday events — styled as badge, no time/bar
+  if (ev._isBirthday) {
+    return `
+      <div class="cal-event cal-birthday-event">
+        <span class="cal-birthday-badge">🎂 ${escHtml(ev.summary || '(bez naslova)')}</span>
+      </div>`;
+  }
+
   const isAllDay = !!ev.start?.date;
   let timeStr = '';
 

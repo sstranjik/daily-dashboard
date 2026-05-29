@@ -1,6 +1,80 @@
 import { escapeHtml, formatDate } from '../utils/helpers.js';
 import { bustCache, loadDataFile } from '../api/data-loader.js';
 
+// ─── QUICK-INFO (birthdays + holidays from calendar) ──────────────────────────
+let _calEvents = null;
+
+// Called when calendar widget finishes loading
+window.addEventListener('calendar:loaded', e => {
+  _calEvents = e.detail;
+  _renderQuickInfo();
+});
+
+function _daysUntil(dateStr) {
+  const today = new Date(); today.setHours(0,0,0,0);
+  return Math.round((new Date(dateStr + 'T00:00:00') - today) / 86_400_000);
+}
+
+function _fmtDays(n) {
+  if (n === 0) return 'danas';
+  if (n === 1) return 'sutra';
+  return `za ${n} dana`;
+}
+
+function _birthdayName(summary) {
+  return summary.replace(/\s*'s\s+birthday$/i, '').replace(/\s+birthday$/i, '').trim();
+}
+
+function _hl(text) {
+  return `<strong class="brf-qi-hl">${escapeHtml(text)}</strong>`;
+}
+
+function _renderQuickInfo() {
+  const el = document.getElementById('widget-briefing');
+  if (!el || !_calEvents?.length) return;
+
+  const today = new Date(); today.setHours(0,0,0,0);
+  const in7   = new Date(today); in7.setDate(today.getDate() + 7);
+
+  const items = [];
+
+  for (const ev of _calEvents) {
+    const dk = ev.start?.date ?? ev.start?.dateTime?.slice(0, 10);
+    if (!dk) continue;
+    const n = _daysUntil(dk);
+    if (n < 0 || n > 7) continue;
+    const fd = _fmtDays(n);
+
+    if (ev._isBirthday) {
+      const name = _birthdayName(ev.summary || '');
+      items.push({ n, html: `🎂 ${_hl(name)} ima rođendan ${_hl(fd)}` });
+    } else if (ev._isHoliday) {
+      items.push({ n, html: `🗓 ${_hl(ev.summary || '')} ${_hl(fd)}` });
+    }
+  }
+
+  // Deduplicate by html text, sort by days
+  const seen = new Set();
+  const unique = items.filter(i => { if (seen.has(i.html)) return false; seen.add(i.html); return true; });
+  unique.sort((a, b) => a.n - b.n);
+
+  let qi = el.querySelector('.brf-quick-info');
+
+  if (!unique.length) { qi?.remove(); return; }
+
+  const inner = unique
+    .map(i => `<span class="brf-qi-item">${i.html}</span>`)
+    .join('<span class="brf-qi-sep"> | </span>');
+
+  if (!qi) {
+    qi = document.createElement('div');
+    qi.className = 'brf-quick-info';
+    const header = el.querySelector('.widget-header');
+    header ? header.insertAdjacentElement('afterend', qi) : el.prepend(qi);
+  }
+  qi.innerHTML = inner;
+}
+
 const GITHUB_REPO    = 'sstranjik/daily-dashboard';
 const WORKFLOW_FILE  = 'daily-update.yml';
 
@@ -14,6 +88,8 @@ export function renderBriefing(data) {
   else { renderV1(el, data); }
 
   attachRefreshBtn(el);
+  // Re-apply quick-info if calendar data is already available
+  if (_calEvents) _renderQuickInfo();
 }
 
 function attachRefreshBtn(el) {
