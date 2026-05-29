@@ -33,9 +33,6 @@ function _renderQuickInfo() {
   const el = document.getElementById('widget-briefing');
   if (!el || !_calEvents?.length) return;
 
-  const today = new Date(); today.setHours(0,0,0,0);
-  const in7   = new Date(today); in7.setDate(today.getDate() + 7);
-
   const items = [];
 
   for (const ev of _calEvents) {
@@ -53,26 +50,28 @@ function _renderQuickInfo() {
     }
   }
 
-  // Deduplicate by html text, sort by days
   const seen = new Set();
-  const unique = items.filter(i => { if (seen.has(i.html)) return false; seen.add(i.html); return true; });
-  unique.sort((a, b) => a.n - b.n);
+  const unique = items
+    .filter(i => { if (seen.has(i.html)) return false; seen.add(i.html); return true; })
+    .sort((a, b) => a.n - b.n);
 
-  let qi = el.querySelector('.brf-quick-info');
+  // Target weather body — insert inline after weather text, same row
+  const weatherBody = el.querySelector('.brf-weather-body');
+  if (!weatherBody) return;
 
-  if (!unique.length) { qi?.remove(); return; }
+  weatherBody.querySelector('.brf-qi-group')?.remove();
+  if (!unique.length) return;
 
-  const inner = unique
-    .map(i => `<span class="brf-qi-item">${i.html}</span>`)
-    .join('<span class="brf-qi-sep"> | </span>');
+  const group = document.createElement('span');
+  group.className = 'brf-qi-group';
+  group.innerHTML = unique
+    .map(i => `<span class="brf-qi-sep">|</span><span class="brf-qi-item">${i.html}</span>`)
+    .join('');
 
-  if (!qi) {
-    qi = document.createElement('div');
-    qi.className = 'brf-quick-info';
-    const header = el.querySelector('.widget-header');
-    header ? header.insertAdjacentElement('afterend', qi) : el.prepend(qi);
-  }
-  qi.innerHTML = inner;
+  const weatherText = weatherBody.querySelector('.brf-weather-text');
+  weatherText
+    ? weatherText.insertAdjacentElement('afterend', group)
+    : weatherBody.prepend(group);
 }
 
 const GITHUB_REPO    = 'sstranjik/daily-dashboard';
@@ -155,7 +154,7 @@ function weatherSection(w) {
   return `
     <div class="brf-section brf-weather-row">
       <span class="brf-weather-icon">${w.icon ?? '🌡️'}</span>
-      <div style="flex:1;min-width:0">
+      <div class="brf-weather-body" style="flex:1;min-width:0;overflow:hidden">
         <span class="brf-weather-text">${escapeHtml(w.summary ?? '')}</span>
         ${alertsHtml}
       </div>

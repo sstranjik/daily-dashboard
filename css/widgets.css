@@ -616,23 +616,20 @@
   white-space: nowrap;
 }
 
-/* Briefing quick-info row (birthdays + holidays) */
-.brf-quick-info {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  gap: 3px var(--sp-1);
-  padding: var(--sp-2) var(--sp-6) var(--sp-2);
-  border-bottom: 1px solid var(--border-faint);
+/* Briefing quick-info — inline, same row as weather summary */
+.brf-qi-group {
+  display: inline;
   font-family: var(--font-mono);
-  font-size: 11px;
+  font-size: var(--text-sm);
   color: var(--text-secondary);
-  line-height: var(--lh-relaxed);
-  background: var(--bg-tertiary);
 }
-.brf-qi-item { white-space: nowrap; }
-.brf-qi-sep  { color: var(--border-default); user-select: none; }
-.brf-qi-hl   { font-weight: 700; color: var(--accent); font-style: normal; }
+.brf-qi-sep {
+  color: var(--border-default);
+  margin: 0 7px;
+  user-select: none;
+}
+.brf-qi-item  { white-space: nowrap; }
+.brf-qi-hl    { font-weight: 700; color: var(--accent); font-style: normal; }
 .cal-day-header-dot {
   width: 5px; height: 5px;
   border-radius: 50%;
