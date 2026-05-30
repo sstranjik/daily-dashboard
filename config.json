@@ -56,7 +56,7 @@
   "news_sources": {
     "hr": [
       { "name": "Index HR",              "rss": "https://www.index.hr/rss/vijesti-hrvatska",             "enabled": true },
-      { "name": "Index Crna kronika",    "rss": "https://www.index.hr/rss/vijesti-crna-kronika",          "enabled": true },
+      { "name": "Index Crna kronika",    "rss": "https://www.index.hr/rss/vijesti-nesrece-i-kriminal",    "enabled": true },
       { "name": "Index Nesreće",         "rss": "https://www.index.hr/rss/vijesti-nesrece-i-kriminal",   "enabled": true },
       { "name": "Index Zagreb",          "rss": "https://www.index.hr/rss/vijesti-zagreb",               "enabled": true },
       { "name": "Tportal vijesti",       "rss": "https://www.tportal.hr/rss-vijesti.xml",                "enabled": true },
@@ -79,15 +79,15 @@
     "finance": [
       { "name": "Index Novac",       "rss": "https://www.index.hr/rss/vijesti-novac",                "enabled": true },
       { "name": "Jutarnji Novac",    "rss": "https://www.jutarnji.hr/novac/feed",                   "enabled": true },
-      { "name": "Poslovni dnevnik",  "rss": "https://www.poslovni.hr/rss/poslovni-hr.xml",           "enabled": true },
-      { "name": "Lider",             "rss": "https://lider.media/feed/",                             "enabled": true },
+      { "name": "Poslovni dnevnik",  "rss": "https://www.poslovni.hr/rss",                          "enabled": true },
+      { "name": "Lider",             "rss": "https://lider.media/feed/",                             "enabled": false },
       { "name": "CNBC Finance",      "rss": "https://www.cnbc.com/id/10000664/device/rss/rss.html",  "enabled": true }
     ],
     "tech": [
       { "name": "Index Tech",        "rss": "https://www.index.hr/rss/magazin-tech-gadget",          "enabled": true },
       { "name": "Tportal Tehno",     "rss": "https://www.tportal.hr/rss-tehno.xml",                  "enabled": true },
       { "name": "Bug.hr",            "rss": "https://www.bug.hr/rss/",                               "enabled": true },
-      { "name": "ICTbusiness",       "rss": "https://www.ictbusiness.info/feed/",                    "enabled": true },
+      { "name": "ICTbusiness",       "rss": "https://www.ictbusiness.info/feed/",                    "enabled": false },
       { "name": "Netokracija",       "rss": "https://www.netokracija.com/feed",                      "enabled": true },
       { "name": "TechCrunch AI",     "rss": "https://techcrunch.com/category/artificial-intelligence/feed/", "enabled": true },
       { "name": "The Verge",         "rss": "https://www.theverge.com/rss/index.xml",                "enabled": true },
@@ -108,7 +108,7 @@
       { "name": "Jutarnji Sport",    "rss": "https://www.jutarnji.hr/sportske/feed",                 "enabled": true },
       { "name": "SportKlub",         "rss": "http://sportklub.n1info.hr/feed",                       "enabled": true },
       { "name": "24sata Sport",      "rss": "https://www.24sata.hr/feeds/sport.xml",                 "enabled": true },
-      { "name": "SportSport",        "rss": "https://www.sportsport.ba/rss",                         "enabled": true },
+      { "name": "SportSport",        "rss": "https://www.sportsport.ba/rss",                         "enabled": false },
       { "name": "ESPN NBA",          "rss": "https://www.espn.com/espn/rss/nba/news",                "enabled": true },
       { "name": "NBA.com",           "rss": "https://www.nba.com/news/rss",                          "enabled": false },
       { "name": "BBC Sport",         "rss": "https://feeds.bbci.co.uk/sport/rss.xml",                "enabled": true },
