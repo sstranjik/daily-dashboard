@@ -66,8 +66,8 @@ jobs:
           else
             git commit -m "data: daily update $(date +'%Y-%m-%d %H:%M UTC')"
             for attempt in 1 2 3; do
-              git pull --rebase origin main
-              if git push; then
+              git rebase --abort 2>/dev/null || true
+              if git pull --rebase -X theirs origin main && git push; then
                 echo "Push succeeded on attempt $attempt"
                 break
               fi
@@ -75,7 +75,7 @@ jobs:
                 echo "Push failed after 3 attempts"
                 exit 1
               fi
-              echo "Push attempt $attempt failed, retrying in 15s..."
+              echo "Attempt $attempt failed, retrying in 15s..."
               sleep 15
             done
           fi
