@@ -1,15 +1,15 @@
 {
   "version": 2,
-  "date": "2026-05-29",
-  "generated_at": "2026-05-29T15:50:40.950Z",
-  "date_hr": "Petak, 29. svibnja 2026.",
+  "date": "2026-05-30",
+  "generated_at": "2026-05-30T07:38:18.982Z",
+  "date_hr": "Subota, 30. svibnja 2026.",
   "weather": {
-    "icon": "🌤️",
-    "summary": "15–26°C, pretežno vedro",
+    "icon": "☁️",
+    "summary": "14–30°C, oblačno",
     "alerts": []
   },
   "fuel": {
-    "current_date": "29.05.2026",
+    "current_date": "30.05.2026",
     "eurodiesel": [
       {
         "company": "Adria Oil",
@@ -51,7 +51,7 @@
       },
       {
         "company": "Petrol",
-        "price": 1.94
+        "price": 1.95
       },
       {
         "company": "Coral Croatia",
@@ -63,31 +63,46 @@
     "upcoming_premium": null
   },
   "market": {
-    "updated_at": "2026-05-29T15:50:40.950Z",
-    "btc_usd": 73714,
-    "btc_eur": 63132,
-    "btc_change_24h": 1.16,
-    "usd_eur": 0.8589
+    "updated_at": "2026-05-30T07:38:18.982Z",
+    "btc_usd": 73443,
+    "btc_eur": 62974,
+    "btc_change_24h": 0.09,
+    "usd_eur": 0.8576
   },
   "ai_news": [
     {
-      "title": "AI agents are entering their rebuild era as enterprises confront the reliability problem",
-      "link": "https://venturebeat.com/orchestration/ai-agents-are-entering-their-rebuild-era-as-enterprises-confront-the-reliability-problem",
+      "title": "The AI agent bottleneck isn't model performance — it's permissions",
+      "link": "https://venturebeat.com/orchestration/the-ai-agent-bottleneck-isnt-model-performance-its-permissions",
       "source": "VentureBeat"
     },
     {
-      "title": "I've used Gemini in Android Auto for 2 months now, and it's transformed my daily drive in 4 ways",
-      "link": "https://www.zdnet.com/article/how-gemini-in-android-auto-is-changing-my-daily-drive/",
-      "source": "ZDNet"
+      "title": "Anthropicov Mythos stiže svima: Tjedni nas dijele od modela za kojeg \"nema obrane\"",
+      "link": "https://www.bug.hr/umjetna-inteligencija/anthropicov-mythos-stize-svima-tjedni-nas-dijele-od-modela-za-kojeg-nema-60215",
+      "source": "Bug.hr"
+    },
+    {
+      "title": "OpenAI pokrenuo Rosalind program kao zaštitu od bioloških prijetnji kreiranih s AI alatima",
+      "link": "https://www.bug.hr/tehnologije/openai-pokrenuo-rosalind-program-kao-zastitu-od-bioloskih-prijetnji-kreiranih-s-60216",
+      "source": "Bug.hr"
+    },
+    {
+      "title": "Anthropic prikupio 65 milijardi dolara, bliži se valuaciji od bilijuna",
+      "link": "https://www.bug.hr/biznis/anthropic-prikupio-65-milijardi-dolara-blizi-se-valuaciji-od-bilijuna-60194",
+      "source": "Bug.hr"
+    },
+    {
+      "title": "MeMo's memory model lets teams upgrade their LLM without retraining it — and performance jumps 26%",
+      "link": "https://venturebeat.com/orchestration/memo-memory-model-teams-upgrade-llm-without-retraining",
+      "source": "VentureBeat"
     }
   ],
   "micro_tips": {
     "vscode": {
-      "tip": "Nađi i selektiraj sljedeće pojavljivanje",
-      "keys": "Ctrl+D"
+      "tip": "Multi-cursor: postavi cursor na više mjesta istovremeno",
+      "keys": "Alt+Click"
     },
-    "sql": "Batch INSERT umjesto jednog-po-jednog: INSERT INTO t VALUES (...),(...),...",
-    "oracle": "FETCH FIRST n ROWS ONLY umjesto ROWNUM — kompatibilno s ORDER BY i čitljivije",
-    "regex": "^(?!.*pattern) negative lookahead: \"ova linija ne smije sadržavati X\""
+    "sql": "EXISTS umjesto IN za subqueries — brže jer stane na prvom podudaranju: WHERE EXISTS (SELECT 1 FROM ...)",
+    "oracle": "/*+ INDEX(t ime_indexa) */ forsira specifičan index kad optimizer bira full scan",
+    "regex": "\\b granica riječi: \\bword\\b podudara cijelu riječ, ne \"password\" ili \"swordfish\""
   }
 }
