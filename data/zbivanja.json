@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-29T21:31:08.267Z",
+  "generated_at": "2026-05-30T05:01:02.481Z",
   "stats": {
     "muzika.hr": {
       "ok": true,
@@ -15,7 +15,7 @@
     },
     "Gavella": {
       "ok": true,
-      "count": 1
+      "count": 0
     },
     "Tvornica": {
       "ok": true,
@@ -25,21 +25,21 @@
       "ok": true,
       "count": 0
     },
+    "Pogon": {
+      "ok": true,
+      "count": 0
+    },
     "Komedija": {
       "ok": true,
       "count": 0
     },
-    "Pogon": {
+    "Kerempuh": {
       "ok": true,
       "count": 0
     },
     "HNK Zagreb": {
       "ok": true,
       "count": 37
-    },
-    "Kerempuh": {
-      "ok": true,
-      "count": 0
     },
     "Trešnja": {
       "ok": true,
@@ -376,6 +376,21 @@
       "source": "muzika.hr",
       "is_new": false,
       "first_seen": "2026-05-27T08:36:49.476Z"
+    },
+    {
+      "id": "2926cbe64d",
+      "title": "Cirkobalkana predstavlja: Skier and Yeti",
+      "venue": "Mochvara",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-06-04T21:00:00",
+      "date_display": "čet, 04. 06. 2026.",
+      "time": "21:00",
+      "link": "https://mochvara.hr/event-detail/69f26860fb090551f4fba5dd/?lang=hr",
+      "source": "Mochvara",
+      "is_new": true,
+      "first_seen": "2026-05-30T05:01:02.481Z"
     },
     {
       "id": "35907002da",
@@ -1207,6 +1222,21 @@
       "first_seen": "2026-05-26T20:26:55.235Z"
     },
     {
+      "id": "f4efd8d5f8",
+      "title": "Iron Maiden",
+      "venue": "Bratislava",
+      "city": "Slovakia",
+      "country": "EU",
+      "category": "concert",
+      "date_iso": "2026-05-30T00:00:00",
+      "date_display": "sub, 30. 05. 2026.",
+      "time": null,
+      "link": "https://www.muzika.hr/event/iron-maiden-6/",
+      "source": "muzika.hr",
+      "is_new": true,
+      "first_seen": "2026-05-30T05:01:02.481Z"
+    },
+    {
       "id": "f1c8a61fbd",
       "title": "Skate Punk Vol. 2",
       "venue": "Baraka Aleja Vukovar bb",
@@ -1387,5 +1417,5 @@
       "first_seen": "2026-05-26T20:26:55.235Z"
     }
   ],
-  "new_count": 0
+  "new_count": 2
 }
