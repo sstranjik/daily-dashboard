@@ -182,19 +182,20 @@ function haversineM(lat1, lon1, lat2, lon2) {
 
 // ─── GEMINI ───────────────────────────────────────────────────────────────────
 
+// NOTE: No google_search tool here — store hours are stable enough that
+// Gemini's training knowledge is sufficient and avoids the search quota.
 async function callGemini(prompt) {
   if (!GEMINI_KEY) throw new Error('GEMINI_API_KEY not set');
   const url  = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=${GEMINI_KEY}`;
   const body = {
     contents: [{ parts: [{ text: prompt }] }],
-    tools: [{ google_search: {} }],
-    generationConfig: { maxOutputTokens: 800, temperature: 0.1 },
+    generationConfig: { maxOutputTokens: 1000, temperature: 0.1 },
   };
   const res  = await fetch(url, {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
     body: JSON.stringify(body),
-    signal: AbortSignal.timeout(40000),
+    signal: AbortSignal.timeout(30000),
   });
   if (!res.ok) {
     const err = await res.text();
