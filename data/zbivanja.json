@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-05-30T05:01:02.481Z",
+  "generated_at": "2026-05-30T06:01:06.820Z",
   "stats": {
     "muzika.hr": {
       "ok": true,
       "count": 25
     },
-    "Lisinski": {
-      "ok": true,
-      "count": 0
-    },
     "Mochvara": {
       "ok": true,
       "count": 11
+    },
+    "Lisinski": {
+      "ok": true,
+      "count": 0
     },
     "Gavella": {
       "ok": true,
@@ -25,21 +25,21 @@
       "ok": true,
       "count": 0
     },
-    "Pogon": {
-      "ok": true,
-      "count": 0
-    },
     "Komedija": {
       "ok": true,
       "count": 0
     },
-    "Kerempuh": {
+    "Pogon": {
       "ok": true,
       "count": 0
     },
     "HNK Zagreb": {
       "ok": true,
       "count": 37
+    },
+    "Kerempuh": {
+      "ok": true,
+      "count": 0
     },
     "Trešnja": {
       "ok": true,
@@ -389,7 +389,7 @@
       "time": "21:00",
       "link": "https://mochvara.hr/event-detail/69f26860fb090551f4fba5dd/?lang=hr",
       "source": "Mochvara",
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-05-30T05:01:02.481Z"
     },
     {
@@ -1233,7 +1233,7 @@
       "time": null,
       "link": "https://www.muzika.hr/event/iron-maiden-6/",
       "source": "muzika.hr",
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-05-30T05:01:02.481Z"
     },
     {
@@ -1417,5 +1417,5 @@
       "first_seen": "2026-05-26T20:26:55.235Z"
     }
   ],
-  "new_count": 2
+  "new_count": 0
 }
