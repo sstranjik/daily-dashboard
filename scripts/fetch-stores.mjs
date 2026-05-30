@@ -99,6 +99,35 @@ function getUpcomingNonWorkingDays(days = 7) {
 
 // ─── OVERPASS — find nearby shops ─────────────────────────────────────────────
 
+const OVERPASS_SERVERS = [
+  'https://overpass-api.de/api/interpreter',
+  'https://overpass.kumi.systems/api/interpreter',
+  'https://maps.mail.ru/osm/tools/overpass/api/interpreter',
+];
+
+async function overpassQuery(query) {
+  const encoded = encodeURIComponent(query);
+  for (const server of OVERPASS_SERVERS) {
+    try {
+      const res = await fetch(`${server}?data=${encoded}`, {
+        headers: {
+          'Accept': 'application/json',
+          'User-Agent': 'morning-insight-dashboard/1.0',
+        },
+        signal: AbortSignal.timeout(30000),
+      });
+      if (!res.ok) {
+        console.warn(`  Overpass ${server} returned ${res.status}, trying next…`);
+        continue;
+      }
+      return res.json();
+    } catch (err) {
+      console.warn(`  Overpass ${server} failed: ${err.message}, trying next…`);
+    }
+  }
+  throw new Error('All Overpass servers failed');
+}
+
 async function findNearbyStores(lat, lon, radiusM = 1000) {
   const query = `
 [out:json][timeout:30];
@@ -110,14 +139,7 @@ async function findNearbyStores(lat, lon, radiusM = 1000) {
 out body center;
 `;
 
-  const res = await fetch('https://overpass-api.de/api/interpreter', {
-    method: 'POST',
-    body: `data=${encodeURIComponent(query)}`,
-    headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
-    signal: AbortSignal.timeout(35000),
-  });
-  if (!res.ok) throw new Error(`Overpass HTTP ${res.status}`);
-  const data = await res.json();
+  const data = await overpassQuery(query);
 
   return (data.elements ?? [])
     .map(el => {
