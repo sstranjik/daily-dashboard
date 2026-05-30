@@ -216,55 +216,82 @@ function extractJSON(text) {
   return null;
 }
 
-// ─── CHECK STORE HOURS VIA GEMINI + GOOGLE SEARCH ────────────────────────────
+// ─── CHECK STORE HOURS VIA GEMINI + GOOGLE SEARCH (batched) ──────────────────
+// Sends up to BATCH_SIZE stores per Gemini call to stay within rate limits.
 
-async function checkStoreHours(store, nonWorkingDays) {
-  if (!nonWorkingDays.length) return [];
+const BATCH_SIZE = 4; // ~4 stores per call → ~4 calls for 15 stores
+
+async function callGeminiWithRetry(prompt, maxRetries = 3) {
+  for (let attempt = 0; attempt < maxRetries; attempt++) {
+    try {
+      return await callGemini(prompt);
+    } catch (err) {
+      const is429 = err.message.includes('429');
+      if (is429 && attempt < maxRetries - 1) {
+        const wait = (attempt + 1) * 15000; // 15s, 30s
+        console.warn(`  ⚠ Gemini 429, waiting ${wait/1000}s before retry ${attempt + 2}/${maxRetries}…`);
+        await sleep(wait);
+      } else {
+        throw err;
+      }
+    }
+  }
+}
+
+async function checkStoresBatch(stores, nonWorkingDays) {
+  if (!nonWorkingDays.length || !stores.length) return {};
 
   const daysDesc = nonWorkingDays.map(d => {
     const label = d.type === 'holiday' ? `državni praznik "${d.label}"` : 'nedjelja';
     return `  - ${d.date} (${label})`;
   }).join('\n');
 
-  // Build URL hint for known chains
-  const websiteHint = store.website
-    ? `\nSlužbena web stranica: ${store.website}`
-    : getChainWebsiteHint(store.name || store.brand || '');
+  const storesList = stores.map((s, i) => {
+    const websiteHint = s.website || getChainWebsiteHint(s.name || s.brand || '');
+    return `${i + 1}. ${s.name}${s.brand && s.brand !== s.name ? ` (${s.brand})` : ''}, ${s.address ? s.address + ', ' : ''}${s.city || 'Zagreb'}${websiteHint ? ' — ' + websiteHint.trim() : ''}`;
+  }).join('\n');
 
-  const prompt = `Trebaš pronaći radno vrijeme trgovine u Hrvatskoj.
+  const prompt = `Provjeri radno vrijeme sljedećih trgovina u Hrvatskoj koristeći Google pretragu.
 
-Trgovina: ${store.name}${store.brand && store.brand !== store.name ? ` (${store.brand})` : ''}
-Adresa: ${store.address ? store.address + ', ' : ''}${store.city || 'Zagreb'}, Hrvatska${websiteHint}
+Trgovine:
+${storesList}
 
-Koristeći Google pretragu, provjeri je li ova trgovina otvorena na sljedeće dane i koja su radna vremena:
+Dani za provjeru:
 ${daysDesc}
 
-Vrati SAMO JSON array, bez ikakvog drugog teksta:
-[
-  { "date": "YYYY-MM-DD", "open": true, "time": "HH:MM-HH:MM" },
-  { "date": "YYYY-MM-DD", "open": false, "time": null }
-]
+Vrati SAMO JSON objekt gdje je ključ redni broj trgovine (1, 2, 3...) a vrijednost array s radnim vremenom:
+{
+  "1": [{ "date": "YYYY-MM-DD", "open": true, "time": "HH:MM-HH:MM" }, ...],
+  "2": [{ "date": "YYYY-MM-DD", "open": false, "time": null }, ...],
+  ...
+}
 
-Uključi SAMO dane za koje imaš pouzdane informacije. Ako nisi siguran za neki dan, uključi ga sa "open": false.
-Ako je predviđeno radno vrijeme isti kao za nedjelju, za praznike to navedi.`;
+Za svaku trgovinu i svaki dan: ako je otvoreno open=true s točnim vremenom, ako je zatvoreno open=false.
+Ako ne možeš naći podatke za neku trgovinu, vrati prazan array za taj ključ.`;
 
   try {
-    const text = await callGemini(prompt);
+    const text = await callGeminiWithRetry(prompt);
     const parsed = extractJSON(text);
-    if (!Array.isArray(parsed)) return [];
+    if (!parsed || typeof parsed !== 'object' || Array.isArray(parsed)) return {};
 
-    // Validate each entry
-    return parsed
-      .filter(entry => entry.date && typeof entry.open === 'boolean')
-      .map(entry => ({
-        date:  entry.date,
-        open:  entry.open,
-        time:  entry.open && entry.time ? String(entry.time).trim() : null,
-      }))
-      .filter(entry => nonWorkingDays.some(d => d.date === entry.date));
+    const results = {};
+    for (let i = 0; i < stores.length; i++) {
+      const key = String(i + 1);
+      const arr = parsed[key];
+      if (!Array.isArray(arr)) { results[i] = []; continue; }
+      results[i] = arr
+        .filter(e => e.date && typeof e.open === 'boolean')
+        .map(e => ({
+          date: e.date,
+          open: e.open,
+          time: e.open && e.time ? String(e.time).trim() : null,
+        }))
+        .filter(e => nonWorkingDays.some(d => d.date === e.date));
+    }
+    return results;
   } catch (err) {
-    console.warn(`  ⚠ Gemini error for ${store.name}: ${err.message.slice(0, 80)}`);
-    return [];
+    console.warn(`  ⚠ Gemini batch error: ${err.message.slice(0, 100)}`);
+    return {};
   }
 }
 
@@ -361,29 +388,33 @@ async function main() {
     return;
   }
 
-  // 3. For each store, ask Gemini (with Google Search) about hours on non-working days
+  // 3. Batch stores → fewer Gemini calls (BATCH_SIZE stores per call)
   const results = [];
-  for (const store of stores) {
-    console.log(`\n  🔎 ${store.name}${store.address ? ' · ' + store.address : ''}`);
-    const hours = await checkStoreHours(store, nonWorkingDays);
+  for (let i = 0; i < stores.length; i += BATCH_SIZE) {
+    const batch = stores.slice(i, i + BATCH_SIZE);
+    console.log(`\n  🔎 Batch ${Math.floor(i/BATCH_SIZE)+1}/${Math.ceil(stores.length/BATCH_SIZE)}: ${batch.map(s => s.name).join(', ')}`);
 
-    // Only include stores where at least one day has confirmed open=true
-    const openDays = hours.filter(h => h.open);
-    console.log(`     → ${openDays.length} open day(s) confirmed`);
+    const batchHours = await checkStoresBatch(batch, nonWorkingDays);
 
-    // Include all stores that had any result (even if closed, frontend filters)
-    if (hours.length > 0) {
-      results.push({
-        name:    store.name,
-        brand:   store.brand || null,
-        address: store.address || null,
-        city:    store.city || null,
-        dist:    store.dist,
-        hours,
-      });
+    for (let j = 0; j < batch.length; j++) {
+      const store = batch[j];
+      const hours = batchHours[j] ?? [];
+      const openDays = hours.filter(h => h.open);
+      console.log(`     ${store.name}: ${openDays.length} open day(s) confirmed`);
+      if (hours.length > 0) {
+        results.push({
+          name:    store.name,
+          brand:   store.brand || null,
+          address: store.address || null,
+          city:    store.city || null,
+          dist:    store.dist,
+          hours,
+        });
+      }
     }
 
-    await sleep(2000); // be gentle with Gemini API
+    // Pause between batches to respect rate limits (max ~4 calls/min)
+    if (i + BATCH_SIZE < stores.length) await sleep(18000);
   }
 
   writeJson('stores-hours.json', {
