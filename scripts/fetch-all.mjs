@@ -5,7 +5,7 @@
  */
 
 import { XMLParser } from 'fast-xml-parser';
-import { readFileSync, writeFileSync, mkdirSync } from 'fs';
+import { readFileSync, writeFileSync, mkdirSync, existsSync } from 'fs';
 import { join, dirname } from 'path';
 import { fileURLToPath } from 'url';
 
@@ -170,6 +170,49 @@ function writeDataFile(filename, data) {
   console.log(`✓ Wrote ${filename} (${data.items?.length ?? '?'} items)`);
 }
 
+// ─── ACCUMULATION HELPERS ─────────────────────────────────────────────────────
+
+// Read items from an existing data file (returns [] if file missing/corrupt)
+function readExistingItems(filename) {
+  try {
+    const p = join(DATA, filename);
+    if (!existsSync(p)) return [];
+    return JSON.parse(readFileSync(p, 'utf8'))?.items ?? [];
+  } catch {
+    return [];
+  }
+}
+
+// Merge newly-fetched items with existing ones:
+//  • Keeps items published within the last `maxAgeHours`
+//  • Deduplicates by link URL (most reliable) then title prefix
+//  • Sorts newest-first
+function accumulate(newItems, existingItems, maxAgeHours) {
+  const cutoff = Date.now() - maxAgeHours * 3600 * 1000;
+  const all    = [...newItems, ...existingItems];
+
+  const fresh  = all.filter(i => {
+    if (!i.published) return true;
+    return new Date(i.published).getTime() > cutoff;
+  });
+
+  const seen = new Set();
+  const deduped = fresh.filter(item => {
+    const key = item.link
+      ? item.link.replace(/[?#].*$/, '').replace(/\/$/, '')   // strip query/hash/trailing-slash
+      : (item.title ?? '').toLowerCase().trim().slice(0, 60);
+    if (!key || seen.has(key)) return false;
+    seen.add(key);
+    return true;
+  });
+
+  return deduped.sort((a, b) => {
+    const at = a.published ? new Date(a.published).getTime() : 0;
+    const bt = b.published ? new Date(b.published).getTime() : 0;
+    return bt - at;
+  });
+}
+
 // ─── FETCH EACH CATEGORY ──────────────────────────────────────────────────────
 
 // extras: pre-routed items from routing_sources (e.g. N1 category-routed articles)
@@ -219,8 +262,9 @@ async function processRoutingSources(routingConfigs) {
 async function main() {
   console.log(`\n📰 Dashboard data fetch started at ${NOW_ISO}\n`);
 
-  const cfg    = CONFIG.news_sources;
-  const maxAge = CONFIG.news?.max_age_hours ?? 36;
+  const cfg        = CONFIG.news_sources;
+  const maxAge     = CONFIG.news?.max_age_hours ?? 24;   // rolling 24-h window
+  const accumulAge = CONFIG.news?.accumulate_hours ?? 24; // how long to keep old items
 
   // Step 1: process routing sources (e.g. N1 — distributed by XML category tag)
   console.log('🔀 Processing routing sources…');
@@ -243,30 +287,41 @@ async function main() {
     fetchCategory(cfg.food          ?? [], maxAge, r('food')),
   ]);
 
-  writeDataFile('hr-news.json',          { last_updated: NOW_ISO, source_count: cfg.hr?.length            ?? 0, items: hrItems.slice(0, 20)       });
-  writeDataFile('world-news.json',       { last_updated: NOW_ISO, source_count: cfg.world?.length         ?? 0, items: worldItems.slice(0, 20)    });
-  writeDataFile('finance-news.json',     { last_updated: NOW_ISO, source_count: cfg.finance?.length       ?? 0, items: financeItems.slice(0, 20)  });
-  writeDataFile('tech-news.json',        { last_updated: NOW_ISO, source_count: cfg.tech?.length          ?? 0, items: techItems.slice(0, 20)     });
-  writeDataFile('science-news.json',     { last_updated: NOW_ISO, source_count: cfg.science?.length       ?? 0, items: sciItems.slice(0, 20)      });
-  writeDataFile('sports.json',           { last_updated: NOW_ISO, source_count: cfg.sports?.length        ?? 0, items: sportsItems.slice(0, 20)   });
-  writeDataFile('entertainment-news.json',{ last_updated: NOW_ISO, source_count: cfg.entertainment?.length ?? 0, items: entertainItems.slice(0, 20) });
-  writeDataFile('health-news.json',      { last_updated: NOW_ISO, source_count: cfg.health?.length        ?? 0, items: healthItems.slice(0, 20)   });
-  writeDataFile('food-news.json',        { last_updated: NOW_ISO, source_count: cfg.food?.length          ?? 0, items: foodItems.slice(0, 20)     });
+  // Step 3: accumulate — merge with previous run's items, keep last 24 h
+  const files = [
+    { file: 'hr-news.json',           new: hrItems,      srcLen: cfg.hr?.length            ?? 0 },
+    { file: 'world-news.json',        new: worldItems,   srcLen: cfg.world?.length         ?? 0 },
+    { file: 'finance-news.json',      new: financeItems, srcLen: cfg.finance?.length       ?? 0 },
+    { file: 'tech-news.json',         new: techItems,    srcLen: cfg.tech?.length          ?? 0 },
+    { file: 'science-news.json',      new: sciItems,     srcLen: cfg.science?.length       ?? 0 },
+    { file: 'sports.json',            new: sportsItems,  srcLen: cfg.sports?.length        ?? 0 },
+    { file: 'entertainment-news.json',new: entertainItems,srcLen: cfg.entertainment?.length ?? 0 },
+    { file: 'health-news.json',       new: healthItems,  srcLen: cfg.health?.length        ?? 0 },
+    { file: 'food-news.json',         new: foodItems,    srcLen: cfg.food?.length          ?? 0 },
+  ];
+
+  const itemCounts = {};
+  for (const f of files) {
+    const existing = readExistingItems(f.file);
+    const merged   = accumulate(f.new, existing, accumulAge);
+    writeDataFile(f.file, { last_updated: NOW_ISO, source_count: f.srcLen, items: merged });
+    itemCounts[f.file] = merged.length;
+  }
 
   // Update metadata
   const metadata = {
     last_updated: NOW_ISO,
     generator: 'dashboard-bot/1.0',
     sources: {
-      hr_news:       { updated_at: NOW_ISO, item_count: hrItems.length,       ok: true },
-      world_news:    { updated_at: NOW_ISO, item_count: worldItems.length,    ok: true },
-      finance_news:  { updated_at: NOW_ISO, item_count: financeItems.length,  ok: true },
-      tech_news:     { updated_at: NOW_ISO, item_count: techItems.length,     ok: true },
-      science:       { updated_at: NOW_ISO, item_count: sciItems.length,      ok: true },
-      sports:        { updated_at: NOW_ISO, item_count: sportsItems.length,   ok: true },
-      entertainment: { updated_at: NOW_ISO, item_count: entertainItems.length,ok: true },
-      health:        { updated_at: NOW_ISO, item_count: healthItems.length,   ok: true },
-      food:          { updated_at: NOW_ISO, item_count: foodItems.length,     ok: true },
+      hr_news:       { updated_at: NOW_ISO, item_count: itemCounts['hr-news.json'],           ok: true },
+      world_news:    { updated_at: NOW_ISO, item_count: itemCounts['world-news.json'],        ok: true },
+      finance_news:  { updated_at: NOW_ISO, item_count: itemCounts['finance-news.json'],      ok: true },
+      tech_news:     { updated_at: NOW_ISO, item_count: itemCounts['tech-news.json'],         ok: true },
+      science:       { updated_at: NOW_ISO, item_count: itemCounts['science-news.json'],      ok: true },
+      sports:        { updated_at: NOW_ISO, item_count: itemCounts['sports.json'],            ok: true },
+      entertainment: { updated_at: NOW_ISO, item_count: itemCounts['entertainment-news.json'],ok: true },
+      health:        { updated_at: NOW_ISO, item_count: itemCounts['health-news.json'],       ok: true },
+      food:          { updated_at: NOW_ISO, item_count: itemCounts['food-news.json'],         ok: true },
       briefing:      { updated_at: NOW_ISO, ok: false, ai_used: false },
     },
   };

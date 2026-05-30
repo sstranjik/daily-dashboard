@@ -247,13 +247,14 @@ const DEFAULT_TABS = [
   { key: 'ostalo',        label: 'Ostalo',     files: [],  catch_all: true          },
 ];
 
-const MAX_ITEMS      = 20;
+const PAGE_SIZE      = 20;
 const AUTOREFRESH_IV = 60 * 60 * 1000; // check every hour
 
 let _tabs      = DEFAULT_TABS;
 let _tabItems  = {};        // key → items[] | null (not yet loaded)
 let _activeTab = null;
 let _activeSub = null;      // null = all sources
+let _tabPage   = {};        // key → current page index (0-based)
 let _config    = {};
 let _lastFetch = {};
 
@@ -291,6 +292,7 @@ export function renderUnifiedNews({ hrNews, techNews, science, sports, config })
 
   _activeTab = _tabs[0]?.key ?? null;
   _activeSub = null;
+  _tabPage   = {};
 
   buildWidget(el);
   scheduleAutoRefresh();
@@ -312,7 +314,7 @@ function buildWidget(el) {
     const inner = isZbv
       ? `<div class="zbv-loading">Učitavam zbivanja…</div>`
       : (_tabItems[t.key] !== null && _tabItems[t.key] !== 'zbivanja'
-          ? renderItems(_tabItems[t.key])
+          ? renderItems(_tabItems[t.key], t.key)
           : skeletonHtml());
     return `
       <div class="unified-news-panel${t.key === _activeTab ? ' active' : ''}"
@@ -343,6 +345,7 @@ function buildWidget(el) {
 
   attachMainTabHandlers(el);
   attachRefreshHandler(el);
+  attachPagerDelegation(el);
   renderSubTabs(el, _activeTab);
   // Note: maybeLoadTab is called from renderUnifiedNews after buildWidget
 }
@@ -374,6 +377,7 @@ function attachMainTabHandlers(el) {
 
     _activeTab = key;
     _activeSub = null;
+    _tabPage[key] = 0;
 
     el.querySelectorAll('.unified-news-tab').forEach(b =>
       b.classList.toggle('active', b.dataset.tab === key)
@@ -426,10 +430,11 @@ function renderSubTabs(el, tabKey) {
 }
 
 function applySourceFilter(el, tabKey) {
+  _tabPage[tabKey] = 0;  // reset to first page when filter changes
   const items    = _tabItems[tabKey] ?? [];
   const filtered = _activeSub ? items.filter(i => i.source === _activeSub) : items;
   const listEl   = el.querySelector(`#news-list-${tabKey}`);
-  if (listEl) listEl.innerHTML = renderItems(filtered);
+  if (listEl) listEl.innerHTML = renderItems(filtered, tabKey, el);
 }
 
 function getUniqueSources(items) {
@@ -463,7 +468,7 @@ async function maybeLoadTab(key) {
     const el = document.getElementById('widget-news');
     if (!el) return;
     const listEl = el.querySelector(`#news-list-${key}`);
-    if (listEl) listEl.innerHTML = renderItems(_tabItems[key]);
+    if (listEl) listEl.innerHTML = renderItems(_tabItems[key], key, el);
     if (_activeTab === key) renderSubTabs(el, key);
   } catch (err) {
     console.error(`News load failed for tab ${key}:`, err);
@@ -528,6 +533,26 @@ function attachRefreshHandler(el) {
   });
 }
 
+function attachPagerDelegation(el) {
+  el.addEventListener('click', e => {
+    const btn = e.target.closest('.news-pager-btn');
+    if (!btn || btn.disabled) return;
+    const pager  = btn.closest('.news-pager');
+    const tabKey = pager?.dataset.tab;
+    if (!tabKey) return;
+    const dir = parseInt(btn.dataset.dir, 10);
+    _tabPage[tabKey] = Math.max(0, (_tabPage[tabKey] ?? 0) + dir);
+    const items    = _tabItems[tabKey] ?? [];
+    const filtered = _activeSub ? items.filter(i => i.source === _activeSub) : items;
+    const listEl   = el.querySelector(`#news-list-${tabKey}`);
+    if (listEl) {
+      listEl.innerHTML = renderItems(filtered, tabKey, el);
+      // Scroll list into view smoothly
+      listEl.closest('.unified-news-panel')?.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+  });
+}
+
 async function refreshAllTabs(el) {
   const { bustCache, loadDataFile } = await import('../api/data-loader.js');
 
@@ -547,7 +572,7 @@ async function refreshAllTabs(el) {
       const listEl = el?.querySelector(`#news-list-${tab.key}`);
       if (listEl && _activeTab === tab.key) {
         const filtered = _activeSub ? _tabItems[tab.key].filter(i => i.source === _activeSub) : _tabItems[tab.key];
-        listEl.innerHTML = renderItems(filtered);
+        listEl.innerHTML = renderItems(filtered, tab.key, el);
       }
     } catch { /* keep existing */ }
   }
@@ -588,12 +613,39 @@ function updateFooterLabel() {
 }
 
 // ─── RENDER HELPERS ───────────────────────────────────────────────────────────
-function renderItems(items) {
+
+// Render a page of items + attach pagination controls
+function renderItems(items, tabKey = null, widgetEl = null) {
   if (!items)        return skeletonHtml();
   if (!items.length) return emptyHtml();
 
-  return deduplicateByTitle(items).slice(0, MAX_ITEMS).map(renderCard).join('');
+  const deduped = deduplicateByTitle(items);
+  const page    = tabKey ? (_tabPage[tabKey] ?? 0) : 0;
+  const total   = deduped.length;
+  const pages   = Math.ceil(total / PAGE_SIZE);
+  const safePage = Math.max(0, Math.min(page, pages - 1));
+  const slice   = deduped.slice(safePage * PAGE_SIZE, (safePage + 1) * PAGE_SIZE);
+
+  const cardsHtml  = slice.map(renderCard).join('');
+  const pagerHtml  = pages > 1
+    ? renderPager(safePage, pages, total, tabKey, widgetEl)
+    : '';
+
+  return cardsHtml + pagerHtml;
 }
+
+function renderPager(page, pages, total, tabKey, widgetEl) {
+  const start = page * PAGE_SIZE + 1;
+  const end   = Math.min((page + 1) * PAGE_SIZE, total);
+  return `
+    <div class="news-pager" data-tab="${escapeHtml(tabKey ?? '')}">
+      <button class="news-pager-btn" data-dir="-1" ${page === 0 ? 'disabled' : ''}>← Prethodni</button>
+      <span class="news-pager-info">${start}–${end} od ${total}</span>
+      <button class="news-pager-btn" data-dir="1" ${page >= pages - 1 ? 'disabled' : ''}>Sljedeći →</button>
+    </div>`;
+}
+
+// Pager clicks are handled via event delegation in attachPagerDelegation() below
 
 function renderCard(item) {
   const timeStr = item.published ? timeAgo(new Date(item.published)) : '';
