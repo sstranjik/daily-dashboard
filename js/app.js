@@ -209,6 +209,202 @@ function attachSettingsPanel(cfg) {
   document.addEventListener('keydown', e => { if (e.key === 'Escape') close(); });
 }
 
+// ─── LOCATION HELPERS ─────────────────────────────────────────────────────────
+
+function _getLocationLabel(cfg) {
+  const saved = JSON.parse(localStorage.getItem('dashboard_location') || 'null');
+  if (saved?.address) return saved.address;
+  if (cfg.location?.default_city) return cfg.location.default_city;
+  return 'Nije postavljeno';
+}
+
+function _getLocationCoords(cfg) {
+  const saved = JSON.parse(localStorage.getItem('dashboard_location') || 'null');
+  if (saved?.lat && saved?.lon) return saved;
+  if (cfg.location?.lat && cfg.location?.lon) return { lat: cfg.location.lat, lon: cfg.location.lon };
+  return null;
+}
+
+async function _nominatimGeocode(query) {
+  const url = `https://nominatim.openstreetmap.org/search?q=${encodeURIComponent(query)}&format=json&limit=1&addressdetails=1`;
+  const r = await fetch(url, { headers: { 'Accept': 'application/json', 'User-Agent': 'morning-insight-dashboard/1.0' } });
+  if (!r.ok) throw new Error('Nominatim error');
+  const data = await r.json();
+  if (!data[0]) throw new Error('Adresa nije pronađena');
+  const d = data[0];
+  const road    = d.address?.road || '';
+  const number  = d.address?.house_number || '';
+  const city    = d.address?.city || d.address?.town || d.address?.village || '';
+  const display = [road + (number ? ' ' + number : ''), city].filter(Boolean).join(', ');
+  return { lat: parseFloat(d.lat), lon: parseFloat(d.lon), address: display || d.display_name };
+}
+
+async function _nominatimReverse(lat, lon) {
+  const url = `https://nominatim.openstreetmap.org/reverse?lat=${lat}&lon=${lon}&format=json&addressdetails=1`;
+  const r = await fetch(url, { headers: { 'Accept': 'application/json', 'User-Agent': 'morning-insight-dashboard/1.0' } });
+  if (!r.ok) throw new Error('Nominatim error');
+  const d = await r.json();
+  const road    = d.address?.road || '';
+  const number  = d.address?.house_number || '';
+  const city    = d.address?.city || d.address?.town || d.address?.village || '';
+  return [road + (number ? ' ' + number : ''), city].filter(Boolean).join(', ') || d.display_name || `${lat}, ${lon}`;
+}
+
+async function _saveLocation(loc, cfg) {
+  // 1. Save to localStorage
+  localStorage.setItem('dashboard_location', JSON.stringify(loc));
+
+  // 2. Write to data/stores-location.json in GitHub repo via API (for GitHub Actions)
+  const pat = localStorage.getItem('dashboard_github_pat');
+  if (!pat) return; // silently skip if no PAT
+
+  const REPO    = 'sstranjik/daily-dashboard';
+  const FILE    = 'data/stores-location.json';
+  const content = JSON.stringify({ lat: loc.lat, lon: loc.lon, address: loc.address, radius_m: 1000 }, null, 2);
+  const b64     = btoa(unescape(encodeURIComponent(content)));
+
+  try {
+    // Get current SHA (needed for update)
+    const getRes = await fetch(`https://api.github.com/repos/${REPO}/contents/${FILE}`, {
+      headers: { 'Authorization': `Bearer ${pat}`, 'Accept': 'application/vnd.github+json' },
+    });
+    const sha = getRes.ok ? (await getRes.json()).sha : undefined;
+
+    await fetch(`https://api.github.com/repos/${REPO}/contents/${FILE}`, {
+      method: 'PUT',
+      headers: {
+        'Authorization': `Bearer ${pat}`,
+        'Accept': 'application/vnd.github+json',
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify({
+        message: 'config: update stores location',
+        content: b64,
+        ...(sha ? { sha } : {}),
+      }),
+    });
+    console.log('✓ stores-location.json updated in GitHub');
+  } catch (err) {
+    console.warn('Could not update stores-location.json:', err.message);
+  }
+}
+
+function _openLocationModal(cfg, onSave) {
+  // Remove existing modal if any
+  document.getElementById('loc-modal-overlay')?.remove();
+
+  const overlay = document.createElement('div');
+  overlay.id = 'loc-modal-overlay';
+  overlay.className = 'modal-overlay';
+  overlay.style.cssText = 'display:flex!important;z-index:1100';
+
+  const modal = document.createElement('div');
+  modal.className = 'modal';
+  modal.style.cssText = 'display:block;position:relative;z-index:1101;max-width:380px;width:100%;margin:auto';
+
+  modal.innerHTML = `
+    <div class="modal-header">
+      <h3 class="modal-title">Promijeni lokaciju</h3>
+      <button class="btn-icon" id="loc-modal-close" aria-label="Zatvori">
+        <svg width="13" height="13" viewBox="0 0 13 13" fill="none"><path d="M1 1l11 11M12 1L1 12" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+      </button>
+    </div>
+    <div class="modal-body" style="display:flex;flex-direction:column;gap:var(--sp-3)">
+      <div>
+        <label class="modal-label" style="margin-bottom:4px;display:block">Unesi adresu</label>
+        <div style="display:flex;gap:var(--sp-2)">
+          <input id="loc-modal-input" type="text" class="modal-input" style="flex:1"
+            placeholder="npr. Ilica 10, Zagreb"
+            value="${_getLocationLabel(cfg) !== 'Nije postavljeno' ? _getLocationLabel(cfg) : ''}">
+          <button class="btn-secondary" id="loc-modal-validate" style="font-size:12px;padding:6px 10px;white-space:nowrap">Provjeri</button>
+        </div>
+        <div id="loc-modal-result" style="font-family:var(--font-mono);font-size:11px;margin-top:6px;color:var(--text-muted);min-height:16px"></div>
+      </div>
+      <div style="display:flex;align-items:center;gap:8px;color:var(--text-muted)">
+        <div style="flex:1;height:1px;background:var(--border-faint)"></div>
+        <span style="font-size:11px">ili</span>
+        <div style="flex:1;height:1px;background:var(--border-faint)"></div>
+      </div>
+      <button class="btn-secondary" id="loc-modal-detect" style="font-size:12px;padding:8px">
+        📍 Detektiraj automatski (GPS)
+      </button>
+    </div>
+    <div class="modal-footer">
+      <button class="btn-secondary" id="loc-modal-cancel">Odustani</button>
+      <button class="btn-primary" id="loc-modal-save" disabled>Spremi</button>
+    </div>`;
+
+  overlay.appendChild(modal);
+  document.body.appendChild(overlay);
+
+  let resolvedLoc = null;
+
+  const resultEl  = modal.querySelector('#loc-modal-result');
+  const saveBtn   = modal.querySelector('#loc-modal-save');
+  const input     = modal.querySelector('#loc-modal-input');
+
+  const setResolved = (loc) => {
+    resolvedLoc = loc;
+    saveBtn.disabled = !loc;
+    resultEl.textContent = loc ? `✓ ${loc.address} (${loc.lat.toFixed(4)}, ${loc.lon.toFixed(4)})` : '';
+    resultEl.style.color = loc ? 'var(--accent)' : 'var(--color-danger)';
+  };
+
+  modal.querySelector('#loc-modal-validate').addEventListener('click', async () => {
+    const q = input.value.trim();
+    if (!q) return;
+    resultEl.textContent = 'Tražim…';
+    resultEl.style.color = 'var(--text-muted)';
+    saveBtn.disabled = true;
+    try {
+      const loc = await _nominatimGeocode(q);
+      setResolved(loc);
+    } catch (err) {
+      resultEl.textContent = `✗ ${err.message}`;
+      resultEl.style.color = 'var(--color-danger)';
+      resolvedLoc = null;
+    }
+  });
+
+  input.addEventListener('keydown', e => {
+    if (e.key === 'Enter') modal.querySelector('#loc-modal-validate')?.click();
+  });
+
+  modal.querySelector('#loc-modal-detect').addEventListener('click', async () => {
+    resultEl.textContent = 'Detektiram lokaciju…';
+    resultEl.style.color = 'var(--text-muted)';
+    saveBtn.disabled = true;
+    if (!navigator.geolocation) {
+      resultEl.textContent = '✗ GPS nije dostupan u ovom browseru';
+      resultEl.style.color = 'var(--color-danger)';
+      return;
+    }
+    try {
+      const pos = await new Promise((res, rej) =>
+        navigator.geolocation.getCurrentPosition(res, rej, { timeout: 8000 })
+      );
+      const addr = await _nominatimReverse(pos.coords.latitude, pos.coords.longitude);
+      setResolved({ lat: pos.coords.latitude, lon: pos.coords.longitude, address: addr });
+    } catch (err) {
+      resultEl.textContent = `✗ ${err.message || 'Detekcija nije uspjela'}`;
+      resultEl.style.color = 'var(--color-danger)';
+      resolvedLoc = null;
+    }
+  });
+
+  modal.querySelector('#loc-modal-save').addEventListener('click', async () => {
+    if (!resolvedLoc) return;
+    await _saveLocation(resolvedLoc, cfg);
+    overlay.remove();
+    if (onSave) onSave(resolvedLoc);
+  });
+
+  const close = () => overlay.remove();
+  modal.querySelector('#loc-modal-close').addEventListener('click', close);
+  modal.querySelector('#loc-modal-cancel').addEventListener('click', close);
+  overlay.addEventListener('click', e => { if (e.target === overlay) close(); });
+}
+
 function renderSettingsBody(cfg, container) {
   const widgetNames = {
     calendar:  'Kalendar',
@@ -236,15 +432,14 @@ function renderSettingsBody(cfg, container) {
     </div>
     <div class="settings-section">
       <div class="settings-section-title">Lokacija</div>
-      <div class="settings-row">
-        <div>
-          <div class="settings-row-label">Automatska detekcija</div>
-          <div class="settings-row-sublabel">Koristi GPS za lokaciju</div>
+      <div class="settings-row" style="align-items:center">
+        <div style="flex:1;min-width:0">
+          <div class="settings-row-label">Trenutna lokacija</div>
+          <div class="settings-row-sublabel" id="settings-loc-display" style="font-family:var(--font-mono);font-size:11px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap">
+            ${_getLocationLabel(cfg)}
+          </div>
         </div>
-        <label class="toggle">
-          <input type="checkbox" ${cfg.location?.auto_detect ? 'checked' : ''}>
-          <span class="toggle-track"></span>
-        </label>
+        <button class="btn-secondary" id="settings-loc-btn" style="font-size:12px;padding:5px 10px;flex-shrink:0">Promijeni</button>
       </div>
     </div>
     <div class="settings-section">
@@ -274,6 +469,14 @@ function renderSettingsBody(cfg, container) {
         <span style="font-family:var(--font-mono);font-size:11px;color:var(--text-muted)">07:00 svaki dan</span>
       </div>
     </div>`;
+
+  container.querySelector('#settings-loc-btn')?.addEventListener('click', () => {
+    _openLocationModal(cfg, (loc) => {
+      const display = container.querySelector('#settings-loc-display');
+      if (display) display.textContent = loc.address;
+      showToast('Lokacija pohranjena', 'success');
+    });
+  });
 
   container.querySelectorAll('[data-widget-key]').forEach(input => {
     input.addEventListener('change', () => {

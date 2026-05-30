@@ -661,8 +661,12 @@
   margin-left: auto;
 }
 
-/* Birthday events — in the events list, styled like a badge */
-.cal-birthday-event { padding: 2px 6px; }
+/* Birthday events — badge styled like holiday, stays in events list */
+.cal-birthday-event {
+  padding: 2px 6px;
+  display: flex;
+  align-items: center;
+}
 .cal-birthday-badge {
   display: inline-flex;
   align-items: center;
@@ -671,9 +675,9 @@
   font-family: var(--font-mono);
   font-size: 10px;
   font-weight: 500;
-  color: #8a4500;
-  background: rgba(255,150,40,0.1);
-  border: 1px solid rgba(255,150,40,0.3);
+  color: #c06000;
+  background: rgba(192, 96, 0, 0.08);
+  border: 1px solid rgba(192, 96, 0, 0.25);
   border-radius: var(--r-sm);
   white-space: nowrap;
 }
@@ -692,6 +696,107 @@
 }
 .brf-qi-item  { white-space: nowrap; }
 .brf-qi-hl    { font-weight: 700; color: var(--accent); font-style: normal; }
+
+/* ─── Briefing: stores section ───────────────────────────────────────────── */
+.brf-stores-section {
+  padding: var(--sp-2) 0;
+  border-top: 1px solid var(--border-faint);
+}
+
+.brf-stores-days {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 4px var(--sp-2);
+  margin-bottom: var(--sp-2);
+  font-family: var(--font-mono);
+  font-size: var(--text-xs);
+  color: var(--text-muted);
+}
+.brf-stores-day strong { color: var(--accent); font-weight: 600; }
+.brf-stores-day-sep   { color: var(--border-default); margin: 0 2px; user-select: none; }
+
+/* Carousel */
+.brf-stores-carousel-wrap {
+  display: flex;
+  align-items: center;
+  gap: var(--sp-1);
+  position: relative;
+}
+.brf-stores-carousel {
+  flex: 1;
+  min-width: 0;
+  overflow: hidden;
+  position: relative;
+  height: 36px; /* fixed height — no layout shift */
+}
+.brf-store-card {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  gap: var(--sp-2);
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.4s var(--ease);
+  white-space: nowrap;
+  overflow: hidden;
+}
+.brf-store-card.active {
+  opacity: 1;
+  pointer-events: auto;
+}
+.brf-store-name {
+  font-family: var(--font-display);
+  font-size: var(--text-sm);
+  font-weight: 600;
+  color: var(--text-primary);
+  flex-shrink: 0;
+}
+.brf-store-addr {
+  font-family: var(--font-mono);
+  font-size: var(--text-xs);
+  color: var(--text-muted);
+  flex-shrink: 0;
+}
+.brf-store-day-chip {
+  font-family: var(--font-mono);
+  font-size: 10px;
+  color: var(--accent);
+  background: var(--accent-bg);
+  border: 1px solid var(--accent-border);
+  border-radius: var(--r-sm);
+  padding: 1px 5px;
+  flex-shrink: 0;
+}
+
+/* Arrows — hidden until hover on the wrap */
+.brf-stores-arrow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 20px;
+  height: 20px;
+  border-radius: var(--r-md);
+  font-size: 14px;
+  line-height: 1;
+  color: var(--text-muted);
+  background: none;
+  border: 1px solid transparent;
+  cursor: pointer;
+  opacity: 0;
+  transition: opacity var(--dur), background var(--dur);
+  flex-shrink: 0;
+}
+.brf-stores-carousel-wrap:hover .brf-stores-arrow {
+  opacity: 1;
+}
+.brf-stores-arrow:hover {
+  background: var(--bg-hover);
+  border-color: var(--border-faint);
+  color: var(--text-primary);
+}
+
 .cal-day-header-dot {
   width: 5px; height: 5px;
   border-radius: 50%;

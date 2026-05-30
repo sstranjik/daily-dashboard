@@ -1,6 +1,103 @@
 import { escapeHtml, formatDate } from '../utils/helpers.js';
 import { bustCache, loadDataFile } from '../api/data-loader.js';
 
+// ─── STORES SECTION ───────────────────────────────────────────────────────────
+let _storesData = null;
+
+export async function loadAndRenderStores() {
+  try {
+    const data = await loadDataFile('data/stores-hours.json');
+    _storesData = data;
+    _renderStoresSection();
+  } catch { /* no stores data yet */ }
+}
+
+function _renderStoresSection() {
+  const el = document.getElementById('widget-briefing');
+  if (!el || !_storesData) return;
+
+  el.querySelector('.brf-stores-section')?.remove();
+
+  const { non_working_days = [], stores = [] } = _storesData;
+  if (!non_working_days.length) return;
+
+  // Filter stores that are open on at least one non-working day
+  const openStores = stores
+    .map(s => ({ ...s, openDays: (s.hours || []).filter(h => h.open) }))
+    .filter(s => s.openDays.length > 0)
+    .sort((a, b) => (a.dist || 0) - (b.dist || 0));
+
+  if (!openStores.length) return;
+
+  // Build day labels for row 1
+  const today = new Date(); today.setHours(0,0,0,0);
+  const dayLabels = non_working_days.map(d => {
+    const diff = Math.round((new Date(d.date + 'T00:00:00') - today) / 86_400_000);
+    const when = diff === 0 ? 'danas' : diff === 1 ? 'sutra' : `za ${diff} dana`;
+    return `<span class="brf-stores-day">${escapeHtml(d.label)} <strong>${when}</strong></span>`;
+  }).join('<span class="brf-stores-day-sep">·</span>');
+
+  // Build store cards for carousel
+  const cards = openStores.map(s => {
+    const addr   = s.address ? s.address.split(',')[0].trim() : (s.city || '');
+    const daysHtml = s.openDays.map(h => {
+      const nwd = non_working_days.find(d => d.date === h.date);
+      const lbl = nwd ? (nwd.type === 'sunday' ? 'ned' : nwd.label.split(' ')[0].toLowerCase()) : h.date.slice(5);
+      return `<span class="brf-store-day-chip">${lbl} ${h.time || ''}</span>`;
+    }).join('');
+    return `<div class="brf-store-card">
+      <span class="brf-store-name">${escapeHtml(s.name)}</span>
+      <span class="brf-store-addr">${escapeHtml(addr)}</span>
+      ${daysHtml}
+    </div>`;
+  }).join('');
+
+  const section = document.createElement('div');
+  section.className = 'brf-section brf-stores-section';
+  section.innerHTML = `
+    <div class="brf-stores-days">${dayLabels}</div>
+    <div class="brf-stores-carousel-wrap">
+      <button class="brf-stores-arrow brf-stores-prev" aria-label="Prethodno">‹</button>
+      <div class="brf-stores-carousel" id="brf-stores-carousel">${cards}</div>
+      <button class="brf-stores-arrow brf-stores-next" aria-label="Sljedeće">›</button>
+    </div>`;
+
+  // Insert after weather row
+  const weatherRow = el.querySelector('.brf-weather-row');
+  if (weatherRow) weatherRow.insertAdjacentElement('afterend', section);
+  else el.querySelector('.briefing-v2')?.prepend(section);
+
+  _attachCarousel(section);
+}
+
+function _attachCarousel(section) {
+  const carousel = section.querySelector('#brf-stores-carousel');
+  if (!carousel) return;
+  const cards    = [...carousel.querySelectorAll('.brf-store-card')];
+  if (cards.length <= 1) {
+    section.querySelectorAll('.brf-stores-arrow').forEach(b => b.style.display = 'none');
+    return;
+  }
+  let idx = 0;
+  let timer = null;
+
+  const show = (n) => {
+    idx = ((n % cards.length) + cards.length) % cards.length;
+    cards.forEach((c, i) => c.classList.toggle('active', i === idx));
+  };
+
+  const startTimer = () => {
+    clearInterval(timer);
+    timer = setInterval(() => show(idx + 1), 10_000);
+  };
+
+  show(0);
+  startTimer();
+
+  section.querySelector('.brf-stores-prev')?.addEventListener('click', () => { show(idx - 1); startTimer(); });
+  section.querySelector('.brf-stores-next')?.addEventListener('click', () => { show(idx + 1); startTimer(); });
+}
+
 // ─── QUICK-INFO (birthdays + holidays from calendar) ──────────────────────────
 let _calEvents = null;
 
@@ -89,6 +186,8 @@ export function renderBriefing(data) {
   attachRefreshBtn(el);
   // Re-apply quick-info if calendar data is already available
   if (_calEvents) _renderQuickInfo();
+  // Load stores section (async, doesn't block)
+  loadAndRenderStores();
 }
 
 function attachRefreshBtn(el) {

@@ -48,6 +48,12 @@ jobs:
         working-directory: scripts
         run: node fetch-prices.mjs
 
+      - name: Fetch store hours (nearby, non-working days)
+        working-directory: scripts
+        run: node fetch-stores.mjs
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+
       - name: Generate daily briefing
         if: ${{ !inputs.skip_briefing }}
         working-directory: scripts
