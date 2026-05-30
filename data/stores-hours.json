@@ -1,6 +1,25 @@
 {
-  "last_updated": "2026-05-30T20:15:45.821Z",
-  "location": null,
-  "non_working_days": [],
+  "last_updated": "2026-05-30T20:18:37.082Z",
+  "location": {
+    "lat": 45.8202433,
+    "lon": 15.8835749
+  },
+  "non_working_days": [
+    {
+      "date": "2026-05-30",
+      "type": "holiday",
+      "label": "Dan državnosti"
+    },
+    {
+      "date": "2026-05-31",
+      "type": "sunday",
+      "label": "Nedjelja"
+    },
+    {
+      "date": "2026-06-04",
+      "type": "holiday",
+      "label": "Tijelovo"
+    }
+  ],
   "stores": []
 }
