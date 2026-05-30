@@ -217,16 +217,33 @@ function extractJSON(text) {
   return null;
 }
 
-// ─── CHAIN HOURS TABLE ────────────────────────────────────────────────────────
-// ONE Gemini+search call to get hours for all known chains on specific dates.
-// Then per-store matching uses this table — no extra API calls.
+// ─── STATIC CHAIN HOURS TABLE ────────────────────────────────────────────────
+// Hardcoded typical hours for major Croatian chains.
+// Primary source — no API calls, no quota issues.
+// sunday:  typical Sunday hours
+// holiday: typical state holiday hours (most closed; some open with reduced hours)
 
-const KNOWN_CHAINS = [
-  'Lidl','Konzum','Spar','Interspar','Studenac','Kaufland','dm','Müller',
-  'Tommy','Plodine','Eurospin','KTC','Ribola','Boso','Pevex',
-];
+const CHAIN_HOURS = {
+  'Lidl':      { sunday: { open: true,  time: '08:00-21:00' }, holiday: { open: false } },
+  'Konzum':    { sunday: { open: true,  time: '08:00-20:00' }, holiday: { open: false } },
+  'Spar':      { sunday: { open: true,  time: '08:00-20:00' }, holiday: { open: false } },
+  'Interspar': { sunday: { open: true,  time: '08:00-21:00' }, holiday: { open: false } },
+  'Studenac':  { sunday: { open: true,  time: '07:00-21:00' }, holiday: { open: true, time: '07:00-14:00' } },
+  'Kaufland':  { sunday: { open: true,  time: '08:00-21:00' }, holiday: { open: false } },
+  'dm':        { sunday: { open: true,  time: '09:00-20:00' }, holiday: { open: false } },
+  'Müller':    { sunday: { open: true,  time: '09:00-20:00' }, holiday: { open: false } },
+  'Tommy':     { sunday: { open: true,  time: '07:00-21:00' }, holiday: { open: true, time: '08:00-14:00' } },
+  'Plodine':   { sunday: { open: true,  time: '08:00-20:00' }, holiday: { open: false } },
+  'Eurospin':  { sunday: { open: false },                       holiday: { open: false } },
+  'Boso':      { sunday: { open: true,  time: '08:00-20:00' }, holiday: { open: false } },
+  'Pevex':     { sunday: { open: true,  time: '09:00-20:00' }, holiday: { open: false } },
+  'KTC':       { sunday: { open: true,  time: '08:00-20:00' }, holiday: { open: false } },
+  'Ribola':    { sunday: { open: true,  time: '07:00-21:00' }, holiday: { open: true, time: '07:00-14:00' } },
+};
 
-/** Normalise a store name to match a chain entry */
+const KNOWN_CHAINS = Object.keys(CHAIN_HOURS);
+
+/** Match a store name to a known chain key */
 function matchChain(storeName) {
   const n = (storeName || '').toLowerCase();
   for (const c of KNOWN_CHAINS) {
@@ -236,65 +253,54 @@ function matchChain(storeName) {
 }
 
 /**
- * Fetch opening hours for all known chains on the given dates.
- * Returns: { "Lidl": { "2026-05-30": { open: false }, "2026-05-31": { open: true, time: "08-21" } }, … }
+ * Build hours for a store from the static table.
+ * Falls back to Gemini for unknown chains (optional, best-effort).
  */
-async function fetchChainHoursTable(nonWorkingDays) {
+function hoursFromTable(chain, nonWorkingDays) {
+  const entry = CHAIN_HOURS[chain];
+  if (!entry) return null;
+
+  return nonWorkingDays.map(d => {
+    const src = d.type === 'holiday' ? entry.holiday : entry.sunday;
+    return {
+      date: d.date,
+      open: !!src?.open,
+      time: src?.open && src?.time ? src.time : null,
+    };
+  });
+}
+
+/**
+ * For stores not in the static table, ask Gemini (no search, knowledge only).
+ * Returns the same format as CHAIN_HOURS entries, or null on failure.
+ */
+async function askGeminiForChain(chainName, nonWorkingDays) {
   const daysDesc = nonWorkingDays.map(d => {
     const label = d.type === 'holiday' ? `državni praznik "${d.label}"` : 'nedjelja';
     return `  - ${d.date} (${label})`;
   }).join('\n');
 
-  const prompt = `Provjeri radno vrijeme trgovačkih lanaca u Hrvatskoj koristeći Google pretragu.
+  const prompt = `Radi se o trgovini/lancu "${chainName}" u Hrvatskoj.
 
-Lanci: ${KNOWN_CHAINS.join(', ')}
-
-Dani za provjeru:
+Za svaki od sljedećih dana navedi je li tipično otvoreno i radno vrijeme:
 ${daysDesc}
 
-Za svaki lanac i svaki dan vrati je li otvoreno i radno vrijeme. Uzmi u obzir da su neke lokacije drugačije — koristi tipično radno vrijeme za Hrvatsku.
-
-Vrati SAMO JSON (bez ikakvog drugog teksta):
-{
-  "Lidl":    { "2026-05-30": { "open": false, "time": null }, "2026-05-31": { "open": true, "time": "08:00-21:00" } },
-  "Konzum":  { "2026-05-30": { "open": false, "time": null }, "2026-05-31": { "open": true, "time": "08:00-20:00" } },
-  ...
-}`;
+Vrati SAMO JSON array (bez teksta):
+[
+  { "date": "YYYY-MM-DD", "open": true/false, "time": "HH:MM-HH:MM ili null" }
+]`;
 
   try {
-    console.log('  📡 Fetching chain hours table via Gemini+Search…');
     const text = await callGemini(prompt);
-    const parsed = extractJSON(text);
-    if (!parsed || typeof parsed !== 'object' || Array.isArray(parsed)) {
-      console.warn('  ⚠ Could not parse chain hours table');
-      return {};
-    }
-    console.log(`  ✓ Got hours for: ${Object.keys(parsed).join(', ')}`);
-    return parsed;
-  } catch (err) {
-    console.warn(`  ⚠ Chain hours table error: ${err.message.slice(0, 100)}`);
-    return {};
+    const arr  = extractJSON(text);
+    if (!Array.isArray(arr)) return null;
+    return arr
+      .filter(e => e.date && typeof e.open === 'boolean')
+      .map(e => ({ date: e.date, open: e.open, time: e.open && e.time ? String(e.time) : null }))
+      .filter(e => nonWorkingDays.some(d => d.date === e.date));
+  } catch {
+    return null;
   }
-}
-
-/** Apply the chain table to a list of stores */
-function applyChainTable(stores, table, nonWorkingDays) {
-  return stores.map(store => {
-    const chain = matchChain(store.name);
-    if (!chain || !table[chain]) return { store, hours: [] };
-
-    const hours = nonWorkingDays.map(d => {
-      const entry = table[chain][d.date];
-      if (!entry) return null;
-      return {
-        date: d.date,
-        open: !!entry.open,
-        time: entry.open && entry.time ? String(entry.time).trim() : null,
-      };
-    }).filter(Boolean);
-
-    return { store, hours };
-  });
 }
 
 function getChainWebsiteHint(name) {
@@ -390,19 +396,26 @@ async function main() {
     return;
   }
 
-  // 3. ONE Gemini+search call → hours table for all known chains
-  console.log('\n  🔎 Fetching chain hours (1 API call for all chains)…');
-  const chainTable = await fetchChainHoursTable(nonWorkingDays);
-
-  // 4. Apply table to found stores (no extra API calls)
-  const matched = applyChainTable(stores, chainTable, nonWorkingDays);
-
+  // 3. Match each store to static hours table; unknown chains → Gemini fallback
   const results = [];
-  for (const { store, hours } of matched) {
-    const chain  = matchChain(store.name);
-    const openDays = hours.filter(h => h.open);
-    console.log(`  ${store.name}${store.address ? ' · ' + store.address : ''}: ${chain ? `(${chain}) ` : ''}${openDays.length} open day(s)`);
-    if (hours.length > 0) {
+  const unknownChains = new Set();
+
+  for (const store of stores) {
+    const chain = matchChain(store.name);
+    let hours;
+
+    if (chain) {
+      // Known chain — use static table, no API call
+      hours = hoursFromTable(chain, nonWorkingDays);
+      const openDays = hours.filter(h => h.open).length;
+      console.log(`  ✓ ${store.name}${store.address ? ' · ' + store.address : ''} (${chain}): ${openDays} open day(s)`);
+    } else {
+      // Unknown chain — queue for Gemini (best-effort)
+      unknownChains.add(store.name);
+      hours = null;
+    }
+
+    if (hours?.length > 0) {
       results.push({
         name:    store.name,
         brand:   store.brand || null,
@@ -411,6 +424,26 @@ async function main() {
         dist:    store.dist,
         hours,
       });
+    }
+  }
+
+  // 4. Ask Gemini for unknown chains (best-effort, skip on error)
+  if (unknownChains.size > 0 && GEMINI_KEY) {
+    console.log(`\n  🤖 Unknown chains for Gemini lookup: ${[...unknownChains].join(', ')}`);
+    for (const chainName of unknownChains) {
+      const storesForChain = stores.filter(s => s.name === chainName);
+      try {
+        const hours = await askGeminiForChain(chainName, nonWorkingDays);
+        if (hours?.length > 0) {
+          for (const s of storesForChain) {
+            console.log(`  ✓ ${s.name}${s.address ? ' · ' + s.address : ''} (Gemini): ${hours.filter(h => h.open).length} open day(s)`);
+            results.push({ name: s.name, brand: s.brand || null, address: s.address || null, city: s.city || null, dist: s.dist, hours });
+          }
+        }
+        await sleep(4000);
+      } catch (err) {
+        console.warn(`  ⚠ Gemini failed for ${chainName}: ${err.message.slice(0, 60)}`);
+      }
     }
   }
 
