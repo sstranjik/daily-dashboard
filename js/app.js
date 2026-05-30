@@ -254,38 +254,41 @@ async function _saveLocation(loc, cfg) {
   // 1. Save to localStorage
   localStorage.setItem('dashboard_location', JSON.stringify(loc));
 
-  // 2. Write to data/stores-location.json in GitHub repo via API (for GitHub Actions)
+  // 2. Trigger update-location workflow via workflow_dispatch
+  //    (only needs 'workflow' scope on PAT — no 'contents' needed)
   const pat = localStorage.getItem('dashboard_github_pat');
-  if (!pat) return; // silently skip if no PAT
+  if (!pat) return;
 
-  const REPO    = 'sstranjik/daily-dashboard';
-  const FILE    = 'data/stores-location.json';
-  const content = JSON.stringify({ lat: loc.lat, lon: loc.lon, address: loc.address, radius_m: 1000 }, null, 2);
-  const b64     = btoa(unescape(encodeURIComponent(content)));
-
+  const REPO = 'sstranjik/daily-dashboard';
   try {
-    // Get current SHA (needed for update)
-    const getRes = await fetch(`https://api.github.com/repos/${REPO}/contents/${FILE}`, {
-      headers: { 'Authorization': `Bearer ${pat}`, 'Accept': 'application/vnd.github+json' },
-    });
-    const sha = getRes.ok ? (await getRes.json()).sha : undefined;
-
-    await fetch(`https://api.github.com/repos/${REPO}/contents/${FILE}`, {
-      method: 'PUT',
-      headers: {
-        'Authorization': `Bearer ${pat}`,
-        'Accept': 'application/vnd.github+json',
-        'Content-Type': 'application/json',
-      },
-      body: JSON.stringify({
-        message: 'config: update stores location',
-        content: b64,
-        ...(sha ? { sha } : {}),
-      }),
-    });
-    console.log('✓ stores-location.json updated in GitHub');
+    const res = await fetch(
+      `https://api.github.com/repos/${REPO}/actions/workflows/update-location.yml/dispatches`,
+      {
+        method: 'POST',
+        headers: {
+          'Authorization': `Bearer ${pat}`,
+          'Accept': 'application/vnd.github+json',
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+          ref: 'main',
+          inputs: {
+            lat:      String(loc.lat),
+            lon:      String(loc.lon),
+            address:  loc.address || '',
+            radius_m: '1000',
+          },
+        }),
+      }
+    );
+    if (res.status === 204) {
+      console.log('✓ update-location workflow triggered');
+    } else {
+      const err = await res.json().catch(() => ({}));
+      console.warn('Location workflow error:', res.status, err.message);
+    }
   } catch (err) {
-    console.warn('Could not update stores-location.json:', err.message);
+    console.warn('Could not trigger update-location workflow:', err.message);
   }
 }
 
@@ -394,9 +397,16 @@ function _openLocationModal(cfg, onSave) {
 
   modal.querySelector('#loc-modal-save').addEventListener('click', async () => {
     if (!resolvedLoc) return;
+    const saveBtn2 = modal.querySelector('#loc-modal-save');
+    saveBtn2.disabled = true;
+    saveBtn2.textContent = 'Spremam…';
     await _saveLocation(resolvedLoc, cfg);
     overlay.remove();
     if (onSave) onSave(resolvedLoc);
+    // Inform about workflow delay
+    import('./app.js').then(m => {
+      m.showToast('Lokacija pohranjena — GitHub Actions ažurira stores podatke (~1 min)', 'success', 6000);
+    }).catch(() => showToast('Lokacija pohranjena', 'success'));
   });
 
   const close = () => overlay.remove();

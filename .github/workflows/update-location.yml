@@ -1,0 +1,69 @@
+name: Update Location
+
+on:
+  workflow_dispatch:
+    inputs:
+      lat:
+        description: 'Latitude'
+        required: true
+        type: string
+      lon:
+        description: 'Longitude'
+        required: true
+        type: string
+      address:
+        description: 'Human-readable address'
+        required: false
+        type: string
+        default: ''
+      radius_m:
+        description: 'Search radius in meters'
+        required: false
+        type: string
+        default: '1000'
+
+permissions:
+  contents: write
+
+jobs:
+  update-location:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Write stores-location.json
+        run: |
+          cat > data/stores-location.json << 'ENDJSON'
+          {
+            "lat": ${{ inputs.lat }},
+            "lon": ${{ inputs.lon }},
+            "address": "${{ inputs.address }}",
+            "radius_m": ${{ inputs.radius_m }}
+          }
+          ENDJSON
+          echo "✓ Written data/stores-location.json"
+          cat data/stores-location.json
+
+      - name: Commit
+        run: |
+          git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config --local user.name  "github-actions[bot]"
+          git add data/stores-location.json
+          if git diff --staged --quiet; then
+            echo "No changes"
+          else
+            git commit -m "config: update stores location"
+            for attempt in 1 2 3; do
+              git rebase --abort 2>/dev/null || true
+              if git pull --rebase -X theirs origin main && git push; then
+                echo "Push succeeded on attempt $attempt"
+                break
+              fi
+              sleep 10
+            done
+          fi
