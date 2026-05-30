@@ -293,6 +293,31 @@
 }
 .news-card:hover { border-color: var(--border-subtle); background: var(--bg-tertiary); }
 
+/* Card with thumbnail — image left, body right, no height change */
+.news-card.has-img {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  padding: 8px 10px;
+}
+.news-card-body { flex: 1; min-width: 0; }
+
+.news-card-img-wrap {
+  flex-shrink: 0;
+  width: 64px;
+  height: 64px;
+  border-radius: var(--r-md);
+  overflow: hidden;
+  display: block;
+  background: var(--bg-highest);
+}
+.news-card-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
 .news-card-meta {
   display: flex;
   align-items: center;

@@ -54,16 +54,28 @@ function parseRSSXml(xml, sourceName) {
       const summary = stripHtml(getText(item.description ?? item.summary ?? item.content));
       const pubDate = item.pubDate ?? item.published ?? item.updated ?? item['dc:date'];
 
+      // Extract XML <category> tag for routing sources (e.g. N1 Info)
+      const rawCat = item.category;
+      let xmlCategory = '';
+      if (typeof rawCat === 'string') {
+        xmlCategory = rawCat.trim().toLowerCase();
+      } else if (Array.isArray(rawCat)) {
+        xmlCategory = String(rawCat[0] ?? '').trim().toLowerCase();
+      } else if (rawCat && typeof rawCat === 'object') {
+        xmlCategory = String(rawCat['#text'] ?? rawCat).trim().toLowerCase();
+      }
+
       return {
-        id:        `${sourceName.toLowerCase().replace(/\s/g,'-')}-${i}`,
-        title:     title || '(no title)',
-        summary:   summary ? summary.slice(0, 300) : '',
-        link:      link || '',
-        published: pubDate ? new Date(pubDate).toISOString() : NOW_ISO,
-        source:    sourceName,
-        category:  guessCategory(title),
-        tags:      [],
-        image:     extractImage(item),
+        id:           `${sourceName.toLowerCase().replace(/\s/g,'-')}-${i}`,
+        title:        title || '(no title)',
+        summary:      summary ? summary.slice(0, 300) : '',
+        link:         link || '',
+        published:    pubDate ? new Date(pubDate).toISOString() : NOW_ISO,
+        source:       sourceName,
+        category:     guessCategory(title),
+        xml_category: xmlCategory,
+        tags:         [],
+        image:        extractImage(item),
       };
     }).filter(i => i.title && i.link);
   } catch (err) {
@@ -100,10 +112,27 @@ function stripHtml(str) {
 }
 
 function extractImage(item) {
-  const enc = item['media:content'] ?? item['media:thumbnail'];
-  if (enc?.['@_url']) return enc['@_url'];
-  const thumb = item['media:thumbnail'];
-  if (typeof thumb === 'string') return thumb;
+  // media:content (most common in HR portals: Jutarnji, Index, N1…)
+  const mc = item['media:content'];
+  if (mc) {
+    const url = Array.isArray(mc) ? mc[0]?.['@_url'] : mc['@_url'];
+    if (url && typeof url === 'string') return url;
+  }
+  // media:thumbnail
+  const mt = item['media:thumbnail'];
+  if (mt) {
+    if (typeof mt === 'string') return mt;
+    const url = Array.isArray(mt) ? mt[0]?.['@_url'] : mt['@_url'];
+    if (url && typeof url === 'string') return url;
+  }
+  // enclosure (Tportal, Večernji, some others)
+  const enc = item.enclosure;
+  if (enc) {
+    const url = Array.isArray(enc) ? enc[0]?.['@_url'] : enc['@_url'];
+    if (url && typeof url === 'string' && /image/i.test(enc['@_type'] ?? enc[0]?.['@_type'] ?? 'image')) {
+      return url;
+    }
+  }
   return null;
 }
 
@@ -143,9 +172,10 @@ function writeDataFile(filename, data) {
 
 // ─── FETCH EACH CATEGORY ──────────────────────────────────────────────────────
 
-async function fetchCategory(sources, maxAge = 36) {
+// extras: pre-routed items from routing_sources (e.g. N1 category-routed articles)
+async function fetchCategory(sources, maxAge = 36, extras = []) {
   const cutoff = Date.now() - maxAge * 3600 * 1000;
-  const allItems = [];
+  const allItems = [...extras];
 
   await Promise.allSettled(
     sources
@@ -160,6 +190,30 @@ async function fetchCategory(sources, maxAge = 36) {
   return deduplicateItems(sortByDate(fresh.length >= 3 ? fresh : allItems));
 }
 
+// Process routing_sources: fetch once, distribute items by XML category tag
+async function processRoutingSources(routingConfigs) {
+  const pools = {};  // category key → items[]
+
+  for (const src of routingConfigs) {
+    if (src.enabled === false) continue;
+    const items = await fetchRSS(src.rss, src.name);
+    const cmap  = src.category_map ?? {};
+
+    for (const item of items) {
+      const cat    = item.xml_category || '';
+      const target = cmap[cat] ?? cmap['default'] ?? null;
+      if (target) {
+        if (!pools[target]) pools[target] = [];
+        pools[target].push(item);
+      }
+    }
+
+    console.log(`  Routing "${src.name}": ${items.length} items distributed across categories`);
+  }
+
+  return pools;
+}
+
 // ─── MAIN ─────────────────────────────────────────────────────────────────────
 
 async function main() {
@@ -168,19 +222,25 @@ async function main() {
   const cfg    = CONFIG.news_sources;
   const maxAge = CONFIG.news?.max_age_hours ?? 36;
 
+  // Step 1: process routing sources (e.g. N1 — distributed by XML category tag)
+  console.log('🔀 Processing routing sources…');
+  const routed = await processRoutingSources(CONFIG.routing_sources ?? []);
+  const r = (key) => routed[key] ?? [];
+
+  // Step 2: fetch each category (regular sources + pre-routed items)
   const [
     hrItems, worldItems, financeItems, techItems, sciItems,
     sportsItems, entertainItems, healthItems, foodItems,
   ] = await Promise.all([
-    fetchCategory(cfg.hr            ?? [], maxAge),
-    fetchCategory(cfg.world         ?? [], maxAge),
-    fetchCategory(cfg.finance       ?? [], maxAge),
-    fetchCategory(cfg.tech          ?? [], maxAge),
-    fetchCategory(cfg.science       ?? [], maxAge),
-    fetchCategory(cfg.sports        ?? [], maxAge),
-    fetchCategory(cfg.entertainment ?? [], maxAge),
-    fetchCategory(cfg.health        ?? [], maxAge),
-    fetchCategory(cfg.food          ?? [], maxAge),
+    fetchCategory(cfg.hr            ?? [], maxAge, r('hr')),
+    fetchCategory(cfg.world         ?? [], maxAge, r('world')),
+    fetchCategory(cfg.finance       ?? [], maxAge, r('finance')),
+    fetchCategory(cfg.tech          ?? [], maxAge, r('tech')),
+    fetchCategory(cfg.science       ?? [], maxAge, r('science')),
+    fetchCategory(cfg.sports        ?? [], maxAge, r('sports')),
+    fetchCategory(cfg.entertainment ?? [], maxAge, r('entertainment')),
+    fetchCategory(cfg.health        ?? [], maxAge, r('health')),
+    fetchCategory(cfg.food          ?? [], maxAge, r('food')),
   ]);
 
   writeDataFile('hr-news.json',          { last_updated: NOW_ISO, source_count: cfg.hr?.length            ?? 0, items: hrItems.slice(0, 20)       });

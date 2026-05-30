@@ -598,21 +598,31 @@ function renderItems(items) {
 function renderCard(item) {
   const timeStr = item.published ? timeAgo(new Date(item.published)) : '';
   const summary = item.summary ? truncate(stripHtml(item.summary), 120) : null;
+  const img     = item.image || null;
+
+  const imgHtml = img
+    ? `<a href="${escapeHtml(item.link || '#')}" class="news-card-img-wrap" target="_blank" rel="noopener noreferrer" tabindex="-1" aria-hidden="true">
+         <img class="news-card-img" src="${escapeHtml(img)}" alt="" loading="lazy" decoding="async">
+       </a>`
+    : '';
 
   return `
-    <article class="news-card">
-      <div class="news-card-meta">
-        <span class="news-source">${escapeHtml(item.source || '')}</span>
-        <span class="news-time">${timeStr}</span>
-      </div>
-      <h3 class="news-title">
-        <a href="${escapeHtml(item.link || '#')}" target="_blank" rel="noopener noreferrer">
-          ${escapeHtml(item.title || '')}
-        </a>
-      </h3>
-      ${summary ? `<p class="news-summary">${escapeHtml(summary)}</p>` : ''}
-      <div class="news-card-footer">
-        ${item.link ? `<a href="${escapeHtml(item.link)}" class="news-read-more" target="_blank" rel="noopener noreferrer">Čitaj →</a>` : ''}
+    <article class="news-card${img ? ' has-img' : ''}">
+      ${imgHtml}
+      <div class="news-card-body">
+        <div class="news-card-meta">
+          <span class="news-source">${escapeHtml(item.source || '')}</span>
+          <span class="news-time">${timeStr}</span>
+        </div>
+        <h3 class="news-title">
+          <a href="${escapeHtml(item.link || '#')}" target="_blank" rel="noopener noreferrer">
+            ${escapeHtml(item.title || '')}
+          </a>
+        </h3>
+        ${summary ? `<p class="news-summary">${escapeHtml(summary)}</p>` : ''}
+        <div class="news-card-footer">
+          ${item.link ? `<a href="${escapeHtml(item.link)}" class="news-read-more" target="_blank" rel="noopener noreferrer">Čitaj →</a>` : ''}
+        </div>
       </div>
     </article>`;
 }
