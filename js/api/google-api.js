@@ -68,7 +68,10 @@ export async function fetchAllCalendarEvents(token) {
           _calColor:   ev.colorId ? null : cal.backgroundColor,
           _calName:    cal.summary,
           _isHoliday:  isHolidayCal,
-          _isBirthday: isBirthdayCal,
+          // Detect birthday by calendar name OR by event title
+          // (catches "Damir Lolić's birthday" in any calendar)
+          _isBirthday: isBirthdayCal ||
+            /\bbirthday\b|ro[đd]endan/i.test(ev.summary ?? ''),
         }))
       );
     })
