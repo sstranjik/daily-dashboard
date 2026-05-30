@@ -59,9 +59,12 @@
       { "name": "Index Crna kronika","rss": "https://www.index.hr/rss/vijesti-crna-kronika",          "enabled": true },
       { "name": "Index Nesreće",     "rss": "https://www.index.hr/rss/vijesti-nesrece-i-kriminal",   "enabled": true },
       { "name": "Index Zagreb",      "rss": "https://www.index.hr/rss/vijesti-zagreb",               "enabled": true },
-      { "name": "N1 Info",           "rss": "https://n1info.hr/feed/",                               "enabled": true },
-      { "name": "Tportal",           "rss": "https://www.tportal.hr/rss",                            "enabled": true },
-      { "name": "Jutarnji",          "rss": "https://www.jutarnji.hr/feed",                          "enabled": true }
+      { "name": "N1 Info",           "rss": "https://n1info.hr/vijesti/feed/",                       "enabled": true },
+      { "name": "Tportal",           "rss": "https://www.tportal.hr/rss",                            "enabled": false },
+      { "name": "Jutarnji",          "rss": "https://www.jutarnji.hr/vijesti/hrvatska/feed",         "enabled": true },
+      { "name": "24sata Hrvatska",   "rss": "https://www.24sata.hr/feeds/hrvatska.xml",              "enabled": true },
+      { "name": "Dnevnik.hr",        "rss": "https://dnevnik.hr/rss",                               "enabled": true },
+      { "name": "Večernji list",     "rss": "https://www.vecernji.hr/feed",                         "enabled": true }
     ],
     "world": [
       { "name": "Index Svijet",      "rss": "https://www.index.hr/rss/vijesti-svijet",               "enabled": true },
@@ -78,6 +81,7 @@
     ],
     "tech": [
       { "name": "Index Tech",        "rss": "https://www.index.hr/rss/magazin-tech-gadget",          "enabled": true },
+      { "name": "Index Auto",        "rss": "https://www.index.hr/rss/auto",                         "enabled": true },
       { "name": "Bug.hr",            "rss": "https://www.bug.hr/rss/",                               "enabled": true },
       { "name": "ICTbusiness",       "rss": "https://www.ictbusiness.info/feed/",                    "enabled": true },
       { "name": "Netokracija",       "rss": "https://www.netokracija.com/feed",                      "enabled": true },
@@ -99,7 +103,7 @@
       { "name": "24sata Sport",      "rss": "https://www.24sata.hr/feeds/sport.xml",                 "enabled": true },
       { "name": "SportSport",        "rss": "https://www.sportsport.ba/rss",                         "enabled": true },
       { "name": "ESPN NBA",          "rss": "https://www.espn.com/espn/rss/nba/news",                "enabled": true },
-      { "name": "NBA.com",           "rss": "https://www.nba.com/news/rss",                          "enabled": true },
+      { "name": "NBA.com",           "rss": "https://www.nba.com/news/rss",                          "enabled": false },
       { "name": "BBC Sport",         "rss": "https://feeds.bbci.co.uk/sport/rss.xml",                "enabled": true },
       { "name": "Sky Sports",        "rss": "https://www.skysports.com/rss/12040",                   "enabled": true }
     ],
@@ -109,7 +113,6 @@
       { "name": "Index Lifestyle",   "rss": "https://www.index.hr/rss/magazin-lifestyle",            "enabled": true },
       { "name": "Index Showbiz",     "rss": "https://www.index.hr/rss/magazin-showbiz",              "enabled": true },
       { "name": "Index Zanimljivosti","rss": "https://www.index.hr/rss/magazin-zanimljivosti",        "enabled": true },
-      { "name": "Index Auto",        "rss": "https://www.index.hr/rss/auto",                         "enabled": true },
       { "name": "Index Chill",       "rss": "https://www.index.hr/rss/chill",                        "enabled": true },
       { "name": "Variety",           "rss": "https://variety.com/feed/",                             "enabled": true }
     ],
