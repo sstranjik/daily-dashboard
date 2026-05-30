@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-30T21:07:32.197Z",
+  "last_updated": "2026-05-30T21:24:17.105Z",
   "location": {
     "lat": 45.8202433,
     "lon": 15.8835749
@@ -21,5 +21,126 @@
       "label": "Tijelovo"
     }
   ],
-  "stores": []
+  "stores": [
+    {
+      "name": "Studenac",
+      "brand": "Studenac",
+      "address": null,
+      "city": "Zagreb",
+      "dist": 48,
+      "hours": [
+        {
+          "date": "2026-05-30",
+          "open": true,
+          "time": "07:00-14:00"
+        },
+        {
+          "date": "2026-05-31",
+          "open": true,
+          "time": "07:00-21:00"
+        },
+        {
+          "date": "2026-06-04",
+          "open": true,
+          "time": "07:00-14:00"
+        }
+      ]
+    },
+    {
+      "name": "Studenac",
+      "brand": null,
+      "address": "Bolnička cesta 94",
+      "city": "Zagreb",
+      "dist": 193,
+      "hours": [
+        {
+          "date": "2026-05-30",
+          "open": true,
+          "time": "07:00-14:00"
+        },
+        {
+          "date": "2026-05-31",
+          "open": true,
+          "time": "07:00-21:00"
+        },
+        {
+          "date": "2026-06-04",
+          "open": true,
+          "time": "07:00-14:00"
+        }
+      ]
+    },
+    {
+      "name": "Konzum",
+      "brand": "Konzum",
+      "address": null,
+      "city": "Zagreb",
+      "dist": 372,
+      "hours": [
+        {
+          "date": "2026-05-30",
+          "open": false,
+          "time": null
+        },
+        {
+          "date": "2026-05-31",
+          "open": true,
+          "time": "08:00-20:00"
+        },
+        {
+          "date": "2026-06-04",
+          "open": false,
+          "time": null
+        }
+      ]
+    },
+    {
+      "name": "Boso",
+      "brand": null,
+      "address": "Karažnik 22",
+      "city": "Zagreb",
+      "dist": 417,
+      "hours": [
+        {
+          "date": "2026-05-30",
+          "open": false,
+          "time": null
+        },
+        {
+          "date": "2026-05-31",
+          "open": true,
+          "time": "08:00-20:00"
+        },
+        {
+          "date": "2026-06-04",
+          "open": false,
+          "time": null
+        }
+      ]
+    },
+    {
+      "name": "Müller",
+      "brand": "Müller",
+      "address": null,
+      "city": "Zagreb",
+      "dist": 450,
+      "hours": [
+        {
+          "date": "2026-05-30",
+          "open": false,
+          "time": null
+        },
+        {
+          "date": "2026-05-31",
+          "open": true,
+          "time": "09:00-20:00"
+        },
+        {
+          "date": "2026-06-04",
+          "open": false,
+          "time": null
+        }
+      ]
+    }
+  ]
 }
