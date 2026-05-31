@@ -1,12 +1,16 @@
 {
   "version": 2,
   "date": "2026-05-31",
-  "generated_at": "2026-05-31T08:13:38.142Z",
+  "generated_at": "2026-05-31T15:58:17.643Z",
   "date_hr": "Nedjelja, 31. svibnja 2026.",
   "weather": {
     "icon": "⛈️",
-    "summary": "18–31°C, grmljavina",
+    "summary": "18–30°C, grmljavina s gradom · 2.5 mm, vjetar 37 km/h",
     "alerts": [
+      {
+        "level": "warning",
+        "text": "Olujni udari vjetra: do 85 km/h"
+      },
       {
         "level": "warning",
         "text": "Grmljavinska oluja"
@@ -68,10 +72,10 @@
     "upcoming_premium": null
   },
   "market": {
-    "updated_at": "2026-05-31T08:13:38.142Z",
-    "btc_usd": 73772,
-    "btc_eur": 63255,
-    "btc_change_24h": 0.44,
+    "updated_at": "2026-05-31T15:58:17.643Z",
+    "btc_usd": 73545,
+    "btc_eur": 63061,
+    "btc_change_24h": -0.37,
     "usd_eur": 0.8578
   },
   "ai_news": [
@@ -81,24 +85,14 @@
       "source": "TechCrunch AI"
     },
     {
-      "title": "Microsoft is threatening legal action for disclosing exploits",
-      "link": "https://www.theverge.com/tech/940416/microsoft-nightmare-eclipse-zero-day-vulnerability",
-      "source": "The Verge"
-    },
-    {
-      "title": "Parloa turns its $350 million war chest into a partnership web spanning SAP, Microsoft, and OpenAI",
-      "link": "https://thenextweb.com/news/parloa-turns-its-350-million-war-chest-into-a-partnership-web-spanning-sap-microsoft-and-openai",
-      "source": "The Next Web"
+      "title": "I've used Android Auto with Gemini for 2 months now - it's transformed my drives in 4 ways",
+      "link": "https://www.zdnet.com/article/how-gemini-in-android-auto-is-changing-my-daily-drive/",
+      "source": "ZDNet"
     },
     {
       "title": "I'm an iPhone user who switches to Gemini with Android Auto in the car - why I don't regret it",
       "link": "https://www.zdnet.com/article/gemini-with-android-auto-beats-siri-in-car-heres-why/",
       "source": "ZDNet"
-    },
-    {
-      "title": "I put Google&#8217;s 24/7 AI assistant Gemini Spark to work, and it&#8217;s actually pretty useful",
-      "link": "https://techcrunch.com/2026/05/30/i-put-googles-24-7-ai-assistant-gemini-spark-to-work-and-its-actually-pretty-useful/",
-      "source": "TechCrunch AI"
     }
   ],
   "micro_tips": {
