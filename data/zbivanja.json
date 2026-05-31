@@ -1,11 +1,19 @@
 {
-  "generated_at": "2026-05-31T18:01:01.842Z",
+  "generated_at": "2026-05-31T19:00:02.203Z",
   "stats": {
+    "muzika.hr": {
+      "ok": true,
+      "count": 25
+    },
+    "Lisinski": {
+      "ok": true,
+      "count": 0
+    },
     "Mochvara": {
       "ok": true,
       "count": 11
     },
-    "Lisinski": {
+    "Gavella": {
       "ok": true,
       "count": 0
     },
@@ -13,27 +21,7 @@
       "ok": true,
       "count": 3
     },
-    "Gavella": {
-      "ok": true,
-      "count": 0
-    },
-    "muzika.hr": {
-      "ok": true,
-      "count": 25
-    },
-    "ZeKaeM": {
-      "ok": true,
-      "count": 0
-    },
     "Komedija": {
-      "ok": true,
-      "count": 0
-    },
-    "Pogon": {
-      "ok": true,
-      "count": 0
-    },
-    "Kerempuh": {
       "ok": true,
       "count": 0
     },
@@ -42,6 +30,18 @@
       "count": 37
     },
     "Trešnja": {
+      "ok": true,
+      "count": 0
+    },
+    "ZeKaeM": {
+      "ok": true,
+      "count": 0
+    },
+    "Pogon": {
+      "ok": true,
+      "count": 0
+    },
+    "Kerempuh": {
       "ok": true,
       "count": 0
     }
@@ -749,7 +749,7 @@
       "time": null,
       "link": "https://www.muzika.hr/event/sabaton-2/",
       "source": "muzika.hr",
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-05-31T18:01:01.842Z"
     },
     {
@@ -1567,5 +1567,5 @@
       "first_seen": "2026-05-26T20:26:55.235Z"
     }
   ],
-  "new_count": 1
+  "new_count": 0
 }
