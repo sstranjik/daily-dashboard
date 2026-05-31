@@ -50,7 +50,8 @@ function addDays(date, n) {
 }
 
 function toISO(date) {
-  return date.toISOString().slice(0, 10);
+  // Use local date parts — toISOString() is UTC and shifts by 1 day in UTC+2
+  return `${date.getFullYear()}-${String(date.getMonth()+1).padStart(2,'0')}-${String(date.getDate()).padStart(2,'0')}`;
 }
 
 function getCroatianHolidays(year) {
@@ -319,12 +320,16 @@ function getChainWebsiteHint(name) {
 
 // ─── DEDUPLICATE / GROUP STORES ───────────────────────────────────────────────
 
-/** Group nearby OSM nodes of the same chain into one entry */
+/** Group nearby OSM nodes — deduplicate only exact same chain+address.
+ *  Uses OSM ID as fallback so stores without address aren't collapsed. */
 function groupStores(stores) {
-  const groups = new Map(); // key → store entry
+  const groups = new Map();
   for (const s of stores) {
-    const key = normalizeChainName(s.name) + '|' + (s.address || '');
-    if (!groups.has(key)) groups.set(key, s);
+    // Key: normalised chain name + address (if available) OR osm_id as fallback
+    const addrKey = s.address
+      ? normalizeChainName(s.name) + '|' + s.address.toLowerCase().trim()
+      : s.osm_id; // each OSM node is unique
+    if (!groups.has(addrKey)) groups.set(addrKey, s);
   }
   return [...groups.values()];
 }

@@ -179,7 +179,8 @@ function _renderQuickInfo() {
   };
   for (let i = 0; i <= 7; i++) {
     const d   = new Date(); d.setHours(0,0,0,0); d.setDate(d.getDate() + i);
-    const iso = d.toISOString().slice(0,10);
+    // Use local date parts — toISOString() is UTC and would be off by 1 day in UTC+2
+    const iso = `${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,'0')}-${String(d.getDate()).padStart(2,'0')}`;
     const fd  = _fmtDays(i);
     if (holidays[iso]) {
       items.push({ n: i, html: `🗓 ${_hl(holidays[iso])} ${_hl(fd)}` });
