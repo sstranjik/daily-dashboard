@@ -6,10 +6,13 @@ let _storesData = null;
 
 export async function loadAndRenderStores() {
   try {
+    bustCache('data/stores-hours.json'); // always fetch fresh — don't serve stale empty data
     const data = await loadDataFile('data/stores-hours.json');
     _storesData = data;
     _renderStoresSection();
-  } catch { /* no stores data yet */ }
+  } catch (err) {
+    console.warn('stores-hours.json load failed:', err.message);
+  }
 }
 
 function _renderStoresSection() {
@@ -101,10 +104,16 @@ function _attachCarousel(section) {
 // ─── QUICK-INFO (birthdays + holidays from calendar) ──────────────────────────
 let _calEvents = null;
 
-// Called when calendar widget finishes loading
+// Called when calendar widget finishes loading (adds birthdays)
 window.addEventListener('calendar:loaded', e => {
   _calEvents = e.detail;
   _renderQuickInfo();
+});
+
+// Render quick-info on page load even without calendar (shows Sundays/holidays)
+document.addEventListener('DOMContentLoaded', () => {
+  // Will be called again when calendar loads; first call shows date-based items
+  setTimeout(_renderQuickInfo, 100);
 });
 
 function _daysUntil(dateStr) {
@@ -126,13 +135,61 @@ function _hl(text) {
   return `<strong class="brf-qi-hl">${escapeHtml(text)}</strong>`;
 }
 
+// Croatian public holidays — used for quick-info Sunday/holiday labels
+function _getCroatianHolidays(year) {
+  const getEaster = y => {
+    const a=y%19,b=Math.floor(y/100),c=y%100,d=Math.floor(b/4),e=b%4,
+          f=Math.floor((b+8)/25),g=Math.floor((b-f+1)/3),
+          h=(19*a+b-d-g+15)%30,i=Math.floor(c/4),k=c%4,
+          l=(32+2*e+2*i-h-k)%7,m=Math.floor((a+11*h+22*l)/451),
+          mo=Math.floor((h+l-7*m+114)/31), dy=((h+l-7*m+114)%31)+1;
+    return new Date(y,mo-1,dy);
+  };
+  const add = (d,n) => { const x=new Date(d); x.setDate(x.getDate()+n); return x; };
+  const iso = d => d.toISOString().slice(0,10);
+  const easter = getEaster(year);
+  return {
+    [`${year}-01-01`]:'Nova godina',
+    [`${year}-01-06`]:'Bogojavljenje',
+    [iso(easter)]:'Uskrs',
+    [iso(add(easter,1))]:'Uskrsni ponedjeljak',
+    [iso(add(easter,60))]:'Tijelovo',
+    [`${year}-05-01`]:'Praznik rada',
+    [`${year}-05-30`]:'Dan državnosti',
+    [`${year}-06-22`]:'Dan antifašističke borbe',
+    [`${year}-08-05`]:'Dan pobjede',
+    [`${year}-08-15`]:'Velika Gospa',
+    [`${year}-11-01`]:'Svi sveti',
+    [`${year}-11-18`]:'Dan sjećanja',
+    [`${year}-12-25`]:'Božić',
+    [`${year}-12-26`]:'Sveti Stjepan',
+  };
+}
+
 function _renderQuickInfo() {
   const el = document.getElementById('widget-briefing');
-  if (!el || !_calEvents?.length) return;
+  if (!el) return;
 
   const items = [];
 
-  for (const ev of _calEvents) {
+  // ── Sundays and holidays from date calculation (don't need calendar) ──────
+  const holidays = {
+    ..._getCroatianHolidays(new Date().getFullYear()),
+    ..._getCroatianHolidays(new Date().getFullYear() + 1),
+  };
+  for (let i = 0; i <= 7; i++) {
+    const d   = new Date(); d.setHours(0,0,0,0); d.setDate(d.getDate() + i);
+    const iso = d.toISOString().slice(0,10);
+    const fd  = _fmtDays(i);
+    if (holidays[iso]) {
+      items.push({ n: i, html: `🗓 ${_hl(holidays[iso])} ${_hl(fd)}` });
+    } else if (d.getDay() === 0) {
+      items.push({ n: i, html: `🗓 ${_hl('Nedjelja')} ${_hl(fd)}` });
+    }
+  }
+
+  // ── Birthdays and holidays from calendar events ───────────────────────────
+  for (const ev of (_calEvents ?? [])) {
     const dk = ev.start?.date ?? ev.start?.dateTime?.slice(0, 10);
     if (!dk) continue;
     const n = _daysUntil(dk);
@@ -142,9 +199,8 @@ function _renderQuickInfo() {
     if (ev._isBirthday) {
       const name = _birthdayName(ev.summary || '');
       items.push({ n, html: `🎂 ${_hl(name)} ima rođendan ${_hl(fd)}` });
-    } else if (ev._isHoliday) {
-      items.push({ n, html: `🗓 ${_hl(ev.summary || '')} ${_hl(fd)}` });
     }
+    // Holidays already added above from date calculation — skip duplicates
   }
 
   const seen = new Set();
