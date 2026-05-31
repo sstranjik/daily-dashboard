@@ -1,15 +1,24 @@
 {
   "version": 2,
-  "date": "2026-05-30",
-  "generated_at": "2026-05-30T21:24:59.213Z",
-  "date_hr": "Subota, 30. svibnja 2026.",
+  "date": "2026-05-31",
+  "generated_at": "2026-05-31T05:02:48.949Z",
+  "date_hr": "Nedjelja, 31. svibnja 2026.",
   "weather": {
-    "icon": "🌧️",
-    "summary": "14–30°C, lagana kiša",
-    "alerts": []
+    "icon": "⛈️",
+    "summary": "18–30°C, grmljavina s gradom · 0.8 mm",
+    "alerts": [
+      {
+        "level": "warning",
+        "text": "Olujni udari vjetra: do 87 km/h"
+      },
+      {
+        "level": "warning",
+        "text": "Grmljavinska oluja"
+      }
+    ]
   },
   "fuel": {
-    "current_date": "30.05.2026",
+    "current_date": "31.05.2026",
     "eurodiesel": [
       {
         "company": "Adria Oil",
@@ -63,11 +72,11 @@
     "upcoming_premium": null
   },
   "market": {
-    "updated_at": "2026-05-30T21:24:59.213Z",
-    "btc_usd": 73882,
-    "btc_eur": 63346,
-    "btc_change_24h": 0.52,
-    "usd_eur": 0.8576
+    "updated_at": "2026-05-31T05:02:48.949Z",
+    "btc_usd": 74074,
+    "btc_eur": 63514,
+    "btc_change_24h": 1.08,
+    "usd_eur": 0.8578
   },
   "ai_news": [
     {
@@ -86,9 +95,9 @@
       "source": "The Next Web"
     },
     {
-      "title": "The AI agent bottleneck isn't model performance — it's permissions",
-      "link": "https://venturebeat.com/orchestration/the-ai-agent-bottleneck-isnt-model-performance-its-permissions",
-      "source": "VentureBeat"
+      "title": "I'm an iPhone user who switches to Gemini with Android Auto in the car - why I don't regret it",
+      "link": "https://www.zdnet.com/article/gemini-with-android-auto-beats-siri-in-car-heres-why/",
+      "source": "ZDNet"
     },
     {
       "title": "I put Google&#8217;s 24/7 AI assistant Gemini Spark to work, and it&#8217;s actually pretty useful",
@@ -98,11 +107,11 @@
   ],
   "micro_tips": {
     "vscode": {
-      "tip": "Multi-cursor: postavi cursor na više mjesta istovremeno",
-      "keys": "Alt+Click"
+      "tip": "Command Palette: brzi pristup svim komandama",
+      "keys": "Ctrl+Shift+P"
     },
-    "sql": "EXISTS umjesto IN za subqueries — brže jer stane na prvom podudaranju: WHERE EXISTS (SELECT 1 FROM ...)",
-    "oracle": "/*+ INDEX(t ime_indexa) */ forsira specifičan index kad optimizer bira full scan",
-    "regex": "\\b granica riječi: \\bword\\b podudara cijelu riječ, ne \"password\" ili \"swordfish\""
+    "sql": "Nikad SELECT * u produkciji — navedi kolone, manji I/O i bolji cache plan",
+    "oracle": "/*+ PARALLEL(t 4) */ paralelno izvršavanje querija na N thread-ova",
+    "regex": "(?:group) non-capturing group: grupiraj bez pamćenja za veće performanse"
   }
 }
