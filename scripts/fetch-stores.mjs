@@ -426,6 +426,8 @@ async function main() {
         brand:   store.brand || null,
         address: store.address || null,
         city:    store.city || null,
+        lat:     store.lat  || null,
+        lon:     store.lon  || null,
         dist:    store.dist,
         hours,
       });
@@ -442,7 +444,7 @@ async function main() {
         if (hours?.length > 0) {
           for (const s of storesForChain) {
             console.log(`  ✓ ${s.name}${s.address ? ' · ' + s.address : ''} (Gemini): ${hours.filter(h => h.open).length} open day(s)`);
-            results.push({ name: s.name, brand: s.brand || null, address: s.address || null, city: s.city || null, dist: s.dist, hours });
+            results.push({ name: s.name, brand: s.brand || null, address: s.address || null, city: s.city || null, lat: s.lat || null, lon: s.lon || null, dist: s.dist, hours });
           }
         }
         await sleep(4000);

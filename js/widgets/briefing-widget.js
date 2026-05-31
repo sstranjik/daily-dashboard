@@ -42,17 +42,25 @@ function _renderStoresSection() {
 
   // Build store cards for carousel
   const cards = openStores.map(s => {
-    const addr   = s.address ? s.address.split(',')[0].trim() : (s.city || '');
+    // Address: use street/number if available, otherwise show distance
+    const addr = s.address
+      ? s.address.split(',')[0].trim()
+      : s.dist != null ? `~${s.dist}m` : (s.city || '');
     const daysHtml = s.openDays.map(h => {
       const nwd = non_working_days.find(d => d.date === h.date);
       const lbl = nwd ? (nwd.type === 'sunday' ? 'ned' : nwd.label.split(' ')[0].toLowerCase()) : h.date.slice(5);
       return `<span class="brf-store-day-chip">${lbl} ${h.time || ''}</span>`;
     }).join('');
-    return `<div class="brf-store-card">
+    // Google Maps link: prefer coordinates (precise), fallback to name+city search
+    const mapsUrl = s.lat && s.lon
+      ? `https://maps.google.com/?q=${s.lat},${s.lon}`
+      : `https://maps.google.com/?q=${encodeURIComponent(s.name + ' ' + (s.address || s.city || 'Zagreb'))}`;
+
+    return `<a class="brf-store-card" href="${escapeHtml(mapsUrl)}" target="_blank" rel="noopener">
       <span class="brf-store-name">${escapeHtml(s.name)}</span>
       <span class="brf-store-addr">${escapeHtml(addr)}</span>
       ${daysHtml}
-    </div>`;
+    </a>`;
   }).join('');
 
   const section = document.createElement('div');
@@ -77,10 +85,8 @@ function _attachCarousel(section) {
   const carousel = section.querySelector('#brf-stores-carousel');
   if (!carousel) return;
   const cards    = [...carousel.querySelectorAll('.brf-store-card')];
-  if (cards.length <= 1) {
-    section.querySelectorAll('.brf-stores-arrow').forEach(b => b.style.display = 'none');
-    return;
-  }
+  if (!cards.length) return;
+
   let idx = 0;
   let timer = null;
 
@@ -95,8 +101,13 @@ function _attachCarousel(section) {
   };
 
   show(0);
-  startTimer();
 
+  if (cards.length <= 1) {
+    section.querySelectorAll('.brf-stores-arrow').forEach(b => b.style.display = 'none');
+    return; // single card — shown, no rotation needed
+  }
+
+  startTimer();
   section.querySelector('.brf-stores-prev')?.addEventListener('click', () => { show(idx - 1); startTimer(); });
   section.querySelector('.brf-stores-next')?.addEventListener('click', () => { show(idx + 1); startTimer(); });
 }
