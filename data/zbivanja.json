@@ -1,13 +1,9 @@
 {
-  "generated_at": "2026-05-31T17:04:24.273Z",
+  "generated_at": "2026-05-31T18:01:01.842Z",
   "stats": {
-    "muzika.hr": {
+    "Mochvara": {
       "ok": true,
-      "count": 25
-    },
-    "Gavella": {
-      "ok": true,
-      "count": 0
+      "count": 11
     },
     "Lisinski": {
       "ok": true,
@@ -17,15 +13,23 @@
       "ok": true,
       "count": 3
     },
-    "Mochvara": {
+    "Gavella": {
       "ok": true,
-      "count": 11
+      "count": 0
+    },
+    "muzika.hr": {
+      "ok": true,
+      "count": 25
+    },
+    "ZeKaeM": {
+      "ok": true,
+      "count": 0
     },
     "Komedija": {
       "ok": true,
       "count": 0
     },
-    "ZeKaeM": {
+    "Pogon": {
       "ok": true,
       "count": 0
     },
@@ -36,10 +40,6 @@
     "HNK Zagreb": {
       "ok": true,
       "count": 37
-    },
-    "Pogon": {
-      "ok": true,
-      "count": 0
     },
     "Trešnja": {
       "ok": true,
@@ -736,6 +736,21 @@
       "source": "HNK Zagreb",
       "is_new": false,
       "first_seen": "2026-05-26T20:26:55.235Z"
+    },
+    {
+      "id": "18fdd023a0",
+      "title": "Sabaton",
+      "venue": "Zagrebački velesajam Avenija Dubrovnik 15",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-06-15T00:00:00",
+      "date_display": "pon, 15. 06. 2026.",
+      "time": null,
+      "link": "https://www.muzika.hr/event/sabaton-2/",
+      "source": "muzika.hr",
+      "is_new": true,
+      "first_seen": "2026-05-31T18:01:01.842Z"
     },
     {
       "id": "2067fa39fe",
@@ -1552,5 +1567,5 @@
       "first_seen": "2026-05-26T20:26:55.235Z"
     }
   ],
-  "new_count": 0
+  "new_count": 1
 }
