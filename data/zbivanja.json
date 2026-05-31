@@ -1,6 +1,10 @@
 {
-  "generated_at": "2026-05-31T13:00:59.905Z",
+  "generated_at": "2026-05-31T14:01:01.604Z",
   "stats": {
+    "muzika.hr": {
+      "ok": true,
+      "count": 25
+    },
     "Mochvara": {
       "ok": true,
       "count": 11
@@ -9,17 +13,13 @@
       "ok": true,
       "count": 0
     },
-    "Tvornica": {
-      "ok": true,
-      "count": 3
-    },
     "Gavella": {
       "ok": true,
       "count": 0
     },
-    "muzika.hr": {
+    "Tvornica": {
       "ok": true,
-      "count": 25
+      "count": 3
     },
     "ZeKaeM": {
       "ok": true,
@@ -29,21 +29,21 @@
       "ok": true,
       "count": 0
     },
-    "Pogon": {
-      "ok": true,
-      "count": 0
-    },
     "Kerempuh": {
       "ok": true,
       "count": 0
     },
-    "Trešnja": {
+    "Pogon": {
       "ok": true,
       "count": 0
     },
     "HNK Zagreb": {
       "ok": true,
       "count": 37
+    },
+    "Trešnja": {
+      "ok": true,
+      "count": 0
     }
   },
   "concerts": [
@@ -466,6 +466,21 @@
       "source": "Mochvara",
       "is_new": false,
       "first_seen": "2026-05-31T05:00:52.935Z"
+    },
+    {
+      "id": "cfed49174f",
+      "title": "BEZ SRAMA",
+      "venue": "Mochvara",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-06-05T22:00:00",
+      "date_display": "pet, 05. 06. 2026.",
+      "time": "22:00",
+      "link": "https://mochvara.hr/event-detail/6a181a9d8d286e8ef2149f22/?lang=hr",
+      "source": "Mochvara",
+      "is_new": true,
+      "first_seen": "2026-05-31T14:01:01.604Z"
     },
     {
       "id": "a14b113a3a",
@@ -1537,5 +1552,5 @@
       "first_seen": "2026-05-26T20:26:55.235Z"
     }
   ],
-  "new_count": 0
+  "new_count": 1
 }
