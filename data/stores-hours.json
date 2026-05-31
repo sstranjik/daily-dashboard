@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-31T16:02:17.054Z",
+  "last_updated": "2026-05-31T16:17:57.317Z",
   "location": {
     "lat": 45.8202433,
     "lon": 15.8835749
@@ -139,6 +139,30 @@
           "date": "2026-06-07",
           "open": true,
           "time": "09:00-20:00"
+        }
+      ]
+    },
+    {
+      "name": "Studenac",
+      "brand": "Studenac",
+      "address": null,
+      "city": "Zagreb",
+      "dist": 606,
+      "hours": [
+        {
+          "date": "2026-05-31",
+          "open": true,
+          "time": "07:00-21:00"
+        },
+        {
+          "date": "2026-06-04",
+          "open": true,
+          "time": "07:00-14:00"
+        },
+        {
+          "date": "2026-06-07",
+          "open": true,
+          "time": "07:00-21:00"
         }
       ]
     }
