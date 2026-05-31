@@ -1,45 +1,37 @@
 {
-  "generated_at": "2026-05-31T05:00:52.935Z",
+  "generated_at": "2026-05-31T06:01:03.084Z",
   "stats": {
-    "Mochvara": {
+    "Lisinski": {
       "ok": true,
-      "count": 11
+      "count": 0
     },
     "Gavella": {
       "ok": true,
       "count": 0
     },
+    "Mochvara": {
+      "ok": true,
+      "count": 11
+    },
     "muzika.hr": {
       "ok": true,
       "count": 25
-    },
-    "ZeKaeM": {
-      "ok": true,
-      "count": 0
     },
     "Tvornica": {
       "ok": true,
       "count": 3
     },
-    "muzika.hr": {
-      "ok": true,
-      "count": 25
-    },
-    "ZeKaeM": {
+    "Komedija": {
       "ok": true,
       "count": 0
     },
-    "Komedija": {
+    "ZeKaeM": {
       "ok": true,
       "count": 0
     },
     "Pogon": {
       "ok": true,
       "count": 0
-    },
-    "HNK Zagreb": {
-      "ok": true,
-      "count": 37
     },
     "Kerempuh": {
       "ok": true,
@@ -48,6 +40,10 @@
     "Trešnja": {
       "ok": true,
       "count": 0
+    },
+    "HNK Zagreb": {
+      "ok": true,
+      "count": 37
     }
   },
   "concerts": [
@@ -468,7 +464,7 @@
       "time": "17:00",
       "link": "https://mochvara.hr/event-detail/6a14120373702a6150b8d733/?lang=hr",
       "source": "Mochvara",
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-05-31T05:00:52.935Z"
     },
     {
@@ -708,7 +704,7 @@
       "time": null,
       "link": "https://www.muzika.hr/event/lenny-kravitz-3/",
       "source": "muzika.hr",
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-05-31T05:00:52.935Z"
     },
     {
@@ -1541,5 +1537,5 @@
       "first_seen": "2026-05-26T20:26:55.235Z"
     }
   ],
-  "new_count": 2
+  "new_count": 0
 }
