@@ -1,16 +1,12 @@
 {
   "version": 2,
-  "date": "2026-05-31",
-  "generated_at": "2026-05-31T19:19:38.893Z",
-  "date_hr": "Nedjelja, 31. svibnja 2026.",
+  "date": "2026-06-01",
+  "generated_at": "2026-06-01T05:02:42.030Z",
+  "date_hr": "Ponedjeljak, 1. lipnja 2026.",
   "weather": {
     "icon": "⛈️",
-    "summary": "18–30°C, grmljavina s gradom · 16.8 mm",
+    "summary": "18–23°C, grmljavina · 14.5 mm",
     "alerts": [
-      {
-        "level": "warning",
-        "text": "Olujni udari vjetra: do 85 km/h"
-      },
       {
         "level": "warning",
         "text": "Grmljavinska oluja"
@@ -18,7 +14,7 @@
     ]
   },
   "fuel": {
-    "current_date": "31.05.2026",
+    "current_date": "01.06.2026",
     "eurodiesel": [
       {
         "company": "Adria Oil",
@@ -72,11 +68,11 @@
     "upcoming_premium": null
   },
   "market": {
-    "updated_at": "2026-05-31T19:19:38.893Z",
-    "btc_usd": 73505,
-    "btc_eur": 63042,
-    "btc_change_24h": -0.59,
-    "usd_eur": 0.8578
+    "updated_at": "2026-06-01T05:02:42.030Z",
+    "btc_usd": 73419,
+    "btc_eur": 63030,
+    "btc_change_24h": -0.91,
+    "usd_eur": 0.8581
   },
   "ai_news": [
     {
@@ -85,23 +81,23 @@
       "source": "VentureBeat"
     },
     {
-      "title": "I've used Android Auto with Gemini for 2 months now - it's transformed my drives in 4 ways",
-      "link": "https://www.zdnet.com/article/how-gemini-in-android-auto-is-changing-my-daily-drive/",
-      "source": "ZDNet"
+      "title": "Revolut, Mistral and Wayve founders back Balderton’s ‘Built in Europe’ push",
+      "link": "https://thenextweb.com/news/alderton-built-in-europe-campaign",
+      "source": "The Next Web"
     },
     {
-      "title": "I'm an iPhone user who switches to Gemini with Android Auto in the car - why I don't regret it",
-      "link": "https://www.zdnet.com/article/gemini-with-android-auto-beats-siri-in-car-heres-why/",
+      "title": "I've used Android Auto with Gemini for 2 months now - it's transformed my drives in 4 ways",
+      "link": "https://www.zdnet.com/article/how-gemini-in-android-auto-is-changing-my-daily-drive/",
       "source": "ZDNet"
     }
   ],
   "micro_tips": {
     "vscode": {
-      "tip": "Command Palette: brzi pristup svim komandama",
-      "keys": "Ctrl+Shift+P"
+      "tip": "Rename Symbol svuda u projektu (refactoring)",
+      "keys": "F2"
     },
-    "sql": "Nikad SELECT * u produkciji — navedi kolone, manji I/O i bolji cache plan",
-    "oracle": "/*+ PARALLEL(t 4) */ paralelno izvršavanje querija na N thread-ova",
-    "regex": "(?:group) non-capturing group: grupiraj bez pamćenja za veće performanse"
+    "sql": "Covering index: uključi sve kolone iz WHERE + SELECT u index pa nema pristupa tablici",
+    "oracle": "/*+ NO_MERGE(v) */ sprječava merging inline viewa s parent queryjem",
+    "regex": "(?=pattern) lookahead: \"iza ovog mora slijediti X\" bez konzumiranja znakova"
   }
 }
