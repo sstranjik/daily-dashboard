@@ -699,7 +699,8 @@
 
 /* ─── Briefing: stores section ───────────────────────────────────────────── */
 .brf-stores-section {
-  padding: var(--sp-2) 0;
+  padding-top: var(--sp-2);
+  margin-top: var(--sp-1);
   border-top: 1px solid var(--border-faint);
 }
 

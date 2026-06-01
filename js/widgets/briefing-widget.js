@@ -63,20 +63,25 @@ function _renderStoresSection() {
     </a>`;
   }).join('');
 
-  const section = document.createElement('div');
-  section.className = 'brf-section brf-stores-section';
-  section.innerHTML = `
-    <div class="brf-stores-days">${dayLabels}</div>
-    <div class="brf-stores-carousel-wrap">
-      <button class="brf-stores-arrow brf-stores-prev" aria-label="Prethodno">‹</button>
-      <div class="brf-stores-carousel" id="brf-stores-carousel">${cards}</div>
-      <button class="brf-stores-arrow brf-stores-next" aria-label="Sljedeće">›</button>
-    </div>`;
+  // Carousel row — no day-labels header (already shown in quick-info above)
+  const carousel = document.createElement('div');
+  carousel.className = 'brf-stores-carousel-wrap';
+  carousel.innerHTML = `
+    <button class="brf-stores-arrow brf-stores-prev" aria-label="Prethodno">‹</button>
+    <div class="brf-stores-carousel" id="brf-stores-carousel">${cards}</div>
+    <button class="brf-stores-arrow brf-stores-next" aria-label="Sljedeće">›</button>`;
 
-  // Insert after weather row
+  // Wrap in a container and insert INSIDE the weather row (same visual block)
+  const section = document.createElement('div');
+  section.className = 'brf-stores-section';
+  section.appendChild(carousel);
+
   const weatherRow = el.querySelector('.brf-weather-row');
-  if (weatherRow) weatherRow.insertAdjacentElement('afterend', section);
-  else el.querySelector('.briefing-v2')?.prepend(section);
+  if (weatherRow) {
+    weatherRow.appendChild(section); // inside weather row, as second line
+  } else {
+    el.querySelector('.briefing-v2')?.prepend(section);
+  }
 
   _attachCarousel(section);
 }

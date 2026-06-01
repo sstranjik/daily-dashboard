@@ -385,8 +385,14 @@ async function main() {
     rawStores = [];
   }
 
-  const stores = groupStores(rawStores).slice(0, 15); // max 15 unique chains nearby
-  console.log(`  → ${stores.length} unique stores after grouping`);
+  const allUnique = groupStores(rawStores);
+
+  // Prioritise known chains (always include) then fill with unknowns up to limit
+  const knownStores   = allUnique.filter(s => matchChain(s.name));
+  const unknownStores = allUnique.filter(s => !matchChain(s.name)).slice(0, 5);
+  const stores = [...knownStores, ...unknownStores];
+
+  console.log(`  → ${stores.length} stores (${knownStores.length} known chains + ${unknownStores.length} unknown)`);
 
   if (!stores.length || !GEMINI_KEY) {
     if (!GEMINI_KEY) console.log('⚠ GEMINI_API_KEY not set — skipping hours lookup');
