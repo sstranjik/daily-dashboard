@@ -1,6 +1,10 @@
 {
-  "generated_at": "2026-05-31T20:09:57.098Z",
+  "generated_at": "2026-06-01T05:00:56.327Z",
   "stats": {
+    "Mochvara": {
+      "ok": true,
+      "count": 11
+    },
     "muzika.hr": {
       "ok": true,
       "count": 25
@@ -13,19 +17,19 @@
       "ok": true,
       "count": 0
     },
-    "Mochvara": {
-      "ok": true,
-      "count": 11
-    },
     "Tvornica": {
       "ok": true,
       "count": 3
+    },
+    "Komedija": {
+      "ok": true,
+      "count": 0
     },
     "ZeKaeM": {
       "ok": true,
       "count": 0
     },
-    "Komedija": {
+    "Pogon": {
       "ok": true,
       "count": 0
     },
@@ -33,15 +37,11 @@
       "ok": true,
       "count": 37
     },
-    "Pogon": {
+    "Kerempuh": {
       "ok": true,
       "count": 0
     },
     "Trešnja": {
-      "ok": true,
-      "count": 0
-    },
-    "Kerempuh": {
       "ok": true,
       "count": 0
     }
@@ -496,6 +496,21 @@
       "source": "HNK Zagreb",
       "is_new": false,
       "first_seen": "2026-05-26T20:26:55.235Z"
+    },
+    {
+      "id": "354151e469",
+      "title": "Sjemenište: Zagreb Pride After",
+      "venue": "Mochvara",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-06-06T21:00:00",
+      "date_display": "sub, 06. 06. 2026.",
+      "time": "21:00",
+      "link": "https://mochvara.hr/event-detail/6a1820975c750f4abf18a800/?lang=hr",
+      "source": "Mochvara",
+      "is_new": true,
+      "first_seen": "2026-06-01T05:00:56.327Z"
     },
     {
       "id": "db0b0c737d",
@@ -1565,7 +1580,37 @@
       "source": "muzika.hr",
       "is_new": false,
       "first_seen": "2026-05-26T20:26:55.235Z"
+    },
+    {
+      "id": "beb14d6f57",
+      "title": "Three Days Grace",
+      "venue": "Gospodarsko razstavišče Dunajska Cesta 18",
+      "city": "Ljubljana",
+      "country": "SI",
+      "category": "concert",
+      "date_iso": "2026-06-16T00:00:00",
+      "date_display": "uto, 16. 06. 2026.",
+      "time": null,
+      "link": "https://www.muzika.hr/event/three-days-grace-2/",
+      "source": "muzika.hr",
+      "is_new": true,
+      "first_seen": "2026-06-01T05:00:56.327Z"
+    },
+    {
+      "id": "f2e85fffef",
+      "title": "Ricky Martin",
+      "venue": "Ricky Martin Belgrade",
+      "city": "Serbia",
+      "country": "EU",
+      "category": "concert",
+      "date_iso": "2026-06-16T00:00:00",
+      "date_display": "uto, 16. 06. 2026.",
+      "time": null,
+      "link": "https://www.muzika.hr/event/ricky-martin-2/",
+      "source": "muzika.hr",
+      "is_new": true,
+      "first_seen": "2026-06-01T05:00:56.327Z"
     }
   ],
-  "new_count": 0
+  "new_count": 3
 }
