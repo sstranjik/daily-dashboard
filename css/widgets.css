@@ -699,8 +699,8 @@
 
 /* ─── Briefing: stores section ───────────────────────────────────────────── */
 .brf-stores-section {
+  width: 100%;           /* force wrap to new line in the flex weather row */
   padding-top: var(--sp-2);
-  margin-top: var(--sp-1);
   border-top: 1px solid var(--border-faint);
 }
 
@@ -1469,6 +1469,7 @@ a.task-keep-badge.task-keep-link:hover {
 .brf-weather-row {
   display: flex;
   align-items: flex-start;
+  flex-wrap: wrap;
   gap: 10px;
 }
 .brf-weather-icon {
