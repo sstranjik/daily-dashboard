@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-01T10:16:07.477Z",
+  "last_updated": "2026-06-01T19:47:42.637Z",
   "location": {
     "lat": 45.8202433,
     "lon": 15.8835749
@@ -140,6 +140,27 @@
           "date": "2026-06-07",
           "open": true,
           "time": "07:00-21:00"
+        }
+      ]
+    },
+    {
+      "name": "dm",
+      "brand": "dm",
+      "address": "Ulica Mahatme Gandhija 3",
+      "city": "Zagreb",
+      "lat": 45.8153134,
+      "lon": 15.8768735,
+      "dist": 755,
+      "hours": [
+        {
+          "date": "2026-06-04",
+          "open": false,
+          "time": null
+        },
+        {
+          "date": "2026-06-07",
+          "open": true,
+          "time": "09:00-20:00"
         }
       ]
     }
