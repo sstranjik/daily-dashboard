@@ -124,28 +124,27 @@ function _buildSlot(slot) {
     if (stores.length === 0) {
       row2 = `<div class="brf-slot-no-store">—</div>`;
     } else {
-      const cards = stores.map((s, i) => {
+      const label = `${stores.length} otvorenih trgovina`;
+      const items = stores.map(s => {
         const addr    = s.address ? s.address.split(',')[0].trim() : (s.dist != null ? `~${s.dist}m` : '');
         const timeStr = s.dayHours.time || '';
         const mapsUrl = s.lat && s.lon
           ? `https://maps.google.com/?q=${s.lat},${s.lon}`
           : `https://maps.google.com/?q=${encodeURIComponent(s.name + ' Zagreb')}`;
-        return `<a class="brf-slot-store${i === 0 ? ' active' : ''}" href="${escapeHtml(mapsUrl)}" target="_blank" rel="noopener" tabindex="${i === 0 ? '0' : '-1'}">
+        return `<a class="brf-slot-dd-item" href="${escapeHtml(mapsUrl)}" target="_blank" rel="noopener">
           <span class="brf-sstore-name">${escapeHtml(s.name)}</span>
           ${addr ? `<span class="brf-sstore-addr">${escapeHtml(addr)}</span>` : ''}
           ${timeStr ? `<span class="brf-sstore-time">${escapeHtml(timeStr)}</span>` : ''}
         </a>`;
       }).join('');
 
-      if (stores.length === 1) {
-        row2 = cards; // single store, no carousel controls needed
-      } else {
-        row2 = `<div class="brf-slot-stores" data-idx="0" data-count="${stores.length}">
-          <button class="brf-sstore-arr prev" aria-label="Prethodni">‹</button>
-          ${cards}
-          <button class="brf-sstore-arr next" aria-label="Sljedeći">›</button>
-        </div>`;
-      }
+      row2 = `<div class="brf-slot-dropdown">
+        <button class="brf-slot-dd-btn" aria-expanded="false">
+          <span>${escapeHtml(label)}</span>
+          <span class="brf-slot-dd-arrow">▼</span>
+        </button>
+        <div class="brf-slot-dd-list" hidden>${items}</div>
+      </div>`;
     }
   }
 
@@ -159,25 +158,17 @@ function _buildSlot(slot) {
   </div>`;
 }
 
-/** Attach store mini-carousels (10s auto-rotate, arrows on hover) */
-function _attachSlotCarousels(row) {
-  row.querySelectorAll('.brf-slot-stores').forEach(wrap => {
-    const cards   = [...wrap.querySelectorAll('.brf-slot-store')];
-    if (cards.length <= 1) {
-      wrap.querySelectorAll('.brf-sstore-arr').forEach(b => b.style.display = 'none');
-      return;
-    }
-    let idx = 0;
-    let timer = setInterval(() => show(idx + 1), 10_000);
-    const show = n => {
-      idx = ((n % cards.length) + cards.length) % cards.length;
-      cards.forEach((c, i) => {
-        c.classList.toggle('active', i === idx);
-        c.tabIndex = i === idx ? 0 : -1;
-      });
-    };
-    wrap.querySelector('.brf-sstore-arr.prev')?.addEventListener('click', () => { clearInterval(timer); show(idx - 1); timer = setInterval(() => show(idx + 1), 10_000); });
-    wrap.querySelector('.brf-sstore-arr.next')?.addEventListener('click', () => { clearInterval(timer); show(idx + 1); timer = setInterval(() => show(idx + 1), 10_000); });
+/** Attach dropdown toggles for store lists */
+function _attachDropdowns(row) {
+  row.querySelectorAll('.brf-slot-dd-btn').forEach(btn => {
+    btn.addEventListener('click', () => {
+      const expanded = btn.getAttribute('aria-expanded') === 'true';
+      const list     = btn.nextElementSibling;
+      btn.setAttribute('aria-expanded', String(!expanded));
+      btn.querySelector('.brf-slot-dd-arrow').textContent = expanded ? '▼' : '▲';
+      if (expanded) list.setAttribute('hidden', '');
+      else          list.removeAttribute('hidden');
+    });
   });
 }
 
@@ -244,7 +235,7 @@ function _rebuildEventsRow() {
     </div>`;
 
   _attachSlotsNav(row);
-  _attachSlotCarousels(row);
+  _attachDropdowns(row);
 }
 
 // ─── DATA LOADERS ─────────────────────────────────────────────────────────────

@@ -1543,33 +1543,41 @@ a.task-keep-badge.task-keep-link:hover {
 .brf-slot-row2  { display: flex; align-items: center; }
 .brf-slot-no-store { font-size: var(--text-xs); color: var(--text-disabled); }
 
-/* Store display inside slot */
-.brf-slot-store {
-  display: none; align-items: center; gap: 5px; text-decoration: none;
-  font-family: var(--font-mono); font-size: var(--text-xs);
-}
-.brf-slot-store.active { display: flex; }
+/* Shared store name/addr/time styles (used in dropdown items) */
 .brf-sstore-name { font-weight: 600; color: var(--text-primary); }
 .brf-sstore-addr { color: var(--text-muted); }
 .brf-sstore-time {
   color: var(--accent); background: var(--accent-bg);
   border: 1px solid var(--accent-border); border-radius: var(--r-sm);
   padding: 0 4px; font-size: 10px; white-space: nowrap;
+  margin-left: auto;
 }
 
-/* Store mini-carousel within slot */
-.brf-slot-stores {
-  display: flex; align-items: center; gap: 2px;
-}
-.brf-sstore-arr {
-  display: flex; align-items: center; justify-content: center;
-  width: 14px; height: 16px; font-size: 11px;
+/* Store dropdown in slot row 2 */
+.brf-slot-dropdown { display: flex; flex-direction: column; gap: 0; width: 100%; }
+
+.brf-slot-dd-btn {
+  display: flex; align-items: center; gap: 5px;
+  font-family: var(--font-mono); font-size: var(--text-xs);
   color: var(--text-muted); background: none; border: none;
-  cursor: pointer; opacity: 0; padding: 0; flex-shrink: 0;
-  transition: opacity var(--dur), color var(--dur);
+  cursor: pointer; padding: 0; text-align: left;
+  transition: color var(--dur);
 }
-.brf-slot-stores:hover .brf-sstore-arr { opacity: 1; }
-.brf-sstore-arr:hover { color: var(--accent); }
+.brf-slot-dd-btn:hover { color: var(--accent); }
+.brf-slot-dd-arrow { font-size: 9px; flex-shrink: 0; }
+
+.brf-slot-dd-list {
+  display: flex; flex-direction: column; gap: 2px;
+  margin-top: 4px; padding-top: 4px;
+  border-top: 1px solid var(--border-faint);
+}
+
+.brf-slot-dd-item {
+  display: flex; align-items: center; gap: 5px;
+  font-family: var(--font-mono); font-size: var(--text-xs);
+  text-decoration: none; padding: 1px 0;
+  transition: background var(--dur);
+}
 
 /* ── Weather (kept for reference) ── */
 .brf-weather-row {
