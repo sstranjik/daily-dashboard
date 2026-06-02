@@ -1,7 +1,7 @@
 {
   "version": 2,
   "date": "2026-06-02",
-  "generated_at": "2026-06-02T05:02:29.100Z",
+  "generated_at": "2026-06-02T09:04:54.979Z",
   "date_hr": "Utorak, 2. lipnja 2026.",
   "weather": {
     "icon": "🌫️",
@@ -11,6 +11,10 @@
   "fuel": {
     "current_date": "02.06.2026",
     "eurodiesel": [
+      {
+        "company": "Adria Oil",
+        "price": 1.61
+      },
       {
         "company": "Coral Croatia",
         "price": 1.61
@@ -30,10 +34,6 @@
       {
         "company": "Tifon",
         "price": 1.61
-      },
-      {
-        "company": "Adria Oil",
-        "price": 1.66
       }
     ],
     "premium_eurodiesel": [
@@ -63,10 +63,10 @@
     "upcoming_premium": null
   },
   "market": {
-    "updated_at": "2026-06-02T05:02:29.100Z",
-    "btc_usd": 70709,
-    "btc_eur": 60758,
-    "btc_change_24h": -3.66,
+    "updated_at": "2026-06-02T09:04:54.979Z",
+    "btc_usd": 69564,
+    "btc_eur": 59744,
+    "btc_change_24h": -4.53,
     "usd_eur": 0.8596
   },
   "ai_news": [
@@ -86,14 +86,14 @@
       "source": "The Next Web"
     },
     {
-      "title": "NVIDIA names Anthropic and OpenAI among first users of its Vera chip",
-      "link": "https://thenextweb.com/news/nvidia-vera-chip-anthropic-openai",
-      "source": "The Next Web"
-    },
-    {
       "title": "Anthropic podnio prijavu za IPO i otvorio još jednu trku s OpenAI-jem",
       "link": "https://www.bug.hr/dogadjaji/anthropic-podnio-prijavu-za-ipo-i-otvorio-jos-jednu-trku-s-openai-jem-60278",
       "source": "Bug.hr"
+    },
+    {
+      "title": "Florida sues OpenAI, Sam Altman, in first-of-its-kind lawsuit over violent incidents",
+      "link": "https://techcrunch.com/2026/06/01/florida-sues-openai-sam-altman-in-first-of-its-kind-lawsuit-over-violent-incidents/",
+      "source": "TechCrunch AI"
     }
   ],
   "micro_tips": {
