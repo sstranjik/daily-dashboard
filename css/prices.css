@@ -67,7 +67,7 @@
   position: sticky;
   top: var(--topbar-h);
   z-index: 50;
-  background: var(--bg-primary);
+  background: var(--bg-base);
   padding-top: var(--sp-4);
   margin-top: calc(-1 * var(--sp-4));
 }
