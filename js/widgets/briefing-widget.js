@@ -158,18 +158,32 @@ function _buildSlot(slot) {
   </div>`;
 }
 
+/** Close all open store dropdowns */
+function _closeAllDropdowns() {
+  document.querySelectorAll('.brf-slot-dd-btn[aria-expanded="true"]').forEach(btn => {
+    btn.setAttribute('aria-expanded', 'false');
+    btn.querySelector('.brf-slot-dd-arrow').textContent = '▼';
+    btn.nextElementSibling?.setAttribute('hidden', '');
+  });
+}
+
 /** Attach dropdown toggles for store lists */
 function _attachDropdowns(row) {
   row.querySelectorAll('.brf-slot-dd-btn').forEach(btn => {
-    btn.addEventListener('click', () => {
+    btn.addEventListener('click', e => {
+      e.stopPropagation(); // don't trigger document click-outside immediately
       const expanded = btn.getAttribute('aria-expanded') === 'true';
-      const list     = btn.nextElementSibling;
-      btn.setAttribute('aria-expanded', String(!expanded));
-      btn.querySelector('.brf-slot-dd-arrow').textContent = expanded ? '▼' : '▲';
-      if (expanded) list.setAttribute('hidden', '');
-      else          list.removeAttribute('hidden');
+      _closeAllDropdowns();
+      if (!expanded) {
+        btn.setAttribute('aria-expanded', 'true');
+        btn.querySelector('.brf-slot-dd-arrow').textContent = '▲';
+        btn.nextElementSibling?.removeAttribute('hidden');
+      }
     });
   });
+
+  // Close on click outside
+  document.addEventListener('click', _closeAllDropdowns);
 }
 
 /** Attach left/right slot navigation (moves 1 slot per click, arrows visible on hover) */

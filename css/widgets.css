@@ -1554,7 +1554,7 @@ a.task-keep-badge.task-keep-link:hover {
 }
 
 /* Store dropdown in slot row 2 */
-.brf-slot-dropdown { display: flex; flex-direction: column; gap: 0; width: 100%; }
+.brf-slot-dropdown { position: relative; }
 
 .brf-slot-dd-btn {
   display: flex; align-items: center; gap: 5px;
@@ -1566,18 +1566,29 @@ a.task-keep-badge.task-keep-link:hover {
 .brf-slot-dd-btn:hover { color: var(--accent); }
 .brf-slot-dd-arrow { font-size: 9px; flex-shrink: 0; }
 
+/* Floating list — absolutely positioned, doesn't affect widget layout */
 .brf-slot-dd-list {
-  display: flex; flex-direction: column; gap: 2px;
-  margin-top: 4px; padding-top: 4px;
-  border-top: 1px solid var(--border-faint);
+  position: absolute;
+  top: calc(100% + 6px);
+  left: 0;
+  z-index: 200;
+  min-width: 200px;
+  display: flex; flex-direction: column; gap: 1px;
+  background: var(--bg-elevated);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--r-lg);
+  box-shadow: var(--shadow-md);
+  padding: var(--sp-2);
 }
 
 .brf-slot-dd-item {
-  display: flex; align-items: center; gap: 5px;
+  display: flex; align-items: center; gap: 6px;
   font-family: var(--font-mono); font-size: var(--text-xs);
-  text-decoration: none; padding: 1px 0;
+  text-decoration: none; padding: 3px 4px;
+  border-radius: var(--r-md);
   transition: background var(--dur);
 }
+.brf-slot-dd-item:hover { background: var(--bg-hover); }
 
 /* ── Weather (kept for reference) ── */
 .brf-weather-row {
