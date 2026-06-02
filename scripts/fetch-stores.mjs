@@ -304,6 +304,152 @@ Vrati SAMO JSON array (bez teksta):
   }
 }
 
+// ─── STUDENAC WEB SCRAPER ────────────────────────────────────────────────────
+// Studenac stores have highly variable individual hours — the static table is
+// unreliable.  We scrape studenac.hr once per run to get actual per-store,
+// per-week hours directly from their website.
+
+/**
+ * Fetch studenac.hr/trgovine (≈3.8 MB) and build two lookup structures:
+ *   addressMap: Map<normalizedAddress, url>  — for stores that have an OSM address
+ *   coordStores: [{lat, lon, url}]           — for coordinate-based fallback matching
+ */
+async function fetchStudenacStoreList() {
+  const res = await fetch('https://www.studenac.hr/trgovine', {
+    headers: { 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36' },
+    signal: AbortSignal.timeout(45000),
+  });
+  if (!res.ok) throw new Error(`Studenac list returned ${res.status}`);
+  const html = await res.text();
+
+  // 1. Address → URL from card articles
+  const addressMap = new Map();
+  const cardParts = html.split('<article class="card card--03">');
+  for (const part of cardParts.slice(1)) {
+    const titleM = part.match(/<h3 class="card__title">([^<]+)<\/h3>/);
+    const urlM   = part.match(/href="(https:\/\/www\.studenac\.hr\/trgovine\/\d+\/[^"]+)"/);
+    if (titleM && urlM) {
+      addressMap.set(_normAddr(titleM[1].trim()), urlM[1]);
+    }
+  }
+
+  // 2. Coordinates → URL from map markers
+  //    Each marker: <div class="marker" data-lat="X" data-lng="Y" ...>
+  //    followed by info_window with the store URL
+  const coordStores = [];
+  const markerRe =
+    /data-lat="([\d.]+)"\s+data-lng="([\d.]+)"[\s\S]{0,1500}?href="(https:\/\/www\.studenac\.hr\/trgovine\/\d+\/[^"]+)"/g;
+  for (const m of html.matchAll(markerRe)) {
+    coordStores.push({ lat: parseFloat(m[1]), lon: parseFloat(m[2]), url: m[3] });
+  }
+
+  console.log(`  Studenac list: ${addressMap.size} addresses, ${coordStores.length} coord entries`);
+  return { addressMap, coordStores };
+}
+
+/** Normalize address for fuzzy matching (lowercase, strip city suffix & "Ulica") */
+function _normAddr(addr) {
+  return (addr || '').toLowerCase()
+    .replace(/,\s*[\w\s]+$/, '')      // strip ", Zagreb" / ", Split" etc.
+    .replace(/\bul(ica|\.)\s*/i, '')  // strip "Ulica" / "Ul."
+    .trim();
+}
+
+/** Find the Studenac website URL for an Overpass store by address matching */
+function findStudenacUrl(addressMap, overpassAddress) {
+  if (!overpassAddress) return null;
+  const norm = _normAddr(overpassAddress);
+  if (addressMap.has(norm)) return addressMap.get(norm);
+  // Prefix / substring fallback
+  for (const [key, url] of addressMap) {
+    if (key.startsWith(norm) || norm.startsWith(key)) return url;
+  }
+  return null;
+}
+
+/**
+ * Find the Studenac website URL by coordinate proximity (for stores with no OSM address).
+ * Returns the url of the closest marker within 100 m, or null.
+ */
+function findStudenacUrlByCoords(coordStores, storeLat, storeLon) {
+  if (!storeLat || !storeLon || !coordStores.length) return null;
+  let best = null, bestDist = Infinity;
+  for (const cs of coordStores) {
+    const d = haversineM(storeLat, storeLon, cs.lat, cs.lon);
+    if (d < bestDist) { bestDist = d; best = cs.url; }
+  }
+  // Only accept matches within 100 m to avoid wrong stores
+  return bestDist <= 100 ? best : null;
+}
+
+const _HR_DAYS = {
+  Ponedjeljak: 0, Utorak: 1, Srijeda: 2,
+  Četvrtak: 3, Petak: 4, Subota: 5, Nedjelja: 6,
+};
+
+/**
+ * Parse the marketsingle__workhours section and return a Map<isoDate, {open,time}>
+ * for the current Studenac week (Mon–Sun shown on the page).
+ */
+function parseStudenacWeeklyHours(html) {
+  // Week header: <small>01.06 - 07.06.2026.</small>
+  const rangeM = html.match(
+    /Radno vrijeme <small>(\d{2})\.(\d{2})\s*-\s*\d{2}\.\d{2}\.(\d{4})\.<\/small>/,
+  );
+  if (!rangeM) return null;
+  const weekStart = new Date(+rangeM[3], +rangeM[2] - 1, +rangeM[1]);
+
+  // Extract the workhours section to limit the search scope.
+  // Some stores have no services section (no second marketsingle__title after columns),
+  // so we fall back to scanning from the columns div to end of page if needed.
+  const workhoursSectionM =
+    html.match(/class="marketsingle__columns">([\s\S]*?)(?=class="marketsingle__title"|class="prefooter)/) ||
+    html.match(/class="marketsingle__columns">([\s\S]*)/);
+  const searchIn = workhoursSectionM ? workhoursSectionM[1] : html;
+
+  const dayMap = new Map();
+  // Day name + hours appear in <li>DayName:\n  <strong>HH:MM-HH:MM</strong></li>
+  const liRe =
+    /(Ponedjeljak|Utorak|Srijeda|Četvrtak|Petak|Subota|Nedjelja):\s*<strong[^>]*>([^<]+)<\/strong>/g;
+  for (const m of searchIn.matchAll(liRe)) {
+    const offset = _HR_DAYS[m[1]];
+    if (offset === undefined) continue;
+    const hoursText = m[2].trim();
+    const d = new Date(weekStart);
+    d.setDate(d.getDate() + offset);
+    dayMap.set(toISO(d), hoursText === 'Zatvoreno'
+      ? { open: false, time: null }
+      : { open: true,  time: hoursText });
+  }
+  return dayMap;
+}
+
+/**
+ * Fetch one Studenac store page and return hours[] for the given non-working days.
+ * Only days that fall within the current week are returned; others are skipped
+ * so the caller can fall back to the static table.
+ */
+async function fetchStudenacStoreHours(storeUrl, nonWorkingDays) {
+  const res = await fetch(storeUrl, {
+    headers: { 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36' },
+    signal: AbortSignal.timeout(15000),
+  });
+  if (!res.ok) return null;
+  const html = await res.text();
+
+  const dayMap = parseStudenacWeeklyHours(html);
+  if (!dayMap) return null;
+
+  const hours = [];
+  for (const d of nonWorkingDays) {
+    if (dayMap.has(d.date)) {
+      const h = dayMap.get(d.date);
+      hours.push({ date: d.date, open: h.open, time: h.time });
+    }
+  }
+  return hours.length > 0 ? hours : null;
+}
+
 function getChainWebsiteHint(name) {
   const n = name.toLowerCase();
   if (n.includes('lidl'))     return '\nMoguća web stranica: www.lidl.hr/s/hr-HR/trazilica-trgovina/zagreb/';
@@ -395,20 +541,53 @@ async function main() {
 
   console.log(`  → ${allUnique.length} unique total, processing ${stores.length} (${knownStores.length} known + ${unknownStores.length} unknown)`);
 
-  if (!stores.length || !GEMINI_KEY) {
-    if (!GEMINI_KEY) console.log('⚠ GEMINI_API_KEY not set — skipping hours lookup');
+  if (!stores.length) {
     writeJson('stores-hours.json', {
       last_updated: NOW.toISOString(),
       location: { lat, lon },
       non_working_days: nonWorkingDays,
-      stores: stores.map(s => ({
-        name: s.name, address: s.address, city: s.city, dist: s.dist, hours: [],
-      })),
+      stores: [],
     });
     return;
   }
 
-  // 3. Match each store to static hours table; unknown chains → Gemini fallback
+  // 3a. Studenac: scrape actual per-store hours from studenac.hr
+  //     (static table is unreliable — individual stores vary)
+  const studenacOverrides = new Map(); // osm_id → hours[]
+  const studenacNearby = stores.filter(s => matchChain(s.name) === 'Studenac');
+  if (studenacNearby.length > 0) {
+    console.log(`\n🟠 Fetching Studenac hours from studenac.hr (${studenacNearby.length} stores)…`);
+    try {
+      const { addressMap, coordStores } = await fetchStudenacStoreList();
+      for (const store of studenacNearby) {
+        // Try address match first; fall back to coordinate proximity
+        const url = findStudenacUrl(addressMap, store.address)
+               ?? findStudenacUrlByCoords(coordStores, store.lat, store.lon);
+        if (!url) {
+          console.log(`  ⚠ No match on studenac.hr for: ${store.address ?? `coords ${store.lat},${store.lon}`}`);
+          continue;
+        }
+        try {
+          const hours = await fetchStudenacStoreHours(url, nonWorkingDays);
+          if (hours) {
+            studenacOverrides.set(store.osm_id, hours);
+            const openCnt = hours.filter(h => h.open).length;
+            const tag = store.address ?? `${store.lat},${store.lon}`;
+            console.log(`  ✓ Studenac · ${tag}: ${openCnt}/${hours.length} open day(s) [website]`);
+          } else {
+            console.log(`  ⚠ Studenac · ${store.address ?? 'coords'}: dates outside current week → static table`);
+          }
+          await sleep(800);
+        } catch (err) {
+          console.warn(`  ⚠ Studenac · ${store.address}: ${err.message.slice(0, 60)}`);
+        }
+      }
+    } catch (err) {
+      console.warn(`  ⚠ Studenac list fetch failed: ${err.message.slice(0, 80)} — falling back to static table`);
+    }
+  }
+
+  // 3b. Match each store to static hours table; unknown chains → Gemini fallback
   const results = [];
   const unknownChains = new Set();
 
@@ -416,11 +595,15 @@ async function main() {
     const chain = matchChain(store.name);
     let hours;
 
-    if (chain) {
+    if (chain === 'Studenac' && studenacOverrides.has(store.osm_id)) {
+      // Use scraped actual hours from studenac.hr
+      hours = studenacOverrides.get(store.osm_id);
+    } else if (chain) {
       // Known chain — use static table, no API call
       hours = hoursFromTable(chain, nonWorkingDays);
       const openDays = hours.filter(h => h.open).length;
-      console.log(`  ✓ ${store.name}${store.address ? ' · ' + store.address : ''} (${chain}): ${openDays} open day(s)`);
+      const src = chain === 'Studenac' ? 'static fallback' : chain;
+      console.log(`  ✓ ${store.name}${store.address ? ' · ' + store.address : ''} (${src}): ${openDays} open day(s)`);
     } else {
       // Unknown chain — queue for Gemini (best-effort)
       unknownChains.add(store.name);
