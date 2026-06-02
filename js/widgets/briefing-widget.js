@@ -175,9 +175,13 @@ function _attachDropdowns(row) {
       const expanded = btn.getAttribute('aria-expanded') === 'true';
       _closeAllDropdowns();
       if (!expanded) {
+        const list = btn.nextElementSibling;
+        const rect = btn.getBoundingClientRect();
+        list.style.top  = `${rect.bottom + 6}px`;
+        list.style.left = `${rect.left}px`;
         btn.setAttribute('aria-expanded', 'true');
         btn.querySelector('.brf-slot-dd-arrow').textContent = '▲';
-        btn.nextElementSibling?.removeAttribute('hidden');
+        list.removeAttribute('hidden');
       }
     });
   });

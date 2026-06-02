@@ -1566,11 +1566,9 @@ a.task-keep-badge.task-keep-link:hover {
 .brf-slot-dd-btn:hover { color: var(--accent); }
 .brf-slot-dd-arrow { font-size: 9px; flex-shrink: 0; }
 
-/* Floating list — absolutely positioned, doesn't affect widget layout */
+/* Floating list — fixed positioning set via JS (avoids overflow:hidden clip) */
 .brf-slot-dd-list {
-  position: absolute;
-  top: calc(100% + 6px);
-  left: 0;
+  position: fixed;
   z-index: 200;
   min-width: 200px;
   display: flex; flex-direction: column; gap: 1px;
