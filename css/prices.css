@@ -315,18 +315,19 @@
   margin-left: auto;
 }
 
-/* ─── SEARCH ROW ─────────────────────────────────────────────────────────── */
+/* ─── SEARCH + DAY FILTER ROW ────────────────────────────────────────────── */
 
-.prices-toolbar-search {
+.prices-toolbar-row2 {
   width: 100%;
   display: flex;
   align-items: center;
+  gap: var(--sp-4);
 }
 
 .prc-search-wrap {
   position: relative;
-  width: 100%;
-  max-width: 420px;
+  flex: 0 0 auto;
+  width: 260px;
 }
 
 .prc-search-icon {
@@ -359,14 +360,14 @@
   box-shadow: 0 0 0 3px color-mix(in srgb, var(--accent) 14%, transparent);
 }
 
-/* ─── DAY FILTER ROW ─────────────────────────────────────────────────────── */
+/* ─── DAY FILTER (right side of row 2) ───────────────────────────────────── */
 
 .prices-toolbar-days {
-  width: 100%;
   display: flex;
   align-items: center;
   gap: var(--sp-2);
   flex-wrap: wrap;
+  margin-left: auto;
 }
 
 .pday-label {
