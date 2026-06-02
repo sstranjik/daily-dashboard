@@ -1,15 +1,265 @@
 import { escapeHtml, formatDate } from '../utils/helpers.js';
 import { bustCache, loadDataFile } from '../api/data-loader.js';
 
-// ─── STORES SECTION ───────────────────────────────────────────────────────────
-let _storesData = null;
+// ─── MODULE STATE ─────────────────────────────────────────────────────────────
+let _storesData  = null;
+let _calEvents   = null;
+let _weatherData = null;
+
+// ─── DATE HELPERS ─────────────────────────────────────────────────────────────
+
+/** Local-timezone YYYY-MM-DD (avoids UTC shift in UTC+2) */
+function localISO(d) {
+  return `${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,'0')}-${String(d.getDate()).padStart(2,'0')}`;
+}
+
+function _daysUntil(dateStr) {
+  const today = new Date(); today.setHours(0,0,0,0);
+  return Math.round((new Date(dateStr + 'T00:00:00') - today) / 86_400_000);
+}
+
+function _fmtDays(n) {
+  if (n === 0) return 'danas';
+  if (n === 1) return 'sutra';
+  return `za ${n} dana`;
+}
+
+function _birthdayName(summary) {
+  return summary.replace(/\s*'s\s+birthday$/i, '').replace(/\s+birthday$/i, '').trim();
+}
+
+/** Croatian public holidays {YYYY-MM-DD: name} — uses local date to avoid UTC offset bug */
+function _getCroatianHolidays(year) {
+  const getEaster = y => {
+    const a=y%19,b=Math.floor(y/100),c=y%100,d=Math.floor(b/4),e=b%4,
+          f=Math.floor((b+8)/25),g=Math.floor((b-f+1)/3),
+          h=(19*a+b-d-g+15)%30,i=Math.floor(c/4),k=c%4,
+          l=(32+2*e+2*i-h-k)%7,m=Math.floor((a+11*h+22*l)/451),
+          mo=Math.floor((h+l-7*m+114)/31), dy=((h+l-7*m+114)%31)+1;
+    return new Date(y, mo-1, dy);
+  };
+  const addD  = (d,n) => { const x=new Date(d); x.setDate(x.getDate()+n); return x; };
+  const easter = getEaster(year);
+  return {
+    [`${year}-01-01`]: 'Nova godina',
+    [`${year}-01-06`]: 'Bogojavljenje',
+    [localISO(easter)]:            'Uskrs',
+    [localISO(addD(easter,  1))]:  'Uskrsni ponedjeljak',
+    [localISO(addD(easter, 60))]:  'Tijelovo',
+    [`${year}-05-01`]: 'Praznik rada',
+    [`${year}-05-30`]: 'Dan državnosti',
+    [`${year}-06-22`]: 'Dan antifašističke borbe',
+    [`${year}-08-05`]: 'Dan pobjede',
+    [`${year}-08-15`]: 'Velika Gospa',
+    [`${year}-11-01`]: 'Svi sveti',
+    [`${year}-11-18`]: 'Dan sjećanja',
+    [`${year}-12-25`]: 'Božić',
+    [`${year}-12-26`]: 'Sveti Stjepan',
+  };
+}
+
+// ─── EVENTS ROW ───────────────────────────────────────────────────────────────
+// Builds the first content row of the briefing widget:
+//   [Weather zone] | [Slot: non-working day + stores] | [Slot: birthday] | …
+// Rebuilt whenever weather, calendar, or stores data changes.
+
+/** Build chronological list of event slots for the next 7 days */
+function _getEventSlots() {
+  const today    = new Date(); today.setHours(0,0,0,0);
+  const holidays = {
+    ..._getCroatianHolidays(today.getFullYear()),
+    ..._getCroatianHolidays(today.getFullYear() + 1),
+  };
+  const slots = [];
+
+  // Non-working days (holidays + Sundays)
+  for (let i = 0; i <= 7; i++) {
+    const d   = new Date(today); d.setDate(d.getDate() + i);
+    const iso = localISO(d);
+    if (holidays[iso]) {
+      slots.push({ type: 'holiday', date: iso, label: holidays[iso], daysUntil: i });
+    } else if (d.getDay() === 0) {
+      slots.push({ type: 'sunday',  date: iso, label: 'Nedjelja',    daysUntil: i });
+    }
+  }
+
+  // Birthdays from calendar
+  for (const ev of (_calEvents ?? [])) {
+    if (!ev._isBirthday) continue;
+    const dk = ev.start?.date ?? ev.start?.dateTime?.slice(0, 10);
+    if (!dk) continue;
+    const n = _daysUntil(dk);
+    if (n < 0 || n > 7) continue;
+    slots.push({ type: 'birthday', date: dk, label: _birthdayName(ev.summary || ''), daysUntil: n });
+  }
+
+  // Sort chronologically; birthday before non-working day on same date
+  slots.sort((a, b) => a.daysUntil - b.daysUntil || (a.type === 'birthday' ? -1 : 1));
+
+  // Deduplicate (same date + same type)
+  const seen = new Set();
+  return slots.filter(s => {
+    const k = `${s.type}|${s.date}|${s.label}`;
+    if (seen.has(k)) return false;
+    seen.add(k); return true;
+  });
+}
+
+/** Open stores for a specific date, sorted by distance */
+function _storesForDate(date) {
+  return (_storesData?.stores ?? [])
+    .map(s => ({ ...s, dayHours: (s.hours ?? []).find(h => h.date === date && h.open) }))
+    .filter(s => s.dayHours)
+    .sort((a, b) => (a.dist ?? 0) - (b.dist ?? 0));
+}
+
+/** Build HTML for one slot */
+function _buildSlot(slot) {
+  const when = _fmtDays(slot.daysUntil);
+  const icon = slot.type === 'birthday' ? '🎂' : '🗓';
+
+  let row2 = '';
+  if (slot.type !== 'birthday') {
+    const stores = _storesForDate(slot.date);
+    if (stores.length === 0) {
+      row2 = `<div class="brf-slot-no-store">—</div>`;
+    } else {
+      const cards = stores.map((s, i) => {
+        const addr    = s.address ? s.address.split(',')[0].trim() : (s.dist != null ? `~${s.dist}m` : '');
+        const timeStr = s.dayHours.time || '';
+        const mapsUrl = s.lat && s.lon
+          ? `https://maps.google.com/?q=${s.lat},${s.lon}`
+          : `https://maps.google.com/?q=${encodeURIComponent(s.name + ' Zagreb')}`;
+        return `<a class="brf-slot-store${i === 0 ? ' active' : ''}" href="${escapeHtml(mapsUrl)}" target="_blank" rel="noopener" tabindex="${i === 0 ? '0' : '-1'}">
+          <span class="brf-sstore-name">${escapeHtml(s.name)}</span>
+          ${addr ? `<span class="brf-sstore-addr">${escapeHtml(addr)}</span>` : ''}
+          ${timeStr ? `<span class="brf-sstore-time">${escapeHtml(timeStr)}</span>` : ''}
+        </a>`;
+      }).join('');
+
+      if (stores.length === 1) {
+        row2 = cards; // single store, no carousel controls needed
+      } else {
+        row2 = `<div class="brf-slot-stores" data-idx="0" data-count="${stores.length}">
+          <button class="brf-sstore-arr prev" aria-label="Prethodni">‹</button>
+          ${cards}
+          <button class="brf-sstore-arr next" aria-label="Sljedeći">›</button>
+        </div>`;
+      }
+    }
+  }
+
+  return `<div class="brf-slot" data-type="${slot.type}">
+    <div class="brf-slot-row1">
+      <span class="brf-slot-icon">${icon}</span>
+      <span class="brf-slot-label">${escapeHtml(slot.label)}</span>
+      <span class="brf-slot-when">${escapeHtml(when)}</span>
+    </div>
+    ${row2 ? `<div class="brf-slot-row2">${row2}</div>` : ''}
+  </div>`;
+}
+
+/** Attach store mini-carousels (10s auto-rotate, arrows on hover) */
+function _attachSlotCarousels(row) {
+  row.querySelectorAll('.brf-slot-stores').forEach(wrap => {
+    const cards   = [...wrap.querySelectorAll('.brf-slot-store')];
+    if (cards.length <= 1) {
+      wrap.querySelectorAll('.brf-sstore-arr').forEach(b => b.style.display = 'none');
+      return;
+    }
+    let idx = 0;
+    let timer = setInterval(() => show(idx + 1), 10_000);
+    const show = n => {
+      idx = ((n % cards.length) + cards.length) % cards.length;
+      cards.forEach((c, i) => {
+        c.classList.toggle('active', i === idx);
+        c.tabIndex = i === idx ? 0 : -1;
+      });
+    };
+    wrap.querySelector('.brf-sstore-arr.prev')?.addEventListener('click', () => { clearInterval(timer); show(idx - 1); timer = setInterval(() => show(idx + 1), 10_000); });
+    wrap.querySelector('.brf-sstore-arr.next')?.addEventListener('click', () => { clearInterval(timer); show(idx + 1); timer = setInterval(() => show(idx + 1), 10_000); });
+  });
+}
+
+/** Attach left/right slot navigation (moves 1 slot per click, arrows visible on hover) */
+function _attachSlotsNav(row) {
+  const viewport = row.querySelector('.brf-slots-viewport');
+  const slotsCnt = row.querySelector('.brf-slots');
+  const prevBtn  = row.querySelector('.brf-slots-prev');
+  const nextBtn  = row.querySelector('.brf-slots-next');
+  if (!slotsCnt || !viewport) return;
+
+  const slots = [...slotsCnt.querySelectorAll('.brf-slot')];
+  if (slots.length <= 1) {
+    prevBtn?.remove(); nextBtn?.remove(); return;
+  }
+
+  let offset = 0;
+  const update = () => {
+    const slotW   = slots[0]?.offsetWidth + 1 || 180; // +1 for border
+    const visible = Math.floor(viewport.offsetWidth / slotW);
+    const maxOff  = Math.max(0, slots.length - visible);
+    offset = Math.max(0, Math.min(offset, maxOff));
+    slotsCnt.style.transform = `translateX(-${offset * slotW}px)`;
+    if (prevBtn) prevBtn.disabled = offset === 0;
+    if (nextBtn) nextBtn.disabled = offset >= maxOff;
+  };
+  prevBtn?.addEventListener('click', () => { offset--; update(); });
+  nextBtn?.addEventListener('click', () => { offset++; update(); });
+  setTimeout(update, 0); // after render
+}
+
+/** Rebuild the events row from current state (_weatherData, _calEvents, _storesData) */
+function _rebuildEventsRow() {
+  const el  = document.getElementById('widget-briefing');
+  const row = el?.querySelector('#brf-events-row');
+  if (!row) return;
+
+  // Weather zone
+  const w     = _weatherData;
+  const icon  = w?.icon ?? '🌡️';
+  const summ  = w?.summary ?? '';
+  const tMatch = summ.match(/^([\d,.\s-]+°C)/);
+  const temp   = tMatch ? tMatch[1].trim() : summ.split(',')[0].trim();
+  const cond   = (tMatch ? summ.slice(tMatch[0].length) : summ.split(',').slice(1).join(',')).replace(/^[,\s]+/, '').trim();
+
+  // Event slots
+  const slots    = _getEventSlots();
+  const slotsHtml = slots.map(_buildSlot).join('');
+
+  row.innerHTML = `
+    <div class="brf-zone-weather">
+      <span class="brf-wx-icon">${escapeHtml(icon)}</span>
+      <div class="brf-wx-text">
+        ${temp ? `<span class="brf-wx-temp">${escapeHtml(temp)}</span>` : ''}
+        ${cond ? `<span class="brf-wx-cond">${escapeHtml(cond)}</span>` : ''}
+      </div>
+    </div>
+    <div class="brf-slots-outer">
+      <button class="brf-slots-arrow brf-slots-prev" aria-label="Prethodni">‹</button>
+      <div class="brf-slots-viewport">
+        <div class="brf-slots">${slotsHtml}</div>
+      </div>
+      <button class="brf-slots-arrow brf-slots-next" aria-label="Sljedeći">›</button>
+    </div>`;
+
+  _attachSlotsNav(row);
+  _attachSlotCarousels(row);
+}
+
+// ─── DATA LOADERS ─────────────────────────────────────────────────────────────
+
+window.addEventListener('calendar:loaded', e => {
+  _calEvents = e.detail;
+  _rebuildEventsRow();
+});
 
 export async function loadAndRenderStores() {
   try {
-    bustCache('data/stores-hours.json'); // always fetch fresh — don't serve stale empty data
+    bustCache('data/stores-hours.json');
     const data = await loadDataFile('data/stores-hours.json');
     _storesData = data;
-    _renderStoresSection();
+    _rebuildEventsRow();
   } catch (err) {
     console.warn('stores-hours.json load failed:', err.message);
   }
@@ -117,132 +367,7 @@ function _attachCarousel(section) {
   section.querySelector('.brf-stores-next')?.addEventListener('click', () => { show(idx + 1); startTimer(); });
 }
 
-// ─── QUICK-INFO (birthdays + holidays from calendar) ──────────────────────────
-let _calEvents = null;
-
-// Called when calendar widget finishes loading (adds birthdays)
-window.addEventListener('calendar:loaded', e => {
-  _calEvents = e.detail;
-  _renderQuickInfo();
-});
-
-// Render quick-info on page load even without calendar (shows Sundays/holidays)
-document.addEventListener('DOMContentLoaded', () => {
-  // Will be called again when calendar loads; first call shows date-based items
-  setTimeout(_renderQuickInfo, 100);
-});
-
-function _daysUntil(dateStr) {
-  const today = new Date(); today.setHours(0,0,0,0);
-  return Math.round((new Date(dateStr + 'T00:00:00') - today) / 86_400_000);
-}
-
-function _fmtDays(n) {
-  if (n === 0) return 'danas';
-  if (n === 1) return 'sutra';
-  return `za ${n} dana`;
-}
-
-function _birthdayName(summary) {
-  return summary.replace(/\s*'s\s+birthday$/i, '').replace(/\s+birthday$/i, '').trim();
-}
-
-function _hl(text) {
-  return `<strong class="brf-qi-hl">${escapeHtml(text)}</strong>`;
-}
-
-// Croatian public holidays — used for quick-info Sunday/holiday labels
-function _getCroatianHolidays(year) {
-  const getEaster = y => {
-    const a=y%19,b=Math.floor(y/100),c=y%100,d=Math.floor(b/4),e=b%4,
-          f=Math.floor((b+8)/25),g=Math.floor((b-f+1)/3),
-          h=(19*a+b-d-g+15)%30,i=Math.floor(c/4),k=c%4,
-          l=(32+2*e+2*i-h-k)%7,m=Math.floor((a+11*h+22*l)/451),
-          mo=Math.floor((h+l-7*m+114)/31), dy=((h+l-7*m+114)%31)+1;
-    return new Date(y,mo-1,dy);
-  };
-  const add = (d,n) => { const x=new Date(d); x.setDate(x.getDate()+n); return x; };
-  const iso = d => d.toISOString().slice(0,10);
-  const easter = getEaster(year);
-  return {
-    [`${year}-01-01`]:'Nova godina',
-    [`${year}-01-06`]:'Bogojavljenje',
-    [iso(easter)]:'Uskrs',
-    [iso(add(easter,1))]:'Uskrsni ponedjeljak',
-    [iso(add(easter,60))]:'Tijelovo',
-    [`${year}-05-01`]:'Praznik rada',
-    [`${year}-05-30`]:'Dan državnosti',
-    [`${year}-06-22`]:'Dan antifašističke borbe',
-    [`${year}-08-05`]:'Dan pobjede',
-    [`${year}-08-15`]:'Velika Gospa',
-    [`${year}-11-01`]:'Svi sveti',
-    [`${year}-11-18`]:'Dan sjećanja',
-    [`${year}-12-25`]:'Božić',
-    [`${year}-12-26`]:'Sveti Stjepan',
-  };
-}
-
-function _renderQuickInfo() {
-  const el = document.getElementById('widget-briefing');
-  if (!el) return;
-
-  const items = [];
-
-  // ── Sundays and holidays from date calculation (don't need calendar) ──────
-  const holidays = {
-    ..._getCroatianHolidays(new Date().getFullYear()),
-    ..._getCroatianHolidays(new Date().getFullYear() + 1),
-  };
-  for (let i = 0; i <= 7; i++) {
-    const d   = new Date(); d.setHours(0,0,0,0); d.setDate(d.getDate() + i);
-    // Use local date parts — toISOString() is UTC and would be off by 1 day in UTC+2
-    const iso = `${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,'0')}-${String(d.getDate()).padStart(2,'0')}`;
-    const fd  = _fmtDays(i);
-    if (holidays[iso]) {
-      items.push({ n: i, html: `🗓 ${_hl(holidays[iso])} ${_hl(fd)}` });
-    } else if (d.getDay() === 0) {
-      items.push({ n: i, html: `🗓 ${_hl('Nedjelja')} ${_hl(fd)}` });
-    }
-  }
-
-  // ── Birthdays and holidays from calendar events ───────────────────────────
-  for (const ev of (_calEvents ?? [])) {
-    const dk = ev.start?.date ?? ev.start?.dateTime?.slice(0, 10);
-    if (!dk) continue;
-    const n = _daysUntil(dk);
-    if (n < 0 || n > 7) continue;
-    const fd = _fmtDays(n);
-
-    if (ev._isBirthday) {
-      const name = _birthdayName(ev.summary || '');
-      items.push({ n, html: `🎂 ${_hl(name)} ima rođendan ${_hl(fd)}` });
-    }
-    // Holidays already added above from date calculation — skip duplicates
-  }
-
-  const seen = new Set();
-  const unique = items
-    .filter(i => { if (seen.has(i.html)) return false; seen.add(i.html); return true; })
-    .sort((a, b) => a.n - b.n);
-
-  // Target weather body — insert inline after weather text, same row
-  const weatherBody = el.querySelector('.brf-weather-body');
-  if (!weatherBody) return;
-
-  weatherBody.querySelector('.brf-qi-group')?.remove();
-  if (!unique.length) return;
-
-  const group = document.createElement('span');
-  group.className = 'brf-qi-group';
-  group.innerHTML = unique
-    .map(i => `<span class="brf-qi-sep">|</span><span class="brf-qi-item">${i.html}</span>`)
-    .join('');
-
-  const weatherText = weatherBody.querySelector('.brf-weather-text');
-  weatherText
-    ? weatherText.insertAdjacentElement('afterend', group)
-    : weatherBody.prepend(group);
-}
+// (old _renderQuickInfo, _renderStoresSection etc. replaced by _rebuildEventsRow above)
 
 const GITHUB_REPO    = 'sstranjik/daily-dashboard';
 const WORKFLOW_FILE  = 'daily-update.yml';
@@ -257,9 +382,9 @@ export function renderBriefing(data) {
   else { renderV1(el, data); }
 
   attachRefreshBtn(el);
-  // Re-apply quick-info if calendar data is already available
-  if (_calEvents) _renderQuickInfo();
-  // Load stores section (async, doesn't block)
+  // Build events row from available data (weather is set by weatherSection above)
+  _rebuildEventsRow();
+  // Load stores (async) — will call _rebuildEventsRow again when done
   loadAndRenderStores();
 }
 
@@ -309,11 +434,11 @@ function renderV2(el, d) {
     </div>`;
 }
 
-// ─── SECTION: WEATHER ─────────────────────────────────────────────────────────
+// ─── SECTION: WEATHER + EVENTS ROW ───────────────────────────────────────────
 
 function weatherSection(w) {
-  if (!w) return '';
-  const alertsHtml = (w.alerts ?? []).map(a => `
+  _weatherData = w ?? null; // save for _rebuildEventsRow
+  const alertsHtml = (w?.alerts ?? []).map(a => `
     <div class="brf-alert brf-alert-${a.level}">
       <svg width="10" height="10" viewBox="0 0 10 10" fill="none">
         <path d="M5 1L9 8.5H1L5 1Z" stroke="currentColor" stroke-width="1.2"/>
@@ -324,12 +449,11 @@ function weatherSection(w) {
     </div>`).join('');
 
   return `
-    <div class="brf-section brf-weather-row">
-      <span class="brf-weather-icon">${w.icon ?? '🌡️'}</span>
-      <div class="brf-weather-body" style="flex:1;min-width:0;overflow:hidden">
-        <span class="brf-weather-text">${escapeHtml(w.summary ?? '')}</span>
-        ${alertsHtml}
+    <div class="brf-section brf-events-section">
+      <div class="brf-events-row" id="brf-events-row">
+        <!-- populated by _rebuildEventsRow() -->
       </div>
+      ${alertsHtml}
     </div>`;
 }
 

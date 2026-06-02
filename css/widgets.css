@@ -1465,7 +1465,113 @@ a.task-keep-badge.task-keep-link:hover {
   to { transform: rotate(360deg); }
 }
 
-/* ── Weather ── */
+/* ─── Events row (new layout) ────────────────────────────────────────────── */
+
+.brf-events-row {
+  display: flex;
+  align-items: stretch;
+  min-height: 44px;
+  gap: 0;
+}
+
+/* Weather zone — leftmost column */
+.brf-zone-weather {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding-right: 14px;
+  margin-right: 0;
+  flex-shrink: 0;
+}
+.brf-wx-icon { font-size: 22px; line-height: 1; flex-shrink: 0; }
+.brf-wx-text { display: flex; flex-direction: column; gap: 1px; }
+.brf-wx-temp { font-family: var(--font-mono); font-size: var(--text-sm); font-weight: 600; color: var(--text-primary); white-space: nowrap; }
+.brf-wx-cond { font-family: var(--font-mono); font-size: var(--text-xs); color: var(--text-muted); white-space: nowrap; }
+
+/* Vertical separator between weather and slots */
+.brf-zone-weather + .brf-slots-outer {
+  border-left: 1px solid var(--border-faint);
+  padding-left: 0;
+}
+
+/* Slots container */
+.brf-slots-outer {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  gap: 0;
+  overflow: hidden;
+  position: relative;
+}
+.brf-slots-viewport { flex: 1; overflow: hidden; }
+.brf-slots { display: flex; transition: transform 0.25s var(--ease); }
+
+/* Slot navigation arrows */
+.brf-slots-arrow {
+  display: flex; align-items: center; justify-content: center;
+  width: 18px; height: 36px; font-size: 14px; line-height: 1;
+  color: var(--text-muted); background: none; border: none;
+  cursor: pointer; opacity: 0; flex-shrink: 0;
+  transition: opacity var(--dur), color var(--dur);
+}
+.brf-slots-outer:hover .brf-slots-arrow { opacity: 1; }
+.brf-slots-arrow:hover { color: var(--accent); }
+.brf-slots-arrow:disabled { opacity: 0 !important; pointer-events: none; }
+
+/* Individual slot */
+.brf-slot {
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 3px;
+  padding: 4px 14px;
+  border-left: 1px solid var(--border-faint);
+  min-width: 0;
+}
+.brf-slot:first-child { border-left: 1px solid var(--border-faint); }
+
+/* Slot row 1: icon + label + when */
+.brf-slot-row1 {
+  display: flex; align-items: center; gap: 4px; white-space: nowrap;
+}
+.brf-slot-icon  { font-size: 12px; flex-shrink: 0; }
+.brf-slot-label { font-family: var(--font-display); font-size: var(--text-sm); font-weight: 600; color: var(--text-primary); }
+.brf-slot-when  { font-family: var(--font-mono); font-size: var(--text-xs); color: var(--accent); font-weight: 600; white-space: nowrap; }
+
+/* Slot row 2: store */
+.brf-slot-row2  { display: flex; align-items: center; }
+.brf-slot-no-store { font-size: var(--text-xs); color: var(--text-disabled); }
+
+/* Store display inside slot */
+.brf-slot-store {
+  display: none; align-items: center; gap: 5px; text-decoration: none;
+  font-family: var(--font-mono); font-size: var(--text-xs);
+}
+.brf-slot-store.active { display: flex; }
+.brf-sstore-name { font-weight: 600; color: var(--text-primary); }
+.brf-sstore-addr { color: var(--text-muted); }
+.brf-sstore-time {
+  color: var(--accent); background: var(--accent-bg);
+  border: 1px solid var(--accent-border); border-radius: var(--r-sm);
+  padding: 0 4px; font-size: 10px; white-space: nowrap;
+}
+
+/* Store mini-carousel within slot */
+.brf-slot-stores {
+  display: flex; align-items: center; gap: 2px;
+}
+.brf-sstore-arr {
+  display: flex; align-items: center; justify-content: center;
+  width: 14px; height: 16px; font-size: 11px;
+  color: var(--text-muted); background: none; border: none;
+  cursor: pointer; opacity: 0; padding: 0; flex-shrink: 0;
+  transition: opacity var(--dur), color var(--dur);
+}
+.brf-slot-stores:hover .brf-sstore-arr { opacity: 1; }
+.brf-sstore-arr:hover { color: var(--accent); }
+
+/* ── Weather (kept for reference) ── */
 .brf-weather-row {
   display: flex;
   align-items: flex-start;
