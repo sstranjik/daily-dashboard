@@ -158,30 +158,49 @@ function _buildSlot(slot) {
   </div>`;
 }
 
-/** Close all open store dropdowns */
+// Single popup container appended to <body> — outside all transformed ancestors
+// so position:fixed works correctly.
+let _ddPopup = null;
+function _getOrCreatePopup() {
+  if (!_ddPopup) {
+    _ddPopup = document.createElement('div');
+    _ddPopup.id = 'brf-dd-popup';
+    _ddPopup.className = 'brf-slot-dd-list';
+    _ddPopup.setAttribute('hidden', '');
+    document.body.appendChild(_ddPopup);
+  }
+  return _ddPopup;
+}
+
+/** Close the floating store popup */
 function _closeAllDropdowns() {
   document.querySelectorAll('.brf-slot-dd-btn[aria-expanded="true"]').forEach(btn => {
     btn.setAttribute('aria-expanded', 'false');
     btn.querySelector('.brf-slot-dd-arrow').textContent = '▼';
-    btn.nextElementSibling?.setAttribute('hidden', '');
   });
+  const popup = _ddPopup;
+  if (popup) popup.setAttribute('hidden', '');
 }
 
 /** Attach dropdown toggles for store lists */
 function _attachDropdowns(row) {
   row.querySelectorAll('.brf-slot-dd-btn').forEach(btn => {
     btn.addEventListener('click', e => {
-      e.stopPropagation(); // don't trigger document click-outside immediately
+      e.stopPropagation();
       const expanded = btn.getAttribute('aria-expanded') === 'true';
       _closeAllDropdowns();
       if (!expanded) {
-        const list = btn.nextElementSibling;
+        // Copy items from the hidden inline list into the body-level popup
+        const inlineList = btn.nextElementSibling;
+        const popup = _getOrCreatePopup();
+        popup.innerHTML = inlineList.innerHTML;
+        // Position below the button using viewport coords
         const rect = btn.getBoundingClientRect();
-        list.style.top  = `${rect.bottom + 6}px`;
-        list.style.left = `${rect.left}px`;
+        popup.style.top  = `${rect.bottom + 6}px`;
+        popup.style.left = `${rect.left}px`;
+        popup.removeAttribute('hidden');
         btn.setAttribute('aria-expanded', 'true');
         btn.querySelector('.brf-slot-dd-arrow').textContent = '▲';
-        list.removeAttribute('hidden');
       }
     });
   });
