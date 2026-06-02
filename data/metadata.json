@@ -1,56 +1,63 @@
 {
-  "last_updated": "2026-06-02T20:01:02.326Z",
+  "last_updated": "2026-06-02T20:17:47.723Z",
   "generator": "dashboard-bot/1.0",
   "sources": {
     "hr_news": {
-      "updated_at": "2026-06-02T20:01:02.326Z",
-      "item_count": 751,
+      "updated_at": "2026-06-02T20:17:47.723Z",
+      "item_count": 754,
       "ok": true
     },
     "world_news": {
-      "updated_at": "2026-06-02T20:01:02.326Z",
-      "item_count": 288,
+      "updated_at": "2026-06-02T20:17:47.723Z",
+      "item_count": 287,
       "ok": true
     },
     "finance_news": {
-      "updated_at": "2026-06-02T20:01:02.326Z",
-      "item_count": 98,
+      "updated_at": "2026-06-02T20:17:47.723Z",
+      "item_count": 113,
       "ok": true
     },
     "tech_news": {
-      "updated_at": "2026-06-02T20:01:02.326Z",
-      "item_count": 151,
+      "updated_at": "2026-06-02T20:17:47.723Z",
+      "item_count": 149,
       "ok": true
     },
     "science": {
-      "updated_at": "2026-06-02T20:01:02.326Z",
-      "item_count": 115,
+      "updated_at": "2026-06-02T20:17:47.723Z",
+      "item_count": 116,
       "ok": true
     },
     "sports": {
-      "updated_at": "2026-06-02T20:01:02.326Z",
-      "item_count": 431,
+      "updated_at": "2026-06-02T20:17:47.723Z",
+      "item_count": 430,
       "ok": true
     },
     "entertainment": {
-      "updated_at": "2026-06-02T20:01:02.326Z",
-      "item_count": 212,
+      "updated_at": "2026-06-02T20:17:47.723Z",
+      "item_count": 211,
       "ok": true
     },
     "health": {
-      "updated_at": "2026-06-02T20:01:02.326Z",
+      "updated_at": "2026-06-02T20:17:47.723Z",
       "item_count": 25,
       "ok": true
     },
     "food": {
-      "updated_at": "2026-06-02T20:01:02.326Z",
-      "item_count": 34,
+      "updated_at": "2026-06-02T20:17:47.723Z",
+      "item_count": 33,
       "ok": true
     },
     "briefing": {
-      "updated_at": "2026-06-02T20:01:02.326Z",
-      "ok": false,
-      "ai_used": false
+      "updated_at": "2026-06-02T20:19:38.013Z",
+      "ok": true,
+      "ai_used": true,
+      "sections": [
+        "weather",
+        "fuel",
+        "market",
+        "ai_news",
+        "micro_tips"
+      ]
     }
   }
 }
