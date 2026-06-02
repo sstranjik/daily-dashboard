@@ -309,6 +309,115 @@
   margin-left: auto;
 }
 
+/* ─── SEARCH ROW ─────────────────────────────────────────────────────────── */
+
+.prices-toolbar-search {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.prc-search-wrap {
+  position: relative;
+  width: 100%;
+  max-width: 420px;
+}
+
+.prc-search-icon {
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: var(--text-disabled);
+  pointer-events: none;
+}
+
+.prc-search-input {
+  width: 100%;
+  padding: 7px 12px 7px 34px;
+  background: var(--bg-secondary);
+  border: 1px solid var(--border-faint);
+  border-radius: var(--r-full);
+  font-family: var(--font-body);
+  font-size: var(--text-sm);
+  color: var(--text-primary);
+  outline: none;
+  transition: border-color var(--dur) var(--ease), box-shadow var(--dur) var(--ease);
+  box-sizing: border-box;
+}
+
+.prc-search-input::placeholder { color: var(--text-disabled); }
+
+.prc-search-input:focus {
+  border-color: var(--accent);
+  box-shadow: 0 0 0 3px color-mix(in srgb, var(--accent) 14%, transparent);
+}
+
+/* ─── DAY FILTER ROW ─────────────────────────────────────────────────────── */
+
+.prices-toolbar-days {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: var(--sp-2);
+  flex-wrap: wrap;
+}
+
+.pday-label {
+  font-family: var(--font-label);
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--text-disabled);
+  white-space: nowrap;
+}
+
+.pday-btn {
+  font-family: var(--font-mono);
+  font-size: 11px;
+  font-weight: 500;
+  padding: 4px 11px;
+  border: 1px solid var(--border-faint);
+  border-radius: var(--r-full);
+  background: var(--bg-secondary);
+  color: var(--text-muted);
+  cursor: pointer;
+  transition: all var(--dur) var(--ease);
+  letter-spacing: 0.01em;
+  white-space: nowrap;
+}
+
+.pday-btn:hover {
+  border-color: var(--border-subtle);
+  color: var(--text-primary);
+}
+
+.pday-btn.is-active {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: #fff;
+}
+
+/* ─── RESULTS INFO ───────────────────────────────────────────────────────── */
+
+.prices-results-info {
+  font-family: var(--font-mono);
+  font-size: var(--text-xs);
+  color: var(--text-muted);
+  margin-bottom: var(--sp-3);
+  letter-spacing: 0.02em;
+}
+
+/* ─── SEARCH HIGHLIGHT ───────────────────────────────────────────────────── */
+
+.prc-match {
+  background: color-mix(in srgb, var(--accent) 22%, transparent);
+  border-radius: 2px;
+  font-weight: 600;
+  color: inherit;
+}
+
 /* ─── RESPONSIVE ──────────────────────────────────────────────────────────── */
 
 @media (max-width: 1100px) {

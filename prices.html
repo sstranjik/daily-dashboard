@@ -63,6 +63,7 @@
 
   <!-- FILTERS BAR -->
   <div class="prices-toolbar" id="prices-toolbar">
+    <!-- Row 1: category tabs + store toggles -->
     <div class="prices-group-tabs" id="group-tabs" role="tablist">
       <button class="pgp-tab is-active" data-group="sve"       role="tab">Sve kategorije</button>
       <button class="pgp-tab"           data-group="hrana"     role="tab">🥦 Hrana</button>
@@ -75,7 +76,28 @@
       <button class="pst-btn is-active" data-store="Spar"     >Spar</button>
       <button class="pst-btn is-active" data-store="Studenac" >Studenac</button>
     </div>
+
+    <!-- Row 2: search -->
+    <div class="prices-toolbar-search">
+      <div class="prc-search-wrap">
+        <svg class="prc-search-icon" width="14" height="14" viewBox="0 0 14 14" fill="none" aria-hidden="true">
+          <circle cx="6" cy="6" r="4.5" stroke="currentColor" stroke-width="1.3"/>
+          <path d="M9.5 9.5L13 13" stroke="currentColor" stroke-width="1.3" stroke-linecap="round"/>
+        </svg>
+        <input type="search" id="prices-search" class="prc-search-input"
+               placeholder="Pretraži proizvode…" autocomplete="off" spellcheck="false">
+      </div>
+    </div>
+
+    <!-- Row 3: day filter -->
+    <div class="prices-toolbar-days">
+      <span class="pday-label">Prikaži za dan:</span>
+      <div id="prices-days" class="prices-days-chips"></div>
+    </div>
   </div>
+
+  <!-- RESULTS INFO (shown only when filters active) -->
+  <div class="prices-results-info" id="prices-results-info" hidden></div>
 
   <!-- CONTENT AREA -->
   <div class="prices-content" id="prices-content">
@@ -102,9 +124,11 @@
 
 <script type="module">
 // ─── STATE ────────────────────────────────────────────────────────────────────
-let _data        = null;
-let _activeGroup = 'sve';
+let _data         = null;
+let _activeGroup  = 'sve';
 let _activeStores = new Set(['Lidl', 'Konzum', 'Spar', 'Studenac']);
+let _searchQuery  = '';   // lowercase, trimmed
+let _activeDays   = new Set(); // ISO date strings 'YYYY-MM-DD'
 
 // ─── LOAD DATA ────────────────────────────────────────────────────────────────
 async function loadData() {
@@ -121,6 +145,78 @@ async function loadData() {
   }
 }
 
+// ─── DATE PARSING ─────────────────────────────────────────────────────────────
+function _today0() {
+  const d = new Date(); d.setHours(0,0,0,0); return d;
+}
+
+function _parseDate(str) {
+  // Parse "DD.MM." — assumes current year; bump to next year if date is more
+  // than ~60 days in the past (handles Jan/Feb dates scraped near year end).
+  const m = str.match(/(\d{1,2})\.(\d{1,2})\./);
+  if (!m) return null;
+  const today = _today0();
+  const d = new Date(today.getFullYear(), +m[2] - 1, +m[1]);
+  if (d < today && (today - d) > 60 * 86400000) d.setFullYear(today.getFullYear() + 1);
+  return d;
+}
+
+/**
+ * Parse item.valid string into { from, to } (Date objects, time=midnight).
+ * Returns null if unparseable — such items are always shown.
+ * Formats: "do DD.MM."  |  "DD.MM. do DD.MM."  |  "Još danas"
+ */
+function parseValidRange(valid) {
+  if (!valid) return null;
+  const today = _today0();
+
+  if (valid === 'Još danas') return { from: today, to: today };
+
+  // "DD.MM. do DD.MM."
+  const rangeM = valid.match(/^(\d{1,2}\.\d{1,2}\.) do (\d{1,2}\.\d{1,2}\.)$/);
+  if (rangeM) {
+    const from = _parseDate(rangeM[1]);
+    const to   = _parseDate(rangeM[2]);
+    if (from && to) return { from, to };
+  }
+
+  // "do DD.MM."
+  const toM = valid.match(/^do (\d{1,2}\.\d{1,2}\.)$/);
+  if (toM) {
+    const to = _parseDate(toM[1]);
+    if (to) return { from: today, to };
+  }
+
+  return null; // unparseable → always show
+}
+
+// ─── ITEM FILTER ──────────────────────────────────────────────────────────────
+function filterItems(items) {
+  const hasSearch = _searchQuery.length > 0;
+  const hasDays   = _activeDays.size > 0;
+  if (!hasSearch && !hasDays) return items;
+
+  return items.filter(item => {
+    // Search: item.name must contain query (case-insensitive)
+    if (hasSearch && !(item.name ?? '').toLowerCase().includes(_searchQuery)) {
+      return false;
+    }
+    // Day filter: at least one active day must fall within item's valid range
+    if (hasDays) {
+      const range = parseValidRange(item.valid);
+      if (range) {
+        const ok = [..._activeDays].some(iso => {
+          const d = new Date(iso);
+          return d >= range.from && d <= range.to;
+        });
+        if (!ok) return false;
+      }
+      // null range (unparseable or missing) → show regardless of day filter
+    }
+    return true;
+  });
+}
+
 // ─── RENDER ───────────────────────────────────────────────────────────────────
 function render() {
   hide('prices-loading');
@@ -134,13 +230,35 @@ function render() {
     _activeGroup === 'sve' || c.group === _activeGroup
   );
 
-  // Only include categories that have at least 1 item in active stores
+  // Count totals for results-info badge
+  let totalCount = 0, filteredCount = 0;
+  for (const c of cats) {
+    for (const s of _activeStores) {
+      const raw = c.items?.[s] ?? [];
+      totalCount    += raw.length;
+      filteredCount += filterItems(raw).length;
+    }
+  }
+  _updateResultsInfo(totalCount, filteredCount);
+
+  // Only include categories that have at least 1 item after filtering
   const visible = cats.filter(c =>
-    [..._activeStores].some(s => (c.items?.[s]?.length ?? 0) > 0)
+    [..._activeStores].some(s => filterItems(c.items?.[s] ?? []).length > 0)
   );
 
   if (!visible.length) {
     hide('prices-grid');
+    // Tailor empty message to active filters
+    const desc = document.querySelector('#prices-empty .prices-empty-desc');
+    if (desc) {
+      if (_searchQuery) {
+        desc.textContent = `Nema akcija za pretragu "${_searchQuery}".`;
+      } else if (_activeDays.size > 0) {
+        desc.textContent = 'Nema akcija za odabrane dane.';
+      } else {
+        desc.textContent = 'Podaci o cijenama se ažuriraju jednom dnevno. Pokušajte ponovo sutra.';
+      }
+    }
     show('prices-empty');
     return;
   }
@@ -151,12 +269,24 @@ function render() {
   show('prices-grid');
 }
 
+function _updateResultsInfo(total, filtered) {
+  const el = document.getElementById('prices-results-info');
+  if (!el) return;
+  const hasFilter = _searchQuery || _activeDays.size > 0;
+  if (hasFilter && filtered < total) {
+    el.textContent = `${filtered} od ${total} akcija`;
+    el.removeAttribute('hidden');
+  } else {
+    el.setAttribute('hidden', '');
+  }
+}
+
 function renderCategory(cat) {
   const storeOrder = ['Lidl', 'Konzum', 'Spar', 'Studenac'];
   const activeList = storeOrder.filter(s => _activeStores.has(s));
 
   const cols = activeList.map(store => {
-    const items = (cat.items?.[store] ?? []).slice(0, 20);
+    const items = filterItems(cat.items?.[store] ?? []).slice(0, 20);
     const cards = items.length
       ? items.map(renderCard).join('')
       : `<div class="prc-empty-store">Nema akcija ovaj tjedan</div>`;
@@ -188,16 +318,28 @@ function renderCard(item) {
   const link = item.url
     ? `href="${esc(item.url)}" target="_blank" rel="noopener"`
     : '';
+  const nameHtml = _highlightSearch(item.name);
 
   return `
     <a class="prc-card" ${link}>
-      <div class="prc-card-name">${esc(item.name)}</div>
+      <div class="prc-card-name">${nameHtml}</div>
       <div class="prc-card-bottom">
         <span class="prc-card-price">${esc(item.price_str)}</span>
         ${discBadge}
         ${valid}
       </div>
     </a>`;
+}
+
+/** Highlight the search query within the product name */
+function _highlightSearch(name) {
+  const text = name ?? '';
+  if (!_searchQuery) return esc(text);
+  const idx = text.toLowerCase().indexOf(_searchQuery);
+  if (idx === -1) return esc(text);
+  return esc(text.slice(0, idx))
+    + `<mark class="prc-match">${esc(text.slice(idx, idx + _searchQuery.length))}</mark>`
+    + esc(text.slice(idx + _searchQuery.length));
 }
 
 // ─── FILTERS ──────────────────────────────────────────────────────────────────
@@ -225,6 +367,46 @@ document.getElementById('store-toggles').addEventListener('click', e => {
   render();
 });
 
+// Search input — live filter on every keystroke
+document.getElementById('prices-search').addEventListener('input', e => {
+  _searchQuery = e.target.value.trim().toLowerCase();
+  render();
+});
+
+// Day chips — built dynamically; toggle on click
+function buildDayChips() {
+  const container = document.getElementById('prices-days');
+  const HR_SHORT  = ['ned','pon','uto','sri','čet','pet','sub'];
+  const today     = _today0();
+
+  container.innerHTML = '';
+  for (let i = 0; i < 7; i++) {
+    const d = new Date(today);
+    d.setDate(d.getDate() + i);
+    const iso   = `${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,'0')}-${String(d.getDate()).padStart(2,'0')}`;
+    const label = i === 0
+      ? 'danas'
+      : `${HR_SHORT[d.getDay()]} ${String(d.getDate()).padStart(2,'0')}.${String(d.getMonth()+1).padStart(2,'0')}.`;
+
+    const btn = document.createElement('button');
+    btn.className = 'pday-btn';
+    btn.dataset.date = iso;
+    btn.textContent = label;
+    if (i === 0) btn.dataset.today = '';
+    btn.addEventListener('click', () => {
+      if (_activeDays.has(iso)) {
+        _activeDays.delete(iso);
+        btn.classList.remove('is-active');
+      } else {
+        _activeDays.add(iso);
+        btn.classList.add('is-active');
+      }
+      render();
+    });
+    container.appendChild(btn);
+  }
+}
+
 document.getElementById('refresh-btn').addEventListener('click', () => {
   show('prices-loading');
   hide('prices-grid');
@@ -250,6 +432,7 @@ function showUpdated(iso) {
 }
 
 // ─── INIT ─────────────────────────────────────────────────────────────────────
+buildDayChips();
 loadData();
 </script>
 </body>
