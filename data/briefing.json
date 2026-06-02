@@ -1,66 +1,61 @@
 {
   "version": 2,
-  "date": "2026-06-01",
-  "generated_at": "2026-06-01T20:04:03.556Z",
-  "date_hr": "Ponedjeljak, 1. lipnja 2026.",
+  "date": "2026-06-02",
+  "generated_at": "2026-06-02T05:02:29.100Z",
+  "date_hr": "Utorak, 2. lipnja 2026.",
   "weather": {
-    "icon": "⛈️",
-    "summary": "16–22°C, grmljavina · 17.3 mm",
-    "alerts": [
-      {
-        "level": "warning",
-        "text": "Grmljavinska oluja"
-      }
-    ]
+    "icon": "🌫️",
+    "summary": "14–26°C, magla",
+    "alerts": []
   },
   "fuel": {
-    "current_date": "01.06.2026",
+    "current_date": "02.06.2026",
     "eurodiesel": [
       {
-        "company": "Adria Oil",
-        "price": 1.66
-      },
-      {
         "company": "Coral Croatia",
-        "price": 1.66
+        "price": 1.61
       },
       {
         "company": "INA",
-        "price": 1.66
+        "price": 1.61
       },
       {
         "company": "LUKOIL Croatia",
-        "price": 1.66
+        "price": 1.61
       },
       {
         "company": "Petrol",
-        "price": 1.66
+        "price": 1.61
       },
       {
         "company": "Tifon",
+        "price": 1.61
+      },
+      {
+        "company": "Adria Oil",
         "price": 1.66
       }
     ],
     "premium_eurodiesel": [
       {
         "company": "LUKOIL Croatia",
-        "price": 1.82
+        "price": 1.77
       },
       {
         "company": "INA",
-        "price": 1.93
-      },
-      {
-        "company": "Tifon",
-        "price": 1.93
+        "price": 1.8
       },
       {
         "company": "Petrol",
-        "price": 1.95
+        "price": 1.81
+      },
+      {
+        "company": "Tifon",
+        "price": 1.88
       },
       {
         "company": "Coral Croatia",
-        "price": 1.98
+        "price": 1.93
       }
     ],
     "upcoming_date": null,
@@ -68,11 +63,11 @@
     "upcoming_premium": null
   },
   "market": {
-    "updated_at": "2026-06-01T20:04:03.556Z",
-    "btc_usd": 71451,
-    "btc_eur": 61428,
-    "btc_change_24h": -2.83,
-    "usd_eur": 0.8581
+    "updated_at": "2026-06-02T05:02:29.100Z",
+    "btc_usd": 70709,
+    "btc_eur": 60758,
+    "btc_change_24h": -3.66,
+    "usd_eur": 0.8596
   },
   "ai_news": [
     {
@@ -96,18 +91,18 @@
       "source": "The Next Web"
     },
     {
-      "title": "Gemini’s new AI agent is about as good as Google’s demo",
-      "link": "https://www.theverge.com/tech/941138/google-gemini-spark-ai-agent-hands-on",
-      "source": "The Verge"
+      "title": "Anthropic podnio prijavu za IPO i otvorio još jednu trku s OpenAI-jem",
+      "link": "https://www.bug.hr/dogadjaji/anthropic-podnio-prijavu-za-ipo-i-otvorio-jos-jednu-trku-s-openai-jem-60278",
+      "source": "Bug.hr"
     }
   ],
   "micro_tips": {
     "vscode": {
-      "tip": "Rename Symbol svuda u projektu (refactoring)",
-      "keys": "F2"
+      "tip": "Quick Fix i Code Actions na trenutnoj poziciji",
+      "keys": "Ctrl+."
     },
-    "sql": "Covering index: uključi sve kolone iz WHERE + SELECT u index pa nema pristupa tablici",
-    "oracle": "/*+ NO_MERGE(v) */ sprječava merging inline viewa s parent queryjem",
-    "regex": "(?=pattern) lookahead: \"iza ovog mora slijediti X\" bez konzumiranja znakova"
+    "sql": "Window funkcije (ROW_NUMBER, LAG, LEAD) umjesto self-join za redosljed i razlike",
+    "oracle": "/*+ RESULT_CACHE */ cache-ira rezultat funkcije u SGA za ponovljene pozive",
+    "regex": ".+? lazy quantifier: stane na prvom mogućem podudaranju, ne zadnjem"
   }
 }
