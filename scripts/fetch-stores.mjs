@@ -168,8 +168,8 @@ out body center;
       };
     })
     .filter(Boolean)
-    .sort((a, b) => a.dist - b.dist)
-    .slice(0, 25); // max 25 stores, sorted by distance
+    .sort((a, b) => a.dist - b.dist);
+    // NOTE: no slice here — knownChains prioritisation in main() must see ALL stores
 }
 
 function haversineM(lat1, lon1, lat2, lon2) {
@@ -387,12 +387,13 @@ async function main() {
 
   const allUnique = groupStores(rawStores);
 
-  // Prioritise known chains (always include) then fill with unknowns up to limit
+  // All known chains (no limit — must never cut off Lidl/Konzum/Spar etc.)
   const knownStores   = allUnique.filter(s => matchChain(s.name));
+  // Unknown chains: closest 5 only
   const unknownStores = allUnique.filter(s => !matchChain(s.name)).slice(0, 5);
   const stores = [...knownStores, ...unknownStores];
 
-  console.log(`  → ${stores.length} stores (${knownStores.length} known chains + ${unknownStores.length} unknown)`);
+  console.log(`  → ${allUnique.length} unique total, processing ${stores.length} (${knownStores.length} known + ${unknownStores.length} unknown)`);
 
   if (!stores.length || !GEMINI_KEY) {
     if (!GEMINI_KEY) console.log('⚠ GEMINI_API_KEY not set — skipping hours lookup');
@@ -460,11 +461,27 @@ async function main() {
     }
   }
 
+  // Include ALL found stores in the JSON (empty hours = not processed/unknown)
+  // Frontend shows only stores with open hours; the full list aids debugging.
+  const allStores = allUnique.map(s => {
+    const found = results.find(r => r.name === s.name && r.dist === s.dist);
+    return found ?? {
+      name:    s.name,
+      brand:   s.brand || null,
+      address: s.address || null,
+      city:    s.city || null,
+      lat:     s.lat || null,
+      lon:     s.lon || null,
+      dist:    s.dist,
+      hours:   [],   // empty = no hours data available
+    };
+  });
+
   writeJson('stores-hours.json', {
     last_updated: NOW.toISOString(),
     location: { lat, lon },
     non_working_days: nonWorkingDays,
-    stores: results,
+    stores: allStores,
   });
 
   const totalOpen = results.reduce((n, s) => n + s.hours.filter(h => h.open).length, 0);
