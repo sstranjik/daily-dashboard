@@ -1,9 +1,165 @@
 {
-  "last_updated": "2026-06-02T16:01:00.680Z",
+  "last_updated": "2026-06-02T17:01:08.889Z",
   "source_count": 11,
   "items": [
     {
+      "id": "bug.hr-0",
+      "title": "Nvidia predstavila Veru, novi ARM procesor za AI poslužitelje",
+      "summary": "Nvidijin novi ARM procesor dio je platforme Vera Rubin, a tvrtka tvrdi da donosi do 1,8 puta veće performanse od vodećih x86 procesora",
+      "link": "https://mreza.bug.hr/procesori/nvidia-predstavila-veru-novi-arm-procesor-za-ai-posluzitelje-60290",
+      "published": "2026-06-02T16:57:00.000Z",
+      "source": "Bug.hr",
+      "category": "ai",
+      "xml_category": "procesori",
+      "tags": [],
+      "image": "https://mreza.bug.hr/img/nvidia-predstavila-veru-novi-arm-procesor-za-ai-posluzitelje_xikVjM.jpg"
+    },
+    {
+      "id": "zdnet-0",
+      "title": "I compared the two best Android camera phones in 2026 - and it's surprisingly close",
+      "summary": "I expected the Vivo X300 Ultra to wipe the floor with Samsung's Galaxy S26 Ultra, but the latter impressed me in ways I didn't expect.",
+      "link": "https://www.zdnet.com/article/samsung-galaxy-s26-ultra-vs-vivo-x300-ultra-camera-comparison/",
+      "published": "2026-06-02T16:56:00.000Z",
+      "source": "ZDNet",
+      "category": "general",
+      "xml_category": "",
+      "tags": [],
+      "image": null
+    },
+    {
+      "id": "zdnet-1",
+      "title": "Your car is following you - how to reclaim your data privacy on the open road",
+      "summary": "Today's vehicles know where we live, how much we weigh, and what we had for dinner. Here's what happens to all that information, and how you can reduce the data flow.",
+      "link": "https://www.zdnet.com/article/your-car-is-following-you-how-to-reclaim-data-privacy/",
+      "published": "2026-06-02T16:43:22.000Z",
+      "source": "ZDNet",
+      "category": "ai",
+      "xml_category": "",
+      "tags": [],
+      "image": null
+    },
+    {
+      "id": "zdnet-2",
+      "title": "I'm a phone reviewer - these are the 5 early Prime Day phone deals I'd recommend",
+      "summary": "Amazon Prime Day is still weeks away, but top phone deals from Samsung, Google, and Motorola are already live.",
+      "link": "https://www.zdnet.com/article/best-early-amazon-prime-day-phone-deals-2026/",
+      "published": "2026-06-02T16:41:54.000Z",
+      "source": "ZDNet",
+      "category": "general",
+      "xml_category": "",
+      "tags": [],
+      "image": null
+    },
+    {
+      "id": "the-verge-0",
+      "title": "Microsoft created the mini Surface dev box that Qualcomm couldn&#8217;t",
+      "summary": "Microsoft only just announced a new Surface Laptop Ultra at the weekend, and it's now revealing a miniature Surface PC aimed at developers. The new Surface RTX Spark Dev Box is powered by Nvidia's new Arm-based RTX Spark chips, just like the Surface Laptop Ultra, and is optimized for sustained workl",
+      "link": "https://www.theverge.com/news/941271/microsoft-surface-rtx-spark-dev-box-specs-availability",
+      "published": "2026-06-02T16:30:00.000Z",
+      "source": "The Verge",
+      "category": "general",
+      "xml_category": "[object object]",
+      "tags": [],
+      "image": null
+    },
+    {
+      "id": "the-verge-1",
+      "title": "Microsoft’s new developer-optimized Windows embraces Linux even more",
+      "summary": "Microsoft is kicking off its Build developer conference today with a promise of making Windows a trusted platform for development. As the company continues to focus on performance and reliability fixes for Windows 11, it's also creating a developer-optimized experience that bundles a lot of useful t",
+      "link": "https://www.theverge.com/news/941314/microsoft-windows-11-developer-optimized-experience-linux",
+      "published": "2026-06-02T16:30:00.000Z",
+      "source": "The Verge",
+      "category": "tech",
+      "xml_category": "[object object]",
+      "tags": [],
+      "image": null
+    },
+    {
+      "id": "the-verge-2",
+      "title": "Trump goes after green cards",
+      "summary": "On the Friday before Memorial Day, on the eve of a long weekend, the Trump administration announced that it was further gutting legal immigration. The Department of Homeland Security didn't use this language. \"This policy allows our immigration system to function as the law intended instead of incen",
+      "link": "https://www.theverge.com/policy/941734/trump-green-cards-adjustment-of-status-uscis",
+      "published": "2026-06-02T16:30:00.000Z",
+      "source": "The Verge",
+      "category": "general",
+      "xml_category": "[object object]",
+      "tags": [],
+      "image": null
+    },
+    {
+      "id": "venturebeat-0",
+      "title": "Microsoft debuts Surface RTX Spark Dev Box to run large AI models without cloud costs",
+      "summary": "Microsoft on Monday unveiled the Surface RTX Spark Dev Box , a compact desktop computer designed to let software developers run large AI models on their desks instead of paying for cloud computing — a move that directly challenges the per-token pricing model that has defined the AI industry&#x27;s e",
+      "link": "https://venturebeat.com/infrastructure/microsoft-debuts-surface-rtx-spark-dev-box-to-run-large-ai-models-without-cloud-costs",
+      "published": "2026-06-02T16:30:00.000Z",
+      "source": "VentureBeat",
+      "category": "ai",
+      "xml_category": "infrastructure",
+      "tags": [],
+      "image": "https://images.ctfassets.net/jdtwqhzvc2n1/9ZXML9iabyyDqXI5bDqHu/0be5bd55a52eb7b0ecc35bc7f4a6cb83/Surface_RTX_Spark_Image_4.png?w=300&q=30"
+    },
+    {
+      "id": "venturebeat-1",
+      "title": "Microsoft launches MXC, an OS-level sandbox for AI agents, with OpenAI and Nvidia already on board",
+      "summary": "For the past two years, the technology industry has raced to make AI agents more capable — teaching them to write code, navigate software interfaces, manage files, and orchestrate multi-step workflows with increasing autonomy. What the industry has not done, at least not with any consistency, is ans",
+      "link": "https://venturebeat.com/security/microsoft-launches-mxc-an-os-level-sandbox-for-ai-agents-with-openai-and-nvidia-already-on-board",
+      "published": "2026-06-02T16:30:00.000Z",
+      "source": "VentureBeat",
+      "category": "ai",
+      "xml_category": "security",
+      "tags": [],
+      "image": "https://images.ctfassets.net/jdtwqhzvc2n1/2Bj8ehmUSTCeqnkJ3pPCjc/f9782b3575c73ccecb809afd58e7acd2/Nuneybits_Vector_art_of_the_iconic_Microsoft_Windows_logo_on_a__b8c7cdb1-4983-4e68-94a9-93fbef23357b.webp?w=300&q=30"
+    },
+    {
       "id": "techcrunch-ai-0",
+      "title": "Trump signs narrower executive order on AI oversight after industry objections",
+      "summary": "After industry objections, President Trump signed a revised AI executive order requiring only voluntary prerelease government reviews of advanced models.",
+      "link": "https://techcrunch.com/2026/06/02/trump-signs-narrower-executive-order-on-ai-oversight-after-industry-objections/",
+      "published": "2026-06-02T16:23:08.000Z",
+      "source": "TechCrunch AI",
+      "category": "ai",
+      "xml_category": "ai",
+      "tags": [],
+      "image": null
+    },
+    {
+      "id": "the-next-web-0",
+      "title": "The world’s mathematicians just issued a formal declaration telling AI companies to stop using their work without permission",
+      "summary": "A coalition of mathematicians from institutions including Oxford, Cambridge, ETH Zurich, Columbia, and Northwestern has published a formal declaration calling on the mathematical community to confront the threats that artificial intelligence poses to their discipline. The Leiden Declaration on Artif",
+      "link": "https://thenextweb.com/news/leiden-declaration-ai-mathematics-proof-attribution",
+      "published": "2026-06-02T16:20:33.000Z",
+      "source": "The Next Web",
+      "category": "ai",
+      "xml_category": "artificial intelligence",
+      "tags": [],
+      "image": "https://media.thenextweb.com/2026/06/leiden-declaration-ai-mathematics-proof-attribution.avif"
+    },
+    {
+      "id": "the-verge-3",
+      "title": "Cricut&#8217;s Joy 2 helps you personalize Father&#8217;s Day gifts, and it&#8217;s at its lowest price yet",
+      "summary": "If you&#8217;re looking for a way to add a personal touch to Father&#8217;s Day or graduation gifts, the Cricut Joy 2 can help you customize everything from water bottles and bookmarks to greeting cards and gift cards. The Cricut Joy 2 Rainbow Essential Bundle includes enough vinyl, cardstock, iron-",
+      "link": "https://www.theverge.com/gadgets/941696/cricut-joy-2-rainbow-essential-bundle-deal-sale",
+      "published": "2026-06-02T16:11:07.000Z",
+      "source": "The Verge",
+      "category": "general",
+      "xml_category": "[object object]",
+      "tags": [],
+      "image": null
+    },
+    {
+      "id": "the-next-web-1",
+      "title": "SpaceX’s first employee just raised $500 million for the company that moves satellites once rockets put them in the wrong orbit",
+      "summary": "Impulse Space, the orbital transfer vehicle startup founded by Tom Mueller, has raised $500 million in a Series D round that values the company at $4.26 billion. The round was co-led by 137 Ventures and Banner VC, with participation from existing investors including Peter Thiel’s Founders Fund and L",
+      "link": "https://thenextweb.com/news/spacexs-first-employee-just-raised-500-million-for-the-company-that-moves-satellites-once-rockets-put-them-in-the-wrong-orbit",
+      "published": "2026-06-02T16:10:52.000Z",
+      "source": "The Next Web",
+      "category": "ai",
+      "xml_category": "investors and funding",
+      "tags": [],
+      "image": "https://media.thenextweb.com/2026/06/impulse-space-500m-series-d-space-tug-golden-dome.avif"
+    },
+    {
+      "id": "techcrunch-ai-1",
       "title": "OpenAI launches new Codex tools for white-collar work",
       "summary": "OpenAI is getting serious about courting enterprise users. On Tuesday, the AI lab released a new set of capabilities for Codex, meant to expand the agentic tool&#8217;s uses in the workplace. Together with the new tools, the company released an internal report on how Codex is being used for knowledg",
       "link": "https://techcrunch.com/2026/06/02/openai-launches-new-codex-tools-for-white-collar-work/",
@@ -15,7 +171,7 @@
       "image": null
     },
     {
-      "id": "venturebeat-0",
+      "id": "venturebeat-2",
       "title": "OpenAI's Codex update lets agents build interactive enterprise workspaces via Sites and role-specific plugins",
       "summary": "Agentic AI is moving rapidly from the developer terminal to the corporate world. On Tuesday, OpenAI announced a major update of its agentic AI platform Codex, introducing domain-specific workflows, a rapid, semi-private web hosting feature within it for enterprises called \"Sites,\" and an in-place ed",
       "link": "https://venturebeat.com/orchestration/openais-codex-update-lets-agents-build-interactive-enterprise-workspaces-via-sites-and-role-specific-plugins",
@@ -27,8 +183,8 @@
       "image": "https://images.ctfassets.net/jdtwqhzvc2n1/2TEj8wOuqSrOfRJ3k5WZTg/fc481e92f1a3b9b2421e12757fef8532/ChatGPT_Image_Jun_2__2026__11_52_04_AM.png?w=300&q=30"
     },
     {
-      "id": "the-verge-0",
-      "title": "Microsoft Build 2026: All the news about Windows, AI, RTX Spark and more",
+      "id": "the-verge-4",
+      "title": "Microsoft Build 2026: All the news about Windows, AI, RTX Spark, and more",
       "summary": "Microsoft’s annual developer conference is kicking off on June 2nd in San Francisco with the keynote presentation streaming live at 12:30PM ET / 9:30AM PT, and we will be following along here with everything as it’s announced.&#160; The Verge’s Tom Warren reports that we can expect to hear about new",
       "link": "https://www.theverge.com/tech/941668/microsoft-build-may-2026-live-news-updates",
       "published": "2026-06-02T15:59:58.000Z",
@@ -39,7 +195,7 @@
       "image": null
     },
     {
-      "id": "zdnet-0",
+      "id": "zdnet-3",
       "title": "Amazon has discounted this 75-inch Hisense TV by over $500 - and I highly recommend it",
       "summary": "The Hisense U6 Pro is a solid midrange Mini LED TV, and an even better buy at this price.",
       "link": "https://www.zdnet.com/article/hisense-u6-pro-amazon-deal/",
@@ -51,7 +207,7 @@
       "image": null
     },
     {
-      "id": "zdnet-1",
+      "id": "zdnet-4",
       "title": "Forget Amazon - these are the best Costco deals I've found this week",
       "summary": "Prime Day may be coming soon, but Costco already has great discounts live on home essentials, top tech, and more.",
       "link": "https://www.zdnet.com/article/best-early-amazon-prime-day-costco-deals-2026/",
@@ -63,7 +219,7 @@
       "image": null
     },
     {
-      "id": "the-verge-1",
+      "id": "the-verge-5",
       "title": "Ableton is letting musicians build browser-style extensions for Live",
       "summary": "Ableton already has Max for Live, which allows users to build MIDI effects, synths, and samplers for its digital audio workstation (DAW). But now with its Extensions SDK, features can be added to Ableton Live with common JavaScript. Where Max is largely limited to MIDI and audio processing, Extensio",
       "link": "https://www.theverge.com/tech/941674/ableton-live-extensions-sdk-music-daw",
@@ -75,7 +231,7 @@
       "image": null
     },
     {
-      "id": "bug.hr-0",
+      "id": "bug.hr-1",
       "title": "Od Volkswagena do polja: Bivši šef VW-a lansirat će traktor s izmjenjivim baterijama",
       "summary": "Nova tvrtka Diess E-Agrartechnik razvija konkurentan električni traktor s tehnologijom izmjenjivih baterija za cjelodnevni rad, obećavajući smanjenje operativnih troškova za polovicu",
       "link": "https://autonet.bug.hr/elektricna-vozila/od-volkswagena-do-polja-bivsi-sef-vw-a-lansirat-ce-traktor-s-izmjenjivim-60251",
@@ -87,7 +243,7 @@
       "image": "https://autonet.bug.hr/img/od-volkswagena-do-polja-bivsi-sef-vw-a-lansirat-ce-traktor-s-izmjenjivim_2Tm52q.png"
     },
     {
-      "id": "bug.hr-1",
+      "id": "bug.hr-2",
       "title": "Hrvatski startup u Milanu predstavio AI operativni sustav kojim se upravlja glasom",
       "summary": "Prema riječima razvojnog tima, EnyOS je osmišljen kao lokalno orijentirano rješenje koje privatnost korisnika stavlja u prvi plan",
       "link": "https://www.bug.hr/umjetna-inteligencija/hrvatski-startup-u-milanu-predstavio-ai-operativni-sustav-kojim-se-upravlja-60297",
@@ -99,7 +255,7 @@
       "image": "https://www.bug.hr/img/hrvatski-startup-u-milanu-predstavio-ai-operativni-sustav-kojim-se-upravlja_5s9JpX.jpeg"
     },
     {
-      "id": "zdnet-2",
+      "id": "zdnet-5",
       "title": "I found 15 Amazon deals on editor-approved tech already live for Prime Day",
       "summary": "Amazon's Prime Day sale returns this month. These are our favorite early deals you can shop now.",
       "link": "https://www.zdnet.com/article/best-early-amazon-prime-day-deals-2026/",
@@ -111,7 +267,7 @@
       "image": null
     },
     {
-      "id": "the-verge-2",
+      "id": "the-verge-6",
       "title": "The screenless Camp Snap 2 is slimmer and comes with more filters",
       "summary": "After expanding its offerings to video with the CS-8 inspired by Kodak and Canon's retro Super 8mm film cameras, Camp Snap is returning to its roots. The Camp Snap 2 is a sequel to the company's first screenless digital point-and-shoot camera that updates the original with a slimmer design, faster p",
       "link": "https://www.theverge.com/tech/941427/camp-snap-2-digital-screenless-camera-filters-kid-lock",
@@ -123,7 +279,7 @@
       "image": null
     },
     {
-      "id": "techcrunch-ai-1",
+      "id": "techcrunch-ai-2",
       "title": "Anthropic scales Claude Mythos  to critical infrastructure in 15+ countries",
       "summary": "Anthropic is expanding Project Glasswing, its security vulnerability program, and access to Mythos to 150 organizations across 15 countries — targeting critical infrastructure in power, water, healthcare, and communications where a cyberattack could affect 100 million people.",
       "link": "https://techcrunch.com/2026/06/02/anthropic-scales-claude-mythos-to-critical-infrastructure-in-15-countries/",
@@ -159,7 +315,7 @@
       "image": "https://www.tportal.hr/media/thumbnail/500x300/2743641.jpeg?cropId=0"
     },
     {
-      "id": "bug.hr-2",
+      "id": "bug.hr-3",
       "title": "Sharkoon S25 serija - tri nova ATX kućišta za različite namjene",
       "summary": "Sharkoon je predstavio tri nova modela u S25 seriji, namijenjena korisnicima koji traže funkcionalnost, tihi rad ili vizualnu prezentaciju u ATX formatu",
       "link": "https://www.bug.hr/kucista/sharkoon-s25-serija-tri-nova-atx-kucista-za-razlicite-namjene-60291",
@@ -171,7 +327,7 @@
       "image": "https://www.bug.hr/img/sharkoon-s25-serija-tri-nova-atx-kucista-za-razlicite-namjene_B__IJc.jpg"
     },
     {
-      "id": "zdnet-4",
+      "id": "zdnet-6",
       "title": "Amazon Prime Day is June 23-26: Everything to know about start times, deals, and more",
       "summary": "Here's everything we know about Amazon's June Prime event - including confirmed dates, how to prep for early deals, and how it compares to previous July sales.",
       "link": "https://www.zdnet.com/article/amazon-prime-day-2026-everything-you-need-to-know/",
@@ -183,7 +339,7 @@
       "image": null
     },
     {
-      "id": "bug.hr-3",
+      "id": "bug.hr-4",
       "title": "Hakirana baza članova Dinama? Oglasili su se iz kluba",
       "summary": "Neslužbene informacije kažu da je baza podataka s oko 52.000 zapisa o članovima udruge ukradena i stavljena na dark web. Iza svega navodno stoji hakerska skupina INF Grupa iz Srbije",
       "link": "https://www.bug.hr/hakeri/hakirana-baza-clanova-dinama-oglasili-su-se-iz-kluba-60288",
@@ -207,7 +363,7 @@
       "image": "https://www.tportal.hr/media/thumbnail/500x300/2713335.jpeg?cropId=0"
     },
     {
-      "id": "zdnet-5",
+      "id": "zdnet-7",
       "title": "Ubuntu 26.04 is the OS for the AI agentic era, says Canonical's Mark Shuttleworth - here's why",
       "summary": "Canonical's pitch starts with snaps and security.",
       "link": "https://www.zdnet.com/article/ubuntu-26-04-is-os-for-ai-agentic-era-says-canonical-mark-shuttleworth-why/",
@@ -219,7 +375,7 @@
       "image": null
     },
     {
-      "id": "zdnet-6",
+      "id": "zdnet-8",
       "title": "Why I never let my Android recycling bin sit full for 30 days - and how I empty it",
       "summary": "Android keeps deleted files in the Trash for 30 days, but I don't wait that long. Here's why I clear them manually.",
       "link": "https://www.zdnet.com/article/never-let-android-recycling-bin-sit-full-how-to-empty/",
@@ -231,7 +387,7 @@
       "image": null
     },
     {
-      "id": "zdnet-7",
+      "id": "zdnet-9",
       "title": "Best Buy slashed this 64GB Kingston DDR5 RAM kit by almost $200 - and I recommend it",
       "summary": "This 64GB Kingston Fury Beast DDR5 RAM kit is the latest memory deal that I've actually considered at Best Buy.",
       "link": "https://www.zdnet.com/article/kingston-fury-beast-ddr5-ram-deal/",
@@ -243,7 +399,7 @@
       "image": null
     },
     {
-      "id": "the-verge-3",
+      "id": "the-verge-7",
       "title": "Lego’s Smart Play Pokémon can train and battle, but don’t do the one thing I wish they could",
       "summary": "When Lego announced its tech-packed Smart Bricks at CES, we were impressed by the potential - enough to give it our Best in Show award. But when the first Star Wars sets actually launched in March, we were less enamored. All that promise of clever interaction and creative play ultimately boiled down",
       "link": "https://www.theverge.com/gadgets/941484/lego-pokemon-smart-play-brick-sets",
@@ -267,7 +423,7 @@
       "image": "https://www.tportal.hr/media/thumbnail/500x300/2743604.jpeg?cropId=0"
     },
     {
-      "id": "zdnet-8",
+      "id": "zdnet-10",
       "title": "Prime Day 2026 is coming in June and will be 4 days long - here's what Amazon just unveiled",
       "summary": "The retailer just revealed the sale dates for Amazon Prime Day, which is set to kick off June 23.",
       "link": "https://www.zdnet.com/article/amazon-prime-day-2026-dates/",
@@ -279,7 +435,7 @@
       "image": null
     },
     {
-      "id": "the-verge-4",
+      "id": "the-verge-8",
       "title": "Thermacell&#8217;s latest smart mosquito system is bigger and more expensive",
       "summary": "Thermacell has launched Liv 2.0, the next generation of its Wi-Fi-connected smart mosquito protection system. It features new hardware and can cover a larger area, and Thermacell says its formula can now deter no-see-ums. But it's also more expensive and requires professional installation. Liv 2.0 u",
       "link": "https://www.theverge.com/tech/941146/liv-2-dot-0-smart-mosquito-repellent-system-thermacell",
@@ -291,7 +447,7 @@
       "image": null
     },
     {
-      "id": "venturebeat-1",
+      "id": "venturebeat-3",
       "title": "AI agents keep giving confident wrong answers. The context layer is enterprise AI's next production problem.",
       "summary": "Enterprise AI agents have a new production failure mode, and it is not the model. As enterprises move from single-layer RAG to hybrid retrieval architectures, the same underlying data produces different answers depending on which agent, tool or system asks the question. Revenue means one thing in a ",
       "link": "https://venturebeat.com/data/ai-agents-keep-giving-confident-wrong-answers-the-context-layer-is-enterprise-ais-next-production-problem",
@@ -303,7 +459,7 @@
       "image": "https://images.ctfassets.net/jdtwqhzvc2n1/3DDzYJcgkB2z3tI3jtYLYy/080e4fd148e61052c7d8a666c13c6f98/context-confusion-smk1.jpg?w=300&q=30"
     },
     {
-      "id": "zdnet-9",
+      "id": "zdnet-11",
       "title": "I set 10 honesty traps for Claude Opus 4.8 - and a legal test broke it",
       "summary": "I tested Opus 4.8 against 4.7 using coding, medical, finance, and legal traps, then cross-checked the results with multiple AIs.",
       "link": "https://www.zdnet.com/article/claude-opus-4-8-honesty-test/",
@@ -315,7 +471,7 @@
       "image": null
     },
     {
-      "id": "the-verge-5",
+      "id": "the-verge-9",
       "title": "Amazon’s four-day Prime Day begins on June 23rd",
       "summary": "Amazon bucked its usual tradition of having Prime Day in July. Prime Day 2026 is happening in June, kicking off in just a few weeks. Prime members will get access to many deals starting June 23rd at 3:01AM ET through June 27th at 3:01AM ET. As with Amazon’s previous events, you don’t need to be [&#8",
       "link": "https://www.theverge.com/gadgets/940021/amazon-prime-day-2026-june-dates-deals",
@@ -339,7 +495,7 @@
       "image": null
     },
     {
-      "id": "techcrunch-ai-2",
+      "id": "techcrunch-ai-3",
       "title": "ZeroDrift raises $10M to protect AI models from themselves",
       "summary": "A new AI compliance service sits between AI models and end users to flag and replace any messages that might present a compliance problem.",
       "link": "https://techcrunch.com/2026/06/02/zerodrift-raises-10-million-to-protect-ai-models-from-themselves/",
@@ -351,7 +507,7 @@
       "image": null
     },
     {
-      "id": "the-next-web-0",
+      "id": "the-next-web-2",
       "title": "Amazon’s Ring is sued over its Familiar Faces facial-recognition feature",
       "summary": "mazon was sued on Monday over the facial-recognition feature it recently added to its Ring doorbells, in a complaint that turns on a familiar asymmetry: the person who buys the camera consents to it, and the person walking past the camera does not. Charles Sigwalt, a Virginia resident, filed the pro",
       "link": "https://thenextweb.com/news/amazons-ring-is-sued-over-its-familiar-faces-facial-recognition-feature",
@@ -363,7 +519,7 @@
       "image": "https://media.thenextweb.com/2026/06/amazon-Ring.avif"
     },
     {
-      "id": "the-next-web-1",
+      "id": "the-next-web-3",
       "title": "Taiwan shows off robot patrol dogs that could guard its South China Sea islands",
       "summary": "A military research institute demonstrated three versions of a four-legged robot, one of them armed, for possible duty on remote outposts the coast guard struggles to staff. Taiwan’s main weapons-development institute put three robot dogs through their paces on Monday, presenting them as a possible ",
       "link": "https://thenextweb.com/news/taiwan-robot-patrol-dogs-south-china-sea",
@@ -375,7 +531,7 @@
       "image": "https://media.thenextweb.com/2026/06/Ghost-Robotics.avif"
     },
     {
-      "id": "techcrunch-ai-3",
+      "id": "techcrunch-ai-4",
       "title": "Rocket engine startup Impulse raises $500 million to hire people, not AI",
       "summary": "Engineering physical systems still depends on human talent, according to Impulse Space president Eric Romo.",
       "link": "https://techcrunch.com/2026/06/02/rocket-engine-startup-impulse-raises-500-million-to-hire-people-not-ai/",
@@ -385,6 +541,30 @@
       "xml_category": "space",
       "tags": [],
       "image": null
+    },
+    {
+      "id": "zdnet-12",
+      "title": "This easy prompt trick gave me better AI-generated images - no matter the model",
+      "summary": "Having trouble getting the right image out of ChatGPT, Gemini, or another AI tool? Try this foolproof prompt.",
+      "link": "https://www.zdnet.com/article/beginner-ai-image-prompt-tip-chatgpt-gemini/",
+      "published": "2026-06-02T12:00:00.000Z",
+      "source": "ZDNet",
+      "category": "ai",
+      "xml_category": "",
+      "tags": [],
+      "image": null
+    },
+    {
+      "id": "venturebeat-4",
+      "title": "Zip’s new AI agents want to stop your finance team from uploading contracts into personal ChatGPT accounts",
+      "summary": "Zip , the AI procurement platform valued at $2.2 billion , announced two products on Monday that mark a turning point in its evolution from procurement software to autonomous AI platform: a suite of five AI \"Superagents\" that can review contracts, code invoices, and negotiate with vendors inside Zip",
+      "link": "https://venturebeat.com/technology/zips-new-ai-agents-want-to-stop-your-finance-team-from-uploading-contracts-into-personal-chatgpt-accounts",
+      "published": "2026-06-02T12:00:00.000Z",
+      "source": "VentureBeat",
+      "category": "ai",
+      "xml_category": "technology",
+      "tags": [],
+      "image": "https://images.ctfassets.net/jdtwqhzvc2n1/58Xq65ebt4Vk39flKiyoN4/9a78a1be01196b627e6978c3b07c1ab3/Nuneybits_Vector_art_of_locked_vendor-handshake_grid_67717884-fbd7-4e59-a9d6-35c51f534b6a.webp?w=300&q=30"
     },
     {
       "id": "the-verge-7",
@@ -399,31 +579,7 @@
       "image": null
     },
     {
-      "id": "zdnet-10",
-      "title": "This easy prompt trick gave me better AI-generated images - no matter the model",
-      "summary": "Having trouble getting the right image out of ChatGPT, Gemini, or another AI tool? Try this foolproof prompt.",
-      "link": "https://www.zdnet.com/article/beginner-ai-image-prompt-tip-chatgpt-gemini/",
-      "published": "2026-06-02T12:00:00.000Z",
-      "source": "ZDNet",
-      "category": "ai",
-      "xml_category": "",
-      "tags": [],
-      "image": null
-    },
-    {
-      "id": "venturebeat-2",
-      "title": "Zip’s new AI agents want to stop your finance team from uploading contracts into personal ChatGPT accounts",
-      "summary": "Zip , the AI procurement platform valued at $2.2 billion , announced two products on Monday that mark a turning point in its evolution from procurement software to autonomous AI platform: a suite of five AI \"Superagents\" that can review contracts, code invoices, and negotiate with vendors inside Zip",
-      "link": "https://venturebeat.com/technology/zips-new-ai-agents-want-to-stop-your-finance-team-from-uploading-contracts-into-personal-chatgpt-accounts",
-      "published": "2026-06-02T12:00:00.000Z",
-      "source": "VentureBeat",
-      "category": "ai",
-      "xml_category": "technology",
-      "tags": [],
-      "image": "https://images.ctfassets.net/jdtwqhzvc2n1/58Xq65ebt4Vk39flKiyoN4/9a78a1be01196b627e6978c3b07c1ab3/Nuneybits_Vector_art_of_locked_vendor-handshake_grid_67717884-fbd7-4e59-a9d6-35c51f534b6a.webp?w=300&q=30"
-    },
-    {
-      "id": "the-next-web-2",
+      "id": "the-next-web-4",
       "title": "The White House is at war with itself over who gets to regulate AI",
       "summary": "The Trump administration is locked in an internal battle over artificial intelligence regulation that has paralysed federal AI policy at the moment it matters most. Three factions are fighting for control: the Commerce Department, which has been quietly building civilian testing partnerships with AI",
       "link": "https://thenextweb.com/news/the-white-house-is-at-war-with-itself-over-who-gets-to-regulate-ai",
@@ -435,7 +591,7 @@
       "image": "https://media.thenextweb.com/2026/04/us-white-house-ai-model-distillation-china-theft.avif"
     },
     {
-      "id": "the-next-web-3",
+      "id": "the-next-web-5",
       "title": "Meta takes its 13+ teen content settings global across Instagram, Facebook, and Messenger",
       "summary": "Meta is taking its “13+” content settings for Teen Accounts global. The company said today that the setting, which it likens to a movie rating, will now apply by default to teenagers across Instagram, Facebook, and Messenger worldwide, extending a system it first introduced last October in the US, U",
       "link": "https://thenextweb.com/news/meta-13-plus-teen-accounts-global",
@@ -447,7 +603,7 @@
       "image": "https://media.thenextweb.com/2026/06/Meta-teen-13.avif"
     },
     {
-      "id": "the-next-web-4",
+      "id": "the-next-web-6",
       "title": "Google wants to release 64 million lab-bred mosquitoes in Florida and California to fight dengue and Zika",
       "summary": "Verily, the health and life sciences subsidiary of Google parent Alphabet, has asked the US Environmental Protection Agency for permission to release up to 64 million lab-bred mosquitoes (up to 32 million per year) across Florida and California over two years. The proposal, submitted under the compa",
       "link": "https://thenextweb.com/news/google-verily-32-million-mosquitoes-wolbachia-debug",
@@ -459,7 +615,7 @@
       "image": "https://media.thenextweb.com/2026/06/google-verily-32-million-mosquitoes-wolbachia-debug.avif"
     },
     {
-      "id": "bug.hr-4",
+      "id": "bug.hr-5",
       "title": "NIS2 ne traži heroje, već stručnu ekipu i sustav",
       "summary": "Jubilarni 20. ciklus konferencija Dan integracije, posvećene IT sigurnosti, upravljanju infrastrukturom i digitalnoj otpornosti poslovanja, uspješno je održan u Opatiji, Osijeku, Splitu i Zagrebu, okupivši brojne IT stručnjake, direktore, sigurnosne profesionalce i predstavnike poslovne zajednice iz",
       "link": "https://mreza.bug.hr/reportaza/nis2-ne-trazi-heroje-vec-strucnu-ekipu-i-sustav-60263",
@@ -483,7 +639,7 @@
       "image": "https://www.netokracija.com/wp-content/uploads/2026/05/state-of-adria-2026-300x180.png"
     },
     {
-      "id": "bug.hr-5",
+      "id": "bug.hr-6",
       "title": "Pokrenut Središnji registar stanovništva, na jednom mjestu je sve što država zna o vama",
       "summary": "Nova elektronička evidencija objedinjuje podatke iz različitih službenih izvora, smanjuje administraciju i omogućuje građanima dobrovoljnu dopunu informacija radi ostvarivanja prava",
       "link": "https://www.bug.hr/servisi/pokrenut-sredisnji-registar-stanovnistva-na-jednom-mjestu-je-sve-sto-drzava-zna-60282",
@@ -495,7 +651,7 @@
       "image": "https://www.bug.hr/img/pokrenut-sredisnji-registar-stanovnistva-na-jednom-mjestu-je-sve-sto-drzava-zna_oXNqRe.jpg"
     },
     {
-      "id": "the-next-web-5",
+      "id": "the-next-web-7",
       "title": "Marvell jumps after Jensen Huang calls it the next trillion-dollar company",
       "summary": "It took one sentence from Jensen Huang to move tens of billions of dollars. Marvell Technology shares surged about 25% in premarket trading on Tuesday after Nvidia’s chief executive, sharing a Computex stage in Taipei with Marvell boss Matt Murphy, predicted that the chip and networking company woul",
       "link": "https://thenextweb.com/news/marvell-huang-next-trillion-dollar-company",
@@ -531,7 +687,7 @@
       "image": null
     },
     {
-      "id": "the-next-web-6",
+      "id": "the-next-web-8",
       "title": "Microsoft heads into Build with AI everywhere and a paying-customer problem",
       "summary": "The company’s developer conference opens in San Francisco with another round of AI tooling expected, against the awkward backdrop of how few people pay for Copilot. Microsoft opened its annual Build developer conference in San Francisco on Tuesday, with Satya Nadella due to take the stage at 9:30am ",
       "link": "https://thenextweb.com/news/microsoft-build-2026-ai-tools-copilot",
@@ -567,7 +723,7 @@
       "image": "https://www.tportal.hr/media/thumbnail/500x300/2743500.jpeg?cropId=0"
     },
     {
-      "id": "the-next-web-7",
+      "id": "the-next-web-9",
       "title": "WeRide and Uber take their robotaxi partnership to Madrid",
       "summary": "The robotaxi map of Europe has been filling in city by city, and on Tuesday Madrid joined it. WeRide and Uber said they will launch what they call Spain’s first commercial robotaxi pilot in the Region of Madrid, with rides bookable through the Uber app and operations expected to begin later this yea",
       "link": "https://thenextweb.com/news/weride-and-uber-take-their-robotaxi-partnership-to-madrid",
@@ -591,7 +747,7 @@
       "image": "https://media.thenextweb.com/2012/10/153960326.avif"
     },
     {
-      "id": "bug.hr-6",
+      "id": "bug.hr-7",
       "title": "500 milijuna dolara mjesečno na AI – zabunom",
       "summary": "Kako jedna tvrtka slučajno potroši pola milijarde dolara na AI? Token po token...",
       "link": "https://www.bug.hr/komentar/500-milijuna-dolara-mjesecno-na-ai--zabunom-60285",
@@ -603,7 +759,7 @@
       "image": "https://www.bug.hr/img/500-milijuna-dolara-mjesecno-na-ai--zabunom_st5Ees.png"
     },
     {
-      "id": "zdnet-11",
+      "id": "zdnet-13",
       "title": "I finally bought the Transmit MacOS app, and that 16x faster transfer speed is just the beginning",
       "summary": "If you spend a good amount of time transferring files to and from your MacOS machine, do yourself a favor and grab a copy of Transmit.",
       "link": "https://www.zdnet.com/article/transmit-is-one-of-the-best-macos-file-transfer-tools-on-the-market/",
@@ -663,7 +819,7 @@
       "image": "https://media.thenextweb.com/2026/06/Jensen-Huang-Taipei.avif"
     },
     {
-      "id": "bug.hr-7",
+      "id": "bug.hr-8",
       "title": "Globalni rast prodaje električnih vozila u Q1 2026.",
       "summary": "Globalna prodaja baterijskih električnih vozila (BEV) porasla je za 5 % u prvom tromjesečju 2026. godine (Q1 2026.) u odnosu na isto razdoblje prethodne godine",
       "link": "https://mreza.bug.hr/elektricna-vozila/globalni-rast-prodaje-elektricnih-vozila-u-q1-2026-60238",
@@ -675,7 +831,7 @@
       "image": "https://mreza.bug.hr/img/globalni-rast-prodaje-elektricnih-vozila-u-q1-2026_yYjy7d.png"
     },
     {
-      "id": "zdnet-12",
+      "id": "zdnet-14",
       "title": "Want to be a Linux pro like me? Master these 8 skills first",
       "summary": "I've been using Linux since 1997. If you intend to climb the hierarchical ladder of Linux users, then there are things you'll need to learn along the way.",
       "link": "https://www.zdnet.com/article/things-you-need-to-master-to-become-a-linux-pro/",
@@ -747,7 +903,7 @@
       "image": "https://media.thenextweb.com/2026/06/Tilt.avif"
     },
     {
-      "id": "bug.hr-8",
+      "id": "bug.hr-9",
       "title": "Izgubili ste streak na Duolingu? Ovaj ga mjesec možete vratiti",
       "summary": "Ako ste izgubili streak učenja jezika u Duolingu od 30 ili više dana, ovog ga mjeseca možete vratiti tako da riješite tri lekcije zaredom",
       "link": "https://www.bug.hr/mobilne-aplikacije/izgubili-ste-streak-na-duolingu-ovaj-ga-mjesec-mozete-vratiti-60269",
@@ -843,7 +999,7 @@
       "image": "https://www.tportal.hr/media/thumbnail/500x300/2743377.jpeg?cropId=0"
     },
     {
-      "id": "bug.hr-9",
+      "id": "bug.hr-10",
       "title": "MiniMax M3: Radikalno jeftinija, munjevita multimodalna obrada teksta, koda, slika i videa",
       "summary": "Ponavlja li se situacija s DeepSeekom, koji je početkom prošle godine izazvao uzbunu među zapadnim AI kompanijama? Šangajski startup MiniMax koristi istu formulu: ekstremnu jeftinoću i model distribucije koji izravno potkopava poslovne modele Silicijske doline",
       "link": "https://www.bug.hr/programiranje/minimax-m3-radikalno-jeftinija-munjevita-multimodalna-obrada-teksta-koda-60281",
@@ -867,7 +1023,7 @@
       "image": "https://www.tportal.hr/media/thumbnail/500x300/2743371.jpeg?cropId=0"
     },
     {
-      "id": "venturebeat-3",
+      "id": "venturebeat-5",
       "title": "The design bottleneck for solo founders? AI has solved it.",
       "summary": "Presented by Design.com Something significant is happening in how people build businesses. There are currently 29.8 million solopreneurs contributing $1.7 trillion to the U.S. economy, and over 80% of all U.S. small businesses now operate with no employees. In 2024 alone, entrepreneurs filed 5.2 mil",
       "link": "https://venturebeat.com/technology/the-design-bottleneck-for-solo-founders-ai-has-solved-it",
@@ -891,7 +1047,7 @@
       "image": "https://www.tportal.hr/media/thumbnail/500x300/2743364.jpeg?cropId=0"
     },
     {
-      "id": "bug.hr-10",
+      "id": "bug.hr-11",
       "title": "Galaxy Watch 9 mogao bi ipak stići u Classic verziji",
       "summary": "Iako se očekivalo da će novi Classic model doći tek s Galaxy Watch 10 serijom, čini se da bi ga mogli dobiti već ovog ljeta",
       "link": "https://www.bug.hr/pametni-satovi/galaxy-watch-9-mogao-bi-ipak-stici-u-classic-verziji-60257",
@@ -927,7 +1083,7 @@
       "image": "https://www.tportal.hr/media/thumbnail/500x300/2742976.jpeg?cropId=0"
     },
     {
-      "id": "bug.hr-11",
+      "id": "bug.hr-12",
       "title": "Token-šok: Postaju li oglasi rješenje za skupe AI asistente?",
       "summary": "Dok GitHub ukida fiksne cijene, a Uber i drugi bilježe milijunske troškove zbog AI agenata, industrija traži novi izlaz. Je li idući korak sudbina Gmaila - uvođenje oglasa u razvojne alate kako bi se pokrila cijena tokena? Hoće li monetizacija promijeniti budućnost programiranja?",
       "link": "https://www.bug.hr/tehnologije/token-sok-postaju-li-oglasi-rjesenje-za-skupe-ai-asistente-60277",
@@ -939,7 +1095,7 @@
       "image": "https://www.bug.hr/img/token-sok-postaju-li-oglasi-rjesenje-za-skupe-ai-asistente_QlF1BG.png"
     },
     {
-      "id": "bug.hr-12",
+      "id": "bug.hr-13",
       "title": "Preuzmite aplikaciju .debuga 2026 i pratite raspored događanja na šest pozornica",
       "summary": "Naša univerzalna aplikacija omogućava svim posjetiteljima i online gledateljima .debuga lako i jednostavno snalaženje u rasporedu događanja, u stvarnom vremenu i na svim uređajima",
       "link": "https://www.bug.hr/mobilne-aplikacije/preuzmite-aplikaciju-debuga-2026-i-pratite-raspored-dogadjanja-na-sest-pozornica-60264",
@@ -951,7 +1107,7 @@
       "image": "https://www.bug.hr/img/preuzmite-aplikaciju-debuga-2026-i-pratite-raspored-dogadjanja-na-sest-pozornica_HD273p.png"
     },
     {
-      "id": "bug.hr-13",
+      "id": "bug.hr-14",
       "title": "KiteSend – jednostavna, sigurna i izravna razmjena datoteka između dva uređaja",
       "summary": "Riječ je o još jednom rješenju koje se specijalizira za jednostavnu i izravnu razmjenu datoteka između dva uređaja bez potrebe za oblakom, a koje je potencijalno zanimljivo i jer iza njega stoji autor unutar granica EU, iz Italije…",
       "link": "https://www.bug.hr/appdana/kitesend--jednostavna-sigurna-i-izravna-razmjena-datoteka-izmedju-dva-uredjaja-60175",
@@ -963,7 +1119,7 @@
       "image": "https://www.bug.hr/img/kitesend--jednostavna-sigurna-i-izravna-razmjena-datoteka-izmedju-dva-uredjaja_Tn8m9V.png"
     },
     {
-      "id": "bug.hr-14",
+      "id": "bug.hr-15",
       "title": "Korištenje AI modela otvorenog koda po regijama i industrijama",
       "summary": "Korištenje AI modela otvorenog koda (open source) znači da su kod i dokumentacija sustava javno dostupni, što omogućuje svima da ih slobodno koriste ili mijenjaju",
       "link": "https://mreza.bug.hr/umjetna-inteligencija/koristenje-ai-modela-otvorenog-koda-po-regijama-i-industrijama-60279",
@@ -975,7 +1131,7 @@
       "image": "https://mreza.bug.hr/img/koristenje-ai-modela-otvorenog-koda-po-regijama-i-industrijama_EqiWoz.jpg"
     },
     {
-      "id": "bug.hr-15",
+      "id": "bug.hr-16",
       "title": "Waymov novi specijalizirani robotaksi Ojai kreće u prve vožnje s građanima",
       "summary": "Američki Waymo započinje s javnim vožnjama u novom autonomnom vozilu Ojai, koje donosi šestu generaciju autonomne vožnje i dizajn prilagođen maksimalnoj udobnosti i pristupačnosti za putnike",
       "link": "https://autonet.bug.hr/transport/waymov-novi-specijalizirani-robotaksi-ojai-krece-u-prve-voznje-s-gradjanima-60252",
@@ -987,7 +1143,7 @@
       "image": "https://autonet.bug.hr/img/waymov-novi-specijalizirani-robotaksi-ojai-krece-u-prve-voznje-s-gradjanima_BS4b0O.jpg"
     },
     {
-      "id": "bug.hr-16",
+      "id": "bug.hr-17",
       "title": "Najjače investicijske edukacije u Hrvatskoj: Što vam sve nudi Genius i zašto je besplatno",
       "summary": "Genius by InterCapital već petu godinu zaredom vodi edukacije o ulaganju i osobnim financijama za početnike. Online, uživo po gradovima Hrvatske, po firmama, kroz osobne razgovore - kroz različite formate do sada je prošlo više desetaka tisuća ljudi",
       "link": "https://www.bug.hr/promo/najjace-investicijske-edukacije-u-hrvatskoj-sto-vam-sve-nudi-genius-i-zasto-je-60261",
@@ -999,7 +1155,7 @@
       "image": "https://www.bug.hr/img/najjace-investicijske-edukacije-u-hrvatskoj-sto-vam-sve-nudi-genius-i-zasto-je_GuzYH9.png"
     },
     {
-      "id": "zdnet-13",
+      "id": "zdnet-15",
       "title": "Should you switch to a Wi-Fi 7 mesh router? My home testing reveals what got better (and what didn't)",
       "summary": "The Tenda BE5100 mesh Wi-Fi system is an accessibly priced, high-speed, easy-to-use package that kills wireless dead spots.",
       "link": "https://www.zdnet.com/article/tenda-be5100-3-pack-mesh-wi-fi-system-review/",
@@ -1011,7 +1167,7 @@
       "image": null
     },
     {
-      "id": "zdnet-14",
+      "id": "zdnet-16",
       "title": "How I built my own DIY cyberdeck straight out of 80s sci-fi - and all the cool things it can do",
       "summary": "The latest DIY craze is a portable computer inspired by a 1984 sci-fi novel. I built one with a Raspberry Pi. Here's why and how.",
       "link": "https://www.zdnet.com/article/how-i-built-cyberdeck-from-80s-sci-fi-why/",
@@ -1023,7 +1179,7 @@
       "image": null
     },
     {
-      "id": "zdnet-15",
+      "id": "zdnet-17",
       "title": "Home Depot will give you a free Ryobi power tool with this battery deal - and I recommend it",
       "summary": "Save 57% on this Ryobi lithium-ion battery set for your power tools, and get the tool of your choice totally free.",
       "link": "https://www.zdnet.com/article/ryobi-tool-bogo-deal-home-depot/",
@@ -1035,7 +1191,7 @@
       "image": null
     },
     {
-      "id": "zdnet-16",
+      "id": "zdnet-18",
       "title": "I tried the latest MX Linux version on my PC, and it made the system look and feel like new",
       "summary": "MX Linux has released a version that includes features and software, making it a brilliant option for the latest systems.",
       "link": "https://www.zdnet.com/article/mx-linux-xfce-ahs-best-distribution-for-new-hardware/",
@@ -1047,7 +1203,7 @@
       "image": null
     },
     {
-      "id": "zdnet-17",
+      "id": "zdnet-19",
       "title": "Sony Bravia 9 II vs. Bravia 9: I've seen both TV models, and True RGB LED is a major leap",
       "summary": "Sony recently announced the new Bravia 9 II True RGB TV. Is it worth upgrading from the older Bravia 9 Mini LED? I break down the differences.",
       "link": "https://www.zdnet.com/article/sony-bravia-9-ii-vs-sony-bravia-9/",
@@ -1071,7 +1227,7 @@
       "image": null
     },
     {
-      "id": "techcrunch-ai-4",
+      "id": "techcrunch-ai-5",
       "title": "Alphabet plans to raise $80B to pay for AI buildout",
       "summary": "\"The company is experiencing strong demand for its AI solutions and services from enterprises and consumers, at levels that are exceeding the company’s available supply,\" Alphabet said in its statement.",
       "link": "https://techcrunch.com/2026/06/01/alphabet-plans-to-raise-80-billion-to-pay-for-ai-buildout/",
@@ -1083,7 +1239,7 @@
       "image": null
     },
     {
-      "id": "bug.hr-17",
+      "id": "bug.hr-18",
       "title": "Anthropic podnio prijavu za IPO i otvorio još jednu trku s OpenAI-jem",
       "summary": "Tihom predajom dokumentacije SEC-u Anthropic je pretekao OpenAI u utrci prema burzi, gdje prvi izlazak postavlja valuacijsku prednost.",
       "link": "https://www.bug.hr/dogadjaji/anthropic-podnio-prijavu-za-ipo-i-otvorio-jos-jednu-trku-s-openai-jem-60278",
@@ -1095,7 +1251,7 @@
       "image": "https://www.bug.hr/img/anthropic-podnio-prijavu-za-ipo-i-otvorio-jos-jednu-trku-s-openai-jem_5F9gN5.png"
     },
     {
-      "id": "techcrunch-ai-5",
+      "id": "techcrunch-ai-6",
       "title": "Nvidia chases $200B CPU market with AI agent PCs from Microsoft, Dell, and HP",
       "summary": "If Nvidia has cracked a way to bring AI agents easily, safely, and usefully to the masses, it could — and should — be big.",
       "link": "https://techcrunch.com/2026/06/01/nvidia-chases-200b-cpu-market-with-ai-agent-pcs-from-microsoft-dell-and-hp/",
@@ -1143,7 +1299,7 @@
       "image": "https://media.thenextweb.com/2026/06/gopro-going-concern-ai-memory-crisis-default.avif"
     },
     {
-      "id": "techcrunch-ai-6",
+      "id": "techcrunch-ai-7",
       "title": "Florida sues OpenAI, Sam Altman, in first-of-its-kind lawsuit over violent incidents",
       "summary": "The lawsuit partially revolves around a shooting at Florida State University last year, and ChatGPT's alleged role in the incident.",
       "link": "https://techcrunch.com/2026/06/01/florida-sues-openai-sam-altman-in-first-of-its-kind-lawsuit-over-violent-incidents/",
@@ -1335,7 +1491,7 @@
       "image": "https://media.thenextweb.com/2026/06/gta-v-cheat-service-atlas-menu-hacked-data-breach-1.avif"
     },
     {
-      "id": "bug.hr-18",
+      "id": "bug.hr-19",
       "title": "Win-vidia era počinje sa zakašnjenjem, Appleov čip godinama ispred svih",
       "summary": "Ovo o čemu smo objavili vijest iz Taipeija nije samo još jedna premijera u nizu; ovo je trenutak u kojem se PC industrija, predvođena Jensenom Huangom, službeno naklonila konceptu koji Apple gura već pola desetljeća",
       "link": "https://www.bug.hr/tehnologije/win-vidia-era-pocinje-sa-zakasnjenjem-appleov-cip-godinama-ispred-svih-60274",
@@ -1419,7 +1575,7 @@
       "image": "https://www.bug.hr/img/nastavak-minecraft-filma-dobio-je-naslov-a-u-kina-dolazi-vec-sljedece-godine_7H56Nk.png"
     },
     {
-      "id": "techcrunch-ai-7",
+      "id": "techcrunch-ai-8",
       "title": "Water access is now a risk factor in SpaceX&#8217;s IPO",
       "summary": "The company says it needs \"significant\" water resources to cool its data centers, and that access to abundant, affordable water is a challenge.",
       "link": "https://techcrunch.com/2026/06/01/water-access-is-now-a-risk-factor-in-spacexs-ipo/",
@@ -1513,114 +1669,6 @@
       "xml_category": "konferencije",
       "tags": [],
       "image": "https://www.bug.hr/img/tech-koji-vise-nije-buducnost-ai-agenti-i-odgovor-na-pitanje-tko-zapravo-drzi_VzeniY.jpg"
-    },
-    {
-      "id": "zdnet-18",
-      "title": "I ditched my office desktop PC for a gaming laptop, and it's a serious productivity upgrade",
-      "summary": "The MSI Raider 16 Max HX combines powerful hardware with a revamped cooling system and a 240Hz OLED screen.",
-      "link": "https://www.zdnet.com/article/msi-raider-16-max-hx-review/",
-      "published": "2026-06-01T17:00:40.000Z",
-      "source": "ZDNet",
-      "category": "general",
-      "xml_category": "",
-      "tags": [],
-      "image": null
-    },
-    {
-      "id": "the-next-web-7",
-      "title": "A strike at one Michigan axle plant could choke production of GM’s most profitable vehicles",
-      "summary": "Nearly 1,000 unionised workers at a Dauch Corp plant in Three Rivers, Michigan, walked off the job at midnight on Sunday after the United Auto Workers declared an unfair labour practice strike over stalled contract negotiations. The factory makes axles for the Chevrolet Silverado and GMC Sierra pick",
-      "link": "https://thenextweb.com/news/uaw-strike-gm-truck-axle-supplier-dauch",
-      "published": "2026-06-01T16:50:12.000Z",
-      "source": "The Next Web",
-      "category": "general",
-      "xml_category": "business",
-      "tags": [],
-      "image": "https://media.thenextweb.com/2026/06/uaw-strike-gm-truck-axle-supplier-dauch.avif"
-    },
-    {
-      "id": "the-next-web-8",
-      "title": "Anthropic is finally giving the EU access to Mythos, ending weeks of standoff over the world’s most powerful cybersecurity AI",
-      "summary": "Anthropic has agreed to give the European Union’s cybersecurity agency, ENISA, access to Claude Mythos, the AI model that has autonomously discovered more than 10,000 high- and critical-severity zero-day vulnerabilities across every major operating system and web browser. The decision, communicated ",
-      "link": "https://thenextweb.com/news/anthropic-mythos-eu-enisa-cybersecurity-access",
-      "published": "2026-06-01T16:43:30.000Z",
-      "source": "The Next Web",
-      "category": "ai",
-      "xml_category": "artificial intelligence",
-      "tags": [],
-      "image": "https://media.thenextweb.com/2026/06/anthropic-mythos-eu-enisa-cybersecurity-access.avif"
-    },
-    {
-      "id": "the-verge-9",
-      "title": "Anthropic has officially filed to go public",
-      "summary": "After months of speculation about whether OpenAI or Anthropic would be first in their race to IPO, Anthropic on Monday reached a key milestone: filing to kick off the process with the U.S. Securities and Exchange Commission. The filing sets the stage for what's sure to be a massive IPO. As of its fu",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/941016/anthropic-has-officially-filed-to-go-public",
-      "published": "2026-06-01T16:40:38.000Z",
-      "source": "The Verge",
-      "category": "ai",
-      "xml_category": "[object object]",
-      "tags": [],
-      "image": null
-    },
-    {
-      "id": "techcrunch-ai-8",
-      "title": "Anthropic files to go public",
-      "summary": "Anthropic, now an AI powerhouse that has landed top-tier enterprise customers, was once considered an underdog in the emerging world of large language models.",
-      "link": "https://techcrunch.com/2026/06/01/anthropic-files-to-go-public/",
-      "published": "2026-06-01T16:36:55.000Z",
-      "source": "TechCrunch AI",
-      "category": "ai",
-      "xml_category": "ai",
-      "tags": [],
-      "image": null
-    },
-    {
-      "id": "the-verge-8",
-      "title": "Sony’s new fight stick and gaming monitor launch in August",
-      "summary": "Sony is sharing new details about some of its upcoming gaming-focused hardware, including pricing and August launch dates for its FlexStrike fight stick and its 27-inch monitor. The FlexStrike fight stick will be available starting August 6th - the same day as the new PlayStation-published fighting ",
-      "link": "https://www.theverge.com/games/941031/sony-playstation-flexstrike-fight-stick-gaming-monitor-pulse-elevate-speakers-launch-date-price",
-      "published": "2026-06-01T16:36:18.000Z",
-      "source": "The Verge",
-      "category": "general",
-      "xml_category": "[object object]",
-      "tags": [],
-      "image": null
-    },
-    {
-      "id": "bug.hr-18",
-      "title": "Od srijede pojeftinjuje gorivo",
-      "summary": "Za razliku od uobičajene prakse prema kojoj nove cijene goriva vrijede od utorka, ovoga će puta početi vrijediti u srijedu, 3. lipnja",
-      "link": "https://autonet.bug.hr/transport/od-srijede-pojeftinjuje-gorivo-60271",
-      "published": "2026-06-01T16:34:00.000Z",
-      "source": "Bug.hr",
-      "category": "general",
-      "xml_category": "transport",
-      "tags": [],
-      "image": "https://autonet.bug.hr/img/od-srijede-pojeftinjuje-gorivo_InIQzz.png"
-    },
-    {
-      "id": "zdnet-19",
-      "title": "My top 7 laptop-bag essentials now, after decades of remote work",
-      "summary": "Have gear, will travel: Here are the gadgets powering my mobile office this summer.",
-      "link": "https://www.zdnet.com/article/my-tech-laptop-bag-essentials/",
-      "published": "2026-06-01T16:29:17.000Z",
-      "source": "ZDNet",
-      "category": "general",
-      "xml_category": "",
-      "tags": [],
-      "image": null
-    },
-    {
-      "id": "venturebeat-4",
-      "title": "MiniMax-M3 debuts, eclipsing GPT-5.5 and Gemini 3.1 Pro on key benchmark performance for just 5-10% of the cost",
-      "summary": "Big news in enterprise AI broke over the weekend as Chinese AI startup MiniMax released its highly anticipated M3 large language model on Sunday evening Eastern time, pairing frontier-tier coding and agentic performance with a 1-million-token context window and native multimodality for a fraction of",
-      "link": "https://venturebeat.com/technology/minimax-m3-debuts-eclipsing-gpt-5-5-and-gemini-3-1-pro-on-key-benchmark-performance-for-just-5-10-of-the-cost",
-      "published": "2026-06-01T16:10:05.000Z",
-      "source": "VentureBeat",
-      "category": "ai",
-      "xml_category": "technology",
-      "tags": [],
-      "image": "https://images.ctfassets.net/jdtwqhzvc2n1/2xknlPWQng1dFd9Hs24w6L/f35f7459068592467a35e04819c87a59/ChatGPT_Image_Jun_1__2026__11_28_15_AM.png?w=300&q=30"
     }
   ]
 }
