@@ -1,0 +1,645 @@
+/* ─── FOCUS SIDEBAR LAYOUT ───────────────────────────────────────────────── */
+
+.dashboard-outer {
+  display: flex;
+  align-items: flex-start;
+  max-width: calc(var(--content-max) + 256px);
+  margin: 0 auto;
+}
+
+.focus-sidebar {
+  width: 232px;
+  flex-shrink: 0;
+  position: sticky;
+  top: var(--topbar-h);
+  max-height: calc(100vh - var(--topbar-h));
+  overflow-y: auto;
+  padding: var(--sp-6) var(--sp-3) var(--sp-8) var(--sp-6);
+  scrollbar-width: thin;
+  scrollbar-color: var(--border-faint) transparent;
+}
+
+/* Dashboard keeps same structure, just loses centered margin */
+.dashboard-outer > .dashboard {
+  flex: 1;
+  min-width: 0;
+  margin-left: 0;
+  max-width: var(--content-max);
+}
+
+/* ─── FOCUS WIDGET ───────────────────────────────────────────────────────── */
+
+.focus-widget {
+  background: var(--bg-elevated);
+  border: 1px solid var(--border-faint);
+  border-radius: var(--r-2xl);
+  overflow: hidden;
+}
+
+.focus-widget-header {
+  display: flex;
+  align-items: center;
+  gap: var(--sp-2);
+  padding: 9px var(--sp-3) 9px var(--sp-4);
+  border-bottom: 1px solid var(--border-faint);
+  background: var(--bg-secondary);
+}
+
+.focus-widget-icon {
+  color: var(--accent);
+  flex-shrink: 0;
+  opacity: 0.8;
+}
+
+.focus-widget-title {
+  font-family: var(--font-label);
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+  flex: 1;
+}
+
+.focus-add-btn {
+  width: 20px;
+  height: 20px;
+  border-radius: var(--r-full);
+  border: 1px solid var(--border-subtle);
+  background: transparent;
+  color: var(--text-muted);
+  font-size: 15px;
+  line-height: 1;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all var(--dur) var(--ease);
+  flex-shrink: 0;
+}
+
+.focus-add-btn:hover {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: #fff;
+}
+
+/* ─── TASK LIST ──────────────────────────────────────────────────────────── */
+
+.focus-task-list {
+  padding: var(--sp-2);
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  min-height: 32px;
+}
+
+.focus-empty {
+  padding: var(--sp-5) var(--sp-3);
+  text-align: center;
+  font-size: var(--text-xs);
+  color: var(--text-disabled);
+  font-style: italic;
+  line-height: var(--lh-relaxed);
+}
+
+/* ─── TASK CARD ──────────────────────────────────────────────────────────── */
+
+.focus-card {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding: 6px 6px 6px 2px;
+  background: var(--bg-tertiary);
+  border: 1px solid var(--border-faint);
+  border-radius: var(--r-lg);
+  cursor: pointer;
+  transition: border-color var(--dur) var(--ease), background var(--dur) var(--ease);
+  position: relative;
+  user-select: none;
+}
+
+.focus-card:hover {
+  border-color: var(--border-subtle);
+  background: var(--bg-hover);
+}
+
+.focus-card.is-dragging {
+  opacity: 0.35;
+  border-style: dashed;
+}
+
+.focus-card.drag-over-top {
+  border-top: 2px solid var(--accent);
+}
+
+.focus-card.drag-over-bottom {
+  border-bottom: 2px solid var(--accent);
+}
+
+.focus-drag-handle {
+  color: var(--text-disabled);
+  font-size: 13px;
+  cursor: grab;
+  padding: 2px 1px;
+  flex-shrink: 0;
+  line-height: 1;
+  opacity: 0.5;
+}
+
+.focus-card:hover .focus-drag-handle {
+  opacity: 1;
+}
+
+.focus-drag-handle:active { cursor: grabbing; }
+
+.focus-card-body {
+  flex: 1;
+  min-width: 0;
+}
+
+.focus-card-name {
+  font-family: var(--font-body);
+  font-size: 12px;
+  color: var(--text-primary);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  line-height: 1.35;
+}
+
+.focus-card-meta {
+  font-family: var(--font-mono);
+  font-size: 10px;
+  color: var(--text-disabled);
+  margin-top: 1px;
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+
+.focus-card-done {
+  width: 22px;
+  height: 22px;
+  border-radius: var(--r-full);
+  border: 1.5px solid var(--border-subtle);
+  background: transparent;
+  color: var(--text-disabled);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all var(--dur) var(--ease);
+  flex-shrink: 0;
+  font-size: 11px;
+}
+
+.focus-card-done:hover {
+  background: var(--color-success);
+  border-color: var(--color-success);
+  color: #fff;
+}
+
+/* ─── TASK DETAIL POPUP ──────────────────────────────────────────────────── */
+
+.focus-popup {
+  position: fixed;
+  z-index: 350;
+  width: 270px;
+  background: var(--bg-elevated);
+  border: 1px solid var(--border-default);
+  border-radius: var(--r-2xl);
+  box-shadow: var(--shadow-lg);
+  overflow: hidden;
+  animation: focus-popup-in 0.15s var(--ease);
+}
+
+@keyframes focus-popup-in {
+  from { opacity: 0; transform: translateX(-6px); }
+  to   { opacity: 1; transform: translateX(0); }
+}
+
+.focus-popup-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 9px var(--sp-4);
+  border-bottom: 1px solid var(--border-faint);
+  gap: var(--sp-2);
+}
+
+.focus-popup-title {
+  font-family: var(--font-body);
+  font-size: var(--text-sm);
+  font-weight: 600;
+  color: var(--text-primary);
+  flex: 1;
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.focus-popup-close {
+  width: 20px; height: 20px;
+  border: none; border-radius: var(--r-full);
+  background: transparent; color: var(--text-disabled);
+  cursor: pointer; display: flex; align-items: center;
+  justify-content: center; font-size: 14px;
+  transition: all var(--dur) var(--ease); flex-shrink: 0;
+}
+
+.focus-popup-close:hover { background: var(--bg-highest); color: var(--text-primary); }
+
+.focus-popup-body {
+  padding: var(--sp-3) var(--sp-4);
+  max-height: 260px;
+  overflow-y: auto;
+}
+
+.focus-popup-text {
+  font-size: var(--text-sm);
+  color: var(--text-secondary);
+  line-height: var(--lh-relaxed);
+  white-space: pre-wrap;
+}
+
+.focus-popup-no-content {
+  font-size: var(--text-xs);
+  color: var(--text-disabled);
+  font-style: italic;
+}
+
+.focus-popup-checklist {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.focus-popup-check-item {
+  display: flex;
+  align-items: flex-start;
+  gap: var(--sp-2);
+  padding: 4px 0;
+  cursor: pointer;
+  font-size: var(--text-sm);
+  color: var(--text-secondary);
+  border-radius: var(--r-md);
+  transition: color var(--dur) var(--ease);
+}
+
+.focus-popup-check-item.is-done {
+  color: var(--text-disabled);
+  text-decoration: line-through;
+}
+
+.focus-popup-check-item input[type="checkbox"] {
+  margin-top: 2px;
+  flex-shrink: 0;
+  cursor: pointer;
+  accent-color: var(--accent);
+}
+
+.focus-popup-footer {
+  padding: var(--sp-3) var(--sp-4);
+  border-top: 1px solid var(--border-faint);
+}
+
+.focus-popup-done-btn {
+  width: 100%;
+  padding: 7px;
+  background: var(--accent);
+  color: #fff;
+  border: none;
+  border-radius: var(--r-lg);
+  font-family: var(--font-label);
+  font-size: var(--text-sm);
+  font-weight: 700;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: background var(--dur) var(--ease);
+}
+
+.focus-popup-done-btn:hover { background: var(--accent-dim); }
+
+/* ─── EDIT MODAL — LIST ──────────────────────────────────────────────────── */
+
+.focus-edit-list {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  max-height: 360px;
+  overflow-y: auto;
+  margin-bottom: var(--sp-4);
+  scrollbar-width: thin;
+  scrollbar-color: var(--border-faint) transparent;
+}
+
+.focus-edit-empty {
+  padding: var(--sp-6) var(--sp-4);
+  text-align: center;
+  font-size: var(--text-sm);
+  color: var(--text-disabled);
+  font-style: italic;
+}
+
+.focus-edit-row {
+  display: flex;
+  align-items: center;
+  gap: var(--sp-2);
+  padding: 7px 8px;
+  border-radius: var(--r-lg);
+  transition: background var(--dur) var(--ease);
+  min-width: 0;
+}
+
+.focus-edit-row:hover { background: var(--bg-hover); }
+.focus-edit-row:hover .focus-edit-trash { opacity: 1; }
+
+.focus-edit-pill {
+  font-family: var(--font-mono);
+  font-size: 10px;
+  font-weight: 600;
+  padding: 2px 8px;
+  border-radius: var(--r-full);
+  border: 1px solid transparent;
+  cursor: pointer;
+  white-space: nowrap;
+  flex-shrink: 0;
+  transition: all var(--dur) var(--ease);
+  line-height: 1.5;
+}
+
+.focus-edit-pill:hover { filter: brightness(0.9); }
+
+.focus-edit-pill.is-active {
+  background: var(--accent-bg);
+  color: var(--accent);
+  border-color: var(--accent-border);
+}
+
+.focus-edit-pill.is-inactive {
+  background: var(--bg-highest);
+  color: var(--text-disabled);
+  border-color: var(--border-faint);
+}
+
+.focus-edit-name-btn {
+  flex: 1;
+  text-align: left;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  font-family: var(--font-body);
+  font-size: var(--text-sm);
+  color: var(--text-primary);
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  padding: 0;
+  transition: color var(--dur) var(--ease);
+}
+
+.focus-edit-name-btn:hover { color: var(--accent); }
+
+.focus-edit-name-btn.is-completed {
+  color: var(--text-disabled);
+  text-decoration: line-through;
+}
+
+.focus-edit-trash {
+  opacity: 0;
+  width: 26px; height: 26px;
+  border: none; border-radius: var(--r-lg);
+  background: transparent; color: var(--text-disabled);
+  cursor: pointer; display: flex; align-items: center;
+  justify-content: center; flex-shrink: 0;
+  transition: all var(--dur) var(--ease);
+}
+
+.focus-edit-trash:hover {
+  color: var(--color-danger);
+  background: var(--color-danger-bg);
+}
+
+.focus-edit-trash[data-confirm="true"] {
+  opacity: 1;
+  background: var(--color-danger-bg);
+  color: var(--color-danger);
+  width: auto; padding: 0 8px;
+  font-size: 11px; font-family: var(--font-label);
+  font-weight: 600; letter-spacing: 0.03em;
+}
+
+/* ─── TASK FORM ──────────────────────────────────────────────────────────── */
+
+.ff-label {
+  font-family: var(--font-label);
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+  margin-bottom: var(--sp-1);
+  display: block;
+}
+
+.ff-content-toggle {
+  display: flex;
+  gap: 2px;
+  background: var(--bg-highest);
+  border-radius: var(--r-lg);
+  padding: 2px;
+  margin-bottom: var(--sp-2);
+}
+
+.ff-toggle-btn {
+  flex: 1;
+  padding: 5px 12px;
+  border: none;
+  border-radius: var(--r-md);
+  background: transparent;
+  color: var(--text-muted);
+  font-family: var(--font-label);
+  font-size: 11px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all var(--dur) var(--ease);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.ff-toggle-btn.is-active {
+  background: var(--bg-elevated);
+  color: var(--text-primary);
+  box-shadow: var(--shadow-sm);
+}
+
+.ff-checklist-items {
+  display: flex;
+  flex-direction: column;
+  gap: var(--sp-1);
+  margin-bottom: var(--sp-2);
+}
+
+.ff-checklist-item {
+  display: flex;
+  align-items: center;
+  gap: var(--sp-2);
+}
+
+.ff-checklist-item input[type="text"] { flex: 1; }
+
+.ff-checklist-remove {
+  width: 26px; height: 26px;
+  border: none; border-radius: var(--r-full);
+  background: transparent; color: var(--text-disabled);
+  cursor: pointer; display: flex; align-items: center;
+  justify-content: center; font-size: 17px; flex-shrink: 0;
+  transition: all var(--dur) var(--ease);
+}
+
+.ff-checklist-remove:hover {
+  color: var(--color-danger);
+  background: var(--color-danger-bg);
+}
+
+.ff-add-item-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  font-size: var(--text-xs);
+  color: var(--accent);
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 3px 0;
+  font-family: var(--font-body);
+  transition: color var(--dur) var(--ease);
+}
+
+.ff-add-item-btn:hover { color: var(--accent-dim); }
+
+.ff-reminder-row {
+  display: flex;
+  align-items: center;
+  gap: var(--sp-2);
+  cursor: pointer;
+  font-size: var(--text-sm);
+  color: var(--text-secondary);
+  padding: 4px 0;
+}
+
+.ff-reminder-row input[type="checkbox"] {
+  accent-color: var(--accent);
+  cursor: pointer;
+}
+
+.ff-reminder-fields {
+  display: flex;
+  flex-direction: column;
+  gap: var(--sp-2);
+  padding: var(--sp-2) 0 0 var(--sp-5);
+}
+
+.ff-day-options {
+  display: flex;
+  gap: var(--sp-5);
+}
+
+.ff-day-option {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: var(--text-sm);
+  color: var(--text-secondary);
+  cursor: pointer;
+}
+
+.ff-day-option input { accent-color: var(--accent); cursor: pointer; }
+
+.ff-time-hint {
+  font-size: 10px;
+  color: var(--text-disabled);
+  font-family: var(--font-mono);
+}
+
+.focus-form-delete {
+  margin-right: auto;
+  font-size: var(--text-sm);
+  color: var(--color-danger);
+  background: transparent;
+  border: 1px solid transparent;
+  border-radius: var(--r-lg);
+  padding: 6px 10px;
+  cursor: pointer;
+  transition: all var(--dur) var(--ease);
+  font-family: var(--font-body);
+}
+
+.focus-form-delete:hover {
+  background: var(--color-danger-bg);
+  border-color: rgba(192,57,43,0.2);
+}
+
+/* ─── REMINDER NOTIFICATION ──────────────────────────────────────────────── */
+
+.focus-reminder-notif {
+  position: fixed;
+  top: calc(var(--topbar-h) + var(--sp-4));
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 500;
+  background: var(--bg-elevated);
+  border: 1px solid var(--accent-border);
+  border-left: 3px solid var(--accent);
+  border-radius: var(--r-2xl);
+  box-shadow: var(--shadow-lg);
+  padding: var(--sp-4) var(--sp-5);
+  min-width: 300px;
+  max-width: 400px;
+  animation: fade-in 0.2s var(--ease);
+}
+
+.focus-reminder-tag {
+  font-family: var(--font-mono);
+  font-size: 10px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--accent);
+  margin-bottom: 4px;
+}
+
+.focus-reminder-name {
+  font-size: var(--text-base);
+  font-weight: 600;
+  color: var(--text-primary);
+  margin-bottom: var(--sp-3);
+  line-height: 1.3;
+}
+
+.focus-reminder-actions {
+  display: flex;
+  gap: var(--sp-2);
+}
+
+/* ─── DARK THEME ADJUSTMENTS ─────────────────────────────────────────────── */
+
+[data-theme="dark"] .focus-widget {
+  background: var(--bg-secondary);
+}
+
+[data-theme="dark"] .focus-widget-header {
+  background: var(--bg-tertiary);
+}
+
+[data-theme="dark"] .focus-card {
+  background: var(--bg-tertiary);
+}
+
+[data-theme="dark"] .focus-popup,
+[data-theme="dark"] .focus-reminder-notif {
+  background: var(--bg-secondary);
+}

@@ -10,6 +10,7 @@ import { renderBriefing }                    from './widgets/briefing-widget.js'
 import { renderUnifiedNews }                 from './widgets/news-widget.js';
 import { renderCalendar }                    from './widgets/calendar-widget.js';
 import { renderTasks }                       from './widgets/tasks-widget.js';
+import { initFocusWidget }                  from './widgets/focus-widget.js';
 import { loadDataFile, bustCache }            from './api/data-loader.js';
 
 let appConfig    = null;
@@ -20,6 +21,7 @@ async function init() {
   appConfig = await loadConfig();
   applyWidgetVisibility(appConfig);
   initClock();
+  initFocusWidget();
   initAuth(appConfig);
   attachTopbarHandlers();
   attachSettingsPanel(appConfig);

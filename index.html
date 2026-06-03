@@ -12,6 +12,7 @@
 
   <link rel="stylesheet" href="css/main.css">
   <link rel="stylesheet" href="css/widgets.css">
+  <link rel="stylesheet" href="css/focus-widget.css">
 
   <script src="https://accounts.google.com/gsi/client" async defer></script>
 </head>
@@ -70,6 +71,25 @@
     </div>
   </div>
 </header>
+
+<!-- PAGE SHELL: focus sidebar + main content -->
+<div class="dashboard-outer">
+
+<!-- DNEVNI FOKUS SIDEBAR -->
+<aside class="focus-sidebar">
+  <div class="focus-widget">
+    <div class="focus-widget-header">
+      <svg class="focus-widget-icon" width="12" height="12" viewBox="0 0 12 12" fill="none" aria-hidden="true">
+        <rect x="1" y="2" width="10" height="1.5" rx=".75" fill="currentColor"/>
+        <rect x="1" y="5.25" width="7" height="1.5" rx=".75" fill="currentColor"/>
+        <rect x="1" y="8.5" width="8.5" height="1.5" rx=".75" fill="currentColor"/>
+      </svg>
+      <span class="focus-widget-title">Dnevni fokus</span>
+      <button class="focus-add-btn" id="focus-open-edit" title="Upravljaj taskovima">+</button>
+    </div>
+    <div class="focus-task-list" id="focus-task-list"></div>
+  </div>
+</aside>
 
 <!-- MAIN CONTENT -->
 <main class="dashboard" id="dashboard">
@@ -146,6 +166,8 @@
 
 </main>
 
+</div><!-- /.dashboard-outer -->
+
 <!-- TOAST -->
 <div id="toast-container" class="toast-container" aria-live="polite"></div>
 
@@ -189,6 +211,86 @@
   </div>
   <div class="settings-body" id="settings-body"></div>
 </aside>
+
+<!-- FOCUS EDIT MODAL (list of all tasks) -->
+<div id="focus-edit-overlay" class="modal-overlay hidden"></div>
+<div id="focus-edit-modal" class="modal hidden" style="width:min(520px,92vw)" role="dialog" aria-modal="true">
+  <div class="modal-header">
+    <h3 class="modal-title">Taskovi</h3>
+    <button class="btn-icon" id="focus-edit-close" aria-label="Zatvori">
+      <svg width="13" height="13" viewBox="0 0 13 13" fill="none"><path d="M1 1l11 11M12 1L1 12" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+    </button>
+  </div>
+  <div class="modal-body">
+    <div class="focus-edit-list" id="focus-edit-list"></div>
+    <button class="btn-primary" id="focus-add-new-btn" style="width:100%">+ Dodaj novi task</button>
+  </div>
+</div>
+
+<!-- FOCUS FORM MODAL (add / edit single task) -->
+<div id="focus-form-overlay" class="modal-overlay hidden" style="z-index:410"></div>
+<div id="focus-form-modal" class="modal hidden" style="width:min(480px,92vw);z-index:411" role="dialog" aria-modal="true">
+  <div class="modal-header">
+    <h3 class="modal-title" id="focus-form-title">Novi task</h3>
+    <button class="btn-icon" id="focus-form-close" aria-label="Zatvori">
+      <svg width="13" height="13" viewBox="0 0 13 13" fill="none"><path d="M1 1l11 11M12 1L1 12" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+    </button>
+  </div>
+  <div class="modal-body">
+    <!-- Name + Priority -->
+    <div style="display:flex;gap:var(--sp-3)">
+      <div style="flex:1">
+        <label class="ff-label" for="ff-name">Naziv *</label>
+        <input type="text" id="ff-name" class="modal-input" placeholder="Naziv taska…" maxlength="120">
+      </div>
+      <div style="width:90px">
+        <label class="ff-label" for="ff-priority">Prioritet</label>
+        <input type="number" id="ff-priority" class="modal-input" placeholder="–" min="1" max="999">
+      </div>
+    </div>
+
+    <!-- Content type toggle -->
+    <div>
+      <label class="ff-label">Sadržaj</label>
+      <div class="ff-content-toggle">
+        <button class="ff-toggle-btn is-active" id="ff-toggle-text">Tekst</button>
+        <button class="ff-toggle-btn" id="ff-toggle-list">Lista</button>
+      </div>
+      <div id="ff-text-wrap">
+        <textarea id="ff-text" class="modal-textarea" placeholder="Sadržaj taska…" rows="4"></textarea>
+      </div>
+      <div id="ff-checklist-wrap" style="display:none">
+        <div class="ff-checklist-items" id="ff-checklist-items"></div>
+        <button class="ff-add-item-btn" id="ff-add-item">+ Dodaj stavku</button>
+      </div>
+    </div>
+
+    <!-- Reminder -->
+    <div>
+      <label class="ff-reminder-row">
+        <input type="checkbox" id="ff-reminder-on">
+        <span>Dodaj podsjetnik</span>
+      </label>
+      <div id="ff-reminder-fields" style="display:none">
+        <div class="ff-day-options">
+          <label class="ff-day-option">
+            <input type="radio" name="ff-day" value="today" checked> Danas
+          </label>
+          <label class="ff-day-option">
+            <input type="radio" name="ff-day" value="tomorrow"> Sutra
+          </label>
+        </div>
+        <input type="time" id="ff-time" class="modal-input" style="width:140px">
+        <span class="ff-time-hint" id="ff-time-hint"></span>
+      </div>
+    </div>
+  </div>
+  <div class="modal-footer">
+    <button class="focus-form-delete" id="focus-form-delete" style="display:none">Obriši task</button>
+    <button class="btn-secondary" id="focus-form-cancel">Odustani</button>
+    <button class="btn-primary"   id="focus-form-save">Spremi</button>
+  </div>
+</div>
 
 <script type="module" src="js/app.js"></script>
 </body>
