@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-03T20:00:59.258Z",
+  "generated_at": "2026-06-03T22:22:52.215Z",
   "stats": {
     "Mochvara": {
       "ok": true,
@@ -17,15 +17,15 @@
       "ok": true,
       "count": 0
     },
-    "Gavella": {
-      "ok": true,
-      "count": 0
-    },
     "Tvornica": {
       "ok": true,
       "count": 3
     },
-    "Kerempuh": {
+    "Gavella": {
+      "ok": true,
+      "count": 0
+    },
+    "ZeKaeM": {
       "ok": true,
       "count": 0
     },
@@ -33,11 +33,11 @@
       "ok": true,
       "count": 0
     },
-    "Komedija": {
+    "Kerempuh": {
       "ok": true,
       "count": 0
     },
-    "ZeKaeM": {
+    "Komedija": {
       "ok": true,
       "count": 0
     },
@@ -796,6 +796,21 @@
       "source": "HNK Zagreb",
       "is_new": false,
       "first_seen": "2026-05-26T20:26:55.235Z"
+    },
+    {
+      "id": "e884606237",
+      "title": "Sting",
+      "venue": "Sting Arena Zagreb Lanište bb",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-06-17T00:00:00",
+      "date_display": "sri, 17. 06. 2026.",
+      "time": null,
+      "link": "https://www.muzika.hr/event/sting-4/",
+      "source": "muzika.hr",
+      "is_new": true,
+      "first_seen": "2026-06-03T22:22:52.215Z"
     },
     {
       "id": "8054ce8a1e",
@@ -1625,7 +1640,22 @@
       "source": "muzika.hr",
       "is_new": false,
       "first_seen": "2026-06-01T05:00:53.300Z"
+    },
+    {
+      "id": "e39305acdf",
+      "title": "Lenny Kravitz",
+      "venue": "Nikole Tesle bb",
+      "city": "Beograd",
+      "country": "RS",
+      "category": "concert",
+      "date_iso": "2026-06-17T00:00:00",
+      "date_display": "sri, 17. 06. 2026.",
+      "time": null,
+      "link": "https://www.muzika.hr/event/lenny-kravitz-4/",
+      "source": "muzika.hr",
+      "is_new": true,
+      "first_seen": "2026-06-03T22:22:52.215Z"
     }
   ],
-  "new_count": 0
+  "new_count": 2
 }
