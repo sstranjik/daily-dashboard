@@ -1,15 +1,24 @@
 {
   "version": 2,
-  "date": "2026-06-02",
-  "generated_at": "2026-06-02T20:19:38.013Z",
-  "date_hr": "Utorak, 2. lipnja 2026.",
+  "date": "2026-06-03",
+  "generated_at": "2026-06-03T05:02:30.188Z",
+  "date_hr": "Srijeda, 3. lipnja 2026.",
   "weather": {
-    "icon": "🌫️",
-    "summary": "14–27°C, magla",
-    "alerts": []
+    "icon": "⛈️",
+    "summary": "16–21°C, grmljavina s gradom · 46.1 mm",
+    "alerts": [
+      {
+        "level": "warning",
+        "text": "Obilne padaline: 46.1 mm"
+      },
+      {
+        "level": "warning",
+        "text": "Grmljavinska oluja"
+      }
+    ]
   },
   "fuel": {
-    "current_date": "02.06.2026",
+    "current_date": "03.06.2026",
     "eurodiesel": [
       {
         "company": "Adria Oil",
@@ -46,12 +55,12 @@
         "price": 1.8
       },
       {
-        "company": "Petrol",
-        "price": 1.81
+        "company": "Tifon",
+        "price": 1.8
       },
       {
-        "company": "Tifon",
-        "price": 1.88
+        "company": "Petrol",
+        "price": 1.83
       },
       {
         "company": "Coral Croatia",
@@ -63,11 +72,11 @@
     "upcoming_premium": null
   },
   "market": {
-    "updated_at": "2026-06-02T20:19:38.013Z",
-    "btc_usd": 67136,
-    "btc_eur": 57710,
-    "btc_change_24h": -6.1,
-    "usd_eur": 0.8596
+    "updated_at": "2026-06-03T05:02:30.188Z",
+    "btc_usd": 66439,
+    "btc_eur": 57149,
+    "btc_change_24h": -5.9,
+    "usd_eur": 0.8598
   },
   "ai_news": [
     {
@@ -81,6 +90,11 @@
       "source": "TechCrunch AI"
     },
     {
+      "title": "Alibaba's Qwen3.7-Plus supports text, video and imagery inputs at low cost of $0.4/$1.6 per 1M token — but it's proprietary",
+      "link": "https://venturebeat.com/technology/alibabas-qwen3-7-plus-supports-text-video-and-imagery-inputs-at-low-cost-of-0-4-1-6-per-1m-token-but-its-proprietary",
+      "source": "VentureBeat"
+    },
+    {
       "title": "Enterprise AI agents keep creating data silos. Microsoft's Build answer is Microsoft IQ and Rayfin.",
       "link": "https://venturebeat.com/data/enterprise-ai-agents-keep-creating-data-silos-microsofts-build-answer-is-microsoft-iq-and-rayfin",
       "source": "VentureBeat"
@@ -89,20 +103,15 @@
       "title": "Microsoft launches MXC, an OS-level sandbox for AI agents, with OpenAI and Nvidia already on board",
       "link": "https://venturebeat.com/security/microsoft-launches-mxc-an-os-level-sandbox-for-ai-agents-with-openai-and-nvidia-already-on-board",
       "source": "VentureBeat"
-    },
-    {
-      "title": "OpenAI's Codex update lets agents build interactive enterprise workspaces via Sites and role-specific plugins",
-      "link": "https://venturebeat.com/orchestration/openais-codex-update-lets-agents-build-interactive-enterprise-workspaces-via-sites-and-role-specific-plugins",
-      "source": "VentureBeat"
     }
   ],
   "micro_tips": {
     "vscode": {
-      "tip": "Quick Fix i Code Actions na trenutnoj poziciji",
-      "keys": "Ctrl+."
+      "tip": "Toggle integrirani terminal",
+      "keys": "Ctrl+`"
     },
-    "sql": "Window funkcije (ROW_NUMBER, LAG, LEAD) umjesto self-join za redosljed i razlike",
-    "oracle": "/*+ RESULT_CACHE */ cache-ira rezultat funkcije u SGA za ponovljene pozive",
-    "regex": ".+? lazy quantifier: stane na prvom mogućem podudaranju, ne zadnjem"
+    "sql": "EXPLAIN ANALYZE prikazuje stvarne vs procijenjene redove — ključno za tuning",
+    "oracle": "CONNECT BY LEVEL <= n generira broj redova bez pomoćne tablice",
+    "regex": "[^\\n]* svaki znak osim newline — dohvati cijelu liniju bez dotall flaga"
   }
 }
