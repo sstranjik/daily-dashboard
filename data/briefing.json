@@ -1,16 +1,12 @@
 {
   "version": 2,
   "date": "2026-06-03",
-  "generated_at": "2026-06-03T05:02:30.188Z",
+  "generated_at": "2026-06-03T09:24:34.173Z",
   "date_hr": "Srijeda, 3. lipnja 2026.",
   "weather": {
     "icon": "⛈️",
-    "summary": "16–21°C, grmljavina s gradom · 46.1 mm",
+    "summary": "16–21°C, grmljavina · 23.2 mm",
     "alerts": [
-      {
-        "level": "warning",
-        "text": "Obilne padaline: 46.1 mm"
-      },
       {
         "level": "warning",
         "text": "Grmljavinska oluja"
@@ -72,10 +68,10 @@
     "upcoming_premium": null
   },
   "market": {
-    "updated_at": "2026-06-03T05:02:30.188Z",
-    "btc_usd": 66439,
-    "btc_eur": 57149,
-    "btc_change_24h": -5.9,
+    "updated_at": "2026-06-03T09:24:34.173Z",
+    "btc_usd": 66755,
+    "btc_eur": 57478,
+    "btc_change_24h": -3.79,
     "usd_eur": 0.8598
   },
   "ai_news": [
@@ -90,6 +86,11 @@
       "source": "TechCrunch AI"
     },
     {
+      "title": "ChatGPT hits 1 billion monthly users faster than any app before it",
+      "link": "https://thenextweb.com/news/chatgpt-1-billion-monthly-active-users",
+      "source": "The Next Web"
+    },
+    {
       "title": "Alibaba's Qwen3.7-Plus supports text, video and imagery inputs at low cost of $0.4/$1.6 per 1M token — but it's proprietary",
       "link": "https://venturebeat.com/technology/alibabas-qwen3-7-plus-supports-text-video-and-imagery-inputs-at-low-cost-of-0-4-1-6-per-1m-token-but-its-proprietary",
       "source": "VentureBeat"
@@ -97,11 +98,6 @@
     {
       "title": "Enterprise AI agents keep creating data silos. Microsoft's Build answer is Microsoft IQ and Rayfin.",
       "link": "https://venturebeat.com/data/enterprise-ai-agents-keep-creating-data-silos-microsofts-build-answer-is-microsoft-iq-and-rayfin",
-      "source": "VentureBeat"
-    },
-    {
-      "title": "Microsoft launches MXC, an OS-level sandbox for AI agents, with OpenAI and Nvidia already on board",
-      "link": "https://venturebeat.com/security/microsoft-launches-mxc-an-os-level-sandbox-for-ai-agents-with-openai-and-nvidia-already-on-board",
       "source": "VentureBeat"
     }
   ],
