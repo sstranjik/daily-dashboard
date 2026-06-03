@@ -1,7 +1,11 @@
 {
-  "generated_at": "2026-06-03T07:00:57.228Z",
+  "generated_at": "2026-06-03T08:01:04.346Z",
   "stats": {
     "Mochvara": {
+      "ok": true,
+      "count": 0
+    },
+    "Pogon": {
       "ok": true,
       "count": 0
     },
@@ -9,15 +13,7 @@
       "ok": true,
       "count": 25
     },
-    "Pogon": {
-      "ok": true,
-      "count": 0
-    },
     "Lisinski": {
-      "ok": true,
-      "count": 0
-    },
-    "Gavella": {
       "ok": true,
       "count": 0
     },
@@ -25,9 +21,9 @@
       "ok": true,
       "count": 0
     },
-    "Tvornica": {
+    "Gavella": {
       "ok": true,
-      "count": 3
+      "count": 0
     },
     "Trešnja": {
       "ok": true,
@@ -44,6 +40,10 @@
     "HNK Zagreb": {
       "ok": true,
       "count": 34
+    },
+    "Tvornica": {
+      "ok": false,
+      "error": "fetch failed"
     }
   },
   "concerts": [
