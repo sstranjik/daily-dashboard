@@ -1,20 +1,15 @@
 {
   "version": 2,
-  "date": "2026-06-03",
-  "generated_at": "2026-06-03T09:24:34.173Z",
-  "date_hr": "Srijeda, 3. lipnja 2026.",
+  "date": "2026-06-04",
+  "generated_at": "2026-06-04T05:02:29.206Z",
+  "date_hr": "Četvrtak, 4. lipnja 2026.",
   "weather": {
-    "icon": "⛈️",
-    "summary": "16–21°C, grmljavina · 23.2 mm",
-    "alerts": [
-      {
-        "level": "warning",
-        "text": "Grmljavinska oluja"
-      }
-    ]
+    "icon": "☁️",
+    "summary": "12–24°C, oblačno",
+    "alerts": []
   },
   "fuel": {
-    "current_date": "03.06.2026",
+    "current_date": "04.06.2026",
     "eurodiesel": [
       {
         "company": "Adria Oil",
@@ -68,46 +63,46 @@
     "upcoming_premium": null
   },
   "market": {
-    "updated_at": "2026-06-03T09:24:34.173Z",
-    "btc_usd": 66755,
-    "btc_eur": 57478,
-    "btc_change_24h": -3.79,
-    "usd_eur": 0.8598
+    "updated_at": "2026-06-04T05:02:29.206Z",
+    "btc_usd": 64244,
+    "btc_eur": 55337,
+    "btc_change_24h": -3.67,
+    "usd_eur": 0.8616
   },
   "ai_news": [
     {
-      "title": "Build 2026: Microsoft's MDASH exits preview with 100+ specialized threat-hunting AI agents",
-      "link": "https://www.zdnet.com/article/build-2026-mdash-security-ai-agents/",
-      "source": "ZDNet"
+      "title": "Kad softver dobije tijelo: gdje cloud završava, a Physical AI počinje",
+      "link": "https://www.bug.hr/robotika/kad-softver-dobije-tijelo-gdje-cloud-zavrsava-a-physical-ai-pocinje-60316",
+      "source": "Bug.hr"
     },
     {
-      "title": "Anthropic scales Claude Mythos  to critical infrastructure in 15+ countries",
-      "link": "https://techcrunch.com/2026/06/02/anthropic-scales-claude-mythos-to-critical-infrastructure-in-15-countries/",
+      "title": "Lovable signs multiyear deal with Google Cloud to up usage 5x, source says",
+      "link": "https://techcrunch.com/2026/06/03/lovable-signs-multi-year-deal-with-google-cloud-to-up-usage-5x-source-says/",
       "source": "TechCrunch AI"
     },
     {
-      "title": "ChatGPT hits 1 billion monthly users faster than any app before it",
-      "link": "https://thenextweb.com/news/chatgpt-1-billion-monthly-active-users",
+      "title": "How to use ChatGPT: A beginner's guide to mastering OpenAI's chatbot in 2026",
+      "link": "https://www.zdnet.com/article/how-to-use-chatgpt-ai-chatbot-beginners-guide/",
+      "source": "ZDNet"
+    },
+    {
+      "title": "Anthropic picks Morgan Stanley and Goldman Sachs to lead its IPO, with a SpaceX computing deal worth $1.25 billion per month buried in the fine print",
+      "link": "https://thenextweb.com/news/anthropic-morgan-stanley-goldman-sachs-ipo-lead-banks",
       "source": "The Next Web"
     },
     {
-      "title": "Alibaba's Qwen3.7-Plus supports text, video and imagery inputs at low cost of $0.4/$1.6 per 1M token — but it's proprietary",
-      "link": "https://venturebeat.com/technology/alibabas-qwen3-7-plus-supports-text-video-and-imagery-inputs-at-low-cost-of-0-4-1-6-per-1m-token-but-its-proprietary",
-      "source": "VentureBeat"
-    },
-    {
-      "title": "Enterprise AI agents keep creating data silos. Microsoft's Build answer is Microsoft IQ and Rayfin.",
-      "link": "https://venturebeat.com/data/enterprise-ai-agents-keep-creating-data-silos-microsofts-build-answer-is-microsoft-iq-and-rayfin",
-      "source": "VentureBeat"
+      "title": "As AI gets better, it reveals an empty promise",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/942629/as-ai-gets-better-it-reveals-an-empty-promise",
+      "source": "The Verge"
     }
   ],
   "micro_tips": {
     "vscode": {
-      "tip": "Toggle integrirani terminal",
-      "keys": "Ctrl+`"
+      "tip": "Selektiraj sva pojavljivanja trenutne riječi",
+      "keys": "Ctrl+Shift+L"
     },
-    "sql": "EXPLAIN ANALYZE prikazuje stvarne vs procijenjene redove — ključno za tuning",
-    "oracle": "CONNECT BY LEVEL <= n generira broj redova bez pomoćne tablice",
-    "regex": "[^\\n]* svaki znak osim newline — dohvati cijelu liniju bez dotall flaga"
+    "sql": "Partial index s WHERE klauzulom smanjuje veličinu i ubrzava specifična filtriranja",
+    "oracle": "LISTAGG(col, ',') WITHIN GROUP (ORDER BY col) konkatenira u jedan string",
+    "regex": "(?<ime>\\d{4}) named group — referenciraj s \\k<ime> ili $<ime> u replace"
   }
 }
