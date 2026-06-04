@@ -1,21 +1,13 @@
 {
-  "generated_at": "2026-06-04T05:00:53.007Z",
+  "generated_at": "2026-06-04T06:01:03.120Z",
   "stats": {
-    "Lisinski": {
-      "ok": true,
-      "count": 0
-    },
-    "Mochvara": {
-      "ok": true,
-      "count": 11
-    },
     "Gavella": {
       "ok": true,
       "count": 0
     },
-    "muzika.hr": {
+    "Lisinski": {
       "ok": true,
-      "count": 25
+      "count": 0
     },
     "Tvornica": {
       "ok": true,
@@ -25,6 +17,10 @@
       "ok": true,
       "count": 0
     },
+    "muzika.hr": {
+      "ok": true,
+      "count": 25
+    },
     "Komedija": {
       "ok": true,
       "count": 0
@@ -33,17 +29,21 @@
       "ok": true,
       "count": 0
     },
-    "HNK Zagreb": {
-      "ok": true,
-      "count": 34
-    },
     "Kerempuh": {
       "ok": true,
       "count": 0
     },
+    "HNK Zagreb": {
+      "ok": true,
+      "count": 34
+    },
     "Trešnja": {
       "ok": true,
       "count": 0
+    },
+    "Mochvara": {
+      "ok": true,
+      "count": 11
     }
   },
   "concerts": [
@@ -584,7 +584,7 @@
       "time": "12:00",
       "link": "https://mochvara.hr/event-detail/6a199f48371549180132b664/?lang=hr",
       "source": "Mochvara",
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-06-04T05:00:53.007Z"
     },
     {
@@ -1672,5 +1672,5 @@
       "first_seen": "2026-06-03T22:22:52.215Z"
     }
   ],
-  "new_count": 1
+  "new_count": 0
 }
