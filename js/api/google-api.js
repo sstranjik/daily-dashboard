@@ -55,20 +55,30 @@ export async function fetchCalendarEvents(token, calendarId = 'primary') {
 export async function fetchAllCalendarEvents(token) {
   // 1. Get list of all calendars the user has
   const calList   = await fetchCalendarList(token);
-  const calendars = (calList.items ?? []).filter(cal => cal.selected !== false);
+
+  const _isBirthdayCal = cal =>
+    /birthday|ro[đd]endan/i.test(cal.summary ?? '') ||
+    /[#@]contacts|birthday/i.test(cal.id ?? '');   // #contacts@group.v.calendar.google.com
+
+  const calendars = (calList.items ?? []).filter(cal =>
+    // Always include birthday calendars even if user hasn't "selected" them in
+    // Google Calendar UI — their selected flag defaults to false but they still
+    // contain valid events we want to show.
+    cal.selected !== false || _isBirthdayCal(cal)
+  );
 
   // 2. Fetch events from every calendar in parallel; ignore individual failures
   const results = await Promise.allSettled(
     calendars.map(cal => {
       const isHolidayCal  = /holiday|blagdan|praznik/i.test(cal.summary);
-      const isBirthdayCal = /birthday|ro[đd]endan/i.test(cal.summary);
+      const isBirthdayCal = _isBirthdayCal(cal);
       return fetchCalendarEvents(token, cal.id).then(data =>
         (data.items ?? []).map(ev => ({
           ...ev,
           _calColor:   ev.colorId ? null : cal.backgroundColor,
           _calName:    cal.summary,
           _isHoliday:  isHolidayCal,
-          // Detect birthday by calendar name OR by event title
+          // Detect birthday by calendar name/ID OR by event title
           // (catches "Damir Lolić's birthday" in any calendar)
           _isBirthday: isBirthdayCal ||
             /\bbirthday\b|ro[đd]endan/i.test(ev.summary ?? ''),
