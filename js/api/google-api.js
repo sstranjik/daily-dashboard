@@ -60,6 +60,27 @@ export async function fetchAllCalendarEvents(token) {
     /birthday|ro[đd]endan/i.test(cal.summary ?? '') ||
     /[#@]contacts|birthday/i.test(cal.id ?? '');   // #contacts@group.v.calendar.google.com
 
+  /**
+   * Determines if a calendar event is a birthday.
+   * Priority order — never relies on event title alone:
+   *   1. From a birthday/contacts calendar (most reliable)
+   *   2. Google's own eventType field = "birthday"
+   *   3. All-day + recurring annually (user-created annual reminder)
+   * Title matching is intentionally excluded to avoid false positives
+   * like "Organiziramo proslavu za Tomislavov rođendan".
+   */
+  const _isBirthdayEvent = (ev, calIsBirthday) => {
+    if (calIsBirthday) return true;
+    if (ev.eventType === 'birthday') return true;
+    // All-day event that recurs every year → birthday or anniversary
+    // (both deserve birthday-style highlighting in the calendar)
+    if (
+      ev.start?.date && !ev.start?.dateTime &&
+      ev.recurrence?.some(r => /FREQ=YEARLY/i.test(r))
+    ) return true;
+    return false;
+  };
+
   const calendars = (calList.items ?? []).filter(cal =>
     // Always include birthday calendars even if user hasn't "selected" them in
     // Google Calendar UI — their selected flag defaults to false but they still
@@ -80,8 +101,7 @@ export async function fetchAllCalendarEvents(token) {
           _isHoliday:  isHolidayCal,
           // Detect birthday by calendar name/ID OR by event title
           // (catches "Damir Lolić's birthday" in any calendar)
-          _isBirthday: isBirthdayCal ||
-            /\bbirthday\b|ro[đd]endan/i.test(ev.summary ?? ''),
+          _isBirthday: _isBirthdayEvent(ev, isBirthdayCal),
         }))
       );
     })
