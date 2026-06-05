@@ -1,10 +1,6 @@
 {
-  "generated_at": "2026-06-05T05:00:57.084Z",
+  "generated_at": "2026-06-05T06:00:58.294Z",
   "stats": {
-    "muzika.hr": {
-      "ok": true,
-      "count": 25
-    },
     "Mochvara": {
       "ok": true,
       "count": 11
@@ -17,6 +13,10 @@
       "ok": true,
       "count": 0
     },
+    "muzika.hr": {
+      "ok": true,
+      "count": 25
+    },
     "Tvornica": {
       "ok": true,
       "count": 3
@@ -25,11 +25,11 @@
       "ok": true,
       "count": 0
     },
-    "Pogon": {
+    "ZeKaeM": {
       "ok": true,
       "count": 0
     },
-    "ZeKaeM": {
+    "Pogon": {
       "ok": true,
       "count": 0
     },
@@ -599,7 +599,7 @@
       "time": "20:00",
       "link": "https://mochvara.hr/event-detail/69f9a05ad979744f25d49ce9/?lang=hr",
       "source": "Mochvara",
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-06-05T05:00:57.084Z"
     },
     {
@@ -854,7 +854,7 @@
       "time": null,
       "link": "https://www.muzika.hr/event/high-vis/",
       "source": "muzika.hr",
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-06-05T05:00:57.084Z"
     },
     {
@@ -1702,5 +1702,5 @@
       "first_seen": "2026-06-03T22:22:52.215Z"
     }
   ],
-  "new_count": 2
+  "new_count": 0
 }
