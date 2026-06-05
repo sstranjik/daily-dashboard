@@ -1,15 +1,15 @@
 {
   "version": 2,
-  "date": "2026-06-04",
-  "generated_at": "2026-06-04T08:46:28.786Z",
-  "date_hr": "Četvrtak, 4. lipnja 2026.",
+  "date": "2026-06-05",
+  "generated_at": "2026-06-05T05:02:48.332Z",
+  "date_hr": "Petak, 5. lipnja 2026.",
   "weather": {
-    "icon": "🌫️",
-    "summary": "12–24°C, magla",
+    "icon": "🌧️",
+    "summary": "15–23°C, lagana kiša · 1.8 mm",
     "alerts": []
   },
   "fuel": {
-    "current_date": "04.06.2026",
+    "current_date": "05.06.2026",
     "eurodiesel": [
       {
         "company": "Adria Oil",
@@ -63,46 +63,46 @@
     "upcoming_premium": null
   },
   "market": {
-    "updated_at": "2026-06-04T08:46:28.786Z",
-    "btc_usd": 63363,
-    "btc_eur": 54586,
-    "btc_change_24h": -5.39,
-    "usd_eur": 0.8616
+    "updated_at": "2026-06-05T05:02:48.332Z",
+    "btc_usd": 63464,
+    "btc_eur": 54634,
+    "btc_change_24h": -0.9,
+    "usd_eur": 0.8605
   },
   "ai_news": [
     {
-      "title": "Kad softver dobije tijelo: gdje cloud završava, a Physical AI počinje",
-      "link": "https://www.bug.hr/robotika/kad-softver-dobije-tijelo-gdje-cloud-zavrsava-a-physical-ai-pocinje-60316",
-      "source": "Bug.hr"
+      "title": "Anthropic says 80% of its new production code is now authored by Claude — how your enterprise can keep up",
+      "link": "https://venturebeat.com/technology/anthropic-says-80-of-its-new-production-code-is-now-authored-by-claude-how-your-enterprise-can-keep-up",
+      "source": "VentureBeat"
     },
     {
-      "title": "Lovable signs multiyear deal with Google Cloud to up usage 5x, source says",
-      "link": "https://techcrunch.com/2026/06/03/lovable-signs-multi-year-deal-with-google-cloud-to-up-usage-5x-source-says/",
-      "source": "TechCrunch AI"
-    },
-    {
-      "title": "How to use ChatGPT: A beginner's guide to mastering OpenAI's chatbot in 2026",
-      "link": "https://www.zdnet.com/article/how-to-use-chatgpt-ai-chatbot-beginners-guide/",
-      "source": "ZDNet"
-    },
-    {
-      "title": "Anthropic picks Morgan Stanley and Goldman Sachs to lead its IPO, with a SpaceX computing deal worth $1.25 billion per month buried in the fine print",
-      "link": "https://thenextweb.com/news/anthropic-morgan-stanley-goldman-sachs-ipo-lead-banks",
+      "title": "A single GitHub issue could have hijacked Anthropic’s own Claude Code action and poisoned every project that uses it",
+      "link": "https://thenextweb.com/news/claude-code-github-action-prompt-injection-flaw",
       "source": "The Next Web"
     },
     {
-      "title": "As AI gets better, it reveals an empty promise",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/942629/as-ai-gets-better-it-reveals-an-empty-promise",
-      "source": "The Verge"
+      "title": "Databricks CEO calls 2026 “a terrible year to go public” as SpaceX, Anthropic, and OpenAI prepare to absorb $200 billion in IPO capital",
+      "link": "https://thenextweb.com/news/databricks-ceo-calls-2026-a-terrible-year-to-go-public-as-spacex-anthropic-and-openai-prepare-to-absorb-200-billion-in-ipo-capital",
+      "source": "The Next Web"
+    },
+    {
+      "title": "Microsoft’s AI chief says the company wants to “eliminate” what it pays Anthropic",
+      "link": "https://thenextweb.com/news/microsofts-ai-chief-says-the-company-wants-to-eliminate-what-it-pays-anthropic",
+      "source": "The Next Web"
+    },
+    {
+      "title": "Is Microsoft 365 Premium worth it? What $20 a month gets you - and how it compares to ChatGPT Plus",
+      "link": "https://www.zdnet.com/article/is-microsoft-365-premium-worth-it-vs-chatgpt-plus/",
+      "source": "ZDNet"
     }
   ],
   "micro_tips": {
     "vscode": {
-      "tip": "Selektiraj sva pojavljivanja trenutne riječi",
-      "keys": "Ctrl+Shift+L"
+      "tip": "Pomakni liniju gore ili dolje bez cut/paste",
+      "keys": "Alt+↑ / Alt+↓"
     },
-    "sql": "Partial index s WHERE klauzulom smanjuje veličinu i ubrzava specifična filtriranja",
-    "oracle": "LISTAGG(col, ',') WITHIN GROUP (ORDER BY col) konkatenira u jedan string",
-    "regex": "(?<ime>\\d{4}) named group — referenciraj s \\k<ime> ili $<ime> u replace"
+    "sql": "GROUP BY s ROLLUP za subtotale u jednom prolasku: GROUP BY ROLLUP(god, mj)",
+    "oracle": "TRUNC(datum_kolona) = TRUNC(SYSDATE) koristi B-tree index na datumskoj koloni",
+    "regex": "\\d{4}-\\d{2}-\\d{2} ISO datum pattern; za validaciju zatvori s ^...$"
   }
 }
