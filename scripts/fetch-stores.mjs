@@ -254,8 +254,7 @@ function matchChain(storeName) {
 }
 
 /**
- * Build hours for a store from the static table.
- * Falls back to Gemini for unknown chains (optional, best-effort).
+ * Build hours for a store from the static table (fallback when no OSM data).
  */
 function hoursFromTable(chain, nonWorkingDays) {
   const entry = CHAIN_HOURS[chain];
@@ -269,6 +268,96 @@ function hoursFromTable(chain, nonWorkingDays) {
       time: src?.open && src?.time ? src.time : null,
     };
   });
+}
+
+// ─── OSM OPENING HOURS PARSER ────────────────────────────────────────────────
+/**
+ * Parse an OSM opening_hours string to extract Sunday and public holiday rules.
+ *
+ * Handles common Croatian supermarket formats:
+ *   "Mo-Sa 07:00-21:00; Su 08:00-14:00"
+ *   "Mo-Su 07:00-21:00"
+ *   "Mo-Sa 07:00-22:00; Su off"
+ *   "Mo-Sa 07:00-21:00; PH off"
+ *   "Mo-Sa 07:00-21:00; Su 08:00-14:00; PH off"
+ *   "24/7"
+ *
+ * Returns { sunday: {open,time}|null, holiday: {open,time}|null }
+ * or null if the string cannot be parsed at all.
+ */
+function parseOsmHours(osmStr) {
+  if (!osmStr) return null;
+  if (osmStr.trim() === '24/7') return { sunday: { open: true, time: '00:00-24:00' }, holiday: { open: true, time: '00:00-24:00' } };
+
+  const DAY_IDX = { Mo:0, Tu:1, We:2, Th:3, Fr:4, Sa:5, Su:6 };
+  // day results indexed 0-6; index 7 = PH (public holiday)
+  const slots = new Array(8).fill(null);
+
+  // Split on semicolons only — commas inside rules are intervals, not rule separators
+  const rules = osmStr.split(';').map(r => r.trim()).filter(Boolean);
+
+  for (const rule of rules) {
+    // Each rule: "[day_spec] [hours_spec]"
+    // day_spec: Mo, Tu-Fr, Sa, Su, PH, Mo-Sa, etc.
+    // hours_spec: HH:MM-HH:MM  or  off / closed
+    const m = rule.match(/^((?:(?:Mo|Tu|We|Th|Fr|Sa|Su)(?:-(?:Mo|Tu|We|Th|Fr|Sa|Su))?|PH)(?:,(?:Mo|Tu|We|Th|Fr|Sa|Su|PH))*)\s+(.+)$/i);
+    if (!m) continue;
+
+    const daySpec  = m[1];
+    // Take only the first time range (ignore ", Su Closed" data-quality noise after comma)
+    const hoursRaw = m[2].split(',')[0].trim();
+
+    const isOff  = /^(off|closed)$/i.test(hoursRaw);
+    const timeM  = hoursRaw.match(/^(\d{1,2}:\d{2})-(\d{1,2}:\d{2})$/);
+    if (!isOff && !timeM) continue; // unparseable hours spec
+
+    const entry = isOff ? { open: false, time: null }
+                        : { open: true,  time: hoursRaw };
+
+    // Expand day specification into slot indices
+    const dayParts = daySpec.split(',');
+    for (const dp of dayParts) {
+      if (/^PH$/i.test(dp)) {
+        slots[7] = entry;
+        continue;
+      }
+      const rangeM = dp.match(/^(Mo|Tu|We|Th|Fr|Sa|Su)-(Mo|Tu|We|Th|Fr|Sa|Su)$/i);
+      if (rangeM) {
+        const si = DAY_IDX[rangeM[1]]; const ei = DAY_IDX[rangeM[2]];
+        if (si !== undefined && ei !== undefined)
+          for (let i = si; i <= ei; i++) slots[i] = entry;
+      } else {
+        const idx = DAY_IDX[dp];
+        if (idx !== undefined) slots[idx] = entry;
+      }
+    }
+  }
+
+  // If no Sunday or PH slot was explicitly set but Mo-Sa range covers everything,
+  // Sunday stays null (= no data, not "closed").
+  return { sunday: slots[6], holiday: slots[7] };
+}
+
+/**
+ * Build hours array for non-working days using OSM opening_hours string.
+ * Returns null when OSM data is missing, unparseable, or covers none of the days.
+ */
+function hoursFromOsm(osmStr, nonWorkingDays) {
+  const parsed = parseOsmHours(osmStr);
+  if (!parsed) return null;
+
+  const results = [];
+  for (const d of nonWorkingDays) {
+    // Holiday: use PH entry if present; otherwise fall back to Sunday rule.
+    // Sunday: use Su entry directly.
+    const entry = d.type === 'holiday'
+      ? (parsed.holiday ?? parsed.sunday)
+      : parsed.sunday;
+
+    if (!entry) continue;  // no OSM data for this day type → skip (caller uses table)
+    results.push({ date: d.date, open: entry.open, time: entry.time });
+  }
+  return results.length > 0 ? results : null;
 }
 
 /**
@@ -587,23 +676,33 @@ async function main() {
     }
   }
 
-  // 3b. Match each store to static hours table; unknown chains → Gemini fallback
+  // 3b. Match each store to hours; priority: Studenac scraper > OSM tag > static table
   const results = [];
   const unknownChains = new Set();
 
   for (const store of stores) {
     const chain = matchChain(store.name);
     let hours;
+    let src;
 
     if (chain === 'Studenac' && studenacOverrides.has(store.osm_id)) {
-      // Use scraped actual hours from studenac.hr
+      // Studenac: use scraped actual hours from studenac.hr (most accurate)
       hours = studenacOverrides.get(store.osm_id);
+      src   = 'website';
     } else if (chain) {
-      // Known chain — use static table, no API call
-      hours = hoursFromTable(chain, nonWorkingDays);
-      const openDays = hours.filter(h => h.open).length;
-      const src = chain === 'Studenac' ? 'static fallback' : chain;
-      console.log(`  ✓ ${store.name}${store.address ? ' · ' + store.address : ''} (${src}): ${openDays} open day(s)`);
+      // For all known chains: prefer OSM opening_hours tag when available
+      // (per-location data beats generic chain defaults)
+      const osmHours = hoursFromOsm(store.opening_hours_osm, nonWorkingDays);
+      if (osmHours) {
+        hours = osmHours;
+        src   = 'OSM';
+      } else {
+        hours = hoursFromTable(chain, nonWorkingDays);
+        src   = chain === 'Studenac' ? 'static fallback' : 'static';
+      }
+      const openDays = (hours || []).filter(h => h.open).length;
+      const addr = store.address ? ` · ${store.address}` : '';
+      console.log(`  ✓ ${store.name}${addr} [${src}]: ${openDays} open day(s)`);
     } else {
       // Unknown chain — queue for Gemini (best-effort)
       unknownChains.add(store.name);
