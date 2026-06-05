@@ -1,25 +1,29 @@
 {
-  "generated_at": "2026-06-05T12:29:49.449Z",
+  "generated_at": "2026-06-05T13:01:04.875Z",
   "stats": {
     "muzika.hr": {
       "ok": true,
       "count": 25
     },
+    "Gavella": {
+      "ok": true,
+      "count": 0
+    },
     "Lisinski": {
       "ok": true,
       "count": 0
     },
-    "Gavella": {
+    "Mochvara": {
       "ok": true,
-      "count": 0
+      "count": 11
     },
     "Tvornica": {
       "ok": true,
       "count": 3
     },
-    "Mochvara": {
+    "ZeKaeM": {
       "ok": true,
-      "count": 11
+      "count": 0
     },
     "Komedija": {
       "ok": true,
@@ -29,17 +33,13 @@
       "ok": true,
       "count": 0
     },
-    "ZeKaeM": {
+    "Kerempuh": {
       "ok": true,
       "count": 0
     },
     "HNK Zagreb": {
       "ok": true,
-      "count": 34
-    },
-    "Kerempuh": {
-      "ok": true,
-      "count": 0
+      "count": 35
     },
     "Trešnja": {
       "ok": true,
@@ -811,6 +811,21 @@
       "source": "muzika.hr",
       "is_new": false,
       "first_seen": "2026-05-31T18:01:01.842Z"
+    },
+    {
+      "id": "27bbf7282c",
+      "title": "Predstavljanje sezone 2026./2027.",
+      "venue": "HNK Zagreb",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-06-15T11:00:00",
+      "date_display": "pon, 15. 06. 2026.",
+      "time": "11:00",
+      "link": "https://hnk.hr/hr/ostalo/predstave/predstavljanje-sezone-20262027-hnk/#15.06.11.00",
+      "source": "HNK Zagreb",
+      "is_new": true,
+      "first_seen": "2026-06-05T13:01:04.875Z"
     },
     {
       "id": "2067fa39fe",
@@ -1702,5 +1717,5 @@
       "first_seen": "2026-06-03T22:22:52.215Z"
     }
   ],
-  "new_count": 0
+  "new_count": 1
 }
