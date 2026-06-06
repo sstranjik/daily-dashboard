@@ -1,15 +1,15 @@
 {
   "version": 2,
-  "date": "2026-06-05",
-  "generated_at": "2026-06-05T18:17:37.623Z",
-  "date_hr": "Petak, 5. lipnja 2026.",
+  "date": "2026-06-06",
+  "generated_at": "2026-06-06T05:02:56.313Z",
+  "date_hr": "Subota, 6. lipnja 2026.",
   "weather": {
-    "icon": "🌧️",
-    "summary": "15–22°C, lagana kiša · 5.5 mm",
+    "icon": "☁️",
+    "summary": "15–22°C, oblačno",
     "alerts": []
   },
   "fuel": {
-    "current_date": "05.06.2026",
+    "current_date": "06.06.2026",
     "eurodiesel": [
       {
         "company": "Adria Oil",
@@ -63,13 +63,18 @@
     "upcoming_premium": null
   },
   "market": {
-    "updated_at": "2026-06-05T18:17:37.623Z",
-    "btc_usd": 60572,
-    "btc_eur": 52575,
-    "btc_change_24h": -4.33,
-    "usd_eur": 0.8605
+    "updated_at": "2026-06-06T05:02:56.313Z",
+    "btc_usd": 59967,
+    "btc_eur": 52041,
+    "btc_change_24h": -5.4,
+    "usd_eur": 0.8653
   },
   "ai_news": [
+    {
+      "title": "Microsoft AI chief says company was “set free” from OpenAI to pursue superintelligence",
+      "link": "https://venturebeat.com/technology/microsoft-ai-chief-says-company-was-set-free-from-openai-to-pursue-superintelligence",
+      "source": "VentureBeat"
+    },
     {
       "title": "OpenAI uvodi \"Dreaming\", memoriju koja gradi profil korisnika",
       "link": "https://www.bug.hr/umjetna-inteligencija/openai-uvodi-dreaming-memoriju-koja-gradi-profil-korisnika-60371",
@@ -81,28 +86,23 @@
       "source": "The Next Web"
     },
     {
-      "title": "Anthropic says 80% of its new production code is now authored by Claude — how your enterprise can keep up",
-      "link": "https://venturebeat.com/technology/anthropic-says-80-of-its-new-production-code-is-now-authored-by-claude-how-your-enterprise-can-keep-up",
-      "source": "VentureBeat"
+      "title": "Imperij uzvraća udarac: Google kreće u najrizičniju transformaciju u svojoj povijesti",
+      "link": "https://www.tportal.hr/tehno/clanak/imperij-uzvraca-udarac-google-krece-u-najrizicniju-transformaciju-u-svojoj-povijesti-20260605",
+      "source": "Tportal"
     },
     {
-      "title": "AI agents are learning on the job — just not for your whole team",
-      "link": "https://venturebeat.com/orchestration/ai-agents-are-learning-on-the-job-just-not-for-your-whole-team",
-      "source": "VentureBeat"
-    },
-    {
-      "title": "Airbnb’s Chesky helped put Sam Altman back in power. Now he’s building an AI lab to compete with him.",
-      "link": "https://thenextweb.com/news/chesky-airbnb-ai-lab-openai-altman",
-      "source": "The Next Web"
+      "title": "How a USB-connected speaker can infect a PC without ever being touched",
+      "link": "https://arstechnica.com/security/2026/06/highly-reviewed-speaker-can-be-hacked-over-the-air-to-infect-connected-devices/",
+      "source": "Ars Technica"
     }
   ],
   "micro_tips": {
     "vscode": {
-      "tip": "Pomakni liniju gore ili dolje bez cut/paste",
-      "keys": "Alt+↑ / Alt+↓"
+      "tip": "Format Document (auto-format cijelog fajla)",
+      "keys": "Shift+Alt+F"
     },
-    "sql": "GROUP BY s ROLLUP za subtotale u jednom prolasku: GROUP BY ROLLUP(god, mj)",
-    "oracle": "TRUNC(datum_kolona) = TRUNC(SYSDATE) koristi B-tree index na datumskoj koloni",
-    "regex": "\\d{4}-\\d{2}-\\d{2} ISO datum pattern; za validaciju zatvori s ^...$"
+    "sql": "NOT EXISTS brži od NOT IN kad subquery može vratiti NULL vrijednost",
+    "oracle": "DBMS_STATS.GATHER_TABLE_STATS osvježava statistike za točniji execution plan",
+    "regex": "(?i) inline flag za case-insensitive bez mijenjanja ostatka patternahe"
   }
 }
