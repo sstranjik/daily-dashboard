@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-06-05T21:15:17.402Z",
+  "generated_at": "2026-06-06T05:00:57.556Z",
   "stats": {
     "muzika.hr": {
       "ok": true,
       "count": 25
     },
-    "Lisinski": {
+    "Gavella": {
       "ok": true,
       "count": 0
     },
-    "Gavella": {
+    "Lisinski": {
       "ok": true,
       "count": 0
     },
@@ -17,21 +17,25 @@
       "ok": true,
       "count": 3
     },
-    "Komedija": {
+    "Mochvara": {
+      "ok": true,
+      "count": 17
+    },
+    "ZeKaeM": {
       "ok": true,
       "count": 0
     },
-    "HNK Zagreb": {
-      "ok": true,
-      "count": 35
-    },
-    "ZeKaeM": {
+    "Komedija": {
       "ok": true,
       "count": 0
     },
     "Pogon": {
       "ok": true,
       "count": 0
+    },
+    "HNK Zagreb": {
+      "ok": true,
+      "count": 34
     },
     "Kerempuh": {
       "ok": true,
@@ -40,10 +44,6 @@
     "Trešnja": {
       "ok": true,
       "count": 0
-    },
-    "Mochvara": {
-      "ok": false,
-      "error": "The operation was aborted due to timeout"
     }
   },
   "concerts": [
@@ -633,6 +633,36 @@
       "first_seen": "2026-05-26T20:26:55.235Z"
     },
     {
+      "id": "1be4ec35d9",
+      "title": "Močvarni Laboratorij: Četiri dana keramike, drugi dan",
+      "venue": "Mochvara",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-06-09T12:00:00",
+      "date_display": "uto, 09. 06. 2026.",
+      "time": "12:00",
+      "link": "https://mochvara.hr/event-detail/6a19a51f37154918015d47db/?lang=hr",
+      "source": "Mochvara",
+      "is_new": true,
+      "first_seen": "2026-06-06T05:00:57.556Z"
+    },
+    {
+      "id": "2f94f880ee",
+      "title": "KUM - Kazalište u Močvari: Ce Ti Na na Sa Vi",
+      "venue": "Mochvara",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-06-09T18:00:00",
+      "date_display": "uto, 09. 06. 2026.",
+      "time": "18:00",
+      "link": "https://mochvara.hr/event-detail/6a1eb6defb5955bf135bbad1/?lang=hr",
+      "source": "Mochvara",
+      "is_new": true,
+      "first_seen": "2026-06-06T05:00:57.556Z"
+    },
+    {
       "id": "7b8114d9f8",
       "title": "Flows Festival 2026",
       "venue": "Flows Festival 2026 Kukljica Otok Ugljan",
@@ -959,7 +989,7 @@
       "time": null,
       "link": "https://www.muzika.hr/event/ricky-martin/",
       "source": "muzika.hr",
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-06-05T21:15:17.402Z"
     },
     {
@@ -1822,5 +1852,5 @@
       "first_seen": "2026-06-03T22:22:52.215Z"
     }
   ],
-  "new_count": 1
+  "new_count": 2
 }
