@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-06-06T10:01:00.873Z",
+  "generated_at": "2026-06-06T10:48:27.305Z",
   "stats": {
     "muzika.hr": {
       "ok": true,
       "count": 25
     },
-    "Mochvara": {
-      "ok": true,
-      "count": 17
-    },
     "Lisinski": {
+      "ok": true,
+      "count": 0
+    },
+    "Gavella": {
       "ok": true,
       "count": 0
     },
@@ -17,7 +17,11 @@
       "ok": true,
       "count": 3
     },
-    "Gavella": {
+    "Mochvara": {
+      "ok": true,
+      "count": 17
+    },
+    "ZeKaeM": {
       "ok": true,
       "count": 0
     },
@@ -29,21 +33,17 @@
       "ok": true,
       "count": 34
     },
+    "Pogon": {
+      "ok": true,
+      "count": 0
+    },
     "Kerempuh": {
-      "ok": false,
-      "error": "fetch failed"
+      "ok": true,
+      "count": 0
     },
     "Trešnja": {
-      "ok": false,
-      "error": "fetch failed"
-    },
-    "Pogon": {
-      "ok": false,
-      "error": "fetch failed"
-    },
-    "ZeKaeM": {
-      "ok": false,
-      "error": "fetch failed"
+      "ok": true,
+      "count": 0
     }
   },
   "concerts": [
@@ -601,6 +601,21 @@
       "source": "Mochvara",
       "is_new": false,
       "first_seen": "2026-06-04T05:00:53.007Z"
+    },
+    {
+      "id": "9715d12808",
+      "title": "Močvarni birc: Anatolijska psihodelija",
+      "venue": "Mochvara",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-06-08T17:00:00",
+      "date_display": "pon, 08. 06. 2026.",
+      "time": "17:00",
+      "link": "https://mochvara.hr/event-detail/6a23f7782e191465ef413072/?lang=hr",
+      "source": "Mochvara",
+      "is_new": true,
+      "first_seen": "2026-06-06T10:48:27.305Z"
     },
     {
       "id": "afa04f4d0f",
@@ -1852,5 +1867,5 @@
       "first_seen": "2026-06-03T22:22:52.215Z"
     }
   ],
-  "new_count": 0
+  "new_count": 1
 }
