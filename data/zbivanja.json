@@ -1,31 +1,7 @@
 {
-  "generated_at": "2026-06-06T20:52:46.768Z",
+  "generated_at": "2026-06-07T05:00:54.182Z",
   "stats": {
-    "muzika.hr": {
-      "ok": true,
-      "count": 25
-    },
-    "Lisinski": {
-      "ok": true,
-      "count": 0
-    },
     "Mochvara": {
-      "ok": true,
-      "count": 17
-    },
-    "Tvornica": {
-      "ok": true,
-      "count": 3
-    },
-    "Gavella": {
-      "ok": true,
-      "count": 0
-    },
-    "ZeKaeM": {
-      "ok": true,
-      "count": 0
-    },
-    "Komedija": {
       "ok": true,
       "count": 0
     },
@@ -33,17 +9,41 @@
       "ok": true,
       "count": 0
     },
-    "HNK Zagreb": {
+    "Lisinski": {
       "ok": true,
-      "count": 34
+      "count": 0
+    },
+    "Gavella": {
+      "ok": true,
+      "count": 0
+    },
+    "Tvornica": {
+      "ok": true,
+      "count": 3
+    },
+    "ZeKaeM": {
+      "ok": true,
+      "count": 0
+    },
+    "muzika.hr": {
+      "ok": true,
+      "count": 25
+    },
+    "Trešnja": {
+      "ok": true,
+      "count": 0
     },
     "Kerempuh": {
       "ok": true,
       "count": 0
     },
-    "Trešnja": {
+    "Komedija": {
       "ok": true,
       "count": 0
+    },
+    "HNK Zagreb": {
+      "ok": true,
+      "count": 32
     }
   },
   "concerts": [
@@ -1008,6 +1008,21 @@
       "first_seen": "2026-06-05T21:15:17.402Z"
     },
     {
+      "id": "713cd6158f",
+      "title": "Les Amazones d’Afrique",
+      "venue": "Grada Vukovara 68",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-06-20T00:00:00",
+      "date_display": "sub, 20. 06. 2026.",
+      "time": null,
+      "link": "https://www.muzika.hr/event/les-amazones-dafrique/",
+      "source": "muzika.hr",
+      "is_new": true,
+      "first_seen": "2026-06-07T05:00:54.182Z"
+    },
+    {
       "id": "d35f662e9c",
       "title": "Razgled kazališta 165 sezona iza kulisa – kombinirani razgled HNK-a i HNK2 Uključeni su razgledi HNK-a u 14 sati i HNK2 u 16 sati.",
       "venue": "HNK Zagreb",
@@ -1021,6 +1036,21 @@
       "source": "HNK Zagreb",
       "is_new": false,
       "first_seen": "2026-05-26T20:26:55.235Z"
+    },
+    {
+      "id": "c7e73a455a",
+      "title": "Robert Plant i Saving Grace",
+      "venue": "Mihovila Šibenik",
+      "city": "Croatia",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-06-21T00:00:00",
+      "date_display": "ned, 21. 06. 2026.",
+      "time": null,
+      "link": "https://www.muzika.hr/event/robert-plant-i-saving-grace-sibenik/",
+      "source": "muzika.hr",
+      "is_new": true,
+      "first_seen": "2026-06-07T05:00:54.182Z"
     },
     {
       "id": "3896e65279",
@@ -1867,5 +1897,5 @@
       "first_seen": "2026-06-03T22:22:52.215Z"
     }
   ],
-  "new_count": 0
+  "new_count": 2
 }
