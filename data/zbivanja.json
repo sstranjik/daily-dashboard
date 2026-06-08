@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-08T10:13:08.658Z",
+  "generated_at": "2026-06-08T11:01:00.765Z",
   "stats": {
     "muzika.hr": {
       "ok": true,
@@ -12,10 +12,6 @@
     "Lisinski": {
       "ok": true,
       "count": 0
-    },
-    "Mochvara": {
-      "ok": true,
-      "count": 16
     },
     "Tvornica": {
       "ok": true,
@@ -44,6 +40,10 @@
     "Trešnja": {
       "ok": true,
       "count": 0
+    },
+    "Mochvara": {
+      "ok": false,
+      "error": "The operation was aborted due to timeout"
     }
   },
   "concerts": [
