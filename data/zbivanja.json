@@ -1,11 +1,15 @@
 {
-  "generated_at": "2026-06-08T14:01:07.788Z",
+  "generated_at": "2026-06-08T14:41:15.802Z",
   "stats": {
     "muzika.hr": {
       "ok": true,
       "count": 25
     },
     "Lisinski": {
+      "ok": true,
+      "count": 0
+    },
+    "Gavella": {
       "ok": true,
       "count": 0
     },
@@ -16,10 +20,6 @@
     "Tvornica": {
       "ok": true,
       "count": 3
-    },
-    "Gavella": {
-      "ok": true,
-      "count": 0
     },
     "ZeKaeM": {
       "ok": true,
@@ -33,6 +33,10 @@
       "ok": true,
       "count": 31
     },
+    "Pogon": {
+      "ok": true,
+      "count": 0
+    },
     "Kerempuh": {
       "ok": true,
       "count": 0
@@ -40,10 +44,6 @@
     "Trešnja": {
       "ok": true,
       "count": 0
-    },
-    "Pogon": {
-      "ok": false,
-      "error": "The operation was aborted due to timeout"
     }
   },
   "concerts": [
@@ -779,7 +779,7 @@
       "time": "19:30",
       "link": "https://mochvara.hr/event-detail/69f1b7e0fb090551f4edeb9c/?lang=hr",
       "source": "Mochvara",
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-06-08T14:01:07.788Z"
     },
     {
@@ -1972,5 +1972,5 @@
       "first_seen": "2026-06-03T22:22:52.215Z"
     }
   ],
-  "new_count": 1
+  "new_count": 0
 }
