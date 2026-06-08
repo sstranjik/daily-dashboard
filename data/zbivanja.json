@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-08T08:01:05.182Z",
+  "generated_at": "2026-06-08T09:01:07.283Z",
   "stats": {
     "muzika.hr": {
       "ok": true,
@@ -13,10 +13,6 @@
       "ok": true,
       "count": 0
     },
-    "Mochvara": {
-      "ok": true,
-      "count": 16
-    },
     "Tvornica": {
       "ok": true,
       "count": 3
@@ -24,6 +20,10 @@
     "ZeKaeM": {
       "ok": true,
       "count": 0
+    },
+    "Mochvara": {
+      "ok": true,
+      "count": 16
     },
     "Komedija": {
       "ok": true,
@@ -33,11 +33,11 @@
       "ok": true,
       "count": 31
     },
-    "Kerempuh": {
+    "Pogon": {
       "ok": true,
       "count": 0
     },
-    "Pogon": {
+    "Kerempuh": {
       "ok": true,
       "count": 0
     },
@@ -603,6 +603,21 @@
       "first_seen": "2026-06-04T05:00:53.007Z"
     },
     {
+      "id": "b74061f30b",
+      "title": "POPUNJENO Močvarni Laboratorij: Četiri dana keramike, prvi dan",
+      "venue": "Mochvara",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-06-08T12:00:00",
+      "date_display": "pon, 08. 06. 2026.",
+      "time": "12:00",
+      "link": "https://mochvara.hr/event-detail/6a199f48371549180132b664/?lang=hr",
+      "source": "Mochvara",
+      "is_new": true,
+      "first_seen": "2026-06-08T09:01:07.283Z"
+    },
+    {
       "id": "9715d12808",
       "title": "Močvarni birc: Anatolijska psihodelija",
       "venue": "Mochvara",
@@ -661,6 +676,21 @@
       "source": "Mochvara",
       "is_new": false,
       "first_seen": "2026-06-06T05:00:59.178Z"
+    },
+    {
+      "id": "9d3ebbec55",
+      "title": "POPUNJENO Močvarni Laboratorij: Četiri dana keramike, drugi dan",
+      "venue": "Mochvara",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-06-09T12:00:00",
+      "date_display": "uto, 09. 06. 2026.",
+      "time": "12:00",
+      "link": "https://mochvara.hr/event-detail/6a19a51f37154918015d47db/?lang=hr",
+      "source": "Mochvara",
+      "is_new": true,
+      "first_seen": "2026-06-08T09:01:07.283Z"
     },
     {
       "id": "2f94f880ee",
@@ -1927,5 +1957,5 @@
       "first_seen": "2026-06-03T22:22:52.215Z"
     }
   ],
-  "new_count": 0
+  "new_count": 2
 }
