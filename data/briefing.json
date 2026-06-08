@@ -1,15 +1,15 @@
 {
   "version": 2,
-  "date": "2026-06-07",
-  "generated_at": "2026-06-07T08:22:25.195Z",
-  "date_hr": "Nedjelja, 7. lipnja 2026.",
+  "date": "2026-06-08",
+  "generated_at": "2026-06-08T05:02:40.147Z",
+  "date_hr": "Ponedjeljak, 8. lipnja 2026.",
   "weather": {
-    "icon": "🌫️",
-    "summary": "15–28°C, magla",
+    "icon": "☁️",
+    "summary": "17–29°C, oblačno",
     "alerts": []
   },
   "fuel": {
-    "current_date": "07.06.2026",
+    "current_date": "08.06.2026",
     "eurodiesel": [
       {
         "company": "Adria Oil",
@@ -63,46 +63,46 @@
     "upcoming_premium": null
   },
   "market": {
-    "updated_at": "2026-06-07T08:22:25.195Z",
-    "btc_usd": 62355,
-    "btc_eur": 54120,
-    "btc_change_24h": 2.08,
-    "usd_eur": 0.8647
+    "updated_at": "2026-06-08T05:02:40.147Z",
+    "btc_usd": 62735,
+    "btc_eur": 54403,
+    "btc_change_24h": 1.51,
+    "usd_eur": 0.8671
   },
   "ai_news": [
     {
-      "title": "OpenAI unveils Lockdown Mode to protect sensitive data from prompt injection attacks",
-      "link": "https://techcrunch.com/2026/06/06/openai-unveils-lockdown-mode-to-protect-sensitive-data-from-prompt-injection-attacks/",
-      "source": "TechCrunch AI"
-    },
-    {
-      "title": "An AI agent found 21 zero-days in FFmpeg for $1,000. Chrome just patched a record 429 bugs.",
-      "link": "https://thenextweb.com/news/ai-agent-21-zero-days-ffmpeg-chrome-429",
+      "title": "OpenAI adds Lockdown Mode to ChatGPT to block data theft from prompt injection attacks",
+      "link": "https://thenextweb.com/news/chatgpt-lockdown-mode-prompt-injection",
       "source": "The Next Web"
     },
     {
-      "title": "I compared ChatGPT and Gemini's AI image generation - and a single prompt tweak made a big difference",
-      "link": "https://www.zdnet.com/article/beginner-ai-image-prompt-tip-chatgpt-gemini/",
-      "source": "ZDNet"
+      "title": "When Claude changed, everything changed: Managing AI blast radius in production",
+      "link": "https://venturebeat.com/orchestration/when-claude-changed-everything-changed-managing-ai-blast-radius-in-production",
+      "source": "VentureBeat"
     },
     {
-      "title": "The Trump administration might take an equity stake in OpenAI",
-      "link": "https://techcrunch.com/2026/06/06/the-trump-administration-might-take-an-equity-stake-in-openai/",
+      "title": "Notion restores access to Anthropic after service disruption",
+      "link": "https://techcrunch.com/2026/06/07/notion-restores-access-to-anthropic-after-service-disruption/",
       "source": "TechCrunch AI"
     },
     {
-      "title": "OpenAI će dobrovoljno sudjelovati u Trumpovim provjerama AI modela",
-      "link": "https://www.bug.hr/propisi/openai-ce-dobrovoljno-sudjelovati-u-trumpovim-provjerama-ai-modela-60410",
-      "source": "Bug.hr"
+      "title": "OpenAI is still working on that ‘super app’",
+      "link": "https://techcrunch.com/2026/06/07/openai-is-still-working-on-that-super-app/",
+      "source": "TechCrunch AI"
+    },
+    {
+      "title": "Agentic AI solved coding — and exposed every other problem in software engineering",
+      "link": "https://venturebeat.com/technology/agentic-ai-solved-coding-and-exposed-every-other-problem-in-software-engineering",
+      "source": "VentureBeat"
     }
   ],
   "micro_tips": {
     "vscode": {
-      "tip": "Go to Definition simbola",
-      "keys": "F12"
+      "tip": "Peek Definition bez napuštanja fajla",
+      "keys": "Alt+F12"
     },
-    "sql": "Parametrizirani upiti = plan cache reuse + SQL injection zaštita istovremeno",
-    "oracle": "NVL2(expr, kad_nije_null, kad_je_null) kompaktnija od dvostrukog NVL-a",
-    "regex": "\\s+ pokriva space, tab i newline; \\S je negacija (svaki ne-whitespace)"
+    "sql": "Batch INSERT umjesto jednog-po-jednog: INSERT INTO t VALUES (...),(...),...",
+    "oracle": "FETCH FIRST n ROWS ONLY umjesto ROWNUM — kompatibilno s ORDER BY i čitljivije",
+    "regex": "^(?!.*pattern) negative lookahead: \"ova linija ne smije sadržavati X\""
   }
 }
