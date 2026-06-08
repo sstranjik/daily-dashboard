@@ -1,25 +1,25 @@
 {
-  "generated_at": "2026-06-07T20:58:25.864Z",
+  "generated_at": "2026-06-08T05:00:58.691Z",
   "stats": {
-    "muzika.hr": {
-      "ok": true,
-      "count": 25
-    },
-    "Lisinski": {
-      "ok": true,
-      "count": 0
-    },
     "Gavella": {
       "ok": true,
       "count": 0
     },
     "Mochvara": {
       "ok": true,
-      "count": 17
+      "count": 16
+    },
+    "Lisinski": {
+      "ok": true,
+      "count": 0
     },
     "Tvornica": {
       "ok": true,
       "count": 3
+    },
+    "muzika.hr": {
+      "ok": true,
+      "count": 25
     },
     "ZeKaeM": {
       "ok": true,
@@ -31,13 +31,13 @@
     },
     "HNK Zagreb": {
       "ok": true,
-      "count": 32
+      "count": 31
     },
-    "Kerempuh": {
+    "Pogon": {
       "ok": true,
       "count": 0
     },
-    "Pogon": {
+    "Kerempuh": {
       "ok": true,
       "count": 0
     },
@@ -708,6 +708,21 @@
       "first_seen": "2026-05-26T20:26:55.235Z"
     },
     {
+      "id": "a4c0868217",
+      "title": "Alt rock/shoegaze koncert: Colostrum, June Blaze",
+      "venue": "Mochvara",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-06-10T20:00:00",
+      "date_display": "sri, 10. 06. 2026.",
+      "time": "20:00",
+      "link": "https://mochvara.hr/event-detail/6a048795821d9c96480dcafc/?lang=hr",
+      "source": "Mochvara",
+      "is_new": true,
+      "first_seen": "2026-06-08T05:00:58.691Z"
+    },
+    {
       "id": "44deb6a2c9",
       "title": "Antonín Dvořák RUSALKA 𝑍𝑎𝑟𝑢𝑧̌𝑖 𝑘𝑢𝑙𝑡𝑢𝑟𝑛𝑜 - Sveučilište u Zagrebu",
       "venue": "HNK Zagreb",
@@ -1051,6 +1066,21 @@
       "source": "muzika.hr",
       "is_new": false,
       "first_seen": "2026-06-07T05:00:57.586Z"
+    },
+    {
+      "id": "9fe3e39334",
+      "title": "Derivat 08",
+      "venue": "Derivat 08 Obrovac Obrovac",
+      "city": "Croatia",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-06-21T20:00:00",
+      "date_display": "ned, 21. 06. 2026.",
+      "time": "20:00",
+      "link": "https://www.muzika.hr/event/derivat-08/",
+      "source": "muzika.hr",
+      "is_new": true,
+      "first_seen": "2026-06-08T05:00:58.691Z"
     },
     {
       "id": "3896e65279",
@@ -1897,5 +1927,5 @@
       "first_seen": "2026-06-03T22:22:52.215Z"
     }
   ],
-  "new_count": 0
+  "new_count": 2
 }
