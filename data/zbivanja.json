@@ -1,15 +1,11 @@
 {
-  "generated_at": "2026-06-08T12:01:05.513Z",
+  "generated_at": "2026-06-08T13:01:06.583Z",
   "stats": {
     "muzika.hr": {
       "ok": true,
       "count": 25
     },
     "Lisinski": {
-      "ok": true,
-      "count": 0
-    },
-    "Gavella": {
       "ok": true,
       "count": 0
     },
@@ -20,6 +16,10 @@
     "Tvornica": {
       "ok": true,
       "count": 3
+    },
+    "Gavella": {
+      "ok": true,
+      "count": 0
     },
     "ZeKaeM": {
       "ok": true,
@@ -37,13 +37,13 @@
       "ok": true,
       "count": 0
     },
-    "Pogon": {
-      "ok": true,
-      "count": 0
-    },
     "Trešnja": {
       "ok": true,
       "count": 0
+    },
+    "Pogon": {
+      "ok": false,
+      "error": "The operation was aborted due to timeout"
     }
   },
   "concerts": [
