@@ -1,19 +1,15 @@
 {
-  "generated_at": "2026-06-09T10:01:08.139Z",
+  "generated_at": "2026-06-09T11:01:06.150Z",
   "stats": {
-    "muzika.hr": {
-      "ok": true,
-      "count": 25
-    },
     "Mochvara": {
       "ok": true,
       "count": 15
     },
-    "Lisinski": {
+    "muzika.hr": {
       "ok": true,
-      "count": 0
+      "count": 25
     },
-    "Gavella": {
+    "Lisinski": {
       "ok": true,
       "count": 0
     },
@@ -22,6 +18,10 @@
       "count": 3
     },
     "ZeKaeM": {
+      "ok": true,
+      "count": 0
+    },
+    "Gavella": {
       "ok": true,
       "count": 0
     },
@@ -37,11 +37,11 @@
       "ok": true,
       "count": 0
     },
-    "Trešnja": {
+    "Pogon": {
       "ok": true,
       "count": 0
     },
-    "Pogon": {
+    "Trešnja": {
       "ok": true,
       "count": 0
     }
@@ -721,6 +721,21 @@
       "source": "muzika.hr",
       "is_new": false,
       "first_seen": "2026-05-26T20:26:55.235Z"
+    },
+    {
+      "id": "2be45f5662",
+      "title": "Močvarin birc: Indie Sleaze",
+      "venue": "Mochvara",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-06-10T17:00:00",
+      "date_display": "sri, 10. 06. 2026.",
+      "time": "17:00",
+      "link": "https://mochvara.hr/event-detail/6a27e2b70037e894ca906621/?lang=hr",
+      "source": "Mochvara",
+      "is_new": true,
+      "first_seen": "2026-06-09T11:01:06.150Z"
     },
     {
       "id": "afca0dd2c7",
@@ -2032,5 +2047,5 @@
       "first_seen": "2026-06-03T22:22:52.215Z"
     }
   ],
-  "new_count": 1
+  "new_count": 2
 }
