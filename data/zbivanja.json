@@ -1,9 +1,13 @@
 {
-  "generated_at": "2026-06-08T21:48:01.320Z",
+  "generated_at": "2026-06-09T05:00:57.202Z",
   "stats": {
     "Mochvara": {
       "ok": true,
       "count": 0
+    },
+    "muzika.hr": {
+      "ok": true,
+      "count": 25
     },
     "Pogon": {
       "ok": true,
@@ -13,7 +17,7 @@
       "ok": true,
       "count": 0
     },
-    "ZeKaeM": {
+    "Gavella": {
       "ok": true,
       "count": 0
     },
@@ -21,11 +25,11 @@
       "ok": true,
       "count": 3
     },
-    "Gavella": {
+    "Kerempuh": {
       "ok": true,
       "count": 0
     },
-    "Kerempuh": {
+    "ZeKaeM": {
       "ok": true,
       "count": 0
     },
@@ -39,11 +43,7 @@
     },
     "HNK Zagreb": {
       "ok": true,
-      "count": 31
-    },
-    "muzika.hr": {
-      "ok": true,
-      "count": 25
+      "count": 30
     }
   },
   "concerts": [
@@ -1128,6 +1128,21 @@
       "first_seen": "2026-06-08T05:00:57.451Z"
     },
     {
+      "id": "a32d34d56d",
+      "title": "18. INmusic festival",
+      "venue": "INmusic festival Jarun Zagreb",
+      "city": "Croatia",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-06-22T00:00:00",
+      "date_display": "pon, 22. 06. 2026.",
+      "time": null,
+      "link": "https://www.muzika.hr/event/18-inmusic-festival-zagreb/",
+      "source": "muzika.hr",
+      "is_new": true,
+      "first_seen": "2026-06-09T05:00:57.202Z"
+    },
+    {
       "id": "3896e65279",
       "title": "Gioachino Rossini Seviljski brijač",
       "venue": "HNK Zagreb",
@@ -1972,5 +1987,5 @@
       "first_seen": "2026-06-03T22:22:52.215Z"
     }
   ],
-  "new_count": 0
+  "new_count": 1
 }
