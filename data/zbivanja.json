@@ -1,35 +1,27 @@
 {
-  "generated_at": "2026-06-09T14:01:06.205Z",
+  "generated_at": "2026-06-09T14:16:17.476Z",
   "stats": {
-    "Mochvara": {
-      "ok": true,
-      "count": 0
-    },
-    "Pogon": {
-      "ok": true,
-      "count": 0
-    },
     "muzika.hr": {
       "ok": true,
       "count": 25
-    },
-    "Lisinski": {
-      "ok": true,
-      "count": 0
     },
     "Gavella": {
       "ok": true,
       "count": 0
     },
-    "ZeKaeM": {
+    "Lisinski": {
       "ok": true,
       "count": 0
+    },
+    "Mochvara": {
+      "ok": true,
+      "count": 15
     },
     "Tvornica": {
       "ok": true,
       "count": 3
     },
-    "Kerempuh": {
+    "ZeKaeM": {
       "ok": true,
       "count": 0
     },
@@ -37,13 +29,21 @@
       "ok": true,
       "count": 0
     },
-    "Trešnja": {
+    "Pogon": {
       "ok": true,
       "count": 0
     },
     "HNK Zagreb": {
       "ok": true,
       "count": 31
+    },
+    "Kerempuh": {
+      "ok": true,
+      "count": 0
+    },
+    "Trešnja": {
+      "ok": true,
+      "count": 0
     }
   },
   "concerts": [
@@ -854,7 +854,7 @@
       "time": "19:00",
       "link": "https://mochvara.hr/event-detail/6a22909862797463b34a58cb/?lang=hr",
       "source": "Mochvara",
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-06-09T10:01:08.139Z"
     },
     {
@@ -1139,7 +1139,7 @@
       "time": "18:00",
       "link": "https://hnk.hr/hr/opera/predstave/finalna-ve%C4%8Der-1-me%C4%91unarodnog-pjeva%C4%8Dkog-natjecanja-milka-trnina/#19.06.18.00",
       "source": "HNK Zagreb",
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-06-09T14:01:06.205Z"
     },
     {
@@ -2062,5 +2062,5 @@
       "first_seen": "2026-06-03T22:22:52.215Z"
     }
   ],
-  "new_count": 2
+  "new_count": 0
 }
