@@ -1,6 +1,10 @@
 {
-  "generated_at": "2026-06-09T17:16:49.514Z",
+  "generated_at": "2026-06-09T18:01:11.785Z",
   "stats": {
+    "Mochvara": {
+      "ok": true,
+      "count": 15
+    },
     "muzika.hr": {
       "ok": true,
       "count": 25
@@ -8,10 +12,6 @@
     "Lisinski": {
       "ok": true,
       "count": 0
-    },
-    "Mochvara": {
-      "ok": true,
-      "count": 15
     },
     "Gavella": {
       "ok": true,
@@ -21,29 +21,29 @@
       "ok": true,
       "count": 0
     },
-    "Tvornica": {
-      "ok": true,
-      "count": 3
-    },
     "Komedija": {
       "ok": true,
       "count": 0
     },
-    "Pogon": {
-      "ok": true,
-      "count": 0
+    "Tvornica": {
+      "ok": false,
+      "error": "fetch failed"
     },
     "HNK Zagreb": {
       "ok": true,
       "count": 31
+    },
+    "Pogon": {
+      "ok": true,
+      "count": 0
     },
     "Kerempuh": {
       "ok": true,
       "count": 0
     },
     "Trešnja": {
-      "ok": true,
-      "count": 0
+      "ok": false,
+      "error": "The operation was aborted due to timeout"
     }
   },
   "concerts": [
