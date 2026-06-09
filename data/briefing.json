@@ -1,15 +1,15 @@
 {
   "version": 2,
-  "date": "2026-06-08",
-  "generated_at": "2026-06-08T09:22:08.299Z",
-  "date_hr": "Ponedjeljak, 8. lipnja 2026.",
+  "date": "2026-06-09",
+  "generated_at": "2026-06-09T05:03:01.315Z",
+  "date_hr": "Utorak, 9. lipnja 2026.",
   "weather": {
     "icon": "☁️",
-    "summary": "17–29°C, oblačno",
+    "summary": "18–30°C, oblačno",
     "alerts": []
   },
   "fuel": {
-    "current_date": "08.06.2026",
+    "current_date": "09.06.2026",
     "eurodiesel": [
       {
         "company": "Adria Oil",
@@ -43,15 +43,15 @@
       },
       {
         "company": "INA",
-        "price": 1.8
+        "price": 1.84
       },
       {
         "company": "Tifon",
-        "price": 1.8
+        "price": 1.84
       },
       {
         "company": "Petrol",
-        "price": 1.83
+        "price": 1.86
       },
       {
         "company": "Coral Croatia",
@@ -63,46 +63,46 @@
     "upcoming_premium": null
   },
   "market": {
-    "updated_at": "2026-06-08T09:22:08.299Z",
-    "btc_usd": 63461,
-    "btc_eur": 55153,
-    "btc_change_24h": 1.31,
-    "usd_eur": 0.8671
+    "updated_at": "2026-06-09T05:03:01.315Z",
+    "btc_usd": 63203,
+    "btc_eur": 54742,
+    "btc_change_24h": 0.68,
+    "usd_eur": 0.8672
   },
   "ai_news": [
     {
-      "title": "The AI models finding 10,000 vulnerabilities are the same ones China is trying to copy. That is the problem.",
-      "link": "https://thenextweb.com/news/the-ai-models-finding-10000-vulnerabilities-are-the-same-ones-china-is-trying-to-copy-that-is-the-problem",
+      "title": "A Qilin ransomware affiliate exploited a Check Point VPN zero-day for a month before a patch existed",
+      "link": "https://thenextweb.com/news/check-point-vpn-zero-day-qilin-ransomware-ikev1",
       "source": "The Next Web"
     },
     {
-      "title": "When Claude changed, everything changed: Managing AI blast radius in production",
-      "link": "https://venturebeat.com/orchestration/when-claude-changed-everything-changed-managing-ai-blast-radius-in-production",
+      "title": "Researchers trained an open source AI search agent, Harness-1, that outperforms GPT-5.4 on recalling relevant information",
+      "link": "https://venturebeat.com/orchestration/researchers-trained-an-open-source-ai-search-agent-harness-1-that-outperforms-gpt-5-4-on-recalling-relevant-information",
       "source": "VentureBeat"
     },
     {
-      "title": "Notion restores access to Anthropic after service disruption",
-      "link": "https://techcrunch.com/2026/06/07/notion-restores-access-to-anthropic-after-service-disruption/",
+      "title": "OpenAI files for IPO, following Anthropic",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/946335/openai-ipo-s-1-confidential",
+      "source": "The Verge"
+    },
+    {
+      "title": "OpenAI files confidentially for IPO, following Anthropic",
+      "link": "https://techcrunch.com/2026/06/08/following-anthropic-openai-files-confidentially-for-ipo/",
       "source": "TechCrunch AI"
     },
     {
-      "title": "OpenAI is still working on that ‘super app’",
-      "link": "https://techcrunch.com/2026/06/07/openai-is-still-working-on-that-super-app/",
-      "source": "TechCrunch AI"
-    },
-    {
-      "title": "Agentic AI solved coding — and exposed every other problem in software engineering",
-      "link": "https://venturebeat.com/technology/agentic-ai-solved-coding-and-exposed-every-other-problem-in-software-engineering",
-      "source": "VentureBeat"
+      "title": "ChatGPT's new memory upgrade is powerful - and could poison every answer it gives you",
+      "link": "https://www.zdnet.com/article/chatgpts-new-memory-upgrade-is-powerful-and-could-poison-every-answer-it-gives-you/",
+      "source": "ZDNet"
     }
   ],
   "micro_tips": {
     "vscode": {
-      "tip": "Peek Definition bez napuštanja fajla",
-      "keys": "Alt+F12"
+      "tip": "Dupliciraj trenutnu liniju ispod",
+      "keys": "Shift+Alt+↓"
     },
-    "sql": "Batch INSERT umjesto jednog-po-jednog: INSERT INTO t VALUES (...),(...),...",
-    "oracle": "FETCH FIRST n ROWS ONLY umjesto ROWNUM — kompatibilno s ORDER BY i čitljivije",
-    "regex": "^(?!.*pattern) negative lookahead: \"ova linija ne smije sadržavati X\""
+    "sql": "EXISTS umjesto IN za subqueries — brže jer stane na prvom podudaranju: WHERE EXISTS (SELECT 1 FROM ...)",
+    "oracle": "/*+ INDEX(t ime_indexa) */ forsira specifičan index kad optimizer bira full scan",
+    "regex": "\\b granica riječi: \\bword\\b podudara cijelu riječ, ne \"password\" ili \"swordfish\""
   }
 }

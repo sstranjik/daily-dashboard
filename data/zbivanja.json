@@ -1,17 +1,13 @@
 {
-  "generated_at": "2026-06-09T05:00:57.202Z",
+  "generated_at": "2026-06-09T05:00:59.439Z",
   "stats": {
-    "Mochvara": {
-      "ok": true,
-      "count": 0
-    },
     "muzika.hr": {
       "ok": true,
       "count": 25
     },
-    "Pogon": {
+    "Mochvara": {
       "ok": true,
-      "count": 0
+      "count": 15
     },
     "Lisinski": {
       "ok": true,
@@ -25,15 +21,7 @@
       "ok": true,
       "count": 3
     },
-    "Kerempuh": {
-      "ok": true,
-      "count": 0
-    },
     "ZeKaeM": {
-      "ok": true,
-      "count": 0
-    },
-    "Trešnja": {
       "ok": true,
       "count": 0
     },
@@ -41,9 +29,21 @@
       "ok": true,
       "count": 0
     },
+    "Pogon": {
+      "ok": true,
+      "count": 0
+    },
+    "Kerempuh": {
+      "ok": true,
+      "count": 0
+    },
     "HNK Zagreb": {
       "ok": true,
       "count": 30
+    },
+    "Trešnja": {
+      "ok": true,
+      "count": 0
     }
   },
   "concerts": [
@@ -783,6 +783,21 @@
       "first_seen": "2026-06-08T14:01:07.788Z"
     },
     {
+      "id": "119568becb",
+      "title": "Začarana Močvara u šatoru Cirkobalkane: Marion Raw, Lovro Mirth",
+      "venue": "Mochvara",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-06-11T20:00:00",
+      "date_display": "čet, 11. 06. 2026.",
+      "time": "20:00",
+      "link": "https://mochvara.hr/event-detail/69dcdd6148168bdadf84ba42/?lang=hr",
+      "source": "Mochvara",
+      "is_new": true,
+      "first_seen": "2026-06-09T05:00:59.439Z"
+    },
+    {
       "id": "e4713544dd",
       "title": "Rijeka Summer Fest 2026",
       "venue": "Rijeka Summer Fest 2026 Rijeka Rijeka",
@@ -796,6 +811,21 @@
       "source": "muzika.hr",
       "is_new": false,
       "first_seen": "2026-05-26T20:26:55.235Z"
+    },
+    {
+      "id": "f084780217",
+      "title": "Changeover Tour: Inturist, Grgur Visinski, Monica, Vasilije Peranov",
+      "venue": "Mochvara",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-06-12T19:00:00",
+      "date_display": "pet, 12. 06. 2026.",
+      "time": "19:00",
+      "link": "https://mochvara.hr/event-detail/6a22909862797463b34a58cb/?lang=hr",
+      "source": "Mochvara",
+      "is_new": true,
+      "first_seen": "2026-06-09T05:00:59.439Z"
     },
     {
       "id": "0238665c90",
@@ -1140,7 +1170,7 @@
       "link": "https://www.muzika.hr/event/18-inmusic-festival-zagreb/",
       "source": "muzika.hr",
       "is_new": true,
-      "first_seen": "2026-06-09T05:00:57.202Z"
+      "first_seen": "2026-06-09T05:00:59.439Z"
     },
     {
       "id": "3896e65279",
@@ -1987,5 +2017,5 @@
       "first_seen": "2026-06-03T22:22:52.215Z"
     }
   ],
-  "new_count": 1
+  "new_count": 3
 }
