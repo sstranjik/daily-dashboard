@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-06-09T11:53:24.282Z",
+  "generated_at": "2026-06-09T12:01:02.490Z",
   "stats": {
     "Mochvara": {
       "ok": true,
-      "count": 0
+      "count": 15
     },
     "muzika.hr": {
       "ok": true,
       "count": 25
     },
-    "Pogon": {
+    "Gavella": {
       "ok": true,
       "count": 0
     },
@@ -17,15 +17,23 @@
       "ok": true,
       "count": 0
     },
+    "Tvornica": {
+      "ok": true,
+      "count": 3
+    },
     "ZeKaeM": {
       "ok": true,
       "count": 0
     },
-    "Gavella": {
+    "HNK Zagreb": {
+      "ok": true,
+      "count": 30
+    },
+    "Komedija": {
       "ok": true,
       "count": 0
     },
-    "Trešnja": {
+    "Pogon": {
       "ok": true,
       "count": 0
     },
@@ -33,17 +41,9 @@
       "ok": true,
       "count": 0
     },
-    "Tvornica": {
-      "ok": true,
-      "count": 3
-    },
-    "Komedija": {
+    "Trešnja": {
       "ok": true,
       "count": 0
-    },
-    "HNK Zagreb": {
-      "ok": true,
-      "count": 30
     }
   },
   "concerts": [
@@ -734,7 +734,7 @@
       "time": "17:00",
       "link": "https://mochvara.hr/event-detail/6a27e2b70037e894ca906621/?lang=hr",
       "source": "Mochvara",
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-06-09T11:01:06.150Z"
     },
     {
@@ -2047,5 +2047,5 @@
       "first_seen": "2026-06-03T22:22:52.215Z"
     }
   ],
-  "new_count": 2
+  "new_count": 1
 }
