@@ -1,6 +1,14 @@
 {
-  "generated_at": "2026-06-09T13:01:05.463Z",
+  "generated_at": "2026-06-09T14:01:06.205Z",
   "stats": {
+    "Mochvara": {
+      "ok": true,
+      "count": 0
+    },
+    "Pogon": {
+      "ok": true,
+      "count": 0
+    },
     "muzika.hr": {
       "ok": true,
       "count": 25
@@ -13,10 +21,6 @@
       "ok": true,
       "count": 0
     },
-    "Mochvara": {
-      "ok": true,
-      "count": 15
-    },
     "ZeKaeM": {
       "ok": true,
       "count": 0
@@ -25,25 +29,21 @@
       "ok": true,
       "count": 3
     },
-    "Komedija": {
-      "ok": true,
-      "count": 0
-    },
-    "Pogon": {
-      "ok": true,
-      "count": 0
-    },
-    "HNK Zagreb": {
-      "ok": true,
-      "count": 30
-    },
     "Kerempuh": {
+      "ok": true,
+      "count": 0
+    },
+    "Komedija": {
       "ok": true,
       "count": 0
     },
     "Trešnja": {
       "ok": true,
       "count": 0
+    },
+    "HNK Zagreb": {
+      "ok": true,
+      "count": 31
     }
   },
   "concerts": [
@@ -1128,6 +1128,21 @@
       "first_seen": "2026-06-05T21:15:17.402Z"
     },
     {
+      "id": "6d10f9b95e",
+      "title": "Finalna večer 1. Međunarodnog pjevačkog natjecanja “Milka Trnina” Ulaz na događanje je slobodan, publika karte može preuzeti na info pultu u Hrvatskom",
+      "venue": "HNK Zagreb",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-06-19T18:00:00",
+      "date_display": "pet, 19. 06. 2026.",
+      "time": "18:00",
+      "link": "https://hnk.hr/hr/opera/predstave/finalna-ve%C4%8Der-1-me%C4%91unarodnog-pjeva%C4%8Dkog-natjecanja-milka-trnina/#19.06.18.00",
+      "source": "HNK Zagreb",
+      "is_new": true,
+      "first_seen": "2026-06-09T14:01:06.205Z"
+    },
+    {
       "id": "713cd6158f",
       "title": "Les Amazones d’Afrique",
       "venue": "Grada Vukovara 68",
@@ -2047,5 +2062,5 @@
       "first_seen": "2026-06-03T22:22:52.215Z"
     }
   ],
-  "new_count": 1
+  "new_count": 2
 }
