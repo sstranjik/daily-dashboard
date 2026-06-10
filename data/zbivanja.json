@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-06-10T08:45:04.782Z",
+  "generated_at": "2026-06-10T09:01:11.278Z",
   "stats": {
-    "muzika.hr": {
-      "ok": true,
-      "count": 25
-    },
     "Lisinski": {
       "ok": true,
       "count": 0
+    },
+    "Mochvara": {
+      "ok": true,
+      "count": 15
     },
     "Gavella": {
       "ok": true,
@@ -17,9 +17,13 @@
       "ok": true,
       "count": 3
     },
-    "Mochvara": {
+    "muzika.hr": {
       "ok": true,
-      "count": 15
+      "count": 25
+    },
+    "ZeKaeM": {
+      "ok": true,
+      "count": 0
     },
     "Komedija": {
       "ok": true,
@@ -27,11 +31,7 @@
     },
     "HNK Zagreb": {
       "ok": true,
-      "count": 31
-    },
-    "ZeKaeM": {
-      "ok": true,
-      "count": 0
+      "count": 32
     },
     "Kerempuh": {
       "ok": true,
@@ -916,6 +916,21 @@
       "source": "muzika.hr",
       "is_new": false,
       "first_seen": "2026-05-30T21:06:20.960Z"
+    },
+    {
+      "id": "480640b5b1",
+      "title": "HNK2 Offline Club",
+      "venue": "HNK Zagreb",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-06-13T10:00:00",
+      "date_display": "sub, 13. 06. 2026.",
+      "time": "10:00",
+      "link": "https://hnk.hr/hr/hnk2/hnk2-offline-club/#13.06.10.00",
+      "source": "HNK Zagreb",
+      "is_new": true,
+      "first_seen": "2026-06-10T09:01:11.278Z"
     },
     {
       "id": "26820a680e",
@@ -2107,5 +2122,5 @@
       "first_seen": "2026-06-10T05:01:05.518Z"
     }
   ],
-  "new_count": 0
+  "new_count": 1
 }
