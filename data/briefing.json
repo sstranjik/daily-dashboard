@@ -1,15 +1,20 @@
 {
   "version": 2,
-  "date": "2026-06-09",
-  "generated_at": "2026-06-09T08:30:14.292Z",
-  "date_hr": "Utorak, 9. lipnja 2026.",
+  "date": "2026-06-10",
+  "generated_at": "2026-06-10T05:02:43.707Z",
+  "date_hr": "Srijeda, 10. lipnja 2026.",
   "weather": {
-    "icon": "☁️",
-    "summary": "18–30°C, oblačno",
-    "alerts": []
+    "icon": "⛈️",
+    "summary": "17–24°C, grmljavina · 1 mm",
+    "alerts": [
+      {
+        "level": "warning",
+        "text": "Grmljavinska oluja"
+      }
+    ]
   },
   "fuel": {
-    "current_date": "09.06.2026",
+    "current_date": "10.06.2026",
     "eurodiesel": [
       {
         "company": "Adria Oil",
@@ -63,46 +68,46 @@
     "upcoming_premium": null
   },
   "market": {
-    "updated_at": "2026-06-09T08:30:14.292Z",
-    "btc_usd": 62888,
-    "btc_eur": 54481,
-    "btc_change_24h": -0.23,
-    "usd_eur": 0.8672
+    "updated_at": "2026-06-10T05:02:43.707Z",
+    "btc_usd": 61210,
+    "btc_eur": 53013,
+    "btc_change_24h": -3.15,
+    "usd_eur": 0.8659
   },
   "ai_news": [
-    {
-      "title": "A Qilin ransomware affiliate exploited a Check Point VPN zero-day for a month before a patch existed",
-      "link": "https://thenextweb.com/news/check-point-vpn-zero-day-qilin-ransomware-ikev1",
-      "source": "The Next Web"
-    },
     {
       "title": "Zbogom, ChatGPT-ju? Šuška se o superaplikaciji za borbu protiv Anthropica",
       "link": "https://mreza.bug.hr/umjetna-inteligencija/zbogom-chatgpt-ju-suska-se-o-superaplikaciji-za-borbu-protiv-anthropica-60445",
       "source": "Bug.hr"
     },
     {
-      "title": "OpenAI filed confidentially for an IPO. Anthropic filed last week. SpaceX lists on Thursday. The AI public market is about to get very crowded.",
-      "link": "https://thenextweb.com/news/openai-confidential-ipo-filing-rivals-race",
-      "source": "The Next Web"
+      "title": "Moć Mythos klase konačno dostupna - stigao je Claude Fable 5",
+      "link": "https://www.bug.hr/umjetna-inteligencija/moc-mythos-klase-konacno-dostupna-stigao-je-claude-fable-5-60475",
+      "source": "Bug.hr"
     },
     {
-      "title": "Jedan od najvećih IPO-a u povijesti tech industrije: OpenAI podnio zahtjev za izlazak na burzu",
-      "link": "https://www.tportal.hr/tehno/clanak/jedan-od-najvecih-ipo-a-u-povijesti-tehnologije-openai-izlazi-na-burzu-20260609",
-      "source": "Tportal"
+      "title": "ChatGPT gubi udio u preuzimanjima aplikacija zbog jačanja konkurencije",
+      "link": "https://mreza.bug.hr/umjetna-inteligencija/chatgpt-gubi-udio-u-preuzimanjima-aplikacija-zbog-jacanja-konkurencije-60329",
+      "source": "Bug.hr"
     },
     {
-      "title": "Researchers trained an open source AI search agent, Harness-1, that outperforms GPT-5.4 on recalling relevant information",
-      "link": "https://venturebeat.com/orchestration/researchers-trained-an-open-source-ai-search-agent-harness-1-that-outperforms-gpt-5-4-on-recalling-relevant-information",
+      "title": "Cohere open-sources a coding agent that runs on a single H100",
+      "link": "https://venturebeat.com/technology/cohere-open-sources-a-coding-agent-that-runs-on-a-single-h100",
       "source": "VentureBeat"
+    },
+    {
+      "title": "OpenAI ide u javnu ponudu dionica, ali nisu rekli točno kad",
+      "link": "https://mreza.bug.hr/biznis/openai-ide-u-javnu-ponudu-dionica-ali-nisu-rekli-tocno-kad-60463",
+      "source": "Bug.hr"
     }
   ],
   "micro_tips": {
     "vscode": {
-      "tip": "Dupliciraj trenutnu liniju ispod",
-      "keys": "Shift+Alt+↓"
+      "tip": "Obriši cijelu liniju odjednom",
+      "keys": "Ctrl+Shift+K"
     },
-    "sql": "EXISTS umjesto IN za subqueries — brže jer stane na prvom podudaranju: WHERE EXISTS (SELECT 1 FROM ...)",
-    "oracle": "/*+ INDEX(t ime_indexa) */ forsira specifičan index kad optimizer bira full scan",
-    "regex": "\\b granica riječi: \\bword\\b podudara cijelu riječ, ne \"password\" ili \"swordfish\""
+    "sql": "Nikad SELECT * u produkciji — navedi kolone, manji I/O i bolji cache plan",
+    "oracle": "/*+ PARALLEL(t 4) */ paralelno izvršavanje querija na N thread-ova",
+    "regex": "(?:group) non-capturing group: grupiraj bez pamćenja za veće performanse"
   }
 }
