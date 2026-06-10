@@ -1,21 +1,57 @@
 {
-  "last_updated": "2026-06-10T19:01:02.303Z",
+  "last_updated": "2026-06-10T19:28:22.564Z",
   "source_count": 11,
   "items": [
     {
+      "id": "zdnet-0",
+      "title": "Everything announced at Apple WWDC 2026 - including Siri, iOS 27 dev beta, and more",
+      "summary": "We reported live from Apple Park to cover the company's developer conference. Here's everything you need to know.",
+      "link": "https://www.zdnet.com/article/everything-announced-at-apple-wwdc-2026-including-siri-ios-27-dev-beta-and-more/",
+      "published": "2026-06-10T19:19:00.000Z",
+      "source": "ZDNet",
+      "category": "tech",
+      "xml_category": "",
+      "tags": [],
+      "image": null
+    },
+    {
+      "id": "the-next-web-0",
+      "title": "Researchers tricked an OpenClaw AI agent into leaking AWS keys and customer data with a phishing email",
+      "summary": "Security researchers at Varonis built an OpenClaw email agent, connected it to a Gmail inbox with fake company data, and then phished it. The agent, dubbed Pinchy, handed over AWS credentials, database connection strings, and a customer export without verifying who was asking. It took a single imper",
+      "link": "https://thenextweb.com/news/openclaw-ai-agent-phishing-varonis-pinchy",
+      "published": "2026-06-10T19:13:02.000Z",
+      "source": "The Next Web",
+      "category": "ai",
+      "xml_category": "artificial intelligence",
+      "tags": [],
+      "image": "https://media.thenextweb.com/2026/06/openclaw-ai-agent-phishing-varonis-pinchy.avif"
+    },
+    {
       "id": "the-verge-0",
-      "title": "Fable won’t answer basic biology questions",
+      "title": "Claude Fable won’t answer basic biology questions",
       "summary": "Anthropic just released Claude Fable 5, calling it the most powerful AI model it has ever made widely available and praising its skills in biology, among others. But the model won't answer basic biology questions - the kind you'd expect a high schooler to handle. Instead, it hands off the query to t",
       "link": "https://www.theverge.com/ai-artificial-intelligence/947973/fable-wont-answer-basic-biology-questions",
       "published": "2026-06-10T18:43:34.000Z",
       "source": "The Verge",
-      "category": "science",
+      "category": "ai",
       "xml_category": "[object object]",
       "tags": [],
       "image": null
     },
     {
-      "id": "zdnet-0",
+      "id": "the-next-web-1",
+      "title": "A Chinese state-linked botnet has grown to 1,500 hacked routers and is mapping vulnerable targets within hours of disclosure",
+      "summary": "A covert botnet linked to Chinese state-sponsored hackers has more than doubled in size and is now scanning for newly disclosed vulnerabilities within hours of publication. The JDY botnet comprises over 1,500 compromised small office and home office routers, firewalls, and IoT devices, according to ",
+      "link": "https://thenextweb.com/news/jdy-botnet-china-1500-devices-reconnaissance",
+      "published": "2026-06-10T18:20:53.000Z",
+      "source": "The Next Web",
+      "category": "tech",
+      "xml_category": "china",
+      "tags": [],
+      "image": "https://media.thenextweb.com/2026/06/jdy-botnet-china-1500-devices-reconnaissance.avif"
+    },
+    {
+      "id": "zdnet-1",
       "title": "Best early Amazon Prime Day phone deals: Save over 20% on Samsung and Google devices",
       "summary": "Amazon Prime Day is coming soon, but top phone deals from Samsung, Google, and Motorola are already live.",
       "link": "https://www.zdnet.com/article/best-early-amazon-prime-day-phone-deals-2026/",
@@ -27,7 +63,7 @@
       "image": null
     },
     {
-      "id": "zdnet-1",
+      "id": "zdnet-2",
       "title": "How to try the new Siri AI - join the waitlist today",
       "summary": "The new Siri AI is finally here - sort of. Here's how to join the waitlist and try Apple's next-gen assistant early.",
       "link": "https://www.zdnet.com/article/how-to-get-siri-ai-early-join-the-waitlist-today/",
@@ -39,7 +75,7 @@
       "image": null
     },
     {
-      "id": "the-next-web-0",
+      "id": "the-next-web-2",
       "title": "SpaceX’s IPO is expected to mint 4,000 new millionaires, from engineers to cafeteria workers",
       "summary": "More than 4,000 current and former SpaceX employees are expected to become millionaires when the company begins trading on Nasdaq this week, according to an analysis by Hill.com. Of those, approximately 400 are projected to hold stakes worth $100 million or more. The wealth creation will not be limi",
       "link": "https://thenextweb.com/news/spacex-ipo-4000-millionaires-employees-wealth",
@@ -51,7 +87,7 @@
       "image": "https://media.thenextweb.com/2021/02/Elon-Musk-photo-by-Daniel-Oberhaus.avif"
     },
     {
-      "id": "zdnet-2",
+      "id": "zdnet-3",
       "title": "The best early Amazon Prime Day deals: I found editor-approved tech already on sale",
       "summary": "Amazon's Prime Day sale returns in a few weeks, but these are our favorite early deals you can shop right now.",
       "link": "https://www.zdnet.com/article/best-early-amazon-prime-day-deals-2026/",
@@ -63,7 +99,7 @@
       "image": null
     },
     {
-      "id": "the-next-web-1",
+      "id": "the-next-web-3",
       "title": "BNP Paribas says the $3.6 trillion US tech IPO pipeline will pull European startups towards public markets",
       "summary": "The IPO filings by SpaceX, OpenAI, and Anthropic have created a pipeline of US tech offerings worth approximately $3.6 trillion. That wave is going to generate appetite for European tech deals too, according to Ygal el Harrar, global head of equity capital markets for the technology industry at BNP ",
       "link": "https://thenextweb.com/news/bnp-paribas-us-mega-ipos-europe-tech-deals",
@@ -87,7 +123,7 @@
       "image": null
     },
     {
-      "id": "the-next-web-2",
+      "id": "the-next-web-4",
       "title": "The most AI-obsessed companies spend $7,500 per employee per month. The median spends $11.",
       "summary": "The top 1% of US companies by AI adoption spend $7,500 per employee per month on AI tools and compute. The median firm spends $11.38. That 680x gap, drawn from the Ramp AI Index, is the clearest picture yet of how unevenly AI spending is distributed across American business. Ramp describes the top 1",
       "link": "https://thenextweb.com/news/ai-pilled-firms-7500-per-employee-spending",
@@ -135,7 +171,7 @@
       "image": "https://images.ctfassets.net/jdtwqhzvc2n1/6EsRZ1hgZ3BImNLPflymgq/cc85e35c325fbcd5962ee0773f53c6d4/u7277289442_Vector_art_of_an_AI_agent_sitting_at_a_desk._The__9330606f-5ac0-4911-a5f1-680f3f3f2d11_0.png?w=300&q=30"
     },
     {
-      "id": "the-next-web-3",
+      "id": "the-next-web-5",
       "title": "Boeing upgrades the Ghost Bat with internal weapons and longer range as it competes with Helsing for German drone orders",
       "summary": "Boeing unveiled an upgraded version of its MQ-28 Ghost Bat uncrewed combat aircraft at the ILA Berlin air show on Wednesday, adding an internal weapons bay, a 25% larger wing, and 2,000 pounds of additional payload capacity. The upgrades are designed to give Boeing the edge over Helsing, the German ",
       "link": "https://thenextweb.com/news/boeing-ghost-bat-upgrades-germany-helsing-drone",
@@ -171,7 +207,7 @@
       "image": null
     },
     {
-      "id": "the-next-web-4",
+      "id": "the-next-web-6",
       "title": "Trump Media drops Truth Social spinoff, refocuses on $6 billion fusion merger with TAE Technologies",
       "summary": "Trump Media & Technology Group, TAE Technologies, and Texas Ventures Acquisition III have decided not to proceed with a planned spinoff of Truth Social and other media assets. The three companies said in a statement on Wednesday that Trump Media and TAE remain committed to closing their $6 billion m",
       "link": "https://thenextweb.com/news/trump-media-drops-truth-social-spinoff-refocuses-on-6-billion-fusion-merger-with-tae-technologies",
@@ -183,7 +219,7 @@
       "image": "https://media.thenextweb.com/2024/02/Untitled-design-16.avif"
     },
     {
-      "id": "the-next-web-5",
+      "id": "the-next-web-7",
       "title": "India froze Starlink approvals over Iran fears, days before SpaceX’s record IPO",
       "summary": "India has effectively frozen the approvals Starlink needs to begin commercial operations in the country. Security agencies under India’s Ministry of Home Affairs withheld final clearances after SpaceX allowed Starlink access inside Iran despite not having a licence to operate there, Bloomberg report",
       "link": "https://thenextweb.com/news/india-starlink-paused-spacex-ipo-iran",
@@ -219,7 +255,7 @@
       "image": null
     },
     {
-      "id": "zdnet-3",
+      "id": "zdnet-4",
       "title": "3 signs someone is stealing your Wi-Fi - and how to kick them off",
       "summary": "If you suspect someone may be on your Wi-Fi network without your permission, here's how to find out - and what to do about it.",
       "link": "https://www.zdnet.com/article/signs-someone-is-using-your-wi-fi-how-to-kick-them-off/",
@@ -231,7 +267,7 @@
       "image": null
     },
     {
-      "id": "zdnet-4",
+      "id": "zdnet-5",
       "title": "Will your iPhone support Siri AI? The answer is complicated",
       "summary": "With iOS 27, only certain iPhone models and other devices will support all Siri features. Here's how this works.",
       "link": "https://www.zdnet.com/article/will-your-iphone-support-siri-ai-the-answer-is-complicated/",
@@ -243,7 +279,7 @@
       "image": null
     },
     {
-      "id": "the-next-web-6",
+      "id": "the-next-web-8",
       "title": "Anthropic’s CEO says he doesn’t know if Claude was used in the Iran school strike that killed 120 children",
       "summary": "Anthropic CEO Dario Amodei said he does not know what role his company’s AI model Claude played in a missile strike that killed an estimated 120 children at an elementary school in Minab, Iran, on February 28. In an interview on Bloomberg’s The Circuit with Emily Chang, he described the strike as “a",
       "link": "https://thenextweb.com/news/anthropic-amodei-claude-iran-school-strike-military-ai",
@@ -267,7 +303,7 @@
       "image": null
     },
     {
-      "id": "the-next-web-7",
+      "id": "the-next-web-9",
       "title": "Russia unbans Roblox after 63,000 children wrote letters of complaint, half saying they wanted to leave the country",
       "summary": "Russia restored access to Roblox on Wednesday after concluding the company had complied with local legal requirements, the Interfax news agency reported. The gaming platform had been blocked since December 3, cutting off an estimated 18 million monthly users, most of them children and teenagers. The",
       "link": "https://thenextweb.com/news/russia-roblox-unban-children-letters-censorship",
@@ -315,7 +351,7 @@
       "image": null
     },
     {
-      "id": "zdnet-5",
+      "id": "zdnet-6",
       "title": "I found a free Android app that makes deleting photos as easy as swiping left",
       "summary": "Looking for the most efficient way to clear out photos and videos from your Android phone? It's just a swipe away with an easy-to-use app called Sponge.",
       "link": "https://www.zdnet.com/article/free-android-app-makes-deleting-photos-easy/",
@@ -339,7 +375,7 @@
       "image": null
     },
     {
-      "id": "zdnet-6",
+      "id": "zdnet-7",
       "title": "Amazon just slashed the AirPods Pro 3 price to the lowest we've ever seen",
       "summary": "The AirPods Pro 3 are the best earbuds for Apple users. My only complaint is that I didn't get them for $70 off like they are with this deal.",
       "link": "https://www.zdnet.com/article/airpods-pro-3-early-amazon-prime-day-deal-2026/",
@@ -351,7 +387,7 @@
       "image": null
     },
     {
-      "id": "zdnet-7",
+      "id": "zdnet-8",
       "title": "The best Walmart deals to compete with Prime Day: Laptops, TVs, smart glasses, and more",
       "summary": "Amazon's big sale lands soon, but we've already found some excellent live deals on new tech, gadgets, and more at Walmart.",
       "link": "https://www.zdnet.com/article/best-early-amazon-prime-day-walmart-deals-2026/",
@@ -363,7 +399,7 @@
       "image": null
     },
     {
-      "id": "zdnet-8",
+      "id": "zdnet-9",
       "title": "Best early Amazon Prime Day deals under $25: Top deals on cheap gadgets I've tested",
       "summary": "Amazon Prime Day is coming soon, and we've rounded up all the best cheap deals on gadgets and devices.",
       "link": "https://www.zdnet.com/article/best-early-amazon-prime-day-deals-under-25-2026/",
@@ -387,7 +423,7 @@
       "image": null
     },
     {
-      "id": "zdnet-9",
+      "id": "zdnet-10",
       "title": "The best Costco deals to compete with Prime Day: TVs, Apple devices, and more",
       "summary": "Prime Day may be coming soon, but Costco already has great discounts live on home essentials, top tech, and more.",
       "link": "https://www.zdnet.com/article/best-early-amazon-prime-day-costco-deals-2026/",
@@ -399,7 +435,7 @@
       "image": null
     },
     {
-      "id": "zdnet-10",
+      "id": "zdnet-11",
       "title": "Best early Amazon Prime Day tablet deals: Up to $300 off Samsung, Apple, and Microsoft",
       "summary": "We found the best deals on iPads, Surface Pros, and more, ahead of Amazon's Prime Day sale later this month.",
       "link": "https://www.zdnet.com/article/best-early-amazon-prime-day-tablet-deals-2026/",
@@ -411,7 +447,7 @@
       "image": null
     },
     {
-      "id": "zdnet-11",
+      "id": "zdnet-12",
       "title": "The 8 best early Prime Day headphone deals: Sales on new models I'd upgrade to immediately",
       "summary": "Prime Day is right around the corner, and I've found the best headphone deals - many of which are recent, flagship releases from Apple, Sony, Bose, and more.",
       "link": "https://www.zdnet.com/article/best-early-prime-day-headphone-deals-2026/",
@@ -471,7 +507,7 @@
       "image": null
     },
     {
-      "id": "zdnet-12",
+      "id": "zdnet-13",
       "title": "15 of the best Prime Day laptop deals (I'd actually buy myself)",
       "summary": "Prime Day is earlier this year, so I've rounded up some of the best early laptop deals live now, including the latest MacBooks and gaming laptops.",
       "link": "https://www.zdnet.com/article/best-early-amazon-prime-day-laptop-deals-2026/",
@@ -483,7 +519,7 @@
       "image": null
     },
     {
-      "id": "zdnet-13",
+      "id": "zdnet-14",
       "title": "Microsoft patches record 198 Windows bugs in June update - and 3 are zero days",
       "summary": "Among the 198 vulnerabilities are 32 critical ones and three publicly disclosed zero-day flaws, so you'll want to install this update ASAP.",
       "link": "https://www.zdnet.com/article/microsofts-june-windows-update-fixes-198-bugs-install-patch-asap/",
@@ -507,7 +543,7 @@
       "image": null
     },
     {
-      "id": "zdnet-14",
+      "id": "zdnet-15",
       "title": "I've tested so many desktop AI tools, but Hermes with Ollama is my new favorite - here's why",
       "summary": "Local AI is the way to go, and Hermes with open-source Ollama is my preferred setup right now.",
       "link": "https://www.zdnet.com/article/hermes-ollama-hands-on-desktop-ai-tool/",
@@ -615,7 +651,7 @@
       "image": null
     },
     {
-      "id": "zdnet-15",
+      "id": "zdnet-16",
       "title": "The best early Prime Day robot vacuum deals I'd buy now, after testing dozens of them",
       "summary": "Amazon Prime Day is right around the corner, and I found the best robot vacuum deals that are actually a great deal.",
       "link": "https://www.zdnet.com/article/best-early-amazon-prime-day-robot-vacuum-deals-2026/",
@@ -723,7 +759,7 @@
       "image": "https://media.thenextweb.com/2026/06/Aryon-Security-Raises-29-Million.avif"
     },
     {
-      "id": "zdnet-16",
+      "id": "zdnet-17",
       "title": "7+ phone privacy settings to check and turn off ASAP - to avoid exposing your personal data",
       "summary": "Your phone holds a lot of personal information, from where you go to who you talk to every day. Here's how to limit what can access your data and when.",
       "link": "https://www.zdnet.com/article/phone-privacy-settings-to-disable-review-avoid-exposing-data/",
@@ -1047,7 +1083,7 @@
       "image": "https://media.thenextweb.com/2026/06/01Health-team.avif"
     },
     {
-      "id": "zdnet-17",
+      "id": "zdnet-18",
       "title": "How to watch the 2026 FIFA World Cup: 10 ways to stream (including free options)",
       "summary": "One of the biggest sporting events of all time kicks off this week - and you don't need an expensive cable package to watch.",
       "link": "https://www.zdnet.com/article/how-to-watch-the-world-cup-2026/",
@@ -1167,7 +1203,7 @@
       "image": "https://www.netokracija.com/wp-content/uploads/2026/05/maro-matijasevic-dc-comics-batman59-300x180.png"
     },
     {
-      "id": "zdnet-18",
+      "id": "zdnet-19",
       "title": "The best laptop cooling pads of 2026: Expert tested",
       "summary": "We tested the best laptop cooling pads to keep your device running smooth with powerful cooling, RGB lights, high RPM and more.",
       "link": "https://www.zdnet.com/article/best-laptop-cooling-pad/",
@@ -1395,6 +1431,18 @@
       "image": "https://www.tportal.hr/media/thumbnail/500x300/2747137.jpeg?cropId=0"
     },
     {
+      "id": "tportal-12",
+      "title": "Spektakl na nebu ovog ljeta: Sve će biti vidljivo i iz Hrvatske, evo detalja",
+      "summary": "Rijedak kozmički događaj bit će vidljiv i u Hrvatskoj, a najimpresivnije će iskustvo doživjeti Španjolci i Portugalci, kojima će se dan na nekoliko trenutaka doslovno pretvoriti u noć",
+      "link": "https://www.tportal.hr/tehno/clanak/spektakl-na-nebu-ovog-ljeta-sve-ce-biti-vidljivo-i-iz-hrvatske-evo-detalja-20260609",
+      "published": "2026-06-10T04:30:00.000Z",
+      "source": "Tportal",
+      "category": "general",
+      "xml_category": "tech",
+      "tags": [],
+      "image": "https://www.tportal.hr/media/thumbnail/500x300/2747236.jpeg?cropId=0"
+    },
+    {
       "id": "bug.hr-12",
       "title": "Moć Mythos klase konačno dostupna - stigao je Claude Fable 5",
       "summary": "Anthropic je javno objavio Claude Fable 5, prvi AI model iz svoje najnaprednije Mythos klase. Donosi vrhunske performanse, ali dolazi s ugrađenim sigurnosnim mjerama kako bi se spriječila zlouporaba",
@@ -1429,18 +1477,6 @@
       "xml_category": "laptopi",
       "tags": [],
       "image": "https://www.bug.hr/img/lenovo-ideapad-5-2-u-1-14iph11-je-pristupacna-verzija-konvertibilnog-laptopa-s__RA8OW.jpg"
-    },
-    {
-      "id": "tportal-12",
-      "title": "Spektakl na nebu ovog ljeta: Sve će biti vidljivo i iz Hrvatske, evo detalja",
-      "summary": "Rijedak kozmički događaj bit će vidljiv i u Hrvatskoj, a najimpresivnije će iskustvo doživjeti Španjolci i Portugalci, kojima će se dan na nekoliko trenutaka doslovno pretvoriti u noć",
-      "link": "https://www.tportal.hr/tehno/clanak/spektakl-na-nebu-ovog-ljeta-sve-ce-biti-vidljivo-i-iz-hrvatske-evo-detalja-20260609",
-      "published": "2026-06-10T04:30:00.000Z",
-      "source": "Tportal",
-      "category": "general",
-      "xml_category": "tech",
-      "tags": [],
-      "image": "https://www.tportal.hr/media/thumbnail/500x300/2747236.jpeg?cropId=0"
     },
     {
       "id": "bug.hr-15",
@@ -1753,18 +1789,6 @@
       "xml_category": "ecosystems",
       "tags": [],
       "image": "https://media.thenextweb.com/2026/06/vinted-9-billion-us-expansion-ipo-adam-jay-london-tech-week.avif"
-    },
-    {
-      "id": "the-next-web-9",
-      "title": "MIT’s ultrasound wristband tracks every finger movement and lets you control a robot hand in real time",
-      "summary": "Engineers at MIT have built an ultrasound wristband that can track 22 degrees of freedom in the human hand and use that data to control a robotic hand in real time, according to research published in Nature Electronics in March 2026. The device uses a ring of small ultrasound transducers worn around",
-      "link": "https://thenextweb.com/news/mit-ultrasound-wristband-hand-tracking-robot-control",
-      "published": "2026-06-09T19:17:53.000Z",
-      "source": "The Next Web",
-      "category": "general",
-      "xml_category": "deep tech",
-      "tags": [],
-      "image": "https://media.thenextweb.com/2026/06/mit-ultrasound-wristband-hand-tracking-robot-control.avif"
     }
   ]
 }
