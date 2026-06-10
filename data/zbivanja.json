@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-09T21:28:06.962Z",
+  "generated_at": "2026-06-10T05:01:04.836Z",
   "stats": {
     "muzika.hr": {
       "ok": true,
@@ -9,6 +9,10 @@
       "ok": true,
       "count": 0
     },
+    "Mochvara": {
+      "ok": true,
+      "count": 15
+    },
     "Gavella": {
       "ok": true,
       "count": 0
@@ -16,10 +20,6 @@
     "Tvornica": {
       "ok": true,
       "count": 3
-    },
-    "Mochvara": {
-      "ok": true,
-      "count": 15
     },
     "ZeKaeM": {
       "ok": true,
@@ -871,6 +871,21 @@
       "source": "HNK Zagreb",
       "is_new": false,
       "first_seen": "2026-05-26T20:26:55.235Z"
+    },
+    {
+      "id": "fc75397bb2",
+      "title": "Rokam ja... ROKAONA",
+      "venue": "Mochvara",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-06-12T22:00:00",
+      "date_display": "pet, 12. 06. 2026.",
+      "time": "22:00",
+      "link": "https://mochvara.hr/event-detail/6a27dfef0037e894ca8cb78d/?lang=hr",
+      "source": "Mochvara",
+      "is_new": true,
+      "first_seen": "2026-06-10T05:01:04.836Z"
     },
     {
       "id": "4645fe59ac",
@@ -2075,7 +2090,22 @@
       "source": "muzika.hr",
       "is_new": false,
       "first_seen": "2026-06-03T22:22:52.215Z"
+    },
+    {
+      "id": "1cfe470f4f",
+      "title": "Rocks Stars Festival @CaveRomane 2026: Grše, Rasta, Hiljson",
+      "venue": "Grše",
+      "city": "Rasta",
+      "country": "EU",
+      "category": "concert",
+      "date_iso": "2026-06-24T00:00:00",
+      "date_display": "sri, 24. 06. 2026.",
+      "time": null,
+      "link": "https://www.muzika.hr/event/rocks-stars-festival-caveromane-2026-grse-rasta-hiljson/",
+      "source": "muzika.hr",
+      "is_new": true,
+      "first_seen": "2026-06-10T05:01:04.836Z"
     }
   ],
-  "new_count": 0
+  "new_count": 2
 }
