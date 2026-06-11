@@ -1,9 +1,93 @@
 {
-  "last_updated": "2026-06-11T15:01:13.504Z",
+  "last_updated": "2026-06-11T16:01:04.362Z",
   "source_count": 11,
   "items": [
     {
+      "id": "venturebeat-0",
+      "title": "Microsoft’s open-source SkillOpt automatically upgrades AI agent skills without touching model weights",
+      "summary": "Agent skills have become an important part of real-world AI applications, providing a mechanism — a set of instructions saved in a folder of text-based markdown (.md) files, usually — for models to adapt to specific enterprise use cases and complex workflows. However, optimizing these skills is a sl",
+      "link": "https://venturebeat.com/orchestration/microsofts-open-source-skillopt-automatically-upgrades-ai-agent-skills-without-touching-model-weights",
+      "published": "2026-06-11T23:37:00.000Z",
+      "source": "VentureBeat",
+      "category": "ai",
+      "xml_category": "orchestration",
+      "tags": [],
+      "image": "https://images.ctfassets.net/jdtwqhzvc2n1/2yHyN4RGkIqnssmfMDdPT6/eeef27bc6852a7d2992921ec4705a521/skill_optimization.png?w=300&q=30"
+    },
+    {
+      "id": "venturebeat-1",
+      "title": "What AI benchmarks miss about real-world performance",
+      "summary": "Presented by F5 Enterprise AI teams have spent years solving for compute, securing GPU allocations, negotiating cloud capacity, and benchmarking training throughput. The assumption embedded in that work is that the path between storage and compute will keep up. In production, that assumption increas",
+      "link": "https://venturebeat.com/orchestration/what-ai-benchmarks-miss-about-real-world-performance",
+      "published": "2026-06-11T15:34:06.000Z",
+      "source": "VentureBeat",
+      "category": "ai",
+      "xml_category": "orchestration",
+      "tags": [],
+      "image": "https://images.ctfassets.net/jdtwqhzvc2n1/1gHpfL9gJBxcyDFsgtDkpo/1bc9f497cb9d5c5f4503c43518cc2ee0/AdobeStock_1434656553.jpeg?w=300&q=30"
+    },
+    {
+      "id": "techcrunch-ai-0",
+      "title": "Pool&#8217;s new app turns your screenshots into something useful",
+      "summary": "Pool's new app automatically sorts screenshots into personalized collections, tracks down the original links behind saved content, and helps you rediscover products, recipes, travel ideas, and other things you meant to revisit.",
+      "link": "https://techcrunch.com/2026/06/11/pools-new-app-turns-your-screenshots-into-a-searchable-memory-bank/",
+      "published": "2026-06-11T15:30:00.000Z",
+      "source": "TechCrunch AI",
+      "category": "tech",
+      "xml_category": "tc",
+      "tags": [],
+      "image": null
+    },
+    {
       "id": "the-verge-0",
+      "title": "Is Apple TV the new HBO?",
+      "summary": "This is Lowpass by Janko Roettgers, a newsletter on the ever-evolving intersection of tech and entertainment, syndicated just for The Verge subscribers once a week. Severance. Pachinko. Silo. Ted Lasso. Over the past couple of years, a number of Apple TV shows have become hits with audiences and cri",
+      "link": "https://www.theverge.com/column/948295/apple-tv-new-hbo",
+      "published": "2026-06-11T15:30:00.000Z",
+      "source": "The Verge",
+      "category": "tech",
+      "xml_category": "[object object]",
+      "tags": [],
+      "image": null
+    },
+    {
+      "id": "venturebeat-2",
+      "title": "Google's DiffusionGemma generates 256 tokens in parallel and self-corrects as it goes",
+      "summary": "GenAI image generators like Stable Diffusion do not draw a picture pixel by pixel from left to right. They start with noise and iteratively refine the entire image in parallel until it converges, in a process known as diffusion. For years, applying that same principle to text generation had remained",
+      "link": "https://venturebeat.com/technology/googles-diffusiongemma-generates-256-tokens-in-parallel-and-self-corrects-as-it-goes",
+      "published": "2026-06-11T15:16:23.000Z",
+      "source": "VentureBeat",
+      "category": "general",
+      "xml_category": "technology",
+      "tags": [],
+      "image": "https://images.ctfassets.net/jdtwqhzvc2n1/7ovrrf19CQHT2JVXAFiEip/a9d0d1480eb2651175a20372894efa4d/diffusion-image-text.jpg?w=300&q=30"
+    },
+    {
+      "id": "the-verge-1",
+      "title": "The Nintendo Switch 2 is $15 off at Woot",
+      "summary": "Woot is hosting a small, but welcome deal on the Nintendo Switch 2 through June 19th. New customers can save $15 on the $449.99 console with the code NEW15 used at checkout. Sure, these are microscopic savings, but come September, the Switch 2 will rise in price to $499.99, so any deal is worth tell",
+      "link": "https://www.theverge.com/gadgets/948292/nintendo-switch-2-deal-sale-woot",
+      "published": "2026-06-11T15:03:49.000Z",
+      "source": "The Verge",
+      "category": "general",
+      "xml_category": "[object object]",
+      "tags": [],
+      "image": null
+    },
+    {
+      "id": "the-verge-2",
+      "title": "The Weather Channel app now predicts bad allergy days",
+      "summary": "The Weather Company announced an \"enhanced allergy experience\" now available through its The Weather Channel app designed to help allergy sufferers better understand when their symptoms might flare up, and what's causing them. While the app already provides static pollen counts, its \"Health &#38; We",
+      "link": "https://www.theverge.com/tech/948363/weather-channel-mobile-app-ios-android-pollen-forecast",
+      "published": "2026-06-11T15:02:33.000Z",
+      "source": "The Verge",
+      "category": "tech",
+      "xml_category": "[object object]",
+      "tags": [],
+      "image": null
+    },
+    {
+      "id": "the-verge-3",
       "title": "With the World Cup looming, there’s still no clear replacement for sports Twitter",
       "summary": "Three years ago, when the women's World Cup kicked off in Australia and New Zealand, my social feeds were in a strange place. Twitter had just transformed into X, newcomer Threads was seemingly ascendant, and places like Bluesky had yet to garner much momentum. It left me with an odd, and admittedly",
       "link": "https://www.theverge.com/entertainment/947956/world-cup-2026-social-media",
@@ -15,7 +99,7 @@
       "image": null
     },
     {
-      "id": "techcrunch-ai-0",
+      "id": "techcrunch-ai-1",
       "title": "DoorDash&#8217;s new AI chatbot lets you order with prompts and photos",
       "summary": "The new chatbot, called Ask DoorDash, allows users to search the app for what they're looking for in their own words instead of having to scroll through restaurants and stores to build a cart.",
       "link": "https://techcrunch.com/2026/06/11/doordashs-new-ai-chatbot-lets-you-order-with-prompts-and-photos/",
@@ -28,10 +112,10 @@
     },
     {
       "id": "zdnet-0",
-      "title": "Best Buy has better gaming deals right now than Amazon's early Prime Day sale",
-      "summary": "Disappointed in Amazon's selection of gaming deals ahead of the Prime Day 2026 sale? Best Buy has you covered.",
-      "link": "https://www.zdnet.com/article/best-buy-gaming-deals-amazon-prime-day-2026/",
-      "published": "2026-06-11T14:02:46.000Z",
+      "title": "Microsoft patches record 206 Windows bugs in June update - and 3 are zero days",
+      "summary": "Among the 206 vulnerabilities are 32 critical ones and three publicly disclosed zero-day flaws, so you'll want to install this update ASAP.",
+      "link": "https://www.zdnet.com/article/microsofts-june-windows-update-fixes-198-bugs-install-patch-asap/",
+      "published": "2026-06-11T14:02:00.000Z",
       "source": "ZDNet",
       "category": "general",
       "xml_category": "",
@@ -40,9 +124,9 @@
     },
     {
       "id": "zdnet-1",
-      "title": "Microsoft patches record 206 Windows bugs in June update - and 3 are zero days",
-      "summary": "Among the 206 vulnerabilities are 32 critical ones and three publicly disclosed zero-day flaws, so you'll want to install this update ASAP.",
-      "link": "https://www.zdnet.com/article/microsofts-june-windows-update-fixes-198-bugs-install-patch-asap/",
+      "title": "Best Buy has better gaming deals right now than Amazon's early Prime Day sale",
+      "summary": "Disappointed in Amazon's selection of gaming deals ahead of the Prime Day 2026 sale? Best Buy has you covered.",
+      "link": "https://www.zdnet.com/article/best-buy-gaming-deals-amazon-prime-day-2026/",
       "published": "2026-06-11T14:02:00.000Z",
       "source": "ZDNet",
       "category": "general",
@@ -87,7 +171,7 @@
       "image": "https://media.thenextweb.com/2026/06/Ashesh-Jain-Co-Founder-CEO-Coram-AI.avif"
     },
     {
-      "id": "the-verge-1",
+      "id": "the-verge-4",
       "title": "Cash App’s launching a phone service",
       "summary": "Cash App's AT&#38;T-based MVNO will offer an unlimited 5G data plan for $40 per month including taxes and fees. The new mobile service is powered by Gigs, the same firm behind the Klarna mobile service that launched last year with the same pricing and is \"rolling out to select users, with broader av",
       "link": "https://www.theverge.com/tech/948181/cash-app-mobile",
@@ -135,7 +219,7 @@
       "image": "https://media.thenextweb.com/2026/06/stock-screen-red.avif"
     },
     {
-      "id": "the-verge-2",
+      "id": "the-verge-5",
       "title": "I went to the woods to drink surprisingly great espresso",
       "summary": "With summer's return, I'm again reminded of my limits as I head into the great outdoors: I can put up with a heavy, uncomfortable backpack, bug bites, mud, and even bland dehydrated food, but I will not forsake my morning brew. I've tried every imaginable coffee gadget in my half-century of camping.",
       "link": "https://www.theverge.com/tech/942873/ikape-cera-portable-espresso-review",
@@ -183,7 +267,7 @@
       "image": "https://media.thenextweb.com/2016/04/london.avif"
     },
     {
-      "id": "the-verge-3",
+      "id": "the-verge-6",
       "title": "Boox’s new e-reader could replace your Kindle, Kobo, and digital notepad",
       "summary": "Boox has announced a new version of its smallest e-reader that expands the Go 6's functionality to now include note-taking. The new Go 6 (Gen II) sticks with a 6-inch, 300PPI E Ink screen like its predecessor but gets a bump from 2GB to 3GB of RAM and now supports Boox's InkSense Plus stylus, which ",
       "link": "https://www.theverge.com/tech/947769/boox-onyx-go-6-gen-ii-android-11-e-reader-google-play",
@@ -207,7 +291,7 @@
       "image": "https://media.thenextweb.com/2023/10/spacex-europe-deal.avif"
     },
     {
-      "id": "the-verge-4",
+      "id": "the-verge-7",
       "title": "Anthropic apologizes for invisible Claude Fable guardrails",
       "summary": "Anthropic has apologized for stealthily throttling its new AI model, Claude Fable 5, with hidden guardrails that undermine both researchers and rivals using it to develop competing systems. The company says it is reversing course and will be more transparent about when the restrictions kick in, even",
       "link": "https://www.theverge.com/ai-artificial-intelligence/948280/anthropic-claude-fable-invisible-distillation-guardrail",
@@ -219,7 +303,7 @@
       "image": null
     },
     {
-      "id": "the-verge-5",
+      "id": "the-verge-8",
       "title": "The library rules (and so do library streaming services)",
       "summary": "Summer is almost here, and that means getting outside, having fun in the sun, and touching grass. But if you need to cool down for a bit, allow me to sing the praises of the library. If your local library system is anything like mine, it probably offers a lot of great things for you [&#8230;]",
       "link": "https://www.theverge.com/tech/942657/library-ebook-borrowing-stream-tv-movies-hoopla-kanopy-overdrive",
@@ -279,7 +363,7 @@
       "image": "https://media.thenextweb.com/2026/06/skilled-trades-worker.avif"
     },
     {
-      "id": "the-verge-6",
+      "id": "the-verge-9",
       "title": "iFixit Trump phone teardown confirms it’s an HTC dupe",
       "summary": "After getting its hands on a Trump phone and tearing it apart, iFixit has confirmed what I first reported back in February: the T1 Phone is an almost exact duplicate of the HTC U24 Pro. iFixit partnered with NBC to get hold of the network's media sample of the Trump phone, along with a U24 [&#8230;]",
       "link": "https://www.theverge.com/gadgets/948262/trump-phone-t1-ifixit-teardown-htc-u24-pro",
@@ -639,7 +723,7 @@
       "image": "https://www.tportal.hr/media/thumbnail/500x300/2748423.jpeg?cropId=0"
     },
     {
-      "id": "venturebeat-0",
+      "id": "venturebeat-3",
       "title": "Why AI that works in the lab often fails in production — and what actually fixes it",
       "summary": "Presented by Capital One Enterprises aren’t struggling to experiment with AI; they’re struggling to make it work in the real world. Moving from promising prototypes to reliable, production-scale systems is where most efforts stall. In my role within Capital One’s AI Foundations organization, I’ve se",
       "link": "https://venturebeat.com/orchestration/why-ai-that-works-in-the-lab-often-fails-in-production-and-what-actually-fixes-it",
@@ -783,7 +867,7 @@
       "image": "https://mreza.bug.hr/img/ruski-vojni-sateliti-prate-radarski-satelit-koji-ukrajini-dostavlja-podatke_VyUAAV.png"
     },
     {
-      "id": "techcrunch-ai-1",
+      "id": "techcrunch-ai-2",
       "title": "Opendoor&#8217;s India exit is fueling a bigger conversation about AI and outsourcing",
       "summary": "The decision comes as India emerges as the world’s largest GCC market.",
       "link": "https://techcrunch.com/2026/06/10/opendoors-india-exit-is-fueling-a-bigger-conversation-about-ai-and-outsourcing/",
@@ -807,7 +891,7 @@
       "image": "https://www.tportal.hr/media/thumbnail/500x300/2747769.jpeg?cropId=0"
     },
     {
-      "id": "techcrunch-ai-2",
+      "id": "techcrunch-ai-3",
       "title": "Anthropic&#8217;s Dario Amodei has just one direct report",
       "summary": "If you doubted his genius, doubt no more.",
       "link": "https://techcrunch.com/2026/06/10/anthropics-dario-amodei-has-just-one-direct-report/",
@@ -855,7 +939,7 @@
       "image": null
     },
     {
-      "id": "venturebeat-1",
+      "id": "venturebeat-4",
       "title": "Surprise upset: GPT-5.5 beats Claude Fable 5 on brutal new Agents’ Last Exam benchmark",
       "summary": "Researchers from the University of California, Berkeley&#x27;s Center for Responsible, Decentralized Intelligence (RDI), alongside an advisory committee of over 300 domain experts, have launched Agents’ Last Exam (ALE) —a grueling new benchmark built to measure whether artificial intelligence can ac",
       "link": "https://venturebeat.com/technology/surprise-upset-gpt-5-5-beats-claude-fable-5-on-brutal-new-agents-last-exam-benchmark",
@@ -927,7 +1011,7 @@
       "image": "https://media.thenextweb.com/2026/06/paramount-streaming-tech-stack-pluto-tv-hbo-max.avif"
     },
     {
-      "id": "techcrunch-ai-3",
+      "id": "techcrunch-ai-4",
       "title": "xAI fired an engineer who raised alarms about Grok safety, new lawsuit claims",
       "summary": "A former xAI engineer is suing the company and SpaceX, alleging he was fired for raising AI safety concerns about Grok days before SpaceX's historic IPO.",
       "link": "https://techcrunch.com/2026/06/10/xai-fired-an-engineer-who-raised-alarms-about-grok-safety-new-lawsuit-claims/",
@@ -975,7 +1059,7 @@
       "image": null
     },
     {
-      "id": "venturebeat-2",
+      "id": "venturebeat-5",
       "title": "Researchers say they trained a foundation model from scratch for about $1,500",
       "summary": "Training a foundation LLM from scratch costs millions and requires internet-scale data — which is why most enterprises don&#x27;t bother. Sapient thinks it has a cheaper path. To overcome this brute-force scaling dogma, researchers at Sapient developed HRM-Text , which replaces standard Transformers",
       "link": "https://venturebeat.com/technology/researchers-say-they-trained-a-foundation-model-from-scratch-for-about-1-500",
@@ -1083,7 +1167,7 @@
       "image": null
     },
     {
-      "id": "techcrunch-ai-4",
+      "id": "techcrunch-ai-5",
       "title": "Fresh off bond sale, Amazon borrows $17.5B from banks as AI spending continues",
       "summary": "Companies are burning through exorbitant sums of money to keep pace in the AI arms race. Debt is climbing.",
       "link": "https://techcrunch.com/2026/06/10/fresh-off-bond-sale-amazon-borrows-17-5-billion-from-banks-as-ai-spending-continues/",
@@ -1131,7 +1215,7 @@
       "image": null
     },
     {
-      "id": "venturebeat-3",
+      "id": "venturebeat-6",
       "title": "Anthropic CEO calls for FAA-style regulation of powerful AI models: what enterprises should know",
       "summary": "In a sweeping new essay titled \" Policy on the AI Exponential ,\" Anthropic co-founder and CEO Dario Amodei publicly calls for new government regulations governing the release of powerful AI models — specifically comparing AI industry to commercial aviation, which follows regulations enforced by the ",
       "link": "https://venturebeat.com/technology/anthropic-ceo-calls-for-faa-style-regulation-of-powerful-ai-models-what-enterprises-should-know",
@@ -1371,7 +1455,7 @@
       "image": "https://media.thenextweb.com/2026/06/india-starlink-paused-spacex-ipo-iran.avif"
     },
     {
-      "id": "techcrunch-ai-5",
+      "id": "techcrunch-ai-6",
       "title": "‘AI-pilled’ firms spend $7,500 per employee each month on AI",
       "summary": "The most AI-obsessed firms are spending roughly $7,500 monthly per employee on AI, per Ramp AI Index. That's not more than an engineer's salary — yet.",
       "link": "https://techcrunch.com/2026/06/10/ai-pilled-firms-spend-7500-per-employee-each-month-on-ai/",
@@ -1503,7 +1587,7 @@
       "image": null
     },
     {
-      "id": "techcrunch-ai-6",
+      "id": "techcrunch-ai-7",
       "title": "How memory tools can make AI models worse",
       "summary": "New research suggests that AI memory systems can degrade model performance and encourage sycophantic tendencies.",
       "link": "https://techcrunch.com/2026/06/10/how-memory-tools-can-make-ai-models-worse/",
@@ -1522,78 +1606,6 @@
       "published": "2026-06-10T16:10:00.000Z",
       "source": "ZDNet",
       "category": "ai",
-      "xml_category": "",
-      "tags": [],
-      "image": null
-    },
-    {
-      "id": "zdnet-16",
-      "title": "The best Walmart deals to compete with Prime Day: Laptops, TVs, smart glasses, and more",
-      "summary": "Amazon's big sale lands soon, but we've already found some excellent live deals on new tech, gadgets, and more at Walmart.",
-      "link": "https://www.zdnet.com/article/best-early-amazon-prime-day-walmart-deals-2026/",
-      "published": "2026-06-10T15:57:24.000Z",
-      "source": "ZDNet",
-      "category": "general",
-      "xml_category": "",
-      "tags": [],
-      "image": null
-    },
-    {
-      "id": "zdnet-17",
-      "title": "Best early Amazon Prime Day deals under $25: Top deals on cheap gadgets I've tested",
-      "summary": "Amazon Prime Day is coming soon, and we've rounded up all the best cheap deals on gadgets and devices.",
-      "link": "https://www.zdnet.com/article/best-early-amazon-prime-day-deals-under-25-2026/",
-      "published": "2026-06-10T15:45:00.000Z",
-      "source": "ZDNet",
-      "category": "general",
-      "xml_category": "",
-      "tags": [],
-      "image": null
-    },
-    {
-      "id": "techcrunch-ai-7",
-      "title": "Cybersecurity researchers aren&#8217;t happy about the guardrails on Anthropic&#8217;s Fable",
-      "summary": "Cybersecurity researchers are complaining that Anthropic's new model Fable has guardrails that are too strict for any cybersecurity work.",
-      "link": "https://techcrunch.com/2026/06/10/cybersecurity-researchers-arent-happy-about-the-guardrails-on-anthropics-fable/",
-      "published": "2026-06-10T15:41:22.000Z",
-      "source": "TechCrunch AI",
-      "category": "ai",
-      "xml_category": "ai",
-      "tags": [],
-      "image": null
-    },
-    {
-      "id": "zdnet-18",
-      "title": "The best Costco deals to compete with Prime Day: TVs, Apple devices, and more",
-      "summary": "Prime Day may be coming soon, but Costco already has great discounts live on home essentials, top tech, and more.",
-      "link": "https://www.zdnet.com/article/best-early-amazon-prime-day-costco-deals-2026/",
-      "published": "2026-06-10T15:34:53.000Z",
-      "source": "ZDNet",
-      "category": "tech",
-      "xml_category": "",
-      "tags": [],
-      "image": null
-    },
-    {
-      "id": "zdnet-19",
-      "title": "Best early Amazon Prime Day tablet deals: Up to $300 off Samsung, Apple, and Microsoft",
-      "summary": "We found the best deals on iPads, Surface Pros, and more, ahead of Amazon's Prime Day sale later this month.",
-      "link": "https://www.zdnet.com/article/best-early-amazon-prime-day-tablet-deals-2026/",
-      "published": "2026-06-10T15:24:00.000Z",
-      "source": "ZDNet",
-      "category": "tech",
-      "xml_category": "",
-      "tags": [],
-      "image": null
-    },
-    {
-      "id": "zdnet-18",
-      "title": "The 8 best early Prime Day headphone deals: Sales on new models I'd upgrade to immediately",
-      "summary": "Prime Day is right around the corner, and I've found the best headphone deals - many of which are recent, flagship releases from Apple, Sony, Bose, and more.",
-      "link": "https://www.zdnet.com/article/best-early-prime-day-headphone-deals-2026/",
-      "published": "2026-06-10T15:19:00.000Z",
-      "source": "ZDNet",
-      "category": "general",
       "xml_category": "",
       "tags": [],
       "image": null
