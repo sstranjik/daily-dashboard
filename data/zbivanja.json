@@ -1,10 +1,6 @@
 {
-  "generated_at": "2026-06-10T21:49:32.340Z",
+  "generated_at": "2026-06-11T05:00:59.583Z",
   "stats": {
-    "muzika.hr": {
-      "ok": true,
-      "count": 25
-    },
     "Lisinski": {
       "ok": true,
       "count": 0
@@ -13,13 +9,17 @@
       "ok": true,
       "count": 15
     },
-    "Gavella": {
-      "ok": true,
-      "count": 0
-    },
     "Tvornica": {
       "ok": true,
       "count": 3
+    },
+    "muzika.hr": {
+      "ok": true,
+      "count": 25
+    },
+    "Gavella": {
+      "ok": true,
+      "count": 0
     },
     "ZeKaeM": {
       "ok": true,
@@ -29,17 +29,17 @@
       "ok": true,
       "count": 0
     },
-    "Pogon": {
+    "Kerempuh": {
       "ok": true,
       "count": 0
     },
-    "Kerempuh": {
+    "Pogon": {
       "ok": true,
       "count": 0
     },
     "HNK Zagreb": {
       "ok": true,
-      "count": 32
+      "count": 30
     },
     "Trešnja": {
       "ok": true,
@@ -47,21 +47,6 @@
     }
   },
   "concerts": [
-    {
-      "id": "a2b4abca6c",
-      "title": "Keops",
-      "venue": "Grada Vukovara 68",
-      "city": "Zagreb",
-      "country": "HR",
-      "category": "concert",
-      "date_iso": "2026-05-27T00:00:00",
-      "date_display": "sri, 27. 05. 2026.",
-      "time": null,
-      "link": "https://www.muzika.hr/event/keops/",
-      "source": "muzika.hr",
-      "is_new": false,
-      "first_seen": "2026-05-26T20:26:55.235Z"
-    },
     {
       "id": "0f9ef50b66",
       "title": "Podrži scenu!: Peperton Live Festival 2026.",
@@ -933,6 +918,36 @@
       "first_seen": "2026-05-26T20:26:55.235Z"
     },
     {
+      "id": "998cacd8e1",
+      "title": "Promocija pjesničke zbirke 'Kolut naprijed' Marije Skočibušić",
+      "venue": "Mochvara",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-06-13T19:00:00",
+      "date_display": "sub, 13. 06. 2026.",
+      "time": "19:00",
+      "link": "https://mochvara.hr/event-detail/6a22e223db1e48f749834244/?lang=hr",
+      "source": "Mochvara",
+      "is_new": true,
+      "first_seen": "2026-06-11T05:00:59.583Z"
+    },
+    {
+      "id": "fca03e674c",
+      "title": "Sjemenište: Emo party",
+      "venue": "Mochvara",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-06-13T22:00:00",
+      "date_display": "sub, 13. 06. 2026.",
+      "time": "22:00",
+      "link": "https://mochvara.hr/event-detail/6a146dc19875487603b6cc9b/?lang=hr",
+      "source": "Mochvara",
+      "is_new": true,
+      "first_seen": "2026-06-11T05:00:59.583Z"
+    },
+    {
       "id": "c43510b497",
       "title": "The Offspring",
       "venue": "The Offspring Šalata Zagreb",
@@ -1595,21 +1610,6 @@
   ],
   "theater": [
     {
-      "id": "322d95c756",
-      "title": "Carmina Burana",
-      "venue": "Gavella",
-      "city": "Zagreb",
-      "country": "HR",
-      "category": "theater",
-      "date_iso": "2026-05-27T00:00:00",
-      "date_display": "sri, 27. 05. 2026.",
-      "time": null,
-      "link": "https://www.gavella.hr/predstave/aktualne-predstave/carmina-burana",
-      "source": "Gavella",
-      "is_new": false,
-      "first_seen": "2026-05-26T20:26:55.235Z"
-    },
-    {
       "id": "569cc3f94d",
       "title": "Carmina Burana",
       "venue": "Gavella",
@@ -2092,5 +2092,5 @@
       "first_seen": "2026-06-10T05:01:05.518Z"
     }
   ],
-  "new_count": 0
+  "new_count": 2
 }
