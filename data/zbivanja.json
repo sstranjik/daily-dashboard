@@ -1,13 +1,9 @@
 {
-  "generated_at": "2026-06-11T19:01:06.383Z",
+  "generated_at": "2026-06-11T20:01:05.240Z",
   "stats": {
     "muzika.hr": {
       "ok": true,
       "count": 25
-    },
-    "Mochvara": {
-      "ok": true,
-      "count": 15
     },
     "Lisinski": {
       "ok": true,
@@ -17,25 +13,25 @@
       "ok": true,
       "count": 0
     },
+    "Mochvara": {
+      "ok": true,
+      "count": 15
+    },
     "Tvornica": {
       "ok": true,
       "count": 3
     },
-    "Komedija": {
+    "ZeKaeM": {
       "ok": true,
       "count": 0
     },
-    "ZeKaeM": {
+    "Komedija": {
       "ok": true,
       "count": 0
     },
     "HNK Zagreb": {
       "ok": true,
       "count": 31
-    },
-    "Pogon": {
-      "ok": true,
-      "count": 0
     },
     "Kerempuh": {
       "ok": true,
@@ -44,69 +40,13 @@
     "Trešnja": {
       "ok": true,
       "count": 0
+    },
+    "Pogon": {
+      "ok": false,
+      "error": "The operation was aborted due to timeout"
     }
   },
   "concerts": [
-    {
-      "id": "0f9ef50b66",
-      "title": "Podrži scenu!: Peperton Live Festival 2026.",
-      "venue": "Mochvara",
-      "city": "Zagreb",
-      "country": "HR",
-      "category": "concert",
-      "date_iso": "2026-05-27T19:30:00",
-      "date_display": "sri, 27. 05. 2026.",
-      "time": "19:30",
-      "link": "https://mochvara.hr/event-detail/69dd57f648168bdadf7af4d2/?lang=hr",
-      "source": "Mochvara",
-      "is_new": false,
-      "first_seen": "2026-05-26T20:26:55.235Z"
-    },
-    {
-      "id": "10d098a867",
-      "title": "Georges Bizet — Roland Petit L’Arlésienne / Carmen",
-      "venue": "HNK Zagreb",
-      "city": "Zagreb",
-      "country": "HR",
-      "category": "concert",
-      "date_iso": "2026-05-27T19:30:00",
-      "date_display": "sri, 27. 05. 2026.",
-      "time": "19:30",
-      "link": "https://hnk.hr/hr/balet/predstave/carmen-arle%C5%BEanka/#27.05.19.30",
-      "source": "HNK Zagreb",
-      "is_new": false,
-      "first_seen": "2026-05-26T20:26:55.235Z"
-    },
-    {
-      "id": "91ecea71d1",
-      "title": "Eugène Ionesco Ćelava pjevačica Tjedan Hrvata izvan Republike Hrvatske",
-      "venue": "HNK Zagreb",
-      "city": "Zagreb",
-      "country": "HR",
-      "category": "concert",
-      "date_iso": "2026-05-27T20:00:00",
-      "date_display": "sri, 27. 05. 2026.",
-      "time": "20:00",
-      "link": "https://hnk.hr/hr/hnk2/%C4%87elava-pjeva%C4%8Dica/#27.05.20.00",
-      "source": "HNK Zagreb",
-      "is_new": false,
-      "first_seen": "2026-05-26T20:26:55.235Z"
-    },
-    {
-      "id": "6c1f526720",
-      "title": "Eugène Ionesco Ćelava pjevačica HNK Mostar - Tjedan Hrvata izvan Republike Hrvatske",
-      "venue": "HNK Zagreb",
-      "city": "Zagreb",
-      "country": "HR",
-      "category": "concert",
-      "date_iso": "2026-05-27T20:00:00",
-      "date_display": "sri, 27. 05. 2026.",
-      "time": "20:00",
-      "link": "https://hnk.hr/hr/hnk2/%C4%87elava-pjeva%C4%8Dica/#27.05.20.00",
-      "source": "HNK Zagreb",
-      "is_new": false,
-      "first_seen": "2026-05-27T08:57:33.346Z"
-    },
     {
       "id": "bf45b9145c",
       "title": "Guitari Baro Četvrtak 28.5.2026.",
