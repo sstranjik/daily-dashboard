@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "date": "2026-06-10",
-  "generated_at": "2026-06-10T08:46:58.111Z",
-  "date_hr": "Srijeda, 10. lipnja 2026.",
+  "date": "2026-06-11",
+  "generated_at": "2026-06-11T05:02:49.277Z",
+  "date_hr": "Četvrtak, 11. lipnja 2026.",
   "weather": {
     "icon": "⛈️",
-    "summary": "17–24°C, grmljavina · 1 mm",
+    "summary": "14–18°C, grmljavina · 5.9 mm",
     "alerts": [
       {
         "level": "warning",
@@ -14,7 +14,7 @@
     ]
   },
   "fuel": {
-    "current_date": "10.06.2026",
+    "current_date": "11.06.2026",
     "eurodiesel": [
       {
         "company": "Adria Oil",
@@ -68,46 +68,46 @@
     "upcoming_premium": null
   },
   "market": {
-    "updated_at": "2026-06-10T08:46:58.111Z",
-    "btc_usd": 61192,
-    "btc_eur": 52978,
-    "btc_change_24h": -2.64,
-    "usd_eur": 0.8659
+    "updated_at": "2026-06-11T05:02:49.277Z",
+    "btc_usd": 62582,
+    "btc_eur": 54191,
+    "btc_change_24h": 2.2,
+    "usd_eur": 0.8666
   },
   "ai_news": [
     {
-      "title": "How B2B brands are earning citations in ChatGPT, Claude, and Google’s AI Overviews",
-      "link": "https://thenextweb.com/news/b2b-brands-earning-citations-chatgpt-claude-ai-overviews",
-      "source": "The Next Web"
-    },
-    {
-      "title": "Moć Mythos klase konačno dostupna - stigao je Claude Fable 5",
-      "link": "https://www.bug.hr/umjetna-inteligencija/moc-mythos-klase-konacno-dostupna-stigao-je-claude-fable-5-60475",
-      "source": "Bug.hr"
-    },
-    {
-      "title": "ChatGPT gubi udio u preuzimanjima aplikacija zbog jačanja konkurencije",
-      "link": "https://mreza.bug.hr/umjetna-inteligencija/chatgpt-gubi-udio-u-preuzimanjima-aplikacija-zbog-jacanja-konkurencije-60329",
-      "source": "Bug.hr"
-    },
-    {
-      "title": "Cohere open-sources a coding agent that runs on a single H100",
-      "link": "https://venturebeat.com/technology/cohere-open-sources-a-coding-agent-that-runs-on-a-single-h100",
+      "title": "Surprise upset: GPT-5.5 beats Claude Fable 5 on brutal new Agents’ Last Exam benchmark",
+      "link": "https://venturebeat.com/technology/surprise-upset-gpt-5-5-beats-claude-fable-5-on-brutal-new-agents-last-exam-benchmark",
       "source": "VentureBeat"
     },
     {
-      "title": "OpenAI ide u javnu ponudu dionica, ali nisu rekli točno kad",
-      "link": "https://mreza.bug.hr/biznis/openai-ide-u-javnu-ponudu-dionica-ali-nisu-rekli-tocno-kad-60463",
-      "source": "Bug.hr"
+      "title": "The researcher Microsoft threatened just dropped a seventh Windows zero-day hours after Patch Tuesday",
+      "link": "https://thenextweb.com/news/chaotic-eclipse-rogueplanet-windows-defender-zero-day",
+      "source": "The Next Web"
+    },
+    {
+      "title": "OpenAI says China-linked accounts used ChatGPT to fuel opposition to US data centres",
+      "link": "https://thenextweb.com/news/openai-china-data-center-influence-campaign",
+      "source": "The Next Web"
+    },
+    {
+      "title": "Claude Fable won’t answer basic biology questions",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/947973/fable-wont-answer-basic-biology-questions",
+      "source": "The Verge"
+    },
+    {
+      "title": "BNP Paribas says the $3.6 trillion US tech IPO pipeline will pull European startups towards public markets",
+      "link": "https://thenextweb.com/news/bnp-paribas-us-mega-ipos-europe-tech-deals",
+      "source": "The Next Web"
     }
   ],
   "micro_tips": {
     "vscode": {
-      "tip": "Obriši cijelu liniju odjednom",
-      "keys": "Ctrl+Shift+K"
+      "tip": "Otvori datoteku brzim pretraživanjem",
+      "keys": "Ctrl+P"
     },
-    "sql": "Nikad SELECT * u produkciji — navedi kolone, manji I/O i bolji cache plan",
-    "oracle": "/*+ PARALLEL(t 4) */ paralelno izvršavanje querija na N thread-ova",
-    "regex": "(?:group) non-capturing group: grupiraj bez pamćenja za veće performanse"
+    "sql": "Covering index: uključi sve kolone iz WHERE + SELECT u index pa nema pristupa tablici",
+    "oracle": "/*+ NO_MERGE(v) */ sprječava merging inline viewa s parent queryjem",
+    "regex": "(?=pattern) lookahead: \"iza ovog mora slijediti X\" bez konzumiranja znakova"
   }
 }
