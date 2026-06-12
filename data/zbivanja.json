@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-11T20:22:50.777Z",
+  "generated_at": "2026-06-12T05:01:05.094Z",
   "stats": {
     "muzika.hr": {
       "ok": true,
@@ -21,11 +21,11 @@
       "ok": true,
       "count": 3
     },
-    "Komedija": {
+    "ZeKaeM": {
       "ok": true,
       "count": 0
     },
-    "ZeKaeM": {
+    "Komedija": {
       "ok": true,
       "count": 0
     },
@@ -35,7 +35,7 @@
     },
     "HNK Zagreb": {
       "ok": true,
-      "count": 31
+      "count": 30
     },
     "Kerempuh": {
       "ok": true,
@@ -47,21 +47,6 @@
     }
   },
   "concerts": [
-    {
-      "id": "bf45b9145c",
-      "title": "Guitari Baro Četvrtak 28.5.2026.",
-      "venue": "Mochvara",
-      "city": "Zagreb",
-      "country": "HR",
-      "category": "concert",
-      "date_iso": "2026-05-28T00:00:00",
-      "date_display": "čet, 28. 05. 2026.",
-      "time": null,
-      "link": "https://mochvara.hr/event-detail/69ba7b4fa474030c3711c36f/?lang=hr",
-      "source": "Mochvara",
-      "is_new": false,
-      "first_seen": "2026-05-26T20:26:55.235Z"
-    },
     {
       "id": "f6350cf9ba",
       "title": "Vrelo zvuka: Guitari Baro",
@@ -948,6 +933,21 @@
       "first_seen": "2026-05-26T20:26:55.235Z"
     },
     {
+      "id": "d271286d7e",
+      "title": "Močvarin birc: Filmska glazba — Hans Zimmer",
+      "venue": "Mochvara",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-06-14T17:00:00",
+      "date_display": "ned, 14. 06. 2026.",
+      "time": "17:00",
+      "link": "https://mochvara.hr/event-detail/6a294361b7447e7921977a1c/?lang=hr",
+      "source": "Mochvara",
+      "is_new": true,
+      "first_seen": "2026-06-12T05:01:05.094Z"
+    },
+    {
       "id": "2a91defcff",
       "title": "Benefit koncert Fonda za žene: ONE DREAD + DJ LEPA MRENA",
       "venue": "A Vintage Industrial Bar Savska ulica 160",
@@ -961,6 +961,21 @@
       "source": "muzika.hr",
       "is_new": false,
       "first_seen": "2026-06-09T16:01:12.641Z"
+    },
+    {
+      "id": "c3c1525653",
+      "title": "Avangardna indie pop atrakcija: CocoRosie, Cura i Dečko",
+      "venue": "Mochvara",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-06-14T19:00:00",
+      "date_display": "ned, 14. 06. 2026.",
+      "time": "19:00",
+      "link": "https://mochvara.hr/event-detail/6a22b393d9665f6e6e7231ce/?lang=hr",
+      "source": "Mochvara",
+      "is_new": true,
+      "first_seen": "2026-06-12T05:01:05.094Z"
     },
     {
       "id": "18fdd023a0",
@@ -1565,21 +1580,6 @@
   ],
   "theater": [
     {
-      "id": "569cc3f94d",
-      "title": "Carmina Burana",
-      "venue": "Gavella",
-      "city": "Zagreb",
-      "country": "HR",
-      "category": "theater",
-      "date_iso": "2026-05-28T00:00:00",
-      "date_display": "čet, 28. 05. 2026.",
-      "time": null,
-      "link": "https://www.gavella.hr/predstave/aktualne-predstave/carmina-burana",
-      "source": "Gavella",
-      "is_new": false,
-      "first_seen": "2026-05-26T20:26:55.235Z"
-    },
-    {
       "id": "73e1b8950f",
       "title": "Carmina Burana",
       "venue": "Gavella",
@@ -1731,21 +1731,6 @@
     }
   ],
   "abroad": [
-    {
-      "id": "18aacb12d0",
-      "title": "Sea Star Festival",
-      "venue": "Sea Star Festival Playa",
-      "city": "Stella",
-      "country": "EU",
-      "category": "concert",
-      "date_iso": "2026-05-28T00:00:00",
-      "date_display": "čet, 28. 05. 2026.",
-      "time": null,
-      "link": "https://www.muzika.hr/event/sea-star-festival/",
-      "source": "muzika.hr",
-      "is_new": false,
-      "first_seen": "2026-05-26T20:26:55.235Z"
-    },
     {
       "id": "5bfeab7a87",
       "title": "Anthrax",
@@ -2045,7 +2030,22 @@
       "source": "muzika.hr",
       "is_new": false,
       "first_seen": "2026-06-10T05:01:05.518Z"
+    },
+    {
+      "id": "cfcdbcfe38",
+      "title": "Adi Šoše Rock Stars",
+      "venue": "Stars Cave Romane Vinkuranska cesta 2",
+      "city": "Vinkuran",
+      "country": "EU",
+      "category": "concert",
+      "date_iso": "2026-06-25T00:00:00",
+      "date_display": "čet, 25. 06. 2026.",
+      "time": null,
+      "link": "https://www.muzika.hr/event/adi-sose-rock-stars/",
+      "source": "muzika.hr",
+      "is_new": true,
+      "first_seen": "2026-06-12T05:01:05.094Z"
     }
   ],
-  "new_count": 0
+  "new_count": 3
 }
