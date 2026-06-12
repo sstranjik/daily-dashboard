@@ -1,16 +1,15 @@
 {
   "version": 2,
-  "date": "2026-06-11",
-  "generated_at": "2026-06-11T09:12:10.472Z",
-  "date_hr": "Četvrtak, 11. lipnja 2026.",
+  "date": "2026-06-12",
+  "generated_at": "2026-06-12T05:03:15.266Z",
+  "date_hr": "Petak, 12. lipnja 2026.",
   "weather": {
-    "icon": "🌡️",
-    "summary": "Vremenski podaci nedostupni",
-    "alerts": [],
-    "error": "fetch failed"
+    "icon": "☁️",
+    "summary": "11–23°C, oblačno",
+    "alerts": []
   },
   "fuel": {
-    "current_date": "11.06.2026",
+    "current_date": "12.06.2026",
     "eurodiesel": [
       {
         "company": "Adria Oil",
@@ -52,7 +51,7 @@
       },
       {
         "company": "Petrol",
-        "price": 1.86
+        "price": 1.88
       },
       {
         "company": "Coral Croatia",
@@ -64,46 +63,46 @@
     "upcoming_premium": null
   },
   "market": {
-    "updated_at": "2026-06-11T09:12:10.472Z",
-    "btc_usd": 62791,
-    "btc_eur": 54458,
-    "btc_change_24h": 2.77,
-    "usd_eur": 0.8666
+    "updated_at": "2026-06-12T05:03:15.266Z",
+    "btc_usd": 63576,
+    "btc_eur": 54942,
+    "btc_change_24h": 1.67,
+    "usd_eur": 0.8657
   },
   "ai_news": [
     {
-      "title": "Avast’s former CEO built an AI that found every OpenSSL zero-day this year. Now it runs inside air-gapped networks.",
-      "link": "https://thenextweb.com/news/aisle-snapshot-on-prem-vulnerability-detection-regulated-enterprises",
+      "title": "ShinyHunters breached 100+ companies through an unpatched Oracle PeopleSoft zero-day",
+      "link": "https://thenextweb.com/news/oracle-peoplesoft-shinyhunters-zero-day-100-companies",
       "source": "The Next Web"
     },
     {
-      "title": "Surprise upset: GPT-5.5 beats Claude Fable 5 on brutal new Agents’ Last Exam benchmark",
-      "link": "https://venturebeat.com/technology/surprise-upset-gpt-5-5-beats-claude-fable-5-on-brutal-new-agents-last-exam-benchmark",
+      "title": "Xiaomi's new open source, agentic AI coding harness MiMo Code beats Claude Code at ultra-long, 200+ step tasks",
+      "link": "https://venturebeat.com/technology/xiaomis-new-open-source-agentic-ai-coding-harness-mimo-code-beats-claude-code-at-ultra-long-200-step-tasks",
       "source": "VentureBeat"
     },
     {
-      "title": "The researcher Microsoft threatened just dropped a seventh Windows zero-day hours after Patch Tuesday",
-      "link": "https://thenextweb.com/news/chaotic-eclipse-rogueplanet-windows-defender-zero-day",
+      "title": "Why the next AI safety problem is the conversation between models",
+      "link": "https://thenextweb.com/news/ai-safety-problem-conversation-between-models",
       "source": "The Next Web"
     },
     {
-      "title": "OpenAI says China-linked accounts used ChatGPT to fuel opposition to US data centres",
-      "link": "https://thenextweb.com/news/openai-china-data-center-influence-campaign",
+      "title": "OpenAI plugs Visa into ChatGPT so AI agents can shop and pay at any Visa merchant",
+      "link": "https://thenextweb.com/news/openai-visa-chatgpt-agentic-commerce-payments",
       "source": "The Next Web"
     },
     {
-      "title": "Claude Fable won’t answer basic biology questions",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/947973/fable-wont-answer-basic-biology-questions",
-      "source": "The Verge"
+      "title": "Infobip odlučuje o AI agentima u društvu OpenAI-ja, Googlea i Amazona",
+      "link": "https://www.netokracija.com/infobip-aaif-josip-antolis-umjetna-inteligencija-243377",
+      "source": "Netokracija"
     }
   ],
   "micro_tips": {
     "vscode": {
-      "tip": "Otvori datoteku brzim pretraživanjem",
-      "keys": "Ctrl+P"
+      "tip": "Toggle Word Wrap za dugačke linije",
+      "keys": "Alt+Z"
     },
-    "sql": "Covering index: uključi sve kolone iz WHERE + SELECT u index pa nema pristupa tablici",
-    "oracle": "/*+ NO_MERGE(v) */ sprječava merging inline viewa s parent queryjem",
-    "regex": "(?=pattern) lookahead: \"iza ovog mora slijediti X\" bez konzumiranja znakova"
+    "sql": "Window funkcije (ROW_NUMBER, LAG, LEAD) umjesto self-join za redosljed i razlike",
+    "oracle": "/*+ RESULT_CACHE */ cache-ira rezultat funkcije u SGA za ponovljene pozive",
+    "regex": ".+? lazy quantifier: stane na prvom mogućem podudaranju, ne zadnjem"
   }
 }
