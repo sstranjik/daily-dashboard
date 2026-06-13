@@ -1,17 +1,25 @@
 {
-  "generated_at": "2026-06-12T21:00:24.016Z",
+  "generated_at": "2026-06-13T05:01:12.705Z",
   "stats": {
-    "Gavella": {
+    "Mochvara": {
       "ok": true,
       "count": 0
+    },
+    "Pogon": {
+      "ok": true,
+      "count": 0
+    },
+    "muzika.hr": {
+      "ok": true,
+      "count": 25
     },
     "Lisinski": {
       "ok": true,
       "count": 0
     },
-    "Mochvara": {
+    "Gavella": {
       "ok": true,
-      "count": 15
+      "count": 0
     },
     "Tvornica": {
       "ok": true,
@@ -21,22 +29,6 @@
       "ok": true,
       "count": 0
     },
-    "muzika.hr": {
-      "ok": true,
-      "count": 25
-    },
-    "Komedija": {
-      "ok": true,
-      "count": 0
-    },
-    "Pogon": {
-      "ok": true,
-      "count": 0
-    },
-    "HNK Zagreb": {
-      "ok": true,
-      "count": 30
-    },
     "Kerempuh": {
       "ok": true,
       "count": 0
@@ -44,6 +36,14 @@
     "Trešnja": {
       "ok": true,
       "count": 0
+    },
+    "Komedija": {
+      "ok": true,
+      "count": 0
+    },
+    "HNK Zagreb": {
+      "ok": true,
+      "count": 28
     }
   },
   "concerts": [
@@ -1565,21 +1565,6 @@
   ],
   "theater": [
     {
-      "id": "73e1b8950f",
-      "title": "Carmina Burana",
-      "venue": "Gavella",
-      "city": "Zagreb",
-      "country": "HR",
-      "category": "theater",
-      "date_iso": "2026-05-29T00:00:00",
-      "date_display": "pet, 29. 05. 2026.",
-      "time": null,
-      "link": "https://www.gavella.hr/predstave/aktualne-predstave/carmina-burana",
-      "source": "Gavella",
-      "is_new": false,
-      "first_seen": "2026-05-26T20:26:55.235Z"
-    },
-    {
       "id": "614ba62204",
       "title": "Kazališni doručak uoči premijere predstave „Idealan muž” Sprega novca i moći, nekad i danas?",
       "venue": "HNK Zagreb",
@@ -1716,36 +1701,6 @@
     }
   ],
   "abroad": [
-    {
-      "id": "5bfeab7a87",
-      "title": "Anthrax",
-      "venue": "Anthrax Luka Beograd Beograd",
-      "city": "Serbia",
-      "country": "EU",
-      "category": "concert",
-      "date_iso": "2026-05-29T00:00:00",
-      "date_display": "pet, 29. 05. 2026.",
-      "time": null,
-      "link": "https://www.muzika.hr/event/anthrax-2/",
-      "source": "muzika.hr",
-      "is_new": false,
-      "first_seen": "2026-05-26T20:26:55.235Z"
-    },
-    {
-      "id": "85e83d3e83",
-      "title": "KVART festival: Vojko V, Buč Kesidi, Luzeri, Baks i mnogi drugi!",
-      "venue": "Vojko V",
-      "city": "Buč",
-      "country": "EU",
-      "category": "concert",
-      "date_iso": "2026-05-29T00:00:00",
-      "date_display": "pet, 29. 05. 2026.",
-      "time": null,
-      "link": "https://www.muzika.hr/event/kvart-festival-vojko-v-buc-kesidi-luzeri-baks-i-mnogi-drugi/",
-      "source": "muzika.hr",
-      "is_new": false,
-      "first_seen": "2026-05-26T20:26:55.235Z"
-    },
     {
       "id": "f4efd8d5f8",
       "title": "Iron Maiden",
@@ -2043,9 +1998,9 @@
       "time": null,
       "link": "https://www.muzika.hr/event/arsenal-fest/",
       "source": "muzika.hr",
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-06-12T21:00:24.016Z"
     }
   ],
-  "new_count": 1
+  "new_count": 0
 }
