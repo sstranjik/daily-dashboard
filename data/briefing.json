@@ -1,15 +1,15 @@
 {
   "version": 2,
-  "date": "2026-06-12",
-  "generated_at": "2026-06-12T08:56:44.601Z",
-  "date_hr": "Petak, 12. lipnja 2026.",
+  "date": "2026-06-13",
+  "generated_at": "2026-06-13T05:02:56.566Z",
+  "date_hr": "Subota, 13. lipnja 2026.",
   "weather": {
     "icon": "☁️",
-    "summary": "11–23°C, oblačno",
+    "summary": "15–28°C, oblačno",
     "alerts": []
   },
   "fuel": {
-    "current_date": "12.06.2026",
+    "current_date": "13.06.2026",
     "eurodiesel": [
       {
         "company": "Adria Oil",
@@ -63,46 +63,46 @@
     "upcoming_premium": null
   },
   "market": {
-    "updated_at": "2026-06-12T08:56:44.601Z",
-    "btc_usd": 63376,
-    "btc_eur": 54744,
-    "btc_change_24h": 0.82,
-    "usd_eur": 0.8657
+    "updated_at": "2026-06-13T05:02:56.566Z",
+    "btc_usd": 63484,
+    "btc_eur": 54853,
+    "btc_change_24h": -0.11,
+    "usd_eur": 0.8644
   },
   "ai_news": [
     {
-      "title": "ShinyHunters breached 100+ companies through an unpatched Oracle PeopleSoft zero-day",
-      "link": "https://thenextweb.com/news/oracle-peoplesoft-shinyhunters-zero-day-100-companies",
-      "source": "The Next Web"
-    },
-    {
-      "title": "Xiaomi's new open source, agentic AI coding harness MiMo Code beats Claude Code at ultra-long, 200+ step tasks",
-      "link": "https://venturebeat.com/technology/xiaomis-new-open-source-agentic-ai-coding-harness-mimo-code-beats-claude-code-at-ultra-long-200-step-tasks",
+      "title": "Google researchers introduce 'faithful uncertainty,' allowing LLMs to offer best guesses instead of hallucinations",
+      "link": "https://venturebeat.com/orchestration/google-researchers-introduce-faithful-uncertainty-allowing-llms-to-offer-best-guesses-instead-of-hallucinations",
       "source": "VentureBeat"
     },
     {
-      "title": "Why the next AI safety problem is the conversation between models",
-      "link": "https://thenextweb.com/news/ai-safety-problem-conversation-between-models",
-      "source": "The Next Web"
+      "title": "PeopleSoft 0-day affecting hundreds of organizations steals gigabytes of data",
+      "link": "https://arstechnica.com/security/2026/06/peoplesoft-0-day-affecting-hundreds-of-organizations-steals-gigabytes-of-data/",
+      "source": "Ars Technica"
     },
     {
-      "title": "OpenAI plugs Visa into ChatGPT so AI agents can shop and pay at any Visa merchant",
-      "link": "https://thenextweb.com/news/openai-visa-chatgpt-agentic-commerce-payments",
-      "source": "The Next Web"
+      "title": "Claude Fable 5 secretly throttled AI researchers, and the internet went wild",
+      "link": "https://www.zdnet.com/article/claude-fable-5-secretly-throttled/",
+      "source": "ZDNet"
     },
     {
-      "title": "Infobip odlučuje o AI agentima u društvu OpenAI-ja, Googlea i Amazona",
-      "link": "https://www.netokracija.com/infobip-aaif-josip-antolis-umjetna-inteligencija-243377",
-      "source": "Netokracija"
+      "title": "SpaceX, Anthropic, and OpenAI’s hot IPO summer",
+      "link": "https://techcrunch.com/video/spacex-anthropic-and-openais-hot-ipo-summer/",
+      "source": "TechCrunch AI"
+    },
+    {
+      "title": "It’s hot IPO summer, and the MANGOS are ripe",
+      "link": "https://techcrunch.com/podcast/its-hot-ipo-summer-and-the-mangos-are-ripe/",
+      "source": "TechCrunch AI"
     }
   ],
   "micro_tips": {
     "vscode": {
-      "tip": "Toggle Word Wrap za dugačke linije",
-      "keys": "Alt+Z"
+      "tip": "Nađi i selektiraj sljedeće pojavljivanje",
+      "keys": "Ctrl+D"
     },
-    "sql": "Window funkcije (ROW_NUMBER, LAG, LEAD) umjesto self-join za redosljed i razlike",
-    "oracle": "/*+ RESULT_CACHE */ cache-ira rezultat funkcije u SGA za ponovljene pozive",
-    "regex": ".+? lazy quantifier: stane na prvom mogućem podudaranju, ne zadnjem"
+    "sql": "EXPLAIN ANALYZE prikazuje stvarne vs procijenjene redove — ključno za tuning",
+    "oracle": "CONNECT BY LEVEL <= n generira broj redova bez pomoćne tablice",
+    "regex": "[^\\n]* svaki znak osim newline — dohvati cijelu liniju bez dotall flaga"
   }
 }

@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-06-13T05:01:12.705Z",
+  "generated_at": "2026-06-13T05:01:10.088Z",
   "stats": {
-    "Mochvara": {
+    "muzika.hr": {
       "ok": true,
-      "count": 0
+      "count": 25
     },
     "Pogon": {
       "ok": true,
@@ -21,6 +21,10 @@
       "ok": true,
       "count": 0
     },
+    "Gavella": {
+      "ok": true,
+      "count": 0
+    },
     "Tvornica": {
       "ok": true,
       "count": 3
@@ -29,7 +33,19 @@
       "ok": true,
       "count": 0
     },
+    "Komedija": {
+      "ok": true,
+      "count": 0
+    },
+    "HNK Zagreb": {
+      "ok": true,
+      "count": 28
+    },
     "Kerempuh": {
+      "ok": true,
+      "count": 0
+    },
+    "Pogon": {
       "ok": true,
       "count": 0
     },
@@ -1006,6 +1022,36 @@
       "source": "HNK Zagreb",
       "is_new": false,
       "first_seen": "2026-06-05T13:01:04.875Z"
+    },
+    {
+      "id": "71c9d72176",
+      "title": "POPUNJENO Močvarni Laboratorij: Četiri dana keramike, treći dan",
+      "venue": "Mochvara",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-06-15T12:00:00",
+      "date_display": "pon, 15. 06. 2026.",
+      "time": "12:00",
+      "link": "https://mochvara.hr/event-detail/6a19a633af0d06d49bfd8885/?lang=hr",
+      "source": "Mochvara",
+      "is_new": true,
+      "first_seen": "2026-06-13T05:01:10.088Z"
+    },
+    {
+      "id": "05f9bc8515",
+      "title": "Močvarni birc: Slušamo radio (GTA)",
+      "venue": "Mochvara",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-06-15T17:00:00",
+      "date_display": "pon, 15. 06. 2026.",
+      "time": "17:00",
+      "link": "https://mochvara.hr/event-detail/6a2a92b78e4b8b8c9d4b24d2/?lang=hr",
+      "source": "Mochvara",
+      "is_new": true,
+      "first_seen": "2026-06-13T05:01:10.088Z"
     },
     {
       "id": "2f36c1e4e2",
@@ -2002,5 +2048,5 @@
       "first_seen": "2026-06-12T21:00:24.016Z"
     }
   ],
-  "new_count": 0
+  "new_count": 2
 }
