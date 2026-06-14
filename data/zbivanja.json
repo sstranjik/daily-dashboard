@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-13T20:59:55.084Z",
+  "generated_at": "2026-06-14T05:01:08.890Z",
   "stats": {
     "muzika.hr": {
       "ok": true,
@@ -9,13 +9,13 @@
       "ok": true,
       "count": 0
     },
-    "Mochvara": {
-      "ok": true,
-      "count": 15
-    },
     "Gavella": {
       "ok": true,
       "count": 0
+    },
+    "Mochvara": {
+      "ok": true,
+      "count": 15
     },
     "Tvornica": {
       "ok": true,
@@ -31,7 +31,7 @@
     },
     "HNK Zagreb": {
       "ok": true,
-      "count": 28
+      "count": 25
     },
     "Pogon": {
       "ok": true,
@@ -47,21 +47,6 @@
     }
   },
   "concerts": [
-    {
-      "id": "fd04a89ea3",
-      "title": "TERAPIJA.NET ima 25 let",
-      "venue": "NET ima 25 let Crni Mačak Mesnička 12",
-      "city": "Zagreb",
-      "country": "HR",
-      "category": "concert",
-      "date_iso": "2026-05-30T00:00:00",
-      "date_display": "sub, 30. 05. 2026.",
-      "time": null,
-      "link": "https://www.muzika.hr/event/terapija-net-ima-25-let/",
-      "source": "muzika.hr",
-      "is_new": false,
-      "first_seen": "2026-05-26T20:26:55.235Z"
-    },
     {
       "id": "60fe9faa7d",
       "title": "POPUNJENO Močvarni Laboratorij: Radionica kretivnog varenja, drugi blok",
@@ -1038,6 +1023,21 @@
       "first_seen": "2026-05-26T20:26:55.235Z"
     },
     {
+      "id": "52cd02de10",
+      "title": "Black/thrash metal koncert: Sarcofago, Buzzsaw, Bezdan",
+      "venue": "Mochvara",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-06-16T20:00:00",
+      "date_display": "uto, 16. 06. 2026.",
+      "time": "20:00",
+      "link": "https://mochvara.hr/event-detail/69b3dfe9805f9451ed5c1957/?lang=hr",
+      "source": "Mochvara",
+      "is_new": true,
+      "first_seen": "2026-06-14T05:01:08.890Z"
+    },
+    {
       "id": "e884606237",
       "title": "Sting",
       "venue": "Sting Arena Zagreb Lanište bb",
@@ -1203,6 +1203,21 @@
       "first_seen": "2026-06-09T05:00:59.439Z"
     },
     {
+      "id": "ec74cd8ca2",
+      "title": "FRAN Fest",
+      "venue": "",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-06-25T13:00:00",
+      "date_display": "čet, 25. 06. 2026.",
+      "time": "13:00",
+      "link": "https://www.muzika.hr/event/fran-fest/",
+      "source": "muzika.hr",
+      "is_new": true,
+      "first_seen": "2026-06-14T05:01:08.890Z"
+    },
+    {
       "id": "3896e65279",
       "title": "Gioachino Rossini Seviljski brijač",
       "venue": "HNK Zagreb",
@@ -1231,6 +1246,21 @@
       "source": "Mochvara",
       "is_new": false,
       "first_seen": "2026-06-05T19:28:14.316Z"
+    },
+    {
+      "id": "dc3812d3ff",
+      "title": "Cabaret Voltaire",
+      "venue": "Voltaire Tvornica kulture Šubićeva 2",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-06-26T00:00:00",
+      "date_display": "pet, 26. 06. 2026.",
+      "time": null,
+      "link": "https://www.muzika.hr/event/cabaret-voltaire/",
+      "source": "muzika.hr",
+      "is_new": true,
+      "first_seen": "2026-06-14T05:01:08.890Z"
     },
     {
       "id": "c938e0c1dd",
@@ -1702,21 +1732,6 @@
   ],
   "abroad": [
     {
-      "id": "f4efd8d5f8",
-      "title": "Iron Maiden",
-      "venue": "Bratislava",
-      "city": "Slovakia",
-      "country": "EU",
-      "category": "concert",
-      "date_iso": "2026-05-30T00:00:00",
-      "date_display": "sub, 30. 05. 2026.",
-      "time": null,
-      "link": "https://www.muzika.hr/event/iron-maiden-6/",
-      "source": "muzika.hr",
-      "is_new": false,
-      "first_seen": "2026-05-30T05:01:02.481Z"
-    },
-    {
       "id": "f1c8a61fbd",
       "title": "Skate Punk Vol. 2",
       "venue": "Baraka Aleja Vukovar bb",
@@ -2000,7 +2015,37 @@
       "source": "muzika.hr",
       "is_new": false,
       "first_seen": "2026-06-12T21:00:24.016Z"
+    },
+    {
+      "id": "7389076324",
+      "title": "Surf Festival",
+      "venue": "Surf Festival Medane Beach",
+      "city": "Punat",
+      "country": "EU",
+      "category": "concert",
+      "date_iso": "2026-06-25T00:00:00",
+      "date_display": "čet, 25. 06. 2026.",
+      "time": null,
+      "link": "https://www.muzika.hr/event/surf-festival/",
+      "source": "muzika.hr",
+      "is_new": true,
+      "first_seen": "2026-06-14T05:01:08.890Z"
+    },
+    {
+      "id": "5eaff2e6c3",
+      "title": "IDLES",
+      "venue": "IDLES New tekstil Dunavska 86",
+      "city": "Beograd",
+      "country": "RS",
+      "category": "concert",
+      "date_iso": "2026-06-26T00:00:00",
+      "date_display": "pet, 26. 06. 2026.",
+      "time": null,
+      "link": "https://www.muzika.hr/event/idles/",
+      "source": "muzika.hr",
+      "is_new": true,
+      "first_seen": "2026-06-14T05:01:08.890Z"
     }
   ],
-  "new_count": 0
+  "new_count": 5
 }
