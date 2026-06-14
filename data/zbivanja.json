@@ -1,19 +1,27 @@
 {
-  "generated_at": "2026-06-14T20:01:12.749Z",
+  "generated_at": "2026-06-14T20:57:19.200Z",
   "stats": {
-    "muzika.hr": {
+    "Mochvara": {
       "ok": true,
-      "count": 25
+      "count": 0
+    },
+    "Pogon": {
+      "ok": true,
+      "count": 0
+    },
+    "Gavella": {
+      "ok": true,
+      "count": 0
     },
     "Lisinski": {
       "ok": true,
       "count": 0
     },
-    "Mochvara": {
+    "ZeKaeM": {
       "ok": true,
-      "count": 15
+      "count": 0
     },
-    "Gavella": {
+    "Kerempuh": {
       "ok": true,
       "count": 0
     },
@@ -21,9 +29,13 @@
       "ok": true,
       "count": 3
     },
-    "ZeKaeM": {
+    "Trešnja": {
       "ok": true,
       "count": 0
+    },
+    "muzika.hr": {
+      "ok": true,
+      "count": 25
     },
     "Komedija": {
       "ok": true,
@@ -32,18 +44,6 @@
     "HNK Zagreb": {
       "ok": true,
       "count": 25
-    },
-    "Kerempuh": {
-      "ok": true,
-      "count": 0
-    },
-    "Pogon": {
-      "ok": true,
-      "count": 0
-    },
-    "Trešnja": {
-      "ok": true,
-      "count": 0
     }
   },
   "concerts": [
@@ -813,6 +813,21 @@
       "first_seen": "2026-06-05T19:28:14.316Z"
     },
     {
+      "id": "2a91defcff",
+      "title": "Benefit koncert Fonda za žene: ONE DREAD + DJ LEPA MRENA",
+      "venue": "A Vintage Industrial Bar Savska ulica 160",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-06-14T00:00:00",
+      "date_display": "ned, 14. 06. 2026.",
+      "time": null,
+      "link": "https://www.muzika.hr/event/benefit-koncert-fonda-za-zene-one-dread-dj-lepa-mrena-2/",
+      "source": "muzika.hr",
+      "is_new": false,
+      "first_seen": "2026-06-09T16:01:12.641Z"
+    },
+    {
       "id": "cb872ede94",
       "title": "Koncert stipendista i članova Opernog studija Opere HNK-a u Zagrebu",
       "venue": "HNK Zagreb",
@@ -841,21 +856,6 @@
       "source": "Mochvara",
       "is_new": false,
       "first_seen": "2026-06-12T05:01:00.976Z"
-    },
-    {
-      "id": "2a91defcff",
-      "title": "Benefit koncert Fonda za žene: ONE DREAD + DJ LEPA MRENA",
-      "venue": "A Vintage Industrial Bar Savska ulica 160",
-      "city": "Zagreb",
-      "country": "HR",
-      "category": "concert",
-      "date_iso": "2026-06-14T18:00:00",
-      "date_display": "ned, 14. 06. 2026.",
-      "time": "18:00",
-      "link": "https://www.muzika.hr/event/benefit-koncert-fonda-za-zene-one-dread-dj-lepa-mrena/",
-      "source": "muzika.hr",
-      "is_new": false,
-      "first_seen": "2026-06-09T16:01:12.641Z"
     },
     {
       "id": "c3c1525653",
@@ -1231,6 +1231,21 @@
       "source": "muzika.hr",
       "is_new": false,
       "first_seen": "2026-06-14T05:01:13.855Z"
+    },
+    {
+      "id": "102cec4273",
+      "title": "Black Eyes Peas",
+      "venue": "Black Eyes Peas Bundek Bundek",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-06-26T00:00:00",
+      "date_display": "pet, 26. 06. 2026.",
+      "time": null,
+      "link": "https://www.muzika.hr/event/black-eyes-peas/",
+      "source": "muzika.hr",
+      "is_new": true,
+      "first_seen": "2026-06-14T20:57:19.200Z"
     },
     {
       "id": "c938e0c1dd",
@@ -2017,5 +2032,5 @@
       "first_seen": "2026-06-14T05:01:13.855Z"
     }
   ],
-  "new_count": 1
+  "new_count": 2
 }
