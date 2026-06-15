@@ -1,19 +1,19 @@
 {
-  "last_updated": "2026-06-14T08:39:48.461Z",
+  "last_updated": "2026-06-15T05:02:37.805Z",
   "location": {
     "lat": 45.8202433,
     "lon": 15.8835749
   },
   "non_working_days": [
     {
-      "date": "2026-06-14",
+      "date": "2026-06-21",
       "type": "sunday",
       "label": "Nedjelja"
     },
     {
-      "date": "2026-06-21",
-      "type": "sunday",
-      "label": "Nedjelja"
+      "date": "2026-06-22",
+      "type": "holiday",
+      "label": "Dan antifašističke borbe"
     }
   ],
   "stores": [
@@ -27,9 +27,14 @@
       "dist": 48,
       "hours": [
         {
-          "date": "2026-06-14",
-          "open": false,
-          "time": null
+          "date": "2026-06-21",
+          "open": true,
+          "time": "07:00-21:00"
+        },
+        {
+          "date": "2026-06-22",
+          "open": true,
+          "time": "07:00-14:00"
         }
       ]
     },
@@ -43,9 +48,14 @@
       "dist": 193,
       "hours": [
         {
-          "date": "2026-06-14",
-          "open": false,
-          "time": null
+          "date": "2026-06-21",
+          "open": true,
+          "time": "07:00-21:00"
+        },
+        {
+          "date": "2026-06-22",
+          "open": true,
+          "time": "07:00-14:00"
         }
       ]
     },
@@ -59,14 +69,14 @@
       "dist": 372,
       "hours": [
         {
-          "date": "2026-06-14",
+          "date": "2026-06-21",
           "open": true,
           "time": "08:00-20:00"
         },
         {
-          "date": "2026-06-21",
-          "open": true,
-          "time": "08:00-20:00"
+          "date": "2026-06-22",
+          "open": false,
+          "time": null
         }
       ]
     },
@@ -100,14 +110,14 @@
       "dist": 417,
       "hours": [
         {
-          "date": "2026-06-14",
+          "date": "2026-06-21",
           "open": true,
           "time": "08:00-20:00"
         },
         {
-          "date": "2026-06-21",
-          "open": true,
-          "time": "08:00-20:00"
+          "date": "2026-06-22",
+          "open": false,
+          "time": null
         }
       ]
     },
@@ -121,14 +131,14 @@
       "dist": 450,
       "hours": [
         {
-          "date": "2026-06-14",
+          "date": "2026-06-21",
           "open": true,
           "time": "09:00-20:00"
         },
         {
-          "date": "2026-06-21",
-          "open": true,
-          "time": "09:00-20:00"
+          "date": "2026-06-22",
+          "open": false,
+          "time": null
         }
       ]
     },
@@ -202,9 +212,14 @@
       "dist": 606,
       "hours": [
         {
-          "date": "2026-06-14",
-          "open": false,
-          "time": null
+          "date": "2026-06-21",
+          "open": true,
+          "time": "07:00-21:00"
+        },
+        {
+          "date": "2026-06-22",
+          "open": true,
+          "time": "07:00-14:00"
         }
       ]
     },
@@ -258,12 +273,12 @@
       "dist": 755,
       "hours": [
         {
-          "date": "2026-06-14",
+          "date": "2026-06-21",
           "open": false,
           "time": null
         },
         {
-          "date": "2026-06-21",
+          "date": "2026-06-22",
           "open": false,
           "time": null
         }
@@ -349,12 +364,12 @@
       "dist": 828,
       "hours": [
         {
-          "date": "2026-06-14",
+          "date": "2026-06-21",
           "open": true,
           "time": "08:00-14:00"
         },
         {
-          "date": "2026-06-21",
+          "date": "2026-06-22",
           "open": true,
           "time": "08:00-14:00"
         }
@@ -390,12 +405,12 @@
       "dist": 841,
       "hours": [
         {
-          "date": "2026-06-14",
+          "date": "2026-06-21",
           "open": true,
           "time": "07:00-20:00"
         },
         {
-          "date": "2026-06-21",
+          "date": "2026-06-22",
           "open": true,
           "time": "07:00-20:00"
         }
@@ -441,12 +456,12 @@
       "dist": 856,
       "hours": [
         {
-          "date": "2026-06-14",
+          "date": "2026-06-21",
           "open": true,
           "time": "07:00-15:00"
         },
         {
-          "date": "2026-06-21",
+          "date": "2026-06-22",
           "open": true,
           "time": "07:00-15:00"
         }
@@ -482,14 +497,14 @@
       "dist": 888,
       "hours": [
         {
-          "date": "2026-06-14",
+          "date": "2026-06-21",
           "open": true,
           "time": "08:00-20:00"
         },
         {
-          "date": "2026-06-21",
-          "open": true,
-          "time": "08:00-20:00"
+          "date": "2026-06-22",
+          "open": false,
+          "time": null
         }
       ]
     },
@@ -633,14 +648,14 @@
       "dist": 987,
       "hours": [
         {
-          "date": "2026-06-14",
+          "date": "2026-06-21",
           "open": true,
           "time": "08:00-20:00"
         },
         {
-          "date": "2026-06-21",
-          "open": true,
-          "time": "08:00-20:00"
+          "date": "2026-06-22",
+          "open": false,
+          "time": null
         }
       ]
     },
@@ -814,14 +829,14 @@
       "dist": 1204,
       "hours": [
         {
-          "date": "2026-06-14",
+          "date": "2026-06-21",
           "open": true,
           "time": "07:00-21:00"
         },
         {
-          "date": "2026-06-21",
+          "date": "2026-06-22",
           "open": true,
-          "time": "07:00-21:00"
+          "time": "07:00-14:00"
         }
       ]
     },
@@ -855,12 +870,12 @@
       "dist": 1275,
       "hours": [
         {
-          "date": "2026-06-14",
+          "date": "2026-06-21",
           "open": true,
           "time": "08:00-15:00"
         },
         {
-          "date": "2026-06-21",
+          "date": "2026-06-22",
           "open": true,
           "time": "08:00-15:00"
         }
@@ -906,14 +921,14 @@
       "dist": 1418,
       "hours": [
         {
-          "date": "2026-06-14",
+          "date": "2026-06-21",
           "open": true,
           "time": "08:00-21:00"
         },
         {
-          "date": "2026-06-21",
-          "open": true,
-          "time": "08:00-21:00"
+          "date": "2026-06-22",
+          "open": false,
+          "time": null
         }
       ]
     },

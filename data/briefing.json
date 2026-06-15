@@ -1,15 +1,20 @@
 {
   "version": 2,
-  "date": "2026-06-14",
-  "generated_at": "2026-06-14T08:40:16.707Z",
-  "date_hr": "Nedjelja, 14. lipnja 2026.",
+  "date": "2026-06-15",
+  "generated_at": "2026-06-15T05:03:05.607Z",
+  "date_hr": "Ponedjeljak, 15. lipnja 2026.",
   "weather": {
-    "icon": "🌦️",
-    "summary": "18–30°C, pljuskovi",
-    "alerts": []
+    "icon": "⛈️",
+    "summary": "15–21°C, grmljavina s gradom · 16.5 mm",
+    "alerts": [
+      {
+        "level": "warning",
+        "text": "Grmljavinska oluja"
+      }
+    ]
   },
   "fuel": {
-    "current_date": "14.06.2026",
+    "current_date": "15.06.2026",
     "eurodiesel": [
       {
         "company": "Adria Oil",
@@ -63,46 +68,46 @@
     "upcoming_premium": null
   },
   "market": {
-    "updated_at": "2026-06-14T08:40:16.707Z",
-    "btc_usd": 64463,
-    "btc_eur": 55720,
-    "btc_change_24h": 0.96,
-    "usd_eur": 0.8645
+    "updated_at": "2026-06-15T05:03:05.607Z",
+    "btc_usd": 65604,
+    "btc_eur": 56492,
+    "btc_change_24h": 1.94,
+    "usd_eur": 0.8632
   },
   "ai_news": [
+    {
+      "title": "Why Apple built a third-party AI system for Siri and then refused to show it at WWDC",
+      "link": "https://thenextweb.com/news/apple-siri-extensions-third-party-ai-missing-wwdc",
+      "source": "The Next Web"
+    },
     {
       "title": "Zašto se tako malo priča o Mistralu koji razvija europski digitalni suverenitet?",
       "link": "https://www.bug.hr/biznis/zasto-se-tako-malo-prica-o-mistralu-koji-razvija-europski-digitalni-suverenitet-60562",
       "source": "Bug.hr"
     },
     {
-      "title": "Anthropic blocks all public access to Claude Fable 5, Mythos 5 following US government order — what enterprises should do",
-      "link": "https://venturebeat.com/technology/anthropic-blocks-all-public-access-to-claude-fable-5-mythos-5-following-us-government-order-what-enterprises-should-do",
-      "source": "VentureBeat"
-    },
-    {
-      "title": "SpaceX iznajmio Anthropicu cijeli Colossus 1 jer nije mogao riješiti probleme s treniranjem Groka",
-      "link": "https://www.bug.hr/biznis/spacex-iznajmio-anthropicu-cijeli-colossus-1-jer-nije-mogao-rijesiti-probleme-s-60563",
-      "source": "Bug.hr"
-    },
-    {
-      "title": "As Anthropic suspends access to new models, India debates its AI future",
-      "link": "https://techcrunch.com/2026/06/13/as-anthropic-suspends-access-to-new-models-india-debates-its-ai-future/",
-      "source": "TechCrunch AI"
-    },
-    {
-      "title": "Amazon’s CEO reportedly triggered the government crackdown that shut down Anthropic’s most powerful AI",
-      "link": "https://thenextweb.com/news/amazon-jassy-triggered-anthropic-fable-mythos-crackdown",
+      "title": "Fable 5 was beating GPT 5.5 on every major benchmark. Then the US government pulled it offline.",
+      "link": "https://thenextweb.com/news/anthropic-fable-5-vs-openai-gpt-5-5-benchmark-comparison",
       "source": "The Next Web"
+    },
+    {
+      "title": "Canada’s Carney compares Anthropic shutdown to 2008 financial crisis, warns of AI “model risk”",
+      "link": "https://thenextweb.com/news/carney-anthropic-fable-ai-model-risk-g7",
+      "source": "The Next Web"
+    },
+    {
+      "title": "Povlačenje Fablea i Mythosa izazvalo buru diskusija, optužbi, sumnji i nelagode diljem svijeta",
+      "link": "https://www.bug.hr/dogadjaji/povlacenje-fablea-i-mythosa-izazvalo-buru-diskusija-optuzbi-sumnji-i-nelagode-60574",
+      "source": "Bug.hr"
     }
   ],
   "micro_tips": {
     "vscode": {
-      "tip": "Multi-cursor: postavi cursor na više mjesta istovremeno",
-      "keys": "Alt+Click"
+      "tip": "Command Palette: brzi pristup svim komandama",
+      "keys": "Ctrl+Shift+P"
     },
-    "sql": "Partial index s WHERE klauzulom smanjuje veličinu i ubrzava specifična filtriranja",
-    "oracle": "LISTAGG(col, ',') WITHIN GROUP (ORDER BY col) konkatenira u jedan string",
-    "regex": "(?<ime>\\d{4}) named group — referenciraj s \\k<ime> ili $<ime> u replace"
+    "sql": "GROUP BY s ROLLUP za subtotale u jednom prolasku: GROUP BY ROLLUP(god, mj)",
+    "oracle": "TRUNC(datum_kolona) = TRUNC(SYSDATE) koristi B-tree index na datumskoj koloni",
+    "regex": "\\d{4}-\\d{2}-\\d{2} ISO datum pattern; za validaciju zatvori s ^...$"
   }
 }
