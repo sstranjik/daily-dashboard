@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-06-14T20:57:19.200Z",
+  "generated_at": "2026-06-15T05:01:07.717Z",
   "stats": {
     "Mochvara": {
       "ok": true,
-      "count": 0
+      "count": 14
     },
-    "Pogon": {
+    "Lisinski": {
       "ok": true,
       "count": 0
     },
@@ -13,29 +13,17 @@
       "ok": true,
       "count": 0
     },
-    "Lisinski": {
-      "ok": true,
-      "count": 0
-    },
-    "ZeKaeM": {
-      "ok": true,
-      "count": 0
-    },
-    "Kerempuh": {
-      "ok": true,
-      "count": 0
-    },
     "Tvornica": {
       "ok": true,
       "count": 3
     },
-    "Trešnja": {
-      "ok": true,
-      "count": 0
-    },
     "muzika.hr": {
       "ok": true,
       "count": 25
+    },
+    "ZeKaeM": {
+      "ok": true,
+      "count": 0
     },
     "Komedija": {
       "ok": true,
@@ -43,40 +31,22 @@
     },
     "HNK Zagreb": {
       "ok": true,
-      "count": 25
+      "count": 24
+    },
+    "Pogon": {
+      "ok": true,
+      "count": 0
+    },
+    "Kerempuh": {
+      "ok": true,
+      "count": 0
+    },
+    "Trešnja": {
+      "ok": true,
+      "count": 0
     }
   },
   "concerts": [
-    {
-      "id": "e56230e81c",
-      "title": "Dave Hills Slade",
-      "venue": "Grada Vukovara 68",
-      "city": "Zagreb",
-      "country": "HR",
-      "category": "concert",
-      "date_iso": "2026-05-31T00:00:00",
-      "date_display": "ned, 31. 05. 2026.",
-      "time": null,
-      "link": "https://www.muzika.hr/event/dave-hills-slade/",
-      "source": "muzika.hr",
-      "is_new": false,
-      "first_seen": "2026-05-26T20:26:55.235Z"
-    },
-    {
-      "id": "bce733ba8e",
-      "title": "Dave Hill's Slade",
-      "venue": "Grada Vukovara 68",
-      "city": "Zagreb",
-      "country": "HR",
-      "category": "concert",
-      "date_iso": "2026-05-31T00:00:00",
-      "date_display": "ned, 31. 05. 2026.",
-      "time": null,
-      "link": "https://www.muzika.hr/event/dave-hills-slade/",
-      "source": "muzika.hr",
-      "is_new": false,
-      "first_seen": "2026-05-30T20:00:54.745Z"
-    },
     {
       "id": "37dc6ac1de",
       "title": "Stoner doom koncert: Acid King, OMEGA SUN, Canubis",
@@ -1023,6 +993,36 @@
       "first_seen": "2026-06-03T22:22:52.215Z"
     },
     {
+      "id": "6b4bfa34cc",
+      "title": "POPUNJENO Močvarni Laboratorij: Četiri dana keramike, četvrti dan",
+      "venue": "Mochvara",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-06-17T14:00:00",
+      "date_display": "sri, 17. 06. 2026.",
+      "time": "14:00",
+      "link": "https://mochvara.hr/event-detail/6a19a691af0d06d49bfe21a1/?lang=hr",
+      "source": "Mochvara",
+      "is_new": true,
+      "first_seen": "2026-06-15T05:01:07.717Z"
+    },
+    {
+      "id": "14e9fcd8b8",
+      "title": "Podivljaj!: MOJA, KNIVES",
+      "venue": "Mochvara",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-06-17T20:00:00",
+      "date_display": "sri, 17. 06. 2026.",
+      "time": "20:00",
+      "link": "https://mochvara.hr/event-detail/69e36fae5d014f3e27dd3f7b/?lang=hr",
+      "source": "Mochvara",
+      "is_new": true,
+      "first_seen": "2026-06-15T05:01:07.717Z"
+    },
+    {
       "id": "29f5d9e5dd",
       "title": "High Vis",
       "venue": "Vintage Industrial Bar Savska ulica 160",
@@ -1244,7 +1244,7 @@
       "time": null,
       "link": "https://www.muzika.hr/event/black-eyes-peas/",
       "source": "muzika.hr",
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-06-14T20:57:19.200Z"
     },
     {
@@ -1308,6 +1308,21 @@
       "first_seen": "2026-05-26T20:26:55.235Z"
     },
     {
+      "id": "66c720879c",
+      "title": "David Byrne u Areni Pula",
+      "venue": "Areni Pula Arena Pula Flavijevska ulica",
+      "city": "Pula",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-06-28T00:00:00",
+      "date_display": "ned, 28. 06. 2026.",
+      "time": null,
+      "link": "https://www.muzika.hr/event/david-byrne-arena-pula/",
+      "source": "muzika.hr",
+      "is_new": true,
+      "first_seen": "2026-06-15T05:01:07.717Z"
+    },
+    {
       "id": "a35f38b158",
       "title": "Komorni koncert: Opera buffa POLJSKA KRALJEVSKA OPERA",
       "venue": "HNK Zagreb",
@@ -1351,6 +1366,21 @@
       "source": "HNK Zagreb",
       "is_new": false,
       "first_seen": "2026-05-26T20:26:55.235Z"
+    },
+    {
+      "id": "72b65613bc",
+      "title": "Hideout Festival",
+      "venue": "Hideout Festival plaža Zrće Pag Srpanj",
+      "city": "Croatia",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-06-30T00:00:00",
+      "date_display": "uto, 30. 06. 2026.",
+      "time": null,
+      "link": "https://www.muzika.hr/event/hideout-festival/",
+      "source": "muzika.hr",
+      "is_new": true,
+      "first_seen": "2026-06-15T05:01:07.717Z"
     },
     {
       "id": "ed9d082457",
@@ -1717,36 +1747,6 @@
   ],
   "abroad": [
     {
-      "id": "e4f66fe0a4",
-      "title": "matori nek sjednu promocija debi albuma Kljusine",
-      "venue": "Kljusine AG Club Patriotske lige 30",
-      "city": "Sarajevo",
-      "country": "BA",
-      "category": "concert",
-      "date_iso": "2026-05-30T21:30:00",
-      "date_display": "sub, 30. 05. 2026.",
-      "time": "21:30",
-      "link": "https://www.muzika.hr/event/matori-nek-sjednu-promocija-debi-albuma-kljusine/",
-      "source": "muzika.hr",
-      "is_new": false,
-      "first_seen": "2026-05-26T20:26:55.235Z"
-    },
-    {
-      "id": "0d4d056892",
-      "title": "matori nek sjednu - promocija debi albuma \"Kljusine\"",
-      "venue": "AG Club Patriotske lige 30",
-      "city": "Sarajevo",
-      "country": "BA",
-      "category": "concert",
-      "date_iso": "2026-05-30T21:30:00",
-      "date_display": "sub, 30. 05. 2026.",
-      "time": "21:30",
-      "link": "https://www.muzika.hr/event/matori-nek-sjednu-promocija-debi-albuma-kljusine/",
-      "source": "muzika.hr",
-      "is_new": false,
-      "first_seen": "2026-05-30T20:00:54.745Z"
-    },
-    {
       "id": "42bbc7ad64",
       "title": "3 Suns of Aberran promocija albuma Exhale (+ Tight Grips, Take The Tides)",
       "venue": "Tight Grips",
@@ -2030,7 +2030,67 @@
       "source": "muzika.hr",
       "is_new": false,
       "first_seen": "2026-06-14T05:01:13.855Z"
+    },
+    {
+      "id": "75fa52eccb",
+      "title": "DUBIOZA KOLEKTIV (Festival Lent 2026)",
+      "venue": "Trg Leona Štuklja Trg Leona Štuklja",
+      "city": "Maribor",
+      "country": "SI",
+      "category": "concert",
+      "date_iso": "2026-06-26T21:30:00",
+      "date_display": "pet, 26. 06. 2026.",
+      "time": "21:30",
+      "link": "https://www.muzika.hr/event/dubioza-kolektiv-festival-lent-2026/",
+      "source": "muzika.hr",
+      "is_new": true,
+      "first_seen": "2026-06-15T05:01:07.717Z"
+    },
+    {
+      "id": "cb3303c6e0",
+      "title": "Dubioza kolektiv",
+      "venue": "Cave Romane Vinkuranska cesta 2",
+      "city": "Vinkuran",
+      "country": "EU",
+      "category": "concert",
+      "date_iso": "2026-06-27T00:00:00",
+      "date_display": "sub, 27. 06. 2026.",
+      "time": null,
+      "link": "https://www.muzika.hr/event/dubioza-kolektiv-2/",
+      "source": "muzika.hr",
+      "is_new": true,
+      "first_seen": "2026-06-15T05:01:07.717Z"
+    },
+    {
+      "id": "10b32e067a",
+      "title": "Laibach (Festival Lent 2026)",
+      "venue": "Trg Leona Štuklja Trg Leona Štuklja",
+      "city": "Maribor",
+      "country": "SI",
+      "category": "concert",
+      "date_iso": "2026-06-27T21:30:00",
+      "date_display": "sub, 27. 06. 2026.",
+      "time": "21:30",
+      "link": "https://www.muzika.hr/event/laibach-festival-lent-2026/",
+      "source": "muzika.hr",
+      "is_new": true,
+      "first_seen": "2026-06-15T05:01:07.717Z"
+    },
+    {
+      "id": "fba525f277",
+      "title": "Theo Croker: Dream Manifest (Festival Lent 2026)",
+      "venue": "Maribor Maribor",
+      "city": "Slovenia",
+      "country": "EU",
+      "category": "concert",
+      "date_iso": "2026-06-30T00:00:00",
+      "date_display": "uto, 30. 06. 2026.",
+      "time": null,
+      "link": "https://www.muzika.hr/event/theo-croker-dream-manifest-festival-lent-2026/",
+      "source": "muzika.hr",
+      "is_new": true,
+      "first_seen": "2026-06-15T05:01:07.717Z"
     }
   ],
-  "new_count": 2
+  "new_count": 9
 }
