@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-06-15T11:40:58.991Z",
+  "generated_at": "2026-06-15T12:01:12.080Z",
   "stats": {
-    "muzika.hr": {
-      "ok": true,
-      "count": 25
-    },
     "Lisinski": {
+      "ok": true,
+      "count": 0
+    },
+    "Gavella": {
       "ok": true,
       "count": 0
     },
@@ -13,25 +13,25 @@
       "ok": true,
       "count": 14
     },
-    "Gavella": {
-      "ok": true,
-      "count": 0
-    },
     "Tvornica": {
       "ok": true,
       "count": 3
     },
+    "muzika.hr": {
+      "ok": true,
+      "count": 25
+    },
     "Komedija": {
+      "ok": true,
+      "count": 0
+    },
+    "ZeKaeM": {
       "ok": true,
       "count": 0
     },
     "HNK Zagreb": {
       "ok": true,
       "count": 24
-    },
-    "ZeKaeM": {
-      "ok": true,
-      "count": 0
     },
     "Pogon": {
       "ok": true,
@@ -873,6 +873,21 @@
       "first_seen": "2026-06-05T19:28:14.316Z"
     },
     {
+      "id": "77039dcf60",
+      "title": "Sabaton + Manntra + Keops",
+      "venue": "Zagrebački velesajam Avenija Dubrovnik 15",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-06-15T00:00:00",
+      "date_display": "pon, 15. 06. 2026.",
+      "time": null,
+      "link": "https://www.muzika.hr/event/sabaton-manntra-keops-zagreb/",
+      "source": "muzika.hr",
+      "is_new": true,
+      "first_seen": "2026-06-15T12:01:12.080Z"
+    },
+    {
       "id": "27bbf7282c",
       "title": "Predstavljanje sezone 2026./2027.",
       "venue": "HNK Zagreb",
@@ -946,6 +961,21 @@
       "source": "Mochvara",
       "is_new": false,
       "first_seen": "2026-06-05T19:28:14.316Z"
+    },
+    {
+      "id": "eacc034cd1",
+      "title": "A Perfect Circle",
+      "venue": "A Perfect Circle Šalata Zagreb",
+      "city": "Croatia",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-06-16T00:00:00",
+      "date_display": "uto, 16. 06. 2026.",
+      "time": null,
+      "link": "https://www.muzika.hr/event/a-perfect-circle/",
+      "source": "muzika.hr",
+      "is_new": true,
+      "first_seen": "2026-06-15T12:01:12.080Z"
     },
     {
       "id": "52cd02de10",
@@ -2092,5 +2122,5 @@
       "first_seen": "2026-06-15T05:01:11.817Z"
     }
   ],
-  "new_count": 1
+  "new_count": 3
 }
