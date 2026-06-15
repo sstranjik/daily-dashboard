@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-06-15T19:01:19.953Z",
+  "generated_at": "2026-06-15T20:01:15.934Z",
   "stats": {
     "muzika.hr": {
       "ok": true,
       "count": 25
     },
-    "Lisinski": {
-      "ok": true,
-      "count": 0
-    },
     "Mochvara": {
       "ok": true,
       "count": 14
+    },
+    "Lisinski": {
+      "ok": true,
+      "count": 0
     },
     "Tvornica": {
       "ok": true,
@@ -29,15 +29,15 @@
       "ok": true,
       "count": 0
     },
+    "Pogon": {
+      "ok": true,
+      "count": 0
+    },
     "HNK Zagreb": {
       "ok": true,
       "count": 24
     },
     "Kerempuh": {
-      "ok": true,
-      "count": 0
-    },
-    "Pogon": {
       "ok": true,
       "count": 0
     },
@@ -47,21 +47,6 @@
     }
   },
   "concerts": [
-    {
-      "id": "37dc6ac1de",
-      "title": "Stoner doom koncert: Acid King, OMEGA SUN, Canubis",
-      "venue": "Mochvara",
-      "city": "Zagreb",
-      "country": "HR",
-      "category": "concert",
-      "date_iso": "2026-05-31T19:30:00",
-      "date_display": "ned, 31. 05. 2026.",
-      "time": "19:30",
-      "link": "https://mochvara.hr/event-detail/69737a71bb5d558dd6536483/?lang=hr",
-      "source": "Mochvara",
-      "is_new": false,
-      "first_seen": "2026-05-27T05:01:02.697Z"
-    },
     {
       "id": "a1e032ceb0",
       "title": "Ivan pl. Zajc Nikola Šubić Zrinjski",
@@ -2058,7 +2043,7 @@
       "time": null,
       "link": "https://www.muzika.hr/event/adi-sose-rock-stars/",
       "source": "muzika.hr",
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-06-14T18:01:22.849Z"
     },
     {
@@ -2137,5 +2122,5 @@
       "first_seen": "2026-06-15T05:01:11.817Z"
     }
   ],
-  "new_count": 1
+  "new_count": 0
 }
