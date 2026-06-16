@@ -1,25 +1,25 @@
 {
-  "generated_at": "2026-06-15T20:19:33.633Z",
+  "generated_at": "2026-06-16T05:01:14.722Z",
   "stats": {
-    "muzika.hr": {
+    "Mochvara": {
       "ok": true,
-      "count": 25
+      "count": 13
     },
     "Lisinski": {
       "ok": true,
       "count": 0
     },
-    "Mochvara": {
+    "Gavella": {
       "ok": true,
-      "count": 14
+      "count": 0
     },
     "Tvornica": {
       "ok": true,
       "count": 3
     },
-    "Gavella": {
+    "muzika.hr": {
       "ok": true,
-      "count": 0
+      "count": 25
     },
     "ZeKaeM": {
       "ok": true,
@@ -29,13 +29,13 @@
       "ok": true,
       "count": 0
     },
+    "HNK Zagreb": {
+      "ok": true,
+      "count": 23
+    },
     "Pogon": {
       "ok": true,
       "count": 0
-    },
-    "HNK Zagreb": {
-      "ok": true,
-      "count": 24
     },
     "Kerempuh": {
       "ok": true,
@@ -1128,6 +1128,21 @@
       "first_seen": "2026-06-09T14:01:06.205Z"
     },
     {
+      "id": "68294e2c43",
+      "title": "Back to nulte",
+      "venue": "Mochvara",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-06-19T22:00:00",
+      "date_display": "pet, 19. 06. 2026.",
+      "time": "22:00",
+      "link": "https://mochvara.hr/event-detail/6a2da3e8f021bb5bfe805112/?lang=hr",
+      "source": "Mochvara",
+      "is_new": true,
+      "first_seen": "2026-06-16T05:01:14.722Z"
+    },
+    {
       "id": "713cd6158f",
       "title": "Les Amazones d’Afrique",
       "venue": "Grada Vukovara 68",
@@ -1141,6 +1156,21 @@
       "source": "muzika.hr",
       "is_new": false,
       "first_seen": "2026-06-07T05:00:57.586Z"
+    },
+    {
+      "id": "087eb18929",
+      "title": "Deseta Jedinstvena vrtna zabava",
+      "venue": "Mochvara",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-06-20T10:00:00",
+      "date_display": "sub, 20. 06. 2026.",
+      "time": "10:00",
+      "link": "https://mochvara.hr/event-detail/6a158d86a5297e9176a6cc1d/?lang=hr",
+      "source": "Mochvara",
+      "is_new": true,
+      "first_seen": "2026-06-16T05:01:14.722Z"
     },
     {
       "id": "d35f662e9c",
@@ -2122,5 +2152,5 @@
       "first_seen": "2026-06-15T05:01:11.817Z"
     }
   ],
-  "new_count": 0
+  "new_count": 2
 }
