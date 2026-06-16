@@ -1,66 +1,61 @@
 {
   "version": 2,
-  "date": "2026-06-15",
-  "generated_at": "2026-06-15T10:53:40.390Z",
-  "date_hr": "Ponedjeljak, 15. lipnja 2026.",
+  "date": "2026-06-16",
+  "generated_at": "2026-06-16T05:03:00.572Z",
+  "date_hr": "Utorak, 16. lipnja 2026.",
   "weather": {
-    "icon": "⛈️",
-    "summary": "15–20°C, grmljavina s gradom · 16.6 mm",
-    "alerts": [
-      {
-        "level": "warning",
-        "text": "Grmljavinska oluja"
-      }
-    ]
+    "icon": "🌫️",
+    "summary": "14–27°C, magla",
+    "alerts": []
   },
   "fuel": {
-    "current_date": "15.06.2026",
+    "current_date": "16.06.2026",
     "eurodiesel": [
       {
-        "company": "Adria Oil",
-        "price": 1.61
-      },
-      {
         "company": "Coral Croatia",
-        "price": 1.61
+        "price": 1.59
       },
       {
         "company": "INA",
-        "price": 1.61
+        "price": 1.59
       },
       {
         "company": "LUKOIL Croatia",
-        "price": 1.61
+        "price": 1.59
       },
       {
         "company": "Petrol",
-        "price": 1.61
+        "price": 1.59
       },
       {
         "company": "Tifon",
+        "price": 1.59
+      },
+      {
+        "company": "Adria Oil",
         "price": 1.61
       }
     ],
     "premium_eurodiesel": [
       {
         "company": "LUKOIL Croatia",
-        "price": 1.77
+        "price": 1.75
       },
       {
         "company": "INA",
-        "price": 1.84
+        "price": 1.82
       },
       {
         "company": "Tifon",
-        "price": 1.84
+        "price": 1.82
       },
       {
         "company": "Petrol",
-        "price": 1.88
+        "price": 1.84
       },
       {
         "company": "Coral Croatia",
-        "price": 1.93
+        "price": 1.91
       }
     ],
     "upcoming_date": null,
@@ -68,46 +63,46 @@
     "upcoming_premium": null
   },
   "market": {
-    "updated_at": "2026-06-15T10:53:40.390Z",
-    "btc_usd": 65700,
-    "btc_eur": 56581,
-    "btc_change_24h": 1.82,
-    "usd_eur": 0.8632
+    "updated_at": "2026-06-16T05:03:00.572Z",
+    "btc_usd": 65840,
+    "btc_eur": 56861,
+    "btc_change_24h": 0.37,
+    "usd_eur": 0.8623
   },
   "ai_news": [
     {
-      "title": "Why Apple built a third-party AI system for Siri and then refused to show it at WWDC",
-      "link": "https://thenextweb.com/news/apple-siri-extensions-third-party-ai-missing-wwdc",
+      "title": "Inside the fight over Claude Mythos 5",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/950412/anthropic-trump-adminstration-claude-mythos-fable-5-export-controls",
+      "source": "The Verge"
+    },
+    {
+      "title": "A single click on a Microsoft link could have drained your inbox. Here’s how SearchLeak worked.",
+      "link": "https://thenextweb.com/news/microsoft-365-copilot-searchleak-one-click-data-exfiltration",
       "source": "The Next Web"
+    },
+    {
+      "title": "Anthropic lawsuit says it oversold the usage on its $200 Claude Max plans",
+      "link": "https://thenextweb.com/news/anthropic-lawsuit-claude-max-plans-usage-limits",
+      "source": "The Next Web"
+    },
+    {
+      "title": "Why Anthropic suddenly pulled Fable 5 and Mythos 5 for everyone",
+      "link": "https://www.zdnet.com/article/why-anthropic-suddenly-pulled-fable-5-and-mythos-5-for-everyone/",
+      "source": "ZDNet"
     },
     {
       "title": "US order to block foreign access to Anthropic’s top models marks a reversal",
       "link": "https://thenextweb.com/news/anthropic-foreign-access-block-us-reversal",
       "source": "The Next Web"
-    },
-    {
-      "title": "Canada’s Carney compares Anthropic shutdown to 2008 financial crisis, warns of AI “model risk”",
-      "link": "https://thenextweb.com/news/carney-anthropic-fable-ai-model-risk-g7",
-      "source": "The Next Web"
-    },
-    {
-      "title": "Povlačenje Fablea i Mythosa izazvalo buru diskusija, optužbi, sumnji i nelagode diljem svijeta",
-      "link": "https://www.bug.hr/dogadjaji/povlacenje-fablea-i-mythosa-izazvalo-buru-diskusija-optuzbi-sumnji-i-nelagode-60574",
-      "source": "Bug.hr"
-    },
-    {
-      "title": "China may have accessed Mythos",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/949644/china-white-house-anthropic-mythos",
-      "source": "The Verge"
     }
   ],
   "micro_tips": {
     "vscode": {
-      "tip": "Command Palette: brzi pristup svim komandama",
-      "keys": "Ctrl+Shift+P"
+      "tip": "Rename Symbol svuda u projektu (refactoring)",
+      "keys": "F2"
     },
-    "sql": "GROUP BY s ROLLUP za subtotale u jednom prolasku: GROUP BY ROLLUP(god, mj)",
-    "oracle": "TRUNC(datum_kolona) = TRUNC(SYSDATE) koristi B-tree index na datumskoj koloni",
-    "regex": "\\d{4}-\\d{2}-\\d{2} ISO datum pattern; za validaciju zatvori s ^...$"
+    "sql": "NOT EXISTS brži od NOT IN kad subquery može vratiti NULL vrijednost",
+    "oracle": "DBMS_STATS.GATHER_TABLE_STATS osvježava statistike za točniji execution plan",
+    "regex": "(?i) inline flag za case-insensitive bez mijenjanja ostatka patternahe"
   }
 }
