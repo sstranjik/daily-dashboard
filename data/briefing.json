@@ -1,7 +1,7 @@
 {
   "version": 2,
   "date": "2026-06-16",
-  "generated_at": "2026-06-16T05:03:00.572Z",
+  "generated_at": "2026-06-16T10:05:45.731Z",
   "date_hr": "Utorak, 16. lipnja 2026.",
   "weather": {
     "icon": "🌫️",
@@ -11,6 +11,10 @@
   "fuel": {
     "current_date": "16.06.2026",
     "eurodiesel": [
+      {
+        "company": "Adria Oil",
+        "price": 1.59
+      },
       {
         "company": "Coral Croatia",
         "price": 1.59
@@ -30,10 +34,6 @@
       {
         "company": "Tifon",
         "price": 1.59
-      },
-      {
-        "company": "Adria Oil",
-        "price": 1.61
       }
     ],
     "premium_eurodiesel": [
@@ -63,10 +63,10 @@
     "upcoming_premium": null
   },
   "market": {
-    "updated_at": "2026-06-16T05:03:00.572Z",
-    "btc_usd": 65840,
-    "btc_eur": 56861,
-    "btc_change_24h": 0.37,
+    "updated_at": "2026-06-16T10:05:45.731Z",
+    "btc_usd": 66472,
+    "btc_eur": 57297,
+    "btc_change_24h": 1.28,
     "usd_eur": 0.8623
   },
   "ai_news": [
@@ -91,8 +91,8 @@
       "source": "ZDNet"
     },
     {
-      "title": "US order to block foreign access to Anthropic’s top models marks a reversal",
-      "link": "https://thenextweb.com/news/anthropic-foreign-access-block-us-reversal",
+      "title": "OpenAI spent $34bn last year as it lines up for an IPO",
+      "link": "https://thenextweb.com/news/openai-spent-34bn-last-year-as-it-lines-up-for-an-ipo",
       "source": "The Next Web"
     }
   ],
