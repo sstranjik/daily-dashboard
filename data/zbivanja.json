@@ -1,6 +1,14 @@
 {
-  "generated_at": "2026-06-16T20:01:16.817Z",
+  "generated_at": "2026-06-16T22:04:38.460Z",
   "stats": {
+    "Mochvara": {
+      "ok": true,
+      "count": 0
+    },
+    "Pogon": {
+      "ok": true,
+      "count": 0
+    },
     "muzika.hr": {
       "ok": true,
       "count": 25
@@ -9,19 +17,23 @@
       "ok": true,
       "count": 0
     },
-    "Mochvara": {
+    "Gavella": {
       "ok": true,
-      "count": 13
+      "count": 0
     },
     "Tvornica": {
       "ok": true,
       "count": 3
     },
-    "Gavella": {
+    "ZeKaeM": {
       "ok": true,
       "count": 0
     },
-    "ZeKaeM": {
+    "Trešnja": {
+      "ok": true,
+      "count": 0
+    },
+    "Kerempuh": {
       "ok": true,
       "count": 0
     },
@@ -29,21 +41,9 @@
       "ok": true,
       "count": 0
     },
-    "Pogon": {
-      "ok": true,
-      "count": 0
-    },
     "HNK Zagreb": {
       "ok": true,
       "count": 24
-    },
-    "Kerempuh": {
-      "ok": true,
-      "count": 0
-    },
-    "Trešnja": {
-      "ok": true,
-      "count": 0
     }
   },
   "concerts": [
@@ -1488,6 +1488,21 @@
       "first_seen": "2026-05-26T20:26:55.235Z"
     },
     {
+      "id": "b96962169b",
+      "title": "Breaking Benjamin",
+      "venue": "Benjamin Tvornica kulture Šubićeva 2",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-07-02T00:00:00",
+      "date_display": "čet, 02. 07. 2026.",
+      "time": null,
+      "link": "https://www.muzika.hr/event/breaking-benjamin-zagreb/",
+      "source": "muzika.hr",
+      "is_new": true,
+      "first_seen": "2026-06-16T22:04:38.460Z"
+    },
+    {
       "id": "361e7e1361",
       "title": "William Shakespeare — Valentina Turcu — Gustav Mahler OTHELLO",
       "venue": "HNK Zagreb",
@@ -2150,7 +2165,37 @@
       "source": "muzika.hr",
       "is_new": false,
       "first_seen": "2026-06-15T05:01:11.817Z"
+    },
+    {
+      "id": "0701b20272",
+      "title": "Adam Ben Ezra Michael Olivera: Heavy Drops (Festival Lent 2026)",
+      "venue": "Maribor Maribor",
+      "city": "Slovenia",
+      "country": "EU",
+      "category": "concert",
+      "date_iso": "2026-07-01T00:00:00",
+      "date_display": "sri, 01. 07. 2026.",
+      "time": null,
+      "link": "https://www.muzika.hr/event/adam-ben-ezra-michael-olivera-heavy-drops-festival-lent-2026/",
+      "source": "muzika.hr",
+      "is_new": true,
+      "first_seen": "2026-06-16T22:04:38.460Z"
+    },
+    {
+      "id": "959670e51b",
+      "title": "Marc Ribot’s Ceramic Dog (Festival Lent 2026)",
+      "venue": "Maribor Maribor",
+      "city": "Slovenia",
+      "country": "EU",
+      "category": "concert",
+      "date_iso": "2026-07-02T00:00:00",
+      "date_display": "čet, 02. 07. 2026.",
+      "time": null,
+      "link": "https://www.muzika.hr/event/marc-ribots-ceramic-dog-festival-lent-2026/",
+      "source": "muzika.hr",
+      "is_new": true,
+      "first_seen": "2026-06-16T22:04:38.460Z"
     }
   ],
-  "new_count": 0
+  "new_count": 3
 }
