@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-06-16T11:01:16.530Z",
+  "generated_at": "2026-06-16T12:01:21.423Z",
   "stats": {
-    "Lisinski": {
+    "Mochvara": {
       "ok": true,
       "count": 0
     },
@@ -9,15 +9,15 @@
       "ok": true,
       "count": 0
     },
-    "Mochvara": {
+    "Lisinski": {
       "ok": true,
-      "count": 13
+      "count": 0
     },
     "Tvornica": {
       "ok": true,
       "count": 3
     },
-    "ZeKaeM": {
+    "Komedija": {
       "ok": true,
       "count": 0
     },
@@ -25,25 +25,25 @@
       "ok": true,
       "count": 25
     },
-    "Komedija": {
-      "ok": true,
-      "count": 0
-    },
-    "Pogon": {
-      "ok": true,
-      "count": 0
-    },
     "HNK Zagreb": {
       "ok": true,
       "count": 23
     },
+    "ZeKaeM": {
+      "ok": false,
+      "error": "fetch failed"
+    },
     "Kerempuh": {
-      "ok": true,
-      "count": 0
+      "ok": false,
+      "error": "fetch failed"
+    },
+    "Pogon": {
+      "ok": false,
+      "error": "fetch failed"
     },
     "Trešnja": {
-      "ok": true,
-      "count": 0
+      "ok": false,
+      "error": "fetch failed"
     }
   },
   "concerts": [
