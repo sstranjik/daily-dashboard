@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-06-17T09:27:17.871Z",
+  "generated_at": "2026-06-17T10:01:16.236Z",
   "stats": {
+    "Mochvara": {
+      "ok": true,
+      "count": 0
+    },
     "muzika.hr": {
       "ok": true,
       "count": 25
-    },
-    "Mochvara": {
-      "ok": true,
-      "count": 12
     },
     "Lisinski": {
       "ok": true,
@@ -21,19 +21,7 @@
       "ok": true,
       "count": 3
     },
-    "ZeKaeM": {
-      "ok": true,
-      "count": 0
-    },
     "Komedija": {
-      "ok": true,
-      "count": 0
-    },
-    "Pogon": {
-      "ok": true,
-      "count": 0
-    },
-    "Kerempuh": {
       "ok": true,
       "count": 0
     },
@@ -41,9 +29,21 @@
       "ok": true,
       "count": 23
     },
+    "ZeKaeM": {
+      "ok": false,
+      "error": "fetch failed"
+    },
     "Trešnja": {
-      "ok": true,
-      "count": 0
+      "ok": false,
+      "error": "fetch failed"
+    },
+    "Pogon": {
+      "ok": false,
+      "error": "fetch failed"
+    },
+    "Kerempuh": {
+      "ok": false,
+      "error": "fetch failed"
     }
   },
   "concerts": [
@@ -1714,21 +1714,6 @@
     }
   ],
   "theater": [
-    {
-      "id": "614ba62204",
-      "title": "Kazališni doručak uoči premijere predstave „Idealan muž” Sprega novca i moći, nekad i danas?",
-      "venue": "HNK Zagreb",
-      "city": "Zagreb",
-      "country": "HR",
-      "category": "theater",
-      "date_iso": "2026-06-02T10:00:00",
-      "date_display": "uto, 02. 06. 2026.",
-      "time": "10:00",
-      "link": "https://hnk.hr/hr/drama/predstave/sprega-novca-i-mo%C4%87i-nekad-i-danas/#02.06.10.00",
-      "source": "HNK Zagreb",
-      "is_new": false,
-      "first_seen": "2026-05-26T20:26:55.235Z"
-    },
     {
       "id": "4e89076c3c",
       "title": "Oscar Wilde IDEALAN MUŽ",
