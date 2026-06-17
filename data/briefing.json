@@ -1,15 +1,15 @@
 {
   "version": 2,
-  "date": "2026-06-16",
-  "generated_at": "2026-06-16T10:05:45.731Z",
-  "date_hr": "Utorak, 16. lipnja 2026.",
+  "date": "2026-06-17",
+  "generated_at": "2026-06-17T05:02:38.573Z",
+  "date_hr": "Srijeda, 17. lipnja 2026.",
   "weather": {
-    "icon": "🌫️",
-    "summary": "14–27°C, magla",
+    "icon": "🌦️",
+    "summary": "18–30°C, pljuskovi · 0.6 mm",
     "alerts": []
   },
   "fuel": {
-    "current_date": "16.06.2026",
+    "current_date": "17.06.2026",
     "eurodiesel": [
       {
         "company": "Adria Oil",
@@ -63,46 +63,46 @@
     "upcoming_premium": null
   },
   "market": {
-    "updated_at": "2026-06-16T10:05:45.731Z",
-    "btc_usd": 66472,
-    "btc_eur": 57297,
-    "btc_change_24h": 1.28,
-    "usd_eur": 0.8623
+    "updated_at": "2026-06-17T05:02:38.573Z",
+    "btc_usd": 65838,
+    "btc_eur": 56697,
+    "btc_change_24h": -0.13,
+    "usd_eur": 0.8613
   },
   "ai_news": [
     {
-      "title": "Inside the fight over Claude Mythos 5",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/950412/anthropic-trump-adminstration-claude-mythos-fable-5-export-controls",
-      "source": "The Verge"
+      "title": "Z.ai’s open-weights GLM-5.2 beats GPT-5.5 on multiple long-horizon coding benchmarks for 1/6th the cost",
+      "link": "https://venturebeat.com/technology/z-ais-open-weights-glm-5-2-beats-gpt-5-5-on-multiple-long-horizon-coding-benchmarks-for-1-6th-the-cost",
+      "source": "VentureBeat"
     },
     {
-      "title": "A single click on a Microsoft link could have drained your inbox. Here’s how SearchLeak worked.",
-      "link": "https://thenextweb.com/news/microsoft-365-copilot-searchleak-one-click-data-exfiltration",
+      "title": "Claude earns more revenue per user than ChatGPT, Sensor Tower finds",
+      "link": "https://thenextweb.com/news/claude-chatgpt-revenue-per-user-sensor-tower",
       "source": "The Next Web"
     },
     {
-      "title": "Anthropic lawsuit says it oversold the usage on its $200 Claude Max plans",
-      "link": "https://thenextweb.com/news/anthropic-lawsuit-claude-max-plans-usage-limits",
+      "title": "Critical Copilot vulnerability allowed hackers to steal 2FA code from users",
+      "link": "https://arstechnica.com/security/2026/06/critical-copilot-vulnerability-allowed-hackers-to-seal-2fa-code-from-users/",
+      "source": "Ars Technica"
+    },
+    {
+      "title": "CyCognito pushes AI pentesting beyond vulnerability scans as enterprise attack surfaces evolve",
+      "link": "https://thenextweb.com/news/cycognito-ai-pentesting-enterprise-attack-surfaces",
       "source": "The Next Web"
     },
     {
-      "title": "Why Anthropic suddenly pulled Fable 5 and Mythos 5 for everyone",
-      "link": "https://www.zdnet.com/article/why-anthropic-suddenly-pulled-fable-5-and-mythos-5-for-everyone/",
-      "source": "ZDNet"
-    },
-    {
-      "title": "OpenAI spent $34bn last year as it lines up for an IPO",
-      "link": "https://thenextweb.com/news/openai-spent-34bn-last-year-as-it-lines-up-for-an-ipo",
-      "source": "The Next Web"
+      "title": "ChatGPT&#8217;s market share slips below 50% for first time",
+      "link": "https://techcrunch.com/2026/06/16/chatgpts-market-share-slips-below-50-for-first-time/",
+      "source": "TechCrunch AI"
     }
   ],
   "micro_tips": {
     "vscode": {
-      "tip": "Rename Symbol svuda u projektu (refactoring)",
-      "keys": "F2"
+      "tip": "Quick Fix i Code Actions na trenutnoj poziciji",
+      "keys": "Ctrl+."
     },
-    "sql": "NOT EXISTS brži od NOT IN kad subquery može vratiti NULL vrijednost",
-    "oracle": "DBMS_STATS.GATHER_TABLE_STATS osvježava statistike za točniji execution plan",
-    "regex": "(?i) inline flag za case-insensitive bez mijenjanja ostatka patternahe"
+    "sql": "Parametrizirani upiti = plan cache reuse + SQL injection zaštita istovremeno",
+    "oracle": "NVL2(expr, kad_nije_null, kad_je_null) kompaktnija od dvostrukog NVL-a",
+    "regex": "\\s+ pokriva space, tab i newline; \\S je negacija (svaki ne-whitespace)"
   }
 }
