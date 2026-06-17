@@ -1,23 +1,15 @@
 {
-  "generated_at": "2026-06-16T22:04:38.460Z",
+  "generated_at": "2026-06-17T05:01:08.607Z",
   "stats": {
+    "Gavella": {
+      "ok": true,
+      "count": 0
+    },
     "Mochvara": {
       "ok": true,
-      "count": 0
-    },
-    "Pogon": {
-      "ok": true,
-      "count": 0
-    },
-    "muzika.hr": {
-      "ok": true,
-      "count": 25
+      "count": 12
     },
     "Lisinski": {
-      "ok": true,
-      "count": 0
-    },
-    "Gavella": {
       "ok": true,
       "count": 0
     },
@@ -29,13 +21,9 @@
       "ok": true,
       "count": 0
     },
-    "Trešnja": {
+    "muzika.hr": {
       "ok": true,
-      "count": 0
-    },
-    "Kerempuh": {
-      "ok": true,
-      "count": 0
+      "count": 25
     },
     "Komedija": {
       "ok": true,
@@ -43,7 +31,19 @@
     },
     "HNK Zagreb": {
       "ok": true,
-      "count": 24
+      "count": 23
+    },
+    "Pogon": {
+      "ok": true,
+      "count": 0
+    },
+    "Kerempuh": {
+      "ok": true,
+      "count": 0
+    },
+    "Trešnja": {
+      "ok": true,
+      "count": 0
     }
   },
   "concerts": [
@@ -1188,6 +1188,21 @@
       "first_seen": "2026-06-07T05:00:57.586Z"
     },
     {
+      "id": "dfd004f5b4",
+      "title": "71. Močvarin sajam ploča i stripova",
+      "venue": "Mochvara",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-06-21T12:00:00",
+      "date_display": "ned, 21. 06. 2026.",
+      "time": "12:00",
+      "link": "https://mochvara.hr/event-detail/6a28036b0037e894cabde6bc/?lang=hr",
+      "source": "Mochvara",
+      "is_new": true,
+      "first_seen": "2026-06-17T05:01:08.607Z"
+    },
+    {
       "id": "9fe3e39334",
       "title": "Derivat 08",
       "venue": "Derivat 08 Obrovac Obrovac",
@@ -1499,7 +1514,7 @@
       "time": null,
       "link": "https://www.muzika.hr/event/breaking-benjamin-zagreb/",
       "source": "muzika.hr",
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-06-16T22:04:38.460Z"
     },
     {
@@ -2178,7 +2193,7 @@
       "time": null,
       "link": "https://www.muzika.hr/event/adam-ben-ezra-michael-olivera-heavy-drops-festival-lent-2026/",
       "source": "muzika.hr",
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-06-16T22:04:38.460Z"
     },
     {
@@ -2193,9 +2208,9 @@
       "time": null,
       "link": "https://www.muzika.hr/event/marc-ribots-ceramic-dog-festival-lent-2026/",
       "source": "muzika.hr",
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-06-16T22:04:38.460Z"
     }
   ],
-  "new_count": 3
+  "new_count": 1
 }
