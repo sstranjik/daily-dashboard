@@ -1,14 +1,6 @@
 {
-  "generated_at": "2026-06-17T20:01:13.335Z",
+  "generated_at": "2026-06-17T21:52:18.057Z",
   "stats": {
-    "muzika.hr": {
-      "ok": true,
-      "count": 25
-    },
-    "Mochvara": {
-      "ok": true,
-      "count": 12
-    },
     "Lisinski": {
       "ok": true,
       "count": 0
@@ -17,9 +9,17 @@
       "ok": true,
       "count": 0
     },
+    "Mochvara": {
+      "ok": true,
+      "count": 12
+    },
     "Tvornica": {
       "ok": true,
       "count": 3
+    },
+    "muzika.hr": {
+      "ok": true,
+      "count": 25
     },
     "Komedija": {
       "ok": true,
@@ -29,21 +29,21 @@
       "ok": true,
       "count": 22
     },
-    "ZeKaeM": {
-      "ok": true,
-      "count": 0
-    },
     "Kerempuh": {
-      "ok": true,
-      "count": 0
-    },
-    "Pogon": {
-      "ok": true,
-      "count": 0
+      "ok": false,
+      "error": "fetch failed"
     },
     "Trešnja": {
-      "ok": true,
-      "count": 0
+      "ok": false,
+      "error": "fetch failed"
+    },
+    "Pogon": {
+      "ok": false,
+      "error": "fetch failed"
+    },
+    "ZeKaeM": {
+      "ok": false,
+      "error": "fetch failed"
     }
   },
   "concerts": [
@@ -1503,6 +1503,21 @@
       "first_seen": "2026-06-16T22:04:38.460Z"
     },
     {
+      "id": "e3ca3e8d3e",
+      "title": "Bearstone festival",
+      "venue": "Primišlje kraj Slunja Slunj",
+      "city": "Croatia",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-07-02T00:00:00",
+      "date_display": "čet, 02. 07. 2026.",
+      "time": null,
+      "link": "https://www.muzika.hr/event/bearstone-festival-2/",
+      "source": "muzika.hr",
+      "is_new": true,
+      "first_seen": "2026-06-17T21:52:18.057Z"
+    },
+    {
       "id": "361e7e1361",
       "title": "William Shakespeare — Valentina Turcu — Gustav Mahler OTHELLO",
       "venue": "HNK Zagreb",
@@ -1516,6 +1531,21 @@
       "source": "HNK Zagreb",
       "is_new": false,
       "first_seen": "2026-05-26T20:26:55.235Z"
+    },
+    {
+      "id": "2614234925",
+      "title": "Jovanotti",
+      "venue": "Jovanotti Arena Pula Flavijevska ulica",
+      "city": "Pula",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-07-03T00:00:00",
+      "date_display": "pet, 03. 07. 2026.",
+      "time": null,
+      "link": "https://www.muzika.hr/event/jovanotti/",
+      "source": "muzika.hr",
+      "is_new": true,
+      "first_seen": "2026-06-17T21:52:18.057Z"
     },
     {
       "id": "26c227bd8d",
@@ -2182,5 +2212,5 @@
       "first_seen": "2026-06-16T22:04:38.460Z"
     }
   ],
-  "new_count": 0
+  "new_count": 2
 }
