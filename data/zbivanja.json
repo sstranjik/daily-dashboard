@@ -1,18 +1,6 @@
 {
-  "generated_at": "2026-06-17T06:01:08.744Z",
+  "generated_at": "2026-06-17T07:01:08.605Z",
   "stats": {
-    "Mochvara": {
-      "ok": true,
-      "count": 0
-    },
-    "Pogon": {
-      "ok": true,
-      "count": 0
-    },
-    "muzika.hr": {
-      "ok": true,
-      "count": 25
-    },
     "Lisinski": {
       "ok": true,
       "count": 0
@@ -21,21 +9,21 @@
       "ok": true,
       "count": 0
     },
-    "ZeKaeM": {
+    "Mochvara": {
       "ok": true,
-      "count": 0
+      "count": 12
     },
     "Tvornica": {
       "ok": true,
       "count": 3
     },
-    "Kerempuh": {
+    "ZeKaeM": {
       "ok": true,
       "count": 0
     },
-    "Trešnja": {
+    "muzika.hr": {
       "ok": true,
-      "count": 0
+      "count": 25
     },
     "Komedija": {
       "ok": true,
@@ -44,6 +32,18 @@
     "HNK Zagreb": {
       "ok": true,
       "count": 23
+    },
+    "Pogon": {
+      "ok": true,
+      "count": 0
+    },
+    "Kerempuh": {
+      "ok": true,
+      "count": 0
+    },
+    "Trešnja": {
+      "ok": true,
+      "count": 0
     }
   },
   "concerts": [
@@ -1006,6 +1006,21 @@
       "source": "Mochvara",
       "is_new": false,
       "first_seen": "2026-06-15T05:01:11.817Z"
+    },
+    {
+      "id": "2996912b51",
+      "title": "Močvarni birc: Pink Pony Birc",
+      "venue": "Mochvara",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-06-17T17:00:00",
+      "date_display": "sri, 17. 06. 2026.",
+      "time": "17:00",
+      "link": "https://mochvara.hr/event-detail/6a323c646c65c799b7f35e65/?lang=hr",
+      "source": "Mochvara",
+      "is_new": true,
+      "first_seen": "2026-06-17T07:01:08.605Z"
     },
     {
       "id": "14e9fcd8b8",
@@ -2212,5 +2227,5 @@
       "first_seen": "2026-06-16T22:04:38.460Z"
     }
   ],
-  "new_count": 1
+  "new_count": 2
 }
