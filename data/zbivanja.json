@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-06-18T15:01:19.152Z",
+  "generated_at": "2026-06-18T16:01:49.707Z",
   "stats": {
-    "muzika.hr": {
-      "ok": true,
-      "count": 25
-    },
     "Mochvara": {
       "ok": true,
       "count": 12
+    },
+    "muzika.hr": {
+      "ok": true,
+      "count": 25
     },
     "Lisinski": {
       "ok": true,
@@ -25,21 +25,21 @@
       "ok": true,
       "count": 0
     },
-    "Pogon": {
-      "ok": true,
-      "count": 0
-    },
     "Komedija": {
       "ok": false,
       "error": "HTTP 500"
+    },
+    "HNK Zagreb": {
+      "ok": true,
+      "count": 33
     },
     "Kerempuh": {
       "ok": true,
       "count": 0
     },
-    "HNK Zagreb": {
+    "Pogon": {
       "ok": true,
-      "count": 33
+      "count": 0
     },
     "Trešnja": {
       "ok": true,
@@ -1259,7 +1259,7 @@
       "time": "17:00",
       "link": "https://mochvara.hr/event-detail/6a340536ad796c9981ec43a2/?lang=hr",
       "source": "Mochvara",
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-06-18T15:01:19.152Z"
     },
     {
@@ -2452,5 +2452,5 @@
       "first_seen": "2026-06-16T22:04:38.460Z"
     }
   ],
-  "new_count": 4
+  "new_count": 3
 }
