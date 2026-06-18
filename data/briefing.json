@@ -1,11 +1,11 @@
 {
   "version": 2,
   "date": "2026-06-18",
-  "generated_at": "2026-06-18T05:02:54.786Z",
+  "generated_at": "2026-06-18T09:12:43.782Z",
   "date_hr": "Četvrtak, 18. lipnja 2026.",
   "weather": {
-    "icon": "🌤️",
-    "summary": "20–30°C, djelomično oblačno",
+    "icon": "🌦️",
+    "summary": "20–30°C, pljuskovi",
     "alerts": []
   },
   "fuel": {
@@ -63,13 +63,18 @@
     "upcoming_premium": null
   },
   "market": {
-    "updated_at": "2026-06-18T05:02:54.786Z",
-    "btc_usd": 63794,
-    "btc_eur": 55361,
-    "btc_change_24h": -3.11,
+    "updated_at": "2026-06-18T09:12:43.782Z",
+    "btc_usd": 64295,
+    "btc_eur": 56015,
+    "btc_change_24h": -0.97,
     "usd_eur": 0.8656
   },
   "ai_news": [
+    {
+      "title": "Google’s Gemini co-lead Noam Shazeer is leaving for OpenAI",
+      "link": "https://thenextweb.com/news/googles-gemini-co-lead-noam-shazeer-is-leaving-for-openai",
+      "source": "The Next Web"
+    },
     {
       "title": "Anthropic ships major Claude Design overhaul with design system imports, code round-trips, and a fix for its token-burning problem",
       "link": "https://venturebeat.com/technology/anthropic-ships-major-claude-design-overhaul-with-design-system-imports-code-round-trips-and-a-fix-for-its-token-burning-problem",
@@ -88,11 +93,6 @@
     {
       "title": "Arcade raised $60M to fix the real wall blocking enterprise AI agents: what they’re allowed to do",
       "link": "https://thenextweb.com/news/arcade-dev-60-million-series-a-ai-agent-authorization",
-      "source": "The Next Web"
-    },
-    {
-      "title": "Microsoft might put China’s DeepSeek inside Copilot to tame its AI bills",
-      "link": "https://thenextweb.com/news/microsoft-deepseek-copilot-cowork",
       "source": "The Next Web"
     }
   ],
