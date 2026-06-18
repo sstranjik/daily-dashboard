@@ -1,6 +1,10 @@
 {
-  "generated_at": "2026-06-18T08:01:11.235Z",
+  "generated_at": "2026-06-18T09:01:12.126Z",
   "stats": {
+    "muzika.hr": {
+      "ok": true,
+      "count": 25
+    },
     "Gavella": {
       "ok": true,
       "count": 0
@@ -9,19 +13,23 @@
       "ok": true,
       "count": 0
     },
-    "Mochvara": {
-      "ok": true,
-      "count": 12
-    },
     "Tvornica": {
       "ok": true,
       "count": 3
     },
-    "muzika.hr": {
+    "Mochvara": {
       "ok": true,
-      "count": 25
+      "count": 12
+    },
+    "ZeKaeM": {
+      "ok": true,
+      "count": 0
     },
     "Komedija": {
+      "ok": true,
+      "count": 0
+    },
+    "Pogon": {
       "ok": true,
       "count": 0
     },
@@ -29,21 +37,13 @@
       "ok": true,
       "count": 23
     },
-    "ZeKaeM": {
-      "ok": false,
-      "error": "fetch failed"
-    },
     "Kerempuh": {
-      "ok": false,
-      "error": "fetch failed"
-    },
-    "Pogon": {
-      "ok": false,
-      "error": "fetch failed"
+      "ok": true,
+      "count": 0
     },
     "Trešnja": {
-      "ok": false,
-      "error": "fetch failed"
+      "ok": true,
+      "count": 0
     }
   },
   "concerts": [
@@ -1394,7 +1394,7 @@
       "time": "11:00",
       "link": "https://hnk.hr/hr/opera/predstave/vje%C5%A1tica-hillary-i-uvrije%C4%91eni-kontrabas/#28.06.11.00",
       "source": "HNK Zagreb",
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-06-18T08:01:11.235Z"
     },
     {
@@ -2257,5 +2257,5 @@
       "first_seen": "2026-06-16T22:04:38.460Z"
     }
   ],
-  "new_count": 1
+  "new_count": 0
 }
