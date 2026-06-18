@@ -1,9 +1,13 @@
 {
-  "generated_at": "2026-06-18T13:01:15.839Z",
+  "generated_at": "2026-06-18T13:55:08.228Z",
   "stats": {
     "muzika.hr": {
       "ok": true,
       "count": 25
+    },
+    "Lisinski": {
+      "ok": true,
+      "count": 0
     },
     "Mochvara": {
       "ok": true,
@@ -13,23 +17,15 @@
       "ok": true,
       "count": 0
     },
-    "Lisinski": {
-      "ok": true,
-      "count": 0
-    },
     "Tvornica": {
       "ok": true,
       "count": 3
-    },
-    "Komedija": {
-      "ok": true,
-      "count": 0
     },
     "ZeKaeM": {
       "ok": true,
       "count": 0
     },
-    "Pogon": {
+    "Komedija": {
       "ok": true,
       "count": 0
     },
@@ -38,6 +34,10 @@
       "count": 33
     },
     "Kerempuh": {
+      "ok": true,
+      "count": 0
+    },
+    "Pogon": {
       "ok": true,
       "count": 0
     },
@@ -1694,7 +1694,7 @@
       "time": "19:30",
       "link": "https://hnk.hr/hr/opera/predstave/aida-nova/#11.09.19.30",
       "source": "HNK Zagreb",
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-06-18T13:01:15.839Z"
     },
     {
@@ -1709,7 +1709,7 @@
       "time": "11:00",
       "link": "https://hnk.hr/hr/opera/predstave/gita-i-skriveni-svijet/#12.09.11.00",
       "source": "HNK Zagreb",
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-06-18T13:01:15.839Z"
     },
     {
@@ -1739,7 +1739,7 @@
       "time": "11:00",
       "link": "https://hnk.hr/hr/opera/predstave/gita-i-skriveni-svijet/#13.09.11.00",
       "source": "HNK Zagreb",
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-06-18T13:01:15.839Z"
     },
     {
@@ -1758,6 +1758,21 @@
       "first_seen": "2026-06-18T13:01:15.839Z"
     },
     {
+      "id": "2e7abd3d11",
+      "title": "Poljska kraljevska opera - Gioachino Rossini Talijanka u Alžiru ZAGREBAČKI OPERNI FESTIVAL 2026.",
+      "venue": "HNK Zagreb",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-09-14T19:30:00",
+      "date_display": "pon, 14. 09. 2026.",
+      "time": "19:30",
+      "link": "https://hnk.hr/hr/opera/predstave/talijanka-u-al%C5%BEiru/#14.09.19.30",
+      "source": "HNK Zagreb",
+      "is_new": true,
+      "first_seen": "2026-06-18T13:55:08.228Z"
+    },
+    {
       "id": "b1770152b9",
       "title": "Hrvatski barokni ansambl, Vokalni ansambl Cantoría i Komorni zbor John Blow: Venera i Adon ZAGREBAČKI OPERNI FESTIVAL 2026.",
       "venue": "HNK Zagreb",
@@ -1769,7 +1784,7 @@
       "time": "19:30",
       "link": "https://hnk.hr/hr/opera/predstave/john-blow-venera-i-adon/#15.09.19.30",
       "source": "HNK Zagreb",
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-06-18T13:01:15.839Z"
     },
     {
@@ -1786,6 +1801,21 @@
       "source": "HNK Zagreb",
       "is_new": true,
       "first_seen": "2026-06-18T13:01:15.839Z"
+    },
+    {
+      "id": "e8a94ce4fa",
+      "title": "SNG Maribor - Léo Delibes Lakmé ZAGREBAČKI OPERNI FESTIVAL 2026.",
+      "venue": "HNK Zagreb",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-09-17T18:00:00",
+      "date_display": "čet, 17. 09. 2026.",
+      "time": "18:00",
+      "link": "https://hnk.hr/hr/opera/predstave/lakm%C3%A9/#17.09.18.00",
+      "source": "HNK Zagreb",
+      "is_new": true,
+      "first_seen": "2026-06-18T13:55:08.228Z"
     },
     {
       "id": "f30ecf86dd",
@@ -1814,7 +1844,7 @@
       "time": "11:00",
       "link": "https://hnk.hr/hr/opera/predstave/gita-i-skriveni-svijet/#19.09.11.00",
       "source": "HNK Zagreb",
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-06-18T13:01:15.839Z"
     },
     {
@@ -2407,5 +2437,5 @@
       "first_seen": "2026-06-16T22:04:38.460Z"
     }
   ],
-  "new_count": 8
+  "new_count": 5
 }
