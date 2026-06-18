@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-18T14:01:24.149Z",
+  "generated_at": "2026-06-18T15:01:19.152Z",
   "stats": {
     "muzika.hr": {
       "ok": true,
@@ -9,11 +9,11 @@
       "ok": true,
       "count": 12
     },
-    "Gavella": {
+    "Lisinski": {
       "ok": true,
       "count": 0
     },
-    "Lisinski": {
+    "Gavella": {
       "ok": true,
       "count": 0
     },
@@ -25,21 +25,21 @@
       "ok": true,
       "count": 0
     },
-    "Komedija": {
+    "Pogon": {
       "ok": true,
       "count": 0
     },
-    "Pogon": {
+    "Komedija": {
+      "ok": false,
+      "error": "HTTP 500"
+    },
+    "Kerempuh": {
       "ok": true,
       "count": 0
     },
     "HNK Zagreb": {
       "ok": true,
       "count": 33
-    },
-    "Kerempuh": {
-      "ok": true,
-      "count": 0
     },
     "Trešnja": {
       "ok": true,
@@ -1248,6 +1248,21 @@
       "first_seen": "2026-06-14T05:01:13.855Z"
     },
     {
+      "id": "34be3bbb1d",
+      "title": "Turbina – turbo tribina: RADOST?!",
+      "venue": "Mochvara",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-06-25T17:00:00",
+      "date_display": "čet, 25. 06. 2026.",
+      "time": "17:00",
+      "link": "https://mochvara.hr/event-detail/6a340536ad796c9981ec43a2/?lang=hr",
+      "source": "Mochvara",
+      "is_new": true,
+      "first_seen": "2026-06-18T15:01:19.152Z"
+    },
+    {
       "id": "3896e65279",
       "title": "Gioachino Rossini Seviljski brijač",
       "venue": "HNK Zagreb",
@@ -2437,5 +2452,5 @@
       "first_seen": "2026-06-16T22:04:38.460Z"
     }
   ],
-  "new_count": 3
+  "new_count": 4
 }
