@@ -1,10 +1,6 @@
 {
-  "generated_at": "2026-06-18T05:01:14.035Z",
+  "generated_at": "2026-06-18T06:01:15.503Z",
   "stats": {
-    "muzika.hr": {
-      "ok": true,
-      "count": 25
-    },
     "Mochvara": {
       "ok": true,
       "count": 12
@@ -17,6 +13,10 @@
       "ok": true,
       "count": 0
     },
+    "muzika.hr": {
+      "ok": true,
+      "count": 25
+    },
     "Tvornica": {
       "ok": true,
       "count": 3
@@ -27,27 +27,19 @@
     },
     "ZeKaeM": {
       "ok": true,
-      "count": 21
-    },
-    "Kerempuh": {
-      "ok": false,
-      "error": "fetch failed"
-    },
-    "Trešnja": {
-      "ok": false,
-      "error": "fetch failed"
+      "count": 0
     },
     "Pogon": {
       "ok": true,
       "count": 0
     },
-    "HNK Zagreb": {
-      "ok": true,
-      "count": 21
-    },
     "Kerempuh": {
       "ok": true,
       "count": 0
+    },
+    "HNK Zagreb": {
+      "ok": true,
+      "count": 22
     },
     "Trešnja": {
       "ok": true,
@@ -1372,7 +1364,7 @@
       "time": "22:00",
       "link": "https://mochvara.hr/event-detail/6a302831cb731b50ad575cdf/?lang=hr",
       "source": "Mochvara",
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-06-18T05:01:14.035Z"
     },
     {
@@ -1584,6 +1576,21 @@
       "source": "HNK Zagreb",
       "is_new": false,
       "first_seen": "2026-05-26T20:26:55.235Z"
+    },
+    {
+      "id": "5190bbb0a4",
+      "title": "HNK u Zagrebu na Zagreb Classicu Golden Age: Lawrence Brownlee i Erin Morley uz Orkestar i Zbor Opere HNK u Zagrebu",
+      "venue": "HNK Zagreb",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-07-03T21:00:00",
+      "date_display": "pet, 03. 07. 2026.",
+      "time": "21:00",
+      "link": "https://hnk.hr/hr/koncert/predstave/golden-age-lawrence-brownlee-i-erin-morley-uz-orkestar-i-zbor-opere-hnk-u-zagrebu/#03.07.21.00",
+      "source": "HNK Zagreb",
+      "is_new": true,
+      "first_seen": "2026-06-18T06:01:15.503Z"
     },
     {
       "id": "170d2d5fd4",
