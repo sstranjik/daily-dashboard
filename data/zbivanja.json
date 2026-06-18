@@ -1,15 +1,19 @@
 {
-  "generated_at": "2026-06-18T09:10:50.062Z",
+  "generated_at": "2026-06-18T10:01:17.579Z",
   "stats": {
+    "Mochvara": {
+      "ok": true,
+      "count": 12
+    },
     "muzika.hr": {
       "ok": true,
       "count": 25
     },
-    "Gavella": {
+    "Lisinski": {
       "ok": true,
       "count": 0
     },
-    "Lisinski": {
+    "Gavella": {
       "ok": true,
       "count": 0
     },
@@ -21,15 +25,7 @@
       "ok": true,
       "count": 0
     },
-    "Mochvara": {
-      "ok": true,
-      "count": 12
-    },
     "Komedija": {
-      "ok": true,
-      "count": 0
-    },
-    "Pogon": {
       "ok": true,
       "count": 0
     },
@@ -40,6 +36,10 @@
     "HNK Zagreb": {
       "ok": true,
       "count": 23
+    },
+    "Pogon": {
+      "ok": true,
+      "count": 0
     },
     "Trešnja": {
       "ok": true,
@@ -1021,6 +1021,21 @@
       "source": "muzika.hr",
       "is_new": false,
       "first_seen": "2026-06-05T05:00:57.084Z"
+    },
+    {
+      "id": "29ada707ec",
+      "title": "Močvarni birc: Post-Punk slušaonica",
+      "venue": "Mochvara",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-06-18T17:00:00",
+      "date_display": "čet, 18. 06. 2026.",
+      "time": "17:00",
+      "link": "https://mochvara.hr/event-detail/6a33be9b5054cd5ce0bad42f/?lang=hr",
+      "source": "Mochvara",
+      "is_new": true,
+      "first_seen": "2026-06-18T10:01:17.579Z"
     },
     {
       "id": "fde634288f",
@@ -2257,5 +2272,5 @@
       "first_seen": "2026-06-16T22:04:38.460Z"
     }
   ],
-  "new_count": 0
+  "new_count": 1
 }
