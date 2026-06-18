@@ -1,10 +1,6 @@
 {
-  "generated_at": "2026-06-18T07:01:12.926Z",
+  "generated_at": "2026-06-18T08:01:11.235Z",
   "stats": {
-    "muzika.hr": {
-      "ok": true,
-      "count": 25
-    },
     "Gavella": {
       "ok": true,
       "count": 0
@@ -21,9 +17,9 @@
       "ok": true,
       "count": 3
     },
-    "ZeKaeM": {
+    "muzika.hr": {
       "ok": true,
-      "count": 0
+      "count": 25
     },
     "Komedija": {
       "ok": true,
@@ -31,19 +27,23 @@
     },
     "HNK Zagreb": {
       "ok": true,
-      "count": 22
+      "count": 23
     },
-    "Pogon": {
-      "ok": true,
-      "count": 0
+    "ZeKaeM": {
+      "ok": false,
+      "error": "fetch failed"
     },
     "Kerempuh": {
-      "ok": true,
-      "count": 0
+      "ok": false,
+      "error": "fetch failed"
+    },
+    "Pogon": {
+      "ok": false,
+      "error": "fetch failed"
     },
     "Trešnja": {
-      "ok": true,
-      "count": 0
+      "ok": false,
+      "error": "fetch failed"
     }
   },
   "concerts": [
@@ -1383,6 +1383,21 @@
       "first_seen": "2026-06-15T05:01:11.817Z"
     },
     {
+      "id": "7e596459b2",
+      "title": "Winfried Radeke – Peter Lund Vještica Hillary i uvrijeđeni kontrabas ZAGREBAČKI KVARTOVI KULTURE - Park Vesne Krmpotić",
+      "venue": "HNK Zagreb",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-06-28T11:00:00",
+      "date_display": "ned, 28. 06. 2026.",
+      "time": "11:00",
+      "link": "https://hnk.hr/hr/opera/predstave/vje%C5%A1tica-hillary-i-uvrije%C4%91eni-kontrabas/#28.06.11.00",
+      "source": "HNK Zagreb",
+      "is_new": true,
+      "first_seen": "2026-06-18T08:01:11.235Z"
+    },
+    {
       "id": "a35f38b158",
       "title": "Komorni koncert: Opera buffa POLJSKA KRALJEVSKA OPERA",
       "venue": "HNK Zagreb",
@@ -2242,5 +2257,5 @@
       "first_seen": "2026-06-16T22:04:38.460Z"
     }
   ],
-  "new_count": 0
+  "new_count": 1
 }
