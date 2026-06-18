@@ -1,15 +1,15 @@
 {
   "version": 2,
-  "date": "2026-06-17",
-  "generated_at": "2026-06-17T09:29:07.421Z",
-  "date_hr": "Srijeda, 17. lipnja 2026.",
+  "date": "2026-06-18",
+  "generated_at": "2026-06-18T05:02:54.786Z",
+  "date_hr": "Četvrtak, 18. lipnja 2026.",
   "weather": {
-    "icon": "🌦️",
-    "summary": "18–30°C, pljuskovi · 1 mm",
+    "icon": "🌤️",
+    "summary": "20–30°C, djelomično oblačno",
     "alerts": []
   },
   "fuel": {
-    "current_date": "17.06.2026",
+    "current_date": "18.06.2026",
     "eurodiesel": [
       {
         "company": "Adria Oil",
@@ -63,46 +63,46 @@
     "upcoming_premium": null
   },
   "market": {
-    "updated_at": "2026-06-17T09:29:07.421Z",
-    "btc_usd": 64989,
-    "btc_eur": 56007,
-    "btc_change_24h": -2.4,
-    "usd_eur": 0.8613
+    "updated_at": "2026-06-18T05:02:54.786Z",
+    "btc_usd": 63794,
+    "btc_eur": 55361,
+    "btc_change_24h": -3.11,
+    "usd_eur": 0.8656
   },
   "ai_news": [
     {
-      "title": "Z.ai’s open-weights GLM-5.2 beats GPT-5.5 on multiple long-horizon coding benchmarks for 1/6th the cost",
-      "link": "https://venturebeat.com/technology/z-ais-open-weights-glm-5-2-beats-gpt-5-5-on-multiple-long-horizon-coding-benchmarks-for-1-6th-the-cost",
+      "title": "Anthropic ships major Claude Design overhaul with design system imports, code round-trips, and a fix for its token-burning problem",
+      "link": "https://venturebeat.com/technology/anthropic-ships-major-claude-design-overhaul-with-design-system-imports-code-round-trips-and-a-fix-for-its-token-burning-problem",
       "source": "VentureBeat"
     },
     {
-      "title": "Claude earns more revenue per user than ChatGPT, Sensor Tower finds",
-      "link": "https://thenextweb.com/news/claude-chatgpt-revenue-per-user-sensor-tower",
+      "title": "Amazon admits its AI models lag behind OpenAI and Anthropic, but says it can catch up",
+      "link": "https://thenextweb.com/news/amazon-ai-frontier-models-catch-up",
       "source": "The Next Web"
     },
     {
-      "title": "Critical Copilot vulnerability allowed hackers to steal 2FA code from users",
-      "link": "https://arstechnica.com/security/2026/06/critical-copilot-vulnerability-allowed-hackers-to-seal-2fa-code-from-users/",
-      "source": "Ars Technica"
-    },
-    {
-      "title": "CyCognito pushes AI pentesting beyond vulnerability scans as enterprise attack surfaces evolve",
-      "link": "https://thenextweb.com/news/cycognito-ai-pentesting-enterprise-attack-surfaces",
+      "title": "Gary Marcus warns OpenAI’s IPO could drag Nvidia, Oracle, and CoreWeave down with it",
+      "link": "https://thenextweb.com/news/gary-marcus-openai-ipo-ai-stocks-risk",
       "source": "The Next Web"
     },
     {
-      "title": "ChatGPT&#8217;s market share slips below 50% for first time",
-      "link": "https://techcrunch.com/2026/06/16/chatgpts-market-share-slips-below-50-for-first-time/",
-      "source": "TechCrunch AI"
+      "title": "Arcade raised $60M to fix the real wall blocking enterprise AI agents: what they’re allowed to do",
+      "link": "https://thenextweb.com/news/arcade-dev-60-million-series-a-ai-agent-authorization",
+      "source": "The Next Web"
+    },
+    {
+      "title": "Microsoft might put China’s DeepSeek inside Copilot to tame its AI bills",
+      "link": "https://thenextweb.com/news/microsoft-deepseek-copilot-cowork",
+      "source": "The Next Web"
     }
   ],
   "micro_tips": {
     "vscode": {
-      "tip": "Quick Fix i Code Actions na trenutnoj poziciji",
-      "keys": "Ctrl+."
+      "tip": "Toggle integrirani terminal",
+      "keys": "Ctrl+`"
     },
-    "sql": "Parametrizirani upiti = plan cache reuse + SQL injection zaštita istovremeno",
-    "oracle": "NVL2(expr, kad_nije_null, kad_je_null) kompaktnija od dvostrukog NVL-a",
-    "regex": "\\s+ pokriva space, tab i newline; \\S je negacija (svaki ne-whitespace)"
+    "sql": "Batch INSERT umjesto jednog-po-jednog: INSERT INTO t VALUES (...),(...),...",
+    "oracle": "FETCH FIRST n ROWS ONLY umjesto ROWNUM — kompatibilno s ORDER BY i čitljivije",
+    "regex": "^(?!.*pattern) negative lookahead: \"ova linija ne smije sadržavati X\""
   }
 }
