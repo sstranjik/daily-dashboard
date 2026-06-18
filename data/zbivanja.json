@@ -1,6 +1,14 @@
 {
-  "generated_at": "2026-06-17T21:52:18.057Z",
+  "generated_at": "2026-06-18T05:01:16.324Z",
   "stats": {
+    "muzika.hr": {
+      "ok": true,
+      "count": 25
+    },
+    "Mochvara": {
+      "ok": true,
+      "count": 12
+    },
     "Lisinski": {
       "ok": true,
       "count": 0
@@ -9,41 +17,33 @@
       "ok": true,
       "count": 0
     },
-    "Mochvara": {
-      "ok": true,
-      "count": 12
-    },
     "Tvornica": {
       "ok": true,
       "count": 3
-    },
-    "muzika.hr": {
-      "ok": true,
-      "count": 25
     },
     "Komedija": {
       "ok": true,
       "count": 0
     },
-    "HNK Zagreb": {
+    "ZeKaeM": {
       "ok": true,
-      "count": 22
-    },
-    "Kerempuh": {
-      "ok": false,
-      "error": "fetch failed"
-    },
-    "Trešnja": {
-      "ok": false,
-      "error": "fetch failed"
+      "count": 0
     },
     "Pogon": {
-      "ok": false,
-      "error": "fetch failed"
+      "ok": true,
+      "count": 0
     },
-    "ZeKaeM": {
-      "ok": false,
-      "error": "fetch failed"
+    "HNK Zagreb": {
+      "ok": true,
+      "count": 21
+    },
+    "Kerempuh": {
+      "ok": true,
+      "count": 0
+    },
+    "Trešnja": {
+      "ok": true,
+      "count": 0
     }
   },
   "concerts": [
@@ -1353,6 +1353,21 @@
       "first_seen": "2026-05-26T20:26:55.235Z"
     },
     {
+      "id": "1355a3c797",
+      "title": "Dirty Dancing – 80’s smash hit party",
+      "venue": "Mochvara",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-06-27T22:00:00",
+      "date_display": "sub, 27. 06. 2026.",
+      "time": "22:00",
+      "link": "https://mochvara.hr/event-detail/6a302831cb731b50ad575cdf/?lang=hr",
+      "source": "Mochvara",
+      "is_new": true,
+      "first_seen": "2026-06-18T05:01:16.324Z"
+    },
+    {
       "id": "66c720879c",
       "title": "David Byrne u Areni Pula",
       "venue": "Areni Pula Arena Pula Flavijevska ulica",
@@ -1514,7 +1529,7 @@
       "time": null,
       "link": "https://www.muzika.hr/event/bearstone-festival-2/",
       "source": "muzika.hr",
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-06-17T21:52:18.057Z"
     },
     {
@@ -1544,7 +1559,7 @@
       "time": null,
       "link": "https://www.muzika.hr/event/jovanotti/",
       "source": "muzika.hr",
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-06-17T21:52:18.057Z"
     },
     {
@@ -2212,5 +2227,5 @@
       "first_seen": "2026-06-16T22:04:38.460Z"
     }
   ],
-  "new_count": 2
+  "new_count": 1
 }
