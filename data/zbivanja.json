@@ -1,13 +1,9 @@
 {
-  "generated_at": "2026-06-19T16:30:24.759Z",
+  "generated_at": "2026-06-19T17:01:10.875Z",
   "stats": {
     "muzika.hr": {
       "ok": true,
       "count": 25
-    },
-    "Mochvara": {
-      "ok": true,
-      "count": 12
     },
     "Lisinski": {
       "ok": true,
@@ -16,6 +12,10 @@
     "Gavella": {
       "ok": true,
       "count": 0
+    },
+    "Mochvara": {
+      "ok": true,
+      "count": 12
     },
     "Tvornica": {
       "ok": true,
@@ -29,6 +29,10 @@
       "ok": true,
       "count": 0
     },
+    "HNK Zagreb": {
+      "ok": true,
+      "count": 38
+    },
     "Pogon": {
       "ok": true,
       "count": 0
@@ -36,10 +40,6 @@
     "Kerempuh": {
       "ok": true,
       "count": 0
-    },
-    "HNK Zagreb": {
-      "ok": true,
-      "count": 38
     },
     "Trešnja": {
       "ok": true,
@@ -1246,6 +1246,21 @@
       "source": "HNK Zagreb",
       "is_new": false,
       "first_seen": "2026-05-26T20:26:55.235Z"
+    },
+    {
+      "id": "04e0aed3a8",
+      "title": "Književnost u Močvari: Klasja Habjan, Iva Bezinović-Haydon, Robert Perišić",
+      "venue": "Mochvara",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-06-25T20:30:00",
+      "date_display": "čet, 25. 06. 2026.",
+      "time": "20:30",
+      "link": "https://mochvara.hr/event-detail/6a356f824f148b98481ce369/?lang=hr",
+      "source": "Mochvara",
+      "is_new": true,
+      "first_seen": "2026-06-19T17:01:10.875Z"
     },
     {
       "id": "b189d8b3f5",
@@ -2527,5 +2542,5 @@
       "first_seen": "2026-06-18T21:55:18.121Z"
     }
   ],
-  "new_count": 3
+  "new_count": 4
 }
