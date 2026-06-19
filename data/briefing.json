@@ -1,15 +1,15 @@
 {
   "version": 2,
-  "date": "2026-06-18",
-  "generated_at": "2026-06-18T09:12:43.782Z",
-  "date_hr": "Četvrtak, 18. lipnja 2026.",
+  "date": "2026-06-19",
+  "generated_at": "2026-06-19T05:03:00.712Z",
+  "date_hr": "Petak, 19. lipnja 2026.",
   "weather": {
-    "icon": "🌦️",
-    "summary": "20–30°C, pljuskovi",
+    "icon": "🌤️",
+    "summary": "20–31°C, djelomično oblačno",
     "alerts": []
   },
   "fuel": {
-    "current_date": "18.06.2026",
+    "current_date": "19.06.2026",
     "eurodiesel": [
       {
         "company": "Adria Oil",
@@ -51,7 +51,7 @@
       },
       {
         "company": "Petrol",
-        "price": 1.84
+        "price": 1.88
       },
       {
         "company": "Coral Croatia",
@@ -63,46 +63,46 @@
     "upcoming_premium": null
   },
   "market": {
-    "updated_at": "2026-06-18T09:12:43.782Z",
-    "btc_usd": 64295,
-    "btc_eur": 56015,
-    "btc_change_24h": -0.97,
-    "usd_eur": 0.8656
+    "updated_at": "2026-06-19T05:03:00.712Z",
+    "btc_usd": 62426,
+    "btc_eur": 54622,
+    "btc_change_24h": -2.06,
+    "usd_eur": 0.8718
   },
   "ai_news": [
+    {
+      "title": "Copilot searched your mailbox. LiteLLM handed out admin keys. Run this 5-check audit before your stack is next",
+      "link": "https://venturebeat.com/security/copilot-searched-your-mailbox-litellm-handed-out-admin",
+      "source": "VentureBeat"
+    },
+    {
+      "title": "JPMorgan cuts off Anthropic access for Hong Kong staff",
+      "link": "https://thenextweb.com/news/jpmorgan-cuts-off-anthropic-access-for-hong-kong-staff",
+      "source": "The Next Web"
+    },
     {
       "title": "Google’s Gemini co-lead Noam Shazeer is leaving for OpenAI",
       "link": "https://thenextweb.com/news/googles-gemini-co-lead-noam-shazeer-is-leaving-for-openai",
       "source": "The Next Web"
     },
     {
-      "title": "Anthropic ships major Claude Design overhaul with design system imports, code round-trips, and a fix for its token-burning problem",
-      "link": "https://venturebeat.com/technology/anthropic-ships-major-claude-design-overhaul-with-design-system-imports-code-round-trips-and-a-fix-for-its-token-burning-problem",
+      "title": "Anthropic's Claude Code Artifacts update brings live, shared dashboards and interactive workspaces to enterprises",
+      "link": "https://venturebeat.com/data/anthropics-claude-code-artifacts-update-brings-live-shared-dashboards-and-interactive-workspaces-to-enterprises",
       "source": "VentureBeat"
     },
     {
-      "title": "Amazon admits its AI models lag behind OpenAI and Anthropic, but says it can catch up",
-      "link": "https://thenextweb.com/news/amazon-ai-frontier-models-catch-up",
-      "source": "The Next Web"
-    },
-    {
-      "title": "Gary Marcus warns OpenAI’s IPO could drag Nvidia, Oracle, and CoreWeave down with it",
-      "link": "https://thenextweb.com/news/gary-marcus-openai-ipo-ai-stocks-risk",
-      "source": "The Next Web"
-    },
-    {
-      "title": "Arcade raised $60M to fix the real wall blocking enterprise AI agents: what they’re allowed to do",
-      "link": "https://thenextweb.com/news/arcade-dev-60-million-series-a-ai-agent-authorization",
+      "title": "General Intuition is raising $300 million to train AI agents on the video game data OpenAI tried to buy",
+      "link": "https://thenextweb.com/news/general-intuition-300m-world-models-gaming-data",
       "source": "The Next Web"
     }
   ],
   "micro_tips": {
     "vscode": {
-      "tip": "Toggle integrirani terminal",
-      "keys": "Ctrl+`"
+      "tip": "Selektiraj sva pojavljivanja trenutne riječi",
+      "keys": "Ctrl+Shift+L"
     },
-    "sql": "Batch INSERT umjesto jednog-po-jednog: INSERT INTO t VALUES (...),(...),...",
-    "oracle": "FETCH FIRST n ROWS ONLY umjesto ROWNUM — kompatibilno s ORDER BY i čitljivije",
-    "regex": "^(?!.*pattern) negative lookahead: \"ova linija ne smije sadržavati X\""
+    "sql": "EXISTS umjesto IN za subqueries — brže jer stane na prvom podudaranju: WHERE EXISTS (SELECT 1 FROM ...)",
+    "oracle": "/*+ INDEX(t ime_indexa) */ forsira specifičan index kad optimizer bira full scan",
+    "regex": "\\b granica riječi: \\bword\\b podudara cijelu riječ, ne \"password\" ili \"swordfish\""
   }
 }
