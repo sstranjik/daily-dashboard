@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-19T07:01:18.760Z",
+  "generated_at": "2026-06-19T08:01:14.009Z",
   "stats": {
     "muzika.hr": {
       "ok": true,
@@ -29,10 +29,6 @@
       "ok": true,
       "count": 0
     },
-    "Pogon": {
-      "ok": true,
-      "count": 0
-    },
     "HNK Zagreb": {
       "ok": true,
       "count": 31
@@ -41,9 +37,13 @@
       "ok": true,
       "count": 0
     },
-    "Trešnja": {
+    "Pogon": {
       "ok": true,
       "count": 0
+    },
+    "Trešnja": {
+      "ok": false,
+      "error": "The operation was aborted due to timeout"
     }
   },
   "concerts": [
@@ -1051,6 +1051,21 @@
       "source": "HNK Zagreb",
       "is_new": false,
       "first_seen": "2026-06-11T11:01:13.735Z"
+    },
+    {
+      "id": "d548912562",
+      "title": "Močvarni birc: Zbogom, Kalifornijo!",
+      "venue": "Mochvara",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-06-19T17:00:00",
+      "date_display": "pet, 19. 06. 2026.",
+      "time": "17:00",
+      "link": "https://mochvara.hr/event-detail/6a34f4b4ad796c99819029ab/?lang=hr",
+      "source": "Mochvara",
+      "is_new": true,
+      "first_seen": "2026-06-19T08:01:14.009Z"
     },
     {
       "id": "6d10f9b95e",
@@ -2407,5 +2422,5 @@
       "first_seen": "2026-06-18T21:55:18.121Z"
     }
   ],
-  "new_count": 3
+  "new_count": 4
 }
