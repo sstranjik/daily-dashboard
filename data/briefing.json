@@ -1,11 +1,11 @@
 {
   "version": 2,
   "date": "2026-06-19",
-  "generated_at": "2026-06-19T05:03:00.712Z",
+  "generated_at": "2026-06-19T09:27:55.621Z",
   "date_hr": "Petak, 19. lipnja 2026.",
   "weather": {
     "icon": "🌤️",
-    "summary": "20–31°C, djelomično oblačno",
+    "summary": "20–32°C, pretežno vedro",
     "alerts": []
   },
   "fuel": {
@@ -63,10 +63,10 @@
     "upcoming_premium": null
   },
   "market": {
-    "updated_at": "2026-06-19T05:03:00.712Z",
-    "btc_usd": 62426,
-    "btc_eur": 54622,
-    "btc_change_24h": -2.06,
+    "updated_at": "2026-06-19T09:27:55.621Z",
+    "btc_usd": 62371,
+    "btc_eur": 54422,
+    "btc_change_24h": -2.88,
     "usd_eur": 0.8718
   },
   "ai_news": [
@@ -74,16 +74,6 @@
       "title": "Copilot searched your mailbox. LiteLLM handed out admin keys. Run this 5-check audit before your stack is next",
       "link": "https://venturebeat.com/security/copilot-searched-your-mailbox-litellm-handed-out-admin",
       "source": "VentureBeat"
-    },
-    {
-      "title": "JPMorgan cuts off Anthropic access for Hong Kong staff",
-      "link": "https://thenextweb.com/news/jpmorgan-cuts-off-anthropic-access-for-hong-kong-staff",
-      "source": "The Next Web"
-    },
-    {
-      "title": "Google’s Gemini co-lead Noam Shazeer is leaving for OpenAI",
-      "link": "https://thenextweb.com/news/googles-gemini-co-lead-noam-shazeer-is-leaving-for-openai",
-      "source": "The Next Web"
     },
     {
       "title": "Anthropic's Claude Code Artifacts update brings live, shared dashboards and interactive workspaces to enterprises",
@@ -94,6 +84,16 @@
       "title": "General Intuition is raising $300 million to train AI agents on the video game data OpenAI tried to buy",
       "link": "https://thenextweb.com/news/general-intuition-300m-world-models-gaming-data",
       "source": "The Next Web"
+    },
+    {
+      "title": "New AI optimization framework beats Claude Code and Codex by 2.5x on the same compute budget",
+      "link": "https://venturebeat.com/orchestration/new-ai-optimization-framework-beats-claude-code-and-codex-by-2-5x-on-the-same-compute-budget",
+      "source": "VentureBeat"
+    },
+    {
+      "title": "I put Siri AI through the same tests I use for ChatGPT and Gemini on MacOS 27 - here's how it did",
+      "link": "https://www.zdnet.com/article/new-siri-ai-apple-intelligence-test-on-mac/",
+      "source": "ZDNet"
     }
   ],
   "micro_tips": {
