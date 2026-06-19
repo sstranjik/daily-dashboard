@@ -1,6 +1,10 @@
 {
-  "generated_at": "2026-06-19T13:01:15.860Z",
+  "generated_at": "2026-06-19T13:57:55.395Z",
   "stats": {
+    "Mochvara": {
+      "ok": true,
+      "count": 12
+    },
     "muzika.hr": {
       "ok": true,
       "count": 25
@@ -12,10 +16,6 @@
     "Lisinski": {
       "ok": true,
       "count": 0
-    },
-    "Mochvara": {
-      "ok": true,
-      "count": 12
     },
     "Tvornica": {
       "ok": true,
@@ -29,10 +29,6 @@
       "ok": true,
       "count": 0
     },
-    "Pogon": {
-      "ok": true,
-      "count": 0
-    },
     "HNK Zagreb": {
       "ok": true,
       "count": 38
@@ -42,6 +38,10 @@
       "count": 0
     },
     "Trešnja": {
+      "ok": true,
+      "count": 0
+    },
+    "Pogon": {
       "ok": true,
       "count": 0
     }
@@ -1664,7 +1664,7 @@
       "time": "19:30",
       "link": "https://hnk.hr/hr/opera/predstave/stanac/#03.09.19.30",
       "source": "HNK Zagreb",
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-06-19T13:01:15.860Z"
     },
     {
@@ -1919,7 +1919,7 @@
       "time": "19:30",
       "link": "https://hnk.hr/hr/opera/predstave/ero-s-onoga-svijeta/#01.10.19.30",
       "source": "HNK Zagreb",
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-06-19T13:01:15.860Z"
     },
     {
@@ -1934,7 +1934,7 @@
       "time": "19:30",
       "link": "https://hnk.hr/hr/balet/predstave/rossini-cards-kazimirs-colours/#02.10.19.30",
       "source": "HNK Zagreb",
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-06-19T13:01:15.860Z"
     },
     {
@@ -1949,7 +1949,7 @@
       "time": "18:00",
       "link": "https://hnk.hr/hr/balet/predstave/rossini-cards-kazimirs-colours/#03.10.18.00",
       "source": "HNK Zagreb",
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-06-19T13:01:15.860Z"
     },
     {
@@ -2527,5 +2527,5 @@
       "first_seen": "2026-06-18T21:55:18.121Z"
     }
   ],
-  "new_count": 7
+  "new_count": 3
 }
