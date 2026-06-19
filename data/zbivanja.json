@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-06-19T17:01:10.875Z",
+  "generated_at": "2026-06-19T18:01:09.635Z",
   "stats": {
     "muzika.hr": {
       "ok": true,
       "count": 25
     },
-    "Lisinski": {
+    "Gavella": {
       "ok": true,
       "count": 0
     },
-    "Gavella": {
+    "Lisinski": {
       "ok": true,
       "count": 0
     },
@@ -21,10 +21,6 @@
       "ok": true,
       "count": 3
     },
-    "ZeKaeM": {
-      "ok": true,
-      "count": 0
-    },
     "Komedija": {
       "ok": true,
       "count": 0
@@ -33,17 +29,21 @@
       "ok": true,
       "count": 38
     },
-    "Pogon": {
-      "ok": true,
-      "count": 0
+    "ZeKaeM": {
+      "ok": false,
+      "error": "fetch failed"
     },
     "Kerempuh": {
-      "ok": true,
-      "count": 0
+      "ok": false,
+      "error": "fetch failed"
+    },
+    "Pogon": {
+      "ok": false,
+      "error": "fetch failed"
     },
     "Trešnja": {
-      "ok": true,
-      "count": 0
+      "ok": false,
+      "error": "fetch failed"
     }
   },
   "concerts": [
@@ -1259,7 +1259,7 @@
       "time": "20:30",
       "link": "https://mochvara.hr/event-detail/6a356f824f148b98481ce369/?lang=hr",
       "source": "Mochvara",
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-06-19T17:01:10.875Z"
     },
     {
@@ -2542,5 +2542,5 @@
       "first_seen": "2026-06-18T21:55:18.121Z"
     }
   ],
-  "new_count": 4
+  "new_count": 3
 }
