@@ -1,13 +1,9 @@
 {
-  "generated_at": "2026-06-19T11:01:10.397Z",
+  "generated_at": "2026-06-19T12:01:22.301Z",
   "stats": {
     "muzika.hr": {
       "ok": true,
       "count": 25
-    },
-    "Gavella": {
-      "ok": true,
-      "count": 0
     },
     "Lisinski": {
       "ok": true,
@@ -17,6 +13,10 @@
       "ok": true,
       "count": 12
     },
+    "Gavella": {
+      "ok": true,
+      "count": 0
+    },
     "Tvornica": {
       "ok": true,
       "count": 3
@@ -25,21 +25,21 @@
       "ok": true,
       "count": 0
     },
-    "Komedija": {
-      "ok": false,
-      "error": "HTTP 500"
-    },
-    "HNK Zagreb": {
-      "ok": true,
-      "count": 33
-    },
     "Pogon": {
+      "ok": true,
+      "count": 0
+    },
+    "Komedija": {
       "ok": true,
       "count": 0
     },
     "Kerempuh": {
       "ok": true,
       "count": 0
+    },
+    "HNK Zagreb": {
+      "ok": true,
+      "count": 34
     },
     "Trešnja": {
       "ok": true,
@@ -1844,7 +1844,7 @@
       "time": "19:30",
       "link": "https://hnk.hr/hr/opera/predstave/gala-koncert-1/#20.09.19.30",
       "source": "HNK Zagreb",
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-06-19T11:01:10.397Z"
     },
     {
@@ -1859,8 +1859,23 @@
       "time": "19:30",
       "link": "https://hnk.hr/hr/opera/predstave/aida-nova/#24.09.19.30",
       "source": "HNK Zagreb",
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-06-19T11:01:10.397Z"
+    },
+    {
+      "id": "14e1faa866",
+      "title": "Giuseppe Verdi AIDA",
+      "venue": "HNK Zagreb",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-09-26T18:00:00",
+      "date_display": "sub, 26. 09. 2026.",
+      "time": "18:00",
+      "link": "https://hnk.hr/hr/opera/predstave/aida-nova/#26.09.18.00",
+      "source": "HNK Zagreb",
+      "is_new": true,
+      "first_seen": "2026-06-19T12:01:22.301Z"
     },
     {
       "id": "7f2755fc45",
@@ -2452,5 +2467,5 @@
       "first_seen": "2026-06-18T21:55:18.121Z"
     }
   ],
-  "new_count": 5
+  "new_count": 4
 }
