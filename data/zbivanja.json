@@ -1,9 +1,13 @@
 {
-  "generated_at": "2026-06-19T12:01:22.301Z",
+  "generated_at": "2026-06-19T13:01:15.860Z",
   "stats": {
     "muzika.hr": {
       "ok": true,
       "count": 25
+    },
+    "Gavella": {
+      "ok": true,
+      "count": 0
     },
     "Lisinski": {
       "ok": true,
@@ -13,10 +17,6 @@
       "ok": true,
       "count": 12
     },
-    "Gavella": {
-      "ok": true,
-      "count": 0
-    },
     "Tvornica": {
       "ok": true,
       "count": 3
@@ -25,21 +25,21 @@
       "ok": true,
       "count": 0
     },
-    "Pogon": {
-      "ok": true,
-      "count": 0
-    },
     "Komedija": {
       "ok": true,
       "count": 0
     },
-    "Kerempuh": {
+    "Pogon": {
       "ok": true,
       "count": 0
     },
     "HNK Zagreb": {
       "ok": true,
-      "count": 34
+      "count": 38
+    },
+    "Kerempuh": {
+      "ok": true,
+      "count": 0
     },
     "Trešnja": {
       "ok": true,
@@ -1653,6 +1653,21 @@
       "first_seen": "2026-05-26T20:26:55.235Z"
     },
     {
+      "id": "86cc723186",
+      "title": "Jakov Gotovac STANAC Gostovanje u HNK Osijek",
+      "venue": "HNK Zagreb",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-09-03T19:30:00",
+      "date_display": "čet, 03. 09. 2026.",
+      "time": "19:30",
+      "link": "https://hnk.hr/hr/opera/predstave/stanac/#03.09.19.30",
+      "source": "HNK Zagreb",
+      "is_new": true,
+      "first_seen": "2026-06-19T13:01:15.860Z"
+    },
+    {
       "id": "07a40a9e51",
       "title": "ZAGREBAČKI OPERNI FESTIVAL 2026. FESTIVALSKA ULAZNICA 11.9.2026. - 17.9.2026. EARLY BIRD CIJENA DO 1.7.2026.",
       "venue": "HNK Zagreb",
@@ -1874,7 +1889,7 @@
       "time": "18:00",
       "link": "https://hnk.hr/hr/opera/predstave/aida-nova/#26.09.18.00",
       "source": "HNK Zagreb",
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-06-19T12:01:22.301Z"
     },
     {
@@ -1891,6 +1906,51 @@
       "source": "Tvornica Kulture",
       "is_new": false,
       "first_seen": "2026-05-26T20:26:55.235Z"
+    },
+    {
+      "id": "9a1b684e48",
+      "title": "Jakov Gotovac Ero s onoga svijeta Gostovanje u SNG-u Maribor",
+      "venue": "HNK Zagreb",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-10-01T19:30:00",
+      "date_display": "čet, 01. 10. 2026.",
+      "time": "19:30",
+      "link": "https://hnk.hr/hr/opera/predstave/ero-s-onoga-svijeta/#01.10.19.30",
+      "source": "HNK Zagreb",
+      "is_new": true,
+      "first_seen": "2026-06-19T13:01:15.860Z"
+    },
+    {
+      "id": "03c6279b0c",
+      "title": "Gioachino Rossini / Dmitrij Šostakovič — Mauro Bigonzetti ROSSINI CARDS / KAZIMIR’S COLOURS",
+      "venue": "HNK Zagreb",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-10-02T19:30:00",
+      "date_display": "pet, 02. 10. 2026.",
+      "time": "19:30",
+      "link": "https://hnk.hr/hr/balet/predstave/rossini-cards-kazimirs-colours/#02.10.19.30",
+      "source": "HNK Zagreb",
+      "is_new": true,
+      "first_seen": "2026-06-19T13:01:15.860Z"
+    },
+    {
+      "id": "0368c330b4",
+      "title": "Gioachino Rossini / Dmitrij Šostakovič — Mauro Bigonzetti ROSSINI CARDS / KAZIMIR’S COLOURS",
+      "venue": "HNK Zagreb",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-10-03T18:00:00",
+      "date_display": "sub, 03. 10. 2026.",
+      "time": "18:00",
+      "link": "https://hnk.hr/hr/balet/predstave/rossini-cards-kazimirs-colours/#03.10.18.00",
+      "source": "HNK Zagreb",
+      "is_new": true,
+      "first_seen": "2026-06-19T13:01:15.860Z"
     },
     {
       "id": "b2ab83d73a",
@@ -2467,5 +2527,5 @@
       "first_seen": "2026-06-18T21:55:18.121Z"
     }
   ],
-  "new_count": 4
+  "new_count": 7
 }
