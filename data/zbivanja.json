@@ -1,23 +1,15 @@
 {
-  "generated_at": "2026-06-19T20:23:12.588Z",
+  "generated_at": "2026-06-20T05:01:15.075Z",
   "stats": {
-    "muzika.hr": {
+    "Mochvara": {
       "ok": true,
-      "count": 25
-    },
-    "Lisinski": {
-      "ok": true,
-      "count": 0
+      "count": 12
     },
     "Gavella": {
       "ok": true,
       "count": 0
     },
-    "Mochvara": {
-      "ok": true,
-      "count": 12
-    },
-    "ZeKaeM": {
+    "Lisinski": {
       "ok": true,
       "count": 0
     },
@@ -25,7 +17,15 @@
       "ok": true,
       "count": 3
     },
+    "muzika.hr": {
+      "ok": true,
+      "count": 25
+    },
     "Komedija": {
+      "ok": true,
+      "count": 0
+    },
+    "ZeKaeM": {
       "ok": true,
       "count": 0
     },
@@ -39,7 +39,7 @@
     },
     "HNK Zagreb": {
       "ok": true,
-      "count": 38
+      "count": 36
     },
     "Trešnja": {
       "ok": true,
@@ -47,51 +47,6 @@
     }
   },
   "concerts": [
-    {
-      "id": "2926cbe64d",
-      "title": "Cirkobalkana predstavlja: Skier and Yeti",
-      "venue": "Mochvara",
-      "city": "Zagreb",
-      "country": "HR",
-      "category": "concert",
-      "date_iso": "2026-06-04T21:00:00",
-      "date_display": "čet, 04. 06. 2026.",
-      "time": "21:00",
-      "link": "https://mochvara.hr/event-detail/69f26860fb090551f4fba5dd/?lang=hr",
-      "source": "Mochvara",
-      "is_new": false,
-      "first_seen": "2026-05-30T05:01:02.481Z"
-    },
-    {
-      "id": "35907002da",
-      "title": "Luky",
-      "venue": "Mihovila Šibenik",
-      "city": "Croatia",
-      "country": "HR",
-      "category": "concert",
-      "date_iso": "2026-06-05T00:00:00",
-      "date_display": "pet, 05. 06. 2026.",
-      "time": null,
-      "link": "https://www.muzika.hr/event/luky/",
-      "source": "muzika.hr",
-      "is_new": false,
-      "first_seen": "2026-05-26T20:26:55.235Z"
-    },
-    {
-      "id": "1ddbc9658b",
-      "title": "Bajaga Instruktori",
-      "venue": "Instruktori Tvornica kulture Šubićeva 2",
-      "city": "Zagreb",
-      "country": "HR",
-      "category": "concert",
-      "date_iso": "2026-06-05T00:00:00",
-      "date_display": "pet, 05. 06. 2026.",
-      "time": null,
-      "link": "https://www.muzika.hr/event/bajaga-instruktori-3/",
-      "source": "muzika.hr",
-      "is_new": false,
-      "first_seen": "2026-05-26T20:26:55.235Z"
-    },
     {
       "id": "47472fc0f5",
       "title": "Močvarni dnevni boravak: Drag Race kviz",
@@ -2167,36 +2122,6 @@
   ],
   "abroad": [
     {
-      "id": "0ba70250b8",
-      "title": "Gates of Agartha",
-      "venue": "Agartha Cave Romane Vinkuranska cesta 2",
-      "city": "Vinkuran",
-      "country": "EU",
-      "category": "concert",
-      "date_iso": "2026-06-05T00:00:00",
-      "date_display": "pet, 05. 06. 2026.",
-      "time": null,
-      "link": "https://www.muzika.hr/event/gates-of-agartha-2/",
-      "source": "muzika.hr",
-      "is_new": false,
-      "first_seen": "2026-05-26T20:26:55.235Z"
-    },
-    {
-      "id": "6b09584a1c",
-      "title": "Mikser festival",
-      "venue": "Mikser festival Novi Pazar Novi Pazar",
-      "city": "Serbia",
-      "country": "EU",
-      "category": "concert",
-      "date_iso": "2026-06-05T00:00:00",
-      "date_display": "pet, 05. 06. 2026.",
-      "time": null,
-      "link": "https://www.muzika.hr/event/mikser-festival-u-novom-pazaru/",
-      "source": "muzika.hr",
-      "is_new": false,
-      "first_seen": "2026-05-26T20:26:55.235Z"
-    },
-    {
       "id": "31fd8f6699",
       "title": "Linkin Park",
       "venue": "Ernst Happel stadion Meiereistrasse 7",
@@ -2540,7 +2465,37 @@
       "source": "muzika.hr",
       "is_new": false,
       "first_seen": "2026-06-18T21:55:18.121Z"
+    },
+    {
+      "id": "4358427b1d",
+      "title": "VUMfest 2026",
+      "venue": "VUMfest 2026 AKC Garaže Celine bb",
+      "city": "Vrbovec",
+      "country": "EU",
+      "category": "concert",
+      "date_iso": "2026-07-03T00:00:00",
+      "date_display": "pet, 03. 07. 2026.",
+      "time": null,
+      "link": "https://www.muzika.hr/event/vumfest-2026/",
+      "source": "muzika.hr",
+      "is_new": true,
+      "first_seen": "2026-06-20T05:01:15.075Z"
+    },
+    {
+      "id": "fef58f4af9",
+      "title": "ROCKSTRIKCIJA",
+      "venue": "Podgorica",
+      "city": "Crna",
+      "country": "EU",
+      "category": "concert",
+      "date_iso": "2026-07-03T00:00:00",
+      "date_display": "pet, 03. 07. 2026.",
+      "time": null,
+      "link": "https://www.muzika.hr/event/rockstrikcija/",
+      "source": "muzika.hr",
+      "is_new": true,
+      "first_seen": "2026-06-20T05:01:15.075Z"
     }
   ],
-  "new_count": 3
+  "new_count": 5
 }
