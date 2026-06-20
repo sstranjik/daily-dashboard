@@ -1,15 +1,15 @@
 {
   "version": 2,
-  "date": "2026-06-19",
-  "generated_at": "2026-06-19T09:27:55.621Z",
-  "date_hr": "Petak, 19. lipnja 2026.",
+  "date": "2026-06-20",
+  "generated_at": "2026-06-20T05:02:55.262Z",
+  "date_hr": "Subota, 20. lipnja 2026.",
   "weather": {
-    "icon": "🌤️",
-    "summary": "20–32°C, pretežno vedro",
+    "icon": "☁️",
+    "summary": "21–32°C, oblačno",
     "alerts": []
   },
   "fuel": {
-    "current_date": "19.06.2026",
+    "current_date": "20.06.2026",
     "eurodiesel": [
       {
         "company": "Adria Oil",
@@ -63,46 +63,46 @@
     "upcoming_premium": null
   },
   "market": {
-    "updated_at": "2026-06-19T09:27:55.621Z",
-    "btc_usd": 62371,
-    "btc_eur": 54422,
-    "btc_change_24h": -2.88,
-    "usd_eur": 0.8718
+    "updated_at": "2026-06-20T05:02:55.262Z",
+    "btc_usd": 63519,
+    "btc_eur": 55342,
+    "btc_change_24h": 1.59,
+    "usd_eur": 0.8719
   },
   "ai_news": [
     {
-      "title": "Copilot searched your mailbox. LiteLLM handed out admin keys. Run this 5-check audit before your stack is next",
-      "link": "https://venturebeat.com/security/copilot-searched-your-mailbox-litellm-handed-out-admin",
+      "title": "7,000 Langflow servers are under attack. LangGraph and LangChain have the same holes",
+      "link": "https://venturebeat.com/security/7000-langflow-servers-under-attack-langgraph-langchain-same-holes",
       "source": "VentureBeat"
     },
     {
-      "title": "Anthropic's Claude Code Artifacts update brings live, shared dashboards and interactive workspaces to enterprises",
-      "link": "https://venturebeat.com/data/anthropics-claude-code-artifacts-update-brings-live-shared-dashboards-and-interactive-workspaces-to-enterprises",
-      "source": "VentureBeat"
-    },
-    {
-      "title": "General Intuition is raising $300 million to train AI agents on the video game data OpenAI tried to buy",
-      "link": "https://thenextweb.com/news/general-intuition-300m-world-models-gaming-data",
+      "title": "Nobel laureate John Jumper is leaving Google DeepMind for Anthropic after nearly nine years",
+      "link": "https://thenextweb.com/news/john-jumper-nobel-deepmind-leaves-anthropic-alphafold",
       "source": "The Next Web"
     },
     {
-      "title": "New AI optimization framework beats Claude Code and Codex by 2.5x on the same compute budget",
-      "link": "https://venturebeat.com/orchestration/new-ai-optimization-framework-beats-claude-code-and-codex-by-2-5x-on-the-same-compute-budget",
-      "source": "VentureBeat"
+      "title": "Bernie Sanders’ AI bill would hand the public half of OpenAI, Anthropic and xAI",
+      "link": "https://thenextweb.com/news/bernie-sanders-ai-wealth-fund-bill-50-percent-stake",
+      "source": "The Next Web"
     },
     {
-      "title": "I put Siri AI through the same tests I use for ChatGPT and Gemini on MacOS 27 - here's how it did",
-      "link": "https://www.zdnet.com/article/new-siri-ai-apple-intelligence-test-on-mac/",
-      "source": "ZDNet"
+      "title": "From PGP to Mythos: a brief history of export controls that didn&#8217;t stop anyone",
+      "link": "https://techcrunch.com/2026/06/19/encryption-spyware-and-now-mythos-history-shows-why-cyber-export-control-doesnt-work/",
+      "source": "TechCrunch AI"
+    },
+    {
+      "title": "Trump says he no longer views Anthropic as a national security threat after G7 meeting with CEO",
+      "link": "https://thenextweb.com/news/trump-anthropic-not-national-security-threat-axios-interview",
+      "source": "The Next Web"
     }
   ],
   "micro_tips": {
     "vscode": {
-      "tip": "Selektiraj sva pojavljivanja trenutne riječi",
-      "keys": "Ctrl+Shift+L"
+      "tip": "Pomakni liniju gore ili dolje bez cut/paste",
+      "keys": "Alt+↑ / Alt+↓"
     },
-    "sql": "EXISTS umjesto IN za subqueries — brže jer stane na prvom podudaranju: WHERE EXISTS (SELECT 1 FROM ...)",
-    "oracle": "/*+ INDEX(t ime_indexa) */ forsira specifičan index kad optimizer bira full scan",
-    "regex": "\\b granica riječi: \\bword\\b podudara cijelu riječ, ne \"password\" ili \"swordfish\""
+    "sql": "Nikad SELECT * u produkciji — navedi kolone, manji I/O i bolji cache plan",
+    "oracle": "/*+ PARALLEL(t 4) */ paralelno izvršavanje querija na N thread-ova",
+    "regex": "(?:group) non-capturing group: grupiraj bez pamćenja za veće performanse"
   }
 }

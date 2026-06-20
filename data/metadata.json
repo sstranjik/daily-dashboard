@@ -1,56 +1,63 @@
 {
-  "last_updated": "2026-06-20T05:01:05.776Z",
+  "last_updated": "2026-06-20T05:01:07.709Z",
   "generator": "dashboard-bot/1.0",
   "sources": {
     "hr_news": {
-      "updated_at": "2026-06-20T05:01:05.776Z",
+      "updated_at": "2026-06-20T05:01:07.709Z",
       "item_count": 713,
       "ok": true
     },
     "world_news": {
-      "updated_at": "2026-06-20T05:01:05.776Z",
+      "updated_at": "2026-06-20T05:01:07.709Z",
       "item_count": 219,
       "ok": true
     },
     "finance_news": {
-      "updated_at": "2026-06-20T05:01:05.776Z",
-      "item_count": 76,
+      "updated_at": "2026-06-20T05:01:07.709Z",
+      "item_count": 74,
       "ok": true
     },
     "tech_news": {
-      "updated_at": "2026-06-20T05:01:05.776Z",
+      "updated_at": "2026-06-20T05:01:07.709Z",
       "item_count": 106,
       "ok": true
     },
     "science": {
-      "updated_at": "2026-06-20T05:01:05.776Z",
+      "updated_at": "2026-06-20T05:01:07.709Z",
       "item_count": 52,
       "ok": true
     },
     "sports": {
-      "updated_at": "2026-06-20T05:01:05.776Z",
-      "item_count": 482,
+      "updated_at": "2026-06-20T05:01:07.709Z",
+      "item_count": 483,
       "ok": true
     },
     "entertainment": {
-      "updated_at": "2026-06-20T05:01:05.776Z",
+      "updated_at": "2026-06-20T05:01:07.709Z",
       "item_count": 177,
       "ok": true
     },
     "health": {
-      "updated_at": "2026-06-20T05:01:05.776Z",
+      "updated_at": "2026-06-20T05:01:07.709Z",
       "item_count": 16,
       "ok": true
     },
     "food": {
-      "updated_at": "2026-06-20T05:01:05.776Z",
+      "updated_at": "2026-06-20T05:01:07.709Z",
       "item_count": 28,
       "ok": true
     },
     "briefing": {
-      "updated_at": "2026-06-20T05:01:05.776Z",
-      "ok": false,
-      "ai_used": false
+      "updated_at": "2026-06-20T05:02:55.262Z",
+      "ok": true,
+      "ai_used": true,
+      "sections": [
+        "weather",
+        "fuel",
+        "market",
+        "ai_news",
+        "micro_tips"
+      ]
     }
   }
 }
