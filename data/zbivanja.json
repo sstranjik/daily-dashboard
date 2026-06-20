@@ -1,9 +1,17 @@
 {
-  "generated_at": "2026-06-20T10:01:11.580Z",
+  "generated_at": "2026-06-20T11:01:13.290Z",
   "stats": {
     "Mochvara": {
       "ok": true,
-      "count": 12
+      "count": 0
+    },
+    "Pogon": {
+      "ok": true,
+      "count": 0
+    },
+    "ZeKaeM": {
+      "ok": true,
+      "count": 0
     },
     "Lisinski": {
       "ok": true,
@@ -17,33 +25,25 @@
       "ok": true,
       "count": 3
     },
+    "Trešnja": {
+      "ok": true,
+      "count": 0
+    },
     "muzika.hr": {
       "ok": true,
       "count": 25
     },
+    "Kerempuh": {
+      "ok": true,
+      "count": 0
+    },
     "Komedija": {
-      "ok": true,
-      "count": 0
-    },
-    "ZeKaeM": {
-      "ok": true,
-      "count": 0
-    },
-    "Pogon": {
       "ok": true,
       "count": 0
     },
     "HNK Zagreb": {
       "ok": true,
       "count": 36
-    },
-    "Kerempuh": {
-      "ok": true,
-      "count": 0
-    },
-    "Trešnja": {
-      "ok": true,
-      "count": 0
     }
   },
   "concerts": [
@@ -2118,6 +2118,21 @@
       "source": "HNK Zagreb",
       "is_new": true,
       "first_seen": "2026-06-18T13:01:15.839Z"
+    },
+    {
+      "id": "dbabbc805a",
+      "title": "Bernard Shaw ORUŽJE I ČOVJEK u režiji Johna Malkovicha, Narodno kazalište Ivan Vazov , Sofija - Bugarska",
+      "venue": "HNK Zagreb",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "theater",
+      "date_iso": "2026-09-04T19:30:00",
+      "date_display": "pet, 04. 09. 2026.",
+      "time": "19:30",
+      "link": "https://hnk.hr/hr/drama/predstave/oru%C5%BEje-i-%C4%8Dovjek/#04.09.19.30",
+      "source": "HNK Zagreb",
+      "is_new": true,
+      "first_seen": "2026-06-20T11:01:13.290Z"
     }
   ],
   "abroad": [
@@ -2497,5 +2512,5 @@
       "first_seen": "2026-06-20T05:01:13.461Z"
     }
   ],
-  "new_count": 3
+  "new_count": 4
 }
