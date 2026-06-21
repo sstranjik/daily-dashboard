@@ -1,10 +1,6 @@
 {
-  "generated_at": "2026-06-21T16:01:52.924Z",
+  "generated_at": "2026-06-21T17:01:11.095Z",
   "stats": {
-    "muzika.hr": {
-      "ok": true,
-      "count": 25
-    },
     "Mochvara": {
       "ok": true,
       "count": 12
@@ -13,19 +9,27 @@
       "ok": true,
       "count": 0
     },
-    "Gavella": {
-      "ok": true,
-      "count": 0
-    },
     "Tvornica": {
       "ok": true,
       "count": 3
     },
-    "Komedija": {
-      "ok": false,
-      "error": "HTTP 500"
+    "Gavella": {
+      "ok": true,
+      "count": 0
     },
     "ZeKaeM": {
+      "ok": true,
+      "count": 0
+    },
+    "muzika.hr": {
+      "ok": true,
+      "count": 25
+    },
+    "Komedija": {
+      "ok": true,
+      "count": 0
+    },
+    "Pogon": {
       "ok": true,
       "count": 0
     },
@@ -36,10 +40,6 @@
     "HNK Zagreb": {
       "ok": true,
       "count": 35
-    },
-    "Pogon": {
-      "ok": true,
-      "count": 0
     },
     "Trešnja": {
       "ok": true,
@@ -1563,6 +1563,21 @@
       "first_seen": "2026-06-18T06:01:15.503Z"
     },
     {
+      "id": "574e878432",
+      "title": "HNK u Zagrebu na festivalu Zagreb Classic Golden Age: Lawrence Brownlee i Erin Morley uz Orkestar i Zbor Opere HNK-a u Zagrebu",
+      "venue": "HNK Zagreb",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-07-03T21:00:00",
+      "date_display": "pet, 03. 07. 2026.",
+      "time": "21:00",
+      "link": "https://hnk.hr/hr/koncert/predstave/golden-age-lawrence-brownlee-i-erin-morley-uz-orkestar-i-zbor-opere-hnk-u-zagrebu/#03.07.21.00",
+      "source": "HNK Zagreb",
+      "is_new": true,
+      "first_seen": "2026-06-21T17:01:11.095Z"
+    },
+    {
       "id": "170d2d5fd4",
       "title": "Dodjela nagrada za najbolja umjetnička ostvarenja i završni koncert sezone „Devedesete u Zagrebu“",
       "venue": "HNK Zagreb",
@@ -1634,7 +1649,7 @@
       "time": "19:30",
       "link": "https://hnk.hr/hr/opera/predstave/stanac/#03.09.19.30",
       "source": "HNK Zagreb",
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-06-21T16:01:52.924Z"
     },
     {
