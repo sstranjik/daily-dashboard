@@ -1,13 +1,9 @@
 {
-  "generated_at": "2026-06-20T21:01:52.754Z",
+  "generated_at": "2026-06-21T05:01:15.293Z",
   "stats": {
     "muzika.hr": {
       "ok": true,
       "count": 25
-    },
-    "Gavella": {
-      "ok": true,
-      "count": 0
     },
     "Lisinski": {
       "ok": true,
@@ -17,6 +13,10 @@
       "ok": true,
       "count": 12
     },
+    "Gavella": {
+      "ok": true,
+      "count": 0
+    },
     "Tvornica": {
       "ok": true,
       "count": 3
@@ -25,21 +25,21 @@
       "ok": true,
       "count": 0
     },
-    "Komedija": {
+    "Pogon": {
       "ok": true,
       "count": 0
     },
-    "HNK Zagreb": {
+    "Komedija": {
       "ok": true,
-      "count": 36
+      "count": 0
     },
     "Kerempuh": {
       "ok": true,
       "count": 0
     },
-    "Pogon": {
+    "HNK Zagreb": {
       "ok": true,
-      "count": 0
+      "count": 35
     },
     "Trešnja": {
       "ok": true,
@@ -47,21 +47,6 @@
     }
   },
   "concerts": [
-    {
-      "id": "cfed49174f",
-      "title": "BEZ SRAMA",
-      "venue": "Mochvara",
-      "city": "Zagreb",
-      "country": "HR",
-      "category": "concert",
-      "date_iso": "2026-06-05T22:00:00",
-      "date_display": "pet, 05. 06. 2026.",
-      "time": "22:00",
-      "link": "https://mochvara.hr/event-detail/6a181a9d8d286e8ef2149f22/?lang=hr",
-      "source": "Mochvara",
-      "is_new": false,
-      "first_seen": "2026-05-31T14:01:01.604Z"
-    },
     {
       "id": "a14b113a3a",
       "title": "Razgled kazališta 165 sezona iza kulisa",
@@ -1353,6 +1338,21 @@
       "first_seen": "2026-06-18T08:01:11.235Z"
     },
     {
+      "id": "18d26097b0",
+      "title": "Močvarni dnevni boravak: Kviz općeg znanja",
+      "venue": "Mochvara",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-06-28T17:00:00",
+      "date_display": "ned, 28. 06. 2026.",
+      "time": "17:00",
+      "link": "https://mochvara.hr/event-detail/6a340738ad796c9981ee55e9/?lang=hr",
+      "source": "Mochvara",
+      "is_new": true,
+      "first_seen": "2026-06-21T05:01:15.293Z"
+    },
+    {
       "id": "a35f38b158",
       "title": "Komorni koncert: Opera buffa POLJSKA KRALJEVSKA OPERA",
       "venue": "HNK Zagreb",
@@ -2482,5 +2482,5 @@
       "first_seen": "2026-06-20T05:01:13.461Z"
     }
   ],
-  "new_count": 4
+  "new_count": 5
 }
