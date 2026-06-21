@@ -1,23 +1,7 @@
 {
-  "generated_at": "2026-06-21T17:01:11.095Z",
+  "generated_at": "2026-06-21T17:15:41.984Z",
   "stats": {
     "Mochvara": {
-      "ok": true,
-      "count": 12
-    },
-    "Lisinski": {
-      "ok": true,
-      "count": 0
-    },
-    "Tvornica": {
-      "ok": true,
-      "count": 3
-    },
-    "Gavella": {
-      "ok": true,
-      "count": 0
-    },
-    "ZeKaeM": {
       "ok": true,
       "count": 0
     },
@@ -25,15 +9,19 @@
       "ok": true,
       "count": 25
     },
+    "Lisinski": {
+      "ok": true,
+      "count": 0
+    },
+    "Gavella": {
+      "ok": true,
+      "count": 0
+    },
+    "Tvornica": {
+      "ok": true,
+      "count": 3
+    },
     "Komedija": {
-      "ok": true,
-      "count": 0
-    },
-    "Pogon": {
-      "ok": true,
-      "count": 0
-    },
-    "Kerempuh": {
       "ok": true,
       "count": 0
     },
@@ -41,9 +29,21 @@
       "ok": true,
       "count": 35
     },
+    "ZeKaeM": {
+      "ok": false,
+      "error": "fetch failed"
+    },
     "Trešnja": {
-      "ok": true,
-      "count": 0
+      "ok": false,
+      "error": "fetch failed"
+    },
+    "Pogon": {
+      "ok": false,
+      "error": "fetch failed"
+    },
+    "Kerempuh": {
+      "ok": false,
+      "error": "fetch failed"
     }
   },
   "concerts": [
@@ -1574,7 +1574,7 @@
       "time": "21:00",
       "link": "https://hnk.hr/hr/koncert/predstave/golden-age-lawrence-brownlee-i-erin-morley-uz-orkestar-i-zbor-opere-hnk-u-zagrebu/#03.07.21.00",
       "source": "HNK Zagreb",
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-06-21T17:01:11.095Z"
     },
     {
@@ -2557,5 +2557,5 @@
       "first_seen": "2026-06-20T05:01:13.461Z"
     }
   ],
-  "new_count": 5
+  "new_count": 4
 }
