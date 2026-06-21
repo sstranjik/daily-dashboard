@@ -1,10 +1,6 @@
 {
-  "generated_at": "2026-06-21T15:01:12.532Z",
+  "generated_at": "2026-06-21T15:05:20.109Z",
   "stats": {
-    "Mochvara": {
-      "ok": true,
-      "count": 0
-    },
     "muzika.hr": {
       "ok": true,
       "count": 25
@@ -21,29 +17,33 @@
       "ok": true,
       "count": 3
     },
-    "Komedija": {
+    "Mochvara": {
+      "ok": true,
+      "count": 12
+    },
+    "ZeKaeM": {
       "ok": true,
       "count": 0
+    },
+    "Pogon": {
+      "ok": true,
+      "count": 0
+    },
+    "Komedija": {
+      "ok": false,
+      "error": "HTTP 500"
     },
     "HNK Zagreb": {
       "ok": true,
       "count": 35
     },
-    "Trešnja": {
-      "ok": false,
-      "error": "fetch failed"
-    },
-    "ZeKaeM": {
-      "ok": false,
-      "error": "fetch failed"
-    },
-    "Pogon": {
-      "ok": false,
-      "error": "fetch failed"
-    },
     "Kerempuh": {
-      "ok": false,
-      "error": "fetch failed"
+      "ok": true,
+      "count": 0
+    },
+    "Trešnja": {
+      "ok": true,
+      "count": 0
     }
   },
   "concerts": [
@@ -1353,6 +1353,21 @@
       "first_seen": "2026-05-26T20:26:55.235Z"
     },
     {
+      "id": "2e2156cef2",
+      "title": "Močvarni Laboratorij: Klaunska radionica",
+      "venue": "Mochvara",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-06-29T12:00:00",
+      "date_display": "pon, 29. 06. 2026.",
+      "time": "12:00",
+      "link": "https://mochvara.hr/event-detail/6a33e2835054cd5ce0e26964/?lang=hr",
+      "source": "Mochvara",
+      "is_new": true,
+      "first_seen": "2026-06-21T15:05:20.109Z"
+    },
+    {
       "id": "bb50378946",
       "title": "Gioachino Rossini Seviljski brijač 𝑍𝑎𝑟𝑢𝑧̌𝑖 𝑘𝑢𝑙𝑡𝑢𝑟𝑛𝑜 - Sveučilište u Zagrebu",
       "venue": "HNK Zagreb",
@@ -1724,7 +1739,7 @@
       "time": "19:30",
       "link": "https://hnk.hr/hr/opera/predstave/talijanka-u-al%C5%BEiru/#14.09.19.30",
       "source": "HNK Zagreb",
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-06-21T15:01:12.532Z"
     },
     {
@@ -1784,7 +1799,7 @@
       "time": "18:00",
       "link": "https://hnk.hr/hr/opera/predstave/lakm%C3%A9/#17.09.18.00",
       "source": "HNK Zagreb",
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-06-21T15:01:12.532Z"
     },
     {
@@ -2131,7 +2146,7 @@
       "time": "19:30",
       "link": "https://hnk.hr/hr/drama/predstave/oru%C5%BEje-i-%C4%8Dovjek/#04.09.19.30",
       "source": "HNK Zagreb",
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-06-21T15:01:12.532Z"
     }
   ],
@@ -2512,5 +2527,5 @@
       "first_seen": "2026-06-20T05:01:13.461Z"
     }
   ],
-  "new_count": 7
+  "new_count": 5
 }
