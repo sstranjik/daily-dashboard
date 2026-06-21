@@ -1,9 +1,13 @@
 {
-  "generated_at": "2026-06-21T15:05:20.109Z",
+  "generated_at": "2026-06-21T16:01:52.924Z",
   "stats": {
     "muzika.hr": {
       "ok": true,
       "count": 25
+    },
+    "Mochvara": {
+      "ok": true,
+      "count": 12
     },
     "Lisinski": {
       "ok": true,
@@ -17,27 +21,23 @@
       "ok": true,
       "count": 3
     },
-    "Mochvara": {
-      "ok": true,
-      "count": 12
+    "Komedija": {
+      "ok": false,
+      "error": "HTTP 500"
     },
     "ZeKaeM": {
       "ok": true,
       "count": 0
     },
-    "Pogon": {
+    "Kerempuh": {
       "ok": true,
       "count": 0
-    },
-    "Komedija": {
-      "ok": false,
-      "error": "HTTP 500"
     },
     "HNK Zagreb": {
       "ok": true,
       "count": 35
     },
-    "Kerempuh": {
+    "Pogon": {
       "ok": true,
       "count": 0
     },
@@ -1364,7 +1364,7 @@
       "time": "12:00",
       "link": "https://mochvara.hr/event-detail/6a33e2835054cd5ce0e26964/?lang=hr",
       "source": "Mochvara",
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-06-21T15:05:20.109Z"
     },
     {
@@ -1621,6 +1621,21 @@
       "source": "HNK Zagreb",
       "is_new": false,
       "first_seen": "2026-06-19T13:01:15.860Z"
+    },
+    {
+      "id": "33550f0101",
+      "title": "Jakov Gotovac STANAC Gostovanje u HNK-u u Osijeku u sklopu K-HNK",
+      "venue": "HNK Zagreb",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-09-03T19:30:00",
+      "date_display": "čet, 03. 09. 2026.",
+      "time": "19:30",
+      "link": "https://hnk.hr/hr/opera/predstave/stanac/#03.09.19.30",
+      "source": "HNK Zagreb",
+      "is_new": true,
+      "first_seen": "2026-06-21T16:01:52.924Z"
     },
     {
       "id": "07a40a9e51",
