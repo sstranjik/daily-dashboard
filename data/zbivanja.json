@@ -1,17 +1,13 @@
 {
-  "generated_at": "2026-06-21T17:15:41.984Z",
+  "generated_at": "2026-06-21T18:01:14.759Z",
   "stats": {
-    "Mochvara": {
-      "ok": true,
-      "count": 0
-    },
-    "muzika.hr": {
-      "ok": true,
-      "count": 25
-    },
     "Lisinski": {
       "ok": true,
       "count": 0
+    },
+    "Mochvara": {
+      "ok": true,
+      "count": 12
     },
     "Gavella": {
       "ok": true,
@@ -21,7 +17,19 @@
       "ok": true,
       "count": 3
     },
+    "muzika.hr": {
+      "ok": true,
+      "count": 25
+    },
+    "ZeKaeM": {
+      "ok": true,
+      "count": 0
+    },
     "Komedija": {
+      "ok": false,
+      "error": "HTTP 500"
+    },
+    "Kerempuh": {
       "ok": true,
       "count": 0
     },
@@ -29,21 +37,13 @@
       "ok": true,
       "count": 35
     },
-    "ZeKaeM": {
-      "ok": false,
-      "error": "fetch failed"
+    "Pogon": {
+      "ok": true,
+      "count": 0
     },
     "Trešnja": {
-      "ok": false,
-      "error": "fetch failed"
-    },
-    "Pogon": {
-      "ok": false,
-      "error": "fetch failed"
-    },
-    "Kerempuh": {
-      "ok": false,
-      "error": "fetch failed"
+      "ok": true,
+      "count": 0
     }
   },
   "concerts": [
@@ -2029,21 +2029,6 @@
     }
   ],
   "theater": [
-    {
-      "id": "e5d59c80e8",
-      "title": "Oscar Wilde IDEALAN MUŽ",
-      "venue": "HNK Zagreb",
-      "city": "Zagreb",
-      "country": "HR",
-      "category": "theater",
-      "date_iso": "2026-06-06T18:00:00",
-      "date_display": "sub, 06. 06. 2026.",
-      "time": "18:00",
-      "link": "https://hnk.hr/hr/drama/predstave/idealan-mu%C5%BE/#06.06.18.00",
-      "source": "HNK Zagreb",
-      "is_new": false,
-      "first_seen": "2026-05-26T20:26:55.235Z"
-    },
     {
       "id": "6f45205a3d",
       "title": "50 godina „Kiklopa”",
