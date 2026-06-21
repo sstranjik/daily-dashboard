@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-21T14:01:09.450Z",
+  "generated_at": "2026-06-21T15:01:12.532Z",
   "stats": {
     "Mochvara": {
       "ok": true,
@@ -29,11 +29,11 @@
       "ok": true,
       "count": 35
     },
-    "ZeKaeM": {
+    "Trešnja": {
       "ok": false,
       "error": "fetch failed"
     },
-    "Trešnja": {
+    "ZeKaeM": {
       "ok": false,
       "error": "fetch failed"
     },
@@ -47,21 +47,6 @@
     }
   },
   "concerts": [
-    {
-      "id": "a14b113a3a",
-      "title": "Razgled kazališta 165 sezona iza kulisa",
-      "venue": "HNK Zagreb",
-      "city": "Zagreb",
-      "country": "HR",
-      "category": "concert",
-      "date_iso": "2026-06-06T15:00:00",
-      "date_display": "sub, 06. 06. 2026.",
-      "time": "15:00",
-      "link": "https://hnk.hr/hr/ostalo/predstave/iza-kulisa-165-sezona/#06.06.15.00",
-      "source": "HNK Zagreb",
-      "is_new": false,
-      "first_seen": "2026-05-26T20:26:55.235Z"
-    },
     {
       "id": "354151e469",
       "title": "Sjemenište: Zagreb Pride After",
@@ -1728,6 +1713,21 @@
       "first_seen": "2026-06-18T13:55:08.228Z"
     },
     {
+      "id": "7fd513d523",
+      "title": "Poljska kraljevska opera — Gioachino Rossini Talijanka u Alžiru ZAGREBAČKI OPERNI FESTIVAL 2026.",
+      "venue": "HNK Zagreb",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-09-14T19:30:00",
+      "date_display": "pon, 14. 09. 2026.",
+      "time": "19:30",
+      "link": "https://hnk.hr/hr/opera/predstave/talijanka-u-al%C5%BEiru/#14.09.19.30",
+      "source": "HNK Zagreb",
+      "is_new": true,
+      "first_seen": "2026-06-21T15:01:12.532Z"
+    },
+    {
       "id": "b1770152b9",
       "title": "Hrvatski barokni ansambl, Vokalni ansambl Cantoría i Komorni zbor John Blow: Venera i Adon ZAGREBAČKI OPERNI FESTIVAL 2026.",
       "venue": "HNK Zagreb",
@@ -1771,6 +1771,21 @@
       "source": "HNK Zagreb",
       "is_new": false,
       "first_seen": "2026-06-18T13:55:08.228Z"
+    },
+    {
+      "id": "d5af7eb0e7",
+      "title": "SNG Maribor — Léo Delibes Lakmé ZAGREBAČKI OPERNI FESTIVAL 2026.",
+      "venue": "HNK Zagreb",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-09-17T18:00:00",
+      "date_display": "čet, 17. 09. 2026.",
+      "time": "18:00",
+      "link": "https://hnk.hr/hr/opera/predstave/lakm%C3%A9/#17.09.18.00",
+      "source": "HNK Zagreb",
+      "is_new": true,
+      "first_seen": "2026-06-21T15:01:12.532Z"
     },
     {
       "id": "f30ecf86dd",
@@ -2103,6 +2118,21 @@
       "source": "HNK Zagreb",
       "is_new": true,
       "first_seen": "2026-06-20T11:01:13.290Z"
+    },
+    {
+      "id": "3e889dff1d",
+      "title": "George Bernard Shaw ORUŽJE I ČOVJEK U režiji Johna Malkovicha, Narodno kazalište Ivan Vazov, Sofija - Bugarska",
+      "venue": "HNK Zagreb",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "theater",
+      "date_iso": "2026-09-04T19:30:00",
+      "date_display": "pet, 04. 09. 2026.",
+      "time": "19:30",
+      "link": "https://hnk.hr/hr/drama/predstave/oru%C5%BEje-i-%C4%8Dovjek/#04.09.19.30",
+      "source": "HNK Zagreb",
+      "is_new": true,
+      "first_seen": "2026-06-21T15:01:12.532Z"
     }
   ],
   "abroad": [
@@ -2482,5 +2512,5 @@
       "first_seen": "2026-06-20T05:01:13.461Z"
     }
   ],
-  "new_count": 4
+  "new_count": 7
 }
