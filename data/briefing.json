@@ -1,15 +1,15 @@
 {
   "version": 2,
-  "date": "2026-06-20",
-  "generated_at": "2026-06-20T08:20:46.926Z",
-  "date_hr": "Subota, 20. lipnja 2026.",
+  "date": "2026-06-21",
+  "generated_at": "2026-06-21T05:03:00.844Z",
+  "date_hr": "Nedjelja, 21. lipnja 2026.",
   "weather": {
     "icon": "☁️",
     "summary": "21–33°C, oblačno",
     "alerts": []
   },
   "fuel": {
-    "current_date": "20.06.2026",
+    "current_date": "21.06.2026",
     "eurodiesel": [
       {
         "company": "Adria Oil",
@@ -63,46 +63,46 @@
     "upcoming_premium": null
   },
   "market": {
-    "updated_at": "2026-06-20T08:20:46.926Z",
-    "btc_usd": 63488,
-    "btc_eur": 55339,
-    "btc_change_24h": 1.48,
-    "usd_eur": 0.8719
+    "updated_at": "2026-06-21T05:03:00.844Z",
+    "btc_usd": 64214,
+    "btc_eur": 55972,
+    "btc_change_24h": 1.1,
+    "usd_eur": 0.872
   },
   "ai_news": [
     {
-      "title": "7,000 Langflow servers are under attack. LangGraph and LangChain have the same holes",
-      "link": "https://venturebeat.com/security/7000-langflow-servers-under-attack-langgraph-langchain-same-holes",
-      "source": "VentureBeat"
+      "title": "Drugi odlazak u dva dana: Googleov problem nije tehnologija, nego dojam da najbolji biraju druge",
+      "link": "https://www.bug.hr/osobe/drugi-odlazak-u-dva-dana-googleov-problem-nije-tehnologija-nego-dojam-da-60764",
+      "source": "Bug.hr"
     },
     {
-      "title": "Nobel laureate John Jumper is leaving Google DeepMind for Anthropic after nearly nine years",
-      "link": "https://thenextweb.com/news/john-jumper-nobel-deepmind-leaves-anthropic-alphafold",
+      "title": "Hackers are mass-exploiting a Gravity SMTP flaw to steal API keys from 100,000 WordPress sites",
+      "link": "https://thenextweb.com/news/gravity-smtp-wordpress-plugin-vulnerability-cve-2026-4020-api-keys-exploit",
       "source": "The Next Web"
     },
     {
-      "title": "Bernie Sanders’ AI bill would hand the public half of OpenAI, Anthropic and xAI",
-      "link": "https://thenextweb.com/news/bernie-sanders-ai-wealth-fund-bill-50-percent-stake",
+      "title": "Ubisoft co-founder Claude Guillemot dies at 69 in plane crash near La Baule",
+      "link": "https://thenextweb.com/news/claude-guillemot-ubisoft-co-founder-dies-plane-crash-69",
       "source": "The Next Web"
     },
     {
-      "title": "From PGP to Mythos: a brief history of export controls that didn&#8217;t stop anyone",
-      "link": "https://techcrunch.com/2026/06/19/encryption-spyware-and-now-mythos-history-shows-why-cyber-export-control-doesnt-work/",
+      "title": "Nobel laureate John Jumper is leaving DeepMind for rival Anthropic",
+      "link": "https://techcrunch.com/2026/06/20/nobel-laureate-john-jumper-is-leaving-deepmind-for-rival-anthropic/",
       "source": "TechCrunch AI"
     },
     {
-      "title": "Trump says he no longer views Anthropic as a national security threat after G7 meeting with CEO",
-      "link": "https://thenextweb.com/news/trump-anthropic-not-national-security-threat-axios-interview",
+      "title": "The developer behind VLC’s 6 billion downloads now wants to connect hundreds of millions of robots",
+      "link": "https://thenextweb.com/news/vlc-developer-kyber-5-million-lightspeed-robotics-remote-control",
       "source": "The Next Web"
     }
   ],
   "micro_tips": {
     "vscode": {
-      "tip": "Pomakni liniju gore ili dolje bez cut/paste",
-      "keys": "Alt+↑ / Alt+↓"
+      "tip": "Format Document (auto-format cijelog fajla)",
+      "keys": "Shift+Alt+F"
     },
-    "sql": "Nikad SELECT * u produkciji — navedi kolone, manji I/O i bolji cache plan",
-    "oracle": "/*+ PARALLEL(t 4) */ paralelno izvršavanje querija na N thread-ova",
-    "regex": "(?:group) non-capturing group: grupiraj bez pamćenja za veće performanse"
+    "sql": "Covering index: uključi sve kolone iz WHERE + SELECT u index pa nema pristupa tablici",
+    "oracle": "/*+ NO_MERGE(v) */ sprječava merging inline viewa s parent queryjem",
+    "regex": "(?=pattern) lookahead: \"iza ovog mora slijediti X\" bez konzumiranja znakova"
   }
 }
