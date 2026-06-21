@@ -1,6 +1,14 @@
 {
-  "generated_at": "2026-06-21T20:01:09.872Z",
+  "generated_at": "2026-06-21T21:02:13.727Z",
   "stats": {
+    "Mochvara": {
+      "ok": true,
+      "count": 0
+    },
+    "Pogon": {
+      "ok": true,
+      "count": 0
+    },
     "muzika.hr": {
       "ok": true,
       "count": 25
@@ -9,31 +17,11 @@
       "ok": true,
       "count": 0
     },
-    "Mochvara": {
-      "ok": true,
-      "count": 12
-    },
-    "Gavella": {
-      "ok": true,
-      "count": 0
-    },
     "Tvornica": {
       "ok": true,
       "count": 3
     },
-    "ZeKaeM": {
-      "ok": true,
-      "count": 0
-    },
-    "Komedija": {
-      "ok": false,
-      "error": "HTTP 500"
-    },
-    "HNK Zagreb": {
-      "ok": true,
-      "count": 35
-    },
-    "Pogon": {
+    "Gavella": {
       "ok": true,
       "count": 0
     },
@@ -41,27 +29,24 @@
       "ok": true,
       "count": 0
     },
+    "ZeKaeM": {
+      "ok": true,
+      "count": 0
+    },
     "Trešnja": {
       "ok": true,
       "count": 0
+    },
+    "Komedija": {
+      "ok": true,
+      "count": 0
+    },
+    "HNK Zagreb": {
+      "ok": true,
+      "count": 35
     }
   },
   "concerts": [
-    {
-      "id": "354151e469",
-      "title": "Sjemenište: Zagreb Pride After",
-      "venue": "Mochvara",
-      "city": "Zagreb",
-      "country": "HR",
-      "category": "concert",
-      "date_iso": "2026-06-06T21:00:00",
-      "date_display": "sub, 06. 06. 2026.",
-      "time": "21:00",
-      "link": "https://mochvara.hr/event-detail/6a1820975c750f4abf18a800/?lang=hr",
-      "source": "Mochvara",
-      "is_new": false,
-      "first_seen": "2026-06-01T05:00:56.327Z"
-    },
     {
       "id": "db0b0c737d",
       "title": "Decapitated Nedjelja 7.6.2026.",
