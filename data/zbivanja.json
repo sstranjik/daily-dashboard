@@ -1,14 +1,6 @@
 {
-  "generated_at": "2026-06-22T05:01:12.683Z",
+  "generated_at": "2026-06-22T05:01:12.187Z",
   "stats": {
-    "Mochvara": {
-      "ok": true,
-      "count": 0
-    },
-    "Pogon": {
-      "ok": true,
-      "count": 0
-    },
     "muzika.hr": {
       "ok": true,
       "count": 25
@@ -29,10 +21,6 @@
       "ok": true,
       "count": 3
     },
-    "Trešnja": {
-      "ok": true,
-      "count": 0
-    },
     "Komedija": {
       "ok": true,
       "count": 0
@@ -44,6 +32,22 @@
     "HNK Zagreb": {
       "ok": true,
       "count": 35
+    },
+    "Pogon": {
+      "ok": true,
+      "count": 0
+    },
+    "Kerempuh": {
+      "ok": true,
+      "count": 0
+    },
+    "Trešnja": {
+      "ok": true,
+      "count": 0
+    },
+    "Mochvara": {
+      "ok": false,
+      "error": "The operation was aborted due to timeout"
     }
   },
   "concerts": [
@@ -2524,7 +2528,7 @@
       "link": "https://www.muzika.hr/event/morcheeba-festival-lent-2026/",
       "source": "muzika.hr",
       "is_new": true,
-      "first_seen": "2026-06-22T05:01:12.683Z"
+      "first_seen": "2026-06-22T05:01:12.187Z"
     }
   ],
   "new_count": 5
