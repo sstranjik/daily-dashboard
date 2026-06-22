@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-22T20:01:15.923Z",
+  "generated_at": "2026-06-22T22:01:44.681Z",
   "stats": {
     "muzika.hr": {
       "ok": true,
@@ -9,17 +9,17 @@
       "ok": true,
       "count": 0
     },
-    "Tvornica": {
+    "Mochvara": {
       "ok": true,
-      "count": 3
+      "count": 12
     },
     "Gavella": {
       "ok": true,
       "count": 0
     },
-    "Mochvara": {
+    "Tvornica": {
       "ok": true,
-      "count": 12
+      "count": 3
     },
     "ZeKaeM": {
       "ok": true,
@@ -33,13 +33,13 @@
       "ok": true,
       "count": 0
     },
-    "HNK Zagreb": {
-      "ok": true,
-      "count": 35
-    },
     "Kerempuh": {
       "ok": true,
       "count": 0
+    },
+    "HNK Zagreb": {
+      "ok": true,
+      "count": 35
     },
     "Trešnja": {
       "ok": true,
@@ -1518,6 +1518,21 @@
       "first_seen": "2026-06-21T17:01:11.095Z"
     },
     {
+      "id": "614efa4ab9",
+      "title": "John Legend",
+      "venue": "John Legend Arena Pula Flavijevska ulica",
+      "city": "Pula",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-07-04T00:00:00",
+      "date_display": "sub, 04. 07. 2026.",
+      "time": null,
+      "link": "https://www.muzika.hr/event/john-legend/",
+      "source": "muzika.hr",
+      "is_new": true,
+      "first_seen": "2026-06-22T22:01:44.681Z"
+    },
+    {
       "id": "170d2d5fd4",
       "title": "Dodjela nagrada za najbolja umjetnička ostvarenja i završni koncert sezone „Devedesete u Zagrebu“",
       "venue": "HNK Zagreb",
@@ -2497,5 +2512,5 @@
       "first_seen": "2026-06-22T05:01:12.187Z"
     }
   ],
-  "new_count": 4
+  "new_count": 5
 }
