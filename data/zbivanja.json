@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-06-22T10:34:18.026Z",
+  "generated_at": "2026-06-22T11:01:26.493Z",
   "stats": {
     "Mochvara": {
       "ok": true,
-      "count": 12
-    },
-    "muzika.hr": {
-      "ok": true,
-      "count": 25
+      "count": 0
     },
     "Lisinski": {
+      "ok": true,
+      "count": 0
+    },
+    "Gavella": {
       "ok": true,
       "count": 0
     },
@@ -17,17 +17,9 @@
       "ok": true,
       "count": 3
     },
-    "Gavella": {
+    "muzika.hr": {
       "ok": true,
-      "count": 0
-    },
-    "ZeKaeM": {
-      "ok": true,
-      "count": 0
-    },
-    "Pogon": {
-      "ok": true,
-      "count": 0
+      "count": 25
     },
     "Komedija": {
       "ok": true,
@@ -37,31 +29,24 @@
       "ok": true,
       "count": 35
     },
-    "Kerempuh": {
-      "ok": true,
-      "count": 0
-    },
     "Trešnja": {
-      "ok": true,
-      "count": 0
+      "ok": false,
+      "error": "fetch failed"
+    },
+    "ZeKaeM": {
+      "ok": false,
+      "error": "fetch failed"
+    },
+    "Pogon": {
+      "ok": false,
+      "error": "fetch failed"
+    },
+    "Kerempuh": {
+      "ok": false,
+      "error": "fetch failed"
     }
   },
   "concerts": [
-    {
-      "id": "b21d19ca02",
-      "title": "Ciklus komornih koncerata KLASIKA NEDJELJOM 8",
-      "venue": "HNK Zagreb",
-      "city": "Zagreb",
-      "country": "HR",
-      "category": "concert",
-      "date_iso": "2026-06-07T11:00:00",
-      "date_display": "ned, 07. 06. 2026.",
-      "time": "11:00",
-      "link": "https://hnk.hr/hr/opera/predstave/klasika-nedjeljom-8/#07.06.11.00",
-      "source": "HNK Zagreb",
-      "is_new": false,
-      "first_seen": "2026-05-26T20:26:55.235Z"
-    },
     {
       "id": "d291d56e0b",
       "title": "Death metal koncert: Decapitated, E.N.D., Cryptify",
