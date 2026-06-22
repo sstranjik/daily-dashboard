@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-21T21:02:13.727Z",
+  "generated_at": "2026-06-22T05:01:12.683Z",
   "stats": {
     "Mochvara": {
       "ok": true,
@@ -17,21 +17,17 @@
       "ok": true,
       "count": 0
     },
-    "Tvornica": {
-      "ok": true,
-      "count": 3
-    },
     "Gavella": {
-      "ok": true,
-      "count": 0
-    },
-    "Kerempuh": {
       "ok": true,
       "count": 0
     },
     "ZeKaeM": {
       "ok": true,
       "count": 0
+    },
+    "Tvornica": {
+      "ok": true,
+      "count": 3
     },
     "Trešnja": {
       "ok": true,
@@ -41,27 +37,16 @@
       "ok": true,
       "count": 0
     },
+    "Kerempuh": {
+      "ok": true,
+      "count": 0
+    },
     "HNK Zagreb": {
       "ok": true,
       "count": 35
     }
   },
   "concerts": [
-    {
-      "id": "db0b0c737d",
-      "title": "Decapitated Nedjelja 7.6.2026.",
-      "venue": "Mochvara",
-      "city": "Zagreb",
-      "country": "HR",
-      "category": "concert",
-      "date_iso": "2026-06-07T00:00:00",
-      "date_display": "ned, 07. 06. 2026.",
-      "time": null,
-      "link": "https://mochvara.hr/event-detail/69c1a0c9ca70307d5cfe3a47/?lang=hr",
-      "source": "Mochvara",
-      "is_new": false,
-      "first_seen": "2026-05-26T20:26:55.235Z"
-    },
     {
       "id": "b21d19ca02",
       "title": "Ciklus komornih koncerata KLASIKA NEDJELJOM 8",
@@ -2525,7 +2510,22 @@
       "source": "muzika.hr",
       "is_new": false,
       "first_seen": "2026-06-20T05:01:13.461Z"
+    },
+    {
+      "id": "88d393e186",
+      "title": "Morcheeba (Festival Lent 2026)",
+      "venue": "Trg Leona Štuklja Trg Leona Štuklja",
+      "city": "Maribor",
+      "country": "SI",
+      "category": "concert",
+      "date_iso": "2026-07-03T21:30:00",
+      "date_display": "pet, 03. 07. 2026.",
+      "time": "21:30",
+      "link": "https://www.muzika.hr/event/morcheeba-festival-lent-2026/",
+      "source": "muzika.hr",
+      "is_new": true,
+      "first_seen": "2026-06-22T05:01:12.683Z"
     }
   ],
-  "new_count": 4
+  "new_count": 5
 }
