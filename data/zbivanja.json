@@ -1,13 +1,9 @@
 {
-  "generated_at": "2026-06-22T18:01:15.533Z",
+  "generated_at": "2026-06-22T19:01:16.471Z",
   "stats": {
     "Mochvara": {
       "ok": true,
       "count": 0
-    },
-    "muzika.hr": {
-      "ok": true,
-      "count": 25
     },
     "Lisinski": {
       "ok": true,
@@ -21,6 +17,10 @@
       "ok": true,
       "count": 3
     },
+    "muzika.hr": {
+      "ok": true,
+      "count": 25
+    },
     "Komedija": {
       "ok": true,
       "count": 0
@@ -29,11 +29,11 @@
       "ok": true,
       "count": 35
     },
-    "Kerempuh": {
+    "ZeKaeM": {
       "ok": false,
       "error": "fetch failed"
     },
-    "ZeKaeM": {
+    "Kerempuh": {
       "ok": false,
       "error": "fetch failed"
     },
@@ -47,21 +47,6 @@
     }
   },
   "concerts": [
-    {
-      "id": "d291d56e0b",
-      "title": "Death metal koncert: Decapitated, E.N.D., Cryptify",
-      "venue": "Mochvara",
-      "city": "Zagreb",
-      "country": "HR",
-      "category": "concert",
-      "date_iso": "2026-06-07T19:00:00",
-      "date_display": "ned, 07. 06. 2026.",
-      "time": "19:00",
-      "link": "https://mochvara.hr/event-detail/69c1a0c9ca70307d5cfe3a47/?lang=hr",
-      "source": "Mochvara",
-      "is_new": false,
-      "first_seen": "2026-06-03T05:00:54.413Z"
-    },
     {
       "id": "90d9e64ffd",
       "title": "Sepultura",
