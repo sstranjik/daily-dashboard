@@ -1,15 +1,15 @@
 {
   "version": 2,
-  "date": "2026-06-22",
-  "generated_at": "2026-06-22T10:36:07.991Z",
-  "date_hr": "Ponedjeljak, 22. lipnja 2026.",
+  "date": "2026-06-23",
+  "generated_at": "2026-06-23T05:03:09.065Z",
+  "date_hr": "Utorak, 23. lipnja 2026.",
   "weather": {
-    "icon": "🌦️",
-    "summary": "23–34°C, pljuskovi",
+    "icon": "☁️",
+    "summary": "22–31°C, oblačno",
     "alerts": []
   },
   "fuel": {
-    "current_date": "22.06.2026",
+    "current_date": "23.06.2026",
     "eurodiesel": [
       {
         "company": "Adria Oil",
@@ -38,20 +38,20 @@
     ],
     "premium_eurodiesel": [
       {
-        "company": "LUKOIL Croatia",
-        "price": 1.75
-      },
-      {
         "company": "INA",
-        "price": 1.82
+        "price": 1.7
       },
       {
         "company": "Tifon",
-        "price": 1.82
+        "price": 1.7
       },
       {
         "company": "Petrol",
-        "price": 1.88
+        "price": 1.73
+      },
+      {
+        "company": "LUKOIL Croatia",
+        "price": 1.75
       },
       {
         "company": "Coral Croatia",
@@ -63,31 +63,46 @@
     "upcoming_premium": null
   },
   "market": {
-    "updated_at": "2026-06-22T10:36:07.991Z",
-    "btc_usd": 64103,
-    "btc_eur": 55947,
-    "btc_change_24h": -0.28,
-    "usd_eur": 0.872
+    "updated_at": "2026-06-23T05:03:09.065Z",
+    "btc_usd": 63593,
+    "btc_eur": 55680,
+    "btc_change_24h": -0.67,
+    "usd_eur": 0.8744
   },
   "ai_news": [
     {
-      "title": "Gejming vizionar Claude Guillemot poginuo u padu zrakoplova",
-      "link": "https://www.tportal.hr/tehno/clanak/gejming-vizionar-claude-guillemot-poginuo-u-padu-zrakoplova-20260622",
-      "source": "Tportal"
+      "title": "How to troubleshoot your PC problems with Copilot or ChatGPT - effectively",
+      "link": "https://www.zdnet.com/article/ai-troubleshooting-secrets-my-interview-with-copilot-chatgpt/",
+      "source": "ZDNet"
     },
     {
-      "title": "When the Trump administration cracks down on Anthropic, who benefits?",
-      "link": "https://techcrunch.com/2026/06/21/when-the-trump-administration-cracks-down-on-anthropic-who-benefits/",
+      "title": "Anthropic’s new privacy policy collects biometric data from flagged Claude users",
+      "link": "https://thenextweb.com/news/anthropic-claude-id-verification-privacy-policy-persona-biometric",
+      "source": "The Next Web"
+    },
+    {
+      "title": "No Claude Fable 5? No problem: Sakana achieves frontier performance with new Fugu multi-model, auto synthesis system",
+      "link": "https://venturebeat.com/orchestration/no-claude-fable-5-no-problem-sakana-achieves-frontier-performance-with-new-fugu-multi-model-auto-synthesis-system",
+      "source": "VentureBeat"
+    },
+    {
+      "title": "OpenAI launches new initiative to help find and patch open-source bugs",
+      "link": "https://techcrunch.com/2026/06/22/openai-launches-new-initiative-to-help-find-and-patch-open-source-bugs/",
+      "source": "TechCrunch AI"
+    },
+    {
+      "title": "The AI world is getting &#8216;loopy&#8217;",
+      "link": "https://techcrunch.com/2026/06/22/the-ai-world-is-getting-loopy/",
       "source": "TechCrunch AI"
     }
   ],
   "micro_tips": {
     "vscode": {
-      "tip": "Go to Definition simbola",
-      "keys": "F12"
+      "tip": "Peek Definition bez napuštanja fajla",
+      "keys": "Alt+F12"
     },
-    "sql": "Window funkcije (ROW_NUMBER, LAG, LEAD) umjesto self-join za redosljed i razlike",
-    "oracle": "/*+ RESULT_CACHE */ cache-ira rezultat funkcije u SGA za ponovljene pozive",
-    "regex": ".+? lazy quantifier: stane na prvom mogućem podudaranju, ne zadnjem"
+    "sql": "EXPLAIN ANALYZE prikazuje stvarne vs procijenjene redove — ključno za tuning",
+    "oracle": "CONNECT BY LEVEL <= n generira broj redova bez pomoćne tablice",
+    "regex": "[^\\n]* svaki znak osim newline — dohvati cijelu liniju bez dotall flaga"
   }
 }
