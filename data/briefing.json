@@ -1,15 +1,15 @@
 {
   "version": 2,
-  "date": "2026-06-23",
-  "generated_at": "2026-06-23T08:27:52.141Z",
-  "date_hr": "Utorak, 23. lipnja 2026.",
+  "date": "2026-06-24",
+  "generated_at": "2026-06-24T05:03:12.845Z",
+  "date_hr": "Srijeda, 24. lipnja 2026.",
   "weather": {
     "icon": "☁️",
-    "summary": "22–32°C, oblačno",
+    "summary": "22–31°C, oblačno",
     "alerts": []
   },
   "fuel": {
-    "current_date": "23.06.2026",
+    "current_date": "24.06.2026",
     "eurodiesel": [
       {
         "company": "Adria Oil",
@@ -55,7 +55,7 @@
       },
       {
         "company": "Coral Croatia",
-        "price": 1.91
+        "price": 1.85
       }
     ],
     "upcoming_date": null,
@@ -63,46 +63,46 @@
     "upcoming_premium": null
   },
   "market": {
-    "updated_at": "2026-06-23T08:27:52.141Z",
-    "btc_usd": 62171,
-    "btc_eur": 54504,
-    "btc_change_24h": -3.08,
-    "usd_eur": 0.8744
+    "updated_at": "2026-06-24T05:03:12.845Z",
+    "btc_usd": 62688,
+    "btc_eur": 55168,
+    "btc_change_24h": -1.43,
+    "usd_eur": 0.878
   },
   "ai_news": [
     {
-      "title": "Micron and Anthropic sign a multi-year AI memory supply deal",
-      "link": "https://thenextweb.com/news/micron-and-anthropic-sign-a-multi-year-ai-memory-supply-deal",
-      "source": "The Next Web"
-    },
-    {
-      "title": "How to troubleshoot your PC problems with Copilot or ChatGPT - effectively",
-      "link": "https://www.zdnet.com/article/ai-troubleshooting-secrets-my-interview-with-copilot-chatgpt/",
+      "title": "Anthropic rolls out Claude Tag, your new agentic AI coworker in Slack",
+      "link": "https://www.zdnet.com/article/anthropic-claude-tag-agentic-ai-coworker-slack/",
       "source": "ZDNet"
     },
     {
-      "title": "Anthropic’s new privacy policy collects biometric data from flagged Claude users",
-      "link": "https://thenextweb.com/news/anthropic-claude-id-verification-privacy-policy-persona-biometric",
+      "title": "Anthropic launches Claude Tag, an always-on AI teammate that lives in your Slack channels",
+      "link": "https://thenextweb.com/news/anthropic-claude-tag-slack-always-on-ai-teammate",
       "source": "The Next Web"
     },
     {
-      "title": "No Claude Fable 5? No problem: Sakana achieves frontier performance with new Fugu multi-model, auto synthesis system",
-      "link": "https://venturebeat.com/orchestration/no-claude-fable-5-no-problem-sakana-achieves-frontier-performance-with-new-fugu-multi-model-auto-synthesis-system",
+      "title": "Anthropicov Claude Tag postaje virtualni kolega unutar Slacka",
+      "link": "https://www.bug.hr/tehnologije/anthropicov-claude-tag-postaje-virtualni-kolega-unutar-slacka-60847",
+      "source": "Bug.hr"
+    },
+    {
+      "title": "Anthropic’s Claude Tag is learning your company, one Slack message at a time",
+      "link": "https://techcrunch.com/2026/06/23/anthropics-claude-tag-is-learning-your-company-one-slack-message-at-a-time/",
+      "source": "TechCrunch AI"
+    },
+    {
+      "title": "Anthropic launches Claude Tag, replacing its Slack app with a persistent AI teammate that learns, monitors and works autonomously",
+      "link": "https://venturebeat.com/technology/anthropic-launches-claude-tag-replacing-its-slack-app-with-a-persistent-ai-teammate-that-learns-monitors-and-works-autonomously",
       "source": "VentureBeat"
-    },
-    {
-      "title": "Gmail's genius Gemini Flows feature fixes filters - but only for your first 2000 emails a month",
-      "link": "https://www.zdnet.com/article/google-gmail-gemini-flows-filter-fix/",
-      "source": "ZDNet"
     }
   ],
   "micro_tips": {
     "vscode": {
-      "tip": "Peek Definition bez napuštanja fajla",
-      "keys": "Alt+F12"
+      "tip": "Dupliciraj trenutnu liniju ispod",
+      "keys": "Shift+Alt+↓"
     },
-    "sql": "EXPLAIN ANALYZE prikazuje stvarne vs procijenjene redove — ključno za tuning",
-    "oracle": "CONNECT BY LEVEL <= n generira broj redova bez pomoćne tablice",
-    "regex": "[^\\n]* svaki znak osim newline — dohvati cijelu liniju bez dotall flaga"
+    "sql": "Partial index s WHERE klauzulom smanjuje veličinu i ubrzava specifična filtriranja",
+    "oracle": "LISTAGG(col, ',') WITHIN GROUP (ORDER BY col) konkatenira u jedan string",
+    "regex": "(?<ime>\\d{4}) named group — referenciraj s \\k<ime> ili $<ime> u replace"
   }
 }
