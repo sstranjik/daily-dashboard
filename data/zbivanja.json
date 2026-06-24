@@ -1,7 +1,15 @@
 {
-  "generated_at": "2026-06-23T21:21:51.419Z",
+  "generated_at": "2026-06-24T05:01:13.073Z",
   "stats": {
+    "muzika.hr": {
+      "ok": true,
+      "count": 25
+    },
     "Lisinski": {
+      "ok": true,
+      "count": 0
+    },
+    "Gavella": {
       "ok": true,
       "count": 0
     },
@@ -9,11 +17,7 @@
       "ok": true,
       "count": 12
     },
-    "Tvornica": {
-      "ok": true,
-      "count": 3
-    },
-    "Gavella": {
+    "Komedija": {
       "ok": true,
       "count": 0
     },
@@ -21,21 +25,13 @@
       "ok": true,
       "count": 0
     },
-    "muzika.hr": {
+    "HNK Zagreb": {
       "ok": true,
-      "count": 25
-    },
-    "Komedija": {
-      "ok": true,
-      "count": 0
+      "count": 35
     },
     "Pogon": {
       "ok": true,
       "count": 0
-    },
-    "HNK Zagreb": {
-      "ok": true,
-      "count": 35
     },
     "Kerempuh": {
       "ok": true,
@@ -44,24 +40,13 @@
     "Trešnja": {
       "ok": true,
       "count": 0
+    },
+    "Tvornica": {
+      "ok": false,
+      "error": "The operation was aborted due to timeout"
     }
   },
   "concerts": [
-    {
-      "id": "ebdb4381a6",
-      "title": "Six Feet Under",
-      "venue": "Grada Vukovara 68",
-      "city": "Zagreb",
-      "country": "HR",
-      "category": "concert",
-      "date_iso": "2026-06-09T00:00:00",
-      "date_display": "uto, 09. 06. 2026.",
-      "time": null,
-      "link": "https://www.muzika.hr/event/six-feet-under/",
-      "source": "muzika.hr",
-      "is_new": false,
-      "first_seen": "2026-05-26T20:26:55.235Z"
-    },
     {
       "id": "1be4ec35d9",
       "title": "Močvarni Laboratorij: Četiri dana keramike, drugi dan",
@@ -2031,21 +2016,6 @@
     }
   ],
   "abroad": [
-    {
-      "id": "31fd8f6699",
-      "title": "Linkin Park",
-      "venue": "Ernst Happel stadion Meiereistrasse 7",
-      "city": "Beč",
-      "country": "AT",
-      "category": "concert",
-      "date_iso": "2026-06-09T00:00:00",
-      "date_display": "uto, 09. 06. 2026.",
-      "time": null,
-      "link": "https://www.muzika.hr/event/linkin-park-2/",
-      "source": "muzika.hr",
-      "is_new": false,
-      "first_seen": "2026-05-26T20:26:55.235Z"
-    },
     {
       "id": "2cc75a5373",
       "title": "Metallica +Pantera + Avatar",
