@@ -1,19 +1,11 @@
 {
-  "generated_at": "2026-06-25T19:02:36.377Z",
+  "generated_at": "2026-06-25T20:01:08.442Z",
   "stats": {
     "muzika.hr": {
       "ok": true,
       "count": 25
     },
-    "Mochvara": {
-      "ok": true,
-      "count": 12
-    },
     "Lisinski": {
-      "ok": true,
-      "count": 0
-    },
-    "Gavella": {
       "ok": true,
       "count": 0
     },
@@ -21,7 +13,7 @@
       "ok": true,
       "count": 3
     },
-    "Komedija": {
+    "Gavella": {
       "ok": true,
       "count": 0
     },
@@ -29,13 +21,17 @@
       "ok": true,
       "count": 0
     },
-    "Pogon": {
+    "Komedija": {
       "ok": true,
       "count": 0
     },
     "HNK Zagreb": {
       "ok": true,
       "count": 36
+    },
+    "Pogon": {
+      "ok": true,
+      "count": 0
     },
     "Kerempuh": {
       "ok": true,
@@ -44,39 +40,13 @@
     "Trešnja": {
       "ok": true,
       "count": 0
+    },
+    "Mochvara": {
+      "ok": false,
+      "error": "The operation was aborted due to timeout"
     }
   },
   "concerts": [
-    {
-      "id": "afca0dd2c7",
-      "title": "Alessandro Giaquinto — Rafał Ryterski ⁄ Pett Clausen-Knight — Ivan Končić ⁄ Takuya Sumitomo — Veronika Reutz Drobnić PREKINUTE VEZE Koprodukcija MBZ-a",
-      "venue": "HNK Zagreb",
-      "city": "Zagreb",
-      "country": "HR",
-      "category": "concert",
-      "date_iso": "2026-06-10T19:30:00",
-      "date_display": "sri, 10. 06. 2026.",
-      "time": "19:30",
-      "link": "https://hnk.hr/hr/balet/predstave/prekinute-veze/#10.06.19.30",
-      "source": "HNK Zagreb",
-      "is_new": false,
-      "first_seen": "2026-05-26T20:26:55.235Z"
-    },
-    {
-      "id": "a4c0868217",
-      "title": "Alt rock/shoegaze koncert: Colostrum, June Blaze",
-      "venue": "Mochvara",
-      "city": "Zagreb",
-      "country": "HR",
-      "category": "concert",
-      "date_iso": "2026-06-10T20:00:00",
-      "date_display": "sri, 10. 06. 2026.",
-      "time": "20:00",
-      "link": "https://mochvara.hr/event-detail/6a048795821d9c96480dcafc/?lang=hr",
-      "source": "Mochvara",
-      "is_new": false,
-      "first_seen": "2026-06-08T05:00:57.451Z"
-    },
     {
       "id": "44deb6a2c9",
       "title": "Antonín Dvořák RUSALKA 𝑍𝑎𝑟𝑢𝑧̌𝑖 𝑘𝑢𝑙𝑡𝑢𝑟𝑛𝑜 - Sveučilište u Zagrebu",
@@ -1864,21 +1834,6 @@
     }
   ],
   "theater": [
-    {
-      "id": "dc09db02f7",
-      "title": "Oscar Wilde IDEALAN MUŽ",
-      "venue": "HNK Zagreb",
-      "city": "Zagreb",
-      "country": "HR",
-      "category": "theater",
-      "date_iso": "2026-06-10T19:30:00",
-      "date_display": "sri, 10. 06. 2026.",
-      "time": "19:30",
-      "link": "https://hnk.hr/hr/drama/predstave/idealan-mu%C5%BE/#10.06.19.30",
-      "source": "HNK Zagreb",
-      "is_new": false,
-      "first_seen": "2026-05-26T20:26:55.235Z"
-    },
     {
       "id": "4c0a4265f3",
       "title": "Oscar Wilde IDEALAN MUŽ",
