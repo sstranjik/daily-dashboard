@@ -1,35 +1,31 @@
 {
-  "generated_at": "2026-06-25T09:01:10.573Z",
+  "generated_at": "2026-06-25T10:01:21.326Z",
   "stats": {
-    "Lisinski": {
-      "ok": true,
-      "count": 0
-    },
-    "Gavella": {
-      "ok": true,
-      "count": 0
-    },
     "Mochvara": {
       "ok": true,
       "count": 12
+    },
+    "Lisinski": {
+      "ok": true,
+      "count": 0
     },
     "Tvornica": {
       "ok": true,
       "count": 3
     },
+    "Gavella": {
+      "ok": true,
+      "count": 0
+    },
     "muzika.hr": {
       "ok": true,
       "count": 25
     },
-    "Komedija": {
+    "ZeKaeM": {
       "ok": true,
       "count": 0
     },
-    "HNK Zagreb": {
-      "ok": true,
-      "count": 34
-    },
-    "ZeKaeM": {
+    "Komedija": {
       "ok": true,
       "count": 0
     },
@@ -40,6 +36,10 @@
     "Kerempuh": {
       "ok": true,
       "count": 0
+    },
+    "HNK Zagreb": {
+      "ok": true,
+      "count": 34
     },
     "Trešnja": {
       "ok": true,
@@ -1006,6 +1006,21 @@
       "source": "HNK Zagreb",
       "is_new": false,
       "first_seen": "2026-05-26T20:26:55.235Z"
+    },
+    {
+      "id": "7812ff8a85",
+      "title": "Priroda i Društvo x Low income $quad",
+      "venue": "Mochvara",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-06-26T21:00:00",
+      "date_display": "pet, 26. 06. 2026.",
+      "time": "21:00",
+      "link": "https://mochvara.hr/event-detail/6a1d45e9eb7a4aa15b7a2acc/?lang=hr",
+      "source": "Mochvara",
+      "is_new": true,
+      "first_seen": "2026-06-25T10:01:21.326Z"
     },
     {
       "id": "b387ae3ab3",
@@ -2362,5 +2377,5 @@
       "first_seen": "2026-06-25T05:01:14.545Z"
     }
   ],
-  "new_count": 4
+  "new_count": 5
 }
