@@ -1,9 +1,13 @@
 {
-  "generated_at": "2026-06-25T20:01:08.442Z",
+  "generated_at": "2026-06-25T21:19:56.765Z",
   "stats": {
-    "muzika.hr": {
+    "Gavella": {
       "ok": true,
-      "count": 25
+      "count": 0
+    },
+    "Mochvara": {
+      "ok": true,
+      "count": 12
     },
     "Lisinski": {
       "ok": true,
@@ -13,13 +17,9 @@
       "ok": true,
       "count": 3
     },
-    "Gavella": {
+    "muzika.hr": {
       "ok": true,
-      "count": 0
-    },
-    "ZeKaeM": {
-      "ok": true,
-      "count": 0
+      "count": 25
     },
     "Komedija": {
       "ok": true,
@@ -28,6 +28,10 @@
     "HNK Zagreb": {
       "ok": true,
       "count": 36
+    },
+    "ZeKaeM": {
+      "ok": true,
+      "count": 0
     },
     "Pogon": {
       "ok": true,
@@ -40,10 +44,6 @@
     "Trešnja": {
       "ok": true,
       "count": 0
-    },
-    "Mochvara": {
-      "ok": false,
-      "error": "The operation was aborted due to timeout"
     }
   },
   "concerts": [
@@ -1398,6 +1398,21 @@
       "first_seen": "2026-05-26T20:26:55.235Z"
     },
     {
+      "id": "8fd5b97cf0",
+      "title": "BEAT",
+      "venue": "BEAT Šalata Zagreb",
+      "city": "Croatia",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-07-07T00:00:00",
+      "date_display": "uto, 07. 07. 2026.",
+      "time": null,
+      "link": "https://www.muzika.hr/event/beat/",
+      "source": "muzika.hr",
+      "is_new": true,
+      "first_seen": "2026-06-25T21:19:56.765Z"
+    },
+    {
       "id": "86cc723186",
       "title": "Jakov Gotovac STANAC Gostovanje u HNK Osijek",
       "venue": "HNK Zagreb",
@@ -2347,5 +2362,5 @@
       "first_seen": "2026-06-25T05:01:14.545Z"
     }
   ],
-  "new_count": 4
+  "new_count": 5
 }
