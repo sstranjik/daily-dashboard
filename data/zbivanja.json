@@ -1,6 +1,10 @@
 {
-  "generated_at": "2026-06-25T05:01:14.545Z",
+  "generated_at": "2026-06-25T06:01:18.917Z",
   "stats": {
+    "Mochvara": {
+      "ok": true,
+      "count": 12
+    },
     "muzika.hr": {
       "ok": true,
       "count": 25
@@ -8,10 +12,6 @@
     "Lisinski": {
       "ok": true,
       "count": 0
-    },
-    "Mochvara": {
-      "ok": true,
-      "count": 12
     },
     "Tvornica": {
       "ok": true,
@@ -33,15 +33,15 @@
       "ok": true,
       "count": 0
     },
-    "Kerempuh": {
-      "ok": true,
-      "count": 0
-    },
     "HNK Zagreb": {
       "ok": true,
       "count": 34
     },
     "Trešnja": {
+      "ok": true,
+      "count": 0
+    },
+    "Kerempuh": {
       "ok": true,
       "count": 0
     }
@@ -2343,7 +2343,7 @@
       "time": null,
       "link": "https://www.muzika.hr/event/adrian-younge/",
       "source": "muzika.hr",
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-06-25T05:01:14.545Z"
     },
     {
@@ -2358,9 +2358,9 @@
       "time": null,
       "link": "https://www.muzika.hr/event/queens-of-the-stone-age-milano/",
       "source": "muzika.hr",
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-06-25T05:01:14.545Z"
     }
   ],
-  "new_count": 6
+  "new_count": 4
 }
