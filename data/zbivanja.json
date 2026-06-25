@@ -1,19 +1,15 @@
 {
-  "generated_at": "2026-06-25T14:01:20.728Z",
+  "generated_at": "2026-06-25T15:01:20.597Z",
   "stats": {
-    "Mochvara": {
-      "ok": true,
-      "count": 0
-    },
-    "Pogon": {
-      "ok": true,
-      "count": 0
-    },
     "muzika.hr": {
       "ok": true,
       "count": 25
     },
-    "Gavella": {
+    "Mochvara": {
+      "ok": true,
+      "count": 12
+    },
+    "Lisinski": {
       "ok": true,
       "count": 0
     },
@@ -21,7 +17,7 @@
       "ok": true,
       "count": 3
     },
-    "Lisinski": {
+    "Gavella": {
       "ok": true,
       "count": 0
     },
@@ -29,21 +25,25 @@
       "ok": true,
       "count": 0
     },
-    "Kerempuh": {
-      "ok": true,
-      "count": 0
-    },
-    "Trešnja": {
-      "ok": true,
-      "count": 0
-    },
     "Komedija": {
+      "ok": true,
+      "count": 0
+    },
+    "Pogon": {
+      "ok": true,
+      "count": 0
+    },
+    "Kerempuh": {
       "ok": true,
       "count": 0
     },
     "HNK Zagreb": {
       "ok": true,
-      "count": 34
+      "count": 36
+    },
+    "Trešnja": {
+      "ok": true,
+      "count": 0
     }
   },
   "concerts": [
@@ -1593,6 +1593,21 @@
       "first_seen": "2026-06-21T15:01:12.532Z"
     },
     {
+      "id": "6ae7637dd0",
+      "title": "Opera 65+ — program članova Opernog studija i stipendista u domovima za starije ZAGREBAČKI OPERNI FESTIVAL 2026. - Dom za starije osobe Centar",
+      "venue": "HNK Zagreb",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-09-15T17:00:00",
+      "date_display": "uto, 15. 09. 2026.",
+      "time": "17:00",
+      "link": "https://hnk.hr/hr/opera/predstave/opera-65-program-%C4%8Dlanova-opernog-studija-i-stipendista-u-domovima-za-starije/#15.09.17.00",
+      "source": "HNK Zagreb",
+      "is_new": true,
+      "first_seen": "2026-06-25T15:01:20.597Z"
+    },
+    {
       "id": "b1770152b9",
       "title": "Hrvatski barokni ansambl, Vokalni ansambl Cantoría i Komorni zbor John Blow: Venera i Adon ZAGREBAČKI OPERNI FESTIVAL 2026.",
       "venue": "HNK Zagreb",
@@ -1606,6 +1621,21 @@
       "source": "HNK Zagreb",
       "is_new": false,
       "first_seen": "2026-06-18T13:01:15.839Z"
+    },
+    {
+      "id": "024c67311c",
+      "title": "Opera 65+ — program članova Opernog studija i stipendista u domovima za starije ZAGREBAČKI OPERNI FESTIVAL 2026. - Dom Medveščak",
+      "venue": "HNK Zagreb",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-09-16T17:00:00",
+      "date_display": "sri, 16. 09. 2026.",
+      "time": "17:00",
+      "link": "https://hnk.hr/hr/opera/predstave/opera-65-program-%C4%8Dlanova-opernog-studija-i-stipendista-u-domovima-za-starije/#16.09.17.00",
+      "source": "HNK Zagreb",
+      "is_new": true,
+      "first_seen": "2026-06-25T15:01:20.597Z"
     },
     {
       "id": "e3fa49cc96",
@@ -2377,5 +2407,5 @@
       "first_seen": "2026-06-25T05:01:14.545Z"
     }
   ],
-  "new_count": 4
+  "new_count": 6
 }
