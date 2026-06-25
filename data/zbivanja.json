@@ -1,17 +1,9 @@
 {
-  "generated_at": "2026-06-24T20:25:51.306Z",
+  "generated_at": "2026-06-25T05:01:12.622Z",
   "stats": {
-    "Mochvara": {
-      "ok": true,
-      "count": 0
-    },
     "muzika.hr": {
       "ok": true,
       "count": 25
-    },
-    "Pogon": {
-      "ok": true,
-      "count": 0
     },
     "Lisinski": {
       "ok": true,
@@ -21,13 +13,29 @@
       "ok": true,
       "count": 3
     },
+    "Gavella": {
+      "ok": true,
+      "count": 0
+    },
     "ZeKaeM": {
       "ok": true,
       "count": 0
     },
-    "Gavella": {
+    "Mochvara": {
+      "ok": true,
+      "count": 12
+    },
+    "Komedija": {
       "ok": true,
       "count": 0
+    },
+    "Pogon": {
+      "ok": true,
+      "count": 0
+    },
+    "HNK Zagreb": {
+      "ok": true,
+      "count": 34
     },
     "Kerempuh": {
       "ok": true,
@@ -36,32 +44,9 @@
     "Trešnja": {
       "ok": true,
       "count": 0
-    },
-    "Komedija": {
-      "ok": true,
-      "count": 0
-    },
-    "HNK Zagreb": {
-      "ok": true,
-      "count": 35
     }
   },
   "concerts": [
-    {
-      "id": "7b8114d9f8",
-      "title": "Flows Festival 2026",
-      "venue": "Flows Festival 2026 Kukljica Otok Ugljan",
-      "city": "Croatia",
-      "country": "HR",
-      "category": "concert",
-      "date_iso": "2026-06-10T00:00:00",
-      "date_display": "sri, 10. 06. 2026.",
-      "time": null,
-      "link": "https://www.muzika.hr/event/flows-festival-2026/",
-      "source": "muzika.hr",
-      "is_new": false,
-      "first_seen": "2026-05-26T20:26:55.235Z"
-    },
     {
       "id": "2be45f5662",
       "title": "Močvarin birc: Indie Sleaze",
@@ -2345,7 +2330,37 @@
       "source": "muzika.hr",
       "is_new": false,
       "first_seen": "2026-06-22T05:01:12.187Z"
+    },
+    {
+      "id": "ae4712d6cf",
+      "title": "Adrian Younge",
+      "venue": "Adrian Younge Maribor Maribor",
+      "city": "Slovenia",
+      "country": "EU",
+      "category": "concert",
+      "date_iso": "2026-07-04T00:00:00",
+      "date_display": "sub, 04. 07. 2026.",
+      "time": null,
+      "link": "https://www.muzika.hr/event/adrian-younge/",
+      "source": "muzika.hr",
+      "is_new": true,
+      "first_seen": "2026-06-25T05:01:12.622Z"
+    },
+    {
+      "id": "66bfbbc721",
+      "title": "Queens of the Stone Age",
+      "venue": "Ippodromo Snai La Maura Via Lampugnano 95",
+      "city": "Milano",
+      "country": "EU",
+      "category": "concert",
+      "date_iso": "2026-07-06T00:00:00",
+      "date_display": "pon, 06. 07. 2026.",
+      "time": null,
+      "link": "https://www.muzika.hr/event/queens-of-the-stone-age-milano/",
+      "source": "muzika.hr",
+      "is_new": true,
+      "first_seen": "2026-06-25T05:01:12.622Z"
     }
   ],
-  "new_count": 4
+  "new_count": 6
 }
