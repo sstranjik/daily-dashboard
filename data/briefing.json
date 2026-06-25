@@ -1,15 +1,15 @@
 {
   "version": 2,
-  "date": "2026-06-24",
-  "generated_at": "2026-06-24T08:20:48.464Z",
-  "date_hr": "Srijeda, 24. lipnja 2026.",
+  "date": "2026-06-25",
+  "generated_at": "2026-06-25T05:03:00.467Z",
+  "date_hr": "Četvrtak, 25. lipnja 2026.",
   "weather": {
-    "icon": "☁️",
-    "summary": "22–31°C, oblačno",
+    "icon": "🌤️",
+    "summary": "20–33°C, pretežno vedro",
     "alerts": []
   },
   "fuel": {
-    "current_date": "24.06.2026",
+    "current_date": "25.06.2026",
     "eurodiesel": [
       {
         "company": "Adria Oil",
@@ -46,12 +46,12 @@
         "price": 1.7
       },
       {
-        "company": "Petrol",
-        "price": 1.73
-      },
-      {
         "company": "LUKOIL Croatia",
         "price": 1.75
+      },
+      {
+        "company": "Petrol",
+        "price": 1.77
       },
       {
         "company": "Coral Croatia",
@@ -63,46 +63,46 @@
     "upcoming_premium": null
   },
   "market": {
-    "updated_at": "2026-06-24T08:20:48.464Z",
-    "btc_usd": 62610,
-    "btc_eur": 55213,
-    "btc_change_24h": 0.47,
-    "usd_eur": 0.878
+    "updated_at": "2026-06-25T05:03:00.467Z",
+    "btc_usd": 61211,
+    "btc_eur": 53849,
+    "btc_change_24h": -2.39,
+    "usd_eur": 0.8808
   },
   "ai_news": [
     {
-      "title": "Anthropic rolls out Claude Tag, your new agentic AI coworker in Slack",
-      "link": "https://www.zdnet.com/article/anthropic-claude-tag-agentic-ai-coworker-slack/",
-      "source": "ZDNet"
-    },
-    {
-      "title": "Anthropic launches Claude Tag, an always-on AI teammate that lives in your Slack channels",
-      "link": "https://thenextweb.com/news/anthropic-claude-tag-slack-always-on-ai-teammate",
+      "title": "Gemini 3.5 Flash can now see and control your screen, and Google wants enterprises to trust it",
+      "link": "https://thenextweb.com/news/google-gemini-3-5-flash-computer-use-built-in-tool",
       "source": "The Next Web"
     },
     {
-      "title": "Anthropicov Claude Tag postaje virtualni kolega unutar Slacka",
-      "link": "https://www.bug.hr/tehnologije/anthropicov-claude-tag-postaje-virtualni-kolega-unutar-slacka-60847",
-      "source": "Bug.hr"
+      "title": "OpenAI unveils first custom AI inference chip, Jalapeño, with Broadcom — and its development was sped-up with OpenAI's own models",
+      "link": "https://venturebeat.com/infrastructure/openai-unveils-first-custom-ai-inference-chip-jalapeno-with-broadcom-and-its-development-was-sped-up-with-openais-own-models",
+      "source": "VentureBeat"
     },
     {
-      "title": "Anthropic’s Claude Tag is learning your company, one Slack message at a time",
-      "link": "https://techcrunch.com/2026/06/23/anthropics-claude-tag-is-learning-your-company-one-slack-message-at-a-time/",
-      "source": "TechCrunch AI"
+      "title": "Your enterprise AI agents should automatically remember which model is right for which task. Mindstone built the capability with Rebel",
+      "link": "https://venturebeat.com/orchestration/your-enterprise-ai-agents-should-automatically-remember-which-model-is-right-for-which-task-mindstone-built-the-capability-with-rebel",
+      "source": "VentureBeat"
     },
     {
-      "title": "Anthropic launches Claude Tag, replacing its Slack app with a persistent AI teammate that learns, monitors and works autonomously",
-      "link": "https://venturebeat.com/technology/anthropic-launches-claude-tag-replacing-its-slack-app-with-a-persistent-ai-teammate-that-learns-monitors-and-works-autonomously",
+      "title": "Anthropic accuses Alibaba of running the largest distillation campaign yet against Claude",
+      "link": "https://thenextweb.com/news/anthropic-accuses-alibaba-distillation-claude-qwen",
+      "source": "The Next Web"
+    },
+    {
+      "title": "Xiaomi's HarnessX rewrites its own AI scaffolding mid-task — and smaller models gain the most",
+      "link": "https://venturebeat.com/orchestration/xiaomis-harnessx-rewrites-its-own-ai-scaffolding-mid-task-and-smaller-models-gain-the-most",
       "source": "VentureBeat"
     }
   ],
   "micro_tips": {
     "vscode": {
-      "tip": "Dupliciraj trenutnu liniju ispod",
-      "keys": "Shift+Alt+↓"
+      "tip": "Obriši cijelu liniju odjednom",
+      "keys": "Ctrl+Shift+K"
     },
-    "sql": "Partial index s WHERE klauzulom smanjuje veličinu i ubrzava specifična filtriranja",
-    "oracle": "LISTAGG(col, ',') WITHIN GROUP (ORDER BY col) konkatenira u jedan string",
-    "regex": "(?<ime>\\d{4}) named group — referenciraj s \\k<ime> ili $<ime> u replace"
+    "sql": "GROUP BY s ROLLUP za subtotale u jednom prolasku: GROUP BY ROLLUP(god, mj)",
+    "oracle": "TRUNC(datum_kolona) = TRUNC(SYSDATE) koristi B-tree index na datumskoj koloni",
+    "regex": "\\d{4}-\\d{2}-\\d{2} ISO datum pattern; za validaciju zatvori s ^...$"
   }
 }
