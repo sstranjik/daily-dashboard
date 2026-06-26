@@ -1,7 +1,15 @@
 {
-  "generated_at": "2026-06-25T21:19:56.765Z",
+  "generated_at": "2026-06-26T05:01:13.115Z",
   "stats": {
+    "muzika.hr": {
+      "ok": true,
+      "count": 25
+    },
     "Gavella": {
+      "ok": true,
+      "count": 0
+    },
+    "Lisinski": {
       "ok": true,
       "count": 0
     },
@@ -9,33 +17,25 @@
       "ok": true,
       "count": 12
     },
-    "Lisinski": {
-      "ok": true,
-      "count": 0
-    },
     "Tvornica": {
       "ok": true,
       "count": 3
     },
-    "muzika.hr": {
-      "ok": true,
-      "count": 25
-    },
-    "Komedija": {
+    "ZeKaeM": {
       "ok": true,
       "count": 0
     },
-    "HNK Zagreb": {
-      "ok": true,
-      "count": 36
-    },
-    "ZeKaeM": {
+    "Komedija": {
       "ok": true,
       "count": 0
     },
     "Pogon": {
       "ok": true,
       "count": 0
+    },
+    "HNK Zagreb": {
+      "ok": true,
+      "count": 35
     },
     "Kerempuh": {
       "ok": true,
@@ -1158,6 +1158,21 @@
       "first_seen": "2026-06-23T07:01:12.917Z"
     },
     {
+      "id": "64b232ef83",
+      "title": "Jazz u Močvari: CrashBoomBang, TETSUO",
+      "venue": "Mochvara",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-06-29T20:00:00",
+      "date_display": "pon, 29. 06. 2026.",
+      "time": "20:00",
+      "link": "https://mochvara.hr/event-detail/6a06ee4f3f316fb47b8978f9/?lang=hr",
+      "source": "Mochvara",
+      "is_new": true,
+      "first_seen": "2026-06-26T05:01:13.115Z"
+    },
+    {
       "id": "72b65613bc",
       "title": "Hideout Festival",
       "venue": "Hideout Festival plaža Zrće Pag Srpanj",
@@ -1201,6 +1216,21 @@
       "source": "Mochvara",
       "is_new": false,
       "first_seen": "2026-05-26T20:26:55.235Z"
+    },
+    {
+      "id": "88bf9cd8df",
+      "title": "Industrial koncert: Author & Punisher, King Yosef",
+      "venue": "Mochvara",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-07-01T18:40:00",
+      "date_display": "sri, 01. 07. 2026.",
+      "time": "18:40",
+      "link": "https://mochvara.hr/event-detail/69a6ce5f8f3af0e39b71ab84/?lang=hr",
+      "source": "Mochvara",
+      "is_new": true,
+      "first_seen": "2026-06-26T05:01:13.115Z"
     },
     {
       "id": "9925325530",
@@ -1409,7 +1439,7 @@
       "time": null,
       "link": "https://www.muzika.hr/event/beat/",
       "source": "muzika.hr",
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-06-25T21:19:56.765Z"
     },
     {
@@ -1957,36 +1987,6 @@
   ],
   "abroad": [
     {
-      "id": "2cc75a5373",
-      "title": "Metallica +Pantera + Avatar",
-      "venue": "Budimpešta",
-      "city": "Hungary",
-      "country": "EU",
-      "category": "concert",
-      "date_iso": "2026-06-11T00:00:00",
-      "date_display": "čet, 11. 06. 2026.",
-      "time": null,
-      "link": "https://www.muzika.hr/event/metallica-pantera-avatar/",
-      "source": "muzika.hr",
-      "is_new": false,
-      "first_seen": "2026-05-26T20:26:55.235Z"
-    },
-    {
-      "id": "61839bca48",
-      "title": "Nova Rock Festival",
-      "venue": "Festival Pannonia Fields II Nickelsdorf",
-      "city": "Austria",
-      "country": "EU",
-      "category": "concert",
-      "date_iso": "2026-06-11T00:00:00",
-      "date_display": "čet, 11. 06. 2026.",
-      "time": null,
-      "link": "https://www.muzika.hr/event/nova-rock-festival/",
-      "source": "muzika.hr",
-      "is_new": false,
-      "first_seen": "2026-05-26T20:26:55.235Z"
-    },
-    {
       "id": "560d402b49",
       "title": "KALEO",
       "venue": "KALEO Luka Beograd Beograd",
@@ -2362,5 +2362,5 @@
       "first_seen": "2026-06-25T05:01:14.545Z"
     }
   ],
-  "new_count": 5
+  "new_count": 6
 }
