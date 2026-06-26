@@ -1,15 +1,15 @@
 {
   "version": 2,
-  "date": "2026-06-25",
-  "generated_at": "2026-06-25T08:21:28.003Z",
-  "date_hr": "Četvrtak, 25. lipnja 2026.",
+  "date": "2026-06-26",
+  "generated_at": "2026-06-26T05:02:44.596Z",
+  "date_hr": "Petak, 26. lipnja 2026.",
   "weather": {
     "icon": "🌤️",
-    "summary": "20–33°C, pretežno vedro",
+    "summary": "20–34°C, djelomično oblačno",
     "alerts": []
   },
   "fuel": {
-    "current_date": "25.06.2026",
+    "current_date": "26.06.2026",
     "eurodiesel": [
       {
         "company": "Adria Oil",
@@ -63,46 +63,46 @@
     "upcoming_premium": null
   },
   "market": {
-    "updated_at": "2026-06-25T08:21:28.003Z",
-    "btc_usd": 61663,
-    "btc_eur": 54272,
-    "btc_change_24h": -1.53,
-    "usd_eur": 0.8808
+    "updated_at": "2026-06-26T05:02:44.596Z",
+    "btc_usd": 59811,
+    "btc_eur": 52572,
+    "btc_change_24h": -2.5,
+    "usd_eur": 0.8801
   },
   "ai_news": [
     {
-      "title": "Gemini 3.5 Flash can now see and control your screen, and Google wants enterprises to trust it",
-      "link": "https://thenextweb.com/news/google-gemini-3-5-flash-computer-use-built-in-tool",
+      "title": "Claude is winning over paying consumers in a market ChatGPT has owned, credit card data shows",
+      "link": "https://thenextweb.com/news/anthropic-claude-paying-consumers-growth-chatgpt-indagari",
       "source": "The Next Web"
     },
     {
-      "title": "OpenAI unveils first custom AI inference chip, Jalapeño, with Broadcom — and its development was sped-up with OpenAI's own models",
-      "link": "https://venturebeat.com/infrastructure/openai-unveils-first-custom-ai-inference-chip-jalapeno-with-broadcom-and-its-development-was-sped-up-with-openais-own-models",
+      "title": "Anthropic&#8217;s Claude is winning over paid consumers, a market owned by ChatGPT",
+      "link": "https://techcrunch.com/2026/06/25/anthropics-claude-is-winning-over-paid-consumers-a-market-owned-by-chatgpt/",
+      "source": "TechCrunch AI"
+    },
+    {
+      "title": "OpenAI's updated GPT-5.5 Instant is better at shopping, complex constraints, and understanding user intent  — and it's already in the API",
+      "link": "https://venturebeat.com/technology/openais-updated-gpt-5-5-instant-is-better-at-shopping-complex-constraints-and-understanding-user-intent-and-its-already-in-the-api",
       "source": "VentureBeat"
     },
     {
-      "title": "Your enterprise AI agents should automatically remember which model is right for which task. Mindstone built the capability with Rebel",
-      "link": "https://venturebeat.com/orchestration/your-enterprise-ai-agents-should-automatically-remember-which-model-is-right-for-which-task-mindstone-built-the-capability-with-rebel",
-      "source": "VentureBeat"
-    },
-    {
-      "title": "Anthropic accuses Alibaba of running the largest distillation campaign yet against Claude",
-      "link": "https://thenextweb.com/news/anthropic-accuses-alibaba-distillation-claude-qwen",
+      "title": "Two more Gemini researchers are leaving Google for Anthropic",
+      "link": "https://thenextweb.com/news/google-loses-two-gemini-researchers-anthropic",
       "source": "The Next Web"
     },
     {
-      "title": "Xiaomi's HarnessX rewrites its own AI scaffolding mid-task — and smaller models gain the most",
-      "link": "https://venturebeat.com/orchestration/xiaomis-harnessx-rewrites-its-own-ai-scaffolding-mid-task-and-smaller-models-gain-the-most",
-      "source": "VentureBeat"
+      "title": "OpenAI will delay GPT-5.6 after Trump administration request",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/957372/openai-will-delay-gpt-5-6-after-trump-administration-request",
+      "source": "The Verge"
     }
   ],
   "micro_tips": {
     "vscode": {
-      "tip": "Obriši cijelu liniju odjednom",
-      "keys": "Ctrl+Shift+K"
+      "tip": "Otvori datoteku brzim pretraživanjem",
+      "keys": "Ctrl+P"
     },
-    "sql": "GROUP BY s ROLLUP za subtotale u jednom prolasku: GROUP BY ROLLUP(god, mj)",
-    "oracle": "TRUNC(datum_kolona) = TRUNC(SYSDATE) koristi B-tree index na datumskoj koloni",
-    "regex": "\\d{4}-\\d{2}-\\d{2} ISO datum pattern; za validaciju zatvori s ^...$"
+    "sql": "NOT EXISTS brži od NOT IN kad subquery može vratiti NULL vrijednost",
+    "oracle": "DBMS_STATS.GATHER_TABLE_STATS osvježava statistike za točniji execution plan",
+    "regex": "(?i) inline flag za case-insensitive bez mijenjanja ostatka patternahe"
   }
 }
