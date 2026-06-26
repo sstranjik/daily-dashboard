@@ -1,21 +1,25 @@
 {
-  "generated_at": "2026-06-26T20:01:08.047Z",
+  "generated_at": "2026-06-26T20:25:08.187Z",
   "stats": {
-    "muzika.hr": {
+    "Lisinski": {
       "ok": true,
-      "count": 25
+      "count": 0
     },
     "Gavella": {
       "ok": true,
       "count": 0
     },
-    "Lisinski": {
+    "Mochvara": {
       "ok": true,
-      "count": 0
+      "count": 12
     },
     "Tvornica": {
       "ok": true,
       "count": 3
+    },
+    "muzika.hr": {
+      "ok": true,
+      "count": 25
     },
     "ZeKaeM": {
       "ok": true,
@@ -29,17 +33,13 @@
       "ok": true,
       "count": 35
     },
-    "Kerempuh": {
-      "ok": true,
-      "count": 0
-    },
     "Pogon": {
       "ok": true,
       "count": 0
     },
-    "Mochvara": {
+    "Kerempuh": {
       "ok": true,
-      "count": 12
+      "count": 0
     },
     "Trešnja": {
       "ok": true,
@@ -1398,6 +1398,21 @@
       "first_seen": "2026-06-25T21:19:56.765Z"
     },
     {
+      "id": "c59698ff99",
+      "title": "Biohazard",
+      "venue": "Grada Vukovara 68",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-07-07T00:00:00",
+      "date_display": "uto, 07. 07. 2026.",
+      "time": null,
+      "link": "https://www.muzika.hr/event/biohazard/",
+      "source": "muzika.hr",
+      "is_new": true,
+      "first_seen": "2026-06-26T20:25:08.187Z"
+    },
+    {
       "id": "86cc723186",
       "title": "Jakov Gotovac STANAC Gostovanje u HNK Osijek",
       "venue": "HNK Zagreb",
@@ -2317,5 +2332,5 @@
       "first_seen": "2026-06-25T05:01:14.545Z"
     }
   ],
-  "new_count": 4
+  "new_count": 5
 }
