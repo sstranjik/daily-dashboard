@@ -1,41 +1,41 @@
 {
-  "generated_at": "2026-06-26T20:25:08.187Z",
+  "generated_at": "2026-06-27T05:01:11.759Z",
   "stats": {
-    "Lisinski": {
+    "muzika.hr": {
       "ok": true,
-      "count": 0
+      "count": 25
+    },
+    "Mochvara": {
+      "ok": true,
+      "count": 11
     },
     "Gavella": {
       "ok": true,
       "count": 0
     },
-    "Mochvara": {
+    "Lisinski": {
       "ok": true,
-      "count": 12
-    },
-    "Tvornica": {
-      "ok": true,
-      "count": 3
-    },
-    "muzika.hr": {
-      "ok": true,
-      "count": 25
+      "count": 0
     },
     "ZeKaeM": {
       "ok": true,
       "count": 0
     },
+    "Tvornica": {
+      "ok": true,
+      "count": 3
+    },
     "Komedija": {
+      "ok": true,
+      "count": 0
+    },
+    "Pogon": {
       "ok": true,
       "count": 0
     },
     "HNK Zagreb": {
       "ok": true,
-      "count": 35
-    },
-    "Pogon": {
-      "ok": true,
-      "count": 0
+      "count": 34
     },
     "Kerempuh": {
       "ok": true,
@@ -47,21 +47,6 @@
     }
   },
   "concerts": [
-    {
-      "id": "e4713544dd",
-      "title": "Rijeka Summer Fest 2026",
-      "venue": "Rijeka Summer Fest 2026 Rijeka Rijeka",
-      "city": "Croatia",
-      "country": "HR",
-      "category": "concert",
-      "date_iso": "2026-06-12T00:00:00",
-      "date_display": "pet, 12. 06. 2026.",
-      "time": null,
-      "link": "https://www.muzika.hr/event/rijeka-summer-fest-2026/",
-      "source": "muzika.hr",
-      "is_new": false,
-      "first_seen": "2026-05-26T20:26:55.235Z"
-    },
     {
       "id": "f084780217",
       "title": "Changeover Tour: Inturist, Grgur Visinski, Monica, Vasilije Peranov",
@@ -1263,6 +1248,21 @@
       "first_seen": "2026-05-26T20:26:55.235Z"
     },
     {
+      "id": "71f5b93f58",
+      "title": "Jazz u Močvari: The Kilimanjaro Darkjazz Ensemble, Organza Ray",
+      "venue": "Mochvara",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-07-02T19:30:00",
+      "date_display": "čet, 02. 07. 2026.",
+      "time": "19:30",
+      "link": "https://mochvara.hr/event-detail/69869b06784d60f3acb0a0ad/?lang=hr",
+      "source": "Mochvara",
+      "is_new": true,
+      "first_seen": "2026-06-27T05:01:11.759Z"
+    },
+    {
       "id": "2614234925",
       "title": "Jovanotti",
       "venue": "Jovanotti Arena Pula Flavijevska ulica",
@@ -1409,8 +1409,53 @@
       "time": null,
       "link": "https://www.muzika.hr/event/biohazard/",
       "source": "muzika.hr",
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-06-26T20:25:08.187Z"
+    },
+    {
+      "id": "623421b4e6",
+      "title": "Love International",
+      "venue": "Tisno",
+      "city": "Croatia",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-07-08T00:00:00",
+      "date_display": "sri, 08. 07. 2026.",
+      "time": null,
+      "link": "https://www.muzika.hr/event/love-international/",
+      "source": "muzika.hr",
+      "is_new": true,
+      "first_seen": "2026-06-27T05:01:11.759Z"
+    },
+    {
+      "id": "9752b439a9",
+      "title": "Nigel Kennedy",
+      "venue": "Nigel Kennedy Malo rimsko kazalište Pula",
+      "city": "Croatia",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-07-08T00:00:00",
+      "date_display": "sri, 08. 07. 2026.",
+      "time": null,
+      "link": "https://www.muzika.hr/event/nigel-kennedy/",
+      "source": "muzika.hr",
+      "is_new": true,
+      "first_seen": "2026-06-27T05:01:11.759Z"
+    },
+    {
+      "id": "bd8dc97d97",
+      "title": "Ultra Music Festival",
+      "venue": "Ultra Music Festival Split Split",
+      "city": "Croatia",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-07-10T00:00:00",
+      "date_display": "pet, 10. 07. 2026.",
+      "time": null,
+      "link": "https://www.muzika.hr/event/ultra-music-festival/",
+      "source": "muzika.hr",
+      "is_new": true,
+      "first_seen": "2026-06-27T05:01:11.759Z"
     },
     {
       "id": "86cc723186",
@@ -1957,36 +2002,6 @@
   ],
   "abroad": [
     {
-      "id": "560d402b49",
-      "title": "KALEO",
-      "venue": "KALEO Luka Beograd Beograd",
-      "city": "Serbia",
-      "country": "EU",
-      "category": "concert",
-      "date_iso": "2026-06-12T00:00:00",
-      "date_display": "pet, 12. 06. 2026.",
-      "time": null,
-      "link": "https://www.muzika.hr/event/kaleo/",
-      "source": "muzika.hr",
-      "is_new": false,
-      "first_seen": "2026-05-26T20:26:55.235Z"
-    },
-    {
-      "id": "00d966640c",
-      "title": "18. TRASHBURN american car meeting rock and roll festival",
-      "venue": "Goričanec",
-      "city": "Sv",
-      "country": "EU",
-      "category": "concert",
-      "date_iso": "2026-06-12T00:00:00",
-      "date_display": "pet, 12. 06. 2026.",
-      "time": null,
-      "link": "https://www.muzika.hr/event/18-trashburn-american-car-meeting-rock-and-roll-festival/",
-      "source": "muzika.hr",
-      "is_new": false,
-      "first_seen": "2026-05-26T20:26:55.235Z"
-    },
-    {
       "id": "1f7896bd50",
       "title": "Metallica + Gojira Knocked Loose",
       "venue": "Budimpešta",
@@ -2330,7 +2345,22 @@
       "source": "muzika.hr",
       "is_new": false,
       "first_seen": "2026-06-25T05:01:14.545Z"
+    },
+    {
+      "id": "7fca00bf81",
+      "title": "Molchat Doma",
+      "venue": "Molchat Doma Luka Beograd Beograd",
+      "city": "Serbia",
+      "country": "EU",
+      "category": "concert",
+      "date_iso": "2026-07-07T00:00:00",
+      "date_display": "uto, 07. 07. 2026.",
+      "time": null,
+      "link": "https://www.muzika.hr/event/molchat-doma/",
+      "source": "muzika.hr",
+      "is_new": true,
+      "first_seen": "2026-06-27T05:01:11.759Z"
     }
   ],
-  "new_count": 5
+  "new_count": 9
 }
