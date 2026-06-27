@@ -1,12 +1,17 @@
 {
   "version": 2,
-  "date": "2026-06-26",
-  "generated_at": "2026-06-26T08:29:03.647Z",
-  "date_hr": "Petak, 26. lipnja 2026.",
+  "date": "2026-06-27",
+  "generated_at": "2026-06-27T05:02:55.930Z",
+  "date_hr": "Subota, 27. lipnja 2026.",
   "weather": {
     "icon": "🌤️",
-    "summary": "20–34°C, djelomično oblačno",
-    "alerts": []
+    "summary": "23–35°C, pretežno vedro",
+    "alerts": [
+      {
+        "level": "warning",
+        "text": "Ekstremna vrućina: 35°C"
+      }
+    ]
   },
   "fuel": {
     "current_date": "26.06.2026",
@@ -63,46 +68,46 @@
     "upcoming_premium": null
   },
   "market": {
-    "updated_at": "2026-06-26T08:29:03.647Z",
-    "btc_usd": 60223,
-    "btc_eur": 52848,
-    "btc_change_24h": -2.35,
-    "usd_eur": 0.8801
+    "updated_at": "2026-06-27T05:02:55.930Z",
+    "btc_usd": 60165,
+    "btc_eur": 52813,
+    "btc_change_24h": 0.63,
+    "usd_eur": 0.8778
   },
   "ai_news": [
     {
-      "title": "Claude is winning over paying consumers in a market ChatGPT has owned, credit card data shows",
-      "link": "https://thenextweb.com/news/anthropic-claude-paying-consumers-growth-chatgpt-indagari",
-      "source": "The Next Web"
+      "title": "Usred sigurnosne panike u Washingtonu, OpenAI je predstavio GPT-5.6",
+      "link": "https://www.bug.hr/predstavljanja/usred-sigurnosne-panike-u-washingtonu-openai-je-predstavio-gpt-56-60977",
+      "source": "Bug.hr"
     },
     {
-      "title": "Anthropic&#8217;s Claude is winning over paid consumers, a market owned by ChatGPT",
-      "link": "https://techcrunch.com/2026/06/25/anthropics-claude-is-winning-over-paid-consumers-a-market-owned-by-chatgpt/",
-      "source": "TechCrunch AI"
-    },
-    {
-      "title": "OpenAI's updated GPT-5.5 Instant is better at shopping, complex constraints, and understanding user intent  — and it's already in the API",
-      "link": "https://venturebeat.com/technology/openais-updated-gpt-5-5-instant-is-better-at-shopping-complex-constraints-and-understanding-user-intent-and-its-already-in-the-api",
+      "title": "New agentic memory framework uses 118K tokens per query. LangMem burns through 3.26M.",
+      "link": "https://venturebeat.com/orchestration/new-agentic-memory-framework-uses-118k-tokens-per-query-langmem-burns-through-3-26m",
       "source": "VentureBeat"
     },
     {
-      "title": "Two more Gemini researchers are leaving Google for Anthropic",
-      "link": "https://thenextweb.com/news/google-loses-two-gemini-researchers-anthropic",
+      "title": "OpenAI limits GPT-5.6 rollout after government request, says restrictions shouldn’t be the norm",
+      "link": "https://techcrunch.com/2026/06/26/openai-limits-gpt-5-6-rollout-after-government-request-says-restrictions-shouldnt-be-the-norm/",
+      "source": "TechCrunch AI"
+    },
+    {
+      "title": "OpenAI releases its most powerful AI model to just 20 partners, each one approved by the US government",
+      "link": "https://thenextweb.com/news/openai-gpt-5-6-sol-limited-preview-government-approved-partners",
       "source": "The Next Web"
     },
     {
-      "title": "OpenAI will delay GPT-5.6 after Trump administration request",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/957372/openai-will-delay-gpt-5-6-after-trump-administration-request",
-      "source": "The Verge"
+      "title": "OpenAI unveils GPT-5.6 Sol, Terra and Luna models — but only accessible to limited preview partners for now, per US Gov",
+      "link": "https://venturebeat.com/technology/openai-unveils-gpt-5-6-sol-terra-and-luna-models-but-only-accessible-to-limited-preview-partners-for-now-per-us-gov",
+      "source": "VentureBeat"
     }
   ],
   "micro_tips": {
     "vscode": {
-      "tip": "Otvori datoteku brzim pretraživanjem",
-      "keys": "Ctrl+P"
+      "tip": "Toggle Word Wrap za dugačke linije",
+      "keys": "Alt+Z"
     },
-    "sql": "NOT EXISTS brži od NOT IN kad subquery može vratiti NULL vrijednost",
-    "oracle": "DBMS_STATS.GATHER_TABLE_STATS osvježava statistike za točniji execution plan",
-    "regex": "(?i) inline flag za case-insensitive bez mijenjanja ostatka patternahe"
+    "sql": "Parametrizirani upiti = plan cache reuse + SQL injection zaštita istovremeno",
+    "oracle": "NVL2(expr, kad_nije_null, kad_je_null) kompaktnija od dvostrukog NVL-a",
+    "regex": "\\s+ pokriva space, tab i newline; \\S je negacija (svaki ne-whitespace)"
   }
 }
