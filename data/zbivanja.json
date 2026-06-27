@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-27T08:23:45.950Z",
+  "generated_at": "2026-06-27T09:01:10.280Z",
   "stats": {
     "muzika.hr": {
       "ok": true,
@@ -9,13 +9,13 @@
       "ok": true,
       "count": 0
     },
-    "Mochvara": {
-      "ok": true,
-      "count": 11
-    },
     "Gavella": {
       "ok": true,
       "count": 0
+    },
+    "Mochvara": {
+      "ok": true,
+      "count": 11
     },
     "Tvornica": {
       "ok": true,
@@ -26,8 +26,8 @@
       "count": 0
     },
     "Komedija": {
-      "ok": true,
-      "count": 0
+      "ok": false,
+      "error": "HTTP 500"
     },
     "Pogon": {
       "ok": true,
