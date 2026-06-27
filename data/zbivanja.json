@@ -1,21 +1,17 @@
 {
-  "generated_at": "2026-06-27T19:01:17.424Z",
+  "generated_at": "2026-06-27T20:01:13.363Z",
   "stats": {
     "Mochvara": {
       "ok": true,
-      "count": 0
-    },
-    "Pogon": {
-      "ok": true,
-      "count": 0
-    },
-    "muzika.hr": {
-      "ok": true,
-      "count": 25
+      "count": 11
     },
     "Lisinski": {
       "ok": true,
       "count": 0
+    },
+    "Tvornica": {
+      "ok": true,
+      "count": 3
     },
     "Gavella": {
       "ok": true,
@@ -25,17 +21,9 @@
       "ok": true,
       "count": 0
     },
-    "Tvornica": {
+    "muzika.hr": {
       "ok": true,
-      "count": 3
-    },
-    "Kerempuh": {
-      "ok": true,
-      "count": 0
-    },
-    "Trešnja": {
-      "ok": true,
-      "count": 0
+      "count": 25
     },
     "Komedija": {
       "ok": true,
@@ -44,24 +32,21 @@
     "HNK Zagreb": {
       "ok": true,
       "count": 34
+    },
+    "Kerempuh": {
+      "ok": true,
+      "count": 0
+    },
+    "Pogon": {
+      "ok": true,
+      "count": 0
+    },
+    "Trešnja": {
+      "ok": true,
+      "count": 0
     }
   },
   "concerts": [
-    {
-      "id": "0238665c90",
-      "title": "Alessandro Giaquinto — Rafał Ryterski ⁄ Pett Clausen-Knight — Ivan Končić ⁄ Takuya Sumitomo — Veronika Reutz Drobnić PREKINUTE VEZE Koprodukcija MBZ-a",
-      "venue": "HNK Zagreb",
-      "city": "Zagreb",
-      "country": "HR",
-      "category": "concert",
-      "date_iso": "2026-06-12T19:30:00",
-      "date_display": "pet, 12. 06. 2026.",
-      "time": "19:30",
-      "link": "https://hnk.hr/hr/balet/predstave/prekinute-veze/#12.06.19.30",
-      "source": "HNK Zagreb",
-      "is_new": false,
-      "first_seen": "2026-05-26T20:26:55.235Z"
-    },
     {
       "id": "fc75397bb2",
       "title": "Rokam ja... ROKAONA",
@@ -1428,6 +1413,21 @@
       "first_seen": "2026-06-27T05:01:12.177Z"
     },
     {
+      "id": "d343e35b50",
+      "title": "Rundek Ekipa",
+      "venue": "Rundek Ekipa Šalata Zagreb",
+      "city": "Croatia",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-07-11T00:00:00",
+      "date_display": "sub, 11. 07. 2026.",
+      "time": null,
+      "link": "https://www.muzika.hr/event/rundek-ekipa-2/",
+      "source": "muzika.hr",
+      "is_new": true,
+      "first_seen": "2026-06-27T20:01:13.363Z"
+    },
+    {
       "id": "86cc723186",
       "title": "Jakov Gotovac STANAC Gostovanje u HNK Osijek",
       "venue": "HNK Zagreb",
@@ -1864,21 +1864,6 @@
     }
   ],
   "theater": [
-    {
-      "id": "4c0a4265f3",
-      "title": "Oscar Wilde IDEALAN MUŽ",
-      "venue": "HNK Zagreb",
-      "city": "Zagreb",
-      "country": "HR",
-      "category": "theater",
-      "date_iso": "2026-06-12T19:30:00",
-      "date_display": "pet, 12. 06. 2026.",
-      "time": "19:30",
-      "link": "https://hnk.hr/hr/drama/predstave/idealan-mu%C5%BE/#12.06.19.30",
-      "source": "HNK Zagreb",
-      "is_new": false,
-      "first_seen": "2026-05-26T20:26:55.235Z"
-    },
     {
       "id": "ad0b8bc01d",
       "title": "Oscar Wilde IDEALAN MUŽ Zamjena za predstavu „Sorry” / 𝑍𝑎𝑟𝑢𝑧̌𝑖 𝑘𝑢𝑙𝑡𝑢𝑟𝑛𝑜 - Sveučilište u Zagrebu",
@@ -2332,5 +2317,5 @@
       "first_seen": "2026-06-27T05:01:12.177Z"
     }
   ],
-  "new_count": 4
+  "new_count": 5
 }
