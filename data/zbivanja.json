@@ -1,7 +1,15 @@
 {
-  "generated_at": "2026-06-28T18:01:14.033Z",
+  "generated_at": "2026-06-28T19:01:13.511Z",
   "stats": {
     "Mochvara": {
+      "ok": true,
+      "count": 11
+    },
+    "Lisinski": {
+      "ok": true,
+      "count": 0
+    },
+    "Gavella": {
       "ok": true,
       "count": 0
     },
@@ -9,7 +17,7 @@
       "ok": true,
       "count": 25
     },
-    "Lisinski": {
+    "ZeKaeM": {
       "ok": true,
       "count": 0
     },
@@ -17,11 +25,11 @@
       "ok": true,
       "count": 3
     },
-    "Gavella": {
+    "Komedija": {
       "ok": true,
       "count": 0
     },
-    "Komedija": {
+    "Pogon": {
       "ok": true,
       "count": 0
     },
@@ -30,38 +38,15 @@
       "count": 31
     },
     "Kerempuh": {
-      "ok": false,
-      "error": "fetch failed"
-    },
-    "ZeKaeM": {
-      "ok": false,
-      "error": "fetch failed"
-    },
-    "Pogon": {
-      "ok": false,
-      "error": "fetch failed"
+      "ok": true,
+      "count": 0
     },
     "Trešnja": {
-      "ok": false,
-      "error": "fetch failed"
+      "ok": true,
+      "count": 0
     }
   },
   "concerts": [
-    {
-      "id": "998cacd8e1",
-      "title": "Promocija pjesničke zbirke 'Kolut naprijed' Marije Skočibušić",
-      "venue": "Mochvara",
-      "city": "Zagreb",
-      "country": "HR",
-      "category": "concert",
-      "date_iso": "2026-06-13T19:00:00",
-      "date_display": "sub, 13. 06. 2026.",
-      "time": "19:00",
-      "link": "https://mochvara.hr/event-detail/6a22e223db1e48f749834244/?lang=hr",
-      "source": "Mochvara",
-      "is_new": false,
-      "first_seen": "2026-06-11T05:00:59.583Z"
-    },
     {
       "id": "fca03e674c",
       "title": "Sjemenište: Emo party",
@@ -1203,6 +1188,21 @@
       "first_seen": "2026-06-21T17:01:11.095Z"
     },
     {
+      "id": "e86760508e",
+      "title": "Back to nulte",
+      "venue": "Mochvara",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-07-03T22:00:00",
+      "date_display": "pet, 03. 07. 2026.",
+      "time": "22:00",
+      "link": "https://mochvara.hr/event-detail/6a3a4a2d8e17acf1f580c202/?lang=hr",
+      "source": "Mochvara",
+      "is_new": true,
+      "first_seen": "2026-06-28T19:01:13.511Z"
+    },
+    {
       "id": "614efa4ab9",
       "title": "John Legend",
       "venue": "John Legend Arena Pula Flavijevska ulica",
@@ -2242,5 +2242,5 @@
       "first_seen": "2026-06-28T05:01:15.595Z"
     }
   ],
-  "new_count": 4
+  "new_count": 5
 }
