@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-27T20:46:42.462Z",
+  "generated_at": "2026-06-28T05:01:18.125Z",
   "stats": {
     "muzika.hr": {
       "ok": true,
@@ -9,13 +9,13 @@
       "ok": true,
       "count": 0
     },
-    "Mochvara": {
-      "ok": true,
-      "count": 11
-    },
     "Gavella": {
       "ok": true,
       "count": 0
+    },
+    "Mochvara": {
+      "ok": true,
+      "count": 11
     },
     "Tvornica": {
       "ok": true,
@@ -29,13 +29,13 @@
       "ok": true,
       "count": 0
     },
-    "HNK Zagreb": {
-      "ok": true,
-      "count": 34
-    },
     "Pogon": {
       "ok": true,
       "count": 0
+    },
+    "HNK Zagreb": {
+      "ok": true,
+      "count": 31
     },
     "Kerempuh": {
       "ok": true,
@@ -47,51 +47,6 @@
     }
   },
   "concerts": [
-    {
-      "id": "fc75397bb2",
-      "title": "Rokam ja... ROKAONA",
-      "venue": "Mochvara",
-      "city": "Zagreb",
-      "country": "HR",
-      "category": "concert",
-      "date_iso": "2026-06-12T22:00:00",
-      "date_display": "pet, 12. 06. 2026.",
-      "time": "22:00",
-      "link": "https://mochvara.hr/event-detail/6a27dfef0037e894ca8cb78d/?lang=hr",
-      "source": "Mochvara",
-      "is_new": false,
-      "first_seen": "2026-06-10T05:01:05.518Z"
-    },
-    {
-      "id": "4645fe59ac",
-      "title": "Tricky",
-      "venue": "Grada Vukovara 68",
-      "city": "Zagreb",
-      "country": "HR",
-      "category": "concert",
-      "date_iso": "2026-06-13T00:00:00",
-      "date_display": "sub, 13. 06. 2026.",
-      "time": null,
-      "link": "https://www.muzika.hr/event/tricky/",
-      "source": "muzika.hr",
-      "is_new": false,
-      "first_seen": "2026-05-30T21:06:20.960Z"
-    },
-    {
-      "id": "cd0aed1f94",
-      "title": "Jonathan",
-      "venue": "Jonathan Ljetna pozornica Opatija Opatija",
-      "city": "Croatia",
-      "country": "HR",
-      "category": "concert",
-      "date_iso": "2026-06-13T00:00:00",
-      "date_display": "sub, 13. 06. 2026.",
-      "time": null,
-      "link": "https://www.muzika.hr/event/jonathan-2/",
-      "source": "muzika.hr",
-      "is_new": false,
-      "first_seen": "2026-05-30T21:06:20.960Z"
-    },
     {
       "id": "480640b5b1",
       "title": "HNK2 Offline Club",
@@ -1248,6 +1203,21 @@
       "first_seen": "2026-05-26T20:26:55.235Z"
     },
     {
+      "id": "728f0ac2fc",
+      "title": "Močvarni dnevni boravak: Planet zabave: Društvene igre i ekipa",
+      "venue": "Mochvara",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-07-03T17:30:00",
+      "date_display": "pet, 03. 07. 2026.",
+      "time": "17:30",
+      "link": "https://mochvara.hr/event-detail/6a352edcad796c9981d8e685/?lang=hr",
+      "source": "Mochvara",
+      "is_new": true,
+      "first_seen": "2026-06-28T05:01:18.125Z"
+    },
+    {
       "id": "5190bbb0a4",
       "title": "HNK u Zagrebu na Zagreb Classicu Golden Age: Lawrence Brownlee i Erin Morley uz Orkestar i Zbor Opere HNK u Zagrebu",
       "venue": "HNK Zagreb",
@@ -1957,36 +1927,6 @@
   ],
   "abroad": [
     {
-      "id": "1f7896bd50",
-      "title": "Metallica + Gojira Knocked Loose",
-      "venue": "Budimpešta",
-      "city": "Hungary",
-      "country": "EU",
-      "category": "concert",
-      "date_iso": "2026-06-13T00:00:00",
-      "date_display": "sub, 13. 06. 2026.",
-      "time": null,
-      "link": "https://www.muzika.hr/event/metallica-gojira-knocked-loose/",
-      "source": "muzika.hr",
-      "is_new": false,
-      "first_seen": "2026-05-26T20:26:55.235Z"
-    },
-    {
-      "id": "957effa46d",
-      "title": "Goblini",
-      "venue": "Goblini Luka Beograd Beograd",
-      "city": "Serbia",
-      "country": "EU",
-      "category": "concert",
-      "date_iso": "2026-06-13T00:00:00",
-      "date_display": "sub, 13. 06. 2026.",
-      "time": null,
-      "link": "https://www.muzika.hr/event/goblini/",
-      "source": "muzika.hr",
-      "is_new": false,
-      "first_seen": "2026-05-26T20:26:55.235Z"
-    },
-    {
       "id": "beb14d6f57",
       "title": "Three Days Grace",
       "venue": "Gospodarsko razstavišče Dunajska Cesta 18",
@@ -2315,7 +2255,37 @@
       "source": "muzika.hr",
       "is_new": false,
       "first_seen": "2026-06-27T05:01:12.177Z"
+    },
+    {
+      "id": "378fb9bcde",
+      "title": "The Damned",
+      "venue": "Kino Šiška Trg Prekomorskih brigad 3",
+      "city": "Ljubljana",
+      "country": "SI",
+      "category": "concert",
+      "date_iso": "2026-07-11T00:00:00",
+      "date_display": "sub, 11. 07. 2026.",
+      "time": null,
+      "link": "https://www.muzika.hr/event/the-damned/",
+      "source": "muzika.hr",
+      "is_new": true,
+      "first_seen": "2026-06-28T05:01:18.125Z"
+    },
+    {
+      "id": "9acbb8bf3f",
+      "title": "Kneecap",
+      "venue": "Kino Šiška Trg Prekomorskih brigad 3",
+      "city": "Ljubljana",
+      "country": "SI",
+      "category": "concert",
+      "date_iso": "2026-07-13T00:00:00",
+      "date_display": "pon, 13. 07. 2026.",
+      "time": null,
+      "link": "https://www.muzika.hr/event/kneecap/",
+      "source": "muzika.hr",
+      "is_new": true,
+      "first_seen": "2026-06-28T05:01:18.125Z"
     }
   ],
-  "new_count": 4
+  "new_count": 7
 }
