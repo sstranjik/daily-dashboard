@@ -1,14 +1,6 @@
 {
-  "generated_at": "2026-06-28T19:11:07.026Z",
+  "generated_at": "2026-06-28T20:01:09.807Z",
   "stats": {
-    "Mochvara": {
-      "ok": true,
-      "count": 0
-    },
-    "Pogon": {
-      "ok": true,
-      "count": 0
-    },
     "muzika.hr": {
       "ok": true,
       "count": 25
@@ -17,11 +9,11 @@
       "ok": true,
       "count": 0
     },
-    "Gavella": {
+    "Mochvara": {
       "ok": true,
-      "count": 0
+      "count": 11
     },
-    "ZeKaeM": {
+    "Gavella": {
       "ok": true,
       "count": 0
     },
@@ -29,7 +21,7 @@
       "ok": true,
       "count": 3
     },
-    "Kerempuh": {
+    "ZeKaeM": {
       "ok": true,
       "count": 0
     },
@@ -37,13 +29,21 @@
       "ok": true,
       "count": 0
     },
-    "Trešnja": {
-      "ok": true,
-      "count": 0
-    },
     "HNK Zagreb": {
       "ok": true,
       "count": 31
+    },
+    "Pogon": {
+      "ok": true,
+      "count": 0
+    },
+    "Kerempuh": {
+      "ok": true,
+      "count": 0
+    },
+    "Trešnja": {
+      "ok": true,
+      "count": 0
     }
   },
   "concerts": [
@@ -1199,7 +1199,7 @@
       "time": "22:00",
       "link": "https://mochvara.hr/event-detail/6a3a4a2d8e17acf1f580c202/?lang=hr",
       "source": "Mochvara",
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-06-28T19:01:13.511Z"
     },
     {
@@ -2242,5 +2242,5 @@
       "first_seen": "2026-06-28T05:01:15.595Z"
     }
   ],
-  "new_count": 5
+  "new_count": 4
 }
