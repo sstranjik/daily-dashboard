@@ -1,15 +1,15 @@
 {
   "version": 2,
-  "date": "2026-06-27",
-  "generated_at": "2026-06-27T07:46:22.395Z",
-  "date_hr": "Subota, 27. lipnja 2026.",
+  "date": "2026-06-28",
+  "generated_at": "2026-06-28T05:02:52.925Z",
+  "date_hr": "Nedjelja, 28. lipnja 2026.",
   "weather": {
     "icon": "🌤️",
-    "summary": "23–35°C, pretežno vedro",
+    "summary": "22–36°C, pretežno vedro",
     "alerts": [
       {
         "level": "warning",
-        "text": "Ekstremna vrućina: 35°C"
+        "text": "Ekstremna vrućina: 36°C"
       }
     ]
   },
@@ -68,46 +68,46 @@
     "upcoming_premium": null
   },
   "market": {
-    "updated_at": "2026-06-27T07:46:22.395Z",
-    "btc_usd": 60385,
-    "btc_eur": 53018,
-    "btc_change_24h": -0.09,
-    "usd_eur": 0.8778
+    "updated_at": "2026-06-28T05:02:52.925Z",
+    "btc_usd": 60050,
+    "btc_eur": 52724,
+    "btc_change_24h": -0.16,
+    "usd_eur": 0.878
   },
   "ai_news": [
     {
-      "title": "Usred sigurnosne panike u Washingtonu, OpenAI je predstavio GPT-5.6",
-      "link": "https://www.bug.hr/predstavljanja/usred-sigurnosne-panike-u-washingtonu-openai-je-predstavio-gpt-56-60977",
-      "source": "Bug.hr"
-    },
-    {
-      "title": "New agentic memory framework uses 118K tokens per query. LangMem burns through 3.26M.",
-      "link": "https://venturebeat.com/orchestration/new-agentic-memory-framework-uses-118k-tokens-per-query-langmem-burns-through-3-26m",
+      "title": "Claude Code turned every engineer into three. Now companies need more product thinkers",
+      "link": "https://venturebeat.com/infrastructure/claude-code-turned-every-engineer-into-three-now-companies-need-more-product-thinkers",
       "source": "VentureBeat"
     },
     {
-      "title": "OpenAI limits GPT-5.6 rollout after government request, says restrictions shouldn’t be the norm",
-      "link": "https://techcrunch.com/2026/06/26/openai-limits-gpt-5-6-rollout-after-government-request-says-restrictions-shouldnt-be-the-norm/",
+      "title": "Apple Vision Pro exec is reportedly leaving for OpenAI",
+      "link": "https://techcrunch.com/2026/06/27/apple-vision-pro-exec-is-reportedly-leaving-for-openai/",
       "source": "TechCrunch AI"
     },
     {
-      "title": "OpenAI releases its most powerful AI model to just 20 partners, each one approved by the US government",
-      "link": "https://thenextweb.com/news/openai-gpt-5-6-sol-limited-preview-government-approved-partners",
+      "title": "The fittest founder in the room got cancer. Here&#8217;s how he used AI to fight back.",
+      "link": "https://techcrunch.com/2026/06/27/the-fittest-founder-in-the-room-got-cancer-heres-how-he-used-ai-to-fight-back/",
+      "source": "TechCrunch AI"
+    },
+    {
+      "title": "OpenAI poaches Uber India’s chief to run its biggest market outside the United States",
+      "link": "https://thenextweb.com/news/openai-india-managing-director-prabhjeet-singh-uber",
       "source": "The Next Web"
     },
     {
-      "title": "OpenAI unveils GPT-5.6 Sol, Terra and Luna models — but only accessible to limited preview partners for now, per US Gov",
-      "link": "https://venturebeat.com/technology/openai-unveils-gpt-5-6-sol-terra-and-luna-models-but-only-accessible-to-limited-preview-partners-for-now-per-us-gov",
-      "source": "VentureBeat"
+      "title": "A Tokyo startup and a Beijing security firm just launched AI tools to fill the gap Anthropic’s export ban created",
+      "link": "https://thenextweb.com/news/asian-ai-startups-mythos-alternatives-anthropic-export-ban",
+      "source": "The Next Web"
     }
   ],
   "micro_tips": {
     "vscode": {
-      "tip": "Toggle Word Wrap za dugačke linije",
-      "keys": "Alt+Z"
+      "tip": "Nađi i selektiraj sljedeće pojavljivanje",
+      "keys": "Ctrl+D"
     },
-    "sql": "Parametrizirani upiti = plan cache reuse + SQL injection zaštita istovremeno",
-    "oracle": "NVL2(expr, kad_nije_null, kad_je_null) kompaktnija od dvostrukog NVL-a",
-    "regex": "\\s+ pokriva space, tab i newline; \\S je negacija (svaki ne-whitespace)"
+    "sql": "Batch INSERT umjesto jednog-po-jednog: INSERT INTO t VALUES (...),(...),...",
+    "oracle": "FETCH FIRST n ROWS ONLY umjesto ROWNUM — kompatibilno s ORDER BY i čitljivije",
+    "regex": "^(?!.*pattern) negative lookahead: \"ova linija ne smije sadržavati X\""
   }
 }
