@@ -1,14 +1,6 @@
 {
-  "generated_at": "2026-06-29T14:01:17.574Z",
+  "generated_at": "2026-06-29T14:40:45.524Z",
   "stats": {
-    "Mochvara": {
-      "ok": true,
-      "count": 0
-    },
-    "muzika.hr": {
-      "ok": true,
-      "count": 25
-    },
     "Gavella": {
       "ok": true,
       "count": 0
@@ -17,11 +9,27 @@
       "ok": true,
       "count": 0
     },
+    "Mochvara": {
+      "ok": true,
+      "count": 11
+    },
     "Tvornica": {
       "ok": true,
       "count": 3
     },
+    "muzika.hr": {
+      "ok": true,
+      "count": 25
+    },
     "Komedija": {
+      "ok": true,
+      "count": 0
+    },
+    "ZeKaeM": {
+      "ok": true,
+      "count": 0
+    },
+    "Pogon": {
       "ok": true,
       "count": 0
     },
@@ -29,21 +37,13 @@
       "ok": true,
       "count": 17
     },
-    "ZeKaeM": {
-      "ok": false,
-      "error": "fetch failed"
+    "Kerempuh": {
+      "ok": true,
+      "count": 0
     },
     "Trešnja": {
-      "ok": false,
-      "error": "fetch failed"
-    },
-    "Pogon": {
-      "ok": false,
-      "error": "fetch failed"
-    },
-    "Kerempuh": {
-      "ok": false,
-      "error": "fetch failed"
+      "ok": true,
+      "count": 0
     }
   },
   "concerts": [
@@ -931,6 +931,21 @@
       "source": "Mochvara",
       "is_new": false,
       "first_seen": "2026-05-26T20:26:55.235Z"
+    },
+    {
+      "id": "7a79b5ff76",
+      "title": "Močvarni birc: Avangardno i ambijentalno",
+      "venue": "Mochvara",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-07-01T17:00:00",
+      "date_display": "sri, 01. 07. 2026.",
+      "time": "17:00",
+      "link": "https://mochvara.hr/event-detail/6a4272832a44f705ffc18144/?lang=hr",
+      "source": "Mochvara",
+      "is_new": true,
+      "first_seen": "2026-06-29T14:40:45.524Z"
     },
     {
       "id": "88bf9cd8df",
@@ -2197,5 +2212,5 @@
       "first_seen": "2026-06-29T05:01:11.752Z"
     }
   ],
-  "new_count": 4
+  "new_count": 5
 }
