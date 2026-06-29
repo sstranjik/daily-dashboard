@@ -1,25 +1,29 @@
 {
-  "generated_at": "2026-06-29T09:23:36.556Z",
+  "generated_at": "2026-06-29T10:01:15.015Z",
   "stats": {
-    "Mochvara": {
+    "Lisinski": {
       "ok": true,
       "count": 0
-    },
-    "muzika.hr": {
-      "ok": true,
-      "count": 25
     },
     "Gavella": {
       "ok": true,
       "count": 0
     },
-    "Lisinski": {
+    "ZeKaeM": {
       "ok": true,
       "count": 0
+    },
+    "Mochvara": {
+      "ok": true,
+      "count": 11
     },
     "Tvornica": {
       "ok": true,
       "count": 3
+    },
+    "muzika.hr": {
+      "ok": true,
+      "count": 25
     },
     "Komedija": {
       "ok": true,
@@ -29,21 +33,17 @@
       "ok": true,
       "count": 29
     },
-    "ZeKaeM": {
-      "ok": false,
-      "error": "fetch failed"
-    },
     "Kerempuh": {
-      "ok": false,
-      "error": "fetch failed"
+      "ok": true,
+      "count": 0
     },
     "Pogon": {
-      "ok": false,
-      "error": "fetch failed"
+      "ok": true,
+      "count": 0
     },
     "Trešnja": {
-      "ok": false,
-      "error": "fetch failed"
+      "ok": true,
+      "count": 0
     }
   },
   "concerts": [
@@ -901,6 +901,21 @@
       "source": "muzika.hr",
       "is_new": false,
       "first_seen": "2026-06-15T05:01:11.817Z"
+    },
+    {
+      "id": "7eae44635f",
+      "title": "Močvarni birc: Shoegaze & Dream Pop slušaonica",
+      "venue": "Mochvara",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-06-30T17:00:00",
+      "date_display": "uto, 30. 06. 2026.",
+      "time": "17:00",
+      "link": "https://mochvara.hr/event-detail/6a423b7ff876d936783bd911/?lang=hr",
+      "source": "Mochvara",
+      "is_new": true,
+      "first_seen": "2026-06-29T10:01:15.015Z"
     },
     {
       "id": "ed9d082457",
@@ -2197,5 +2212,5 @@
       "first_seen": "2026-06-29T05:01:11.752Z"
     }
   ],
-  "new_count": 4
+  "new_count": 5
 }
