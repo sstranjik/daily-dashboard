@@ -1,15 +1,15 @@
 {
   "version": 2,
-  "date": "2026-06-29",
-  "generated_at": "2026-06-29T09:25:20.852Z",
-  "date_hr": "Ponedjeljak, 29. lipnja 2026.",
+  "date": "2026-06-30",
+  "generated_at": "2026-06-30T05:02:56.793Z",
+  "date_hr": "Utorak, 30. lipnja 2026.",
   "weather": {
-    "icon": "🌤️",
-    "summary": "24–36°C, djelomično oblačno",
+    "icon": "☁️",
+    "summary": "23–35°C, oblačno",
     "alerts": [
       {
         "level": "warning",
-        "text": "Ekstremna vrućina: 36°C"
+        "text": "Ekstremna vrućina: 35°C"
       }
     ]
   },
@@ -68,46 +68,46 @@
     "upcoming_premium": null
   },
   "market": {
-    "updated_at": "2026-06-29T09:25:20.852Z",
-    "btc_usd": 59866,
-    "btc_eur": 52521,
-    "btc_change_24h": -0.65,
-    "usd_eur": 0.8782
+    "updated_at": "2026-06-30T05:02:56.793Z",
+    "btc_usd": 59413,
+    "btc_eur": 52166,
+    "btc_change_24h": -0.39,
+    "usd_eur": 0.876
   },
   "ai_news": [
     {
-      "title": "Prompt injection is exploiting enterprise AI's biggest design flaws by targeting agents, RAG pipelines and model routers",
-      "link": "https://venturebeat.com/security/prompt-injection-is-exploiting-enterprise-ais-biggest-design-flaws-by-targeting-agents-rag-pipelines-and-model-routers",
+      "title": "DeepSeek open sources DSpark, a new framework to speed up LLM inference by up to 85%",
+      "link": "https://venturebeat.com/orchestration/deepseek-open-sources-dspark-a-new-framework-to-speed-up-llm-inference-by-up-to-85",
       "source": "VentureBeat"
     },
     {
-      "title": "China’s Z.ai claims it can match Mythos on cybersecurity",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/958804/chinas-z-ai-glm-52-mythos-cybersecurity",
+      "title": "Anthropic and Gov. Newsom forge deal allowing California government to use Claude at half price",
+      "link": "https://techcrunch.com/2026/06/29/anthropic-and-gov-newsom-forge-deal-allowing-california-government-to-use-claude-at-half-price/",
+      "source": "TechCrunch AI"
+    },
+    {
+      "title": "Amazon seeks cheaper AI alternatives as Anthropic shifts to token-based pricing",
+      "link": "https://thenextweb.com/news/amazon-anthropic-token-pricing-openai-alternative",
+      "source": "The Next Web"
+    },
+    {
+      "title": "California gives all state agencies access to Claude at half price in first-of-its-kind Anthropic deal",
+      "link": "https://thenextweb.com/news/anthropic-california-newsom-claude-half-price-government",
+      "source": "The Next Web"
+    },
+    {
+      "title": "Lawmakers want to ban AI companies from selling your health data",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/959033/health-location-data-protection-act-ai-warren-scanlon",
       "source": "The Verge"
-    },
-    {
-      "title": "Salesforce employees are confused about why the company is promoting a competitor inside Slack",
-      "link": "https://thenextweb.com/news/salesforce-employees-anthropic-claude-tag-slack-tension",
-      "source": "The Next Web"
-    },
-    {
-      "title": "Treba dovesti Anthropic u Europu, predlažu Austrijanci",
-      "link": "https://www.tportal.hr/tehno/clanak/treba-dovesti-anthropic-u-europu-predlazu-austrijanci-20260629",
-      "source": "Tportal"
-    },
-    {
-      "title": "Ex-Anthropic researchers raise $200M for self-improving AI",
-      "link": "https://thenextweb.com/news/mirendil-200m-seed-ai-research",
-      "source": "The Next Web"
     }
   ],
   "micro_tips": {
     "vscode": {
-      "tip": "Multi-cursor: postavi cursor na više mjesta istovremeno",
-      "keys": "Alt+Click"
+      "tip": "Command Palette: brzi pristup svim komandama",
+      "keys": "Ctrl+Shift+P"
     },
-    "sql": "EXISTS umjesto IN za subqueries — brže jer stane na prvom podudaranju: WHERE EXISTS (SELECT 1 FROM ...)",
-    "oracle": "/*+ INDEX(t ime_indexa) */ forsira specifičan index kad optimizer bira full scan",
-    "regex": "\\b granica riječi: \\bword\\b podudara cijelu riječ, ne \"password\" ili \"swordfish\""
+    "sql": "Nikad SELECT * u produkciji — navedi kolone, manji I/O i bolji cache plan",
+    "oracle": "/*+ PARALLEL(t 4) */ paralelno izvršavanje querija na N thread-ova",
+    "regex": "(?:group) non-capturing group: grupiraj bez pamćenja za veće performanse"
   }
 }
