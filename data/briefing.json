@@ -1,57 +1,61 @@
 {
   "version": 2,
-  "date": "2026-06-30",
-  "generated_at": "2026-06-30T08:27:26.630Z",
-  "date_hr": "Utorak, 30. lipnja 2026.",
+  "date": "2026-07-01",
+  "generated_at": "2026-07-01T05:02:46.552Z",
+  "date_hr": "Srijeda, 1. srpnja 2026.",
   "weather": {
-    "icon": "☁️",
-    "summary": "23–36°C, oblačno",
+    "icon": "⛈️",
+    "summary": "20–33°C, jaka grmljavina · 58.9 mm, vjetar 26 km/h",
     "alerts": [
       {
         "level": "warning",
-        "text": "Ekstremna vrućina: 36°C"
+        "text": "Obilne padaline: 58.9 mm"
+      },
+      {
+        "level": "warning",
+        "text": "Grmljavinska oluja"
       }
     ]
   },
   "fuel": {
-    "current_date": "26.06.2026",
+    "current_date": "01.07.2026",
     "eurodiesel": [
       {
         "company": "Adria Oil",
-        "price": 1.59
-      },
-      {
-        "company": "Coral Croatia",
-        "price": 1.59
+        "price": 1.54
       },
       {
         "company": "INA",
-        "price": 1.59
+        "price": 1.54
       },
       {
         "company": "LUKOIL Croatia",
-        "price": 1.59
+        "price": 1.54
       },
       {
         "company": "Petrol",
-        "price": 1.59
+        "price": 1.54
       },
       {
         "company": "Tifon",
+        "price": 1.54
+      },
+      {
+        "company": "Coral Croatia",
         "price": 1.59
       }
     ],
     "premium_eurodiesel": [
       {
-        "company": "INA",
+        "company": "LUKOIL Croatia",
         "price": 1.7
+      },
+      {
+        "company": "INA",
+        "price": 1.75
       },
       {
         "company": "Tifon",
-        "price": 1.7
-      },
-      {
-        "company": "LUKOIL Croatia",
         "price": 1.75
       },
       {
@@ -60,7 +64,7 @@
       },
       {
         "company": "Coral Croatia",
-        "price": 1.85
+        "price": 1.8
       }
     ],
     "upcoming_date": null,
@@ -68,46 +72,46 @@
     "upcoming_premium": null
   },
   "market": {
-    "updated_at": "2026-06-30T08:27:26.630Z",
-    "btc_usd": 59329,
-    "btc_eur": 52081,
-    "btc_change_24h": -0.7,
-    "usd_eur": 0.876
+    "updated_at": "2026-07-01T05:02:46.552Z",
+    "btc_usd": 59226,
+    "btc_eur": 51914,
+    "btc_change_24h": -0.29,
+    "usd_eur": 0.8766
   },
   "ai_news": [
     {
-      "title": "DeepSeek open sources DSpark, a new framework to speed up LLM inference by up to 85%",
-      "link": "https://venturebeat.com/orchestration/deepseek-open-sources-dspark-a-new-framework-to-speed-up-llm-inference-by-up-to-85",
-      "source": "VentureBeat"
-    },
-    {
-      "title": "Anthropic and Gov. Newsom forge deal allowing California government to use Claude at half price",
-      "link": "https://techcrunch.com/2026/06/29/anthropic-and-gov-newsom-forge-deal-allowing-california-government-to-use-claude-at-half-price/",
+      "title": "Anthropic launches Claude Sonnet 5 as a cheaper way to run agents",
+      "link": "https://techcrunch.com/2026/06/30/anthropic-launches-claude-sonnet-5-as-a-cheaper-way-to-run-agents/",
       "source": "TechCrunch AI"
     },
     {
-      "title": "Meituan open sources LongCat-2.0, the 1.6T, near-frontier agentic coding model that's been leading OpenRouter — trained entirely on Chinese chips",
-      "link": "https://venturebeat.com/technology/meituan-open-sources-longcat-2-0-the-1-6t-near-frontier-agentic-coding-model-thats-been-leading-openrouter-trained-entirely-on-chinese-chips",
-      "source": "VentureBeat"
-    },
-    {
-      "title": "Amazon seeks cheaper AI alternatives as Anthropic shifts to token-based pricing",
-      "link": "https://thenextweb.com/news/amazon-anthropic-token-pricing-openai-alternative",
+      "title": "Anthropic launches Claude Sonnet 5, a cheaper way to run agents",
+      "link": "https://thenextweb.com/news/anthropic-claude-sonnet-5-agentic-model-pricing",
       "source": "The Next Web"
     },
     {
-      "title": "California gives all state agencies access to Claude at half price in first-of-its-kind Anthropic deal",
-      "link": "https://thenextweb.com/news/anthropic-california-newsom-claude-half-price-government",
+      "title": "Anthropic launches Claude Science, an AI workbench for the lab",
+      "link": "https://thenextweb.com/news/anthropic-claude-science-ai-workbench-scientists",
+      "source": "The Next Web"
+    },
+    {
+      "title": "Anthropic launches Claude Sonnet 5 at a steep discount to its top model as the company races toward a blockbuster IPO",
+      "link": "https://venturebeat.com/technology/anthropic-launches-claude-sonnet-5-at-a-steep-discount-to-its-top-model-as-the-company-races-toward-a-blockbuster-ipo",
+      "source": "VentureBeat"
+    },
+    {
+      "title": "Meta is telling engineers to handle Claude Code and Codex with care",
+      "link": "https://thenextweb.com/news/meta-restricts-claude-code-codex-distillation",
       "source": "The Next Web"
     }
   ],
   "micro_tips": {
     "vscode": {
-      "tip": "Command Palette: brzi pristup svim komandama",
-      "keys": "Ctrl+Shift+P"
+      "tip": "Rename Symbol svuda u projektu (refactoring)",
+      "keys": "F2"
     },
-    "sql": "Nikad SELECT * u produkciji — navedi kolone, manji I/O i bolji cache plan",
-    "oracle": "/*+ PARALLEL(t 4) */ paralelno izvršavanje querija na N thread-ova",
-    "regex": "(?:group) non-capturing group: grupiraj bez pamćenja za veće performanse"
+    "sql": "Covering index: uključi sve kolone iz WHERE + SELECT u index pa nema pristupa tablici",
+    "oracle": "/*+ NO_MERGE(v) */ sprječava merging inline viewa s parent queryjem",
+    "regex": "(?=pattern) lookahead: \"iza ovog mora slijediti X\" bez konzumiranja znakova"
   }
 }
