@@ -1,11 +1,19 @@
 {
-  "generated_at": "2026-06-30T20:49:24.570Z",
+  "generated_at": "2026-07-01T05:01:19.177Z",
   "stats": {
+    "Mochvara": {
+      "ok": true,
+      "count": 0
+    },
+    "Pogon": {
+      "ok": true,
+      "count": 0
+    },
     "muzika.hr": {
       "ok": true,
       "count": 25
     },
-    "Gavella": {
+    "ZeKaeM": {
       "ok": true,
       "count": 0
     },
@@ -13,15 +21,19 @@
       "ok": true,
       "count": 0
     },
+    "Gavella": {
+      "ok": true,
+      "count": 0
+    },
+    "Kerempuh": {
+      "ok": true,
+      "count": 0
+    },
     "Tvornica": {
       "ok": true,
       "count": 3
     },
-    "Mochvara": {
-      "ok": true,
-      "count": 11
-    },
-    "ZeKaeM": {
+    "Trešnja": {
       "ok": true,
       "count": 0
     },
@@ -31,52 +43,10 @@
     },
     "HNK Zagreb": {
       "ok": true,
-      "count": 27
-    },
-    "Pogon": {
-      "ok": true,
-      "count": 0
-    },
-    "Kerempuh": {
-      "ok": true,
-      "count": 0
-    },
-    "Trešnja": {
-      "ok": true,
-      "count": 0
+      "count": 26
     }
   },
   "concerts": [
-    {
-      "id": "2f36c1e4e2",
-      "title": "Sarcofago, Buzzsaw, Bezdan Utorak 16.6.2026.",
-      "venue": "Mochvara",
-      "city": "Zagreb",
-      "country": "HR",
-      "category": "concert",
-      "date_iso": "2026-06-16T00:00:00",
-      "date_display": "uto, 16. 06. 2026.",
-      "time": null,
-      "link": "https://mochvara.hr/event-detail/69b3dfe9805f9451ed5c1957/?lang=hr",
-      "source": "Mochvara",
-      "is_new": false,
-      "first_seen": "2026-06-05T19:28:14.316Z"
-    },
-    {
-      "id": "eacc034cd1",
-      "title": "A Perfect Circle",
-      "venue": "A Perfect Circle Šalata Zagreb",
-      "city": "Croatia",
-      "country": "HR",
-      "category": "concert",
-      "date_iso": "2026-06-16T00:00:00",
-      "date_display": "uto, 16. 06. 2026.",
-      "time": null,
-      "link": "https://www.muzika.hr/event/a-perfect-circle/",
-      "source": "muzika.hr",
-      "is_new": false,
-      "first_seen": "2026-06-15T12:01:12.080Z"
-    },
     {
       "id": "52cd02de10",
       "title": "Black/thrash metal koncert: Sarcofago, Buzzsaw, Bezdan",
@@ -1702,36 +1672,6 @@
   ],
   "abroad": [
     {
-      "id": "beb14d6f57",
-      "title": "Three Days Grace",
-      "venue": "Gospodarsko razstavišče Dunajska Cesta 18",
-      "city": "Ljubljana",
-      "country": "SI",
-      "category": "concert",
-      "date_iso": "2026-06-16T00:00:00",
-      "date_display": "uto, 16. 06. 2026.",
-      "time": null,
-      "link": "https://www.muzika.hr/event/three-days-grace-2/",
-      "source": "muzika.hr",
-      "is_new": false,
-      "first_seen": "2026-06-01T05:00:53.300Z"
-    },
-    {
-      "id": "f2e85fffef",
-      "title": "Ricky Martin",
-      "venue": "Ricky Martin Belgrade",
-      "city": "Serbia",
-      "country": "EU",
-      "category": "concert",
-      "date_iso": "2026-06-16T00:00:00",
-      "date_display": "uto, 16. 06. 2026.",
-      "time": null,
-      "link": "https://www.muzika.hr/event/ricky-martin-2/",
-      "source": "muzika.hr",
-      "is_new": false,
-      "first_seen": "2026-06-01T05:00:53.300Z"
-    },
-    {
       "id": "e39305acdf",
       "title": "Lenny Kravitz",
       "venue": "Nikole Tesle bb",
@@ -2090,7 +2030,22 @@
       "source": "muzika.hr",
       "is_new": true,
       "first_seen": "2026-06-30T18:01:18.202Z"
+    },
+    {
+      "id": "727f91db0e",
+      "title": "Morrissey",
+      "venue": "Ljubljana",
+      "city": "Slovenia",
+      "country": "EU",
+      "category": "concert",
+      "date_iso": "2026-07-15T00:00:00",
+      "date_display": "sri, 15. 07. 2026.",
+      "time": null,
+      "link": "https://www.muzika.hr/event/morrissey-3/",
+      "source": "muzika.hr",
+      "is_new": true,
+      "first_seen": "2026-07-01T05:01:19.177Z"
     }
   ],
-  "new_count": 5
+  "new_count": 6
 }
