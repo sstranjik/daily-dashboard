@@ -1,13 +1,9 @@
 {
-  "generated_at": "2026-07-02T11:01:20.410Z",
+  "generated_at": "2026-07-02T11:24:48.837Z",
   "stats": {
     "muzika.hr": {
       "ok": true,
       "count": 25
-    },
-    "Gavella": {
-      "ok": true,
-      "count": 0
     },
     "Lisinski": {
       "ok": true,
@@ -17,27 +13,31 @@
       "ok": true,
       "count": 10
     },
+    "Tvornica": {
+      "ok": true,
+      "count": 3
+    },
+    "Komedija": {
+      "ok": false,
+      "error": "HTTP 500"
+    },
+    "Gavella": {
+      "ok": true,
+      "count": 0
+    },
     "ZeKaeM": {
       "ok": true,
       "count": 0
     },
-    "Tvornica": {
+    "Pogon": {
       "ok": true,
-      "count": 3
+      "count": 0
     },
     "HNK Zagreb": {
       "ok": true,
       "count": 35
     },
-    "Komedija": {
-      "ok": true,
-      "count": 0
-    },
     "Kerempuh": {
-      "ok": true,
-      "count": 0
-    },
-    "Pogon": {
       "ok": true,
       "count": 0
     },
@@ -1634,7 +1634,7 @@
       "time": "19:30",
       "link": "https://hnk.hr/hr/balet/predstave/rossini-cards-kazimirs-colours/#05.10.19.30",
       "source": "HNK Zagreb",
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-07-02T11:01:20.410Z"
     },
     {
@@ -1649,7 +1649,7 @@
       "time": "19:30",
       "link": "https://hnk.hr/hr/opera/predstave/stanac/#05.10.19.30",
       "source": "HNK Zagreb",
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-07-02T11:01:20.410Z"
     },
     {
@@ -1664,7 +1664,7 @@
       "time": "19:30",
       "link": "https://hnk.hr/hr/opera/predstave/stanac/#07.10.19.30",
       "source": "HNK Zagreb",
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-07-02T11:01:20.410Z"
     },
     {
@@ -1679,7 +1679,7 @@
       "time": "19:30",
       "link": "https://hnk.hr/hr/opera/predstave/stanac/#09.10.19.30",
       "source": "HNK Zagreb",
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-07-02T11:01:20.410Z"
     },
     {
@@ -1694,7 +1694,7 @@
       "time": "19:30",
       "link": "https://hnk.hr/hr/balet/predstave/rossini-cards-kazimirs-colours/#09.10.19.30",
       "source": "HNK Zagreb",
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-07-02T11:01:20.410Z"
     },
     {
@@ -1709,7 +1709,7 @@
       "time": "18:00",
       "link": "https://hnk.hr/hr/balet/predstave/rossini-cards-kazimirs-colours/#10.10.18.00",
       "source": "HNK Zagreb",
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-07-02T11:01:20.410Z"
     },
     {
@@ -1891,7 +1891,7 @@
       "time": "19:30",
       "link": "https://hnk.hr/hr/drama/predstave/idealan-mu%C5%BE/#08.10.19.30",
       "source": "HNK Zagreb",
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-07-02T11:01:20.410Z"
     }
   ],
@@ -2257,5 +2257,5 @@
       "first_seen": "2026-07-01T05:01:18.271Z"
     }
   ],
-  "new_count": 12
+  "new_count": 5
 }
