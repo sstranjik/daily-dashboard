@@ -1,11 +1,15 @@
 {
-  "generated_at": "2026-07-02T13:25:12.037Z",
+  "generated_at": "2026-07-02T14:01:25.801Z",
   "stats": {
-    "Lisinski": {
+    "muzika.hr": {
       "ok": true,
-      "count": 0
+      "count": 25
     },
-    "Gavella": {
+    "Mochvara": {
+      "ok": true,
+      "count": 10
+    },
+    "Lisinski": {
       "ok": true,
       "count": 0
     },
@@ -13,21 +17,21 @@
       "ok": true,
       "count": 3
     },
-    "Mochvara": {
+    "Gavella": {
       "ok": true,
-      "count": 10
+      "count": 0
+    },
+    "Komedija": {
+      "ok": true,
+      "count": 0
     },
     "ZeKaeM": {
       "ok": true,
       "count": 0
     },
-    "muzika.hr": {
-      "ok": true,
-      "count": 25
-    },
     "HNK Zagreb": {
       "ok": true,
-      "count": 42
+      "count": 45
     },
     "Pogon": {
       "ok": true,
@@ -37,31 +41,12 @@
       "ok": true,
       "count": 0
     },
-    "Komedija": {
-      "ok": true,
-      "count": 0
-    },
     "Trešnja": {
       "ok": true,
       "count": 0
     }
   },
   "concerts": [
-    {
-      "id": "6b4bfa34cc",
-      "title": "POPUNJENO Močvarni Laboratorij: Četiri dana keramike, četvrti dan",
-      "venue": "Mochvara",
-      "city": "Zagreb",
-      "country": "HR",
-      "category": "concert",
-      "date_iso": "2026-06-17T14:00:00",
-      "date_display": "sri, 17. 06. 2026.",
-      "time": "14:00",
-      "link": "https://mochvara.hr/event-detail/6a19a691af0d06d49bfe21a1/?lang=hr",
-      "source": "Mochvara",
-      "is_new": false,
-      "first_seen": "2026-06-15T05:01:11.817Z"
-    },
     {
       "id": "2996912b51",
       "title": "Močvarni birc: Pink Pony Birc",
@@ -1758,6 +1743,21 @@
       "first_seen": "2026-07-02T13:01:26.613Z"
     },
     {
+      "id": "95463d7987",
+      "title": "Peter Lund Vještica Hillary ide u operu",
+      "venue": "HNK Zagreb",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-10-18T11:00:00",
+      "date_display": "ned, 18. 10. 2026.",
+      "time": "11:00",
+      "link": "https://hnk.hr/hr/opera/predstave/vje%C5%A1tica-hillary-ide-u-operu/#18.10.11.00",
+      "source": "HNK Zagreb",
+      "is_new": true,
+      "first_seen": "2026-07-02T14:01:25.801Z"
+    },
+    {
       "id": "b2ab83d73a",
       "title": "Fink Subota 24.10.2026.",
       "venue": "Mochvara",
@@ -1998,6 +1998,36 @@
       "source": "HNK Zagreb",
       "is_new": false,
       "first_seen": "2026-07-02T13:01:26.613Z"
+    },
+    {
+      "id": "6a8ebf1ecc",
+      "title": "Espi Tomičić Budi uvijek kao zmaj",
+      "venue": "HNK Zagreb",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "theater",
+      "date_iso": "2026-10-16T19:30:00",
+      "date_display": "pet, 16. 10. 2026.",
+      "time": "19:30",
+      "link": "https://hnk.hr/hr/drama/predstave/budi-uvijek-kao-zmaj/#16.10.19.30",
+      "source": "HNK Zagreb",
+      "is_new": true,
+      "first_seen": "2026-07-02T14:01:25.801Z"
+    },
+    {
+      "id": "1ad6b31c72",
+      "title": "Espi Tomičić Budi uvijek kao zmaj",
+      "venue": "HNK Zagreb",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "theater",
+      "date_iso": "2026-10-17T18:00:00",
+      "date_display": "sub, 17. 10. 2026.",
+      "time": "18:00",
+      "link": "https://hnk.hr/hr/drama/predstave/budi-uvijek-kao-zmaj/#17.10.18.00",
+      "source": "HNK Zagreb",
+      "is_new": true,
+      "first_seen": "2026-07-02T14:01:25.801Z"
     }
   ],
   "abroad": [
@@ -2362,5 +2392,5 @@
       "first_seen": "2026-07-01T05:01:18.271Z"
     }
   ],
-  "new_count": 5
+  "new_count": 8
 }
