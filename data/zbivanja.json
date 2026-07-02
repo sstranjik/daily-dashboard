@@ -1,11 +1,15 @@
 {
-  "generated_at": "2026-07-02T11:24:48.837Z",
+  "generated_at": "2026-07-02T12:01:24.331Z",
   "stats": {
     "muzika.hr": {
       "ok": true,
       "count": 25
     },
     "Lisinski": {
+      "ok": true,
+      "count": 0
+    },
+    "Gavella": {
       "ok": true,
       "count": 0
     },
@@ -17,25 +21,21 @@
       "ok": true,
       "count": 3
     },
-    "Komedija": {
-      "ok": false,
-      "error": "HTTP 500"
-    },
-    "Gavella": {
-      "ok": true,
-      "count": 0
-    },
     "ZeKaeM": {
       "ok": true,
       "count": 0
     },
-    "Pogon": {
+    "Komedija": {
       "ok": true,
       "count": 0
     },
     "HNK Zagreb": {
       "ok": true,
-      "count": 35
+      "count": 36
+    },
+    "Pogon": {
+      "ok": true,
+      "count": 0
     },
     "Kerempuh": {
       "ok": true,
@@ -1713,6 +1713,21 @@
       "first_seen": "2026-07-02T11:01:20.410Z"
     },
     {
+      "id": "30e9cced67",
+      "title": "Ciklus komornih koncerata KLASIKA NEDJELJOM 1",
+      "venue": "HNK Zagreb",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-10-11T11:00:00",
+      "date_display": "ned, 11. 10. 2026.",
+      "time": "11:00",
+      "link": "https://hnk.hr/hr/opera/predstave/ciklis-komornih-koncerata-klasika-nedjeljom/#11.10.11.00",
+      "source": "HNK Zagreb",
+      "is_new": true,
+      "first_seen": "2026-07-02T12:01:24.331Z"
+    },
+    {
       "id": "b2ab83d73a",
       "title": "Fink Subota 24.10.2026.",
       "venue": "Mochvara",
@@ -2257,5 +2272,5 @@
       "first_seen": "2026-07-01T05:01:18.271Z"
     }
   ],
-  "new_count": 5
+  "new_count": 6
 }
