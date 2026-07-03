@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-07-02T20:50:05.455Z",
+  "generated_at": "2026-07-03T05:01:20.264Z",
   "stats": {
     "muzika.hr": {
       "ok": true,
       "count": 25
     },
-    "Mochvara": {
-      "ok": true,
-      "count": 10
-    },
     "Lisinski": {
       "ok": true,
       "count": 0
+    },
+    "Mochvara": {
+      "ok": true,
+      "count": 9
     },
     "Gavella": {
       "ok": true,
@@ -20,6 +20,10 @@
     "Tvornica": {
       "ok": true,
       "count": 3
+    },
+    "ZeKaeM": {
+      "ok": true,
+      "count": 0
     },
     "Komedija": {
       "ok": true,
@@ -31,11 +35,7 @@
     },
     "HNK Zagreb": {
       "ok": true,
-      "count": 59
-    },
-    "ZeKaeM": {
-      "ok": true,
-      "count": 0
+      "count": 58
     },
     "Kerempuh": {
       "ok": true,
@@ -47,21 +47,6 @@
     }
   },
   "concerts": [
-    {
-      "id": "29f5d9e5dd",
-      "title": "High Vis",
-      "venue": "Vintage Industrial Bar Savska ulica 160",
-      "city": "Zagreb",
-      "country": "HR",
-      "category": "concert",
-      "date_iso": "2026-06-18T00:00:00",
-      "date_display": "čet, 18. 06. 2026.",
-      "time": null,
-      "link": "https://www.muzika.hr/event/high-vis/",
-      "source": "muzika.hr",
-      "is_new": false,
-      "first_seen": "2026-06-05T05:00:57.084Z"
-    },
     {
       "id": "29ada707ec",
       "title": "Močvarni birc: Post-Punk slušaonica",
@@ -1021,6 +1006,21 @@
       "source": "HNK Zagreb",
       "is_new": false,
       "first_seen": "2026-05-26T20:26:55.235Z"
+    },
+    {
+      "id": "8add16e369",
+      "title": "Filmske večeri u Močvari: Mirotvorac",
+      "venue": "Mochvara",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-07-06T19:30:00",
+      "date_display": "pon, 06. 07. 2026.",
+      "time": "19:30",
+      "link": "https://mochvara.hr/event-detail/6a268697da73e2c2950e1c58/?lang=hr",
+      "source": "Mochvara",
+      "is_new": true,
+      "first_seen": "2026-07-03T05:01:20.264Z"
     },
     {
       "id": "8fd5b97cf0",
@@ -2572,5 +2572,5 @@
       "first_seen": "2026-07-01T05:01:18.271Z"
     }
   ],
-  "new_count": 5
+  "new_count": 6
 }
