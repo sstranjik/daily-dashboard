@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-07-03T19:01:25.399Z",
+  "generated_at": "2026-07-03T20:01:24.589Z",
   "stats": {
-    "Lisinski": {
+    "muzika.hr": {
       "ok": true,
-      "count": 0
+      "count": 25
     },
-    "Gavella": {
+    "Lisinski": {
       "ok": true,
       "count": 0
     },
@@ -13,19 +13,19 @@
       "ok": true,
       "count": 9
     },
-    "muzika.hr": {
+    "Gavella": {
       "ok": true,
-      "count": 25
+      "count": 0
     },
     "Tvornica": {
       "ok": true,
       "count": 3
     },
-    "Komedija": {
+    "ZeKaeM": {
       "ok": true,
       "count": 0
     },
-    "ZeKaeM": {
+    "Komedija": {
       "ok": true,
       "count": 0
     },
@@ -33,11 +33,11 @@
       "ok": true,
       "count": 58
     },
-    "Kerempuh": {
+    "Pogon": {
       "ok": true,
       "count": 0
     },
-    "Pogon": {
+    "Kerempuh": {
       "ok": true,
       "count": 0
     },
@@ -47,21 +47,6 @@
     }
   },
   "concerts": [
-    {
-      "id": "8054ce8a1e",
-      "title": "Ivan pl. Zajc Nikola Šubić Zrinjski",
-      "venue": "HNK Zagreb",
-      "city": "Zagreb",
-      "country": "HR",
-      "category": "concert",
-      "date_iso": "2026-06-18T19:30:00",
-      "date_display": "čet, 18. 06. 2026.",
-      "time": "19:30",
-      "link": "https://hnk.hr/hr/opera/predstave/nikola-%C5%A1ubi%C4%87-zrinjski/#18.06.19.30",
-      "source": "HNK Zagreb",
-      "is_new": false,
-      "first_seen": "2026-05-26T20:26:55.235Z"
-    },
     {
       "id": "2138595a3c",
       "title": "Ricky Martin",
@@ -1023,6 +1008,21 @@
       "first_seen": "2026-06-26T20:25:08.187Z"
     },
     {
+      "id": "e75fada576",
+      "title": "Močvarni birc: Synth Lords + Swim Swim Naked live",
+      "venue": "Mochvara",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-07-07T17:00:00",
+      "date_display": "uto, 07. 07. 2026.",
+      "time": "17:00",
+      "link": "https://mochvara.hr/event-detail/6a350541ad796c9981a84ed5/?lang=hr",
+      "source": "Mochvara",
+      "is_new": true,
+      "first_seen": "2026-07-03T20:01:24.589Z"
+    },
+    {
       "id": "623421b4e6",
       "title": "Love International",
       "venue": "Tisno",
@@ -1925,21 +1925,6 @@
   ],
   "theater": [
     {
-      "id": "3b7f1d3c87",
-      "title": "Autorski projekt Tomislava Šobana ZBILJA Gostovanje na 61. festivalu Borštnikovo srečanje u Mariboru",
-      "venue": "HNK Zagreb",
-      "city": "Zagreb",
-      "country": "HR",
-      "category": "theater",
-      "date_iso": "2026-06-18T20:00:00",
-      "date_display": "čet, 18. 06. 2026.",
-      "time": "20:00",
-      "link": "https://hnk.hr/hr/drama/predstave/zbilja/#18.06.20.00",
-      "source": "HNK Zagreb",
-      "is_new": false,
-      "first_seen": "2026-05-26T20:26:55.235Z"
-    },
-    {
       "id": "572647e439",
       "title": "Vjekoslav Majer — Krešo Golik — Rene Medvešek TKO PJEVA ZLO NE MISLI Zamjena za predstavu „Sorry”",
       "venue": "HNK Zagreb",
@@ -2557,5 +2542,5 @@
       "first_seen": "2026-07-01T05:01:18.271Z"
     }
   ],
-  "new_count": 5
+  "new_count": 6
 }
