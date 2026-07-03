@@ -1,13 +1,12 @@
 {
   "version": 2,
   "date": "2026-07-03",
-  "generated_at": "2026-07-03T05:02:53.105Z",
+  "generated_at": "2026-07-03T07:59:20.842Z",
   "date_hr": "Petak, 3. srpnja 2026.",
   "weather": {
-    "icon": "🌡️",
-    "summary": "Vremenski podaci nedostupni",
-    "alerts": [],
-    "error": "The operation was aborted due to timeout"
+    "icon": "☁️",
+    "summary": "19–28°C, oblačno",
+    "alerts": []
   },
   "fuel": {
     "current_date": "03.07.2026",
@@ -64,10 +63,10 @@
     "upcoming_premium": null
   },
   "market": {
-    "updated_at": "2026-07-03T05:02:53.105Z",
-    "btc_usd": 61391,
-    "btc_eur": 53634,
-    "btc_change_24h": 1.27,
+    "updated_at": "2026-07-03T07:59:20.842Z",
+    "btc_usd": 61708,
+    "btc_eur": 53872,
+    "btc_change_24h": 2.75,
     "usd_eur": 0.8754
   },
   "ai_news": [
@@ -75,6 +74,11 @@
       "title": "Z.ai launches ZCode to challenge Cursor, Claude Code and GitHub Copilot in AI coding",
       "link": "https://venturebeat.com/technology/z-ai-launches-zcode-to-challenge-cursor-claude-code-and-github-copilot-in-ai-coding",
       "source": "VentureBeat"
+    },
+    {
+      "title": "Alibaba to ban Claude Code over alleged backdoor risk, source says",
+      "link": "https://thenextweb.com/news/alibaba-bans-claude-code-alleged-backdoor-risk",
+      "source": "The Next Web"
     },
     {
       "title": "Enterprises lost Claude Fable 5 for a few weeks. New data shows two-thirds had already built their hedge",
@@ -90,11 +94,6 @@
       "title": "Microsoft launches its own AI deployment company with $2.5 billion commitment",
       "link": "https://techcrunch.com/2026/07/02/microsoft-launches-its-own-ai-deployment-company-with-2-5-billion-commitment/",
       "source": "TechCrunch AI"
-    },
-    {
-      "title": "A cheap Chinese AI model is closing in on Anthropic and OpenAI",
-      "link": "https://thenextweb.com/news/a-cheap-chinese-ai-model-is-closing-in-on-anthropic-and-openai",
-      "source": "The Next Web"
     }
   ],
   "micro_tips": {
