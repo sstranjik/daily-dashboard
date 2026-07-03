@@ -1,15 +1,16 @@
 {
   "version": 2,
-  "date": "2026-07-02",
-  "generated_at": "2026-07-02T08:10:51.812Z",
-  "date_hr": "Četvrtak, 2. srpnja 2026.",
+  "date": "2026-07-03",
+  "generated_at": "2026-07-03T05:02:53.105Z",
+  "date_hr": "Petak, 3. srpnja 2026.",
   "weather": {
-    "icon": "🌧️",
-    "summary": "21–29°C, lagana kiša",
-    "alerts": []
+    "icon": "🌡️",
+    "summary": "Vremenski podaci nedostupni",
+    "alerts": [],
+    "error": "The operation was aborted due to timeout"
   },
   "fuel": {
-    "current_date": "02.07.2026",
+    "current_date": "03.07.2026",
     "eurodiesel": [
       {
         "company": "Adria Oil",
@@ -50,12 +51,12 @@
         "price": 1.75
       },
       {
-        "company": "Petrol",
-        "price": 1.77
-      },
-      {
         "company": "Coral Croatia",
         "price": 1.8
+      },
+      {
+        "company": "Petrol",
+        "price": 1.81
       }
     ],
     "upcoming_date": null,
@@ -63,46 +64,46 @@
     "upcoming_premium": null
   },
   "market": {
-    "updated_at": "2026-07-02T08:10:51.812Z",
-    "btc_usd": 60263,
-    "btc_eur": 52792,
-    "btc_change_24h": 2.75,
-    "usd_eur": 0.8783
+    "updated_at": "2026-07-03T05:02:53.105Z",
+    "btc_usd": 61391,
+    "btc_eur": 53634,
+    "btc_change_24h": 1.27,
+    "usd_eur": 0.8754
   },
   "ai_news": [
     {
-      "title": "Restaurants can now accept orders placed directly from ChatGPT and Claude thanks to Square's new, low-fee, no setup integration",
-      "link": "https://venturebeat.com/technology/restaurants-can-now-accept-orders-placed-directly-from-chatgpt-and-claude-thanks-to-squares-new-low-fee-no-setup-integration",
+      "title": "Z.ai launches ZCode to challenge Cursor, Claude Code and GitHub Copilot in AI coding",
+      "link": "https://venturebeat.com/technology/z-ai-launches-zcode-to-challenge-cursor-claude-code-and-github-copilot-in-ai-coding",
       "source": "VentureBeat"
     },
     {
-      "title": "Claude desktop aplikacija stiže na Linux, za sada u beta fazi",
-      "link": "https://www.bug.hr/linux/claude-desktop-aplikacija-stize-na-linux-za-sada-u-beta-fazi-61093",
-      "source": "Bug.hr"
-    },
-    {
-      "title": "I had Gemini and Claude write my email replies - but only one sounds like me",
-      "link": "https://www.zdnet.com/article/gemini-vs-claude-write-email-replies-which-sound-human/",
-      "source": "ZDNet"
-    },
-    {
-      "title": "Anthropic is bringing back Claude Fable 5 globally after US lifts export control order — where can enterprises access it?",
-      "link": "https://venturebeat.com/technology/anthropic-is-bringing-back-claude-fable-5-globally-after-us-lifts-export-control-order-where-can-enterprises-access-it",
+      "title": "Enterprises lost Claude Fable 5 for a few weeks. New data shows two-thirds had already built their hedge",
+      "link": "https://venturebeat.com/orchestration/enterprises-lost-claude-fable-5-for-a-few-weeks-new-data-shows-two-thirds-had-already-built-their-hedge",
       "source": "VentureBeat"
     },
     {
-      "title": "Gemini Spark, Google&#8217;s agentic assistant, is now available on Mac",
-      "link": "https://techcrunch.com/2026/07/01/gemini-spark-googles-agentic-assistant-is-now-available-on-mac/",
+      "title": "Anthropic is discussing a new custom chip with Samsung",
+      "link": "https://techcrunch.com/2026/07/02/anthropic-is-discussing-a-new-custom-chip-with-samsung/",
       "source": "TechCrunch AI"
+    },
+    {
+      "title": "Microsoft launches its own AI deployment company with $2.5 billion commitment",
+      "link": "https://techcrunch.com/2026/07/02/microsoft-launches-its-own-ai-deployment-company-with-2-5-billion-commitment/",
+      "source": "TechCrunch AI"
+    },
+    {
+      "title": "A cheap Chinese AI model is closing in on Anthropic and OpenAI",
+      "link": "https://thenextweb.com/news/a-cheap-chinese-ai-model-is-closing-in-on-anthropic-and-openai",
+      "source": "The Next Web"
     }
   ],
   "micro_tips": {
     "vscode": {
-      "tip": "Quick Fix i Code Actions na trenutnoj poziciji",
-      "keys": "Ctrl+."
+      "tip": "Toggle integrirani terminal",
+      "keys": "Ctrl+`"
     },
-    "sql": "Window funkcije (ROW_NUMBER, LAG, LEAD) umjesto self-join za redosljed i razlike",
-    "oracle": "/*+ RESULT_CACHE */ cache-ira rezultat funkcije u SGA za ponovljene pozive",
-    "regex": ".+? lazy quantifier: stane na prvom mogućem podudaranju, ne zadnjem"
+    "sql": "EXPLAIN ANALYZE prikazuje stvarne vs procijenjene redove — ključno za tuning",
+    "oracle": "CONNECT BY LEVEL <= n generira broj redova bez pomoćne tablice",
+    "regex": "[^\\n]* svaki znak osim newline — dohvati cijelu liniju bez dotall flaga"
   }
 }
