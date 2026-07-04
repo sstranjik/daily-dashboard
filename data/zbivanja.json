@@ -1,9 +1,17 @@
 {
-  "generated_at": "2026-07-03T20:12:04.161Z",
+  "generated_at": "2026-07-04T05:01:28.653Z",
   "stats": {
+    "muzika.hr": {
+      "ok": true,
+      "count": 25
+    },
     "Mochvara": {
       "ok": true,
       "count": 9
+    },
+    "Gavella": {
+      "ok": true,
+      "count": 0
     },
     "Lisinski": {
       "ok": true,
@@ -13,55 +21,32 @@
       "ok": true,
       "count": 3
     },
-    "Gavella": {
+    "ZeKaeM": {
       "ok": true,
       "count": 0
     },
-    "muzika.hr": {
+    "Pogon": {
       "ok": true,
-      "count": 25
+      "count": 0
     },
     "Komedija": {
       "ok": true,
       "count": 0
     },
+    "Kerempuh": {
+      "ok": true,
+      "count": 0
+    },
     "HNK Zagreb": {
       "ok": true,
-      "count": 58
-    },
-    "ZeKaeM": {
-      "ok": false,
-      "error": "fetch failed"
+      "count": 57
     },
     "Trešnja": {
-      "ok": false,
-      "error": "fetch failed"
-    },
-    "Pogon": {
-      "ok": false,
-      "error": "fetch failed"
-    },
-    "Kerempuh": {
-      "ok": false,
-      "error": "fetch failed"
+      "ok": true,
+      "count": 0
     }
   },
   "concerts": [
-    {
-      "id": "2138595a3c",
-      "title": "Ricky Martin",
-      "venue": "Ricky Martin Arena Pula Flavijevska ulica",
-      "city": "Pula",
-      "country": "HR",
-      "category": "concert",
-      "date_iso": "2026-06-19T00:00:00",
-      "date_display": "pet, 19. 06. 2026.",
-      "time": null,
-      "link": "https://www.muzika.hr/event/ricky-martin/",
-      "source": "muzika.hr",
-      "is_new": false,
-      "first_seen": "2026-06-05T21:15:17.402Z"
-    },
     {
       "id": "aab5a97eec",
       "title": "Kazališni doručak Shakespeare, naš suvremenik u čitanju Valentine Turcu: Svijet po Jagu",
@@ -1053,6 +1038,21 @@
       "first_seen": "2026-06-27T05:01:12.177Z"
     },
     {
+      "id": "7c99fe7c6c",
+      "title": "Močvarni birc: Il Pantano Italiano",
+      "venue": "Mochvara",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-07-08T15:00:00",
+      "date_display": "sri, 08. 07. 2026.",
+      "time": "15:00",
+      "link": "https://mochvara.hr/event-detail/6a42745d2a44f705ffc290bf/?lang=hr",
+      "source": "Mochvara",
+      "is_new": true,
+      "first_seen": "2026-07-04T05:01:28.653Z"
+    },
+    {
       "id": "bd8dc97d97",
       "title": "Ultra Music Festival",
       "venue": "Ultra Music Festival Split Split",
@@ -1126,6 +1126,51 @@
       "source": "muzika.hr",
       "is_new": false,
       "first_seen": "2026-07-02T05:01:23.764Z"
+    },
+    {
+      "id": "b68bccbb17",
+      "title": "Sea Sound Festival",
+      "venue": "Sea Sound Festival Martinska Martinska",
+      "city": "Šibenik",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-07-16T00:00:00",
+      "date_display": "čet, 16. 07. 2026.",
+      "time": null,
+      "link": "https://www.muzika.hr/event/sea-sound-festival-2/",
+      "source": "muzika.hr",
+      "is_new": true,
+      "first_seen": "2026-07-04T05:01:28.653Z"
+    },
+    {
+      "id": "b38762c08c",
+      "title": "Marilyn Manson",
+      "venue": "Marilyn Manson Arena Zagreb Lanište bb",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-07-16T00:00:00",
+      "date_display": "čet, 16. 07. 2026.",
+      "time": null,
+      "link": "https://www.muzika.hr/event/marilyn-manson-arena-zagreb/",
+      "source": "muzika.hr",
+      "is_new": true,
+      "first_seen": "2026-07-04T05:01:28.653Z"
+    },
+    {
+      "id": "d85036659b",
+      "title": "Terminal V",
+      "venue": "Terminal V The Garden Tisno Tisno",
+      "city": "Croatia",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-07-16T00:00:00",
+      "date_display": "čet, 16. 07. 2026.",
+      "time": null,
+      "link": "https://www.muzika.hr/event/terminal-v-2/",
+      "source": "muzika.hr",
+      "is_new": true,
+      "first_seen": "2026-07-04T05:01:28.653Z"
     },
     {
       "id": "86cc723186",
@@ -2542,5 +2587,5 @@
       "first_seen": "2026-07-01T05:01:18.271Z"
     }
   ],
-  "new_count": 5
+  "new_count": 9
 }
