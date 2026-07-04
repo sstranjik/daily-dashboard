@@ -1,15 +1,15 @@
 {
   "version": 2,
-  "date": "2026-07-03",
-  "generated_at": "2026-07-03T07:59:20.842Z",
-  "date_hr": "Petak, 3. srpnja 2026.",
+  "date": "2026-07-04",
+  "generated_at": "2026-07-04T05:03:48.633Z",
+  "date_hr": "Subota, 4. srpnja 2026.",
   "weather": {
-    "icon": "☁️",
-    "summary": "19–28°C, oblačno",
+    "icon": "🌤️",
+    "summary": "19–27°C, djelomično oblačno",
     "alerts": []
   },
   "fuel": {
-    "current_date": "03.07.2026",
+    "current_date": "04.07.2026",
     "eurodiesel": [
       {
         "company": "Adria Oil",
@@ -63,46 +63,46 @@
     "upcoming_premium": null
   },
   "market": {
-    "updated_at": "2026-07-03T07:59:20.842Z",
-    "btc_usd": 61708,
-    "btc_eur": 53872,
-    "btc_change_24h": 2.75,
-    "usd_eur": 0.8754
+    "updated_at": "2026-07-04T05:03:48.633Z",
+    "btc_usd": 62569,
+    "btc_eur": 54686,
+    "btc_change_24h": 1.86,
+    "usd_eur": 0.8743
   },
   "ai_news": [
     {
-      "title": "Z.ai launches ZCode to challenge Cursor, Claude Code and GitHub Copilot in AI coding",
-      "link": "https://venturebeat.com/technology/z-ai-launches-zcode-to-challenge-cursor-claude-code-and-github-copilot-in-ai-coding",
-      "source": "VentureBeat"
-    },
-    {
-      "title": "Alibaba to ban Claude Code over alleged backdoor risk, source says",
-      "link": "https://thenextweb.com/news/alibaba-bans-claude-code-alleged-backdoor-risk",
+      "title": "Alibaba bans Claude Code after Anthropic is caught tracking Chinese users with hidden code",
+      "link": "https://thenextweb.com/news/alibaba-bans-claude-code-anthropic-tracking-chinese-users",
       "source": "The Next Web"
     },
     {
-      "title": "Enterprises lost Claude Fable 5 for a few weeks. New data shows two-thirds had already built their hedge",
-      "link": "https://venturebeat.com/orchestration/enterprises-lost-claude-fable-5-for-a-few-weeks-new-data-shows-two-thirds-had-already-built-their-hedge",
-      "source": "VentureBeat"
+      "title": "Investors sue Oracle, say it hid how shaky the OpenAI deal was",
+      "link": "https://thenextweb.com/news/oracle-investor-lawsuit-openai-deal",
+      "source": "The Next Web"
     },
     {
-      "title": "Anthropic is discussing a new custom chip with Samsung",
-      "link": "https://techcrunch.com/2026/07/02/anthropic-is-discussing-a-new-custom-chip-with-samsung/",
-      "source": "TechCrunch AI"
+      "title": "Anthropic wants to develop its own drugs",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/961311/anthropic-claude-science-ai-drug-development",
+      "source": "The Verge"
     },
     {
-      "title": "Microsoft launches its own AI deployment company with $2.5 billion commitment",
-      "link": "https://techcrunch.com/2026/07/02/microsoft-launches-its-own-ai-deployment-company-with-2-5-billion-commitment/",
-      "source": "TechCrunch AI"
+      "title": "The emails that broke Anthropic and the Pentagon apart",
+      "link": "https://thenextweb.com/news/anthropic-pentagon-emails-amodei-michael-guardrails",
+      "source": "The Next Web"
+    },
+    {
+      "title": "OpenAI će pet posto dionica dati američkoj vladi?",
+      "link": "https://www.tportal.hr/tehno/clanak/openai-ce-pet-posto-dionica-dati-americkoj-vladi-20260703",
+      "source": "Tportal"
     }
   ],
   "micro_tips": {
     "vscode": {
-      "tip": "Toggle integrirani terminal",
-      "keys": "Ctrl+`"
+      "tip": "Selektiraj sva pojavljivanja trenutne riječi",
+      "keys": "Ctrl+Shift+L"
     },
-    "sql": "EXPLAIN ANALYZE prikazuje stvarne vs procijenjene redove — ključno za tuning",
-    "oracle": "CONNECT BY LEVEL <= n generira broj redova bez pomoćne tablice",
-    "regex": "[^\\n]* svaki znak osim newline — dohvati cijelu liniju bez dotall flaga"
+    "sql": "Partial index s WHERE klauzulom smanjuje veličinu i ubrzava specifična filtriranja",
+    "oracle": "LISTAGG(col, ',') WITHIN GROUP (ORDER BY col) konkatenira u jedan string",
+    "regex": "(?<ime>\\d{4}) named group — referenciraj s \\k<ime> ili $<ime> u replace"
   }
 }
