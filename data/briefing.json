@@ -1,12 +1,17 @@
 {
   "version": 2,
   "date": "2026-07-05",
-  "generated_at": "2026-07-05T05:03:06.120Z",
+  "generated_at": "2026-07-05T07:54:59.909Z",
   "date_hr": "Nedjelja, 5. srpnja 2026.",
   "weather": {
-    "icon": "🌦️",
-    "summary": "19–30°C, pljuskovi",
-    "alerts": []
+    "icon": "⛈️",
+    "summary": "18–30°C, grmljavina · 0.9 mm",
+    "alerts": [
+      {
+        "level": "warning",
+        "text": "Grmljavinska oluja"
+      }
+    ]
   },
   "fuel": {
     "current_date": "05.07.2026",
@@ -63,10 +68,10 @@
     "upcoming_premium": null
   },
   "market": {
-    "updated_at": "2026-07-05T05:03:06.120Z",
-    "btc_usd": 62741,
-    "btc_eur": 54860,
-    "btc_change_24h": 0.28,
+    "updated_at": "2026-07-05T07:54:59.909Z",
+    "btc_usd": 62930,
+    "btc_eur": 55026,
+    "btc_change_24h": 0.64,
     "usd_eur": 0.8743
   },
   "ai_news": [
