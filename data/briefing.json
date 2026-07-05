@@ -1,15 +1,15 @@
 {
   "version": 2,
-  "date": "2026-07-04",
-  "generated_at": "2026-07-04T07:41:58.152Z",
-  "date_hr": "Subota, 4. srpnja 2026.",
+  "date": "2026-07-05",
+  "generated_at": "2026-07-05T05:03:06.120Z",
+  "date_hr": "Nedjelja, 5. srpnja 2026.",
   "weather": {
-    "icon": "🌤️",
-    "summary": "18–27°C, djelomično oblačno",
+    "icon": "🌦️",
+    "summary": "19–30°C, pljuskovi",
     "alerts": []
   },
   "fuel": {
-    "current_date": "04.07.2026",
+    "current_date": "05.07.2026",
     "eurodiesel": [
       {
         "company": "Adria Oil",
@@ -63,46 +63,46 @@
     "upcoming_premium": null
   },
   "market": {
-    "updated_at": "2026-07-04T07:41:58.152Z",
-    "btc_usd": 62455,
-    "btc_eur": 54586,
-    "btc_change_24h": 1.17,
+    "updated_at": "2026-07-05T05:03:06.120Z",
+    "btc_usd": 62741,
+    "btc_eur": 54860,
+    "btc_change_24h": 0.28,
     "usd_eur": 0.8743
   },
   "ai_news": [
     {
-      "title": "Alibaba bans Claude Code after Anthropic is caught tracking Chinese users with hidden code",
-      "link": "https://thenextweb.com/news/alibaba-bans-claude-code-anthropic-tracking-chinese-users",
-      "source": "The Next Web"
+      "title": "What is Mistral AI? Everything to know about the OpenAI competitor",
+      "link": "https://techcrunch.com/2026/07/04/what-is-mistral-ai-everything-to-know-about-the-openai-competitor/",
+      "source": "TechCrunch AI"
     },
     {
-      "title": "Investors sue Oracle, say it hid how shaky the OpenAI deal was",
-      "link": "https://thenextweb.com/news/oracle-investor-lawsuit-openai-deal",
-      "source": "The Next Web"
-    },
-    {
-      "title": "Anthropic wants to develop its own drugs",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/961311/anthropic-claude-science-ai-drug-development",
+      "title": "The fanfiction community is at war with AI — and itself",
+      "link": "https://www.theverge.com/tech/960854/ai-fanfiction-ao3-claude-detector",
       "source": "The Verge"
     },
     {
-      "title": "The emails that broke Anthropic and the Pentagon apart",
-      "link": "https://thenextweb.com/news/anthropic-pentagon-emails-amodei-michael-guardrails",
-      "source": "The Next Web"
+      "title": "Alibaba reportedly bans employees from using Claude Code",
+      "link": "https://techcrunch.com/2026/07/04/alibaba-reportedly-bans-employees-from-using-claude-code/",
+      "source": "TechCrunch AI"
     },
     {
-      "title": "OpenAI će pet posto dionica dati američkoj vladi?",
-      "link": "https://www.tportal.hr/tehno/clanak/openai-ce-pet-posto-dionica-dati-americkoj-vladi-20260703",
-      "source": "Tportal"
+      "title": "Samsung bi mogao proizvoditi Anthropicove AI čipove",
+      "link": "https://www.bug.hr/umjetna-inteligencija/samsung-bi-mogao-proizvoditi-anthropicove-ai-cipove-61159",
+      "source": "Bug.hr"
+    },
+    {
+      "title": "OpenAI apparently never visited the site of its flagship UK AI project",
+      "link": "https://thenextweb.com/news/openai-apparently-never-visited-the-site-of-its-flagship-uk-ai-project",
+      "source": "The Next Web"
     }
   ],
   "micro_tips": {
     "vscode": {
-      "tip": "Selektiraj sva pojavljivanja trenutne riječi",
-      "keys": "Ctrl+Shift+L"
+      "tip": "Pomakni liniju gore ili dolje bez cut/paste",
+      "keys": "Alt+↑ / Alt+↓"
     },
-    "sql": "Partial index s WHERE klauzulom smanjuje veličinu i ubrzava specifična filtriranja",
-    "oracle": "LISTAGG(col, ',') WITHIN GROUP (ORDER BY col) konkatenira u jedan string",
-    "regex": "(?<ime>\\d{4}) named group — referenciraj s \\k<ime> ili $<ime> u replace"
+    "sql": "GROUP BY s ROLLUP za subtotale u jednom prolasku: GROUP BY ROLLUP(god, mj)",
+    "oracle": "TRUNC(datum_kolona) = TRUNC(SYSDATE) koristi B-tree index na datumskoj koloni",
+    "regex": "\\d{4}-\\d{2}-\\d{2} ISO datum pattern; za validaciju zatvori s ^...$"
   }
 }
