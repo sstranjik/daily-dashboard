@@ -1,14 +1,6 @@
 {
-  "generated_at": "2026-07-04T20:02:54.734Z",
+  "generated_at": "2026-07-05T05:01:30.470Z",
   "stats": {
-    "Mochvara": {
-      "ok": true,
-      "count": 0
-    },
-    "Pogon": {
-      "ok": true,
-      "count": 0
-    },
     "muzika.hr": {
       "ok": true,
       "count": 25
@@ -21,11 +13,27 @@
       "ok": true,
       "count": 0
     },
+    "Mochvara": {
+      "ok": true,
+      "count": 9
+    },
     "Tvornica": {
       "ok": true,
       "count": 3
     },
     "ZeKaeM": {
+      "ok": true,
+      "count": 0
+    },
+    "Komedija": {
+      "ok": true,
+      "count": 0
+    },
+    "HNK Zagreb": {
+      "ok": true,
+      "count": 56
+    },
+    "Pogon": {
       "ok": true,
       "count": 0
     },
@@ -36,47 +44,9 @@
     "Trešnja": {
       "ok": true,
       "count": 0
-    },
-    "Komedija": {
-      "ok": true,
-      "count": 0
-    },
-    "HNK Zagreb": {
-      "ok": true,
-      "count": 57
     }
   },
   "concerts": [
-    {
-      "id": "68294e2c43",
-      "title": "Back to nulte",
-      "venue": "Mochvara",
-      "city": "Zagreb",
-      "country": "HR",
-      "category": "concert",
-      "date_iso": "2026-06-19T22:00:00",
-      "date_display": "pet, 19. 06. 2026.",
-      "time": "22:00",
-      "link": "https://mochvara.hr/event-detail/6a2da3e8f021bb5bfe805112/?lang=hr",
-      "source": "Mochvara",
-      "is_new": false,
-      "first_seen": "2026-06-16T05:01:16.456Z"
-    },
-    {
-      "id": "713cd6158f",
-      "title": "Les Amazones d’Afrique",
-      "venue": "Grada Vukovara 68",
-      "city": "Zagreb",
-      "country": "HR",
-      "category": "concert",
-      "date_iso": "2026-06-20T00:00:00",
-      "date_display": "sub, 20. 06. 2026.",
-      "time": null,
-      "link": "https://www.muzika.hr/event/les-amazones-dafrique/",
-      "source": "muzika.hr",
-      "is_new": false,
-      "first_seen": "2026-06-07T05:00:57.586Z"
-    },
     {
       "id": "087eb18929",
       "title": "Deseta Jedinstvena vrtna zabava",
@@ -1008,6 +978,21 @@
       "first_seen": "2026-07-04T05:01:26.499Z"
     },
     {
+      "id": "550adb8db7",
+      "title": "Post-punk noise gig: korka, XAJKA, Mrzlota",
+      "venue": "Mochvara",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-07-09T19:30:00",
+      "date_display": "čet, 09. 07. 2026.",
+      "time": "19:30",
+      "link": "https://mochvara.hr/event-detail/6a1eb67e361071a54758797d/?lang=hr",
+      "source": "Mochvara",
+      "is_new": true,
+      "first_seen": "2026-07-05T05:01:30.470Z"
+    },
+    {
       "id": "bd8dc97d97",
       "title": "Ultra Music Festival",
       "venue": "Ultra Music Festival Split Split",
@@ -1036,6 +1021,21 @@
       "source": "muzika.hr",
       "is_new": false,
       "first_seen": "2026-07-02T08:01:23.158Z"
+    },
+    {
+      "id": "638364eab3",
+      "title": "Vratimo nežnost u grad — regionalni alt-indie-pop party",
+      "venue": "Mochvara",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-07-10T22:00:00",
+      "date_display": "pet, 10. 07. 2026.",
+      "time": "22:00",
+      "link": "https://mochvara.hr/event-detail/6a22c99962797463b3a0e774/?lang=hr",
+      "source": "Mochvara",
+      "is_new": true,
+      "first_seen": "2026-07-05T05:01:30.470Z"
     },
     {
       "id": "d343e35b50",
@@ -1126,6 +1126,36 @@
       "source": "muzika.hr",
       "is_new": false,
       "first_seen": "2026-07-04T05:01:26.499Z"
+    },
+    {
+      "id": "19d11d3ff9",
+      "title": "Mother Vulture",
+      "venue": "Mother Vulture Močvara Trnjanski nasip bb",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-07-17T00:00:00",
+      "date_display": "pet, 17. 07. 2026.",
+      "time": null,
+      "link": "https://www.muzika.hr/event/mother-vulture/",
+      "source": "muzika.hr",
+      "is_new": true,
+      "first_seen": "2026-07-05T05:01:30.470Z"
+    },
+    {
+      "id": "c2e468fb35",
+      "title": "Lorde",
+      "venue": "Lorde Arena Pula Flavijevska ulica",
+      "city": "Pula",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-07-18T00:00:00",
+      "date_display": "sub, 18. 07. 2026.",
+      "time": null,
+      "link": "https://www.muzika.hr/event/lorde-3/",
+      "source": "muzika.hr",
+      "is_new": true,
+      "first_seen": "2026-07-05T05:01:30.470Z"
     },
     {
       "id": "86cc723186",
@@ -2540,7 +2570,37 @@
       "source": "muzika.hr",
       "is_new": false,
       "first_seen": "2026-07-01T05:01:18.271Z"
+    },
+    {
+      "id": "285c25910d",
+      "title": "OK Fest",
+      "venue": "OK Fest Tjentište",
+      "city": "Nacionalni",
+      "country": "EU",
+      "category": "concert",
+      "date_iso": "2026-07-17T00:00:00",
+      "date_display": "pet, 17. 07. 2026.",
+      "time": null,
+      "link": "https://www.muzika.hr/event/ok-fest/",
+      "source": "muzika.hr",
+      "is_new": true,
+      "first_seen": "2026-07-05T05:01:30.470Z"
+    },
+    {
+      "id": "46133fe365",
+      "title": "Kanye West YE LIVE CONCERT otkazano",
+      "venue": "RFC Arena Reggio Emilia Reggio Emilia",
+      "city": "Italija",
+      "country": "EU",
+      "category": "concert",
+      "date_iso": "2026-07-18T00:00:00",
+      "date_display": "sub, 18. 07. 2026.",
+      "time": null,
+      "link": "https://www.muzika.hr/event/kanye-west-ye-live-concert/",
+      "source": "muzika.hr",
+      "is_new": true,
+      "first_seen": "2026-07-05T05:01:30.470Z"
     }
   ],
-  "new_count": 5
+  "new_count": 11
 }
