@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-07-06T13:36:18.558Z",
+  "generated_at": "2026-07-06T14:01:36.653Z",
   "stats": {
     "muzika.hr": {
       "ok": true,
       "count": 25
     },
-    "Mochvara": {
-      "ok": true,
-      "count": 9
-    },
     "Gavella": {
       "ok": true,
       "count": 0
+    },
+    "Mochvara": {
+      "ok": true,
+      "count": 9
     },
     "Lisinski": {
       "ok": true,
@@ -29,13 +29,13 @@
       "ok": false,
       "error": "HTTP 500"
     },
-    "HNK Zagreb": {
-      "ok": true,
-      "count": 64
-    },
     "Pogon": {
       "ok": true,
       "count": 0
+    },
+    "HNK Zagreb": {
+      "ok": true,
+      "count": 64
     },
     "Kerempuh": {
       "ok": true,
@@ -1619,7 +1619,7 @@
       "time": "15:00",
       "link": "https://hnk.hr/hr/ostalo/predstave/iza-kulisa-165-sezona/#03.10.15.00",
       "source": "HNK Zagreb",
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-07-06T13:36:18.558Z"
     },
     {
@@ -1724,7 +1724,7 @@
       "time": "14:00",
       "link": "https://hnk.hr/hr/ostalo/predstave/165-sezona-iza-kulisa-kombinirani-razgledi-hnk-i-hnk2/#10.10.14.00",
       "source": "HNK Zagreb",
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-07-06T13:36:18.558Z"
     },
     {
@@ -1799,7 +1799,7 @@
       "time": "14:00",
       "link": "https://hnk.hr/hr/ostalo/predstave/165-sezona-iza-kulisa-kombinirani-razgledi-hnk-i-hnk2/#17.10.14.00",
       "source": "HNK Zagreb",
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-07-06T13:36:18.558Z"
     },
     {
@@ -1904,7 +1904,7 @@
       "time": "15:00",
       "link": "https://hnk.hr/hr/ostalo/predstave/iza-kulisa-165-sezona/#24.10.15.00",
       "source": "HNK Zagreb",
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-07-06T13:36:18.558Z"
     },
     {
@@ -2039,7 +2039,7 @@
       "time": "15:00",
       "link": "https://hnk.hr/hr/ostalo/predstave/iza-kulisa-165-sezona/#31.10.15.00",
       "source": "HNK Zagreb",
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-07-06T13:36:18.558Z"
     },
     {
@@ -2752,5 +2752,5 @@
       "first_seen": "2026-07-06T05:01:37.668Z"
     }
   ],
-  "new_count": 10
+  "new_count": 5
 }
