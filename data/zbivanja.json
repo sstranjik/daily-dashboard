@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-06T08:01:45.204Z",
+  "generated_at": "2026-07-06T08:57:01.156Z",
   "stats": {
     "muzika.hr": {
       "ok": true,
@@ -13,6 +13,10 @@
       "ok": true,
       "count": 0
     },
+    "Mochvara": {
+      "ok": true,
+      "count": 9
+    },
     "Tvornica": {
       "ok": true,
       "count": 3
@@ -21,29 +25,25 @@
       "ok": true,
       "count": 0
     },
+    "Komedija": {
+      "ok": true,
+      "count": 0
+    },
     "HNK Zagreb": {
       "ok": true,
       "count": 55
-    },
-    "Pogon": {
-      "ok": true,
-      "count": 0
     },
     "Kerempuh": {
       "ok": true,
       "count": 0
     },
-    "Komedija": {
+    "Pogon": {
       "ok": true,
       "count": 0
     },
     "Trešnja": {
       "ok": true,
       "count": 0
-    },
-    "Mochvara": {
-      "ok": false,
-      "error": "fetch failed"
     }
   },
   "concerts": [
@@ -924,9 +924,9 @@
       "city": "Zagreb",
       "country": "HR",
       "category": "concert",
-      "date_iso": "2026-07-08T15:00:00",
+      "date_iso": "2026-07-08T17:00:00",
       "date_display": "sri, 08. 07. 2026.",
-      "time": "15:00",
+      "time": "17:00",
       "link": "https://mochvara.hr/event-detail/6a42745d2a44f705ffc290bf/?lang=hr",
       "source": "Mochvara",
       "is_new": false,
@@ -1364,7 +1364,7 @@
       "time": "19:30",
       "link": "https://hnk.hr/hr/opera/predstave/john-blow-venera-i-adon/#15.09.19.30",
       "source": "HNK Zagreb",
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-07-06T08:01:45.204Z"
     },
     {
@@ -2617,5 +2617,5 @@
       "first_seen": "2026-07-06T05:01:37.668Z"
     }
   ],
-  "new_count": 6
+  "new_count": 5
 }
