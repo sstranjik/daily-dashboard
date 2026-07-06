@@ -1,21 +1,17 @@
 {
-  "generated_at": "2026-07-05T20:09:10.656Z",
+  "generated_at": "2026-07-06T05:01:38.131Z",
   "stats": {
-    "muzika.hr": {
+    "Gavella": {
       "ok": true,
-      "count": 25
-    },
-    "Mochvara": {
-      "ok": true,
-      "count": 9
+      "count": 0
     },
     "Lisinski": {
       "ok": true,
       "count": 0
     },
-    "Gavella": {
+    "Mochvara": {
       "ok": true,
-      "count": 0
+      "count": 9
     },
     "Tvornica": {
       "ok": true,
@@ -25,19 +21,23 @@
       "ok": true,
       "count": 0
     },
+    "muzika.hr": {
+      "ok": true,
+      "count": 25
+    },
     "Komedija": {
       "ok": true,
       "count": 0
     },
     "HNK Zagreb": {
       "ok": true,
-      "count": 56
+      "count": 55
     },
-    "Kerempuh": {
+    "Pogon": {
       "ok": true,
       "count": 0
     },
-    "Pogon": {
+    "Kerempuh": {
       "ok": true,
       "count": 0
     },
@@ -47,21 +47,6 @@
     }
   },
   "concerts": [
-    {
-      "id": "c7e73a455a",
-      "title": "Robert Plant i Saving Grace",
-      "venue": "Mihovila Šibenik",
-      "city": "Croatia",
-      "country": "HR",
-      "category": "concert",
-      "date_iso": "2026-06-21T00:00:00",
-      "date_display": "ned, 21. 06. 2026.",
-      "time": null,
-      "link": "https://www.muzika.hr/event/robert-plant-i-saving-grace-sibenik/",
-      "source": "muzika.hr",
-      "is_new": false,
-      "first_seen": "2026-06-07T05:00:57.586Z"
-    },
     {
       "id": "dfd004f5b4",
       "title": "71. Močvarin sajam ploča i stripova",
@@ -1023,6 +1008,21 @@
       "first_seen": "2026-06-27T20:01:13.363Z"
     },
     {
+      "id": "5989fc2818",
+      "title": "Dirty Dancing – 80’s smash hit party",
+      "venue": "Mochvara",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-07-11T22:00:00",
+      "date_display": "sub, 11. 07. 2026.",
+      "time": "22:00",
+      "link": "https://mochvara.hr/event-detail/6a3e6a17d918ded2b6497593/?lang=hr",
+      "source": "Mochvara",
+      "is_new": true,
+      "first_seen": "2026-07-06T05:01:38.131Z"
+    },
+    {
       "id": "5c80ef680d",
       "title": "Joss Stone",
       "venue": "Mihovila Šibenik",
@@ -1126,6 +1126,21 @@
       "source": "muzika.hr",
       "is_new": false,
       "first_seen": "2026-07-05T05:01:29.544Z"
+    },
+    {
+      "id": "fb7fed14ca",
+      "title": "Skunk Anansie",
+      "venue": "Mihovila Šibenik",
+      "city": "Croatia",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-07-19T00:00:00",
+      "date_display": "ned, 19. 07. 2026.",
+      "time": null,
+      "link": "https://www.muzika.hr/event/skunk-anansie-2/",
+      "source": "muzika.hr",
+      "is_new": true,
+      "first_seen": "2026-07-06T05:01:38.131Z"
     },
     {
       "id": "86cc723186",
@@ -2570,7 +2585,22 @@
       "source": "muzika.hr",
       "is_new": false,
       "first_seen": "2026-07-05T05:01:29.544Z"
+    },
+    {
+      "id": "4b57c03c5c",
+      "title": "Moby",
+      "venue": "Moby Kalemegdan Beograd",
+      "city": "Serbia",
+      "country": "EU",
+      "category": "concert",
+      "date_iso": "2026-07-21T00:00:00",
+      "date_display": "uto, 21. 07. 2026.",
+      "time": null,
+      "link": "https://www.muzika.hr/event/moby-2/",
+      "source": "muzika.hr",
+      "is_new": true,
+      "first_seen": "2026-07-06T05:01:38.131Z"
     }
   ],
-  "new_count": 5
+  "new_count": 8
 }

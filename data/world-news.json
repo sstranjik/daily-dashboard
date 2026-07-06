@@ -1,9 +1,573 @@
 {
-  "last_updated": "2026-07-05T20:09:06.210Z",
+  "last_updated": "2026-07-06T05:01:34.812Z",
   "source_count": 6,
   "items": [
     {
       "id": "index-0",
+      "title": "Obilne kiše u Mumbaiju srušile zgrade. Poginula žena i petero djece",
+      "summary": "OBILNE kiše u Mumbaiju srušile su zgrade i usmrtile ženu i petero djece.",
+      "link": "https://www.index.hr/vijesti/clanak/obilne-kise-u-mumbaiju-srusile-zgrade-poginula-zena-i-petero-djece/2810280.aspx",
+      "published": "2026-07-06T04:57:00.000Z",
+      "source": "Index",
+      "category": "ai",
+      "xml_category": "vijesti",
+      "tags": [],
+      "image": null
+    },
+    {
+      "id": "jutarnji-0",
+      "title": "Obilne kiše odnijele šest života u Mumbaiju",
+      "summary": "Najmanje šest osoba, uključujući petero djece, poginulo je u nedjelju nakon što se nekoliko zgrada u istočnom predgrađu Mumbaija urušilo uslijed obilnih kiša koje su unijele poremećaje u promet i dovele do zatvaranja škola u gradu. U urušavanju nekoliko višekatnica na istoku Mumbaija poginulo je pet",
+      "link": "https://www.jutarnji.hr/vijesti/svijet/mumbai-urusanva-oblne-kise-zrtve-prometni-kolaps-poplave-15725057",
+      "published": "2026-07-06T04:50:50.000Z",
+      "source": "Jutarnji",
+      "category": "ai",
+      "xml_category": "svijet",
+      "tags": [],
+      "image": "https://media.jutarnji.hr/images/slike/2026/07/06/f_39234037_1280.jpg?1783313954"
+    },
+    {
+      "id": "n1-info-0",
+      "title": "Pacifički otoci na udaru supertajfuna: Bavi prijeti američkim bazama",
+      "summary": "Supertajfun Bavi zahvatio je u ponedjeljak Marijanske otoke, strateško obrambeno središte SAD-a u zapadnom dijelu Tihog oceana, pogodivši Guam, Tinian",
+      "link": "https://n1info.hr/svijet/pacificki-otoci-na-udaru-supertajfuna-bavi-prijeti-americkim-bazama/",
+      "published": "2026-07-06T04:48:59.000Z",
+      "source": "N1 Info",
+      "category": "general",
+      "xml_category": "svijet",
+      "tags": [],
+      "image": "https://n1info.hr/media/images/2026/7/6/1783313278_000_B9C989E.width-1200.jpg"
+    },
+    {
+      "id": "index-1",
+      "title": "Netanyahu: Kršćanska sela u Libanonu traže pripajanje Izraelu",
+      "summary": "IZRAELSKI premijer Netanyahu tvrdi da su neka kršćanska sela u Libanonu zatražila pripojenje Izraelu radi zaštite od Hezbollaha. Libanonski lokalni dužnosnici su tu tvrdnju oštro demantirali.",
+      "link": "https://www.index.hr/vijesti/clanak/netanyahu-krscanska-sela-u-libanonu-traze-pripajanje-izraelu/2810279.aspx",
+      "published": "2026-07-06T04:48:00.000Z",
+      "source": "Index",
+      "category": "general",
+      "xml_category": "vijesti",
+      "tags": [],
+      "image": null
+    },
+    {
+      "id": "index-2",
+      "title": "Šef Rheinmetalla: Angela Merkel nas je omalovažavala",
+      "summary": "ŠEF RHEINMETALLA Armin Papperger kritizirao je bivšu kancelarku Angelu Merkel zbog omalovažavanja obrambene industrije i oslanjanja na SAD, ističući veliki zaokret u politici nakon 2022. godine.",
+      "link": "https://www.index.hr/vijesti/clanak/sef-rheinmetalla-angela-merkel-nas-je-omalovazavala/2810278.aspx",
+      "published": "2026-07-06T04:43:00.000Z",
+      "source": "Index",
+      "category": "general",
+      "xml_category": "vijesti",
+      "tags": [],
+      "image": null
+    },
+    {
+      "id": "n1-info-1",
+      "title": "Tajvan pozorni prati \"uzlazni trend\" u aktivnostima kineske mornarice",
+      "summary": "Tajvan prati \"uzlazni trend\" u kineskim pomorskim aktivnostima tijekom glavnog razdoblja za provođenje vojnih vježbi, uključujući vojne vježbe s Rusij",
+      "link": "https://n1info.hr/svijet/tajvan-pozorni-prati-uzlazni-trend-u-aktivnostima-kineske-mornarice/",
+      "published": "2026-07-06T04:41:54.000Z",
+      "source": "N1 Info",
+      "category": "general",
+      "xml_category": "svijet",
+      "tags": [],
+      "image": "https://n1info.hr/media/images/1635693583-000_APH2003012128906.width-1200.jpg"
+    },
+    {
+      "id": "index-3",
+      "title": "Australski premijer ispričao se zbog komentara o Kylie Minogue",
+      "summary": "AUSTRALSKI premijer Anthony Albanese ispričao se zbog neprimjerenih komentara o pjevačici Kylie Minogue.",
+      "link": "https://www.index.hr/vijesti/clanak/australski-premijer-ispricao-se-zbog-komentara-o-kylie-minogue/2810275.aspx",
+      "published": "2026-07-06T04:34:00.000Z",
+      "source": "Index",
+      "category": "general",
+      "xml_category": "vijesti",
+      "tags": [],
+      "image": null
+    },
+    {
+      "id": "n1-info-2",
+      "title": "Rusi žestoko napali Kijev: Rakete zasule stambene zgrade, spašavaju stanare iz urušenih stanova",
+      "summary": "Ruske rakete i dronovi poharali su ukrajinski glavni grad rano u ponedjeljak, usmrtivši najmanje sedam osoba i oštetivši stambene i druge zgrade, obja",
+      "link": "https://n1info.hr/svijet/rusi-zestoko-napali-kijev-rakete-i-dronovi-pogodili-stambene-zgrade/",
+      "published": "2026-07-06T04:30:41.000Z",
+      "source": "N1 Info",
+      "category": "general",
+      "xml_category": "svijet",
+      "tags": [],
+      "image": "https://n1info.hr/media/images/1781498590_2026-06-15T041355Z_1557072590_RC2ZTLA3VLM6_RTRMADP_3_.width-1200.JPG"
+    },
+    {
+      "id": "jutarnji-1",
+      "title": "Kina gomila ratne brodove, Tajvan na oprezu: U tijeku i zajedničke vježbe s Rusijom",
+      "summary": "Tajvan prati \"uzlazni trend\" u kineskim pomorskim aktivnostima tijekom glavnog razdoblja za provođenje vojnih vježbi, uključujući vojne vježbe s Rusijom, i analizirat će eventualne nove taktike, izjavio je u ponedjeljak visoki tajvanski dužnosnik za sigurnost. Čelnik tajvanskog ureda za nacionalnu s",
+      "link": "https://www.jutarnji.hr/vijesti/svijet/tajvan-rast-kineskih-pomorskih-aktivnosti-zajednicke-vjezbe-s-rusijom-15725053",
+      "published": "2026-07-06T04:28:10.000Z",
+      "source": "Jutarnji",
+      "category": "general",
+      "xml_category": "svijet",
+      "tags": [],
+      "image": "https://media.jutarnji.hr/images/slike/2026/07/06/f_39222127_1280.jpg?1783313954"
+    },
+    {
+      "id": "index-4",
+      "title": "Otkriven izvor misterioznih kugli u Australiji",
+      "summary": "ŠEST misterioznih kugli pojavilo se na plaži u Queenslandu. Australska svemirska agencija vjeruje da se radi o svemirskom otpadu, vjerojatno tlačnim posudama s lansirnog vozila. Izdano je upozorenje.",
+      "link": "https://www.index.hr/vijesti/clanak/otkriven-izvor-misterioznih-kugli-u-australiji/2810274.aspx",
+      "published": "2026-07-06T04:26:00.000Z",
+      "source": "Index",
+      "category": "general",
+      "xml_category": "vijesti",
+      "tags": [],
+      "image": null
+    },
+    {
+      "id": "index-5",
+      "title": "Supertajfun Bavi pogodio Marijanske otoke",
+      "summary": "SUPERTAJFUN Bavi pogodio je Marijanske otoke, Guam, Tinian i Saipan.",
+      "link": "https://www.index.hr/vijesti/clanak/supertajfun-bavi-pogodio-marijanske-otoke/2810270.aspx",
+      "published": "2026-07-06T04:22:00.000Z",
+      "source": "Index",
+      "category": "general",
+      "xml_category": "vijesti",
+      "tags": [],
+      "image": null
+    },
+    {
+      "id": "jutarnji-2",
+      "title": "Počinje najčudnija bitka Putina i Zelenskog",
+      "summary": "Nakon završetka neuspješnog rata s Iranom američki predsjednik Donald Trump opet bi se mogao uključiti u sukob Rusije i Ukrajine. Događaji posljednjih dana pokazuju da predsjednika SAD-a i u Moskvi i u Kijevu pokušavaju uvjeriti da ih podrži. Pomoćnik ruskog predsjednika Jurij Ušakov izjavio je da j",
+      "link": "https://www.jutarnji.hr/vijesti/svijet/pocinje-najcudnija-bitka-putina-i-zelenskog-15725052",
+      "published": "2026-07-06T04:20:45.000Z",
+      "source": "Jutarnji",
+      "category": "general",
+      "xml_category": "svijet",
+      "tags": [],
+      "image": "https://media.jutarnji.hr/images/slike/2026/07/05/f_36802746_1280.jpg?1783313954"
+    },
+    {
+      "id": "index-6",
+      "title": "Tajvan: Pratimo i analiziramo vježbe kineske mornarice, imaju sve više brodova",
+      "summary": "TAJVAN prati pojačanu kinesku pomorsku aktivnost, uključujući zajedničke vježbe s Rusijom i rekordnih 110 brodova, analizirajući nove taktike.",
+      "link": "https://www.index.hr/vijesti/clanak/tajvan-pratimo-i-analiziramo-vjezbe-kineske-mornarice-imaju-sve-vise-brodova/2810273.aspx",
+      "published": "2026-07-06T04:15:00.000Z",
+      "source": "Index",
+      "category": "general",
+      "xml_category": "vijesti",
+      "tags": [],
+      "image": null
+    },
+    {
+      "id": "jutarnji-3",
+      "title": "VIDEO Jedan od najžešćih ruskih udara na Kijev: Najmanje desetero mrtvih, spasioci tragaju za preživjelima",
+      "summary": "Ruske rakete i dronovi poharali su ukrajinski glavni grad rano u ponedjeljak, usmrtivši najmanje deset osoba i oštetivši stambene i druge zgrade, objavio je na Telegramu čelnik kijevske gradske vojne uprave Timur Tkačenko. Spasilački timovi izvlačili su stanare iz zgrada oštećenih u noćnom napadu, r",
+      "link": "https://www.jutarnji.hr/vijesti/svijet/napad-na-kijev-ruske-rakete-i-dronovi-poginuli-ostecene-zgrade-15725051",
+      "published": "2026-07-06T04:13:00.000Z",
+      "source": "Jutarnji",
+      "category": "general",
+      "xml_category": "svijet",
+      "tags": [],
+      "image": "https://media.jutarnji.hr/images/slike/2026/07/06/f_39234634_1280.jpg?1783313954"
+    },
+    {
+      "id": "index-7",
+      "title": "Golem ruski napad na Kijev, šire se jezive snimke",
+      "summary": "U MASOVNOM ruskom napadu projektilima i dronovima na Kijev i okolicu sinoć je ubijeno najmanje osam osoba.",
+      "link": "https://www.index.hr/vijesti/clanak/golem-ruski-napad-na-kijev-sire-se-jezive-snimke/2810268.aspx",
+      "published": "2026-07-06T04:13:00.000Z",
+      "source": "Index",
+      "category": "general",
+      "xml_category": "vijesti",
+      "tags": [],
+      "image": null
+    },
+    {
+      "id": "index-8",
+      "title": "Ukrajinci napali jednu od najvećih ruskih rafinerija",
+      "summary": "UKRAJINSKA vojska napala je rafineriju nafte u ruskom Jaroslavlju. Napad je dio kampanje ciljanja energetske infrastrukture kako bi se poremetila ruska opskrba gorivom i financiranje rata.",
+      "link": "https://www.index.hr/vijesti/clanak/ukrajinci-napali-jednu-od-najvecih-ruskih-rafinerija/2810272.aspx",
+      "published": "2026-07-06T04:12:00.000Z",
+      "source": "Index",
+      "category": "general",
+      "xml_category": "vijesti",
+      "tags": [],
+      "image": null
+    },
+    {
+      "id": "al-jazeera-0",
+      "title": "Which teams are in the World Cup quarterfinals, and what’s the schedule?",
+      "summary": "The FIFA World Cup 2026 quarterfinals lineup as it builds, with match kickoff times and locations.",
+      "link": "https://www.aljazeera.com/sports/2026/7/6/which-teams-are-in-the-world-cup-quarterfinals-and-whats-the-schedule?traffic_source=rss",
+      "published": "2026-07-06T04:03:19.000Z",
+      "source": "Al Jazeera",
+      "category": "general",
+      "xml_category": "sport",
+      "tags": [],
+      "image": null
+    },
+    {
+      "id": "al-jazeera-1",
+      "title": "Bellingham inspires 10-man England to beat Mexico 3-2 in last-16 thriller",
+      "summary": "England hands Mexico their first World Cup loss at Estadio Azteca, winning 3-2 to reach the 2026 quarterfinals.",
+      "link": "https://www.aljazeera.com/sports/2026/7/6/bellingham-inspires-ten-man-england-in-3-2-last-16-thriller-against-mexico?traffic_source=rss",
+      "published": "2026-07-06T03:13:51.000Z",
+      "source": "Al Jazeera",
+      "category": "general",
+      "xml_category": "sport",
+      "tags": [],
+      "image": null
+    },
+    {
+      "id": "al-jazeera-2",
+      "title": "OPEC+ countries say they will expand monthly oil production",
+      "summary": "Seven OPEC+ members, including Saudi Arabia and Russia, to increase output by 188,000 barrels per day.",
+      "link": "https://www.aljazeera.com/economy/2026/7/6/opec-countries-say-they-will-expand-monthly-oil-production?traffic_source=rss",
+      "published": "2026-07-06T03:04:06.000Z",
+      "source": "Al Jazeera",
+      "category": "general",
+      "xml_category": "news",
+      "tags": [],
+      "image": null
+    },
+    {
+      "id": "bbc-7",
+      "title": "Australia space agency has found 'likely source' of mystery space balls",
+      "summary": "The agency says that they \"appear to be pressure vessels from a space launch vehicle\".",
+      "link": "https://www.bbc.co.uk/news/articles/c1jyydr7jnjo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-07-06T02:49:15.000Z",
+      "source": "BBC",
+      "category": "space",
+      "xml_category": "",
+      "tags": [],
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/cc2d/live/4062f360-7866-11f1-ab53-3dbca6ef5ee1.jpg"
+    },
+    {
+      "id": "al-jazeera-3",
+      "title": "Sports stadium becomes home for victims of the Venezuela earthquakes",
+      "summary": "A sports stadium in La Guaira state has been turned into a makeshift home and logistics centre for thousands of victims.",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/7/6/sports-stadium-becomes-home-for-victims-of-the-venezuela-earthquakes?traffic_source=rss",
+      "published": "2026-07-06T02:27:07.000Z",
+      "source": "Al Jazeera",
+      "category": "sport",
+      "xml_category": "show types",
+      "tags": [],
+      "image": null
+    },
+    {
+      "id": "al-jazeera-4",
+      "title": "Ronaldo’s last World Cup? We will see, says Portugal star before Spain clash",
+      "summary": "&#039;I will finish when I choose,&#039; Ronaldo reveals amid speculation about his World Cup future ahead of the last-16 match.",
+      "link": "https://www.aljazeera.com/sports/2026/7/6/ronaldos-last-world-cup-we-will-see-says-portugal-star-before-spain-clash?traffic_source=rss",
+      "published": "2026-07-06T02:13:37.000Z",
+      "source": "Al Jazeera",
+      "category": "ai",
+      "xml_category": "sport",
+      "tags": [],
+      "image": null
+    },
+    {
+      "id": "al-jazeera-5",
+      "title": "How conflict minerals fuel war in eastern DR Congo amid US sanctions",
+      "summary": "The move underscores growing scrutiny of the conflict mineral trade fuelling violence in eastern DR Congo.",
+      "link": "https://www.aljazeera.com/news/2026/7/6/us-sanctions-target-rwandan-firms-linked-to-conflict-minerals-funding-m23?traffic_source=rss",
+      "published": "2026-07-06T02:10:37.000Z",
+      "source": "Al Jazeera",
+      "category": "general",
+      "xml_category": "news",
+      "tags": [],
+      "image": null
+    },
+    {
+      "id": "bbc-6",
+      "title": "Australian PM apologises for 'inappropriate' comments about Kylie Minogue",
+      "summary": "Albanese has apologised 'unequivocally' after his remarks prompted a backlash.",
+      "link": "https://www.bbc.co.uk/news/articles/cr477en6w3go?at_medium=RSS&at_campaign=rss",
+      "published": "2026-07-06T01:46:29.000Z",
+      "source": "BBC",
+      "category": "tech",
+      "xml_category": "",
+      "tags": [],
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/eae2/live/1c528710-78cf-11f1-a627-714adb4eed6e.jpg"
+    },
+    {
+      "id": "al-jazeera-6",
+      "title": "Tuareg fighters claim to have shot down a Russian helicopter in Mali",
+      "summary": "Tuareg fighters in Mali have released footage claiming to have shot down a Russian Africa Corps Mi-24 helicopter.",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/7/6/aje-onl-nf_mali-rebels-claim-to-have-shot-down-russian-helicop-050726?traffic_source=rss",
+      "published": "2026-07-06T01:35:17.000Z",
+      "source": "Al Jazeera",
+      "category": "ai",
+      "xml_category": "show types",
+      "tags": [],
+      "image": null
+    },
+    {
+      "id": "bbc-4",
+      "title": "From 'a beautiful night' to 'world's greatest hangover', guests react to Taylor and Travis's wedding",
+      "summary": "Some of the famous guests have been posting on social media about the big day in New York.",
+      "link": "https://www.bbc.co.uk/news/articles/clyxxr9n2kjo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-07-06T01:20:47.000Z",
+      "source": "BBC",
+      "category": "general",
+      "xml_category": "",
+      "tags": [],
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ec55/live/3525a160-7888-11f1-a627-714adb4eed6e.jpg"
+    },
+    {
+      "id": "al-jazeera-7",
+      "title": "Neymar quits international football after Brazil’s World Cup knockout loss",
+      "summary": "The injury-plagued striker converted a penalty but failed to take his team into the last 16 of the FIFA World Cup.",
+      "link": "https://www.aljazeera.com/sports/2026/7/6/neymar-quits-international-football-after-brazils-world-cup-knockout-loss?traffic_source=rss",
+      "published": "2026-07-06T01:04:38.000Z",
+      "source": "Al Jazeera",
+      "category": "sport",
+      "xml_category": "sport",
+      "tags": [],
+      "image": null
+    },
+    {
+      "id": "al-jazeera-8",
+      "title": "Belgium ‘astonished’ at FIFA’s U-turn on Balogun red card for USA match",
+      "summary": "Belgium&#039;s football federation is &#039;investigating all potential options&#039; to safeguard football after FIFA&#039;s U-turn.",
+      "link": "https://www.aljazeera.com/sports/2026/7/6/belgium-astonished-at-fifas-u-turn-on-balogun-red-card-for-usa-match?traffic_source=rss",
+      "published": "2026-07-06T00:22:50.000Z",
+      "source": "Al Jazeera",
+      "category": "general",
+      "xml_category": "sport",
+      "tags": [],
+      "image": null
+    },
+    {
+      "id": "bbc-5",
+      "title": "Super Typhoon Bavi makes landfall on US Pacific islands with huge wind gusts",
+      "summary": "The storm, with winds of nearly 290km/h (180mph) and gusts of 350km/h, is lashing the island of Rota.",
+      "link": "https://www.bbc.co.uk/news/articles/cr7xpgx50jxo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-07-06T00:20:20.000Z",
+      "source": "BBC",
+      "category": "general",
+      "xml_category": "",
+      "tags": [],
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e5fe/live/d61837e0-78d3-11f1-89d7-2d3742bbe0b1.jpg"
+    },
+    {
+      "id": "bbc-10",
+      "title": "Bangladesh courts China even as ties with India improve",
+      "summary": "Relations between Dhaka and Delhi, that turned frosty under the interim government, are on the mend.",
+      "link": "https://www.bbc.co.uk/news/articles/cy4e1lzwgvxo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-07-06T00:02:29.000Z",
+      "source": "BBC",
+      "category": "general",
+      "xml_category": "",
+      "tags": [],
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d46d/live/7b635980-75f2-11f1-8c3f-e37c76e39331.jpg"
+    },
+    {
+      "id": "al-jazeera-9",
+      "title": "Iran war live: Khamenei’s funeral procession under way in Tehran",
+      "summary": "The funeral procession is expected to last 10-12 hours and has drawn crowds of hundreds of thousands of mourners.",
+      "link": "https://www.aljazeera.com/news/liveblog/2026/7/6/iran-war-live-tehran-set-for-khameneis-procession-israel-bombs-lebanon?traffic_source=rss",
+      "published": "2026-07-06T00:00:00.000Z",
+      "source": "Al Jazeera",
+      "category": "general",
+      "xml_category": "news",
+      "tags": [],
+      "image": null
+    },
+    {
+      "id": "bbc-2",
+      "title": "Marine Le Pen appeal verdict: Why this moment matters for France",
+      "summary": "The leader of France's National Rally leads the opinion polls ahead of the 2027 presidential election and will now find out if she can stand.",
+      "link": "https://www.bbc.co.uk/news/articles/clyeele4leeo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-07-05T23:31:04.000Z",
+      "source": "BBC",
+      "category": "tech",
+      "xml_category": "",
+      "tags": [],
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1ae5/live/6c2d8350-7868-11f1-ab53-3dbca6ef5ee1.jpg"
+    },
+    {
+      "id": "bbc-9",
+      "title": "The African fishermen who blame Chinese trawlers for their woes",
+      "summary": "Fishing crews in Sierra Leone say large Chinese ships are illegally hoovering up stocks.",
+      "link": "https://www.bbc.co.uk/news/articles/cj4gy9qy7vyo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-07-05T23:30:40.000Z",
+      "source": "BBC",
+      "category": "general",
+      "xml_category": "",
+      "tags": [],
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2be5/live/fdafa040-6f23-11f1-af60-8d06db225241.jpg"
+    },
+    {
+      "id": "al-jazeera-10",
+      "title": "Venezuelan leader marks Independence Day with message of ‘no social unrest’",
+      "summary": "Interim President Delcy Rodriguez once again defends her government&#039;s handling of the deadly earthquakes on June 24.",
+      "link": "https://www.aljazeera.com/news/2026/7/5/venezuelan-leader-marks-independence-day-with-message-of-no-social-unrest?traffic_source=rss",
+      "published": "2026-07-05T22:48:13.000Z",
+      "source": "Al Jazeera",
+      "category": "general",
+      "xml_category": "news",
+      "tags": [],
+      "image": null
+    },
+    {
+      "id": "al-jazeera-11",
+      "title": "How a son rescued his father from the rubble of Venezuela’s earthquakes",
+      "summary": "After the June 24 earthquakes, ex-firefighter Jesus Garcia found himself working to save his dad and younger brothers.",
+      "link": "https://www.aljazeera.com/news/longform/2026/7/5/how-a-son-rescued-his-father-from-the-rubble-of-venezuelas-earthquakes?traffic_source=rss",
+      "published": "2026-07-05T22:41:40.000Z",
+      "source": "Al Jazeera",
+      "category": "general",
+      "xml_category": "news",
+      "tags": [],
+      "image": null
+    },
+    {
+      "id": "al-jazeera-12",
+      "title": "Haaland scores twice as Norway stun Brazil 2-1 in World Cup 2026 last 16",
+      "summary": "Haaland&#039;s brace takes him to seven goals for the tournament as Norway book a quarterfinal against Mexico or England.",
+      "link": "https://www.aljazeera.com/sports/2026/7/5/haaland-scores-twice-as-norway-stun-brazil-2-1-in-world-cup-2026-last-16?traffic_source=rss",
+      "published": "2026-07-05T22:26:49.000Z",
+      "source": "Al Jazeera",
+      "category": "general",
+      "xml_category": "sport",
+      "tags": [],
+      "image": null
+    },
+    {
+      "id": "al-jazeera-13",
+      "title": "Palestinian baby dies in West Bank after Israel blocks urgent medical care",
+      "summary": "Israeli forces also shoot dead a 16-year-old boy in the occupied West Bank and kill two Palestinians in Gaza.",
+      "link": "https://www.aljazeera.com/news/2026/7/5/palestinian-baby-dies-in-west-bank-after-israel-blocks-urgent-medical-care?traffic_source=rss",
+      "published": "2026-07-05T22:03:52.000Z",
+      "source": "Al Jazeera",
+      "category": "general",
+      "xml_category": "news",
+      "tags": [],
+      "image": null
+    },
+    {
+      "id": "bbc-3",
+      "title": "A global hub for fake luxury goods, Vietnam cracks down on its black market",
+      "summary": "The Trump administration wants Vietnam to stamp out its booming counterfeit industry. Locals are divided.",
+      "link": "https://www.bbc.co.uk/news/articles/cdx7zzywz7wo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-07-05T22:01:43.000Z",
+      "source": "BBC",
+      "category": "economy",
+      "xml_category": "",
+      "tags": [],
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b0a6/live/d2d3d720-76b6-11f1-925a-557464d48d36.jpg"
+    },
+    {
+      "id": "al-jazeera-14",
+      "title": "Turkiye gears up for its first NATO summit in 22 years",
+      "summary": "Leaders of the NATO member states are expected in Turkiye by July 7 for a summit - the first it will host in 22 years.",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/7/5/turkiye-gears-up-for-its-first-nato-summit-in-22-years?traffic_source=rss",
+      "published": "2026-07-05T21:42:48.000Z",
+      "source": "Al Jazeera",
+      "category": "general",
+      "xml_category": "show types",
+      "tags": [],
+      "image": null
+    },
+    {
+      "id": "index-9",
+      "title": "Više od 100 privedenih na prosvjedima protiv NATO-a u Turskoj",
+      "summary": "UOČI NATO summita u Ankari, Turska je privela više od 100 prosvjednika.",
+      "link": "https://www.index.hr/vijesti/clanak/vise-od-100-privedenih-na-prosvjedima-protiv-natoa-u-turskoj/2810253.aspx",
+      "published": "2026-07-05T21:11:00.000Z",
+      "source": "Index",
+      "category": "general",
+      "xml_category": "vijesti",
+      "tags": [],
+      "image": null
+    },
+    {
+      "id": "al-jazeera-15",
+      "title": "Albanian court frees protesters who rallied against Kushner-linked resort",
+      "summary": "The planned resort linked to US President Donald Trump&#039;s son-in-law has become a flashpoint for anti-government protests",
+      "link": "https://www.aljazeera.com/news/2026/7/5/albanian-court-frees-protesters-who-rallied-against-kushner-linked-resort?traffic_source=rss",
+      "published": "2026-07-05T20:50:58.000Z",
+      "source": "Al Jazeera",
+      "category": "ai",
+      "xml_category": "news",
+      "tags": [],
+      "image": null
+    },
+    {
+      "id": "al-jazeera-16",
+      "title": "Mexico 2-3 England: FIFA World Cup 2026 last 16 – as it happened",
+      "summary": "All the updates from our live text commentary stream coverage as Jude Bellingham leads England into the quarterfinals.",
+      "link": "https://www.aljazeera.com/sports/liveblog/2026/7/5/mexico-vs-england-live-fifa-world-cup-2026-last-16?traffic_source=rss",
+      "published": "2026-07-05T20:46:14.000Z",
+      "source": "Al Jazeera",
+      "category": "tech",
+      "xml_category": "sport",
+      "tags": [],
+      "image": null
+    },
+    {
+      "id": "al-jazeera-17",
+      "title": "FIFA World Cup: All to know as Ronaldo’s Portugal play Spain in the last 16",
+      "summary": "Cristiano Ronaldo is just one of several key talking points before Portugal and Spain clash in a round of 16 epic in Dallas.",
+      "link": "https://www.aljazeera.com/sports/2026/7/5/world-cup-portugal-vs-spain-key-talking-points-ronaldo-yamal-prediction?traffic_source=rss",
+      "published": "2026-07-05T20:41:02.000Z",
+      "source": "Al Jazeera",
+      "category": "ai",
+      "xml_category": "sport",
+      "tags": [],
+      "image": null
+    },
+    {
+      "id": "al-jazeera-18",
+      "title": "10,000 people evacuated as wildfire tears through southern France",
+      "summary": "A fast-moving wildfire has forced around 10,000 people to evacuate after burning more than 1,500 hectares in France.",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/7/5/10000-people-evacuated-as-wildfire-tears-through-southern-france?traffic_source=rss",
+      "published": "2026-07-05T20:38:57.000Z",
+      "source": "Al Jazeera",
+      "category": "general",
+      "xml_category": "show types",
+      "tags": [],
+      "image": null
+    },
+    {
+      "id": "al-jazeera-19",
+      "title": "How will the rise of right-wing populism affect Latin America?",
+      "summary": "Conservatives are winning elections across the region.",
+      "link": "https://www.aljazeera.com/video/inside-story/2026/7/5/how-will-the-rise-of-right-wing-populism-affect-latin-america?traffic_source=rss",
+      "published": "2026-07-05T20:34:04.000Z",
+      "source": "Al Jazeera",
+      "category": "general",
+      "xml_category": "tv shows",
+      "tags": [],
+      "image": null
+    },
+    {
+      "id": "n1-info-6",
+      "title": "Trump će se na samitu NATO-a sastati s čelnicima Ukrajine i Sirije",
+      "summary": "Američki predsjednik Donald Trump sastat će se s ukrajinskim predsjednikom Volodimirom Zelenskim u Turskoj tijekom samita NATO-a kako bi još jednom po",
+      "link": "https://n1info.hr/svijet/trump-ce-se-na-samitu-nato-a-sastati-s-celnicima-ukrajine-i-sirije/",
+      "published": "2026-07-05T20:10:37.000Z",
+      "source": "N1 Info",
+      "category": "general",
+      "xml_category": "svijet",
+      "tags": [],
+      "image": "https://n1info.hr/media/images/2026/2/1771396691_000_89764XV.width-1200.jpg"
+    },
+    {
+      "id": "index-10",
+      "title": "Trump će se u Turskoj sastati sa Zelenskim",
+      "summary": "TRUMP se na NATO summitu u Turskoj sastaje sa Zelenskim kako bi pogurao završetak rata u Ukrajini.",
+      "link": "https://www.index.hr/vijesti/clanak/trump-ce-se-u-turskoj-sastati-sa-zelenskim/2810246.aspx",
+      "published": "2026-07-05T20:08:00.000Z",
+      "source": "Index",
+      "category": "general",
+      "xml_category": "vijesti",
+      "tags": [],
+      "image": null
+    },
+    {
+      "id": "index-11",
       "title": "Zelenski: Rusija priprema novi masovni udar na Ukrajinu",
       "summary": "PREDSJEDNIK Zelenski upozorio je da Rusija, prema obavještajnim podacima, priprema novi masovni napad. Apelirao je na međunarodne partnere da ne odgađaju isporuku protuzračnih sustava poput Patriota.",
       "link": "https://www.index.hr/vijesti/clanak/zelenski-rusija-priprema-novi-masovni-udar-na-ukrajinu/2810247.aspx",
@@ -15,7 +579,7 @@
       "image": null
     },
     {
-      "id": "n1-info-0",
+      "id": "n1-info-7",
       "title": "Egipat inaugurirao najveći kompleks oružanih snaga na svijetu",
       "summary": "Egipat je svečano otvorio novo sjedište svojih oružanih snaga, za koje se smatra da je najveće na svijetu, a otvorenju je - u rijetkom javnom pojavlji",
       "link": "https://n1info.hr/svijet/egipat-inaugurirao-najveci-kompleks-oruzanih-snaga-na-svijetu/",
@@ -27,7 +591,7 @@
       "image": "https://n1info.hr/media/images/2026/7/5/1783281390_000_36FW4GY.width-1200.jpg"
     },
     {
-      "id": "jutarnji-0",
+      "id": "jutarnji-4",
       "title": "VIDEO Otvoren najveći vojni kompleks na svijetu. Veličine Lisabona i nestvarno veći od Pentagona",
       "summary": "Egipat je u nedjelju svečano otvorio novo sjedište svojih oružanih snaga, za koje se smatra da je najveće na svijetu, a otvorenju je - u rijetkom javnom pojavljivanju u vojnoj odori - nazočio predsjednik Abdel Fattah al-Sisi. Oktagon, kako se kompleks zove, sastoji se od osam zgrada, od kojih svaka.",
       "link": "https://www.jutarnji.hr/vijesti/svijet/egipat-otvorio-oktagon-najveci-vojni-kompleks-nadmasuje-pentagon-15725020",
@@ -36,10 +600,10 @@
       "category": "general",
       "xml_category": "svijet",
       "tags": [],
-      "image": "https://media.jutarnji.hr/images/slike/2026/07/05/f_39222493_1280.gif?1783280994"
+      "image": "https://media.jutarnji.hr/images/slike/2026/07/05/f_39222493_1280.gif?1783313954"
     },
     {
-      "id": "index-1",
+      "id": "index-12",
       "title": "Hameneijev lijes iznesen pred uplakano mnoštvo. Plakali i njegovi sinovi",
       "summary": "U TEHERANU traje sprovod za ubijenog vođu Alija Khameneija. Njegov sin i nasljednik Mojtaba nije se pojavio, navodno zbog prijetnji. Dok jedni pozivaju na osvetu, drugi Iranci izražavaju apatiju.",
       "link": "https://www.index.hr/vijesti/clanak/hameneijev-lijes-iznesen-pred-uplakano-mnostvo-plakali-i-njegovi-sinovi/2810242.aspx",
@@ -87,7 +651,7 @@
       "image": null
     },
     {
-      "id": "index-2",
+      "id": "index-13",
       "title": "Etna ponovo izbacuje velike količine pepela, pogledajte slike",
       "summary": "ETNA, jedan od najaktivnijih vulkana na jugu Italije, danas je ponovno snažno izbacivala pepeo, a zbog pojačane vulkanske aktivnosti privremeno je obustavljen dolazni zračni promet na Međunarodnom aerodromu \"Catania Vincenzo Bellini\".",
       "link": "https://www.index.hr/vijesti/clanak/etna-ponovo-izbacuje-velike-kolicine-pepela-pogledajte-slike/2810176.aspx",
@@ -99,7 +663,7 @@
       "image": null
     },
     {
-      "id": "index-3",
+      "id": "index-14",
       "title": "Egipat otvorio najveći vojni kompleks na svijetu",
       "summary": "EGIPAT je usred krize otvorio Oktagon, najveći vojni kompleks na svijetu.",
       "link": "https://www.index.hr/vijesti/clanak/egipat-otvorio-najveci-vojni-kompleks-na-svijetu/2810236.aspx",
@@ -123,7 +687,7 @@
       "image": null
     },
     {
-      "id": "jutarnji-1",
+      "id": "jutarnji-5",
       "title": "Köln preplavila najveća Povorka ponosa. More ljudi poslalo jasnu poruku",
       "summary": "Oko 1.5 milijuna ljudi pratilo je Povorku ponosa u Kölnu u nedjelju, rekli su organizatori, čime su premašena očekivanja za jedan od najvećih takvih događaja u Europi. Oko 60.000 sudionika, u 250 grupa, sudjelovalo je u paradi kojom se obilježava Pride, poznat u Njemačkoj kao Christopher Street Day.",
       "link": "https://www.jutarnji.hr/vijesti/svijet/rekordna-csd-povorka-u-kolnu-15-milijuna-gledatelja-poruka-jasna-15725015",
@@ -132,7 +696,7 @@
       "category": "general",
       "xml_category": "svijet",
       "tags": [],
-      "image": "https://media.jutarnji.hr/images/slike/2026/07/05/f_39221669_1280.jpg?1783280994"
+      "image": "https://media.jutarnji.hr/images/slike/2026/07/05/f_39221669_1280.jpg?1783313954"
     },
     {
       "id": "al-jazeera-3",
@@ -147,7 +711,7 @@
       "image": null
     },
     {
-      "id": "index-4",
+      "id": "index-15",
       "title": "VIDEO Hidroavion na East Riveru pri slijetanju udario u vodu, spašeno osam ljudi",
       "summary": "OSAM osoba spašeno je nakon što je hidroavion pri slijetanju snažno udario o površinu vode na njujorškom East Riveru, priopćile su vlasti.",
       "link": "https://www.index.hr/vijesti/clanak/video-hidroavion-na-east-riveru-pri-slijetanju-udario-u-vodu-spaseno-osam-ljudi/2810231.aspx",
@@ -183,7 +747,7 @@
       "image": null
     },
     {
-      "id": "n1-info-3",
+      "id": "n1-info-10",
       "title": "U izraelskom napadu na Gazu ubijene dvije osobe",
       "summary": "U izraelskom napadu na grad Gazu ubijena su najmanje dva Palestinca, rekli su zdravstveni dužnosnici.",
       "link": "https://n1info.hr/svijet/u-izraelskom-napadu-na-gazu-ubijene-dvije-osobe/",
@@ -243,7 +807,7 @@
       "image": null
     },
     {
-      "id": "jutarnji-2",
+      "id": "jutarnji-6",
       "title": "Počinje se ostvarivati obećanje Vladimira Putina. Rusija ima novu elitu",
       "summary": "Počinje se ostvarivati obećanje Vladimira Putina kako su ratnici koji su sudjelovali u ratu s Ukrajinom nova ruska elita. Sustavno promicanje veterana takozvane Specijale vojne operacije (SVO) u vladine institucije počelo je još 2024., kada je Putin pokrenuo kadrovski program Vrijeme heroja, a nezav",
       "link": "https://www.jutarnji.hr/vijesti/svijet/pocinje-se-ostvarivati-obecanje-vladimira-putina-rusija-ima-novu-elitu-15725004",
@@ -252,7 +816,7 @@
       "category": "general",
       "xml_category": "svijet",
       "tags": [],
-      "image": "https://media.jutarnji.hr/images/slike/2026/07/04/f_39220567_1280.jpg?1783280994"
+      "image": "https://media.jutarnji.hr/images/slike/2026/07/04/f_39220567_1280.jpg?1783313954"
     },
     {
       "id": "al-jazeera-8",
@@ -267,7 +831,7 @@
       "image": null
     },
     {
-      "id": "bbc-6",
+      "id": "bbc-8",
       "title": "'Definitely felt a big bang': Delta plane hit by firework while landing in Chicago",
       "summary": "The plane had 52 passengers and six crew onboard. No injuries were reported.",
       "link": "https://www.bbc.co.uk/news/articles/cj4gg89r9gdo?at_medium=RSS&at_campaign=rss",
@@ -279,7 +843,7 @@
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ed43/live/cf601a20-7898-11f1-87a6-29e20436c2da.jpg"
     },
     {
-      "id": "index-5",
+      "id": "index-16",
       "title": "Milijun i pol ljudi na Prideu u Kölnu",
       "summary": "MILIJUN i pol ljudi pratilo je Povorku ponosa u Kölnu.",
       "link": "https://www.index.hr/vijesti/clanak/milijun-i-pol-ljudi-na-prideu-u-k%C3%B6lnu/2810221.aspx",
@@ -303,7 +867,7 @@
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f067/live/f76e6560-789a-11f1-9510-1546718f668b.jpg"
     },
     {
-      "id": "index-6",
+      "id": "index-17",
       "title": "Škotkinja ubijena na Kreti 2009. Sinovi nisu odustali od istrage, slučaj je riješen",
       "summary": "NAKON 17 godina borbe, trojica braće iz Škotske dočekala su pravdu. Muškarac je proglašen krivim za ubojstvo njihove majke.",
       "link": "https://www.index.hr/vijesti/clanak/skotkinja-ubijena-na-kreti-2009-sinovi-nisu-odustali-od-istrage-slucaj-je-rijesen/2810208.aspx",
@@ -339,7 +903,7 @@
       "image": null
     },
     {
-      "id": "bbc-9",
+      "id": "bbc-12",
       "title": "Nigeria says two nationals killed in South Africa amid rise of anti-migrant attacks",
       "summary": "Nigeria's government said one of its nationals was reportedly killed by police officers \"using gruesome interrogation techniques\".",
       "link": "https://www.bbc.co.uk/news/articles/cqj11lxwnn0o?at_medium=RSS&at_campaign=rss",
@@ -351,7 +915,7 @@
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5b20/live/c527be30-760b-11f1-ac6e-25f7e4f0c9b9.jpg"
     },
     {
-      "id": "index-7",
+      "id": "index-18",
       "title": "Švedski otok se sprema za najgori scenarij: \"Tko kontrolira otok, kontrolira Baltik\"",
       "summary": "ŠVEDSKA ubrzano remilitarizira strateški otok Gotland zbog ruske prijetnje. Jačaju se vojne snage i civilna obrana kako bi se otok, ključan za kontrolu Baltika, pripremio za mogući sukob.",
       "link": "https://www.index.hr/vijesti/clanak/svedski-otok-se-sprema-za-najgori-scenarij-tko-kontrolira-otok-kontrolira-baltik/2810207.aspx",
@@ -363,7 +927,7 @@
       "image": null
     },
     {
-      "id": "index-8",
+      "id": "index-19",
       "title": "U Engleskoj danima tragali za dvojicom muškaraca, našli ih mrtve u slupanom autu",
       "summary": "TIJELA dvojice muškaraca, nestalih više od tjedan dana, pronađena su u slupanom autu skrivenom u raslinju. Policija vjeruje da je automobil sletio s ceste te istražuje okolnosti nesreće.",
       "link": "https://www.index.hr/vijesti/clanak/u-engleskoj-danima-tragali-za-dvojicom-muskaraca-nasli-ih-mrtve-u-slupanom-autu/2810206.aspx",
@@ -399,7 +963,7 @@
       "image": null
     },
     {
-      "id": "n1-info-7",
+      "id": "n1-info-14",
       "title": "Sukob u Poljskoj zbog Ukrajine: \"Te su rakete ključni element u obrani našeg zračnog prostora\"",
       "summary": "U Poljskoj je izbio politički sukob zbog sumnje da su u proljeće Ukrajini isporučeni protuzračni raketni sustavi Patriot američke proizvodnje, pri čem",
       "link": "https://n1info.hr/svijet/sukob-u-poljskoj-zbog-ukrajine-te-su-rakete-kljucni-element-u-obrani-naseg-zracnog-prostora/",
@@ -411,7 +975,7 @@
       "image": "https://n1info.hr/media/images/2026/4/6/1775478918_Patriot_AFP.width-1200.jpg"
     },
     {
-      "id": "jutarnji-3",
+      "id": "jutarnji-7",
       "title": "Kijev neće blokirati Krim! Plan je puno veći",
       "summary": "Stotine spaljenih i pougljenih olupina tegljača, cisterni i različitih vojnih transportnih vozila danas su razasute uz glavnu rusku opskrbnu prometnicu koja povezuje Rusiju s okupiranim dijelovima južne Ukrajine i Krimom, piše Foreign Policy. Kilometrima se, kažu, uz cestu protežu prevrnuta vozila i",
       "link": "https://www.jutarnji.hr/vijesti/svijet/ukrajinski-dronovi-slamaju-rusku-logistiku-prema-krimu-15724984",
@@ -420,7 +984,7 @@
       "category": "general",
       "xml_category": "svijet",
       "tags": [],
-      "image": "https://media.jutarnji.hr/images/slike/2026/07/05/f_39025028_1280.jpg?1783280994"
+      "image": "https://media.jutarnji.hr/images/slike/2026/07/05/f_39025028_1280.jpg?1783313954"
     },
     {
       "id": "al-jazeera-12",
@@ -495,7 +1059,7 @@
       "image": null
     },
     {
-      "id": "jutarnji-4",
+      "id": "jutarnji-8",
       "title": "VIDEO Je li se Putin ikada ovako osramotio u nekom videu? Pogledajte što je i kako izgleda propaganda",
       "summary": "Ruski predsjednik Vladimir Putin objavio je bizaran propagandni video u kojem se pojavljuje odjeven u vojnu odoru, u očitom pokušaju da ostavi dojam odlučnog ratnog vođe i ponovno privuče pozornost američkog predsjednika Donalda Trumpa, u trenutku kada Ukrajina bilježi sve uspješnije udare na ruske.",
       "link": "https://www.jutarnji.hr/vijesti/svijet/putin-u-vojnoj-odori-propagandni-video-ukrajinski-udari-trump-15724982",
@@ -504,10 +1068,10 @@
       "category": "general",
       "xml_category": "svijet",
       "tags": [],
-      "image": "https://media.jutarnji.hr/images/slike/2026/07/05/f_39217730_1280.jpg?1783280994"
+      "image": "https://media.jutarnji.hr/images/slike/2026/07/05/f_39217730_1280.jpg?1783313954"
     },
     {
-      "id": "jutarnji-5",
+      "id": "jutarnji-9",
       "title": "Kako su protuzračne rakete izazvale obračun u vrhu poljske vlasti",
       "summary": "U Poljskoj je u nedjelju izbio politički sukob zbog sumnje da su u proljeće Ukrajini isporučeni protuzračni raketni sustavi Patriot američke proizvodnje, pri čemu oporbene stranke optužuju da se to dogodilo bez znanja parlamenta ili predsjednika. Oporbena nacionalno-konzervativna stranka Pravo i pra",
       "link": "https://www.jutarnji.hr/vijesti/svijet/poljska-sukob-patriot-ukrajina-oporba-tajna-pomoc-15724981",
@@ -516,7 +1080,7 @@
       "category": "general",
       "xml_category": "svijet",
       "tags": [],
-      "image": "https://media.jutarnji.hr/images/slike/2026/07/05/f_38139975_1280.jpg?1783280994"
+      "image": "https://media.jutarnji.hr/images/slike/2026/07/05/f_38139975_1280.jpg?1783313954"
     },
     {
       "id": "al-jazeera-16",
@@ -531,19 +1095,7 @@
       "image": null
     },
     {
-      "id": "bbc-2",
-      "title": "From 'a beautiful night' to 'world's greatest hangover', guests react to Taylor and Travis's wedding",
-      "summary": "Some of the famous guests have been posting on social media about the big day in New York.",
-      "link": "https://www.bbc.co.uk/news/articles/clyxxr9n2kjo?at_medium=RSS&at_campaign=rss",
-      "published": "2026-07-05T15:48:20.000Z",
-      "source": "BBC",
-      "category": "general",
-      "xml_category": "",
-      "tags": [],
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ec55/live/3525a160-7888-11f1-a627-714adb4eed6e.jpg"
-    },
-    {
-      "id": "n1-info-9",
+      "id": "n1-info-16",
       "title": "Liderica AfD-a branila istospolne zajednice usprkos stavu svoje stranke",
       "summary": "Alice Weidel, čelnica krajnje desne Alternative za Njemačku (AfD) koja živi u istospolnom partnerstvu, se ogradila od dijela regionalnog stranačkog ma",
       "link": "https://n1info.hr/svijet/liderica-afd-a-branila-istospolne-zajednice-usprkos-stavu-svoje-stranke/",
@@ -579,7 +1131,7 @@
       "image": null
     },
     {
-      "id": "bbc-7",
+      "id": "bbc-11",
       "title": "Thousands welcome home Cape Verde footballers after stunning World Cup run",
       "summary": "Tens of thousands of fans formed an ocean of blue outside the airport in capital city, Praia.",
       "link": "https://www.bbc.co.uk/news/articles/c70yy4xkeexo?at_medium=RSS&at_campaign=rss",
@@ -615,7 +1167,7 @@
       "image": null
     },
     {
-      "id": "jutarnji-6",
+      "id": "jutarnji-10",
       "title": "Rat je stigao u najelitniji dio Europe",
       "summary": "Nedavni napad paket-bombom u Monaku, u kojem je teško stradala obitelj ukrajinskog tajkuna Vadima Jermolajeva, izazvao je šok među stanovnicima i ugrozio ugled države kao jedne od najsigurnijih na svijetu. Budući da se ekonomija Monaka izravno oslanja na nepostojanje poreza na dohodak i vrhunsku sig",
       "link": "https://www.jutarnji.hr/vijesti/svijet/paket-bomba-monako-ugled-sigurnosti-vadim-jermolajev-istraga-interpol-15724973",
@@ -624,10 +1176,10 @@
       "category": "general",
       "xml_category": "svijet",
       "tags": [],
-      "image": "https://media.jutarnji.hr/images/slike/2026/07/05/f_39213974_1280.jpg?1783280994"
+      "image": "https://media.jutarnji.hr/images/slike/2026/07/05/f_39213974_1280.jpg?1783313954"
     },
     {
-      "id": "jutarnji-7",
+      "id": "jutarnji-11",
       "title": "Svijet priča o detalju s pogreba Alija Hameneija",
       "summary": "Vrhovni iranski vođa Modžtaba Hamenei nije prisustvovao očevu pogrebu, na kojem su se u nedjelju u Teheranu okupili visoki dužnosnici režima i tisuće građana. Službeni ispraćaj ajatolaha Alija Hameneija počeo je u petak i trajat će tjedan dana diljem Irana i Iraka, a vlasti procjenjuju da će ga posj",
       "link": "https://www.jutarnji.hr/vijesti/svijet/modztaba-hamenei-izostao-s-ocevog-pogreba-sigurnosne-prijetnje-milijuni-na-ispracaju-15724968",
@@ -636,7 +1188,7 @@
       "category": "general",
       "xml_category": "svijet",
       "tags": [],
-      "image": "https://media.jutarnji.hr/images/slike/2026/07/05/f_39212519_1280.jpg?1783280994"
+      "image": "https://media.jutarnji.hr/images/slike/2026/07/05/f_39212519_1280.jpg?1783313954"
     },
     {
       "id": "al-jazeera-18",
@@ -711,7 +1263,7 @@
       "image": null
     },
     {
-      "id": "n1-info-12",
+      "id": "n1-info-19",
       "title": "FOTO / Crna Gora protjerala tri Rusa iz zemlje: Evo što je pronađeno kod njih",
       "summary": "Crnu Goru su morala prisilno napustiti trojica ruskih državljana nakon što je granična policija kod njih pronašla veliku količinu sofisticirane digita",
       "link": "https://n1info.hr/regija/foto--crna-gora-protjerala-tri-rusa-iz-zemlje-evo-to-je-pronaeno-kod-njih/",
@@ -723,19 +1275,7 @@
       "image": "https://n1info.hr/media/images/2026/7/5/1783258688_Screenshot_1.width-1200.jpg"
     },
     {
-      "id": "bbc-4",
-      "title": "Australia probes mystery space balls that washed up on beach",
-      "summary": "Officials are searching for the origins of six pieces of space debris discovered on Forrest Beach in Queensland.",
-      "link": "https://www.bbc.co.uk/news/articles/c1jyydr7jnjo?at_medium=RSS&at_campaign=rss",
-      "published": "2026-07-05T12:55:58.000Z",
-      "source": "BBC",
-      "category": "space",
-      "xml_category": "",
-      "tags": [],
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/cc2d/live/4062f360-7866-11f1-ab53-3dbca6ef5ee1.jpg"
-    },
-    {
-      "id": "jutarnji-8",
+      "id": "jutarnji-12",
       "title": "Uznemirujuće informacije iz Poljske, Amerikanci su upozorili Varšavu. Oglasio se i premijer",
       "summary": "Poljski premijer, Donald Tusk, kaže da se zemlja priprema za “različite” scenarije te da bi naredni mjeseci mogli biti “kritični”, a sve vezano uz prijetnje Rusije. Prema BBC-ju, radi se o poljskoj reakciji na izvješća koja se pozivaju na američke obavještajne službe, prema kojima Moskva planira oru",
       "link": "https://www.jutarnji.hr/vijesti/svijet/uznemirujuce-informacije-iz-poljske-amerikanci-su-upozorili-varsavu-oglasio-se-i-premijer-15724956",
@@ -744,7 +1284,7 @@
       "category": "general",
       "xml_category": "svijet",
       "tags": [],
-      "image": "https://media.jutarnji.hr/images/slike/2026/07/04/f_39005898_1280.jpg?1783280994"
+      "image": "https://media.jutarnji.hr/images/slike/2026/07/04/f_39005898_1280.jpg?1783313954"
     },
     {
       "id": "index-15",
@@ -807,7 +1347,7 @@
       "image": null
     },
     {
-      "id": "jutarnji-9",
+      "id": "jutarnji-13",
       "title": "Došli po bolji život u Njemačku, a sada odlaze. Istraživanje otkrilo glavne razloge",
       "summary": "„Naš je zaključak: tko želi uspješno upravljati useljavanjem, mora razumjeti i iseljavanje. Riječ je o tome da se ljude dugoročno zadrži kroz pravedne šanse, pouzdane procedure, dobru potporu i okruženje u kojem mogu razvijati dugoročne perspektive“, kaže Laura Goßner iz Instituta za istraživanje tr",
       "link": "https://www.jutarnji.hr/vijesti/svijet/zasto-doseljenici-odlaze-iz-njemacke-iab-birokracija-jezik-mladi-15724943",
@@ -816,10 +1356,10 @@
       "category": "general",
       "xml_category": "svijet",
       "tags": [],
-      "image": "https://media.jutarnji.hr/images/slike/2026/07/05/f_32425183_1280.jpg?1783280994"
+      "image": "https://media.jutarnji.hr/images/slike/2026/07/05/f_32425183_1280.jpg?1783313954"
     },
     {
-      "id": "jutarnji-10",
+      "id": "jutarnji-14",
       "title": "Pistorius upozorava na veze krajnje desnog AfD-a s Moskvom: ‘Ne smiju doći do povjerljivih informacija‘",
       "summary": "Njemački ministar obrane Boris Pistorius želi spriječiti krajnje desnu stranku Alternativa za Njemačku (AfD) da dobije pristup povjerljivim informacijama ako uđe u vladu. Pistorius je kao razlog naveo bliske veze stranke s Rusijom. U nedjeljnom izdanju visokotiražnog lista Bild rekao je da je blisko",
       "link": "https://www.jutarnji.hr/vijesti/svijet/pistorius-blokira-afd-pristup-tajnim-podacima-zbog-ruskih-veza-15724941",
@@ -828,7 +1368,7 @@
       "category": "general",
       "xml_category": "svijet",
       "tags": [],
-      "image": "https://media.jutarnji.hr/images/slike/2026/07/05/f_38373219_1280.jpg?1783280994"
+      "image": "https://media.jutarnji.hr/images/slike/2026/07/05/f_38373219_1280.jpg?1783313954"
     },
     {
       "id": "index-0",
@@ -1047,7 +1587,7 @@
       "image": null
     },
     {
-      "id": "jutarnji-11",
+      "id": "jutarnji-15",
       "title": "Na Hameneijevu sprovodu trojica sinova, ali ne i njegov nasljednik Modžtaba",
       "summary": "Trojica sinova ubijenog iranskog vođe ajatolaha Alija Hameneija molila su se u nedjelju uz njegov lijes i lijesove četvero drugih članova obitelji, ali Modžtaba Hamenei, sin koji ga je naslijedio kao vrhovni vođa Irana, nije se pojavio. --- Afp/afp/profimedia/Afp/afp/profimedia --- Državna televizij",
       "link": "https://www.jutarnji.hr/vijesti/svijet/modztaba-hamenei-izostao-s-molitve-uz-ocev-lijes-u-teheranu-15724918",
@@ -1056,7 +1596,7 @@
       "category": "general",
       "xml_category": "svijet",
       "tags": [],
-      "image": "https://media.jutarnji.hr/images/slike/2026/07/05/f_39206337_1280.jpg?1783280994"
+      "image": "https://media.jutarnji.hr/images/slike/2026/07/05/f_39206337_1280.jpg?1783313954"
     },
     {
       "id": "index-19",
@@ -1071,7 +1611,7 @@
       "image": null
     },
     {
-      "id": "jutarnji-12",
+      "id": "jutarnji-16",
       "title": "Masovna pucnjava na Dan neovisnosti u New Yorku: Najmanje osmero ranjenih, među njima četvero djece",
       "summary": "Najmanje osam osoba, među kojima je četvero djece, ranjeno je u pucnjavi koja se dogodila kasno u subotu navečer tijekom proslave američkog Dana neovisnosti u četvrti Coney Island u njujorškom Brooklynu, javlja ABC News pozivajući se na njujoršku policiju (NYPD). --- --- Policija je dojavu o pucnjav",
       "link": "https://www.jutarnji.hr/vijesti/svijet/masovna-pucnjava-na-dan-neovisnosti-u-new-yorku-najmanje-osmero-ranjenih-medu-njima-cetvero-djece-15724915",
@@ -1080,7 +1620,7 @@
       "category": "general",
       "xml_category": "svijet",
       "tags": [],
-      "image": "https://media.jutarnji.hr/images/slike/2026/07/05/f_39204430_1280.jpg?1783280994"
+      "image": "https://media.jutarnji.hr/images/slike/2026/07/05/f_39204430_1280.jpg?1783313954"
     },
     {
       "id": "n1-info-18",
@@ -1093,18 +1633,6 @@
       "xml_category": "svijet",
       "tags": [],
       "image": "https://n1info.hr/media/images/2026/7/5/1783243707_000_B9AK6XE.width-1200.jpg"
-    },
-    {
-      "id": "bbc-5",
-      "title": "Evacuations in Guam as super typhoon Bavi approaches",
-      "summary": "The storm is forecast to bring winds in excess of 160mph and waves nearly 11m high when it makes landfall on Monday.",
-      "link": "https://www.bbc.co.uk/news/articles/cr7xpgx50jxo?at_medium=RSS&at_campaign=rss",
-      "published": "2026-07-05T09:26:56.000Z",
-      "source": "BBC",
-      "category": "tech",
-      "xml_category": "",
-      "tags": [],
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5ccc/live/14f8dd50-7840-11f1-a9d9-f754ec615ffe.jpg"
     },
     {
       "id": "index-18",
@@ -1179,7 +1707,7 @@
       "image": null
     },
     {
-      "id": "jutarnji-13",
+      "id": "jutarnji-17",
       "title": "Šest tajanstvenih predmeta izbačeno na plaže Queenslanda: Je li riječ o ‘svemirskim kuglama‘?",
       "summary": "Šest komada sumnjivog svemirskog otpada pronađeno je nasukano na plažama sjevernog Queenslanda, a prema jednom stručnjaku, riječ bi mogla biti o “svemirskim kuglama” koje rakete često izbace nakon lansiranja, piše The Guardian. Australska svemirska agencija potvrdila je u nedjelju da radi na utvrđiv",
       "link": "https://www.jutarnji.hr/vijesti/svijet/svemirske-kugle-na-plazama-queenslanda-forrest-beach-istraga-15724902",
@@ -1188,7 +1716,7 @@
       "category": "general",
       "xml_category": "svijet",
       "tags": [],
-      "image": "https://media.jutarnji.hr/images/slike/2026/07/05/f_39205180_1280.png?1783280994"
+      "image": "https://media.jutarnji.hr/images/slike/2026/07/05/f_39205180_1280.png?1783313954"
     },
     {
       "id": "n1-info-18",
@@ -1239,7 +1767,7 @@
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a55a/live/28e7ea40-7845-11f1-a62d-b782ecdb6ead.jpg"
     },
     {
-      "id": "jutarnji-14",
+      "id": "jutarnji-18",
       "title": "Trump obećao Americi borbu protiv bezbožnih komunista i imigranata",
       "summary": "U obilježavanje 250 godina američke državnosti predsjednik Donald Trump ušao je govorom podno monumentalnog spomenika uklesanog u planinu Rushmore u Južnoj Dakoti, optužujući demokrate da su bežbožni i zli komunisti. Ponovno oživljena komunistička prijetnja predstavlja ozbiljnu prijetnju Sjedinjenim",
       "link": "https://www.jutarnji.hr/vijesti/svijet/trump-obecao-americi-borbu-protiv-bezboznih-komunista-i-imigranata-15724897",
@@ -1248,7 +1776,7 @@
       "category": "general",
       "xml_category": "svijet",
       "tags": [],
-      "image": "https://media.jutarnji.hr/images/slike/2026/07/04/f_39200463_1280.jpg?1783280994"
+      "image": "https://media.jutarnji.hr/images/slike/2026/07/04/f_39200463_1280.jpg?1783313954"
     },
     {
       "id": "n1-info-19",
@@ -1311,7 +1839,7 @@
       "image": null
     },
     {
-      "id": "jutarnji-15",
+      "id": "jutarnji-19",
       "title": "Amerikanci upozorili Teheran: ‘Izrael ih želi ubiti!‘",
       "summary": "Američki dužnosnici upozorili su Iran da bi Izrael mogao ubiti iranske dužnosnike koji su sudjelovali u mirovnim pregovorima sa Sjedinjenim Državama, objavili su New York Times i CNN, pozivajući se na američke izvore. Amerikanci su proljetos prenijeli svoju zabrinutost Teheranu da bi Izrael mogao ub",
       "link": "https://www.jutarnji.hr/vijesti/svijet/amerikanci-upozorili-teheran-izrael-ih-zeli-ubiti-15724894",
@@ -1320,7 +1848,7 @@
       "category": "general",
       "xml_category": "svijet",
       "tags": [],
-      "image": "https://media.jutarnji.hr/images/slike/2026/07/04/f_38624084_1280.jpg?1783280994"
+      "image": "https://media.jutarnji.hr/images/slike/2026/07/04/f_38624084_1280.jpg?1783313954"
     },
     {
       "id": "jutarnji-16",
@@ -1563,7 +2091,7 @@
       "image": "https://n1info.hr/media/images/1783230006_2026-07-05T021733Z_892930266_RC287MARW4TA_RTRMADP_3_VE.width-1200.JPG"
     },
     {
-      "id": "bbc-12",
+      "id": "bbc-13",
       "title": "How Iran's new regime is very different to what came before",
       "summary": "Khamenei's funeral is another reminder of the change Iran has seen, but what does its new leadership want?",
       "link": "https://www.bbc.co.uk/news/articles/cg534ryp660o?at_medium=RSS&at_campaign=rss",
@@ -1669,318 +2197,6 @@
       "xml_category": "vijesti",
       "tags": [],
       "image": null
-    },
-    {
-      "id": "jutarnji-17",
-      "title": "Trump i Putin razgovarali sat i pol telefonom",
-      "summary": "Ruski predsjednik Vladimir Putin razgovarao je u subotu telefonom sa svojim američkim kolegom Donaldom Trumpom u povodu 250. obljetnice neovisnosti SAD-a, priopćio je Kremlj, pojašnjavajući da su dvojica čelnika razgovarala o situaciji u Ukrajini uoči samita NATO-a u Ankari. \"Predsjednici su se prir",
-      "link": "https://www.jutarnji.hr/vijesti/svijet/putin-trump-razgovor-ukrajina-nato-samit-ankara-15724855",
-      "published": "2026-07-05T04:59:00.000Z",
-      "source": "Jutarnji",
-      "category": "general",
-      "xml_category": "svijet",
-      "tags": [],
-      "image": "https://media.jutarnji.hr/images/slike/2026/07/05/f_36836758_1280.jpg?1783280994"
-    },
-    {
-      "id": "index-17",
-      "title": "VIDEO Trumpov govor za 250. obljetnicu SAD-a: Komunizam je rak koji se mora ukloniti",
-      "summary": "DONALD Trump održao je govor povodom 250. obljetnice SAD-a, no proslavu su obilježile ekstremne vremenske neprilike, političke podjele i optužbe za korištenje događaja u svrhu predizborne kampanje.",
-      "link": "https://www.index.hr/vijesti/clanak/video-trumpov-govor-za-250-obljetnicu-sada-komunizam-je-rak-koji-se-mora-ukloniti/2810056.aspx",
-      "published": "2026-07-05T04:58:00.000Z",
-      "source": "Index",
-      "category": "general",
-      "xml_category": "vijesti",
-      "tags": [],
-      "image": null
-    },
-    {
-      "id": "jutarnji-18",
-      "title": "Gotovo 3000 mrtvih u potresima u Venezueli: ‘I dalje vjerujemo da ćemo pronaći žive, ne gubimo nadu‘",
-      "summary": "Dvostruki potres koji je prije deset dana opustošio sjeverni dio Venezuele odnio je gotovo 3000 ljudskih života, pokazuju službeni podaci objavljeni u subotu, dok međunarodni spasilački timovi postupno obustavljaju potragu za preživjelima u ruševinama. U gradu La Guairi, epicentru katastrofe smješte",
-      "link": "https://www.jutarnji.hr/vijesti/svijet/dvostruki-potres-venezuela-la-guaira-gotovo-3000-mrtvih-razaranja-15724854",
-      "published": "2026-07-05T04:40:10.000Z",
-      "source": "Jutarnji",
-      "category": "general",
-      "xml_category": "svijet",
-      "tags": [],
-      "image": "https://media.jutarnji.hr/images/slike/2026/07/05/f_39184763_1280.jpg?1783280994"
-    },
-    {
-      "id": "jutarnji-19",
-      "title": "Katastrofalno je koga Rusi uvlače u vojsku",
-      "summary": "Rusija je početkom ove godine pokrenula opsežnu akciju regrutiranja studenata sveučilišta te tehničkih i strukovnih škola u nove postrojbe za upravljanje vojnim dronovima, predstavljajući to kao moderniji, elitniji i sigurniji način sudjelovanja u ratu u Ukrajini. Međutim, svjedočanstva obitelji pog",
-      "link": "https://www.jutarnji.hr/vijesti/svijet/regrutiranje-dronovi-studenti-rusija-fronta-rovovi-obecanja-gubici-15724853",
-      "published": "2026-07-05T04:36:00.000Z",
-      "source": "Jutarnji",
-      "category": "general",
-      "xml_category": "svijet",
-      "tags": [],
-      "image": "https://media.jutarnji.hr/images/slike/2026/07/04/f_27392195_1280.jpg?1783280994"
-    },
-    {
-      "id": "jutarnji-18",
-      "title": "Nevrijeme omelo proslavu 250. godišnjice američke neovisnosti, Trump odgodio govor",
-      "summary": "Nevrijeme je u subotu omelo glavnu proslavu 250. godišnjice Sjedinjenih Američkih Država u Washingtonu, zbog čega je odgođen govor Donalda Trumpa, koji je unatoč svemu čvrsto odlučio preuzeti glavnu ulogu. Nekoliko sati prije predviđenog govora američkog predsjednika izdana je naredba za evakuaciju.",
-      "link": "https://www.jutarnji.hr/vijesti/svijet/olujno-nevrijeme-evakuiralo-national-mall-i-odgodilo-trumpov-govor-na-250-godisnjici-15724852",
-      "published": "2026-07-05T04:28:00.000Z",
-      "source": "Jutarnji",
-      "category": "general",
-      "xml_category": "svijet",
-      "tags": [],
-      "image": "https://media.jutarnji.hr/images/slike/2026/07/05/f_39200495_1280.jpg?1783276864"
-    },
-    {
-      "id": "al-jazeera-18",
-      "title": "A name, a document, a future: Cameroon’s fight to register every child",
-      "summary": "Efforts to expand birth registration in Cameroon are gaining ground, but millions of children remain undocumented.",
-      "link": "https://www.aljazeera.com/news/2026/7/5/a-name-a-document-a-future-cameroons-fight-to-register-every-child?traffic_source=rss",
-      "published": "2026-07-05T03:55:54.000Z",
-      "source": "Al Jazeera",
-      "category": "general",
-      "xml_category": "news",
-      "tags": [],
-      "image": null
-    },
-    {
-      "id": "al-jazeera-19",
-      "title": "Fireworks light up New York City to mark 250 years of US independence",
-      "summary": "Fireworks lit up the New York City skyline as America marked its 250th anniversary.",
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/7/5/aje-onl-nf_fireworks-light-up-new-york-city-to-mark-250-years-040726?traffic_source=rss",
-      "published": "2026-07-05T02:55:06.000Z",
-      "source": "Al Jazeera",
-      "category": "general",
-      "xml_category": "show types",
-      "tags": [],
-      "image": null
-    },
-    {
-      "id": "al-jazeera-15",
-      "title": "Severe weather disrupts US’s 250th celebrations",
-      "summary": "President Trump describes milestone as &#039;one of the most joyous and glorious&#039; in US&#039;s history in campaign style speech.",
-      "link": "https://www.aljazeera.com/news/2026/7/5/severe-weather-disrupts-uss-250th-celebrations?traffic_source=rss",
-      "published": "2026-07-05T02:54:05.000Z",
-      "source": "Al Jazeera",
-      "category": "general",
-      "xml_category": "news",
-      "tags": [],
-      "image": null
-    },
-    {
-      "id": "bbc-14",
-      "title": "France survive Paraguay's 'disgraceful' and 'embarrassing' dark arts",
-      "summary": "After dismantling all before them at this World Cup, France had to find a new way to win against a Paraguay side whose use of the dark arts angered many of those watching.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cn4dpd11v1eo?at_medium=RSS&at_campaign=rss",
-      "published": "2026-07-05T01:53:01.000Z",
-      "source": "BBC",
-      "category": "general",
-      "xml_category": "",
-      "tags": [],
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/391f/live/bd051c20-780e-11f1-b37e-11764f8e5983.jpg"
-    },
-    {
-      "id": "al-jazeera-16",
-      "title": "This immigrant served in the US military. Now he faces deportation",
-      "summary": "Benito Miranda Hernandez completed three tours during the Iraq war but now faces removal from the US to Mexico.",
-      "link": "https://www.aljazeera.com/news/longform/2026/7/5/this-immigrant-served-in-the-us-military-now-he-faces-deportation?traffic_source=rss",
-      "published": "2026-07-05T00:49:14.000Z",
-      "source": "Al Jazeera",
-      "category": "general",
-      "xml_category": "news",
-      "tags": [],
-      "image": null
-    },
-    {
-      "id": "al-jazeera-17",
-      "title": "White nationalists march on Washington DC ahead of Freedom 250 celebrations",
-      "summary": "Hundreds of masked white nationalists marched on Washington DC ahead of Freedom 250.",
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/7/5/aje-onl-nf_white-nationalists-march-ahead-of-freedom-250-040726?traffic_source=rss",
-      "published": "2026-07-05T00:08:47.000Z",
-      "source": "Al Jazeera",
-      "category": "general",
-      "xml_category": "show types",
-      "tags": [],
-      "image": null
-    },
-    {
-      "id": "al-jazeera-18",
-      "title": "Iran war live: Millions mourn Khamenei; Trump hints at Netanyahu meeting",
-      "summary": "Late Supreme Leader Ali Khamenei and members of his family were killed in a US-Israeli air strike on February 28.",
-      "link": "https://www.aljazeera.com/news/liveblog/2026/7/5/iran-war-live-huge-crowds-mourn-khamenei-trump-vows-calm-during-funeral?traffic_source=rss",
-      "published": "2026-07-05T00:00:00.000Z",
-      "source": "Al Jazeera",
-      "category": "general",
-      "xml_category": "news",
-      "tags": [],
-      "image": null
-    },
-    {
-      "id": "al-jazeera-19",
-      "title": "White nationalists march in Washington, DC, area during July 4 festivities",
-      "summary": "Donald Trump has faced condemnation for failing to forcefully reject white nationalists during his presidency.",
-      "link": "https://www.aljazeera.com/news/2026/7/4/white-nationalists-march-in-washington-dc-area-during-july-4-festivities?traffic_source=rss",
-      "published": "2026-07-04T23:57:52.000Z",
-      "source": "Al Jazeera",
-      "category": "general",
-      "xml_category": "news",
-      "tags": [],
-      "image": null
-    },
-    {
-      "id": "al-jazeera-19",
-      "title": "Ticket prices plunge for USA-Belgium World Cup last-16 match",
-      "summary": "The price for the final 2026 World ⁠Cup match in Seattle hit nearly $4,000 but dipped as low as $1,549 ⁠on Tuesday.",
-      "link": "https://www.aljazeera.com/sports/2026/7/4/ticket-prices-plunge-for-us-belgium-world-cup-last-16-match?traffic_source=rss",
-      "published": "2026-07-04T23:36:37.000Z",
-      "source": "Al Jazeera",
-      "category": "general",
-      "xml_category": "sport",
-      "tags": [],
-      "image": null
-    },
-    {
-      "id": "bbc-13",
-      "title": "Cowboys, fighter jets and US Border Patrol - inside Trump's big recruitment drive",
-      "summary": "Space Force and Customs and Border Patrol are using a rodeo as a way to drive up recruitment numbers.",
-      "link": "https://www.bbc.co.uk/news/articles/ce3ex7rnpg6o?at_medium=RSS&at_campaign=rss",
-      "published": "2026-07-04T23:33:27.000Z",
-      "source": "BBC",
-      "category": "general",
-      "xml_category": "",
-      "tags": [],
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/cb10/live/e66eeba0-7803-11f1-b71c-71dc57e03e12.jpg"
-    },
-    {
-      "id": "al-jazeera-18",
-      "title": "Mbappe draws level with Messi as France beat Paraguay to set up Morocco tie",
-      "summary": "Kylian Mbappe moves level with Lionel Messi on seven goals at World Cup 2026 as France beat Paraguay 1-0 in last 16.",
-      "link": "https://www.aljazeera.com/sports/2026/7/4/mbappe-draws-level-with-messi-as-france-beat-paraguay-to-set-up-morocco-tie?traffic_source=rss",
-      "published": "2026-07-04T23:25:33.000Z",
-      "source": "Al Jazeera",
-      "category": "tech",
-      "xml_category": "sport",
-      "tags": [],
-      "image": null
-    },
-    {
-      "id": "bbc-3",
-      "title": "Moment of destiny for France's Le Pen in verdict to decide her future in presidential race",
-      "summary": "Far-right leader Marine Le Pen is appealing against a verdict which found her guilty of misusing EU funds.",
-      "link": "https://www.bbc.co.uk/news/articles/c5yzlwz34p7o?at_medium=RSS&at_campaign=rss",
-      "published": "2026-07-04T23:17:24.000Z",
-      "source": "BBC",
-      "category": "general",
-      "xml_category": "",
-      "tags": [],
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/799f/live/4ae824d0-76d7-11f1-b508-3b3f1f22a3c1.jpg"
-    },
-    {
-      "id": "al-jazeera-19",
-      "title": "US influence challenged by changing global order: Paolo von Schirach",
-      "summary": "US influence challenged by changing global order: Paolo von Schirach",
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/7/4/us-influence-challenged-by-changing-global-order-paolo-von-schirach?traffic_source=rss",
-      "published": "2026-07-04T22:10:39.000Z",
-      "source": "Al Jazeera",
-      "category": "general",
-      "xml_category": "show types",
-      "tags": [],
-      "image": null
-    },
-    {
-      "id": "bbc-19",
-      "title": "Funeral of Iran's former supreme leader 'intensely political moment'",
-      "summary": "Authorities expect up to 20 million people to attend ceremonies across Iran and Iraq over the coming days.",
-      "link": "https://www.bbc.co.uk/news/videos/c23y22z4ppxo?at_medium=RSS&at_campaign=rss",
-      "published": "2026-07-04T21:46:43.000Z",
-      "source": "BBC",
-      "category": "general",
-      "xml_category": "",
-      "tags": [],
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2a2f/live/7e277ba0-77ec-11f1-9510-1546718f668b.jpg"
-    },
-    {
-      "id": "al-jazeera-18",
-      "title": "Masses of Iranians defy heatwave on second day of Khamenei’s funeral",
-      "summary": "Iran has marked the second day of funeral processions for its late Supreme Leader Ali Khamenei.",
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/7/4/masses-of-iranians-defy-heatwave-on-second-day-of-khameneis-funeral?traffic_source=rss",
-      "published": "2026-07-04T21:08:18.000Z",
-      "source": "Al Jazeera",
-      "category": "general",
-      "xml_category": "show types",
-      "tags": [],
-      "image": null
-    },
-    {
-      "id": "index-18",
-      "title": "Srpski ministar otišao u Iran na sprovod Hameneiju",
-      "summary": "SRPSKI ministar Boris Bratina u Teheranu na sprovodu ajatolaha Hamneija. Posjet je izazvao oštre reakcije oporbe, koja kritizira vanjsku politiku Srbije i odnos prema EU.",
-      "link": "https://www.index.hr/vijesti/clanak/srpski-ministar-otisao-u-iran-na-sprovod-hameneiju/2810049.aspx",
-      "published": "2026-07-04T21:08:00.000Z",
-      "source": "Index",
-      "category": "politika",
-      "xml_category": "vijesti",
-      "tags": [],
-      "image": null
-    },
-    {
-      "id": "index-19",
-      "title": "Zelenski čestitao Trumpu 250. Dan neovisnosti SAD-a",
-      "summary": "ZELENSKI je čestitao Trumpu 250. Dan neovisnosti SAD-a, zahvalio na potpori i usporedio ukrajinsku borbu za slobodu s američkom povijesnom borbom za neovisnost.",
-      "link": "https://www.index.hr/vijesti/clanak/zelenski-cestitao-trumpu-250-dan-neovisnosti-sada/2810048.aspx",
-      "published": "2026-07-04T20:58:00.000Z",
-      "source": "Index",
-      "category": "general",
-      "xml_category": "vijesti",
-      "tags": [],
-      "image": null
-    },
-    {
-      "id": "n1-info-18",
-      "title": "Broj poginulih u potresima u Venezueli porastao na 2954",
-      "summary": "Broj poginulih u dva potresa u Venezueli porastao je na 2954, izvijestilo je venezuelsko ministarstvo informiranja.",
-      "link": "https://n1info.hr/svijet/broj-poginulih-u-potresima-u-venezueli-porastao-na-2954/",
-      "published": "2026-07-04T20:56:09.000Z",
-      "source": "N1 Info",
-      "category": "general",
-      "xml_category": "svijet",
-      "tags": [],
-      "image": "https://n1info.hr/media/images/1782413035_2026-06-25T175716Z_2147073379_RC251MACJRCH_RTRMADP_3_.width-1200.JPG"
-    },
-    {
-      "id": "index-19",
-      "title": "Vance: Britaniju je iznevjerilo vodstvo. Trebaju joj velike promjene",
-      "summary": "AMERIČKI potpredsjednik JD Vance izjavio je da je Britaniju iznevjerilo njeno vodstvo, očekujući da će idući premijer donijeti strukturne promjene.",
-      "link": "https://www.index.hr/vijesti/clanak/vance-britaniju-je-iznevjerilo-vodstvo-trebaju-joj-velike-promjene/2810046.aspx",
-      "published": "2026-07-04T20:44:00.000Z",
-      "source": "Index",
-      "category": "general",
-      "xml_category": "vijesti",
-      "tags": [],
-      "image": null
-    },
-    {
-      "id": "n1-info-19",
-      "title": "JD Vance: Britaniju su iznevjerili njeni lideri, ljudi vape za značajnim promjenama",
-      "summary": "Potpredsjednik Sjedinjenih Država JD Vance rekao je da je Britanija \"dugo vremena iznevjerena od strane svog vodstva\", dodajući da se nada da će sljed",
-      "link": "https://n1info.hr/svijet/jd-vance-britaniju-su-iznevjerili-njeni-lideri-ljudi-vape-za-znacajnim-promjenama/",
-      "published": "2026-07-04T20:40:58.000Z",
-      "source": "N1 Info",
-      "category": "general",
-      "xml_category": "svijet",
-      "tags": [],
-      "image": "https://n1info.hr/media/images/2026/3/1773430732_JD_Vance_AFP.width-1200.jpg"
-    },
-    {
-      "id": "bbc-14",
-      "title": "Eala wins 'for all the girls with ruffled socks and chubby cheeks'",
-      "summary": "Alexandra Eala dedicates her stunning win over defending Wimbledon champion Iga Swiatek to \"all the girls with ruffled socks and chubby cheeks\".",
-      "link": "https://www.bbc.co.uk/sport/tennis/articles/cjwgpz3wj69o?at_medium=RSS&at_campaign=rss",
-      "published": "2026-07-04T20:19:11.000Z",
-      "source": "BBC",
-      "category": "general",
-      "xml_category": "",
-      "tags": [],
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a602/live/96aa5aa0-77c7-11f1-a627-714adb4eed6e.jpg"
     }
   ]
 }
