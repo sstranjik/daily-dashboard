@@ -1,25 +1,21 @@
 {
-  "generated_at": "2026-07-06T09:01:36.713Z",
+  "generated_at": "2026-07-06T09:51:21.659Z",
   "stats": {
-    "Mochvara": {
-      "ok": true,
-      "count": 0
-    },
-    "Pogon": {
-      "ok": true,
-      "count": 0
-    },
     "muzika.hr": {
       "ok": true,
       "count": 25
+    },
+    "Gavella": {
+      "ok": true,
+      "count": 0
     },
     "Lisinski": {
       "ok": true,
       "count": 0
     },
-    "Gavella": {
+    "Mochvara": {
       "ok": true,
-      "count": 0
+      "count": 9
     },
     "ZeKaeM": {
       "ok": true,
@@ -29,6 +25,18 @@
       "ok": true,
       "count": 3
     },
+    "Komedija": {
+      "ok": true,
+      "count": 0
+    },
+    "HNK Zagreb": {
+      "ok": true,
+      "count": 57
+    },
+    "Pogon": {
+      "ok": true,
+      "count": 0
+    },
     "Kerempuh": {
       "ok": true,
       "count": 0
@@ -36,14 +44,6 @@
     "Trešnja": {
       "ok": true,
       "count": 0
-    },
-    "Komedija": {
-      "ok": true,
-      "count": 0
-    },
-    "HNK Zagreb": {
-      "ok": true,
-      "count": 56
     }
   },
   "concerts": [
@@ -1184,7 +1184,7 @@
       "time": "15:00",
       "link": "https://hnk.hr/hr/ostalo/predstave/iza-kulisa-165-sezona/#05.09.15.00",
       "source": "HNK Zagreb",
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-07-06T09:01:36.713Z"
     },
     {
@@ -1231,6 +1231,21 @@
       "source": "HNK Zagreb",
       "is_new": false,
       "first_seen": "2026-06-18T13:01:15.839Z"
+    },
+    {
+      "id": "1a4e663b3f",
+      "title": "Razgled kazališta 165 sezona iza kulisa",
+      "venue": "HNK Zagreb",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-09-12T14:00:00",
+      "date_display": "sub, 12. 09. 2026.",
+      "time": "14:00",
+      "link": "https://hnk.hr/hr/ostalo/predstave/iza-kulisa-165-sezona/#12.09.14.00",
+      "source": "HNK Zagreb",
+      "is_new": true,
+      "first_seen": "2026-07-06T09:51:21.659Z"
     },
     {
       "id": "ac7003b1c1",
