@@ -1,13 +1,9 @@
 {
-  "generated_at": "2026-07-06T12:01:40.056Z",
+  "generated_at": "2026-07-06T13:01:36.519Z",
   "stats": {
     "muzika.hr": {
       "ok": true,
       "count": 25
-    },
-    "Mochvara": {
-      "ok": true,
-      "count": 9
     },
     "Gavella": {
       "ok": true,
@@ -16,6 +12,10 @@
     "Lisinski": {
       "ok": true,
       "count": 0
+    },
+    "Mochvara": {
+      "ok": true,
+      "count": 9
     },
     "Tvornica": {
       "ok": true,
@@ -29,15 +29,15 @@
       "ok": true,
       "count": 0
     },
-    "Pogon": {
-      "ok": true,
-      "count": 0
-    },
     "HNK Zagreb": {
       "ok": true,
       "count": 59
     },
     "Kerempuh": {
+      "ok": true,
+      "count": 0
+    },
+    "Pogon": {
       "ok": true,
       "count": 0
     },
@@ -2598,7 +2598,7 @@
       "time": null,
       "link": "https://www.muzika.hr/event/neil-young-love-earth-tour/",
       "source": "muzika.hr",
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-06-30T18:01:18.202Z"
     },
     {
@@ -2645,6 +2645,21 @@
       "source": "muzika.hr",
       "is_new": false,
       "first_seen": "2026-07-05T05:01:29.544Z"
+    },
+    {
+      "id": "858fdc61ca",
+      "title": "Kanye West \"YE LIVE CONCERT\" - otkazano",
+      "venue": "RFC Arena Reggio Emilia Reggio Emilia",
+      "city": "Italija",
+      "country": "EU",
+      "category": "concert",
+      "date_iso": "2026-07-18T00:00:00",
+      "date_display": "sub, 18. 07. 2026.",
+      "time": null,
+      "link": "https://www.muzika.hr/event/kanye-west-ye-live-concert/",
+      "source": "muzika.hr",
+      "is_new": true,
+      "first_seen": "2026-07-06T13:01:36.519Z"
     },
     {
       "id": "4b57c03c5c",
