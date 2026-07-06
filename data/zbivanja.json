@@ -1,23 +1,19 @@
 {
-  "generated_at": "2026-07-06T09:51:21.659Z",
+  "generated_at": "2026-07-06T10:01:41.585Z",
   "stats": {
     "muzika.hr": {
       "ok": true,
       "count": 25
     },
-    "Gavella": {
+    "Mochvara": {
       "ok": true,
-      "count": 0
+      "count": 9
     },
     "Lisinski": {
       "ok": true,
       "count": 0
     },
-    "Mochvara": {
-      "ok": true,
-      "count": 9
-    },
-    "ZeKaeM": {
+    "Gavella": {
       "ok": true,
       "count": 0
     },
@@ -25,7 +21,15 @@
       "ok": true,
       "count": 3
     },
+    "ZeKaeM": {
+      "ok": true,
+      "count": 0
+    },
     "Komedija": {
+      "ok": true,
+      "count": 0
+    },
+    "Pogon": {
       "ok": true,
       "count": 0
     },
@@ -33,17 +37,13 @@
       "ok": true,
       "count": 57
     },
-    "Pogon": {
-      "ok": true,
-      "count": 0
-    },
     "Kerempuh": {
       "ok": true,
       "count": 0
     },
     "Trešnja": {
-      "ok": true,
-      "count": 0
+      "ok": false,
+      "error": "The operation was aborted due to timeout"
     }
   },
   "concerts": [
@@ -1244,7 +1244,7 @@
       "time": "14:00",
       "link": "https://hnk.hr/hr/ostalo/predstave/iza-kulisa-165-sezona/#12.09.14.00",
       "source": "HNK Zagreb",
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-07-06T09:51:21.659Z"
     },
     {
@@ -2647,5 +2647,5 @@
       "first_seen": "2026-07-06T05:01:37.668Z"
     }
   ],
-  "new_count": 6
+  "new_count": 5
 }
