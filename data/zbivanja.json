@@ -1,10 +1,6 @@
 {
-  "generated_at": "2026-07-06T10:01:41.585Z",
+  "generated_at": "2026-07-06T11:01:44.935Z",
   "stats": {
-    "muzika.hr": {
-      "ok": true,
-      "count": 25
-    },
     "Mochvara": {
       "ok": true,
       "count": 9
@@ -13,13 +9,17 @@
       "ok": true,
       "count": 0
     },
-    "Gavella": {
-      "ok": true,
-      "count": 0
-    },
     "Tvornica": {
       "ok": true,
       "count": 3
+    },
+    "muzika.hr": {
+      "ok": true,
+      "count": 25
+    },
+    "Gavella": {
+      "ok": true,
+      "count": 0
     },
     "ZeKaeM": {
       "ok": true,
@@ -33,17 +33,17 @@
       "ok": true,
       "count": 0
     },
-    "HNK Zagreb": {
-      "ok": true,
-      "count": 57
-    },
     "Kerempuh": {
       "ok": true,
       "count": 0
     },
+    "HNK Zagreb": {
+      "ok": true,
+      "count": 59
+    },
     "Trešnja": {
-      "ok": false,
-      "error": "The operation was aborted due to timeout"
+      "ok": true,
+      "count": 0
     }
   },
   "concerts": [
@@ -1503,6 +1503,21 @@
       "first_seen": "2026-06-18T13:01:15.839Z"
     },
     {
+      "id": "4f91a46ff6",
+      "title": "Razgled kazališta 165 sezona iza kulisa – kombinirani razgled HNK-a i HNK2",
+      "venue": "HNK Zagreb",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-09-19T14:00:00",
+      "date_display": "sub, 19. 09. 2026.",
+      "time": "14:00",
+      "link": "https://hnk.hr/hr/ostalo/predstave/165-sezona-iza-kulisa-kombinirani-razgledi-hnk-i-hnk2/#19.09.14.00",
+      "source": "HNK Zagreb",
+      "is_new": true,
+      "first_seen": "2026-07-06T11:01:44.935Z"
+    },
+    {
       "id": "b8d6387d86",
       "title": "Solisti i Orkestar Hrvatskog narodnog kazališta u zagrebu GALA KONCERT ZAGREBAČKI OPERNI FESTIVAL 2026.",
       "venue": "HNK Zagreb",
@@ -1531,6 +1546,21 @@
       "source": "HNK Zagreb",
       "is_new": false,
       "first_seen": "2026-06-19T11:01:10.397Z"
+    },
+    {
+      "id": "c2bef583e7",
+      "title": "Razgled kazališta 165 sezona iza kulisa",
+      "venue": "HNK Zagreb",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-09-26T15:00:00",
+      "date_display": "sub, 26. 09. 2026.",
+      "time": "15:00",
+      "link": "https://hnk.hr/hr/ostalo/predstave/iza-kulisa-165-sezona/#26.09.15.00",
+      "source": "HNK Zagreb",
+      "is_new": true,
+      "first_seen": "2026-07-06T11:01:44.935Z"
     },
     {
       "id": "14e1faa866",
@@ -2647,5 +2677,5 @@
       "first_seen": "2026-07-06T05:01:37.668Z"
     }
   ],
-  "new_count": 5
+  "new_count": 7
 }
