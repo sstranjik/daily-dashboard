@@ -1,20 +1,15 @@
 {
   "version": 2,
-  "date": "2026-07-05",
-  "generated_at": "2026-07-05T07:54:59.909Z",
-  "date_hr": "Nedjelja, 5. srpnja 2026.",
+  "date": "2026-07-06",
+  "generated_at": "2026-07-06T05:03:21.165Z",
+  "date_hr": "Ponedjeljak, 6. srpnja 2026.",
   "weather": {
-    "icon": "⛈️",
-    "summary": "18–30°C, grmljavina · 0.9 mm",
-    "alerts": [
-      {
-        "level": "warning",
-        "text": "Grmljavinska oluja"
-      }
-    ]
+    "icon": "🌦️",
+    "summary": "19–29°C, pljuskovi",
+    "alerts": []
   },
   "fuel": {
-    "current_date": "05.07.2026",
+    "current_date": "06.07.2026",
     "eurodiesel": [
       {
         "company": "Adria Oil",
@@ -68,46 +63,36 @@
     "upcoming_premium": null
   },
   "market": {
-    "updated_at": "2026-07-05T07:54:59.909Z",
-    "btc_usd": 62930,
-    "btc_eur": 55026,
-    "btc_change_24h": 0.64,
+    "updated_at": "2026-07-06T05:03:21.165Z",
+    "btc_usd": 63196,
+    "btc_eur": 55276,
+    "btc_change_24h": 0.76,
     "usd_eur": 0.8743
   },
   "ai_news": [
     {
-      "title": "What is Mistral AI? Everything to know about the OpenAI competitor",
-      "link": "https://techcrunch.com/2026/07/04/what-is-mistral-ai-everything-to-know-about-the-openai-competitor/",
-      "source": "TechCrunch AI"
-    },
-    {
-      "title": "The fanfiction community is at war with AI — and itself",
-      "link": "https://www.theverge.com/tech/960854/ai-fanfiction-ao3-claude-detector",
+      "title": "Infuriating Google commercial imagines the founding fathers embracing AI",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/961468/google-ai-commercial-founding-fathers-declaration-of-independence",
       "source": "The Verge"
     },
     {
-      "title": "Alibaba reportedly bans employees from using Claude Code",
-      "link": "https://techcrunch.com/2026/07/04/alibaba-reportedly-bans-employees-from-using-claude-code/",
-      "source": "TechCrunch AI"
+      "title": "India orders Meta to remove Instagram ads promoting child abuse material",
+      "link": "https://thenextweb.com/news/india-meta-order-instagram-cseam-ads",
+      "source": "The Next Web"
     },
     {
-      "title": "Samsung bi mogao proizvoditi Anthropicove AI čipove",
-      "link": "https://www.bug.hr/umjetna-inteligencija/samsung-bi-mogao-proizvoditi-anthropicove-ai-cipove-61159",
-      "source": "Bug.hr"
-    },
-    {
-      "title": "OpenAI apparently never visited the site of its flagship UK AI project",
-      "link": "https://thenextweb.com/news/openai-apparently-never-visited-the-site-of-its-flagship-uk-ai-project",
+      "title": "Mistral CEO warns closed AI models give providers ‘immense leverage’ over your business",
+      "link": "https://thenextweb.com/news/mistral-ceo-open-source-enterprise-warning",
       "source": "The Next Web"
     }
   ],
   "micro_tips": {
     "vscode": {
-      "tip": "Pomakni liniju gore ili dolje bez cut/paste",
-      "keys": "Alt+↑ / Alt+↓"
+      "tip": "Format Document (auto-format cijelog fajla)",
+      "keys": "Shift+Alt+F"
     },
-    "sql": "GROUP BY s ROLLUP za subtotale u jednom prolasku: GROUP BY ROLLUP(god, mj)",
-    "oracle": "TRUNC(datum_kolona) = TRUNC(SYSDATE) koristi B-tree index na datumskoj koloni",
-    "regex": "\\d{4}-\\d{2}-\\d{2} ISO datum pattern; za validaciju zatvori s ^...$"
+    "sql": "NOT EXISTS brži od NOT IN kad subquery može vratiti NULL vrijednost",
+    "oracle": "DBMS_STATS.GATHER_TABLE_STATS osvježava statistike za točniji execution plan",
+    "regex": "(?i) inline flag za case-insensitive bez mijenjanja ostatka patternahe"
   }
 }
