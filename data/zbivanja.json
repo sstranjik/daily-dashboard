@@ -1,9 +1,17 @@
 {
-  "generated_at": "2026-07-06T11:01:44.935Z",
+  "generated_at": "2026-07-06T12:01:40.056Z",
   "stats": {
+    "muzika.hr": {
+      "ok": true,
+      "count": 25
+    },
     "Mochvara": {
       "ok": true,
       "count": 9
+    },
+    "Gavella": {
+      "ok": true,
+      "count": 0
     },
     "Lisinski": {
       "ok": true,
@@ -12,14 +20,6 @@
     "Tvornica": {
       "ok": true,
       "count": 3
-    },
-    "muzika.hr": {
-      "ok": true,
-      "count": 25
-    },
-    "Gavella": {
-      "ok": true,
-      "count": 0
     },
     "ZeKaeM": {
       "ok": true,
@@ -33,13 +33,13 @@
       "ok": true,
       "count": 0
     },
-    "Kerempuh": {
-      "ok": true,
-      "count": 0
-    },
     "HNK Zagreb": {
       "ok": true,
       "count": 59
+    },
+    "Kerempuh": {
+      "ok": true,
+      "count": 0
     },
     "Trešnja": {
       "ok": true,
@@ -47,21 +47,6 @@
     }
   },
   "concerts": [
-    {
-      "id": "dfd004f5b4",
-      "title": "71. Močvarin sajam ploča i stripova",
-      "venue": "Mochvara",
-      "city": "Zagreb",
-      "country": "HR",
-      "category": "concert",
-      "date_iso": "2026-06-21T12:00:00",
-      "date_display": "ned, 21. 06. 2026.",
-      "time": "12:00",
-      "link": "https://mochvara.hr/event-detail/6a28036b0037e894cabde6bc/?lang=hr",
-      "source": "Mochvara",
-      "is_new": false,
-      "first_seen": "2026-06-17T05:01:08.607Z"
-    },
     {
       "id": "9fe3e39334",
       "title": "Derivat 08",
@@ -1514,7 +1499,7 @@
       "time": "14:00",
       "link": "https://hnk.hr/hr/ostalo/predstave/165-sezona-iza-kulisa-kombinirani-razgledi-hnk-i-hnk2/#19.09.14.00",
       "source": "HNK Zagreb",
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-07-06T11:01:44.935Z"
     },
     {
@@ -1559,7 +1544,7 @@
       "time": "15:00",
       "link": "https://hnk.hr/hr/ostalo/predstave/iza-kulisa-165-sezona/#26.09.15.00",
       "source": "HNK Zagreb",
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-07-06T11:01:44.935Z"
     },
     {
@@ -2677,5 +2662,5 @@
       "first_seen": "2026-07-06T05:01:37.668Z"
     }
   ],
-  "new_count": 7
+  "new_count": 5
 }
