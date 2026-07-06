@@ -1,27 +1,39 @@
 {
-  "generated_at": "2026-07-06T08:57:01.156Z",
+  "generated_at": "2026-07-06T09:01:36.713Z",
   "stats": {
+    "Mochvara": {
+      "ok": true,
+      "count": 0
+    },
+    "Pogon": {
+      "ok": true,
+      "count": 0
+    },
     "muzika.hr": {
       "ok": true,
       "count": 25
-    },
-    "Gavella": {
-      "ok": true,
-      "count": 0
     },
     "Lisinski": {
       "ok": true,
       "count": 0
     },
-    "Mochvara": {
+    "Gavella": {
       "ok": true,
-      "count": 9
+      "count": 0
+    },
+    "ZeKaeM": {
+      "ok": true,
+      "count": 0
     },
     "Tvornica": {
       "ok": true,
       "count": 3
     },
-    "ZeKaeM": {
+    "Kerempuh": {
+      "ok": true,
+      "count": 0
+    },
+    "Trešnja": {
       "ok": true,
       "count": 0
     },
@@ -31,19 +43,7 @@
     },
     "HNK Zagreb": {
       "ok": true,
-      "count": 55
-    },
-    "Kerempuh": {
-      "ok": true,
-      "count": 0
-    },
-    "Pogon": {
-      "ok": true,
-      "count": 0
-    },
-    "Trešnja": {
-      "ok": true,
-      "count": 0
+      "count": 56
     }
   },
   "concerts": [
@@ -1171,6 +1171,21 @@
       "source": "HNK Zagreb",
       "is_new": false,
       "first_seen": "2026-06-21T16:01:52.924Z"
+    },
+    {
+      "id": "5dae52292b",
+      "title": "Razgled kazališta 165 sezona iza kulisa",
+      "venue": "HNK Zagreb",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-09-05T15:00:00",
+      "date_display": "sub, 05. 09. 2026.",
+      "time": "15:00",
+      "link": "https://hnk.hr/hr/ostalo/predstave/iza-kulisa-165-sezona/#05.09.15.00",
+      "source": "HNK Zagreb",
+      "is_new": true,
+      "first_seen": "2026-07-06T09:01:36.713Z"
     },
     {
       "id": "07a40a9e51",
@@ -2617,5 +2632,5 @@
       "first_seen": "2026-07-06T05:01:37.668Z"
     }
   ],
-  "new_count": 5
+  "new_count": 6
 }
