@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-07-06T20:46:07.366Z",
+  "generated_at": "2026-07-07T05:01:34.261Z",
   "stats": {
-    "muzika.hr": {
-      "ok": true,
-      "count": 25
-    },
     "Lisinski": {
+      "ok": true,
+      "count": 0
+    },
+    "Gavella": {
       "ok": true,
       "count": 0
     },
@@ -13,25 +13,25 @@
       "ok": true,
       "count": 9
     },
-    "Gavella": {
-      "ok": true,
-      "count": 0
-    },
     "Tvornica": {
       "ok": true,
       "count": 3
     },
-    "Komedija": {
+    "muzika.hr": {
       "ok": true,
-      "count": 0
+      "count": 25
     },
     "ZeKaeM": {
       "ok": true,
       "count": 0
     },
+    "Komedija": {
+      "ok": true,
+      "count": 0
+    },
     "HNK Zagreb": {
       "ok": true,
-      "count": 64
+      "count": 63
     },
     "Pogon": {
       "ok": true,
@@ -47,21 +47,6 @@
     }
   },
   "concerts": [
-    {
-      "id": "a32d34d56d",
-      "title": "18. INmusic festival",
-      "venue": "INmusic festival Jarun Zagreb",
-      "city": "Croatia",
-      "country": "HR",
-      "category": "concert",
-      "date_iso": "2026-06-22T00:00:00",
-      "date_display": "pon, 22. 06. 2026.",
-      "time": null,
-      "link": "https://www.muzika.hr/event/18-inmusic-festival-zagreb/",
-      "source": "muzika.hr",
-      "is_new": false,
-      "first_seen": "2026-06-09T05:00:59.439Z"
-    },
     {
       "id": "ec74cd8ca2",
       "title": "FRAN Fest",
@@ -993,6 +978,21 @@
       "first_seen": "2026-07-06T05:01:37.668Z"
     },
     {
+      "id": "a6da93a579",
+      "title": "Ljetni JeboTon Jam Session na Močvarnoj terasi!",
+      "venue": "Mochvara",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-07-12T18:00:00",
+      "date_display": "ned, 12. 07. 2026.",
+      "time": "18:00",
+      "link": "https://mochvara.hr/event-detail/6a3553c64f148b9848fef48d/?lang=hr",
+      "source": "Mochvara",
+      "is_new": true,
+      "first_seen": "2026-07-07T05:01:34.261Z"
+    },
+    {
       "id": "5c80ef680d",
       "title": "Joss Stone",
       "venue": "Mihovila Šibenik",
@@ -1111,6 +1111,21 @@
       "source": "muzika.hr",
       "is_new": false,
       "first_seen": "2026-07-06T05:01:37.668Z"
+    },
+    {
+      "id": "4d6816b54a",
+      "title": "Graffiti na Gradele",
+      "venue": "Graffiti na Gradele Bol Otok Brač",
+      "city": "Croatia",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-07-22T00:00:00",
+      "date_display": "sri, 22. 07. 2026.",
+      "time": null,
+      "link": "https://www.muzika.hr/event/graffiti-na-gradele-2/",
+      "source": "muzika.hr",
+      "is_new": true,
+      "first_seen": "2026-07-07T05:01:34.261Z"
     },
     {
       "id": "86cc723186",
@@ -2872,5 +2887,5 @@
       "first_seen": "2026-07-06T05:01:37.668Z"
     }
   ],
-  "new_count": 5
+  "new_count": 7
 }
