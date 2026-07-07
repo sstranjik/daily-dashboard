@@ -1,18 +1,22 @@
 {
   "version": 2,
-  "date": "2026-07-06",
-  "generated_at": "2026-07-06T08:59:19.060Z",
-  "date_hr": "Ponedjeljak, 6. srpnja 2026.",
+  "date": "2026-07-07",
+  "generated_at": "2026-07-07T05:03:24.995Z",
+  "date_hr": "Utorak, 7. srpnja 2026.",
   "weather": {
-    "icon": "🌦️",
-    "summary": "19–29°C, pljuskovi",
+    "icon": "☁️",
+    "summary": "20–33°C, oblačno",
     "alerts": []
   },
   "fuel": {
-    "current_date": "06.07.2026",
+    "current_date": "07.07.2026",
     "eurodiesel": [
       {
         "company": "Adria Oil",
+        "price": 1.54
+      },
+      {
+        "company": "Coral Croatia",
         "price": 1.54
       },
       {
@@ -30,10 +34,6 @@
       {
         "company": "Tifon",
         "price": 1.54
-      },
-      {
-        "company": "Coral Croatia",
-        "price": 1.59
       }
     ],
     "premium_eurodiesel": [
@@ -43,11 +43,11 @@
       },
       {
         "company": "INA",
-        "price": 1.75
+        "price": 1.79
       },
       {
         "company": "Tifon",
-        "price": 1.75
+        "price": 1.79
       },
       {
         "company": "Coral Croatia",
@@ -63,41 +63,46 @@
     "upcoming_premium": null
   },
   "market": {
-    "updated_at": "2026-07-06T08:59:19.060Z",
-    "btc_usd": 62828,
-    "btc_eur": 55025,
-    "btc_change_24h": -0.09,
-    "usd_eur": 0.8743
+    "updated_at": "2026-07-07T05:03:24.995Z",
+    "btc_usd": 63042,
+    "btc_eur": 55126,
+    "btc_change_24h": -0.22,
+    "usd_eur": 0.8746
   },
   "ai_news": [
     {
-      "title": "Kineski AI za vratom Anthropicu: &#039;Može sve što i najbolji modeli&#039;",
-      "link": "https://www.tportal.hr/tehno/clanak/kineski-ai-za-vratom-anthropicu-moze-sve-sto-i-najbolji-modeli-20260706",
+      "title": "A senior FCA official says Britain should weigh regulating AI models directly",
+      "link": "https://thenextweb.com/news/fca-considers-regulating-ai-models",
+      "source": "The Next Web"
+    },
+    {
+      "title": "ChatGPT, Claude i Gemini nisu budućnost AI-a u robotima. Evo što bi moglo biti",
+      "link": "https://www.tportal.hr/tehno/clanak/chatgpt-claude-i-gemini-nisu-buducnost-ai-ja-u-robotima-evo-sto-bi-moglo-biti-20260706",
       "source": "Tportal"
     },
     {
-      "title": "Infuriating Google commercial imagines the founding fathers embracing AI",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/961468/google-ai-commercial-founding-fathers-declaration-of-independence",
-      "source": "The Verge"
+      "title": "Anthropic's new \"J-lens\" reveals a silent workspace inside Claude that mirrors a leading theory of consciousness",
+      "link": "https://venturebeat.com/technology/anthropics-new-j-lens-reveals-a-silent-workspace-inside-claude-that-mirrors-a-leading-theory-of-consciousness",
+      "source": "VentureBeat"
     },
     {
-      "title": "India orders Meta to remove Instagram ads promoting child abuse material",
-      "link": "https://thenextweb.com/news/india-meta-order-instagram-cseam-ads",
+      "title": "An AI agent just ran a full ransomware attack with no human at the keyboard",
+      "link": "https://thenextweb.com/news/jadepuffer-agentic-ai-ransomware",
       "source": "The Next Web"
     },
     {
-      "title": "Mistral CEO warns closed AI models give providers ‘immense leverage’ over your business",
-      "link": "https://thenextweb.com/news/mistral-ceo-open-source-enterprise-warning",
-      "source": "The Next Web"
+      "title": "Claude Fable 5 is back, but I'm sticking with Opus 4.8 for daily work: 5 reasons why",
+      "link": "https://www.zdnet.com/article/claude-fable-5-returns-why-im-using-opus-4-8-instead/",
+      "source": "ZDNet"
     }
   ],
   "micro_tips": {
     "vscode": {
-      "tip": "Format Document (auto-format cijelog fajla)",
-      "keys": "Shift+Alt+F"
+      "tip": "Go to Definition simbola",
+      "keys": "F12"
     },
-    "sql": "NOT EXISTS brži od NOT IN kad subquery može vratiti NULL vrijednost",
-    "oracle": "DBMS_STATS.GATHER_TABLE_STATS osvježava statistike za točniji execution plan",
-    "regex": "(?i) inline flag za case-insensitive bez mijenjanja ostatka patternahe"
+    "sql": "Parametrizirani upiti = plan cache reuse + SQL injection zaštita istovremeno",
+    "oracle": "NVL2(expr, kad_nije_null, kad_je_null) kompaktnija od dvostrukog NVL-a",
+    "regex": "\\s+ pokriva space, tab i newline; \\S je negacija (svaki ne-whitespace)"
   }
 }
