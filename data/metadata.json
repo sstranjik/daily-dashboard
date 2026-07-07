@@ -1,56 +1,63 @@
 {
-  "last_updated": "2026-07-07T08:01:37.165Z",
+  "last_updated": "2026-07-07T08:17:58.622Z",
   "generator": "dashboard-bot/1.0",
   "sources": {
     "hr_news": {
-      "updated_at": "2026-07-07T08:01:37.165Z",
-      "item_count": 703,
+      "updated_at": "2026-07-07T08:17:58.622Z",
+      "item_count": 706,
       "ok": true
     },
     "world_news": {
-      "updated_at": "2026-07-07T08:01:37.165Z",
-      "item_count": 271,
+      "updated_at": "2026-07-07T08:17:58.622Z",
+      "item_count": 273,
       "ok": true
     },
     "finance_news": {
-      "updated_at": "2026-07-07T08:01:37.165Z",
-      "item_count": 76,
+      "updated_at": "2026-07-07T08:17:58.622Z",
+      "item_count": 79,
       "ok": true
     },
     "tech_news": {
-      "updated_at": "2026-07-07T08:01:37.165Z",
-      "item_count": 117,
+      "updated_at": "2026-07-07T08:17:58.622Z",
+      "item_count": 116,
       "ok": true
     },
     "science": {
-      "updated_at": "2026-07-07T08:01:37.165Z",
-      "item_count": 110,
+      "updated_at": "2026-07-07T08:17:58.622Z",
+      "item_count": 108,
       "ok": true
     },
     "sports": {
-      "updated_at": "2026-07-07T08:01:37.165Z",
-      "item_count": 428,
+      "updated_at": "2026-07-07T08:17:58.622Z",
+      "item_count": 429,
       "ok": true
     },
     "entertainment": {
-      "updated_at": "2026-07-07T08:01:37.165Z",
-      "item_count": 178,
+      "updated_at": "2026-07-07T08:17:58.622Z",
+      "item_count": 180,
       "ok": true
     },
     "health": {
-      "updated_at": "2026-07-07T08:01:37.165Z",
-      "item_count": 28,
+      "updated_at": "2026-07-07T08:17:58.622Z",
+      "item_count": 30,
       "ok": true
     },
     "food": {
-      "updated_at": "2026-07-07T08:01:37.165Z",
-      "item_count": 44,
+      "updated_at": "2026-07-07T08:17:58.622Z",
+      "item_count": 47,
       "ok": true
     },
     "briefing": {
-      "updated_at": "2026-07-07T08:01:37.165Z",
-      "ok": false,
-      "ai_used": false
+      "updated_at": "2026-07-07T08:20:22.468Z",
+      "ok": true,
+      "ai_used": true,
+      "sections": [
+        "weather",
+        "fuel",
+        "market",
+        "ai_news",
+        "micro_tips"
+      ]
     }
   }
 }
