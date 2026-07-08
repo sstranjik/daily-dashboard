@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-08T05:01:38.212Z",
+  "generated_at": "2026-07-08T06:01:41.577Z",
   "stats": {
     "muzika.hr": {
       "ok": true,
@@ -13,33 +13,29 @@
       "ok": true,
       "count": 0
     },
-    "Tvornica": {
-      "ok": true,
-      "count": 3
-    },
     "Gavella": {
       "ok": true,
       "count": 0
+    },
+    "Tvornica": {
+      "ok": true,
+      "count": 3
     },
     "ZeKaeM": {
       "ok": true,
       "count": 0
     },
-    "Pogon": {
-      "ok": true,
-      "count": 9
-    },
     "Komedija": {
+      "ok": false,
+      "error": "HTTP 500"
+    },
+    "Pogon": {
       "ok": true,
       "count": 0
     },
     "HNK Zagreb": {
       "ok": true,
       "count": 63
-    },
-    "Pogon": {
-      "ok": true,
-      "count": 0
     },
     "Kerempuh": {
       "ok": true,
@@ -1158,7 +1154,7 @@
       "time": null,
       "link": "https://www.muzika.hr/event/outlook-origins-festival/",
       "source": "muzika.hr",
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-07-08T05:01:38.212Z"
     },
     {
@@ -1173,7 +1169,7 @@
       "time": null,
       "link": "https://www.muzika.hr/event/moby-3/",
       "source": "muzika.hr",
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-07-08T05:01:38.212Z"
     },
     {
@@ -1188,7 +1184,7 @@
       "time": "17:00",
       "link": "https://www.muzika.hr/event/martinska-punk-meets-zestoka-festa/",
       "source": "muzika.hr",
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-07-08T05:01:38.212Z"
     },
     {
@@ -2951,5 +2947,5 @@
       "first_seen": "2026-07-06T05:01:37.668Z"
     }
   ],
-  "new_count": 7
+  "new_count": 4
 }
