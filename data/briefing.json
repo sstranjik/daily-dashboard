@@ -1,15 +1,15 @@
 {
   "version": 2,
-  "date": "2026-07-07",
-  "generated_at": "2026-07-07T08:20:22.468Z",
-  "date_hr": "Utorak, 7. srpnja 2026.",
+  "date": "2026-07-08",
+  "generated_at": "2026-07-08T05:03:27.338Z",
+  "date_hr": "Srijeda, 8. srpnja 2026.",
   "weather": {
-    "icon": "☁️",
-    "summary": "20–33°C, oblačno",
+    "icon": "🌦️",
+    "summary": "22–29°C, pljuskovi",
     "alerts": []
   },
   "fuel": {
-    "current_date": "07.07.2026",
+    "current_date": "08.07.2026",
     "eurodiesel": [
       {
         "company": "Adria Oil",
@@ -63,46 +63,46 @@
     "upcoming_premium": null
   },
   "market": {
-    "updated_at": "2026-07-07T08:20:22.468Z",
-    "btc_usd": 63085,
-    "btc_eur": 55186,
-    "btc_change_24h": 0.16,
-    "usd_eur": 0.8746
+    "updated_at": "2026-07-08T05:03:27.338Z",
+    "btc_usd": 62724,
+    "btc_eur": 54952,
+    "btc_change_24h": -0.51,
+    "usd_eur": 0.8758
   },
   "ai_news": [
     {
-      "title": "A senior FCA official says Britain should weigh regulating AI models directly",
-      "link": "https://thenextweb.com/news/fca-considers-regulating-ai-models",
-      "source": "The Next Web"
+      "title": "AI tvrtke su rak današnjice",
+      "link": "https://www.bug.hr/komentar/ai-tvrtke-su-rak-danasnjice-61225",
+      "source": "Bug.hr"
     },
     {
-      "title": "ChatGPT, Claude i Gemini nisu budućnost AI-a u robotima. Evo što bi moglo biti",
-      "link": "https://www.tportal.hr/tehno/clanak/chatgpt-claude-i-gemini-nisu-buducnost-ai-ja-u-robotima-evo-sto-bi-moglo-biti-20260706",
-      "source": "Tportal"
-    },
-    {
-      "title": "Anthropic's new \"J-lens\" reveals a silent workspace inside Claude that mirrors a leading theory of consciousness",
-      "link": "https://venturebeat.com/technology/anthropics-new-j-lens-reveals-a-silent-workspace-inside-claude-that-mirrors-a-leading-theory-of-consciousness",
+      "title": "The real cost, security, and culture problems behind enterprise AI agents",
+      "link": "https://venturebeat.com/security/the-real-cost-security-and-culture-problems-behind-enterprise-ai-agents",
       "source": "VentureBeat"
     },
     {
-      "title": "An AI agent just ran a full ransomware attack with no human at the keyboard",
-      "link": "https://thenextweb.com/news/jadepuffer-agentic-ai-ransomware",
+      "title": "Anthropic’s Claude Cowork breaks off the laptop and onto your phone",
+      "link": "https://thenextweb.com/news/claude-cowork-mobile-web-agent-office",
       "source": "The Next Web"
     },
     {
-      "title": "Claude Fable 5 is back, but I'm sticking with Opus 4.8 for daily work: 5 reasons why",
-      "link": "https://www.zdnet.com/article/claude-fable-5-returns-why-im-using-opus-4-8-instead/",
-      "source": "ZDNet"
+      "title": "Microsoft starts swapping OpenAI and Anthropic out for its own AI in some apps",
+      "link": "https://thenextweb.com/news/microsoft-mai-models-replace-openai-apps",
+      "source": "The Next Web"
+    },
+    {
+      "title": "Anthropic is launching Claude Cowork on mobile and web",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/961978/anthropic-claude-cowork-mobile-web",
+      "source": "The Verge"
     }
   ],
   "micro_tips": {
     "vscode": {
-      "tip": "Go to Definition simbola",
-      "keys": "F12"
+      "tip": "Peek Definition bez napuštanja fajla",
+      "keys": "Alt+F12"
     },
-    "sql": "Parametrizirani upiti = plan cache reuse + SQL injection zaštita istovremeno",
-    "oracle": "NVL2(expr, kad_nije_null, kad_je_null) kompaktnija od dvostrukog NVL-a",
-    "regex": "\\s+ pokriva space, tab i newline; \\S je negacija (svaki ne-whitespace)"
+    "sql": "Batch INSERT umjesto jednog-po-jednog: INSERT INTO t VALUES (...),(...),...",
+    "oracle": "FETCH FIRST n ROWS ONLY umjesto ROWNUM — kompatibilno s ORDER BY i čitljivije",
+    "regex": "^(?!.*pattern) negative lookahead: \"ova linija ne smije sadržavati X\""
   }
 }
