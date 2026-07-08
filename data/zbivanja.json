@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-07-07T21:12:58.381Z",
+  "generated_at": "2026-07-08T05:01:34.674Z",
   "stats": {
     "muzika.hr": {
       "ok": true,
       "count": 25
     },
-    "Lisinski": {
+    "Gavella": {
       "ok": true,
       "count": 0
     },
-    "Gavella": {
+    "Lisinski": {
       "ok": true,
       "count": 0
     },
@@ -17,25 +17,25 @@
       "ok": true,
       "count": 3
     },
-    "Mochvara": {
-      "ok": true,
-      "count": 9
-    },
     "ZeKaeM": {
       "ok": true,
       "count": 0
     },
-    "Komedija": {
+    "Mochvara": {
       "ok": true,
-      "count": 0
+      "count": 9
     },
-    "Pogon": {
+    "Komedija": {
       "ok": true,
       "count": 0
     },
     "HNK Zagreb": {
       "ok": true,
       "count": 63
+    },
+    "Pogon": {
+      "ok": true,
+      "count": 0
     },
     "Kerempuh": {
       "ok": true,
@@ -1141,6 +1141,51 @@
       "source": "muzika.hr",
       "is_new": false,
       "first_seen": "2026-07-07T05:01:35.700Z"
+    },
+    {
+      "id": "dad9ffb61b",
+      "title": "Outlook Origins Festival",
+      "venue": "",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-07-23T00:00:00",
+      "date_display": "čet, 23. 07. 2026.",
+      "time": null,
+      "link": "https://www.muzika.hr/event/outlook-origins-festival/",
+      "source": "muzika.hr",
+      "is_new": true,
+      "first_seen": "2026-07-08T05:01:34.674Z"
+    },
+    {
+      "id": "d4b45843e8",
+      "title": "Moby",
+      "venue": "Moby Arena Pula Flavijevska ulica",
+      "city": "Pula",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-07-23T00:00:00",
+      "date_display": "čet, 23. 07. 2026.",
+      "time": null,
+      "link": "https://www.muzika.hr/event/moby-3/",
+      "source": "muzika.hr",
+      "is_new": true,
+      "first_seen": "2026-07-08T05:01:34.674Z"
+    },
+    {
+      "id": "45d57fb15d",
+      "title": "Martinska Punk meets Žestoka fešta",
+      "venue": "Punk meets Žestoka fešta Šibenik Šibenik",
+      "city": "Croatia",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-07-23T17:00:00",
+      "date_display": "čet, 23. 07. 2026.",
+      "time": "17:00",
+      "link": "https://www.muzika.hr/event/martinska-punk-meets-zestoka-festa/",
+      "source": "muzika.hr",
+      "is_new": true,
+      "first_seen": "2026-07-08T05:01:34.674Z"
     },
     {
       "id": "86cc723186",
@@ -2902,5 +2947,5 @@
       "first_seen": "2026-07-06T05:01:37.668Z"
     }
   ],
-  "new_count": 4
+  "new_count": 7
 }
