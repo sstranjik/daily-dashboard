@@ -1,7 +1,15 @@
 {
-  "generated_at": "2026-07-09T05:01:37.764Z",
+  "generated_at": "2026-07-09T05:01:37.063Z",
   "stats": {
-    "Mochvara": {
+    "muzika.hr": {
+      "ok": true,
+      "count": 25
+    },
+    "Gavella": {
+      "ok": true,
+      "count": 0
+    },
+    "Lisinski": {
       "ok": true,
       "count": 0
     },
@@ -21,21 +29,9 @@
       "ok": true,
       "count": 0
     },
-    "Gavella": {
-      "ok": true,
-      "count": 0
-    },
     "Tvornica": {
       "ok": true,
       "count": 3
-    },
-    "Trešnja": {
-      "ok": true,
-      "count": 0
-    },
-    "Kerempuh": {
-      "ok": true,
-      "count": 0
     },
     "Komedija": {
       "ok": true,
@@ -44,6 +40,18 @@
     "HNK Zagreb": {
       "ok": true,
       "count": 63
+    },
+    "ZeKaeM": {
+      "ok": true,
+      "count": 0
+    },
+    "Kerempuh": {
+      "ok": true,
+      "count": 0
+    },
+    "Trešnja": {
+      "ok": true,
+      "count": 0
     }
   },
   "concerts": [
@@ -1008,6 +1016,21 @@
       "first_seen": "2026-07-07T05:01:35.700Z"
     },
     {
+      "id": "1e5dc38a62",
+      "title": "Književnost u Močvari: Jelena Živić, Toni Juričić, Robert Perišić",
+      "venue": "Mochvara",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-07-13T20:00:00",
+      "date_display": "pon, 13. 07. 2026.",
+      "time": "20:00",
+      "link": "https://mochvara.hr/event-detail/6a4e320a7406b17c5fcb030e/?lang=hr",
+      "source": "Mochvara",
+      "is_new": true,
+      "first_seen": "2026-07-09T05:01:37.063Z"
+    },
+    {
       "id": "5c80ef680d",
       "title": "Joss Stone",
       "venue": "Mihovila Šibenik",
@@ -1200,7 +1223,7 @@
       "link": "https://www.muzika.hr/event/rocklive-festival/",
       "source": "muzika.hr",
       "is_new": true,
-      "first_seen": "2026-07-09T05:01:37.764Z"
+      "first_seen": "2026-07-09T05:01:37.063Z"
     },
     {
       "id": "86cc723186",
@@ -2947,5 +2970,5 @@
       "first_seen": "2026-07-06T05:01:37.668Z"
     }
   ],
-  "new_count": 5
+  "new_count": 6
 }
