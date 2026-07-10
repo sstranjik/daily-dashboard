@@ -1,14 +1,6 @@
 {
-  "generated_at": "2026-07-09T21:09:04.392Z",
+  "generated_at": "2026-07-10T05:01:35.089Z",
   "stats": {
-    "muzika.hr": {
-      "ok": true,
-      "count": 25
-    },
-    "Lisinski": {
-      "ok": true,
-      "count": 0
-    },
     "Gavella": {
       "ok": true,
       "count": 0
@@ -16,6 +8,10 @@
     "Mochvara": {
       "ok": true,
       "count": 9
+    },
+    "Lisinski": {
+      "ok": true,
+      "count": 0
     },
     "Tvornica": {
       "ok": true,
@@ -25,17 +21,21 @@
       "ok": true,
       "count": 0
     },
-    "Komedija": {
-      "ok": false,
-      "error": "HTTP 500"
+    "muzika.hr": {
+      "ok": true,
+      "count": 25
     },
-    "Pogon": {
+    "Komedija": {
       "ok": true,
       "count": 0
     },
     "HNK Zagreb": {
       "ok": true,
       "count": 63
+    },
+    "Pogon": {
+      "ok": true,
+      "count": 0
     },
     "Kerempuh": {
       "ok": true,
@@ -1021,6 +1021,21 @@
       "source": "Mochvara",
       "is_new": false,
       "first_seen": "2026-07-09T05:01:37.063Z"
+    },
+    {
+      "id": "e8a66303a9",
+      "title": "Joke & Chakka Svraka",
+      "venue": "Mochvara",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-07-14T20:00:00",
+      "date_display": "uto, 14. 07. 2026.",
+      "time": "20:00",
+      "link": "https://mochvara.hr/event-detail/6a35387fad796c9981e19560/?lang=hr",
+      "source": "Mochvara",
+      "is_new": true,
+      "first_seen": "2026-07-10T05:01:35.089Z"
     },
     {
       "id": "5c80ef680d",
@@ -2542,66 +2557,6 @@
   ],
   "abroad": [
     {
-      "id": "cfcdbcfe38",
-      "title": "Adi Šoše Rock Stars",
-      "venue": "Stars Cave Romane Vinkuranska cesta 2",
-      "city": "Vinkuran",
-      "country": "EU",
-      "category": "concert",
-      "date_iso": "2026-06-25T00:00:00",
-      "date_display": "čet, 25. 06. 2026.",
-      "time": null,
-      "link": "https://www.muzika.hr/event/adi-sose-rock-stars/",
-      "source": "muzika.hr",
-      "is_new": false,
-      "first_seen": "2026-06-12T05:01:00.976Z"
-    },
-    {
-      "id": "b73573fafc",
-      "title": "Arsenal fest",
-      "venue": "Arsenal fest Kragujevac Kragujevac",
-      "city": "Serbia",
-      "country": "EU",
-      "category": "concert",
-      "date_iso": "2026-06-25T00:00:00",
-      "date_display": "čet, 25. 06. 2026.",
-      "time": null,
-      "link": "https://www.muzika.hr/event/arsenal-fest/",
-      "source": "muzika.hr",
-      "is_new": false,
-      "first_seen": "2026-06-12T21:00:24.016Z"
-    },
-    {
-      "id": "7389076324",
-      "title": "Surf Festival",
-      "venue": "Surf Festival Medane Beach",
-      "city": "Punat",
-      "country": "EU",
-      "category": "concert",
-      "date_iso": "2026-06-25T00:00:00",
-      "date_display": "čet, 25. 06. 2026.",
-      "time": null,
-      "link": "https://www.muzika.hr/event/surf-festival/",
-      "source": "muzika.hr",
-      "is_new": false,
-      "first_seen": "2026-06-14T05:01:13.855Z"
-    },
-    {
-      "id": "76ec875f55",
-      "title": "Adi Šoše - Rock Stars",
-      "venue": "Stars Cave Romane Vinkuranska cesta 2",
-      "city": "Vinkuran",
-      "country": "EU",
-      "category": "concert",
-      "date_iso": "2026-06-25T00:00:00",
-      "date_display": "čet, 25. 06. 2026.",
-      "time": null,
-      "link": "https://www.muzika.hr/event/adi-sose-rock-stars/",
-      "source": "muzika.hr",
-      "is_new": false,
-      "first_seen": "2026-06-14T18:01:22.849Z"
-    },
-    {
       "id": "5eaff2e6c3",
       "title": "IDLES",
       "venue": "IDLES New tekstil Dunavska 86",
@@ -2947,5 +2902,5 @@
       "first_seen": "2026-07-06T05:01:37.668Z"
     }
   ],
-  "new_count": 4
+  "new_count": 5
 }
