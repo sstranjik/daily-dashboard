@@ -1,15 +1,15 @@
 {
   "version": 2,
-  "date": "2026-07-09",
-  "generated_at": "2026-07-09T08:25:00.371Z",
-  "date_hr": "Četvrtak, 9. srpnja 2026.",
+  "date": "2026-07-10",
+  "generated_at": "2026-07-10T05:03:30.341Z",
+  "date_hr": "Petak, 10. srpnja 2026.",
   "weather": {
-    "icon": "☁️",
-    "summary": "18–28°C, oblačno",
+    "icon": "🌤️",
+    "summary": "19–32°C, djelomično oblačno",
     "alerts": []
   },
   "fuel": {
-    "current_date": "09.07.2026",
+    "current_date": "10.07.2026",
     "eurodiesel": [
       {
         "company": "Adria Oil",
@@ -55,7 +55,7 @@
       },
       {
         "company": "Petrol",
-        "price": 1.81
+        "price": 1.85
       }
     ],
     "upcoming_date": null,
@@ -63,46 +63,46 @@
     "upcoming_premium": null
   },
   "market": {
-    "updated_at": "2026-07-09T08:25:00.371Z",
-    "btc_usd": 62973,
-    "btc_eur": 55058,
-    "btc_change_24h": 1.23,
-    "usd_eur": 0.8761
+    "updated_at": "2026-07-10T05:03:30.341Z",
+    "btc_usd": 63932,
+    "btc_eur": 55870,
+    "btc_change_24h": 2.52,
+    "usd_eur": 0.8748
   },
   "ai_news": [
     {
-      "title": "Musk’s SpaceXAI ships ‘Opus-class’ Grok 4.5 to undercut OpenAI and Anthropic",
-      "link": "https://thenextweb.com/news/spacexai-grok-4-5-cursor-opus-class-coding-model",
-      "source": "The Next Web"
+      "title": "OpenAI's GPT-5.6 and ChatGPT Work aim to beat Anthropic on price, speed, and productivity",
+      "link": "https://www.zdnet.com/article/openais-gpt-5-6-chatgpt-work-beat-anthropic-on-price-speed-and-productivity/",
+      "source": "ZDNet"
     },
     {
-      "title": "Why this CEO thinks video games make better training data than the internet",
-      "link": "https://techcrunch.com/video/why-this-ceo-thinks-video-games-make-better-training-data-than-the-internet/",
+      "title": "OpenAI rolls out GPT-5.6 after government greenlight — and announces ‘ChatGPT Work’",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/963464/openai-gpt-5-6-codex-chatgpt-work",
+      "source": "The Verge"
+    },
+    {
+      "title": "OpenAI says GPT 5.6 is the &#8216;preferred model&#8217; for Microsoft Copilot 365 amid breakup chatter",
+      "link": "https://techcrunch.com/2026/07/09/openai-says-gpt-5-6-is-the-preferred-model-for-microsoft-copilot-amid-breakup-chatter/",
       "source": "TechCrunch AI"
     },
     {
-      "title": "Your gaming data could be the secret to AGI, according to this Bezos-backed startup",
-      "link": "https://techcrunch.com/podcast/your-gaming-data-could-be-the-secret-to-agi-according-to-this-bezos-backed-startup/",
+      "title": "Fidji Simo steps down from OpenAI&#8217;s no. 2 role",
+      "link": "https://techcrunch.com/2026/07/09/fidji-simo-steps-down-from-openais-no-2-role/",
       "source": "TechCrunch AI"
     },
     {
-      "title": "SpaceXAI and Cursor could ship their first joint AI model as soon as today",
-      "link": "https://thenextweb.com/news/spacexai-cursor-joint-ai-model-launch",
-      "source": "The Next Web"
-    },
-    {
-      "title": "SpaceX's Grok 4.5 launches at half the price of rivals — here's why that could rattle Anthropic and OpenAI",
-      "link": "https://venturebeat.com/technology/spacexs-grok-4-5-launches-at-half-the-price-of-rivals-heres-why-that-could-rattle-anthropic-and-openai",
-      "source": "VentureBeat"
+      "title": "OpenAI launches its new family of models with GPT-5.6",
+      "link": "https://techcrunch.com/2026/07/09/openai-launches-its-new-family-of-models-with-gpt-5-6/",
+      "source": "TechCrunch AI"
     }
   ],
   "micro_tips": {
     "vscode": {
-      "tip": "Dupliciraj trenutnu liniju ispod",
-      "keys": "Shift+Alt+↓"
+      "tip": "Obriši cijelu liniju odjednom",
+      "keys": "Ctrl+Shift+K"
     },
-    "sql": "EXISTS umjesto IN za subqueries — brže jer stane na prvom podudaranju: WHERE EXISTS (SELECT 1 FROM ...)",
-    "oracle": "/*+ INDEX(t ime_indexa) */ forsira specifičan index kad optimizer bira full scan",
-    "regex": "\\b granica riječi: \\bword\\b podudara cijelu riječ, ne \"password\" ili \"swordfish\""
+    "sql": "Nikad SELECT * u produkciji — navedi kolone, manji I/O i bolji cache plan",
+    "oracle": "/*+ PARALLEL(t 4) */ paralelno izvršavanje querija na N thread-ova",
+    "regex": "(?:group) non-capturing group: grupiraj bez pamćenja za veće performanse"
   }
 }
