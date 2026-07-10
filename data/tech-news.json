@@ -1,9 +1,93 @@
 {
-  "last_updated": "2026-07-10T16:12:03.405Z",
+  "last_updated": "2026-07-10T17:01:28.307Z",
   "source_count": 11,
   "items": [
     {
+      "id": "zdnet-0",
+      "title": "Sony 1000X The Collexion vs. Bowers & Wilkins Px8 S2: Both wow, but one is comfier",
+      "summary": "Sony's and Bowers & Wilkins' premium headphones deliver an elevated experience, but choosing the right pair isn't as cut-and-dry as you'd think.",
+      "link": "https://www.zdnet.com/article/sony-1000x-the-collexion-vs-bowers-wilkins-px8-s2/",
+      "published": "2026-07-10T16:54:00.000Z",
+      "source": "ZDNet",
+      "category": "general",
+      "xml_category": "",
+      "tags": [],
+      "image": null
+    },
+    {
+      "id": "zdnet-1",
+      "title": "I ditched Google Drive for my own self-hosted storage - and I wish I'd done it sooner",
+      "summary": "Nextcloud is a free and open-source storage option that offers several advantages. Here's how it works.",
+      "link": "https://www.zdnet.com/article/i-ditched-google-drive-for-self-hosted-storage-nextcloud/",
+      "published": "2026-07-10T16:39:49.000Z",
+      "source": "ZDNet",
+      "category": "general",
+      "xml_category": "",
+      "tags": [],
+      "image": null
+    },
+    {
       "id": "the-next-web-0",
+      "title": "What makes the best stablecoin payment solution?",
+      "summary": "Key Takeaways Stablecoin payments help businesses combine blockchain settlement speed with more predictable value. The best stablecoin payment solution should support acceptance, stablecoin settlement, fiat settlement, reporting, compliance, and payout capabilities. Stablecoins are useful for ecomme",
+      "link": "https://thenextweb.com/news/what-makes-the-best-stablecoin-payment-solution",
+      "published": "2026-07-10T16:35:51.000Z",
+      "source": "The Next Web",
+      "category": "general",
+      "xml_category": "blockchain",
+      "tags": [],
+      "image": "https://media.thenextweb.com/2026/07/what-makes-best-stablecoin-payment-solution.avif"
+    },
+    {
+      "id": "the-verge-0",
+      "title": "Netflix is turning into YouTube",
+      "summary": "Netflix has shows and movies. And video games. And live sports. And podcasts. And also, apparently, YouTube videos? For a company that used to seem like the next big thing in TV, it all feels a little frenetic, and maybe a tad desperate. For a company that sees sleep as its primary competitor, it mi",
+      "link": "https://www.theverge.com/podcast/964082/netflix-youtube-smart-glasses-vergecast",
+      "published": "2026-07-10T16:29:50.000Z",
+      "source": "The Verge",
+      "category": "general",
+      "xml_category": "[object object]",
+      "tags": [],
+      "image": null
+    },
+    {
+      "id": "the-next-web-1",
+      "title": "The Eval Stack: Proving the agents are right instead of claiming It",
+      "summary": "Most AI research tools point a language model at the web and trust the output. Saarth Shah built Sixtyfour around the opposite instinct: grade everything, ship only what improves the score. Saarth Shah keeps a scoreboard. Every build of Sixtyfour’s research agents is graded against questions a team ",
+      "link": "https://thenextweb.com/news/the-eval-stack-proving-the-agents-are-right-instead-of-claiming-it",
+      "published": "2026-07-10T16:23:06.000Z",
+      "source": "The Next Web",
+      "category": "ai",
+      "xml_category": "artificial intelligence",
+      "tags": [],
+      "image": "https://media.thenextweb.com/2026/07/SixtyFour-cofounders-Saarth-Shah-and-Christopher-Price-at-Y-Combinators-Demo-Day-.avif"
+    },
+    {
+      "id": "venturebeat-0",
+      "title": "Google's TabFM skips per-dataset training and still predicts on tables it's never seen",
+      "summary": "The vast majority of business data is tabular — living in data warehouses, CRMs, and financial ledgers — yet building a reliable model from it still means training a new one from scratch for every dataset, then maintaining hyperparameter tuning loops, feature engineering, and retraining pipelines to",
+      "link": "https://venturebeat.com/technology/googles-tabfm-skips-per-dataset-training-and-still-predicts-on-tables-its-never-seen",
+      "published": "2026-07-10T16:14:24.000Z",
+      "source": "VentureBeat",
+      "category": "ai",
+      "xml_category": "technology",
+      "tags": [],
+      "image": "https://images.ctfassets.net/jdtwqhzvc2n1/4VjIL7MxqMo55zqaoGOo2T/231e1e8c686502c3ac895c72b70a8cfe/Tabular_data.jpg?w=300&q=30"
+    },
+    {
+      "id": "bug.hr-0",
+      "title": "Samsung potvrdio Snapdragon u Galaxy Z Foldu 8 i Exynos u Galaxy Z Flipu 8",
+      "summary": "Samsung je potvrdio da će Galaxy Z Fold 8 i Z Fold 8 Ultra koristiti Snapdragon 8 Elite Gen 5 for Galaxy, dok će Galaxy Z Flip 8 na našem tržištu stizati s manje poželjnim Exynosom 2600",
+      "link": "https://www.bug.hr/mobiteli/samsung-potvrdio-snapdragon-u-galaxy-z-foldu-8-i-exynos-u-galaxy-z-flipu-8-61297",
+      "published": "2026-07-10T16:13:00.000Z",
+      "source": "Bug.hr",
+      "category": "general",
+      "xml_category": "mobiteli",
+      "tags": [],
+      "image": "https://www.bug.hr/img/samsung-potvrdio-snapdragon-u-galaxy-z-foldu-8-i-exynos-u-galaxy-z-flipu-8_kRe7Cz.png"
+    },
+    {
+      "id": "the-next-web-2",
       "title": "Tingyu Su on why AI startups should treat the founding designer as a strategic hire from the start of company building",
       "summary": "Artificial intelligence has dramatically accelerated software development, making it easier than ever to transform ideas into working products. According to Stanford’s recent report, AI performance on a key coding benchmark jumped from 60% to nearly 100% in a single year, while organizational AI ado",
       "link": "https://thenextweb.com/news/tingyu-su-founding-designer-ai-startups-strategic-hire",
@@ -15,7 +99,7 @@
       "image": "https://media.thenextweb.com/2026/07/tingyu-su-founding-designer-ai-startups-strategic-hire.avif"
     },
     {
-      "id": "the-verge-0",
+      "id": "the-verge-1",
       "title": "Disney Plus is reportedly looking into a free streaming tier",
       "summary": "Disney Plus is considering making some of its content free to watch, according to a report from Business Insider. A source tells the outlet that Adam Smith, Disney's chief product and technology officer, mentioned a free streaming tier during the company's town hall on Thursday. It's not clear which",
       "link": "https://www.theverge.com/streaming/964056/disney-plus-free-tier-report",
@@ -27,7 +111,7 @@
       "image": null
     },
     {
-      "id": "the-verge-1",
+      "id": "the-verge-2",
       "title": "Anker&#8217;s 3-in-1 Qi2.2 charging station is $95 off",
       "summary": "If you&#8217;re looking to declutter your nightstand and quickly charge up to three of your most-used gadgets, Anker’s Prime Wireless Charging Station is an easy way to do both. The station has spots for your MagSafe-ready iPhone, Apple Watch, and AirPods, and right now it&#8217;s down to a new all-",
       "link": "https://www.theverge.com/gadgets/963665/anker-prime-wireless-charging-station-lg-oled-c6-tv-deal-sale",
@@ -39,7 +123,7 @@
       "image": null
     },
     {
-      "id": "the-next-web-1",
+      "id": "the-next-web-3",
       "title": "A US senator has a plan to make AI answer for its harms. It starts with your local data centre",
       "summary": "The fight over AI’s harms has played out state by state. One US senator wants to make it federal, all at once. Ed Markey has a long list of worries about artificial intelligence. Thirsty data centres. Workplace surveillance. Biased algorithms. Chatbots that prey on children. On Friday the Massachuse",
       "link": "https://thenextweb.com/news/markey-ai-accountability-agenda-bills",
@@ -51,7 +135,7 @@
       "image": "https://media.thenextweb.com/2026/07/Senator-Edward-J-Markey.avif"
     },
     {
-      "id": "the-next-web-2",
+      "id": "the-next-web-4",
       "title": "Home robots already walk. 1X’s new hands try to solve the part that actually matters",
       "summary": "Humanoid robots learned to walk years ago. The thing still tripping them up is the hand. 1X has given its NEO home robot new hands, and they are the most interesting thing about it. A robot can stride across a stage and still be useless in a kitchen. Lifting a wet glass takes precision, fast [&helli",
       "link": "https://thenextweb.com/news/1x-neo-robot-tendon-driven-hands",
@@ -63,7 +147,7 @@
       "image": "https://media.thenextweb.com/2026/07/1X-Neo-Robot.avif"
     },
     {
-      "id": "the-next-web-3",
+      "id": "the-next-web-5",
       "title": "Britain is spending £2bn to train its army inside an AI war simulation",
       "summary": "Britain is spending £2bn to train its army inside a simulation. It has handed the job to an American defence giant, with a German one taking a slice. The UK has signed a £2bn ($2.7bn) contract to train its soldiers with artificial intelligence. The deal, announced by the Ministry of Defence on Frida",
       "link": "https://thenextweb.com/news/uk-army-ai-combat-laboratory-2bn-contract",
@@ -75,7 +159,7 @@
       "image": "https://media.thenextweb.com/2026/07/military-troups.avif"
     },
     {
-      "id": "bug.hr-0",
+      "id": "bug.hr-1",
       "title": "Zagrebačka policija kaznila 196 vozača i oduzela pet električnih romobila",
       "summary": "Tijekom dvodnevne akcije zagrebačke policije kontrolirano je 448 vozača, svaki četvrti bio je u prekršaju, a zbog neusklađenosti sa zakonskim odredbama oduzeto je pet romobila",
       "link": "https://autonet.bug.hr/promet/zagrebacka-policija-kaznila-196-vozaca-i-oduzela-pet-elektricnih-romobila-61313",
@@ -87,7 +171,7 @@
       "image": "https://autonet.bug.hr/img/zagrebacka-policija-kaznila-196-vozaca-i-oduzela-pet-elektricnih-romobila_6NpDMa.jpg"
     },
     {
-      "id": "the-next-web-4",
+      "id": "the-next-web-6",
       "title": "Malaysia’s PM is sending an autonomous AI double out to serve citizens, payment links and all",
       "summary": "Malaysia’s prime minister is trying something new: sending an autonomous copy of himself out to serve the public. Anwar Ibrahim is preparing to launch an artificial intelligence version of himself. The avatar is called PMX AI, a nod to his place as Malaysia’s tenth prime minister. Bloomberg reports ",
       "link": "https://thenextweb.com/news/malaysia-anwar-pmx-ai-avatar",
@@ -99,7 +183,7 @@
       "image": "https://media.thenextweb.com/2026/07/Anwar_Ibrahim.avif"
     },
     {
-      "id": "zdnet-0",
+      "id": "zdnet-2",
       "title": "Best Buy is selling a 70-inch Fire TV for just $350 right now - and it's a model I recommend",
       "summary": "Upgrade your home theater with a big-screen Insignia F50 for less than $400 right now at Best Buy.",
       "link": "https://www.zdnet.com/article/insignia-f50-best-buy-deal/",
@@ -111,7 +195,7 @@
       "image": null
     },
     {
-      "id": "the-next-web-5",
+      "id": "the-next-web-7",
       "title": "Anthropic built a tool that reads Claude’s unspoken thoughts. Then it caught the model scheming",
       "summary": "Anthropic has built something close to a mind-reading tool for its own AI. What it found sits somewhere between a breakthrough and an unsettling party trick. Anthropic researchers now have the clearest view yet of what a large language model does while it thinks. In a paper published on the company’",
       "link": "https://thenextweb.com/news/anthropic-j-space-hidden-thoughts-claude-alignment",
@@ -123,7 +207,7 @@
       "image": "https://media.thenextweb.com/2026/04/Anthropic.avif"
     },
     {
-      "id": "the-verge-2",
+      "id": "the-verge-3",
       "title": "I spent a week using the Trump phone — it sucks",
       "summary": "The Trump phone was never a serious phone. Not when it was announced last June, in dodgy renders and with an incoherent spec sheet. Nor when Trump Mobile admitted - just two weeks later - that it wouldn't be made in the US. Not even when the company revealed the final phone, first to me [&#8230;]",
       "link": "https://www.theverge.com/tech/963382/trump-mobile-t1-phone-review",
@@ -135,7 +219,7 @@
       "image": null
     },
     {
-      "id": "bug.hr-1",
+      "id": "bug.hr-2",
       "title": "Meta staje na kraj trikovima za prikriveno snimanje pametnim naočalama",
       "summary": "Meta je i do sada imala ugrađene mehanizme koji su otežavali prikriveno snimanje, no novom nadogradnjom proširuje zaštitu na dodatne oblike manipulacije LED indikatorom",
       "link": "https://www.bug.hr/nosivi-uredjaji/meta-staje-na-kraj-trikovima-za-prikriveno-snimanje-pametnim-naocalama-61294",
@@ -147,7 +231,7 @@
       "image": "https://www.bug.hr/img/meta-staje-na-kraj-trikovima-za-prikriveno-snimanje-pametnim-naocalama_L2TCZV.jpg"
     },
     {
-      "id": "the-verge-3",
+      "id": "the-verge-4",
       "title": "I’m filling in at The Verge for 6 weeks. Ask me anything!",
       "summary": "Hello my friends! My protocol pals! My computational compadres! I'm David, a technology reporter and cohost of the Waveform Podcast. I'll be hosting a subscriber-only \"AMA\" today at 11AM PT / 2PM ET. For the next six weeks, I'm filling in for senior reviewer Allison Johnson, who you are all likely v",
       "link": "https://www.theverge.com/column/963495/im-filling-in-at-the-verge-for-6-weeks-ask-me-anything",
@@ -159,7 +243,7 @@
       "image": null
     },
     {
-      "id": "the-verge-4",
+      "id": "the-verge-5",
       "title": "Empathy for the optimizers",
       "summary": "This is Optimizer, a weekly newsletter sent from Verge senior reviewer Victoria Song that dissects and discusses the latest gizmos and potions that swear they're going to change your life. Opt in for Optimizer here. Bryan Johnson, best known as the man who wants to live forever, has an incurable aut",
       "link": "https://www.theverge.com/column/963917/optimizer-bryan-johnson-biohacking-health",
@@ -171,7 +255,7 @@
       "image": null
     },
     {
-      "id": "bug.hr-2",
+      "id": "bug.hr-3",
       "title": "Isaac 1 je robot koji slaže rublje i posprema kuću umjesto vas",
       "summary": "Novi robot iz Weave Roboticsa, cijene oko osam tisuća dolara, automatizira slaganje rublja, slaganje odjeće i održavanje reda u domu, a početak isporuka prvim kupcima najavljen je veće za jesen",
       "link": "https://www.bug.hr/robotika/isaac-1-je-robot-koji-slaze-rublje-i-posprema-kucu-umjesto-vas-61291",
@@ -183,7 +267,7 @@
       "image": "https://www.bug.hr/img/isaac-1-je-robot-koji-slaze-rublje-i-posprema-kucu-umjesto-vas_9VQqF7.jpg"
     },
     {
-      "id": "the-next-web-6",
+      "id": "the-next-web-8",
       "title": "Big Tech’s AI debt just hit $350bn, and Europe is about to feel it",
       "summary": "Big Tech built its reputation on mountains of cash. It is building its AI empire on debt, and the bill is starting to land in Europe. The five biggest builders of AI data centres in the US have doubled their debt over five years. Together, Alphabet, Amazon, Meta, Microsoft and Oracle have piled on a",
       "link": "https://thenextweb.com/news/big-tech-350-billion-ai-debt-europe-bonds",
@@ -195,7 +279,7 @@
       "image": "https://media.thenextweb.com/2026/07/Meta-data-center-Cheyenne-Wyoming.avif"
     },
     {
-      "id": "the-verge-5",
+      "id": "the-verge-6",
       "title": "Instagram’s Adam Mosseri: If you don&#8217;t like AI, &#8216;then you shouldn&#8217;t have it in your feed&#8217;",
       "summary": "Though Instagram head Adam Mosseri doesn't want to filter out AI content on the platform, he argues that you \"shouldn't have it in your feed\" if you don't like it. \"I don't think we should filter out AI content,\" Mosseri said during an interview on Lenny Rachitsky's podcast. \"I think we should let y",
       "link": "https://www.theverge.com/tech/963961/instagram-adam-mosseri-ai-feed-filters",
@@ -207,7 +291,7 @@
       "image": null
     },
     {
-      "id": "the-next-web-7",
+      "id": "the-next-web-9",
       "title": "MiniMax’s CEO won’t take a salary until AGI. His company just raised $2bn after an 80% crash",
       "summary": "The letter reads like a founder’s article of faith. The share sale underneath it tells a harder story. The founder of MiniMax has told staff he will take no salary until the Chinese AI company builds artificial general intelligence. On the same day, MiniMax moved to raise as much as $2bn from invest",
       "link": "https://thenextweb.com/news/minimax-2-billion-raise-ceo-no-salary-until-agi",
@@ -243,7 +327,7 @@
       "image": "https://media.thenextweb.com/2026/07/Mercor-founders-TFN.avif"
     },
     {
-      "id": "the-verge-6",
+      "id": "the-verge-7",
       "title": "Would you host part of an AI data center in your home?",
       "summary": "A solar and home energy storage company is expanding into AI data centers, but not by building one - instead, it's offering to pay its customers to put its compute units in their homes. Sunrun is launching a pilot program for a new \"distributed AI compute\" program that will \"place numerous compute n",
       "link": "https://www.theverge.com/ai-artificial-intelligence/963930/sunrun-distributed-ai-data-center",
@@ -279,7 +363,7 @@
       "image": "https://media.thenextweb.com/2026/07/Anthropic-dario-daniela.avif"
     },
     {
-      "id": "the-verge-7",
+      "id": "the-verge-8",
       "title": "Xreal&#8217;s new AR glasses are way cheaper and almost just right",
       "summary": "I love it when a company challenges itself to make a cheaper version of a beloved product. Xreal's $299 A01 Plus is a stripped-down version of its $449 1S that's light on features but with just enough of the 1S' best qualities. These AR glasses are comfortable, they look good, and the screens are su",
       "link": "https://www.theverge.com/tech/963465/xreal-a01-plus-xbx-ar-glasses-hands-on",
@@ -291,7 +375,7 @@
       "image": null
     },
     {
-      "id": "zdnet-1",
+      "id": "zdnet-3",
       "title": "The 'learn to code' era is over - and employers are on the hook for reskilling now",
       "summary": "AI's ushered in a new era of reskilling. Here's what the industry can learn from the last decade's drive to put people in tech jobs.",
       "link": "https://www.zdnet.com/article/learn-to-code-era-is-over-employers-are-on-the-hook-for-reskilling-now/",
@@ -327,7 +411,7 @@
       "image": "https://media.thenextweb.com/2026/07/Surveillance-cameras-UK.avif"
     },
     {
-      "id": "bug.hr-3",
+      "id": "bug.hr-4",
       "title": "Kinezi dronovima evakuiraju ljude iz poplavljenih područja",
       "summary": "Nakon razornih poplava uzrokovanih tajfunom u gradu Hengzhou, bespilotne letjelice uspješno obnavljaju mobilnu mrežu i provode dramatične akcije spašavanja ugroženih stanovnika",
       "link": "https://www.bug.hr/dronovi/kinezi-dronovima-evakuiraju-ljude-iz-poplavljenih-podrucja-61285",
@@ -351,7 +435,7 @@
       "image": "https://media.thenextweb.com/2026/07/G_Store_cabinet_of_curiosities_3_credit__Mark_W.avif"
     },
     {
-      "id": "zdnet-2",
+      "id": "zdnet-4",
       "title": "You're using 3M Command strips all wrong",
       "summary": "3M Command strips are incredibly useful, if you use them right. These tips can turn 'it fell off the wall' into 'it's still there' years later.",
       "link": "https://www.zdnet.com/article/youre-using-3m-command-strips-all-wrong/",
@@ -375,7 +459,7 @@
       "image": "https://media.thenextweb.com/2026/07/Dinosaur-Stan-skeleton-at-Google.avif"
     },
     {
-      "id": "the-verge-8",
+      "id": "the-verge-9",
       "title": "Doom&#8217;s new expansion shows just what makes id Software special",
       "summary": "This week should have been a celebration for Doom developer id Software. The studio just launched Revelations, a meaty expansion for Doom: The Dark Ages that adds a powerful new weapon and more demonic levels to blast through. Even though I hadn't picked up The Dark Ages for more than a year, it onl",
       "link": "https://www.theverge.com/games/963515/doom-the-dark-ages-revelations-review",
@@ -387,7 +471,7 @@
       "image": null
     },
     {
-      "id": "bug.hr-4",
+      "id": "bug.hr-5",
       "title": "Novi Geely Galaxy TT stiže kao konkurent Xiaomiju SU7",
       "summary": "Nakon neuspjeha modela E8, Geely predstavlja Galaxy TT, elegantnu električnu limuzinu s dometom do 725 km. Cilja na mlađe kupce i želi preoteti tržišni udio Xiaomijevom hit modelu SU7",
       "link": "https://autonet.bug.hr/elektricna-vozila/novi-geely-galaxy-tt-stize-kao-konkurent-xiaomiju-su7-61274",
@@ -435,7 +519,7 @@
       "image": "https://www.tportal.hr/media/thumbnail/500x300/2723799.jpeg?cropId=0"
     },
     {
-      "id": "zdnet-3",
+      "id": "zdnet-5",
       "title": "Best wireless chargers of 2026: Expert tested",
       "summary": "We tested the top wireless chargers from brands like Anker and Nomad to find the ones that make powering your devices easier than ever.",
       "link": "https://www.zdnet.com/article/best-wireless-charger/",
@@ -555,7 +639,7 @@
       "image": "https://media.thenextweb.com/2013/05/160415325.avif"
     },
     {
-      "id": "bug.hr-5",
+      "id": "bug.hr-6",
       "title": "Europski parlament odobrio početak pregovora o uvođenju digitalnog eura",
       "summary": "Eurozastupnici su izglasali nastavak zakonodavnog procesa za uvođenje digitalnog eura, s ciljem jačanja europske financijske neovisnosti i osiguravanja besplatnih osnovnih digitalnih usluga",
       "link": "https://www.bug.hr/fintech/europski-parlament-odobrio-pocetak-pregovora-o-uvodjenju-digitalnog-eura-61314",
@@ -567,7 +651,7 @@
       "image": "https://www.bug.hr/img/europski-parlament-odobrio-pocetak-pregovora-o-uvodjenju-digitalnog-eura_NVfeKe.jpg"
     },
     {
-      "id": "bug.hr-6",
+      "id": "bug.hr-7",
       "title": "Hoćemo li Disney+ uskoro moći gledati i besplatno?",
       "summary": "Suočena s odljevom publike prema besplatnim platformama poput YouTubea, u Disneyu navodno razmatraju uvođenje besplatnog osnovnog paketa usluga na svojoj streaming platformi",
       "link": "https://magnet.bug.hr/video-stream/hocemo-li-disney-uskoro-moci-gledati-i-besplatno-61316",
@@ -627,7 +711,7 @@
       "image": "https://www.tportal.hr/media/thumbnail/500x300/2764883.jpeg?cropId=0"
     },
     {
-      "id": "zdnet-4",
+      "id": "zdnet-6",
       "title": "The best VPS hosting services for 2026: Expert tested and reviewed",
       "summary": "If you need more power than shared hosting services can provide, the top VPS hosting providers can give you the dedicated resources and scalability needed to push your project to the next level.",
       "link": "https://www.zdnet.com/article/best-vps-hosting-service/",
@@ -639,7 +723,7 @@
       "image": null
     },
     {
-      "id": "zdnet-5",
+      "id": "zdnet-7",
       "title": "How I run Linux GUI apps on my Android phone - and what to consider before you do it, too",
       "summary": "Android is oh-so-close to being a full-blown Linux desktop. There's just one problem with the feature.",
       "link": "https://www.zdnet.com/article/how-to-run-linux-gui-apps-on-android-when-it-works/",
@@ -651,7 +735,7 @@
       "image": null
     },
     {
-      "id": "zdnet-6",
+      "id": "zdnet-8",
       "title": "The best HDMI cables of 2026: Expert reviewed",
       "summary": "I tested the top HDMI cables from leading brands to find the most dependable options for clear audio and video.",
       "link": "https://www.zdnet.com/article/best-hdmi-cable/",
@@ -699,7 +783,7 @@
       "image": "https://www.tportal.hr/media/thumbnail/500x300/2749863.jpeg?cropId=0"
     },
     {
-      "id": "bug.hr-7",
+      "id": "bug.hr-8",
       "title": "Većina europskog weba prolazi kroz američka vrata",
       "summary": "Rezultati analize tvrtke CipherCue 19.500 domena u sedam europskih zemalja nisu laskavi za europsku digitalnu suverenost.",
       "link": "https://www.bug.hr/tehnologije/vecina-europskog-weba-prolazi-kroz-americka-vrata-61247",
@@ -711,7 +795,7 @@
       "image": "https://www.bug.hr/img/vecina-europskog-weba-prolazi-kroz-americka-vrata_0GyR8H.png"
     },
     {
-      "id": "zdnet-7",
+      "id": "zdnet-9",
       "title": "The best smart rings of 2026: Expert tested",
       "summary": "I tested several top smart rings including the new Oura Ring 5. These are the ones I recommend.",
       "link": "https://www.zdnet.com/article/best-smart-ring/",
@@ -759,7 +843,7 @@
       "image": "https://media.thenextweb.com/2026/05/United-Nations.avif"
     },
     {
-      "id": "zdnet-8",
+      "id": "zdnet-10",
       "title": "I tested my Fitbit Air against an 'ECG-accurate' heart rate monitor - the results surprised me",
       "summary": "Accuracy is the name of the health tracker game, so I put Google's latest device to the test.",
       "link": "https://www.zdnet.com/article/heart-rate-tracking-fitbit-air-accuracy-chest-strap-monitor/",
@@ -819,7 +903,7 @@
       "image": "https://media.thenextweb.com/2026/07/ChatGPT-work.avif"
     },
     {
-      "id": "bug.hr-8",
+      "id": "bug.hr-9",
       "title": "Audi najavio povratak fizičkih gumba u svoje automobile",
       "summary": "Nakon godina dominacije golemih zaslona, Audi je potvrdio zaokret u dizajnu interijera. Tehnički šef Rouven Mohr najavljuje povratak taktilnih kontrola i prepoznatljivog Audijevog 'klika'",
       "link": "https://autonet.bug.hr/dizajn/audi-najavio-povratak-fizickih-gumba-u-svoje-automobile-61302",
@@ -891,7 +975,7 @@
       "image": "https://www.tportal.hr/media/thumbnail/500x300/2764039.jpeg?cropId=0"
     },
     {
-      "id": "bug.hr-9",
+      "id": "bug.hr-10",
       "title": "Sony oživio RX10 seriju nakon devet godina, no novi model košta čak 2.500 eura",
       "summary": "Nakon gotovo devet godina čekanja, Sony je konačno predstavio RX10 V, fotoaparat koji zadržava stari senzor, ali donosi novi procesor, 4K video i AI autofokus",
       "link": "https://www.bug.hr/fotoaparati/sony-ozivio-rx10-seriju-nakon-devet-godina-no-novi-model-kosta-cak-2500-eura-61301",
@@ -915,7 +999,7 @@
       "image": "https://www.tportal.hr/media/thumbnail/500x300/2736293.jpeg?cropId=0"
     },
     {
-      "id": "bug.hr-10",
+      "id": "bug.hr-11",
       "title": "Back to School vodič za setup računala: Office 2024 od 16 €, Windows 11 Pro 20 € i Canva Pro 10 €",
       "summary": "Želite li nadograditi svoje računalo ovog ljeta bez trošenja bogatstva na softver? Posjetite VIP-CDKDeals",
       "link": "https://www.bug.hr/promo/back-to-school-vodic-za-setup-racunala-office-2024-od-16--windows-11-pro-20--61077",
@@ -951,7 +1035,7 @@
       "image": "https://www.bug.hr/img/back-to-school-vodic-za-setup-racunala-office-2024-od-14--windows-11-pro-20-_DclwJp.png"
     },
     {
-      "id": "bug.hr-11",
+      "id": "bug.hr-12",
       "title": "Stigao je Claude Wrapped",
       "summary": "Anthropic je predstavio novu značajku Reflect za svoj chatbot Claude koja omogućuje korisnicima uvid u njihove navike korištenja, slično kao i Spotify Wrapped",
       "link": "https://www.bug.hr/umjetna-inteligencija/stigao-je-claude-wrapped-61300",
@@ -963,7 +1047,7 @@
       "image": "https://www.bug.hr/img/stigao-je-claude-wrapped_p0F4jR.jpg"
     },
     {
-      "id": "bug.hr-12",
+      "id": "bug.hr-13",
       "title": "Bijeg s Nvidijine uzice: i Meta kreće u masovnu proizvodnju vlastitog AI čipa",
       "summary": "Meta u doba čipflacije želi, kao i drugi, smanjiti ovisnost o Nvidiji i AMD-u. Google, Microsoft, Amazon i OpenAI već su odmakli",
       "link": "https://www.bug.hr/tehnologije/bijeg-s-nvidijine-uzice-i-meta-krece-u-masovnu-proizvodnju-vlastitog-ai-cipa-61304",
@@ -975,7 +1059,7 @@
       "image": "https://www.bug.hr/img/bijeg-s-nvidijine-uzice-i-meta-krece-u-masovnu-proizvodnju-vlastitog-ai-cipa_lHdG8V.png"
     },
     {
-      "id": "bug.hr-13",
+      "id": "bug.hr-14",
       "title": "Redmond – gdje uspješni studiji dolaze umrijeti",
       "summary": "Asha Sharma je u Microsoft Gaming došla iz CoreAI odjela, gdje je vodila Azure AI Studio i alate za Copilot. Prije toga bila je operativna direktorica Instacarta i šefica Messengera u Meti. U industriji igara nije provela ni dana. Po Microsoftovim mjerilima - idealna za vođenje igračkog odjela",
       "link": "https://www.bug.hr/komentar/redmond--gdje-uspjesni-studiji-dolaze-umrijeti-61289",
@@ -987,7 +1071,7 @@
       "image": "https://www.bug.hr/img/redmond--gdje-uspjesni-studiji-dolaze-umrijeti_6wWWFQ.png"
     },
     {
-      "id": "bug.hr-14",
+      "id": "bug.hr-15",
       "title": "Lumo - pametni AI pomoćnik s osobitim naglaskom na privatnost podataka",
       "summary": "Proton je švicarska tvrtka dobro poznata po rješenjima kod kojih je naglasak stavljen na privatnost podataka i sigurnost, a već neko vrijeme u svojemu portfelju nude i asistenta pogonjenog umjetnom inteligencijom…",
       "link": "https://www.bug.hr/appdana/lumo-pametni-ai-pomocnik-s-osobitim-naglaskom-na-privatnost-podataka-61180",
@@ -999,7 +1083,7 @@
       "image": "https://www.bug.hr/img/lumo-pametni-ai-pomocnik-s-osobitim-naglaskom-na-privatnost-podataka_aOfyvz.png"
     },
     {
-      "id": "bug.hr-15",
+      "id": "bug.hr-16",
       "title": "SAP će korisnicima olakšati prijelaz na konkurentske usluge",
       "summary": "SAP će olakšati svojim kupcima prelazak na konkurentske pružatelje usluga ili raskid ugovora. Dio je to ustupaka softverskog diva regulatorima Europske unije, ne bi li izbjegao moguću globu.",
       "link": "https://mreza.bug.hr/eu/sap-ce-korisnicima-olaksati-prijelaz-na-konkurentske-usluge-61293",
@@ -1023,7 +1107,7 @@
       "image": "https://www.tportal.hr/media/thumbnail/500x300/2763714.jpeg?cropId=0"
     },
     {
-      "id": "bug.hr-16",
+      "id": "bug.hr-17",
       "title": "Euro NCAP postrožio protokole, a BMW i ZEEKR prvi su ugrabili po pet zvjezdica",
       "summary": "Unatoč najopsežnijoj izmjeni protokola crash-testova u više od deset godina, prvi modeli koji su uspješno prošli stroge nove kriterije i osvojili pet zvjezdica su BMW iX3 i ZEEKR 7GT",
       "link": "https://autonet.bug.hr/auto-tehnika/euro-ncap-postrozio-protokole-a-bmw-i-zeekr-prvi-su-ugrabili-po-pet-zvjezdica-61256",
@@ -1035,7 +1119,7 @@
       "image": "https://autonet.bug.hr/img/euro-ncap-postrozio-protokole-a-bmw-i-zeekr-prvi-su-ugrabili-po-pet-zvjezdica_WE761n.jpg"
     },
     {
-      "id": "bug.hr-17",
+      "id": "bug.hr-18",
       "title": "Nakon ljeta nam stiže još jedna kineska marka i to iz pogona u Austriji",
       "summary": "Ulazak na tržište predviđen je uz dva modela Aion V i Aion UT koji su dizajnirani u Centru za napredni dizajn u Milanu",
       "link": "https://autonet.bug.hr/trziste/nakon-ljeta-nam-stize-jos-jedna-kineska-marka-i-to-iz-pogona-u-austriji-61308",
@@ -1047,7 +1131,7 @@
       "image": "https://autonet.bug.hr/img/nakon-ljeta-nam-stize-jos-jedna-kineska-marka-i-to-iz-pogona-u-austriji_5AZ14V.jpg"
     },
     {
-      "id": "zdnet-9",
+      "id": "zdnet-11",
       "title": "I set up a solar panel security camera in my yard - and the image quality beat my Ring",
       "summary": "The TP-Link Tapo C465 is a wireless security camera with a built-in solar panel for power, and it doesn't require a subscription.",
       "link": "https://www.zdnet.com/article/tp-link-tapo-c465-review/",
@@ -1059,7 +1143,7 @@
       "image": null
     },
     {
-      "id": "zdnet-10",
+      "id": "zdnet-12",
       "title": "I'm a Windows user who installed Linux for the first time - here's how the experience changed me",
       "summary": "I put Ubuntu on an old Dell laptop to see if Linux could really replace Windows 11. See why my final destination was so worth the speed bumps.",
       "link": "https://www.zdnet.com/article/windows-user-installed-linux-for-the-first-time/",
@@ -1095,7 +1179,7 @@
       "image": null
     },
     {
-      "id": "bug.hr-18",
+      "id": "bug.hr-19",
       "title": "Apple ulaže više od 30 milijardi eura u Broadcom",
       "summary": "Novo višegodišnje partnerstvo s Broadcomom dio je Appleovog plana za jačanje proizvodnje u SAD-u, a uključuje razvoj prilagođenih čipova i proizvodnju više od 15 milijardi čipova",
       "link": "https://www.bug.hr/biznis/apple-ulaze-vise-od-30-milijardi-eura-u-broadcom-61299",
@@ -1239,7 +1323,7 @@
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/07/GettyImages-1237693734-1152x648-1783631068.jpg"
     },
     {
-      "id": "venturebeat-0",
+      "id": "venturebeat-1",
       "title": "Shared API keys expose AI agents at 69% of enterprises, new VentureBeat research finds",
       "summary": "Share one API key across five AI agents, and a single compromised agent inherits the reach of all five. The attacker immediately benefits from the accumulated permissions of every workflow that the key touches. The forensic trail goes cold at the credential level because five agents on one account l",
       "link": "https://venturebeat.com/security/shared-api-keys-expose-ai-agent-fleets-venturebeat-research",
@@ -1287,7 +1371,7 @@
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/07/GettyImages-2279315069-1024x648.jpg"
     },
     {
-      "id": "zdnet-11",
+      "id": "zdnet-13",
       "title": "AI Model Release Tracker: GPT-5.6 rivals Fable 5, Muse Spark 1.1 pursues 'personal intelligence'",
       "summary": "Our AI Model Release Tracker keeps new models in context with their peers, so you know which are worth your time.",
       "link": "https://www.zdnet.com/article/ai-model-release-tracker/",
@@ -1299,7 +1383,7 @@
       "image": null
     },
     {
-      "id": "zdnet-12",
+      "id": "zdnet-14",
       "title": "OpenAI's GPT-5.6 and ChatGPT Work aim to beat Anthropic on price, speed, and productivity",
       "summary": "OpenAI's latest announcement looks like a lot more than a model upgrade.",
       "link": "https://www.zdnet.com/article/openais-gpt-5-6-chatgpt-work-beat-anthropic-on-price-speed-and-productivity/",
@@ -1371,7 +1455,7 @@
       "image": "https://media.thenextweb.com/2026/06/blue-origin-new-glenn-root-cause-unknown-crane-launchpad.avif"
     },
     {
-      "id": "zdnet-13",
+      "id": "zdnet-15",
       "title": "LG is giving away free soundbars with this CineBeam Q projector deal - how to qualify",
       "summary": "Upgrade your entire home theater at once with this LG CineBeam Q and soundbar bundle.",
       "link": "https://www.zdnet.com/article/lg-cinebeam-q-soundbar-bundle-deal/",
@@ -1443,7 +1527,7 @@
       "image": "https://media.thenextweb.com/2026/07/ai-data-centers-native-american-tribal-lands.avif"
     },
     {
-      "id": "zdnet-14",
+      "id": "zdnet-16",
       "title": "I tested ChatGPT's Live Voice upgrade, and it almost felt human - how to try it",
       "summary": "The latest GPT Live Voice models can listen, speak, and conduct online research all at the same time. Does it feel like you're talking with a real person? Almost.",
       "link": "https://www.zdnet.com/article/i-tried-chatgpt-live-voice-ai/",
@@ -1455,7 +1539,7 @@
       "image": null
     },
     {
-      "id": "venturebeat-1",
+      "id": "venturebeat-2",
       "title": "Enterprises using multiple AI models are underestimating failure rates by 2.25x",
       "summary": "A team routing queries across a coding specialist, a logic specialist, and a generalist model assumes each will cover the others&#x27; blind spots. A new study evaluating 67 frontier models from 21 providers shows that assumption is mathematically flawed — and the flaw has a name: the co-failure cei",
       "link": "https://venturebeat.com/orchestration/enterprises-using-multiple-ai-models-are-underestimating-failure-rates-by-2-25x",
@@ -1671,7 +1755,7 @@
       "image": null
     },
     {
-      "id": "zdnet-15",
+      "id": "zdnet-17",
       "title": "This iPhone bug won't let me save cropped screenshots - but I found a fix",
       "summary": "My cropped iPhone screenshots kept reverting to the full image, revealing details I tried to hide. And that's a problem.",
       "link": "https://www.zdnet.com/article/iphone-screenshot-cropping-bux-ios-27-fix/",
@@ -1717,90 +1801,6 @@
       "xml_category": "artificial intelligence",
       "tags": [],
       "image": "https://media.thenextweb.com/2026/07/Yann-Le-Cun-Executive-Chairman-AMI-Labs.avif"
-    },
-    {
-      "id": "zdnet-16",
-      "title": "Microsoft goes all in on new AI-powered Windows security strategy - what it means for you",
-      "summary": "An elite security team at Microsoft has built an AI-powered pipeline to find vulnerabilities in Windows and get them to engineers to build fixes.",
-      "link": "https://www.zdnet.com/article/microsoft-windows-ai-security-vulnerability-analysis/",
-      "published": "2026-07-09T17:00:03.000Z",
-      "source": "ZDNet",
-      "category": "ai",
-      "xml_category": "",
-      "tags": [],
-      "image": null
-    },
-    {
-      "id": "the-verge-9",
-      "title": "Microsoft’s patch Tuesdays are about to get bigger",
-      "summary": "Windows 11 updates could soon include fixes for more security issues at once. Microsoft said in a blog post on Thursday that it's now using AI to \"identify potential issues earlier,\" which means \"customers will see a higher volume of security updates included in each security release.\" Hackers, even",
-      "link": "https://www.theverge.com/tech/963307/microsoft-patch-tuesday-ai-security-updates",
-      "published": "2026-07-09T17:00:00.000Z",
-      "source": "The Verge",
-      "category": "general",
-      "xml_category": "[object object]",
-      "tags": [],
-      "image": null
-    },
-    {
-      "id": "the-verge-8",
-      "title": "OpenAI rolls out GPT-5.6 after government greenlight — and announces ‘ChatGPT Work’",
-      "summary": "About two weeks after OpenAI's GPT-5.6 was caught up in regulatory drama - rolled out only to government-approved organizations during a \"limited preview\" period - the company has received the Trump administration's greenlight for a public rollout of the model. OpenAI CEO Sam Altman called it \"the b",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/963464/openai-gpt-5-6-codex-chatgpt-work",
-      "published": "2026-07-09T17:00:00.000Z",
-      "source": "The Verge",
-      "category": "ai",
-      "xml_category": "[object object]",
-      "tags": [],
-      "image": null
-    },
-    {
-      "id": "the-next-web-7",
-      "title": "Robots swept RoboCup 2026, and they’re coming for the human World Cup by 2050",
-      "summary": "While the world watched the World Cup, robots played their own version in Incheon. RoboCup 2026 ran from 30 June to 6 July in Songdo, drawing teams from dozens of countries. When the whistle blew, one name was behind every winner. Teams using robots from Beijing’s Booster Robotics swept all three hu",
-      "link": "https://thenextweb.com/news/booster-robotics-robocup-2026-humanoid-football-sweep",
-      "published": "2026-07-09T16:37:57.000Z",
-      "source": "The Next Web",
-      "category": "general",
-      "xml_category": "artificial intelligence",
-      "tags": [],
-      "image": "https://media.thenextweb.com/2026/07/Booster-s-robots-RoboCup-2026.avif"
-    },
-    {
-      "id": "the-next-web-8",
-      "title": "AMD’s CTO: agentic AI doesn’t just need GPUs, it needs a lot more CPUs",
-      "summary": "On stage at the RAISE Summit in Paris, the interviewer put it bluntly to Mark Papermaster. He should have bought AMD shares six months ago, he joked, back when they traded near $200. They now sit above $500. AMD is no longer the plucky underdog chasing Intel on CPUs and Nvidia on GPUs. Its market [&",
-      "link": "https://thenextweb.com/news/amd-papermaster-raise-agentic-ai-cpus-gpus",
-      "published": "2026-07-09T16:28:38.000Z",
-      "source": "The Next Web",
-      "category": "ai",
-      "xml_category": "artificial intelligence",
-      "tags": [],
-      "image": "https://media.thenextweb.com/2026/07/Mark-Papermaster-CTO-AMD-Karim-Jalbout.avif"
-    },
-    {
-      "id": "tportal-19",
-      "title": "Virkkunen pohvalila: Hrvatska ostvaruje važan napredak u području digitalne suverenosti",
-      "summary": "Za postizanje digitalne suverenosti i tehnološke konkurentnosti Europe važno je brzo, zajedničko djelovanje institucija, znanosti i ljudskog kapitala te uz javne aktivirati i privatne investicije, poručila je u četvrtak izvršna potpredsjednica Europske komisije (EK) za tehnološku suverenost, sigurno",
-      "link": "https://www.tportal.hr/tehno/clanak/virkkunen-pohvalila-hrvatska-ostvaruje-vazan-napredak-u-podrucju-digitalne-suverenosti-20260709",
-      "published": "2026-07-09T16:25:00.000Z",
-      "source": "Tportal",
-      "category": "general",
-      "xml_category": "tech",
-      "tags": [],
-      "image": "https://www.tportal.hr/media/thumbnail/500x300/2764429.jpeg?cropId=0"
-    },
-    {
-      "id": "the-next-web-9",
-      "title": "A Waymo called the cops on two teens drinking and shooting toy guns",
-      "summary": "Two 15-year-olds in San Mateo learned this week that a driverless taxi can still tell on you. The pair were drinking alcohol and shooting Orbeez, soft water-filled pellets, out of a moving Waymo on Monday afternoon. The car’s remote monitors spotted it, called 911, and pulled the vehicle over to wai",
-      "link": "https://thenextweb.com/news/waymo-calls-police-teens-drinking-orbeez-san-mateo",
-      "published": "2026-07-09T16:16:14.000Z",
-      "source": "The Next Web",
-      "category": "general",
-      "xml_category": "cars",
-      "tags": [],
-      "image": "https://media.thenextweb.com/2026/07/Waymo-ride.avif"
     }
   ]
 }
