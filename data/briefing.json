@@ -1,15 +1,20 @@
 {
   "version": 2,
-  "date": "2026-07-10",
-  "generated_at": "2026-07-10T08:19:12.636Z",
-  "date_hr": "Petak, 10. srpnja 2026.",
+  "date": "2026-07-11",
+  "generated_at": "2026-07-11T05:03:26.550Z",
+  "date_hr": "Subota, 11. srpnja 2026.",
   "weather": {
-    "icon": "🌤️",
-    "summary": "19–31°C, djelomično oblačno",
-    "alerts": []
+    "icon": "⛈️",
+    "summary": "20–32°C, grmljavina · 4.8 mm",
+    "alerts": [
+      {
+        "level": "warning",
+        "text": "Grmljavinska oluja"
+      }
+    ]
   },
   "fuel": {
-    "current_date": "10.07.2026",
+    "current_date": "11.07.2026",
     "eurodiesel": [
       {
         "company": "Adria Oil",
@@ -63,46 +68,46 @@
     "upcoming_premium": null
   },
   "market": {
-    "updated_at": "2026-07-10T08:19:12.636Z",
-    "btc_usd": 64176,
-    "btc_eur": 56112,
-    "btc_change_24h": 2.03,
-    "usd_eur": 0.8748
+    "updated_at": "2026-07-11T05:03:26.550Z",
+    "btc_usd": 64087,
+    "btc_eur": 56124,
+    "btc_change_24h": 0.24,
+    "usd_eur": 0.8756
   },
   "ai_news": [
     {
-      "title": "OpenAI's GPT-5.6 and ChatGPT Work aim to beat Anthropic on price, speed, and productivity",
-      "link": "https://www.zdnet.com/article/openais-gpt-5-6-chatgpt-work-beat-anthropic-on-price-speed-and-productivity/",
-      "source": "ZDNet"
+      "title": "OpenAI introduces ChatGPT Work, a cloud-based AI agent that manages tasks across email, Slack and calendars",
+      "link": "https://venturebeat.com/technology/openai-introduces-chatgpt-work-a-cloud-based-ai-agent-that-manages-tasks-across-email-slack-and-calendars",
+      "source": "VentureBeat"
     },
     {
-      "title": "OpenAI rolls out GPT-5.6 after government greenlight — and announces ‘ChatGPT Work’",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/963464/openai-gpt-5-6-codex-chatgpt-work",
-      "source": "The Verge"
-    },
-    {
-      "title": "OpenAI is killing its ChatGPT Atlas browser less than a year after launch",
-      "link": "https://thenextweb.com/news/openai-chatgpt-atlas-browser-shutdown-superapp",
+      "title": "Anthropic built a tool that reads Claude’s unspoken thoughts. Then it caught the model scheming",
+      "link": "https://thenextweb.com/news/anthropic-j-space-hidden-thoughts-claude-alignment",
       "source": "The Next Web"
     },
     {
-      "title": "Stigao je Claude Wrapped",
-      "link": "https://www.bug.hr/umjetna-inteligencija/stigao-je-claude-wrapped-61300",
+      "title": "GPT-5.6 izašao iz vladine karantene, a ChatGPT i Codex postali jedna aplikacija",
+      "link": "https://www.bug.hr/predstavljanja/gpt-56-izasao-iz-vladine-karantene-a-chatgpt-i-codex-postali-jedna-aplikacija-61329",
       "source": "Bug.hr"
     },
     {
-      "title": "OpenAI says GPT 5.6 is the &#8216;preferred model&#8217; for Microsoft Copilot 365 amid breakup chatter",
-      "link": "https://techcrunch.com/2026/07/09/openai-says-gpt-5-6-is-the-preferred-model-for-microsoft-copilot-amid-breakup-chatter/",
-      "source": "TechCrunch AI"
+      "title": "57% of enterprises have watched AI agents be confidently wrong. The fix is an agentic context layer, but who has one?",
+      "link": "https://venturebeat.com/data/57-of-enterprises-have-watched-ai-agents-be-confidently-wrong-the-fix-is-an-agentic-context-layer-but-who-has-one",
+      "source": "VentureBeat"
+    },
+    {
+      "title": "Enterprise AI is entering an evaluation gap: Agents are gaining autonomy faster than companies can verify them",
+      "link": "https://venturebeat.com/orchestration/enterprise-ai-is-entering-an-evaluation-gap-agents-are-gaining-autonomy-faster-than-companies-can-verify-them",
+      "source": "VentureBeat"
     }
   ],
   "micro_tips": {
     "vscode": {
-      "tip": "Obriši cijelu liniju odjednom",
-      "keys": "Ctrl+Shift+K"
+      "tip": "Otvori datoteku brzim pretraživanjem",
+      "keys": "Ctrl+P"
     },
-    "sql": "Nikad SELECT * u produkciji — navedi kolone, manji I/O i bolji cache plan",
-    "oracle": "/*+ PARALLEL(t 4) */ paralelno izvršavanje querija na N thread-ova",
-    "regex": "(?:group) non-capturing group: grupiraj bez pamćenja za veće performanse"
+    "sql": "Covering index: uključi sve kolone iz WHERE + SELECT u index pa nema pristupa tablici",
+    "oracle": "/*+ NO_MERGE(v) */ sprječava merging inline viewa s parent queryjem",
+    "regex": "(?=pattern) lookahead: \"iza ovog mora slijediti X\" bez konzumiranja znakova"
   }
 }
