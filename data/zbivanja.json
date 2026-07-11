@@ -1,33 +1,25 @@
 {
-  "generated_at": "2026-07-11T19:01:44.753Z",
+  "generated_at": "2026-07-11T19:57:21.921Z",
   "stats": {
     "muzika.hr": {
       "ok": true,
       "count": 25
     },
-    "Lisinski": {
+    "Gavella": {
       "ok": true,
       "count": 0
     },
-    "Tvornica": {
+    "Lisinski": {
       "ok": true,
-      "count": 3
+      "count": 0
     },
     "Mochvara": {
       "ok": true,
       "count": 16
     },
-    "Gavella": {
+    "Tvornica": {
       "ok": true,
-      "count": 0
-    },
-    "ZeKaeM": {
-      "ok": true,
-      "count": 0
-    },
-    "Pogon": {
-      "ok": true,
-      "count": 0
+      "count": 3
     },
     "Komedija": {
       "ok": true,
@@ -38,30 +30,23 @@
       "count": 63
     },
     "Kerempuh": {
-      "ok": true,
-      "count": 0
+      "ok": false,
+      "error": "fetch failed"
     },
     "Trešnja": {
-      "ok": true,
-      "count": 0
+      "ok": false,
+      "error": "fetch failed"
+    },
+    "Pogon": {
+      "ok": false,
+      "error": "fetch failed"
+    },
+    "ZeKaeM": {
+      "ok": false,
+      "error": "fetch failed"
     }
   },
   "concerts": [
-    {
-      "id": "c938e0c1dd",
-      "title": "William Shakespeare — Valentina Turcu — Gustav Mahler OTHELLO",
-      "venue": "HNK Zagreb",
-      "city": "Zagreb",
-      "country": "HR",
-      "category": "concert",
-      "date_iso": "2026-06-26T19:30:00",
-      "date_display": "pet, 26. 06. 2026.",
-      "time": "19:30",
-      "link": "https://hnk.hr/hr/balet/predstave/othello/#26.06.19.30",
-      "source": "HNK Zagreb",
-      "is_new": false,
-      "first_seen": "2026-05-26T20:26:55.235Z"
-    },
     {
       "id": "7812ff8a85",
       "title": "Priroda i Društvo x Low income $quad",
