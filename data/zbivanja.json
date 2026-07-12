@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-07-12T11:02:34.639Z",
+  "generated_at": "2026-07-12T12:01:39.852Z",
   "stats": {
     "muzika.hr": {
       "ok": true,
       "count": 25
     },
-    "Lisinski": {
+    "Mochvara": {
       "ok": true,
-      "count": 0
+      "count": 16
     },
     "Gavella": {
       "ok": true,
       "count": 0
     },
-    "Mochvara": {
+    "Lisinski": {
       "ok": true,
-      "count": 16
+      "count": 0
     },
     "Tvornica": {
       "ok": true,
@@ -29,10 +29,6 @@
       "ok": false,
       "error": "HTTP 500"
     },
-    "HNK Zagreb": {
-      "ok": true,
-      "count": 63
-    },
     "Kerempuh": {
       "ok": true,
       "count": 0
@@ -40,6 +36,10 @@
     "Pogon": {
       "ok": true,
       "count": 0
+    },
+    "HNK Zagreb": {
+      "ok": true,
+      "count": 63
     },
     "Trešnja": {
       "ok": true,
@@ -1036,6 +1036,21 @@
       "source": "Mochvara",
       "is_new": false,
       "first_seen": "2026-07-11T15:01:38.070Z"
+    },
+    {
+      "id": "6d192a386b",
+      "title": "Rock koncert: Mother Vulture, Tight Grips",
+      "venue": "Mochvara",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-07-17T20:00:00",
+      "date_display": "pet, 17. 07. 2026.",
+      "time": "20:00",
+      "link": "https://mochvara.hr/event-detail/69dd17acd45f6e01bb379099/?lang=hr",
+      "source": "Mochvara",
+      "is_new": true,
+      "first_seen": "2026-07-12T12:01:39.852Z"
     },
     {
       "id": "c2e468fb35",
@@ -2902,5 +2917,5 @@
       "first_seen": "2026-07-06T05:01:37.668Z"
     }
   ],
-  "new_count": 4
+  "new_count": 5
 }
