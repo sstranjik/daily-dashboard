@@ -1,7 +1,11 @@
 {
-  "generated_at": "2026-07-12T05:01:36.813Z",
+  "generated_at": "2026-07-12T06:01:35.729Z",
   "stats": {
-    "Mochvara": {
+    "muzika.hr": {
+      "ok": true,
+      "count": 25
+    },
+    "Gavella": {
       "ok": true,
       "count": 0
     },
@@ -9,41 +13,37 @@
       "ok": true,
       "count": 0
     },
-    "Gavella": {
-      "ok": true,
-      "count": 0
-    },
     "Tvornica": {
       "ok": true,
       "count": 3
+    },
+    "Mochvara": {
+      "ok": true,
+      "count": 16
     },
     "Komedija": {
       "ok": true,
       "count": 0
     },
-    "muzika.hr": {
+    "ZeKaeM": {
       "ok": true,
-      "count": 25
+      "count": 0
     },
     "HNK Zagreb": {
       "ok": true,
       "count": 63
     },
-    "ZeKaeM": {
-      "ok": false,
-      "error": "fetch failed"
+    "Pogon": {
+      "ok": true,
+      "count": 0
     },
     "Kerempuh": {
-      "ok": false,
-      "error": "fetch failed"
-    },
-    "Pogon": {
-      "ok": false,
-      "error": "fetch failed"
+      "ok": true,
+      "count": 0
     },
     "Trešnja": {
-      "ok": false,
-      "error": "fetch failed"
+      "ok": true,
+      "count": 0
     }
   },
   "concerts": [
@@ -1184,7 +1184,7 @@
       "time": null,
       "link": "https://www.muzika.hr/event/chet-faker/",
       "source": "muzika.hr",
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-07-12T05:01:36.813Z"
     },
     {
@@ -1199,7 +1199,7 @@
       "time": null,
       "link": "https://www.muzika.hr/event/kraftwerk/",
       "source": "muzika.hr",
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-07-12T05:01:36.813Z"
     },
     {
@@ -2902,5 +2902,5 @@
       "first_seen": "2026-07-06T05:01:37.668Z"
     }
   ],
-  "new_count": 6
+  "new_count": 4
 }
