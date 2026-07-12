@@ -1,20 +1,15 @@
 {
   "version": 2,
-  "date": "2026-07-11",
-  "generated_at": "2026-07-11T07:09:45.220Z",
-  "date_hr": "Subota, 11. srpnja 2026.",
+  "date": "2026-07-12",
+  "generated_at": "2026-07-12T05:03:56.223Z",
+  "date_hr": "Nedjelja, 12. srpnja 2026.",
   "weather": {
-    "icon": "⛈️",
-    "summary": "20–32°C, grmljavina · 4.8 mm",
-    "alerts": [
-      {
-        "level": "warning",
-        "text": "Grmljavinska oluja"
-      }
-    ]
+    "icon": "☁️",
+    "summary": "19–30°C, oblačno",
+    "alerts": []
   },
   "fuel": {
-    "current_date": "11.07.2026",
+    "current_date": "12.07.2026",
     "eurodiesel": [
       {
         "company": "Adria Oil",
@@ -68,46 +63,41 @@
     "upcoming_premium": null
   },
   "market": {
-    "updated_at": "2026-07-11T07:09:45.220Z",
-    "btc_usd": 64136,
-    "btc_eur": 56167,
-    "btc_change_24h": 0.54,
-    "usd_eur": 0.8756
+    "updated_at": "2026-07-12T05:03:56.223Z",
+    "btc_usd": 63958,
+    "btc_eur": 56027,
+    "btc_change_24h": -0.21,
+    "usd_eur": 0.8755
   },
   "ai_news": [
     {
-      "title": "OpenAI introduces ChatGPT Work, a cloud-based AI agent that manages tasks across email, Slack and calendars",
-      "link": "https://venturebeat.com/technology/openai-introduces-chatgpt-work-a-cloud-based-ai-agent-that-manages-tasks-across-email-slack-and-calendars",
-      "source": "VentureBeat"
+      "title": "OpenAI bets on families as ChatGPT goes deeper into households",
+      "link": "https://techcrunch.com/2026/07/11/openai-bets-on-families-as-chatgpt-goes-deeper-into-households/",
+      "source": "TechCrunch AI"
     },
     {
-      "title": "Anthropic built a tool that reads Claude’s unspoken thoughts. Then it caught the model scheming",
-      "link": "https://thenextweb.com/news/anthropic-j-space-hidden-thoughts-claude-alignment",
-      "source": "The Next Web"
-    },
-    {
-      "title": "GPT-5.6 izašao iz vladine karantene, a ChatGPT i Codex postali jedna aplikacija",
-      "link": "https://www.bug.hr/predstavljanja/gpt-56-izasao-iz-vladine-karantene-a-chatgpt-i-codex-postali-jedna-aplikacija-61329",
+      "title": "Apple objavio rat OpenAI-ju zbog navodne krađe poslovnih tajni",
+      "link": "https://www.bug.hr/dogadjaji/apple-objavio-rat-openai-ju-zbog-navodne-kradje-poslovnih-tajni-61337",
       "source": "Bug.hr"
     },
     {
-      "title": "57% of enterprises have watched AI agents be confidently wrong. The fix is an agentic context layer, but who has one?",
-      "link": "https://venturebeat.com/data/57-of-enterprises-have-watched-ai-agents-be-confidently-wrong-the-fix-is-an-agentic-context-layer-but-who-has-one",
-      "source": "VentureBeat"
+      "title": "Apple sues OpenAI for stealing hardware designs, alleging employees brought prototypes to “show and tell” interviews",
+      "link": "https://thenextweb.com/news/apple-sues-openai-trade-secrets-theft-hardware",
+      "source": "The Next Web"
     },
     {
-      "title": "Enterprise AI is entering an evaluation gap: Agents are gaining autonomy faster than companies can verify them",
-      "link": "https://venturebeat.com/orchestration/enterprise-ai-is-entering-an-evaluation-gap-agents-are-gaining-autonomy-faster-than-companies-can-verify-them",
-      "source": "VentureBeat"
+      "title": "OpenAI has folded safety into research again. Its head of safety is leaving.",
+      "link": "https://thenextweb.com/news/openai-heidecke-safety-head-leaving-research-merger",
+      "source": "The Next Web"
     }
   ],
   "micro_tips": {
     "vscode": {
-      "tip": "Otvori datoteku brzim pretraživanjem",
-      "keys": "Ctrl+P"
+      "tip": "Toggle Word Wrap za dugačke linije",
+      "keys": "Alt+Z"
     },
-    "sql": "Covering index: uključi sve kolone iz WHERE + SELECT u index pa nema pristupa tablici",
-    "oracle": "/*+ NO_MERGE(v) */ sprječava merging inline viewa s parent queryjem",
-    "regex": "(?=pattern) lookahead: \"iza ovog mora slijediti X\" bez konzumiranja znakova"
+    "sql": "Window funkcije (ROW_NUMBER, LAG, LEAD) umjesto self-join za redosljed i razlike",
+    "oracle": "/*+ RESULT_CACHE */ cache-ira rezultat funkcije u SGA za ponovljene pozive",
+    "regex": ".+? lazy quantifier: stane na prvom mogućem podudaranju, ne zadnjem"
   }
 }

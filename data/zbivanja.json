@@ -1,11 +1,7 @@
 {
-  "generated_at": "2026-07-12T05:01:37.513Z",
+  "generated_at": "2026-07-12T05:01:36.813Z",
   "stats": {
     "Mochvara": {
-      "ok": true,
-      "count": 16
-    },
-    "Gavella": {
       "ok": true,
       "count": 0
     },
@@ -13,27 +9,31 @@
       "ok": true,
       "count": 0
     },
+    "Gavella": {
+      "ok": true,
+      "count": 0
+    },
     "Tvornica": {
       "ok": true,
       "count": 3
+    },
+    "Komedija": {
+      "ok": true,
+      "count": 0
     },
     "muzika.hr": {
       "ok": true,
       "count": 25
     },
-    "Komedija": {
-      "ok": false,
-      "error": "HTTP 500"
-    },
     "HNK Zagreb": {
       "ok": true,
       "count": 63
     },
-    "Trešnja": {
+    "ZeKaeM": {
       "ok": false,
       "error": "fetch failed"
     },
-    "ZeKaeM": {
+    "Kerempuh": {
       "ok": false,
       "error": "fetch failed"
     },
@@ -41,7 +41,7 @@
       "ok": false,
       "error": "fetch failed"
     },
-    "Kerempuh": {
+    "Trešnja": {
       "ok": false,
       "error": "fetch failed"
     }
@@ -1185,7 +1185,7 @@
       "link": "https://www.muzika.hr/event/chet-faker/",
       "source": "muzika.hr",
       "is_new": true,
-      "first_seen": "2026-07-12T05:01:37.513Z"
+      "first_seen": "2026-07-12T05:01:36.813Z"
     },
     {
       "id": "e2060e9688",
@@ -1200,7 +1200,7 @@
       "link": "https://www.muzika.hr/event/kraftwerk/",
       "source": "muzika.hr",
       "is_new": true,
-      "first_seen": "2026-07-12T05:01:37.513Z"
+      "first_seen": "2026-07-12T05:01:36.813Z"
     },
     {
       "id": "bb48c15171",
