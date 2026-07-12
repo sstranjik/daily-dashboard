@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-07-11T20:40:56.491Z",
+  "generated_at": "2026-07-12T05:01:37.513Z",
   "stats": {
-    "Gavella": {
-      "ok": true,
-      "count": 0
-    },
     "Mochvara": {
       "ok": true,
       "count": 16
+    },
+    "Gavella": {
+      "ok": true,
+      "count": 0
     },
     "Lisinski": {
       "ok": true,
@@ -17,51 +17,36 @@
       "ok": true,
       "count": 3
     },
-    "ZeKaeM": {
-      "ok": true,
-      "count": 0
-    },
     "muzika.hr": {
       "ok": true,
       "count": 25
     },
     "Komedija": {
-      "ok": true,
-      "count": 0
+      "ok": false,
+      "error": "HTTP 500"
     },
     "HNK Zagreb": {
       "ok": true,
       "count": 63
     },
-    "Kerempuh": {
-      "ok": true,
-      "count": 0
+    "Trešnja": {
+      "ok": false,
+      "error": "fetch failed"
+    },
+    "ZeKaeM": {
+      "ok": false,
+      "error": "fetch failed"
     },
     "Pogon": {
-      "ok": true,
-      "count": 0
+      "ok": false,
+      "error": "fetch failed"
     },
-    "Trešnja": {
-      "ok": true,
-      "count": 0
+    "Kerempuh": {
+      "ok": false,
+      "error": "fetch failed"
     }
   },
   "concerts": [
-    {
-      "id": "7812ff8a85",
-      "title": "Priroda i Društvo x Low income $quad",
-      "venue": "Mochvara",
-      "city": "Zagreb",
-      "country": "HR",
-      "category": "concert",
-      "date_iso": "2026-06-26T21:00:00",
-      "date_display": "pet, 26. 06. 2026.",
-      "time": "21:00",
-      "link": "https://mochvara.hr/event-detail/6a1d45e9eb7a4aa15b7a2acc/?lang=hr",
-      "source": "Mochvara",
-      "is_new": false,
-      "first_seen": "2026-06-25T10:01:21.326Z"
-    },
     {
       "id": "b387ae3ab3",
       "title": "Razgled kazališta 165 sezona iza kulisa – kombinirani razgled HNK-a i HNK2",
@@ -1186,6 +1171,36 @@
       "source": "muzika.hr",
       "is_new": false,
       "first_seen": "2026-07-11T05:01:34.506Z"
+    },
+    {
+      "id": "36f9825843",
+      "title": "Chet Faker",
+      "venue": "Mihovila Šibenik",
+      "city": "Croatia",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-07-28T00:00:00",
+      "date_display": "uto, 28. 07. 2026.",
+      "time": null,
+      "link": "https://www.muzika.hr/event/chet-faker/",
+      "source": "muzika.hr",
+      "is_new": true,
+      "first_seen": "2026-07-12T05:01:37.513Z"
+    },
+    {
+      "id": "e2060e9688",
+      "title": "Kraftwerk",
+      "venue": "Kraftwerk Arena Pula Flavijevska ulica",
+      "city": "Pula",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-07-28T00:00:00",
+      "date_display": "uto, 28. 07. 2026.",
+      "time": null,
+      "link": "https://www.muzika.hr/event/kraftwerk/",
+      "source": "muzika.hr",
+      "is_new": true,
+      "first_seen": "2026-07-12T05:01:37.513Z"
     },
     {
       "id": "bb48c15171",
@@ -2587,36 +2602,6 @@
   ],
   "abroad": [
     {
-      "id": "75fa52eccb",
-      "title": "DUBIOZA KOLEKTIV (Festival Lent 2026)",
-      "venue": "Trg Leona Štuklja Trg Leona Štuklja",
-      "city": "Maribor",
-      "country": "SI",
-      "category": "concert",
-      "date_iso": "2026-06-26T21:30:00",
-      "date_display": "pet, 26. 06. 2026.",
-      "time": "21:30",
-      "link": "https://www.muzika.hr/event/dubioza-kolektiv-festival-lent-2026/",
-      "source": "muzika.hr",
-      "is_new": false,
-      "first_seen": "2026-06-15T05:01:11.817Z"
-    },
-    {
-      "id": "cb3303c6e0",
-      "title": "Dubioza kolektiv",
-      "venue": "Cave Romane Vinkuranska cesta 2",
-      "city": "Vinkuran",
-      "country": "EU",
-      "category": "concert",
-      "date_iso": "2026-06-27T00:00:00",
-      "date_display": "sub, 27. 06. 2026.",
-      "time": null,
-      "link": "https://www.muzika.hr/event/dubioza-kolektiv-2/",
-      "source": "muzika.hr",
-      "is_new": false,
-      "first_seen": "2026-06-15T05:01:11.817Z"
-    },
-    {
       "id": "10b32e067a",
       "title": "Laibach (Festival Lent 2026)",
       "venue": "Trg Leona Štuklja Trg Leona Štuklja",
@@ -2917,5 +2902,5 @@
       "first_seen": "2026-07-06T05:01:37.668Z"
     }
   ],
-  "new_count": 4
+  "new_count": 6
 }
