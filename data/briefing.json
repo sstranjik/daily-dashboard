@@ -1,15 +1,15 @@
 {
   "version": 2,
-  "date": "2026-07-12",
-  "generated_at": "2026-07-12T07:27:26.297Z",
-  "date_hr": "Nedjelja, 12. srpnja 2026.",
+  "date": "2026-07-13",
+  "generated_at": "2026-07-13T05:03:33.473Z",
+  "date_hr": "Ponedjeljak, 13. srpnja 2026.",
   "weather": {
-    "icon": "☁️",
-    "summary": "19–30°C, oblačno",
+    "icon": "🌤️",
+    "summary": "19–32°C, djelomično oblačno",
     "alerts": []
   },
   "fuel": {
-    "current_date": "12.07.2026",
+    "current_date": "13.07.2026",
     "eurodiesel": [
       {
         "company": "Adria Oil",
@@ -63,41 +63,36 @@
     "upcoming_premium": null
   },
   "market": {
-    "updated_at": "2026-07-12T07:27:26.297Z",
-    "btc_usd": 63829,
-    "btc_eur": 55914,
-    "btc_change_24h": -0.56,
-    "usd_eur": 0.8755
+    "updated_at": "2026-07-13T05:03:33.473Z",
+    "btc_usd": 62636,
+    "btc_eur": 54924,
+    "btc_change_24h": -2.07,
+    "usd_eur": 0.8768
   },
   "ai_news": [
     {
-      "title": "OpenAI bets on families as ChatGPT goes deeper into households",
-      "link": "https://techcrunch.com/2026/07/11/openai-bets-on-families-as-chatgpt-goes-deeper-into-households/",
-      "source": "TechCrunch AI"
-    },
-    {
-      "title": "Apple objavio rat OpenAI-ju zbog navodne krađe poslovnih tajni",
-      "link": "https://www.bug.hr/dogadjaji/apple-objavio-rat-openai-ju-zbog-navodne-kradje-poslovnih-tajni-61337",
-      "source": "Bug.hr"
-    },
-    {
-      "title": "Apple sues OpenAI for stealing hardware designs, alleging employees brought prototypes to “show and tell” interviews",
-      "link": "https://thenextweb.com/news/apple-sues-openai-trade-secrets-theft-hardware",
+      "title": "Beijing flagged Claude Code as a back door, and Chinese coding tools are lining up to take its place",
+      "link": "https://thenextweb.com/news/china-ai-coding-tools-claude-code-backdoor",
       "source": "The Next Web"
     },
     {
-      "title": "OpenAI has folded safety into research again. Its head of safety is leaving.",
-      "link": "https://thenextweb.com/news/openai-heidecke-safety-head-leaving-research-merger",
+      "title": "Chinese developers are climbing the firewall to pay more for GPT-5.6, and doing the maths on why",
+      "link": "https://thenextweb.com/news/china-users-gpt-5-6-token-efficiency",
       "source": "The Next Web"
+    },
+    {
+      "title": "Apple podigao tužbu protiv OpenAI-ja: Kradu nam poslovne tajne!",
+      "link": "https://www.tportal.hr/tehno/clanak/apple-podigao-tuzbu-protiv-openai-ja-kradu-nam-poslovne-tajne-20260712",
+      "source": "Tportal"
     }
   ],
   "micro_tips": {
     "vscode": {
-      "tip": "Toggle Word Wrap za dugačke linije",
-      "keys": "Alt+Z"
+      "tip": "Nađi i selektiraj sljedeće pojavljivanje",
+      "keys": "Ctrl+D"
     },
-    "sql": "Window funkcije (ROW_NUMBER, LAG, LEAD) umjesto self-join za redosljed i razlike",
-    "oracle": "/*+ RESULT_CACHE */ cache-ira rezultat funkcije u SGA za ponovljene pozive",
-    "regex": ".+? lazy quantifier: stane na prvom mogućem podudaranju, ne zadnjem"
+    "sql": "EXPLAIN ANALYZE prikazuje stvarne vs procijenjene redove — ključno za tuning",
+    "oracle": "CONNECT BY LEVEL <= n generira broj redova bez pomoćne tablice",
+    "regex": "[^\\n]* svaki znak osim newline — dohvati cijelu liniju bez dotall flaga"
   }
 }
