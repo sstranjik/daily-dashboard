@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-07-12T20:45:57.635Z",
+  "generated_at": "2026-07-13T05:01:39.768Z",
   "stats": {
-    "muzika.hr": {
-      "ok": true,
-      "count": 25
-    },
     "Mochvara": {
       "ok": true,
       "count": 16
+    },
+    "Gavella": {
+      "ok": true,
+      "count": 0
     },
     "Lisinski": {
       "ok": true,
       "count": 0
     },
-    "Gavella": {
+    "muzika.hr": {
       "ok": true,
-      "count": 0
+      "count": 25
     },
     "Tvornica": {
       "ok": true,
@@ -29,7 +29,7 @@
       "ok": true,
       "count": 0
     },
-    "Kerempuh": {
+    "Pogon": {
       "ok": true,
       "count": 0
     },
@@ -37,46 +37,16 @@
       "ok": true,
       "count": 63
     },
-    "Trešnja": {
+    "Kerempuh": {
       "ok": true,
       "count": 0
     },
-    "Pogon": {
+    "Trešnja": {
       "ok": true,
       "count": 0
     }
   },
   "concerts": [
-    {
-      "id": "1355a3c797",
-      "title": "Dirty Dancing – 80’s smash hit party",
-      "venue": "Mochvara",
-      "city": "Zagreb",
-      "country": "HR",
-      "category": "concert",
-      "date_iso": "2026-06-27T22:00:00",
-      "date_display": "sub, 27. 06. 2026.",
-      "time": "22:00",
-      "link": "https://mochvara.hr/event-detail/6a302831cb731b50ad575cdf/?lang=hr",
-      "source": "Mochvara",
-      "is_new": false,
-      "first_seen": "2026-06-18T05:01:14.035Z"
-    },
-    {
-      "id": "66c720879c",
-      "title": "David Byrne u Areni Pula",
-      "venue": "Areni Pula Arena Pula Flavijevska ulica",
-      "city": "Pula",
-      "country": "HR",
-      "category": "concert",
-      "date_iso": "2026-06-28T00:00:00",
-      "date_display": "ned, 28. 06. 2026.",
-      "time": null,
-      "link": "https://www.muzika.hr/event/david-byrne-arena-pula/",
-      "source": "muzika.hr",
-      "is_new": false,
-      "first_seen": "2026-06-15T05:01:11.817Z"
-    },
     {
       "id": "7e596459b2",
       "title": "Winfried Radeke – Peter Lund Vještica Hillary i uvrijeđeni kontrabas ZAGREBAČKI KVARTOVI KULTURE - Park Vesne Krmpotić",
@@ -1023,6 +993,21 @@
       "first_seen": "2026-07-05T05:01:29.544Z"
     },
     {
+      "id": "8a5de96818",
+      "title": "Bez srama x Sjemenište",
+      "venue": "Mochvara",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-07-18T22:00:00",
+      "date_display": "sub, 18. 07. 2026.",
+      "time": "22:00",
+      "link": "https://mochvara.hr/event-detail/6a3d0aa5f00054e8add62b31/?lang=hr",
+      "source": "Mochvara",
+      "is_new": true,
+      "first_seen": "2026-07-13T05:01:39.768Z"
+    },
+    {
       "id": "fb7fed14ca",
       "title": "Skunk Anansie",
       "venue": "Mihovila Šibenik",
@@ -1171,6 +1156,21 @@
       "source": "muzika.hr",
       "is_new": false,
       "first_seen": "2026-07-12T05:01:36.813Z"
+    },
+    {
+      "id": "54efe9e764",
+      "title": "AIRBOURNE",
+      "venue": "Grada Vukovara 68",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-07-28T00:00:00",
+      "date_display": "uto, 28. 07. 2026.",
+      "time": null,
+      "link": "https://www.muzika.hr/event/airbourne/",
+      "source": "muzika.hr",
+      "is_new": true,
+      "first_seen": "2026-07-13T05:01:39.768Z"
     },
     {
       "id": "bb48c15171",
@@ -2572,21 +2572,6 @@
   ],
   "abroad": [
     {
-      "id": "10b32e067a",
-      "title": "Laibach (Festival Lent 2026)",
-      "venue": "Trg Leona Štuklja Trg Leona Štuklja",
-      "city": "Maribor",
-      "country": "SI",
-      "category": "concert",
-      "date_iso": "2026-06-27T21:30:00",
-      "date_display": "sub, 27. 06. 2026.",
-      "time": "21:30",
-      "link": "https://www.muzika.hr/event/laibach-festival-lent-2026/",
-      "source": "muzika.hr",
-      "is_new": false,
-      "first_seen": "2026-06-15T05:01:11.817Z"
-    },
-    {
       "id": "fba525f277",
       "title": "Theo Croker: Dream Manifest (Festival Lent 2026)",
       "venue": "Maribor Maribor",
@@ -2872,5 +2857,5 @@
       "first_seen": "2026-07-06T05:01:37.668Z"
     }
   ],
-  "new_count": 4
+  "new_count": 6
 }
