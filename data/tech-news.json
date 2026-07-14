@@ -1,9 +1,345 @@
 {
-  "last_updated": "2026-07-13T20:05:46.207Z",
+  "last_updated": "2026-07-14T05:01:40.834Z",
   "source_count": 11,
   "items": [
     {
+      "id": "tportal-0",
+      "title": "Europa ima aduta u AI utrci, ali ga olako prepušta Amerikancima? &#039;Za dvije godine bit će kasno&#039;",
+      "summary": "Sve je više onih koji zagovaraju (pre)usmjeravanje domaće proizvedene struje u projekte koji će potaknuti istraživanje i razvoj, umjesto izravne prodaje Amerikancima",
+      "link": "https://www.tportal.hr/tehno/clanak/europa-ima-aduta-u-ai-utrci-ali-ga-olako-prepusta-amerikancima-za-dvije-godine-bit-ce-kasno-20260713",
+      "published": "2026-07-14T05:00:00.000Z",
+      "source": "Tportal",
+      "category": "ai",
+      "xml_category": "tech",
+      "tags": [],
+      "image": "https://www.tportal.hr/media/thumbnail/500x300/2765848.jpeg?cropId=0"
+    },
+    {
       "id": "bug.hr-0",
+      "title": "ScreenZen - nastoji pomoći smanjiti prekomjerno korištenje pametnog telefona",
+      "summary": "Činjenica da su brojne aplikacije dizajnirane tako da potiču ne samo da ih se pokreće, nego tako da se što dulje zadrži pažnja korisnika posve je neupitna, pa je stoga pojava aplikacija koja nastoje to ublažiti sasvim logična…",
+      "link": "https://www.bug.hr/appdana/screenzen-nastoji-pomoci-smanjiti-prekomjerno-koristenje-pametnog-telefona-61182",
+      "published": "2026-07-14T04:30:00.000Z",
+      "source": "Bug.hr",
+      "category": "general",
+      "xml_category": "app dana",
+      "tags": [],
+      "image": "https://www.bug.hr/img/screenzen-nastoji-pomoci-smanjiti-prekomjerno-koristenje-pametnog-telefona_v0zIVk.png"
+    },
+    {
+      "id": "bug.hr-1",
+      "title": "Objava Appleove tužbe protiv OpenAI-ja poslužila je i kao povod za novu epizodu: Musk protiv Altmana",
+      "summary": "U stilu nema ničeg novog, ponavlja se kao kadar iz lošeg stripa, a svaki nastavak kreće od nule kao da prethodnog nije bilo. Ipak, postoji i ozbiljna strana sudske tužbe",
+      "link": "https://www.bug.hr/parnice/objava-appleove-tuzbe-protiv-openai-ja-posluzila-je-i-kao-povod-za-novu-epizodu-61360",
+      "published": "2026-07-14T04:30:00.000Z",
+      "source": "Bug.hr",
+      "category": "ai",
+      "xml_category": "parnice",
+      "tags": [],
+      "image": "https://www.bug.hr/img/objava-appleove-tuzbe-protiv-openai-ja-posluzila-je-i-kao-povod-za-novu-epizodu_8FHYH1.png"
+    },
+    {
+      "id": "bug.hr-2",
+      "title": "Microsoftove emisije CO2 skočile 25 posto, a evo i zašto",
+      "summary": "Unatoč ambicioznim klimatskim ciljevima, Microsoft bilježi značajan porast emisija stakleničkih plinova. Glavni pokretač je brza ekspanzija infrastrukture za umjetnu inteligenciju, što postavlja ozbiljne izazove za cijelu tehnološku industriju",
+      "link": "https://www.bug.hr/ekologija/microsoftove-emisije-co2-skocile-25-posto-a-evo-i-zasto-61376",
+      "published": "2026-07-14T04:30:00.000Z",
+      "source": "Bug.hr",
+      "category": "general",
+      "xml_category": "ekologija",
+      "tags": [],
+      "image": "https://www.bug.hr/img/microsoftove-emisije-co2-skocile-25-posto-a-evo-i-zasto_YDGeQj.png"
+    },
+    {
+      "id": "bug.hr-3",
+      "title": "DNK više nije mistična knjiga života: znanstvenici uče konstruirati cijele kromosome",
+      "summary": "Od školskog crteža kromosoma do sinteze velikih genetskih konstrukata, biologija ulazi u doba u kojem se genom ne samo čita i uređuje, nego postupno projektira, sastavlja i pokreće u živim stanicama",
+      "link": "https://www.bug.hr/znanost/dnk-vise-nije-misticna-knjiga-zivota-znanstvenici-uce-konstruirati-cijele-61275",
+      "published": "2026-07-14T04:30:00.000Z",
+      "source": "Bug.hr",
+      "category": "general",
+      "xml_category": "znanost",
+      "tags": [],
+      "image": "https://www.bug.hr/img/dnk-vise-nije-misticna-knjiga-zivota-znanstvenici-uce-konstruirati-cijele_vxeIni.jpg"
+    },
+    {
+      "id": "bug.hr-4",
+      "title": "LG NANO AI NU80 je tanki TV koji donosi AI značajke i WebOS sustav za ispod 500 eura",
+      "summary": "Osim naprednog WebOS pametnog sučelja, ovaj TV s direktnim LED pozadinskim osvjetljenjem donosi napredni procesor koji pokreće AI Hub i jednu od istaknutih funckionalnostu u Nano Detail Enhancer opciji",
+      "link": "https://www.bug.hr/televizori/lg-nano-ai-nu80-je-tanki-tv-koji-donosi-ai-znacajke-i-webos-sustav-za-ispod-500-61352",
+      "published": "2026-07-14T04:30:00.000Z",
+      "source": "Bug.hr",
+      "category": "ai",
+      "xml_category": "televizori",
+      "tags": [],
+      "image": "https://www.bug.hr/img/lg-nano-ai-nu80-je-tanki-tv-koji-donosi-ai-znacajke-i-webos-sustav-za-ispod-500_5OOabj.jpg"
+    },
+    {
+      "id": "bug.hr-5",
+      "title": "AI donijela desetostruki rast tržišta memorijskih čipova",
+      "summary": "Kombinirana tržišna kapitalizacija 5 najvećih globalnih proizvođača memorijskih čipova (Samsunga, Microna, SK Hynixa, SanDiska i Kioxije) dosegnula je do sredine 2026. 4,53 bilijuna američkih dolara",
+      "link": "https://mreza.bug.hr/biznis/ai-donijela-desetostruki-rast-trzista-memorijskih-cipova-61231",
+      "published": "2026-07-14T04:10:00.000Z",
+      "source": "Bug.hr",
+      "category": "ai",
+      "xml_category": "biznis",
+      "tags": [],
+      "image": "https://mreza.bug.hr/img/ai-donijela-desetostruki-rast-trzista-memorijskih-cipova_wZOdfN.jpg"
+    },
+    {
+      "id": "tportal-1",
+      "title": "Sumnja u Dublin sve veća: Je li Irska američki trojanski konj u Europi?",
+      "summary": "Irska je početkom srpnja preuzela šestomjesečno predsjedanje Vijećem Europske unije, no njezina nova uloga već izaziva prijepore u Bruxellesu",
+      "link": "https://www.tportal.hr/tehno/clanak/sumnja-u-dublin-sve-veca-je-li-irska-americki-trojanski-konj-u-europi-20260713",
+      "published": "2026-07-14T04:00:00.000Z",
+      "source": "Tportal",
+      "category": "general",
+      "xml_category": "tech",
+      "tags": [],
+      "image": "https://www.tportal.hr/media/thumbnail/500x300/2766139.jpeg?cropId=0"
+    },
+    {
+      "id": "bug.hr-6",
+      "title": "MG otkriva dva nova električna koncepta",
+      "summary": "Na Festivalu brzine u Goodwoodu MG će premijerno predstaviti električni hatchback MG GO! i SUV MG Cyber Concept",
+      "link": "https://autonet.bug.hr/elektricna-vozila/mg-otkriva-dva-nova-elektricna-koncepta-61372",
+      "published": "2026-07-14T04:00:00.000Z",
+      "source": "Bug.hr",
+      "category": "general",
+      "xml_category": "električna vozila",
+      "tags": [],
+      "image": "https://autonet.bug.hr/img/mg-otkriva-dva-nova-elektricna-koncepta_Qxcy_n.jpg"
+    },
+    {
+      "id": "techcrunch-ai-0",
+      "title": "Already rich, already successful, why the last wave of tech winners is grinding again",
+      "summary": "They're rolling up their sleeves again, seemingly out of fear of missing AI's defining moment and, presumably, the irresistible allure of making even more money -- potentially a lot more.",
+      "link": "https://techcrunch.com/2026/07/13/already-rich-already-successful-why-the-last-wave-of-tech-winners-is-grinding-again/",
+      "published": "2026-07-14T02:46:42.000Z",
+      "source": "TechCrunch AI",
+      "category": "ai",
+      "xml_category": "ai",
+      "tags": [],
+      "image": null
+    },
+    {
+      "id": "tportal-2",
+      "title": "Kineske kompanije dominirale u dodjeli WIPO-vih nagrada za primjenu inovacija",
+      "summary": "Kineske kompanije dominirale su ove godine među dobitnicima nagrade za stratešku upotrebu intelektualnog vlasništva koju dodjeljuje Svjetska organizacija za intelektualno vlasništvo (WIPO), i to u sektoru medicine i ekoloških znanosti, pokazuje izvješće",
+      "link": "https://www.tportal.hr/tehno/clanak/kineske-kompanije-dominirale-u-dodjeli-wipo-vih-nagrada-za-primjenu-inovacija-20260713",
+      "published": "2026-07-14T01:00:00.000Z",
+      "source": "Tportal",
+      "category": "general",
+      "xml_category": "tech",
+      "tags": [],
+      "image": "https://www.tportal.hr/media/thumbnail/500x300/2621044.jpeg?cropId=0"
+    },
+    {
+      "id": "techcrunch-ai-1",
+      "title": "Uber&#8217;s product chief on hotels, robotaxis, and why the company doesn&#8217;t want to be &#8220;everything for everyone&#8221;",
+      "summary": "Uber Chief Product Officer Sachin Kansal walks TechCrunch through the company's financial-services ambitions, its increasingly complicated relationship with Waymo, its new AV Labs data operation, and how AI is starting to show up in ways riders and drivers will actually notice.",
+      "link": "https://techcrunch.com/2026/07/13/ubers-product-chief-on-hotels-robotaxis-and-why-the-company-doesnt-want-to-be-everything-for-everyone/",
+      "published": "2026-07-14T00:45:00.000Z",
+      "source": "TechCrunch AI",
+      "category": "general",
+      "xml_category": "tc",
+      "tags": [],
+      "image": null
+    },
+    {
+      "id": "techcrunch-ai-2",
+      "title": "Video-generation startup PixVerse raises $439M, valuation soars past $2B",
+      "summary": "With the cash, the company aims to expand its world model offering and reach customers across geographies.",
+      "link": "https://techcrunch.com/2026/07/13/video-generation-startup-pixverse-raises-439m-valuation-soars-past-2b/",
+      "published": "2026-07-14T00:00:00.000Z",
+      "source": "TechCrunch AI",
+      "category": "ai",
+      "xml_category": "ai",
+      "tags": [],
+      "image": null
+    },
+    {
+      "id": "techcrunch-ai-3",
+      "title": "Hermes agent maker Nous Research in talks for new funding at $1.5B valuation",
+      "summary": "The company is raising at least $75 million, led by Robot Ventures, with significant participation from USV and other prominent investors.",
+      "link": "https://techcrunch.com/2026/07/13/hermes-agent-maker-nous-research-in-talks-for-new-funding-at-1-5b-valuation/",
+      "published": "2026-07-13T23:31:18.000Z",
+      "source": "TechCrunch AI",
+      "category": "science",
+      "xml_category": "ai",
+      "tags": [],
+      "image": null
+    },
+    {
+      "id": "the-verge-0",
+      "title": "Microsoft tests Windows Search without all the ads and fluff",
+      "summary": "Microsoft is testing a cleaner version of the Windows 11 search menu that strips it of recommended content and ads. In a blog post on Monday, Microsoft announced that it's rolling out the decluttered Search Box to Windows Insiders in the Experimental channel as the company looks to regain trust with",
+      "link": "https://www.theverge.com/tech/965090/microsoft-windows-11-search-menu-ads",
+      "published": "2026-07-13T21:53:20.000Z",
+      "source": "The Verge",
+      "category": "general",
+      "xml_category": "[object object]",
+      "tags": [],
+      "image": null
+    },
+    {
+      "id": "the-verge-1",
+      "title": "OnePlus is reportedly bailing on the US",
+      "summary": "OnePlus and its parent company, Oppo, plan to announce in the coming days that OnePlus brand will be leaving the US and European markets, according to a machine translation of a WinFuture report. Should the exit actually happen, it will mark a conclusion to months of rumors about the future of OnePl",
+      "link": "https://www.theverge.com/tech/965084/oneplus-oppo-exit-us-europe",
+      "published": "2026-07-13T21:48:43.000Z",
+      "source": "The Verge",
+      "category": "ai",
+      "xml_category": "[object object]",
+      "tags": [],
+      "image": null
+    },
+    {
+      "id": "the-verge-2",
+      "title": "A two-pack of DJI&#8217;s most capable wireless mics just got its first price cut",
+      "summary": "Smartphones these days have incredible cameras that are capable of taking smooth, sharp video, but the microphones are often lacking, to say the least. A wireless lavalier microphone can dramatically improve the audio quality of your videos, whether you’re the only one talking, or if you’re getting ",
+      "link": "https://www.theverge.com/gadgets/964914/dji-mic-three-bundle-deal-sale",
+      "published": "2026-07-13T21:03:14.000Z",
+      "source": "The Verge",
+      "category": "general",
+      "xml_category": "[object object]",
+      "tags": [],
+      "image": null
+    },
+    {
+      "id": "ars-technica-0",
+      "title": "The US government warns that Russia state hackers are coming after your router",
+      "summary": "With residential proxies all the rage, CISA urges router users to be vigilant.",
+      "link": "https://arstechnica.com/security/2026/07/the-us-government-warns-that-russia-state-hackers-are-coming-after-your-router/",
+      "published": "2026-07-13T21:03:07.000Z",
+      "source": "Ars Technica",
+      "category": "general",
+      "xml_category": "biz & it",
+      "tags": [],
+      "image": "https://cdn.arstechnica.net/wp-content/uploads/2024/04/wireless-router-cables-1152x648.jpg"
+    },
+    {
+      "id": "bug.hr-7",
+      "title": "Europska unija stišće Meta Platforms zbog dizajna koji potiče ovisnost",
+      "summary": "Meta Platforms je možda prekršila Zakon o digitalnim uslugama Europske unije dizajnirajući Facebook i Instagram kako bi korisnici ostali prikovani za ekrane.",
+      "link": "https://mreza.bug.hr/eu/europska-unija-stisce-meta-platforms-zbog-dizajna-koji-potice-ovisnost-61363",
+      "published": "2026-07-13T21:03:00.000Z",
+      "source": "Bug.hr",
+      "category": "general",
+      "xml_category": "eu",
+      "tags": [],
+      "image": "https://mreza.bug.hr/img/europska-unija-stisce-meta-platforms-zbog-dizajna-koji-potice-ovisnost_y8GXTE.jpg"
+    },
+    {
+      "id": "zdnet-0",
+      "title": "I tested COSMIC's new Frosted Glass effect, and it's way better than MacOS' Liquid Glass",
+      "summary": "This simply gorgeous Linux desktop just stole the UI crown from Apple's Liquid Glass.",
+      "link": "https://www.zdnet.com/article/cosmic-desktop-frosted-glass-linux-liquid-glass/",
+      "published": "2026-07-13T20:59:08.000Z",
+      "source": "ZDNet",
+      "category": "general",
+      "xml_category": "",
+      "tags": [],
+      "image": null
+    },
+    {
+      "id": "techcrunch-ai-4",
+      "title": "Satya Nadella has issued a shocking warning to companies using AI",
+      "summary": "Of all the debates raging about the potential downsides of AI, there is one worry causing the most hand-wringing among AI enthusiasts in Silicon Valley — that the giant AI labs that sell proprietary models are somehow acting like Trojan horses.",
+      "link": "https://techcrunch.com/2026/07/13/satya-nadella-has-issued-a-shocking-warning-to-companies-using-ai/",
+      "published": "2026-07-13T20:59:00.000Z",
+      "source": "TechCrunch AI",
+      "category": "ai",
+      "xml_category": "ai",
+      "tags": [],
+      "image": null
+    },
+    {
+      "id": "the-verge-3",
+      "title": "The Shokz OpenRun Pro are the cheapest they’ve been since January",
+      "summary": "Noise-canceling earbuds are great for flights and focusing, but they're not always ideal for outdoor workouts. The last-gen Shokz OpenRun Pro's open-ear design lets you enjoy music while staying aware of approaching cars, cyclists, and other potential hazards, and right now they're on sale for $109 ",
+      "link": "https://www.theverge.com/gadgets/964982/shokz-openrun-pro-bone-conduction-headphones-summer-deal-sale",
+      "published": "2026-07-13T20:57:44.000Z",
+      "source": "The Verge",
+      "category": "general",
+      "xml_category": "[object object]",
+      "tags": [],
+      "image": null
+    },
+    {
+      "id": "the-verge-4",
+      "title": "The Pixel colors might rule this year",
+      "summary": "This year's Google Pixel 11 lineup might come in a bunch of funky colors. A series of now-deleted Amazon listings spotted by 9to5Google show what appear to be placeholders for Google's upcoming Pixel 11 in hot pink Fuchsia (Hibiscus), vibrant green Moss (Pistachio), and Midnight (Obsidian) black. We",
+      "link": "https://www.theverge.com/tech/964972/google-pixel-11-colors-rumor",
+      "published": "2026-07-13T20:52:27.000Z",
+      "source": "The Verge",
+      "category": "general",
+      "xml_category": "[object object]",
+      "tags": [],
+      "image": null
+    },
+    {
+      "id": "the-verge-5",
+      "title": "Apple’s public betas for iOS 27 and more are out now",
+      "summary": "Apple has just released public betas for iOS 27 and other major OS updates that are set to publicly launch this fall. The big new feature this year is Siri AI, the delayed AI-powered revamp to Siri. It actually works - which is big praise! - though it keeps things brief. Other betas available now [&",
+      "link": "https://www.theverge.com/tech/964307/apple-public-betas-ios-27-siri-ai",
+      "published": "2026-07-13T20:45:40.000Z",
+      "source": "The Verge",
+      "category": "tech",
+      "xml_category": "[object object]",
+      "tags": [],
+      "image": null
+    },
+    {
+      "id": "the-verge-6",
+      "title": "Siri AI makes the Apple Watch finally feel like a wrist computer",
+      "summary": "Siri has been on the Apple Watch since day one, though I'm usually hard-pressed to find people who actually make good use of it. It's kind of just… been there - mostly as a way to set timers when my hands are full. But after playing around with the watchOS 27 developer beta, I get [&#8230;]",
+      "link": "https://www.theverge.com/tech/964800/watchos-27-preview-siri-ai-apple-watch-gestures-smartwatch",
+      "published": "2026-07-13T20:44:20.000Z",
+      "source": "The Verge",
+      "category": "ai",
+      "xml_category": "[object object]",
+      "tags": [],
+      "image": null
+    },
+    {
+      "id": "the-verge-7",
+      "title": "Siri AI is already changing how I use my iPhone",
+      "summary": "iOS 27 escaped the developer world today with the launch of the first public beta. I've been testing the new operating system since early June, looking for quirks and seeing if it can live up to the hype Apple promised in the keynote. This year's iOS upgrades are what one might call a Snow Leopard [",
+      "link": "https://www.theverge.com/tech/964714/siri-ai-public-beta-preview-ios-27-hands-on",
+      "published": "2026-07-13T20:43:20.000Z",
+      "source": "The Verge",
+      "category": "ai",
+      "xml_category": "[object object]",
+      "tags": [],
+      "image": null
+    },
+    {
+      "id": "the-verge-8",
+      "title": "The macOS 27 public beta is worth it just for the Liquid Glass tweaks",
+      "summary": "The macOS 27 Golden Gate public beta is here, and anyone with an M-series Mac now has easier access to test-drive Apple's latest changes - including a more subdued Liquid Glass aesthetic. That's reason enough to be at least a little excited for macOS 27 (particularly if you're on Tahoe and disliking",
+      "link": "https://www.theverge.com/tech/964701/apple-macos-27-golden-gate-public-beta-impressions-liquid-glass-siri-ai",
+      "published": "2026-07-13T20:43:15.000Z",
+      "source": "The Verge",
+      "category": "general",
+      "xml_category": "[object object]",
+      "tags": [],
+      "image": null
+    },
+    {
+      "id": "the-next-web-0",
+      "title": "Twelve states are suing to stop the Paramount-Warner deal that Washington already waved through",
+      "summary": "A dozen states have sued to block Paramount Skydance’s takeover of Warner Bros. Discovery. The suit, led by California attorney general Rob Bonta, was filed in federal court in California’s Northern District, CNBC reports. The timing is pointed. The Justice Department approved the roughly $110bn dea",
+      "link": "https://thenextweb.com/news/states-sue-block-paramount-warner-bros-merger",
+      "published": "2026-07-13T20:18:52.000Z",
+      "source": "The Next Web",
+      "category": "general",
+      "xml_category": "business",
+      "tags": [],
+      "image": "https://media.thenextweb.com/2026/07/Paramount.avif"
+    },
+    {
+      "id": "bug.hr-8",
       "title": "Miguel Angel Blanco: 48 sati koji su promijenili Španjolsku",
       "summary": "Emotivan i potresan dokumentarac o otmici Miguela Ángela Blanca, čije je ubojstvo izazvalo najveći građanski ustanak protiv ETA-e i postalo simbol španjolskog otpora terorizmu",
       "link": "https://magnet.bug.hr/film/miguel-angel-blanco-48-sati-koji-su-promijenili-spanjolsku-61384",
@@ -15,7 +351,19 @@
       "image": "https://magnet.bug.hr/img/miguel-angel-blanco-48-sati-koji-su-promijenili-spanjolsku_UfFvyP.png"
     },
     {
-      "id": "bug.hr-1",
+      "id": "the-next-web-1",
+      "title": "Tesla’s Cybercab drove across a car park, and the real news happened two days earlier",
+      "summary": "Tesla has said Cybercab employee rides are starting soon at its Texas factory. The announcement came with a clip of a gold Cybercab, butterfly doors up and no steering wheel or pedals, driving itself across the outbound lot, Mashable reports. Note the tense. Tesla said the rides are “starting soon”,",
+      "link": "https://thenextweb.com/news/teslas-cybercab-drove-across-a-car-park-and-the-real-news-happened-two-days-earlier",
+      "published": "2026-07-13T19:59:26.000Z",
+      "source": "The Next Web",
+      "category": "tech",
+      "xml_category": "cars",
+      "tags": [],
+      "image": "https://media.thenextweb.com/2026/05/tesla-insiders-dont-trust-fsd-self-driving-reuters.avif"
+    },
+    {
+      "id": "bug.hr-9",
       "title": "Gotovo 200 ekonomista i tehnoloških lidera upozorava na AI: \"Moramo djelovati sada”",
       "summary": "Skupina, među kojima je petnaest nobelovaca i glavni ekonomisti OpenAI-ja i Anthropica, poziva se na hitnu reakciju, no sama izjava, uz dramatičan naslov, ne sadrži nijedan konkretan zakonski prijedlog",
       "link": "https://www.bug.hr/dogadjaji/gotovo-200-ekonomista-i-tehnoloskih-lidera-upozorava-na-ai-moramo-djelovati-61379",
@@ -27,7 +375,7 @@
       "image": "https://www.bug.hr/img/gotovo-200-ekonomista-i-tehnoloskih-lidera-upozorava-na-ai-moramo-djelovati_RARePx.png"
     },
     {
-      "id": "bug.hr-2",
+      "id": "bug.hr-10",
       "title": "Što gledati ovaj tjedan: filmovi u kinima i na streaming platformama (13.7. - 19.7.2026.)",
       "summary": "U drugom smo tjednu srpnja - pogledajte svježu filmsku ponudu i glasajte u anketi!",
       "link": "https://magnet.bug.hr/film/sto-gledati-ovaj-tjedan-filmovi-u-kinima-i-na-streaming-platformama-137--61377",
@@ -39,7 +387,7 @@
       "image": "https://magnet.bug.hr/img/sto-gledati-ovaj-tjedan-filmovi-u-kinima-i-na-streaming-platformama-137-_wI0SK7.png"
     },
     {
-      "id": "bug.hr-3",
+      "id": "bug.hr-11",
       "title": "EU sprema izravne kazne zbog propusta u zaštiti potrošača",
       "summary": "Europska komisija priprema nove ovlasti koje bi joj omogućile da izravno kažnjava velike tehnološke kompanije, ali i manje internetske platforme, zbog propusta u zaštiti potrošača na internetu. Ostaje pitanje provedbe.",
       "link": "https://www.bug.hr/zakonodavstvo/eu-sprema-izravne-kazne-zbog-propusta-u-zastiti-potrosaca-61362",
@@ -51,7 +399,31 @@
       "image": "https://www.bug.hr/img/eu-sprema-izravne-kazne-zbog-propusta-u-zastiti-potrosaca_VKK209.jpg"
     },
     {
-      "id": "the-next-web-0",
+      "id": "the-next-web-2",
+      "title": "Google’s big Waze AI update includes a button that makes the app shut up",
+      "summary": "Google has given Waze a batch of new features, most of them powered by Gemini. The headline additions are a motorcycle mode, personalised routing, conversational map editing, and Gemini-powered destination search, The Verge reports. The most interesting one does the opposite of what you would expect",
+      "link": "https://thenextweb.com/news/waze-gemini-less-chatty-motorcycle-mode",
+      "published": "2026-07-13T19:38:59.000Z",
+      "source": "The Next Web",
+      "category": "ai",
+      "xml_category": "apps",
+      "tags": [],
+      "image": "https://media.thenextweb.com/2026/07/waze-gemini-less-chatty-motorcycle-mode.avif"
+    },
+    {
+      "id": "the-next-web-3",
+      "title": "Intel is putting 5 billion euros into Ireland, and Europe just got one of the few EUV fabs on the continent",
+      "summary": "Intel is committing 5 billion euros, around $5.7bn, to expand its campus at Leixlip in Ireland. The money is aimed at data-centre processors for AI and high-performance computing, Bloomberg reports. It is a serious share of the company’s budget. The sum represents roughly 30% of Intel’s $17bn capita",
+      "link": "https://thenextweb.com/news/intel-5bn-ireland-leixlip-fab-34-ai-datacentre",
+      "published": "2026-07-13T19:21:23.000Z",
+      "source": "The Next Web",
+      "category": "general",
+      "xml_category": "artificial intelligence",
+      "tags": [],
+      "image": "https://media.thenextweb.com/2026/07/intel-5bn-ireland-leixlip-fab-34-ai-datacentre.avif"
+    },
+    {
+      "id": "the-next-web-4",
       "title": "Nadella says you pay for AI twice, and Microsoft helped build the trap",
       "summary": "Microsoft’s Satya Nadella says every firm using AI is paying for it twice, once in cash, and once in the secrets it hands over to make the thing useful. He calls it the Reverse Information Paradox. He also runs the company that helped build the trap. Satya Nadella has a warning for everyone buying A",
       "link": "https://thenextweb.com/news/nadella-reverse-information-paradox-ai-ip",
@@ -63,7 +435,7 @@
       "image": "https://media.thenextweb.com/2026/04/microsoft-voluntary-retirement-us-workers-ai.avif"
     },
     {
-      "id": "the-next-web-1",
+      "id": "the-next-web-5",
       "title": "AI is ending older workers’ careers early, and it is coming for the well-paid ones first",
       "summary": "The debate about AI and jobs has focused on graduates. New research suggests it should also be looking at people in their late fifties, CNBC reports. Workers aged 55 and over in AI-exposed occupations are now exiting work at higher rates than before ChatGPT launched. The finding comes from Geoffrey ",
       "link": "https://thenextweb.com/news/ai-older-workers-careers-cut-short-research",
@@ -75,7 +447,7 @@
       "image": "https://media.thenextweb.com/2026/07/ai-older-workers-careers-cut-short-research.avif"
     },
     {
-      "id": "the-next-web-2",
+      "id": "the-next-web-6",
       "title": "The web is now mostly bots. Cloudflare is rebuilding its defences around that",
       "summary": "For the first time, bots generate more than half of all web traffic. Cloudflare Precursor, the company’s new tool, stops checking IDs at the door and starts watching how visitors behave once they are inside. The internet just passed a strange milestone. Bots now generate more web requests than peopl",
       "link": "https://thenextweb.com/news/cloudflare-precursor-bots-agentic-web",
@@ -87,7 +459,7 @@
       "image": "https://media.thenextweb.com/2026/06/cloudflare-pact-browser-privacy-bot-traffic-protocol.avif"
     },
     {
-      "id": "the-next-web-3",
+      "id": "the-next-web-7",
       "title": "Valarian raised $50m to help governments use US cloud without losing control of it",
       "summary": "A London startup co-founded by a former Palantir executive has raised $50m to help governments and companies use American cloud and AI without letting America reach inside. The fear driving it stopped being hypothetical this year. Valarian, a London-based sovereignty startup, has raised a $50m (£37m",
       "link": "https://thenextweb.com/news/valarian-50-million-sovereign-ai-cloud",
@@ -99,7 +471,7 @@
       "image": "https://media.thenextweb.com/2026/07/Max-Buchan-CEO-Valarian.avif"
     },
     {
-      "id": "the-verge-0",
+      "id": "the-verge-9",
       "title": "States make last-ditch effort to stop the Paramount ‘media behemoth’",
       "summary": "A dozen state attorneys general are trying to block the $110 billion merger of Paramount and Warner Bros Discovery they warn would raise movie prices and crush cable TV distributors. The states - California, Arizona, Colorado, Connecticut, Massachusetts, Minnesota, Nevada, New Jersey, New Mexico, Ne",
       "link": "https://www.theverge.com/policy/964916/paramount-warner-bros-discovery-states-lawsuit",
@@ -111,7 +483,7 @@
       "image": null
     },
     {
-      "id": "the-next-web-4",
+      "id": "the-next-web-8",
       "title": "The EU has stopped sanctioning Russian hackers and started sanctioning the machine that makes them",
       "summary": "The European Union and the United Kingdom have jointly sanctioned Russia’s cyber apparatus for the first time. The EU listed nine individuals and four entities, while the UK went further with 24, Politico reports. The language is what matters here. The EU’s High Representative Kaja Kallas denounced ",
       "link": "https://thenextweb.com/news/eu-uk-russia-cyber-sanctions-turla-fsb",
@@ -123,7 +495,7 @@
       "image": "https://media.thenextweb.com/2026/07/eu-uk-russia-cyber-sanctions-turla-fsb.avif"
     },
     {
-      "id": "techcrunch-ai-0",
+      "id": "techcrunch-ai-5",
       "title": "The wildest allegations in Apple’s trade secrets lawsuit against OpenAI",
       "summary": "Apple’s trade secrets lawsuit against OpenAI contains allegations that range from employees joking about unauthorized access to Apple’s systems to claims that job candidates were asked to bring Apple hardware to interviews. Here are the complaint’s most eye-catching claims.",
       "link": "https://techcrunch.com/2026/07/13/the-wildest-allegations-in-apples-trade-secrets-lawsuit-against-openai/",
@@ -135,7 +507,7 @@
       "image": null
     },
     {
-      "id": "the-next-web-5",
+      "id": "the-next-web-9",
       "title": "Helsing raises $1.8bn at an $18bn valuation, and its cap table tells a story",
       "summary": "Munich’s Helsing has raised $1.8bn at an $18bn valuation, making it Europe’s largest defence startup. The round is a bet on sovereign AI. A lot of the money paying for it is American. Europe’s biggest defence startup just got a lot bigger. On Monday Helsing said it had closed a $1.8bn Series E that ",
       "link": "https://thenextweb.com/news/helsing-1-8-billion-series-e-18-billion-valuation",
@@ -171,7 +543,7 @@
       "image": null
     },
     {
-      "id": "zdnet-0",
+      "id": "zdnet-1",
       "title": "Is that QR code a trap? How to spot quishing scams before it's too late",
       "summary": "A QR code phishing scheme can take many forms. Here's how to recognize them and avoid becoming a victim.",
       "link": "https://www.zdnet.com/article/how-to-spot-quishing-qr-code-scams/",
@@ -207,7 +579,7 @@
       "image": "https://media.thenextweb.com/2026/07/Tom-Blomfield.avif"
     },
     {
-      "id": "techcrunch-ai-1",
+      "id": "techcrunch-ai-6",
       "title": "Sam Altman&#8217;s space data center trash talk is what most experts already believe",
       "summary": "Responding to Musk accusing him of being a scammer, Altman said, \"homeboy you're the one sellling [sic] public market investors on short-term space datacenters.\"",
       "link": "https://techcrunch.com/2026/07/13/sam-altmans-space-data-center-trash-talk-is-what-most-experts-already-believe/",
@@ -219,7 +591,7 @@
       "image": null
     },
     {
-      "id": "zdnet-1",
+      "id": "zdnet-2",
       "title": "Windows questions? How Copilot can analyze your PC settings now",
       "summary": "Now rolling out to the Copilot Windows app, the new PC Insights skill can answer questions about your Windows system, settings, and more.",
       "link": "https://www.zdnet.com/article/microsoft-copilot-analyze-windows/",
@@ -255,7 +627,7 @@
       "image": "https://media.thenextweb.com/2026/05/china-industrial-climb-commercialisation-not-subsidies.avif"
     },
     {
-      "id": "tportal-0",
+      "id": "tportal-3",
       "title": "Kina i Rusija imaju opaki plan: Procurili dokumenti o tajnom vojnom savezu",
       "summary": "Do jeseni 2023. godine Starlink je postao jedan od najvažnijih elemenata ukrajinske obrane. Satelitska mreža SpaceXAI-a povezivala je vojnike na bojištu, omogućavala upravljanje dronovima, koordinaciju topništva i medicinskih evakuacija te održavala komunikaciju ondje gdje je druga infrastruktura bi",
       "link": "https://www.tportal.hr/tehno/clanak/kina-i-rusija-tajno-planirale-kako-srusiti-starlink-procurili-dokumenti-o-tajnom-vojnom-savezu-20260713",
@@ -267,7 +639,7 @@
       "image": "https://www.tportal.hr/media/thumbnail/500x300/2736139.jpeg?cropId=4111702"
     },
     {
-      "id": "techcrunch-ai-2",
+      "id": "techcrunch-ai-7",
       "title": "Should AI help you get away with killing your spouse?",
       "summary": "What does a world of total user-aligned AI actually look like?",
       "link": "https://techcrunch.com/2026/07/13/should-ai-help-you-get-away-with-killing-your-spouse/",
@@ -291,7 +663,7 @@
       "image": "https://media.thenextweb.com/2026/07/Arthur-Mensch.avif"
     },
     {
-      "id": "bug.hr-4",
+      "id": "bug.hr-12",
       "title": "HONOR Magic V6 - Tanka knjiga rekorda",
       "summary": "HONOR Magic V6 dolazi s rekordnom \"tanjinom\" od 4,0 mm u otvorenom položaju, baterijom od 6.660 mAh te IP68 i IP69 certifikatima koji ga čine otpornim za svakodnevne izazove...",
       "link": "https://www.bug.hr/recenzije/honor-magic-v6-tanka-knjiga-rekorda-61380",
@@ -327,7 +699,7 @@
       "image": "https://images.ctfassets.net/jdtwqhzvc2n1/2mh30Nqtt7uW4PBRmMyA01/117641a26656420dad770ac3b0e0eb14/model_routing.jpg?w=300&q=30"
     },
     {
-      "id": "bug.hr-5",
+      "id": "bug.hr-13",
       "title": "Jedine dvije stvari koje trebaju vašem računalu - Office 2024 Pro 16,99 € i Windows 11 Pro 12,25 €",
       "summary": "Godeal24 nudi izuzetno povoljne, originalne i trajno aktivirane Windows i Office softverske pakete. Windows 11 Pro samo 12,25 €, Office 2024 Pro samo 16,99 €, Office 2021 Home and Business za Mac 44,99 €",
       "link": "https://www.bug.hr/promo/jedine-dvije-stvari-koje-trebaju-vasem-racunalu-office-2024-pro-1699--i-61330",
@@ -351,7 +723,7 @@
       "image": "https://media.thenextweb.com/2026/07/RAM-Memory.avif"
     },
     {
-      "id": "techcrunch-ai-3",
+      "id": "techcrunch-ai-8",
       "title": "Anthropic starts localizing Claude pricing for India, its biggest market after the US",
       "summary": "Claude users in India are starting to see Indian rupee-denominated subscription plans.",
       "link": "https://techcrunch.com/2026/07/13/anthropic-starts-localizing-claude-pricing-for-india-its-biggest-market-after-the-us/",
@@ -363,7 +735,7 @@
       "image": null
     },
     {
-      "id": "zdnet-2",
+      "id": "zdnet-3",
       "title": "How I tag my files to avoid endless searching and disorganized folders",
       "summary": "File managers are often overlooked as one of the most important tools in an operating system. Try this and see if you don't agree!",
       "link": "https://www.zdnet.com/article/tag-files-to-avoid-endless-searching-disorganized-folders/",
@@ -387,7 +759,7 @@
       "image": "https://media.thenextweb.com/2026/07/stressed-worker-desk.avif"
     },
     {
-      "id": "bug.hr-6",
+      "id": "bug.hr-14",
       "title": "EU planira djeci i zakonski ograničiti pristup društvenim mrežama",
       "summary": "Predsjednica Europske komisije Ursula von der Leyen primila je izvješće Posebnog panela o online sigurnosti djece te najavila zakonodavne prijedloge za uvođenje dobnih ograničenja i zaštitu mladih",
       "link": "https://www.bug.hr/propisi/eu-planira-djeci-i-zakonski-ograniciti-pristup-drustvenim-mrezama-61375",
@@ -399,7 +771,7 @@
       "image": "https://www.bug.hr/img/eu-planira-djeci-i-zakonski-ograniciti-pristup-drustvenim-mrezama_BPrdse.jpg"
     },
     {
-      "id": "tportal-1",
+      "id": "tportal-4",
       "title": "Svjetske isporuke mobitela oštro pale: Za sve je kriva umjetna inteligencija",
       "summary": "Svjetske isporuke mobitela oštro su pale u drugom tromjesečju, uz više cijene katapultirane poskupljenjem čipova zbog vala narudžbi za umjetnu inteligenciju, pokazale su preliminarne procjene savjetodavne kompanije Counterpoint Research",
       "link": "https://www.tportal.hr/tehno/clanak/svjetske-isporuke-mobitela-ostro-pale-za-sve-je-kriva-umjetna-inteligencija-20260713",
@@ -423,7 +795,7 @@
       "image": "https://media.thenextweb.com/2026/07/Australian-Parliament-House.avif"
     },
     {
-      "id": "ars-technica-0",
+      "id": "ars-technica-1",
       "title": "Now, defenders are embracing the prompt injection, too",
       "summary": "\"Context bombing\" tricks hacking agents into shutting down before they can do harm.",
       "link": "https://arstechnica.com/security/2026/07/now-defenders-are-embracing-the-prompt-injection-too/",
@@ -435,7 +807,7 @@
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/07/ai-agent-robot-guardrail-1152x648.jpg"
     },
     {
-      "id": "bug.hr-7",
+      "id": "bug.hr-15",
       "title": "Dinamov lov na Ligu prvaka dostupan svima, evo gdje možete gledati prijenos",
       "summary": "Hrvatski prvak GNK Dinamo europski put započinje u drugom pretkolu Lige prvaka protiv švicarskog prvaka FC Thuna. Utakmice će se, za razliku od prošlih sezona, prenositi na nacionalnoj televiziji i biti dostupne svim gledateljima",
       "link": "https://magnet.bug.hr/televizija/dinamov-lov-na-ligu-prvaka-dostupan-svima-evo-gdje-mozete-gledati-prijenos-61382",
@@ -483,7 +855,7 @@
       "image": "https://www.netokracija.com/wp-content/uploads/2026/07/netokracija-podcast-fonoa-300x180.png"
     },
     {
-      "id": "zdnet-3",
+      "id": "zdnet-4",
       "title": "The best all-in-one computers of 2026: Expert tested and reviewed",
       "summary": "We tested the best all-in-one computers that combine the power of a desktop PC with a slim, lightweight design.",
       "link": "https://www.zdnet.com/article/best-all-in-one-computer/",
@@ -507,7 +879,7 @@
       "image": null
     },
     {
-      "id": "zdnet-4",
+      "id": "zdnet-5",
       "title": "I tested Alienware's new budget gaming laptop, but these 3 might be smarter buys",
       "summary": "The Alienware 15 sets out to balance affordability and performance, but whether it succeeds depends on personal preferences.",
       "link": "https://www.zdnet.com/article/alienware-15-review/",
@@ -531,7 +903,7 @@
       "image": "https://media.thenextweb.com/2026/04/Meta.avif"
     },
     {
-      "id": "techcrunch-ai-4",
+      "id": "techcrunch-ai-9",
       "title": "Waze adds new AI-powered features and customization updates",
       "summary": "Some of the new features are powered by Google's Gemini AI assistant, which reflects the tech giant's broader push to integrate Gemini across its products while also better positioning Waze to compete with rival services such as Apple Maps.",
       "link": "https://techcrunch.com/2026/07/13/waze-adds-new-ai-powered-features-and-customization-updates/",
@@ -543,7 +915,7 @@
       "image": null
     },
     {
-      "id": "bug.hr-8",
+      "id": "bug.hr-16",
       "title": "Od utorka poskupljuje dizel",
       "summary": "Nove cijene goriva ovoga utorka donose promjene za vozače dizela, koji će litru plaćati pet centi više nego protekla dva tjedna",
       "link": "https://autonet.bug.hr/transport/od-utorka-poskupljuje-dizel-61378",
@@ -567,7 +939,7 @@
       "image": "https://media.thenextweb.com/2026/05/openai-apple-partnership-legal-fight-siri-chatgpt.avif"
     },
     {
-      "id": "bug.hr-9",
+      "id": "bug.hr-17",
       "title": "Kako je Appleov otkazani projekt rodio Neural Engine",
       "summary": "Bloomberg piše da je otkazani Appleov auto ostavio nasljeđe te mu pripisuje temelje današnje tvrtkine hardverske strategije za umjetnu inteligenciju",
       "link": "https://www.bug.hr/procesori/kako-je-appleov-otkazani-projekt-rodio-neural-engine-61358",
@@ -615,7 +987,7 @@
       "image": "https://images.ctfassets.net/jdtwqhzvc2n1/dIQcSeSRhbDxj2aciSnha/82de3e1c0e427d81134cbf5ff3516b5c/u7277289442_A_modern_interpretation_of_cybersecurity._3D._--a_48e0894a-799a-4645-9c75-f18358f3b4bf_1.png?w=300&q=30"
     },
     {
-      "id": "bug.hr-10",
+      "id": "bug.hr-18",
       "title": "Ford uveo opciju daljinskog blokiranja vozila u slučaju krađe – ali uz pretplatu",
       "summary": "Američki proizvođač Ford predstavio je sustav \"Start Inhibit\" koji vlasnicima i policiji omogućuje daljinsko onemogućavanje pokretanja motora, no usluga će se nakon prve godine naplaćivati",
       "link": "https://autonet.bug.hr/auto-tehnika/ford-uveo-opciju-daljinskog-blokiranja-vozila-u-slucaju-kradje--ali-uz-pretplatu-61366",
@@ -627,7 +999,7 @@
       "image": "https://autonet.bug.hr/img/ford-uveo-opciju-daljinskog-blokiranja-vozila-u-slucaju-kradje--ali-uz-pretplatu_tCD58D.jpg"
     },
     {
-      "id": "bug.hr-11",
+      "id": "bug.hr-19",
       "title": "Gigabyte demonstrirao AI TOP ATOM klaster s četiri čvora za znanstveno računarstvo",
       "summary": "U suradnji s Nvidijom, Gigabyte je prikazao kako se četveročvorni AI TOP ATOM klaster može koristiti za izvođenje složenijih znanstvenih simulacija i AI zadataka",
       "link": "https://www.bug.hr/hardver/gigabyte-demonstrirao-ai-top-atom-klaster-s-cetiri-cvora-za-znanstveno-61374",
@@ -639,7 +1011,7 @@
       "image": "https://www.bug.hr/img/gigabyte-demonstrirao-ai-top-atom-klaster-s-cetiri-cvora-za-znanstveno_2I6e0m.jpg"
     },
     {
-      "id": "zdnet-5",
+      "id": "zdnet-6",
       "title": "I loved ChatGPT Desktop until OpenAI gutted it to make room for Codex and Work",
       "summary": "OpenAI just merged the ChatGPT desktop app with Codex - and removed my favorite productivity features. What were they thinking?",
       "link": "https://www.zdnet.com/article/openai-gutted-chatgpt-desktop-app-for-codex-work/",
@@ -699,7 +1071,7 @@
       "image": "https://media.thenextweb.com/2026/07/yann-lecun-new-vc-firm.avif"
     },
     {
-      "id": "tportal-2",
+      "id": "tportal-5",
       "title": "Altman i Musk se opet prepucavaju po X-u",
       "summary": "Novi javni sukob dvojice tehnoloških milijardera dodatno se rasplamsao nakon što je Apple tužio OpenAI zbog navodne krađe poslovnih tajni. Elon Musk iskoristio je priliku za novi napad na Sama Altmana, koji mu nije ostao dužan",
       "link": "https://www.tportal.hr/tehno/clanak/altman-i-musk-se-opet-prepucavaju-po-x-u-20260713",
@@ -759,7 +1131,7 @@
       "image": "https://www.bug.hr/img/korisnici-samsung-healtha-moraju-pristati-na-koristenje-podataka-za-ai-ili_FSzXeA.jpg"
     },
     {
-      "id": "tportal-3",
+      "id": "tportal-6",
       "title": "Znanstvenici pronašli prastari ljudski DNK sačuvan na zidovima špilja",
       "summary": "Istraživanje je provedeno u jedanaest špilja na području Španjolske i Portugala, a tamošnji genetski tragovi otkriveni su na posve neočekivanim mjestima",
       "link": "https://www.tportal.hr/tehno/clanak/znanstvenici-pronasli-prastari-ljudski-dnk-sacuvan-na-zidovima-spilja-20260713",
@@ -783,7 +1155,7 @@
       "image": "https://media.thenextweb.com/2026/07/innovative-calorie-tracking-apps-2026.avif"
     },
     {
-      "id": "tportal-4",
+      "id": "tportal-7",
       "title": "Rani znakovi napada na vaš uređaj mogu biti suptilni. Pogledajte kako ih prepoznati",
       "summary": "Naizgled mali problemi mogu brzo prerasti u puno veće, pa biste trebali odmah djelovati kako biste spriječili ozbiljne posljedice",
       "link": "https://www.tportal.hr/tehno/clanak/rani-znakovi-napada-na-vas-uredaj-mogu-biti-suptilni-pogledajte-kako-ih-prepoznati-20260713",
@@ -795,7 +1167,7 @@
       "image": "https://www.tportal.hr/media/thumbnail/500x300/2762647.jpeg?cropId=0"
     },
     {
-      "id": "tportal-5",
+      "id": "tportal-8",
       "title": "EU želi djeci mlađoj od 13 godina zabraniti društvene mreže",
       "summary": "Stručni panel Europske unije preporučio je ograničiti pristup društvenim mrežama djeci mlađoj od 13 godina u cijeloj Uniji, govoreći da bi korištenje trebalo biti dopušteno samo pod nadzorom roditelja ili u obrazovne svrhe",
       "link": "https://www.tportal.hr/tehno/clanak/eu-zeli-djeci-mladoj-od-13-godina-zabraniti-drustvene-mreze-20260713",
@@ -831,7 +1203,7 @@
       "image": null
     },
     {
-      "id": "tportal-6",
+      "id": "tportal-9",
       "title": "Na krilima AI-a: TSMC-u skočili prihodi",
       "summary": "Tajvanski proizvođač čipova TSMC izvijestio je u ponedjeljak da mu je prihod poskočio i u prvoj polovini godine, oslonjen na val potražnje koji je pokrenula raširena upotreba umjetne inteligencije",
       "link": "https://www.tportal.hr/tehno/clanak/na-krilima-ai-a-tsmc-u-skocili-prihodi-20260713",
@@ -891,7 +1263,7 @@
       "image": "https://media.thenextweb.com/2023/09/Untitled-design-1-2.avif"
     },
     {
-      "id": "tportal-7",
+      "id": "tportal-10",
       "title": "EU na prekretnici: Hoće li djeci zabraniti društvene mreže?",
       "summary": "Treba li djeci zabraniti pristup svim društvenim mrežama ili ne? To je veliko pitanje pred Europskom unijom koja nastoji zaštititi maloljetnike od štetnog sadržaja",
       "link": "https://www.tportal.hr/tehno/clanak/eu-na-prekretnici-hoce-li-djeci-zabraniti-drustvene-mreze-20260713",
@@ -915,7 +1287,7 @@
       "image": null
     },
     {
-      "id": "tportal-8",
+      "id": "tportal-11",
       "title": "Milijuni ga igraju još i danas: Pokemon Go slavi 10. rođendan",
       "summary": "Bez obzirom na skandale vezane uz aplikaciju, popularna igra u kojoj se igrači šeću pravim svijetom kako bi lovili virtualna čudovišta nastavlja privlačiti nove fanove",
       "link": "https://www.tportal.hr/tehno/clanak/milijuni-ga-igraju-jos-i-danas-pokemon-go-slavi-10-rodendan-20260713",
@@ -975,7 +1347,7 @@
       "image": "https://media.thenextweb.com/2026/07/chief-executive-K-Krithivasan.avif"
     },
     {
-      "id": "tportal-9",
+      "id": "tportal-12",
       "title": "Gotovo pola objava na Linkedinu napisali su botovi",
       "summary": "Izgleda da velik broj računa na društvenoj mreži za poslovnjake inspiraciju za udarne objave traži putem AI promptova",
       "link": "https://www.tportal.hr/tehno/clanak/gotovo-pola-objava-na-linkedinu-napisali-su-botovi-20260713",
@@ -1023,7 +1395,7 @@
       "image": "https://mreza.bug.hr/img/hrvatska-kroz-infobip-sudjeluje-u-razvoju-europske-ai-i-cloud-infrastrukture_rPfmMQ.jpg"
     },
     {
-      "id": "tportal-10",
+      "id": "tportal-13",
       "title": "OpenAI odustaje od vlastitog web preglednika. Evo čime će ga zamijeniti",
       "summary": "Kompanija je uzela neke od značajki agentskog pregledavanja testirane u Atlasu te ih prebacila u ChatGPT-jevu desktop aplikaciju i proširenje za Google Chrome",
       "link": "https://www.tportal.hr/tehno/clanak/openai-odustaje-od-vlastitog-web-preglednika-evo-cime-ce-ga-zamijeniti-20260713",
@@ -1059,7 +1431,7 @@
       "image": "https://images.ctfassets.net/jdtwqhzvc2n1/7JJlisjb2BGkLhYAqBYnld/d8e79d3ce1737ec2cfba1ed60f5f13e8/AdobeStock_677829840.jpeg?w=300&q=30"
     },
     {
-      "id": "tportal-11",
+      "id": "tportal-14",
       "title": "Više nije bitno brišete li kolačiće: Novi načini praćenja online puno su perfidniji",
       "summary": "Industrija je izgradila nešto daleko upornije i nevidljivije, protiv čega se mnogo teže boriti. Rezultat je ekosustav praćenja bez kolačića koji ne pohranjuje ništa na vaš uređaj",
       "link": "https://www.tportal.hr/tehno/clanak/vise-nije-bitno-brisete-li-kolacice-novi-nacini-pracenja-online-puno-su-perfidniji-20260713",
@@ -1071,7 +1443,7 @@
       "image": "https://www.tportal.hr/media/thumbnail/500x300/2763325.jpeg?cropId=0"
     },
     {
-      "id": "tportal-12",
+      "id": "tportal-15",
       "title": "Nova saznanja o hobotnicama dovode u pitanje dosadašnje shvaćanje razvoja inteligencije",
       "summary": "Nedavna studija obuhvatila je velik broj vrsta glavonožaca te je u pitanje dovela pretpostavke o evoluciji i temeljima za razvoj inteligencije kakvu poznajemo",
       "link": "https://www.tportal.hr/tehno/clanak/nova-studija-o-hobotnicama-dovodi-u-pitanje-dosadasnje-shvacanje-razvoja-inteligencije-20260710",
@@ -1093,114 +1465,6 @@
       "xml_category": "biznis",
       "tags": [],
       "image": "https://www.bug.hr/img/google-amazon-meta-microsoft-i-oracle-zaduzili-se-za-350-milijardi-dolara_960auD.jpg"
-    },
-    {
-      "id": "bug.hr-18",
-      "title": "Najnoviji Disneyjev hit Vaiana, u Europi ima novo ime zbog robnog žiga",
-      "summary": "Film spaja stvarne glumce s nekim od najnaprednijih tehnologija simulacije vode i robotske protetike koje su trenutačno dostupne u kinematografiji. Disneyjevi inženjeri iz filmskih 3D modela izgradili autonomne vodene robote",
-      "link": "https://magnet.bug.hr/film/najnoviji-disneyjev-hit-vaiana-u-europi-ima-novo-ime-zbog-robnog-ziga-61356",
-      "published": "2026-07-13T05:00:00.000Z",
-      "source": "Bug.hr",
-      "category": "ai",
-      "xml_category": "film",
-      "tags": [],
-      "image": "https://magnet.bug.hr/img/najnoviji-disneyjev-hit-vaiana-u-europi-ima-novo-ime-zbog-robnog-ziga_JZQRAJ.jpg"
-    },
-    {
-      "id": "bug.hr-19",
-      "title": "Kako bi Messi kodirao? Sigurno ne vibe coding",
-      "summary": "Nogomentni genijalac koji šeta čak 63% vremena na terenu dok svi oko njega sprintaju, savršena je metafora za ono što se trenutno događa u razvoju softvera, posebice vibe kodiranja",
-      "link": "https://www.bug.hr/developeri/kako-bi-messi-kodirao-sigurno-ne-vibe-coding-61355",
-      "published": "2026-07-13T04:30:00.000Z",
-      "source": "Bug.hr",
-      "category": "general",
-      "xml_category": "developeri",
-      "tags": [],
-      "image": "https://www.bug.hr/img/kako-bi-messi-kodirao-sigurno-ne-vibe-coding_qVHK7_.jpeg"
-    },
-    {
-      "id": "bug.hr-19",
-      "title": "Umjetna inteligencija i cjepiva: dvije omiljene internetske glavobolje u jednoj ampuli",
-      "summary": "AI-dizajnirano cjepivo protiv više sojeva koronavirusa prošlo je prvo ispitivanje na ljudima, što je korak prema ideji da se većina varijanti tih virusa može preduhitriti prije nego izazovu nove epidemije",
-      "link": "https://www.bug.hr/znanost/umjetna-inteligencija-i-cjepiva-dvije-omiljene-internetske-glavobolje-u-jednoj-61083",
-      "published": "2026-07-13T04:30:00.000Z",
-      "source": "Bug.hr",
-      "category": "general",
-      "xml_category": "znanost",
-      "tags": [],
-      "image": "https://www.bug.hr/img/umjetna-inteligencija-i-cjepiva-dvije-omiljene-internetske-glavobolje-u-jednoj_5xFtUc.jpg"
-    },
-    {
-      "id": "bug.hr-18",
-      "title": "Hisense 65UR9S sada je na akciji, a uz kupnju dolazi i zvučnik Party Rocket 160",
-      "summary": "U ponudi Harvey Normana pronašli smo Hisense 65UR9S, 65-inčni MiniLED televizor uz čiju kupnju do kraja mjeseca dobivate i party zvučnik",
-      "link": "https://www.bug.hr/it-retail/hisense-65ur9s-sada-je-na-akciji-a-uz-kupnju-dolazi-i-zvucnik-party-rocket-160-61331",
-      "published": "2026-07-13T04:30:00.000Z",
-      "source": "Bug.hr",
-      "category": "space",
-      "xml_category": "maloprodajna ponuda",
-      "tags": [],
-      "image": "https://www.bug.hr/img/hisense-65ur9s-sada-je-na-akciji-a-uz-kupnju-dolazi-i-zvucnik-party-rocket-160_IgD3yN.png"
-    },
-    {
-      "id": "bug.hr-19",
-      "title": "Sonyjev debakl s PlayStation diskovima podsjeća na Sonosovu kalvariju",
-      "summary": "Sonyjeva odluka o ukidanju fizičkih izdanja igara izazvala je popriličan bijes milijuna igrača. Suočeni s bojkotom, peticijama i tužbama, hoće li tehnološki div priznati pogrešku ili riskirati trajnu štetu u odnosu sa svojom zajednicom?",
-      "link": "https://www.bug.hr/igrace-konzole/sonyjev-debakl-s-playstation-diskovima-podsjeca-na-sonosovu-kalvariju-61359",
-      "published": "2026-07-13T04:30:00.000Z",
-      "source": "Bug.hr",
-      "category": "general",
-      "xml_category": "igraće konzole",
-      "tags": [],
-      "image": "https://www.bug.hr/img/sonyjev-debakl-s-playstation-diskovima-podsjeca-na-sonosovu-kalvariju_Vya8vD.jpg"
-    },
-    {
-      "id": "bug.hr-18",
-      "title": "Bluetooth Brain - automatski podešava glasnoću ovisno o spojenom uređaju",
-      "summary": "Bluetooth Brain je usko specijalizirana aplikacija koja je u stanu napraviti profile za uređaje spojene putem Bluetootha, a sve kako bi zapamtila postavljenu glasnoću telefona i potom je automatski podesila ovisno o tome koji se uređaj spoji…",
-      "link": "https://www.bug.hr/appdana/bluetooth-brain-automatski-podesava-glasnocu-ovisno-o-spojenom-uredjaju-61303",
-      "published": "2026-07-13T04:30:00.000Z",
-      "source": "Bug.hr",
-      "category": "ai",
-      "xml_category": "app dana",
-      "tags": [],
-      "image": "https://www.bug.hr/img/bluetooth-brain-automatski-podesava-glasnocu-ovisno-o-spojenom-uredjaju_2Xx537.jpg"
-    },
-    {
-      "id": "bug.hr-19",
-      "title": "Kineske marke dominiraju globalnim tržištem električnih vozila",
-      "summary": "Kineski proizvođači dodatno su učvrstili dominaciju na globalnom tržištu električnih vozila",
-      "link": "https://mreza.bug.hr/biznis/kineske-marke-dominiraju-globalnim-trzistem-elektricnih-vozila-61245",
-      "published": "2026-07-12T23:22:00.000Z",
-      "source": "Bug.hr",
-      "category": "general",
-      "xml_category": "biznis",
-      "tags": [],
-      "image": "https://mreza.bug.hr/img/kineske-marke-dominiraju-globalnim-trzistem-elektricnih-vozila_w35A7o.jpg"
-    },
-    {
-      "id": "bug.hr-19",
-      "title": "Pentagon kupio 2000 ukrajinskih jurišnih dronova u povijesnom vojnom transferu",
-      "summary": "Pentagon je zaprimio isporuku od 2000 ukrajinskih jurišnih dronova F10, označavajući povijesni izvoz za Ukrajinu i strateški zaokret u američkoj vojnoj nabavi prema borbeno dokazanim sustavima",
-      "link": "https://www.bug.hr/dronovi/pentagon-kupio-2000-ukrajinskih-jurisnih-dronova-u-povijesnom-vojnom-transferu-61354",
-      "published": "2026-07-12T20:45:00.000Z",
-      "source": "Bug.hr",
-      "category": "general",
-      "xml_category": "dronovi",
-      "tags": [],
-      "image": "https://www.bug.hr/img/pentagon-kupio-2000-ukrajinskih-jurisnih-dronova-u-povijesnom-vojnom-transferu_YZkCIV.jpg"
-    },
-    {
-      "id": "the-verge-8",
-      "title": "Lorde says Ray-Ban Meta AI glasses are ‘not sexy’",
-      "summary": "Lorde was performing at the Mad Cool Festival in Madrid on Thursday and took some time during her set to speak out against AI glasses. While she didn't specify any brands in particular, it's likely she was taking a shot at festival sponsor Ray-Ban, which has collaborated with Meta on a pair of AI sm",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/964539/lorde-says-ray-ban-meta-ai-glasses-are-not-sexy",
-      "published": "2026-07-12T20:10:19.000Z",
-      "source": "The Verge",
-      "category": "ai",
-      "xml_category": "[object object]",
-      "tags": [],
-      "image": null
     }
   ]
 }
