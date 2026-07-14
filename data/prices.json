@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-13T08:12:37.064Z",
+  "last_updated": "2026-07-14T05:01:47.020Z",
   "stores": [
     "Lidl",
     "Konzum",
@@ -13,6 +13,16 @@
       "group": "hrana",
       "items": {
         "Lidl": [
+          {
+            "name": "VINDIJA Puding 125 g",
+            "store": "Lidl",
+            "price": 0.49,
+            "price_str": "0,49 €",
+            "discount": 24,
+            "valid": "do 19.07",
+            "url": "https://najcijena.hr/akcija/vindija-puding-125-g-418775",
+            "image": null
+          },
           {
             "name": "Milbona Fruit King 6 x 50 g",
             "store": "Lidl",
@@ -34,13 +44,43 @@
             "image": null
           },
           {
-            "name": "Meggle Mozzarella 125 g",
+            "name": "PILOS Tekući jogurt 1 kg",
             "store": "Lidl",
-            "price": 1.35,
-            "price_str": "1,35 €",
-            "discount": null,
+            "price": 1.39,
+            "price_str": "1,39 €",
+            "discount": 30,
             "valid": "15.07 do 19.07",
-            "url": "https://najcijena.hr/akcija/meggle-mozzarella-125-g-418747",
+            "url": "https://najcijena.hr/akcija/pilos-tekuci-jogurt-1-418716",
+            "image": null
+          },
+          {
+            "name": "RAMA Margarin 400 g",
+            "store": "Lidl",
+            "price": 1.49,
+            "price_str": "1,49 €",
+            "discount": null,
+            "valid": "do 19.07",
+            "url": "https://najcijena.hr/akcija/rama-margarin-400-g-418733",
+            "image": null
+          },
+          {
+            "name": "Milbona Meki kravlji sir 250 g",
+            "store": "Lidl",
+            "price": 1.59,
+            "price_str": "1,59 €",
+            "discount": 30,
+            "valid": "15.07 do 19.07",
+            "url": "https://najcijena.hr/akcija/milbona-meki-kravlji-sir-418745",
+            "image": null
+          },
+          {
+            "name": "ŽITO Svježa jaja iz podnog uzgoja 10 kom",
+            "store": "Lidl",
+            "price": 1.59,
+            "price_str": "1,59 €",
+            "discount": null,
+            "valid": "do 19.07",
+            "url": "https://najcijena.hr/akcija/zito-svjeza-jaja-iz-418736",
             "image": null
           },
           {
@@ -54,13 +94,23 @@
             "image": null
           },
           {
-            "name": "Divan Garden Danish White 800 g",
+            "name": "Deluxe Feta sir u salamuri 200 g",
             "store": "Lidl",
-            "price": 3.95,
-            "price_str": "3,95 €",
+            "price": 2.29,
+            "price_str": "2,29 €",
             "discount": null,
-            "valid": "17.07 do 19.07",
-            "url": "https://najcijena.hr/akcija/divan-garden-danish-white-418831",
+            "valid": "do 19.07",
+            "url": "https://najcijena.hr/akcija/deluxe-feta-sir-u-418897",
+            "image": null
+          },
+          {
+            "name": "Dukat Bobbastic 300 g",
+            "store": "Lidl",
+            "price": 2.49,
+            "price_str": "2,49 €",
+            "discount": null,
+            "valid": "15.07 do 19.07",
+            "url": "https://najcijena.hr/akcija/dukat-bobbastic-300-g-418782",
             "image": null
           },
           {
@@ -86,27 +136,197 @@
         ],
         "Konzum": [
           {
-            "name": "K Plus Grana Padano sir 200g",
+            "name": "Jogobella Voćni jogurt 150g",
+            "store": "Konzum",
+            "price": 0.49,
+            "price_str": "0,49 €",
+            "discount": null,
+            "valid": "15.07 do 21.07",
+            "url": "https://najcijena.hr/akcija/jogobella-vocni-jogurt-150g-422265",
+            "image": null
+          },
+          {
+            "name": "K Plus Kiselo vrhnje 180g",
+            "store": "Konzum",
+            "price": 0.49,
+            "price_str": "0,49 €",
+            "discount": null,
+            "valid": "15.07 do 21.07",
+            "url": "https://najcijena.hr/akcija/k-plus-kiselo-vrhnje-422257",
+            "image": null
+          },
+          {
+            "name": "K Plus Mozzarella sir 100g",
+            "store": "Konzum",
+            "price": 0.99,
+            "price_str": "0,99 €",
+            "discount": null,
+            "valid": "15.07 do 21.07",
+            "url": "https://najcijena.hr/akcija/k-plus-mozzarella-sir-422248",
+            "image": null
+          },
+          {
+            "name": "K Plus Gauda, Edamer sir 100g",
+            "store": "Konzum",
+            "price": 0.99,
+            "price_str": "0,99 €",
+            "discount": null,
+            "valid": "15.07 do 21.07",
+            "url": "https://najcijena.hr/akcija/k-plus-gauda-edamer-422274",
+            "image": null
+          },
+          {
+            "name": "K Plus Kefir 1kg",
+            "store": "Konzum",
+            "price": 1.29,
+            "price_str": "1,29 €",
+            "discount": 21,
+            "valid": "15.07 do 21.07",
+            "url": "https://najcijena.hr/akcija/k-plus-kefir-1kg-422264",
+            "image": null
+          },
+          {
+            "name": "B'Aktiv Jogurt 330g",
+            "store": "Konzum",
+            "price": 1.29,
+            "price_str": "1,29 €",
+            "discount": null,
+            "valid": "15.07 do 21.07",
+            "url": "https://najcijena.hr/akcija/baktiv-jogurt-330g-422261",
+            "image": null
+          },
+          {
+            "name": "Omegol Namaz 225g",
+            "store": "Konzum",
+            "price": 1.29,
+            "price_str": "1,29 €",
+            "discount": 35,
+            "valid": "15.07 do 21.07",
+            "url": "https://najcijena.hr/akcija/omegol-namaz-225g-422258",
+            "image": null
+          },
+          {
+            "name": "Active Zone Svježi posni sir 500g",
+            "store": "Konzum",
+            "price": 1.39,
+            "price_str": "1,39 €",
+            "discount": null,
+            "valid": "15.07 do 21.07",
+            "url": "https://najcijena.hr/akcija/active-zone-svjezi-posni-422249",
+            "image": null
+          },
+          {
+            "name": "K Plus Jaja 10/1",
+            "store": "Konzum",
+            "price": 1.89,
+            "price_str": "1,89 €",
+            "discount": 22,
+            "valid": "15.07 do 21.07",
+            "url": "https://najcijena.hr/akcija/k-plus-jaja-101-422113",
+            "image": null
+          },
+          {
+            "name": "Kravica Kraljica Tekući jogurt 1kg",
+            "store": "Konzum",
+            "price": 1.89,
+            "price_str": "1,89 €",
+            "discount": 13,
+            "valid": "15.07 do 21.07",
+            "url": "https://najcijena.hr/akcija/kravica-kraljica-tekuci-jogurt-422253",
+            "image": null
+          },
+          {
+            "name": "Monte Desert 4x100g",
+            "store": "Konzum",
+            "price": 2.09,
+            "price_str": "2,09 €",
+            "discount": null,
+            "valid": "15.07 do 21.07",
+            "url": "https://najcijena.hr/akcija/monte-desert-4x100g-422262",
+            "image": null
+          },
+          {
+            "name": "Kinder Milch-Schnitte Desert 5/1, 140g",
+            "store": "Konzum",
+            "price": 2.89,
+            "price_str": "2,89 €",
+            "discount": null,
+            "valid": "15.07 do 21.07",
+            "url": "https://najcijena.hr/akcija/kinder-milchschnitte-desert-51-422260",
+            "image": null
+          },
+          {
+            "name": "President kajmak 250g",
             "store": "Konzum",
             "price": 3.99,
             "price_str": "3,99 €",
             "discount": null,
-            "valid": "do 14.07",
-            "url": "https://najcijena.hr/akcija/k-plus-grana-padano-416430",
+            "valid": "15.07 do 21.07",
+            "url": "https://najcijena.hr/akcija/president-kajmak-250g-422146",
+            "image": null
+          },
+          {
+            "name": "Yamas Grčki jogurt 1kg",
+            "store": "Konzum",
+            "price": 4.99,
+            "price_str": "4,99 €",
+            "discount": null,
+            "valid": "17.07 do 19.07",
+            "url": "https://najcijena.hr/akcija/yamas-grcki-jogurt-1kg-422406",
+            "image": null
+          },
+          {
+            "name": "Gouda sir 1kg",
+            "store": "Konzum",
+            "price": 4.99,
+            "price_str": "4,99 €",
+            "discount": null,
+            "valid": "15.07 do 21.07",
+            "url": "https://najcijena.hr/akcija/gouda-sir-1kg-422269",
+            "image": null
+          },
+          {
+            "name": "K Plus Emmentaler sir 1kg",
+            "store": "Konzum",
+            "price": 6.99,
+            "price_str": "6,99 €",
+            "discount": null,
+            "valid": "15.07 do 21.07",
+            "url": "https://najcijena.hr/akcija/k-plus-emmentaler-sir-422277",
+            "image": null
+          },
+          {
+            "name": "Dukat Lagano jutro mlijeko 6x1l",
+            "store": "Konzum",
+            "price": 8.49,
+            "price_str": "8,49 €",
+            "discount": null,
+            "valid": "20.07 do 22.07",
+            "url": "https://najcijena.hr/akcija/dukat-lagano-jutro-mlijeko-422412",
+            "image": null
+          },
+          {
+            "name": "Džiugas sir 1kg",
+            "store": "Konzum",
+            "price": 9.99,
+            "price_str": "9,99 €",
+            "discount": null,
+            "valid": "15.07 do 21.07",
+            "url": "https://najcijena.hr/akcija/dziugas-sir-1kg-422268",
+            "image": null
+          },
+          {
+            "name": "Livanjski sir 1kg",
+            "store": "Konzum",
+            "price": 17.99,
+            "price_str": "17,99 €",
+            "discount": 25,
+            "valid": "15.07 do 21.07",
+            "url": "https://najcijena.hr/akcija/livanjski-sir-1kg-422281",
             "image": null
           }
         ],
         "Spar": [
-          {
-            "name": "Jogurt Dukatos 150 g",
-            "store": "Spar",
-            "price": 0.89,
-            "price_str": "0,89 €",
-            "discount": null,
-            "valid": "15.07 do 21.07",
-            "url": "https://najcijena.hr/akcija/jogurt-dukatos-150-g-420308",
-            "image": null
-          },
           {
             "name": "Maslac 250 g",
             "store": "Spar",
@@ -138,13 +358,13 @@
             "image": null
           },
           {
-            "name": "Svježe mlijeko 'z bregov 1.75 L",
+            "name": "SPAR Jogurt grčki tip 1 kg",
             "store": "Spar",
             "price": 1.99,
             "price_str": "1,99 €",
-            "discount": 18,
-            "valid": "15.07 do 21.07",
-            "url": "https://najcijena.hr/akcija/svjeze-mlijeko-z-bregov-420306",
+            "discount": 33,
+            "valid": "Još danas",
+            "url": "https://najcijena.hr/akcija/spar-jogurt-grcki-tip-414425",
             "image": null
           },
           {
@@ -196,16 +416,6 @@
             "valid": "15.07 do 21.07",
             "url": "https://najcijena.hr/akcija/sir-gouda-oldenburger-1-420266",
             "image": null
-          },
-          {
-            "name": "Sir Varaždinec ili Tilzit Vindija 1 kg",
-            "store": "Spar",
-            "price": 9.99,
-            "price_str": "9,99 €",
-            "discount": 20,
-            "valid": "15.07 do 21.07",
-            "url": "https://najcijena.hr/akcija/sir-varazdinec-ili-tilzit-420269",
-            "image": null
           }
         ],
         "Studenac": []
@@ -218,16 +428,6 @@
       "items": {
         "Lidl": [
           {
-            "name": "Svježi pileći batak cca 450 g - 500 g",
-            "store": "Lidl",
-            "price": 2.49,
-            "price_str": "2,49 €",
-            "discount": null,
-            "valid": "15.07 do 19.07",
-            "url": "https://najcijena.hr/akcija/svjezi-pileci-batak-cca-418720",
-            "image": null
-          },
-          {
             "name": "Svježe pureće pljeskavice sa sirom 400 g",
             "store": "Lidl",
             "price": 2.49,
@@ -238,13 +438,13 @@
             "image": null
           },
           {
-            "name": "Perutnina Ptuj Pileća posebna kobasica 1 kg",
+            "name": "Svježi pileći batak cca 450 g - 500 g",
             "store": "Lidl",
             "price": 2.49,
             "price_str": "2,49 €",
             "discount": null,
-            "valid": "17.07 do 19.07",
-            "url": "https://najcijena.hr/akcija/perutnina-ptuj-pileca-posebna-418826",
+            "valid": "15.07 do 19.07",
+            "url": "https://najcijena.hr/akcija/svjezi-pileci-batak-cca-418720",
             "image": null
           },
           {
@@ -268,16 +468,6 @@
             "image": null
           },
           {
-            "name": "Meat (R) Evolution Svježi Black Angus Prime burger 250 g",
-            "store": "Lidl",
-            "price": 3.39,
-            "price_str": "3,39 €",
-            "discount": null,
-            "valid": "15.07 do 19.07",
-            "url": "https://najcijena.hr/akcija/meat-r-evolution-svjezi-418783",
-            "image": null
-          },
-          {
             "name": "Meat (R) Evolution Svježi goveđi burger s cheddar sirom 250 g",
             "store": "Lidl",
             "price": 3.39,
@@ -285,6 +475,16 @@
             "discount": null,
             "valid": "15.07 do 19.07",
             "url": "https://najcijena.hr/akcija/meat-r-evolution-svjezi-418787",
+            "image": null
+          },
+          {
+            "name": "Meat (R) Evolution Svježi Black Angus Prime burger 250 g",
+            "store": "Lidl",
+            "price": 3.39,
+            "price_str": "3,39 €",
+            "discount": null,
+            "valid": "15.07 do 19.07",
+            "url": "https://najcijena.hr/akcija/meat-r-evolution-svjezi-418783",
             "image": null
           },
           {
@@ -308,6 +508,36 @@
             "image": null
           },
           {
+            "name": "Svježi svinjski kare cca 600 g",
+            "store": "Lidl",
+            "price": 3.99,
+            "price_str": "3,99 €",
+            "discount": null,
+            "valid": "15.07 do 19.07",
+            "url": "https://najcijena.hr/akcija/svjezi-svinjski-kare-cca-418722",
+            "image": null
+          },
+          {
+            "name": "Svježa domaća pastrva 550 g",
+            "store": "Lidl",
+            "price": 4.39,
+            "price_str": "4,39 €",
+            "discount": null,
+            "valid": "do 19.07",
+            "url": "https://najcijena.hr/akcija/svjeza-domaca-pastrva-550-418626",
+            "image": null
+          },
+          {
+            "name": "Svježi ćevapčići 1 kg",
+            "store": "Lidl",
+            "price": 5.29,
+            "price_str": "5,29 €",
+            "discount": null,
+            "valid": "do 19.07",
+            "url": "https://najcijena.hr/akcija/svjezi-cevapcici-1-kg-418614",
+            "image": null
+          },
+          {
             "name": "Svježi svinjski file cca 400 g",
             "store": "Lidl",
             "price": 5.29,
@@ -325,6 +555,16 @@
             "discount": null,
             "valid": "15.07 do 19.07",
             "url": "https://najcijena.hr/akcija/meat-r-evolution-svjezi-418785",
+            "image": null
+          },
+          {
+            "name": "Svježi filet jadranske orade 300 g",
+            "store": "Lidl",
+            "price": 8.99,
+            "price_str": "8,99 €",
+            "discount": null,
+            "valid": "17.07 do 19.07",
+            "url": "https://najcijena.hr/akcija/svjezi-filet-jadranske-orade-418821",
             "image": null
           },
           {
@@ -370,55 +610,375 @@
         ],
         "Konzum": [
           {
-            "name": "Raw-Štilj Marinirani ražnjići filea prsa 1kg",
+            "name": "Bečki odrezak kom",
             "store": "Konzum",
-            "price": 7.39,
-            "price_str": "7,39 €",
-            "discount": 14,
-            "valid": "do 14.07",
-            "url": "https://najcijena.hr/akcija/rawstilj-marinirani-raznjici-filea-416261",
+            "price": 1.69,
+            "price_str": "1,69 €",
+            "discount": null,
+            "valid": "15.07 do 21.07",
+            "url": "https://najcijena.hr/akcija/becki-odrezak-kom-422231",
             "image": null
           },
           {
-            "name": "Svježa orada 1kg",
+            "name": "K Plus Pileći batak, zabatak i dio leđa 1kg",
+            "store": "Konzum",
+            "price": 1.99,
+            "price_str": "1,99 €",
+            "discount": null,
+            "valid": "15.07 do 21.07",
+            "url": "https://najcijena.hr/akcija/k-plus-pileci-batak-422218",
+            "image": null
+          },
+          {
+            "name": "AIA Pureća krila 1kg",
+            "store": "Konzum",
+            "price": 2.39,
+            "price_str": "2,39 €",
+            "discount": null,
+            "valid": "15.07 do 21.07",
+            "url": "https://najcijena.hr/akcija/aia-pureca-krila-1kg-422220",
+            "image": null
+          },
+          {
+            "name": "Mesni uštipci pikant 300g",
+            "store": "Konzum",
+            "price": 2.59,
+            "price_str": "2,59 €",
+            "discount": null,
+            "valid": "15.07 do 21.07",
+            "url": "https://najcijena.hr/akcija/mesni-ustipci-pikant-300g-422136",
+            "image": null
+          },
+          {
+            "name": "Carsko meso",
+            "store": "Konzum",
+            "price": 2.69,
+            "price_str": "2,69 €",
+            "discount": null,
+            "valid": "15.07 do 21.07",
+            "url": "https://najcijena.hr/akcija/carsko-meso-422211",
+            "image": null
+          },
+          {
+            "name": "Svinjski but 1kg",
+            "store": "Konzum",
+            "price": 2.79,
+            "price_str": "2,79 €",
+            "discount": null,
+            "valid": "15.07 do 21.07",
+            "url": "https://najcijena.hr/akcija/svinjski-but-1kg-422112",
+            "image": null
+          },
+          {
+            "name": "Minute Chicken Nuggets 500g",
+            "store": "Konzum",
+            "price": 2.99,
+            "price_str": "2,99 €",
+            "discount": null,
+            "valid": "15.07 do 21.07",
+            "url": "https://najcijena.hr/akcija/minute-chicken-nuggets-500g-422237",
+            "image": null
+          },
+          {
+            "name": "RAW-ŠTILJ Šnicle 400g",
+            "store": "Konzum",
+            "price": 3.19,
+            "price_str": "3,19 €",
+            "discount": null,
+            "valid": "15.07 do 21.07",
+            "url": "https://najcijena.hr/akcija/rawstilj-snicle-400g-422213",
+            "image": null
+          },
+          {
+            "name": "Ave Marinirana pileća krila 500g",
+            "store": "Konzum",
+            "price": 3.49,
+            "price_str": "3,49 €",
+            "discount": null,
+            "valid": "15.07 do 21.07",
+            "url": "https://najcijena.hr/akcija/ave-marinirana-pileca-krila-422122",
+            "image": null
+          },
+          {
+            "name": "Piknik Texas krilca 500g",
+            "store": "Konzum",
+            "price": 3.49,
+            "price_str": "3,49 €",
+            "discount": null,
+            "valid": "15.07 do 21.07",
+            "url": "https://najcijena.hr/akcija/piknik-texas-krilca-500g-422121",
+            "image": null
+          },
+          {
+            "name": "Vindon Pureći batak 1kg",
+            "store": "Konzum",
+            "price": 3.89,
+            "price_str": "3,89 €",
+            "discount": null,
+            "valid": "15.07 do 21.07",
+            "url": "https://najcijena.hr/akcija/vindon-pureci-batak-1kg-422219",
+            "image": null
+          },
+          {
+            "name": "Miješano mljeveno meso 540g",
+            "store": "Konzum",
+            "price": 3.99,
+            "price_str": "3,99 €",
+            "discount": null,
+            "valid": "15.07 do 21.07",
+            "url": "https://najcijena.hr/akcija/mijesano-mljeveno-meso-540g-422214",
+            "image": null
+          },
+          {
+            "name": "Boom Burger 300g",
+            "store": "Konzum",
+            "price": 3.99,
+            "price_str": "3,99 €",
+            "discount": null,
+            "valid": "15.07 do 21.07",
+            "url": "https://najcijena.hr/akcija/boom-burger-300g-422143",
+            "image": null
+          },
+          {
+            "name": "Juneća slabina i leđa 1kg",
+            "store": "Konzum",
+            "price": 3.99,
+            "price_str": "3,99 €",
+            "discount": null,
+            "valid": "15.07 do 21.07",
+            "url": "https://najcijena.hr/akcija/juneca-slabina-i-leda-422210",
+            "image": null
+          },
+          {
+            "name": "Raw-Štilj Marinirani pileći zabatak 1kg",
+            "store": "Konzum",
+            "price": 4.09,
+            "price_str": "4,09 €",
+            "discount": 16,
+            "valid": "15.07 do 21.07",
+            "url": "https://najcijena.hr/akcija/rawstilj-marinirani-pileci-zabatak-422123",
+            "image": null
+          },
+          {
+            "name": "Pileći batak-zabatak 1kg",
+            "store": "Konzum",
+            "price": 4.49,
+            "price_str": "4,49 €",
+            "discount": 15,
+            "valid": "15.07 do 21.07",
+            "url": "https://najcijena.hr/akcija/pileci-batakzabatak-1kg-422119",
+            "image": null
+          },
+          {
+            "name": "Sočni kare u marinadi 400g",
+            "store": "Konzum",
+            "price": 4.49,
+            "price_str": "4,49 €",
+            "discount": null,
+            "valid": "15.07 do 21.07",
+            "url": "https://najcijena.hr/akcija/socni-kare-u-marinadi-422139",
+            "image": null
+          },
+          {
+            "name": "Piknik Pileći file na štapiću, Pileći ražnjići 400g",
+            "store": "Konzum",
+            "price": 4.49,
+            "price_str": "4,49 €",
+            "discount": null,
+            "valid": "15.07 do 21.07",
+            "url": "https://najcijena.hr/akcija/piknik-pileci-file-na-422118",
+            "image": null
+          },
+          {
+            "name": "AIA Pileći file 550g",
+            "store": "Konzum",
+            "price": 4.59,
+            "price_str": "4,59 €",
+            "discount": 22,
+            "valid": "15.07 do 21.07",
+            "url": "https://najcijena.hr/akcija/aia-pileci-file-550g-422120",
+            "image": null
+          },
+          {
+            "name": "Cekin Odresci pilećeg filea 400g",
+            "store": "Konzum",
+            "price": 5.15,
+            "price_str": "5,15 €",
+            "discount": 18,
+            "valid": "20.07 do 22.07",
+            "url": "https://najcijena.hr/akcija/cekin-odresci-pileceg-filea-422411",
+            "image": null
+          },
+          {
+            "name": "Cekin Pileći mini file 400g",
+            "store": "Konzum",
+            "price": 5.15,
+            "price_str": "5,15 €",
+            "discount": null,
+            "valid": "15.07 do 21.07",
+            "url": "https://najcijena.hr/akcija/cekin-pileci-mini-file-422126",
+            "image": null
+          },
+          {
+            "name": "Cekin Pileći medaljoni 400g",
+            "store": "Konzum",
+            "price": 5.15,
+            "price_str": "5,15 €",
+            "discount": null,
+            "valid": "do 15.07",
+            "url": "https://najcijena.hr/akcija/cekin-pileci-medaljoni-400g-416597",
+            "image": null
+          },
+          {
+            "name": "Raw-Štilj Svinjska marinirana rebra 1kg",
+            "store": "Konzum",
+            "price": 5.29,
+            "price_str": "5,29 €",
+            "discount": null,
+            "valid": "15.07 do 21.07",
+            "url": "https://najcijena.hr/akcija/rawstilj-svinjska-marinirana-rebra-422222",
+            "image": null
+          },
+          {
+            "name": "Pileći file rinfuza 1kg",
+            "store": "Konzum",
+            "price": 5.49,
+            "price_str": "5,49 €",
+            "discount": null,
+            "valid": "15.07 do 21.07",
+            "url": "https://najcijena.hr/akcija/pileci-file-rinfuza-1kg-422216",
+            "image": null
+          },
+          {
+            "name": "Svinjski file 1kg",
+            "store": "Konzum",
+            "price": 5.99,
+            "price_str": "5,99 €",
+            "discount": null,
+            "valid": "15.07 do 21.07",
+            "url": "https://najcijena.hr/akcija/svinjski-file-1kg-422212",
+            "image": null
+          },
+          {
+            "name": "Vindon Pureći file 750g",
+            "store": "Konzum",
+            "price": 8.79,
+            "price_str": "8,79 €",
+            "discount": null,
+            "valid": "15.07 do 21.07",
+            "url": "https://najcijena.hr/akcija/vindon-pureci-file-750g-422215",
+            "image": null
+          },
+          {
+            "name": "Juneća rebra 1kg",
             "store": "Konzum",
             "price": 8.99,
             "price_str": "8,99 €",
             "discount": null,
-            "valid": "do 14.07",
-            "url": "https://najcijena.hr/akcija/svjeza-orada-1kg-416370",
+            "valid": "15.07 do 21.07",
+            "url": "https://najcijena.hr/akcija/juneca-rebra-1kg-422207",
             "image": null
           },
           {
-            "name": "Svježi filet lososa 4x125g",
+            "name": "Kozice 1kg",
+            "store": "Konzum",
+            "price": 9.49,
+            "price_str": "9,49 €",
+            "discount": null,
+            "valid": "15.07 do 21.07",
+            "url": "https://najcijena.hr/akcija/kozice-1kg-422229",
+            "image": null
+          },
+          {
+            "name": "Svježi filet lososa Mowl 4x125g",
             "store": "Konzum",
             "price": 9.99,
             "price_str": "9,99 €",
             "discount": null,
-            "valid": "do 14.07",
-            "url": "https://najcijena.hr/akcija/svjezi-filet-lososa-4x125g-416372",
+            "valid": "15.07 do 21.07",
+            "url": "https://najcijena.hr/akcija/svjezi-filet-lososa-mowl-422228",
+            "image": null
+          },
+          {
+            "name": "Hobotnica 1kg",
+            "store": "Konzum",
+            "price": 10.99,
+            "price_str": "10,99 €",
+            "discount": 31,
+            "valid": "15.07 do 21.07",
+            "url": "https://najcijena.hr/akcija/hobotnica-1kg-422244",
+            "image": null
+          },
+          {
+            "name": "Marinirana rebra 1kg",
+            "store": "Konzum",
+            "price": 11.99,
+            "price_str": "11,99 €",
+            "discount": null,
+            "valid": "15.07 do 21.07",
+            "url": "https://najcijena.hr/akcija/marinirana-rebra-1kg-422234",
+            "image": null
+          },
+          {
+            "name": "Juneći but 1kg",
+            "store": "Konzum",
+            "price": 13.99,
+            "price_str": "13,99 €",
+            "discount": null,
+            "valid": "15.07 do 21.07",
+            "url": "https://najcijena.hr/akcija/juneci-but-1kg-422208",
+            "image": null
+          },
+          {
+            "name": "Svinjsko pečenje 1kg",
+            "store": "Konzum",
+            "price": 13.99,
+            "price_str": "13,99 €",
+            "discount": null,
+            "valid": "15.07 do 21.07",
+            "url": "https://najcijena.hr/akcija/svinjsko-pecenje-1kg-422233",
+            "image": null
+          },
+          {
+            "name": "Svježi filet lososa 1kg",
+            "store": "Konzum",
+            "price": 14.99,
+            "price_str": "14,99 €",
+            "discount": null,
+            "valid": "15.07 do 21.07",
+            "url": "https://najcijena.hr/akcija/svjezi-filet-lososa-1kg-422225",
+            "image": null
+          },
+          {
+            "name": "Filet tune 1kg",
+            "store": "Konzum",
+            "price": 14.99,
+            "price_str": "14,99 €",
+            "discount": null,
+            "valid": "15.07 do 21.07",
+            "url": "https://najcijena.hr/akcija/filet-tune-1kg-422227",
             "image": null
           }
         ],
         "Spar": [
           {
-            "name": "Svinjska leđa bez kosti 1 kg",
+            "name": "Pile Međimursko 1 kg",
             "store": "Spar",
-            "price": 2.79,
-            "price_str": "2,79 €",
+            "price": 3.18,
+            "price_str": "3,18 €",
             "discount": null,
             "valid": "15.07 do 21.07",
-            "url": "https://najcijena.hr/akcija/svinjska-leda-bez-kosti-420119",
+            "url": "https://najcijena.hr/akcija/pile-medimursko-1-kg-420220",
             "image": null
           },
           {
-            "name": "Domaća jadranska srdela 1 kg",
+            "name": "Svinjska leđa s kosti 1 kg",
             "store": "Spar",
-            "price": 2.89,
-            "price_str": "2,89 €",
+            "price": 3.59,
+            "price_str": "3,59 €",
             "discount": null,
-            "valid": "15.07 do 21.07",
-            "url": "https://najcijena.hr/akcija/domaca-jadranska-srdela-1-420235",
+            "valid": "Još danas",
+            "url": "https://najcijena.hr/akcija/svinjska-leda-s-kosti-414422",
             "image": null
           },
           {
@@ -439,16 +999,6 @@
             "discount": null,
             "valid": "15.07 do 21.07",
             "url": "https://najcijena.hr/akcija/banjalucki-cevapcici-500-g-420223",
-            "image": null
-          },
-          {
-            "name": "Miješano mljeveno meso 540 g",
-            "store": "Spar",
-            "price": 3.99,
-            "price_str": "3,99 €",
-            "discount": null,
-            "valid": "15.07 do 21.07",
-            "url": "https://najcijena.hr/akcija/mijesano-mljeveno-meso-540-420229",
             "image": null
           },
           {
@@ -479,16 +1029,6 @@
             "discount": null,
             "valid": "20.07 do 21.07",
             "url": "https://najcijena.hr/akcija/purece-mljeveno-meso-500-420483",
-            "image": null
-          },
-          {
-            "name": "Svinjski vrat marinirani 460 g",
-            "store": "Spar",
-            "price": 4.49,
-            "price_str": "4,49 €",
-            "discount": null,
-            "valid": "15.07 do 21.07",
-            "url": "https://najcijena.hr/akcija/svinjski-vrat-marinirani-460-420228",
             "image": null
           },
           {
@@ -529,16 +1069,6 @@
             "discount": null,
             "valid": "15.07 do 21.07",
             "url": "https://najcijena.hr/akcija/svjezi-ugor-cijeli-1-420233",
-            "image": null
-          },
-          {
-            "name": "Svježi ugor odrezak 1 kg",
-            "store": "Spar",
-            "price": 9.99,
-            "price_str": "9,99 €",
-            "discount": null,
-            "valid": "15.07 do 21.07",
-            "url": "https://najcijena.hr/akcija/svjezi-ugor-odrezak-1-420234",
             "image": null
           },
           {
@@ -592,6 +1122,36 @@
             "image": null
           },
           {
+            "name": "Domaća paprika babura",
+            "store": "Lidl",
+            "price": 1.39,
+            "price_str": "1,39 €",
+            "discount": null,
+            "valid": "15.07 do 19.07",
+            "url": "https://najcijena.hr/akcija/domaca-paprika-babura-418769",
+            "image": null
+          },
+          {
+            "name": "Domaća paprika rog žuta 500 g",
+            "store": "Lidl",
+            "price": 1.39,
+            "price_str": "1,39 €",
+            "discount": 30,
+            "valid": "do 19.07",
+            "url": "https://najcijena.hr/akcija/domaca-paprika-rog-zuta-418618",
+            "image": null
+          },
+          {
+            "name": "Grožđe bijelo 500 g",
+            "store": "Lidl",
+            "price": 1.39,
+            "price_str": "1,39 €",
+            "discount": null,
+            "valid": "Još danas",
+            "url": "https://najcijena.hr/akcija/grozde-bijelo-500-g-418621",
+            "image": null
+          },
+          {
             "name": "Domaća rajčica grappolo",
             "store": "Lidl",
             "price": 1.49,
@@ -599,6 +1159,16 @@
             "discount": null,
             "valid": "15.07 do 19.07",
             "url": "https://najcijena.hr/akcija/domaca-rajcica-grappolo-418771",
+            "image": null
+          },
+          {
+            "name": "Marelica",
+            "store": "Lidl",
+            "price": 1.49,
+            "price_str": "1,49 €",
+            "discount": null,
+            "valid": "Još danas",
+            "url": "https://najcijena.hr/akcija/marelica-418616",
             "image": null
           },
           {
@@ -620,37 +1190,97 @@
             "valid": "15.07 do 19.07",
             "url": "https://najcijena.hr/akcija/bio-banana-418764",
             "image": null
+          },
+          {
+            "name": "Alesto Makadamija orah 125 g",
+            "store": "Lidl",
+            "price": 2.29,
+            "price_str": "2,29 €",
+            "discount": 23,
+            "valid": "do 19.07",
+            "url": "https://najcijena.hr/akcija/alesto-makadamija-orah-125-418611",
+            "image": null
           }
         ],
         "Konzum": [
           {
-            "name": "Garden Good Datulja 200g",
+            "name": "Lubenica 1kg",
             "store": "Konzum",
-            "price": 0.79,
-            "price_str": "0,79 €",
-            "discount": 24,
-            "valid": "do 14.07",
-            "url": "https://najcijena.hr/akcija/garden-good-datulja-200g-416348",
+            "price": 0.49,
+            "price_str": "0,49 €",
+            "discount": 16,
+            "valid": "15.07 do 21.07",
+            "url": "https://najcijena.hr/akcija/lubenica-1kg-422111",
             "image": null
           },
           {
-            "name": "Kelj Mladi 1kg",
+            "name": "Kupus crveni 1kg",
+            "store": "Konzum",
+            "price": 0.69,
+            "price_str": "0,69 €",
+            "discount": 30,
+            "valid": "15.07 do 21.07",
+            "url": "https://najcijena.hr/akcija/kupus-crveni-1kg-422199",
+            "image": null
+          },
+          {
+            "name": "Cikla 1kg",
+            "store": "Konzum",
+            "price": 0.69,
+            "price_str": "0,69 €",
+            "discount": 30,
+            "valid": "15.07 do 21.07",
+            "url": "https://najcijena.hr/akcija/cikla-1kg-422200",
+            "image": null
+          },
+          {
+            "name": "Dinja 1kg",
             "store": "Konzum",
             "price": 0.79,
             "price_str": "0,79 €",
+            "discount": 11,
+            "valid": "15.07 do 21.07",
+            "url": "https://najcijena.hr/akcija/dinja-1kg-422195",
+            "image": null
+          },
+          {
+            "name": "Kukuruz mladi 2kom",
+            "store": "Konzum",
+            "price": 0.99,
+            "price_str": "0,99 €",
             "discount": null,
-            "valid": "do 14.07",
-            "url": "https://najcijena.hr/akcija/kelj-mladi-1kg-416341",
+            "valid": "15.07 do 21.07",
+            "url": "https://najcijena.hr/akcija/kukuruz-mladi-2kom-422197",
             "image": null
           },
           {
-            "name": "Nektarina 1kg",
+            "name": "Limun 500g",
             "store": "Konzum",
-            "price": 1.59,
-            "price_str": "1,59 €",
-            "discount": 20,
-            "valid": "do 14.07",
-            "url": "https://najcijena.hr/akcija/nektarina-1kg-416336",
+            "price": 1.29,
+            "price_str": "1,29 €",
+            "discount": null,
+            "valid": "15.07 do 21.07",
+            "url": "https://najcijena.hr/akcija/limun-500g-422196",
+            "image": null
+          },
+          {
+            "name": "Paprika Babura 1kg",
+            "store": "Konzum",
+            "price": 1.49,
+            "price_str": "1,49 €",
+            "discount": 11,
+            "valid": "15.07 do 21.07",
+            "url": "https://najcijena.hr/akcija/paprika-babura-1kg-422133",
+            "image": null
+          },
+          {
+            "name": "Rajčica Grapolo 1kg",
+            "store": "Konzum",
+            "price": 1.49,
+            "price_str": "1,49 €",
+            "discount": null,
+            "valid": "17.07 do 19.07",
+            "url": "https://najcijena.hr/akcija/rajcica-grapolo-1kg-422404",
             "image": null
           },
           {
@@ -659,8 +1289,78 @@
             "price": 1.59,
             "price_str": "1,59 €",
             "discount": null,
-            "valid": "do 14.07",
+            "valid": "Još danas",
             "url": "https://najcijena.hr/akcija/mahuna-zelena-500g-416337",
+            "image": null
+          },
+          {
+            "name": "Marelica 1kg",
+            "store": "Konzum",
+            "price": 1.79,
+            "price_str": "1,79 €",
+            "discount": 33,
+            "valid": "15.07 do 21.07",
+            "url": "https://najcijena.hr/akcija/marelica-1kg-422198",
+            "image": null
+          },
+          {
+            "name": "Grožđe bijelo 500g",
+            "store": "Konzum",
+            "price": 1.79,
+            "price_str": "1,79 €",
+            "discount": null,
+            "valid": "15.07 do 21.07",
+            "url": "https://najcijena.hr/akcija/grozde-bijelo-500g-422194",
+            "image": null
+          },
+          {
+            "name": "Garden Good Carsko Povrće 1kg",
+            "store": "Konzum",
+            "price": 1.79,
+            "price_str": "1,79 €",
+            "discount": 28,
+            "valid": "15.07 do 21.07",
+            "url": "https://najcijena.hr/akcija/garden-good-carsko-povrce-422239",
+            "image": null
+          },
+          {
+            "name": "Borovnica 250g",
+            "store": "Konzum",
+            "price": 1.99,
+            "price_str": "1,99 €",
+            "discount": null,
+            "valid": "Još danas",
+            "url": "https://najcijena.hr/akcija/borovnica-250g-416334",
+            "image": null
+          },
+          {
+            "name": "Marelica 300g",
+            "store": "Konzum",
+            "price": 2.99,
+            "price_str": "2,99 €",
+            "discount": 25,
+            "valid": "15.07 do 21.07",
+            "url": "https://najcijena.hr/akcija/marelica-300g-422202",
+            "image": null
+          },
+          {
+            "name": "Brusnica 400g",
+            "store": "Konzum",
+            "price": 3.19,
+            "price_str": "3,19 €",
+            "discount": 28,
+            "valid": "15.07 do 21.07",
+            "url": "https://najcijena.hr/akcija/brusnica-400g-422203",
+            "image": null
+          },
+          {
+            "name": "Ledo Pommes Frites 1000g",
+            "store": "Konzum",
+            "price": 3.39,
+            "price_str": "3,39 €",
+            "discount": null,
+            "valid": "15.07 do 21.07",
+            "url": "https://najcijena.hr/akcija/ledo-pommes-frites-1000g-422243",
             "image": null
           }
         ],
@@ -671,18 +1371,18 @@
             "price": 0.55,
             "price_str": "0,55 €",
             "discount": null,
-            "valid": "do 14.07",
+            "valid": "Još danas",
             "url": "https://najcijena.hr/akcija/domaca-lubenica-1-kg-414066",
             "image": null
           },
           {
-            "name": "Tikvice 1 kg",
+            "name": "Domaći Krumpir Mladi 1 kg",
             "store": "Spar",
             "price": 0.59,
             "price_str": "0,59 €",
             "discount": null,
-            "valid": "do 14.07",
-            "url": "https://najcijena.hr/akcija/tikvice-1-kg-414182",
+            "valid": "15.07 do 21.07",
+            "url": "https://najcijena.hr/akcija/domaci-krumpir-mladi-1-420215",
             "image": null
           },
           {
@@ -701,8 +1401,18 @@
             "price": 0.69,
             "price_str": "0,69 €",
             "discount": null,
-            "valid": "do 14.07",
+            "valid": "Još danas",
             "url": "https://najcijena.hr/akcija/domaci-krastavac-1-kg-414159",
+            "image": null
+          },
+          {
+            "name": "Bio Mrkva 500 g",
+            "store": "Spar",
+            "price": 0.99,
+            "price_str": "0,99 €",
+            "discount": null,
+            "valid": "15.07 do 21.07",
+            "url": "https://najcijena.hr/akcija/bio-mrkva-500-g-420213",
             "image": null
           },
           {
@@ -716,16 +1426,6 @@
             "image": null
           },
           {
-            "name": "Ananas 1 kom",
-            "store": "Spar",
-            "price": 0.99,
-            "price_str": "0,99 €",
-            "discount": null,
-            "valid": "15.07 do 21.07",
-            "url": "https://najcijena.hr/akcija/ananas-1-kom-420198",
-            "image": null
-          },
-          {
             "name": "Paprika Babura 1 kg",
             "store": "Spar",
             "price": 0.99,
@@ -733,46 +1433,6 @@
             "discount": null,
             "valid": "15.07 do 21.07",
             "url": "https://najcijena.hr/akcija/paprika-babura-1-kg-420210",
-            "image": null
-          },
-          {
-            "name": "Domaća jabuka Granny Smith 1 kg",
-            "store": "Spar",
-            "price": 0.99,
-            "price_str": "0,99 €",
-            "discount": null,
-            "valid": "do 14.07",
-            "url": "https://najcijena.hr/akcija/domaca-jabuka-granny-smith-414156",
-            "image": null
-          },
-          {
-            "name": "SPAR Jagode 250 g",
-            "store": "Spar",
-            "price": 0.99,
-            "price_str": "0,99 €",
-            "discount": 33,
-            "valid": "do 14.07",
-            "url": "https://najcijena.hr/akcija/spar-jagode-250-g-414074",
-            "image": null
-          },
-          {
-            "name": "Domaći Šampinjoni 500 g",
-            "store": "Spar",
-            "price": 1.39,
-            "price_str": "1,39 €",
-            "discount": null,
-            "valid": "15.07 do 21.07",
-            "url": "https://najcijena.hr/akcija/domaci-sampinjoni-500-g-420212",
-            "image": null
-          },
-          {
-            "name": "Domaći Patlidžan 1 kg",
-            "store": "Spar",
-            "price": 1.39,
-            "price_str": "1,39 €",
-            "discount": null,
-            "valid": "15.07 do 21.07",
-            "url": "https://najcijena.hr/akcija/domaci-patlidzan-1-kg-420214",
             "image": null
           },
           {
@@ -796,6 +1456,26 @@
             "image": null
           },
           {
+            "name": "Marelica 1 kg",
+            "store": "Spar",
+            "price": 1.69,
+            "price_str": "1,69 €",
+            "discount": null,
+            "valid": "Još danas",
+            "url": "https://najcijena.hr/akcija/marelica-1-kg-414157",
+            "image": null
+          },
+          {
+            "name": "Domaća Rajčica Koktel 500 g",
+            "store": "Spar",
+            "price": 1.79,
+            "price_str": "1,79 €",
+            "discount": null,
+            "valid": "15.07 do 21.07",
+            "url": "https://najcijena.hr/akcija/domaca-rajcica-koktel-500-420211",
+            "image": null
+          },
+          {
             "name": "Začinsko bilje 1 kom",
             "store": "Spar",
             "price": 1.79,
@@ -806,23 +1486,23 @@
             "image": null
           },
           {
-            "name": "Bio Grožđe 500 g",
+            "name": "Bio limun 500 g",
             "store": "Spar",
             "price": 1.99,
             "price_str": "1,99 €",
             "discount": null,
             "valid": "15.07 do 21.07",
-            "url": "https://najcijena.hr/akcija/bio-grozde-500-g-420200",
+            "url": "https://najcijena.hr/akcija/bio-limun-500-g-420296",
             "image": null
           },
           {
-            "name": "Domaća paprika snack 160 g",
+            "name": "Kukuruz šećerac 1 pak (3/1)",
             "store": "Spar",
             "price": 1.99,
             "price_str": "1,99 €",
             "discount": null,
-            "valid": "do 14.07",
-            "url": "https://najcijena.hr/akcija/domaca-paprika-snack-160-414160",
+            "valid": "Još danas",
+            "url": "https://najcijena.hr/akcija/kukuruz-secerac-1-pak-414423",
             "image": null
           },
           {
@@ -856,28 +1536,7 @@
             "image": null
           }
         ],
-        "Studenac": [
-          {
-            "name": "Kotanyi Dalmatinski bilje",
-            "store": "Studenac",
-            "price": 0.69,
-            "price_str": "0,69 €",
-            "discount": null,
-            "valid": "do 14.07",
-            "url": "https://najcijena.hr/akcija/kotanyi-dalmatinski-bilje-418072",
-            "image": null
-          },
-          {
-            "name": "Grožđe crno 1 kg",
-            "store": "Studenac",
-            "price": 2.99,
-            "price_str": "2,99 €",
-            "discount": 18,
-            "valid": "do 15.07",
-            "url": "https://najcijena.hr/akcija/grozde-crno-1-kg-418050",
-            "image": null
-          }
-        ]
+        "Studenac": []
       }
     },
     {
@@ -886,6 +1545,86 @@
       "group": "hrana",
       "items": {
         "Lidl": [
+          {
+            "name": "Domaće graham pecivo 55 g",
+            "store": "Lidl",
+            "price": 0.14,
+            "price_str": "0,14 €",
+            "discount": 12,
+            "valid": "do 19.07",
+            "url": "https://najcijena.hr/akcija/domace-graham-pecivo-55-418633",
+            "image": null
+          },
+          {
+            "name": "Domaća žemlja 75 g",
+            "store": "Lidl",
+            "price": 0.18,
+            "price_str": "0,18 €",
+            "discount": 14,
+            "valid": "do 19.07",
+            "url": "https://najcijena.hr/akcija/domaca-zemlja-75-g-418634",
+            "image": null
+          },
+          {
+            "name": "Domaće somun pecivo 120 g",
+            "store": "Lidl",
+            "price": 0.25,
+            "price_str": "0,25 €",
+            "discount": 35,
+            "valid": "do 19.07",
+            "url": "https://najcijena.hr/akcija/domace-somun-pecivo-120-418629",
+            "image": null
+          },
+          {
+            "name": "Mini Lino Lada krafna 25 g",
+            "store": "Lidl",
+            "price": 0.39,
+            "price_str": "0,39 €",
+            "discount": 13,
+            "valid": "do 19.07",
+            "url": "https://najcijena.hr/akcija/mini-lino-lada-krafna-418635",
+            "image": null
+          },
+          {
+            "name": "Croissant sa šunkom i sirom 95 g",
+            "store": "Lidl",
+            "price": 0.45,
+            "price_str": "0,45 €",
+            "discount": 43,
+            "valid": "do 19.07",
+            "url": "https://najcijena.hr/akcija/croissant-sa-sunkom-i-418627",
+            "image": null
+          },
+          {
+            "name": "Pecivo sa sirom 80 g",
+            "store": "Lidl",
+            "price": 0.49,
+            "price_str": "0,49 €",
+            "discount": 28,
+            "valid": "do 19.07",
+            "url": "https://najcijena.hr/akcija/pecivo-sa-sirom-80-418632",
+            "image": null
+          },
+          {
+            "name": "Domaća kukuruzna miješana ciabatta 300 g",
+            "store": "Lidl",
+            "price": 0.69,
+            "price_str": "0,69 €",
+            "discount": 30,
+            "valid": "do 19.07",
+            "url": "https://najcijena.hr/akcija/domaca-kukuruzna-mijesana-ciabatta-418628",
+            "image": null
+          },
+          {
+            "name": "Muffin s karamelom 80 g",
+            "store": "Lidl",
+            "price": 0.79,
+            "price_str": "0,79 €",
+            "discount": null,
+            "valid": "do 19.07",
+            "url": "https://najcijena.hr/akcija/muffin-s-karamelom-80-418631",
+            "image": null
+          },
           {
             "name": "Domaći burek motani sir 220 g",
             "store": "Lidl",
@@ -904,6 +1643,16 @@
             "discount": 31,
             "valid": "17.07 do 19.07",
             "url": "https://najcijena.hr/akcija/domaci-kruh-sa-chia-418824",
+            "image": null
+          },
+          {
+            "name": "Domaći beskvasni bijeli kruh sa sezamom 400 g",
+            "store": "Lidl",
+            "price": 0.99,
+            "price_str": "0,99 €",
+            "discount": null,
+            "valid": "do 19.07",
+            "url": "https://najcijena.hr/akcija/domaci-beskvasni-bijeli-kruh-418630",
             "image": null
           },
           {
@@ -939,43 +1688,133 @@
         ],
         "Konzum": [
           {
+            "name": "Pecivo rustikalna pogačica 50g",
+            "store": "Konzum",
+            "price": 0.15,
+            "price_str": "0,15 €",
+            "discount": null,
+            "valid": "15.07 do 21.07",
+            "url": "https://najcijena.hr/akcija/pecivo-rustikalna-pogacica-50g-422147",
+            "image": null
+          },
+          {
+            "name": "Pecivo Pletenica 100g",
+            "store": "Konzum",
+            "price": 0.25,
+            "price_str": "0,25 €",
+            "discount": null,
+            "valid": "15.07 do 21.07",
+            "url": "https://najcijena.hr/akcija/pecivo-pletenica-100g-422290",
+            "image": null
+          },
+          {
             "name": "Somun 160g",
             "store": "Konzum",
             "price": 0.39,
             "price_str": "0,39 €",
             "discount": null,
-            "valid": "do 14.07",
-            "url": "https://najcijena.hr/akcija/somun-160g-416269",
+            "valid": "15.07 do 21.07",
+            "url": "https://najcijena.hr/akcija/somun-160g-422130",
             "image": null
           },
           {
-            "name": "K Plus Pecivo Žemlja 3/1, 180g",
+            "name": "Trokut Marelica 95g",
+            "store": "Konzum",
+            "price": 0.55,
+            "price_str": "0,55 €",
+            "discount": null,
+            "valid": "15.07 do 21.07",
+            "url": "https://najcijena.hr/akcija/trokut-marelica-95g-422289",
+            "image": null
+          },
+          {
+            "name": "Pita s krumpirom 150g",
             "store": "Konzum",
             "price": 0.75,
             "price_str": "0,75 €",
-            "discount": null,
-            "valid": "do 14.07",
-            "url": "https://najcijena.hr/akcija/k-plus-pecivo-zemlja-416436",
+            "discount": 40,
+            "valid": "do 15.07",
+            "url": "https://najcijena.hr/akcija/pita-s-krumpirom-150g-416599",
             "image": null
           },
           {
-            "name": "Kruh Craft 530g",
+            "name": "Burek 150g",
             "store": "Konzum",
-            "price": 1.55,
-            "price_str": "1,55 €",
+            "price": 0.99,
+            "price_str": "0,99 €",
             "discount": null,
-            "valid": "do 14.07",
-            "url": "https://najcijena.hr/akcija/kruh-craft-530g-416431",
+            "valid": "15.07 do 21.07",
+            "url": "https://najcijena.hr/akcija/burek-150g-422288",
             "image": null
           },
           {
-            "name": "Kruh Domaći 400g",
+            "name": "Meksička pita 150g",
             "store": "Konzum",
-            "price": 2.09,
-            "price_str": "2,09 €",
+            "price": 0.99,
+            "price_str": "0,99 €",
+            "discount": 23,
+            "valid": "20.07 do 22.07",
+            "url": "https://najcijena.hr/akcija/meksicka-pita-150g-422413",
+            "image": null
+          },
+          {
+            "name": "K Plus Kruh",
+            "store": "Konzum",
+            "price": 1.25,
+            "price_str": "1,25 €",
             "discount": null,
-            "valid": "do 14.07",
-            "url": "https://najcijena.hr/akcija/kruh-domaci-400g-416437",
+            "valid": "15.07 do 21.07",
+            "url": "https://najcijena.hr/akcija/k-plus-kruh-422291",
+            "image": null
+          },
+          {
+            "name": "Žemlja",
+            "store": "Konzum",
+            "price": 1.29,
+            "price_str": "1,29 €",
+            "discount": null,
+            "valid": "15.07 do 21.07",
+            "url": "https://najcijena.hr/akcija/zemlja-422292",
+            "image": null
+          },
+          {
+            "name": "Kruh Planinski Rustikalni 500g",
+            "store": "Konzum",
+            "price": 1.39,
+            "price_str": "1,39 €",
+            "discount": null,
+            "valid": "15.07 do 21.07",
+            "url": "https://najcijena.hr/akcija/kruh-planinski-rustikalni-500g-422287",
+            "image": null
+          },
+          {
+            "name": "Kruh Rustikalna Korica",
+            "store": "Konzum",
+            "price": 1.49,
+            "price_str": "1,49 €",
+            "discount": null,
+            "valid": "15.07 do 21.07",
+            "url": "https://najcijena.hr/akcija/kruh-rustikalna-korica-422286",
+            "image": null
+          },
+          {
+            "name": "Minute Tortellini 500g",
+            "store": "Konzum",
+            "price": 1.99,
+            "price_str": "1,99 €",
+            "discount": null,
+            "valid": "15.07 do 21.07",
+            "url": "https://najcijena.hr/akcija/minute-tortellini-500g-422251",
+            "image": null
+          },
+          {
+            "name": "K Plus Čupavci 480g",
+            "store": "Konzum",
+            "price": 4.99,
+            "price_str": "4,99 €",
+            "discount": null,
+            "valid": "15.07 do 21.07",
+            "url": "https://najcijena.hr/akcija/k-plus-cupavci-480g-422293",
             "image": null
           }
         ],
@@ -1016,8 +1855,28 @@
             "price": 0.49,
             "price_str": "0,49 €",
             "discount": null,
-            "valid": "do 14.07",
+            "valid": "Još danas",
             "url": "https://najcijena.hr/akcija/pecivo-lizika-150-g-414236",
+            "image": null
+          },
+          {
+            "name": "Pecivo Schiacciata 80 g",
+            "store": "Spar",
+            "price": 0.59,
+            "price_str": "0,59 €",
+            "discount": null,
+            "valid": "15.07 do 21.07",
+            "url": "https://najcijena.hr/akcija/pecivo-schiacciata-80-g-420247",
+            "image": null
+          },
+          {
+            "name": "Kruh heljdin miješani 250 g",
+            "store": "Spar",
+            "price": 0.79,
+            "price_str": "0,79 €",
+            "discount": null,
+            "valid": "15.07 do 21.07",
+            "url": "https://najcijena.hr/akcija/kruh-heljdin-mijesani-250-420278",
             "image": null
           },
           {
@@ -1036,7 +1895,7 @@
             "price": 0.89,
             "price_str": "0,89 €",
             "discount": null,
-            "valid": "do 14.07",
+            "valid": "Još danas",
             "url": "https://najcijena.hr/akcija/burek-mali-motani-150-414205",
             "image": null
           },
@@ -1051,23 +1910,23 @@
             "image": null
           },
           {
+            "name": "Kruh farmerski okrugli 700 g",
+            "store": "Spar",
+            "price": 0.99,
+            "price_str": "0,99 €",
+            "discount": null,
+            "valid": "15.07 do 21.07",
+            "url": "https://najcijena.hr/akcija/kruh-farmerski-okrugli-700-420282",
+            "image": null
+          },
+          {
             "name": "Kruh durum štruca 450 g",
             "store": "Spar",
             "price": 0.99,
             "price_str": "0,99 €",
             "discount": null,
-            "valid": "do 14.07",
+            "valid": "Još danas",
             "url": "https://najcijena.hr/akcija/kruh-durum-struca-450-414232",
-            "image": null
-          },
-          {
-            "name": "Pogača Slavonska 450 g",
-            "store": "Spar",
-            "price": 0.99,
-            "price_str": "0,99 €",
-            "discount": null,
-            "valid": "do 14.07",
-            "url": "https://najcijena.hr/akcija/pogaca-slavonska-450-g-414200",
             "image": null
           },
           {
@@ -1076,7 +1935,7 @@
             "price": 1.09,
             "price_str": "1,09 €",
             "discount": null,
-            "valid": "do 14.07",
+            "valid": "Još danas",
             "url": "https://najcijena.hr/akcija/kruh-bez-kvasca-400-414201",
             "image": null
           },
@@ -1096,7 +1955,7 @@
             "price": 1.19,
             "price_str": "1,19 €",
             "discount": null,
-            "valid": "do 14.07",
+            "valid": "Još danas",
             "url": "https://najcijena.hr/akcija/craft-kruh-sa-sjemenkama-414270",
             "image": null
           },
@@ -1111,26 +1970,6 @@
             "image": null
           },
           {
-            "name": "Heljdin kruh s orasima 400 g",
-            "store": "Spar",
-            "price": 1.59,
-            "price_str": "1,59 €",
-            "discount": null,
-            "valid": "do 14.07",
-            "url": "https://najcijena.hr/akcija/heljdin-kruh-s-orasima-414231",
-            "image": null
-          },
-          {
-            "name": "Kruh Fresco Premium 400 g",
-            "store": "Spar",
-            "price": 1.89,
-            "price_str": "1,89 €",
-            "discount": 22,
-            "valid": "do 14.07",
-            "url": "https://najcijena.hr/akcija/kruh-fresco-premium-400-414203",
-            "image": null
-          },
-          {
             "name": "Orahnjača ili makovnjača 900 g",
             "store": "Spar",
             "price": 4.39,
@@ -1139,50 +1978,9 @@
             "valid": "15.07 do 21.07",
             "url": "https://najcijena.hr/akcija/orahnjaca-ili-makovnjaca-900-420283",
             "image": null
-          },
-          {
-            "name": "Kolač Madarica Nougat 400 g",
-            "store": "Spar",
-            "price": 5.99,
-            "price_str": "5,99 €",
-            "discount": 28,
-            "valid": "do 14.07",
-            "url": "https://najcijena.hr/akcija/kolac-madarica-nougat-400-414208",
-            "image": null
           }
         ],
-        "Studenac": [
-          {
-            "name": "Pecivo Ciabatta 75 g",
-            "store": "Studenac",
-            "price": 0.35,
-            "price_str": "0,35 €",
-            "discount": 28,
-            "valid": "do 14.07",
-            "url": "https://najcijena.hr/akcija/pecivo-ciabatta-75-g-418075",
-            "image": null
-          },
-          {
-            "name": "Kroasan Praline 75 g",
-            "store": "Studenac",
-            "price": 0.59,
-            "price_str": "0,59 €",
-            "discount": null,
-            "valid": "do 14.07",
-            "url": "https://najcijena.hr/akcija/kroasan-praline-75-g-418079",
-            "image": null
-          },
-          {
-            "name": "Kruh Zlatni Korijen 300 g",
-            "store": "Studenac",
-            "price": 1.09,
-            "price_str": "1,09 €",
-            "discount": 37,
-            "valid": "do 14.07",
-            "url": "https://najcijena.hr/akcija/kruh-zlatni-korijen-300-418074",
-            "image": null
-          }
-        ]
+        "Studenac": []
       }
     },
     {
@@ -1202,6 +2000,16 @@
             "image": null
           },
           {
+            "name": "Gelatelli Sladoled u kornetu 4 x 140 ml",
+            "store": "Lidl",
+            "price": 2.19,
+            "price_str": "2,19 €",
+            "discount": 26,
+            "valid": "15.07 do 19.07",
+            "url": "https://najcijena.hr/akcija/gelatelli-sladoled-u-kornetu-418739",
+            "image": null
+          },
+          {
             "name": "Ballino Sladoled vanilija s grožđicama 1 l",
             "store": "Lidl",
             "price": 2.19,
@@ -1212,6 +2020,16 @@
             "image": null
           },
           {
+            "name": "Gelatelli Sendvič sladoled 8 x 120 ml",
+            "store": "Lidl",
+            "price": 2.79,
+            "price_str": "2,79 €",
+            "discount": 30,
+            "valid": "do 19.07",
+            "url": "https://najcijena.hr/akcija/gelatelli-sendvic-sladoled-8-418608",
+            "image": null
+          },
+          {
             "name": "Bon Gelati Premium sladoled 1000 ml",
             "store": "Lidl",
             "price": 2.99,
@@ -1219,6 +2037,16 @@
             "discount": 25,
             "valid": "15.07 do 19.07",
             "url": "https://najcijena.hr/akcija/bon-gelati-premium-sladoled-418742",
+            "image": null
+          },
+          {
+            "name": "Limoncello sladoled 2 x 95 g",
+            "store": "Lidl",
+            "price": 2.99,
+            "price_str": "2,99 €",
+            "discount": null,
+            "valid": "do 19.07",
+            "url": "https://najcijena.hr/akcija/limoncello-sladoled-2-x-418904",
             "image": null
           },
           {
@@ -1262,6 +2090,26 @@
             "image": null
           },
           {
+            "name": "Kinder Pingui 8 x 30 g",
+            "store": "Lidl",
+            "price": 3.99,
+            "price_str": "3,99 €",
+            "discount": null,
+            "valid": "do 19.07",
+            "url": "https://najcijena.hr/akcija/kinder-pingui-8-x-418778",
+            "image": null
+          },
+          {
+            "name": "Sladoledni desert 900 ml",
+            "store": "Lidl",
+            "price": 4.49,
+            "price_str": "4,49 €",
+            "discount": null,
+            "valid": "do 19.07",
+            "url": "https://najcijena.hr/akcija/sladoledni-desert-900-ml-418905",
+            "image": null
+          },
+          {
             "name": "Gelatelli Sladoled na štapiću 6 x 120 ml",
             "store": "Lidl",
             "price": 4.49,
@@ -1282,6 +2130,16 @@
             "image": null
           },
           {
+            "name": "Ledo Panirani filet oslića 400 g",
+            "store": "Lidl",
+            "price": 5.19,
+            "price_str": "5,19 €",
+            "discount": null,
+            "valid": "do 19.07",
+            "url": "https://najcijena.hr/akcija/ledo-panirani-filet-oslica-418701",
+            "image": null
+          },
+          {
             "name": "Select & Go Sushi Family Tray 462.5 g",
             "store": "Lidl",
             "price": 5.79,
@@ -1290,27 +2148,67 @@
             "valid": "15.07 do 19.07",
             "url": "https://najcijena.hr/akcija/select-go-sushi-418791",
             "image": null
+          },
+          {
+            "name": "FROZY Hobotnica 1 kg",
+            "store": "Lidl",
+            "price": 15.99,
+            "price_str": "15,99 €",
+            "discount": null,
+            "valid": "do 19.07",
+            "url": "https://najcijena.hr/akcija/frozy-hobotnica-1-kg-418933",
+            "image": null
           }
         ],
         "Konzum": [
           {
-            "name": "Nuii Sladoled 90ml",
+            "name": "Kornet 50g",
             "store": "Konzum",
-            "price": 1.99,
-            "price_str": "1,99 €",
-            "discount": 33,
-            "valid": "do 14.07",
-            "url": "https://najcijena.hr/akcija/nuii-sladoled-90ml-416322",
+            "price": 0.59,
+            "price_str": "0,59 €",
+            "discount": 30,
+            "valid": "15.07 do 21.07",
+            "url": "https://najcijena.hr/akcija/kornet-50g-422179",
             "image": null
           },
           {
-            "name": "MINUTE Knedle sa šljivama 1kg",
+            "name": "Minute Svježe tijesto za pizzu 550g",
+            "store": "Konzum",
+            "price": 1.29,
+            "price_str": "1,29 €",
+            "discount": 30,
+            "valid": "15.07 do 21.07",
+            "url": "https://najcijena.hr/akcija/minute-svjeze-tijesto-za-422256",
+            "image": null
+          },
+          {
+            "name": "GELATISSIMO Kornet sladoled 6x100ml",
             "store": "Konzum",
             "price": 1.99,
             "price_str": "1,99 €",
             "discount": null,
-            "valid": "do 14.07",
-            "url": "https://najcijena.hr/akcija/minute-knedle-sa-sljivama-416390",
+            "valid": "15.07 do 21.07",
+            "url": "https://najcijena.hr/akcija/gelatissimo-kornet-sladoled-6x100ml-422186",
+            "image": null
+          },
+          {
+            "name": "GELATISSIMO Sladoled 5x70ml",
+            "store": "Konzum",
+            "price": 1.99,
+            "price_str": "1,99 €",
+            "discount": null,
+            "valid": "15.07 do 21.07",
+            "url": "https://najcijena.hr/akcija/gelatissimo-sladoled-5x70ml-422188",
+            "image": null
+          },
+          {
+            "name": "OREO Sandwich sladoled 110ml",
+            "store": "Konzum",
+            "price": 1.99,
+            "price_str": "1,99 €",
+            "discount": null,
+            "valid": "15.07 do 21.07",
+            "url": "https://najcijena.hr/akcija/oreo-sandwich-sladoled-110ml-422193",
             "image": null
           },
           {
@@ -1319,48 +2217,188 @@
             "price": 2.19,
             "price_str": "2,19 €",
             "discount": 40,
-            "valid": "do 14.07",
+            "valid": "Još danas",
             "url": "https://najcijena.hr/akcija/gelatissimo-sladoled-vanilija-8x110ml-416323",
             "image": null
           },
           {
-            "name": "JAMI Pita 900g",
+            "name": "Gelatissimo sladoled 900ml",
             "store": "Konzum",
-            "price": 3.39,
-            "price_str": "3,39 €",
-            "discount": null,
-            "valid": "do 14.07",
-            "url": "https://najcijena.hr/akcija/jami-pita-900g-416383",
+            "price": 2.29,
+            "price_str": "2,29 €",
+            "discount": 17,
+            "valid": "15.07 do 21.07",
+            "url": "https://najcijena.hr/akcija/gelatissimo-sladoled-900ml-422185",
             "image": null
           },
           {
-            "name": "Minute Bucket Chicken 500g",
+            "name": "GELATISSIMO Sladoled 10x55ml",
+            "store": "Konzum",
+            "price": 2.55,
+            "price_str": "2,55 €",
+            "discount": null,
+            "valid": "15.07 do 21.07",
+            "url": "https://najcijena.hr/akcija/gelatissimo-sladoled-10x55ml-422189",
+            "image": null
+          },
+          {
+            "name": "BANNANKO Sladoled 3x85ml",
+            "store": "Konzum",
+            "price": 2.79,
+            "price_str": "2,79 €",
+            "discount": 30,
+            "valid": "15.07 do 21.07",
+            "url": "https://najcijena.hr/akcija/bannanko-sladoled-3x85ml-422192",
+            "image": null
+          },
+          {
+            "name": "GELATISSIMO Sladoled 4x110ml, 3x90ml",
+            "store": "Konzum",
+            "price": 2.99,
+            "price_str": "2,99 €",
+            "discount": null,
+            "valid": "15.07 do 21.07",
+            "url": "https://najcijena.hr/akcija/gelatissimo-sladoled-4x110ml-3x90ml-422187",
+            "image": null
+          },
+          {
+            "name": "AIA Cordon Bleu 490g",
+            "store": "Konzum",
+            "price": 3.09,
+            "price_str": "3,09 €",
+            "discount": null,
+            "valid": "15.07 do 21.07",
+            "url": "https://najcijena.hr/akcija/aia-cordon-bleu-490g-422224",
+            "image": null
+          },
+          {
+            "name": "Kontiki sladoled 280ml",
             "store": "Konzum",
             "price": 3.49,
             "price_str": "3,49 €",
-            "discount": 22,
-            "valid": "do 14.07",
-            "url": "https://najcijena.hr/akcija/minute-bucket-chicken-500g-416590",
-            "image": null
-          },
-          {
-            "name": "MINUTE Lasagne Bolognese 1000g",
-            "store": "Konzum",
-            "price": 3.79,
-            "price_str": "3,79 €",
             "discount": null,
-            "valid": "do 14.07",
-            "url": "https://najcijena.hr/akcija/minute-lasagne-bolognese-1000g-416398",
+            "valid": "15.07 do 21.07",
+            "url": "https://najcijena.hr/akcija/kontiki-sladoled-280ml-422180",
             "image": null
           },
           {
-            "name": "Ledo sladoled 900ml",
+            "name": "MACHO Sladoled 370ml",
+            "store": "Konzum",
+            "price": 3.59,
+            "price_str": "3,59 €",
+            "discount": null,
+            "valid": "15.07 do 21.07",
+            "url": "https://najcijena.hr/akcija/macho-sladoled-370ml-422191",
+            "image": null
+          },
+          {
+            "name": "Minute Panirani Filet Oslića 500g",
+            "store": "Konzum",
+            "price": 3.89,
+            "price_str": "3,89 €",
+            "discount": 18,
+            "valid": "15.07 do 21.07",
+            "url": "https://najcijena.hr/akcija/minute-panirani-filet-oslica-422238",
+            "image": null
+          },
+          {
+            "name": "Snjeguljica sladoled 390ml",
             "store": "Konzum",
             "price": 3.99,
             "price_str": "3,99 €",
             "discount": null,
-            "valid": "do 14.07",
-            "url": "https://najcijena.hr/akcija/ledo-sladoled-900ml-416329",
+            "valid": "15.07 do 21.07",
+            "url": "https://najcijena.hr/akcija/snjeguljica-sladoled-390ml-422177",
+            "image": null
+          },
+          {
+            "name": "Gelatissimo Sladoled 2,4l",
+            "store": "Konzum",
+            "price": 3.99,
+            "price_str": "3,99 €",
+            "discount": null,
+            "valid": "17.07 do 19.07",
+            "url": "https://najcijena.hr/akcija/gelatissimo-sladoled-24l-422408",
+            "image": null
+          },
+          {
+            "name": "Ledo Oslić filet 400g",
+            "store": "Konzum",
+            "price": 4.49,
+            "price_str": "4,49 €",
+            "discount": null,
+            "valid": "15.07 do 21.07",
+            "url": "https://najcijena.hr/akcija/ledo-oslic-filet-400g-422240",
+            "image": null
+          },
+          {
+            "name": "Kornet sladoled 4x120ml",
+            "store": "Konzum",
+            "price": 4.99,
+            "price_str": "4,99 €",
+            "discount": null,
+            "valid": "15.07 do 21.07",
+            "url": "https://najcijena.hr/akcija/kornet-sladoled-4x120ml-422183",
+            "image": null
+          },
+          {
+            "name": "Quattro sladoled 1650ml",
+            "store": "Konzum",
+            "price": 5.99,
+            "price_str": "5,99 €",
+            "discount": null,
+            "valid": "15.07 do 21.07",
+            "url": "https://najcijena.hr/akcija/quattro-sladoled-1650ml-422184",
+            "image": null
+          },
+          {
+            "name": "TORTERIE Sladoled 500ml",
+            "store": "Konzum",
+            "price": 5.99,
+            "price_str": "5,99 €",
+            "discount": null,
+            "valid": "15.07 do 21.07",
+            "url": "https://najcijena.hr/akcija/torterie-sladoled-500ml-422190",
+            "image": null
+          },
+          {
+            "name": "Nuii sladoled 3x90ml",
+            "store": "Konzum",
+            "price": 5.99,
+            "price_str": "5,99 €",
+            "discount": null,
+            "valid": "15.07 do 21.07",
+            "url": "https://najcijena.hr/akcija/nuii-sladoled-3x90ml-422181",
+            "image": null
+          },
+          {
+            "name": "Rižoto s piletinom i povrćem 1kg",
+            "store": "Konzum",
+            "price": 5.99,
+            "price_str": "5,99 €",
+            "discount": 25,
+            "valid": "15.07 do 21.07",
+            "url": "https://najcijena.hr/akcija/rizoto-s-piletinom-i-422235",
+            "image": null
+          },
+          {
+            "name": "Nutella sladoled 230g",
+            "store": "Konzum",
+            "price": 6.99,
+            "price_str": "6,99 €",
+            "discount": null,
+            "valid": "15.07 do 21.07",
+            "url": "https://najcijena.hr/akcija/nutella-sladoled-230g-422182",
+            "image": null
+          },
+          {
+            "name": "Panirani fileti jadranskog inćuna 1kg",
+            "store": "Konzum",
+            "price": 12.99,
+            "price_str": "12,99 €",
+            "discount": 27,
+            "valid": "15.07 do 21.07",
+            "url": "https://najcijena.hr/akcija/panirani-fileti-jadranskog-incuna-422232",
             "image": null
           }
         ],
@@ -1376,13 +2414,13 @@
             "image": null
           },
           {
-            "name": "Zagorski štruklji Frozy 540 g",
+            "name": "Pita Jami 9 x 10 g",
             "store": "Spar",
-            "price": 2.99,
-            "price_str": "2,99 €",
-            "discount": 31,
-            "valid": "do 14.07",
-            "url": "https://najcijena.hr/akcija/zagorski-struklji-frozy-540-414290",
+            "price": 3.29,
+            "price_str": "3,29 €",
+            "discount": 17,
+            "valid": "15.07 do 21.07",
+            "url": "https://najcijena.hr/akcija/pita-jami-9-x-420302",
             "image": null
           },
           {
@@ -1396,26 +2434,6 @@
             "image": null
           },
           {
-            "name": "S Budget Sladoled 2 L",
-            "store": "Spar",
-            "price": 3.99,
-            "price_str": "3,99 €",
-            "discount": null,
-            "valid": "do 14.07",
-            "url": "https://najcijena.hr/akcija/s-budget-sladoled-2-414123",
-            "image": null
-          },
-          {
-            "name": "Sladoled Njofra 6 x 65 ml",
-            "store": "Spar",
-            "price": 4.59,
-            "price_str": "4,59 €",
-            "discount": 23,
-            "valid": "do 14.07",
-            "url": "https://najcijena.hr/akcija/sladoled-njofra-6-x-414282",
-            "image": null
-          },
-          {
             "name": "Sladoled King 3 x 90 ml ili 3 x 100 ml",
             "store": "Spar",
             "price": 5.49,
@@ -1426,38 +2444,17 @@
             "image": null
           },
           {
-            "name": "Sladoled Kinder Bueno 455 ml",
+            "name": "Sladoled Ben&Jerry's 465 ml",
             "store": "Spar",
-            "price": 5.49,
-            "price_str": "5,49 €",
-            "discount": 31,
-            "valid": "do 14.07",
-            "url": "https://najcijena.hr/akcija/sladoled-kinder-bueno-455-414062",
-            "image": null
-          },
-          {
-            "name": "Riblji štapići Ledo XXL 840 g",
-            "store": "Spar",
-            "price": 6.99,
-            "price_str": "6,99 €",
-            "discount": 12,
-            "valid": "do 14.07",
-            "url": "https://najcijena.hr/akcija/riblji-stapici-ledo-xxl-414247",
+            "price": 5.99,
+            "price_str": "5,99 €",
+            "discount": 33,
+            "valid": "15.07 do 21.07",
+            "url": "https://najcijena.hr/akcija/sladoled-benjerrys-465-ml-420312",
             "image": null
           }
         ],
-        "Studenac": [
-          {
-            "name": "Ledo Lisnato tijesto 450 g",
-            "store": "Studenac",
-            "price": 1.99,
-            "price_str": "1,99 €",
-            "discount": 23,
-            "valid": "do 14.07",
-            "url": "https://najcijena.hr/akcija/ledo-lisnato-tijesto-450-418150",
-            "image": null
-          }
-        ]
+        "Studenac": []
       }
     },
     {
@@ -1467,13 +2464,13 @@
       "items": {
         "Lidl": [
           {
-            "name": "Food Festival Tortilja čips 170 g",
+            "name": "Deluxe Čips s okusom ruže i fleur de sel 100 g",
             "store": "Lidl",
-            "price": 0.99,
-            "price_str": "0,99 €",
+            "price": 1.69,
+            "price_str": "1,69 €",
             "discount": null,
-            "valid": "15.07 do 19.07",
-            "url": "https://najcijena.hr/akcija/food-festival-tortilja-cips-418753",
+            "valid": "do 19.07",
+            "url": "https://najcijena.hr/akcija/deluxe-cips-s-okusom-418894",
             "image": null
           },
           {
@@ -1507,6 +2504,16 @@
             "image": null
           },
           {
+            "name": "Corny Müsli pločica 150 g",
+            "store": "Lidl",
+            "price": 2.49,
+            "price_str": "2,49 €",
+            "discount": null,
+            "valid": "15.07 do 19.07",
+            "url": "https://najcijena.hr/akcija/corny-msli-plocica-150-418809",
+            "image": null
+          },
+          {
             "name": "McVities Digestive Original 2 x 500 g",
             "store": "Lidl",
             "price": 3.49,
@@ -1517,47 +2524,87 @@
             "image": null
           },
           {
-            "name": "Kraš Čokoladne napolitanke 430 g",
+            "name": "Ferrero Keksi punjeni Nutellom 304 g",
             "store": "Lidl",
-            "price": 4.25,
-            "price_str": "4,25 €",
-            "discount": 25,
-            "valid": "17.07 do 19.07",
-            "url": "https://najcijena.hr/akcija/kras-cokoladne-napolitanke-430-418835",
+            "price": 4.19,
+            "price_str": "4,19 €",
+            "discount": null,
+            "valid": "15.07 do 19.07",
+            "url": "https://najcijena.hr/akcija/ferrero-keksi-punjeni-nutellom-418816",
             "image": null
           }
         ],
         "Konzum": [
           {
-            "name": "Keks Čajni kolutići 800g",
+            "name": "Takis Snack 90g",
+            "store": "Konzum",
+            "price": 1.99,
+            "price_str": "1,99 €",
+            "discount": null,
+            "valid": "15.07 do 21.07",
+            "url": "https://najcijena.hr/akcija/takis-snack-90g-422171",
+            "image": null
+          },
+          {
+            "name": "Jaffa biskvit 300g",
+            "store": "Konzum",
+            "price": 2.19,
+            "price_str": "2,19 €",
+            "discount": null,
+            "valid": "15.07 do 21.07",
+            "url": "https://najcijena.hr/akcija/jaffa-biskvit-300g-422297",
+            "image": null
+          },
+          {
+            "name": "Chio Kikiriki 250g",
+            "store": "Konzum",
+            "price": 2.49,
+            "price_str": "2,49 €",
+            "discount": null,
+            "valid": "15.07 do 21.07",
+            "url": "https://najcijena.hr/akcija/chio-kikiriki-250g-422128",
+            "image": null
+          },
+          {
+            "name": "Milka čokolada 250g-300g",
             "store": "Konzum",
             "price": 2.99,
             "price_str": "2,99 €",
             "discount": null,
-            "valid": "do 14.07",
-            "url": "https://najcijena.hr/akcija/keks-cajni-kolutici-800g-416446",
+            "valid": "15.07 do 21.07",
+            "url": "https://najcijena.hr/akcija/milka-cokolada-250g300g-422295",
             "image": null
           }
         ],
         "Spar": [
           {
-            "name": "Smokice 85 g",
+            "name": "Krekeri Elephant od 70 g do 80 g",
             "store": "Spar",
-            "price": 1.09,
-            "price_str": "1,09 €",
-            "discount": 26,
+            "price": 0.79,
+            "price_str": "0,79 €",
+            "discount": null,
             "valid": "15.07 do 21.07",
-            "url": "https://najcijena.hr/akcija/smokice-85-g-420319",
+            "url": "https://najcijena.hr/akcija/krekeri-elephant-od-70-420328",
             "image": null
           },
           {
-            "name": "Keksi Mulino Bianco od 168 g do 350 g",
+            "name": "Flips Pom-Bär 50 g",
             "store": "Spar",
-            "price": 1.39,
-            "price_str": "1,39 €",
+            "price": 0.94,
+            "price_str": "0,94 €",
+            "discount": 21,
+            "valid": "15.07 do 21.07",
+            "url": "https://najcijena.hr/akcija/flips-pombr-50-g-420332",
+            "image": null
+          },
+          {
+            "name": "Flips Smoki 225 g",
+            "store": "Spar",
+            "price": 1.59,
+            "price_str": "1,59 €",
             "discount": null,
             "valid": "15.07 do 21.07",
-            "url": "https://najcijena.hr/akcija/keksi-mulino-bianco-od-420323",
+            "url": "https://najcijena.hr/akcija/flips-smoki-225-g-420327",
             "image": null
           },
           {
@@ -1571,6 +2618,16 @@
             "image": null
           },
           {
+            "name": "Čips Pringles 165 g",
+            "store": "Spar",
+            "price": 1.74,
+            "price_str": "1,74 €",
+            "discount": null,
+            "valid": "15.07 do 21.07",
+            "url": "https://najcijena.hr/akcija/cips-pringles-165-g-420117",
+            "image": null
+          },
+          {
             "name": "Flips Lorenz Monster 75 g",
             "store": "Spar",
             "price": 1.79,
@@ -1581,16 +2638,6 @@
             "image": null
           },
           {
-            "name": "Čips Crunchips 120 g ili 130 g",
-            "store": "Spar",
-            "price": 1.89,
-            "price_str": "1,89 €",
-            "discount": null,
-            "valid": "15.07 do 21.07",
-            "url": "https://najcijena.hr/akcija/cips-crunchips-120-g-420255",
-            "image": null
-          },
-          {
             "name": "Keks Jaffa Duo Kraš 250 g",
             "store": "Spar",
             "price": 1.94,
@@ -1598,6 +2645,16 @@
             "discount": 25,
             "valid": "15.07 do 21.07",
             "url": "https://najcijena.hr/akcija/keks-jaffa-duo-kras-420329",
+            "image": null
+          },
+          {
+            "name": "Krekeri TUC 3 x 100 g",
+            "store": "Spar",
+            "price": 1.99,
+            "price_str": "1,99 €",
+            "discount": null,
+            "valid": "15.07 do 21.07",
+            "url": "https://najcijena.hr/akcija/krekeri-tuc-3-x-420317",
             "image": null
           },
           {
@@ -1621,13 +2678,23 @@
             "image": null
           },
           {
-            "name": "Natur pur Studentski miks 200 g",
+            "name": "Napolitanke Kraš 327 g",
             "store": "Spar",
-            "price": 2.29,
-            "price_str": "2,29 €",
-            "discount": 25,
-            "valid": "do 14.07",
-            "url": "https://najcijena.hr/akcija/natur-pur-studentski-miks-414321",
+            "price": 1.99,
+            "price_str": "1,99 €",
+            "discount": 24,
+            "valid": "15.07 do 21.07",
+            "url": "https://najcijena.hr/akcija/napolitanke-kras-327-g-420322",
+            "image": null
+          },
+          {
+            "name": "Čips Čipi Čips 250 g",
+            "store": "Spar",
+            "price": 2.49,
+            "price_str": "2,49 €",
+            "discount": null,
+            "valid": "15.07 do 21.07",
+            "url": "https://najcijena.hr/akcija/cips-cipi-cips-250-420179",
             "image": null
           },
           {
@@ -1641,16 +2708,6 @@
             "image": null
           },
           {
-            "name": "Spar Premium Lisnati pereci 220 g",
-            "store": "Spar",
-            "price": 2.79,
-            "price_str": "2,79 €",
-            "discount": 20,
-            "valid": "15.07 do 21.07",
-            "url": "https://najcijena.hr/akcija/spar-premium-lisnati-pereci-420277",
-            "image": null
-          },
-          {
             "name": "Čokolada Dorina od 220 g do 250 g",
             "store": "Spar",
             "price": 2.99,
@@ -1658,26 +2715,6 @@
             "discount": null,
             "valid": "15.07 do 21.07",
             "url": "https://najcijena.hr/akcija/cokolada-dorina-od-220-420324",
-            "image": null
-          },
-          {
-            "name": "Čajni kolutići 1 kg",
-            "store": "Spar",
-            "price": 3.49,
-            "price_str": "3,49 €",
-            "discount": null,
-            "valid": "do 14.07",
-            "url": "https://najcijena.hr/akcija/cajni-kolutici-1-kg-414252",
-            "image": null
-          },
-          {
-            "name": "Bombonijera Merci 400 g",
-            "store": "Spar",
-            "price": 8.99,
-            "price_str": "8,99 €",
-            "discount": 33,
-            "valid": "15.07 do 21.07",
-            "url": "https://najcijena.hr/akcija/bombonijera-merci-400-g-420325",
             "image": null
           }
         ],
@@ -1711,6 +2748,26 @@
             "image": null
           },
           {
+            "name": "Deluxe Komadi tune u maslinovom ulju 190 g",
+            "store": "Lidl",
+            "price": 3.29,
+            "price_str": "3,29 €",
+            "discount": null,
+            "valid": "do 19.07",
+            "url": "https://najcijena.hr/akcija/deluxe-komadi-tune-u-418893",
+            "image": null
+          },
+          {
+            "name": "Argeta Kokošja pašteta 3 x 95 g",
+            "store": "Lidl",
+            "price": 3.59,
+            "price_str": "3,59 €",
+            "discount": null,
+            "valid": "do 19.07",
+            "url": "https://najcijena.hr/akcija/argeta-kokosja-pasteta-3-418698",
+            "image": null
+          },
+          {
             "name": "Eva Tuna salata 320 g",
             "store": "Lidl",
             "price": 3.79,
@@ -1739,48 +2796,78 @@
             "valid": "17.07 do 19.07",
             "url": "https://najcijena.hr/akcija/argeta-tuna-pasteta-3-418838",
             "image": null
+          },
+          {
+            "name": "RIO MARE Tuna u maslinovom ulju 12 x 80 g",
+            "store": "Lidl",
+            "price": 13.99,
+            "price_str": "13,99 €",
+            "discount": null,
+            "valid": "do 19.07",
+            "url": "https://najcijena.hr/akcija/rio-mare-tuna-u-418731",
+            "image": null
           }
         ],
         "Konzum": [
           {
-            "name": "Podravka Kocka 120g",
+            "name": "Podravka Juha 54g-60g",
             "store": "Konzum",
-            "price": 1.49,
-            "price_str": "1,49 €",
+            "price": 1.09,
+            "price_str": "1,09 €",
             "discount": null,
-            "valid": "do 14.07",
-            "url": "https://najcijena.hr/akcija/podravka-kocka-120g-416458",
+            "valid": "15.07 do 21.07",
+            "url": "https://najcijena.hr/akcija/podravka-juha-54g60g-422312",
+            "image": null
+          },
+          {
+            "name": "Rio Mare Insalatissime 160g",
+            "store": "Konzum",
+            "price": 2.15,
+            "price_str": "2,15 €",
+            "discount": null,
+            "valid": "15.07 do 21.07",
+            "url": "https://najcijena.hr/akcija/rio-mare-insalatissime-160g-422321",
+            "image": null
+          },
+          {
+            "name": "K Plus Ajvar 680g",
+            "store": "Konzum",
+            "price": 2.49,
+            "price_str": "2,49 €",
+            "discount": null,
+            "valid": "15.07 do 21.07",
+            "url": "https://najcijena.hr/akcija/k-plus-ajvar-680g-422127",
+            "image": null
+          },
+          {
+            "name": "Argeta pašteta 3x95g",
+            "store": "Konzum",
+            "price": 3.59,
+            "price_str": "3,59 €",
+            "discount": 14,
+            "valid": "15.07 do 21.07",
+            "url": "https://najcijena.hr/akcija/argeta-pasteta-3x95g-422325",
+            "image": null
+          },
+          {
+            "name": "Podravka goveđi gulaš 400g",
+            "store": "Konzum",
+            "price": 3.99,
+            "price_str": "3,99 €",
+            "discount": null,
+            "valid": "15.07 do 21.07",
+            "url": "https://najcijena.hr/akcija/podravka-govedi-gulas-400g-422326",
             "image": null
           }
         ],
         "Spar": [
-          {
-            "name": "Pašteta Spar 100 g",
-            "store": "Spar",
-            "price": 0.69,
-            "price_str": "0,69 €",
-            "discount": 27,
-            "valid": "do 14.07",
-            "url": "https://najcijena.hr/akcija/pasteta-spar-100-g-414242",
-            "image": null
-          },
-          {
-            "name": "Podravka Pašteta 95 g",
-            "store": "Spar",
-            "price": 0.89,
-            "price_str": "0,89 €",
-            "discount": 40,
-            "valid": "do 14.07",
-            "url": "https://najcijena.hr/akcija/podravka-pasteta-95-g-414310",
-            "image": null
-          },
           {
             "name": "Budget Grah smeđi 800 g",
             "store": "Spar",
             "price": 1.29,
             "price_str": "1,29 €",
             "discount": 18,
-            "valid": "do 14.07",
+            "valid": "Još danas",
             "url": "https://najcijena.hr/akcija/budget-grah-smedi-800-414314",
             "image": null
           },
@@ -1805,13 +2892,13 @@
             "image": null
           },
           {
-            "name": "Eva Tuna fileti 100 g",
+            "name": "Tuna salata 160 g",
             "store": "Spar",
-            "price": 2.59,
-            "price_str": "2,59 €",
-            "discount": 25,
-            "valid": "do 14.07",
-            "url": "https://najcijena.hr/akcija/eva-tuna-fileti-100-414309",
+            "price": 1.89,
+            "price_str": "1,89 €",
+            "discount": 32,
+            "valid": "17.07 do 19.07",
+            "url": "https://najcijena.hr/akcija/tuna-salata-160-g-420478",
             "image": null
           },
           {
@@ -1825,22 +2912,12 @@
             "image": null
           },
           {
-            "name": "Stribor Salate 255 g ili 275 g",
-            "store": "Spar",
-            "price": 2.99,
-            "price_str": "2,99 €",
-            "discount": 23,
-            "valid": "do 14.07",
-            "url": "https://najcijena.hr/akcija/stribor-salate-255-g-414180",
-            "image": null
-          },
-          {
             "name": "Pašteta Argeta 3 x 95 g",
             "store": "Spar",
             "price": 3.59,
             "price_str": "3,59 €",
             "discount": 14,
-            "valid": "do 14.07",
+            "valid": "Još danas",
             "url": "https://najcijena.hr/akcija/pasteta-argeta-3-x-414238",
             "image": null
           },
@@ -1865,13 +2942,13 @@
             "image": null
           },
           {
-            "name": "Skuša s povrćem Izola Brand 3 x 125 g (375 g)",
+            "name": "Azijska gotova jela Youcook 420 g",
             "store": "Spar",
-            "price": 5.99,
-            "price_str": "5,99 €",
-            "discount": 29,
-            "valid": "do 14.07",
-            "url": "https://najcijena.hr/akcija/skusa-s-povrcem-izola-414249",
+            "price": 4.99,
+            "price_str": "4,99 €",
+            "discount": null,
+            "valid": "15.07 do 21.07",
+            "url": "https://najcijena.hr/akcija/azijska-gotova-jela-youcook-420294",
             "image": null
           }
         ],
@@ -1882,78 +2959,28 @@
             "price": 1.22,
             "price_str": "1,22 €",
             "discount": 23,
-            "valid": "do 14.07",
+            "valid": "Još danas",
             "url": "https://najcijena.hr/akcija/podravka-grasak-260-g-418204",
             "image": null
           },
           {
-            "name": "Eva Tuna Komadići 112 g",
+            "name": "Podravka kukuruz šećerac 285 g",
             "store": "Studenac",
-            "price": 1.35,
-            "price_str": "1,35 €",
-            "discount": 45,
-            "valid": "do 14.07",
-            "url": "https://najcijena.hr/akcija/eva-tuna-komadici-112-411064",
-            "image": null
-          },
-          {
-            "name": "Verdeamo Grah 480 g",
-            "store": "Studenac",
-            "price": 1.39,
-            "price_str": "1,39 €",
-            "discount": 33,
-            "valid": "do 14.07",
-            "url": "https://najcijena.hr/akcija/verdeamo-grah-480-g-418210",
-            "image": null
-          },
-          {
-            "name": "Gavrilović pašteta od pastrve 100 g",
-            "store": "Studenac",
-            "price": 1.59,
-            "price_str": "1,59 €",
-            "discount": 46,
-            "valid": "do 14.07",
-            "url": "https://najcijena.hr/akcija/gavrilovic-pasteta-od-pastrve-411812",
-            "image": null
-          },
-          {
-            "name": "Gavrilović pašteta od lososa 100 g",
-            "store": "Studenac",
-            "price": 1.59,
-            "price_str": "1,59 €",
-            "discount": 46,
-            "valid": "do 14.07",
-            "url": "https://najcijena.hr/akcija/gavrilovic-pasteta-od-lososa-411811",
-            "image": null
-          },
-          {
-            "name": "Podravka Ragu mesni 200 g",
-            "store": "Studenac",
-            "price": 1.79,
-            "price_str": "1,79 €",
+            "price": 1.33,
+            "price_str": "1,33 €",
             "discount": null,
-            "valid": "do 14.07",
-            "url": "https://najcijena.hr/akcija/podravka-ragu-mesni-200-418208",
+            "valid": "Još danas",
+            "url": "https://najcijena.hr/akcija/podravka-kukuruz-secerac-285-418230",
             "image": null
           },
           {
-            "name": "Podravka Kisela paprika 300 g",
+            "name": "Bakina Zimnica Krastavci",
             "store": "Studenac",
-            "price": 2.89,
-            "price_str": "2,89 €",
+            "price": 1.45,
+            "price_str": "1,45 €",
             "discount": null,
-            "valid": "do 14.07",
-            "url": "https://najcijena.hr/akcija/podravka-kisela-paprika-300-418207",
-            "image": null
-          },
-          {
-            "name": "Podravka Ajvar 680 g",
-            "store": "Studenac",
-            "price": 2.89,
-            "price_str": "2,89 €",
-            "discount": 34,
-            "valid": "do 14.07",
-            "url": "https://najcijena.hr/akcija/podravka-ajvar-680-g-418206",
+            "valid": "Još danas",
+            "url": "https://najcijena.hr/akcija/bakina-zimnica-krastavci-418209",
             "image": null
           },
           {
@@ -1962,7 +2989,7 @@
             "price": 4.49,
             "price_str": "4,49 €",
             "discount": null,
-            "valid": "do 14.07",
+            "valid": "Još danas",
             "url": "https://najcijena.hr/akcija/rio-mare-tuna-156-418039",
             "image": null
           }
@@ -2053,7 +3080,7 @@
             "price": 0.99,
             "price_str": "0,99 €",
             "discount": null,
-            "valid": "do 14.07",
+            "valid": "Još danas",
             "url": "https://najcijena.hr/akcija/k-plus-premium-tjestenina-416452",
             "image": null
           },
@@ -2063,8 +3090,28 @@
             "price": 1.29,
             "price_str": "1,29 €",
             "discount": null,
-            "valid": "do 14.07",
+            "valid": "Još danas",
             "url": "https://najcijena.hr/akcija/minute-tjestenina-160g-416455",
+            "image": null
+          },
+          {
+            "name": "Pasta Zara Tjestenina 1kg",
+            "store": "Konzum",
+            "price": 1.49,
+            "price_str": "1,49 €",
+            "discount": 37,
+            "valid": "15.07 do 21.07",
+            "url": "https://najcijena.hr/akcija/pasta-zara-tjestenina-1kg-422115",
+            "image": null
+          },
+          {
+            "name": "Pasta Zara Lasagne 500g",
+            "store": "Konzum",
+            "price": 1.49,
+            "price_str": "1,49 €",
+            "discount": null,
+            "valid": "15.07 do 21.07",
+            "url": "https://najcijena.hr/akcija/pasta-zara-lasagne-500g-422304",
             "image": null
           },
           {
@@ -2073,8 +3120,18 @@
             "price": 1.49,
             "price_str": "1,49 €",
             "discount": null,
-            "valid": "do 14.07",
+            "valid": "Još danas",
             "url": "https://najcijena.hr/akcija/k-plus-riza-dugo-416449",
+            "image": null
+          },
+          {
+            "name": "Zlato Polje Tjestenina 400g-500g",
+            "store": "Konzum",
+            "price": 1.61,
+            "price_str": "1,61 €",
+            "discount": null,
+            "valid": "Još danas",
+            "url": "https://najcijena.hr/akcija/zlato-polje-tjestenina-400g500g-416451",
             "image": null
           },
           {
@@ -2083,32 +3140,32 @@
             "price": 1.89,
             "price_str": "1,89 €",
             "discount": null,
-            "valid": "do 14.07",
+            "valid": "Još danas",
             "url": "https://najcijena.hr/akcija/minute-njoki-1000g-416404",
+            "image": null
+          },
+          {
+            "name": "Zlato Polje Rezanci 600g",
+            "store": "Konzum",
+            "price": 2.19,
+            "price_str": "2,19 €",
+            "discount": null,
+            "valid": "15.07 do 08.08",
+            "url": "https://najcijena.hr/akcija/zlato-polje-rezanci-600g-422305",
+            "image": null
+          },
+          {
+            "name": "Gallo Riža 1kg",
+            "store": "Konzum",
+            "price": 2.99,
+            "price_str": "2,99 €",
+            "discount": 34,
+            "valid": "15.07 do 21.07",
+            "url": "https://najcijena.hr/akcija/gallo-riza-1kg-422306",
             "image": null
           }
         ],
         "Spar": [
-          {
-            "name": "Budget Tjestenina 1 kg",
-            "store": "Spar",
-            "price": 1.69,
-            "price_str": "1,69 €",
-            "discount": null,
-            "valid": "do 14.07",
-            "url": "https://najcijena.hr/akcija/budget-tjestenina-1-kg-414308",
-            "image": null
-          },
-          {
-            "name": "Marodi Tjestenina s jajima 400 g",
-            "store": "Spar",
-            "price": 1.79,
-            "price_str": "1,79 €",
-            "discount": 30,
-            "valid": "do 14.07",
-            "url": "https://najcijena.hr/akcija/marodi-tjestenina-s-jajima-414306",
-            "image": null
-          },
           {
             "name": "Tjestenina Barilla 1 kg",
             "store": "Spar",
@@ -2128,17 +3185,27 @@
             "valid": "17.07 do 19.07",
             "url": "https://najcijena.hr/akcija/arborio-riza-1-kg-420479",
             "image": null
+          },
+          {
+            "name": "Njoki gratinirani špinat rajčica 1 kg",
+            "store": "Spar",
+            "price": 7.99,
+            "price_str": "7,99 €",
+            "discount": 20,
+            "valid": "Još danas",
+            "url": "https://najcijena.hr/akcija/njoki-gratinirani-spinat-rajcica-414211",
+            "image": null
           }
         ],
         "Studenac": [
           {
-            "name": "Amore di Nonna Tjestenina fusilli 400 g",
+            "name": "Amore di Nonna Tjestenina Fusilli 400 g",
             "store": "Studenac",
             "price": 0.69,
             "price_str": "0,69 €",
             "discount": 27,
-            "valid": "do 14.07",
-            "url": "https://najcijena.hr/akcija/amore-di-nonna-tjestenina-418216",
+            "valid": "Još danas",
+            "url": "https://najcijena.hr/akcija/amore-di-nonna-tjestenina-411054",
             "image": null
           },
           {
@@ -2147,8 +3214,8 @@
             "price": 1.09,
             "price_str": "1,09 €",
             "discount": null,
-            "valid": "do 14.07",
-            "url": "https://najcijena.hr/akcija/amore-di-nonna-njoki-418183",
+            "valid": "Još danas",
+            "url": "https://najcijena.hr/akcija/amore-di-nonna-njoki-411039",
             "image": null
           },
           {
@@ -2157,8 +3224,8 @@
             "price": 1.15,
             "price_str": "1,15 €",
             "discount": 20,
-            "valid": "do 14.07",
-            "url": "https://najcijena.hr/akcija/panero-tortilje-370-g-410948",
+            "valid": "Još danas",
+            "url": "https://najcijena.hr/akcija/panero-tortilje-370-g-418080",
             "image": null
           },
           {
@@ -2167,7 +3234,7 @@
             "price": 1.79,
             "price_str": "1,79 €",
             "discount": 38,
-            "valid": "do 14.07",
+            "valid": "Još danas",
             "url": "https://najcijena.hr/akcija/zlato-polje-riza-800-418189",
             "image": null
           },
@@ -2177,7 +3244,7 @@
             "price": 1.79,
             "price_str": "1,79 €",
             "discount": 33,
-            "valid": "do 14.07",
+            "valid": "Još danas",
             "url": "https://najcijena.hr/akcija/zlato-polje-tjestenina-400-410956",
             "image": null
           },
@@ -2187,7 +3254,7 @@
             "price": 1.89,
             "price_str": "1,89 €",
             "discount": 32,
-            "valid": "do 14.07",
+            "valid": "Još danas",
             "url": "https://najcijena.hr/akcija/zlato-polje-tjestenina-ribana-411809",
             "image": null
           },
@@ -2197,7 +3264,7 @@
             "price": 1.99,
             "price_str": "1,99 €",
             "discount": 20,
-            "valid": "do 14.07",
+            "valid": "Još danas",
             "url": "https://najcijena.hr/akcija/rizza-riza-originario-1-411824",
             "image": null
           },
@@ -2207,7 +3274,7 @@
             "price": 2.99,
             "price_str": "2,99 €",
             "discount": 44,
-            "valid": "do 14.07",
+            "valid": "Još danas",
             "url": "https://najcijena.hr/akcija/scotti-arborio-riza-1-418190",
             "image": null
           },
@@ -2217,7 +3284,7 @@
             "price": 2.99,
             "price_str": "2,99 €",
             "discount": 44,
-            "valid": "do 14.07",
+            "valid": "Još danas",
             "url": "https://najcijena.hr/akcija/scotti-arborio-riza-risotto-411043",
             "image": null
           }
@@ -2241,6 +3308,26 @@
             "image": null
           },
           {
+            "name": "Deluxe Umak od rajčice 350 g",
+            "store": "Lidl",
+            "price": 1.69,
+            "price_str": "1,69 €",
+            "discount": null,
+            "valid": "do 19.07",
+            "url": "https://najcijena.hr/akcija/deluxe-umak-od-rajcice-418891",
+            "image": null
+          },
+          {
+            "name": "Barilla Umak 400 g",
+            "store": "Lidl",
+            "price": 1.79,
+            "price_str": "1,79 €",
+            "discount": null,
+            "valid": "do 19.07",
+            "url": "https://najcijena.hr/akcija/barilla-umak-400-g-418696",
+            "image": null
+          },
+          {
             "name": "Deluxe Pesto 190 g",
             "store": "Lidl",
             "price": 1.89,
@@ -2261,6 +3348,16 @@
             "image": null
           },
           {
+            "name": "Barilla Umak Bolognese 400 g",
+            "store": "Lidl",
+            "price": 2.49,
+            "price_str": "2,49 €",
+            "discount": null,
+            "valid": "do 19.07",
+            "url": "https://najcijena.hr/akcija/barilla-umak-bolognese-400-418699",
+            "image": null
+          },
+          {
             "name": "Podravka Ajvar 690 g",
             "store": "Lidl",
             "price": 2.65,
@@ -2268,6 +3365,16 @@
             "discount": null,
             "valid": "15.07 do 19.07",
             "url": "https://najcijena.hr/akcija/podravka-ajvar-690-g-418730",
+            "image": null
+          },
+          {
+            "name": "Barilla Pesto 190 g - 200 g",
+            "store": "Lidl",
+            "price": 2.75,
+            "price_str": "2,75 €",
+            "discount": null,
+            "valid": "do 19.07",
+            "url": "https://najcijena.hr/akcija/barilla-pesto-190-g-418697",
             "image": null
           },
           {
@@ -2279,37 +3386,67 @@
             "valid": "15.07 do 19.07",
             "url": "https://najcijena.hr/akcija/heinz-majoneza-400-ml-418750",
             "image": null
+          },
+          {
+            "name": "Deluxe Umak 245 ml",
+            "store": "Lidl",
+            "price": 3.79,
+            "price_str": "3,79 €",
+            "discount": null,
+            "valid": "do 19.07",
+            "url": "https://najcijena.hr/akcija/deluxe-umak-245-ml-418892",
+            "image": null
           }
         ],
         "Konzum": [
           {
-            "name": "Mutti Pasirana rajčica 560g",
+            "name": "Garden Good Rajčica 240g, 400g",
             "store": "Konzum",
-            "price": 1.59,
-            "price_str": "1,59 €",
-            "discount": 38,
-            "valid": "do 14.07",
-            "url": "https://najcijena.hr/akcija/mutti-pasirana-rajcica-560g-416454",
+            "price": 0.79,
+            "price_str": "0,79 €",
+            "discount": null,
+            "valid": "15.07 do 21.07",
+            "url": "https://najcijena.hr/akcija/garden-good-rajcica-240g-422309",
             "image": null
           },
           {
-            "name": "Heinz Ketchup 450g",
+            "name": "Zvijezda Majoneza 85g",
+            "store": "Konzum",
+            "price": 0.89,
+            "price_str": "0,89 €",
+            "discount": null,
+            "valid": "15.07 do 21.07",
+            "url": "https://najcijena.hr/akcija/zvijezda-majoneza-85g-422259",
+            "image": null
+          },
+          {
+            "name": "Podravka Rajčica 400g",
+            "store": "Konzum",
+            "price": 1.09,
+            "price_str": "1,09 €",
+            "discount": 42,
+            "valid": "15.07 do 23.09",
+            "url": "https://najcijena.hr/akcija/podravka-rajcica-400g-422310",
+            "image": null
+          },
+          {
+            "name": "Podravka Ketchup 500g",
+            "store": "Konzum",
+            "price": 1.29,
+            "price_str": "1,29 €",
+            "discount": null,
+            "valid": "15.07 do 21.07",
+            "url": "https://najcijena.hr/akcija/podravka-ketchup-500g-422132",
+            "image": null
+          },
+          {
+            "name": "Podravka Vegeta Original 250g+50g gratis",
             "store": "Konzum",
             "price": 1.99,
             "price_str": "1,99 €",
-            "discount": 33,
-            "valid": "do 14.07",
-            "url": "https://najcijena.hr/akcija/heinz-ketchup-450g-416272",
-            "image": null
-          },
-          {
-            "name": "Barilla Pesto 190g",
-            "store": "Konzum",
-            "price": 2.75,
-            "price_str": "2,75 €",
-            "discount": 42,
-            "valid": "do 14.07",
-            "url": "https://najcijena.hr/akcija/barilla-pesto-190g-416453",
+            "discount": null,
+            "valid": "15.07 do 21.07",
+            "url": "https://najcijena.hr/akcija/podravka-vegeta-original-250g50g-422311",
             "image": null
           }
         ],
@@ -2330,7 +3467,7 @@
             "price": 0.79,
             "price_str": "0,79 €",
             "discount": null,
-            "valid": "do 14.07",
+            "valid": "Još danas",
             "url": "https://najcijena.hr/akcija/despar-pasirana-rajcica-ili-414307",
             "image": null
           },
@@ -2340,7 +3477,7 @@
             "price": 0.99,
             "price_str": "0,99 €",
             "discount": 56,
-            "valid": "do 14.07",
+            "valid": "Još danas",
             "url": "https://najcijena.hr/akcija/crni-papar-u-zrnu-414269",
             "image": null
           },
@@ -2352,16 +3489,6 @@
             "discount": null,
             "valid": "15.07 do 21.07",
             "url": "https://najcijena.hr/akcija/senf-zvijezda-190-g-420248",
-            "image": null
-          },
-          {
-            "name": "Ketchup Zvijezda 1 kg",
-            "store": "Spar",
-            "price": 2.39,
-            "price_str": "2,39 €",
-            "discount": 20,
-            "valid": "do 14.07",
-            "url": "https://najcijena.hr/akcija/ketchup-zvijezda-1-kg-414248",
             "image": null
           },
           {
@@ -2380,7 +3507,7 @@
             "price": 3.49,
             "price_str": "3,49 €",
             "discount": null,
-            "valid": "do 14.07",
+            "valid": "Još danas",
             "url": "https://najcijena.hr/akcija/majoneza-zvijezda-400-g-414245",
             "image": null
           }
@@ -2392,7 +3519,7 @@
             "price": 0.55,
             "price_str": "0,55 €",
             "discount": 30,
-            "valid": "do 14.07",
+            "valid": "Još danas",
             "url": "https://najcijena.hr/akcija/podravka-rajcica-200-g-411829",
             "image": null
           },
@@ -2402,7 +3529,7 @@
             "price": 0.69,
             "price_str": "0,69 €",
             "discount": null,
-            "valid": "do 14.07",
+            "valid": "Još danas",
             "url": "https://najcijena.hr/akcija/kotanyi-dalmatinski-zacin-14-410961",
             "image": null
           },
@@ -2412,7 +3539,7 @@
             "price": 0.69,
             "price_str": "0,69 €",
             "discount": null,
-            "valid": "do 14.07",
+            "valid": "Još danas",
             "url": "https://najcijena.hr/akcija/kotanyi-lovorov-list-5-410960",
             "image": null
           },
@@ -2422,7 +3549,7 @@
             "price": 0.89,
             "price_str": "0,89 €",
             "discount": null,
-            "valid": "do 14.07",
+            "valid": "Još danas",
             "url": "https://najcijena.hr/akcija/vegeta-maestro-papar-crni-418191",
             "image": null
           },
@@ -2432,7 +3559,7 @@
             "price": 0.89,
             "price_str": "0,89 €",
             "discount": null,
-            "valid": "do 14.07",
+            "valid": "Još danas",
             "url": "https://najcijena.hr/akcija/vegeta-maestro-papar-crni-411044",
             "image": null
           },
@@ -2442,8 +3569,8 @@
             "price": 1.39,
             "price_str": "1,39 €",
             "discount": null,
-            "valid": "do 14.07",
-            "url": "https://najcijena.hr/akcija/zvijezda-ketchup-500-g-418213",
+            "valid": "Još danas",
+            "url": "https://najcijena.hr/akcija/zvijezda-ketchup-500-g-411049",
             "image": null
           },
           {
@@ -2452,18 +3579,8 @@
             "price": 1.49,
             "price_str": "1,49 €",
             "discount": null,
-            "valid": "do 14.07",
+            "valid": "Još danas",
             "url": "https://najcijena.hr/akcija/podravka-rajcica-koncentrat-190-418205",
-            "image": null
-          },
-          {
-            "name": "Verdeamo Rajčica 480 g",
-            "store": "Studenac",
-            "price": 1.59,
-            "price_str": "1,59 €",
-            "discount": 30,
-            "valid": "do 14.07",
-            "url": "https://najcijena.hr/akcija/verdeamo-rajcica-480-g-418040",
             "image": null
           },
           {
@@ -2472,7 +3589,7 @@
             "price": 1.59,
             "price_str": "1,59 €",
             "discount": null,
-            "valid": "do 14.07",
+            "valid": "Još danas",
             "url": "https://najcijena.hr/akcija/podravka-senf-140-g-411067",
             "image": null
           },
@@ -2482,8 +3599,8 @@
             "price": 1.89,
             "price_str": "1,89 €",
             "discount": 24,
-            "valid": "do 14.07",
-            "url": "https://najcijena.hr/akcija/zvijezda-majoneza-165-g-418192",
+            "valid": "Još danas",
+            "url": "https://najcijena.hr/akcija/zvijezda-majoneza-165-g-411051",
             "image": null
           },
           {
@@ -2492,7 +3609,7 @@
             "price": 2.59,
             "price_str": "2,59 €",
             "discount": null,
-            "valid": "do 14.07",
+            "valid": "Još danas",
             "url": "https://najcijena.hr/akcija/mutti-rajcica-700-g-418042",
             "image": null
           }
@@ -2526,16 +3643,6 @@
             "image": null
           },
           {
-            "name": "Namaz od pistacija i kikirikija 350 g",
-            "store": "Lidl",
-            "price": 5.59,
-            "price_str": "5,59 €",
-            "discount": null,
-            "valid": "do 19.07",
-            "url": "https://najcijena.hr/akcija/namaz-od-pistacija-i-418902",
-            "image": null
-          },
-          {
             "name": "Nutella 1 kg",
             "store": "Lidl",
             "price": 6.99,
@@ -2548,13 +3655,33 @@
         ],
         "Konzum": [
           {
+            "name": "ABC Sirni namaz 100g",
+            "store": "Konzum",
+            "price": 1.15,
+            "price_str": "1,15 €",
+            "discount": null,
+            "valid": "15.07 do 21.07",
+            "url": "https://najcijena.hr/akcija/abc-sirni-namaz-100g-422247",
+            "image": null
+          },
+          {
             "name": "ABC Sirni namaz 200g",
             "store": "Konzum",
             "price": 1.99,
             "price_str": "1,99 €",
             "discount": null,
-            "valid": "do 14.07",
+            "valid": "Još danas",
             "url": "https://najcijena.hr/akcija/abc-sirni-namaz-200g-416392",
+            "image": null
+          },
+          {
+            "name": "Lino Lada namaz 400g",
+            "store": "Konzum",
+            "price": 3.39,
+            "price_str": "3,39 €",
+            "discount": null,
+            "valid": "Još danas",
+            "url": "https://najcijena.hr/akcija/lino-lada-namaz-400g-416464",
             "image": null
           },
           {
@@ -2563,8 +3690,18 @@
             "price": 3.69,
             "price_str": "3,69 €",
             "discount": null,
-            "valid": "do 14.07",
+            "valid": "Još danas",
             "url": "https://najcijena.hr/akcija/lino-pillows-500g-416465",
+            "image": null
+          },
+          {
+            "name": "Nutella namaz 1000g",
+            "store": "Konzum",
+            "price": 7.59,
+            "price_str": "7,59 €",
+            "discount": null,
+            "valid": "15.07 do 21.07",
+            "url": "https://najcijena.hr/akcija/nutella-namaz-1000g-422320",
             "image": null
           }
         ],
@@ -2575,7 +3712,7 @@
             "price": 0.59,
             "price_str": "0,59 €",
             "discount": null,
-            "valid": "do 14.07",
+            "valid": "Još danas",
             "url": "https://najcijena.hr/akcija/nestle-zitarice-ili-plocice-414312",
             "image": null
           },
@@ -2585,7 +3722,7 @@
             "price": 1.49,
             "price_str": "1,49 €",
             "discount": 16,
-            "valid": "do 14.07",
+            "valid": "Još danas",
             "url": "https://najcijena.hr/akcija/mlijecni-namaz-dukatela-150-414295",
             "image": null
           },
@@ -2647,7 +3784,7 @@
             "price": 1.15,
             "price_str": "1,15 €",
             "discount": null,
-            "valid": "do 14.07",
+            "valid": "Još danas",
             "url": "https://najcijena.hr/akcija/abc-krem-sir-100-418142",
             "image": null
           },
@@ -2657,7 +3794,7 @@
             "price": 1.49,
             "price_str": "1,49 €",
             "discount": 31,
-            "valid": "do 14.07",
+            "valid": "Još danas",
             "url": "https://najcijena.hr/akcija/moje-jutro-kakao-napitak-411076",
             "image": null
           },
@@ -2667,7 +3804,7 @@
             "price": 2.19,
             "price_str": "2,19 €",
             "discount": 15,
-            "valid": "do 14.07",
+            "valid": "Još danas",
             "url": "https://najcijena.hr/akcija/nestle-corn-flakes-gofree-418225",
             "image": null
           },
@@ -2677,18 +3814,18 @@
             "price": 2.19,
             "price_str": "2,19 €",
             "discount": 15,
-            "valid": "do 14.07",
+            "valid": "Još danas",
             "url": "https://najcijena.hr/akcija/nestle-gofree-corn-flakes-411077",
             "image": null
           },
           {
-            "name": "Podravka Džem 320 g",
+            "name": "Podravka džem 320 g",
             "store": "Studenac",
             "price": 2.89,
             "price_str": "2,89 €",
             "discount": null,
-            "valid": "do 14.07",
-            "url": "https://najcijena.hr/akcija/podravka-dzem-320-g-411089",
+            "valid": "Još danas",
+            "url": "https://najcijena.hr/akcija/podravka-dzem-320-g-418253",
             "image": null
           },
           {
@@ -2697,7 +3834,7 @@
             "price": 3.49,
             "price_str": "3,49 €",
             "discount": null,
-            "valid": "do 14.07",
+            "valid": "Još danas",
             "url": "https://najcijena.hr/akcija/namaz-alpinesse-250-g-418140",
             "image": null
           },
@@ -2707,7 +3844,7 @@
             "price": 3.49,
             "price_str": "3,49 €",
             "discount": null,
-            "valid": "do 14.07",
+            "valid": "Još danas",
             "url": "https://najcijena.hr/akcija/meggle-namaz-alpinesse-250-411008",
             "image": null
           },
@@ -2717,7 +3854,7 @@
             "price": 3.69,
             "price_str": "3,69 €",
             "discount": 26,
-            "valid": "do 14.07",
+            "valid": "Još danas",
             "url": "https://najcijena.hr/akcija/lino-pillows-punjeni-jastucici-418222",
             "image": null
           },
@@ -2727,7 +3864,7 @@
             "price": 3.99,
             "price_str": "3,99 €",
             "discount": 27,
-            "valid": "do 14.07",
+            "valid": "Još danas",
             "url": "https://najcijena.hr/akcija/podravka-dzem-580-g-411834",
             "image": null
           },
@@ -2737,7 +3874,7 @@
             "price": 4.99,
             "price_str": "4,99 €",
             "discount": 30,
-            "valid": "do 14.07",
+            "valid": "Još danas",
             "url": "https://najcijena.hr/akcija/lino-lada-namaz-700-411075",
             "image": null
           }
@@ -2761,13 +3898,13 @@
             "image": null
           },
           {
-            "name": "Karlovačko Radler limun 4 x 0.5 l",
+            "name": "CHEVALIER DE FAUVERT Syrah Pays d'Oc IGP rosé 0.75 l",
             "store": "Lidl",
-            "price": 4.99,
-            "price_str": "4,99 €",
+            "price": 3.29,
+            "price_str": "3,29 €",
             "discount": null,
-            "valid": "15.07 do 19.07",
-            "url": "https://najcijena.hr/akcija/karlovacko-radler-limun-4-418796",
+            "valid": "do 19.07",
+            "url": "https://najcijena.hr/akcija/chevalier-de-fauvert-syrah-418931",
             "image": null
           },
           {
@@ -2781,6 +3918,16 @@
             "image": null
           },
           {
+            "name": "Karlovačko Radler limun 4 x 0.5 l",
+            "store": "Lidl",
+            "price": 4.99,
+            "price_str": "4,99 €",
+            "discount": null,
+            "valid": "15.07 do 19.07",
+            "url": "https://najcijena.hr/akcija/karlovacko-radler-limun-4-418796",
+            "image": null
+          },
+          {
             "name": "Italiano Prosecco DOC Spumante 0.75 l",
             "store": "Lidl",
             "price": 5.99,
@@ -2791,13 +3938,13 @@
             "image": null
           },
           {
-            "name": "Spirits of Croatia Teranino Negroni 0.7 l",
+            "name": "PAN Svijetlo pivo 8 x 0.5 l",
             "store": "Lidl",
-            "price": 7.19,
-            "price_str": "7,19 €",
-            "discount": 10,
-            "valid": "15.07 do 19.07",
-            "url": "https://najcijena.hr/akcija/spirits-of-croatia-teranino-418762",
+            "price": 7.79,
+            "price_str": "7,79 €",
+            "discount": null,
+            "valid": "do 19.07",
+            "url": "https://najcijena.hr/akcija/pan-svijetlo-pivo-8-418755",
             "image": null
           },
           {
@@ -2811,13 +3958,13 @@
             "image": null
           },
           {
-            "name": "Heineken Svijetlo pivo 6 x 0.5 l",
+            "name": "QUEEN MARGOT Blended Scotch Whisky 1 l",
             "store": "Lidl",
-            "price": 8.49,
-            "price_str": "8,49 €",
+            "price": 9.99,
+            "price_str": "9,99 €",
             "discount": null,
-            "valid": "15.07 do 19.07",
-            "url": "https://najcijena.hr/akcija/heineken-svijetlo-pivo-6-418761",
+            "valid": "do 19.07",
+            "url": "https://najcijena.hr/akcija/queen-margot-blended-scotch-418932",
             "image": null
           },
           {
@@ -2833,33 +3980,153 @@
         ],
         "Konzum": [
           {
-            "name": "Staročeško pivo 6x0,5l",
+            "name": "Staročeško Radler 0,5l",
             "store": "Konzum",
-            "price": 5.89,
-            "price_str": "5,89 €",
+            "price": 1.19,
+            "price_str": "1,19 €",
             "discount": null,
-            "valid": "do 14.07",
-            "url": "https://najcijena.hr/akcija/starocesko-pivo-6x05l-416299",
+            "valid": "15.07 do 21.07",
+            "url": "https://najcijena.hr/akcija/starocesko-radler-05l-422158",
             "image": null
           },
           {
-            "name": "Prosecco Brut Villa Braida 0,75l",
+            "name": "Karlovačko pivo 0,5l",
             "store": "Konzum",
-            "price": 5.99,
-            "price_str": "5,99 €",
-            "discount": null,
-            "valid": "do 14.07",
-            "url": "https://najcijena.hr/akcija/prosecco-brut-villa-braida-416307",
+            "price": 1.35,
+            "price_str": "1,35 €",
+            "discount": 12,
+            "valid": "15.07 do 21.07",
+            "url": "https://najcijena.hr/akcija/karlovacko-pivo-05l-422155",
             "image": null
           },
           {
-            "name": "Vino Rose 0,75l",
+            "name": "Corona pivo 0,33l",
             "store": "Konzum",
-            "price": 5.99,
-            "price_str": "5,99 €",
+            "price": 1.59,
+            "price_str": "1,59 €",
+            "discount": null,
+            "valid": "15.07 do 21.07",
+            "url": "https://najcijena.hr/akcija/corona-pivo-033l-422157",
+            "image": null
+          },
+          {
+            "name": "5th Element pivo 0,5l",
+            "store": "Konzum",
+            "price": 1.69,
+            "price_str": "1,69 €",
+            "discount": 31,
+            "valid": "15.07 do 21.07",
+            "url": "https://najcijena.hr/akcija/5th-element-pivo-05l-422141",
+            "image": null
+          },
+          {
+            "name": "Pan pivo 2l",
+            "store": "Konzum",
+            "price": 2.99,
+            "price_str": "2,99 €",
             "discount": 14,
-            "valid": "do 14.07",
-            "url": "https://najcijena.hr/akcija/vino-rose-075l-416306",
+            "valid": "15.07 do 21.07",
+            "url": "https://najcijena.hr/akcija/pan-pivo-2l-422156",
+            "image": null
+          },
+          {
+            "name": "Vino Vranac 2l",
+            "store": "Konzum",
+            "price": 3.19,
+            "price_str": "3,19 €",
+            "discount": null,
+            "valid": "15.07 do 21.07",
+            "url": "https://najcijena.hr/akcija/vino-vranac-2l-422134",
+            "image": null
+          },
+          {
+            "name": "Vino T'ga za Jug 0,75l",
+            "store": "Konzum",
+            "price": 3.79,
+            "price_str": "3,79 €",
+            "discount": 28,
+            "valid": "15.07 do 21.07",
+            "url": "https://najcijena.hr/akcija/vino-tga-za-jug-422161",
+            "image": null
+          },
+          {
+            "name": "Ožujsko Pivo 4x0,5l",
+            "store": "Konzum",
+            "price": 4.99,
+            "price_str": "4,99 €",
+            "discount": null,
+            "valid": "15.07 do 21.07",
+            "url": "https://najcijena.hr/akcija/ozujsko-pivo-4x05l-422131",
+            "image": null
+          },
+          {
+            "name": "Vino Graševina 1l",
+            "store": "Konzum",
+            "price": 5.49,
+            "price_str": "5,49 €",
+            "discount": null,
+            "valid": "15.07 do 21.07",
+            "url": "https://najcijena.hr/akcija/vino-grasevina-1l-422165",
+            "image": null
+          },
+          {
+            "name": "Heineken pivo 4x0,5l",
+            "store": "Konzum",
+            "price": 5.79,
+            "price_str": "5,79 €",
+            "discount": 10,
+            "valid": "15.07 do 21.07",
+            "url": "https://najcijena.hr/akcija/heineken-pivo-4x05l-422159",
+            "image": null
+          },
+          {
+            "name": "Vino Rumeni Muškat 0,75l",
+            "store": "Konzum",
+            "price": 6.39,
+            "price_str": "6,39 €",
+            "discount": null,
+            "valid": "15.07 do 21.07",
+            "url": "https://najcijena.hr/akcija/vino-rumeni-muskat-075l-422163",
+            "image": null
+          },
+          {
+            "name": "Freixenet Carta Nevada pjenušac 0,75l",
+            "store": "Konzum",
+            "price": 7.99,
+            "price_str": "7,99 €",
+            "discount": null,
+            "valid": "15.07 do 21.07",
+            "url": "https://najcijena.hr/akcija/freixenet-carta-nevada-pjenusac-422164",
+            "image": null
+          },
+          {
+            "name": "Stock 84 1l",
+            "store": "Konzum",
+            "price": 11.99,
+            "price_str": "11,99 €",
+            "discount": null,
+            "valid": "15.07 do 21.07",
+            "url": "https://najcijena.hr/akcija/stock-84-1l-422174",
+            "image": null
+          },
+          {
+            "name": "Pelinkovac liker 1l",
+            "store": "Konzum",
+            "price": 13.65,
+            "price_str": "13,65 €",
+            "discount": 20,
+            "valid": "15.07 do 21.07",
+            "url": "https://najcijena.hr/akcija/pelinkovac-liker-1l-422162",
+            "image": null
+          },
+          {
+            "name": "Jameson Viski 0,7l",
+            "store": "Konzum",
+            "price": 18.99,
+            "price_str": "18,99 €",
+            "discount": null,
+            "valid": "15.07 do 21.07",
+            "url": "https://najcijena.hr/akcija/jameson-viski-07l-422175",
             "image": null
           }
         ],
@@ -2875,16 +4142,6 @@
             "image": null
           },
           {
-            "name": "Pivo Karlovačko Korner 0,5 L",
-            "store": "Spar",
-            "price": 1.29,
-            "price_str": "1,29 €",
-            "discount": null,
-            "valid": "15.07 do 21.07",
-            "url": "https://najcijena.hr/akcija/pivo-karlovacko-korner-05-420249",
-            "image": null
-          },
-          {
             "name": "Somersby 0,5 L",
             "store": "Spar",
             "price": 1.49,
@@ -2892,56 +4149,6 @@
             "discount": null,
             "valid": "15.07 do 21.07",
             "url": "https://najcijena.hr/akcija/somersby-05-l-420348",
-            "image": null
-          },
-          {
-            "name": "Pivo Blanc 0,5 L",
-            "store": "Spar",
-            "price": 1.59,
-            "price_str": "1,59 €",
-            "discount": 11,
-            "valid": "15.07 do 21.07",
-            "url": "https://najcijena.hr/akcija/pivo-blanc-05-l-420251",
-            "image": null
-          },
-          {
-            "name": "Pivo Leffe 0,33 L",
-            "store": "Spar",
-            "price": 1.99,
-            "price_str": "1,99 €",
-            "discount": 12,
-            "valid": "do 14.07",
-            "url": "https://najcijena.hr/akcija/pivo-leffe-033-l-414281",
-            "image": null
-          },
-          {
-            "name": "Pivo Löwenbrau 4 x 0,5 L",
-            "store": "Spar",
-            "price": 3.49,
-            "price_str": "3,49 €",
-            "discount": null,
-            "valid": "do 14.07",
-            "url": "https://najcijena.hr/akcija/pivo-lwenbrau-4-x-414347",
-            "image": null
-          },
-          {
-            "name": "Vino Jeruzalem Ormož Graševina 1 L",
-            "store": "Spar",
-            "price": 3.99,
-            "price_str": "3,99 €",
-            "discount": 36,
-            "valid": "do 14.07",
-            "url": "https://najcijena.hr/akcija/vino-jeruzalem-ormoz-grasevina-414353",
-            "image": null
-          },
-          {
-            "name": "Pivo Laško 4 x 0,5 L",
-            "store": "Spar",
-            "price": 4.49,
-            "price_str": "4,49 €",
-            "discount": null,
-            "valid": "15.07 do 21.07",
-            "url": "https://najcijena.hr/akcija/pivo-lasko-4-x-420121",
             "image": null
           },
           {
@@ -2955,13 +4162,13 @@
             "image": null
           },
           {
-            "name": "Prosecco Blu 0,75 L",
+            "name": "Pivo Laško 4 x 0,5 L",
             "store": "Spar",
-            "price": 4.99,
-            "price_str": "4,99 €",
-            "discount": 16,
-            "valid": "do 14.07",
-            "url": "https://najcijena.hr/akcija/prosecco-blu-075-l-414340",
+            "price": 4.49,
+            "price_str": "4,49 €",
+            "discount": null,
+            "valid": "15.07 do 21.07",
+            "url": "https://najcijena.hr/akcija/pivo-lasko-4-x-420121",
             "image": null
           },
           {
@@ -2975,16 +4182,6 @@
             "image": null
           },
           {
-            "name": "Pivo Kozel 6 x 0,5 L",
-            "store": "Spar",
-            "price": 7.39,
-            "price_str": "7,39 €",
-            "discount": 12,
-            "valid": "do 14.07",
-            "url": "https://najcijena.hr/akcija/pivo-kozel-6-x-414187",
-            "image": null
-          },
-          {
             "name": "Pjenušavo vino Freixenet Carta Nevada 0.75 L",
             "store": "Spar",
             "price": 7.99,
@@ -2992,26 +4189,6 @@
             "discount": 20,
             "valid": "15.07 do 21.07",
             "url": "https://najcijena.hr/akcija/pjenusavo-vino-freixenet-carta-420155",
-            "image": null
-          },
-          {
-            "name": "Prosecco Canella DOC 0,75 L",
-            "store": "Spar",
-            "price": 8.99,
-            "price_str": "8,99 €",
-            "discount": 22,
-            "valid": "do 14.07",
-            "url": "https://najcijena.hr/akcija/prosecco-canella-doc-075-414341",
-            "image": null
-          },
-          {
-            "name": "Prosecco Villa Sandi Rose 0,75 L",
-            "store": "Spar",
-            "price": 8.99,
-            "price_str": "8,99 €",
-            "discount": 18,
-            "valid": "do 14.07",
-            "url": "https://najcijena.hr/akcija/prosecco-villa-sandi-rose-414339",
             "image": null
           },
           {
@@ -3035,16 +4212,6 @@
             "image": null
           },
           {
-            "name": "Prosecco Bottega Poeti 0,75 L",
-            "store": "Spar",
-            "price": 9.99,
-            "price_str": "9,99 €",
-            "discount": 23,
-            "valid": "do 14.07",
-            "url": "https://najcijena.hr/akcija/prosecco-bottega-poeti-075-414338",
-            "image": null
-          },
-          {
             "name": "Vino Madirazza M-Dingač 0,75 L",
             "store": "Spar",
             "price": 10.99,
@@ -3052,16 +4219,6 @@
             "discount": 26,
             "valid": "15.07 do 21.07",
             "url": "https://najcijena.hr/akcija/vino-madirazza-mdingac-075-420355",
-            "image": null
-          },
-          {
-            "name": "Prosecco Villa Sandi Millesimato 0,75 L",
-            "store": "Spar",
-            "price": 10.99,
-            "price_str": "10,99 €",
-            "discount": 24,
-            "valid": "do 14.07",
-            "url": "https://najcijena.hr/akcija/prosecco-villa-sandi-millesimato-414337",
             "image": null
           },
           {
@@ -3095,16 +4252,6 @@
             "image": null
           },
           {
-            "name": "Vermouth Martini 1 L",
-            "store": "Spar",
-            "price": 13.49,
-            "price_str": "13,49 €",
-            "discount": 22,
-            "valid": "15.07 do 21.07",
-            "url": "https://najcijena.hr/akcija/vermouth-martini-1-l-420137",
-            "image": null
-          },
-          {
             "name": "Tequila Sierra Silver 0,7 L",
             "store": "Spar",
             "price": 13.99,
@@ -3112,16 +4259,6 @@
             "discount": 26,
             "valid": "15.07 do 21.07",
             "url": "https://najcijena.hr/akcija/tequila-sierra-silver-07-420140",
-            "image": null
-          },
-          {
-            "name": "Liker Aperol + 2 x Cinzano To Spritz 0,7 L + 2 x 0,75 L",
-            "store": "Spar",
-            "price": 21.99,
-            "price_str": "21,99 €",
-            "discount": null,
-            "valid": "15.07 do 21.07",
-            "url": "https://najcijena.hr/akcija/liker-aperol-2-420116",
             "image": null
           },
           {
@@ -3135,18 +4272,7 @@
             "image": null
           }
         ],
-        "Studenac": [
-          {
-            "name": "Absolut vodka 0,7 l",
-            "store": "Studenac",
-            "price": 15.99,
-            "price_str": "15,99 €",
-            "discount": 18,
-            "valid": "do 14.07",
-            "url": "https://najcijena.hr/akcija/absolut-vodka-07-l-418303",
-            "image": null
-          }
-        ]
+        "Studenac": []
       }
     },
     {
@@ -3155,6 +4281,36 @@
       "group": "pica",
       "items": {
         "Lidl": [
+          {
+            "name": "Saguaro Mineralna negazirana voda 0.75 l",
+            "store": "Lidl",
+            "price": 0.49,
+            "price_str": "0,49 €",
+            "discount": 28,
+            "valid": "do 19.07",
+            "url": "https://najcijena.hr/akcija/saguaro-mineralna-negazirana-voda-418881",
+            "image": null
+          },
+          {
+            "name": "Jamnica Limunada ili narančada 0.33 l",
+            "store": "Lidl",
+            "price": 1.15,
+            "price_str": "1,15 €",
+            "discount": null,
+            "valid": "15.07 do 19.07",
+            "url": "https://najcijena.hr/akcija/jamnica-limunada-ili-narancada-418766",
+            "image": null
+          },
+          {
+            "name": "Le Coq Bezalkoholni koktel 0.33 l",
+            "store": "Lidl",
+            "price": 1.19,
+            "price_str": "1,19 €",
+            "discount": null,
+            "valid": "15.07 do 19.07",
+            "url": "https://najcijena.hr/akcija/le-coq-bezalkoholni-koktel-418800",
+            "image": null
+          },
           {
             "name": "HELL Energy Ice Coffee 250 ml",
             "store": "Lidl",
@@ -3186,6 +4342,16 @@
             "image": null
           },
           {
+            "name": "Boom Box Zobeni Smoothie 200 g",
+            "store": "Lidl",
+            "price": 1.69,
+            "price_str": "1,69 €",
+            "discount": null,
+            "valid": "15.07 do 19.07",
+            "url": "https://najcijena.hr/akcija/boom-box-zobeni-smoothie-418811",
+            "image": null
+          },
+          {
             "name": "Mirinda Zero ili 7UP Zero 2 l",
             "store": "Lidl",
             "price": 1.85,
@@ -3193,16 +4359,6 @@
             "discount": null,
             "valid": "15.07 do 19.07",
             "url": "https://najcijena.hr/akcija/mirinda-zero-ili-7up-418793",
-            "image": null
-          },
-          {
-            "name": "Hohes C Voćni sok 1 l",
-            "store": "Lidl",
-            "price": 1.95,
-            "price_str": "1,95 €",
-            "discount": null,
-            "valid": "15.07 do 19.07",
-            "url": "https://najcijena.hr/akcija/hohes-c-vocni-sok-418802",
             "image": null
           },
           {
@@ -3216,23 +4372,13 @@
             "image": null
           },
           {
-            "name": "Z Bregov Proteinski napitak 500 ml",
+            "name": "Food Festival Smoothie s chiom 250 ml",
             "store": "Lidl",
             "price": 1.99,
             "price_str": "1,99 €",
-            "discount": 20,
+            "discount": null,
             "valid": "15.07 do 19.07",
-            "url": "https://najcijena.hr/akcija/z-bregov-proteinski-napitak-418784",
-            "image": null
-          },
-          {
-            "name": "PILOS Cjeloviti obrok TO GO 0.5 L",
-            "store": "Lidl",
-            "price": 2.09,
-            "price_str": "2,09 €",
-            "discount": 30,
-            "valid": "15.07 do 19.07",
-            "url": "https://najcijena.hr/akcija/pilos-cjeloviti-obrok-to-418714",
+            "url": "https://najcijena.hr/akcija/food-festival-smoothie-s-418801",
             "image": null
           },
           {
@@ -3243,6 +4389,16 @@
             "discount": 12,
             "valid": "17.07 do 19.07",
             "url": "https://najcijena.hr/akcija/cocacola-ili-cocacola-zero-418834",
+            "image": null
+          },
+          {
+            "name": "PILOS Cjeloviti obrok TO GO 0.5 L",
+            "store": "Lidl",
+            "price": 2.09,
+            "price_str": "2,09 €",
+            "discount": 30,
+            "valid": "15.07 do 19.07",
+            "url": "https://najcijena.hr/akcija/pilos-cjeloviti-obrok-to-418714",
             "image": null
           },
           {
@@ -3263,6 +4419,16 @@
             "discount": null,
             "valid": "15.07 do 19.07",
             "url": "https://najcijena.hr/akcija/studena-ili-studenac-izvorska-418727",
+            "image": null
+          },
+          {
+            "name": "Sirup od naranče 3.1 l",
+            "store": "Lidl",
+            "price": 2.69,
+            "price_str": "2,69 €",
+            "discount": null,
+            "valid": "15.07 do 19.07",
+            "url": "https://najcijena.hr/akcija/sirup-od-narance-31-418798",
             "image": null
           },
           {
@@ -3288,67 +4454,87 @@
         ],
         "Konzum": [
           {
-            "name": "MOJ DAN prirodna mineralna voda 1,5l",
+            "name": "Studena Prirodna mineralna voda 1,5l",
             "store": "Konzum",
-            "price": 0.39,
-            "price_str": "0,39 €",
-            "discount": null,
-            "valid": "do 14.07",
-            "url": "https://najcijena.hr/akcija/moj-dan-prirodna-mineralna-416315",
+            "price": 0.69,
+            "price_str": "0,69 €",
+            "discount": 22,
+            "valid": "15.07 do 21.07",
+            "url": "https://najcijena.hr/akcija/studena-prirodna-mineralna-voda-422172",
             "image": null
           },
           {
-            "name": "Hell Ledena kava 250ml",
+            "name": "Studenac Gazirana voda 1,5l",
             "store": "Konzum",
-            "price": 1.29,
-            "price_str": "1,29 €",
-            "discount": 18,
-            "valid": "do 14.07",
-            "url": "https://najcijena.hr/akcija/hell-ledena-kava-250ml-416286",
+            "price": 0.69,
+            "price_str": "0,69 €",
+            "discount": null,
+            "valid": "15.07 do 21.07",
+            "url": "https://najcijena.hr/akcija/studenac-gazirana-voda-15l-422173",
             "image": null
           },
           {
-            "name": "VINDI SOK 100% naranča 1l",
+            "name": "Moj dan Vitaminski napitak 500g",
             "store": "Konzum",
-            "price": 1.99,
-            "price_str": "1,99 €",
-            "discount": null,
-            "valid": "do 14.07",
-            "url": "https://najcijena.hr/akcija/vindi-sok-100-naranca-416311",
+            "price": 1.49,
+            "price_str": "1,49 €",
+            "discount": 37,
+            "valid": "15.07 do 21.07",
+            "url": "https://najcijena.hr/akcija/moj-dan-vitaminski-napitak-422167",
             "image": null
           },
           {
-            "name": "COCA-COLA Gazirano piće 2l",
+            "name": "Vindi nektar 1l",
             "store": "Konzum",
-            "price": 2.19,
-            "price_str": "2,19 €",
+            "price": 1.59,
+            "price_str": "1,59 €",
             "discount": null,
-            "valid": "do 14.07",
-            "url": "https://najcijena.hr/akcija/cocacola-gazirano-pice-2l-416310",
+            "valid": "15.07 do 21.07",
+            "url": "https://najcijena.hr/akcija/vindi-nektar-1l-422144",
             "image": null
           },
           {
-            "name": "Coca Cola Zero, Sprite, Fanta gazirano piće 2l",
+            "name": "Jana Vitamin funkcionalna voda 1,5l",
             "store": "Konzum",
-            "price": 2.19,
-            "price_str": "2,19 €",
+            "price": 1.59,
+            "price_str": "1,59 €",
             "discount": null,
-            "valid": "do 14.07",
-            "url": "https://najcijena.hr/akcija/coca-cola-zero-sprite-416285",
+            "valid": "15.07 do 21.07",
+            "url": "https://najcijena.hr/akcija/jana-vitamin-funkcionalna-voda-422166",
+            "image": null
+          },
+          {
+            "name": "Pepsi, 7 Up, Mirinda Gazirano piće 2l",
+            "store": "Konzum",
+            "price": 1.89,
+            "price_str": "1,89 €",
+            "discount": null,
+            "valid": "15.07 do 21.07",
+            "url": "https://najcijena.hr/akcija/pepsi-7-up-mirinda-422170",
+            "image": null
+          },
+          {
+            "name": "Bravo Nektar 2l",
+            "store": "Konzum",
+            "price": 2.55,
+            "price_str": "2,55 €",
+            "discount": null,
+            "valid": "15.07 do 21.07",
+            "url": "https://najcijena.hr/akcija/bravo-nektar-2l-422168",
+            "image": null
+          },
+          {
+            "name": "Minute sok od naranče 1l",
+            "store": "Konzum",
+            "price": 2.79,
+            "price_str": "2,79 €",
+            "discount": null,
+            "valid": "15.07 do 21.07",
+            "url": "https://najcijena.hr/akcija/minute-sok-od-narance-422395",
             "image": null
           }
         ],
         "Spar": [
-          {
-            "name": "Energetsko piće Gameboost Original 0,5 L",
-            "store": "Spar",
-            "price": 1.09,
-            "price_str": "1,09 €",
-            "discount": null,
-            "valid": "do 14.07",
-            "url": "https://najcijena.hr/akcija/energetsko-pice-gameboost-original-414284",
-            "image": null
-          },
           {
             "name": "Ledena kava Hell 250 ml",
             "store": "Spar",
@@ -3367,26 +4553,6 @@
             "discount": 18,
             "valid": "15.07 do 21.07",
             "url": "https://najcijena.hr/akcija/gazirano-pice-sky-2-420349",
-            "image": null
-          },
-          {
-            "name": "Sok Juicy Fruit 1,5 L",
-            "store": "Spar",
-            "price": 1.49,
-            "price_str": "1,49 €",
-            "discount": 11,
-            "valid": "do 14.07",
-            "url": "https://najcijena.hr/akcija/sok-juicy-fruit-15-414343",
-            "image": null
-          },
-          {
-            "name": "Nektar Happy Day 1 L",
-            "store": "Spar",
-            "price": 1.69,
-            "price_str": "1,69 €",
-            "discount": null,
-            "valid": "do 14.07",
-            "url": "https://najcijena.hr/akcija/nektar-happy-day-1-414350",
             "image": null
           },
           {
@@ -3417,16 +4583,6 @@
             "discount": 17,
             "valid": "15.07 do 21.07",
             "url": "https://najcijena.hr/akcija/rossi-rtd-pica-025-420135",
-            "image": null
-          },
-          {
-            "name": "Bezalkoholni Spritz Nozeco 0.75 L",
-            "store": "Spar",
-            "price": 4.49,
-            "price_str": "4,49 €",
-            "discount": 18,
-            "valid": "15.07 do 21.07",
-            "url": "https://najcijena.hr/akcija/bezalkoholni-spritz-nozeco-075-420157",
             "image": null
           },
           {
@@ -3468,80 +4624,19 @@
             "valid": "15.07 do 21.07",
             "url": "https://najcijena.hr/akcija/jabucni-sok-5-l-420345",
             "image": null
+          },
+          {
+            "name": "Bezalkoholni Gin Beefeater 0.7 L",
+            "store": "Spar",
+            "price": 13.99,
+            "price_str": "13,99 €",
+            "discount": 14,
+            "valid": "15.07 do 21.07",
+            "url": "https://najcijena.hr/akcija/bezalkoholni-gin-beefeater-07-420158",
+            "image": null
           }
         ],
-        "Studenac": [
-          {
-            "name": "Sarajevski kiseljak Gazirana mineralna voda 1,5 l",
-            "store": "Studenac",
-            "price": 0.75,
-            "price_str": "0,75 €",
-            "discount": null,
-            "valid": "do 14.07",
-            "url": "https://najcijena.hr/akcija/sarajevski-kiseljak-gazirana-mineralna-418277",
-            "image": null
-          },
-          {
-            "name": "Toco Negazirano piće 0,5 l",
-            "store": "Studenac",
-            "price": 0.99,
-            "price_str": "0,99 €",
-            "discount": null,
-            "valid": "do 14.07",
-            "url": "https://najcijena.hr/akcija/toco-negazirano-pice-05-418279",
-            "image": null
-          },
-          {
-            "name": "Moje Jutro kakao napitak instant 200 g",
-            "store": "Studenac",
-            "price": 1.49,
-            "price_str": "1,49 €",
-            "discount": 31,
-            "valid": "do 14.07",
-            "url": "https://najcijena.hr/akcija/moje-jutro-kakao-napitak-418224",
-            "image": null
-          },
-          {
-            "name": "Orangina Gazirano piće 1,25 l",
-            "store": "Studenac",
-            "price": 1.99,
-            "price_str": "1,99 €",
-            "discount": null,
-            "valid": "do 14.07",
-            "url": "https://najcijena.hr/akcija/orangina-gazirano-pice-125-418273",
-            "image": null
-          },
-          {
-            "name": "Dana Sirup 1 l",
-            "store": "Studenac",
-            "price": 2.79,
-            "price_str": "2,79 €",
-            "discount": null,
-            "valid": "do 14.07",
-            "url": "https://najcijena.hr/akcija/dana-sirup-1-l-418275",
-            "image": null
-          },
-          {
-            "name": "Anamaria Minas mljevena kava 175 g",
-            "store": "Studenac",
-            "price": 2.99,
-            "price_str": "2,99 €",
-            "discount": 28,
-            "valid": "do 14.07",
-            "url": "https://najcijena.hr/akcija/anamaria-minas-mljevena-kava-418236",
-            "image": null
-          },
-          {
-            "name": "Nescafe Cappuccino",
-            "store": "Studenac",
-            "price": 2.99,
-            "price_str": "2,99 €",
-            "discount": null,
-            "valid": "do 14.07",
-            "url": "https://najcijena.hr/akcija/nescafe-cappuccino-418234",
-            "image": null
-          }
-        ]
+        "Studenac": []
       }
     },
     {
@@ -3593,33 +4688,53 @@
         ],
         "Konzum": [
           {
+            "name": "Gloria Cappuccino 200g",
+            "store": "Konzum",
+            "price": 2.29,
+            "price_str": "2,29 €",
+            "discount": null,
+            "valid": "15.07 do 21.07",
+            "url": "https://najcijena.hr/akcija/gloria-cappuccino-200g-422319",
+            "image": null
+          },
+          {
             "name": "Nescafé 3in1 10/1",
             "store": "Konzum",
             "price": 2.29,
             "price_str": "2,29 €",
             "discount": 8,
-            "valid": "do 14.07",
+            "valid": "Još danas",
             "url": "https://najcijena.hr/akcija/nescafe-3in1-101-416461",
             "image": null
           },
           {
-            "name": "Franck Jubilarna Kava mljevena 250g",
+            "name": "Franck Jubilarna kava 300g",
             "store": "Konzum",
-            "price": 4.49,
-            "price_str": "4,49 €",
+            "price": 5.29,
+            "price_str": "5,29 €",
             "discount": null,
-            "valid": "do 14.07",
-            "url": "https://najcijena.hr/akcija/franck-jubilarna-kava-mljevena-416462",
+            "valid": "15.07 do 21.07",
+            "url": "https://najcijena.hr/akcija/franck-jubilarna-kava-300g-422316",
             "image": null
           },
           {
-            "name": "Gloria Kava mljevena 600g",
+            "name": "Arabesca Minas kava 400g",
             "store": "Konzum",
-            "price": 8.49,
-            "price_str": "8,49 €",
+            "price": 5.99,
+            "price_str": "5,99 €",
             "discount": null,
-            "valid": "do 14.07",
-            "url": "https://najcijena.hr/akcija/gloria-kava-mljevena-600g-416460",
+            "valid": "15.07 do 21.07",
+            "url": "https://najcijena.hr/akcija/arabesca-minas-kava-400g-422318",
+            "image": null
+          },
+          {
+            "name": "Nescafe kava 190g",
+            "store": "Konzum",
+            "price": 10.49,
+            "price_str": "10,49 €",
+            "discount": 31,
+            "valid": "15.07 do 21.07",
+            "url": "https://najcijena.hr/akcija/nescafe-kava-190g-422317",
             "image": null
           },
           {
@@ -3628,7 +4743,7 @@
             "price": 13.99,
             "price_str": "13,99 €",
             "discount": null,
-            "valid": "do 14.07",
+            "valid": "Još danas",
             "url": "https://najcijena.hr/akcija/dolce-gusto-kapsule-za-416463",
             "image": null
           },
@@ -3638,7 +4753,7 @@
             "price": 19.98,
             "price_str": "19,98 €",
             "discount": null,
-            "valid": "do 14.07",
+            "valid": "Još danas",
             "url": "https://najcijena.hr/akcija/jacobs-kava-instant-2x200g-416467",
             "image": null
           }
@@ -3650,7 +4765,7 @@
             "price": 3.29,
             "price_str": "3,29 €",
             "discount": 15,
-            "valid": "do 14.07",
+            "valid": "Još danas",
             "url": "https://najcijena.hr/akcija/cappuccino-franck-od-112-414333",
             "image": null
           },
@@ -3662,16 +4777,6 @@
             "discount": 18,
             "valid": "15.07 do 21.07",
             "url": "https://najcijena.hr/akcija/kapsule-za-kavu-starbucks-420356",
-            "image": null
-          },
-          {
-            "name": "Kava Franck Jubilarna 250 g",
-            "store": "Spar",
-            "price": 4.49,
-            "price_str": "4,49 €",
-            "discount": 16,
-            "valid": "do 14.07",
-            "url": "https://najcijena.hr/akcija/kava-franck-jubilarna-250-414068",
             "image": null
           },
           {
@@ -3700,7 +4805,7 @@
             "price": 8.29,
             "price_str": "8,29 €",
             "discount": 24,
-            "valid": "do 14.07",
+            "valid": "Još danas",
             "url": "https://najcijena.hr/akcija/mljevena-kava-anamaria-600-414332",
             "image": null
           },
@@ -3720,7 +4825,7 @@
             "price": 10.99,
             "price_str": "10,99 €",
             "discount": 28,
-            "valid": "do 14.07",
+            "valid": "Još danas",
             "url": "https://najcijena.hr/akcija/instant-kava-nescafe-gold-414334",
             "image": null
           },
@@ -3733,26 +4838,6 @@
             "valid": "15.07 do 21.07",
             "url": "https://najcijena.hr/akcija/kava-gloria-1-kg-420182",
             "image": null
-          },
-          {
-            "name": "Kapsule za kavu Nescafe Dolce Gusto 3 kom",
-            "store": "Spar",
-            "price": 13.99,
-            "price_str": "13,99 €",
-            "discount": null,
-            "valid": "do 14.07",
-            "url": "https://najcijena.hr/akcija/kapsule-za-kavu-nescafe-414244",
-            "image": null
-          },
-          {
-            "name": "Kava Lavazza zrno 1 kg",
-            "store": "Spar",
-            "price": 22.99,
-            "price_str": "22,99 €",
-            "discount": null,
-            "valid": "do 14.07",
-            "url": "https://najcijena.hr/akcija/kava-lavazza-zrno-1-414250",
-            "image": null
           }
         ],
         "Studenac": [
@@ -3762,7 +4847,7 @@
             "price": 0.35,
             "price_str": "0,35 €",
             "discount": 10,
-            "valid": "do 14.07",
+            "valid": "Još danas",
             "url": "https://najcijena.hr/akcija/franck-kava-mljevena-crema-411828",
             "image": null
           },
@@ -3772,7 +4857,7 @@
             "price": 0.65,
             "price_str": "0,65 €",
             "discount": 17,
-            "valid": "do 14.07",
+            "valid": "Još danas",
             "url": "https://najcijena.hr/akcija/xixo-ledeni-caj-025-411128",
             "image": null
           },
@@ -3782,7 +4867,7 @@
             "price": 2.19,
             "price_str": "2,19 €",
             "discount": 23,
-            "valid": "do 14.07",
+            "valid": "Još danas",
             "url": "https://najcijena.hr/akcija/starbucks-ledena-kava-220-411036",
             "image": null
           },
@@ -3792,7 +4877,7 @@
             "price": 2.99,
             "price_str": "2,99 €",
             "discount": null,
-            "valid": "do 14.07",
+            "valid": "Još danas",
             "url": "https://najcijena.hr/akcija/nescafe-cappuccino-108-g-411078",
             "image": null
           },
@@ -3802,18 +4887,8 @@
             "price": 2.99,
             "price_str": "2,99 €",
             "discount": 28,
-            "valid": "do 14.07",
+            "valid": "Još danas",
             "url": "https://najcijena.hr/akcija/anamaria-minas-mljevena-kava-411080",
-            "image": null
-          },
-          {
-            "name": "Barcaffe Dolce Gusto Kapsule 70-160 g",
-            "store": "Studenac",
-            "price": 3.59,
-            "price_str": "3,59 €",
-            "discount": 21,
-            "valid": "do 14.07",
-            "url": "https://najcijena.hr/akcija/barcaffe-dolce-gusto-kapsule-411827",
             "image": null
           },
           {
@@ -3822,7 +4897,7 @@
             "price": 4.09,
             "price_str": "4,09 €",
             "discount": 26,
-            "valid": "do 14.07",
+            "valid": "Još danas",
             "url": "https://najcijena.hr/akcija/franck-kava-mljevena-gloria-411825",
             "image": null
           },
@@ -3832,7 +4907,7 @@
             "price": 4.49,
             "price_str": "4,49 €",
             "discount": 16,
-            "valid": "do 14.07",
+            "valid": "Još danas",
             "url": "https://najcijena.hr/akcija/franck-jubilarna-mljevena-kava-411079",
             "image": null
           },
@@ -3842,7 +4917,7 @@
             "price": 5.99,
             "price_str": "5,99 €",
             "discount": null,
-            "valid": "do 14.07",
+            "valid": "Još danas",
             "url": "https://najcijena.hr/akcija/jacobs-instant-kava-100-418238",
             "image": null
           },
@@ -3852,7 +4927,7 @@
             "price": 6.29,
             "price_str": "6,29 €",
             "discount": 23,
-            "valid": "do 14.07",
+            "valid": "Još danas",
             "url": "https://najcijena.hr/akcija/arabesca-kava-mljevena-minas-411826",
             "image": null
           },
@@ -3862,7 +4937,7 @@
             "price": 6.99,
             "price_str": "6,99 €",
             "discount": null,
-            "valid": "do 14.07",
+            "valid": "Još danas",
             "url": "https://najcijena.hr/akcija/barcaffe-classic-kava-400-411081",
             "image": null
           }
@@ -3876,18 +4951,7 @@
       "items": {
         "Lidl": [],
         "Konzum": [],
-        "Spar": [
-          {
-            "name": "Divlji Cvit kreme za lice od 30 ml do 50 ml",
-            "store": "Spar",
-            "price": 3.59,
-            "price_str": "3,59 €",
-            "discount": null,
-            "valid": "do 14.07",
-            "url": "https://najcijena.hr/akcija/divlji-cvit-kreme-za-414355",
-            "image": null
-          }
-        ],
+        "Spar": [],
         "Studenac": []
       }
     },
@@ -3896,7 +4960,38 @@
       "label": "Njega tijela",
       "group": "kozmetika",
       "items": {
-        "Lidl": [],
+        "Lidl": [
+          {
+            "name": "Borotalco Dezodorans u spreju 150 ml",
+            "store": "Lidl",
+            "price": 2.29,
+            "price_str": "2,29 €",
+            "discount": 23,
+            "valid": "do 19.07",
+            "url": "https://najcijena.hr/akcija/borotalco-dezodorans-u-spreju-418919",
+            "image": null
+          },
+          {
+            "name": "Gillette Sensitive pjena za brijanje 300 ml",
+            "store": "Lidl",
+            "price": 3.95,
+            "price_str": "3,95 €",
+            "discount": null,
+            "valid": "do 19.07",
+            "url": "https://najcijena.hr/akcija/gillette-sensitive-pjena-za-418916",
+            "image": null
+          },
+          {
+            "name": "Gillette Žileti 1 set",
+            "store": "Lidl",
+            "price": 9.99,
+            "price_str": "9,99 €",
+            "discount": null,
+            "valid": "do 19.07",
+            "url": "https://najcijena.hr/akcija/gillette-zileti-1-set-418918",
+            "image": null
+          }
+        ],
         "Konzum": [
           {
             "name": "Borotalco dezodorans 150ml, 50ml",
@@ -3904,18 +4999,28 @@
             "price": 2.29,
             "price_str": "2,29 €",
             "discount": null,
-            "valid": "do 14.07",
+            "valid": "Još danas",
             "url": "https://najcijena.hr/akcija/borotalco-dezodorans-150ml-50ml-416471",
             "image": null
           },
           {
             "name": "Johnson's gel za tuširanje 400ml",
             "store": "Konzum",
-            "price": 3.29,
-            "price_str": "3,29 €",
-            "discount": 26,
-            "valid": "do 14.07",
-            "url": "https://najcijena.hr/akcija/johnsons-gel-za-tusiranje-416472",
+            "price": 2.96,
+            "price_str": "2,96 €",
+            "discount": null,
+            "valid": "Još danas",
+            "url": "https://najcijena.hr/akcija/johnsons-gel-za-tusiranje-416473",
+            "image": null
+          },
+          {
+            "name": "Lactovit Gel za tuširanje 600ml",
+            "store": "Konzum",
+            "price": 3.15,
+            "price_str": "3,15 €",
+            "discount": null,
+            "valid": "15.07 do 21.07",
+            "url": "https://najcijena.hr/akcija/lactovit-gel-za-tusiranje-422331",
             "image": null
           },
           {
@@ -3934,39 +5039,49 @@
             "price": 4.79,
             "price_str": "4,79 €",
             "discount": null,
-            "valid": "do 14.07",
+            "valid": "Još danas",
             "url": "https://najcijena.hr/akcija/olea-mlijeko-za-suncanje-416278",
             "image": null
           },
           {
-            "name": "Olea Mlijeko za sunčanje dječje 200ml",
+            "name": "HAWAIIAN TROPIC ULJE ZA TAMNJENJE 200ml",
             "store": "Konzum",
-            "price": 5.59,
-            "price_str": "5,59 €",
+            "price": 6.65,
+            "price_str": "6,65 €",
+            "discount": 25,
+            "valid": "15.07 do 21.07",
+            "url": "https://najcijena.hr/akcija/hawaiian-tropic-ulje-za-422148",
+            "image": null
+          },
+          {
+            "name": "AFRODITA SUN CARE MARMELADA ZA UBRZANO TAMNJENJE 200ml",
+            "store": "Konzum",
+            "price": 12.79,
+            "price_str": "12,79 €",
             "discount": null,
-            "valid": "do 14.07",
-            "url": "https://najcijena.hr/akcija/olea-mlijeko-za-suncanje-416279",
+            "valid": "15.07 do 21.07",
+            "url": "https://najcijena.hr/akcija/afrodita-sun-care-marmelada-422151",
+            "image": null
+          },
+          {
+            "name": "Šišač za bradu B4 Style",
+            "store": "Konzum",
+            "price": 24.59,
+            "price_str": "24,59 €",
+            "discount": 40,
+            "valid": "15.07 do 26.07",
+            "url": "https://najcijena.hr/akcija/sisac-za-bradu-b4-422403",
             "image": null
           }
         ],
         "Spar": [
-          {
-            "name": "Dove kruti sapun 90 g",
-            "store": "Spar",
-            "price": 1.19,
-            "price_str": "1,19 €",
-            "discount": null,
-            "valid": "do 14.07",
-            "url": "https://najcijena.hr/akcija/dove-kruti-sapun-90-414357",
-            "image": null
-          },
           {
             "name": "Fa dezodoransi od 50 g do 150 ml",
             "store": "Spar",
             "price": 2.59,
             "price_str": "2,59 €",
             "discount": null,
-            "valid": "do 14.07",
+            "valid": "Još danas",
             "url": "https://najcijena.hr/akcija/fa-dezodoransi-od-50-414354",
             "image": null
           },
@@ -3989,36 +5104,6 @@
             "valid": "15.07 do 21.07",
             "url": "https://najcijena.hr/akcija/gel-za-tusiranje-old-420258",
             "image": null
-          },
-          {
-            "name": "Old Spice gel za tuširanje 400 ml",
-            "store": "Spar",
-            "price": 2.99,
-            "price_str": "2,99 €",
-            "discount": null,
-            "valid": "do 14.07",
-            "url": "https://najcijena.hr/akcija/old-spice-gel-za-414366",
-            "image": null
-          },
-          {
-            "name": "Gel za tuširanje 2 x 500 ml",
-            "store": "Spar",
-            "price": 3.99,
-            "price_str": "3,99 €",
-            "discount": null,
-            "valid": "do 14.07",
-            "url": "https://najcijena.hr/akcija/gel-za-tusiranje-2-414253",
-            "image": null
-          },
-          {
-            "name": "Proizvodi Gillette 1 kom",
-            "store": "Spar",
-            "price": 4.99,
-            "price_str": "4,99 €",
-            "discount": null,
-            "valid": "do 14.07",
-            "url": "https://najcijena.hr/akcija/proizvodi-gillette-1-kom-414272",
-            "image": null
           }
         ],
         "Studenac": []
@@ -4029,18 +5114,7 @@
       "label": "Njega kose",
       "group": "kozmetika",
       "items": {
-        "Lidl": [
-          {
-            "name": "Pantene Pro-V šampon ili regenerator 275 ml ili 400 ml",
-            "store": "Lidl",
-            "price": 4.49,
-            "price_str": "4,49 €",
-            "discount": null,
-            "valid": "do 19.07",
-            "url": "https://najcijena.hr/akcija/pantene-prov-sampon-ili-418920",
-            "image": null
-          }
-        ],
+        "Lidl": [],
         "Konzum": [
           {
             "name": "Elseve šampon za kosu 400ml",
@@ -4048,7 +5122,7 @@
             "price": 4.79,
             "price_str": "4,79 €",
             "discount": null,
-            "valid": "do 14.07",
+            "valid": "Još danas",
             "url": "https://najcijena.hr/akcija/elseve-sampon-za-kosu-416474",
             "image": null
           },
@@ -4058,18 +5132,18 @@
             "price": 6.49,
             "price_str": "6,49 €",
             "discount": null,
-            "valid": "do 14.07",
+            "valid": "Još danas",
             "url": "https://najcijena.hr/akcija/headshoulders-sampon-za-kosu-410159",
             "image": null
           },
           {
-            "name": "Triumph grudnjak kom",
+            "name": "Head&Shoulders šampon za kosu 800ml",
             "store": "Konzum",
-            "price": 15.99,
-            "price_str": "15,99 €",
+            "price": 7.89,
+            "price_str": "7,89 €",
             "discount": null,
-            "valid": "do 19.07",
-            "url": "https://najcijena.hr/akcija/triumph-grudnjak-kom-402042",
+            "valid": "do 21.07",
+            "url": "https://najcijena.hr/akcija/headshoulders-sampon-za-kosu-416475",
             "image": null
           }
         ],
@@ -4090,7 +5164,7 @@
             "price": 4.49,
             "price_str": "4,49 €",
             "discount": null,
-            "valid": "do 14.07",
+            "valid": "Još danas",
             "url": "https://najcijena.hr/akcija/sampon-ili-regenerator-syoss-414273",
             "image": null
           },
@@ -4100,7 +5174,7 @@
             "price": 4.49,
             "price_str": "4,49 €",
             "discount": null,
-            "valid": "do 14.07",
+            "valid": "Još danas",
             "url": "https://najcijena.hr/akcija/gliss-sampon-za-kosu-414369",
             "image": null
           },
@@ -4127,23 +5201,13 @@
         ],
         "Studenac": [
           {
-            "name": "Pantene Šampon za kosu 250 ml",
+            "name": "Pantene šampon za kosu 250 ml",
             "store": "Studenac",
             "price": 2.89,
             "price_str": "2,89 €",
             "discount": 39,
-            "valid": "do 14.07",
-            "url": "https://najcijena.hr/akcija/pantene-sampon-za-kosu-411166",
-            "image": null
-          },
-          {
-            "name": "Schauma Šampon ili regenerator 400 ml / 250 ml",
-            "store": "Studenac",
-            "price": 2.99,
-            "price_str": "2,99 €",
-            "discount": null,
-            "valid": "do 14.07",
-            "url": "https://najcijena.hr/akcija/schauma-sampon-ili-regenerator-418339",
+            "valid": "Još danas",
+            "url": "https://najcijena.hr/akcija/pantene-sampon-za-kosu-418320",
             "image": null
           }
         ]
@@ -4183,8 +5247,28 @@
             "price": 2.79,
             "price_str": "2,79 €",
             "discount": null,
-            "valid": "do 14.07",
+            "valid": "Još danas",
             "url": "https://najcijena.hr/akcija/plidenta-zubna-pasta-125ml75ml-416476",
+            "image": null
+          },
+          {
+            "name": "Sensodyne Zubna pasta 75ml",
+            "store": "Konzum",
+            "price": 3.19,
+            "price_str": "3,19 €",
+            "discount": 46,
+            "valid": "15.07 do 21.07",
+            "url": "https://najcijena.hr/akcija/sensodyne-zubna-pasta-75ml-422327",
+            "image": null
+          },
+          {
+            "name": "Listerine vodica za usta 1l",
+            "store": "Konzum",
+            "price": 8.59,
+            "price_str": "8,59 €",
+            "discount": 20,
+            "valid": "Još danas",
+            "url": "https://najcijena.hr/akcija/listerine-vodica-za-usta-410157",
             "image": null
           }
         ],
@@ -4215,7 +5299,7 @@
             "price": 6.49,
             "price_str": "6,49 €",
             "discount": null,
-            "valid": "do 14.07",
+            "valid": "Još danas",
             "url": "https://najcijena.hr/akcija/lacalut-pasta-za-zube-414285",
             "image": null
           }
@@ -4227,7 +5311,7 @@
             "price": 2.89,
             "price_str": "2,89 €",
             "discount": 51,
-            "valid": "do 14.07",
+            "valid": "Još danas",
             "url": "https://najcijena.hr/akcija/sensodyne-pasta-za-zube-418322",
             "image": null
           },
@@ -4237,7 +5321,7 @@
             "price": 3.09,
             "price_str": "3,09 €",
             "discount": 29,
-            "valid": "do 14.07",
+            "valid": "Još danas",
             "url": "https://najcijena.hr/akcija/oralb-konac-za-zube-418324",
             "image": null
           }
@@ -4273,6 +5357,16 @@
         ],
         "Konzum": [
           {
+            "name": "Dax Vlažne maramice za čišćenje 80/1",
+            "store": "Konzum",
+            "price": 0.99,
+            "price_str": "0,99 €",
+            "discount": 46,
+            "valid": "17.07 do 19.07",
+            "url": "https://najcijena.hr/akcija/dax-vlazne-maramice-za-422409",
+            "image": null
+          },
+          {
             "name": "Buddy vlažne maramice 50/1, pak",
             "store": "Konzum",
             "price": 1.49,
@@ -4288,8 +5382,18 @@
             "price": 1.99,
             "price_str": "1,99 €",
             "discount": 26,
-            "valid": "do 14.07",
+            "valid": "Još danas",
             "url": "https://najcijena.hr/akcija/violeta-higijenski-ulosci-201-416482",
+            "image": null
+          },
+          {
+            "name": "Libresse Higijenski ulošci 20/1",
+            "store": "Konzum",
+            "price": 2.95,
+            "price_str": "2,95 €",
+            "discount": null,
+            "valid": "15.07 do 21.07",
+            "url": "https://najcijena.hr/akcija/libresse-higijenski-ulosci-201-422348",
             "image": null
           }
         ],
@@ -4300,7 +5404,7 @@
             "price": 2.29,
             "price_str": "2,29 €",
             "discount": null,
-            "valid": "do 14.07",
+            "valid": "Još danas",
             "url": "https://najcijena.hr/akcija/always-higijenski-ulosci-414364",
             "image": null
           },
@@ -4317,12 +5421,22 @@
         ],
         "Studenac": [
           {
+            "name": "Violeta Baby vlažne maramice 56 kom",
+            "store": "Studenac",
+            "price": 1.35,
+            "price_str": "1,35 €",
+            "discount": null,
+            "valid": "Još danas",
+            "url": "https://najcijena.hr/akcija/violeta-baby-vlazne-maramice-418317",
+            "image": null
+          },
+          {
             "name": "Naturella Higijenski ulošci 10 kom",
             "store": "Studenac",
             "price": 1.39,
             "price_str": "1,39 €",
             "discount": 32,
-            "valid": "do 14.07",
+            "valid": "Još danas",
             "url": "https://najcijena.hr/akcija/naturella-higijenski-ulosci-10-418332",
             "image": null
           }
