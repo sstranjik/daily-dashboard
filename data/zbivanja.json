@@ -1,7 +1,11 @@
 {
-  "generated_at": "2026-07-14T20:02:50.395Z",
+  "generated_at": "2026-07-15T05:01:38.320Z",
   "stats": {
     "Lisinski": {
+      "ok": true,
+      "count": 0
+    },
+    "Gavella": {
       "ok": true,
       "count": 0
     },
@@ -9,29 +13,25 @@
       "ok": true,
       "count": 16
     },
-    "Gavella": {
-      "ok": true,
-      "count": 0
-    },
     "Tvornica": {
       "ok": true,
       "count": 3
-    },
-    "muzika.hr": {
-      "ok": true,
-      "count": 25
     },
     "ZeKaeM": {
       "ok": true,
       "count": 0
     },
-    "Komedija": {
+    "muzika.hr": {
       "ok": true,
-      "count": 0
+      "count": 25
     },
     "Pogon": {
       "ok": true,
       "count": 0
+    },
+    "Komedija": {
+      "ok": false,
+      "error": "HTTP 500"
     },
     "HNK Zagreb": {
       "ok": true,
@@ -47,21 +47,6 @@
     }
   },
   "concerts": [
-    {
-      "id": "72b65613bc",
-      "title": "Hideout Festival",
-      "venue": "Hideout Festival plaža Zrće Pag Srpanj",
-      "city": "Croatia",
-      "country": "HR",
-      "category": "concert",
-      "date_iso": "2026-06-30T00:00:00",
-      "date_display": "uto, 30. 06. 2026.",
-      "time": null,
-      "link": "https://www.muzika.hr/event/hideout-festival/",
-      "source": "muzika.hr",
-      "is_new": false,
-      "first_seen": "2026-06-15T05:01:11.817Z"
-    },
     {
       "id": "7eae44635f",
       "title": "Močvarni birc: Shoegaze & Dream Pop slušaonica",
@@ -1051,6 +1036,36 @@
       "source": "muzika.hr",
       "is_new": false,
       "first_seen": "2026-07-13T05:01:40.348Z"
+    },
+    {
+      "id": "5d071c0449",
+      "title": "Nu Genea + Gia Nunez + nemanja",
+      "venue": "Malo rimsko kazalište Pula",
+      "city": "Croatia",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-07-29T00:00:00",
+      "date_display": "sri, 29. 07. 2026.",
+      "time": null,
+      "link": "https://www.muzika.hr/event/nu-genea-gia-nunez-nemanja-pula/",
+      "source": "muzika.hr",
+      "is_new": true,
+      "first_seen": "2026-07-15T05:01:38.320Z"
+    },
+    {
+      "id": "41fdcb0fab",
+      "title": "Sjemenište: Emo party",
+      "venue": "Mochvara",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-07-31T22:00:00",
+      "date_display": "pet, 31. 07. 2026.",
+      "time": "22:00",
+      "link": "https://mochvara.hr/event-detail/6a4e691b7406b17c5f0a48d3/?lang=hr",
+      "source": "Mochvara",
+      "is_new": true,
+      "first_seen": "2026-07-15T05:01:38.320Z"
     },
     {
       "id": "bb48c15171",
@@ -2452,21 +2467,6 @@
   ],
   "abroad": [
     {
-      "id": "fba525f277",
-      "title": "Theo Croker: Dream Manifest (Festival Lent 2026)",
-      "venue": "Maribor Maribor",
-      "city": "Slovenia",
-      "country": "EU",
-      "category": "concert",
-      "date_iso": "2026-06-30T00:00:00",
-      "date_display": "uto, 30. 06. 2026.",
-      "time": null,
-      "link": "https://www.muzika.hr/event/theo-croker-dream-manifest-festival-lent-2026/",
-      "source": "muzika.hr",
-      "is_new": false,
-      "first_seen": "2026-06-15T05:01:11.817Z"
-    },
-    {
       "id": "0701b20272",
       "title": "Adam Ben Ezra Michael Olivera: Heavy Drops (Festival Lent 2026)",
       "venue": "Maribor Maribor",
@@ -2752,5 +2752,5 @@
       "first_seen": "2026-07-06T05:01:37.668Z"
     }
   ],
-  "new_count": 4
+  "new_count": 6
 }
