@@ -1,15 +1,15 @@
 {
   "version": 2,
-  "date": "2026-07-14",
-  "generated_at": "2026-07-14T07:09:33.284Z",
-  "date_hr": "Utorak, 14. srpnja 2026.",
+  "date": "2026-07-15",
+  "generated_at": "2026-07-15T05:03:19.405Z",
+  "date_hr": "Srijeda, 15. srpnja 2026.",
   "weather": {
-    "icon": "🌦️",
-    "summary": "22–34°C, pljuskovi",
+    "icon": "☁️",
+    "summary": "22–33°C, oblačno",
     "alerts": []
   },
   "fuel": {
-    "current_date": "14.07.2026",
+    "current_date": "15.07.2026",
     "eurodiesel": [
       {
         "company": "Adria Oil",
@@ -42,11 +42,11 @@
         "price": 1.75
       },
       {
-        "company": "Coral Croatia",
-        "price": 1.85
+        "company": "INA",
+        "price": 1.86
       },
       {
-        "company": "INA",
+        "company": "Tifon",
         "price": 1.86
       },
       {
@@ -54,8 +54,8 @@
         "price": 1.88
       },
       {
-        "company": "Tifon",
-        "price": 1.88
+        "company": "Coral Croatia",
+        "price": 1.99
       }
     ],
     "upcoming_date": null,
@@ -63,46 +63,46 @@
     "upcoming_premium": null
   },
   "market": {
-    "updated_at": "2026-07-14T07:09:33.284Z",
-    "btc_usd": 62533,
-    "btc_eur": 54911,
-    "btc_change_24h": -0.38,
-    "usd_eur": 0.8774
+    "updated_at": "2026-07-15T05:03:19.405Z",
+    "btc_usd": 64721,
+    "btc_eur": 56588,
+    "btc_change_24h": 3.28,
+    "usd_eur": 0.8758
   },
   "ai_news": [
     {
-      "title": "Gotovo 200 ekonomista i tehnoloških lidera upozorava na AI: \"Moramo djelovati sada”",
-      "link": "https://www.bug.hr/dogadjaji/gotovo-200-ekonomista-i-tehnoloskih-lidera-upozorava-na-ai-moramo-djelovati-61379",
-      "source": "Bug.hr"
-    },
-    {
-      "title": "Anthropic starts localizing Claude pricing for India, its biggest market after the US",
-      "link": "https://techcrunch.com/2026/07/13/anthropic-starts-localizing-claude-pricing-for-india-its-biggest-market-after-the-us/",
+      "title": "OpenAI&#8217;s first hardware device is reportedly a screenless speaker that can move",
+      "link": "https://techcrunch.com/2026/07/14/openais-first-hardware-device-is-reportedly-a-screenless-speaker-that-can-move/",
       "source": "TechCrunch AI"
     },
     {
-      "title": "I loved ChatGPT Desktop until OpenAI gutted it to make room for Codex and Work",
-      "link": "https://www.zdnet.com/article/openai-gutted-chatgpt-desktop-app-for-codex-work/",
-      "source": "ZDNet"
+      "title": "OpenAI&#8217;s new flagship model deletes files on its own, people keep warning",
+      "link": "https://techcrunch.com/2026/07/14/openais-new-flagship-model-deletes-files-on-its-own-people-keep-warning/",
+      "source": "TechCrunch AI"
     },
     {
-      "title": "OpenAI odustaje od vlastitog web preglednika. Evo čime će ga zamijeniti",
-      "link": "https://www.tportal.hr/tehno/clanak/openai-odustaje-od-vlastitog-web-preglednika-evo-cime-ce-ga-zamijeniti-20260713",
-      "source": "Tportal"
+      "title": "OpenAI may announce a ChatGPT smart speaker this year",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/965670/openai-chatgpt-ai-smart-speaker-hardware-device",
+      "source": "The Verge"
     },
     {
-      "title": "Navodna krađa poslovnih tajni: Ovo su najteže optužbe koje je Apple iznio protiv OpenAI-ja",
-      "link": "https://www.tportal.hr/tehno/clanak/navodna-krada-poslovnih-tajni-ovo-su-najteze-optuzbe-koje-je-apple-iznio-protiv-openai-ja-20260714",
-      "source": "Tportal"
+      "title": "1Password moves into AI cost management, betting that token spend is the next enterprise budget crisis",
+      "link": "https://venturebeat.com/security/1password-moves-into-ai-cost-management-betting-that-token-spend-is-the-next-enterprise-budget-crisis",
+      "source": "VentureBeat"
+    },
+    {
+      "title": "Canada’s banking regulator named Claude Mythos in a warning to banks",
+      "link": "https://thenextweb.com/news/osfi-canada-banks-claude-mythos-warning",
+      "source": "The Next Web"
     }
   ],
   "micro_tips": {
     "vscode": {
-      "tip": "Multi-cursor: postavi cursor na više mjesta istovremeno",
-      "keys": "Alt+Click"
+      "tip": "Command Palette: brzi pristup svim komandama",
+      "keys": "Ctrl+Shift+P"
     },
-    "sql": "Partial index s WHERE klauzulom smanjuje veličinu i ubrzava specifična filtriranja",
-    "oracle": "LISTAGG(col, ',') WITHIN GROUP (ORDER BY col) konkatenira u jedan string",
-    "regex": "(?<ime>\\d{4}) named group — referenciraj s \\k<ime> ili $<ime> u replace"
+    "sql": "GROUP BY s ROLLUP za subtotale u jednom prolasku: GROUP BY ROLLUP(god, mj)",
+    "oracle": "TRUNC(datum_kolona) = TRUNC(SYSDATE) koristi B-tree index na datumskoj koloni",
+    "regex": "\\d{4}-\\d{2}-\\d{2} ISO datum pattern; za validaciju zatvori s ^...$"
   }
 }

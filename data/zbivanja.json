@@ -1,7 +1,19 @@
 {
-  "generated_at": "2026-07-15T05:01:38.320Z",
+  "generated_at": "2026-07-15T05:01:38.837Z",
   "stats": {
+    "Mochvara": {
+      "ok": true,
+      "count": 0
+    },
+    "Pogon": {
+      "ok": true,
+      "count": 0
+    },
     "Lisinski": {
+      "ok": true,
+      "count": 0
+    },
+    "ZeKaeM": {
       "ok": true,
       "count": 0
     },
@@ -9,33 +21,9 @@
       "ok": true,
       "count": 0
     },
-    "Mochvara": {
-      "ok": true,
-      "count": 16
-    },
-    "Tvornica": {
-      "ok": true,
-      "count": 3
-    },
-    "ZeKaeM": {
-      "ok": true,
-      "count": 0
-    },
     "muzika.hr": {
       "ok": true,
       "count": 25
-    },
-    "Pogon": {
-      "ok": true,
-      "count": 0
-    },
-    "Komedija": {
-      "ok": false,
-      "error": "HTTP 500"
-    },
-    "HNK Zagreb": {
-      "ok": true,
-      "count": 63
     },
     "Kerempuh": {
       "ok": true,
@@ -44,6 +32,18 @@
     "Trešnja": {
       "ok": true,
       "count": 0
+    },
+    "Tvornica": {
+      "ok": true,
+      "count": 3
+    },
+    "Komedija": {
+      "ok": true,
+      "count": 0
+    },
+    "HNK Zagreb": {
+      "ok": true,
+      "count": 63
     }
   },
   "concerts": [
@@ -1050,22 +1050,7 @@
       "link": "https://www.muzika.hr/event/nu-genea-gia-nunez-nemanja-pula/",
       "source": "muzika.hr",
       "is_new": true,
-      "first_seen": "2026-07-15T05:01:38.320Z"
-    },
-    {
-      "id": "41fdcb0fab",
-      "title": "Sjemenište: Emo party",
-      "venue": "Mochvara",
-      "city": "Zagreb",
-      "country": "HR",
-      "category": "concert",
-      "date_iso": "2026-07-31T22:00:00",
-      "date_display": "pet, 31. 07. 2026.",
-      "time": "22:00",
-      "link": "https://mochvara.hr/event-detail/6a4e691b7406b17c5f0a48d3/?lang=hr",
-      "source": "Mochvara",
-      "is_new": true,
-      "first_seen": "2026-07-15T05:01:38.320Z"
+      "first_seen": "2026-07-15T05:01:38.837Z"
     },
     {
       "id": "bb48c15171",
@@ -2752,5 +2737,5 @@
       "first_seen": "2026-07-06T05:01:37.668Z"
     }
   ],
-  "new_count": 6
+  "new_count": 5
 }
