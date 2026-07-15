@@ -1,25 +1,25 @@
 {
-  "generated_at": "2026-07-15T20:01:41.725Z",
+  "generated_at": "2026-07-15T21:00:43.042Z",
   "stats": {
-    "muzika.hr": {
-      "ok": true,
-      "count": 25
-    },
     "Mochvara": {
       "ok": true,
       "count": 16
+    },
+    "Lisinski": {
+      "ok": true,
+      "count": 0
     },
     "Gavella": {
       "ok": true,
       "count": 0
     },
+    "muzika.hr": {
+      "ok": true,
+      "count": 25
+    },
     "Tvornica": {
       "ok": true,
       "count": 3
-    },
-    "Lisinski": {
-      "ok": true,
-      "count": 0
     },
     "ZeKaeM": {
       "ok": true,
@@ -29,17 +29,17 @@
       "ok": true,
       "count": 0
     },
-    "HNK Zagreb": {
+    "Pogon": {
       "ok": true,
-      "count": 63
+      "count": 0
     },
     "Kerempuh": {
       "ok": true,
       "count": 0
     },
-    "Pogon": {
+    "HNK Zagreb": {
       "ok": true,
-      "count": 0
+      "count": 63
     },
     "Trešnja": {
       "ok": true,
@@ -1023,6 +1023,36 @@
       "first_seen": "2026-07-15T05:01:38.837Z"
     },
     {
+      "id": "87e8984bb7",
+      "title": "Black Coffee",
+      "venue": "Black Coffee Arena Pula Flavijevska ulica",
+      "city": "Pula",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-07-31T00:00:00",
+      "date_display": "pet, 31. 07. 2026.",
+      "time": null,
+      "link": "https://www.muzika.hr/event/black-coffee-2/",
+      "source": "muzika.hr",
+      "is_new": true,
+      "first_seen": "2026-07-15T21:00:43.042Z"
+    },
+    {
+      "id": "3a5cf2915f",
+      "title": "Death Angel",
+      "venue": "Vintage Industrial Bar Savska ulica 160",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-07-31T00:00:00",
+      "date_display": "pet, 31. 07. 2026.",
+      "time": null,
+      "link": "https://www.muzika.hr/event/death-angel/",
+      "source": "muzika.hr",
+      "is_new": true,
+      "first_seen": "2026-07-15T21:00:43.042Z"
+    },
+    {
       "id": "41fdcb0fab",
       "title": "Sjemenište: Emo party",
       "venue": "Mochvara",
@@ -1036,6 +1066,36 @@
       "source": "Mochvara",
       "is_new": false,
       "first_seen": "2026-07-15T06:01:42.936Z"
+    },
+    {
+      "id": "f659da9696",
+      "title": "Sting",
+      "venue": "Sting Arena Pula Flavijevska ulica",
+      "city": "Pula",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-08-01T00:00:00",
+      "date_display": "sub, 01. 08. 2026.",
+      "time": null,
+      "link": "https://www.muzika.hr/event/sting-5/",
+      "source": "muzika.hr",
+      "is_new": true,
+      "first_seen": "2026-07-15T21:00:43.042Z"
+    },
+    {
+      "id": "491bb590d1",
+      "title": "MoDem Festival",
+      "venue": "MoDem Festival Slunj Slunj",
+      "city": "Croatia",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-08-03T00:00:00",
+      "date_display": "pon, 03. 08. 2026.",
+      "time": null,
+      "link": "https://www.muzika.hr/event/modem-festival/",
+      "source": "muzika.hr",
+      "is_new": true,
+      "first_seen": "2026-07-15T21:00:43.042Z"
     },
     {
       "id": "bb48c15171",
@@ -2722,5 +2782,5 @@
       "first_seen": "2026-07-06T05:01:37.668Z"
     }
   ],
-  "new_count": 4
+  "new_count": 8
 }
