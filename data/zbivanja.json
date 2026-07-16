@@ -1,14 +1,6 @@
 {
-  "generated_at": "2026-07-16T11:01:40.417Z",
+  "generated_at": "2026-07-16T11:24:53.922Z",
   "stats": {
-    "Mochvara": {
-      "ok": true,
-      "count": 0
-    },
-    "Pogon": {
-      "ok": true,
-      "count": 0
-    },
     "muzika.hr": {
       "ok": true,
       "count": 25
@@ -21,13 +13,29 @@
       "ok": true,
       "count": 0
     },
-    "ZeKaeM": {
+    "Mochvara": {
       "ok": true,
-      "count": 0
+      "count": 16
     },
     "Tvornica": {
       "ok": true,
       "count": 3
+    },
+    "ZeKaeM": {
+      "ok": true,
+      "count": 0
+    },
+    "Komedija": {
+      "ok": false,
+      "error": "HTTP 500"
+    },
+    "HNK Zagreb": {
+      "ok": true,
+      "count": 64
+    },
+    "Pogon": {
+      "ok": true,
+      "count": 0
     },
     "Kerempuh": {
       "ok": true,
@@ -36,14 +44,6 @@
     "Trešnja": {
       "ok": true,
       "count": 0
-    },
-    "Komedija": {
-      "ok": true,
-      "count": 0
-    },
-    "HNK Zagreb": {
-      "ok": true,
-      "count": 63
     }
   },
   "concerts": [
@@ -1653,6 +1653,21 @@
       "first_seen": "2026-06-19T13:01:15.860Z"
     },
     {
+      "id": "cfc09ebbf4",
+      "title": "Dmitrij Šostakovič / Gioachino Rossini — Mauro Bigonzetti KAZIMIR’S COLOURS / ROSSINI CARDS",
+      "venue": "HNK Zagreb",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-10-02T19:30:00",
+      "date_display": "pet, 02. 10. 2026.",
+      "time": "19:30",
+      "link": "https://hnk.hr/hr/balet/predstave/kazimirs-colours-rossini-cards/#02.10.19.30",
+      "source": "HNK Zagreb",
+      "is_new": true,
+      "first_seen": "2026-07-16T11:24:53.922Z"
+    },
+    {
       "id": "e3350b5615",
       "title": "Razgled kazališta 165 sezona iza kulisa",
       "venue": "HNK Zagreb",
@@ -1698,6 +1713,21 @@
       "first_seen": "2026-06-19T13:01:15.860Z"
     },
     {
+      "id": "bdd9c69d47",
+      "title": "Dmitrij Šostakovič / Gioachino Rossini — Mauro Bigonzetti KAZIMIR’S COLOURS / ROSSINI CARDS",
+      "venue": "HNK Zagreb",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-10-03T18:00:00",
+      "date_display": "sub, 03. 10. 2026.",
+      "time": "18:00",
+      "link": "https://hnk.hr/hr/balet/predstave/kazimirs-colours-rossini-cards/#03.10.18.00",
+      "source": "HNK Zagreb",
+      "is_new": true,
+      "first_seen": "2026-07-16T11:24:53.922Z"
+    },
+    {
       "id": "8dadea5221",
       "title": "Gioachino Rossini / Dmitrij Šostakovič — Mauro Bigonzetti ROSSINI CARDS / KAZIMIR’S COLOURS",
       "venue": "HNK Zagreb",
@@ -1726,6 +1756,21 @@
       "source": "HNK Zagreb",
       "is_new": false,
       "first_seen": "2026-07-02T11:01:20.410Z"
+    },
+    {
+      "id": "e499af7517",
+      "title": "Dmitrij Šostakovič / Gioachino Rossini — Mauro Bigonzetti KAZIMIR’S COLOURS / ROSSINI CARDS",
+      "venue": "HNK Zagreb",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-10-05T19:30:00",
+      "date_display": "pon, 05. 10. 2026.",
+      "time": "19:30",
+      "link": "https://hnk.hr/hr/balet/predstave/kazimirs-colours-rossini-cards/#05.10.19.30",
+      "source": "HNK Zagreb",
+      "is_new": true,
+      "first_seen": "2026-07-16T11:24:53.922Z"
     },
     {
       "id": "d1015ce055",
@@ -1773,6 +1818,21 @@
       "first_seen": "2026-07-02T11:01:20.410Z"
     },
     {
+      "id": "7163e54b69",
+      "title": "Dmitrij Šostakovič / Gioachino Rossini — Mauro Bigonzetti KAZIMIR’S COLOURS / ROSSINI CARDS",
+      "venue": "HNK Zagreb",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-10-09T19:30:00",
+      "date_display": "pet, 09. 10. 2026.",
+      "time": "19:30",
+      "link": "https://hnk.hr/hr/balet/predstave/kazimirs-colours-rossini-cards/#09.10.19.30",
+      "source": "HNK Zagreb",
+      "is_new": true,
+      "first_seen": "2026-07-16T11:24:53.922Z"
+    },
+    {
       "id": "e2f4df1279",
       "title": "Razgled kazališta 165 sezona iza kulisa – kombinirani razgled HNK-a i HNK2",
       "venue": "HNK Zagreb",
@@ -1816,6 +1876,21 @@
       "source": "HNK Zagreb",
       "is_new": false,
       "first_seen": "2026-07-02T11:01:20.410Z"
+    },
+    {
+      "id": "30f119750b",
+      "title": "Dmitrij Šostakovič / Gioachino Rossini — Mauro Bigonzetti KAZIMIR’S COLOURS / ROSSINI CARDS",
+      "venue": "HNK Zagreb",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-10-10T18:00:00",
+      "date_display": "sub, 10. 10. 2026.",
+      "time": "18:00",
+      "link": "https://hnk.hr/hr/balet/predstave/kazimirs-colours-rossini-cards/#10.10.18.00",
+      "source": "HNK Zagreb",
+      "is_new": true,
+      "first_seen": "2026-07-16T11:24:53.922Z"
     },
     {
       "id": "30e9cced67",
@@ -2056,6 +2131,21 @@
       "source": "HNK Zagreb",
       "is_new": false,
       "first_seen": "2026-07-02T15:01:22.773Z"
+    },
+    {
+      "id": "857dbe7c06",
+      "title": "Dmitrij Šostakovič / Gioachino Rossini — Mauro Bigonzetti KAZIMIR’S COLOURS / ROSSINI CARDS Gostovanje u SNG-u Opera in Balet Ljubljana",
+      "venue": "HNK Zagreb",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-10-25T19:30:00",
+      "date_display": "ned, 25. 10. 2026.",
+      "time": "19:30",
+      "link": "https://hnk.hr/hr/balet/predstave/kazimirs-colours-rossini-cards/#25.10.19.30",
+      "source": "HNK Zagreb",
+      "is_new": true,
+      "first_seen": "2026-07-16T11:24:53.922Z"
     },
     {
       "id": "63dead28a0",
@@ -2450,6 +2540,21 @@
       "first_seen": "2026-07-02T15:01:22.773Z"
     },
     {
+      "id": "bf4df8d87d",
+      "title": "Prema motivima Carmen Georgesa Bizeta u režiji Zane Hoxhe - Slovensko mladinsko gledališče, Ljubljana NE CARMEN!",
+      "venue": "HNK Zagreb",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "theater",
+      "date_iso": "2026-10-20T19:30:00",
+      "date_display": "uto, 20. 10. 2026.",
+      "time": "19:30",
+      "link": "https://hnk.hr/hr/drama/predstave/ne-carmen/#20.10.19.30",
+      "source": "HNK Zagreb",
+      "is_new": true,
+      "first_seen": "2026-07-16T11:24:53.922Z"
+    },
+    {
       "id": "aea190ea79",
       "title": "Friedrich Schiller MARIA STUART",
       "venue": "HNK Zagreb",
@@ -2767,5 +2872,5 @@
       "first_seen": "2026-07-06T05:01:37.668Z"
     }
   ],
-  "new_count": 4
+  "new_count": 11
 }
