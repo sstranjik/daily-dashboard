@@ -1,15 +1,15 @@
 {
   "version": 2,
-  "date": "2026-07-15",
-  "generated_at": "2026-07-15T07:12:44.691Z",
-  "date_hr": "Srijeda, 15. srpnja 2026.",
+  "date": "2026-07-16",
+  "generated_at": "2026-07-16T05:03:24.300Z",
+  "date_hr": "Četvrtak, 16. srpnja 2026.",
   "weather": {
-    "icon": "☁️",
-    "summary": "22–33°C, oblačno",
+    "icon": "🌦️",
+    "summary": "24–30°C, pljuskovi · 0.6 mm",
     "alerts": []
   },
   "fuel": {
-    "current_date": "15.07.2026",
+    "current_date": "16.07.2026",
     "eurodiesel": [
       {
         "company": "Adria Oil",
@@ -63,46 +63,46 @@
     "upcoming_premium": null
   },
   "market": {
-    "updated_at": "2026-07-15T07:12:44.691Z",
-    "btc_usd": 64777,
-    "btc_eur": 56679,
-    "btc_change_24h": 3.66,
-    "usd_eur": 0.8758
+    "updated_at": "2026-07-16T05:03:24.300Z",
+    "btc_usd": 64557,
+    "btc_eur": 56301,
+    "btc_change_24h": -0.23,
+    "usd_eur": 0.8734
   },
   "ai_news": [
     {
-      "title": "OpenAI&#8217;s first hardware device is reportedly a screenless speaker that can move",
-      "link": "https://techcrunch.com/2026/07/14/openais-first-hardware-device-is-reportedly-a-screenless-speaker-that-can-move/",
-      "source": "TechCrunch AI"
-    },
-    {
-      "title": "OpenAI&#8217;s new flagship model deletes files on its own, people keep warning",
-      "link": "https://techcrunch.com/2026/07/14/openais-new-flagship-model-deletes-files-on-its-own-people-keep-warning/",
-      "source": "TechCrunch AI"
-    },
-    {
-      "title": "OpenAI may announce a ChatGPT smart speaker this year",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/965670/openai-chatgpt-ai-smart-speaker-hardware-device",
-      "source": "The Verge"
-    },
-    {
-      "title": "1Password moves into AI cost management, betting that token spend is the next enterprise budget crisis",
-      "link": "https://venturebeat.com/security/1password-moves-into-ai-cost-management-betting-that-token-spend-is-the-next-enterprise-budget-crisis",
+      "title": "Agentic orchestration: Enterprise AI organizations have a deployment problem, not a platform problem — and most are calling chatbots agents",
+      "link": "https://venturebeat.com/ai/agentic-orchestration-enterprise-ai-organizations-have-a-deployment-problem-not-a-platform-problem-and-most-are-calling-chatbots-agents",
       "source": "VentureBeat"
     },
     {
-      "title": "Canada’s banking regulator named Claude Mythos in a warning to banks",
-      "link": "https://thenextweb.com/news/osfi-canada-banks-claude-mythos-warning",
+      "title": "Microsoft is reportedly training salespeople to talk down OpenAI and Anthropic",
+      "link": "https://techcrunch.com/2026/07/15/microsoft-is-reportedly-training-salespeople-to-talk-down-openai-and-anthropic/",
+      "source": "TechCrunch AI"
+    },
+    {
+      "title": "Thinking Machines open sources first multimodal language model, Inkling, focused on low cost and 'resistance to censorship'",
+      "link": "https://venturebeat.com/technology/thinking-machines-open-sources-first-multimodal-language-model-inkling-focused-on-low-cost-and-resistance-to-censorship",
+      "source": "VentureBeat"
+    },
+    {
+      "title": "OpenAI is showing Kalshi’s World Cup odds inside ChatGPT, its first prediction market deal",
+      "link": "https://thenextweb.com/news/openai-kalshi-chatgpt-world-cup-prediction-markets",
       "source": "The Next Web"
+    },
+    {
+      "title": "Amid hardware legal battle, OpenAI releases a $230 keyboard for Codex",
+      "link": "https://techcrunch.com/2026/07/15/amid-hardware-legal-battle-openai-releases-a-230-keyboard-for-codex/",
+      "source": "TechCrunch AI"
     }
   ],
   "micro_tips": {
     "vscode": {
-      "tip": "Command Palette: brzi pristup svim komandama",
-      "keys": "Ctrl+Shift+P"
+      "tip": "Rename Symbol svuda u projektu (refactoring)",
+      "keys": "F2"
     },
-    "sql": "GROUP BY s ROLLUP za subtotale u jednom prolasku: GROUP BY ROLLUP(god, mj)",
-    "oracle": "TRUNC(datum_kolona) = TRUNC(SYSDATE) koristi B-tree index na datumskoj koloni",
-    "regex": "\\d{4}-\\d{2}-\\d{2} ISO datum pattern; za validaciju zatvori s ^...$"
+    "sql": "NOT EXISTS brži od NOT IN kad subquery može vratiti NULL vrijednost",
+    "oracle": "DBMS_STATS.GATHER_TABLE_STATS osvježava statistike za točniji execution plan",
+    "regex": "(?i) inline flag za case-insensitive bez mijenjanja ostatka patternahe"
   }
 }
