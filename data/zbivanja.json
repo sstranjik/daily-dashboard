@@ -1,25 +1,17 @@
 {
-  "generated_at": "2026-07-16T12:01:39.966Z",
+  "generated_at": "2026-07-16T13:01:38.703Z",
   "stats": {
-    "Mochvara": {
-      "ok": true,
-      "count": 0
-    },
-    "Pogon": {
-      "ok": true,
-      "count": 0
-    },
     "muzika.hr": {
       "ok": true,
       "count": 25
     },
-    "ZeKaeM": {
-      "ok": true,
-      "count": 0
-    },
     "Lisinski": {
       "ok": true,
       "count": 0
+    },
+    "Mochvara": {
+      "ok": true,
+      "count": 16
     },
     "Gavella": {
       "ok": true,
@@ -29,11 +21,7 @@
       "ok": true,
       "count": 3
     },
-    "Kerempuh": {
-      "ok": true,
-      "count": 0
-    },
-    "Trešnja": {
+    "ZeKaeM": {
       "ok": true,
       "count": 0
     },
@@ -44,6 +32,18 @@
     "HNK Zagreb": {
       "ok": true,
       "count": 65
+    },
+    "Pogon": {
+      "ok": true,
+      "count": 0
+    },
+    "Kerempuh": {
+      "ok": true,
+      "count": 0
+    },
+    "Trešnja": {
+      "ok": true,
+      "count": 0
     }
   },
   "concerts": [
@@ -2054,7 +2054,7 @@
       "time": "10:30",
       "link": "https://hnk.hr/hr/opera/predstave/opera-rosa/#23.10.10.30",
       "source": "HNK Zagreb",
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-07-16T12:01:39.966Z"
     },
     {
@@ -2887,5 +2887,5 @@
       "first_seen": "2026-07-06T05:01:37.668Z"
     }
   ],
-  "new_count": 6
+  "new_count": 5
 }
