@@ -1,29 +1,29 @@
 {
-  "generated_at": "2026-07-15T21:00:43.042Z",
+  "generated_at": "2026-07-16T05:01:38.606Z",
   "stats": {
-    "Mochvara": {
+    "muzika.hr": {
       "ok": true,
-      "count": 16
-    },
-    "Lisinski": {
-      "ok": true,
-      "count": 0
+      "count": 25
     },
     "Gavella": {
       "ok": true,
       "count": 0
     },
-    "muzika.hr": {
+    "Lisinski": {
       "ok": true,
-      "count": 25
+      "count": 0
     },
-    "Tvornica": {
+    "Mochvara": {
       "ok": true,
-      "count": 3
+      "count": 16
     },
     "ZeKaeM": {
       "ok": true,
       "count": 0
+    },
+    "Tvornica": {
+      "ok": true,
+      "count": 3
     },
     "Komedija": {
       "ok": true,
@@ -33,13 +33,13 @@
       "ok": true,
       "count": 0
     },
-    "Kerempuh": {
-      "ok": true,
-      "count": 0
-    },
     "HNK Zagreb": {
       "ok": true,
       "count": 63
+    },
+    "Kerempuh": {
+      "ok": true,
+      "count": 0
     },
     "Trešnja": {
       "ok": true,
@@ -47,21 +47,6 @@
     }
   },
   "concerts": [
-    {
-      "id": "06a4b18838",
-      "title": "Author & Punisher Srijeda 1.7.2026.",
-      "venue": "Mochvara",
-      "city": "Zagreb",
-      "country": "HR",
-      "category": "concert",
-      "date_iso": "2026-07-01T00:00:00",
-      "date_display": "sri, 01. 07. 2026.",
-      "time": null,
-      "link": "https://mochvara.hr/event-detail/69a6ce5f8f3af0e39b71ab84/?lang=hr",
-      "source": "Mochvara",
-      "is_new": false,
-      "first_seen": "2026-05-26T20:26:55.235Z"
-    },
     {
       "id": "7a79b5ff76",
       "title": "Močvarni birc: Avangardno i ambijentalno",
@@ -1034,7 +1019,7 @@
       "time": null,
       "link": "https://www.muzika.hr/event/black-coffee-2/",
       "source": "muzika.hr",
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-07-15T21:00:43.042Z"
     },
     {
@@ -1049,7 +1034,7 @@
       "time": null,
       "link": "https://www.muzika.hr/event/death-angel/",
       "source": "muzika.hr",
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-07-15T21:00:43.042Z"
     },
     {
@@ -1079,7 +1064,7 @@
       "time": null,
       "link": "https://www.muzika.hr/event/sting-5/",
       "source": "muzika.hr",
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-07-15T21:00:43.042Z"
     },
     {
@@ -1094,8 +1079,23 @@
       "time": null,
       "link": "https://www.muzika.hr/event/modem-festival/",
       "source": "muzika.hr",
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-07-15T21:00:43.042Z"
+    },
+    {
+      "id": "749533e021",
+      "title": "Sjemenište: Emo party",
+      "venue": "Mochvara",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-08-21T22:00:00",
+      "date_display": "pet, 21. 08. 2026.",
+      "time": "22:00",
+      "link": "https://mochvara.hr/event-detail/6a4e69b97406b17c5f0ad71a/?lang=hr",
+      "source": "Mochvara",
+      "is_new": true,
+      "first_seen": "2026-07-16T05:01:38.606Z"
     },
     {
       "id": "bb48c15171",
@@ -2497,21 +2497,6 @@
   ],
   "abroad": [
     {
-      "id": "0701b20272",
-      "title": "Adam Ben Ezra Michael Olivera: Heavy Drops (Festival Lent 2026)",
-      "venue": "Maribor Maribor",
-      "city": "Slovenia",
-      "country": "EU",
-      "category": "concert",
-      "date_iso": "2026-07-01T00:00:00",
-      "date_display": "sri, 01. 07. 2026.",
-      "time": null,
-      "link": "https://www.muzika.hr/event/adam-ben-ezra-michael-olivera-heavy-drops-festival-lent-2026/",
-      "source": "muzika.hr",
-      "is_new": false,
-      "first_seen": "2026-06-16T22:04:38.460Z"
-    },
-    {
       "id": "959670e51b",
       "title": "Marc Ribot’s Ceramic Dog (Festival Lent 2026)",
       "venue": "Maribor Maribor",
@@ -2782,5 +2767,5 @@
       "first_seen": "2026-07-06T05:01:37.668Z"
     }
   ],
-  "new_count": 8
+  "new_count": 5
 }
