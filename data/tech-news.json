@@ -1,9 +1,117 @@
 {
-  "last_updated": "2026-07-17T17:01:18.751Z",
+  "last_updated": "2026-07-17T17:55:13.079Z",
   "source_count": 11,
   "items": [
     {
+      "id": "venturebeat-0",
+      "title": "Brex built its AI agent policy by watching what agents actually do, not by writing rules first",
+      "summary": "OpenClaw has become one of the most widely adopted agentic frameworks, but it has yet to prove itself at enterprise scale. Agents need real credentials — API keys, OAuth tokens, service accounts — to work effectively, and Brex found that traditional guardrails couldn&#x27;t contain what those agents",
+      "link": "https://venturebeat.com/orchestration/brex-built-its-ai-agent-policy-by-watching-what-agents-actually-do-not-by-writing-rules-first",
+      "published": "2026-07-17T17:49:19.000Z",
+      "source": "VentureBeat",
+      "category": "ai",
+      "xml_category": "orchestration",
+      "tags": [],
+      "image": "https://images.ctfassets.net/jdtwqhzvc2n1/2E6Z58IGkCWdoYTTSfOnXg/9f28eb7c0fa9d80bdd54b95242a2f091/VBXC2192.jpg?w=300&q=30"
+    },
+    {
+      "id": "techcrunch-ai-0",
+      "title": "How Apple&#8217;s big lawsuit could disrupt OpenAI&#8217;s IPO plans",
+      "summary": "Apple&#160;filed a trade secrets&#160;lawsuit against OpenAI&#160;last Friday, and&#160;it&#8217;s&#160;not messing around. The complaint alleges a pattern of misconduct reaching all the way up to OpenAI&#8217;s chief hardware officer and claims more than 400 former Apple employees now work at the c",
+      "link": "https://techcrunch.com/video/how-apples-big-lawsuit-could-disrupt-openais-ipo-plans/",
+      "published": "2026-07-17T17:45:46.000Z",
+      "source": "TechCrunch AI",
+      "category": "ai",
+      "xml_category": "ai",
+      "tags": [],
+      "image": null
+    },
+    {
       "id": "the-verge-0",
+      "title": "Apple’s plot to crush OpenAI",
+      "summary": "Apple is suing OpenAI. The complaint is readable and intense, as these things often are, though many experts seem to think many of the allegations are just the ways things are done. So what does Apple really want here, and why is it picking such a public fight with OpenAI? On this episode of The [&#",
+      "link": "https://www.theverge.com/podcast/967244/apple-openai-lawsuit-vergecast",
+      "published": "2026-07-17T17:41:32.000Z",
+      "source": "The Verge",
+      "category": "ai",
+      "xml_category": "[object object]",
+      "tags": [],
+      "image": null
+    },
+    {
+      "id": "zdnet-0",
+      "title": "Moonshot's open-source Kimi K3 model beats Anthropic's Fable 5 on this benchmark",
+      "summary": "Our AI Model Release Tracker keeps new models in context with their peers, so you know which are worth your time.",
+      "link": "https://www.zdnet.com/article/ai-model-release-tracker/",
+      "published": "2026-07-17T17:35:00.000Z",
+      "source": "ZDNet",
+      "category": "ai",
+      "xml_category": "",
+      "tags": [],
+      "image": null
+    },
+    {
+      "id": "zdnet-1",
+      "title": "This Levoit is the best smart air purifier I've tested (and it's on sale)",
+      "summary": "The Levoit Vital 200S-P is the smart air purifier to beat, with a washable prefilter and a capacity to clean up to 1,800 square feet in one hour.",
+      "link": "https://www.zdnet.com/article/levoit-vital-200s-p-smart-air-purifier-deal/",
+      "published": "2026-07-17T17:32:42.000Z",
+      "source": "ZDNet",
+      "category": "ai",
+      "xml_category": "",
+      "tags": [],
+      "image": null
+    },
+    {
+      "id": "tportal-0",
+      "title": "Almi Boch i brigadiru Devčiću određen istražni zatvor, oglasio se njegov odvjetnik",
+      "summary": "Uskok je u petak, nakon prijave vojne policije, pokrenuo istragu protiv bivšeg šefa nabave Ministarstva obrane brigadira Ivice Devčića i vlasnice tvrtke Design vision Alme Boch i za oboje zatražio istražni zatvor. Dvojac je jučer uhićen, danas ispitan, te mu je na zahtjev USKOK-a određen istražni za",
+      "link": "https://www.tportal.hr/tehno/clanak/almi-boch-i-brigadiru-devcicu-odreden-istrazni-zatvor-oglasio-se-njegov-odvjetnik-20260717",
+      "published": "2026-07-17T17:25:00.000Z",
+      "source": "Tportal",
+      "category": "general",
+      "xml_category": "tech",
+      "tags": [],
+      "image": "https://www.tportal.hr/media/thumbnail/500x300/2768327.jpeg?cropId=0"
+    },
+    {
+      "id": "the-next-web-0",
+      "title": "Palantir’s CEO predicts AI will make him 20x richer while middle-class workers get modest raises",
+      "summary": "Palantir CEO Alex Karp estimated that AI could make him “20x wealthier,“ implying a fortune approaching $300 billion, up from roughly $15 billion today. Middle-class workers, he said, might simply see their salaries double over the next decade. Karp called the disparity “a complete decoupling of uni",
+      "link": "https://thenextweb.com/news/palantir-karp-20x-richer-ai-wealth-inequality",
+      "published": "2026-07-17T17:19:30.000Z",
+      "source": "The Next Web",
+      "category": "ai",
+      "xml_category": "artificial intelligence",
+      "tags": [],
+      "image": "https://media.thenextweb.com/2026/07/palantir-karp-20x-richer-ai-wealth-inequality.avif"
+    },
+    {
+      "id": "the-next-web-1",
+      "title": "Trump’s AI advisor says Kimi K3 shows “how you lose the AI race.” Khosla blames immigration. Marcus wants a congressional investigation.",
+      "summary": "Moonshot AI’s Kimi K3 topped Arena’s frontend coding leaderboard within 24 hours of launch, ahead of Anthropic’s Claude Fable 5 and OpenAI’s GPT-5.6 Sol. It placed third on Artificial Analysis’s Intelligence Index. The reaction from Washington, Wall Street, and academia was swift and pointed. TNW co",
+      "link": "https://thenextweb.com/news/kimi-k3-reactions-sacks-khosla-marcus-ai-race",
+      "published": "2026-07-17T16:52:48.000Z",
+      "source": "The Next Web",
+      "category": "ai",
+      "xml_category": "artificial intelligence",
+      "tags": [],
+      "image": "https://media.thenextweb.com/2026/07/kimi-k3-reactions-sacks-khosla-marcus-ai-race.avif"
+    },
+    {
+      "id": "tportal-1",
+      "title": "Jedan čovjek upravljat će cijelim rojem: Nova zvijezda europske obrane nisu borbeni avioni",
+      "summary": "Europa posljednjih godina jača obranu kao odgovor na rusku invaziju na Ukrajinu, a pritom je sve jasnije to da se budućnost ratovanja neće graditi samo na tenkovima, borbenim zrakoplovima i projektilima. Sve više ulaganja usmjerava se na dronove, umjetnu inteligenciju i autonomne sustave te oni post",
+      "link": "https://www.tportal.hr/tehno/clanak/jedan-covjek-upravljat-ce-cijelim-rojem-nova-zvijezda-europske-obrane-nisu-borbeni-avioni-20260717",
+      "published": "2026-07-17T16:51:00.000Z",
+      "source": "Tportal",
+      "category": "general",
+      "xml_category": "tech",
+      "tags": [],
+      "image": "https://www.tportal.hr/media/thumbnail/500x300/2693883.jpeg?cropId=4009647"
+    },
+    {
+      "id": "the-verge-1",
       "title": "Asus’ top-end 4K QD-OLED gaming monitor is $400 off",
       "summary": "The Asus ROG Swift 32-inch 4K QD-OLED gaming monitor has almost everything I want in a high-end gaming monitor, most notably a QD-OLED panel for inky black levels and vivid colors that go beyond what’s possible on an LCD screen. Amazon, Best Buy, and B&#38;H Photo have this model on sale for $899.99",
       "link": "https://www.theverge.com/gadgets/966907/asus-rog-swift-qd-oled-marathon-steam-deal-sale",
@@ -15,7 +123,7 @@
       "image": null
     },
     {
-      "id": "zdnet-0",
+      "id": "zdnet-2",
       "title": "This air purifier is helping keep my home's air free of wildfire smoke - and it's on sale",
       "summary": "Get cleaner air for less with the Blueair Blue Pure 211i Max air purifier for 20% off on Amazon right now.",
       "link": "https://www.zdnet.com/article/blueair-blue-pure-211i-max-air-purifier-deal/",
@@ -27,7 +135,7 @@
       "image": null
     },
     {
-      "id": "zdnet-1",
+      "id": "zdnet-3",
       "title": "Dell XPS 16 review: A sleek, high-end laptop perfect for creatives and professionals",
       "summary": "Dell's XPS 16 screams 'Premium laptop' thanks to its sleek design, OLED screen, and powerful hardware.",
       "link": "https://www.zdnet.com/article/dell-xps-16-review/",
@@ -39,7 +147,7 @@
       "image": null
     },
     {
-      "id": "the-next-web-0",
+      "id": "the-next-web-2",
       "title": "Amazon’s Zoox recalls 105 robotaxis after one drove into heavy smoke at an active fire scene",
       "summary": "Amazon’s Zoox voluntarily recalled software in 105 of its robotaxis after an unoccupied vehicle drove into heavy smoke at an active emergency fire scene in Las Vegas on June 20. The smoke obscured the scene, which had not been cordoned off with cones. The vehicle entered, braked hard while attemptin",
       "link": "https://thenextweb.com/news/zoox-recall-robotaxi-smoke-first-responders",
@@ -63,7 +171,7 @@
       "image": "https://www.bug.hr/img/bungie-iduci-tjedan-krece-s-testiranjem-pve-nacina-igranja-u-marathonu_6ob5WP.jpg"
     },
     {
-      "id": "the-next-web-1",
+      "id": "the-next-web-3",
       "title": "China will tax lithium and solar batteries for the first time in a decade, but sodium batteries stay exempt",
       "summary": "China will impose a consumption tax on lithium-ion and solar batteries for the first time in a decade, marking a policy shift as Beijing seeks to rein in overcapacity and destructive price wars in industries it spent years subsidising into global dominance. A 2% tax on lithium-ion batteries takes ef",
       "link": "https://thenextweb.com/news/china-consumption-tax-lithium-solar-batteries-sodium-exempt",
@@ -75,7 +183,7 @@
       "image": "https://media.thenextweb.com/2026/07/china-consumption-tax-lithium-solar-batteries-sodium-exempt.avif"
     },
     {
-      "id": "the-verge-1",
+      "id": "the-verge-2",
       "title": "Samsung&#8217;s redesigned Z Fold 8 with a wide display just leaked",
       "summary": "Leaker Evan Blass shared images of Samsung's redesigned Galaxy Z Fold 8 just days before the July 22nd launch event where Samsung is expected to officially announce the phone. The leaked images show a shorter, wider foldable matching earlier leaks of the Z Fold 8. They also reveal some of its specs,",
       "link": "https://www.theverge.com/tech/967198/samsung-galaxy-z-fold-8-images-specs-leak",
@@ -87,7 +195,7 @@
       "image": null
     },
     {
-      "id": "the-verge-2",
+      "id": "the-verge-3",
       "title": "Is America ready for this quirky Jeep-looking EV that can park itself?",
       "summary": "Are we living through a small car renaissance? There's the Slate Truck, Amble's dune buggy, and the Fiat Topolino, as well as a whole galaxy of kei cars and trucks from Japan that have their own built-in fan base. While microcar sales in the US are still as tiny as the vehicles themselves, there are",
       "link": "https://www.theverge.com/transportation/966498/chip-motors-low-speed-ev-remote-park-price",
@@ -99,7 +207,7 @@
       "image": null
     },
     {
-      "id": "the-next-web-2",
+      "id": "the-next-web-4",
       "title": "ASML will give every employee a €20,000 bonus as AI demand drives record sales",
       "summary": "ASML will give all employees globally a one-time €20,000 ($22,862) share award, the company confirmed on Friday. The bonus vests on January 1, 2030, for staff who remain with the company for the entire period. About 45,000 people work at Europe’s most valuable company. The payout joins a wave of AI-",
       "link": "https://thenextweb.com/news/asml-20000-bonus-all-employees-ai-boom",
@@ -111,7 +219,7 @@
       "image": "https://media.thenextweb.com/2026/07/asml-20000-bonus-all-employees-ai-boom.avif"
     },
     {
-      "id": "the-verge-3",
+      "id": "the-verge-4",
       "title": "Florida man arrested for allegedly stealing over $200,000 in crypto using Steam game malware",
       "summary": "Federal authorities have arrested a Florida man suspected of stealing at least $220,000 in crypto through malware-infected Steam games, as reported earlier by local news outlet Local10. In the complaint, officials accuse 21-year-old Zyaire Wilkins and co-conspirators of launching eight malware-embed",
       "link": "https://www.theverge.com/games/967174/steam-game-malware-cryptostealer-arrest",
@@ -123,7 +231,7 @@
       "image": null
     },
     {
-      "id": "techcrunch-ai-0",
+      "id": "techcrunch-ai-1",
       "title": "Patreon stops asking AI bots not to scrape — and starts blocking them",
       "summary": "Patreon is strengthening its defenses against AI scraping by working with Cloudflare to block bots that train AI models on creators’ content without permission. The move marks a shift away from relying on websites using robots.txt alone to actively block unauthorized AI training.",
       "link": "https://techcrunch.com/2026/07/17/patreon-stops-asking-ai-bots-not-to-scrape-and-starts-blocking-them/",
@@ -135,7 +243,7 @@
       "image": null
     },
     {
-      "id": "the-next-web-3",
+      "id": "the-next-web-5",
       "title": "While everyone builds chatbots, SAP just closed a €1bn-plus bet on AI that understands your spreadsheets",
       "summary": "The AI industry is obsessed with models that write and talk. SAP has just completed a large bet on a different kind entirely, one built for structured data, as its acquisition of Prior Labs closed. The deal is now done, with regulatory approvals secured and the Freiburg-based lab operating inside SA",
       "link": "https://thenextweb.com/news/sap-prior-labs-tabular-ai-deal-closed",
@@ -147,7 +255,7 @@
       "image": "https://media.thenextweb.com/2026/07/sap-prior-labs-tabular-ai-deal-closed.avif"
     },
     {
-      "id": "the-next-web-4",
+      "id": "the-next-web-6",
       "title": "Agentic AI is moving from drafting doctors’ notes to routing their patients. Bunkerhill just raised on it.",
       "summary": "A healthcare AI startup has raised fresh funding to push AI agents deeper into hospital operations. Bunkerhill Health closed a Series B led by Khosla Ventures, bringing total funding to $55m, HIT Consultant reports. The pitch is a platform, not a product. Its Carebricks system lets health systems bu",
       "link": "https://thenextweb.com/news/bunkerhill-health-agentic-ai-carebricks-series-b",
@@ -183,7 +291,7 @@
       "image": "https://www.bug.hr/img/hdmi-20-vs-hdmi-21-koje-su-razlike-i-koji-odabrati_-ESV5F.png"
     },
     {
-      "id": "the-next-web-5",
+      "id": "the-next-web-7",
       "title": "The AI boom’s least glamorous winner just filed for a $5bn listing, and it wires Google and Amazon’s data centres",
       "summary": "While attention fixes on Nvidia and the AI models, the companies quietly wiring the data centres together are booming. Eoptolink, a Chinese maker of high-speed optical transceivers, has filed for a Hong Kong listing that could raise up to $5bn, Bloomberg reports. The plan is a secondary listing on t",
       "link": "https://thenextweb.com/news/eoptolink-5bn-hong-kong-listing-ai-optical",
@@ -195,7 +303,7 @@
       "image": "https://media.thenextweb.com/2026/07/eoptolink-5bn-hong-kong-listing-ai-optical.avif"
     },
     {
-      "id": "zdnet-2",
+      "id": "zdnet-4",
       "title": "I tested this backup power station during a real blackout - don't make my mistakes",
       "summary": "A real three-day blackout revealed problems I never would've found on a power station's spec sheet.",
       "link": "https://www.zdnet.com/article/i-tested-backup-power-station-during-blackout-dont-make-my-mistakes/",
@@ -207,7 +315,7 @@
       "image": null
     },
     {
-      "id": "the-verge-4",
+      "id": "the-verge-5",
       "title": "Over half a million power tool batteries have been recalled due to a USB-C charging fire risk",
       "summary": "Greenworks Tools has issued a recall for around 554,780 Kobalt-branded power tools designed for yard work because of a battery issue \"posing a risk of serious injury from fire hazard.\" There have been 34 reports of the tool's batteries \"producing smoke, sparking or catching fire while the batteries ",
       "link": "https://www.theverge.com/tech/967049/greenworks-kobalt-power-tools-lithium-ion-battery-recall",
@@ -231,7 +339,7 @@
       "image": "https://autonet.bug.hr/img/zagrebacka-policija-nastavlja-s-oduzimanjem-nepropisnih-elektricnih-romobila_fsZAaq.jpg"
     },
     {
-      "id": "zdnet-3",
+      "id": "zdnet-5",
       "title": "I wore 3 blood pressure watches for a month to find the most accurate - and this one wins",
       "summary": "I tested Samsung, Amazfit, and Doctor Fit blood pressure watches - and only one rivaled my Garmin Index BP Monitor.",
       "link": "https://www.zdnet.com/article/blood-pressure-watches-samsung-amazfit-yhe/",
@@ -243,7 +351,7 @@
       "image": null
     },
     {
-      "id": "zdnet-4",
+      "id": "zdnet-6",
       "title": "5 underrated iOS 27 features that make my iPhone way better - and none are Siri AI",
       "summary": "Some of my favorite new features in iOS 27 are flying under the radar, but no less impactful.",
       "link": "https://www.zdnet.com/article/i-used-ios-27-for-a-month-and-these-5-non-siri-ai-features-are-already-making-my-life-easier/",
@@ -255,7 +363,7 @@
       "image": null
     },
     {
-      "id": "the-next-web-6",
+      "id": "the-next-web-8",
       "title": "A Chinese open-source model just triggered another AI selloff. The panic says more about US spending than about Kimi.",
       "summary": "A new Chinese AI model has rattled global markets, sending tech and chip stocks sharply lower. Moonshot’s Kimi K3 surprised investors and helped fuel a broad selloff, Bloomberg reports. Traders quickly labelled it a “Kimi moment”, echoing the DeepSeek shock of early 2025. The comparison is doing a l",
       "link": "https://thenextweb.com/news/kimi-k3-china-ai-tech-rout-selloff",
@@ -267,7 +375,7 @@
       "image": "https://media.thenextweb.com/2026/05/Moonshot-AI.avif"
     },
     {
-      "id": "the-verge-5",
+      "id": "the-verge-6",
       "title": "Bethesda teases Fallout 5 soon after Xbox’s mass layoffs",
       "summary": "Xbox is currently in a \"reset\" period that includes laying off around 3,200 employees over the next year, involving deep cuts at beloved studios like id Software and Obsidian Entertainment. Now, in an attempt to show that things are still running fine, the company has announced a slate of upcoming p",
       "link": "https://www.theverge.com/entertainment/966724/fallout-5-bethesda",
@@ -279,7 +387,19 @@
       "image": null
     },
     {
-      "id": "the-verge-6",
+      "id": "techcrunch-ai-2",
+      "title": "Apple&#8217;s lawsuit couldn&#8217;t come at a worse time for OpenAI",
+      "summary": "Apple&#160;filed a trade secrets&#160;lawsuit against OpenAI&#160;last Friday, and&#160;it&#8217;s&#160;not messing around. The complaint alleges a pattern of misconduct reaching all the way up to OpenAI&#8217;s chief hardware officer and claims more than 400 former Apple employees now work at the c",
+      "link": "https://techcrunch.com/podcast/apples-lawsuit-couldnt-come-at-a-worse-time-for-openai/",
+      "published": "2026-07-17T14:00:00.000Z",
+      "source": "TechCrunch AI",
+      "category": "ai",
+      "xml_category": "ai",
+      "tags": [],
+      "image": null
+    },
+    {
+      "id": "the-verge-7",
       "title": "The manosphere&#8217;s testosterone fever is coming for the troops",
       "summary": "This is Optimizer, a weekly newsletter sent from Verge senior reviewer Victoria Song that dissects and discusses the latest gizmos and potions that swear they're going to change your life. Opt in for Optimizer here. I was in the middle of writing a different Optimizer column this week when I learned",
       "link": "https://www.theverge.com/column/966770/optimizer-manosphere-testosterone-troops",
@@ -291,7 +411,7 @@
       "image": null
     },
     {
-      "id": "tportal-0",
+      "id": "tportal-2",
       "title": "Trump će naplaćivati brži pristup svojim objavama. Profesorica: &#039;To je oblik korupcije&#039;",
       "summary": "Medijska tvrtka američkog predsjednika Donalda Trumpa planira uvesti premium uslugu koja će korisnicima omogućiti brži pristup objavama na društvenoj mreži Truth Social. Usluga je prvenstveno namijenjena financijskim institucijama i trgovcima na burzi, koji bi tako mogli ranije reagirati na predsjed",
       "link": "https://www.tportal.hr/tehno/clanak/trump-truth-social-20260717",
@@ -303,7 +423,7 @@
       "image": "https://www.tportal.hr/media/thumbnail/500x300/2767556.jpeg?cropId=0"
     },
     {
-      "id": "zdnet-5",
+      "id": "zdnet-7",
       "title": "How to get a tax-free Mac, iPad, or iPhone in 8 states - but only on these dates",
       "summary": "Certain states will let you buy items tax-free from different retailers, and Apple is one of them. Here's when and the products that qualify.",
       "link": "https://www.zdnet.com/article/apple-products-tax-free-shopping/",
@@ -315,7 +435,7 @@
       "image": null
     },
     {
-      "id": "the-verge-7",
+      "id": "the-verge-8",
       "title": "Even Microsoft couldn’t make Windows 11 work well on 8GB of RAM",
       "summary": "Last year, Microsoft's 13-inch Surface Laptop quickly became one of my favorite thin-and-light Windows notebooks. At $900, it was easy to recommend to anyone wanting MacBook Air-like build quality and battery life on Windows - I even convinced my sister to buy one on sale. But that was last year. Th",
       "link": "https://www.theverge.com/tech/966937/microsoft-surface-laptop-13-inch-8gb-ram-2026-review",
@@ -327,7 +447,7 @@
       "image": null
     },
     {
-      "id": "the-next-web-7",
+      "id": "the-next-web-9",
       "title": "Why an AI browser might become part of your everyday life",
       "summary": "The browser you already use every day is learning how to help you get things done. On a typical evening, you might have twenty tabs open comparing two mattresses, a half-written message to your landlord, and a recipe you keep scrolling back to. Sound familiar? You’re not alone, and you’re not disorg",
       "link": "https://thenextweb.com/news/ai-browser-everyday-life-ace",
@@ -351,7 +471,7 @@
       "image": "https://www.bug.hr/img/sad-na-korak-do-ukidanja-pomicanja-sata-i-trajnog-prelaska-na-ljetno-racunanje_Tua8Cd.jpg"
     },
     {
-      "id": "zdnet-6",
+      "id": "zdnet-8",
       "title": "'The SaaS apocalypse is overrated': How Workday and other software provders plan to survive AI",
       "summary": "Experts warn that an extinction event is coming for SaaS, thanks to AI disintermediation. Here's why some vendors remain skeptical.",
       "link": "https://www.zdnet.com/article/saas-apocalypse-overrated-how-workday-and-software-provders-will-survive-ai/",
@@ -363,7 +483,7 @@
       "image": null
     },
     {
-      "id": "the-verge-8",
+      "id": "the-verge-9",
       "title": "Trump is selling high-speed access to his market-moving Truth Social posts",
       "summary": "Trump Media, the company behind Truth Social, is selling Wall Street faster access to the \"most market-moving\" posts on the US President's social media platform. On Thursday, Trump Media announced plans to launch \"Truth API,\" a licensed real time data feed for businesses that provides \"the fastest a",
       "link": "https://www.theverge.com/policy/967020/trump-truth-social-api-wall-street-traders",
@@ -387,7 +507,7 @@
       "image": "https://media.thenextweb.com/2026/07/BrainCo-WAIC-Brain-Controlled-Robot.avif"
     },
     {
-      "id": "techcrunch-ai-1",
+      "id": "techcrunch-ai-3",
       "title": "Why the first GPU financiers are turning to inference chips in a $400 million deal",
       "summary": "A $400 million chip-backed loan points to the next wave of AI infrastructure deals.",
       "link": "https://techcrunch.com/2026/07/17/why-the-first-gpu-financiers-are-turning-to-inference-chips-in-a-400-million-deal/",
@@ -483,7 +603,7 @@
       "image": "https://media.thenextweb.com/2024/07/Airbus_A350-100_48098816782.avif"
     },
     {
-      "id": "tportal-1",
+      "id": "tportal-3",
       "title": "U ChatGPT stižu važne promjene namijenjene tinejdžerima i roditeljima",
       "summary": "OpenAI želi ChatGPT učiniti sigurnijim za tinejdžere, a promjene idu daleko dalje od jednostavnog filtra sadržaja",
       "link": "https://www.tportal.hr/tehno/clanak/u-chatgpt-stizu-vazne-promjene-namijenjene-tinejdzerima-i-roditeljima-20260717",
@@ -603,7 +723,7 @@
       "image": null
     },
     {
-      "id": "tportal-2",
+      "id": "tportal-4",
       "title": "Nastao uz pomoć umjetne inteligencije: Ovo je skoro pa nevidljivi dron",
       "summary": "Tehnologija bi se mogla pokazati korisnom za primjene gdje uočljivost mijenja ponašanje. Ne sumnjamo kako će brzo naći i vojnu primjenu",
       "link": "https://www.tportal.hr/tehno/clanak/nastao-uz-pomoc-umjetne-inteligencije-ovo-je-skoro-pa-nevidljivi-dron-20260717",
@@ -663,7 +783,7 @@
       "image": "https://media.thenextweb.com/2026/07/syntetica-raises-30m.avif"
     },
     {
-      "id": "tportal-3",
+      "id": "tportal-5",
       "title": "Mick Jagger nije protiv umjetne inteligencije, sve dok se koristi kreativno",
       "summary": "Umjetnu inteligenciju vidi kao najnoviji korak u evoluciji tehnologije snimanja glazbe, jednu od mnogih promjena kojima je svjedočio tijekom svoje šest desetljeća duge karijere",
       "link": "https://www.tportal.hr/tehno/clanak/mick-jagger-nije-protiv-umjetne-inteligencije-sve-dok-se-koristi-kreativno-20260717",
@@ -675,7 +795,7 @@
       "image": "https://www.tportal.hr/media/thumbnail/500x300/2768119.jpeg?cropId=0"
     },
     {
-      "id": "tportal-4",
+      "id": "tportal-6",
       "title": "Srbija pristupila svemirskom programu NASA-e Artemis",
       "summary": "Srbija je u sjedištu NASA-e u Washingtonu službeno pristupila svemirskom programu Artemis, \"postavši 69 nacija koja se pridružila velikoj zajednici posvećenih mirnom, transparentnom i odgovornom istraživanju svemira\", objavio je taj program u četvrtak po lokalnom vremenu nakon pristupne ceremonije.",
       "link": "https://www.tportal.hr/tehno/clanak/srbija-usla-u-nasa-in-svemirski-program-suradivat-ce-sa-69-nacija-20260717",
@@ -699,7 +819,7 @@
       "image": "https://media.thenextweb.com/2026/07/coca-cola-fairlife.avif"
     },
     {
-      "id": "zdnet-7",
+      "id": "zdnet-9",
       "title": "Own a Pixel? You can add device protection now for $5/month - but should you?",
       "summary": "If you skipped Google's phone insurance at checkout, you can now add it again. But should you?",
       "link": "https://www.zdnet.com/article/google-just-reopened-enrollment-to-add-pixel-care-plus-to-older-phones-heres-who-should-and-shouldnt-sign-up/",
@@ -879,7 +999,7 @@
       "image": "https://media.thenextweb.com/2026/07/Self-Wearing-Adaptive-Garments-KAIST.avif"
     },
     {
-      "id": "zdnet-8",
+      "id": "zdnet-10",
       "title": "I tested MSI's latest gaming laptop, and it works just as hard as it plays",
       "summary": "The Cyborg 15 is versatile enough to handle work, school, and the latest PC games.",
       "link": "https://www.zdnet.com/article/msi-cyborg-15-review/",
@@ -903,7 +1023,7 @@
       "image": "https://media.thenextweb.com/2026/07/Eoptolink-Technology.avif"
     },
     {
-      "id": "tportal-5",
+      "id": "tportal-7",
       "title": "EU: Google mora konkurentskim AI aplikacijama omogućiti dublji pristup Androidu",
       "summary": "Povlaštenost koju dobija Gemini ne odgovara europskim regulativama",
       "link": "https://www.tportal.hr/tehno/clanak/trumpov-teleprompter-se-kladio-na-trumpove-govore-sad-mu-prijete-otkaz-i-kazna-20260717",
@@ -951,7 +1071,7 @@
       "image": "https://media.thenextweb.com/2026/07/fora-travel-agent-platform-unicorn-ai-augment.avif"
     },
     {
-      "id": "tportal-6",
+      "id": "tportal-8",
       "title": "Netflix se pohvalio: Umjetna inteligencija korištena u preko 300 serija",
       "summary": "Kompanija se već neko vrijeme oslanja na generativne alate, a prema novom izvješću, tim se pothvatom odnedavno i hvali",
       "link": "https://www.tportal.hr/tehno/clanak/netflix-se-pohvalio-umjetna-inteligencija-koristena-u-preko-300-serija-20260717",
@@ -975,11 +1095,11 @@
       "image": "https://www.bug.hr/img/voda-tekucina-s-dvije-molekularne-osobnosti_BJU-bu.jpg"
     },
     {
-      "id": "tportal-7",
+      "id": "tportal-9",
       "title": "Jesu li Windowsi i vama odjednom pojeli pola gige memorije? Evo o čemu se radi",
       "summary": "Propust Capability Access Manager može dovesti do nestašice prostora za pohranu na računalima sa sustavom Windows 11 čak i kada ima dovoljno slobodnog prostora",
       "link": "https://www.tportal.hr/tehno/clanak/jesu-li-windowsi-i-vama-odjednom-pojeli-pola-gige-memorije-evo-o-cemu-se-radi-20260717",
-      "published": "2026-07-17T06:17:35.000Z",
+      "published": "2026-07-17T06:17:00.000Z",
       "source": "Tportal",
       "category": "general",
       "xml_category": "tech",
@@ -1011,7 +1131,7 @@
       "image": "https://www.bug.hr/img/office-2024-od-16--i-windows-11-pro-od-20--nadogradite-pc-pametnijim_tnW0zN.png"
     },
     {
-      "id": "tportal-8",
+      "id": "tportal-10",
       "title": "Novi test razotkriva opasne AI modele bez stvaranja ilegalnog sadržaja",
       "summary": "Generativni modeli umjetne inteligencije dostupni su u gotovo cijelom svijetu. I dok ih većina korisnika koristi za pomoć u poslu i svakodnevnom životu, neki s njima imaju zle namjere",
       "link": "https://www.tportal.hr/tehno/clanak/novi-test-razotkriva-opasne-ai-modele-bez-stvaranja-ilegalnog-sadrzaja-20260715",
@@ -1023,7 +1143,7 @@
       "image": "https://www.tportal.hr/media/thumbnail/500x300/2767097.jpeg?cropId=0"
     },
     {
-      "id": "tportal-9",
+      "id": "tportal-11",
       "title": "Kako AI utječe na karijere starijih zaposlenika? Jedni odlaze ranije, drugi rade dulje",
       "summary": "Trendovi u poslovnoj dinamici i dostupnim alatima omogućuju starijim zaposlenicima da dulje rade posao zbog kojeg bi inače otišli u mirovinu",
       "link": "https://www.tportal.hr/tehno/clanak/kako-ai-mijenja-karijere-nakon-starijih-zaposlenika-jedni-odlaze-ranije-drugi-rade-dulje-20260714",
@@ -1035,7 +1155,7 @@
       "image": "https://www.tportal.hr/media/thumbnail/500x300/2766357.jpeg?cropId=0"
     },
     {
-      "id": "tportal-10",
+      "id": "tportal-12",
       "title": "SpaceX u zadnji čas obustavio lansiranje rakete: Dio motora se nije pokrenuo",
       "summary": "Lansiranje SpaceX-ova raketa Starship prekinuto je u četvrtak u zadnji čas pred svoj 13. probni let iz Teksasa, odgodivši misiju za idući tjedan kako bi tvrtka istražila što je uzrokovalo prekid.",
       "link": "https://www.tportal.hr/tehno/clanak/spacex-u-zadnji-cas-obustavio-lansiranje-rakete-dio-motora-se-nije-pokrenuo-20260717",
@@ -1155,7 +1275,7 @@
       "image": null
     },
     {
-      "id": "tportal-11",
+      "id": "tportal-13",
       "title": "U hrvatskim bolnicama lijekove pripremaju roboti, sestrama ostaje više vremena za pacijente",
       "summary": "Roboti sve više preuzimaju dio posla u hrvatskim bolnicama. Umjesto medicinskih sestara, razvrstavaju i pripremaju terapiju za pacijente, čime se smanjuje mogućnost pogrešaka, a zdravstvenom osoblju ostavlja više vremena za izravnu skrb o bolesnicima. Sustav jedinične terapije vrijedan 23 milijuna e",
       "link": "https://www.tportal.hr/tehno/clanak/u-hrvatskim-bolnicama-lijekove-pripremaju-roboti-sestrama-ostaje-vise-vremena-za-pacijente-20260716",
@@ -1263,7 +1383,7 @@
       "image": "https://media.thenextweb.com/2026/07/tesla-ntsb-katy-crash-driver-overrode-fsd.avif"
     },
     {
-      "id": "tportal-12",
+      "id": "tportal-14",
       "title": "Slučajan udar meteora doveo do velikog otkrića: Pronađeni gradivni blokovi života iz svemira",
       "summary": "Meteor koji je pao na kuću u New Jerseyu mogao bi biti puno važniji nego što se to odmah mislilo",
       "link": "https://www.tportal.hr/tehno/clanak/slucajan-udar-meteora-doveo-do-velikog-otkrica-pronadeni-gradivni-blokovi-zivota-iz-svemira-20260716",
@@ -1275,7 +1395,7 @@
       "image": "https://www.tportal.hr/media/thumbnail/500x300/2767880.jpeg?cropId=0"
     },
     {
-      "id": "tportal-13",
+      "id": "tportal-15",
       "title": "Želite predložiti novi emoji? Nemate još puno vremena, evo kako to učiniti",
       "summary": "Odakle novi emojiji uopće dolaze? Što ako želite predložiti jedan ili njih nekoliko? Pogledajmo kako to funkcionira",
       "link": "https://www.tportal.hr/tehno/clanak/zelite-predloziti-novi-emoji-nemate-jos-puno-vremena-evo-kako-to-uciniti-20260716",
@@ -1311,7 +1431,7 @@
       "image": null
     },
     {
-      "id": "zdnet-9",
+      "id": "zdnet-11",
       "title": "4 surprise products we could see at Samsung Galaxy Unpacked (including the Galaxy Glasses)",
       "summary": "We're expecting some curveballs at Samsung's 2026 Galaxy Unpacked event. Here's everything we know.",
       "link": "https://www.zdnet.com/article/samsung-galaxy-unpacked-what-to-expect-2026/",
@@ -1335,7 +1455,7 @@
       "image": "https://media.thenextweb.com/2026/07/google-gemini-pro-delayed-coding-falls-short.avif"
     },
     {
-      "id": "venturebeat-0",
+      "id": "venturebeat-1",
       "title": "China’s Moonshot AI releases Kimi K3, the largest open-source model ever, rivaling top U.S. systems",
       "summary": "Moonshot AI, the Beijing-based artificial intelligence startup backed by Alibaba, on Thursday released Kimi K3 — a 2.8-trillion-parameter model that the company says is now the largest open-source AI model in the world, and one that benchmarks show performs neck-and-neck with the most powerful propr",
       "link": "https://venturebeat.com/technology/chinas-moonshot-ai-releases-kimi-k3-the-largest-open-source-model-ever-rivaling-top-u-s-systems",
@@ -1455,7 +1575,7 @@
       "image": "https://media.thenextweb.com/2026/07/gamestop-cohen-physical-games-irrelevant-ebay.avif"
     },
     {
-      "id": "venturebeat-1",
+      "id": "venturebeat-2",
       "title": "The AI compute gap: Enterprises are buying infrastructure faster than they can measure what it costs",
       "summary": "Across 107 enterprises, AI infrastructure spending is accelerating well ahead of the ability to see or steer its economics. Most organizations run their AI on a familiar base of hyperscalers and model-provider APIs, yet the next dollar is aimed at specialized compute almost none of them use today; a",
       "link": "https://venturebeat.com/ai/the-ai-compute-gap-enterprises-are-buying-infrastructure-faster-than-they-can-measure-what-it-costs",
@@ -1467,7 +1587,7 @@
       "image": "https://images.ctfassets.net/jdtwqhzvc2n1/65A33lcUi9p0nBSloUI1Wo/5e5d26295bc879f0ea8845cecac65504/VentureBeat-Research.png?w=300&q=30"
     },
     {
-      "id": "venturebeat-2",
+      "id": "venturebeat-3",
       "title": "The agent security gap: 54% of enterprises have already had an AI agent incident, and most still let agents share credentials",
       "summary": "Across 107 enterprises, AI agents are being given real access to systems and data while the controls meant to contain them lag behind. More than half have already had a confirmed agent security incident or a near-miss; only about a third give every agent its own scoped identity, and most agents stil",
       "link": "https://venturebeat.com/ai/the-agent-security-gap-54-of-enterprises-have-already-had-an-ai-agent-incident-and-most-still-let-agents-share-credentials",
@@ -1503,7 +1623,7 @@
       "image": null
     },
     {
-      "id": "techcrunch-ai-2",
+      "id": "techcrunch-ai-4",
       "title": "Google Vids now lets you star in your own AI videos",
       "summary": "Google is adding personalized AI avatars to Vids that let users create videos starring a digital version of themselves, alongside Gemini Omni-powered tools for generating and editing videos from prompts and reference images.",
       "link": "https://techcrunch.com/2026/07/16/google-vids-now-lets-you-star-in-your-own-ai-videos/",
@@ -1515,7 +1635,7 @@
       "image": null
     },
     {
-      "id": "zdnet-10",
+      "id": "zdnet-12",
       "title": "Amazon dropped this Blink video doorbell and security camera bundle to 43% off - and we recommend it",
       "summary": "This Blink Video Doorbell and Outdoor 4 security camera bundle deal will help you set up a home security system for less.",
       "link": "https://www.zdnet.com/article/amazon-blink-video-doorbell-outdoor-4-bundled-deal/",
@@ -1527,7 +1647,7 @@
       "image": null
     },
     {
-      "id": "techcrunch-ai-3",
+      "id": "techcrunch-ai-5",
       "title": "Roblox launches an AI-powered game-creation feature in its mobile app",
       "summary": "Roblox's new \"Build\" feature lets users generate basic games using a single text prompt.",
       "link": "https://techcrunch.com/2026/07/16/roblox-launches-an-ai-powered-game-creation-feature-in-its-mobile-app/",
@@ -1585,66 +1705,6 @@
       "xml_category": "artificial intelligence",
       "tags": [],
       "image": "https://media.thenextweb.com/2026/07/neural-bypass-brain-implant.avif"
-    },
-    {
-      "id": "the-next-web-6",
-      "title": "Verizon cuts 3,000 retail jobs as AI replaces customer service and stores move to franchises",
-      "summary": "Verizon is cutting about 3,000 employees from its corporate-owned retail stores and transferring 274 locations to independent operators, Bloomberg reported on Thursday. The changes take effect on August 16 and will leave the largest US mobile carrier with 1,000 company-owned stores alongside roughly",
-      "link": "https://thenextweb.com/news/verizon-3000-retail-layoffs-store-reorganization",
-      "published": "2026-07-16T17:50:01.000Z",
-      "source": "The Next Web",
-      "category": "ai",
-      "xml_category": "future of work",
-      "tags": [],
-      "image": "https://media.thenextweb.com/2026/07/verizon-3000-retail-layoffs-store-reorganization.avif"
-    },
-    {
-      "id": "the-next-web-7",
-      "title": "29 countries sign a treaty to establish the World AI Cooperation Organization",
-      "summary": "Twenty-nine countries signed an agreement on 16 July to establish the World AI Cooperation Organization (WAICO), Reuters reported. China says the intergovernmental body aims to promote international cooperation and global governance in AI. China’s foreign minister, Wang Yi, signed on behalf of Beiji",
-      "link": "https://thenextweb.com/news/china-world-ai-cooperation-organization-waico-signed",
-      "published": "2026-07-16T17:28:47.000Z",
-      "source": "The Next Web",
-      "category": "ai",
-      "xml_category": "artificial intelligence",
-      "tags": [],
-      "image": "https://media.thenextweb.com/2016/01/ShanghaiTowerGensler1.avif"
-    },
-    {
-      "id": "venturebeat-3",
-      "title": "Zero trust must now move at agent speed",
-      "summary": "Presented by Ping Identity Enterprises need to treat zero trust security architecture as an immediate requirement for AI agents rather than a long-term goal, says Andre Durand, CEO and founder of Ping Identity. Zero trust, the security model built on the assumption that no user, device, or system sh",
-      "link": "https://venturebeat.com/security/zero-trust-must-now-move-at-agent-speed",
-      "published": "2026-07-16T17:10:15.000Z",
-      "source": "VentureBeat",
-      "category": "general",
-      "xml_category": "security",
-      "tags": [],
-      "image": "https://images.ctfassets.net/jdtwqhzvc2n1/oQKkIwwwh2NSWWSMkL6Ku/091f71fc545ca4f3cc2e2ab4d610fece/AdobeStock_1888484814.jpeg?w=300&q=30"
-    },
-    {
-      "id": "venturebeat-4",
-      "title": "The AI context gap: Enterprise AI organizations have a trust problem, not a retrieval problem — and most are still building the fix",
-      "summary": "Across 101 enterprises, the infrastructure that feeds AI agents their business context is being built faster than it can be trusted. Retrieval-augmented generation is already the default context source, and provider-native retrieval has quietly overtaken the dedicated vector databases that define th",
-      "link": "https://venturebeat.com/ai/the-ai-context-gap-enterprise-ai-organizations-have-a-trust-problem-not-a-retrieval-problem-and-most-are-still-building-the-fix",
-      "published": "2026-07-16T17:06:08.000Z",
-      "source": "VentureBeat",
-      "category": "ai",
-      "xml_category": "ai",
-      "tags": [],
-      "image": "https://images.ctfassets.net/jdtwqhzvc2n1/65A33lcUi9p0nBSloUI1Wo/5e5d26295bc879f0ea8845cecac65504/VentureBeat-Research.png?w=300&q=30"
-    },
-    {
-      "id": "the-next-web-8",
-      "title": "Google renames NotebookLM to Gemini Notebook and expands code execution to Pro users",
-      "summary": "Google is renaming NotebookLM to Gemini Notebook, folding one of its most popular AI products into the Gemini brand while keeping it as a standalone tool. The company said on Thursday that the rebrand reflects how deeply the research assistant has been woven into the broader Google ecosystem, includ",
-      "link": "https://thenextweb.com/news/google-notebooklm-gemini-notebook-rebrand",
-      "published": "2026-07-16T17:06:03.000Z",
-      "source": "The Next Web",
-      "category": "ai",
-      "xml_category": "artificial intelligence",
-      "tags": [],
-      "image": "https://media.thenextweb.com/2026/07/google-notebooklm-gemini-notebook-rebrand.avif"
     }
   ]
 }
