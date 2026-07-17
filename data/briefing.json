@@ -1,15 +1,15 @@
 {
   "version": 2,
-  "date": "2026-07-16",
-  "generated_at": "2026-07-16T07:22:04.745Z",
-  "date_hr": "Četvrtak, 16. srpnja 2026.",
+  "date": "2026-07-17",
+  "generated_at": "2026-07-17T05:03:42.472Z",
+  "date_hr": "Petak, 17. srpnja 2026.",
   "weather": {
-    "icon": "🌦️",
-    "summary": "24–30°C, pljuskovi · 0.6 mm",
+    "icon": "🌧️",
+    "summary": "22–34°C, lagana kiša",
     "alerts": []
   },
   "fuel": {
-    "current_date": "16.07.2026",
+    "current_date": "17.07.2026",
     "eurodiesel": [
       {
         "company": "Adria Oil",
@@ -51,7 +51,7 @@
       },
       {
         "company": "Petrol",
-        "price": 1.88
+        "price": 1.92
       },
       {
         "company": "Coral Croatia",
@@ -63,46 +63,46 @@
     "upcoming_premium": null
   },
   "market": {
-    "updated_at": "2026-07-16T07:22:04.745Z",
-    "btc_usd": 64545,
-    "btc_eur": 56267,
-    "btc_change_24h": -0.08,
-    "usd_eur": 0.8734
+    "updated_at": "2026-07-17T05:03:42.472Z",
+    "btc_usd": 63361,
+    "btc_eur": 55404,
+    "btc_change_24h": -1.91,
+    "usd_eur": 0.8735
   },
   "ai_news": [
     {
-      "title": "Agentic orchestration: Enterprise AI organizations have a deployment problem, not a platform problem — and most are calling chatbots agents",
-      "link": "https://venturebeat.com/ai/agentic-orchestration-enterprise-ai-organizations-have-a-deployment-problem-not-a-platform-problem-and-most-are-calling-chatbots-agents",
-      "source": "VentureBeat"
+      "title": "1Password's new Agentic Mode lets Claude log into your accounts without seeing your credentials",
+      "link": "https://www.zdnet.com/article/1password-claude-agentic-mode/",
+      "source": "ZDNet"
     },
     {
-      "title": "Microsoft is reportedly training salespeople to talk down OpenAI and Anthropic",
-      "link": "https://techcrunch.com/2026/07/15/microsoft-is-reportedly-training-salespeople-to-talk-down-openai-and-anthropic/",
-      "source": "TechCrunch AI"
-    },
-    {
-      "title": "Thinking Machines open sources first multimodal language model, Inkling, focused on low cost and 'resistance to censorship'",
-      "link": "https://venturebeat.com/technology/thinking-machines-open-sources-first-multimodal-language-model-inkling-focused-on-low-cost-and-resistance-to-censorship",
-      "source": "VentureBeat"
-    },
-    {
-      "title": "OpenAI is showing Kalshi’s World Cup odds inside ChatGPT, its first prediction market deal",
-      "link": "https://thenextweb.com/news/openai-kalshi-chatgpt-world-cup-prediction-markets",
+      "title": "1Password lets Claude log you into websites without ever seeing your passwords",
+      "link": "https://thenextweb.com/news/1password-claude-credential-zero-exposure-agentic-mode",
       "source": "The Next Web"
     },
     {
-      "title": "Amid hardware legal battle, OpenAI releases a $230 keyboard for Codex",
-      "link": "https://techcrunch.com/2026/07/15/amid-hardware-legal-battle-openai-releases-a-230-keyboard-for-codex/",
+      "title": "Why is OpenAI selling a ChatGPT basketball?",
+      "link": "https://techcrunch.com/2026/07/16/why-is-openai-selling-a-chatgpt-basketball/",
       "source": "TechCrunch AI"
+    },
+    {
+      "title": "Anthropic's Claude Corps will pay $85,000 to 1,000 early-career professionals - apply now",
+      "link": "https://www.zdnet.com/article/anthropic-claude-corps-pays-early-career-professionals-apply-now/",
+      "source": "ZDNet"
+    },
+    {
+      "title": "Claude can now use your 1Password credentials for you",
+      "link": "https://www.theverge.com/tech/966442/1password-anthropic-claude-browser-integration",
+      "source": "The Verge"
     }
   ],
   "micro_tips": {
     "vscode": {
-      "tip": "Rename Symbol svuda u projektu (refactoring)",
-      "keys": "F2"
+      "tip": "Quick Fix i Code Actions na trenutnoj poziciji",
+      "keys": "Ctrl+."
     },
-    "sql": "NOT EXISTS brži od NOT IN kad subquery može vratiti NULL vrijednost",
-    "oracle": "DBMS_STATS.GATHER_TABLE_STATS osvježava statistike za točniji execution plan",
-    "regex": "(?i) inline flag za case-insensitive bez mijenjanja ostatka patternahe"
+    "sql": "Parametrizirani upiti = plan cache reuse + SQL injection zaštita istovremeno",
+    "oracle": "NVL2(expr, kad_nije_null, kad_je_null) kompaktnija od dvostrukog NVL-a",
+    "regex": "\\s+ pokriva space, tab i newline; \\S je negacija (svaki ne-whitespace)"
   }
 }
