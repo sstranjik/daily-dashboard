@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-07-17T05:01:25.773Z",
+  "generated_at": "2026-07-17T06:01:21.063Z",
   "stats": {
     "muzika.hr": {
       "ok": true,
       "count": 25
     },
-    "Mochvara": {
-      "ok": true,
-      "count": 16
-    },
     "Lisinski": {
       "ok": true,
       "count": 0
+    },
+    "Tvornica": {
+      "ok": true,
+      "count": 3
     },
     "Gavella": {
       "ok": true,
@@ -21,15 +21,7 @@
       "ok": true,
       "count": 16
     },
-    "Tvornica": {
-      "ok": true,
-      "count": 3
-    },
     "Komedija": {
-      "ok": true,
-      "count": 0
-    },
-    "Pogon": {
       "ok": true,
       "count": 0
     },
@@ -40,6 +32,10 @@
     "HNK Zagreb": {
       "ok": true,
       "count": 65
+    },
+    "Pogon": {
+      "ok": true,
+      "count": 0
     },
     "Kerempuh": {
       "ok": true,
@@ -993,7 +989,7 @@
       "time": null,
       "link": "https://www.muzika.hr/event/nick-cave-the-bad-seeds/",
       "source": "muzika.hr",
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-07-17T05:01:25.773Z"
     },
     {
@@ -1023,7 +1019,7 @@
       "time": "20:00",
       "link": "https://mochvara.hr/event-detail/69c682280f498bf2fd365a63/?lang=hr",
       "source": "Mochvara",
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-07-17T05:01:25.773Z"
     },
     {
@@ -2812,9 +2808,9 @@
       "time": null,
       "link": "https://www.muzika.hr/event/primus/",
       "source": "muzika.hr",
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-07-17T05:01:25.773Z"
     }
   ],
-  "new_count": 8
+  "new_count": 5
 }
