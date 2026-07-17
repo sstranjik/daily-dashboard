@@ -1,17 +1,13 @@
 {
-  "generated_at": "2026-07-16T20:42:43.498Z",
+  "generated_at": "2026-07-17T05:01:25.770Z",
   "stats": {
-    "Mochvara": {
-      "ok": true,
-      "count": 0
-    },
-    "Pogon": {
-      "ok": true,
-      "count": 0
-    },
     "muzika.hr": {
       "ok": true,
       "count": 25
+    },
+    "Mochvara": {
+      "ok": true,
+      "count": 16
     },
     "Lisinski": {
       "ok": true,
@@ -29,11 +25,7 @@
       "ok": true,
       "count": 0
     },
-    "Kerempuh": {
-      "ok": true,
-      "count": 0
-    },
-    "Trešnja": {
+    "Pogon": {
       "ok": true,
       "count": 0
     },
@@ -41,72 +33,20 @@
       "ok": true,
       "count": 0
     },
+    "Kerempuh": {
+      "ok": true,
+      "count": 0
+    },
     "HNK Zagreb": {
       "ok": true,
       "count": 65
+    },
+    "Trešnja": {
+      "ok": true,
+      "count": 0
     }
   },
   "concerts": [
-    {
-      "id": "071f007550",
-      "title": "The Kilimanjaro Darkjazz Ensemble, Organza Ray Četvrtak 2.7.2026.",
-      "venue": "Mochvara",
-      "city": "Zagreb",
-      "country": "HR",
-      "category": "concert",
-      "date_iso": "2026-07-02T00:00:00",
-      "date_display": "čet, 02. 07. 2026.",
-      "time": null,
-      "link": "https://mochvara.hr/event-detail/69869b06784d60f3acb0a0ad/?lang=hr",
-      "source": "Mochvara",
-      "is_new": false,
-      "first_seen": "2026-05-26T20:26:55.235Z"
-    },
-    {
-      "id": "b96962169b",
-      "title": "Breaking Benjamin",
-      "venue": "Benjamin Tvornica kulture Šubićeva 2",
-      "city": "Zagreb",
-      "country": "HR",
-      "category": "concert",
-      "date_iso": "2026-07-02T00:00:00",
-      "date_display": "čet, 02. 07. 2026.",
-      "time": null,
-      "link": "https://www.muzika.hr/event/breaking-benjamin-zagreb/",
-      "source": "muzika.hr",
-      "is_new": false,
-      "first_seen": "2026-06-16T22:04:38.460Z"
-    },
-    {
-      "id": "e3ca3e8d3e",
-      "title": "Bearstone festival",
-      "venue": "Primišlje kraj Slunja Slunj",
-      "city": "Croatia",
-      "country": "HR",
-      "category": "concert",
-      "date_iso": "2026-07-02T00:00:00",
-      "date_display": "čet, 02. 07. 2026.",
-      "time": null,
-      "link": "https://www.muzika.hr/event/bearstone-festival-2/",
-      "source": "muzika.hr",
-      "is_new": false,
-      "first_seen": "2026-06-17T21:52:18.057Z"
-    },
-    {
-      "id": "723e03661c",
-      "title": "Ljeto na Mažurancu",
-      "venue": "Trg braće Mažuranić",
-      "city": "Zagreb",
-      "country": "HR",
-      "category": "concert",
-      "date_iso": "2026-07-02T00:00:00",
-      "date_display": "čet, 02. 07. 2026.",
-      "time": null,
-      "link": "https://www.muzika.hr/event/ljeto-na-mazurancu/",
-      "source": "muzika.hr",
-      "is_new": false,
-      "first_seen": "2026-07-02T08:01:23.158Z"
-    },
     {
       "id": "361e7e1361",
       "title": "William Shakespeare — Valentina Turcu — Gustav Mahler OTHELLO",
@@ -1038,6 +978,21 @@
       "first_seen": "2026-07-15T21:00:43.042Z"
     },
     {
+      "id": "83e8d53a09",
+      "title": "Nick Cave The Bad Seeds",
+      "venue": "Bad Seeds Arena Pula Flavijevska ulica",
+      "city": "Pula",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-08-04T00:00:00",
+      "date_display": "uto, 04. 08. 2026.",
+      "time": null,
+      "link": "https://www.muzika.hr/event/nick-cave-the-bad-seeds/",
+      "source": "muzika.hr",
+      "is_new": true,
+      "first_seen": "2026-07-17T05:01:25.770Z"
+    },
+    {
       "id": "749533e021",
       "title": "Sjemenište: Emo party",
       "venue": "Mochvara",
@@ -1051,6 +1006,21 @@
       "source": "Mochvara",
       "is_new": false,
       "first_seen": "2026-07-16T05:01:41.817Z"
+    },
+    {
+      "id": "272dd1dd50",
+      "title": "Death metal koncert: Internal Bleeding, Vaginality",
+      "venue": "Mochvara",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-08-26T20:00:00",
+      "date_display": "sri, 26. 08. 2026.",
+      "time": "20:00",
+      "link": "https://mochvara.hr/event-detail/69c682280f498bf2fd365a63/?lang=hr",
+      "source": "Mochvara",
+      "is_new": true,
+      "first_seen": "2026-07-17T05:01:25.770Z"
     },
     {
       "id": "bb48c15171",
@@ -2572,21 +2542,6 @@
   ],
   "abroad": [
     {
-      "id": "959670e51b",
-      "title": "Marc Ribot’s Ceramic Dog (Festival Lent 2026)",
-      "venue": "Maribor Maribor",
-      "city": "Slovenia",
-      "country": "EU",
-      "category": "concert",
-      "date_iso": "2026-07-02T00:00:00",
-      "date_display": "čet, 02. 07. 2026.",
-      "time": null,
-      "link": "https://www.muzika.hr/event/marc-ribots-ceramic-dog-festival-lent-2026/",
-      "source": "muzika.hr",
-      "is_new": false,
-      "first_seen": "2026-06-16T22:04:38.460Z"
-    },
-    {
       "id": "2b2e78e6d0",
       "title": "Majid Bekkas – Nguyên Lê – Hamid Drake: Gnawa World Blues (Festival Lent 2026)",
       "venue": "Maribor Maribor",
@@ -2840,7 +2795,22 @@
       "source": "muzika.hr",
       "is_new": false,
       "first_seen": "2026-07-06T05:01:37.668Z"
+    },
+    {
+      "id": "2056c82666",
+      "title": "Primus",
+      "venue": "Primus Ljubljana Ljubljana",
+      "city": "Slovenia",
+      "country": "EU",
+      "category": "concert",
+      "date_iso": "2026-08-03T00:00:00",
+      "date_display": "pon, 03. 08. 2026.",
+      "time": null,
+      "link": "https://www.muzika.hr/event/primus/",
+      "source": "muzika.hr",
+      "is_new": true,
+      "first_seen": "2026-07-17T05:01:25.770Z"
     }
   ],
-  "new_count": 5
+  "new_count": 8
 }
