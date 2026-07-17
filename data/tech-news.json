@@ -1,9 +1,57 @@
 {
-  "last_updated": "2026-07-17T18:01:13.866Z",
+  "last_updated": "2026-07-17T18:49:55.387Z",
   "source_count": 11,
   "items": [
     {
       "id": "venturebeat-0",
+      "title": "Agents think in milliseconds, legacy infrastructure doesn't. LinkedIn, Walmart and Zendesk shared how they closed the gap at VB Transform 2026",
+      "summary": "Legacy infrastructure, not the models themselves, is what&#x27;s actually slowing AI agents down. That was the shared conclusion of three infrastructure leaders — from LinkedIn, Walmart, and Zendesk — at VB Transform 2026 . The panel brought together Animesh Singh, senior director of AI platform and",
+      "link": "https://venturebeat.com/data/agents-think-in-milliseconds-legacy-infrastructure-doesnt-linkedin-walmart-and-zendesk-shared-how-they-closed-the-gap-at-vb-transform-2026",
+      "published": "2026-07-17T18:48:18.000Z",
+      "source": "VentureBeat",
+      "category": "general",
+      "xml_category": "data",
+      "tags": [],
+      "image": "https://images.ctfassets.net/jdtwqhzvc2n1/AZTPn0gbUoe8tg8qhQDL0/2ae53d1ea5c1fb9c88771cc37c716867/VBXC8968-X2-day2-opening-panel.jpg?w=300&q=30"
+    },
+    {
+      "id": "the-next-web-0",
+      "title": "An AWS billing bug sent users estimated charges of up to $2.5 trillion",
+      "summary": "AWS users woke up Friday to find estimated billing emails showing charges ranging from hundreds of millions to $2.5 trillion. A unit pricing error in the AWS Billing Console’s estimated billing computation subsystem was the cause, Amazon confirmed. One Reddit user whose charges totalled $0.19 last m",
+      "link": "https://thenextweb.com/news/aws-billing-bug-billion-dollar-estimates",
+      "published": "2026-07-17T18:21:09.000Z",
+      "source": "The Next Web",
+      "category": "general",
+      "xml_category": "amazon",
+      "tags": [],
+      "image": "https://media.thenextweb.com/2026/07/aws-billing-bug-billion-dollar-estimates.avif"
+    },
+    {
+      "id": "the-verge-0",
+      "title": "Apple Music is getting a price hike",
+      "summary": "Apple Music is more expensive now. In the US, an individual plan now costs $11.99 per month, a $1 bump up from the previous $10.99 price. A family plan now costs $19.99 per month, up from $16.99, and a student plan costs $6.99 per month, up from $5.99. Apple, in a statement to Music Business [&#8230",
+      "link": "https://www.theverge.com/tech/967379/apple-music-price-increase",
+      "published": "2026-07-17T18:14:26.000Z",
+      "source": "The Verge",
+      "category": "tech",
+      "xml_category": "[object object]",
+      "tags": [],
+      "image": null
+    },
+    {
+      "id": "the-next-web-1",
+      "title": "Anthropic is in early talks to lease $10 billion in compute from Meta",
+      "summary": "Anthropic is in very preliminary talks to lease computing power from Meta in a deal worth about $10 billion, the New York Times reported on Friday. CNBC confirmed the early-stage discussions. The talks come weeks after Anthropic announced a $1.25 billion-per-month arrangement with SpaceX to use the ",
+      "link": "https://thenextweb.com/news/anthropic-meta-10-billion-compute-deal-talks",
+      "published": "2026-07-17T18:01:31.000Z",
+      "source": "The Next Web",
+      "category": "ai",
+      "xml_category": "anthropic",
+      "tags": [],
+      "image": "https://media.thenextweb.com/2026/07/anthropic-meta-10-billion-compute-deal-talks.avif"
+    },
+    {
+      "id": "venturebeat-1",
       "title": "Brex built its AI agent policy by watching what agents actually do, not by writing rules first",
       "summary": "OpenClaw has become one of the most widely adopted agentic frameworks, but it has yet to prove itself at enterprise scale. Agents need real credentials — API keys, OAuth tokens, service accounts — to work effectively, and Brex found that traditional guardrails couldn&#x27;t contain what those agents",
       "link": "https://venturebeat.com/orchestration/brex-built-its-ai-agent-policy-by-watching-what-agents-actually-do-not-by-writing-rules-first",
@@ -27,7 +75,7 @@
       "image": null
     },
     {
-      "id": "the-verge-0",
+      "id": "the-verge-1",
       "title": "Apple’s plot to crush OpenAI",
       "summary": "Apple is suing OpenAI. The complaint is readable and intense, as these things often are, though many experts seem to think many of the allegations are just the ways things are done. So what does Apple really want here, and why is it picking such a public fight with OpenAI? On this episode of The [&#",
       "link": "https://www.theverge.com/podcast/967244/apple-openai-lawsuit-vergecast",
@@ -37,6 +85,18 @@
       "xml_category": "[object object]",
       "tags": [],
       "image": null
+    },
+    {
+      "id": "the-next-web-2",
+      "title": "The Pentagon froze 155 wind projects in 24 states, claiming drones can hide in wind farms",
+      "summary": "The Pentagon has frozen the permitting process for at least 155 new wind projects in 24 states for nearly a year, citing concerns that drones can hide among wind turbines and evade radar detection. The affected projects have a combined capacity of 44 gigawatts, four times the generation capacity of ",
+      "link": "https://thenextweb.com/news/pentagon-freezes-155-wind-projects-drone-threat",
+      "published": "2026-07-17T17:39:40.000Z",
+      "source": "The Next Web",
+      "category": "ai",
+      "xml_category": "drones",
+      "tags": [],
+      "image": "https://media.thenextweb.com/2026/07/pentagon-freezes-155-wind-projects-drone-threat.avif"
     },
     {
       "id": "zdnet-0",
@@ -75,7 +135,7 @@
       "image": "https://www.tportal.hr/media/thumbnail/500x300/2768327.jpeg?cropId=0"
     },
     {
-      "id": "the-next-web-0",
+      "id": "the-next-web-3",
       "title": "Palantir’s CEO predicts AI will make him 20x richer while middle-class workers get modest raises",
       "summary": "Palantir CEO Alex Karp estimated that AI could make him “20x wealthier,“ implying a fortune approaching $300 billion, up from roughly $15 billion today. Middle-class workers, he said, might simply see their salaries double over the next decade. Karp called the disparity “a complete decoupling of uni",
       "link": "https://thenextweb.com/news/palantir-karp-20x-richer-ai-wealth-inequality",
@@ -87,7 +147,7 @@
       "image": "https://media.thenextweb.com/2026/07/palantir-karp-20x-richer-ai-wealth-inequality.avif"
     },
     {
-      "id": "the-next-web-1",
+      "id": "the-next-web-4",
       "title": "Trump’s AI advisor says Kimi K3 shows “how you lose the AI race.” Khosla blames immigration. Marcus wants a congressional investigation.",
       "summary": "Moonshot AI’s Kimi K3 topped Arena’s frontend coding leaderboard within 24 hours of launch, ahead of Anthropic’s Claude Fable 5 and OpenAI’s GPT-5.6 Sol. It placed third on Artificial Analysis’s Intelligence Index. The reaction from Washington, Wall Street, and academia was swift and pointed. TNW co",
       "link": "https://thenextweb.com/news/kimi-k3-reactions-sacks-khosla-marcus-ai-race",
@@ -111,7 +171,7 @@
       "image": "https://www.tportal.hr/media/thumbnail/500x300/2693883.jpeg?cropId=4009647"
     },
     {
-      "id": "the-verge-1",
+      "id": "the-verge-2",
       "title": "Asus’ top-end 4K QD-OLED gaming monitor is $400 off",
       "summary": "The Asus ROG Swift 32-inch 4K QD-OLED gaming monitor has almost everything I want in a high-end gaming monitor, most notably a QD-OLED panel for inky black levels and vivid colors that go beyond what’s possible on an LCD screen. Amazon, Best Buy, and B&#38;H Photo have this model on sale for $899.99",
       "link": "https://www.theverge.com/gadgets/966907/asus-rog-swift-qd-oled-marathon-steam-deal-sale",
@@ -147,7 +207,7 @@
       "image": null
     },
     {
-      "id": "the-next-web-2",
+      "id": "the-next-web-5",
       "title": "Amazon’s Zoox recalls 105 robotaxis after one drove into heavy smoke at an active fire scene",
       "summary": "Amazon’s Zoox voluntarily recalled software in 105 of its robotaxis after an unoccupied vehicle drove into heavy smoke at an active emergency fire scene in Las Vegas on June 20. The smoke obscured the scene, which had not been cordoned off with cones. The vehicle entered, braked hard while attemptin",
       "link": "https://thenextweb.com/news/zoox-recall-robotaxi-smoke-first-responders",
@@ -171,7 +231,7 @@
       "image": "https://www.bug.hr/img/bungie-iduci-tjedan-krece-s-testiranjem-pve-nacina-igranja-u-marathonu_6ob5WP.jpg"
     },
     {
-      "id": "the-next-web-3",
+      "id": "the-next-web-6",
       "title": "China will tax lithium and solar batteries for the first time in a decade, but sodium batteries stay exempt",
       "summary": "China will impose a consumption tax on lithium-ion and solar batteries for the first time in a decade, marking a policy shift as Beijing seeks to rein in overcapacity and destructive price wars in industries it spent years subsidising into global dominance. A 2% tax on lithium-ion batteries takes ef",
       "link": "https://thenextweb.com/news/china-consumption-tax-lithium-solar-batteries-sodium-exempt",
@@ -183,7 +243,7 @@
       "image": "https://media.thenextweb.com/2026/07/china-consumption-tax-lithium-solar-batteries-sodium-exempt.avif"
     },
     {
-      "id": "the-verge-2",
+      "id": "the-verge-3",
       "title": "Samsung&#8217;s redesigned Z Fold 8 with a wide display just leaked",
       "summary": "Leaker Evan Blass shared images of Samsung's redesigned Galaxy Z Fold 8 just days before the July 22nd launch event where Samsung is expected to officially announce the phone. The leaked images show a shorter, wider foldable matching earlier leaks of the Z Fold 8. They also reveal some of its specs,",
       "link": "https://www.theverge.com/tech/967198/samsung-galaxy-z-fold-8-images-specs-leak",
@@ -195,7 +255,7 @@
       "image": null
     },
     {
-      "id": "the-verge-3",
+      "id": "the-verge-4",
       "title": "Is America ready for this quirky Jeep-looking EV that can park itself?",
       "summary": "Are we living through a small car renaissance? There's the Slate Truck, Amble's dune buggy, and the Fiat Topolino, as well as a whole galaxy of kei cars and trucks from Japan that have their own built-in fan base. While microcar sales in the US are still as tiny as the vehicles themselves, there are",
       "link": "https://www.theverge.com/transportation/966498/chip-motors-low-speed-ev-remote-park-price",
@@ -207,7 +267,7 @@
       "image": null
     },
     {
-      "id": "the-next-web-4",
+      "id": "the-next-web-7",
       "title": "ASML will give every employee a €20,000 bonus as AI demand drives record sales",
       "summary": "ASML will give all employees globally a one-time €20,000 ($22,862) share award, the company confirmed on Friday. The bonus vests on January 1, 2030, for staff who remain with the company for the entire period. About 45,000 people work at Europe’s most valuable company. The payout joins a wave of AI-",
       "link": "https://thenextweb.com/news/asml-20000-bonus-all-employees-ai-boom",
@@ -219,7 +279,7 @@
       "image": "https://media.thenextweb.com/2026/07/asml-20000-bonus-all-employees-ai-boom.avif"
     },
     {
-      "id": "the-verge-4",
+      "id": "the-verge-5",
       "title": "Florida man arrested for allegedly stealing over $200,000 in crypto using Steam game malware",
       "summary": "Federal authorities have arrested a Florida man suspected of stealing at least $220,000 in crypto through malware-infected Steam games, as reported earlier by local news outlet Local10. In the complaint, officials accuse 21-year-old Zyaire Wilkins and co-conspirators of launching eight malware-embed",
       "link": "https://www.theverge.com/games/967174/steam-game-malware-cryptostealer-arrest",
@@ -243,7 +303,7 @@
       "image": null
     },
     {
-      "id": "the-next-web-5",
+      "id": "the-next-web-8",
       "title": "While everyone builds chatbots, SAP just closed a €1bn-plus bet on AI that understands your spreadsheets",
       "summary": "The AI industry is obsessed with models that write and talk. SAP has just completed a large bet on a different kind entirely, one built for structured data, as its acquisition of Prior Labs closed. The deal is now done, with regulatory approvals secured and the Freiburg-based lab operating inside SA",
       "link": "https://thenextweb.com/news/sap-prior-labs-tabular-ai-deal-closed",
@@ -255,7 +315,7 @@
       "image": "https://media.thenextweb.com/2026/07/sap-prior-labs-tabular-ai-deal-closed.avif"
     },
     {
-      "id": "the-next-web-6",
+      "id": "the-next-web-9",
       "title": "Agentic AI is moving from drafting doctors’ notes to routing their patients. Bunkerhill just raised on it.",
       "summary": "A healthcare AI startup has raised fresh funding to push AI agents deeper into hospital operations. Bunkerhill Health closed a Series B led by Khosla Ventures, bringing total funding to $55m, HIT Consultant reports. The pitch is a platform, not a product. Its Carebricks system lets health systems bu",
       "link": "https://thenextweb.com/news/bunkerhill-health-agentic-ai-carebricks-series-b",
@@ -315,7 +375,7 @@
       "image": null
     },
     {
-      "id": "the-verge-5",
+      "id": "the-verge-6",
       "title": "Over half a million power tool batteries have been recalled due to a USB-C charging fire risk",
       "summary": "Greenworks Tools has issued a recall for around 554,780 Kobalt-branded power tools designed for yard work because of a battery issue \"posing a risk of serious injury from fire hazard.\" There have been 34 reports of the tool's batteries \"producing smoke, sparking or catching fire while the batteries ",
       "link": "https://www.theverge.com/tech/967049/greenworks-kobalt-power-tools-lithium-ion-battery-recall",
@@ -375,7 +435,7 @@
       "image": "https://media.thenextweb.com/2026/05/Moonshot-AI.avif"
     },
     {
-      "id": "the-verge-6",
+      "id": "the-verge-7",
       "title": "Bethesda teases Fallout 5 soon after Xbox’s mass layoffs",
       "summary": "Xbox is currently in a \"reset\" period that includes laying off around 3,200 employees over the next year, involving deep cuts at beloved studios like id Software and Obsidian Entertainment. Now, in an attempt to show that things are still running fine, the company has announced a slate of upcoming p",
       "link": "https://www.theverge.com/entertainment/966724/fallout-5-bethesda",
@@ -399,18 +459,6 @@
       "image": null
     },
     {
-      "id": "the-verge-7",
-      "title": "The manosphere&#8217;s testosterone fever is coming for the troops",
-      "summary": "This is Optimizer, a weekly newsletter sent from Verge senior reviewer Victoria Song that dissects and discusses the latest gizmos and potions that swear they're going to change your life. Opt in for Optimizer here. I was in the middle of writing a different Optimizer column this week when I learned",
-      "link": "https://www.theverge.com/column/966770/optimizer-manosphere-testosterone-troops",
-      "published": "2026-07-17T14:00:00.000Z",
-      "source": "The Verge",
-      "category": "general",
-      "xml_category": "[object object]",
-      "tags": [],
-      "image": null
-    },
-    {
       "id": "tportal-1",
       "title": "Trump će naplaćivati brži pristup svojim objavama. Profesorica: &#039;To je oblik korupcije&#039;",
       "summary": "Medijska tvrtka američkog predsjednika Donalda Trumpa planira uvesti premium uslugu koja će korisnicima omogućiti brži pristup objavama na društvenoj mreži Truth Social. Usluga je prvenstveno namijenjena financijskim institucijama i trgovcima na burzi, koji bi tako mogli ranije reagirati na predsjed",
@@ -421,6 +469,18 @@
       "xml_category": "tech",
       "tags": [],
       "image": "https://www.tportal.hr/media/thumbnail/500x300/2767556.jpeg?cropId=0"
+    },
+    {
+      "id": "the-verge-8",
+      "title": "The manosphere&#8217;s testosterone obsession reaches the highest levels of US military",
+      "summary": "This is Optimizer, a weekly newsletter sent from Verge senior reviewer Victoria Song that dissects and discusses the latest gizmos and potions that swear they're going to change your life. Opt in for Optimizer here. I was in the middle of writing a different Optimizer column this week when I learned",
+      "link": "https://www.theverge.com/column/966770/optimizer-manosphere-testosterone-troops",
+      "published": "2026-07-17T14:00:00.000Z",
+      "source": "The Verge",
+      "category": "general",
+      "xml_category": "[object object]",
+      "tags": [],
+      "image": null
     },
     {
       "id": "zdnet-7",
@@ -435,7 +495,7 @@
       "image": null
     },
     {
-      "id": "the-verge-8",
+      "id": "the-verge-9",
       "title": "Even Microsoft couldn’t make Windows 11 work well on 8GB of RAM",
       "summary": "Last year, Microsoft's 13-inch Surface Laptop quickly became one of my favorite thin-and-light Windows notebooks. At $900, it was easy to recommend to anyone wanting MacBook Air-like build quality and battery life on Windows - I even convinced my sister to buy one on sale. But that was last year. Th",
       "link": "https://www.theverge.com/tech/966937/microsoft-surface-laptop-13-inch-8gb-ram-2026-review",
@@ -1455,7 +1515,7 @@
       "image": "https://media.thenextweb.com/2026/07/google-gemini-pro-delayed-coding-falls-short.avif"
     },
     {
-      "id": "venturebeat-1",
+      "id": "venturebeat-2",
       "title": "China’s Moonshot AI releases Kimi K3, the largest open-source model ever, rivaling top U.S. systems",
       "summary": "Moonshot AI, the Beijing-based artificial intelligence startup backed by Alibaba, on Thursday released Kimi K3 — a 2.8-trillion-parameter model that the company says is now the largest open-source AI model in the world, and one that benchmarks show performs neck-and-neck with the most powerful propr",
       "link": "https://venturebeat.com/technology/chinas-moonshot-ai-releases-kimi-k3-the-largest-open-source-model-ever-rivaling-top-u-s-systems",
@@ -1575,7 +1635,7 @@
       "image": "https://media.thenextweb.com/2026/07/gamestop-cohen-physical-games-irrelevant-ebay.avif"
     },
     {
-      "id": "venturebeat-2",
+      "id": "venturebeat-3",
       "title": "The AI compute gap: Enterprises are buying infrastructure faster than they can measure what it costs",
       "summary": "Across 107 enterprises, AI infrastructure spending is accelerating well ahead of the ability to see or steer its economics. Most organizations run their AI on a familiar base of hyperscalers and model-provider APIs, yet the next dollar is aimed at specialized compute almost none of them use today; a",
       "link": "https://venturebeat.com/ai/the-ai-compute-gap-enterprises-are-buying-infrastructure-faster-than-they-can-measure-what-it-costs",
@@ -1587,7 +1647,7 @@
       "image": "https://images.ctfassets.net/jdtwqhzvc2n1/65A33lcUi9p0nBSloUI1Wo/5e5d26295bc879f0ea8845cecac65504/VentureBeat-Research.png?w=300&q=30"
     },
     {
-      "id": "venturebeat-3",
+      "id": "venturebeat-4",
       "title": "The agent security gap: 54% of enterprises have already had an AI agent incident, and most still let agents share credentials",
       "summary": "Across 107 enterprises, AI agents are being given real access to systems and data while the controls meant to contain them lag behind. More than half have already had a confirmed agent security incident or a near-miss; only about a third give every agent its own scoped identity, and most agents stil",
       "link": "https://venturebeat.com/ai/the-agent-security-gap-54-of-enterprises-have-already-had-an-ai-agent-incident-and-most-still-let-agents-share-credentials",
@@ -1609,66 +1669,6 @@
       "xml_category": "fintech and ecommerce",
       "tags": [],
       "image": "https://media.thenextweb.com/2026/07/visa-stablecoin-platform-open-usd.avif"
-    },
-    {
-      "id": "the-verge-7",
-      "title": "Kalshi says it caught Trump&#8217;s teleprompter operator insider trading",
-      "summary": "Kalshi users betting on what President Donald Trump would say during his speeches were reportedly up against tough competition: the president's teleprompter operator. ABC News reports that federal investigators believe Gabriel Perez - Trump's teleprompter operator since 2016 - used inside informatio",
-      "link": "https://www.theverge.com/news/966676/trump-teleprompter-operator-kalshi-bets-mention-markets-investigation",
-      "published": "2026-07-16T18:43:14.000Z",
-      "source": "The Verge",
-      "category": "general",
-      "xml_category": "[object object]",
-      "tags": [],
-      "image": null
-    },
-    {
-      "id": "techcrunch-ai-4",
-      "title": "Google Vids now lets you star in your own AI videos",
-      "summary": "Google is adding personalized AI avatars to Vids that let users create videos starring a digital version of themselves, alongside Gemini Omni-powered tools for generating and editing videos from prompts and reference images.",
-      "link": "https://techcrunch.com/2026/07/16/google-vids-now-lets-you-star-in-your-own-ai-videos/",
-      "published": "2026-07-16T18:32:54.000Z",
-      "source": "TechCrunch AI",
-      "category": "ai",
-      "xml_category": "ai",
-      "tags": [],
-      "image": null
-    },
-    {
-      "id": "zdnet-12",
-      "title": "Amazon dropped this Blink video doorbell and security camera bundle to 43% off - and we recommend it",
-      "summary": "This Blink Video Doorbell and Outdoor 4 security camera bundle deal will help you set up a home security system for less.",
-      "link": "https://www.zdnet.com/article/amazon-blink-video-doorbell-outdoor-4-bundled-deal/",
-      "published": "2026-07-16T18:25:05.000Z",
-      "source": "ZDNet",
-      "category": "general",
-      "xml_category": "",
-      "tags": [],
-      "image": null
-    },
-    {
-      "id": "techcrunch-ai-5",
-      "title": "Roblox launches an AI-powered game-creation feature in its mobile app",
-      "summary": "Roblox's new \"Build\" feature lets users generate basic games using a single text prompt.",
-      "link": "https://techcrunch.com/2026/07/16/roblox-launches-an-ai-powered-game-creation-feature-in-its-mobile-app/",
-      "published": "2026-07-16T18:22:06.000Z",
-      "source": "TechCrunch AI",
-      "category": "ai",
-      "xml_category": "ai",
-      "tags": [],
-      "image": null
-    },
-    {
-      "id": "the-next-web-9",
-      "title": "The EU is forcing Google to open Android to rival AI and share its search data",
-      "summary": "Google will have to let rival AI assistants run on Android the way its own Gemini does. It must also hand some of its search data to competitors. The European Commission set out both requirements on Thursday. The two decisions fall under the EU’s Digital Markets Act (DMA), the Commission said. The l",
-      "link": "https://thenextweb.com/news/eu-google-android-ai-search-data-digital-markets-act",
-      "published": "2026-07-16T18:16:53.000Z",
-      "source": "The Next Web",
-      "category": "ai",
-      "xml_category": "android",
-      "tags": [],
-      "image": "https://media.thenextweb.com/2024/02/google-ai-skills-europe.avif"
     }
   ]
 }
