@@ -1,6 +1,14 @@
 {
-  "generated_at": "2026-07-17T20:43:57.273Z",
+  "generated_at": "2026-07-18T05:01:11.513Z",
   "stats": {
+    "Mochvara": {
+      "ok": true,
+      "count": 0
+    },
+    "Pogon": {
+      "ok": true,
+      "count": 0
+    },
     "muzika.hr": {
       "ok": true,
       "count": 25
@@ -9,31 +17,11 @@
       "ok": true,
       "count": 0
     },
-    "Lisinski": {
-      "ok": true,
-      "count": 0
-    },
-    "Mochvara": {
-      "ok": true,
-      "count": 16
-    },
     "Tvornica": {
       "ok": true,
       "count": 3
     },
-    "ZeKaeM": {
-      "ok": true,
-      "count": 0
-    },
-    "HNK Zagreb": {
-      "ok": true,
-      "count": 65
-    },
-    "Komedija": {
-      "ok": true,
-      "count": 0
-    },
-    "Pogon": {
+    "Lisinski": {
       "ok": true,
       "count": 0
     },
@@ -41,27 +29,24 @@
       "ok": true,
       "count": 0
     },
+    "ZeKaeM": {
+      "ok": true,
+      "count": 0
+    },
+    "Komedija": {
+      "ok": true,
+      "count": 0
+    },
     "Trešnja": {
       "ok": true,
       "count": 0
+    },
+    "HNK Zagreb": {
+      "ok": true,
+      "count": 65
     }
   },
   "concerts": [
-    {
-      "id": "2614234925",
-      "title": "Jovanotti",
-      "venue": "Jovanotti Arena Pula Flavijevska ulica",
-      "city": "Pula",
-      "country": "HR",
-      "category": "concert",
-      "date_iso": "2026-07-03T00:00:00",
-      "date_display": "pet, 03. 07. 2026.",
-      "time": null,
-      "link": "https://www.muzika.hr/event/jovanotti/",
-      "source": "muzika.hr",
-      "is_new": false,
-      "first_seen": "2026-06-17T21:52:18.057Z"
-    },
     {
       "id": "26c227bd8d",
       "title": "Međunarodno baletno natjecanje „Mia Čorak Slavenska” 2026. Grupe – djeca i mladi: natjecanje i dodjela nagrada",
@@ -2512,51 +2497,6 @@
   ],
   "abroad": [
     {
-      "id": "2b2e78e6d0",
-      "title": "Majid Bekkas – Nguyên Lê – Hamid Drake: Gnawa World Blues (Festival Lent 2026)",
-      "venue": "Maribor Maribor",
-      "city": "Slovenia",
-      "country": "EU",
-      "category": "concert",
-      "date_iso": "2026-07-03T00:00:00",
-      "date_display": "pet, 03. 07. 2026.",
-      "time": null,
-      "link": "https://www.muzika.hr/event/majid-bekkas-nguyen-le-hamid-drake-gnawa-world-blues-festival-lent-2026/",
-      "source": "muzika.hr",
-      "is_new": false,
-      "first_seen": "2026-06-18T21:55:18.121Z"
-    },
-    {
-      "id": "4358427b1d",
-      "title": "VUMfest 2026",
-      "venue": "VUMfest 2026 AKC Garaže Celine bb",
-      "city": "Vrbovec",
-      "country": "EU",
-      "category": "concert",
-      "date_iso": "2026-07-03T00:00:00",
-      "date_display": "pet, 03. 07. 2026.",
-      "time": null,
-      "link": "https://www.muzika.hr/event/vumfest-2026/",
-      "source": "muzika.hr",
-      "is_new": false,
-      "first_seen": "2026-06-20T05:01:13.461Z"
-    },
-    {
-      "id": "fef58f4af9",
-      "title": "ROCKSTRIKCIJA",
-      "venue": "Podgorica",
-      "city": "Crna",
-      "country": "EU",
-      "category": "concert",
-      "date_iso": "2026-07-03T00:00:00",
-      "date_display": "pet, 03. 07. 2026.",
-      "time": null,
-      "link": "https://www.muzika.hr/event/rockstrikcija/",
-      "source": "muzika.hr",
-      "is_new": false,
-      "first_seen": "2026-06-20T05:01:13.461Z"
-    },
-    {
       "id": "88d393e186",
       "title": "Morcheeba (Festival Lent 2026)",
       "venue": "Trg Leona Štuklja Trg Leona Štuklja",
@@ -2780,7 +2720,22 @@
       "source": "muzika.hr",
       "is_new": false,
       "first_seen": "2026-07-17T05:01:25.773Z"
+    },
+    {
+      "id": "555df06376",
+      "title": "Judas Priest",
+      "venue": "Bratislava",
+      "city": "Slovakia",
+      "country": "EU",
+      "category": "concert",
+      "date_iso": "2026-08-04T00:00:00",
+      "date_display": "uto, 04. 08. 2026.",
+      "time": null,
+      "link": "https://www.muzika.hr/event/judas-priest-3/",
+      "source": "muzika.hr",
+      "is_new": true,
+      "first_seen": "2026-07-18T05:01:11.513Z"
     }
   ],
-  "new_count": 5
+  "new_count": 6
 }
