@@ -1,21 +1,9 @@
 {
-  "generated_at": "2026-07-18T05:01:14.110Z",
+  "generated_at": "2026-07-18T06:01:16.411Z",
   "stats": {
-    "Mochvara": {
-      "ok": true,
-      "count": 0
-    },
-    "Pogon": {
-      "ok": true,
-      "count": 0
-    },
     "muzika.hr": {
       "ok": true,
       "count": 25
-    },
-    "Gavella": {
-      "ok": true,
-      "count": 0
     },
     "Lisinski": {
       "ok": true,
@@ -24,6 +12,10 @@
     "Mochvara": {
       "ok": true,
       "count": 15
+    },
+    "Gavella": {
+      "ok": true,
+      "count": 0
     },
     "Tvornica": {
       "ok": true,
@@ -49,21 +41,9 @@
       "ok": true,
       "count": 0
     },
-    "ZeKaeM": {
-      "ok": true,
-      "count": 0
-    },
-    "Komedija": {
-      "ok": true,
-      "count": 0
-    },
     "Trešnja": {
       "ok": true,
       "count": 0
-    },
-    "HNK Zagreb": {
-      "ok": true,
-      "count": 65
     }
   },
   "concerts": [
@@ -1024,7 +1004,7 @@
       "time": "21:00",
       "link": "https://mochvara.hr/event-detail/6a468c43356d5f92b9fbc70d/?lang=hr",
       "source": "Mochvara",
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-07-18T05:01:14.110Z"
     },
     {
@@ -2768,9 +2748,9 @@
       "time": null,
       "link": "https://www.muzika.hr/event/judas-priest-3/",
       "source": "muzika.hr",
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-07-18T05:01:14.110Z"
     }
   ],
-  "new_count": 7
+  "new_count": 5
 }
