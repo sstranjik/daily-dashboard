@@ -1,14 +1,6 @@
 {
-  "generated_at": "2026-07-18T19:01:11.141Z",
+  "generated_at": "2026-07-18T19:57:09.961Z",
   "stats": {
-    "Mochvara": {
-      "ok": true,
-      "count": 0
-    },
-    "Pogon": {
-      "ok": true,
-      "count": 0
-    },
     "muzika.hr": {
       "ok": true,
       "count": 25
@@ -16,6 +8,10 @@
     "Lisinski": {
       "ok": true,
       "count": 0
+    },
+    "Mochvara": {
+      "ok": true,
+      "count": 15
     },
     "Gavella": {
       "ok": true,
@@ -25,7 +21,7 @@
       "ok": true,
       "count": 3
     },
-    "Kerempuh": {
+    "Komedija": {
       "ok": true,
       "count": 0
     },
@@ -33,17 +29,21 @@
       "ok": true,
       "count": 0
     },
-    "Komedija": {
-      "ok": true,
-      "count": 0
-    },
-    "Trešnja": {
+    "Pogon": {
       "ok": true,
       "count": 0
     },
     "HNK Zagreb": {
       "ok": true,
       "count": 65
+    },
+    "Kerempuh": {
+      "ok": true,
+      "count": 0
+    },
+    "Trešnja": {
+      "ok": true,
+      "count": 0
     }
   },
   "concerts": [
@@ -751,6 +751,21 @@
       "source": "muzika.hr",
       "is_new": false,
       "first_seen": "2026-07-09T05:01:37.063Z"
+    },
+    {
+      "id": "bd1c943097",
+      "title": "Billboardanje – R’n’B disco pop party",
+      "venue": "Mochvara",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-07-24T23:00:00",
+      "date_display": "pet, 24. 07. 2026.",
+      "time": "23:00",
+      "link": "https://mochvara.hr/event-detail/6a5bd1a7d64f81f2827294b5/?lang=hr",
+      "source": "Mochvara",
+      "is_new": true,
+      "first_seen": "2026-07-18T19:57:09.961Z"
     },
     {
       "id": "088238cbab",
@@ -2737,5 +2752,5 @@
       "first_seen": "2026-07-18T05:01:14.110Z"
     }
   ],
-  "new_count": 5
+  "new_count": 6
 }
