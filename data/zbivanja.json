@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-18T05:01:11.513Z",
+  "generated_at": "2026-07-18T05:01:14.110Z",
   "stats": {
     "Mochvara": {
       "ok": true,
@@ -17,13 +17,33 @@
       "ok": true,
       "count": 0
     },
+    "Lisinski": {
+      "ok": true,
+      "count": 0
+    },
+    "Mochvara": {
+      "ok": true,
+      "count": 15
+    },
     "Tvornica": {
       "ok": true,
       "count": 3
     },
-    "Lisinski": {
+    "ZeKaeM": {
       "ok": true,
       "count": 0
+    },
+    "Komedija": {
+      "ok": true,
+      "count": 0
+    },
+    "Pogon": {
+      "ok": true,
+      "count": 0
+    },
+    "HNK Zagreb": {
+      "ok": true,
+      "count": 65
     },
     "Kerempuh": {
       "ok": true,
@@ -991,6 +1011,21 @@
       "source": "Mochvara",
       "is_new": false,
       "first_seen": "2026-07-11T15:01:38.070Z"
+    },
+    {
+      "id": "0f79abf940",
+      "title": "akomeneželiš",
+      "venue": "Mochvara",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-08-29T21:00:00",
+      "date_display": "sub, 29. 08. 2026.",
+      "time": "21:00",
+      "link": "https://mochvara.hr/event-detail/6a468c43356d5f92b9fbc70d/?lang=hr",
+      "source": "Mochvara",
+      "is_new": true,
+      "first_seen": "2026-07-18T05:01:14.110Z"
     },
     {
       "id": "86cc723186",
@@ -2734,8 +2769,8 @@
       "link": "https://www.muzika.hr/event/judas-priest-3/",
       "source": "muzika.hr",
       "is_new": true,
-      "first_seen": "2026-07-18T05:01:11.513Z"
+      "first_seen": "2026-07-18T05:01:14.110Z"
     }
   ],
-  "new_count": 6
+  "new_count": 7
 }

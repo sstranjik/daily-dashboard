@@ -1,15 +1,15 @@
 {
   "version": 2,
-  "date": "2026-07-17",
-  "generated_at": "2026-07-17T07:14:44.655Z",
-  "date_hr": "Petak, 17. srpnja 2026.",
+  "date": "2026-07-18",
+  "generated_at": "2026-07-18T05:03:40.302Z",
+  "date_hr": "Subota, 18. srpnja 2026.",
   "weather": {
-    "icon": "🌧️",
-    "summary": "22–34°C, lagana kiša",
+    "icon": "🌦️",
+    "summary": "22–31°C, pljuskovi · 4.2 mm",
     "alerts": []
   },
   "fuel": {
-    "current_date": "17.07.2026",
+    "current_date": "18.07.2026",
     "eurodiesel": [
       {
         "company": "Adria Oil",
@@ -63,46 +63,46 @@
     "upcoming_premium": null
   },
   "market": {
-    "updated_at": "2026-07-17T07:14:44.655Z",
-    "btc_usd": 62848,
-    "btc_eur": 54897,
-    "btc_change_24h": -2.75,
-    "usd_eur": 0.8735
+    "updated_at": "2026-07-18T05:03:40.302Z",
+    "btc_usd": 63913,
+    "btc_eur": 55868,
+    "btc_change_24h": 0.91,
+    "usd_eur": 0.8744
   },
   "ai_news": [
     {
-      "title": "1Password's new Agentic Mode lets Claude log into your accounts without seeing your credentials",
-      "link": "https://www.zdnet.com/article/1password-claude-agentic-mode/",
-      "source": "ZDNet"
-    },
-    {
-      "title": "1Password lets Claude log you into websites without ever seeing your passwords",
-      "link": "https://thenextweb.com/news/1password-claude-credential-zero-exposure-agentic-mode",
+      "title": "Trump’s AI advisor says Kimi K3 shows “how you lose the AI race.” Khosla blames immigration. Marcus wants a congressional investigation.",
+      "link": "https://thenextweb.com/news/kimi-k3-reactions-sacks-khosla-marcus-ai-race",
       "source": "The Next Web"
     },
     {
-      "title": "Why is OpenAI selling a ChatGPT basketball?",
-      "link": "https://techcrunch.com/2026/07/16/why-is-openai-selling-a-chatgpt-basketball/",
-      "source": "TechCrunch AI"
+      "title": "Capital One releases VulnHunter, an open-source AI tool that finds software flaws before hackers do",
+      "link": "https://venturebeat.com/technology/capital-one-releases-vulnhunter-an-open-source-ai-tool-that-finds-software-flaws-before-hackers-do",
+      "source": "VentureBeat"
     },
     {
-      "title": "Anthropic's Claude Corps will pay $85,000 to 1,000 early-career professionals - apply now",
-      "link": "https://www.zdnet.com/article/anthropic-claude-corps-pays-early-career-professionals-apply-now/",
-      "source": "ZDNet"
+      "title": "Intuit scrapped its own AI agent architecture twice in four months. At VB Transform 2026, its AI VP called that the fast path",
+      "link": "https://venturebeat.com/orchestration/intuit-scrapped-its-own-ai-agent-architecture-twice-in-four-months-at-vb-transform-2026-its-ai-vp-called-that-the-fast-path",
+      "source": "VentureBeat"
     },
     {
-      "title": "Claude can now use your 1Password credentials for you",
-      "link": "https://www.theverge.com/tech/966442/1password-anthropic-claude-browser-integration",
-      "source": "The Verge"
+      "title": "Brex built its AI agent policy by watching what agents actually do, not by writing rules first",
+      "link": "https://venturebeat.com/orchestration/brex-built-its-ai-agent-policy-by-watching-what-agents-actually-do-not-by-writing-rules-first",
+      "source": "VentureBeat"
+    },
+    {
+      "title": "Agentic AI is moving from drafting doctors’ notes to routing their patients. Bunkerhill just raised on it.",
+      "link": "https://thenextweb.com/news/bunkerhill-health-agentic-ai-carebricks-series-b",
+      "source": "The Next Web"
     }
   ],
   "micro_tips": {
     "vscode": {
-      "tip": "Quick Fix i Code Actions na trenutnoj poziciji",
-      "keys": "Ctrl+."
+      "tip": "Toggle integrirani terminal",
+      "keys": "Ctrl+`"
     },
-    "sql": "Parametrizirani upiti = plan cache reuse + SQL injection zaštita istovremeno",
-    "oracle": "NVL2(expr, kad_nije_null, kad_je_null) kompaktnija od dvostrukog NVL-a",
-    "regex": "\\s+ pokriva space, tab i newline; \\S je negacija (svaki ne-whitespace)"
+    "sql": "Batch INSERT umjesto jednog-po-jednog: INSERT INTO t VALUES (...),(...),...",
+    "oracle": "FETCH FIRST n ROWS ONLY umjesto ROWNUM — kompatibilno s ORDER BY i čitljivije",
+    "regex": "^(?!.*pattern) negative lookahead: \"ova linija ne smije sadržavati X\""
   }
 }
