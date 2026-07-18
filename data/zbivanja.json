@@ -1,6 +1,14 @@
 {
-  "generated_at": "2026-07-18T07:23:42.296Z",
+  "generated_at": "2026-07-18T08:01:08.216Z",
   "stats": {
+    "Mochvara": {
+      "ok": true,
+      "count": 0
+    },
+    "Pogon": {
+      "ok": true,
+      "count": 0
+    },
     "muzika.hr": {
       "ok": true,
       "count": 25
@@ -8,10 +16,6 @@
     "Gavella": {
       "ok": true,
       "count": 0
-    },
-    "Mochvara": {
-      "ok": true,
-      "count": 15
     },
     "Lisinski": {
       "ok": true,
@@ -21,7 +25,7 @@
       "ok": true,
       "count": 3
     },
-    "Pogon": {
+    "Kerempuh": {
       "ok": true,
       "count": 0
     },
@@ -33,17 +37,13 @@
       "ok": true,
       "count": 0
     },
-    "HNK Zagreb": {
-      "ok": true,
-      "count": 65
-    },
-    "Kerempuh": {
-      "ok": true,
-      "count": 0
-    },
     "Trešnja": {
       "ok": true,
       "count": 0
+    },
+    "HNK Zagreb": {
+      "ok": true,
+      "count": 65
     }
   },
   "concerts": [
@@ -2707,6 +2707,21 @@
       "first_seen": "2026-07-13T08:42:20.758Z"
     },
     {
+      "id": "2bf1dd3b86",
+      "title": "Joss Stone \"Soul in Full Bloom",
+      "venue": "Soul in Full Bloom Ptuj Ptuj",
+      "city": "Slovenia",
+      "country": "EU",
+      "category": "concert",
+      "date_iso": "2026-07-18T00:00:00",
+      "date_display": "sub, 18. 07. 2026.",
+      "time": null,
+      "link": "https://www.muzika.hr/event/joss-stone-soul-in-full-bloom/",
+      "source": "muzika.hr",
+      "is_new": true,
+      "first_seen": "2026-07-18T08:01:08.216Z"
+    },
+    {
       "id": "4b57c03c5c",
       "title": "Moby",
       "venue": "Moby Kalemegdan Beograd",
@@ -2752,5 +2767,5 @@
       "first_seen": "2026-07-18T05:01:14.110Z"
     }
   ],
-  "new_count": 5
+  "new_count": 6
 }
