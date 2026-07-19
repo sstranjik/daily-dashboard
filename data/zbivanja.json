@@ -1,25 +1,21 @@
 {
-  "generated_at": "2026-07-19T13:01:14.204Z",
+  "generated_at": "2026-07-19T14:01:09.480Z",
   "stats": {
     "muzika.hr": {
       "ok": true,
       "count": 25
     },
-    "Gavella": {
+    "Mochvara": {
       "ok": true,
-      "count": 0
+      "count": 15
     },
     "Lisinski": {
       "ok": true,
       "count": 0
     },
-    "Mochvara": {
+    "Gavella": {
       "ok": true,
-      "count": 15
-    },
-    "ZeKaeM": {
-      "ok": false,
-      "error": "HTTP 503"
+      "count": 0
     },
     "Tvornica": {
       "ok": true,
@@ -29,13 +25,17 @@
       "ok": true,
       "count": 0
     },
-    "HNK Zagreb": {
+    "ZeKaeM": {
       "ok": true,
-      "count": 65
+      "count": 0
     },
     "Pogon": {
       "ok": true,
       "count": 0
+    },
+    "HNK Zagreb": {
+      "ok": true,
+      "count": 65
     },
     "Kerempuh": {
       "ok": true,
@@ -691,6 +691,21 @@
       "source": "Mochvara",
       "is_new": false,
       "first_seen": "2026-07-18T19:57:09.961Z"
+    },
+    {
+      "id": "d40d73d6e9",
+      "title": "Sabbra Kadabra - R'n'R metal party",
+      "venue": "Mochvara",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-07-25T22:00:00",
+      "date_display": "sub, 25. 07. 2026.",
+      "time": "22:00",
+      "link": "https://mochvara.hr/event-detail/6a5ccf11407fbe39da1e6813/?lang=hr",
+      "source": "Mochvara",
+      "is_new": true,
+      "first_seen": "2026-07-19T14:01:09.480Z"
     },
     {
       "id": "088238cbab",
@@ -2692,5 +2707,5 @@
       "first_seen": "2026-07-19T05:01:18.041Z"
     }
   ],
-  "new_count": 5
+  "new_count": 6
 }
