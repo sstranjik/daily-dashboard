@@ -1,15 +1,20 @@
 {
   "version": 2,
-  "date": "2026-07-18",
-  "generated_at": "2026-07-18T06:59:01.202Z",
-  "date_hr": "Subota, 18. srpnja 2026.",
+  "date": "2026-07-19",
+  "generated_at": "2026-07-19T05:03:16.648Z",
+  "date_hr": "Nedjelja, 19. srpnja 2026.",
   "weather": {
-    "icon": "🌦️",
-    "summary": "22–31°C, pljuskovi · 4.2 mm",
-    "alerts": []
+    "icon": "⛈️",
+    "summary": "19–31°C, grmljavina · 10.2 mm, vjetar 30 km/h",
+    "alerts": [
+      {
+        "level": "warning",
+        "text": "Grmljavinska oluja"
+      }
+    ]
   },
   "fuel": {
-    "current_date": "18.07.2026",
+    "current_date": "19.07.2026",
     "eurodiesel": [
       {
         "company": "Adria Oil",
@@ -63,46 +68,46 @@
     "upcoming_premium": null
   },
   "market": {
-    "updated_at": "2026-07-18T06:59:01.202Z",
-    "btc_usd": 63938,
-    "btc_eur": 55904,
-    "btc_change_24h": 1.68,
-    "usd_eur": 0.8744
+    "updated_at": "2026-07-19T05:03:16.648Z",
+    "btc_usd": 64694,
+    "btc_eur": 56566,
+    "btc_change_24h": 1.23,
+    "usd_eur": 0.8745
   },
   "ai_news": [
     {
-      "title": "Trump’s AI advisor says Kimi K3 shows “how you lose the AI race.” Khosla blames immigration. Marcus wants a congressional investigation.",
-      "link": "https://thenextweb.com/news/kimi-k3-reactions-sacks-khosla-marcus-ai-race",
+      "title": "Dave Eggers told OpenAI staff  that ChatGPT was ‘silencing an entire generation’",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/967630/dave-eggers-openai-chatgpt-silencing-an-entire-generation",
+      "source": "The Verge"
+    },
+    {
+      "title": "China is rebuilding the smartphone around AI agents. ZTE’s NaviX sold out in hours.",
+      "link": "https://thenextweb.com/news/china-agentic-ai-smartphones-zte-navix-doubao-waic",
       "source": "The Next Web"
     },
     {
-      "title": "Capital One releases VulnHunter, an open-source AI tool that finds software flaws before hackers do",
-      "link": "https://venturebeat.com/technology/capital-one-releases-vulnhunter-an-open-source-ai-tool-that-finds-software-flaws-before-hackers-do",
-      "source": "VentureBeat"
+      "title": "The White House is now deciding who gets access to frontier AI models, not the labs",
+      "link": "https://thenextweb.com/news/white-house-dictating-frontier-ai-model-access-anthropic-openai",
+      "source": "The Next Web"
     },
     {
-      "title": "Intuit scrapped its own AI agent architecture twice in four months. At VB Transform 2026, its AI VP called that the fast path",
-      "link": "https://venturebeat.com/orchestration/intuit-scrapped-its-own-ai-agent-architecture-twice-in-four-months-at-vb-transform-2026-its-ai-vp-called-that-the-fast-path",
-      "source": "VentureBeat"
+      "title": "Googleov NotebookLM dobiva novo ime",
+      "link": "https://www.bug.hr/internet/googleov-notebooklm-dobiva-novo-ime-61489",
+      "source": "Bug.hr"
     },
     {
-      "title": "Brex built its AI agent policy by watching what agents actually do, not by writing rules first",
-      "link": "https://venturebeat.com/orchestration/brex-built-its-ai-agent-policy-by-watching-what-agents-actually-do-not-by-writing-rules-first",
-      "source": "VentureBeat"
-    },
-    {
-      "title": "Agentic AI is moving from drafting doctors’ notes to routing their patients. Bunkerhill just raised on it.",
-      "link": "https://thenextweb.com/news/bunkerhill-health-agentic-ai-carebricks-series-b",
+      "title": "Google used Veo and Gemini to reconstruct the greatest goal Pelé ever scored, which was never filmed",
+      "link": "https://thenextweb.com/news/google-deepmind-pele-lost-goal-ai-reconstruction",
       "source": "The Next Web"
     }
   ],
   "micro_tips": {
     "vscode": {
-      "tip": "Toggle integrirani terminal",
-      "keys": "Ctrl+`"
+      "tip": "Selektiraj sva pojavljivanja trenutne riječi",
+      "keys": "Ctrl+Shift+L"
     },
-    "sql": "Batch INSERT umjesto jednog-po-jednog: INSERT INTO t VALUES (...),(...),...",
-    "oracle": "FETCH FIRST n ROWS ONLY umjesto ROWNUM — kompatibilno s ORDER BY i čitljivije",
-    "regex": "^(?!.*pattern) negative lookahead: \"ova linija ne smije sadržavati X\""
+    "sql": "EXISTS umjesto IN za subqueries — brže jer stane na prvom podudaranju: WHERE EXISTS (SELECT 1 FROM ...)",
+    "oracle": "/*+ INDEX(t ime_indexa) */ forsira specifičan index kad optimizer bira full scan",
+    "regex": "\\b granica riječi: \\bword\\b podudara cijelu riječ, ne \"password\" ili \"swordfish\""
   }
 }
