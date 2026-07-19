@@ -1,19 +1,27 @@
 {
-  "generated_at": "2026-07-18T20:39:13.313Z",
+  "generated_at": "2026-07-19T05:01:17.192Z",
   "stats": {
-    "Mochvara": {
-      "ok": true,
-      "count": 0
-    },
-    "Pogon": {
-      "ok": true,
-      "count": 0
-    },
     "muzika.hr": {
       "ok": true,
       "count": 25
     },
+    "Gavella": {
+      "ok": true,
+      "count": 0
+    },
     "Lisinski": {
+      "ok": true,
+      "count": 0
+    },
+    "Mochvara": {
+      "ok": true,
+      "count": 15
+    },
+    "Tvornica": {
+      "ok": true,
+      "count": 3
+    },
+    "Komedija": {
       "ok": true,
       "count": 0
     },
@@ -21,13 +29,13 @@
       "ok": true,
       "count": 0
     },
-    "Gavella": {
+    "Pogon": {
       "ok": true,
       "count": 0
     },
-    "Tvornica": {
+    "HNK Zagreb": {
       "ok": true,
-      "count": 3
+      "count": 65
     },
     "Kerempuh": {
       "ok": true,
@@ -36,92 +44,9 @@
     "Trešnja": {
       "ok": true,
       "count": 0
-    },
-    "Komedija": {
-      "ok": true,
-      "count": 0
-    },
-    "HNK Zagreb": {
-      "ok": true,
-      "count": 65
     }
   },
   "concerts": [
-    {
-      "id": "5190bbb0a4",
-      "title": "HNK u Zagrebu na Zagreb Classicu Golden Age: Lawrence Brownlee i Erin Morley uz Orkestar i Zbor Opere HNK u Zagrebu",
-      "venue": "HNK Zagreb",
-      "city": "Zagreb",
-      "country": "HR",
-      "category": "concert",
-      "date_iso": "2026-07-03T21:00:00",
-      "date_display": "pet, 03. 07. 2026.",
-      "time": "21:00",
-      "link": "https://hnk.hr/hr/koncert/predstave/golden-age-lawrence-brownlee-i-erin-morley-uz-orkestar-i-zbor-opere-hnk-u-zagrebu/#03.07.21.00",
-      "source": "HNK Zagreb",
-      "is_new": false,
-      "first_seen": "2026-06-18T06:01:15.503Z"
-    },
-    {
-      "id": "574e878432",
-      "title": "HNK u Zagrebu na festivalu Zagreb Classic Golden Age: Lawrence Brownlee i Erin Morley uz Orkestar i Zbor Opere HNK-a u Zagrebu",
-      "venue": "HNK Zagreb",
-      "city": "Zagreb",
-      "country": "HR",
-      "category": "concert",
-      "date_iso": "2026-07-03T21:00:00",
-      "date_display": "pet, 03. 07. 2026.",
-      "time": "21:00",
-      "link": "https://hnk.hr/hr/koncert/predstave/golden-age-lawrence-brownlee-i-erin-morley-uz-orkestar-i-zbor-opere-hnk-u-zagrebu/#03.07.21.00",
-      "source": "HNK Zagreb",
-      "is_new": false,
-      "first_seen": "2026-06-21T17:01:11.095Z"
-    },
-    {
-      "id": "e86760508e",
-      "title": "Back to nulte",
-      "venue": "Mochvara",
-      "city": "Zagreb",
-      "country": "HR",
-      "category": "concert",
-      "date_iso": "2026-07-03T22:00:00",
-      "date_display": "pet, 03. 07. 2026.",
-      "time": "22:00",
-      "link": "https://mochvara.hr/event-detail/6a3a4a2d8e17acf1f580c202/?lang=hr",
-      "source": "Mochvara",
-      "is_new": false,
-      "first_seen": "2026-06-28T19:01:13.511Z"
-    },
-    {
-      "id": "614efa4ab9",
-      "title": "John Legend",
-      "venue": "John Legend Arena Pula Flavijevska ulica",
-      "city": "Pula",
-      "country": "HR",
-      "category": "concert",
-      "date_iso": "2026-07-04T00:00:00",
-      "date_display": "sub, 04. 07. 2026.",
-      "time": null,
-      "link": "https://www.muzika.hr/event/john-legend/",
-      "source": "muzika.hr",
-      "is_new": false,
-      "first_seen": "2026-06-22T22:01:44.681Z"
-    },
-    {
-      "id": "8b69183c23",
-      "title": "SIPYARD The Bad Week koncert",
-      "venue": "Week koncert Sip pub Trnjanska cesta 111A",
-      "city": "Zagreb",
-      "country": "HR",
-      "category": "concert",
-      "date_iso": "2026-07-04T00:00:00",
-      "date_display": "sub, 04. 07. 2026.",
-      "time": null,
-      "link": "https://www.muzika.hr/event/sipyard-the-bad-week-koncert/",
-      "source": "muzika.hr",
-      "is_new": false,
-      "first_seen": "2026-07-02T08:01:23.158Z"
-    },
     {
       "id": "8c8095851f",
       "title": "Močvarni birc: Pink Pony Birc",
@@ -931,6 +856,36 @@
       "source": "muzika.hr",
       "is_new": false,
       "first_seen": "2026-07-17T05:01:25.773Z"
+    },
+    {
+      "id": "b3e9d9f270",
+      "title": "Fresh Wave Festival",
+      "venue": "",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-08-06T00:00:00",
+      "date_display": "čet, 06. 08. 2026.",
+      "time": null,
+      "link": "https://www.muzika.hr/event/fresh-wave-festival/",
+      "source": "muzika.hr",
+      "is_new": true,
+      "first_seen": "2026-07-19T05:01:17.192Z"
+    },
+    {
+      "id": "cfe04ebd8f",
+      "title": "Preach The RIČ Festival",
+      "venue": "Preach The RIČ Festival Martinska",
+      "city": "Šibenik",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-08-07T00:00:00",
+      "date_display": "pet, 07. 08. 2026.",
+      "time": null,
+      "link": "https://www.muzika.hr/event/preach-the-ric-festival/",
+      "source": "muzika.hr",
+      "is_new": true,
+      "first_seen": "2026-07-19T05:01:17.192Z"
     },
     {
       "id": "749533e021",
@@ -2497,36 +2452,6 @@
   ],
   "abroad": [
     {
-      "id": "88d393e186",
-      "title": "Morcheeba (Festival Lent 2026)",
-      "venue": "Trg Leona Štuklja Trg Leona Štuklja",
-      "city": "Maribor",
-      "country": "SI",
-      "category": "concert",
-      "date_iso": "2026-07-03T21:30:00",
-      "date_display": "pet, 03. 07. 2026.",
-      "time": "21:30",
-      "link": "https://www.muzika.hr/event/morcheeba-festival-lent-2026/",
-      "source": "muzika.hr",
-      "is_new": false,
-      "first_seen": "2026-06-22T05:01:12.187Z"
-    },
-    {
-      "id": "ae4712d6cf",
-      "title": "Adrian Younge",
-      "venue": "Adrian Younge Maribor Maribor",
-      "city": "Slovenia",
-      "country": "EU",
-      "category": "concert",
-      "date_iso": "2026-07-04T00:00:00",
-      "date_display": "sub, 04. 07. 2026.",
-      "time": null,
-      "link": "https://www.muzika.hr/event/adrian-younge/",
-      "source": "muzika.hr",
-      "is_new": false,
-      "first_seen": "2026-06-25T05:01:14.545Z"
-    },
-    {
       "id": "66bfbbc721",
       "title": "Queens of the Stone Age",
       "venue": "Ippodromo Snai La Maura Via Lampugnano 95",
@@ -2750,7 +2675,22 @@
       "source": "muzika.hr",
       "is_new": false,
       "first_seen": "2026-07-18T05:01:14.110Z"
+    },
+    {
+      "id": "b3c4008b1d",
+      "title": "Nick Cave The Bad Seeds",
+      "venue": "Cave The Bad Seeds Kalemegdan Beograd",
+      "city": "Serbia",
+      "country": "EU",
+      "category": "concert",
+      "date_iso": "2026-08-07T00:00:00",
+      "date_display": "pet, 07. 08. 2026.",
+      "time": null,
+      "link": "https://www.muzika.hr/event/nick-cave-the-bad-seeds-beograd/",
+      "source": "muzika.hr",
+      "is_new": true,
+      "first_seen": "2026-07-19T05:01:17.192Z"
     }
   ],
-  "new_count": 5
+  "new_count": 8
 }
