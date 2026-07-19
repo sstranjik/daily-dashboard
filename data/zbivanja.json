@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-19T16:41:42.411Z",
+  "generated_at": "2026-07-19T17:01:09.947Z",
   "stats": {
     "Mochvara": {
       "ok": true,
@@ -13,6 +13,10 @@
       "ok": true,
       "count": 25
     },
+    "Gavella": {
+      "ok": true,
+      "count": 0
+    },
     "Lisinski": {
       "ok": true,
       "count": 0
@@ -21,17 +25,9 @@
       "ok": true,
       "count": 0
     },
-    "Gavella": {
+    "Kerempuh": {
       "ok": true,
       "count": 0
-    },
-    "Komedija": {
-      "ok": false,
-      "error": "fetch failed"
-    },
-    "Kerempuh": {
-      "ok": false,
-      "error": "fetch failed"
     },
     "Trešnja": {
       "ok": true,
@@ -41,27 +37,16 @@
       "ok": true,
       "count": 3
     },
+    "Komedija": {
+      "ok": true,
+      "count": 0
+    },
     "HNK Zagreb": {
       "ok": true,
       "count": 65
     }
   },
   "concerts": [
-    {
-      "id": "8c8095851f",
-      "title": "Močvarni birc: Pink Pony Birc",
-      "venue": "Mochvara",
-      "city": "Zagreb",
-      "country": "HR",
-      "category": "concert",
-      "date_iso": "2026-07-04T17:00:00",
-      "date_display": "sub, 04. 07. 2026.",
-      "time": "17:00",
-      "link": "https://mochvara.hr/event-detail/6a42741f2a44f705ffc2683e/?lang=hr",
-      "source": "Mochvara",
-      "is_new": false,
-      "first_seen": "2026-07-01T06:01:24.531Z"
-    },
     {
       "id": "170d2d5fd4",
       "title": "Dodjela nagrada za najbolja umjetnička ostvarenja i završni koncert sezone „Devedesete u Zagrebu“",
