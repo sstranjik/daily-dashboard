@@ -1,25 +1,25 @@
 {
-  "generated_at": "2026-07-20T10:01:19.488Z",
+  "generated_at": "2026-07-20T11:01:19.236Z",
   "stats": {
-    "muzika.hr": {
+    "Mochvara": {
       "ok": true,
-      "count": 25
-    },
-    "Gavella": {
-      "ok": true,
-      "count": 0
+      "count": 14
     },
     "Lisinski": {
       "ok": true,
       "count": 0
     },
-    "Mochvara": {
+    "Gavella": {
       "ok": true,
-      "count": 14
+      "count": 0
     },
     "Tvornica": {
       "ok": true,
       "count": 3
+    },
+    "muzika.hr": {
+      "ok": true,
+      "count": 25
     },
     "ZeKaeM": {
       "ok": true,
@@ -29,15 +29,15 @@
       "ok": false,
       "error": "HTTP 500"
     },
+    "Pogon": {
+      "ok": true,
+      "count": 0
+    },
     "HNK Zagreb": {
       "ok": true,
       "count": 65
     },
     "Kerempuh": {
-      "ok": true,
-      "count": 0
-    },
-    "Pogon": {
       "ok": true,
       "count": 0
     },
@@ -47,21 +47,6 @@
     }
   },
   "concerts": [
-    {
-      "id": "4d658bece3",
-      "title": "Međunarodno baletno natjecanje „Mia Čorak Slavenska” 2026. Natjecanje – juniori (do 19 godina) i seniori (od 20 do 28 godina)",
-      "venue": "HNK Zagreb",
-      "city": "Zagreb",
-      "country": "HR",
-      "category": "concert",
-      "date_iso": "2026-07-05T11:00:00",
-      "date_display": "ned, 05. 07. 2026.",
-      "time": "11:00",
-      "link": "https://hnk.hr/hr/balet/predstave/me%C4%91unarodno-baletno-natjecanje-mia-%C4%8Dorak-slavenska-2026/#05.07.11.00",
-      "source": "HNK Zagreb",
-      "is_new": false,
-      "first_seen": "2026-05-26T20:26:55.235Z"
-    },
     {
       "id": "fa2e20892d",
       "title": "Začarani birc: od Laurel Canyona do Ocean Boulevarda + Mela Skar LIVE",
@@ -573,6 +558,21 @@
       "first_seen": "2026-07-20T07:54:17.505Z"
     },
     {
+      "id": "5d67c2f138",
+      "title": "Močvarni birc: Punk Rock Espanjol",
+      "venue": "Mochvara",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-07-21T17:00:00",
+      "date_display": "uto, 21. 07. 2026.",
+      "time": "17:00",
+      "link": "https://mochvara.hr/event-detail/6a5df1179a11faefb63fb74e/?lang=hr",
+      "source": "Mochvara",
+      "is_new": true,
+      "first_seen": "2026-07-20T11:01:19.236Z"
+    },
+    {
       "id": "4d6816b54a",
       "title": "Graffiti na Gradele",
       "venue": "Graffiti na Gradele Bol Otok Brač",
@@ -586,6 +586,21 @@
       "source": "muzika.hr",
       "is_new": false,
       "first_seen": "2026-07-07T05:01:35.700Z"
+    },
+    {
+      "id": "054cf0d930",
+      "title": "Močvarni birc: City Pop",
+      "venue": "Mochvara",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-07-22T17:00:00",
+      "date_display": "sri, 22. 07. 2026.",
+      "time": "17:00",
+      "link": "https://mochvara.hr/event-detail/6a5df23f9a11faefb641caac/?lang=hr",
+      "source": "Mochvara",
+      "is_new": true,
+      "first_seen": "2026-07-20T11:01:19.236Z"
     },
     {
       "id": "dad9ffb61b",
@@ -646,6 +661,21 @@
       "source": "muzika.hr",
       "is_new": false,
       "first_seen": "2026-07-09T05:01:37.063Z"
+    },
+    {
+      "id": "84e4dfffea",
+      "title": "Močvarni birc: Il Pantano Italiano",
+      "venue": "Mochvara",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-07-23T17:00:00",
+      "date_display": "čet, 23. 07. 2026.",
+      "time": "17:00",
+      "link": "https://mochvara.hr/event-detail/6a5df4729a11faefb645cf61/?lang=hr",
+      "source": "Mochvara",
+      "is_new": true,
+      "first_seen": "2026-07-20T11:01:19.236Z"
     },
     {
       "id": "bd1c943097",
@@ -2707,5 +2737,5 @@
       "first_seen": "2026-07-20T05:01:15.987Z"
     }
   ],
-  "new_count": 5
+  "new_count": 8
 }
