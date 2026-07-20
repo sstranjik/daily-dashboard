@@ -1,9 +1,81 @@
 {
-  "last_updated": "2026-07-20T16:01:11.133Z",
+  "last_updated": "2026-07-20T17:01:07.137Z",
   "source_count": 11,
   "items": [
     {
+      "id": "zdnet-0",
+      "title": "HuggingFace breach that's blamed on AI agent is defended by AI, too - what users should do next",
+      "summary": "An agentic AI infiltrated the production infrastructure of an AI project. Then an AI detected it. Is this the future of cyberattacks, and how will they be defended against?",
+      "link": "https://www.zdnet.com/article/huggingface-breach-blamed-on-ai-agent/",
+      "published": "2026-07-20T16:53:04.000Z",
+      "source": "ZDNet",
+      "category": "ai",
+      "xml_category": "",
+      "tags": [],
+      "image": null
+    },
+    {
+      "id": "venturebeat-0",
+      "title": "At VB Transform 2026, Zillow's engineering chief said AI ROI numbers only hold up if you measure before you build",
+      "summary": "Zillow, the real estate technology company, doesn&#x27;t get one conversation with its customers. They move from a phone screen to a loan officer to a real estate agent, sometimes over months or years, and expect the context to follow them. A single chatbot could never carry that thread. At VB Trans",
+      "link": "https://venturebeat.com/data/at-vb-transform-2026-zillows-engineering-chief-said-ai-roi-numbers-only-hold-up-if-you-measure-before-you-build",
+      "published": "2026-07-20T16:38:48.000Z",
+      "source": "VentureBeat",
+      "category": "ai",
+      "xml_category": "data",
+      "tags": [],
+      "image": "https://images.ctfassets.net/jdtwqhzvc2n1/5MlStH2GRQOz7b1i0t3KaB/49dfcc7b3c90b5478a88a604459f189e/VBXC0582-X2-zillow.jpg?w=300&q=30"
+    },
+    {
       "id": "the-verge-0",
+      "title": "LG&#8217;s glossy OLED gaming monitor is rare to find under $400",
+      "summary": "If you&#8217;ve been thinking about upgrading your gaming monitor, LG&#8217;s 27-inch 27GX704A-B pairs a glossy WOLED panel with a fast refresh rate, and it’s currently on sale for $379.99 (about $70 off) at Amazon and directly from LG, marking a new low price.&#160;It originally launched at $799.99",
+      "link": "https://www.theverge.com/gadgets/967993/lg-27-inch-ultragear-glossy-oled-gaming-monitor-deal-sale",
+      "published": "2026-07-20T16:34:24.000Z",
+      "source": "The Verge",
+      "category": "general",
+      "xml_category": "[object object]",
+      "tags": [],
+      "image": null
+    },
+    {
+      "id": "zdnet-1",
+      "title": "Why I still recommend Synology's DS225+ NAS - even if it can't replace your cloud storage",
+      "summary": "Soaring hard drive prices are making NAS boxes a niche product, but the Synology DS225+ still makes sense. Here's why.",
+      "link": "https://www.zdnet.com/article/synology-ds225-nas-review/",
+      "published": "2026-07-20T16:21:00.000Z",
+      "source": "ZDNet",
+      "category": "tech",
+      "xml_category": "",
+      "tags": [],
+      "image": null
+    },
+    {
+      "id": "venturebeat-1",
+      "title": "The cleanup trap: Stop asking RAG to fix bad data",
+      "summary": "The enterprise technology ecosystem is caught in a costly cycle. Over the past two years, millions of dollars have been funneled into generative AI pilots, yet many of these initiatives stall out before ever reaching a live production environment. When a project fails, the immediate instinct of tech",
+      "link": "https://venturebeat.com/orchestration/the-cleanup-trap-stop-asking-rag-to-fix-bad-data",
+      "published": "2026-07-20T16:19:45.000Z",
+      "source": "VentureBeat",
+      "category": "general",
+      "xml_category": "datadecisionmakers",
+      "tags": [],
+      "image": "https://images.ctfassets.net/jdtwqhzvc2n1/6WJse1DvwhmPbH0j3OS56Q/f6032d584f48f6d2f25edd7d56f28830/u7277289442_An_AI_robot_is_tripping_and_falling_on_its_face.__0f42aadb-7cbe-453e-ba9f-37d08820ecb9_1.png?w=300&q=30"
+    },
+    {
+      "id": "the-verge-1",
+      "title": "LG’s monitors come with an unwanted addition for Windows: McAfee pop-up ads",
+      "summary": "A video from Gamers Nexus explains how, after connecting a new LG UltraGear monitor to a PC running Windows 11 for the first time, Windows Update is silently installing LG driver updates and the LG Monitor App Installer, without so much as a permission pop-up or notification. The app doesn't appear ",
+      "link": "https://www.theverge.com/tech/967983/lg-monitors-mcafee-adware-gamers-nexus",
+      "published": "2026-07-20T16:14:58.000Z",
+      "source": "The Verge",
+      "category": "general",
+      "xml_category": "[object object]",
+      "tags": [],
+      "image": null
+    },
+    {
+      "id": "the-verge-2",
       "title": "Adobe’s ‘natural look’ camera app embraces generative AI",
       "summary": "Adobe's experimental camera app has taken an unexpected turn. After Project Indigo was launched last year to provide a \"more natural (SLR-like) look\" for iPhone photography, the Indigo camera app is now being updated with a suite of generative AI tools. And the change doesn't rely upon Adobe's own F",
       "link": "https://www.theverge.com/tech/967791/adobe-indigo-camera-app-ai-playground-update",
@@ -27,7 +99,19 @@
       "image": "https://www.bug.hr/img/posljednja-prilika-najnoviji-office-2024-pro-1699--i-windows-11-pro-1225--_cB60kL.jpg"
     },
     {
-      "id": "venturebeat-0",
+      "id": "the-next-web-0",
+      "title": "A Chinese AI lab just built a giant data centre with no Nvidia inside",
+      "summary": "For a year, one question has hung over China’s fast-improving AI models: what are they actually running on? Z.AI has just given part of the answer. It has built a huge data centre that uses only Chinese-made chips. The company, formerly known as Zhipu, has started partially operating the site, Bloom",
+      "link": "https://thenextweb.com/news/z-ai-data-centre-chinese-made-chips-nvidia",
+      "published": "2026-07-20T15:49:47.000Z",
+      "source": "The Next Web",
+      "category": "ai",
+      "xml_category": "artificial intelligence",
+      "tags": [],
+      "image": "https://media.thenextweb.com/2021/05/data-center.avif"
+    },
+    {
+      "id": "venturebeat-2",
       "title": "Safety guardrails blocked Hugging Face's defenders, not the attacker, when an AI agent breached its systems",
       "summary": "Hugging Face’s incident response team first turned to frontier AI models to analyze a breach of the company’s production infrastructure, and the models refused to help. Commercial safety guardrails built to stop attackers blocked every forensic query because they treated the IR team’s real exploit d",
       "link": "https://venturebeat.com/security/safety-guardrails-blocked-hugging-faces-defenders-not-the-attacker-when-an-ai-agent-breached-its-systems",
@@ -39,7 +123,7 @@
       "image": "https://images.ctfassets.net/jdtwqhzvc2n1/1RmnhwnGHTcub8tGfiGmFP/80db7a10de7d1052c247de811ff093ba/hugging_face_breach_hero_FINAL.png?w=300&q=30"
     },
     {
-      "id": "the-next-web-0",
+      "id": "the-next-web-1",
       "title": "AMD’s Helios puts 72 GPUs and 31 terabytes of HBM4 in one rack. It is AMD’s answer to Nvidia’s NVL72.",
       "summary": "AMD’s Helios is a single rack containing 72 Instinct MI455X GPUs, 31 terabytes of HBM4 memory, and 2.9 exaflops of FP4 inference compute. It is AMD’s first rack-scale AI system and its direct answer to Nvidia’s Vera Rubin NVL72. The system uses 18 compute trays, each holding four MI455X accelerators",
       "link": "https://thenextweb.com/news/amd-helios-mi455x-72-gpu-rack-nvidia-rival",
@@ -75,7 +159,7 @@
       "image": "https://www.netokracija.com/wp-content/uploads/2026/07/PODCAST-clanak-5-300x180.jpg"
     },
     {
-      "id": "the-verge-1",
+      "id": "the-verge-3",
       "title": "Dr. Jill Lepore on why AI backlash is vital for the future",
       "summary": "Today, I’m talking with Harvard professor and New Yorker staff writer Dr. Jill Lepore about her new book, The Rise and Fall of the Artificial State, which comes out on August 25. Jill is one of the best writers there is at identifying institutional patterns in history, and Decoder is a show about sy",
       "link": "https://www.theverge.com/podcast/967884/jill-lepore-history-ai-artificial-state-elon-musk",
@@ -87,7 +171,7 @@
       "image": null
     },
     {
-      "id": "the-next-web-1",
+      "id": "the-next-web-2",
       "title": "Google’s AI cited Facebook 19.5 million times, new research finds",
       "summary": "When Google’s AI answers a question, it is increasingly not reading a website. It is reading a Facebook post. New data suggests social platforms have become a core source for Google’s AI answers. Often the user never visits the platform at all. The findings come from BrightEdge, an enterprise SEO fi",
       "link": "https://thenextweb.com/news/google-ai-overviews-social-platforms-brightedge",
@@ -99,7 +183,7 @@
       "image": "https://media.thenextweb.com/2026/06/b2b-brands-earning-citations-chatgpt-claude-ai-overviews.avif"
     },
     {
-      "id": "the-next-web-2",
+      "id": "the-next-web-3",
       "title": "Google is building a chip with Gemini baked into the silicon",
       "summary": "Most AI chips are general-purpose. You load a model onto them, and they run it. Google is reportedly trying something stranger: a chip that is the model, with Gemini’s blueprint etched into the hardware itself. The project, informally called “Frozen v2,” was reported by The Information and picked up",
       "link": "https://thenextweb.com/news/google-frozen-chip-gemini-silicon",
@@ -111,7 +195,7 @@
       "image": "https://media.thenextweb.com/2026/07/google-ai-search-unsafe-schools-common-sense-media.avif"
     },
     {
-      "id": "the-next-web-3",
+      "id": "the-next-web-4",
       "title": "OneDrive will block screenshots of sensitive documents, but only in Microsoft’s own browser.",
       "summary": "Starting next month, OneDrive and SharePoint will block screen captures when enterprise users open certain sensitivity-labelled PDFs in Microsoft Edge. The restriction applies to documents carrying a Purview Information Protection label without the Copy (EXTRACT) permission. When those conditions ar",
       "link": "https://thenextweb.com/news/microsoft-edge-screenshot-blocking-sensitive-pdfs",
@@ -123,7 +207,7 @@
       "image": "https://media.thenextweb.com/2026/07/microsoft-edge-screenshot-blocking-sensitive-pdfs.avif"
     },
     {
-      "id": "the-verge-2",
+      "id": "the-verge-4",
       "title": "The AirPods Max 2 are down to their second-best price",
       "summary": "There are a ton of deals available to shop today thanks to Best Buy’s “Black Friday in July” sale lasting all week. The sale typically aligns closely with Prime Day each year, but of course, Amazon’s shopping holiday happened much earlier than we expected. So it’s nice to have some deals in July. On",
       "link": "https://www.theverge.com/gadgets/967822/airpods-max-2-logitech-superstrike-kodak-charmera-deal-sale",
@@ -135,7 +219,7 @@
       "image": null
     },
     {
-      "id": "the-next-web-4",
+      "id": "the-next-web-5",
       "title": "Netflix used AI in 300 shows. Its biggest director calls AI a Trojan horse.",
       "summary": "The fight over AI in Hollywood used to be about the future. This month it turned into a fight about the present. Within days, a studio, a director and a union each drew a line. The lines do not agree. Taken together, they show an industry that has already let the technology in. Now it [&hellip;] Thi",
       "link": "https://thenextweb.com/news/ai-in-hollywood-netflix-nolan-synthetic-performers",
@@ -159,7 +243,7 @@
       "image": "https://www.tportal.hr/media/thumbnail/500x300/2769217.jpeg?cropId=0"
     },
     {
-      "id": "zdnet-0",
+      "id": "zdnet-2",
       "title": "How I configure DNS on Ubuntu Linux distros via the command line - it's easier than you think",
       "summary": "DNS is a critical component for PC networking, searching, and security. If you want to learn how to set it up on Ubuntu-based distros from the command line, here's how.",
       "link": "https://www.zdnet.com/article/how-to-set-dns-servers-on-ubuntu-based-linux-distros/",
@@ -183,7 +267,7 @@
       "image": "https://www.bug.hr/img/grafenski-premaz-nastao-u-portugalu-smanjuje-radarski-odraz-vojnih-aviona-i_m5lg3w.jpg"
     },
     {
-      "id": "the-next-web-5",
+      "id": "the-next-web-6",
       "title": "Four teams just broke AI agents four ways in ten days. The flaw is the same one.",
       "summary": "We spent two years asking whether AI would lie to us. The more useful question this summer is what happens once we hand it the keys. Give a model your Gmail, your calendar, a memory and the power to act, and its mistakes stop being embarrassing. They start being exploitable. Over roughly ten days in",
       "link": "https://thenextweb.com/news/ai-agent-security-four-attacks-one-flaw",
@@ -195,7 +279,7 @@
       "image": "https://media.thenextweb.com/2026/05/taiwan-high-speed-rail-hacked-student-tetra-sdr.avif"
     },
     {
-      "id": "the-next-web-6",
+      "id": "the-next-web-7",
       "title": "EVs outsold petrol and diesel in Germany for the first time. The birthplace of the car just changed its fuel.",
       "summary": "Electric cars outsold every other fuel type in Germany for the first time in June. The country’s Federal Motor Transport Authority recorded 84,057 new EV registrations, a 78.2% year-on-year increase, putting battery-electric vehicles at 28.4% market share. Traditional hybrids came second with 83,315",
       "link": "https://thenextweb.com/news/evs-outsold-gas-diesel-germany-first-time",
@@ -207,7 +291,7 @@
       "image": "https://media.thenextweb.com/2026/07/evs-outsold-gas-diesel-germany-first-time.avif"
     },
     {
-      "id": "the-verge-3",
+      "id": "the-verge-5",
       "title": "Electric air taxis go to war",
       "summary": "Electric aviation is still in its infancy, but manufacturers are already looking beyond mere air taxi trips across cities. Today, one of the leading air taxi startups, San Jose-based Archer Aviation, unveiled a new aircraft it co-developed with defense technology company Anduril - though the platfor",
       "link": "https://www.theverge.com/transportation/967891/archer-evtol-military-anduril-air-taxi-thunder",
@@ -219,7 +303,7 @@
       "image": null
     },
     {
-      "id": "the-verge-4",
+      "id": "the-verge-6",
       "title": "Avengers: Doomsday’s first trailer puts everyone on high alert",
       "summary": "After months of teasing us with reminders about how large Avengers: Doomsday's cast is going to be, Marvel has finally released a proper trailer for the film. Though Robert. Downey Jr.'s Doctor Doom definitely appears to be causing a lot of the chaos in Doomsday's first trailer, the movie seems like",
       "link": "https://www.theverge.com/entertainment/967887/avengers-doomsday-trailer-marvel-release-date",
@@ -231,7 +315,7 @@
       "image": null
     },
     {
-      "id": "zdnet-1",
+      "id": "zdnet-3",
       "title": "How to check if ChatGPT and other AI tools cite your website - and improve your chances in 2026",
       "summary": "SEO is not dead. Here's how to get cited more often and boost search visibility in AI tools today.",
       "link": "https://www.zdnet.com/article/how-to-check-if-chatgpt-ai-tools-cite-website-improve-chances/",
@@ -255,7 +339,7 @@
       "image": "https://magnet.bug.hr/img/tko-je-benjaman-kyle-misterij-covjeka-bez-proslosti-koji-vjesto-manipulira-u_iIVbmW.jpg"
     },
     {
-      "id": "the-next-web-7",
+      "id": "the-next-web-8",
       "title": "AI is writing your date’s messages. The dating apps say they cannot stop it.",
       "summary": "Singles are feeding their dating app conversations into ChatGPT and Claude, asking the models to write replies, analyse what went wrong, and generate opening lines. The practice, called “chatfishing,” has produced a 5,000% spike in Google searches and a growing trail of Reddit posts and TikTok confe",
       "link": "https://thenextweb.com/news/chatfishing-ai-dating-apps-chatgpt-claude-tinder-hinge",
@@ -291,7 +375,7 @@
       "image": "https://www.tportal.hr/media/thumbnail/500x300/2769337.jpeg?cropId=4199249"
     },
     {
-      "id": "the-next-web-8",
+      "id": "the-next-web-9",
       "title": "A $400M nonprofit backed by France and DeepMind is building AI’s ‘public option’",
       "summary": "A farmer in rural India photographs a dying plant and wants to look it up. She does not speak English, and today’s AI barely speaks hers. A nonprofit called Current AI thinks that is a problem worth fixing. Its goal is grand: a “public option” for AI, open and free to anyone, much like the [&hellip;",
       "link": "https://thenextweb.com/news/current-ai-public-open-ai-alternative-400-million",
@@ -303,7 +387,7 @@
       "image": "https://media.thenextweb.com/2026/07/current-ai.avif"
     },
     {
-      "id": "zdnet-2",
+      "id": "zdnet-4",
       "title": "I tested 3 blood pressure trackers for a month - only one rivaled my Garmin Index BP Monitor",
       "summary": "I wore Samsung, Amazfit, and Doctor Fit blood pressure watches for weeks, and this one was the most accurate.",
       "link": "https://www.zdnet.com/article/blood-pressure-watches-samsung-amazfit-yhe/",
@@ -351,7 +435,7 @@
       "image": "https://media.thenextweb.com/2026/07/Blurred-business-people.avif"
     },
     {
-      "id": "zdnet-3",
+      "id": "zdnet-5",
       "title": "The top AI fear for 6,000 tech pros isn't losing their jobs - it's more work for the same pay",
       "summary": "Most tech professionals wouldn't recommend their own role to someone entering the industry today.",
       "link": "https://www.zdnet.com/article/top-ai-fear-tech-survey/",
@@ -375,7 +459,7 @@
       "image": "https://media.thenextweb.com/2026/07/InnoLight-office.avif"
     },
     {
-      "id": "zdnet-4",
+      "id": "zdnet-6",
       "title": "I recreated OpenAI's Codex Micro for a lot less - and mine is more customizable",
       "summary": "The $230 Codex Micro sold out before I could buy one, so I turned my Stream Deck+ into a surprisingly capable alternative.",
       "link": "https://www.zdnet.com/article/codex-micro-keypad-alternative-stream-deck-plus/",
@@ -435,7 +519,7 @@
       "image": "https://www.tportal.hr/media/thumbnail/500x300/2762580.jpeg?cropId=0"
     },
     {
-      "id": "the-verge-5",
+      "id": "the-verge-7",
       "title": "AliExpress fined almost $630 million over illegal product sales",
       "summary": "AliExpress has been hit with a &#8364;550 million (about $629 million) fine for violating Europe's Digital Services Act (DSA) rules by failing to prevent illegal, unsafe, or counterfeit products from being sold on the e-commerce platform. The European Commission ruled that AliExpress didn't take eff",
       "link": "https://www.theverge.com/policy/967802/aliexpress-eu-dsa-fine-illegal-products",
@@ -567,7 +651,7 @@
       "image": "https://media.thenextweb.com/2026/07/Hugging-Face-breach.avif"
     },
     {
-      "id": "the-verge-6",
+      "id": "the-verge-8",
       "title": "China delivers a one-two punch to America’s AI dominance",
       "summary": "China's leading AI companies are ramping up the pressure on Silicon Valley, as Moonshot and Alibaba unveiled models they claim can go toe-to-toe with the best from OpenAI and Anthropic at a fraction of the cost. The rapid-fire releases suggest America's lead at the AI frontier is increasingly tight,",
       "link": "https://www.theverge.com/ai-artificial-intelligence/967781/chinese-ai-models-open-source-moonshot-kimi-k3-alibaba-qwen",
@@ -615,7 +699,7 @@
       "image": "https://media.thenextweb.com/2026/07/Trump-Media.avif"
     },
     {
-      "id": "zdnet-5",
+      "id": "zdnet-7",
       "title": "Sign up for T-Mobile Fiber 2 Gig and get $100 back, plus a month included",
       "summary": "T-Mobile Fiber's latest offer covers your first month and pays you $100 back on the 2 Gig plan. Here's all you need to know.",
       "link": "https://www.zdnet.com/article/t-mobile-fiber-2-gig-deal/",
@@ -843,7 +927,7 @@
       "image": "https://www.tportal.hr/media/thumbnail/500x300/2762571.jpeg?cropId=0"
     },
     {
-      "id": "venturebeat-1",
+      "id": "venturebeat-3",
       "title": "AI confidence just dropped 17 points in six months. That’s actually great news.",
       "summary": "Presented by JumpCloud The organizations losing confidence in AI are the ones most likely to get it right. Six months ago, 40% of IT leaders described their organizations as mature in AI deployment. Today that number is 23% . Before you read that as a setback, consider what it actually reflects. We ",
       "link": "https://venturebeat.com/security/ai-confidence-just-dropped-17-points-in-six-months-thats-actually-great-news",
@@ -999,7 +1083,7 @@
       "image": null
     },
     {
-      "id": "the-verge-7",
+      "id": "the-verge-9",
       "title": "This unpronounceable series of glyphs is an incredible side project from Kieran Hebden (aka Four Tet)",
       "summary": "Just why? &#645;&#865;&#865;&#865;&#865;&#865;&#865;&#865;&#865;&#865;&#865;&#865;(&#824;&#802;&#795;&#828;&#798;&#813;&#843;&#837;)&#824;&#858;&#816;&#859;&#788;&#830;&#768;&#831;&#850;&#834;:&#820;&#851;&#798;&#785;&#780;&#770;&#774;&#778;&#843;&#768;:&#824;&#846;&#799;&#815;&#770;&#787;&#780;&#12",
       "link": "https://www.theverge.com/entertainment/967696/four-tet-wingdings-album-review",
@@ -1057,54 +1141,6 @@
       "xml_category": "[object object]",
       "tags": [],
       "image": null
-    },
-    {
-      "id": "bug.hr-19",
-      "title": "IMAX Digital vs. IMAX 70 mm: smisao analognog ludila u digitalnom dobu",
-      "summary": "Nitko se neće začuditi ako se iz Zagreba ode na rock koncert u Prag ili na neku izložbu u tom gradu. Ali putovati u Prag da bi se išlo u kino? Da, za prave filmoljupce to je i potrebno i opravdano da bi vidjeli najnoviji Nolanov film „Odiseja” u punom sjaju!",
-      "link": "https://magnet.bug.hr/tehnologije/imax-digital-vs-imax-70-mm-smisao-analognog-ludila-u-digitalnom-dobu-61505",
-      "published": "2026-07-19T17:00:00.000Z",
-      "source": "Bug.hr",
-      "category": "general",
-      "xml_category": "tehnologije",
-      "tags": [],
-      "image": "https://magnet.bug.hr/img/imax-digital-vs-imax-70-mm-smisao-analognog-ludila-u-digitalnom-dobu_sE67Ri.jpeg"
-    },
-    {
-      "id": "the-next-web-6",
-      "title": "Korea’s AI chip market is now the opening bell for global stocks",
-      "summary": "Fund managers in London, New York, and Tokyo have added a new step to their morning routine: checking South Korean stocks. Korea’s $4 trillion equity market is now offering an early read on global AI risk appetite, as swings in SK Hynix and Samsung ripple through chip stocks worldwide. “We are all K",
-      "link": "https://thenextweb.com/news/south-korea-kospi-ai-stocks-global-markets-sk-hynix",
-      "published": "2026-07-19T16:57:39.000Z",
-      "source": "The Next Web",
-      "category": "ai",
-      "xml_category": "artificial intelligence",
-      "tags": [],
-      "image": "https://media.thenextweb.com/2026/07/south-korea-kospi-ai-stocks-global-markets-sk-hynix.avif"
-    },
-    {
-      "id": "the-verge-9",
-      "title": "The FBI reportedly won’t investigate ICE anymore",
-      "summary": "According to the The New York Times, federal agents have been told that the FBI will no longer be investigating confrontations involving ICE agents. The DHS and DOJ denied the change in policy to The Times. The reported change in guidance follows renewed scrutiny of violence by ICE agents who have k",
-      "link": "https://www.theverge.com/policy/967674/fbi-wont-investigate-ice-assaults",
-      "published": "2026-07-19T16:42:10.000Z",
-      "source": "The Verge",
-      "category": "general",
-      "xml_category": "[object object]",
-      "tags": [],
-      "image": null
-    },
-    {
-      "id": "the-next-web-7",
-      "title": "Victoria proposes forcing social media platforms to unmask anonymous accounts accused of vilification",
-      "summary": "Victoria’s premier Jacinta Allan announced on Sunday that the state would propose laws granting the Victorian civil and administrative tribunal power to order social media and AI platforms to reveal the identities of anonymous account holders accused of online vilification. The “demasking” powers wo",
-      "link": "https://thenextweb.com/news/victoria-australia-social-media-demasking-vilification",
-      "published": "2026-07-19T16:05:47.000Z",
-      "source": "The Next Web",
-      "category": "general",
-      "xml_category": "australia",
-      "tags": [],
-      "image": "https://media.thenextweb.com/2026/07/victoria-australia-social-media-demasking-vilification.avif"
     }
   ]
 }
