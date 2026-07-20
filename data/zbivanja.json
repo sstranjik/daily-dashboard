@@ -1,15 +1,11 @@
 {
-  "generated_at": "2026-07-20T07:01:14.520Z",
+  "generated_at": "2026-07-20T07:54:17.505Z",
   "stats": {
-    "muzika.hr": {
-      "ok": true,
-      "count": 25
-    },
-    "Lisinski": {
+    "Gavella": {
       "ok": true,
       "count": 0
     },
-    "Gavella": {
+    "Lisinski": {
       "ok": true,
       "count": 0
     },
@@ -20,6 +16,10 @@
     "Tvornica": {
       "ok": true,
       "count": 3
+    },
+    "muzika.hr": {
+      "ok": true,
+      "count": 25
     },
     "Komedija": {
       "ok": false,
@@ -556,6 +556,21 @@
       "source": "Mochvara",
       "is_new": false,
       "first_seen": "2026-07-11T15:01:38.070Z"
+    },
+    {
+      "id": "392d1aac7b",
+      "title": "Močvarni birc: Chrono Trigger",
+      "venue": "Mochvara",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-07-20T17:00:00",
+      "date_display": "pon, 20. 07. 2026.",
+      "time": "17:00",
+      "link": "https://mochvara.hr/event-detail/6a59face213b8b957630a3dd/?lang=hr",
+      "source": "Mochvara",
+      "is_new": true,
+      "first_seen": "2026-07-20T07:54:17.505Z"
     },
     {
       "id": "4d6816b54a",
@@ -2692,5 +2707,5 @@
       "first_seen": "2026-07-20T05:01:15.987Z"
     }
   ],
-  "new_count": 5
+  "new_count": 6
 }
