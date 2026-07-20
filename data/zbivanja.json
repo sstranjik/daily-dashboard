@@ -1,31 +1,27 @@
 {
-  "generated_at": "2026-07-20T05:01:15.987Z",
+  "generated_at": "2026-07-20T06:01:14.524Z",
   "stats": {
+    "Mochvara": {
+      "ok": true,
+      "count": 0
+    },
     "muzika.hr": {
       "ok": true,
       "count": 25
-    },
-    "Gavella": {
-      "ok": true,
-      "count": 0
     },
     "Lisinski": {
       "ok": true,
       "count": 0
     },
-    "Mochvara": {
+    "Gavella": {
       "ok": true,
-      "count": 14
+      "count": 0
     },
     "Tvornica": {
       "ok": true,
       "count": 3
     },
-    "ZeKaeM": {
-      "ok": true,
-      "count": 0
-    },
-    "Pogon": {
+    "Komedija": {
       "ok": true,
       "count": 0
     },
@@ -33,17 +29,21 @@
       "ok": true,
       "count": 65
     },
-    "Komedija": {
-      "ok": true,
-      "count": 0
-    },
     "Kerempuh": {
-      "ok": true,
-      "count": 0
+      "ok": false,
+      "error": "fetch failed"
     },
     "Trešnja": {
-      "ok": true,
-      "count": 0
+      "ok": false,
+      "error": "fetch failed"
+    },
+    "Pogon": {
+      "ok": false,
+      "error": "fetch failed"
+    },
+    "ZeKaeM": {
+      "ok": false,
+      "error": "fetch failed"
     }
   },
   "concerts": [
@@ -2673,7 +2673,7 @@
       "time": null,
       "link": "https://www.muzika.hr/event/sziget-festival-2026/",
       "source": "muzika.hr",
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-07-20T05:01:15.987Z"
     },
     {
@@ -2688,9 +2688,9 @@
       "time": null,
       "link": "https://www.muzika.hr/event/punk-rock-holiday/",
       "source": "muzika.hr",
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-07-20T05:01:15.987Z"
     }
   ],
-  "new_count": 7
+  "new_count": 5
 }
