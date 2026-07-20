@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-19T20:01:12.525Z",
+  "generated_at": "2026-07-20T05:01:10.829Z",
   "stats": {
     "muzika.hr": {
       "ok": true,
@@ -15,27 +15,27 @@
     },
     "Mochvara": {
       "ok": true,
-      "count": 15
+      "count": 14
     },
     "Tvornica": {
       "ok": true,
       "count": 3
     },
-    "ZeKaeM": {
-      "ok": true,
-      "count": 0
-    },
     "Komedija": {
-      "ok": true,
-      "count": 0
-    },
-    "Pogon": {
       "ok": true,
       "count": 0
     },
     "HNK Zagreb": {
       "ok": true,
       "count": 65
+    },
+    "ZeKaeM": {
+      "ok": true,
+      "count": 0
+    },
+    "Pogon": {
+      "ok": true,
+      "count": 0
     },
     "Kerempuh": {
       "ok": true,
@@ -47,36 +47,6 @@
     }
   },
   "concerts": [
-    {
-      "id": "170d2d5fd4",
-      "title": "Dodjela nagrada za najbolja umjetnička ostvarenja i završni koncert sezone „Devedesete u Zagrebu“",
-      "venue": "HNK Zagreb",
-      "city": "Zagreb",
-      "country": "HR",
-      "category": "concert",
-      "date_iso": "2026-07-04T20:30:00",
-      "date_display": "sub, 04. 07. 2026.",
-      "time": "20:30",
-      "link": "https://hnk.hr/hr/koncert/predstave/dodjela-nagrada-za-najbolja-umjetni%C4%8Dka-ostvarenja-i-zavr%C5%A1ni-koncert-sezone-devedesete-u-zagrebu/#04.07.20.30",
-      "source": "HNK Zagreb",
-      "is_new": false,
-      "first_seen": "2026-05-26T20:26:55.235Z"
-    },
-    {
-      "id": "29d5ad5ba1",
-      "title": "Sjemenište: DUGA",
-      "venue": "Mochvara",
-      "city": "Zagreb",
-      "country": "HR",
-      "category": "concert",
-      "date_iso": "2026-07-04T21:00:00",
-      "date_display": "sub, 04. 07. 2026.",
-      "time": "21:00",
-      "link": "https://mochvara.hr/event-detail/6a26806fda73e2c295061da6/?lang=hr",
-      "source": "Mochvara",
-      "is_new": false,
-      "first_seen": "2026-07-02T05:01:22.569Z"
-    },
     {
       "id": "4d658bece3",
       "title": "Međunarodno baletno natjecanje „Mia Čorak Slavenska” 2026. Natjecanje – juniori (do 19 godina) i seniori (od 20 do 28 godina)",
@@ -2690,7 +2660,37 @@
       "source": "muzika.hr",
       "is_new": false,
       "first_seen": "2026-07-19T05:01:18.041Z"
+    },
+    {
+      "id": "1bad180f03",
+      "title": "Sziget Festival 2026",
+      "venue": "Sziget Festival 2026 Budapest",
+      "city": "Hungary",
+      "country": "EU",
+      "category": "concert",
+      "date_iso": "2026-08-11T00:00:00",
+      "date_display": "uto, 11. 08. 2026.",
+      "time": null,
+      "link": "https://www.muzika.hr/event/sziget-festival-2026/",
+      "source": "muzika.hr",
+      "is_new": true,
+      "first_seen": "2026-07-20T05:01:10.829Z"
+    },
+    {
+      "id": "5c3ac3b51d",
+      "title": "Punk Rock Holiday",
+      "venue": "Punk Rock Holiday Tolmin",
+      "city": "Slovenia",
+      "country": "EU",
+      "category": "concert",
+      "date_iso": "2026-08-11T00:00:00",
+      "date_display": "uto, 11. 08. 2026.",
+      "time": null,
+      "link": "https://www.muzika.hr/event/punk-rock-holiday/",
+      "source": "muzika.hr",
+      "is_new": true,
+      "first_seen": "2026-07-20T05:01:10.829Z"
     }
   ],
-  "new_count": 5
+  "new_count": 7
 }
