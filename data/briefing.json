@@ -1,15 +1,15 @@
 {
   "version": 2,
-  "date": "2026-07-20",
-  "generated_at": "2026-07-20T07:56:44.797Z",
-  "date_hr": "Ponedjeljak, 20. srpnja 2026.",
+  "date": "2026-07-21",
+  "generated_at": "2026-07-21T05:03:14.898Z",
+  "date_hr": "Utorak, 21. srpnja 2026.",
   "weather": {
-    "icon": "☁️",
-    "summary": "17–26°C, oblačno",
+    "icon": "🌦️",
+    "summary": "18–27°C, pljuskovi · 1 mm",
     "alerts": []
   },
   "fuel": {
-    "current_date": "20.07.2026",
+    "current_date": "21.07.2026",
     "eurodiesel": [
       {
         "company": "Adria Oil",
@@ -42,20 +42,20 @@
         "price": 1.75
       },
       {
-        "company": "INA",
-        "price": 1.86
-      },
-      {
         "company": "Tifon",
-        "price": 1.86
-      },
-      {
-        "company": "Petrol",
-        "price": 1.92
+        "price": 1.96
       },
       {
         "company": "Coral Croatia",
         "price": 1.99
+      },
+      {
+        "company": "INA",
+        "price": 2
+      },
+      {
+        "company": "Petrol",
+        "price": 2.02
       }
     ],
     "upcoming_date": null,
@@ -63,31 +63,46 @@
     "upcoming_premium": null
   },
   "market": {
-    "updated_at": "2026-07-20T07:56:44.797Z",
-    "btc_usd": 64202,
-    "btc_eur": 56105,
-    "btc_change_24h": -0.68,
-    "usd_eur": 0.875
+    "updated_at": "2026-07-21T05:03:14.898Z",
+    "btc_usd": 65469,
+    "btc_eur": 57340,
+    "btc_change_24h": 1.61,
+    "usd_eur": 0.8758
   },
   "ai_news": [
     {
-      "title": "Can an Apple lawsuit derail OpenAI’s hardware plans?",
-      "link": "https://techcrunch.com/2026/07/19/can-an-apple-lawsuit-derail-openais-hardware-plans/",
+      "title": "An AI agent breached Hugging Face before an AI defender caught it: What users should do next",
+      "link": "https://www.zdnet.com/article/hugging-face-breach-blamed-on-ai-agent/",
+      "source": "ZDNet"
+    },
+    {
+      "title": "Safety guardrails blocked Hugging Face's defenders, not the attacker, when an AI agent breached its systems",
+      "link": "https://venturebeat.com/security/safety-guardrails-blocked-hugging-faces-defenders-not-the-attacker-when-an-ai-agent-breached-its-systems",
+      "source": "VentureBeat"
+    },
+    {
+      "title": "OpenAI is scared of open-weight models. Should the US be?",
+      "link": "https://techcrunch.com/2026/07/20/openai-is-scared-of-open-weight-models-should-the-us-be/",
       "source": "TechCrunch AI"
     },
     {
-      "title": "Pao ChatGPT: Korisnici ne mogu do omiljenog AI chatbota",
-      "link": "https://www.tportal.hr/tehno/clanak/pao-chatgpt-korisnici-ne-mogu-do-omiljenog-ai-chatbota-20260719",
-      "source": "Tportal"
+      "title": "HuggingFace breach that's blamed on AI agent is defended by AI, too - what users should do next",
+      "link": "https://www.zdnet.com/article/huggingface-breach-blamed-on-ai-agent/",
+      "source": "ZDNet"
+    },
+    {
+      "title": "Four teams just broke AI agents four ways in ten days. The flaw is the same one.",
+      "link": "https://thenextweb.com/news/ai-agent-security-four-attacks-one-flaw",
+      "source": "The Next Web"
     }
   ],
   "micro_tips": {
     "vscode": {
-      "tip": "Pomakni liniju gore ili dolje bez cut/paste",
-      "keys": "Alt+↑ / Alt+↓"
+      "tip": "Format Document (auto-format cijelog fajla)",
+      "keys": "Shift+Alt+F"
     },
-    "sql": "Nikad SELECT * u produkciji — navedi kolone, manji I/O i bolji cache plan",
-    "oracle": "/*+ PARALLEL(t 4) */ paralelno izvršavanje querija na N thread-ova",
-    "regex": "(?:group) non-capturing group: grupiraj bez pamćenja za veće performanse"
+    "sql": "Covering index: uključi sve kolone iz WHERE + SELECT u index pa nema pristupa tablici",
+    "oracle": "/*+ NO_MERGE(v) */ sprječava merging inline viewa s parent queryjem",
+    "regex": "(?=pattern) lookahead: \"iza ovog mora slijediti X\" bez konzumiranja znakova"
   }
 }
