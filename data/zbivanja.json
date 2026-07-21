@@ -1,19 +1,15 @@
 {
-  "generated_at": "2026-07-21T19:01:09.471Z",
+  "generated_at": "2026-07-21T20:01:20.377Z",
   "stats": {
-    "Mochvara": {
-      "ok": true,
-      "count": 0
-    },
     "muzika.hr": {
       "ok": true,
       "count": 25
     },
-    "Lisinski": {
+    "Mochvara": {
       "ok": true,
-      "count": 0
+      "count": 14
     },
-    "Pogon": {
+    "Lisinski": {
       "ok": true,
       "count": 0
     },
@@ -25,7 +21,15 @@
       "ok": true,
       "count": 3
     },
+    "Komedija": {
+      "ok": true,
+      "count": 0
+    },
     "ZeKaeM": {
+      "ok": true,
+      "count": 0
+    },
+    "Pogon": {
       "ok": true,
       "count": 0
     },
@@ -33,50 +37,16 @@
       "ok": true,
       "count": 0
     },
-    "Komedija": {
-      "ok": true,
-      "count": 0
-    },
-    "Trešnja": {
-      "ok": true,
-      "count": 0
-    },
     "HNK Zagreb": {
       "ok": true,
       "count": 65
+    },
+    "Trešnja": {
+      "ok": false,
+      "error": "fetch failed"
     }
   },
   "concerts": [
-    {
-      "id": "4e49e0b9e3",
-      "title": "GALA KONCERT SLAVENSKA PRIX 2026. Nastup laureata Međunarodnog baletnog natjecanja „Mia Čorak Slavenska” 2026.",
-      "venue": "HNK Zagreb",
-      "city": "Zagreb",
-      "country": "HR",
-      "category": "concert",
-      "date_iso": "2026-07-06T19:30:00",
-      "date_display": "pon, 06. 07. 2026.",
-      "time": "19:30",
-      "link": "https://hnk.hr/hr/balet/predstave/gala-koncert-slavenska-prix-2026/#06.07.19.30",
-      "source": "HNK Zagreb",
-      "is_new": false,
-      "first_seen": "2026-05-26T20:26:55.235Z"
-    },
-    {
-      "id": "8add16e369",
-      "title": "Filmske večeri u Močvari: Mirotvorac",
-      "venue": "Mochvara",
-      "city": "Zagreb",
-      "country": "HR",
-      "category": "concert",
-      "date_iso": "2026-07-06T19:30:00",
-      "date_display": "pon, 06. 07. 2026.",
-      "time": "19:30",
-      "link": "https://mochvara.hr/event-detail/6a268697da73e2c2950e1c58/?lang=hr",
-      "source": "Mochvara",
-      "is_new": false,
-      "first_seen": "2026-07-03T05:01:16.653Z"
-    },
     {
       "id": "8fd5b97cf0",
       "title": "BEAT",
