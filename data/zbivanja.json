@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-20T20:58:00.231Z",
+  "generated_at": "2026-07-21T05:01:17.093Z",
   "stats": {
     "muzika.hr": {
       "ok": true,
@@ -9,21 +9,17 @@
       "ok": true,
       "count": 0
     },
-    "Gavella": {
-      "ok": true,
-      "count": 0
-    },
     "Mochvara": {
       "ok": true,
       "count": 14
     },
+    "Gavella": {
+      "ok": true,
+      "count": 0
+    },
     "Tvornica": {
       "ok": true,
       "count": 3
-    },
-    "ZeKaeM": {
-      "ok": true,
-      "count": 0
     },
     "Komedija": {
       "ok": true,
@@ -33,15 +29,19 @@
       "ok": true,
       "count": 0
     },
+    "ZeKaeM": {
+      "ok": true,
+      "count": 0
+    },
     "HNK Zagreb": {
       "ok": true,
       "count": 65
     },
-    "Kerempuh": {
+    "Trešnja": {
       "ok": true,
       "count": 0
     },
-    "Trešnja": {
+    "Kerempuh": {
       "ok": true,
       "count": 0
     }
@@ -693,6 +693,21 @@
       "first_seen": "2026-07-19T14:01:09.480Z"
     },
     {
+      "id": "3b1a27a973",
+      "title": "Sabbra Cadabra - R'n'R metal party",
+      "venue": "Mochvara",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-07-25T22:00:00",
+      "date_display": "sub, 25. 07. 2026.",
+      "time": "22:00",
+      "link": "https://mochvara.hr/event-detail/6a5ccf11407fbe39da1e6813/?lang=hr",
+      "source": "Mochvara",
+      "is_new": true,
+      "first_seen": "2026-07-21T05:01:17.093Z"
+    },
+    {
       "id": "088238cbab",
       "title": "Bajaga Instruktori",
       "venue": "Ljetna pozornica Opatija Opatija",
@@ -886,6 +901,21 @@
       "source": "muzika.hr",
       "is_new": false,
       "first_seen": "2026-07-19T05:01:18.041Z"
+    },
+    {
+      "id": "ed6ad2206f",
+      "title": "Echoes of Prince",
+      "venue": "Mihovila Šibenik",
+      "city": "Croatia",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-08-13T00:00:00",
+      "date_display": "čet, 13. 08. 2026.",
+      "time": null,
+      "link": "https://www.muzika.hr/event/echoes-of-prince-2/",
+      "source": "muzika.hr",
+      "is_new": true,
+      "first_seen": "2026-07-21T05:01:17.093Z"
     },
     {
       "id": "749533e021",
@@ -2452,21 +2482,6 @@
   ],
   "abroad": [
     {
-      "id": "66bfbbc721",
-      "title": "Queens of the Stone Age",
-      "venue": "Ippodromo Snai La Maura Via Lampugnano 95",
-      "city": "Milano",
-      "country": "EU",
-      "category": "concert",
-      "date_iso": "2026-07-06T00:00:00",
-      "date_display": "pon, 06. 07. 2026.",
-      "time": null,
-      "link": "https://www.muzika.hr/event/queens-of-the-stone-age-milano/",
-      "source": "muzika.hr",
-      "is_new": false,
-      "first_seen": "2026-06-25T05:01:14.545Z"
-    },
-    {
       "id": "7fca00bf81",
       "title": "Molchat Doma",
       "venue": "Molchat Doma Luka Beograd Beograd",
@@ -2720,7 +2735,22 @@
       "source": "muzika.hr",
       "is_new": false,
       "first_seen": "2026-07-20T05:01:15.987Z"
+    },
+    {
+      "id": "fa22631aa2",
+      "title": "SHAKE, RATTLE & ROLL #2",
+      "venue": "Baraka Aleja Vukovar bb",
+      "city": "Kutina",
+      "country": "EU",
+      "category": "concert",
+      "date_iso": "2026-08-15T00:00:00",
+      "date_display": "sub, 15. 08. 2026.",
+      "time": null,
+      "link": "https://www.muzika.hr/event/shake-rattle-roll-2/",
+      "source": "muzika.hr",
+      "is_new": true,
+      "first_seen": "2026-07-21T05:01:17.093Z"
     }
   ],
-  "new_count": 5
+  "new_count": 8
 }
