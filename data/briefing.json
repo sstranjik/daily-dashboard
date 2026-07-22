@@ -1,15 +1,15 @@
 {
   "version": 2,
-  "date": "2026-07-21",
-  "generated_at": "2026-07-21T07:31:23.649Z",
-  "date_hr": "Utorak, 21. srpnja 2026.",
+  "date": "2026-07-22",
+  "generated_at": "2026-07-22T05:02:53.819Z",
+  "date_hr": "Srijeda, 22. srpnja 2026.",
   "weather": {
-    "icon": "🌦️",
-    "summary": "18–27°C, pljuskovi · 4.7 mm",
+    "icon": "☁️",
+    "summary": "17–26°C, oblačno",
     "alerts": []
   },
   "fuel": {
-    "current_date": "21.07.2026",
+    "current_date": "22.07.2026",
     "eurodiesel": [
       {
         "company": "Adria Oil",
@@ -42,15 +42,15 @@
         "price": 1.75
       },
       {
-        "company": "Tifon",
-        "price": 1.96
-      },
-      {
         "company": "Coral Croatia",
         "price": 1.99
       },
       {
         "company": "INA",
+        "price": 2
+      },
+      {
+        "company": "Tifon",
         "price": 2
       },
       {
@@ -63,46 +63,46 @@
     "upcoming_premium": null
   },
   "market": {
-    "updated_at": "2026-07-21T07:31:23.649Z",
-    "btc_usd": 65899,
-    "btc_eur": 57676,
-    "btc_change_24h": 2.8,
-    "usd_eur": 0.8758
+    "updated_at": "2026-07-22T05:02:53.819Z",
+    "btc_usd": 66315,
+    "btc_eur": 58127,
+    "btc_change_24h": 1.29,
+    "usd_eur": 0.8767
   },
   "ai_news": [
     {
-      "title": "An AI agent breached Hugging Face before an AI defender caught it: What users should do next",
-      "link": "https://www.zdnet.com/article/hugging-face-breach-blamed-on-ai-agent/",
-      "source": "ZDNet"
+      "title": "OpenAI Confirms Its AI Broke Out of a Sandbox and Breached Hugging Face",
+      "link": "https://thenextweb.com/news/openai-confirms-its-ai-broke-out-of-a-sandbox-and-breached-hugging-face",
+      "source": "The Next Web"
     },
     {
-      "title": "Safety guardrails blocked Hugging Face's defenders, not the attacker, when an AI agent breached its systems",
-      "link": "https://venturebeat.com/security/safety-guardrails-blocked-hugging-faces-defenders-not-the-attacker-when-an-ai-agent-breached-its-systems",
+      "title": "OpenAI's models broke containment and cyberattacked Hugging Face — what enterprises need to know",
+      "link": "https://venturebeat.com/security/openais-models-broke-containment-and-cyberattacked-hugging-face-what-enterprises-need-to-know",
       "source": "VentureBeat"
     },
     {
-      "title": "OpenAI is scared of open-weight models. Should the US be?",
-      "link": "https://techcrunch.com/2026/07/20/openai-is-scared-of-open-weight-models-should-the-us-be/",
-      "source": "TechCrunch AI"
+      "title": "OpenAI says it accidentally hacked Hugging Face with a new AI system",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/968988/openai-hugging-face-hack-ai",
+      "source": "The Verge"
     },
     {
-      "title": "HuggingFace breach that's blamed on AI agent is defended by AI, too - what users should do next",
-      "link": "https://www.zdnet.com/article/huggingface-breach-blamed-on-ai-agent/",
-      "source": "ZDNet"
-    },
-    {
-      "title": "Four teams just broke AI agents four ways in ten days. The flaw is the same one.",
-      "link": "https://thenextweb.com/news/ai-agent-security-four-attacks-one-flaw",
+      "title": "OpenAI’s agents hit 10 million users as ChatGPT Work push accelerates",
+      "link": "https://thenextweb.com/news/openai-agents-10-million-chatgpt-work",
       "source": "The Next Web"
+    },
+    {
+      "title": "The Anthropic-Physical Intelligence rumor roiling AI Twitter",
+      "link": "https://techcrunch.com/2026/07/21/the-anthropic-physical-intelligence-rumor-roiling-ai-twitter/",
+      "source": "TechCrunch AI"
     }
   ],
   "micro_tips": {
     "vscode": {
-      "tip": "Format Document (auto-format cijelog fajla)",
-      "keys": "Shift+Alt+F"
+      "tip": "Go to Definition simbola",
+      "keys": "F12"
     },
-    "sql": "Covering index: uključi sve kolone iz WHERE + SELECT u index pa nema pristupa tablici",
-    "oracle": "/*+ NO_MERGE(v) */ sprječava merging inline viewa s parent queryjem",
-    "regex": "(?=pattern) lookahead: \"iza ovog mora slijediti X\" bez konzumiranja znakova"
+    "sql": "Window funkcije (ROW_NUMBER, LAG, LEAD) umjesto self-join za redosljed i razlike",
+    "oracle": "/*+ RESULT_CACHE */ cache-ira rezultat funkcije u SGA za ponovljene pozive",
+    "regex": ".+? lazy quantifier: stane na prvom mogućem podudaranju, ne zadnjem"
   }
 }
