@@ -1,9 +1,13 @@
 {
-  "generated_at": "2026-07-21T20:11:25.979Z",
+  "generated_at": "2026-07-22T05:01:17.887Z",
   "stats": {
     "muzika.hr": {
       "ok": true,
       "count": 25
+    },
+    "Mochvara": {
+      "ok": true,
+      "count": 14
     },
     "Gavella": {
       "ok": true,
@@ -13,23 +17,19 @@
       "ok": true,
       "count": 0
     },
-    "Mochvara": {
-      "ok": true,
-      "count": 14
-    },
     "Tvornica": {
       "ok": true,
       "count": 3
-    },
-    "Komedija": {
-      "ok": true,
-      "count": 0
     },
     "ZeKaeM": {
       "ok": true,
       "count": 0
     },
     "Pogon": {
+      "ok": true,
+      "count": 0
+    },
+    "Komedija": {
       "ok": true,
       "count": 0
     },
@@ -47,36 +47,6 @@
     }
   },
   "concerts": [
-    {
-      "id": "8fd5b97cf0",
-      "title": "BEAT",
-      "venue": "BEAT Šalata Zagreb",
-      "city": "Croatia",
-      "country": "HR",
-      "category": "concert",
-      "date_iso": "2026-07-07T00:00:00",
-      "date_display": "uto, 07. 07. 2026.",
-      "time": null,
-      "link": "https://www.muzika.hr/event/beat/",
-      "source": "muzika.hr",
-      "is_new": false,
-      "first_seen": "2026-06-25T21:19:56.765Z"
-    },
-    {
-      "id": "c59698ff99",
-      "title": "Biohazard",
-      "venue": "Grada Vukovara 68",
-      "city": "Zagreb",
-      "country": "HR",
-      "category": "concert",
-      "date_iso": "2026-07-07T00:00:00",
-      "date_display": "uto, 07. 07. 2026.",
-      "time": null,
-      "link": "https://www.muzika.hr/event/biohazard/",
-      "source": "muzika.hr",
-      "is_new": false,
-      "first_seen": "2026-06-26T20:25:08.187Z"
-    },
     {
       "id": "e75fada576",
       "title": "Močvarni birc: Synth Lords + Swim Swim Naked live",
@@ -886,6 +856,21 @@
       "source": "muzika.hr",
       "is_new": false,
       "first_seen": "2026-07-21T05:01:19.590Z"
+    },
+    {
+      "id": "7250836347",
+      "title": "Lorde",
+      "venue": "Lorde Arena Pula Flavijevska ulica",
+      "city": "Pula",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-08-18T00:00:00",
+      "date_display": "uto, 18. 08. 2026.",
+      "time": null,
+      "link": "https://www.muzika.hr/event/lorde-4/",
+      "source": "muzika.hr",
+      "is_new": true,
+      "first_seen": "2026-07-22T05:01:17.887Z"
     },
     {
       "id": "749533e021",
@@ -2452,21 +2437,6 @@
   ],
   "abroad": [
     {
-      "id": "7fca00bf81",
-      "title": "Molchat Doma",
-      "venue": "Molchat Doma Luka Beograd Beograd",
-      "city": "Serbia",
-      "country": "EU",
-      "category": "concert",
-      "date_iso": "2026-07-07T00:00:00",
-      "date_display": "uto, 07. 07. 2026.",
-      "time": null,
-      "link": "https://www.muzika.hr/event/molchat-doma/",
-      "source": "muzika.hr",
-      "is_new": false,
-      "first_seen": "2026-06-27T05:01:12.177Z"
-    },
-    {
       "id": "378fb9bcde",
       "title": "The Damned",
       "venue": "Kino Šiška Trg Prekomorskih brigad 3",
@@ -2722,5 +2692,5 @@
       "first_seen": "2026-07-21T05:01:19.590Z"
     }
   ],
-  "new_count": 5
+  "new_count": 6
 }
