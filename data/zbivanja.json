@@ -1,10 +1,6 @@
 {
-  "generated_at": "2026-07-22T19:22:19.190Z",
+  "generated_at": "2026-07-22T20:01:14.852Z",
   "stats": {
-    "muzika.hr": {
-      "ok": true,
-      "count": 25
-    },
     "Lisinski": {
       "ok": true,
       "count": 0
@@ -21,11 +17,15 @@
       "ok": true,
       "count": 3
     },
-    "Komedija": {
+    "muzika.hr": {
+      "ok": true,
+      "count": 25
+    },
+    "ZeKaeM": {
       "ok": true,
       "count": 0
     },
-    "ZeKaeM": {
+    "Komedija": {
       "ok": true,
       "count": 0
     },
@@ -603,6 +603,21 @@
       "first_seen": "2026-07-22T10:56:23.841Z"
     },
     {
+      "id": "36db5d5ab3",
+      "title": "Pestilence",
+      "venue": "Place Ulica hrvatske bratske zajednice 4",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-07-24T00:00:00",
+      "date_display": "pet, 24. 07. 2026.",
+      "time": null,
+      "link": "https://www.muzika.hr/event/pestilence/",
+      "source": "muzika.hr",
+      "is_new": true,
+      "first_seen": "2026-07-22T20:01:14.852Z"
+    },
+    {
       "id": "bd1c943097",
       "title": "Billboardanje – R’n’B disco pop party",
       "venue": "Mochvara",
@@ -616,6 +631,21 @@
       "source": "Mochvara",
       "is_new": false,
       "first_seen": "2026-07-18T19:57:09.961Z"
+    },
+    {
+      "id": "b0fb9fd4fe",
+      "title": "Jozef van Wissem",
+      "venue": "Jozef van Wissem Buje Buje",
+      "city": "Croatia",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-07-25T00:00:00",
+      "date_display": "sub, 25. 07. 2026.",
+      "time": null,
+      "link": "https://www.muzika.hr/event/jozef-van-wissem/",
+      "source": "muzika.hr",
+      "is_new": true,
+      "first_seen": "2026-07-22T20:01:14.852Z"
     },
     {
       "id": "d40d73d6e9",
@@ -721,6 +751,21 @@
       "source": "muzika.hr",
       "is_new": false,
       "first_seen": "2026-07-15T05:01:38.837Z"
+    },
+    {
+      "id": "0184697900",
+      "title": "Akustika: Duo Dno Dna u Vintage Gardenu",
+      "venue": "Vintage Industrial Bar Savska ulica 160",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-07-30T20:00:00",
+      "date_display": "čet, 30. 07. 2026.",
+      "time": "20:00",
+      "link": "https://www.muzika.hr/event/akustika-duo-dno-dna-u-vintage-gardenu/",
+      "source": "muzika.hr",
+      "is_new": true,
+      "first_seen": "2026-07-22T20:01:14.852Z"
     },
     {
       "id": "87e8984bb7",
@@ -2632,6 +2677,21 @@
       "first_seen": "2026-07-18T05:01:14.110Z"
     },
     {
+      "id": "a983d61e3f",
+      "title": "Anna von Hausswolff",
+      "venue": "Kino Šiška Trg Prekomorskih brigad 3",
+      "city": "Ljubljana",
+      "country": "SI",
+      "category": "concert",
+      "date_iso": "2026-08-05T00:00:00",
+      "date_display": "sri, 05. 08. 2026.",
+      "time": null,
+      "link": "https://www.muzika.hr/event/anna-von-hausswolff/",
+      "source": "muzika.hr",
+      "is_new": true,
+      "first_seen": "2026-07-22T20:01:14.852Z"
+    },
+    {
       "id": "b3c4008b1d",
       "title": "Nick Cave The Bad Seeds",
       "venue": "Cave The Bad Seeds Kalemegdan Beograd",
@@ -2692,5 +2752,5 @@
       "first_seen": "2026-07-21T05:01:19.590Z"
     }
   ],
-  "new_count": 5
+  "new_count": 9
 }
