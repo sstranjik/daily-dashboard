@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-22T10:01:21.630Z",
+  "generated_at": "2026-07-22T10:56:23.841Z",
   "stats": {
     "muzika.hr": {
       "ok": true,
@@ -9,11 +9,11 @@
       "ok": true,
       "count": 14
     },
-    "Gavella": {
+    "Lisinski": {
       "ok": true,
       "count": 0
     },
-    "Lisinski": {
+    "Gavella": {
       "ok": true,
       "count": 0
     },
@@ -29,10 +29,6 @@
       "ok": true,
       "count": 0
     },
-    "Pogon": {
-      "ok": true,
-      "count": 0
-    },
     "HNK Zagreb": {
       "ok": true,
       "count": 65
@@ -42,6 +38,10 @@
       "count": 0
     },
     "Trešnja": {
+      "ok": true,
+      "count": 0
+    },
+    "Pogon": {
       "ok": true,
       "count": 0
     }
@@ -601,6 +601,21 @@
       "source": "Mochvara",
       "is_new": false,
       "first_seen": "2026-07-20T11:01:19.236Z"
+    },
+    {
+      "id": "e7f0cdeb50",
+      "title": "Chris Ian u Vintage Gardenu",
+      "venue": "Vintage Industrial Bar Savska ulica 160",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-07-23T20:00:00",
+      "date_display": "čet, 23. 07. 2026.",
+      "time": "20:00",
+      "link": "https://www.muzika.hr/event/chris-ian-u-vintage-gardenu/",
+      "source": "muzika.hr",
+      "is_new": true,
+      "first_seen": "2026-07-22T10:56:23.841Z"
     },
     {
       "id": "bd1c943097",
@@ -2692,5 +2707,5 @@
       "first_seen": "2026-07-21T05:01:19.590Z"
     }
   ],
-  "new_count": 5
+  "new_count": 6
 }
