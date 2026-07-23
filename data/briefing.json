@@ -1,15 +1,20 @@
 {
   "version": 2,
-  "date": "2026-07-22",
-  "generated_at": "2026-07-22T07:32:49.074Z",
-  "date_hr": "Srijeda, 22. srpnja 2026.",
+  "date": "2026-07-23",
+  "generated_at": "2026-07-23T05:03:13.801Z",
+  "date_hr": "Četvrtak, 23. srpnja 2026.",
   "weather": {
-    "icon": "☁️",
-    "summary": "17–26°C, oblačno",
-    "alerts": []
+    "icon": "⛈️",
+    "summary": "15–26°C, grmljavina",
+    "alerts": [
+      {
+        "level": "warning",
+        "text": "Grmljavinska oluja"
+      }
+    ]
   },
   "fuel": {
-    "current_date": "22.07.2026",
+    "current_date": "23.07.2026",
     "eurodiesel": [
       {
         "company": "Adria Oil",
@@ -63,46 +68,46 @@
     "upcoming_premium": null
   },
   "market": {
-    "updated_at": "2026-07-22T07:32:49.074Z",
-    "btc_usd": 65822,
-    "btc_eur": 57673,
-    "btc_change_24h": -0.2,
-    "usd_eur": 0.8767
+    "updated_at": "2026-07-23T05:03:13.801Z",
+    "btc_usd": 65560,
+    "btc_eur": 57345,
+    "btc_change_24h": -1.14,
+    "usd_eur": 0.8764
   },
   "ai_news": [
     {
-      "title": "OpenAI Confirms Its AI Broke Out of a Sandbox and Breached Hugging Face",
-      "link": "https://thenextweb.com/news/openai-confirms-its-ai-broke-out-of-a-sandbox-and-breached-hugging-face",
-      "source": "The Next Web"
-    },
-    {
-      "title": "OpenAI's models broke containment and cyberattacked Hugging Face — what enterprises need to know",
-      "link": "https://venturebeat.com/security/openais-models-broke-containment-and-cyberattacked-hugging-face-what-enterprises-need-to-know",
+      "title": "The credential that let OpenAI's agents into Hugging Face exists in most enterprises right now",
+      "link": "https://venturebeat.com/security/the-credential-that-let-openais-agents-into-hugging-face-exists-in-most-enterprises-right-now",
       "source": "VentureBeat"
     },
     {
-      "title": "OpenAI says it accidentally hacked Hugging Face with a new AI system",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/968988/openai-hugging-face-hack-ai",
-      "source": "The Verge"
+      "title": "How OpenAI’s human mistake led to the AI-powered hack on Hugging Face",
+      "link": "https://techcrunch.com/2026/07/22/how-an-openais-human-mistake-led-to-the-ai-powered-hack-on-hugging-face/",
+      "source": "TechCrunch AI"
     },
     {
-      "title": "OpenAI’s agents hit 10 million users as ChatGPT Work push accelerates",
-      "link": "https://thenextweb.com/news/openai-agents-10-million-chatgpt-work",
+      "title": "AI zaštita blokirala obranu umjesto napadača - slučaj Hugging Facea",
+      "link": "https://www.bug.hr/sigurnost/ai-zastita-blokirala-obranu-umjesto-napadaca-slucaj-hugging-facea-61592",
+      "source": "Bug.hr"
+    },
+    {
+      "title": "OpenAI adds two banking CEOs to its board as an IPO looms",
+      "link": "https://thenextweb.com/news/openai-banking-ceos-board-velez-vince-ipo",
       "source": "The Next Web"
     },
     {
-      "title": "Opasan incident: AI modeli pobjegli iz izolacije i izveli hakerski napad",
-      "link": "https://www.tportal.hr/tehno/clanak/opasan-incident-ai-modeli-pobjegli-iz-izolacije-i-izveli-hakerski-napad-20260722",
-      "source": "Tportal"
+      "title": "OpenAI unveils Presence, a new platform that lets enterprises launch and manage realtime voice agents and chatbots",
+      "link": "https://venturebeat.com/orchestration/openai-unveils-presence-a-new-platform-that-lets-enterprises-launch-and-manage-realtime-voice-agents-and-chatbots",
+      "source": "VentureBeat"
     }
   ],
   "micro_tips": {
     "vscode": {
-      "tip": "Go to Definition simbola",
-      "keys": "F12"
+      "tip": "Peek Definition bez napuštanja fajla",
+      "keys": "Alt+F12"
     },
-    "sql": "Window funkcije (ROW_NUMBER, LAG, LEAD) umjesto self-join za redosljed i razlike",
-    "oracle": "/*+ RESULT_CACHE */ cache-ira rezultat funkcije u SGA za ponovljene pozive",
-    "regex": ".+? lazy quantifier: stane na prvom mogućem podudaranju, ne zadnjem"
+    "sql": "EXPLAIN ANALYZE prikazuje stvarne vs procijenjene redove — ključno za tuning",
+    "oracle": "CONNECT BY LEVEL <= n generira broj redova bez pomoćne tablice",
+    "regex": "[^\\n]* svaki znak osim newline — dohvati cijelu liniju bez dotall flaga"
   }
 }
