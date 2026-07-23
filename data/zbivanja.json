@@ -1,13 +1,9 @@
 {
-  "generated_at": "2026-07-23T11:01:13.922Z",
+  "generated_at": "2026-07-23T12:01:17.296Z",
   "stats": {
-    "Tvornica": {
+    "Mochvara": {
       "ok": true,
-      "count": 3
-    },
-    "muzika.hr": {
-      "ok": true,
-      "count": 25
+      "count": 14
     },
     "Lisinski": {
       "ok": true,
@@ -17,19 +13,19 @@
       "ok": true,
       "count": 0
     },
-    "ZeKaeM": {
+    "Tvornica": {
       "ok": true,
-      "count": 0
+      "count": 3
     },
-    "Mochvara": {
+    "muzika.hr": {
       "ok": true,
-      "count": 14
+      "count": 25
     },
     "Komedija": {
       "ok": true,
       "count": 0
     },
-    "Pogon": {
+    "ZeKaeM": {
       "ok": true,
       "count": 0
     },
@@ -41,9 +37,13 @@
       "ok": true,
       "count": 0
     },
+    "Pogon": {
+      "ok": false,
+      "error": "The operation was aborted due to timeout"
+    },
     "Trešnja": {
-      "ok": true,
-      "count": 0
+      "ok": false,
+      "error": "The operation was aborted due to timeout"
     }
   },
   "concerts": [
