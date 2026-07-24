@@ -1,6 +1,10 @@
 {
-  "generated_at": "2026-07-24T18:01:13.211Z",
+  "generated_at": "2026-07-24T18:09:10.326Z",
   "stats": {
+    "muzika.hr": {
+      "ok": true,
+      "count": 25
+    },
     "Mochvara": {
       "ok": true,
       "count": 14
@@ -21,13 +25,9 @@
       "ok": true,
       "count": 0
     },
-    "muzika.hr": {
-      "ok": true,
-      "count": 25
-    },
     "Komedija": {
-      "ok": true,
-      "count": 0
+      "ok": false,
+      "error": "HTTP 500"
     },
     "HNK Zagreb": {
       "ok": true,
@@ -37,11 +37,11 @@
       "ok": true,
       "count": 0
     },
-    "Pogon": {
+    "Trešnja": {
       "ok": true,
       "count": 0
     },
-    "Trešnja": {
+    "Pogon": {
       "ok": true,
       "count": 0
     }
