@@ -1,15 +1,15 @@
 {
   "version": 2,
-  "date": "2026-07-23",
-  "generated_at": "2026-07-23T07:30:03.770Z",
-  "date_hr": "Četvrtak, 23. srpnja 2026.",
+  "date": "2026-07-24",
+  "generated_at": "2026-07-24T05:03:01.551Z",
+  "date_hr": "Petak, 24. srpnja 2026.",
   "weather": {
-    "icon": "🌦️",
-    "summary": "15–26°C, pljuskovi · 1 mm",
+    "icon": "🌧️",
+    "summary": "13–25°C, lagana kiša",
     "alerts": []
   },
   "fuel": {
-    "current_date": "23.07.2026",
+    "current_date": "24.07.2026",
     "eurodiesel": [
       {
         "company": "Adria Oil",
@@ -55,7 +55,7 @@
       },
       {
         "company": "Petrol",
-        "price": 2.02
+        "price": 2.06
       }
     ],
     "upcoming_date": null,
@@ -63,46 +63,46 @@
     "upcoming_premium": null
   },
   "market": {
-    "updated_at": "2026-07-23T07:30:03.770Z",
-    "btc_usd": 65398,
-    "btc_eur": 57245,
-    "btc_change_24h": -0.72,
-    "usd_eur": 0.8764
+    "updated_at": "2026-07-24T05:03:01.551Z",
+    "btc_usd": 65244,
+    "btc_eur": 57335,
+    "btc_change_24h": -0.48,
+    "usd_eur": 0.8782
   },
   "ai_news": [
     {
-      "title": "The credential that let OpenAI's agents into Hugging Face exists in most enterprises right now",
-      "link": "https://venturebeat.com/security/the-credential-that-let-openais-agents-into-hugging-face-exists-in-most-enterprises-right-now",
-      "source": "VentureBeat"
+      "title": "OpenAI's attack agent did exactly what it was told - just more relentlessly than expected",
+      "link": "https://www.zdnet.com/article/openai-hugging-face-attack-agent/",
+      "source": "ZDNet"
     },
     {
-      "title": "How OpenAI’s human mistake led to the AI-powered hack on Hugging Face",
-      "link": "https://techcrunch.com/2026/07/22/how-an-openais-human-mistake-led-to-the-ai-powered-hack-on-hugging-face/",
+      "title": "How AI guardrails are impeding the work of offensive cybersecurity researchers",
+      "link": "https://techcrunch.com/2026/07/23/how-ai-guardrails-are-impeding-the-work-of-offensive-cybersecurity-researchers/",
       "source": "TechCrunch AI"
     },
     {
-      "title": "AI zaštita blokirala obranu umjesto napadača - slučaj Hugging Facea",
-      "link": "https://www.bug.hr/sigurnost/ai-zastita-blokirala-obranu-umjesto-napadaca-slucaj-hugging-facea-61592",
-      "source": "Bug.hr"
-    },
-    {
-      "title": "OpenAI adds two banking CEOs to its board as an IPO looms",
-      "link": "https://thenextweb.com/news/openai-banking-ceos-board-velez-vince-ipo",
-      "source": "The Next Web"
-    },
-    {
-      "title": "OpenAI unveils Presence, a new platform that lets enterprises launch and manage realtime voice agents and chatbots",
-      "link": "https://venturebeat.com/orchestration/openai-unveils-presence-a-new-platform-that-lets-enterprises-launch-and-manage-realtime-voice-agents-and-chatbots",
+      "title": "Agentic coding goes hands-free as OpenAI brings GPT-Live's full duplex voice control to Codex and ChatGPT on the desktop",
+      "link": "https://venturebeat.com/orchestration/agentic-coding-goes-hands-free-as-openai-brings-gpt-lives-full-duplex-voice-control-to-codex-and-chatgpt-on-the-desktop",
       "source": "VentureBeat"
+    },
+    {
+      "title": "Agentic orchestration: Enterprise AI organizations have a deployment problem, not a platform problem — and most are calling chatbots agents",
+      "link": "https://venturebeat.com/resources/agentic-orchestration-enterprise-ai-organizations-have-a-deployment-problem-not-a-platform-problem-and-most-are-calling-chatbots-agents",
+      "source": "VentureBeat"
+    },
+    {
+      "title": "OpenAI's agent breached Hugging Face before an AI defender caught it: What users should do next",
+      "link": "https://www.zdnet.com/article/hugging-face-breach-blamed-on-ai-agent/",
+      "source": "ZDNet"
     }
   ],
   "micro_tips": {
     "vscode": {
-      "tip": "Peek Definition bez napuštanja fajla",
-      "keys": "Alt+F12"
+      "tip": "Dupliciraj trenutnu liniju ispod",
+      "keys": "Shift+Alt+↓"
     },
-    "sql": "EXPLAIN ANALYZE prikazuje stvarne vs procijenjene redove — ključno za tuning",
-    "oracle": "CONNECT BY LEVEL <= n generira broj redova bez pomoćne tablice",
-    "regex": "[^\\n]* svaki znak osim newline — dohvati cijelu liniju bez dotall flaga"
+    "sql": "Partial index s WHERE klauzulom smanjuje veličinu i ubrzava specifična filtriranja",
+    "oracle": "LISTAGG(col, ',') WITHIN GROUP (ORDER BY col) konkatenira u jedan string",
+    "regex": "(?<ime>\\d{4}) named group — referenciraj s \\k<ime> ili $<ime> u replace"
   }
 }
