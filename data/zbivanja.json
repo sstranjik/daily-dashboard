@@ -1,9 +1,13 @@
 {
-  "generated_at": "2026-07-25T09:01:13.211Z",
+  "generated_at": "2026-07-25T09:25:01.150Z",
   "stats": {
-    "muzika.hr": {
+    "Gavella": {
       "ok": true,
-      "count": 25
+      "count": 0
+    },
+    "Mochvara": {
+      "ok": true,
+      "count": 14
     },
     "Lisinski": {
       "ok": true,
@@ -13,17 +17,13 @@
       "ok": true,
       "count": 3
     },
-    "Gavella": {
+    "muzika.hr": {
       "ok": true,
-      "count": 0
+      "count": 25
     },
-    "Mochvara": {
-      "ok": true,
-      "count": 14
-    },
-    "ZeKaeM": {
-      "ok": true,
-      "count": 0
+    "Komedija": {
+      "ok": false,
+      "error": "HTTP 500"
     },
     "Pogon": {
       "ok": true,
@@ -33,7 +33,7 @@
       "ok": true,
       "count": 65
     },
-    "Komedija": {
+    "ZeKaeM": {
       "ok": true,
       "count": 0
     },
