@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-24T20:08:40.017Z",
+  "generated_at": "2026-07-25T05:01:11.467Z",
   "stats": {
     "muzika.hr": {
       "ok": true,
@@ -21,21 +21,21 @@
       "ok": true,
       "count": 3
     },
-    "ZeKaeM": {
-      "ok": true,
-      "count": 0
-    },
     "Komedija": {
-      "ok": true,
-      "count": 0
-    },
-    "Pogon": {
       "ok": true,
       "count": 0
     },
     "HNK Zagreb": {
       "ok": true,
       "count": 65
+    },
+    "ZeKaeM": {
+      "ok": true,
+      "count": 0
+    },
+    "Pogon": {
+      "ok": true,
+      "count": 0
     },
     "Kerempuh": {
       "ok": true,
@@ -47,36 +47,6 @@
     }
   },
   "concerts": [
-    {
-      "id": "bd8dc97d97",
-      "title": "Ultra Music Festival",
-      "venue": "Ultra Music Festival Split Split",
-      "city": "Croatia",
-      "country": "HR",
-      "category": "concert",
-      "date_iso": "2026-07-10T00:00:00",
-      "date_display": "pet, 10. 07. 2026.",
-      "time": null,
-      "link": "https://www.muzika.hr/event/ultra-music-festival/",
-      "source": "muzika.hr",
-      "is_new": false,
-      "first_seen": "2026-06-27T05:01:12.177Z"
-    },
-    {
-      "id": "d27d699a6c",
-      "title": "Rojc Open Air Festival",
-      "venue": "Rojc Open Air Festival DC Rojc Gajeva 3",
-      "city": "Pula",
-      "country": "HR",
-      "category": "concert",
-      "date_iso": "2026-07-10T00:00:00",
-      "date_display": "pet, 10. 07. 2026.",
-      "time": null,
-      "link": "https://www.muzika.hr/event/rojc-open-air-festival/",
-      "source": "muzika.hr",
-      "is_new": false,
-      "first_seen": "2026-07-02T08:01:23.158Z"
-    },
     {
       "id": "d1d59dd98c",
       "title": "Močvarni birc: Gorillaz i prijatelji",
@@ -837,7 +807,7 @@
       "date_iso": "2026-08-13T00:00:00",
       "date_display": "čet, 13. 08. 2026.",
       "time": null,
-      "link": "https://www.muzika.hr/event/echoes-of-prince-2/",
+      "link": "https://www.muzika.hr/event/echoes-of-prince-3/",
       "source": "muzika.hr",
       "is_new": false,
       "first_seen": "2026-07-21T05:01:19.590Z"
@@ -916,6 +886,21 @@
       "source": "Mochvara",
       "is_new": false,
       "first_seen": "2026-07-18T05:01:14.110Z"
+    },
+    {
+      "id": "3705951c00",
+      "title": "Death metal koncert: Massacre, Attitudes to Human Extinction, In Dakhma, A Goat As Our Shepherd",
+      "venue": "Mochvara",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-08-30T20:00:00",
+      "date_display": "ned, 30. 08. 2026.",
+      "time": "20:00",
+      "link": "https://mochvara.hr/event-detail/69bd37d5e452851b0f28a30a/?lang=hr",
+      "source": "Mochvara",
+      "is_new": true,
+      "first_seen": "2026-07-25T05:01:11.467Z"
     },
     {
       "id": "86cc723186",
@@ -2692,5 +2677,5 @@
       "first_seen": "2026-07-21T05:01:19.590Z"
     }
   ],
-  "new_count": 5
+  "new_count": 6
 }
