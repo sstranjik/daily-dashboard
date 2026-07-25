@@ -1,15 +1,15 @@
 {
   "version": 2,
-  "date": "2026-07-24",
-  "generated_at": "2026-07-24T07:29:17.704Z",
-  "date_hr": "Petak, 24. srpnja 2026.",
+  "date": "2026-07-25",
+  "generated_at": "2026-07-25T05:03:08.821Z",
+  "date_hr": "Subota, 25. srpnja 2026.",
   "weather": {
-    "icon": "🌧️",
-    "summary": "13–25°C, lagana kiša",
+    "icon": "☁️",
+    "summary": "15–29°C, oblačno",
     "alerts": []
   },
   "fuel": {
-    "current_date": "24.07.2026",
+    "current_date": "25.07.2026",
     "eurodiesel": [
       {
         "company": "Adria Oil",
@@ -63,46 +63,46 @@
     "upcoming_premium": null
   },
   "market": {
-    "updated_at": "2026-07-24T07:29:17.704Z",
-    "btc_usd": 65621,
-    "btc_eur": 57580,
-    "btc_change_24h": 0.34,
-    "usd_eur": 0.8782
+    "updated_at": "2026-07-25T05:03:08.821Z",
+    "btc_usd": 64129,
+    "btc_eur": 56370,
+    "btc_change_24h": -1.68,
+    "usd_eur": 0.879
   },
   "ai_news": [
     {
-      "title": "OpenAI's attack agent did exactly what it was told - just more relentlessly than expected",
-      "link": "https://www.zdnet.com/article/openai-hugging-face-attack-agent/",
-      "source": "ZDNet"
+      "title": "Anthropic releases Opus 5 with ‘close’ to Fable 5’s capabilities",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/970105/claude-opus-5-announced-anthropic-ai-model-release",
+      "source": "The Verge"
     },
     {
-      "title": "How AI guardrails are impeding the work of offensive cybersecurity researchers",
-      "link": "https://techcrunch.com/2026/07/23/how-ai-guardrails-are-impeding-the-work-of-offensive-cybersecurity-researchers/",
-      "source": "TechCrunch AI"
+      "title": "Meta is making its AI chatbot more like an assistant",
+      "link": "https://www.theverge.com/tech/970570/meta-ai-chatbot-productivity-update",
+      "source": "The Verge"
     },
     {
-      "title": "Agentic coding goes hands-free as OpenAI brings GPT-Live's full duplex voice control to Codex and ChatGPT on the desktop",
-      "link": "https://venturebeat.com/orchestration/agentic-coding-goes-hands-free-as-openai-brings-gpt-lives-full-duplex-voice-control-to-codex-and-chatgpt-on-the-desktop",
-      "source": "VentureBeat"
+      "title": "The AI giants just broke with OpenAI and Anthropic on open weights",
+      "link": "https://thenextweb.com/news/open-weights-american-ai-leadership-letter-huang-nvidia-openai-absent",
+      "source": "The Next Web"
     },
     {
-      "title": "Agentic orchestration: Enterprise AI organizations have a deployment problem, not a platform problem — and most are calling chatbots agents",
-      "link": "https://venturebeat.com/resources/agentic-orchestration-enterprise-ai-organizations-have-a-deployment-problem-not-a-platform-problem-and-most-are-calling-chatbots-agents",
-      "source": "VentureBeat"
+      "title": "Claude Opus 5 matches Fable on coding at half the price, and Anthropic says it is the most aligned model it has ever shipped",
+      "link": "https://thenextweb.com/news/anthropic-claude-opus-5-launch-frontier-bench-coding",
+      "source": "The Next Web"
     },
     {
-      "title": "OpenAI's agent breached Hugging Face before an AI defender caught it: What users should do next",
-      "link": "https://www.zdnet.com/article/hugging-face-breach-blamed-on-ai-agent/",
-      "source": "ZDNet"
+      "title": "10 Platforms for AI Visibility and Link Building in 2026",
+      "link": "https://thenextweb.com/news/10-platforms-ai-visibility-link-building-2026",
+      "source": "The Next Web"
     }
   ],
   "micro_tips": {
     "vscode": {
-      "tip": "Dupliciraj trenutnu liniju ispod",
-      "keys": "Shift+Alt+↓"
+      "tip": "Obriši cijelu liniju odjednom",
+      "keys": "Ctrl+Shift+K"
     },
-    "sql": "Partial index s WHERE klauzulom smanjuje veličinu i ubrzava specifična filtriranja",
-    "oracle": "LISTAGG(col, ',') WITHIN GROUP (ORDER BY col) konkatenira u jedan string",
-    "regex": "(?<ime>\\d{4}) named group — referenciraj s \\k<ime> ili $<ime> u replace"
+    "sql": "GROUP BY s ROLLUP za subtotale u jednom prolasku: GROUP BY ROLLUP(god, mj)",
+    "oracle": "TRUNC(datum_kolona) = TRUNC(SYSDATE) koristi B-tree index na datumskoj koloni",
+    "regex": "\\d{4}-\\d{2}-\\d{2} ISO datum pattern; za validaciju zatvori s ^...$"
   }
 }
