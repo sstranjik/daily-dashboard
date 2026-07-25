@@ -1,41 +1,41 @@
 {
-  "generated_at": "2026-07-25T14:01:18.727Z",
+  "generated_at": "2026-07-25T14:25:25.260Z",
   "stats": {
     "muzika.hr": {
       "ok": true,
       "count": 25
     },
-    "Mochvara": {
-      "ok": true,
-      "count": 14
-    },
     "Lisinski": {
       "ok": true,
       "count": 0
     },
-    "Gavella": {
+    "Mochvara": {
       "ok": true,
-      "count": 0
+      "count": 14
     },
     "Tvornica": {
       "ok": true,
       "count": 3
     },
-    "Komedija": {
-      "ok": false,
-      "error": "HTTP 500"
+    "Gavella": {
+      "ok": true,
+      "count": 0
     },
     "ZeKaeM": {
       "ok": true,
       "count": 0
     },
-    "Pogon": {
+    "Komedija": {
       "ok": true,
       "count": 0
     },
     "HNK Zagreb": {
       "ok": true,
       "count": 65
+    },
+    "Pogon": {
+      "ok": true,
+      "count": 0
     },
     "Kerempuh": {
       "ok": true,
@@ -2675,7 +2675,22 @@
       "source": "muzika.hr",
       "is_new": false,
       "first_seen": "2026-07-21T05:01:19.590Z"
+    },
+    {
+      "id": "8cd2240b90",
+      "title": "Bait + Crustalno Jasno",
+      "venue": "Jasno AG Club Patriotske lige 30",
+      "city": "Sarajevo",
+      "country": "BA",
+      "category": "concert",
+      "date_iso": "2026-08-16T21:00:00",
+      "date_display": "ned, 16. 08. 2026.",
+      "time": "21:00",
+      "link": "https://www.muzika.hr/event/bait-crustalno-jasno/",
+      "source": "muzika.hr",
+      "is_new": true,
+      "first_seen": "2026-07-25T14:25:25.260Z"
     }
   ],
-  "new_count": 5
+  "new_count": 6
 }
