@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-26T05:01:11.829Z",
+  "generated_at": "2026-07-26T05:01:11.544Z",
   "stats": {
     "Mochvara": {
       "ok": true,
@@ -21,9 +21,25 @@
       "ok": true,
       "count": 0
     },
+    "Tvornica": {
+      "ok": true,
+      "count": 3
+    },
+    "Komedija": {
+      "ok": false,
+      "error": "HTTP 500"
+    },
     "ZeKaeM": {
       "ok": true,
       "count": 0
+    },
+    "Pogon": {
+      "ok": true,
+      "count": 0
+    },
+    "HNK Zagreb": {
+      "ok": true,
+      "count": 65
     },
     "Kerempuh": {
       "ok": true,
@@ -856,6 +872,21 @@
       "source": "Mochvara",
       "is_new": false,
       "first_seen": "2026-07-25T05:01:14.633Z"
+    },
+    {
+      "id": "4b52c37fdb",
+      "title": "Zagreb Death Gig: Fossilization, Phobocosm, Voidwomb, Decrepit Altar",
+      "venue": "Mochvara",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-09-01T20:00:00",
+      "date_display": "uto, 01. 09. 2026.",
+      "time": "20:00",
+      "link": "https://mochvara.hr/event-detail/6a5e50a6502f8ff80ef8bb7b/?lang=hr",
+      "source": "Mochvara",
+      "is_new": true,
+      "first_seen": "2026-07-26T05:01:11.544Z"
     },
     {
       "id": "86cc723186",
@@ -2632,5 +2663,5 @@
       "first_seen": "2026-07-25T14:25:25.260Z"
     }
   ],
-  "new_count": 5
+  "new_count": 6
 }

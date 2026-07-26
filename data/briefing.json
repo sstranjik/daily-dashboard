@@ -1,15 +1,15 @@
 {
   "version": 2,
-  "date": "2026-07-25",
-  "generated_at": "2026-07-25T07:13:26.782Z",
-  "date_hr": "Subota, 25. srpnja 2026.",
+  "date": "2026-07-26",
+  "generated_at": "2026-07-26T05:03:09.310Z",
+  "date_hr": "Nedjelja, 26. srpnja 2026.",
   "weather": {
     "icon": "☁️",
-    "summary": "15–29°C, oblačno",
+    "summary": "19–29°C, oblačno",
     "alerts": []
   },
   "fuel": {
-    "current_date": "25.07.2026",
+    "current_date": "26.07.2026",
     "eurodiesel": [
       {
         "company": "Adria Oil",
@@ -63,46 +63,31 @@
     "upcoming_premium": null
   },
   "market": {
-    "updated_at": "2026-07-25T07:13:26.782Z",
-    "btc_usd": 63965,
-    "btc_eur": 56225,
-    "btc_change_24h": -2.6,
-    "usd_eur": 0.879
+    "updated_at": "2026-07-26T05:03:09.310Z",
+    "btc_usd": 64475,
+    "btc_eur": 56674,
+    "btc_change_24h": 0.53,
+    "usd_eur": 0.8788
   },
   "ai_news": [
     {
-      "title": "Anthropic releases Opus 5 with ‘close’ to Fable 5’s capabilities",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/970105/claude-opus-5-announced-anthropic-ai-model-release",
-      "source": "The Verge"
-    },
-    {
-      "title": "Meta is making its AI chatbot more like an assistant",
-      "link": "https://www.theverge.com/tech/970570/meta-ai-chatbot-productivity-update",
-      "source": "The Verge"
-    },
-    {
-      "title": "The AI giants just broke with OpenAI and Anthropic on open weights",
-      "link": "https://thenextweb.com/news/open-weights-american-ai-leadership-letter-huang-nvidia-openai-absent",
+      "title": "OpenAI hit by another outage as ChatGPT, Codex, and APIs stumble together",
+      "link": "https://thenextweb.com/news/openai-outage-chatgpt-codex-api-july-2026",
       "source": "The Next Web"
     },
     {
-      "title": "Claude Opus 5 matches Fable on coding at half the price, and Anthropic says it is the most aligned model it has ever shipped",
-      "link": "https://thenextweb.com/news/anthropic-claude-opus-5-launch-frontier-bench-coding",
-      "source": "The Next Web"
-    },
-    {
-      "title": "10 Platforms for AI Visibility and Link Building in 2026",
-      "link": "https://thenextweb.com/news/10-platforms-ai-visibility-link-building-2026",
-      "source": "The Next Web"
+      "title": "Je li OpenAI prekršio zakon sa svojim \"pobjeglim\" AI-jem?",
+      "link": "https://www.bug.hr/komentar/je-li-openai-prekrsio-zakon-sa-svojim-pobjeglim-ai-jem-61664",
+      "source": "Bug.hr"
     }
   ],
   "micro_tips": {
     "vscode": {
-      "tip": "Obriši cijelu liniju odjednom",
-      "keys": "Ctrl+Shift+K"
+      "tip": "Otvori datoteku brzim pretraživanjem",
+      "keys": "Ctrl+P"
     },
-    "sql": "GROUP BY s ROLLUP za subtotale u jednom prolasku: GROUP BY ROLLUP(god, mj)",
-    "oracle": "TRUNC(datum_kolona) = TRUNC(SYSDATE) koristi B-tree index na datumskoj koloni",
-    "regex": "\\d{4}-\\d{2}-\\d{2} ISO datum pattern; za validaciju zatvori s ^...$"
+    "sql": "NOT EXISTS brži od NOT IN kad subquery može vratiti NULL vrijednost",
+    "oracle": "DBMS_STATS.GATHER_TABLE_STATS osvježava statistike za točniji execution plan",
+    "regex": "(?i) inline flag za case-insensitive bez mijenjanja ostatka patternahe"
   }
 }
