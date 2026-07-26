@@ -1,9 +1,393 @@
 {
-  "last_updated": "2026-07-25T20:03:22.098Z",
+  "last_updated": "2026-07-26T05:01:06.695Z",
   "source_count": 6,
   "items": [
     {
-      "id": "n1-info-0",
+      "id": "jutarnji-0",
+      "title": "Zelenski kaže da Putin dovodi 30.000 Sjevernokorejaca u rat: ‘Ovo je prijetnja za cijeli svijet‘",
+      "summary": "Ukrajinski predsjednik Volodimir Zelenski izjavio je u subotu da Rusija želi dovesti 30.000 sjevernokorejskih vojnika kako bi sudjelovali u ratu s njegovom zemljom koji traje više od četiri godine i da se već priprema za njihov prihvat. Prema paktu o međusobnoj obrani, Sjeverna Koreja je 2024. godin",
+      "link": "https://www.jutarnji.hr/vijesti/svijet/zelenski-rusija-dovodi-30-tisuca-sjevernokorejskih-vojnika-i-nove-raketne-lansere-15731378",
+      "published": "2026-07-26T04:57:44.000Z",
+      "source": "Jutarnji",
+      "category": "general",
+      "xml_category": "svijet",
+      "tags": [],
+      "image": "https://media.jutarnji.hr/images/slike/2026/07/26/f_39345001_1280.jpg?1785041894"
+    },
+    {
+      "id": "jutarnji-1",
+      "title": "Horor u Berlinu: Kombi se zaletio u paradu ponosa, jedna osoba ubijena, 16 ozlijeđenih, identificiran napadač",
+      "summary": "Jedna osoba je ubijena, a 16 je ozlijeđeno, među kojima su neki kritično, rekli su vatrogasci nakon što se napadač vozilom zabio u gomilu na berlinskoj povorci ponosa, a policija je objavila da je identificirala napadača, rekavši da je poznat vlastima i da je dio berlinske islamističke scene. Prema.",
+      "link": "https://www.jutarnji.hr/vijesti/svijet/napad-vozilom-csd-berlin-tiergarten-jedna-mrtva-16-ozlijedeno-islamisticka-scena-15731374",
+      "published": "2026-07-26T04:36:00.000Z",
+      "source": "Jutarnji",
+      "category": "general",
+      "xml_category": "svijet",
+      "tags": [],
+      "image": "https://media.jutarnji.hr/images/slike/2026/07/26/f_39343992_1280.jpg?1785041894"
+    },
+    {
+      "id": "al-jazeera-0",
+      "title": "Tunisians mark fifth year of emergency rule with calls for Saied to go",
+      "summary": "Thousands rally in Tunis calling for &#039;fall of the regime&#039; five years since President Kais Saied suspended parliament.",
+      "link": "https://www.aljazeera.com/news/2026/7/26/tunisians-mark-fifth-year-of-emergency-rule-with-calls-for-saied-to-go?traffic_source=rss",
+      "published": "2026-07-26T04:14:23.000Z",
+      "source": "Al Jazeera",
+      "category": "ai",
+      "xml_category": "opinions",
+      "tags": [],
+      "image": null
+    },
+    {
+      "id": "bbc-14",
+      "title": "Left-wing Democrats are on a winning run - but can they lure back crucial swing voters?",
+      "summary": "They have seen a flurry of recent wins, but Michigan will test their ability to win back working-class voters in crucial states.",
+      "link": "https://www.bbc.co.uk/news/articles/c5y3rrd32jlo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-07-26T03:58:51.000Z",
+      "source": "BBC",
+      "category": "general",
+      "xml_category": "",
+      "tags": [],
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4ef1/live/4956a870-8777-11f1-b430-afa19a42b819.jpg"
+    },
+    {
+      "id": "al-jazeera-1",
+      "title": "Tehran summons Ukrainian diplomat after Kyiv bombs an Iranian ship",
+      "summary": "Iran has condemned a Ukrainian attack on one of its commercial vessels.",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/7/26/tehran-summons-ukrainian-diplomat-after-kyiv-bombs-an-iranian-ship?traffic_source=rss",
+      "published": "2026-07-26T03:49:29.000Z",
+      "source": "Al Jazeera",
+      "category": "ai",
+      "xml_category": "show types",
+      "tags": [],
+      "image": null
+    },
+    {
+      "id": "al-jazeera-2",
+      "title": "Can Zimbabwe’s mineral ambitions benefit smaller producers?",
+      "summary": "Zimbabwe wants to process more minerals at home, but smaller miners fear being left behind.",
+      "link": "https://www.aljazeera.com/news/2026/7/26/can-zimbabwes-mineral-ambitions-benefit-smaller-producers?traffic_source=rss",
+      "published": "2026-07-26T03:21:28.000Z",
+      "source": "Al Jazeera",
+      "category": "general",
+      "xml_category": "news",
+      "tags": [],
+      "image": null
+    },
+    {
+      "id": "al-jazeera-3",
+      "title": "French wildfires trigger mass evacuations around Bordeaux",
+      "summary": "Around 200,000 people have been evacuated around Bordeaux as wildfires tear through southwestern France.",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/7/26/french-wildfires-trigger-mass-evacuations-around-bordeaux?traffic_source=rss",
+      "published": "2026-07-26T03:03:17.000Z",
+      "source": "Al Jazeera",
+      "category": "general",
+      "xml_category": "show types",
+      "tags": [],
+      "image": null
+    },
+    {
+      "id": "al-jazeera-4",
+      "title": "Flavio Bolsonaro launches Brazil presidential bid with Milei support",
+      "summary": "Flavio Bolsonaro, son of disgraced former Brazilian President Jair, has launched his bid to unseat President Lula.",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/7/26/flavio-bolsonaro-launches-brazil-presidential-bid-with-milei-support?traffic_source=rss",
+      "published": "2026-07-26T02:19:58.000Z",
+      "source": "Al Jazeera",
+      "category": "general",
+      "xml_category": "show types",
+      "tags": [],
+      "image": null
+    },
+    {
+      "id": "al-jazeera-5",
+      "title": "Israel arrests nine at Tel Aviv protest against West Bank settler violence",
+      "summary": "Protest group says at least 200 demonstrated in Israeli capital a day after major escalation of West Bank violence.",
+      "link": "https://www.aljazeera.com/news/2026/7/26/israel-arrests-nine-at-tel-aviv-protest-against-west-bank-settler-violence?traffic_source=rss",
+      "published": "2026-07-26T01:52:56.000Z",
+      "source": "Al Jazeera",
+      "category": "ai",
+      "xml_category": "news",
+      "tags": [],
+      "image": null
+    },
+    {
+      "id": "bbc-0",
+      "title": "More than 300,000 flee wildfires in France and Spain",
+      "summary": "Spain's PM warns of \"complex hours\" ahead as authorities in France say they are far from bringing blazes burning near Bordeaux under control.",
+      "link": "https://www.bbc.co.uk/news/articles/cd7le0d53y2o?at_medium=RSS&at_campaign=rss",
+      "published": "2026-07-26T00:54:06.000Z",
+      "source": "BBC",
+      "category": "ai",
+      "xml_category": "",
+      "tags": [],
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8783/live/30d9e7b0-880f-11f1-afbe-b9a38c21b1d6.jpg"
+    },
+    {
+      "id": "al-jazeera-6",
+      "title": "Yemen’s Houthis target Saudi oil facilities along the Red Sea",
+      "summary": "Yemen&#039;s Houthis say they have targeted oil facilities in Saudi Arabia owned by Aramco.",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/7/26/yemens-houthis-target-saudi-oil-facilities-along-the-red-sea?traffic_source=rss",
+      "published": "2026-07-26T00:49:12.000Z",
+      "source": "Al Jazeera",
+      "category": "general",
+      "xml_category": "show types",
+      "tags": [],
+      "image": null
+    },
+    {
+      "id": "bbc-15",
+      "title": "The notorious Cameroonian prison with its own record label",
+      "summary": "New Bell's inmates have become mini stars, recording songs and music videos from the confines of the jail.",
+      "link": "https://www.bbc.co.uk/news/articles/czxqlkrlj7no?at_medium=RSS&at_campaign=rss",
+      "published": "2026-07-26T00:24:30.000Z",
+      "source": "BBC",
+      "category": "general",
+      "xml_category": "",
+      "tags": [],
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ce2e/live/8eb036e0-8117-11f1-926f-c90d1bcfbc84.jpg"
+    },
+    {
+      "id": "al-jazeera-7",
+      "title": "Bolsonaro’s son begins Brazil presidential bid with Netanyahu, Milei kudos",
+      "summary": "Right-wing candidate Flavio Bolsonaro attracts foreign support, but struggles in polls ahead of matchup with Lula.",
+      "link": "https://www.aljazeera.com/news/2026/7/26/bolsonaros-son-begins-brazil-presidential-bid-with-netanyahu-milei-kudos?traffic_source=rss",
+      "published": "2026-07-26T00:08:16.000Z",
+      "source": "Al Jazeera",
+      "category": "general",
+      "xml_category": "news",
+      "tags": [],
+      "image": null
+    },
+    {
+      "id": "bbc-16",
+      "title": "Would you pay $58.5m to live in this iconic New York building?",
+      "summary": "With its renovation nearly complete, the Flatiron is ready for its next - and most extravagant - phase of life.",
+      "link": "https://www.bbc.co.uk/news/articles/c20e5r1pvvdo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-07-26T00:05:03.000Z",
+      "source": "BBC",
+      "category": "general",
+      "xml_category": "",
+      "tags": [],
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/84dd/live/916b9330-8481-11f1-b4a3-ff90d93e1201.png"
+    },
+    {
+      "id": "al-jazeera-8",
+      "title": "Iran war live: Tehran summons Ukraine diplomats over Caspian Sea attack",
+      "summary": "Tehran says the Ukranian attack killed at least one sailor and wounded another.",
+      "link": "https://www.aljazeera.com/news/liveblog/2026/7/26/iran-war-live-tehran-summons-ukraine-diplomats-over-caspian-sea-attack?traffic_source=rss",
+      "published": "2026-07-26T00:00:25.000Z",
+      "source": "Al Jazeera",
+      "category": "ai",
+      "xml_category": "news",
+      "tags": [],
+      "image": null
+    },
+    {
+      "id": "bbc-17",
+      "title": "What Love Island tells us about the changing face of dating",
+      "summary": "From women making the first move to shifting relationship dynamics, Love Island has become a window into Britain's evolving dating culture",
+      "link": "https://www.bbc.co.uk/news/articles/c935q2k6pxqo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-07-25T23:31:49.000Z",
+      "source": "BBC",
+      "category": "general",
+      "xml_category": "",
+      "tags": [],
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6805/live/5b30d6d0-86c6-11f1-8c61-e72dd81a46e3.jpg"
+    },
+    {
+      "id": "al-jazeera-9",
+      "title": "What’s behind the Israeli crackdown in the occupied West Bank?",
+      "summary": "Israeli forces intensify West Bank raids as settlers escalate attacks and settlement expansion accelerates.",
+      "link": "https://www.aljazeera.com/video/inside-story/2026/7/25/whats-behind-the-israeli-crackdown-in-the-occupied-west-bank?traffic_source=rss",
+      "published": "2026-07-25T23:30:45.000Z",
+      "source": "Al Jazeera",
+      "category": "general",
+      "xml_category": "tv shows",
+      "tags": [],
+      "image": null
+    },
+    {
+      "id": "bbc-18",
+      "title": "Pizza, pasta, potatoes, protein - how Italian children became so overweight",
+      "summary": "The Mediterranean diet was a blueprint for healthy living, yet Italian children are among the most overweight in Europe according to WHO.",
+      "link": "https://www.bbc.co.uk/news/articles/c33y3151vydo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-07-25T23:30:07.000Z",
+      "source": "BBC",
+      "category": "general",
+      "xml_category": "",
+      "tags": [],
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d0e2/live/d0bf8120-841f-11f1-b976-0b9c15b0ccfc.jpg"
+    },
+    {
+      "id": "al-jazeera-10",
+      "title": "Iran accuses Ukraine of deadly attack on Caspian commercial vessel",
+      "summary": "Iran accuses Ukraine of attacking a Caspian vessel, killing one sailor and injuring another, calling it a criminal act.",
+      "link": "https://www.aljazeera.com/news/2026/7/25/iran-accuses-ukraine-of-deadly-attack-on-caspian-commercial-vessel?traffic_source=rss",
+      "published": "2026-07-25T23:16:45.000Z",
+      "source": "Al Jazeera",
+      "category": "ai",
+      "xml_category": "news",
+      "tags": [],
+      "image": null
+    },
+    {
+      "id": "al-jazeera-11",
+      "title": "Fire tears through Indonesian village in West Java",
+      "summary": "A fire has torn through a traditional village in the Sukabumi Regency of Indonesia&#039;s West Java province.",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/7/25/fire-tears-through-indonesian-village-in-west-java?traffic_source=rss",
+      "published": "2026-07-25T23:11:44.000Z",
+      "source": "Al Jazeera",
+      "category": "general",
+      "xml_category": "show types",
+      "tags": [],
+      "image": null
+    },
+    {
+      "id": "al-jazeera-12",
+      "title": "One dead, 16 injured as car strikes crowd at Berlin LGBTQ event",
+      "summary": "German police say a white car drove into Tiergarten Park, near the route of a Pride march, hitting several people.",
+      "link": "https://www.aljazeera.com/news/2026/7/25/one-dead-14-injured-as-car-reportedly-strikes-crowd-at-berlin-lgbtq-event?traffic_source=rss",
+      "published": "2026-07-25T22:31:19.000Z",
+      "source": "Al Jazeera",
+      "category": "general",
+      "xml_category": "news",
+      "tags": [],
+      "image": null
+    },
+    {
+      "id": "bbc-19",
+      "title": "Smash hit: How Alex Eala's Wimbledon run made everyday Filipinos fall in love with tennis",
+      "summary": "Formerly the preserve of the rich, tennis is booming in the basketball- and boxing-obsessed country.",
+      "link": "https://www.bbc.co.uk/news/articles/c3v0lyrndn7o?at_medium=RSS&at_campaign=rss",
+      "published": "2026-07-25T22:15:14.000Z",
+      "source": "BBC",
+      "category": "sport",
+      "xml_category": "",
+      "tags": [],
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6249/live/bc091200-873a-11f1-a10e-a5d4f08bc20c.jpg"
+    },
+    {
+      "id": "al-jazeera-13",
+      "title": "Israeli forces target Gaza’s Al-Aqsa hospital",
+      "summary": "At least one person was killed and several injured when Israeli drones hit a group of Palestinians near Al-Aqsa hospital",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/7/25/israeli-forces-target-gazas-al-aqsa-hospital?traffic_source=rss",
+      "published": "2026-07-25T22:07:36.000Z",
+      "source": "Al Jazeera",
+      "category": "general",
+      "xml_category": "show types",
+      "tags": [],
+      "image": null
+    },
+    {
+      "id": "al-jazeera-14",
+      "title": "What’s next for Venezuela’s path to recovery from devastating earthquakes?",
+      "summary": "The cost of reconstruction is expected to run into the tens of billions, even as the country faces numerous obstacles.",
+      "link": "https://www.aljazeera.com/news/2026/7/25/whats-next-for-venezuelas-path-to-recovery-from-devastating-earthquakes?traffic_source=rss",
+      "published": "2026-07-25T21:59:39.000Z",
+      "source": "Al Jazeera",
+      "category": "general",
+      "xml_category": "news",
+      "tags": [],
+      "image": null
+    },
+    {
+      "id": "index-0",
+      "title": "Zelenski: Rusija u rat želi dovesti još 30.000 sjevernokorejskih vojnika",
+      "summary": "ZELENSKIJ tvrdi da Rusija želi dovesti 30.000 sjevernokorejskih vojnika, upozoravajući da ta suradnja ugrožava mir u Ukrajini, ali i cijeloj Aziji.",
+      "link": "https://www.index.hr/vijesti/clanak/zelenski-rusija-u-rat-zeli-dovesti-jos-30000-sjevernokorejskih-vojnika/2817618.aspx",
+      "published": "2026-07-25T21:10:00.000Z",
+      "source": "Index",
+      "category": "general",
+      "xml_category": "vijesti",
+      "tags": [],
+      "image": null
+    },
+    {
+      "id": "al-jazeera-15",
+      "title": "Israeli forces tear gas journalists reporting Nablus shootout",
+      "summary": "Israeli troops fired tear gas at Palestinians and journalists in Tal a day after a deadly shootout",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/7/25/israeli-forces-tear-gas-journalists-reporting-nablus-shootout?traffic_source=rss",
+      "published": "2026-07-25T21:08:24.000Z",
+      "source": "Al Jazeera",
+      "category": "general",
+      "xml_category": "show types",
+      "tags": [],
+      "image": null
+    },
+    {
+      "id": "al-jazeera-16",
+      "title": "How India’s ‘Cockroach’ protesters shook the Modi government",
+      "summary": "India’s Education Minister has resigned after 36 days of continuous protests by Cockroach Janta Party-led people.",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/7/25/how-indias-cockroach-protesters-shook-the-modi-government?traffic_source=rss",
+      "published": "2026-07-25T20:57:45.000Z",
+      "source": "Al Jazeera",
+      "category": "general",
+      "xml_category": "show types",
+      "tags": [],
+      "image": null
+    },
+    {
+      "id": "index-1",
+      "title": "VIDEO Prekinuta parada ponosa u Berlinu. Kombi se zabio u sudionike, ima ozlijeđenih",
+      "summary": "BERLINSKA Parada ponosa (CSD) prekinuta je nakon što je vozilo naletjelo na sudionike u blizini parka Tiergarten. Više je osoba ozlijeđeno, a organizatori su evakuirali područje.",
+      "link": "https://www.index.hr/vijesti/clanak/video-prekinuta-parada-ponosa-u-berlinu-kombi-se-zabio-u-sudionike-ima-ozlijedjenih/2817617.aspx",
+      "published": "2026-07-25T20:55:00.000Z",
+      "source": "Index",
+      "category": "general",
+      "xml_category": "vijesti",
+      "tags": [],
+      "image": null
+    },
+    {
+      "id": "index-2",
+      "title": "Trump: Rat punih razmjera s Iranom moguć je ako ne dobijemo sve što želimo",
+      "summary": "DONALD Trump razmatra rat s Iranom ako se ne ispune američki zahtjevi. Također je zaprijetio Europskoj uniji visokim carinama zbog kazni nametnutih američkim tehnološkim kompanijama.",
+      "link": "https://www.index.hr/vijesti/clanak/trump-rat-punih-razmjera-s-iranom-moguc-je-ako-ne-dobijemo-sve-sto-zelimo/2817615.aspx",
+      "published": "2026-07-25T20:42:00.000Z",
+      "source": "Index",
+      "category": "general",
+      "xml_category": "vijesti",
+      "tags": [],
+      "image": null
+    },
+    {
+      "id": "index-3",
+      "title": "Zaharova: Ukrajina napadima na civile pokazuje svoj zvjerski nacistički osmijeh",
+      "summary": "MARIJA Zaharova oštro je osudila ukrajinske napade na civilne ciljeve u Rusiji, tvrdeći da Kijev iskaljuje bijes zbog neuspjeha na bojištu.",
+      "link": "https://www.index.hr/vijesti/clanak/zaharova-ukrajina-napadima-na-civile-pokazuje-svoj-zvjerski-nacisticki-osmijeh/2817610.aspx",
+      "published": "2026-07-25T20:16:00.000Z",
+      "source": "Index",
+      "category": "general",
+      "xml_category": "vijesti",
+      "tags": [],
+      "image": null
+    },
+    {
+      "id": "jutarnji-2",
+      "title": "Trump naredio vojsci: ‘Zaustavite udare‘. Izraelci ostali iznenađeni, pripremali su se za odmazdu",
+      "summary": "Donald Trump naredio je vojsci da u petak ne izvodi nove napade na Iran, čime je prekinut niz od gotovo dva tjedna svakodnevnih zračnih udara, otkrili su izvori upućeni u odluku američkog predsjednika za Axios. Ovakav potez uslijedio je nakon što je Trump prethodnih 13 dana zaredom davao zeleno svje",
+      "link": "https://www.jutarnji.hr/vijesti/svijet/trump-pauzira-udare-na-iran-i-fokus-prebacuje-na-pregovore-15731354",
+      "published": "2026-07-25T20:16:00.000Z",
+      "source": "Jutarnji",
+      "category": "general",
+      "xml_category": "svijet",
+      "tags": [],
+      "image": "https://media.jutarnji.hr/images/slike/2026/07/25/f_39342959_1280.jpg?1785041894"
+    },
+    {
+      "id": "al-jazeera-17",
+      "title": "Head of police in northern Gaza killed in Israeli strike",
+      "summary": "Gaza’s Interior Ministry says Israel is targeting police personnel with the aim of &#039;spreading chaos&#039; in the Gaza Strip.",
+      "link": "https://www.aljazeera.com/news/2026/7/25/head-of-hamas-led-police-in-northern-gaza-killed-by-israeli-strike?traffic_source=rss",
+      "published": "2026-07-25T20:00:43.000Z",
+      "source": "Al Jazeera",
+      "category": "general",
+      "xml_category": "news",
+      "tags": [],
+      "image": null
+    },
+    {
+      "id": "n1-info-2",
       "title": "Zaharova: Zelenski i njegovi zapadni lutkari skupo će platiti za svaki zločin",
       "summary": "Glasnogovornica ruskog ministarstva vanjskih poslova Marija Zaharova oštro je osudila najnovije ukrajinske napade na ciljeve u Rusiji, izvijestila je",
       "link": "https://n1info.hr/svijet/zaharova-zelenski-i-njegovi-zapadni-lutkari-skupo-ce-platiti-za-svaki-zlocin/",
@@ -15,7 +399,31 @@
       "image": "https://n1info.hr/media/images/2026/7/12/1783883514_000_93C92NJ.width-1200.jpg"
     },
     {
-      "id": "index-0",
+      "id": "index-4",
+      "title": "VIDEO Desničari napali antife u Glasgowu, izbio totalni kaos",
+      "summary": "SUKOBI između prosvjednika protiv imigracije i sudionika proturasističkog prosvjeda izbili su u subotu u Glasgowu u Škotskoj, a policija je izvijestila o nekoliko uhićenja.",
+      "link": "https://www.index.hr/vijesti/clanak/video-desnicari-napali-antife-u-glasgowu-izbio-totalni-kaos/2817603.aspx",
+      "published": "2026-07-25T19:57:00.000Z",
+      "source": "Index",
+      "category": "general",
+      "xml_category": "vijesti",
+      "tags": [],
+      "image": null
+    },
+    {
+      "id": "index-5",
+      "title": "Vatrena katastrofa u Francuskoj i Španjolskoj, ugroženi Madrid i Bordeaux",
+      "summary": "NEZAPAMĆENI požari haraju Francuskom i Španjolskom, prisiljavajući stotine tisuća ljudi na evakuaciju dok se vatrena stihija približava Bordeauxu i Madridu.",
+      "link": "https://www.index.hr/vijesti/clanak/vatrena-katastrofa-u-francuskoj-i-spanjolskoj-ugrozeni-madrid-i-bordeaux/2817434.aspx",
+      "published": "2026-07-25T19:54:15.000Z",
+      "source": "Index",
+      "category": "general",
+      "xml_category": "vijesti",
+      "tags": [],
+      "image": null
+    },
+    {
+      "id": "index-6",
       "title": "U požaru u SAD-u pronađeno osmero mrtvih, sumnja se na ubojstvo",
       "summary": "U KUĆI u Michiganu nakon požara pronađeno osmero mrtvih, od čega šestero djece. Neke žrtve imale su prostrjelne rane, a policija sumnja na ubojstvo-samoubojstvo i podmetnuti požar.",
       "link": "https://www.index.hr/vijesti/clanak/u-pozaru-u-sadu-pronadjeno-osmero-mrtvih-sumnja-se-na-ubojstvo/2817605.aspx",
@@ -27,7 +435,7 @@
       "image": null
     },
     {
-      "id": "al-jazeera-0",
+      "id": "al-jazeera-18",
       "title": "At least 35 killed after two buses collide in eastern Syria",
       "summary": "At least 35 killed after two buses collide in eastern Syria",
       "link": "https://www.aljazeera.com/video/newsfeed/2026/7/25/at-least-35-killed-after-two-buses-collide-in-eastern-syria?traffic_source=rss",
@@ -39,7 +447,7 @@
       "image": null
     },
     {
-      "id": "jutarnji-0",
+      "id": "jutarnji-3",
       "title": "Kako je spektakularni projekt od 4,5 milijardi dolara postao simbol narušenih odnosa",
       "summary": "Novi most između SAD-a i Kanade postao je pravi simbol narušenih odnosa dviju zemalja. Otvaranje novog međunarodnog mosta Gordie Howe između Detroita i Windsora trebalo je biti povijesni trenutak za Kanadu i Sjedinjene Države i najveći prekogranični infrastrukturni projekt u posljednjih nekoliko des",
       "link": "https://www.jutarnji.hr/vijesti/svijet/gordie-howe-most-kanada-otvara-bez-sad-spor-carine-prihodi-detroit-windsor-15731347",
@@ -48,10 +456,10 @@
       "category": "general",
       "xml_category": "svijet",
       "tags": [],
-      "image": "https://media.jutarnji.hr/images/slike/2026/07/24/f_39337639_1280.jpg?1785009092"
+      "image": "https://media.jutarnji.hr/images/slike/2026/07/24/f_39337639_1280.jpg?1785041894"
     },
     {
-      "id": "n1-info-2",
+      "id": "n1-info-4",
       "title": "VIDEO / Izraelski udari ubili najmanje šestero u Gazi, uključujući šefa policije",
       "summary": "Izraelski napad dronom u Gazi usmrtio visokog policijskog dužnosnika, novi zračni napadi odnijeli još najmanje pet života",
       "link": "https://n1info.hr/svijet/video-izraelski-udari-ubili-najmanje-sestero-u-gazi-ukljucujuci-sefa-policije/",
@@ -63,7 +471,7 @@
       "image": "https://n1info.hr/media/images/2026/7/25/1785006988_000_C32V9G3.width-1200.jpg"
     },
     {
-      "id": "index-1",
+      "id": "index-7",
       "title": "Bolsonarov sin nominiran za brazilskog desničarskog predsjedničkog kandidata",
       "summary": "BRAZILSKI desničarski političar Flávio Bolsonaro nominiran je za predsjedničkog kandidata svoje stranke i suočit će se s ljevičarskim aktualnim predsjednikom Luizom Ináciom Lulom da Silvom na izborima u listopadu, priopćila je u subotu njegova Liberalna stranka (PL).",
       "link": "https://www.index.hr/vijesti/clanak/bolsonarov-sin-nominiran-za-brazilskog-desnicarskog-predsjednickog-kandidata/2817600.aspx",
@@ -87,7 +495,7 @@
       "image": null
     },
     {
-      "id": "index-3",
+      "id": "index-8",
       "title": "Motociklist poginuo kod Lekenika, udario je u betonski most",
       "summary": "MOTOCIKLIST je večeras poginuo u prometnoj nesreći u Pešćenici na području općine Lekenik.",
       "link": "https://www.index.hr/vijesti/clanak/motociklist-poginuo-kod-lekenika-udario-je-u-betonski-most/2817597.aspx",
@@ -99,7 +507,7 @@
       "image": null
     },
     {
-      "id": "index-4",
+      "id": "index-9",
       "title": "VIDEO Predsjednik Kazahstana neočekivano tražio kraj rata. Pogledajte reakciju Putina",
       "summary": "KAZAHSTANSKI predsjednik Kasim-Žomart Tokajev izjavio je da je moguć mirovni sporazum za Ukrajinu ako Kijev i Moskva zamrznu sukob i nastave pregovore.",
       "link": "https://www.index.hr/vijesti/clanak/video-predsjednik-kazahstana-neocekivano-trazio-kraj-rata-pogledajte-reakciju-putina/2817591.aspx",
@@ -111,7 +519,7 @@
       "image": null
     },
     {
-      "id": "jutarnji-1",
+      "id": "jutarnji-4",
       "title": "VIDEO Predsjednik Kazahstana: ‘Ako smijem iznijeti svoje mišljenje... Vrijeme je.‘ Pogledajte Putinovu reakciju",
       "summary": "Kazahstanski predsjednik Kasim-Žomart Tokajev izjavio je u subotu da je moguć mirovni sporazum za Ukrajinu ako Kijev i Moskva zamrznu sukob i nastave pregovore. Govoreći uz ruskog predsjednika Vladimira Putina na forumu Rusija–Kazahstan u sibirskom gradu Omsku, Tokajev je pohvalio Putinovu ‘vrsnu di",
       "link": "https://www.jutarnji.hr/vijesti/svijet/tokajev-zamrzavanje-sukoba-istanbul-2-0-prekid-vatre-ukrajina-15731337",
@@ -120,10 +528,10 @@
       "category": "politika",
       "xml_category": "svijet",
       "tags": [],
-      "image": "https://media.jutarnji.hr/images/slike/2026/07/25/f_39342268_1280.jpg?1785009092"
+      "image": "https://media.jutarnji.hr/images/slike/2026/07/25/f_39342268_1280.jpg?1785041894"
     },
     {
-      "id": "index-5",
+      "id": "index-10",
       "title": "Hrvatica iz Madrida: Ljudi su u strahu, vlasti nisu bile spremne",
       "summary": "VELIKI požari, najgori u povijesti regije, prijete Madridu. Hrvatica Maja Jakić opisuje strah, evakuacije i kaos, kritizirajući nespremnost vlasti koje su ignorirale upozorenja.",
       "link": "https://www.index.hr/vijesti/clanak/hrvatica-iz-madrida-ljudi-su-u-strahu-vlasti-nisu-bile-spremne/2817590.aspx",
@@ -135,7 +543,7 @@
       "image": null
     },
     {
-      "id": "jutarnji-2",
+      "id": "jutarnji-5",
       "title": "VIDEO: Katastrofa u Francuskoj sve gora, pogledajte što su napravili prvi put u povijesti",
       "summary": "Tisuće ljudi evakuirane su u subotu iz predgrađa Bordeauxa zbog velikih šumskih požara koji se na jugozapadu Francuske približavaju tom gradu. U borbu protiv nezapamćene vatrene stihije uključile su se i francuske vojne snage, pri čemu je prvi put ikad dignut i vojni transportni zrakoplov Airbus A40",
       "link": "https://www.jutarnji.hr/vijesti/svijet/pozari-bordeaux-a400m-izbacuje-kemijski-retardant-masovne-evakuacije-15731336",
@@ -144,12 +552,12 @@
       "category": "general",
       "xml_category": "svijet",
       "tags": [],
-      "image": "https://media.jutarnji.hr/images/slike/2026/07/25/f_39342213_1280.gif?1785009092"
+      "image": "https://media.jutarnji.hr/images/slike/2026/07/25/f_39342213_1280.gif?1785041894"
     },
     {
-      "id": "al-jazeera-1",
+      "id": "al-jazeera-19",
       "title": "Ebola deaths in DRC surge past 1,300 as virus ‘spreading like a wildfire’",
-      "summary": "The outbreak is spreading at the fastest rate ever recorded and threatens to become the worst in history.",
+      "summary": "Outbreak is spreading at the fastest rate ever recorded as confirmed cases in DRC surpass 3,000.",
       "link": "https://www.aljazeera.com/news/2026/7/25/ebola-deaths-in-drc-surge-past-1300-as-virus-spreading-like-a-wildfire?traffic_source=rss",
       "published": "2026-07-25T18:28:09.000Z",
       "source": "Al Jazeera",
@@ -159,7 +567,7 @@
       "image": null
     },
     {
-      "id": "n1-info-5",
+      "id": "n1-info-7",
       "title": "FOTO / Stotine tisuća ljudi sudjelovale u berlinskoj povorci ponosa",
       "summary": "Stotine tisuća ljudi izišle su u subotu na ulice njemačke prijestolnice kako bi sudjelovale u berlinskoj povorci ponosa 2026., lokalno poznatoj kao Ch",
       "link": "https://n1info.hr/svijet/foto-stotine-tisuca-ljudi-sudjelovale-u-berlinskoj-povorci-ponosa/",
@@ -171,7 +579,7 @@
       "image": "https://n1info.hr/media/images/2026/7/25/1785003639_000_C37B7KT.width-1200.jpg"
     },
     {
-      "id": "index-6",
+      "id": "index-11",
       "title": "Europska unija odobrila veliku financijsku pomoć za BiH",
       "summary": "EU JE BOSNI i Hercegovini odobrila 140,5 milijuna eura bespovratnih sredstava iz fonda IPA III za ključne reforme i napredak prema članstvu.",
       "link": "https://www.index.hr/vijesti/clanak/europska-unija-odobrila-veliku-financijsku-pomoc-za-bih/2817587.aspx",
@@ -207,7 +615,7 @@
       "image": null
     },
     {
-      "id": "index-7",
+      "id": "index-12",
       "title": "Pronađeno još jedno tijelo nakon što se avion srušio na kuću u Njemačkoj",
       "summary": "DVA MUŠKARCA poginula su kada se laki zrakoplov danas malo prije 11 sati srušio na obiteljsku kuću u Donjoj Saskoj, sjevernoj njemačkoj saveznoj zemlji.",
       "link": "https://www.index.hr/vijesti/clanak/pronadjeno-jos-jedno-tijelo-nakon-sto-se-avion-srusio-na-kucu-u-njemackoj/2817582.aspx",
@@ -219,7 +627,7 @@
       "image": null
     },
     {
-      "id": "index-8",
+      "id": "index-13",
       "title": "FOTO Povorka ponosa u Berlinu okupila stotine tisuća ljudi",
       "summary": "STOTINE tisuća ljudi na berlinskoj povorci ponosa poslale su snažnu poruku podrške LGBTQ pravima i otpora rastućoj mržnji i političkom ekstremizmu.",
       "link": "https://www.index.hr/vijesti/clanak/foto-povorka-ponosa-u-berlinu-okupila-stotine-tisuca-ljudi/2817578.aspx",
@@ -243,7 +651,7 @@
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ba11/live/52ef7480-884d-11f1-a7ab-8b30adf0800a.jpg"
     },
     {
-      "id": "n1-info-8",
+      "id": "n1-info-10",
       "title": "FOTO / Okršaj prosvjednika zbog imigracije i rasizma u Škotskoj",
       "summary": "Sukobi između prosvjednika protiv imigracije i sudionika proturasističkog prosvjeda izbili su u subotu u Glasgowu u Škotskoj, a policija je izvijestil",
       "link": "https://n1info.hr/svijet/foto-okrsaj-prosvjednika-zbog-imigracije-i-rasizma-u-skotskoj/",
@@ -255,7 +663,7 @@
       "image": "https://n1info.hr/media/images/2026/7/25/1785000019_000_B6Y7498.width-1200.jpg"
     },
     {
-      "id": "index-9",
+      "id": "index-14",
       "title": "Britanski naftni megaprojekt kasni. Ključna oprema pala u more",
       "summary": "POČETAK proizvodnje na britanskom naftnom polju Rosebank odgođen je za 2027. zbog incidenta u kojem je oprema pala na dno mora. Kašnjenje utječe na odluku vlade o spornom projektu.",
       "link": "https://www.index.hr/vijesti/clanak/britanski-naftni-megaprojekt-kasni-kljucna-oprema-pala-u-more/2817573.aspx",
@@ -267,19 +675,7 @@
       "image": null
     },
     {
-      "id": "bbc-0",
-      "title": "More than 250,000 flee wildfires in France and Spain",
-      "summary": "Spain's PM warns of \"complex hours\" ahead as authorities in France say they are far from bringing blazes burning near Bordeaux under control.",
-      "link": "https://www.bbc.co.uk/news/articles/cd7le0d53y2o?at_medium=RSS&at_campaign=rss",
-      "published": "2026-07-25T17:13:40.000Z",
-      "source": "BBC",
-      "category": "ai",
-      "xml_category": "",
-      "tags": [],
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8783/live/30d9e7b0-880f-11f1-afbe-b9a38c21b1d6.jpg"
-    },
-    {
-      "id": "n1-info-9",
+      "id": "n1-info-11",
       "title": "\"Ukrajina više nije suverena država“, kaže sociolog Volodimir Iščenko",
       "summary": "Volodimir Iščenko analizira moguće ishode rata u Ukrajini te ističe da međunarodna ljevica mora pružiti otpor politici štednje i militarizacije koja,",
       "link": "https://n1info.hr/svijet/ukrajina-vise-nije-suverena-drzava-kaze-sociolog-volodimir-iscenko/",
@@ -291,7 +687,7 @@
       "image": "https://n1info.hr/media/images/2026/7/24/1784918280_000_C34C3KF.width-1200.jpg"
     },
     {
-      "id": "index-10",
+      "id": "index-15",
       "title": "Procurio dokument. Turska još ne može kupovati američke avione F-35",
       "summary": "STATE Department potvrdio je da Turska ne može dobiti zrakoplove F-35 dok se ne riješi ruskog sustava S-400. Unatoč pohvalama za diplomatske napore, Washington ne mijenja svoj stav.",
       "link": "https://www.index.hr/vijesti/clanak/procurio-dokument-turska-jos-ne-moze-kupovati-americke-avione-f35/2817569.aspx",
@@ -315,7 +711,7 @@
       "image": null
     },
     {
-      "id": "index-11",
+      "id": "index-16",
       "title": "Izrael ima nove metode lobiranja u SAD-u. Troše milijarde",
       "summary": "IZVJEŠĆE Instituta Quincy otkriva da Izrael ulaže milijarde u nove lobističke taktike u SAD-u, koristeći strane agente, AI i influencere kako bi ojačao utjecaj unatoč padu javne podrške.",
       "link": "https://www.index.hr/vijesti/clanak/izrael-ima-nove-metode-lobiranja-u-sadu-trose-milijarde/2817563.aspx",
@@ -339,7 +735,7 @@
       "image": null
     },
     {
-      "id": "index-12",
+      "id": "index-17",
       "title": "Trump više ne cilja samo kartele, nego i meksičke političare",
       "summary": "TRUMPOVA administracija sada cilja i meksičke političare zbog veza s kartelima, što je izazvalo napetosti i optužbe za miješanje u suverenitet.",
       "link": "https://www.index.hr/vijesti/clanak/trump-vise-ne-cilja-samo-kartele-nego-i-meksicke-politicare/2817560.aspx",
@@ -375,7 +771,7 @@
       "image": null
     },
     {
-      "id": "n1-info-12",
+      "id": "n1-info-14",
       "title": "Apokalipsa u Francuskoj: \"Plamen je bio visok poput zgrade od šest katova...\"",
       "summary": "Obitelji su opisale kako se njihov miran odmor u Francuskoj u nekoliko sati pretvorio u očajničku utrku za bijeg pred razornim šumskim požarima.",
       "link": "https://n1info.hr/svijet/apokalipsa-u-francuskoj-plamen-je-bio-visok-poput-zgrade-od-sest-katova/",
@@ -399,7 +795,7 @@
       "image": null
     },
     {
-      "id": "index-13",
+      "id": "index-18",
       "title": "U Engleskoj ubijen 17-godišnjak. Uhićena dvojica tinejdžera",
       "summary": "DVOJICA tinejdžera uhićena su u Lutonu pod sumnjom za ubojstvo 17-godišnjaka koji je preminuo od više ubodnih rana. Policija je pojačala ophodnje i apelira na građane da ne dijele snimke incidenta.",
       "link": "https://www.index.hr/vijesti/clanak/u-engleskoj-ubijen-17godisnjak-uhicena-dvojica-tinejdzera/2817557.aspx",
@@ -447,7 +843,7 @@
       "image": null
     },
     {
-      "id": "n1-info-13",
+      "id": "n1-info-15",
       "title": "Zamjenik ruskog premijera: Situacija s gorivom još uvijek teška u nekim regijama",
       "summary": "Neke ruske regije i dalje imaju problema s opskrbom gorivom, a situacija je najteža u dijelovima Sibira, izvijestile su u subotu novinske agencije cit",
       "link": "https://n1info.hr/svijet/zamjenik-ruskog-premijera-situacija-s-gorivom-jos-uvijek-teska-u-nekim-regijama/",
@@ -459,7 +855,7 @@
       "image": "https://n1info.hr/media/images/1783924048_2026-07-09T082846Z_660942604_RC26WLAKM19S_RTRMADP_3_U.width-1200.JPG"
     },
     {
-      "id": "index-14",
+      "id": "index-19",
       "title": "Turisti o apokalipsi: Francuska žandarmerija išla od vrata do vrata, kao u filmu",
       "summary": "VIŠE od 220.000 ljudi, uključujući brojne turiste, evakuirano je zbog šumskih požara u Francuskoj i Španjolskoj. Turisti opisuju paničan bijeg od plamena usred noći i neizvjesnu situaciju.",
       "link": "https://www.index.hr/vijesti/clanak/turisti-o-apokalipsi-francuska-zandarmerija-isla-od-vrata-do-vrata-kao-u-filmu/2817552.aspx",
@@ -471,7 +867,7 @@
       "image": null
     },
     {
-      "id": "jutarnji-3",
+      "id": "jutarnji-6",
       "title": "Zamjenik ruskog premijera otkrio da traže pomoć iz Kazahstana: ‘Situacija je prilično teška‘",
       "summary": "Neke ruske regije i dalje imaju problema s opskrbom gorivom, a situacija je najteža u dijelovima Sibira, izvijestile su u subotu novinske agencije citirajući zamjenika ruskog premijera Aleksandra Novaka. Vlasti su uvele niz mjera za podršku domaćem tržištu goriva nakon što su učestali napadi dronova",
       "link": "https://www.jutarnji.hr/vijesti/svijet/rusija-produzuje-zabranu-izvoza-benzina-nestasicu-pogorsavaju-napadi-sibir-kazahstan-15731291",
@@ -480,7 +876,7 @@
       "category": "general",
       "xml_category": "svijet",
       "tags": [],
-      "image": "https://media.jutarnji.hr/images/slike/2026/07/25/f_37699847_1280.jpg?1785009092"
+      "image": "https://media.jutarnji.hr/images/slike/2026/07/25/f_37699847_1280.jpg?1785041894"
     },
     {
       "id": "index-15",
@@ -507,7 +903,7 @@
       "image": null
     },
     {
-      "id": "jutarnji-4",
+      "id": "jutarnji-7",
       "title": "Drama u omiljenom talijanskom ljetovalištu, otac troje djece skočio za sinom u jezero i nestao",
       "summary": "Nizozemski 41-godišnji turist, otac troje djece, nestao je u subotu oko podneva na jezeru Como nakon što je skočio za svojim sinom kako bi ga spasio od utapanja, prenosi Corriere della Sera. Spasilačke ekipe mobilizirane su nakon što im je dojava stigla oko 12.30 sati. Nizozemac je bio na brodu sa s",
       "link": "https://www.jutarnji.hr/vijesti/svijet/otac-nestao-jezero-como-spasavanje-sina-potraga-italija-15731288",
@@ -516,10 +912,10 @@
       "category": "general",
       "xml_category": "svijet",
       "tags": [],
-      "image": "https://media.jutarnji.hr/images/slike/2026/07/25/f_39341371_1280.jpg?1785009092"
+      "image": "https://media.jutarnji.hr/images/slike/2026/07/25/f_39341371_1280.jpg?1785041894"
     },
     {
-      "id": "n1-info-14",
+      "id": "n1-info-16",
       "title": "VIDEO / Bliski istok ponovno gori, Jemen raketirao \"kruh i maslac\" Saudijske Arabije",
       "summary": "Tijekom cijelog tjedna dužnosnici jemenskog Ansar Alaha, koji drži vlast u Saani, nagovještavali su, davali do znanja, a u nekim slučajevima i otvoren",
       "link": "https://n1info.hr/svijet/video-bliski-istok-ponovno-gori-jemen-raketirao-kruh-i-maslac-saudijske-arabije/",
@@ -555,7 +951,7 @@
       "image": null
     },
     {
-      "id": "n1-info-16",
+      "id": "n1-info-18",
       "title": "Orban pozvao na politiku otpora: \"Bruxelles moraju okupirati domoljubi\"",
       "summary": "Orbán pozvao Fidesz na „politiku otpora“, premijer Magyar odgovorio: „Besmisleno je baviti se osramoćenim mafijaškim šefom“",
       "link": "https://n1info.hr/regija/orban-pozvao-na-politiku-otpora-bruxelles-moraju-okupirati-domoljubi/",
@@ -567,7 +963,7 @@
       "image": "https://n1info.hr/media/images/1784990854_2026-07-23T150528Z_335672314_RC2WIMAQVDMU_RTRMADP_3_H.width-1200.JPG"
     },
     {
-      "id": "jutarnji-5",
+      "id": "jutarnji-8",
       "title": "‘Žohari‘ su uspjeli, ministar dao ostavku",
       "summary": "Indijski ministar obrazovanja Dharmendra Pradhan popustio je u subotu pred javnim pritiskom studentskog ‘pokreta žohara‘ i dao ostavku. - Imam veliko poštovanje prema legitimnim očekivanjima mladih ove zemlje, napisao je Pradhan na društvenoj mreži X. Dodao je da je podnio ostavku premijeru Narendri",
       "link": "https://www.jutarnji.hr/vijesti/svijet/dharmendra-pradhan-ostavka-skandal-prijemni-ispiti-pritisak-cjp-new-delhi-15731282",
@@ -576,10 +972,10 @@
       "category": "politika",
       "xml_category": "svijet",
       "tags": [],
-      "image": "https://media.jutarnji.hr/images/slike/2026/07/25/f_39340214_1280.jpg?1785009092"
+      "image": "https://media.jutarnji.hr/images/slike/2026/07/25/f_39340214_1280.jpg?1785041894"
     },
     {
-      "id": "jutarnji-6",
+      "id": "jutarnji-9",
       "title": "Meteorolog: ‘Namjerno nismo objavljivali podatke. Već danima stižu signali, mogli bi padati rekordi‘",
       "summary": "Prema najnovijoj prognozi austrijskog meteorološkog servisa Tauernwetter, tu zemlju, kao i okolne države srednje Europe, čeka još četiri do pet ugodnih ljetnih dana. A nakon toga, na samom prijelazu mjeseca, po svemu sudeći stiže toplinski val koji će daleko nadmašiti lipanjski te bi temperaturama m",
       "link": "https://www.jutarnji.hr/vijesti/svijet/toplinski-val-austrija-rekordne-temperature-bec-koruska-istocni-tirol-15731281",
@@ -588,7 +984,7 @@
       "category": "general",
       "xml_category": "svijet",
       "tags": [],
-      "image": "https://media.jutarnji.hr/images/slike/2026/07/25/f_39341183_1280.png?1785009092"
+      "image": "https://media.jutarnji.hr/images/slike/2026/07/25/f_39341183_1280.png?1785041894"
     },
     {
       "id": "al-jazeera-10",
@@ -819,7 +1215,7 @@
       "image": null
     },
     {
-      "id": "jutarnji-7",
+      "id": "jutarnji-10",
       "title": "Zelenski ga smijenio, Europa nije dugo čekala: Bivši ukrajinski šef obrane dobio ponudu za posao",
       "summary": "Talijanski ministar obrane Guido Crosetto ponudio je bivšem ukrajinskom kolegi Mihajlu Fedorovu savjetničku ulogu nakon što je on smijenjen iz ukrajinske vlade. U intervjuu za talijanski dnevni list ‘La Repubblica‘ objavljenom u subotu Crosetto je hvalio Fedorova kao ‘iznimno inovativnog političara‘",
       "link": "https://www.jutarnji.hr/vijesti/svijet/crosetto-nudi-savjetnicku-ulogu-fedorovu-poziv-u-rim-i-pomoc-ukrajini-15731262",
@@ -828,7 +1224,7 @@
       "category": "general",
       "xml_category": "svijet",
       "tags": [],
-      "image": "https://media.jutarnji.hr/images/slike/2026/07/25/f_39330403_1280.jpg?1785009092"
+      "image": "https://media.jutarnji.hr/images/slike/2026/07/25/f_39330403_1280.jpg?1785041894"
     },
     {
       "id": "index-18",
@@ -927,7 +1323,7 @@
       "image": null
     },
     {
-      "id": "jutarnji-8",
+      "id": "jutarnji-11",
       "title": "New York Times je potvrdio: Evo zašto je Trump mijenjao novi Air Force One u Ankari",
       "summary": "Američki predsjednik Donald Trump početkom srpnja zbog iranske prijetnje iznenadno je zamijenio zrakoplov kojim je napustio sastanak na vrhu NATO-a u Ankari, odletjevši u starijem Air Force Oneu umjesto onog koji mu je darovao Katar, piše u subotu New York Times. Američki medij na temelju tvrdnji an",
       "link": "https://www.jutarnji.hr/vijesti/svijet/trump-zbog-iranske-prijetnje-mijenja-avion-u-ankari-stari-air-force-one-15731241",
@@ -936,7 +1332,7 @@
       "category": "ai",
       "xml_category": "svijet",
       "tags": [],
-      "image": "https://media.jutarnji.hr/images/slike/2026/07/25/f_39330572_1280.jpg?1785009092"
+      "image": "https://media.jutarnji.hr/images/slike/2026/07/25/f_39330572_1280.jpg?1785041894"
     },
     {
       "id": "al-jazeera-17",
@@ -1119,7 +1515,7 @@
       "image": null
     },
     {
-      "id": "jutarnji-9",
+      "id": "jutarnji-12",
       "title": "Potpuni raskol u stranci koja užasava Bruxelles, izbačen bivši premijer i njegovi pristaše: ‘Znali su posljedice‘",
       "summary": "Nacionalistička stranka Pravo i pravda (PiS), koja je vladala Poljskom u dva navrata, u razdobljima od 2005. do 2007. te od 2015. do 2023. godine, u petak se podijelila u političkom raskolu koji slabi pokušaje konzervativnog tabora da na izborima iduće godine porazi proeuropskog premijera Donalda Tu",
       "link": "https://www.jutarnji.hr/vijesti/svijet/raskol-pis-kaczynski-izbacio-morawieckog-desnica-se-cijepa-ankete-2027-15731200",
@@ -1128,7 +1524,7 @@
       "category": "general",
       "xml_category": "svijet",
       "tags": [],
-      "image": "https://media.jutarnji.hr/images/slike/2026/07/25/f_39339883_1280.jpg?1785009092"
+      "image": "https://media.jutarnji.hr/images/slike/2026/07/25/f_39339883_1280.jpg?1785041894"
     },
     {
       "id": "al-jazeera-19",
@@ -1155,7 +1551,7 @@
       "image": "https://n1info.hr/media/images/2026/4/14/1776191902_000_A6KY7T4.width-1200.jpg"
     },
     {
-      "id": "jutarnji-10",
+      "id": "jutarnji-13",
       "title": "‘Najgori požari u povijesti‘ haraju zapadom Europe, evakuirano 220.000 ljudi, vlasti u očaju: ‘Neviđeno!‘",
       "summary": "Više od 220.000 ljudi moralo je napustiti svoje domove od polovice ovog tjedna u Francuskoj i Španjolskoj, a još iz sedam općina provela se tijekom noći na subotu dodatna evakuacija, blizu francuskog Bordeauxa, zbog požara koji su izvan kontrole. \"S obzirom na napredovanje požara i unatoč značajnom.",
       "link": "https://www.jutarnji.hr/vijesti/svijet/masovne-evakuacije-francuska-spanjolska-megapozari-bordeaux-madrid-15731188",
@@ -1164,7 +1560,7 @@
       "category": "general",
       "xml_category": "svijet",
       "tags": [],
-      "image": "https://media.jutarnji.hr/images/slike/2026/07/25/f_39338718_1280.jpg?1785009092"
+      "image": "https://media.jutarnji.hr/images/slike/2026/07/25/f_39338718_1280.jpg?1785041894"
     },
     {
       "id": "al-jazeera-19",
@@ -1179,7 +1575,7 @@
       "image": null
     },
     {
-      "id": "jutarnji-11",
+      "id": "jutarnji-14",
       "title": "VIDEO Nadrealna snimka iznad Odese, pogledajte kao Ukrajinci obaraju ruske dronove!",
       "summary": "Na društvenim mrežama pojavile su se nove spektakularne snimke koje prikazuju kako Ukrajinci učinkovito, iz starih jednomotornih propeleraca Jakovljev Jak-52, duboko iz sovjetskog doba, puškama obaraju ruske dronove Shahed. Na jednoj snimci iz zrakoplova vidi se strijelac na zadnjem sjedištu koji iz",
       "link": "https://www.jutarnji.hr/vijesti/svijet/ukrajina-jak-52-puske-ruse-ruske-dronove-shahed-odesa-crno-more-15731179",
@@ -1188,7 +1584,7 @@
       "category": "general",
       "xml_category": "svijet",
       "tags": [],
-      "image": "https://media.jutarnji.hr/images/slike/2026/07/25/f_39340005_1280.gif?1785009092"
+      "image": "https://media.jutarnji.hr/images/slike/2026/07/25/f_39340005_1280.gif?1785041894"
     },
     {
       "id": "index-18",
@@ -1311,7 +1707,7 @@
       "image": null
     },
     {
-      "id": "jutarnji-12",
+      "id": "jutarnji-15",
       "title": "VIDEO Trump se rijetko izblamirao: ‘A mislio sam je to jedina dobra stvar u ovom glupom govoru!‘",
       "summary": "Američki predsjednik Donald Trump uputio je šale i podbadanja novinarima na večeri Udruženja dopisnika Bijele kuće (WHCA) koja slavi slobodu tiska te je ubacio motive karakteristične za svoje političke skupove, nakon što je godišnji događaj prekinut zbog pucnjave u travnju. Trump, čija se administra",
       "link": "https://www.jutarnji.hr/vijesti/svijet/trump-whca-vecer-sale-prozivke-politicki-sou-nakon-pucnjave-15731161",
@@ -1320,7 +1716,7 @@
       "category": "general",
       "xml_category": "svijet",
       "tags": [],
-      "image": "https://media.jutarnji.hr/images/slike/2026/07/25/f_39339528_1280.jpg?1785009092"
+      "image": "https://media.jutarnji.hr/images/slike/2026/07/25/f_39339528_1280.jpg?1785041894"
     },
     {
       "id": "index-19",
@@ -1419,7 +1815,7 @@
       "image": null
     },
     {
-      "id": "jutarnji-13",
+      "id": "jutarnji-16",
       "title": "Analitičar otkrio da Trump sprema još radikalniji potez od novih carina: ‘Udarac će biti težak‘",
       "summary": "Neposredno prije izbora 2024. godine, Donald Trump je rekao da je carina najljepša riječ u rječniku. U četvrtak ih je opet nametnuo jer su u petak istekle privremene globalne carine od 10 posto. Nove su u iznosu od 10 i 12,5 posto. “Mjere Sjedinjenih Država glede istraga u skladu s odjeljkom 301. Za",
       "link": "https://www.jutarnji.hr/vijesti/svijet/trump-carine-10-12-5-posto-izuzeci-energenti-trzista-obveznice-inflacija-15731143",
@@ -1428,7 +1824,7 @@
       "category": "general",
       "xml_category": "svijet",
       "tags": [],
-      "image": "https://media.jutarnji.hr/images/slike/2026/07/24/f_39336120_1280.jpg?1785009092"
+      "image": "https://media.jutarnji.hr/images/slike/2026/07/24/f_39336120_1280.jpg?1785041894"
     },
     {
       "id": "n1-info-19",
@@ -1501,462 +1897,6 @@
       "xml_category": "vijesti",
       "tags": [],
       "image": null
-    },
-    {
-      "id": "al-jazeera-19",
-      "title": "Funerals held for four Palestinians killed in deadly West Bank shooting",
-      "summary": "Overnight funerals were held for four Palestinians killed near Nablus.",
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/7/25/funerals-held-for-four-palestinians-killed-in-deadly-west-bank-shooting?traffic_source=rss",
-      "published": "2026-07-25T04:29:17.000Z",
-      "source": "Al Jazeera",
-      "category": "general",
-      "xml_category": "show types",
-      "tags": [],
-      "image": null
-    },
-    {
-      "id": "al-jazeera-15",
-      "title": "‘The show must go on’: Trump returns to rescheduled White House press gala",
-      "summary": "US president makes jokes, mocks opponents at correspondents&#039; dinner that was halted by a shooting in April.",
-      "link": "https://www.aljazeera.com/news/2026/7/25/the-show-must-go-on-trump-returns-to-rescheduled-white-house-press-gala?traffic_source=rss",
-      "published": "2026-07-25T02:59:04.000Z",
-      "source": "Al Jazeera",
-      "category": "general",
-      "xml_category": "news",
-      "tags": [],
-      "image": null
-    },
-    {
-      "id": "bbc-0",
-      "title": "More than 220,000 evacuated in France and Spain due to wildfires",
-      "summary": "French firefighters battle a blaze heading towards Bordeaux while officials in Madrid say they face the \"worst fire in the history of the region\".",
-      "link": "https://www.bbc.co.uk/news/articles/czjlenp0xk8o?at_medium=RSS&at_campaign=rss",
-      "published": "2026-07-25T02:29:36.000Z",
-      "source": "BBC",
-      "category": "ai",
-      "xml_category": "",
-      "tags": [],
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/638c/live/3592d2f0-87ae-11f1-9e55-1d545cca1941.jpg"
-    },
-    {
-      "id": "al-jazeera-16",
-      "title": "Firefighters battle fire after fertiliser explosion in England",
-      "summary": "A fertiliser explosion at a farm in Essex triggered a major incident.",
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/7/25/firefighters-battle-fire-after-fertiliser-explosion-in-england?traffic_source=rss",
-      "published": "2026-07-25T02:29:13.000Z",
-      "source": "Al Jazeera",
-      "category": "general",
-      "xml_category": "show types",
-      "tags": [],
-      "image": null
-    },
-    {
-      "id": "al-jazeera-17",
-      "title": "From palava huts to TikTok: How Liberians are preserving their past",
-      "summary": "From podcasts to TikTok, young Liberians are using digital platforms to keep history alive and challenge old narratives.",
-      "link": "https://www.aljazeera.com/news/2026/7/25/from-palava-huts-to-tiktok-how-liberians-are-preserving-their-past?traffic_source=rss",
-      "published": "2026-07-25T02:24:49.000Z",
-      "source": "Al Jazeera",
-      "category": "general",
-      "xml_category": "news",
-      "tags": [],
-      "image": null
-    },
-    {
-      "id": "bbc-10",
-      "title": "Trump orders Smithsonian to post warnings about 'inaccurate' US history",
-      "summary": "The Trump administration has often accused the world's largest research museum of harbouring an anti-American bias.",
-      "link": "https://www.bbc.co.uk/news/articles/c1w10gwnj74o?at_medium=RSS&at_campaign=rss",
-      "published": "2026-07-25T02:23:09.000Z",
-      "source": "BBC",
-      "category": "general",
-      "xml_category": "",
-      "tags": [],
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2ada/live/69a18890-87cf-11f1-b948-61d0d1524256.jpg"
-    },
-    {
-      "id": "bbc-8",
-      "title": "Texts reveal 14-year-old allegedly murdered by singer D4vd had pregnancy and abortion",
-      "summary": "Prosecutors allege D4vd started abusing the girl when she was 13 and she had threatened to expose him.",
-      "link": "https://www.bbc.co.uk/news/articles/cr592qdj1ldo?at_medium=RSS&at_campaign=rss",
-      "published": "2026-07-25T02:14:50.000Z",
-      "source": "BBC",
-      "category": "general",
-      "xml_category": "",
-      "tags": [],
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5f8b/live/a675bbc0-87b5-11f1-88ae-859397b768ed.jpg"
-    },
-    {
-      "id": "al-jazeera-18",
-      "title": "Sons of immigrant killed by ICE in Texas share grief, demand accountability",
-      "summary": "Lorenzo Salgado Araujo&#039;s sons tell lawmakers their father worked hard &#039;to protect and provide&#039; for his family.",
-      "link": "https://www.aljazeera.com/news/2026/7/25/sons-of-immigrant-killed-by-ice-in-texas-share-grief-demand-accountability?traffic_source=rss",
-      "published": "2026-07-25T01:30:20.000Z",
-      "source": "Al Jazeera",
-      "category": "general",
-      "xml_category": "news",
-      "tags": [],
-      "image": null
-    },
-    {
-      "id": "al-jazeera-19",
-      "title": "Trump threatens EU will pay ‘big price’ after Brussels fines Google $1bn",
-      "summary": "EU accuses US tech giant of favouring its own services in search results, as Trump lashes out against bloc.",
-      "link": "https://www.aljazeera.com/news/2026/7/25/trump-threatens-eu-will-pay-big-price-after-brussels-fines-google-1bn?traffic_source=rss",
-      "published": "2026-07-25T01:09:01.000Z",
-      "source": "Al Jazeera",
-      "category": "general",
-      "xml_category": "news",
-      "tags": [],
-      "image": null
-    },
-    {
-      "id": "al-jazeera-17",
-      "title": "GLP-1s are changing US healthcare, should everyone be on them?",
-      "summary": "GLP-1 drugs, originally developed to treat diabetes and now widely used for obesity, are reshaping healthcare in the US.",
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/7/25/glp-1s-are-changing-us-healthcare-should-everyone-be-on-them?traffic_source=rss",
-      "published": "2026-07-25T00:40:02.000Z",
-      "source": "Al Jazeera",
-      "category": "health",
-      "xml_category": "tv news",
-      "tags": [],
-      "image": null
-    },
-    {
-      "id": "al-jazeera-18",
-      "title": "Saudi-led coalition strikes Houthi-controlled Hodeidah",
-      "summary": "The Saudi-led coalition strikes targeted Houthi-controlled Hodeidah governorate.",
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/7/25/saudi-led-coalition-strikes-houthi-controlled-hodeidah?traffic_source=rss",
-      "published": "2026-07-25T00:31:16.000Z",
-      "source": "Al Jazeera",
-      "category": "general",
-      "xml_category": "show types",
-      "tags": [],
-      "image": null
-    },
-    {
-      "id": "al-jazeera-19",
-      "title": "UN rights chief Turk wins second term despite US and Israeli opposition",
-      "summary": "Austrian lawyer Volker Turk set to become first UN rights chief to complete two four-year terms since post was created.",
-      "link": "https://www.aljazeera.com/news/2026/7/25/un-rights-chief-turk-wins-second-term-despite-us-and-israeli-opposition?traffic_source=rss",
-      "published": "2026-07-25T00:16:32.000Z",
-      "source": "Al Jazeera",
-      "category": "general",
-      "xml_category": "news",
-      "tags": [],
-      "image": null
-    },
-    {
-      "id": "bbc-4",
-      "title": "Ten killed in Russian attack on drone exhibition near Kyiv",
-      "summary": "The event, attended by prominent members of the Ukrainian defence industry, was hit by ballistic missiles in the middle of the day.",
-      "link": "https://www.bbc.co.uk/news/articles/cj637zd1k1ko?at_medium=RSS&at_campaign=rss",
-      "published": "2026-07-25T00:06:53.000Z",
-      "source": "BBC",
-      "category": "general",
-      "xml_category": "",
-      "tags": [],
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/065e/live/19c07e70-875d-11f1-95ec-a30de4e448c4.jpg"
-    },
-    {
-      "id": "al-jazeera-19",
-      "title": "Iran war live: Trump says US ‘locked and loaded’ as it seeks Iran talks",
-      "summary": "US President Donald Trump says Washington remains ‘locked and loaded’ while pursuing diplomatic talks with Iran.",
-      "link": "https://www.aljazeera.com/news/liveblog/2026/7/25/iran-war-live-trump-says-us-locked-and-loaded-as-it-seeks-iran-talks?traffic_source=rss",
-      "published": "2026-07-25T00:00:00.000Z",
-      "source": "Al Jazeera",
-      "category": "general",
-      "xml_category": "news",
-      "tags": [],
-      "image": null
-    },
-    {
-      "id": "al-jazeera-19",
-      "title": "Trump says ‘it’s time’ for Saudi Arabia to normalise ties with Israel",
-      "summary": "US president reiterates that the nuclear deal with the kingdom is conditioned on Riyadh joining the &#039;Abraham Accords&#039;.",
-      "link": "https://www.aljazeera.com/news/2026/7/24/trump-says-its-time-for-saudi-arabia-to-normalise-ties-with-israel?traffic_source=rss",
-      "published": "2026-07-24T23:53:32.000Z",
-      "source": "Al Jazeera",
-      "category": "general",
-      "xml_category": "news",
-      "tags": [],
-      "image": null
-    },
-    {
-      "id": "al-jazeera-19",
-      "title": "Premier League, La Liga, Champions League? How to fill World Cup void",
-      "summary": "Al Jazeera&#039;s guide to filling the football void with the Champions League, Premier League, La Liga, UEFA Super Cup and more.",
-      "link": "https://www.aljazeera.com/sports/2026/7/24/what-do-football-fans-have-in-store-to-beat-post-world-cup-blues?traffic_source=rss",
-      "published": "2026-07-24T23:25:15.000Z",
-      "source": "Al Jazeera",
-      "category": "general",
-      "xml_category": "sport",
-      "tags": [],
-      "image": null
-    },
-    {
-      "id": "al-jazeera-19",
-      "title": "IOC rejects human rights group’s complaint against Trump ally Infantino",
-      "summary": "IOC says the complaint against its member and FIFA chief Infantino fell outside its ethics committee’s jurisdiction.",
-      "link": "https://www.aljazeera.com/sports/2026/7/24/ioc-rejects-human-rights-groups-complaint-against-trump-ally-infantino?traffic_source=rss",
-      "published": "2026-07-24T23:24:26.000Z",
-      "source": "Al Jazeera",
-      "category": "ai",
-      "xml_category": "sport",
-      "tags": [],
-      "image": null
-    },
-    {
-      "id": "bbc-18",
-      "title": "The pop band who went from playing for rescue dogs to selling out arenas",
-      "summary": "The group discuss disastrous gigs, putting political action into music and the meaning of \"queer pop\".",
-      "link": "https://www.bbc.co.uk/news/articles/ce85j65r4l2o?at_medium=RSS&at_campaign=rss",
-      "published": "2026-07-24T23:01:10.000Z",
-      "source": "BBC",
-      "category": "general",
-      "xml_category": "",
-      "tags": [],
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/413b/live/d2c64430-876d-11f1-b430-afa19a42b819.jpg"
-    },
-    {
-      "id": "bbc-5",
-      "title": "Zelensky tries to fix crisis over removal of defence minister and counts the cost",
-      "summary": "Protests have continued over Zelensky's decision to dismiss Mykhailo Fedorov, and some commentators believe he has been damaged politically.",
-      "link": "https://www.bbc.co.uk/news/articles/c1d1gz3n99ro?at_medium=RSS&at_campaign=rss",
-      "published": "2026-07-24T23:01:06.000Z",
-      "source": "BBC",
-      "category": "general",
-      "xml_category": "",
-      "tags": [],
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/90d1/live/f0b4a0e0-877c-11f1-845d-49d72435354a.jpg"
-    },
-    {
-      "id": "bbc-6",
-      "title": "Four Palestinians and two Israelis killed in West Bank shooting",
-      "summary": "Palestinians say villagers came under attack by settlers, while the Israeli military says a Palestinian stole a weapon and opened fire on hikers.",
-      "link": "https://www.bbc.co.uk/news/articles/cx2rxmye4k3o?at_medium=RSS&at_campaign=rss",
-      "published": "2026-07-24T22:49:59.000Z",
-      "source": "BBC",
-      "category": "general",
-      "xml_category": "",
-      "tags": [],
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c838/live/07344060-8759-11f1-a0f1-fd76e1e0297b.jpg"
-    },
-    {
-      "id": "al-jazeera-17",
-      "title": "China, Philippine coastguard vessels clash in South China Sea",
-      "summary": "China, Philippine coastguard vessels clash in South China Sea.",
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/7/24/china-philippine-coastguard-vessels-clash-in-south-china-sea?traffic_source=rss",
-      "published": "2026-07-24T21:29:10.000Z",
-      "source": "Al Jazeera",
-      "category": "general",
-      "xml_category": "show types",
-      "tags": [],
-      "image": null
-    },
-    {
-      "id": "al-jazeera-18",
-      "title": "Paramount agrees to pause Warner Bros deal while court case plays out",
-      "summary": "The delay, filed in court on Friday, can cost Paramount $1.7bn in fees if the deal is not closed by next June.",
-      "link": "https://www.aljazeera.com/economy/2026/7/24/paramount-agrees-to-pause-warner-bros-deal-while-court-case-plays-out?traffic_source=rss",
-      "published": "2026-07-24T21:27:45.000Z",
-      "source": "Al Jazeera",
-      "category": "general",
-      "xml_category": "news",
-      "tags": [],
-      "image": null
-    },
-    {
-      "id": "index-19",
-      "title": "VIDEO Požari izvan kontrole u Francuskoj i Španjolskoj. Evakuirano 135.000 ljudi",
-      "summary": "VELIKI šumski požari u Francuskoj i Španjolskoj prisilili su na evakuaciju 135.000 ljudi. Vatrogasci se bore s vatrom neviđenih razmjera, a vlasti situaciju opisuju kao katastrofalnu.",
-      "link": "https://www.index.hr/vijesti/clanak/video-pozari-izvan-kontrole-u-francuskoj-i-spanjolskoj-evakuirano-135000-ljudi/2817390.aspx",
-      "published": "2026-07-24T21:25:00.000Z",
-      "source": "Index",
-      "category": "general",
-      "xml_category": "vijesti",
-      "tags": [],
-      "image": null
-    },
-    {
-      "id": "al-jazeera-19",
-      "title": "Iran’s Abbas Araghchi vows ‘we fear no one’",
-      "summary": "Iranian Foreign Minister Abbas Araghchi said Iran does not fear threats or &#039;succumb to pressures&#039;.",
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/7/24/irans-abbas-araghchi-vows-we-fear-no-one?traffic_source=rss",
-      "published": "2026-07-24T21:24:38.000Z",
-      "source": "Al Jazeera",
-      "category": "general",
-      "xml_category": "show types",
-      "tags": [],
-      "image": null
-    },
-    {
-      "id": "al-jazeera-19",
-      "title": "Fury dominates Wach in Thailand boxing bout ahead of Joshua showdown",
-      "summary": "Tyson Fury forced his Polish opponent, Mariusz Wach, to retire in the fight at a Muay Thai stadium in Pattaya, Thailand.",
-      "link": "https://www.aljazeera.com/sports/2026/7/24/fury-dominates-wach-in-thailand-boxing-bout-ahead-of-joshua-showdown?traffic_source=rss",
-      "published": "2026-07-24T21:19:49.000Z",
-      "source": "Al Jazeera",
-      "category": "ai",
-      "xml_category": "sport",
-      "tags": [],
-      "image": null
-    },
-    {
-      "id": "jutarnji-14",
-      "title": "VIDEO Žena iz auta izvrijeđala Nigela Faragea. Dvije sekunde kasnije jako je požalila",
-      "summary": "Žena koja je kroz prozor automobila vikala na britanskog političara Nigela Faragea doživjela je prometnu nesreću samo nekoliko trenutaka kasnije, nakon što se nije na vrijeme zaustavila te udarila u kolonu vozila koja je stajala na crvenom svjetlu. Farage je na društvenim mrežama objavio snimku na k",
-      "link": "https://www.jutarnji.hr/vijesti/svijet/video-zena-iz-auta-izvrijedala-nigela-faragea-dvije-sekunde-kasnije-jako-je-pozalila-15731119",
-      "published": "2026-07-24T21:10:00.000Z",
-      "source": "Jutarnji",
-      "category": "general",
-      "xml_category": "svijet",
-      "tags": [],
-      "image": "https://media.jutarnji.hr/images/slike/2026/07/23/f_39333219_1280.gif?1785009092"
-    },
-    {
-      "id": "index-16",
-      "title": "Zelenski: Rusija priprema novi masovni napad unutar 48 sati",
-      "summary": "PREDSJEDNIK Zelenski upozorava na novi masovni ruski raketni napad unutar 48 sati i novu mobilizaciju za jesen. Nakon nedavnog napada na Kijevsku oblast, ponovno je zatražio sustave Patriot.",
-      "link": "https://www.index.hr/vijesti/clanak/zelenski-rusija-priprema-novi-masovni-napad-unutar-48-sati/2817389.aspx",
-      "published": "2026-07-24T21:03:00.000Z",
-      "source": "Index",
-      "category": "general",
-      "xml_category": "vijesti",
-      "tags": [],
-      "image": null
-    },
-    {
-      "id": "bbc-7",
-      "title": "ICC top prosecutor removed over sexual misconduct allegations",
-      "summary": "Karim Khan denies allegations of engaging in an improper sexual relationship with a junior ICC staff member and seeking to stop her pursuing her complaint.",
-      "link": "https://www.bbc.co.uk/news/articles/cqjxddx12qqo?at_medium=RSS&at_campaign=rss",
-      "published": "2026-07-24T21:02:30.000Z",
-      "source": "BBC",
-      "category": "general",
-      "xml_category": "",
-      "tags": [],
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/efb3/live/29a66180-63bb-11f1-8e1d-bbbb1017d210.jpg"
-    },
-    {
-      "id": "al-jazeera-17",
-      "title": "Spanish police accuse tractor driver of sparking wildfire as blazes spread",
-      "summary": "The number of people forced to flee the heatwave-induced fires in Spain and France has now passed the 100,000 mark.",
-      "link": "https://www.aljazeera.com/news/2026/7/24/spanish-police-accuse-tractor-driver-of-sparking-wildfire-as-blazes-spread?traffic_source=rss",
-      "published": "2026-07-24T20:51:52.000Z",
-      "source": "Al Jazeera",
-      "category": "general",
-      "xml_category": "news",
-      "tags": [],
-      "image": null
-    },
-    {
-      "id": "al-jazeera-18",
-      "title": "UNESCO places occupied West Bank, Lebanon sites on endangered heritage list",
-      "summary": "Sebastia in the occupied West Bank and five Lebanese castles get emergency listing despite Israeli objections.",
-      "link": "https://www.aljazeera.com/news/2026/7/24/unesco-places-occupied-west-bank-lebanon-sites-on-endangered-heritage-list?traffic_source=rss",
-      "published": "2026-07-24T20:51:13.000Z",
-      "source": "Al Jazeera",
-      "category": "general",
-      "xml_category": "news",
-      "tags": [],
-      "image": null
-    },
-    {
-      "id": "index-17",
-      "title": "SAD pred odlukom o masovnom napadu na Iran",
-      "summary": "AMERIČKI predsjednik Trump sa savjetnicima razmatra proširenje vojnih operacija protiv Irana nakon propasti primirja i novih iranskih napada u kojima su poginuli američki vojnici.",
-      "link": "https://www.index.hr/vijesti/clanak/sad-pred-odlukom-o-masovnom-napadu-na-iran/2817387.aspx",
-      "published": "2026-07-24T20:51:00.000Z",
-      "source": "Index",
-      "category": "general",
-      "xml_category": "vijesti",
-      "tags": [],
-      "image": null
-    },
-    {
-      "id": "al-jazeera-19",
-      "title": "US small businesses challenge Trump’s new forced labour tariffs",
-      "summary": "In lawsuit on Friday, two small businesses said latest round of tariffs on 60 countries needs to be legally justified.",
-      "link": "https://www.aljazeera.com/economy/2026/7/24/us-small-businesses-challenge-trumps-new-forced-labor-tariffs?traffic_source=rss",
-      "published": "2026-07-24T20:49:17.000Z",
-      "source": "Al Jazeera",
-      "category": "general",
-      "xml_category": "news",
-      "tags": [],
-      "image": null
-    },
-    {
-      "id": "bbc-14",
-      "title": "PlayStation Network outage resolved after thousands of gamers unable to play",
-      "summary": "The outage affected gamers' ability to launch games, apps or network features on their PlayStation.",
-      "link": "https://www.bbc.co.uk/news/articles/cx2j0wy1gl5o?at_medium=RSS&at_campaign=rss",
-      "published": "2026-07-24T20:37:21.000Z",
-      "source": "BBC",
-      "category": "general",
-      "xml_category": "",
-      "tags": [],
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e7bf/live/312e9270-8782-11f1-9428-e17279226993.jpg"
-    },
-    {
-      "id": "n1-info-19",
-      "title": "Smijenjen glavni tužitelj Međunarodnog kaznenog suda",
-      "summary": "Države članice Međunarodnog kaznenog suda (ICC) izglasale su smjenu glavnog tužitelja Karima Khana nakon što je neovisna istraga zaključila da je poči",
-      "link": "https://n1info.hr/svijet/smijenjen-glavni-tuzitelj-medjunarodnog-kaznenog-suda/",
-      "published": "2026-07-24T20:34:22.000Z",
-      "source": "N1 Info",
-      "category": "general",
-      "xml_category": "svijet",
-      "tags": [],
-      "image": "https://n1info.hr/media/images/2026/7/24/1784925075_AP26204346186194.width-1200.jpg"
-    },
-    {
-      "id": "bbc-9",
-      "title": "Trump vows to investigate EU over fining of US tech companies",
-      "summary": "The US president says fines against Google, as well as Apple, Meta and Amazon, should be \"entirely reversed.\"",
-      "link": "https://www.bbc.co.uk/news/articles/cvgjenp4680o?at_medium=RSS&at_campaign=rss",
-      "published": "2026-07-24T20:23:58.000Z",
-      "source": "BBC",
-      "category": "tech",
-      "xml_category": "",
-      "tags": [],
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/92c8/live/180ebdb0-8787-11f1-9428-e17279226993.jpg"
-    },
-    {
-      "id": "jutarnji-15",
-      "title": "VIDEO Drama nadomak Madrida: ‘Situacija je katastrofalna‘",
-      "summary": "Požare koji bjesne zapadno od Madrida vatrogasci više ne mogu staviti pod kontrolu. Regionalni čelnik službi za upravljanje izvanrednim situacijama Carlos Novillo izjavio je da je požar \"izvan kapaciteta vatrogasaca da ga ugase\" te da se širi prema općinama Robledo de Chavela i Fresnedillas de la Ol",
-      "link": "https://www.jutarnji.hr/vijesti/svijet/pozari-zapadno-od-madrida-izvan-kontrole-evakuacije-dim-robledo-fresnedillas-15731110",
-      "published": "2026-07-24T20:21:00.000Z",
-      "source": "Jutarnji",
-      "category": "general",
-      "xml_category": "svijet",
-      "tags": [],
-      "image": "https://media.jutarnji.hr/images/slike/2026/07/24/f_39338411_1280.gif?1785009092"
-    },
-    {
-      "id": "index-18",
-      "title": "Trump će uvesti carine Kanadi zbog dima od šumskih požara",
-      "summary": "AMERIČKI predsjednik Trump najavio je uvođenje carina Kanadi kao odgovor na dim od šumskih požara koji je proteklih tjedana zagadio zrak na sjeveroistoku SAD-a, uključujući i Washington.",
-      "link": "https://www.index.hr/vijesti/clanak/trump-ce-uvesti-carine-kanadi-zbog-dima-od-sumskih-pozara/2817378.aspx",
-      "published": "2026-07-24T20:13:00.000Z",
-      "source": "Index",
-      "category": "general",
-      "xml_category": "vijesti",
-      "tags": [],
-      "image": null
-    },
-    {
-      "id": "n1-info-15",
-      "title": "FOTO / Kaos u Slavonskom Brodu. Gužve s granice preselile i u grad: \"To još nikad nisam vidjela\"",
-      "summary": "Večeras su u Slavonskom Brodu velike gužve, koje su se s granice prelile i u sam grad. Čitateljica nam je poslala fotografije iz grada, iz kojih se mo",
-      "link": "https://n1info.hr/svijet/foto-kaos-u-slavonskom-brodu-guzve-s-granice-preselile-i-u-grad-to-jos-nikad-nisam-vidjela/",
-      "published": "2026-07-24T20:11:46.000Z",
-      "source": "N1 Info",
-      "category": "general",
-      "xml_category": "svijet",
-      "tags": [],
-      "image": "https://n1info.hr/media/images/2026/7/24/1784923449_WhatsApp_Image_2026-07-24_at_21.45.25.width-1200.jpeg"
     }
   ]
 }
