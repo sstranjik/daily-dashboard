@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-26T07:32:23.312Z",
+  "generated_at": "2026-07-26T08:01:12.204Z",
   "stats": {
     "muzika.hr": {
       "ok": true,
@@ -13,21 +13,17 @@
       "ok": true,
       "count": 0
     },
-    "Tvornica": {
-      "ok": true,
-      "count": 3
-    },
     "Mochvara": {
       "ok": true,
       "count": 14
     },
-    "Komedija": {
+    "Tvornica": {
       "ok": true,
-      "count": 0
+      "count": 3
     },
-    "Pogon": {
-      "ok": true,
-      "count": 0
+    "Komedija": {
+      "ok": false,
+      "error": "HTTP 500"
     },
     "ZeKaeM": {
       "ok": true,
@@ -36,6 +32,10 @@
     "HNK Zagreb": {
       "ok": true,
       "count": 65
+    },
+    "Pogon": {
+      "ok": true,
+      "count": 0
     },
     "Kerempuh": {
       "ok": true,
