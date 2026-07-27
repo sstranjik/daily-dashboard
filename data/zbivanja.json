@@ -1,17 +1,9 @@
 {
-  "generated_at": "2026-07-27T09:23:19.875Z",
+  "generated_at": "2026-07-27T10:01:19.590Z",
   "stats": {
-    "muzika.hr": {
-      "ok": true,
-      "count": 25
-    },
     "Mochvara": {
       "ok": true,
       "count": 14
-    },
-    "Lisinski": {
-      "ok": true,
-      "count": 0
     },
     "Tvornica": {
       "ok": true,
@@ -21,13 +13,21 @@
       "ok": true,
       "count": 0
     },
-    "ZeKaeM": {
+    "Lisinski": {
       "ok": true,
       "count": 0
+    },
+    "muzika.hr": {
+      "ok": true,
+      "count": 25
     },
     "Komedija": {
       "ok": false,
       "error": "HTTP 500"
+    },
+    "ZeKaeM": {
+      "ok": true,
+      "count": 0
     },
     "HNK Zagreb": {
       "ok": true,
@@ -601,6 +601,21 @@
       "source": "muzika.hr",
       "is_new": false,
       "first_seen": "2026-07-13T05:01:40.348Z"
+    },
+    {
+      "id": "84542ece14",
+      "title": "Močvarni birc: Yé-yé, na francuskom je",
+      "venue": "Mochvara",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-07-28T17:00:00",
+      "date_display": "uto, 28. 07. 2026.",
+      "time": "17:00",
+      "link": "https://mochvara.hr/event-detail/6a67239e20044b8c4eaaeae1/?lang=hr",
+      "source": "Mochvara",
+      "is_new": true,
+      "first_seen": "2026-07-27T10:01:19.590Z"
     },
     {
       "id": "5d071c0449",
@@ -2647,5 +2662,5 @@
       "first_seen": "2026-07-25T14:25:25.260Z"
     }
   ],
-  "new_count": 5
+  "new_count": 6
 }
