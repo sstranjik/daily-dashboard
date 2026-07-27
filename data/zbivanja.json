@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-07-27T08:25:12.272Z",
+  "generated_at": "2026-07-27T09:01:14.164Z",
   "stats": {
-    "muzika.hr": {
+    "Lisinski": {
       "ok": true,
-      "count": 25
+      "count": 0
     },
     "Mochvara": {
       "ok": true,
       "count": 14
     },
-    "Lisinski": {
+    "Gavella": {
       "ok": true,
       "count": 0
     },
@@ -17,9 +17,9 @@
       "ok": true,
       "count": 3
     },
-    "Gavella": {
+    "muzika.hr": {
       "ok": true,
-      "count": 0
+      "count": 25
     },
     "ZeKaeM": {
       "ok": true,
@@ -541,6 +541,21 @@
       "source": "muzika.hr",
       "is_new": false,
       "first_seen": "2026-07-11T05:01:34.506Z"
+    },
+    {
+      "id": "477352ce98",
+      "title": "Močvarni birc: Arctic Monkeys i drugi majmuni",
+      "venue": "Mochvara",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-07-27T17:00:00",
+      "date_display": "pon, 27. 07. 2026.",
+      "time": "17:00",
+      "link": "https://mochvara.hr/event-detail/6a671698d43dbd5122b395d5/?lang=hr",
+      "source": "Mochvara",
+      "is_new": true,
+      "first_seen": "2026-07-27T09:01:14.164Z"
     },
     {
       "id": "36f9825843",
@@ -2632,5 +2647,5 @@
       "first_seen": "2026-07-25T14:25:25.260Z"
     }
   ],
-  "new_count": 5
+  "new_count": 6
 }
