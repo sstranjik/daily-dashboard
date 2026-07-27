@@ -1,15 +1,15 @@
 {
   "version": 2,
-  "date": "2026-07-26",
-  "generated_at": "2026-07-26T07:34:21.914Z",
-  "date_hr": "Nedjelja, 26. srpnja 2026.",
+  "date": "2026-07-27",
+  "generated_at": "2026-07-27T05:03:45.276Z",
+  "date_hr": "Ponedjeljak, 27. srpnja 2026.",
   "weather": {
     "icon": "☁️",
-    "summary": "19–29°C, oblačno",
+    "summary": "20–32°C, oblačno",
     "alerts": []
   },
   "fuel": {
-    "current_date": "26.07.2026",
+    "current_date": "27.07.2026",
     "eurodiesel": [
       {
         "company": "Adria Oil",
@@ -63,31 +63,41 @@
     "upcoming_premium": null
   },
   "market": {
-    "updated_at": "2026-07-26T07:34:21.914Z",
-    "btc_usd": 64317,
-    "btc_eur": 56547,
-    "btc_change_24h": 0.56,
-    "usd_eur": 0.8788
+    "updated_at": "2026-07-27T05:03:45.276Z",
+    "btc_usd": 65253,
+    "btc_eur": 57221,
+    "btc_change_24h": 1.25,
+    "usd_eur": 0.878
   },
   "ai_news": [
     {
-      "title": "OpenAI hit by another outage as ChatGPT, Codex, and APIs stumble together",
-      "link": "https://thenextweb.com/news/openai-outage-chatgpt-codex-api-july-2026",
+      "title": "Anthropic’s Claude Cowork could escape its local VM and read credentials on a Mac",
+      "link": "https://thenextweb.com/news/claude-cowork-sandbox-escape-mac-files-sharedroot",
       "source": "The Next Web"
     },
     {
-      "title": "Je li OpenAI prekršio zakon sa svojim \"pobjeglim\" AI-jem?",
-      "link": "https://www.bug.hr/komentar/je-li-openai-prekrsio-zakon-sa-svojim-pobjeglim-ai-jem-61664",
+      "title": "Hugging Face CEO calls for ‘radical transparency’ after ‘unprecedented’ OpenAI hack",
+      "link": "https://techcrunch.com/2026/07/26/hugging-face-ceo-calls-for-radical-transparency-after-unprecedented-openai-hack/",
+      "source": "TechCrunch AI"
+    },
+    {
+      "title": "Chatbot kao visokofunkcionalni psihopat",
+      "link": "https://www.bug.hr/umjetna-inteligencija/chatbot-kao-visokofunkcionalni-psihopat-61655",
       "source": "Bug.hr"
+    },
+    {
+      "title": "What OpenAI will show the White House this week",
+      "link": "https://thenextweb.com/news/altman-white-house-openai-model-preview-agents",
+      "source": "The Next Web"
     }
   ],
   "micro_tips": {
     "vscode": {
-      "tip": "Otvori datoteku brzim pretraživanjem",
-      "keys": "Ctrl+P"
+      "tip": "Toggle Word Wrap za dugačke linije",
+      "keys": "Alt+Z"
     },
-    "sql": "NOT EXISTS brži od NOT IN kad subquery može vratiti NULL vrijednost",
-    "oracle": "DBMS_STATS.GATHER_TABLE_STATS osvježava statistike za točniji execution plan",
-    "regex": "(?i) inline flag za case-insensitive bez mijenjanja ostatka patternahe"
+    "sql": "Parametrizirani upiti = plan cache reuse + SQL injection zaštita istovremeno",
+    "oracle": "NVL2(expr, kad_nije_null, kad_je_null) kompaktnija od dvostrukog NVL-a",
+    "regex": "\\s+ pokriva space, tab i newline; \\S je negacija (svaki ne-whitespace)"
   }
 }
