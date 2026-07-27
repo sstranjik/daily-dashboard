@@ -1,6 +1,18 @@
 {
-  "generated_at": "2026-07-27T10:01:19.590Z",
+  "generated_at": "2026-07-27T11:01:12.457Z",
   "stats": {
+    "muzika.hr": {
+      "ok": true,
+      "count": 25
+    },
+    "Lisinski": {
+      "ok": true,
+      "count": 0
+    },
+    "Gavella": {
+      "ok": true,
+      "count": 0
+    },
     "Mochvara": {
       "ok": true,
       "count": 14
@@ -9,21 +21,13 @@
       "ok": true,
       "count": 3
     },
-    "Gavella": {
-      "ok": true,
-      "count": 0
-    },
-    "Lisinski": {
-      "ok": true,
-      "count": 0
-    },
-    "muzika.hr": {
-      "ok": true,
-      "count": 25
-    },
     "Komedija": {
-      "ok": false,
-      "error": "HTTP 500"
+      "ok": true,
+      "count": 0
+    },
+    "Pogon": {
+      "ok": true,
+      "count": 0
     },
     "ZeKaeM": {
       "ok": true,
@@ -32,10 +36,6 @@
     "HNK Zagreb": {
       "ok": true,
       "count": 65
-    },
-    "Pogon": {
-      "ok": true,
-      "count": 0
     },
     "Kerempuh": {
       "ok": true,
@@ -614,7 +614,7 @@
       "time": "17:00",
       "link": "https://mochvara.hr/event-detail/6a67239e20044b8c4eaaeae1/?lang=hr",
       "source": "Mochvara",
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-07-27T10:01:19.590Z"
     },
     {
@@ -631,6 +631,36 @@
       "source": "muzika.hr",
       "is_new": false,
       "first_seen": "2026-07-15T05:01:38.837Z"
+    },
+    {
+      "id": "1aca610f4d",
+      "title": "Močvarni birc: Tony Hawk radio",
+      "venue": "Mochvara",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-07-29T17:00:00",
+      "date_display": "sri, 29. 07. 2026.",
+      "time": "17:00",
+      "link": "https://mochvara.hr/event-detail/6a672aba20044b8c4eb2ec35/?lang=hr",
+      "source": "Mochvara",
+      "is_new": true,
+      "first_seen": "2026-07-27T11:01:12.457Z"
+    },
+    {
+      "id": "f88dfa3315",
+      "title": "Močvarni birc: Tame Impala vajb",
+      "venue": "Mochvara",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-07-30T17:00:00",
+      "date_display": "čet, 30. 07. 2026.",
+      "time": "17:00",
+      "link": "https://mochvara.hr/event-detail/6a672e2120044b8c4eb6cf75/?lang=hr",
+      "source": "Mochvara",
+      "is_new": true,
+      "first_seen": "2026-07-27T11:01:12.457Z"
     },
     {
       "id": "0184697900",
@@ -706,6 +736,21 @@
       "source": "muzika.hr",
       "is_new": false,
       "first_seen": "2026-07-15T21:00:43.042Z"
+    },
+    {
+      "id": "b1b451be6b",
+      "title": "Močvarni birc: Trip-hop & downbeat",
+      "venue": "Mochvara",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-08-01T17:00:00",
+      "date_display": "sub, 01. 08. 2026.",
+      "time": "17:00",
+      "link": "https://mochvara.hr/event-detail/6a672fe620044b8c4eb91455/?lang=hr",
+      "source": "Mochvara",
+      "is_new": true,
+      "first_seen": "2026-07-27T11:01:12.457Z"
     },
     {
       "id": "491bb590d1",
@@ -2662,5 +2707,5 @@
       "first_seen": "2026-07-25T14:25:25.260Z"
     }
   ],
-  "new_count": 6
+  "new_count": 8
 }
