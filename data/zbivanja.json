@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-07-26T20:02:21.897Z",
+  "generated_at": "2026-07-27T05:01:13.235Z",
   "stats": {
     "muzika.hr": {
       "ok": true,
       "count": 25
     },
-    "Mochvara": {
-      "ok": true,
-      "count": 14
-    },
     "Lisinski": {
       "ok": true,
       "count": 0
+    },
+    "Mochvara": {
+      "ok": true,
+      "count": 14
     },
     "Gavella": {
       "ok": true,
@@ -26,8 +26,12 @@
       "count": 0
     },
     "Komedija": {
-      "ok": false,
-      "error": "HTTP 500"
+      "ok": true,
+      "count": 0
+    },
+    "HNK Zagreb": {
+      "ok": true,
+      "count": 65
     },
     "Kerempuh": {
       "ok": true,
@@ -37,31 +41,12 @@
       "ok": true,
       "count": 0
     },
-    "HNK Zagreb": {
-      "ok": true,
-      "count": 65
-    },
     "Trešnja": {
       "ok": true,
       "count": 0
     }
   },
   "concerts": [
-    {
-      "id": "5989fc2818",
-      "title": "Dirty Dancing – 80’s smash hit party",
-      "venue": "Mochvara",
-      "city": "Zagreb",
-      "country": "HR",
-      "category": "concert",
-      "date_iso": "2026-07-11T22:00:00",
-      "date_display": "sub, 11. 07. 2026.",
-      "time": "22:00",
-      "link": "https://mochvara.hr/event-detail/6a3e6a17d918ded2b6497593/?lang=hr",
-      "source": "Mochvara",
-      "is_new": false,
-      "first_seen": "2026-07-06T05:01:37.668Z"
-    },
     {
       "id": "a6da93a579",
       "title": "Ljetni JeboTon Jam Session na Močvarnoj terasi!",
