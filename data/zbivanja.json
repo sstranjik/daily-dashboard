@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-07-27T20:59:36.200Z",
+  "generated_at": "2026-07-28T05:01:16.942Z",
   "stats": {
     "muzika.hr": {
       "ok": true,
       "count": 25
     },
-    "Lisinski": {
+    "Gavella": {
       "ok": true,
       "count": 0
     },
-    "Gavella": {
+    "Lisinski": {
       "ok": true,
       "count": 0
     },
@@ -21,21 +21,21 @@
       "ok": true,
       "count": 3
     },
-    "ZeKaeM": {
-      "ok": true,
-      "count": 0
-    },
     "Komedija": {
       "ok": true,
       "count": 0
     },
-    "Pogon": {
+    "ZeKaeM": {
       "ok": true,
       "count": 0
     },
     "HNK Zagreb": {
       "ok": true,
       "count": 65
+    },
+    "Pogon": {
+      "ok": true,
+      "count": 0
     },
     "Kerempuh": {
       "ok": true,
@@ -738,6 +738,21 @@
       "first_seen": "2026-07-27T11:01:12.457Z"
     },
     {
+      "id": "060fb26832",
+      "title": "Močvarni birc: 90s Indie radio",
+      "venue": "Mochvara",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-08-02T17:00:00",
+      "date_display": "ned, 02. 08. 2026.",
+      "time": "17:00",
+      "link": "https://mochvara.hr/event-detail/6a67316220044b8c4eba8229/?lang=hr",
+      "source": "Mochvara",
+      "is_new": true,
+      "first_seen": "2026-07-28T05:01:16.942Z"
+    },
+    {
       "id": "491bb590d1",
       "title": "MoDem Festival",
       "venue": "MoDem Festival Slunj Slunj",
@@ -826,6 +841,21 @@
       "source": "muzika.hr",
       "is_new": false,
       "first_seen": "2026-07-22T05:01:15.066Z"
+    },
+    {
+      "id": "7425afa698",
+      "title": "Beat Na Moru",
+      "venue": "",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-08-20T00:00:00",
+      "date_display": "čet, 20. 08. 2026.",
+      "time": null,
+      "link": "https://www.muzika.hr/event/beat-na-moru/",
+      "source": "muzika.hr",
+      "is_new": true,
+      "first_seen": "2026-07-28T05:01:16.942Z"
     },
     {
       "id": "749533e021",
@@ -2422,21 +2452,6 @@
   ],
   "abroad": [
     {
-      "id": "9acbb8bf3f",
-      "title": "Kneecap",
-      "venue": "Kino Šiška Trg Prekomorskih brigad 3",
-      "city": "Ljubljana",
-      "country": "SI",
-      "category": "concert",
-      "date_iso": "2026-07-13T00:00:00",
-      "date_display": "pon, 13. 07. 2026.",
-      "time": null,
-      "link": "https://www.muzika.hr/event/kneecap/",
-      "source": "muzika.hr",
-      "is_new": false,
-      "first_seen": "2026-06-28T05:01:15.595Z"
-    },
-    {
       "id": "d4230ddd66",
       "title": "Neil Young Love Earth Tour",
       "venue": "Neil Young Love Earth Tour Italija",
@@ -2692,5 +2707,5 @@
       "first_seen": "2026-07-25T14:25:25.260Z"
     }
   ],
-  "new_count": 5
+  "new_count": 7
 }

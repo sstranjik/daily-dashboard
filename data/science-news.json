@@ -1,7 +1,259 @@
 {
-  "last_updated": "2026-07-27T20:59:31.571Z",
+  "last_updated": "2026-07-28T05:01:13.125Z",
   "source_count": 4,
   "items": [
+    {
+      "id": "nasa-0",
+      "title": "Smoke Blankets Oregon",
+      "summary": "Lightning storms have ignited dozens of fires in central and eastern Oregon.",
+      "link": "https://science.nasa.gov/earth/natural-disasters/wildfires/smoke-blankets-oregon/",
+      "published": "2026-07-28T04:01:00.000Z",
+      "source": "NASA",
+      "category": "general",
+      "xml_category": "earth observatory",
+      "tags": [],
+      "image": null
+    },
+    {
+      "id": "phys.org-0",
+      "title": "Q&A: What influences teens&#039; career expectations?",
+      "summary": "Adolescents in both the United States and the United Kingdom have become increasingly ambitious about their future careers over the past two decades, according to a new study by researchers at Penn State. The team also found that family socioeconomic background plays a different role depending on th",
+      "link": "https://phys.org/news/2026-07-qa-teens-career.html",
+      "published": "2026-07-28T03:00:03.000Z",
+      "source": "Phys.org",
+      "category": "general",
+      "xml_category": "education",
+      "tags": [],
+      "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/happy-student-with-com.jpg"
+    },
+    {
+      "id": "phys.org-1",
+      "title": "Q&A: &#039;Lawbreakers&#039; or &#039;like us&#039;? Exploring how partisans think about immigration",
+      "summary": "Interviews with political activists in Southern California showed stark differences in how migrants are viewed: either \"like us\" and deserving of rights or lawbreakers undeserving of social belonging and benefits.",
+      "link": "https://phys.org/news/2026-07-qa-lawbreakers-exploring-partisans-immigration.html",
+      "published": "2026-07-28T02:40:01.000Z",
+      "source": "Phys.org",
+      "category": "general",
+      "xml_category": "social sciences",
+      "tags": [],
+      "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/immigrants.jpg"
+    },
+    {
+      "id": "phys.org-2",
+      "title": "What are &#039;fire clouds&#039;, the ominous phenomenon seen in France?",
+      "summary": "Firefighters battling devastating fires in France have had to contend with a new threat: immense fire clouds that create their own wind and even lightning that can spark fresh blazes.",
+      "link": "https://phys.org/news/2026-07-clouds-ominous-phenomenon-france.html",
+      "published": "2026-07-28T02:20:04.000Z",
+      "source": "Phys.org",
+      "category": "tech",
+      "xml_category": "environment",
+      "tags": [],
+      "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/firefighters-in-southw.jpg"
+    },
+    {
+      "id": "phys.org-3",
+      "title": "Extreme heat increases the risk of workplace injuries across Canada",
+      "summary": "Heat warnings have stretched across Canada this summer, from Atlantic Canada and southern British Columbia to the Prairies, central Canada and the Northwest Territories.",
+      "link": "https://phys.org/news/2026-07-extreme-workplace-injuries-canada.html",
+      "published": "2026-07-28T02:00:02.000Z",
+      "source": "Phys.org",
+      "category": "general",
+      "xml_category": "environment",
+      "tags": [],
+      "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/extreme-heat-increases.jpg"
+    },
+    {
+      "id": "phys.org-4",
+      "title": "Q&A: Training the next generation of coastal scientists",
+      "summary": "Burying underwear in soil isn&#039;t a typical science lesson. But for students on Hornby Island, it&#039;s one way they can learn how seaweed supports local ecosystems.",
+      "link": "https://phys.org/news/2026-07-qa-generation-coastal-scientists.html",
+      "published": "2026-07-28T01:40:01.000Z",
+      "source": "Phys.org",
+      "category": "ai",
+      "xml_category": "education",
+      "tags": [],
+      "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/qa-training-the-next-g.jpg"
+    },
+    {
+      "id": "phys.org-5",
+      "title": "New sensing method measures laser-cutting depth by tracking vaporization recoil",
+      "summary": "Laser dicing, a technique that uses focused laser pulses to separate individual chips from a semiconductor wafer, is increasingly favored over mechanical blade cutting because it can process delicate, low-strength materials with minimal physical stress. However, achieving proper yield requires preci",
+      "link": "https://phys.org/news/2026-07-method-laser-depth-tracking-vaporization.html",
+      "published": "2026-07-28T01:20:01.000Z",
+      "source": "Phys.org",
+      "category": "general",
+      "xml_category": "optics & photonics",
+      "tags": [],
+      "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/monitoring-laser-ablat.jpg"
+    },
+    {
+      "id": "phys.org-6",
+      "title": "Diet reveals what life was like 2,700 years ago in an Italian community: Gender inequality, social status and migration",
+      "summary": "An international study led by the Universities of Córdoba and Pisa used isotopic analysis to reconstruct the dietary traces left in human remains found in an Italian necropolis, revealing what daily life was like in that community 2,700 years ago. Despite the passage of time, certain patterns of beh",
+      "link": "https://phys.org/news/2026-07-diet-reveals-life-years-italian.html",
+      "published": "2026-07-28T01:00:02.000Z",
+      "source": "Phys.org",
+      "category": "general",
+      "xml_category": "archaeology",
+      "tags": [],
+      "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/diet-reveals-what-life.jpg"
+    },
+    {
+      "id": "phys.org-7",
+      "title": "Seawater samples may offer early clues to changing reef health",
+      "summary": "Doctors can often detect diseases in humans using minimally invasive methods, like blood or urine tests, before symptoms become severe. Now, researchers at the Woods Hole Oceanographic Institution (WHOI) are applying a similar concept to coral reefs, showing that the water surrounding reefs contains",
+      "link": "https://phys.org/news/2026-07-seawater-samples-early-clues-reef.html",
+      "published": "2026-07-28T00:40:06.000Z",
+      "source": "Phys.org",
+      "category": "health",
+      "xml_category": "ecology",
+      "tags": [],
+      "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/study-shows-seawater-m-2.jpg"
+    },
+    {
+      "id": "phys.org-8",
+      "title": "Water&#039;s local asymmetry drives proton hopping between molecules, simulations reveal",
+      "summary": "Complex simulations—the most intricate of their kind to date—carried out by an international research team led by scientists at Heidelberg University&#039;s Institute for Physical Chemistry, have revealed how water governs the way protons move through it. Using their modeling, researchers from Cambr",
+      "link": "https://phys.org/news/2026-07-local-asymmetry-proton-molecules-simulations.html",
+      "published": "2026-07-28T00:40:04.000Z",
+      "source": "Phys.org",
+      "category": "general",
+      "xml_category": "analytical chemistry",
+      "tags": [],
+      "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/complex-simulations-ne.jpg"
+    },
+    {
+      "id": "phys.org-9",
+      "title": "Digital revolution forcing archaeology to rethink research data management",
+      "summary": "Archaeological excavations generate a vast quantity of documents of various types and formats, which constitute a scientific heritage of great value. However, the way this data is organized, documented and preserved remains highly varied. This is the main conclusion of the article \"Research data man",
+      "link": "https://phys.org/news/2026-07-digital-revolution-archaeology-rethink.html",
+      "published": "2026-07-28T00:20:01.000Z",
+      "source": "Phys.org",
+      "category": "science",
+      "xml_category": "archaeology",
+      "tags": [],
+      "image": "https://scx1.b-cdn.net/csz/news/tmb/2023/archaeological-dig.jpg"
+    },
+    {
+      "id": "phys.org-10",
+      "title": "Border crossings shut as heavy snow coats Argentine Andes",
+      "summary": "Heavy snowfall in the Argentine Andes has forced more than 100 people to evacuate and stalled almost 1,000 trucks on snow-covered roads, while flights were rerouted Monday.",
+      "link": "https://phys.org/news/2026-07-border-heavy-coats-argentine-andes.html",
+      "published": "2026-07-28T00:00:01.000Z",
+      "source": "Phys.org",
+      "category": "general",
+      "xml_category": "environment",
+      "tags": [],
+      "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/authorities-closed-a-k.jpg"
+    },
+    {
+      "id": "phys.org-11",
+      "title": "How international aid fragmentation affects corruption in developing countries",
+      "summary": "An SKKU research team led by Professor Travers B. Child of the SKK Graduate School of Business (SKK GSB) has become the first in the world to use micro-level data to demonstrate that aid fragmentation—the phenomenon in which numerous international aid agencies operate simultaneously in a single regi",
+      "link": "https://phys.org/news/2026-07-international-aid-fragmentation-affects-corruption.html",
+      "published": "2026-07-27T23:40:03.000Z",
+      "source": "Phys.org",
+      "category": "ai",
+      "xml_category": "economics & business",
+      "tags": [],
+      "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/developing-country.jpg"
+    },
+    {
+      "id": "phys.org-12",
+      "title": "When polymers meet primitive membranes: How molecular cooperation may have helped life begin",
+      "summary": "A new study suggests that simple molecules on early Earth may have worked together to create more stable, cell-like structures, offering fresh clues about one of science&#039;s biggest questions: how life began. Led by Dr. Moran Frenkel-Pinter of Hebrew University and her postdoctoral researcher, Dr",
+      "link": "https://phys.org/news/2026-07-polymers-primitive-membranes-molecular-cooperation.html",
+      "published": "2026-07-27T23:40:01.000Z",
+      "source": "Phys.org",
+      "category": "general",
+      "xml_category": "biochemistry",
+      "tags": [],
+      "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/when-polymers-meet-pri.jpg"
+    },
+    {
+      "id": "phys.org-13",
+      "title": "Tropical species near thermal limits as global warming compresses safety margins",
+      "summary": "With global warming and extreme weather intensifying, can animals raise their thermal tolerance to cope with a continuously warming environment? A joint research project by the Division of Science at Lingnan University and an international research team conducted experiments on tropical intertidal s",
+      "link": "https://phys.org/news/2026-07-tropical-species-thermal-limits-global.html",
+      "published": "2026-07-27T23:20:04.000Z",
+      "source": "Phys.org",
+      "category": "general",
+      "xml_category": "plants & animals",
+      "tags": [],
+      "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/lingnan-university-joi.jpg"
+    },
+    {
+      "id": "phys.org-14",
+      "title": "How changing environments can preserve an ancient microbial survival strategy",
+      "summary": "A research group led by Tetsuhiro Hatakeyama from the Earth-Life Science Institute (ELSI) at the Institute of Science Tokyo has revealed how a seemingly self-destructive survival strategy could persist in yeast for hundreds of millions of years. By combining population dynamics theory with comparati",
+      "link": "https://phys.org/news/2026-07-environments-ancient-microbial-survival-strategy.html",
+      "published": "2026-07-27T23:20:02.000Z",
+      "source": "Phys.org",
+      "category": "general",
+      "xml_category": "evolution",
+      "tags": [],
+      "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/how-changing-environme.jpg"
+    },
+    {
+      "id": "phys.org-15",
+      "title": "Seabirds trade their own survival to raise more chicks after energy-intensive breeding seasons",
+      "summary": "Wild seabirds that face high energy demands during the breeding season go on to migrate farther and raise more chicks the next year, but at a cost to their own survival. An international team led by researchers from Nagoya University raised the energy cost of flight for some birds and tracked them t",
+      "link": "https://phys.org/news/2026-07-seabirds-survival-chicks-energy-intensive.html",
+      "published": "2026-07-27T23:00:11.000Z",
+      "source": "Phys.org",
+      "category": "ai",
+      "xml_category": "plants & animals",
+      "tags": [],
+      "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/seabirds-trade-their-s.jpg"
+    },
+    {
+      "id": "phys.org-16",
+      "title": "Researchers develop model that predicts which Red Sea fish are most likely to invade the Mediterranean",
+      "summary": "More than 120 fish species have migrated from the Red Sea to the Mediterranean since the Suez Canal opened more than 150 years ago. Now, researchers at Tel Aviv University have developed a statistical model that can predict which species are likely to make the journey next.",
+      "link": "https://phys.org/news/2026-07-red-sea-fish-invade-mediterranean.html",
+      "published": "2026-07-27T23:00:02.000Z",
+      "source": "Phys.org",
+      "category": "science",
+      "xml_category": "ecology",
+      "tags": [],
+      "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/researchers-develop-mo-1.jpg"
+    },
+    {
+      "id": "phys.org-17",
+      "title": "Kids who own cellphones have poorer reading comprehension scores than those who don&#039;t, researchers find",
+      "summary": "School cellphone bans might seem like a good way to improve learning for elementary school children, but new research published in Behavioral Sciences shows that simply owning a cellphone correlates with worse reading comprehension. Whether a child brings the phone to school made no difference in re",
+      "link": "https://phys.org/news/2026-07-kids-cellphones-poorer-comprehension-scores.html",
+      "published": "2026-07-27T22:50:01.000Z",
+      "source": "Phys.org",
+      "category": "science",
+      "xml_category": "social sciences",
+      "tags": [],
+      "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/kids-who-own-cellphone.jpg"
+    },
+    {
+      "id": "phys.org-18",
+      "title": "Listening to living soil may help people reconnect with nature",
+      "summary": "Strengthening the bond between people and nature—that is the aim of a German–Dutch EU project involving Oldenburg. The reasoning behind this is that people who feel they are part of the environment are more likely to campaign for its preservation.",
+      "link": "https://phys.org/news/2026-07-soil-people-reconnect-nature.html",
+      "published": "2026-07-27T22:40:02.000Z",
+      "source": "Phys.org",
+      "category": "general",
+      "xml_category": "environment",
+      "tags": [],
+      "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/putting-down-new-roots.jpg"
+    },
+    {
+      "id": "phys.org-19",
+      "title": "Molecular switch that activates cell growth signaling may offer more precise route for anticancer therapy",
+      "summary": "Cells carry their own growth switches. When enough nutrients—amino acids in particular—are available, cells flip this switch on and begin to grow. Researchers at KAIST and Yonsei University have uncovered the molecular mechanism by which amino acid signals activate this cellular growth switch. The f",
+      "link": "https://phys.org/news/2026-07-molecular-cell-growth-precise-route.html",
+      "published": "2026-07-27T22:40:01.000Z",
+      "source": "Phys.org",
+      "category": "health",
+      "xml_category": "cell & microbiology",
+      "tags": [],
+      "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/kaist-identifies-a-mol-1.jpg"
+    },
     {
       "id": "phys.org-0",
       "title": "Biodegradable implant can deliver targeted cancer immunotherapy while protecting healthy tissue",
@@ -243,7 +495,7 @@
       "image": null
     },
     {
-      "id": "nasa-0",
+      "id": "nasa-1",
       "title": "NASA Astronaut Chris Williams to Discuss Space Station Mission",
       "summary": "NASA astronaut Chris Williams will recap his recent eight-month mission aboard the International Space Station during a news conference at 2:45 p.m. EDT Tuesday, Aug. 4, from the agency’s Johnson Space Center in Houston. NASA will stream this event live through a variety of platforms. Learn where to",
       "link": "https://www.nasa.gov/news-release/nasa-astronaut-chris-williams-to-discuss-space-station-mission/",
@@ -303,7 +555,7 @@
       "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/unc-chapel-hill-astron.jpg"
     },
     {
-      "id": "nasa-1",
+      "id": "nasa-2",
       "title": "NASA Science Soars During August Total Solar Eclipse",
       "summary": "Each time the Moon covers the Sun during a total solar eclipse — darkening daytime skies and briefly revealing the Sun’s ethereal outer atmosphere, the corona — it presents new opportunities to better understand our star and its influence on Earth. On Wednesday, Aug. 12, as the next total solar ecli",
       "link": "https://science.nasa.gov/science-research/heliophysics/nasa-science-soars-during-august-total-solar-eclipse/",
@@ -423,7 +675,7 @@
       "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/low-level-cloud-loss-a.jpg"
     },
     {
-      "id": "nasa-2",
+      "id": "nasa-3",
       "title": "NASA Astronaut Chris Williams Returns to Earth",
       "summary": "NASA astronaut Chris Williams is all smiles in this July 26, 2026, photo taken shortly after he landed with Expedition 74 Roscosmos cosmonauts Sergey Kud-Sverchkov, and Sergei Mikaev in Kazakhstan. This was Williams&#8217; first mission. Williams spent eight months aboard the International Space Sta",
       "link": "https://www.nasa.gov/image-article/nasa-astronaut-chris-williams-returns-to-earth/",
@@ -495,7 +747,7 @@
       "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/molecular-dynamics.jpg"
     },
     {
-      "id": "nasa-3",
+      "id": "nasa-4",
       "title": "NASA’s Swift Sees ‘Wandering’ Mega Black Hole Shredding Star",
       "summary": "NASA’s Neil Gehrels Swift Observatory captured an “orphan” black hole lighting up as it devoured a star on the outskirts of a faraway galaxy. These phenomena are rare to begin with, and none had ever before been seen so far outside of a galaxy’s core. “We were looking for these star-shredding events",
       "link": "https://science.nasa.gov/missions/swift/nasas-swift-sees-wandering-mega-black-hole-shredding-star/",
@@ -651,9 +903,9 @@
       "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/plants-know-when-to-gr.jpg"
     },
     {
-      "id": "nasa-4",
+      "id": "nasa-5",
       "title": "NASA to Cover Three US Spacewalks, Host Preview News Conference",
-      "summary": "NASA will provide coverage as astronauts venture outside the International Space Station during three spacewalks in August to continue upgrading solar arrays, replace a communications antenna, and connect power and data cables in support of space station operations. Experts will preview the upcoming",
+      "summary": "Editor&#8217;s note: This media advisory was updated July 27, 2026 to reflect an updated start time for the spacewalk on Thursday, Aug. 6. NASA will provide coverage as astronauts venture outside the International Space Station during three spacewalks in August to continue upgrading solar arrays, re",
       "link": "https://www.nasa.gov/news-release/nasa-to-cover-three-us-spacewalks-host-preview-news-conference/",
       "published": "2026-07-27T14:35:11.000Z",
       "source": "NASA",
@@ -699,7 +951,7 @@
       "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/lucky-13-starship-depl.jpg"
     },
     {
-      "id": "nasa-5",
+      "id": "nasa-6",
       "title": "NASA’s Hubble Shows Star Formation in Andromeda Galaxy Winding Down",
       "summary": "NASA’s Hubble finds that star formation in the Andromeda galaxy has undergone a 500-million-year decline.",
       "link": "https://science.nasa.gov/missions/hubble/nasas-hubble-shows-star-formation-in-andromeda-galaxy-winding-down/",
@@ -1033,54 +1285,6 @@
       "xml_category": "environment",
       "tags": [],
       "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/weather-forecasters-wa.jpg"
-    },
-    {
-      "id": "phys.org-15",
-      "title": "Saber-toothed cats&#039; spinal tumors suggest inbred species struggled to survive",
-      "summary": "The fossilized spines of saber-toothed cats in the La Brea Tar Pits reveal evidence of an unexpectedly high prevalence of rare spinal nerve tumors, suggesting that the species became inbred just before extinction. These tumors, which cause significant pain and reduced limb function, could have made ",
-      "link": "https://phys.org/news/2026-07-saber-toothed-cats-spinal-tumors.html",
-      "published": "2026-07-27T04:00:01.000Z",
-      "source": "Phys.org",
-      "category": "general",
-      "xml_category": "evolution",
-      "tags": [],
-      "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/saber-toothed-cats-spi.jpg"
-    },
-    {
-      "id": "phys.org-16",
-      "title": "Tigray&#039;s old grapevines have survived against the odds: New research uncovers their genetic and historic value",
-      "summary": "The northern highlands of Ethiopia are among Africa&#039;s oldest agricultural landscapes. Some of the world&#039;s most important crops originated here, particularly pulses and grains, including teff. Yet another crop has a less well-known history in Ethiopia&#039;s Tigray region: the grapevine.",
-      "link": "https://phys.org/news/2026-07-tigray-grapevines-survived-odds-uncovers.html",
-      "published": "2026-07-27T00:30:01.000Z",
-      "source": "Phys.org",
-      "category": "ai",
-      "xml_category": "ecology",
-      "tags": [],
-      "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/tigrays-old-grapevines.jpg"
-    },
-    {
-      "id": "phys.org-17",
-      "title": "Near a black hole, gravity changes a quantum circuit&#039;s readings, not its rules",
-      "summary": "Imagine holding one of our most precise quantum devices at a fixed position outside a black hole. A Josephson junction—two superconductors separated by an ultrathin barrier—can turn a voltage into a quantum oscillation with extraordinary precision. Would intense gravity change that quantum rule, or ",
-      "link": "https://phys.org/news/2026-07-black-hole-gravity-quantum-circuit.html",
-      "published": "2026-07-26T23:00:01.000Z",
-      "source": "Phys.org",
-      "category": "general",
-      "xml_category": "general physics",
-      "tags": [],
-      "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/near-a-black-hole-grav.jpg"
-    },
-    {
-      "id": "phys.org-18",
-      "title": "Forest productivity, not rapid warming, shapes Northern Eurasia&#039;s carbon sink",
-      "summary": "Northern Eurasia contains about 20% of the world&#039;s forests and plays a crucial role in mitigating climate change by absorbing atmospheric carbon dioxide, thereby acting as a major carbon sink. However, understanding the region&#039;s carbon sink is challenging because it is influenced by multip",
-      "link": "https://phys.org/news/2026-07-forest-productivity-rapid-northern-eurasia.html",
-      "published": "2026-07-26T21:00:01.000Z",
-      "source": "Phys.org",
-      "category": "tech",
-      "xml_category": "environment",
-      "tags": [],
-      "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/climate-change-is-resh-1.jpg"
     }
   ]
 }
