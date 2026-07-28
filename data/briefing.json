@@ -1,15 +1,15 @@
 {
   "version": 2,
-  "date": "2026-07-27",
-  "generated_at": "2026-07-27T08:27:01.967Z",
-  "date_hr": "Ponedjeljak, 27. srpnja 2026.",
+  "date": "2026-07-28",
+  "generated_at": "2026-07-28T05:03:48.714Z",
+  "date_hr": "Utorak, 28. srpnja 2026.",
   "weather": {
     "icon": "☁️",
-    "summary": "20–32°C, oblačno",
+    "summary": "21–31°C, oblačno",
     "alerts": []
   },
   "fuel": {
-    "current_date": "27.07.2026",
+    "current_date": "28.07.2026",
     "eurodiesel": [
       {
         "company": "Adria Oil",
@@ -17,45 +17,45 @@
       },
       {
         "company": "Coral Croatia",
-        "price": 1.59
+        "price": 1.75
       },
       {
         "company": "INA",
-        "price": 1.59
+        "price": 1.75
       },
-      {
-        "company": "LUKOIL Croatia",
-        "price": 1.59
-      },
-      {
-        "company": "Petrol",
-        "price": 1.59
-      },
-      {
-        "company": "Tifon",
-        "price": 1.59
-      }
-    ],
-    "premium_eurodiesel": [
       {
         "company": "LUKOIL Croatia",
         "price": 1.75
       },
       {
-        "company": "Coral Croatia",
-        "price": 1.99
-      },
-      {
-        "company": "INA",
-        "price": 2
+        "company": "Petrol",
+        "price": 1.75
       },
       {
         "company": "Tifon",
-        "price": 2
+        "price": 1.75
+      }
+    ],
+    "premium_eurodiesel": [
+      {
+        "company": "LUKOIL Croatia",
+        "price": 1.91
+      },
+      {
+        "company": "INA",
+        "price": 2.03
       },
       {
         "company": "Petrol",
-        "price": 2.06
+        "price": 2.05
+      },
+      {
+        "company": "Tifon",
+        "price": 2.07
+      },
+      {
+        "company": "Coral Croatia",
+        "price": 2.15
       }
     ],
     "upcoming_date": null,
@@ -63,46 +63,46 @@
     "upcoming_premium": null
   },
   "market": {
-    "updated_at": "2026-07-27T08:27:01.967Z",
-    "btc_usd": 65177,
-    "btc_eur": 57188,
-    "btc_change_24h": 1.29,
-    "usd_eur": 0.878
+    "updated_at": "2026-07-28T05:03:48.714Z",
+    "btc_usd": 63283,
+    "btc_eur": 55664,
+    "btc_change_24h": -3.02,
+    "usd_eur": 0.8788
   },
   "ai_news": [
     {
-      "title": "Anthropic’s Claude Cowork could escape its local VM and read credentials on a Mac",
-      "link": "https://thenextweb.com/news/claude-cowork-sandbox-escape-mac-files-sharedroot",
+      "title": "Šef hakiranog startupa poručio OpenAI-ju: &#039;Objavite zapise aktivnosti odbjeglih agenta&#039;",
+      "link": "https://www.tportal.hr/tehno/clanak/sef-hakiranog-startupa-porucio-openai-ju-objavite-zapise-aktivnosti-odbjeglih-agenta-20260727",
+      "source": "Tportal"
+    },
+    {
+      "title": "No AI model is fully resistant to bioweapon queries, Cisco found. Attack success rates hit 88%.",
+      "link": "https://thenextweb.com/news/ai-chatbots-bioweapon-guardrails-bypass-cisco-five-turns",
       "source": "The Next Web"
     },
     {
-      "title": "Nvidia in talks to backstop $250bn of OpenAI’s data-centre financing",
-      "link": "https://thenextweb.com/news/nvidia-openai-250bn-data-centre-financing-guarantee",
+      "title": "Microsoft built an agentic security system with red, blue, and green team AI agents. It enters public preview August 3.",
+      "link": "https://thenextweb.com/news/microsoft-project-perception-agentic-security-cyber-model",
       "source": "The Next Web"
     },
     {
-      "title": "Hugging Face CEO calls for ‘radical transparency’ after ‘unprecedented’ OpenAI hack",
-      "link": "https://techcrunch.com/2026/07/26/hugging-face-ceo-calls-for-radical-transparency-after-unprecedented-openai-hack/",
+      "title": "OpenAI’s Hugging Face breach has reignited the debate over alignment and control",
+      "link": "https://techcrunch.com/2026/07/27/openais-hugging-face-breach-has-reignited-the-debate-over-alignment-and-control/",
       "source": "TechCrunch AI"
     },
     {
-      "title": "Chatbot kao visokofunkcionalni psihopat",
-      "link": "https://www.bug.hr/umjetna-inteligencija/chatbot-kao-visokofunkcionalni-psihopat-61655",
-      "source": "Bug.hr"
-    },
-    {
-      "title": "What OpenAI will show the White House this week",
-      "link": "https://thenextweb.com/news/altman-white-house-openai-model-preview-agents",
-      "source": "The Next Web"
+      "title": "Uh-oh: Some Claude shared conversations and Artifacts appear to be indexed and publicly accessible on Google Search",
+      "link": "https://venturebeat.com/technology/uh-oh-some-claude-shared-conversations-and-artifacts-appear-to-be-indexed-and-publicly-accessible-on-google-search",
+      "source": "VentureBeat"
     }
   ],
   "micro_tips": {
     "vscode": {
-      "tip": "Toggle Word Wrap za dugačke linije",
-      "keys": "Alt+Z"
+      "tip": "Nađi i selektiraj sljedeće pojavljivanje",
+      "keys": "Ctrl+D"
     },
-    "sql": "Parametrizirani upiti = plan cache reuse + SQL injection zaštita istovremeno",
-    "oracle": "NVL2(expr, kad_nije_null, kad_je_null) kompaktnija od dvostrukog NVL-a",
-    "regex": "\\s+ pokriva space, tab i newline; \\S je negacija (svaki ne-whitespace)"
+    "sql": "Batch INSERT umjesto jednog-po-jednog: INSERT INTO t VALUES (...),(...),...",
+    "oracle": "FETCH FIRST n ROWS ONLY umjesto ROWNUM — kompatibilno s ORDER BY i čitljivije",
+    "regex": "^(?!.*pattern) negative lookahead: \"ova linija ne smije sadržavati X\""
   }
 }
