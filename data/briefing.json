@@ -1,7 +1,7 @@
 {
   "version": 2,
   "date": "2026-07-29",
-  "generated_at": "2026-07-29T05:03:02.872Z",
+  "generated_at": "2026-07-29T07:41:27.819Z",
   "date_hr": "Srijeda, 29. srpnja 2026.",
   "weather": {
     "icon": "🌤️",
@@ -63,13 +63,18 @@
     "upcoming_premium": null
   },
   "market": {
-    "updated_at": "2026-07-29T05:03:02.872Z",
-    "btc_usd": 63903,
-    "btc_eur": 56049,
-    "btc_change_24h": 0.91,
+    "updated_at": "2026-07-29T07:41:27.819Z",
+    "btc_usd": 64394,
+    "btc_eur": 56499,
+    "btc_change_24h": 1.46,
     "usd_eur": 0.8787
   },
   "ai_news": [
+    {
+      "title": "OpenAI’s rogue agent breached a second company, executive confirms",
+      "link": "https://thenextweb.com/news/openai-rogue-agent-second-firm-modal-labs",
+      "source": "The Next Web"
+    },
     {
       "title": "We now have a better understanding how OpenAI hacked into Hugging Face",
       "link": "https://arstechnica.com/security/2026/07/jfrog-tries-to-spin-openai-0-day-exploit-of-its-app-into-a-success-story/",
@@ -88,11 +93,6 @@
     {
       "title": "Snowflake launches Cortex AI Gateway to control AI agents and prevent runaway enterprise costs",
       "link": "https://venturebeat.com/security/snowflake-launches-cortex-ai-gateway-to-control-ai-agents-and-prevent-runaway-enterprise-costs",
-      "source": "VentureBeat"
-    },
-    {
-      "title": "Visa used Mythos to hunt for bugs in its own payment network, then open-sourced the harness that made it possible",
-      "link": "https://venturebeat.com/security/visa-used-mythos-to-hunt-for-bugs-in-its-own-payment-network-then-open-sourced-the-harness-that-made-it-possible",
       "source": "VentureBeat"
     }
   ],
