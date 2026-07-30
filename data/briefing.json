@@ -1,15 +1,15 @@
 {
   "version": 2,
-  "date": "2026-07-29",
-  "generated_at": "2026-07-29T07:41:27.819Z",
-  "date_hr": "Srijeda, 29. srpnja 2026.",
+  "date": "2026-07-30",
+  "generated_at": "2026-07-30T05:03:08.030Z",
+  "date_hr": "Četvrtak, 30. srpnja 2026.",
   "weather": {
-    "icon": "🌤️",
-    "summary": "20–34°C, djelomično oblačno",
+    "icon": "☁️",
+    "summary": "21–34°C, oblačno",
     "alerts": []
   },
   "fuel": {
-    "current_date": "29.07.2026",
+    "current_date": "30.07.2026",
     "eurodiesel": [
       {
         "company": "Adria Oil",
@@ -63,46 +63,46 @@
     "upcoming_premium": null
   },
   "market": {
-    "updated_at": "2026-07-29T07:41:27.819Z",
-    "btc_usd": 64394,
-    "btc_eur": 56499,
-    "btc_change_24h": 1.46,
-    "usd_eur": 0.8787
+    "updated_at": "2026-07-30T05:03:08.030Z",
+    "btc_usd": 63936,
+    "btc_eur": 55835,
+    "btc_change_24h": 0.04,
+    "usd_eur": 0.8756
   },
   "ai_news": [
+    {
+      "title": "OpenAI’s rogue AI agent didn’t stop at hacking Hugging Face",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/972441/openai-rogue-ai-agent-hacked-more-than-hugging-face",
+      "source": "The Verge"
+    },
+    {
+      "title": "Nakon ChatGPT-a i Groka, procurili i razgovori korisnika s Claudeom",
+      "link": "https://www.tportal.hr/tehno/clanak/nakon-chatgpt-a-i-groka-procurili-i-razgovori-korisnika-s-claudeom-20260729",
+      "source": "Tportal"
+    },
     {
       "title": "OpenAI’s rogue agent breached a second company, executive confirms",
       "link": "https://thenextweb.com/news/openai-rogue-agent-second-firm-modal-labs",
       "source": "The Next Web"
     },
     {
-      "title": "We now have a better understanding how OpenAI hacked into Hugging Face",
-      "link": "https://arstechnica.com/security/2026/07/jfrog-tries-to-spin-openai-0-day-exploit-of-its-app-into-a-success-story/",
-      "source": "Ars Technica"
+      "title": "Microsoft is openly competing with OpenAI, Anthropic more than ever",
+      "link": "https://techcrunch.com/2026/07/29/microsoft-is-openly-competing-with-openai-anthropic-more-than-ever/",
+      "source": "TechCrunch AI"
     },
     {
-      "title": "ChatGPT has quietly stopped writing like your favourite author",
-      "link": "https://thenextweb.com/news/chatgpt-refuses-author-style-imitation-copyright",
-      "source": "The Next Web"
-    },
-    {
-      "title": "AI leaders sign a statement asking the government to do something about automated AI",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/972161/ai-leaders-us-government-openai-anthropic-google-meta",
-      "source": "The Verge"
-    },
-    {
-      "title": "Snowflake launches Cortex AI Gateway to control AI agents and prevent runaway enterprise costs",
-      "link": "https://venturebeat.com/security/snowflake-launches-cortex-ai-gateway-to-control-ai-agents-and-prevent-runaway-enterprise-costs",
-      "source": "VentureBeat"
+      "title": "Microsoft logs $3.2B from Anthropic investment, but OpenAI was a mixed bag",
+      "link": "https://techcrunch.com/2026/07/29/microsoft-logs-3-2b-from-anthropic-investment-but-openai-was-a-mixed-bag/",
+      "source": "TechCrunch AI"
     }
   ],
   "micro_tips": {
     "vscode": {
-      "tip": "Multi-cursor: postavi cursor na više mjesta istovremeno",
-      "keys": "Alt+Click"
+      "tip": "Command Palette: brzi pristup svim komandama",
+      "keys": "Ctrl+Shift+P"
     },
-    "sql": "EXISTS umjesto IN za subqueries — brže jer stane na prvom podudaranju: WHERE EXISTS (SELECT 1 FROM ...)",
-    "oracle": "/*+ INDEX(t ime_indexa) */ forsira specifičan index kad optimizer bira full scan",
-    "regex": "\\b granica riječi: \\bword\\b podudara cijelu riječ, ne \"password\" ili \"swordfish\""
+    "sql": "Nikad SELECT * u produkciji — navedi kolone, manji I/O i bolji cache plan",
+    "oracle": "/*+ PARALLEL(t 4) */ paralelno izvršavanje querija na N thread-ova",
+    "regex": "(?:group) non-capturing group: grupiraj bez pamćenja za veće performanse"
   }
 }
