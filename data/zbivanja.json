@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-07-31T09:01:25.935Z",
+  "generated_at": "2026-07-31T10:01:19.711Z",
   "stats": {
     "muzika.hr": {
       "ok": true,
       "count": 25
     },
-    "Gavella": {
+    "Lisinski": {
       "ok": true,
       "count": 0
     },
-    "Lisinski": {
+    "Gavella": {
       "ok": true,
       "count": 0
     },
@@ -21,21 +21,21 @@
       "ok": true,
       "count": 3
     },
-    "ZeKaeM": {
-      "ok": true,
-      "count": 0
-    },
     "Komedija": {
-      "ok": true,
-      "count": 0
+      "ok": false,
+      "error": "HTTP 500"
     },
-    "Pogon": {
+    "ZeKaeM": {
       "ok": true,
       "count": 0
     },
     "HNK Zagreb": {
       "ok": true,
       "count": 70
+    },
+    "Pogon": {
+      "ok": true,
+      "count": 0
     },
     "Kerempuh": {
       "ok": true,
@@ -744,9 +744,9 @@
       "city": "Zagreb",
       "country": "HR",
       "category": "concert",
-      "date_iso": "2026-08-18T19:00:00",
+      "date_iso": "2026-08-18T17:00:00",
       "date_display": "uto, 18. 08. 2026.",
-      "time": "19:00",
+      "time": "17:00",
       "link": "https://mochvara.hr/event-detail/6a6a09f73d66138e2f911ed0/?lang=hr",
       "source": "Mochvara",
       "is_new": false,
@@ -774,9 +774,9 @@
       "city": "Zagreb",
       "country": "HR",
       "category": "concert",
-      "date_iso": "2026-08-20T17:00:00",
+      "date_iso": "2026-08-20T19:00:00",
       "date_display": "čet, 20. 08. 2026.",
-      "time": "17:00",
+      "time": "19:00",
       "link": "https://mochvara.hr/event-detail/6a68ad688069302af2961725/?lang=hr",
       "source": "Mochvara",
       "is_new": false,
