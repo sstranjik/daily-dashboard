@@ -1,15 +1,20 @@
 {
   "version": 2,
-  "date": "2026-07-30",
-  "generated_at": "2026-07-30T07:32:51.939Z",
-  "date_hr": "Četvrtak, 30. srpnja 2026.",
+  "date": "2026-07-31",
+  "generated_at": "2026-07-31T05:03:35.484Z",
+  "date_hr": "Petak, 31. srpnja 2026.",
   "weather": {
-    "icon": "☁️",
-    "summary": "21–34°C, oblačno",
-    "alerts": []
+    "icon": "☀️",
+    "summary": "22–36°C, vedro",
+    "alerts": [
+      {
+        "level": "warning",
+        "text": "Ekstremna vrućina: 36°C"
+      }
+    ]
   },
   "fuel": {
-    "current_date": "30.07.2026",
+    "current_date": "31.07.2026",
     "eurodiesel": [
       {
         "company": "Adria Oil",
@@ -46,12 +51,12 @@
         "price": 2.03
       },
       {
-        "company": "Petrol",
-        "price": 2.05
-      },
-      {
         "company": "Tifon",
         "price": 2.07
+      },
+      {
+        "company": "Petrol",
+        "price": 2.09
       },
       {
         "company": "Coral Croatia",
@@ -63,46 +68,46 @@
     "upcoming_premium": null
   },
   "market": {
-    "updated_at": "2026-07-30T07:32:51.939Z",
-    "btc_usd": 63987,
-    "btc_eur": 55944,
-    "btc_change_24h": -0.67,
-    "usd_eur": 0.8756
+    "updated_at": "2026-07-31T05:03:35.484Z",
+    "btc_usd": 64305,
+    "btc_eur": 55875,
+    "btc_change_24h": 0.61,
+    "usd_eur": 0.8688
   },
   "ai_news": [
     {
-      "title": "OpenAI’s rogue AI agent didn’t stop at hacking Hugging Face",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/972441/openai-rogue-ai-agent-hacked-more-than-hugging-face",
-      "source": "The Verge"
+      "title": "Not just OpenAI: Now Anthropic says its internal models got online and cyberattacked 3 other organizations",
+      "link": "https://venturebeat.com/security/not-just-openai-now-anthropic-says-its-internal-models-got-online-and-cyberattacked-3-other-organizations",
+      "source": "VentureBeat"
     },
     {
-      "title": "Nakon ChatGPT-a i Groka, procurili i razgovori korisnika s Claudeom",
-      "link": "https://www.tportal.hr/tehno/clanak/nakon-chatgpt-a-i-groka-procurili-i-razgovori-korisnika-s-claudeom-20260729",
-      "source": "Tportal"
-    },
-    {
-      "title": "Hugging Face nije bio jedina žrtva: ChatGPT je samostalno napao još četiri mete",
-      "link": "https://www.tportal.hr/tehno/clanak/hugging-face-nije-bio-jedina-zrtva-chatgpt-je-samostalno-napao-jos-cetiri-mete-20260730",
-      "source": "Tportal"
-    },
-    {
-      "title": "Microsoft is openly competing with OpenAI, Anthropic more than ever",
-      "link": "https://techcrunch.com/2026/07/29/microsoft-is-openly-competing-with-openai-anthropic-more-than-ever/",
+      "title": "Anthropic says its own AI models breached three companies during security tests",
+      "link": "https://techcrunch.com/2026/07/30/anthropic-says-its-own-ai-models-breached-three-companies-during-security-tests/",
       "source": "TechCrunch AI"
     },
     {
-      "title": "Microsoft logs $3.2B from Anthropic investment, but OpenAI was a mixed bag",
-      "link": "https://techcrunch.com/2026/07/29/microsoft-logs-3-2b-from-anthropic-investment-but-openai-was-a-mixed-bag/",
+      "title": "OpenAI's rogue agent didn't stop at Hugging Face - here's what we know",
+      "link": "https://www.zdnet.com/article/openais-rogue-ai-models-attacked-other-companies-besides-hugging-face/",
+      "source": "ZDNet"
+    },
+    {
+      "title": "I Claude hakirao organizacije: &#039;Koristio je osnovne tehnike i slabe lozinke&#039;",
+      "link": "https://www.tportal.hr/tehno/clanak/i-claude-hakirao-organizacije-koristio-je-osnovne-tehnike-i-slabe-lozinke-20260731",
+      "source": "Tportal"
+    },
+    {
+      "title": "AI hedge fund Situational Awareness may have sold its public portfolio, but it still has its Anthropic shares",
+      "link": "https://techcrunch.com/2026/07/30/ai-hedge-fund-situational-awareness-may-have-sold-its-public-portfolio-but-it-still-has-its-anthropic-shares/",
       "source": "TechCrunch AI"
     }
   ],
   "micro_tips": {
     "vscode": {
-      "tip": "Command Palette: brzi pristup svim komandama",
-      "keys": "Ctrl+Shift+P"
+      "tip": "Rename Symbol svuda u projektu (refactoring)",
+      "keys": "F2"
     },
-    "sql": "Nikad SELECT * u produkciji — navedi kolone, manji I/O i bolji cache plan",
-    "oracle": "/*+ PARALLEL(t 4) */ paralelno izvršavanje querija na N thread-ova",
-    "regex": "(?:group) non-capturing group: grupiraj bez pamćenja za veće performanse"
+    "sql": "Covering index: uključi sve kolone iz WHERE + SELECT u index pa nema pristupa tablici",
+    "oracle": "/*+ NO_MERGE(v) */ sprječava merging inline viewa s parent queryjem",
+    "regex": "(?=pattern) lookahead: \"iza ovog mora slijediti X\" bez konzumiranja znakova"
   }
 }
