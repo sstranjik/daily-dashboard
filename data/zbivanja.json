@@ -1,7 +1,31 @@
 {
-  "generated_at": "2026-07-31T20:50:50.741Z",
+  "generated_at": "2026-08-01T05:01:16.759Z",
   "stats": {
+    "Lisinski": {
+      "ok": true,
+      "count": 0
+    },
     "Mochvara": {
+      "ok": true,
+      "count": 14
+    },
+    "Gavella": {
+      "ok": true,
+      "count": 0
+    },
+    "Tvornica": {
+      "ok": true,
+      "count": 3
+    },
+    "muzika.hr": {
+      "ok": true,
+      "count": 25
+    },
+    "ZeKaeM": {
+      "ok": true,
+      "count": 0
+    },
+    "Komedija": {
       "ok": true,
       "count": 0
     },
@@ -9,25 +33,9 @@
       "ok": true,
       "count": 0
     },
-    "muzika.hr": {
+    "HNK Zagreb": {
       "ok": true,
-      "count": 25
-    },
-    "Lisinski": {
-      "ok": true,
-      "count": 0
-    },
-    "Gavella": {
-      "ok": true,
-      "count": 0
-    },
-    "ZeKaeM": {
-      "ok": true,
-      "count": 0
-    },
-    "Tvornica": {
-      "ok": true,
-      "count": 3
+      "count": 70
     },
     "Kerempuh": {
       "ok": true,
@@ -36,47 +44,9 @@
     "Trešnja": {
       "ok": true,
       "count": 0
-    },
-    "Komedija": {
-      "ok": true,
-      "count": 0
-    },
-    "HNK Zagreb": {
-      "ok": true,
-      "count": 70
     }
   },
   "concerts": [
-    {
-      "id": "19d11d3ff9",
-      "title": "Mother Vulture",
-      "venue": "Mother Vulture Močvara Trnjanski nasip bb",
-      "city": "Zagreb",
-      "country": "HR",
-      "category": "concert",
-      "date_iso": "2026-07-17T00:00:00",
-      "date_display": "pet, 17. 07. 2026.",
-      "time": null,
-      "link": "https://www.muzika.hr/event/mother-vulture/",
-      "source": "muzika.hr",
-      "is_new": false,
-      "first_seen": "2026-07-05T05:01:29.544Z"
-    },
-    {
-      "id": "048248a0ab",
-      "title": "Mother Vulture, Tight Grips Petak 17.7.2026.",
-      "venue": "Mochvara",
-      "city": "Zagreb",
-      "country": "HR",
-      "category": "concert",
-      "date_iso": "2026-07-17T00:00:00",
-      "date_display": "pet, 17. 07. 2026.",
-      "time": null,
-      "link": "https://mochvara.hr/event-detail/69dd17acd45f6e01bb379099/?lang=hr",
-      "source": "Mochvara",
-      "is_new": false,
-      "first_seen": "2026-07-11T15:01:38.070Z"
-    },
     {
       "id": "6d192a386b",
       "title": "Rock koncert: Mother Vulture, Tight Grips",
@@ -813,6 +783,21 @@
       "first_seen": "2026-07-29T05:01:14.584Z"
     },
     {
+      "id": "b58dba7fe2",
+      "title": "Začarani birc: Milibea (live)",
+      "venue": "Mochvara",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-08-23T17:00:00",
+      "date_display": "ned, 23. 08. 2026.",
+      "time": "17:00",
+      "link": "https://mochvara.hr/event-detail/6a6a1d253d66138e2fa48568/?lang=hr",
+      "source": "Mochvara",
+      "is_new": true,
+      "first_seen": "2026-08-01T05:01:16.759Z"
+    },
+    {
       "id": "678433ed7e",
       "title": "Judas Priest",
       "venue": "Judas Priest Arena Pula Flavijevska ulica",
@@ -856,6 +841,21 @@
       "source": "muzika.hr",
       "is_new": false,
       "first_seen": "2026-07-29T05:01:14.584Z"
+    },
+    {
+      "id": "c6b7d810d2",
+      "title": "Ljeto na Zagrebačkom velesajmu",
+      "venue": "Zagrebački velesajam Avenija Dubrovnik 15",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-08-28T00:00:00",
+      "date_display": "pet, 28. 08. 2026.",
+      "time": null,
+      "link": "https://www.muzika.hr/event/ljeto-na-zagrebackom-velesajmu/",
+      "source": "muzika.hr",
+      "is_new": true,
+      "first_seen": "2026-08-01T05:01:16.759Z"
     },
     {
       "id": "bb48c15171",
@@ -2557,21 +2557,6 @@
   ],
   "abroad": [
     {
-      "id": "285c25910d",
-      "title": "OK Fest",
-      "venue": "OK Fest Tjentište",
-      "city": "Nacionalni",
-      "country": "EU",
-      "category": "concert",
-      "date_iso": "2026-07-17T00:00:00",
-      "date_display": "pet, 17. 07. 2026.",
-      "time": null,
-      "link": "https://www.muzika.hr/event/ok-fest/",
-      "source": "muzika.hr",
-      "is_new": false,
-      "first_seen": "2026-07-05T05:01:29.544Z"
-    },
-    {
       "id": "46133fe365",
       "title": "Kanye West YE LIVE CONCERT otkazano",
       "venue": "RFC Arena Reggio Emilia Reggio Emilia",
@@ -2780,7 +2765,22 @@
       "source": "muzika.hr",
       "is_new": false,
       "first_seen": "2026-07-29T05:01:14.584Z"
+    },
+    {
+      "id": "81663d68ba",
+      "title": "Judas Priest",
+      "venue": "Nikole Tesle bb",
+      "city": "Beograd",
+      "country": "RS",
+      "category": "concert",
+      "date_iso": "2026-08-28T00:00:00",
+      "date_display": "pet, 28. 08. 2026.",
+      "time": null,
+      "link": "https://www.muzika.hr/event/judas-priest-4/",
+      "source": "muzika.hr",
+      "is_new": true,
+      "first_seen": "2026-08-01T05:01:16.759Z"
     }
   ],
-  "new_count": 9
+  "new_count": 12
 }
