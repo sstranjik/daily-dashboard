@@ -1,17 +1,21 @@
 {
-  "generated_at": "2026-08-01T07:01:25.516Z",
+  "generated_at": "2026-08-01T07:24:38.064Z",
   "stats": {
     "Mochvara": {
       "ok": true,
-      "count": 14
+      "count": 0
     },
-    "Tvornica": {
+    "Pogon": {
       "ok": true,
-      "count": 3
+      "count": 0
     },
     "muzika.hr": {
       "ok": true,
       "count": 25
+    },
+    "ZeKaeM": {
+      "ok": true,
+      "count": 0
     },
     "Gavella": {
       "ok": true,
@@ -21,21 +25,9 @@
       "ok": true,
       "count": 0
     },
-    "ZeKaeM": {
+    "Tvornica": {
       "ok": true,
-      "count": 0
-    },
-    "Komedija": {
-      "ok": true,
-      "count": 0
-    },
-    "Pogon": {
-      "ok": true,
-      "count": 0
-    },
-    "HNK Zagreb": {
-      "ok": true,
-      "count": 70
+      "count": 3
     },
     "Kerempuh": {
       "ok": true,
@@ -44,6 +36,14 @@
     "Trešnja": {
       "ok": true,
       "count": 0
+    },
+    "Komedija": {
+      "ok": true,
+      "count": 0
+    },
+    "HNK Zagreb": {
+      "ok": true,
+      "count": 70
     }
   },
   "concerts": [
@@ -629,7 +629,7 @@
       "time": "20:00",
       "link": "https://www.muzika.hr/event/imperial-concerts-by-maestro-terza-elton-john-tribute-on-piano/",
       "source": "muzika.hr",
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-08-01T07:01:25.516Z"
     },
     {
@@ -2797,5 +2797,5 @@
       "first_seen": "2026-08-01T05:01:17.236Z"
     }
   ],
-  "new_count": 10
+  "new_count": 9
 }
