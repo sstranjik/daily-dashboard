@@ -1,10 +1,6 @@
 {
-  "generated_at": "2026-08-01T10:01:16.103Z",
+  "generated_at": "2026-08-01T11:01:14.622Z",
   "stats": {
-    "Mochvara": {
-      "ok": true,
-      "count": 14
-    },
     "muzika.hr": {
       "ok": true,
       "count": 25
@@ -13,11 +9,19 @@
       "ok": true,
       "count": 0
     },
+    "Gavella": {
+      "ok": true,
+      "count": 0
+    },
+    "Mochvara": {
+      "ok": true,
+      "count": 14
+    },
     "Tvornica": {
       "ok": true,
       "count": 3
     },
-    "Gavella": {
+    "ZeKaeM": {
       "ok": true,
       "count": 0
     },
@@ -25,19 +29,15 @@
       "ok": true,
       "count": 0
     },
-    "ZeKaeM": {
-      "ok": true,
-      "count": 0
-    },
     "HNK Zagreb": {
       "ok": true,
       "count": 70
     },
-    "Kerempuh": {
+    "Pogon": {
       "ok": true,
       "count": 0
     },
-    "Pogon": {
+    "Kerempuh": {
       "ok": true,
       "count": 0
     },
@@ -721,6 +721,21 @@
       "source": "Mochvara",
       "is_new": false,
       "first_seen": "2026-07-29T15:42:53.579Z"
+    },
+    {
+      "id": "f45588faf0",
+      "title": "Anarho-crust-grind gig: Avet, Trulež, Zoiz",
+      "venue": "Mochvara",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-08-18T20:00:00",
+      "date_display": "uto, 18. 08. 2026.",
+      "time": "20:00",
+      "link": "https://mochvara.hr/event-detail/6a6dc3f18871c41bc720d055/?lang=hr",
+      "source": "Mochvara",
+      "is_new": true,
+      "first_seen": "2026-08-01T11:01:14.622Z"
     },
     {
       "id": "7425afa698",
@@ -2797,5 +2812,5 @@
       "first_seen": "2026-08-01T05:01:17.236Z"
     }
   ],
-  "new_count": 9
+  "new_count": 10
 }
