@@ -1,25 +1,13 @@
 {
-  "generated_at": "2026-08-01T06:01:24.524Z",
+  "generated_at": "2026-08-01T07:01:25.516Z",
   "stats": {
     "Mochvara": {
       "ok": true,
-      "count": 0
-    },
-    "Pogon": {
-      "ok": true,
-      "count": 0
-    },
-    "Lisinski": {
-      "ok": true,
-      "count": 0
+      "count": 14
     },
     "Tvornica": {
       "ok": true,
       "count": 3
-    },
-    "ZeKaeM": {
-      "ok": true,
-      "count": 0
     },
     "muzika.hr": {
       "ok": true,
@@ -29,11 +17,11 @@
       "ok": true,
       "count": 0
     },
-    "Kerempuh": {
+    "Lisinski": {
       "ok": true,
       "count": 0
     },
-    "Trešnja": {
+    "ZeKaeM": {
       "ok": true,
       "count": 0
     },
@@ -41,9 +29,21 @@
       "ok": true,
       "count": 0
     },
+    "Pogon": {
+      "ok": true,
+      "count": 0
+    },
     "HNK Zagreb": {
       "ok": true,
       "count": 70
+    },
+    "Kerempuh": {
+      "ok": true,
+      "count": 0
+    },
+    "Trešnja": {
+      "ok": true,
+      "count": 0
     }
   },
   "concerts": [
@@ -618,6 +618,21 @@
       "first_seen": "2026-07-29T13:01:23.104Z"
     },
     {
+      "id": "cc97830b6e",
+      "title": "Imperial Concerts by Maestro Terza - Elton John - Tribute on Piano",
+      "venue": "Dioklecijanovi podrumi Dioklecijanova",
+      "city": "Split",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-08-03T20:00:00",
+      "date_display": "pon, 03. 08. 2026.",
+      "time": "20:00",
+      "link": "https://www.muzika.hr/event/imperial-concerts-by-maestro-terza-elton-john-tribute-on-piano/",
+      "source": "muzika.hr",
+      "is_new": true,
+      "first_seen": "2026-08-01T07:01:25.516Z"
+    },
+    {
       "id": "83e8d53a09",
       "title": "Nick Cave The Bad Seeds",
       "venue": "Bad Seeds Arena Pula Flavijevska ulica",
@@ -794,7 +809,7 @@
       "time": "17:00",
       "link": "https://mochvara.hr/event-detail/6a6a1d253d66138e2fa48568/?lang=hr",
       "source": "Mochvara",
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-08-01T05:01:16.759Z"
     },
     {
