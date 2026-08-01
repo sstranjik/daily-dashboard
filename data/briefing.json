@@ -1,20 +1,20 @@
 {
   "version": 2,
-  "date": "2026-07-31",
-  "generated_at": "2026-07-31T07:48:45.369Z",
-  "date_hr": "Petak, 31. srpnja 2026.",
+  "date": "2026-08-01",
+  "generated_at": "2026-08-01T05:03:02.970Z",
+  "date_hr": "Subota, 1. kolovoza 2026.",
   "weather": {
-    "icon": "☀️",
-    "summary": "22–35°C, vedro",
+    "icon": "☁️",
+    "summary": "23–36°C, oblačno",
     "alerts": [
       {
         "level": "warning",
-        "text": "Ekstremna vrućina: 35°C"
+        "text": "Ekstremna vrućina: 36°C"
       }
     ]
   },
   "fuel": {
-    "current_date": "31.07.2026",
+    "current_date": "01.08.2026",
     "eurodiesel": [
       {
         "company": "Adria Oil",
@@ -68,46 +68,46 @@
     "upcoming_premium": null
   },
   "market": {
-    "updated_at": "2026-07-31T07:48:45.369Z",
-    "btc_usd": 63908,
-    "btc_eur": 55484,
-    "btc_change_24h": -0.06,
-    "usd_eur": 0.8688
+    "updated_at": "2026-08-01T05:03:02.970Z",
+    "btc_usd": 63039,
+    "btc_eur": 54643,
+    "btc_change_24h": -1.99,
+    "usd_eur": 0.8687
   },
   "ai_news": [
     {
-      "title": "Not just OpenAI: Now Anthropic says its internal models got online and cyberattacked 3 other organizations",
-      "link": "https://venturebeat.com/security/not-just-openai-now-anthropic-says-its-internal-models-got-online-and-cyberattacked-3-other-organizations",
-      "source": "VentureBeat"
+      "title": "Anthropic says Claude accidentally hacked real companies too",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/973670/anthropic-claude-hacked-organizations-during-cyber-tests",
+      "source": "The Verge"
     },
     {
-      "title": "Anthropic says its own AI models breached three companies during security tests",
-      "link": "https://techcrunch.com/2026/07/30/anthropic-says-its-own-ai-models-breached-three-companies-during-security-tests/",
-      "source": "TechCrunch AI"
-    },
-    {
-      "title": "OpenAI's rogue agent didn't stop at Hugging Face - here's what we know",
-      "link": "https://www.zdnet.com/article/openais-rogue-ai-models-attacked-other-companies-besides-hugging-face/",
+      "title": "Not just OpenAI - Anthropic says Claude's hacking spree 'falls short of ideal behavior'",
+      "link": "https://www.zdnet.com/article/anthropic-claude-ai-hacked-organizations-during-security-tests/",
       "source": "ZDNet"
     },
     {
-      "title": "I Claude hakirao organizacije: &#039;Koristio je osnovne tehnike i slabe lozinke&#039;",
-      "link": "https://www.tportal.hr/tehno/clanak/i-claude-hakirao-organizacije-koristio-je-osnovne-tehnike-i-slabe-lozinke-20260731",
-      "source": "Tportal"
+      "title": "Oracle put its cloud rival’s AI inside its business apps, and the stock jumped 8%",
+      "link": "https://thenextweb.com/news/oracle-google-gemini-fusion-netsuite-enterprise-apps",
+      "source": "The Next Web"
     },
     {
-      "title": "AI hedge fund Situational Awareness may have sold its public portfolio, but it still has its Anthropic shares",
-      "link": "https://techcrunch.com/2026/07/30/ai-hedge-fund-situational-awareness-may-have-sold-its-public-portfolio-but-it-still-has-its-anthropic-shares/",
+      "title": "OpenAI reportedly finds evidence that more of its agents ran amok",
+      "link": "https://techcrunch.com/2026/07/31/openai-reportedly-finds-evidence-that-more-of-its-agents-ran-amok/",
       "source": "TechCrunch AI"
+    },
+    {
+      "title": "How OpenAI's agent escaped: Sprung by humans in a series of preventable events",
+      "link": "https://www.zdnet.com/article/how-openais-agent-escaped-mapping-a-series-of-preventable-events/",
+      "source": "ZDNet"
     }
   ],
   "micro_tips": {
     "vscode": {
-      "tip": "Rename Symbol svuda u projektu (refactoring)",
-      "keys": "F2"
+      "tip": "Quick Fix i Code Actions na trenutnoj poziciji",
+      "keys": "Ctrl+."
     },
-    "sql": "Covering index: uključi sve kolone iz WHERE + SELECT u index pa nema pristupa tablici",
-    "oracle": "/*+ NO_MERGE(v) */ sprječava merging inline viewa s parent queryjem",
-    "regex": "(?=pattern) lookahead: \"iza ovog mora slijediti X\" bez konzumiranja znakova"
+    "sql": "Window funkcije (ROW_NUMBER, LAG, LEAD) umjesto self-join za redosljed i razlike",
+    "oracle": "/*+ RESULT_CACHE */ cache-ira rezultat funkcije u SGA za ponovljene pozive",
+    "regex": ".+? lazy quantifier: stane na prvom mogućem podudaranju, ne zadnjem"
   }
 }
