@@ -1,22 +1,10 @@
 {
-  "generated_at": "2026-08-02T05:01:15.701Z",
+  "generated_at": "2026-08-02T06:01:19.136Z",
   "stats": {
-    "Lisinski": {
-      "ok": true,
-      "count": 0
-    },
     "Mochvara": {
       "ok": true,
       "count": 14
     },
-    "Gavella": {
-      "ok": true,
-      "count": 0
-    },
-    "Pogon": {
-      "ok": true,
-      "count": 0
-    },
     "Lisinski": {
       "ok": true,
       "count": 0
@@ -24,6 +12,10 @@
     "Gavella": {
       "ok": true,
       "count": 0
+    },
+    "Tvornica": {
+      "ok": true,
+      "count": 3
     },
     "ZeKaeM": {
       "ok": true,
@@ -33,9 +25,17 @@
       "ok": true,
       "count": 25
     },
-    "Tvornica": {
+    "Pogon": {
       "ok": true,
-      "count": 3
+      "count": 0
+    },
+    "Komedija": {
+      "ok": true,
+      "count": 0
+    },
+    "HNK Zagreb": {
+      "ok": true,
+      "count": 70
     },
     "Kerempuh": {
       "ok": true,
@@ -44,22 +44,6 @@
     "Trešnja": {
       "ok": true,
       "count": 0
-    },
-    "Komedija": {
-      "ok": true,
-      "count": 0
-    },
-    "ZeKaeM": {
-      "ok": true,
-      "count": 0
-    },
-    "Pogon": {
-      "ok": true,
-      "count": 0
-    },
-    "HNK Zagreb": {
-      "ok": true,
-      "count": 70
     }
   },
   "concerts": [
@@ -735,7 +719,7 @@
       "time": "17:00",
       "link": "https://mochvara.hr/event-detail/6a6de0368871c41bc72f90c4/?lang=hr",
       "source": "Mochvara",
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-08-02T05:01:16.216Z"
     },
     {
@@ -1020,7 +1004,7 @@
       "time": null,
       "link": "https://www.muzika.hr/event/hollywood-vampires/",
       "source": "muzika.hr",
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-08-02T05:01:15.701Z"
     },
     {
@@ -2828,5 +2812,5 @@
       "first_seen": "2026-08-01T05:01:17.236Z"
     }
   ],
-  "new_count": 10
+  "new_count": 9
 }
