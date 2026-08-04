@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-08-03T20:52:03.465Z",
+  "generated_at": "2026-08-04T05:01:13.978Z",
   "stats": {
     "muzika.hr": {
       "ok": true,
       "count": 25
     },
-    "Lisinski": {
+    "Gavella": {
       "ok": true,
       "count": 0
     },
-    "Gavella": {
+    "Lisinski": {
       "ok": true,
       "count": 0
     },
@@ -21,21 +21,21 @@
       "ok": true,
       "count": 3
     },
+    "Komedija": {
+      "ok": true,
+      "count": 0
+    },
     "ZeKaeM": {
       "ok": true,
       "count": 0
     },
-    "Komedija": {
+    "Pogon": {
       "ok": true,
       "count": 0
     },
     "HNK Zagreb": {
       "ok": true,
       "count": 70
-    },
-    "Pogon": {
-      "ok": true,
-      "count": 0
     },
     "Kerempuh": {
       "ok": true,
@@ -693,6 +693,21 @@
       "first_seen": "2026-08-03T05:01:14.491Z"
     },
     {
+      "id": "aaee6e8eab",
+      "title": "Močvarni birc: Emo, onaj pravi",
+      "venue": "Mochvara",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-08-09T17:00:00",
+      "date_display": "ned, 09. 08. 2026.",
+      "time": "17:00",
+      "link": "https://mochvara.hr/event-detail/6a6ded0758727ef79ffd72ad/?lang=hr",
+      "source": "Mochvara",
+      "is_new": true,
+      "first_seen": "2026-08-04T05:01:13.978Z"
+    },
+    {
       "id": "ed6ad2206f",
       "title": "Echoes of Prince",
       "venue": "Mihovila Šibenik",
@@ -1216,6 +1231,21 @@
       "source": "HNK Zagreb",
       "is_new": false,
       "first_seen": "2026-06-18T13:01:15.839Z"
+    },
+    {
+      "id": "a4f34f020f",
+      "title": "The Rumjacks u Vintage Industrial Baru",
+      "venue": "Vintage Industrial Bar Savska ulica 160",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-09-11T20:30:00",
+      "date_display": "pet, 11. 09. 2026.",
+      "time": "20:30",
+      "link": "https://www.muzika.hr/event/the-rumjacks-u-vintage-industrial-baru/",
+      "source": "muzika.hr",
+      "is_new": true,
+      "first_seen": "2026-08-04T05:01:13.978Z"
     },
     {
       "id": "e1c7815849",
@@ -2797,5 +2827,5 @@
       "first_seen": "2026-08-01T05:01:17.236Z"
     }
   ],
-  "new_count": 9
+  "new_count": 11
 }
