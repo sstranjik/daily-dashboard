@@ -1,19 +1,19 @@
 {
-  "generated_at": "2026-08-04T11:12:57.119Z",
+  "generated_at": "2026-08-04T12:01:15.423Z",
   "stats": {
-    "Mochvara": {
-      "ok": true,
-      "count": 0
-    },
     "muzika.hr": {
       "ok": true,
       "count": 25
     },
-    "Pogon": {
+    "Lisinski": {
       "ok": true,
       "count": 0
     },
-    "Lisinski": {
+    "Mochvara": {
+      "ok": true,
+      "count": 14
+    },
+    "Gavella": {
       "ok": true,
       "count": 0
     },
@@ -21,13 +21,21 @@
       "ok": true,
       "count": 3
     },
-    "Gavella": {
-      "ok": true,
-      "count": 0
-    },
     "ZeKaeM": {
       "ok": true,
       "count": 0
+    },
+    "Komedija": {
+      "ok": true,
+      "count": 0
+    },
+    "Pogon": {
+      "ok": true,
+      "count": 0
+    },
+    "HNK Zagreb": {
+      "ok": true,
+      "count": 70
     },
     "Kerempuh": {
       "ok": true,
@@ -36,14 +44,6 @@
     "Trešnja": {
       "ok": true,
       "count": 0
-    },
-    "Komedija": {
-      "ok": true,
-      "count": 0
-    },
-    "HNK Zagreb": {
-      "ok": true,
-      "count": 70
     }
   },
   "concerts": [
@@ -586,21 +586,6 @@
       "source": "muzika.hr",
       "is_new": false,
       "first_seen": "2026-07-17T05:01:25.773Z"
-    },
-    {
-      "id": "555df06376",
-      "title": "Judas Priest",
-      "venue": "",
-      "city": "Zagreb",
-      "country": "HR",
-      "category": "concert",
-      "date_iso": "2026-08-04T00:00:00",
-      "date_display": "uto, 04. 08. 2026.",
-      "time": null,
-      "link": "https://www.muzika.hr/event/judas-priest-3/",
-      "source": "muzika.hr",
-      "is_new": false,
-      "first_seen": "2026-07-18T05:01:14.110Z"
     },
     {
       "id": "c2f39966c3",
@@ -2705,6 +2690,21 @@
       "source": "muzika.hr",
       "is_new": false,
       "first_seen": "2026-07-17T05:01:25.773Z"
+    },
+    {
+      "id": "555df06376",
+      "title": "Judas Priest",
+      "venue": "Bratislava",
+      "city": "Slovakia",
+      "country": "EU",
+      "category": "concert",
+      "date_iso": "2026-08-04T00:00:00",
+      "date_display": "uto, 04. 08. 2026.",
+      "time": null,
+      "link": "https://www.muzika.hr/event/judas-priest-3/",
+      "source": "muzika.hr",
+      "is_new": false,
+      "first_seen": "2026-07-18T05:01:14.110Z"
     },
     {
       "id": "a983d61e3f",
