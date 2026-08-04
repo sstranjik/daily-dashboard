@@ -1,20 +1,20 @@
 {
   "version": 2,
-  "date": "2026-08-03",
-  "generated_at": "2026-08-03T08:26:15.649Z",
-  "date_hr": "Ponedjeljak, 3. kolovoza 2026.",
+  "date": "2026-08-04",
+  "generated_at": "2026-08-04T05:02:52.373Z",
+  "date_hr": "Utorak, 4. kolovoza 2026.",
   "weather": {
     "icon": "🌤️",
-    "summary": "22–36°C, pretežno vedro",
+    "summary": "23–37°C, djelomično oblačno",
     "alerts": [
       {
         "level": "warning",
-        "text": "Ekstremna vrućina: 36°C"
+        "text": "Ekstremna vrućina: 37°C"
       }
     ]
   },
   "fuel": {
-    "current_date": "03.08.2026",
+    "current_date": "04.08.2026",
     "eurodiesel": [
       {
         "company": "Adria Oil",
@@ -48,15 +48,15 @@
       },
       {
         "company": "INA",
-        "price": 2.03
-      },
-      {
-        "company": "Tifon",
-        "price": 2.07
+        "price": 2.09
       },
       {
         "company": "Petrol",
-        "price": 2.09
+        "price": 2.1
+      },
+      {
+        "company": "Tifon",
+        "price": 2.11
       },
       {
         "company": "Coral Croatia",
@@ -68,26 +68,46 @@
     "upcoming_premium": null
   },
   "market": {
-    "updated_at": "2026-08-03T08:26:15.649Z",
-    "btc_usd": 62342,
-    "btc_eur": 54102,
-    "btc_change_24h": -1.69,
-    "usd_eur": 0.8667
+    "updated_at": "2026-08-04T05:02:52.373Z",
+    "btc_usd": 63994,
+    "btc_eur": 55596,
+    "btc_change_24h": 1.95,
+    "usd_eur": 0.8687
   },
   "ai_news": [
     {
-      "title": "Ovako će izgledati Pixel 11",
-      "link": "https://www.bug.hr/mobiteli/ovako-ce-izgledati-pixel-11-61830",
-      "source": "Bug.hr"
+      "title": "Qwen3.8-Max arrives with a bold claim: it outperforms GPT-5.6 Sol Max and Fable 5 on agentic computer use",
+      "link": "https://venturebeat.com/technology/qwen3-8-max-arrives-with-a-bold-claim-it-outperforms-gpt-5-6-sol-max-and-fable-5-on-agentic-computer-use",
+      "source": "VentureBeat"
+    },
+    {
+      "title": "How to keep your conversations with ChatGPT, Gemini, Copilot or Claude as private as possible",
+      "link": "https://www.zdnet.com/article/how-to-keep-ai-conversations-private-chatgpt-gemini-copilot-claude/",
+      "source": "ZDNet"
+    },
+    {
+      "title": "Congress&#8217; favorite AI tool? ChatGPT",
+      "link": "https://techcrunch.com/2026/08/03/congresss-favorite-ai-tool-chatgpt/",
+      "source": "TechCrunch AI"
+    },
+    {
+      "title": "How Google used AI agents to find and fix 1,072 Chrome security bugs - in 60 days",
+      "link": "https://www.zdnet.com/article/google-used-ai-to-fix-1072-chrome-security-bugs-in-60-days/",
+      "source": "ZDNet"
+    },
+    {
+      "title": "China&#8217;s Alibaba takes another swipe at America’s AI supremacy",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/974342/alibaba-qwen-max-open-weight-ai",
+      "source": "The Verge"
     }
   ],
   "micro_tips": {
     "vscode": {
-      "tip": "Selektiraj sva pojavljivanja trenutne riječi",
-      "keys": "Ctrl+Shift+L"
+      "tip": "Pomakni liniju gore ili dolje bez cut/paste",
+      "keys": "Alt+↑ / Alt+↓"
     },
-    "sql": "Partial index s WHERE klauzulom smanjuje veličinu i ubrzava specifična filtriranja",
-    "oracle": "LISTAGG(col, ',') WITHIN GROUP (ORDER BY col) konkatenira u jedan string",
-    "regex": "(?<ime>\\d{4}) named group — referenciraj s \\k<ime> ili $<ime> u replace"
+    "sql": "GROUP BY s ROLLUP za subtotale u jednom prolasku: GROUP BY ROLLUP(god, mj)",
+    "oracle": "TRUNC(datum_kolona) = TRUNC(SYSDATE) koristi B-tree index na datumskoj koloni",
+    "regex": "\\d{4}-\\d{2}-\\d{2} ISO datum pattern; za validaciju zatvori s ^...$"
   }
 }
