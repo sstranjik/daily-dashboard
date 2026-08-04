@@ -1,17 +1,13 @@
 {
-  "generated_at": "2026-08-04T05:01:13.042Z",
+  "generated_at": "2026-08-04T06:01:16.554Z",
   "stats": {
-    "muzika.hr": {
-      "ok": true,
-      "count": 25
-    },
-    "Gavella": {
-      "ok": true,
-      "count": 0
-    },
     "Mochvara": {
       "ok": true,
       "count": 14
+    },
+    "Lisinski": {
+      "ok": true,
+      "count": 0
     },
     "Gavella": {
       "ok": true,
@@ -21,11 +17,15 @@
       "ok": true,
       "count": 3
     },
-    "Komedija": {
+    "muzika.hr": {
+      "ok": true,
+      "count": 25
+    },
+    "ZeKaeM": {
       "ok": true,
       "count": 0
     },
-    "ZeKaeM": {
+    "Komedija": {
       "ok": true,
       "count": 0
     },
@@ -704,7 +704,7 @@
       "time": "17:00",
       "link": "https://mochvara.hr/event-detail/6a6ded0758727ef79ffd72ad/?lang=hr",
       "source": "Mochvara",
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-08-04T05:01:13.042Z"
     },
     {
@@ -1244,7 +1244,7 @@
       "time": "20:30",
       "link": "https://www.muzika.hr/event/the-rumjacks-u-vintage-industrial-baru/",
       "source": "muzika.hr",
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-08-04T05:01:13.042Z"
     },
     {
@@ -2827,5 +2827,5 @@
       "first_seen": "2026-08-01T05:01:17.236Z"
     }
   ],
-  "new_count": 11
+  "new_count": 9
 }
