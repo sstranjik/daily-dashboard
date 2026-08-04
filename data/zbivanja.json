@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-08-04T14:01:19.042Z",
+  "generated_at": "2026-08-04T15:01:21.568Z",
   "stats": {
-    "muzika.hr": {
-      "ok": true,
-      "count": 25
-    },
     "Lisinski": {
+      "ok": true,
+      "count": 0
+    },
+    "Gavella": {
       "ok": true,
       "count": 0
     },
@@ -13,19 +13,19 @@
       "ok": true,
       "count": 14
     },
-    "Gavella": {
-      "ok": true,
-      "count": 0
-    },
     "Tvornica": {
       "ok": true,
       "count": 3
     },
-    "Komedija": {
+    "muzika.hr": {
+      "ok": true,
+      "count": 25
+    },
+    "ZeKaeM": {
       "ok": true,
       "count": 0
     },
-    "ZeKaeM": {
+    "Komedija": {
       "ok": true,
       "count": 0
     },
@@ -2825,7 +2825,22 @@
       "source": "muzika.hr",
       "is_new": false,
       "first_seen": "2026-08-01T05:01:17.236Z"
+    },
+    {
+      "id": "56e952fcc5",
+      "title": "The Amy Winehouse Band",
+      "venue": "Winehouse Band Dorćol Platz Dobračina 59",
+      "city": "Beograd",
+      "country": "RS",
+      "category": "concert",
+      "date_iso": "2026-09-11T00:00:00",
+      "date_display": "pet, 11. 09. 2026.",
+      "time": null,
+      "link": "https://www.muzika.hr/event/the-amy-winehouse-band/",
+      "source": "muzika.hr",
+      "is_new": true,
+      "first_seen": "2026-08-04T15:01:21.568Z"
     }
   ],
-  "new_count": 9
+  "new_count": 10
 }
