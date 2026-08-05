@@ -1,20 +1,20 @@
 {
   "version": 2,
-  "date": "2026-08-04",
-  "generated_at": "2026-08-04T07:35:39.167Z",
-  "date_hr": "Utorak, 4. kolovoza 2026.",
+  "date": "2026-08-05",
+  "generated_at": "2026-08-05T05:03:29.029Z",
+  "date_hr": "Srijeda, 5. kolovoza 2026.",
   "weather": {
-    "icon": "🌤️",
-    "summary": "23–38°C, djelomično oblačno",
+    "icon": "☀️",
+    "summary": "24–37°C, vedro",
     "alerts": [
       {
-        "level": "danger",
-        "text": "Opasna vrućina: 38°C"
+        "level": "warning",
+        "text": "Ekstremna vrućina: 37°C"
       }
     ]
   },
   "fuel": {
-    "current_date": "04.08.2026",
+    "current_date": "05.08.2026",
     "eurodiesel": [
       {
         "company": "Adria Oil",
@@ -48,19 +48,19 @@
       },
       {
         "company": "INA",
-        "price": 2.09
-      },
-      {
-        "company": "Petrol",
-        "price": 2.1
+        "price": 2.07
       },
       {
         "company": "Tifon",
         "price": 2.11
       },
       {
+        "company": "Petrol",
+        "price": 2.14
+      },
+      {
         "company": "Coral Croatia",
-        "price": 2.15
+        "price": 2.2
       }
     ],
     "upcoming_date": null,
@@ -68,46 +68,46 @@
     "upcoming_premium": null
   },
   "market": {
-    "updated_at": "2026-08-04T07:35:39.167Z",
-    "btc_usd": 63670,
-    "btc_eur": 55303,
-    "btc_change_24h": 1.67,
-    "usd_eur": 0.8687
+    "updated_at": "2026-08-05T05:03:29.029Z",
+    "btc_usd": 64114,
+    "btc_eur": 55573,
+    "btc_change_24h": 0.3,
+    "usd_eur": 0.8678
   },
   "ai_news": [
     {
-      "title": "Qwen3.8-Max arrives with a bold claim: it outperforms GPT-5.6 Sol Max and Fable 5 on agentic computer use",
-      "link": "https://venturebeat.com/technology/qwen3-8-max-arrives-with-a-bold-claim-it-outperforms-gpt-5-6-sol-max-and-fable-5-on-agentic-computer-use",
-      "source": "VentureBeat"
+      "title": "15 states want every record of the OpenAI agent that left itself notes on escaping its own controls",
+      "link": "https://thenextweb.com/news/openai-15-attorneys-general-preserve-evidence-hugging-face-hack",
+      "source": "The Next Web"
     },
     {
-      "title": "How to keep your conversations with ChatGPT, Gemini, Copilot or Claude as private as possible",
-      "link": "https://www.zdnet.com/article/how-to-keep-ai-conversations-private-chatgpt-gemini-copilot-claude/",
-      "source": "ZDNet"
+      "title": "Tko je odgovoran kad AI agenti provale u tuđe sustave? Odgovor nije jednostavan",
+      "link": "https://www.tportal.hr/tehno/clanak/tko-je-odgovoran-kad-ai-agenti-provale-u-tude-sustave-odgovor-nije-jednostavan-20260804",
+      "source": "Tportal"
     },
     {
-      "title": "Congress&#8217; favorite AI tool? ChatGPT",
-      "link": "https://techcrunch.com/2026/08/03/congresss-favorite-ai-tool-chatgpt/",
-      "source": "TechCrunch AI"
-    },
-    {
-      "title": "How Google used AI agents to find and fix 1,072 Chrome security bugs - in 60 days",
-      "link": "https://www.zdnet.com/article/google-used-ai-to-fix-1072-chrome-security-bugs-in-60-days/",
-      "source": "ZDNet"
-    },
-    {
-      "title": "China&#8217;s Alibaba takes another swipe at America’s AI supremacy",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/974342/alibaba-qwen-max-open-weight-ai",
+      "title": "OpenAI drags Apple’s lawsuit into the court of public opinion",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/974914/openai-blog-response-apple-lawsuit-messages",
       "source": "The Verge"
+    },
+    {
+      "title": "Congress hasn’t written AI’s rules yet. It already spends nine of every ten AI dollars with OpenAI.",
+      "link": "https://thenextweb.com/news/congress-chatgpt-ai-spending-openai-dominance-house",
+      "source": "The Next Web"
+    },
+    {
+      "title": "Anthropic signs $10B deal with AI cloud startup Volta",
+      "link": "https://techcrunch.com/2026/08/04/anthropic-signs-10-billion-deal-with-ai-cloud-startup-volta/",
+      "source": "TechCrunch AI"
     }
   ],
   "micro_tips": {
     "vscode": {
-      "tip": "Pomakni liniju gore ili dolje bez cut/paste",
-      "keys": "Alt+↑ / Alt+↓"
+      "tip": "Format Document (auto-format cijelog fajla)",
+      "keys": "Shift+Alt+F"
     },
-    "sql": "GROUP BY s ROLLUP za subtotale u jednom prolasku: GROUP BY ROLLUP(god, mj)",
-    "oracle": "TRUNC(datum_kolona) = TRUNC(SYSDATE) koristi B-tree index na datumskoj koloni",
-    "regex": "\\d{4}-\\d{2}-\\d{2} ISO datum pattern; za validaciju zatvori s ^...$"
+    "sql": "NOT EXISTS brži od NOT IN kad subquery može vratiti NULL vrijednost",
+    "oracle": "DBMS_STATS.GATHER_TABLE_STATS osvježava statistike za točniji execution plan",
+    "regex": "(?i) inline flag za case-insensitive bez mijenjanja ostatka patternahe"
   }
 }
