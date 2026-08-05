@@ -1,9 +1,69 @@
 {
-  "last_updated": "2026-08-05T19:09:51.750Z",
+  "last_updated": "2026-08-05T20:01:14.078Z",
   "source_count": 11,
   "items": [
     {
+      "id": "techcrunch-ai-0",
+      "title": "Jeff Dean and other top AI researchers are leaving Google to launch their own startup",
+      "summary": "The legendary Google executive is joined by other outgoing Google execs in a joint mission to use AI to push forward the process of scientific discovery.",
+      "link": "https://techcrunch.com/2026/08/05/jeff-dean-and-other-top-ai-researchers-are-leaving-google-to-launch-their-own-startup/",
+      "published": "2026-08-05T19:30:19.000Z",
+      "source": "TechCrunch AI",
+      "category": "ai",
+      "xml_category": "ai",
+      "tags": [],
+      "image": null
+    },
+    {
       "id": "the-next-web-0",
+      "title": "Yann LeCun’s second attempt at a VC fund lands with $100M and Gemini’s co-lead as a partner",
+      "summary": "Yann LeCun has found a VC fund that will actually launch. The Meta former chief AI scientist is joining 224 Ventures, a new firm that announced Wednesday with more than $100 million in assets under management. His co-partner is Oriol Vinyals, who until today served as Gemini’s co-technical lead at G",
+      "link": "https://thenextweb.com/news/yann-lecun-224-ventures-oriol-vinyals-ai-fund",
+      "published": "2026-08-05T19:21:38.000Z",
+      "source": "The Next Web",
+      "category": "ai",
+      "xml_category": "artificial intelligence",
+      "tags": [],
+      "image": "https://media.thenextweb.com/2026/08/yann-lecun-224-ventures-oriol-vinyals-ai-fund.avif"
+    },
+    {
+      "id": "zdnet-0",
+      "title": "This round mini PC is big on personality - here's why I recommend it",
+      "summary": "Small enough to slip into a backpack, Lenovo's Yoga Mini Gen 11 is a solid work PC with unique tricks up its sleeve.",
+      "link": "https://www.zdnet.com/article/lenovo-yoga-mini-gen-11-review/",
+      "published": "2026-08-05T19:20:00.000Z",
+      "source": "ZDNet",
+      "category": "general",
+      "xml_category": "",
+      "tags": [],
+      "image": null
+    },
+    {
+      "id": "the-next-web-1",
+      "title": "A startup that slashes AI agent bills just raised $35M. Anthropic is a backer.",
+      "summary": "Sapiom is a San Francisco startup that sits between AI agents and the models they run on. It has raised a $35 million Series A. Dragonfly led the round. It comes 11 months after the company launched, and six months after a $15 million seed led by Accel. That takes total funding to $50 million. [&hel",
+      "link": "https://thenextweb.com/news/sapiom-35m-series-a-ai-agent-cost-routing",
+      "published": "2026-08-05T19:06:03.000Z",
+      "source": "The Next Web",
+      "category": "ai",
+      "xml_category": "investors and funding",
+      "tags": [],
+      "image": "https://media.thenextweb.com/2026/08/Sapiom-series-A.avif"
+    },
+    {
+      "id": "the-next-web-2",
+      "title": "Google is cutting 52 jobs in Washington the same week it lost four star researchers",
+      "summary": "Google is laying off around 52 employees in Washington state, according to a WARN notice it filed on Wednesday and first reported by GeekWire. The letter gives no reason for the cuts. It says only that they are permanent, and that they are not the result of relocating or contracting work out of the ",
+      "link": "https://thenextweb.com/news/google-52-layoffs-washington-state-warn",
+      "published": "2026-08-05T18:48:40.000Z",
+      "source": "The Next Web",
+      "category": "science",
+      "xml_category": "future of work",
+      "tags": [],
+      "image": "https://media.thenextweb.com/2026/07/Google-logo.avif"
+    },
+    {
+      "id": "the-next-web-3",
       "title": "Anthropic built an inspection layer that lets enterprises block sensitive data before it reaches Claude",
       "summary": "Anthropic launched inference hooks for Claude Enterprise, a system that routes every prompt and tool call through a customer’s own security server before Claude processes anything. The company’s DLP server inspects the content and returns an allow or deny verdict. Claude only proceeds once it has on",
       "link": "https://thenextweb.com/news/anthropic-inference-hooks-dlp-claude-enterprise",
@@ -27,9 +87,9 @@
       "image": "https://images.ctfassets.net/jdtwqhzvc2n1/5IwdKCmPVOLnPwHjiXnBSH/8bf0c1fb63a64d9b11f56b7cb1ce707a/ChatGPT_Image_Aug_5__2026__12_54_37_PM.png?w=300&q=30"
     },
     {
-      "id": "the-next-web-1",
-      "title": "Reddit is replacing Automod with AI that reads intent, not keywords. Old Reddit’s days are numbered.",
-      "summary": "Reddit announced plans to replace core moderation infrastructure that has run the platform for years. The most significant change: Rules Hub, a new moderation system that uses large language models to evaluate whether posts and comments match the intent of a community rule, will eventually replace m",
+      "id": "the-next-web-4",
+      "title": "Reddit’s new Rules Hub uses AI to enforce moderation by intent, not keywords. Automod’s other features stay.",
+      "summary": "Reddit announced a new suite of moderation tools that will eventually replace Automod’s enforcement capabilities, not Automod itself. The centrepiece is Rules Hub, which uses large language models to evaluate whether posts and comments match the intent of a community rule. Together with newer system",
       "link": "https://thenextweb.com/news/reddit-automod-replacement-llm-old-reddit-api-changes",
       "published": "2026-08-05T17:58:38.000Z",
       "source": "The Next Web",
@@ -51,7 +111,7 @@
       "image": null
     },
     {
-      "id": "the-next-web-2",
+      "id": "the-next-web-5",
       "title": "Google named the new boss of Gemini 4. Both of Gemini’s co-leads quit the same day",
       "summary": "Sundar Pichai’s memo on Wednesday thanked Jeff Dean for “an incredible 27-year run” and said he was off to start a company with Sanjay Ghemawat. He posted the same two names on X. Discovery Loop’s website names four. The two Google skipped are Quoc Le, who co-founded Google Brain, and Oriol Vinyals,",
       "link": "https://thenextweb.com/news/google-deepmind-shakeup-hassabis-jeff-dean-vinyals-discovery-loop",
@@ -75,7 +135,7 @@
       "image": null
     },
     {
-      "id": "zdnet-0",
+      "id": "zdnet-1",
       "title": "I swapped my Bose and JBL speakers for this floating Turtlebox - and it's seriously tough",
       "summary": "Turtlebox returns with the Cub, proving that its smaller speakers can be just as durable and powerful as its larger ones.",
       "link": "https://www.zdnet.com/article/turtlebox-cub-review/",
@@ -87,7 +147,7 @@
       "image": null
     },
     {
-      "id": "the-next-web-3",
+      "id": "the-next-web-6",
       "title": "Google is killing Assistant on phones September 4. Gemini is the only option left.",
       "summary": "Google confirmed in emails to users that Assistant on Android phones will shut down starting September 4, forcing everyone to Gemini. The process may take several weeks to complete, so holdouts may get a brief extension, but the direction is final. The original plan was to retire Assistant in late 2",
       "link": "https://thenextweb.com/news/google-assistant-shutdown-september-4-gemini-replacement",
@@ -99,7 +159,7 @@
       "image": "https://media.thenextweb.com/2026/08/google-assistant-shutdown-september-4-gemini-replacement.avif"
     },
     {
-      "id": "zdnet-1",
+      "id": "zdnet-2",
       "title": "Hit by T-Mobile's outage? You can get up to $80 in credit - here's how",
       "summary": "T-Mobile customers affected by the outage in July have been requesting credit. Though $10 is standard, the more persistent you are, the more you may be able to get.",
       "link": "https://www.zdnet.com/article/t-mobile-outage-credit/",
@@ -111,7 +171,7 @@
       "image": null
     },
     {
-      "id": "zdnet-2",
+      "id": "zdnet-3",
       "title": "I ran a dumpstate analysis on my Android phone - 3 system diagnostics to check for free",
       "summary": "The hidden diagnostic file breaks down all the logging your Pixel, Samsung, or even Motorola does daily. Here's what you can learn from it.",
       "link": "https://www.zdnet.com/article/how-to-run-dumpstate-analysis-on-android-phone/",
@@ -123,7 +183,7 @@
       "image": null
     },
     {
-      "id": "the-next-web-4",
+      "id": "the-next-web-7",
       "title": "GPU prices are approaching 2.5x their launch cost. Asus and Gigabyte just made it official with a second 2026 price hike.",
       "summary": "Asus and Gigabyte have raised prices across their entire Nvidia RTX 50-series and AMD Radeon RX 9000 GPU lineups, the second round of increases this year. The biggest hit lands on the RTX 5090D V2, which received channel price increases of $592 from Gigabyte and $666 from Asus. The RTX 5080 rose $20",
       "link": "https://thenextweb.com/news/asus-gigabyte-rtx-50-gpu-price-hike-dram-crisis",
@@ -147,7 +207,7 @@
       "image": null
     },
     {
-      "id": "the-next-web-5",
+      "id": "the-next-web-8",
       "title": "The US wants Chinese optics out of its AI data centres. Amazon and Microsoft pay first.",
       "summary": "China’s two biggest optical module makers took a beating on Wednesday. Zhongji Innolight fell as much as 16%, according to the South China Morning Post. Bloomberg put the intraday drop at 14%. Eoptolink Technology slid with it. The trigger was a Reuters report that the FCC intends to halt imports of",
       "link": "https://thenextweb.com/news/fcc-optical-transceiver-ban-china-us-hyperscalers",
@@ -171,7 +231,7 @@
       "image": null
     },
     {
-      "id": "the-next-web-6",
+      "id": "the-next-web-9",
       "title": "Zoox will start charging for robotaxi rides in Las Vegas on August 10",
       "summary": "Amazon’s Zoox will begin charging for robotaxi rides in Las Vegas on August 10, the company confirmed on Wednesday. Fares will be calculated from a base price plus distance and time, with destination fees for trips to and from the airport. Zoox said pricing will be competitive with “comfort” tier ri",
       "link": "https://thenextweb.com/news/zoox-paid-robotaxi-las-vegas-august-10-fares",
@@ -267,7 +327,7 @@
       "image": "https://media.thenextweb.com/2026/06/tiktok-ai-slop-59-percent-new-users-kapwing-study.avif"
     },
     {
-      "id": "techcrunch-ai-0",
+      "id": "techcrunch-ai-1",
       "title": "Shopify says AI search is driving more traffic and sales, not replacing Google",
       "summary": "Shopify says AI isn’t cannibalizing search traffic the way it has for publishers. Instead, AI-driven traffic and orders to Shopify stores tripled year over year in Q2.",
       "link": "https://techcrunch.com/2026/08/05/shopify-says-ai-search-is-driving-more-traffic-and-sales-not-replacing-google/",
@@ -279,7 +339,7 @@
       "image": null
     },
     {
-      "id": "zdnet-3",
+      "id": "zdnet-4",
       "title": "Want a free Photoshop alternative on Linux? How to get Affinity today: 2 ways",
       "summary": "One method is easier, but the other gets you faster, more reliable performance.",
       "link": "https://www.zdnet.com/article/how-to-run-affinity-free-photoshop-alternative-on-linux/",
@@ -291,7 +351,7 @@
       "image": null
     },
     {
-      "id": "techcrunch-ai-1",
+      "id": "techcrunch-ai-2",
       "title": "Hark previews its browser use agent for completing tasks",
       "summary": "Hark claims that its browser use agent is faster and cheaper than competition.",
       "link": "https://techcrunch.com/2026/08/05/hark-previews-its-browser-use-agent-for-completing-tasks/",
@@ -351,7 +411,7 @@
       "image": "https://media.thenextweb.com/2026/05/Uber.avif"
     },
     {
-      "id": "techcrunch-ai-2",
+      "id": "techcrunch-ai-3",
       "title": "TechCrunch Disrupt 2026’s Real World AI Stage features robots, automated factories, and extinct animals",
       "summary": "On our new Real World AI stage, we’ll be focusing on the intersection between the digital and physical, and all the ways we’ll continue to see a blending of the two.",
       "link": "https://techcrunch.com/2026/08/05/techcrunch-disrupt-2026s-real-world-ai-stage-features-robots-automated-factories-and-extinct-animals/",
@@ -399,7 +459,7 @@
       "image": "https://www.tportal.hr/media/thumbnail/500x300/2723682.jpeg?cropId=0"
     },
     {
-      "id": "techcrunch-ai-3",
+      "id": "techcrunch-ai-4",
       "title": "Anthropic is hiring an AI chip design team",
       "summary": "Anthropic is building a team for designing its own custom AI chips. The Claude maker said it would co-design hardware and models to help its technology run faster and more efficiently.",
       "link": "https://techcrunch.com/2026/08/05/anthropic-is-hiring-an-ai-chip-design-team/",
@@ -459,7 +519,7 @@
       "image": null
     },
     {
-      "id": "zdnet-4",
+      "id": "zdnet-5",
       "title": "You're charging your phone all wrong: 6 common myths, debunked",
       "summary": "I fact-checked the internet's favorite battery tips, and most of them are horribly outdated.",
       "link": "https://www.zdnet.com/article/charging-phone-wrong-common-myths-debunked/",
@@ -507,7 +567,7 @@
       "image": "https://media.thenextweb.com/2026/07/AI-models.avif"
     },
     {
-      "id": "zdnet-5",
+      "id": "zdnet-6",
       "title": "This free Windows 11 tool can rescue your PC when things go wrong - here's how",
       "summary": "I create Windows 11 system restore points before most major changes - and you should, too. Here's why.",
       "link": "https://www.zdnet.com/article/how-to-create-windows-11-system-restore-points-for-backup-recovery/",
@@ -567,7 +627,7 @@
       "image": "https://autonet.bug.hr/img/zoox-dobio-odobrenje-za-komercijalnu-robotaksi-uslugu-u-sad-u_GsrvOe.jpg"
     },
     {
-      "id": "zdnet-6",
+      "id": "zdnet-7",
       "title": "I've dictated over 120,000 words with my voice - these are my 3 favorite tools (and one is free)",
       "summary": "I tested today's leading AI voice tools to find which delivers the best accuracy, privacy, corrections, and everyday productivity without slowing down real work.",
       "link": "https://www.zdnet.com/article/my-favorite-tools-for-voice-prompting-ai-dictation/",
@@ -591,7 +651,7 @@
       "image": "https://media.thenextweb.com/2026/08/legabot-ai-autonomous-football-league-247.avif"
     },
     {
-      "id": "zdnet-7",
+      "id": "zdnet-8",
       "title": "Desktop Linux just cracked 10% market share - and Windows 11 is mostly to blame",
       "summary": "Windows is in decline, and both Macs and Linux are gaining ground at its expense.",
       "link": "https://www.zdnet.com/article/the-linux-desktop-finally-cracks-the-10-market-share-barrier/",
@@ -615,7 +675,7 @@
       "image": "https://media.thenextweb.com/2016/03/Google-Data-Center.avif"
     },
     {
-      "id": "techcrunch-ai-4",
+      "id": "techcrunch-ai-5",
       "title": "MacPaw taps Liquid AI to offer on-device inference to devs building for its app store",
       "summary": "MacPaw is building a local version of its AI assistant Eney using Liquid AI's models.",
       "link": "https://techcrunch.com/2026/08/05/macpaw-taps-liquid-ai-to-offer-on-device-inference-to-devs-building-for-its-app-store/",
@@ -711,7 +771,7 @@
       "image": "https://media.thenextweb.com/2026/08/Ekrem-Imamoglu.avif"
     },
     {
-      "id": "techcrunch-ai-5",
+      "id": "techcrunch-ai-6",
       "title": "AI makes weather prediction better. Can WindBorne make it lucrative?",
       "summary": "WindBorne Systems has raised a $37 million Series B round to scale its weather balloons and AI forecasts.",
       "link": "https://techcrunch.com/2026/08/05/ai-makes-weather-prediction-better-can-windborne-make-it-lucrative/",
@@ -795,7 +855,7 @@
       "image": "https://www.bug.hr/img/amazon-premasio-trzisnu-vrijednost-od-3-bilijuna-dolara_z_7J50.png"
     },
     {
-      "id": "zdnet-8",
+      "id": "zdnet-9",
       "title": "The best 98-inch TVs of 2026: Expert tested",
       "summary": "Create the ultimate movie theater experience at home with 98-inch TVs from Hisense, Samsung, and more.",
       "link": "https://www.zdnet.com/article/best-98-inch-tv/",
@@ -855,7 +915,7 @@
       "image": "https://autonet.bug.hr/img/ova-honda-iz-1974-dobila-je-elektricni-pogon-i-to-bez-gubitka-sarma_H5U1pK.jpeg"
     },
     {
-      "id": "zdnet-9",
+      "id": "zdnet-10",
       "title": "Need to run Windows or Android apps on Linux? This new release makes it easy",
       "summary": "If you're looking to use Linux but want an easy path to install and use both Windows and Android apps, AnduinOS is a great choice.",
       "link": "https://www.zdnet.com/article/the-latest-release-of-anduinos-makes-running-windows-and-android-apps-on-linux-easy/",
@@ -1155,7 +1215,7 @@
       "image": null
     },
     {
-      "id": "techcrunch-ai-6",
+      "id": "techcrunch-ai-7",
       "title": "SpaceX has bought $329M worth of Tesla Megapacks so far this year",
       "summary": "The purchase illustrates just how interconnected Elon Musk's universe of companies are.",
       "link": "https://techcrunch.com/2026/08/04/spacex-has-bought-329m-worth-of-tesla-megapacks-so-far-this-year/",
@@ -1215,7 +1275,7 @@
       "image": null
     },
     {
-      "id": "techcrunch-ai-7",
+      "id": "techcrunch-ai-8",
       "title": "Open-weight AI models are catching up to the frontier. The safety gap remains.",
       "summary": "A new SaferAI report finds Z.ai's open-weight GLM-5.2 approaches frontier AI capabilities while lacking key safety mitigations, renewing concerns that powerful open models could outpace governance and safeguards.",
       "link": "https://techcrunch.com/2026/08/04/open-weight-ai-models-are-catching-up-to-the-frontier-the-safety-gap-remains/",
@@ -1223,66 +1283,6 @@
       "source": "TechCrunch AI",
       "category": "ai",
       "xml_category": "ai",
-      "tags": [],
-      "image": null
-    },
-    {
-      "id": "the-next-web-9",
-      "title": "Cracken opens self-serve access to its AI-powered offensive cybersecurity platform",
-      "summary": "Cracken, a San Francisco-based applied AI lab focused on offensive cybersecurity, has launched a self-serve version of its proactive security platform. Enterprise security teams and individual practitioners can now create an account and start testing their own organisations against real attack paths",
-      "link": "https://thenextweb.com/news/cracken-self-serve-proactive-cybersecurity-platform",
-      "published": "2026-08-04T19:57:45.000Z",
-      "source": "The Next Web",
-      "category": "ai",
-      "xml_category": "artificial intelligence",
-      "tags": [],
-      "image": "https://media.thenextweb.com/2026/08/cracken-self-serve-proactive-cybersecurity-platform.avif"
-    },
-    {
-      "id": "techcrunch-ai-8",
-      "title": "Anthropic signs $10B deal with AI cloud startup Volta",
-      "summary": "Anthropic has been on a cloud partnership spree in recent months, and its latest move is reportedly a $10 billion deal with AI cloud startup Volta.",
-      "link": "https://techcrunch.com/2026/08/04/anthropic-signs-10-billion-deal-with-ai-cloud-startup-volta/",
-      "published": "2026-08-04T19:48:40.000Z",
-      "source": "TechCrunch AI",
-      "category": "ai",
-      "xml_category": "ai",
-      "tags": [],
-      "image": null
-    },
-    {
-      "id": "techcrunch-ai-9",
-      "title": "Meet Wrinkles, an app that uncovers the hidden stories of the places around you",
-      "summary": "Wrinkles, available on both iOS and Android, essentially acts as an AI-powered audio tour guide that reveals hidden history and local stories.",
-      "link": "https://techcrunch.com/2026/08/04/meet-wrinkles-an-ai-app-that-uncovers-the-hidden-stories-of-the-places-around-you/",
-      "published": "2026-08-04T19:34:34.000Z",
-      "source": "TechCrunch AI",
-      "category": "tech",
-      "xml_category": "ai",
-      "tags": [],
-      "image": null
-    },
-    {
-      "id": "techcrunch-ai-10",
-      "title": "Nvidia doesn&#8217;t mess around: A week after open AI industry group formed, it&#8217;s already showing progress",
-      "summary": "The week-old Open Secure AI Alliance, spearheaded by Nvidia and grown to over 120 companies, already has proposals out for defending against AI agents.",
-      "link": "https://techcrunch.com/2026/08/04/nvidia-doesnt-mess-around-a-week-after-open-ai-industry-group-formed-its-already-showing-progress/",
-      "published": "2026-08-04T19:28:49.000Z",
-      "source": "TechCrunch AI",
-      "category": "ai",
-      "xml_category": "ai",
-      "tags": [],
-      "image": null
-    },
-    {
-      "id": "the-verge-8",
-      "title": "Telegram CEO says an extortionist planted CSAM in a chat to get it pulled from the App Store",
-      "summary": "Telegram CEO Pavel Durov blames an extortionist for planting child sexual abuse material (CSAM) in a public chat to get the app temporarily removed from Apple's App Store on Monday night. \"Apple removed Telegram from the App Store before contacting us,\" Durov says in a post on X. \"This creates a pot",
-      "link": "https://www.theverge.com/tech/975300/telegram-app-store-takedown-extortion-pavel-durov",
-      "published": "2026-08-04T19:11:05.000Z",
-      "source": "The Verge",
-      "category": "tech",
-      "xml_category": "[object object]",
       "tags": [],
       "image": null
     }
