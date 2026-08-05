@@ -1,7 +1,19 @@
 {
-  "last_updated": "2026-08-05T18:01:18.308Z",
+  "last_updated": "2026-08-05T19:01:12.587Z",
   "source_count": 11,
   "items": [
+    {
+      "id": "the-next-web-0",
+      "title": "Anthropic built an inspection layer that lets enterprises block sensitive data before it reaches Claude",
+      "summary": "Anthropic launched inference hooks for Claude Enterprise, a system that routes every prompt and tool call through a customer’s own security server before Claude processes anything. The company’s DLP server inspects the content and returns an allow or deny verdict. Claude only proceeds once it has on",
+      "link": "https://thenextweb.com/news/anthropic-inference-hooks-dlp-claude-enterprise",
+      "published": "2026-08-05T18:35:05.000Z",
+      "source": "The Next Web",
+      "category": "ai",
+      "xml_category": "anthropic",
+      "tags": [],
+      "image": "https://media.thenextweb.com/2026/08/anthropic-inference-hooks-dlp-claude-enterprise.avif"
+    },
     {
       "id": "venturebeat-0",
       "title": "Claude Mythos 5 made sock puppet accounts to socially engineer developers: here's what enterprises should know",
@@ -13,6 +25,18 @@
       "xml_category": "security",
       "tags": [],
       "image": "https://images.ctfassets.net/jdtwqhzvc2n1/5IwdKCmPVOLnPwHjiXnBSH/8bf0c1fb63a64d9b11f56b7cb1ce707a/ChatGPT_Image_Aug_5__2026__12_54_37_PM.png?w=300&q=30"
+    },
+    {
+      "id": "the-next-web-1",
+      "title": "Reddit is replacing Automod with AI that reads intent, not keywords. Old Reddit’s days are numbered.",
+      "summary": "Reddit announced plans to replace core moderation infrastructure that has run the platform for years. The most significant change: Rules Hub, a new moderation system that uses large language models to evaluate whether posts and comments match the intent of a community rule, will eventually replace m",
+      "link": "https://thenextweb.com/news/reddit-automod-replacement-llm-old-reddit-api-changes",
+      "published": "2026-08-05T17:58:38.000Z",
+      "source": "The Next Web",
+      "category": "ai",
+      "xml_category": "apps",
+      "tags": [],
+      "image": "https://media.thenextweb.com/2026/08/reddit-automod-replacement-llm-old-reddit-api-changes.avif"
     },
     {
       "id": "the-verge-0",
@@ -27,7 +51,7 @@
       "image": null
     },
     {
-      "id": "the-next-web-0",
+      "id": "the-next-web-2",
       "title": "Google named the new boss of Gemini 4. Both of Gemini’s co-leads quit the same day",
       "summary": "Sundar Pichai’s memo on Wednesday thanked Jeff Dean for “an incredible 27-year run” and said he was off to start a company with Sanjay Ghemawat. He posted the same two names on X. Discovery Loop’s website names four. The two Google skipped are Quoc Le, who co-founded Google Brain, and Oriol Vinyals,",
       "link": "https://thenextweb.com/news/google-deepmind-shakeup-hassabis-jeff-dean-vinyals-discovery-loop",
@@ -63,7 +87,7 @@
       "image": null
     },
     {
-      "id": "the-next-web-1",
+      "id": "the-next-web-3",
       "title": "Google is killing Assistant on phones September 4. Gemini is the only option left.",
       "summary": "Google confirmed in emails to users that Assistant on Android phones will shut down starting September 4, forcing everyone to Gemini. The process may take several weeks to complete, so holdouts may get a brief extension, but the direction is final. The original plan was to retire Assistant in late 2",
       "link": "https://thenextweb.com/news/google-assistant-shutdown-september-4-gemini-replacement",
@@ -99,7 +123,7 @@
       "image": null
     },
     {
-      "id": "the-next-web-2",
+      "id": "the-next-web-4",
       "title": "GPU prices are approaching 2.5x their launch cost. Asus and Gigabyte just made it official with a second 2026 price hike.",
       "summary": "Asus and Gigabyte have raised prices across their entire Nvidia RTX 50-series and AMD Radeon RX 9000 GPU lineups, the second round of increases this year. The biggest hit lands on the RTX 5090D V2, which received channel price increases of $592 from Gigabyte and $666 from Asus. The RTX 5080 rose $20",
       "link": "https://thenextweb.com/news/asus-gigabyte-rtx-50-gpu-price-hike-dram-crisis",
@@ -123,7 +147,7 @@
       "image": null
     },
     {
-      "id": "the-next-web-3",
+      "id": "the-next-web-5",
       "title": "The US wants Chinese optics out of its AI data centres. Amazon and Microsoft pay first.",
       "summary": "China’s two biggest optical module makers took a beating on Wednesday. Zhongji Innolight fell as much as 16%, according to the South China Morning Post. Bloomberg put the intraday drop at 14%. Eoptolink Technology slid with it. The trigger was a Reuters report that the FCC intends to halt imports of",
       "link": "https://thenextweb.com/news/fcc-optical-transceiver-ban-china-us-hyperscalers",
@@ -147,7 +171,7 @@
       "image": null
     },
     {
-      "id": "the-next-web-4",
+      "id": "the-next-web-6",
       "title": "Zoox will start charging for robotaxi rides in Las Vegas on August 10",
       "summary": "Amazon’s Zoox will begin charging for robotaxi rides in Las Vegas on August 10, the company confirmed on Wednesday. Fares will be calculated from a base price plus distance and time, with destination fees for trips to and from the airport. Zoox said pricing will be competitive with “comfort” tier ri",
       "link": "https://thenextweb.com/news/zoox-paid-robotaxi-las-vegas-august-10-fares",
@@ -231,7 +255,7 @@
       "image": null
     },
     {
-      "id": "the-next-web-5",
+      "id": "the-next-web-7",
       "title": "TikTok kept a safety fix from 15 million US users “by design,” a sealed document shows. One was a teenager who died.",
       "summary": "In 2021, TikTok changed its algorithm to stop users being flooded with harmful content. But it did not give the safer version to everyone. It held 10% of US users on the old version, about 15 million people at the time. It wanted to test whether the safer feed was less addictive. That is according [",
       "link": "https://thenextweb.com/news/tiktok-withheld-safety-feature-control-group-document",
@@ -279,7 +303,7 @@
       "image": null
     },
     {
-      "id": "the-next-web-6",
+      "id": "the-next-web-8",
       "title": "An AI agent faked identities to plant malware. The same day, OpenAI disclosed two more of its models escaping tests.",
       "summary": "An AI agent researched real developers, invented fake identities, and used them to pressure a human into approving malware. It was the most alarming case the UK’s AI Security Institute found in a safety test. “This is the first time we have seen risks around autonomy and deception manifest this clea",
       "link": "https://thenextweb.com/news/rogue-ai-agents-escape-tests-aisi-openai-anthropic-mythos",
@@ -315,7 +339,7 @@
       "image": null
     },
     {
-      "id": "the-next-web-7",
+      "id": "the-next-web-9",
       "title": "Uber says it’s building “the world’s largest platform for autonomous vehicles.” Its stock fell anyway.",
       "summary": "Uber wants to own the robotaxi era without building the cars. “Building a great autonomous driver is one part of building a successful autonomous business,” chief executive Dara Khosrowshahi told analysts on Wednesday. He then listed the rest: dispatch, fleet operations, charging, insurance and regu",
       "link": "https://thenextweb.com/news/uber-q2-earnings-robotaxi-waymo-wayve-london",
@@ -1259,114 +1283,6 @@
       "source": "The Verge",
       "category": "tech",
       "xml_category": "[object object]",
-      "tags": [],
-      "image": null
-    },
-    {
-      "id": "the-next-web-7",
-      "title": "Microsoft tells employees to stop tokenmaxxing, sets division-level AI budgets",
-      "summary": "Microsoft executive vice president Jay Parikh has told employees in an internal email that the company needs to rein in its AI token consumption, writing that “tokenmaxxing is not what we are optimizing for.” The message, first reported by 404 Media, reveals that Microsoft has switched its default i",
-      "link": "https://thenextweb.com/news/microsoft-tokenmaxxing-ai-spending-limits",
-      "published": "2026-08-04T18:47:28.000Z",
-      "source": "The Next Web",
-      "category": "ai",
-      "xml_category": "artificial intelligence",
-      "tags": [],
-      "image": "https://media.thenextweb.com/2026/08/microsoft-tokenmaxxing-ai-spending-limits.avif"
-    },
-    {
-      "id": "the-next-web-8",
-      "title": "Jeff Bezos files to sell roughly $4 billion in Amazon shares after stock hits $3 trillion",
-      "summary": "Jeff Bezos has filed to sell 15 million shares of Amazon common stock, a stake worth roughly four billion dollars based on the company’s closing price on Monday. The filing, a Form 144 submitted to the Securities and Exchange Commission, disclosed that the sales would be executed through Morgan Stan",
-      "link": "https://thenextweb.com/news/bezos-4-billion-amazon-share-sale",
-      "published": "2026-08-04T18:32:11.000Z",
-      "source": "The Next Web",
-      "category": "economy",
-      "xml_category": "amazon",
-      "tags": [],
-      "image": "https://media.thenextweb.com/2026/08/bezos-4-billion-amazon-share-sale.avif"
-    },
-    {
-      "id": "the-next-web-9",
-      "title": "Zillow calls itself “AI-native.” It just cut 500 jobs and won’t say whether AI was the reason.",
-      "summary": "Zillow laid off more than 500 people on Tuesday, about 7% of its staff and its largest cut of the year. The Seattle property company made the move one day before it reports quarterly earnings. It has spent the year telling investors it is becoming an “AI-native” company. It will not say whether AI h",
-      "link": "https://thenextweb.com/news/zillow-500-layoffs-largest-of-year-ai-native",
-      "published": "2026-08-04T18:26:30.000Z",
-      "source": "The Next Web",
-      "category": "ai",
-      "xml_category": "future of work",
-      "tags": [],
-      "image": "https://media.thenextweb.com/2026/08/zillow-logo.avif"
-    },
-    {
-      "id": "the-next-web-6",
-      "title": "Deel acquires deepfake-detection startup Clarity as fake hire problem grows",
-      "summary": "Deel, the global HR and payroll platform, has acquired Clarity, a Tel Aviv-based AI cybersecurity startup that detects deepfakes and verifies identities in real time. The deal, reportedly worth between $45 million and $50 million in a mix of cash and shares, is Deel’s 15th acquisition and its first ",
-      "link": "https://thenextweb.com/news/deel-acquires-clarity-deepfake-detection",
-      "published": "2026-08-04T18:22:01.000Z",
-      "source": "The Next Web",
-      "category": "tech",
-      "xml_category": "artificial intelligence",
-      "tags": [],
-      "image": "https://media.thenextweb.com/2026/08/deel-acquires-clarity-deepfake-detection.avif"
-    },
-    {
-      "id": "the-next-web-7",
-      "title": "The student “AI revolt” is mostly a myth. Business students just want to be taught how to use it.",
-      "summary": "The boos at last spring’s graduations suggested a student revolt against AI. The data points the other way. Among business students at one Washington school, regular AI use has quietly become the norm, and the loudest demand is not to ban it but to teach it. The figures come from a three-year survey",
-      "link": "https://thenextweb.com/news/college-ai-use-spikes-kogod-survey-students",
-      "published": "2026-08-04T18:16:16.000Z",
-      "source": "The Next Web",
-      "category": "ai",
-      "xml_category": "artificial intelligence",
-      "tags": [],
-      "image": "https://media.thenextweb.com/2026/06/ai-cheating-tools-detectors-students-schools.avif"
-    },
-    {
-      "id": "zdnet-10",
-      "title": "Marshall Stanmore IV vs. Sonos Era 300: I tested both to find the ultimate home speaker",
-      "summary": "Both Marshall and Sonos speakers play to their strengths, but the right one for you depends on more than their price tags.",
-      "link": "https://www.zdnet.com/article/marshall-stanmore-4-vs-sonos-era-300/",
-      "published": "2026-08-04T18:13:00.000Z",
-      "source": "ZDNet",
-      "category": "space",
-      "xml_category": "",
-      "tags": [],
-      "image": null
-    },
-    {
-      "id": "the-next-web-8",
-      "title": "Amsterdam startup Ore Energy raises $43 million to build iron-air batteries that store power for days",
-      "summary": "Ore Energy, an Amsterdam-based startup building grid-scale iron-air batteries, has raised $43 million in Series A funding to scale a technology that can store renewable electricity for up to 100 hours. The round was led by Plural and HV, with participation from Positron Ventures, bringing the compan",
-      "link": "https://thenextweb.com/news/ore-energy-43m-iron-air-battery-series-a",
-      "published": "2026-08-04T18:11:06.000Z",
-      "source": "The Next Web",
-      "category": "ai",
-      "xml_category": "investors and funding",
-      "tags": [],
-      "image": "https://media.thenextweb.com/2026/08/ore-energy-43m-iron-air-battery-series-a.avif"
-    },
-    {
-      "id": "the-next-web-9",
-      "title": "A gang stole £14,244 to buy AI chatbot credits. His bank spotted the first charge and let the rest happen.",
-      "summary": "A businessman in Sussex watched £14,244 drain out of his Metro Bank account. The money went on credits for Claude, the AI chatbot he already paid to use. Two things failed at once. Criminals had turned a chatbot into a way to cash out stolen cards. And his bank spotted the first fraudulent charge, w",
-      "link": "https://thenextweb.com/news/metro-bank-claude-credits-fraud-14000-refund",
-      "published": "2026-08-04T18:03:11.000Z",
-      "source": "The Next Web",
-      "category": "ai",
-      "xml_category": "data and security",
-      "tags": [],
-      "image": "https://media.thenextweb.com/2026/06/anthropic-mythos-eu-enisa-cybersecurity-access.avif"
-    },
-    {
-      "id": "zdnet-11",
-      "title": "15+ gadgets that can upgrade your dorm room from basic to better",
-      "summary": "We rounded up all the best tech essentials for a college dorm you may need this back-to-school season, from smart speakers to wireless chargers.",
-      "link": "https://www.zdnet.com/article/everything-you-need-for-a-college-dorm-2026/",
-      "published": "2026-08-04T18:01:50.000Z",
-      "source": "ZDNet",
-      "category": "general",
-      "xml_category": "",
       "tags": [],
       "image": null
     }
