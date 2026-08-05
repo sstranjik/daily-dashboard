@@ -1,19 +1,19 @@
 {
-  "generated_at": "2026-08-05T05:01:15.586Z",
+  "generated_at": "2026-08-05T06:01:15.931Z",
   "stats": {
-    "Mochvara": {
+    "muzika.hr": {
       "ok": true,
-      "count": 0
-    },
-    "Pogon": {
-      "ok": true,
-      "count": 0
-    },
-    "Lisinski": {
-      "ok": true,
-      "count": 0
+      "count": 25
     },
     "Gavella": {
+      "ok": true,
+      "count": 0
+    },
+    "Mochvara": {
+      "ok": true,
+      "count": 14
+    },
+    "Lisinski": {
       "ok": true,
       "count": 0
     },
@@ -21,11 +21,11 @@
       "ok": true,
       "count": 3
     },
-    "ZeKaeM": {
+    "Komedija": {
       "ok": true,
       "count": 0
     },
-    "Kerempuh": {
+    "Pogon": {
       "ok": true,
       "count": 0
     },
@@ -37,17 +37,13 @@
       "ok": true,
       "count": 0
     },
-    "muzika.hr": {
-      "ok": true,
-      "count": 25
+    "ZeKaeM": {
+      "ok": false,
+      "error": "fetch failed"
     },
-    "Komedija": {
-      "ok": true,
-      "count": 0
-    },
-    "HNK Zagreb": {
-      "ok": true,
-      "count": 70
+    "Kerempuh": {
+      "ok": false,
+      "error": "fetch failed"
     }
   },
   "concerts": [
@@ -1248,7 +1244,7 @@
       "time": null,
       "link": "https://www.muzika.hr/event/idem-salata-zagreb/",
       "source": "muzika.hr",
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-08-05T05:01:15.586Z"
     },
     {
@@ -2831,5 +2827,5 @@
       "first_seen": "2026-08-04T15:01:21.568Z"
     }
   ],
-  "new_count": 10
+  "new_count": 9
 }
