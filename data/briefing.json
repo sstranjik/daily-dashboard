@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "date": "2026-08-05",
-  "generated_at": "2026-08-05T07:36:32.494Z",
-  "date_hr": "Srijeda, 5. kolovoza 2026.",
+  "date": "2026-08-06",
+  "generated_at": "2026-08-06T05:02:58.715Z",
+  "date_hr": "Četvrtak, 6. kolovoza 2026.",
   "weather": {
-    "icon": "☀️",
-    "summary": "24–37°C, vedro",
+    "icon": "🌤️",
+    "summary": "23–37°C, pretežno vedro",
     "alerts": [
       {
         "level": "warning",
@@ -14,7 +14,7 @@
     ]
   },
   "fuel": {
-    "current_date": "05.08.2026",
+    "current_date": "06.08.2026",
     "eurodiesel": [
       {
         "company": "Adria Oil",
@@ -68,46 +68,46 @@
     "upcoming_premium": null
   },
   "market": {
-    "updated_at": "2026-08-05T07:36:32.494Z",
-    "btc_usd": 64023,
-    "btc_eur": 55506,
-    "btc_change_24h": 0.6,
-    "usd_eur": 0.8678
+    "updated_at": "2026-08-06T05:02:58.715Z",
+    "btc_usd": 64674,
+    "btc_eur": 55999,
+    "btc_change_24h": 0.83,
+    "usd_eur": 0.8657
   },
   "ai_news": [
     {
-      "title": "15 states want every record of the OpenAI agent that left itself notes on escaping its own controls",
-      "link": "https://thenextweb.com/news/openai-15-attorneys-general-preserve-evidence-hugging-face-hack",
-      "source": "The Next Web"
+      "title": "Meta enters the AI coding wars with Muse Spark 1.2 and Muse Code with persistent async background agents",
+      "link": "https://venturebeat.com/orchestration/meta-enters-the-ai-coding-wars-with-muse-spark-1-2-and-muse-code-with-persistent-async-background-agents",
+      "source": "VentureBeat"
     },
     {
-      "title": "Tko je odgovoran kad AI agenti provale u tuđe sustave? Odgovor nije jednostavan",
-      "link": "https://www.tportal.hr/tehno/clanak/tko-je-odgovoran-kad-ai-agenti-provale-u-tude-sustave-odgovor-nije-jednostavan-20260804",
-      "source": "Tportal"
+      "title": "Claude Mythos 5 made sock puppet accounts to socially engineer developers: here's what enterprises should know",
+      "link": "https://venturebeat.com/security/claude-mythos-5-made-sock-puppet-accounts-to-socially-engineer-developers-heres-what-enterprises-should-know",
+      "source": "VentureBeat"
     },
     {
-      "title": "OpenAI drags Apple’s lawsuit into the court of public opinion",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/974914/openai-blog-response-apple-lawsuit-messages",
+      "title": "Rogue AI agents created fake online identities in another hacking attempt",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/975577/aisi-openai-anthropic-agent-hacking",
       "source": "The Verge"
     },
     {
-      "title": "Congress hasn’t written AI’s rules yet. It already spends nine of every ten AI dollars with OpenAI.",
-      "link": "https://thenextweb.com/news/congress-chatgpt-ai-spending-openai-dominance-house",
+      "title": "Anthropic confirmed it is designing custom chips for Claude. It wants engineers who have “shipped silicon.”",
+      "link": "https://thenextweb.com/news/anthropic-in-house-chip-team-custom-silicon-claude",
       "source": "The Next Web"
     },
     {
-      "title": "Anthropic signs $10B deal with AI cloud startup Volta",
-      "link": "https://techcrunch.com/2026/08/04/anthropic-signs-10-billion-deal-with-ai-cloud-startup-volta/",
-      "source": "TechCrunch AI"
+      "title": "A startup that slashes AI agent bills just raised $35M. Anthropic is a backer.",
+      "link": "https://thenextweb.com/news/sapiom-35m-series-a-ai-agent-cost-routing",
+      "source": "The Next Web"
     }
   ],
   "micro_tips": {
     "vscode": {
-      "tip": "Format Document (auto-format cijelog fajla)",
-      "keys": "Shift+Alt+F"
+      "tip": "Go to Definition simbola",
+      "keys": "F12"
     },
-    "sql": "NOT EXISTS brži od NOT IN kad subquery može vratiti NULL vrijednost",
-    "oracle": "DBMS_STATS.GATHER_TABLE_STATS osvježava statistike za točniji execution plan",
-    "regex": "(?i) inline flag za case-insensitive bez mijenjanja ostatka patternahe"
+    "sql": "Parametrizirani upiti = plan cache reuse + SQL injection zaštita istovremeno",
+    "oracle": "NVL2(expr, kad_nije_null, kad_je_null) kompaktnija od dvostrukog NVL-a",
+    "regex": "\\s+ pokriva space, tab i newline; \\S je negacija (svaki ne-whitespace)"
   }
 }
