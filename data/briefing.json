@@ -1,20 +1,15 @@
 {
   "version": 2,
-  "date": "2026-08-06",
-  "generated_at": "2026-08-06T07:37:31.989Z",
-  "date_hr": "Četvrtak, 6. kolovoza 2026.",
+  "date": "2026-08-07",
+  "generated_at": "2026-08-07T05:03:11.232Z",
+  "date_hr": "Petak, 7. kolovoza 2026.",
   "weather": {
-    "icon": "🌤️",
-    "summary": "23–37°C, pretežno vedro",
-    "alerts": [
-      {
-        "level": "warning",
-        "text": "Ekstremna vrućina: 37°C"
-      }
-    ]
+    "icon": "☁️",
+    "summary": "26–33°C, oblačno",
+    "alerts": []
   },
   "fuel": {
-    "current_date": "06.08.2026",
+    "current_date": "07.08.2026",
     "eurodiesel": [
       {
         "company": "Adria Oil",
@@ -68,46 +63,46 @@
     "upcoming_premium": null
   },
   "market": {
-    "updated_at": "2026-08-06T07:37:31.989Z",
-    "btc_usd": 64811,
-    "btc_eur": 56138,
-    "btc_change_24h": 1.24,
-    "usd_eur": 0.8657
+    "updated_at": "2026-08-07T05:03:11.232Z",
+    "btc_usd": 64194,
+    "btc_eur": 55707,
+    "btc_change_24h": -0.77,
+    "usd_eur": 0.8673
   },
   "ai_news": [
     {
-      "title": "Meta enters the AI coding wars with Muse Spark 1.2 and Muse Code with persistent async background agents",
-      "link": "https://venturebeat.com/orchestration/meta-enters-the-ai-coding-wars-with-muse-spark-1-2-and-muse-code-with-persistent-async-background-agents",
+      "title": "Mogu li države ‘otrovati’ umjetnu inteligenciju? Otkrivena velika operacija vezana uz rat u Gazi",
+      "link": "https://www.tportal.hr/tehno/clanak/mogu-li-drzave-otrovati-umjetnu-inteligenciju-otkrivena-velika-operacija-vezana-uz-rat-u-gazi-20260806",
+      "source": "Tportal"
+    },
+    {
+      "title": "No cloud, no GPUs, no problem: Liquid AI's new model LFM2.5-2.6B brings powerful AI agents to devices as small as a Raspberry Pi",
+      "link": "https://venturebeat.com/technology/no-cloud-no-gpus-no-problem-liquid-ais-new-model-lfm2-5-2-6b-brings-powerful-ai-agents-to-devices-as-small-as-a-raspberry-pi",
       "source": "VentureBeat"
     },
     {
-      "title": "Claude Mythos 5 made sock puppet accounts to socially engineer developers: here's what enterprises should know",
-      "link": "https://venturebeat.com/security/claude-mythos-5-made-sock-puppet-accounts-to-socially-engineer-developers-heres-what-enterprises-should-know",
-      "source": "VentureBeat"
+      "title": "ChatGPT brings unlimited text chats to free users",
+      "link": "https://techcrunch.com/2026/08/06/openai-brings-unlimited-chatgpt-text-chats-to-free-users/",
+      "source": "TechCrunch AI"
     },
     {
-      "title": "Rogue AI agents created fake online identities in another hacking attempt",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/975577/aisi-openai-anthropic-agent-hacking",
+      "title": "OpenAI is giving ChatGPT free users unlimited text chats",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/976239/openai-chatgpt-free-go-text-chats",
       "source": "The Verge"
     },
     {
-      "title": "Anthropic confirmed it is designing custom chips for Claude. It wants engineers who have “shipped silicon.”",
-      "link": "https://thenextweb.com/news/anthropic-in-house-chip-team-custom-silicon-claude",
-      "source": "The Next Web"
-    },
-    {
-      "title": "A startup that slashes AI agent bills just raised $35M. Anthropic is a backer.",
-      "link": "https://thenextweb.com/news/sapiom-35m-series-a-ai-agent-cost-routing",
+      "title": "OpenAI’s AI models coordinated a months-long breakout to hack Hugging Face",
+      "link": "https://thenextweb.com/news/openai-agents-coordinated-hugging-face-hack-black-hat",
       "source": "The Next Web"
     }
   ],
   "micro_tips": {
     "vscode": {
-      "tip": "Go to Definition simbola",
-      "keys": "F12"
+      "tip": "Peek Definition bez napuštanja fajla",
+      "keys": "Alt+F12"
     },
-    "sql": "Parametrizirani upiti = plan cache reuse + SQL injection zaštita istovremeno",
-    "oracle": "NVL2(expr, kad_nije_null, kad_je_null) kompaktnija od dvostrukog NVL-a",
-    "regex": "\\s+ pokriva space, tab i newline; \\S je negacija (svaki ne-whitespace)"
+    "sql": "Batch INSERT umjesto jednog-po-jednog: INSERT INTO t VALUES (...),(...),...",
+    "oracle": "FETCH FIRST n ROWS ONLY umjesto ROWNUM — kompatibilno s ORDER BY i čitljivije",
+    "regex": "^(?!.*pattern) negative lookahead: \"ova linija ne smije sadržavati X\""
   }
 }
