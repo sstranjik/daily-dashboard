@@ -1,10 +1,6 @@
 {
-  "generated_at": "2026-08-07T11:36:09.159Z",
+  "generated_at": "2026-08-07T12:01:22.326Z",
   "stats": {
-    "Mochvara": {
-      "ok": true,
-      "count": 14
-    },
     "muzika.hr": {
       "ok": true,
       "count": 25
@@ -13,13 +9,17 @@
       "ok": true,
       "count": 0
     },
-    "Tvornica": {
-      "ok": true,
-      "count": 3
-    },
     "Gavella": {
       "ok": true,
       "count": 0
+    },
+    "Mochvara": {
+      "ok": true,
+      "count": 14
+    },
+    "Tvornica": {
+      "ok": true,
+      "count": 3
     },
     "ZeKaeM": {
       "ok": true,
@@ -29,13 +29,13 @@
       "ok": true,
       "count": 0
     },
-    "Pogon": {
-      "ok": true,
-      "count": 0
-    },
     "HNK Zagreb": {
       "ok": true,
       "count": 70
+    },
+    "Pogon": {
+      "ok": true,
+      "count": 0
     },
     "Kerempuh": {
       "ok": true,
@@ -599,7 +599,7 @@
       "time": null,
       "link": "https://www.muzika.hr/event/severina-4/",
       "source": "muzika.hr",
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-08-07T11:36:09.159Z"
     },
     {
@@ -659,7 +659,7 @@
       "time": null,
       "link": "https://www.muzika.hr/event/haris-dzinovic/",
       "source": "muzika.hr",
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-08-07T11:36:09.159Z"
     },
     {
@@ -2812,5 +2812,5 @@
       "first_seen": "2026-08-04T15:01:21.568Z"
     }
   ],
-  "new_count": 11
+  "new_count": 9
 }
