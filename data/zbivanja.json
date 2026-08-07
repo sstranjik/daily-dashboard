@@ -1,6 +1,10 @@
 {
-  "generated_at": "2026-08-07T11:01:22.748Z",
+  "generated_at": "2026-08-07T11:36:09.159Z",
   "stats": {
+    "Mochvara": {
+      "ok": true,
+      "count": 14
+    },
     "muzika.hr": {
       "ok": true,
       "count": 25
@@ -9,17 +13,13 @@
       "ok": true,
       "count": 0
     },
-    "Gavella": {
-      "ok": true,
-      "count": 0
-    },
-    "Mochvara": {
-      "ok": true,
-      "count": 14
-    },
     "Tvornica": {
       "ok": true,
       "count": 3
+    },
+    "Gavella": {
+      "ok": true,
+      "count": 0
     },
     "ZeKaeM": {
       "ok": true,
@@ -29,13 +29,13 @@
       "ok": true,
       "count": 0
     },
-    "HNK Zagreb": {
-      "ok": true,
-      "count": 70
-    },
     "Pogon": {
       "ok": true,
       "count": 0
+    },
+    "HNK Zagreb": {
+      "ok": true,
+      "count": 70
     },
     "Kerempuh": {
       "ok": true,
@@ -588,6 +588,21 @@
       "first_seen": "2026-08-02T05:01:16.216Z"
     },
     {
+      "id": "6d1aead693",
+      "title": "Severina",
+      "venue": "Severina Arena Pula Flavijevska ulica",
+      "city": "Pula",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-08-08T00:00:00",
+      "date_display": "sub, 08. 08. 2026.",
+      "time": null,
+      "link": "https://www.muzika.hr/event/severina-4/",
+      "source": "muzika.hr",
+      "is_new": true,
+      "first_seen": "2026-08-07T11:36:09.159Z"
+    },
+    {
       "id": "57c7268572",
       "title": "Močvarni birc: GTA5 radio",
       "venue": "Mochvara",
@@ -631,6 +646,21 @@
       "source": "muzika.hr",
       "is_new": false,
       "first_seen": "2026-07-21T05:01:19.590Z"
+    },
+    {
+      "id": "6ab503e82a",
+      "title": "Haris Džinović",
+      "venue": "Džinović Arena Pula Flavijevska ulica",
+      "city": "Pula",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-08-14T00:00:00",
+      "date_display": "pet, 14. 08. 2026.",
+      "time": null,
+      "link": "https://www.muzika.hr/event/haris-dzinovic/",
+      "source": "muzika.hr",
+      "is_new": true,
+      "first_seen": "2026-08-07T11:36:09.159Z"
     },
     {
       "id": "7250836347",
@@ -905,8 +935,8 @@
     {
       "id": "06ca251525",
       "title": "Hollywood Vampires",
-      "venue": "Vampires Arena Pula Flavijevska ulica",
-      "city": "Pula",
+      "venue": "Vampires Arena Zagreb Lanište bb",
+      "city": "Zagreb",
       "country": "HR",
       "category": "concert",
       "date_iso": "2026-09-03T00:00:00",
@@ -2782,5 +2812,5 @@
       "first_seen": "2026-08-04T15:01:21.568Z"
     }
   ],
-  "new_count": 9
+  "new_count": 11
 }
