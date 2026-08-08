@@ -1,15 +1,15 @@
 {
   "version": 2,
-  "date": "2026-08-07",
-  "generated_at": "2026-08-07T06:08:53.249Z",
-  "date_hr": "Petak, 7. kolovoza 2026.",
+  "date": "2026-08-08",
+  "generated_at": "2026-08-08T05:03:22.282Z",
+  "date_hr": "Subota, 8. kolovoza 2026.",
   "weather": {
-    "icon": "☁️",
-    "summary": "26–33°C, oblačno",
+    "icon": "🌧️",
+    "summary": "22–31°C, lagana kiša",
     "alerts": []
   },
   "fuel": {
-    "current_date": "07.08.2026",
+    "current_date": "08.08.2026",
     "eurodiesel": [
       {
         "company": "Adria Oil",
@@ -63,46 +63,46 @@
     "upcoming_premium": null
   },
   "market": {
-    "updated_at": "2026-08-07T06:08:53.249Z",
-    "btc_usd": 64301,
-    "btc_eur": 55809,
-    "btc_change_24h": -0.75,
-    "usd_eur": 0.8673
+    "updated_at": "2026-08-08T05:03:22.282Z",
+    "btc_usd": 64974,
+    "btc_eur": 56200,
+    "btc_change_24h": 1.21,
+    "usd_eur": 0.8657
   },
   "ai_news": [
     {
-      "title": "Mogu li države ‘otrovati’ umjetnu inteligenciju? Otkrivena velika operacija vezana uz rat u Gazi",
-      "link": "https://www.tportal.hr/tehno/clanak/mogu-li-drzave-otrovati-umjetnu-inteligenciju-otkrivena-velika-operacija-vezana-uz-rat-u-gazi-20260806",
-      "source": "Tportal"
-    },
-    {
-      "title": "No cloud, no GPUs, no problem: Liquid AI's new model LFM2.5-2.6B brings powerful AI agents to devices as small as a Raspberry Pi",
-      "link": "https://venturebeat.com/technology/no-cloud-no-gpus-no-problem-liquid-ais-new-model-lfm2-5-2-6b-brings-powerful-ai-agents-to-devices-as-small-as-a-raspberry-pi",
-      "source": "VentureBeat"
-    },
-    {
-      "title": "ChatGPT brings unlimited text chats to free users",
-      "link": "https://techcrunch.com/2026/08/06/openai-brings-unlimited-chatgpt-text-chats-to-free-users/",
-      "source": "TechCrunch AI"
-    },
-    {
-      "title": "OpenAI is giving ChatGPT free users unlimited text chats",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/976239/openai-chatgpt-free-go-text-chats",
+      "title": "OpenAI puts the brakes on a new model because it&#8217;s supposedly too powerful",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/976948/openai-astra-model-pause-critical-cyber-capabilities",
       "source": "The Verge"
     },
     {
-      "title": "OpenAI’s AI models coordinated a months-long breakout to hack Hugging Face",
-      "link": "https://thenextweb.com/news/openai-agents-coordinated-hugging-face-hack-black-hat",
-      "source": "The Next Web"
+      "title": "Four AI agents coordinating in real time outperformed Claude Opus 4.8 on enterprise coding tasks",
+      "link": "https://venturebeat.com/orchestration/four-ai-agents-coordinating-in-real-time-outperformed-claude-opus-4-8-on-enterprise-coding-tasks",
+      "source": "VentureBeat"
+    },
+    {
+      "title": "Stanford is running 37,000 AI agents as a virtual biotech — and one of its drug designs got independently confirmed by Merck",
+      "link": "https://venturebeat.com/orchestration/stanford-is-running-37-000-ai-agents-as-a-virtual-biotech-and-one-of-its-drug-designs-got-independently-confirmed-by-merck",
+      "source": "VentureBeat"
+    },
+    {
+      "title": "What&#8217;s behind the Google AI shake-up",
+      "link": "https://www.theverge.com/podcast/976784/google-deepmind-ai-race-vergecast",
+      "source": "The Verge"
+    },
+    {
+      "title": "ChatGPT nudi razgovor bez ograničenja s novim modelom za sve korisnike",
+      "link": "https://www.bug.hr/umjetna-inteligencija/chatgpt-nudi-razgovor-bez-ogranicenja-s-novim-modelom-za-sve-korisnike-61935",
+      "source": "Bug.hr"
     }
   ],
   "micro_tips": {
     "vscode": {
-      "tip": "Peek Definition bez napuštanja fajla",
-      "keys": "Alt+F12"
+      "tip": "Dupliciraj trenutnu liniju ispod",
+      "keys": "Shift+Alt+↓"
     },
-    "sql": "Batch INSERT umjesto jednog-po-jednog: INSERT INTO t VALUES (...),(...),...",
-    "oracle": "FETCH FIRST n ROWS ONLY umjesto ROWNUM — kompatibilno s ORDER BY i čitljivije",
-    "regex": "^(?!.*pattern) negative lookahead: \"ova linija ne smije sadržavati X\""
+    "sql": "EXISTS umjesto IN za subqueries — brže jer stane na prvom podudaranju: WHERE EXISTS (SELECT 1 FROM ...)",
+    "oracle": "/*+ INDEX(t ime_indexa) */ forsira specifičan index kad optimizer bira full scan",
+    "regex": "\\b granica riječi: \\bword\\b podudara cijelu riječ, ne \"password\" ili \"swordfish\""
   }
 }
