@@ -1,14 +1,6 @@
 {
-  "generated_at": "2026-08-07T20:27:05.900Z",
+  "generated_at": "2026-08-08T05:01:31.233Z",
   "stats": {
-    "Mochvara": {
-      "ok": true,
-      "count": 0
-    },
-    "Pogon": {
-      "ok": true,
-      "count": 0
-    },
     "muzika.hr": {
       "ok": true,
       "count": 25
@@ -16,6 +8,10 @@
     "Lisinski": {
       "ok": true,
       "count": 0
+    },
+    "Mochvara": {
+      "ok": true,
+      "count": 14
     },
     "Gavella": {
       "ok": true,
@@ -29,6 +25,18 @@
       "ok": true,
       "count": 0
     },
+    "Komedija": {
+      "ok": true,
+      "count": 0
+    },
+    "Pogon": {
+      "ok": true,
+      "count": 0
+    },
+    "HNK Zagreb": {
+      "ok": true,
+      "count": 70
+    },
     "Kerempuh": {
       "ok": true,
       "count": 0
@@ -36,32 +44,9 @@
     "Trešnja": {
       "ok": true,
       "count": 0
-    },
-    "Komedija": {
-      "ok": true,
-      "count": 0
-    },
-    "HNK Zagreb": {
-      "ok": true,
-      "count": 70
     }
   },
   "concerts": [
-    {
-      "id": "36db5d5ab3",
-      "title": "Pestilence",
-      "venue": "Place Ulica hrvatske bratske zajednice 4",
-      "city": "Zagreb",
-      "country": "HR",
-      "category": "concert",
-      "date_iso": "2026-07-24T00:00:00",
-      "date_display": "pet, 24. 07. 2026.",
-      "time": null,
-      "link": "https://www.muzika.hr/event/pestilence/",
-      "source": "muzika.hr",
-      "is_new": false,
-      "first_seen": "2026-07-22T20:01:14.852Z"
-    },
     {
       "id": "bd1c943097",
       "title": "Billboardanje – R’n’B disco pop party",
@@ -706,6 +691,21 @@
       "source": "Mochvara",
       "is_new": false,
       "first_seen": "2026-07-16T05:01:41.817Z"
+    },
+    {
+      "id": "cb5ca670cb",
+      "title": "Back to nulte",
+      "venue": "Mochvara",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-08-21T22:00:00",
+      "date_display": "pet, 21. 08. 2026.",
+      "time": "22:00",
+      "link": "https://mochvara.hr/event-detail/6a71c04b2658293cfbe49cfd/?lang=hr",
+      "source": "Mochvara",
+      "is_new": true,
+      "first_seen": "2026-08-08T05:01:31.233Z"
     },
     {
       "id": "e8a58901f8",
@@ -2752,5 +2752,5 @@
       "first_seen": "2026-08-04T15:01:21.568Z"
     }
   ],
-  "new_count": 9
+  "new_count": 10
 }
