@@ -1,17 +1,9 @@
 {
-  "generated_at": "2026-08-08T05:38:26.675Z",
+  "generated_at": "2026-08-08T06:01:17.040Z",
   "stats": {
     "Mochvara": {
       "ok": true,
-      "count": 0
-    },
-    "Pogon": {
-      "ok": true,
-      "count": 0
-    },
-    "muzika.hr": {
-      "ok": true,
-      "count": 25
+      "count": 14
     },
     "Lisinski": {
       "ok": true,
@@ -21,19 +13,15 @@
       "ok": true,
       "count": 0
     },
-    "ZeKaeM": {
-      "ok": true,
-      "count": 0
-    },
-    "Kerempuh": {
-      "ok": true,
-      "count": 0
-    },
     "Tvornica": {
       "ok": true,
       "count": 3
     },
-    "Trešnja": {
+    "muzika.hr": {
+      "ok": true,
+      "count": 25
+    },
+    "ZeKaeM": {
       "ok": true,
       "count": 0
     },
@@ -41,9 +29,21 @@
       "ok": true,
       "count": 0
     },
+    "Pogon": {
+      "ok": true,
+      "count": 0
+    },
     "HNK Zagreb": {
       "ok": true,
       "count": 70
+    },
+    "Kerempuh": {
+      "ok": true,
+      "count": 0
+    },
+    "Trešnja": {
+      "ok": true,
+      "count": 0
     }
   },
   "concerts": [
@@ -704,7 +704,7 @@
       "time": "22:00",
       "link": "https://mochvara.hr/event-detail/6a71c04b2658293cfbe49cfd/?lang=hr",
       "source": "Mochvara",
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-08-08T05:01:33.527Z"
     },
     {
@@ -2752,5 +2752,5 @@
       "first_seen": "2026-08-04T15:01:21.568Z"
     }
   ],
-  "new_count": 10
+  "new_count": 9
 }
