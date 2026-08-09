@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-08-09T05:01:15.939Z",
+  "generated_at": "2026-08-09T05:42:40.611Z",
   "stats": {
-    "muzika.hr": {
+    "Lisinski": {
       "ok": true,
-      "count": 25
+      "count": 0
     },
     "Mochvara": {
       "ok": true,
       "count": 14
     },
-    "Lisinski": {
+    "Gavella": {
       "ok": true,
       "count": 0
     },
@@ -17,7 +17,11 @@
       "ok": true,
       "count": 3
     },
-    "Gavella": {
+    "muzika.hr": {
+      "ok": true,
+      "count": 25
+    },
+    "Komedija": {
       "ok": true,
       "count": 0
     },
@@ -25,17 +29,13 @@
       "ok": true,
       "count": 0
     },
-    "Pogon": {
-      "ok": true,
-      "count": 0
-    },
-    "Komedija": {
-      "ok": true,
-      "count": 0
-    },
     "HNK Zagreb": {
       "ok": true,
       "count": 70
+    },
+    "Pogon": {
+      "ok": true,
+      "count": 0
     },
     "Kerempuh": {
       "ok": true,
@@ -704,7 +704,7 @@
       "time": "22:00",
       "link": "https://mochvara.hr/event-detail/6a4e69b97406b17c5f0ad71a/?lang=hr",
       "source": "Mochvara",
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-08-09T05:01:15.939Z"
     },
     {
@@ -1514,7 +1514,7 @@
       "time": null,
       "link": "https://www.muzika.hr/event/fear-factory/",
       "source": "muzika.hr",
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-08-09T05:01:15.939Z"
     },
     {
@@ -2763,9 +2763,9 @@
       "time": null,
       "link": "https://www.muzika.hr/event/jethro-tull/",
       "source": "muzika.hr",
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-08-09T05:01:15.939Z"
     }
   ],
-  "new_count": 12
+  "new_count": 9
 }
