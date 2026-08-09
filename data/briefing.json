@@ -1,15 +1,15 @@
 {
   "version": 2,
-  "date": "2026-08-08",
-  "generated_at": "2026-08-08T05:40:00.488Z",
-  "date_hr": "Subota, 8. kolovoza 2026.",
+  "date": "2026-08-09",
+  "generated_at": "2026-08-09T05:03:03.345Z",
+  "date_hr": "Nedjelja, 9. kolovoza 2026.",
   "weather": {
-    "icon": "🌧️",
-    "summary": "22–31°C, lagana kiša",
+    "icon": "🌤️",
+    "summary": "20–33°C, pretežno vedro",
     "alerts": []
   },
   "fuel": {
-    "current_date": "08.08.2026",
+    "current_date": "09.08.2026",
     "eurodiesel": [
       {
         "company": "Adria Oil",
@@ -63,46 +63,36 @@
     "upcoming_premium": null
   },
   "market": {
-    "updated_at": "2026-08-08T05:40:00.488Z",
-    "btc_usd": 64981,
-    "btc_eur": 56207,
-    "btc_change_24h": 1.27,
-    "usd_eur": 0.8657
+    "updated_at": "2026-08-09T05:03:03.345Z",
+    "btc_usd": 64740,
+    "btc_eur": 56018,
+    "btc_change_24h": -0.36,
+    "usd_eur": 0.8659
   },
   "ai_news": [
     {
-      "title": "OpenAI puts the brakes on a new model because it&#8217;s supposedly too powerful",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/976948/openai-astra-model-pause-critical-cyber-capabilities",
-      "source": "The Verge"
+      "title": "OpenAI acquires presentation startup NextSlide",
+      "link": "https://techcrunch.com/2026/08/08/openai-acquires-presentation-startup-nextslide/",
+      "source": "TechCrunch AI"
     },
     {
-      "title": "Four AI agents coordinating in real time outperformed Claude Opus 4.8 on enterprise coding tasks",
-      "link": "https://venturebeat.com/orchestration/four-ai-agents-coordinating-in-real-time-outperformed-claude-opus-4-8-on-enterprise-coding-tasks",
-      "source": "VentureBeat"
-    },
-    {
-      "title": "Stanford is running 37,000 AI agents as a virtual biotech — and one of its drug designs got independently confirmed by Merck",
-      "link": "https://venturebeat.com/orchestration/stanford-is-running-37-000-ai-agents-as-a-virtual-biotech-and-one-of-its-drug-designs-got-independently-confirmed-by-merck",
-      "source": "VentureBeat"
-    },
-    {
-      "title": "What&#8217;s behind the Google AI shake-up",
-      "link": "https://www.theverge.com/podcast/976784/google-deepmind-ai-race-vergecast",
-      "source": "The Verge"
-    },
-    {
-      "title": "ChatGPT nudi razgovor bez ograničenja s novim modelom za sve korisnike",
-      "link": "https://www.bug.hr/umjetna-inteligencija/chatgpt-nudi-razgovor-bez-ogranicenja-s-novim-modelom-za-sve-korisnike-61935",
+      "title": "OpenAI navodno zaustavio razvoj novog AI modela zbog njegovih sposobnosti",
+      "link": "https://www.bug.hr/umjetna-inteligencija/openai-navodno-zaustavio-razvoj-novog-ai-modela-zbog-njegovih-sposobnosti-61967",
       "source": "Bug.hr"
+    },
+    {
+      "title": "AI agenti su rastuća prijetnja vašim podacima. Evo što možete poduzeti",
+      "link": "https://www.tportal.hr/tehno/clanak/ai-agenti-su-rastuca-prijetnja-vasim-podacima-evo-sto-mozete-poduzeti-20260808",
+      "source": "Tportal"
     }
   ],
   "micro_tips": {
     "vscode": {
-      "tip": "Dupliciraj trenutnu liniju ispod",
-      "keys": "Shift+Alt+↓"
+      "tip": "Obriši cijelu liniju odjednom",
+      "keys": "Ctrl+Shift+K"
     },
-    "sql": "EXISTS umjesto IN za subqueries — brže jer stane na prvom podudaranju: WHERE EXISTS (SELECT 1 FROM ...)",
-    "oracle": "/*+ INDEX(t ime_indexa) */ forsira specifičan index kad optimizer bira full scan",
-    "regex": "\\b granica riječi: \\bword\\b podudara cijelu riječ, ne \"password\" ili \"swordfish\""
+    "sql": "Nikad SELECT * u produkciji — navedi kolone, manji I/O i bolji cache plan",
+    "oracle": "/*+ PARALLEL(t 4) */ paralelno izvršavanje querija na N thread-ova",
+    "regex": "(?:group) non-capturing group: grupiraj bez pamćenja za veće performanse"
   }
 }
