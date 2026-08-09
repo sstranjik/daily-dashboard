@@ -1,13 +1,9 @@
 {
-  "generated_at": "2026-08-08T20:15:07.183Z",
+  "generated_at": "2026-08-09T05:01:18.530Z",
   "stats": {
     "muzika.hr": {
       "ok": true,
       "count": 25
-    },
-    "Tvornica": {
-      "ok": true,
-      "count": 3
     },
     "Lisinski": {
       "ok": true,
@@ -21,11 +17,19 @@
       "ok": true,
       "count": 0
     },
+    "ZeKaeM": {
+      "ok": true,
+      "count": 0
+    },
+    "Tvornica": {
+      "ok": true,
+      "count": 3
+    },
     "Komedija": {
       "ok": true,
       "count": 0
     },
-    "ZeKaeM": {
+    "Pogon": {
       "ok": true,
       "count": 0
     },
@@ -37,46 +41,12 @@
       "ok": true,
       "count": 0
     },
-    "Pogon": {
-      "ok": true,
-      "count": 0
-    },
     "Trešnja": {
       "ok": true,
       "count": 0
     }
   },
   "concerts": [
-    {
-      "id": "bd1c943097",
-      "title": "Billboardanje – R’n’B disco pop party",
-      "venue": "Mochvara",
-      "city": "Zagreb",
-      "country": "HR",
-      "category": "concert",
-      "date_iso": "2026-07-24T23:00:00",
-      "date_display": "pet, 24. 07. 2026.",
-      "time": "23:00",
-      "link": "https://mochvara.hr/event-detail/6a5bd1a7d64f81f2827294b5/?lang=hr",
-      "source": "Mochvara",
-      "is_new": false,
-      "first_seen": "2026-07-18T19:57:09.961Z"
-    },
-    {
-      "id": "b0fb9fd4fe",
-      "title": "Jozef van Wissem",
-      "venue": "Jozef van Wissem Buje Buje",
-      "city": "Croatia",
-      "country": "HR",
-      "category": "concert",
-      "date_iso": "2026-07-25T00:00:00",
-      "date_display": "sub, 25. 07. 2026.",
-      "time": null,
-      "link": "https://www.muzika.hr/event/jozef-van-wissem/",
-      "source": "muzika.hr",
-      "is_new": false,
-      "first_seen": "2026-07-22T20:01:14.852Z"
-    },
     {
       "id": "d40d73d6e9",
       "title": "Sabbra Kadabra - R'n'R metal party",
@@ -721,6 +691,21 @@
       "source": "muzika.hr",
       "is_new": false,
       "first_seen": "2026-07-29T05:01:14.584Z"
+    },
+    {
+      "id": "c412cb2a67",
+      "title": "Sjemenište: Emo party",
+      "venue": "Mochvara",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-08-22T22:00:00",
+      "date_display": "sub, 22. 08. 2026.",
+      "time": "22:00",
+      "link": "https://mochvara.hr/event-detail/6a4e69b97406b17c5f0ad71a/?lang=hr",
+      "source": "Mochvara",
+      "is_new": true,
+      "first_seen": "2026-08-09T05:01:18.530Z"
     },
     {
       "id": "5226f1caf2",
@@ -1516,6 +1501,21 @@
       "source": "HNK Zagreb",
       "is_new": false,
       "first_seen": "2026-06-19T11:01:10.397Z"
+    },
+    {
+      "id": "e55d947a18",
+      "title": "Fear Factory",
+      "venue": "Grada Vukovara 68",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-09-24T00:00:00",
+      "date_display": "čet, 24. 09. 2026.",
+      "time": null,
+      "link": "https://www.muzika.hr/event/fear-factory/",
+      "source": "muzika.hr",
+      "is_new": true,
+      "first_seen": "2026-08-09T05:01:18.530Z"
     },
     {
       "id": "c59030c372",
@@ -2750,7 +2750,22 @@
       "source": "muzika.hr",
       "is_new": false,
       "first_seen": "2026-08-04T15:01:21.568Z"
+    },
+    {
+      "id": "a2db25b035",
+      "title": "Jethro Tull",
+      "venue": "Jethro Tull Tvrđava Kastel Banja Luka",
+      "city": "Bosnia",
+      "country": "EU",
+      "category": "concert",
+      "date_iso": "2026-09-19T00:00:00",
+      "date_display": "sub, 19. 09. 2026.",
+      "time": null,
+      "link": "https://www.muzika.hr/event/jethro-tull/",
+      "source": "muzika.hr",
+      "is_new": true,
+      "first_seen": "2026-08-09T05:01:18.530Z"
     }
   ],
-  "new_count": 9
+  "new_count": 12
 }
