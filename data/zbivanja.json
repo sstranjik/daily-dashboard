@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-10T10:01:27.563Z",
+  "generated_at": "2026-08-10T10:55:00.298Z",
   "stats": {
     "muzika.hr": {
       "ok": true,
@@ -9,13 +9,13 @@
       "ok": true,
       "count": 0
     },
-    "Mochvara": {
-      "ok": true,
-      "count": 14
-    },
     "Gavella": {
       "ok": true,
       "count": 0
+    },
+    "Mochvara": {
+      "ok": true,
+      "count": 14
     },
     "Tvornica": {
       "ok": true,
@@ -29,19 +29,19 @@
       "ok": true,
       "count": 0
     },
-    "Pogon": {
-      "ok": true,
-      "count": 0
-    },
     "HNK Zagreb": {
       "ok": true,
       "count": 70
+    },
+    "Trešnja": {
+      "ok": true,
+      "count": 0
     },
     "Kerempuh": {
       "ok": true,
       "count": 0
     },
-    "Trešnja": {
+    "Pogon": {
       "ok": true,
       "count": 0
     }
@@ -509,7 +509,7 @@
       "time": "17:00",
       "link": "https://mochvara.hr/event-detail/6a799727f74fd07db2e8f0ce/?lang=hr",
       "source": "Mochvara",
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-08-10T10:01:27.563Z"
     },
     {
@@ -524,7 +524,7 @@
       "time": "17:00",
       "link": "https://mochvara.hr/event-detail/6a79994278512d6cb6c15033/?lang=hr",
       "source": "Mochvara",
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-08-10T10:01:27.563Z"
     },
     {
@@ -539,7 +539,7 @@
       "time": "17:00",
       "link": "https://mochvara.hr/event-detail/6a799a5d78512d6cb6c3a6a0/?lang=hr",
       "source": "Mochvara",
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-08-10T10:01:27.563Z"
     },
     {
@@ -569,7 +569,7 @@
       "time": "17:00",
       "link": "https://mochvara.hr/event-detail/6a799cda78512d6cb6c7af56/?lang=hr",
       "source": "Mochvara",
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-08-10T10:01:27.563Z"
     },
     {
@@ -586,6 +586,36 @@
       "source": "muzika.hr",
       "is_new": false,
       "first_seen": "2026-08-07T11:36:09.159Z"
+    },
+    {
+      "id": "05f4091017",
+      "title": "Močvarni birc: Indie Sleaze Radio",
+      "venue": "Mochvara",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-08-14T17:00:00",
+      "date_display": "pet, 14. 08. 2026.",
+      "time": "17:00",
+      "link": "https://mochvara.hr/event-detail/6a79a50bf179f9beb2a54ce7/?lang=hr",
+      "source": "Mochvara",
+      "is_new": true,
+      "first_seen": "2026-08-10T10:55:00.298Z"
+    },
+    {
+      "id": "d2cb2ec8e8",
+      "title": "Močvarni birc: You're My WONDERWALL",
+      "venue": "Mochvara",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-08-15T17:00:00",
+      "date_display": "sub, 15. 08. 2026.",
+      "time": "17:00",
+      "link": "https://mochvara.hr/event-detail/6a79a626f179f9beb2a8614e/?lang=hr",
+      "source": "Mochvara",
+      "is_new": true,
+      "first_seen": "2026-08-10T10:55:00.298Z"
     },
     {
       "id": "7250836347",
@@ -2812,5 +2842,5 @@
       "first_seen": "2026-08-09T05:01:15.939Z"
     }
   ],
-  "new_count": 13
+  "new_count": 11
 }
