@@ -1,17 +1,21 @@
 {
-  "generated_at": "2026-08-09T20:17:37.008Z",
+  "generated_at": "2026-08-10T05:01:19.612Z",
   "stats": {
-    "muzika.hr": {
+    "Mochvara": {
       "ok": true,
-      "count": 25
+      "count": 0
+    },
+    "Pogon": {
+      "ok": true,
+      "count": 0
     },
     "Lisinski": {
       "ok": true,
       "count": 0
     },
-    "Mochvara": {
+    "ZeKaeM": {
       "ok": true,
-      "count": 14
+      "count": 0
     },
     "Gavella": {
       "ok": true,
@@ -21,19 +25,11 @@
       "ok": true,
       "count": 3
     },
-    "ZeKaeM": {
+    "muzika.hr": {
       "ok": true,
-      "count": 0
+      "count": 25
     },
-    "Pogon": {
-      "ok": true,
-      "count": 0
-    },
-    "HNK Zagreb": {
-      "ok": true,
-      "count": 70
-    },
-    "Komedija": {
+    "Trešnja": {
       "ok": true,
       "count": 0
     },
@@ -41,42 +37,16 @@
       "ok": true,
       "count": 0
     },
-    "Trešnja": {
+    "Komedija": {
       "ok": true,
       "count": 0
+    },
+    "HNK Zagreb": {
+      "ok": true,
+      "count": 70
     }
   },
   "concerts": [
-    {
-      "id": "d40d73d6e9",
-      "title": "Sabbra Kadabra - R'n'R metal party",
-      "venue": "Mochvara",
-      "city": "Zagreb",
-      "country": "HR",
-      "category": "concert",
-      "date_iso": "2026-07-25T22:00:00",
-      "date_display": "sub, 25. 07. 2026.",
-      "time": "22:00",
-      "link": "https://mochvara.hr/event-detail/6a5ccf11407fbe39da1e6813/?lang=hr",
-      "source": "Mochvara",
-      "is_new": false,
-      "first_seen": "2026-07-19T14:01:09.480Z"
-    },
-    {
-      "id": "3b1a27a973",
-      "title": "Sabbra Cadabra - R'n'R metal party",
-      "venue": "Mochvara",
-      "city": "Zagreb",
-      "country": "HR",
-      "category": "concert",
-      "date_iso": "2026-07-25T22:00:00",
-      "date_display": "sub, 25. 07. 2026.",
-      "time": "22:00",
-      "link": "https://mochvara.hr/event-detail/6a5ccf11407fbe39da1e6813/?lang=hr",
-      "source": "Mochvara",
-      "is_new": false,
-      "first_seen": "2026-07-21T05:01:19.590Z"
-    },
     {
       "id": "088238cbab",
       "title": "Bajaga Instruktori",
@@ -1533,6 +1503,21 @@
       "first_seen": "2026-06-19T11:01:10.397Z"
     },
     {
+      "id": "bcc88aa784",
+      "title": "Dino Dvornik Tribute Band",
+      "venue": "Grada Vukovara 68",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-09-25T00:00:00",
+      "date_display": "pet, 25. 09. 2026.",
+      "time": null,
+      "link": "https://www.muzika.hr/event/dino-dvornik-tribute-band-2/",
+      "source": "muzika.hr",
+      "is_new": true,
+      "first_seen": "2026-08-10T05:01:19.612Z"
+    },
+    {
       "id": "c2bef583e7",
       "title": "Razgled kazališta 165 sezona iza kulisa",
       "venue": "HNK Zagreb",
@@ -2767,5 +2752,5 @@
       "first_seen": "2026-08-09T05:01:15.939Z"
     }
   ],
-  "new_count": 9
+  "new_count": 10
 }
