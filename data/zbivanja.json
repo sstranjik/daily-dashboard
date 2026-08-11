@@ -1,6 +1,10 @@
 {
-  "generated_at": "2026-08-11T16:43:48.225Z",
+  "generated_at": "2026-08-11T17:01:20.588Z",
   "stats": {
+    "Mochvara": {
+      "ok": true,
+      "count": 14
+    },
     "muzika.hr": {
       "ok": true,
       "count": 25
@@ -8,10 +12,6 @@
     "Lisinski": {
       "ok": true,
       "count": 0
-    },
-    "Mochvara": {
-      "ok": true,
-      "count": 14
     },
     "Tvornica": {
       "ok": true,
@@ -21,11 +21,11 @@
       "ok": true,
       "count": 0
     },
-    "Komedija": {
+    "ZeKaeM": {
       "ok": true,
       "count": 0
     },
-    "ZeKaeM": {
+    "Komedija": {
       "ok": true,
       "count": 0
     },
@@ -42,26 +42,11 @@
       "count": 70
     },
     "Trešnja": {
-      "ok": true,
-      "count": 0
+      "ok": false,
+      "error": "The operation was aborted due to timeout"
     }
   },
   "concerts": [
-    {
-      "id": "477352ce98",
-      "title": "Močvarni birc: Arctic Monkeys i drugi majmuni",
-      "venue": "Mochvara",
-      "city": "Zagreb",
-      "country": "HR",
-      "category": "concert",
-      "date_iso": "2026-07-27T17:00:00",
-      "date_display": "pon, 27. 07. 2026.",
-      "time": "17:00",
-      "link": "https://mochvara.hr/event-detail/6a671698d43dbd5122b395d5/?lang=hr",
-      "source": "Mochvara",
-      "is_new": false,
-      "first_seen": "2026-07-27T09:01:14.164Z"
-    },
     {
       "id": "36f9825843",
       "title": "Chet Faker",
