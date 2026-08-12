@@ -1,21 +1,20 @@
 {
   "version": 2,
-  "date": "2026-08-11",
-  "generated_at": "2026-08-11T05:51:52.670Z",
-  "date_hr": "Utorak, 11. kolovoza 2026.",
+  "date": "2026-08-12",
+  "generated_at": "2026-08-12T05:02:26.274Z",
+  "date_hr": "Srijeda, 12. kolovoza 2026.",
   "weather": {
     "icon": "☁️",
-    "summary": "23–35°C, oblačno",
-    "alerts": [
-      {
-        "level": "warning",
-        "text": "Ekstremna vrućina: 35°C"
-      }
-    ]
+    "summary": "24–31°C, oblačno",
+    "alerts": []
   },
   "fuel": {
-    "current_date": "11.08.2026",
+    "current_date": "12.08.2026",
     "eurodiesel": [
+      {
+        "company": "Adria Oil",
+        "price": 1.71
+      },
       {
         "company": "Coral Croatia",
         "price": 1.71
@@ -35,10 +34,6 @@
       {
         "company": "Tifon",
         "price": 1.71
-      },
-      {
-        "company": "Adria Oil",
-        "price": 1.75
       }
     ],
     "premium_eurodiesel": [
@@ -60,7 +55,7 @@
       },
       {
         "company": "Coral Croatia",
-        "price": 2.16
+        "price": 2
       }
     ],
     "upcoming_date": null,
@@ -68,46 +63,46 @@
     "upcoming_premium": null
   },
   "market": {
-    "updated_at": "2026-08-11T05:51:52.670Z",
-    "btc_usd": 63978,
-    "btc_eur": 55433,
-    "btc_change_24h": -1.61,
-    "usd_eur": 0.8659
+    "updated_at": "2026-08-12T05:02:26.274Z",
+    "btc_usd": 63719,
+    "btc_eur": 55239,
+    "btc_change_24h": -0.36,
+    "usd_eur": 0.8665
   },
   "ai_news": [
     {
-      "title": "OpenAI launches GPT-5.6-Cyber with reduced refusals, 95% completion on advanced cybersecurity tasks",
-      "link": "https://venturebeat.com/technology/openai-launches-gpt-5-6-cyber-with-reduced-refusals-95-completion-on-advanced-cybersecurity-tasks",
-      "source": "VentureBeat"
+      "title": "ChatGPT and Gemini both just passed 1 billion users",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/978113/chatgpt-gemini-1-billion-users",
+      "source": "The Verge"
     },
     {
-      "title": "OpenAI paused a model over cyber risk on Friday. On Monday it shipped one trained to refuse less.",
-      "link": "https://thenextweb.com/news/openai-gpt-5-6-cyber-daybreak-expansion-refusal-rate",
+      "title": "House Democrats want answers from OpenAI and Anthropic on their rogue AI agents",
+      "link": "https://thenextweb.com/news/house-democrats-press-anthropic-openai-rogue-agents",
       "source": "The Next Web"
     },
     {
-      "title": "AWS Continuum integrates with OpenAI Codex and Anthropic Claude Code in major AI security push",
-      "link": "https://venturebeat.com/security/aws-continuum-integrates-with-openai-codex-and-anthropic-claude-code-in-major-ai-security-push",
-      "source": "VentureBeat"
+      "title": "OpenAI launches ChatGPT desktop app for Linux",
+      "link": "https://techcrunch.com/2026/08/11/openai-launches-chatgpt-desktop-app-for-linux/",
+      "source": "TechCrunch AI"
     },
     {
-      "title": "Meta returns to open source with Muse Glimmer, an Apache 2.0 licensed 30B parameter AI model optimized for agents — available now",
-      "link": "https://venturebeat.com/technology/meta-returns-to-open-source-with-muse-glimmer-an-apache-2-0-licensed-30b-parameter-ai-model-optimized-for-agents-available-now",
-      "source": "VentureBeat"
+      "title": "Claude uvodi nevidljive 'vodene žigove' u tekstove i slike stvorene AI-jem",
+      "link": "https://www.bug.hr/umjetna-inteligencija/claude-uvodi-nevidljive-vodene-zigove-u-tekstove-i-slike-stvorene-ai-jem-62018",
+      "source": "Bug.hr"
     },
     {
-      "title": "Token-maxxing is dead. Agentic memory is what comes next.",
-      "link": "https://venturebeat.com/data/token-maxxing-is-dead-agentic-memory-is-what-comes-next",
-      "source": "VentureBeat"
+      "title": "Claude will apply invisible watermarks to AI text and images",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/977823/anthropic-claude-ai-watermarks-c2pa-text-images",
+      "source": "The Verge"
     }
   ],
   "micro_tips": {
     "vscode": {
-      "tip": "Toggle Word Wrap za dugačke linije",
-      "keys": "Alt+Z"
+      "tip": "Nađi i selektiraj sljedeće pojavljivanje",
+      "keys": "Ctrl+D"
     },
-    "sql": "Window funkcije (ROW_NUMBER, LAG, LEAD) umjesto self-join za redosljed i razlike",
-    "oracle": "/*+ RESULT_CACHE */ cache-ira rezultat funkcije u SGA za ponovljene pozive",
-    "regex": ".+? lazy quantifier: stane na prvom mogućem podudaranju, ne zadnjem"
+    "sql": "EXPLAIN ANALYZE prikazuje stvarne vs procijenjene redove — ključno za tuning",
+    "oracle": "CONNECT BY LEVEL <= n generira broj redova bez pomoćne tablice",
+    "regex": "[^\\n]* svaki znak osim newline — dohvati cijelu liniju bez dotall flaga"
   }
 }
