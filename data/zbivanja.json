@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-08-11T20:31:34.884Z",
+  "generated_at": "2026-08-12T05:01:25.785Z",
   "stats": {
-    "Mochvara": {
-      "ok": true,
-      "count": 14
-    },
     "muzika.hr": {
       "ok": true,
       "count": 25
+    },
+    "Mochvara": {
+      "ok": true,
+      "count": 14
     },
     "Gavella": {
       "ok": true,
@@ -29,15 +29,15 @@
       "ok": true,
       "count": 0
     },
+    "Pogon": {
+      "ok": true,
+      "count": 0
+    },
     "HNK Zagreb": {
       "ok": true,
       "count": 70
     },
     "Kerempuh": {
-      "ok": true,
-      "count": 0
-    },
-    "Pogon": {
       "ok": true,
       "count": 0
     },
@@ -47,51 +47,6 @@
     }
   },
   "concerts": [
-    {
-      "id": "36f9825843",
-      "title": "Chet Faker",
-      "venue": "Mihovila Šibenik",
-      "city": "Croatia",
-      "country": "HR",
-      "category": "concert",
-      "date_iso": "2026-07-28T00:00:00",
-      "date_display": "uto, 28. 07. 2026.",
-      "time": null,
-      "link": "https://www.muzika.hr/event/chet-faker/",
-      "source": "muzika.hr",
-      "is_new": false,
-      "first_seen": "2026-07-12T05:01:36.813Z"
-    },
-    {
-      "id": "e2060e9688",
-      "title": "Kraftwerk",
-      "venue": "Kraftwerk Arena Pula Flavijevska ulica",
-      "city": "Pula",
-      "country": "HR",
-      "category": "concert",
-      "date_iso": "2026-07-28T00:00:00",
-      "date_display": "uto, 28. 07. 2026.",
-      "time": null,
-      "link": "https://www.muzika.hr/event/kraftwerk/",
-      "source": "muzika.hr",
-      "is_new": false,
-      "first_seen": "2026-07-12T05:01:36.813Z"
-    },
-    {
-      "id": "54efe9e764",
-      "title": "AIRBOURNE",
-      "venue": "Grada Vukovara 68",
-      "city": "Zagreb",
-      "country": "HR",
-      "category": "concert",
-      "date_iso": "2026-07-28T00:00:00",
-      "date_display": "uto, 28. 07. 2026.",
-      "time": null,
-      "link": "https://www.muzika.hr/event/airbourne/",
-      "source": "muzika.hr",
-      "is_new": false,
-      "first_seen": "2026-07-13T05:01:40.348Z"
-    },
     {
       "id": "84542ece14",
       "title": "Močvarni birc: Yé-yé, na francuskom je",
@@ -601,6 +556,21 @@
       "source": "Mochvara",
       "is_new": false,
       "first_seen": "2026-08-11T05:01:28.383Z"
+    },
+    {
+      "id": "171d9a6ff4",
+      "title": "Močvarni birc: Anatolijski rock",
+      "venue": "Mochvara",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-08-17T17:00:00",
+      "date_display": "pon, 17. 08. 2026.",
+      "time": "17:00",
+      "link": "https://mochvara.hr/event-detail/6a79b130f179f9beb2bce013/?lang=hr",
+      "source": "Mochvara",
+      "is_new": true,
+      "first_seen": "2026-08-12T05:01:25.785Z"
     },
     {
       "id": "7250836347",
@@ -2827,5 +2797,5 @@
       "first_seen": "2026-08-09T05:01:15.939Z"
     }
   ],
-  "new_count": 9
+  "new_count": 10
 }
