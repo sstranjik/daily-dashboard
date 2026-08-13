@@ -1,15 +1,15 @@
 {
   "version": 2,
-  "date": "2026-08-12",
-  "generated_at": "2026-08-12T06:10:22.277Z",
-  "date_hr": "Srijeda, 12. kolovoza 2026.",
+  "date": "2026-08-13",
+  "generated_at": "2026-08-13T05:02:38.588Z",
+  "date_hr": "Četvrtak, 13. kolovoza 2026.",
   "weather": {
-    "icon": "☁️",
-    "summary": "24–31°C, oblačno",
+    "icon": "🌤️",
+    "summary": "19–30°C, pretežno vedro",
     "alerts": []
   },
   "fuel": {
-    "current_date": "12.08.2026",
+    "current_date": "13.08.2026",
     "eurodiesel": [
       {
         "company": "Adria Oil",
@@ -63,46 +63,46 @@
     "upcoming_premium": null
   },
   "market": {
-    "updated_at": "2026-08-12T06:10:22.277Z",
-    "btc_usd": 63728,
-    "btc_eur": 55253,
-    "btc_change_24h": -0.36,
-    "usd_eur": 0.8665
+    "updated_at": "2026-08-13T05:02:38.588Z",
+    "btc_usd": 63632,
+    "btc_eur": 55207,
+    "btc_change_24h": -0.12,
+    "usd_eur": 0.867
   },
   "ai_news": [
     {
-      "title": "ChatGPT and Gemini both just passed 1 billion users",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/978113/chatgpt-gemini-1-billion-users",
-      "source": "The Verge"
+      "title": "Four of five enterprises that secured AI agent identities still can't contain one that goes rogue",
+      "link": "https://venturebeat.com/security/four-of-five-enterprises-that-secured-ai-agent-identities-still-cant-contain-one-that-goes-rogue",
+      "source": "VentureBeat"
     },
     {
-      "title": "House Democrats want answers from OpenAI and Anthropic on their rogue AI agents",
-      "link": "https://thenextweb.com/news/house-democrats-press-anthropic-openai-rogue-agents",
-      "source": "The Next Web"
-    },
-    {
-      "title": "OpenAI launches ChatGPT desktop app for Linux",
-      "link": "https://techcrunch.com/2026/08/11/openai-launches-chatgpt-desktop-app-for-linux/",
-      "source": "TechCrunch AI"
-    },
-    {
-      "title": "Claude uvodi nevidljive 'vodene žigove' u tekstove i slike stvorene AI-jem",
-      "link": "https://www.bug.hr/umjetna-inteligencija/claude-uvodi-nevidljive-vodene-zigove-u-tekstove-i-slike-stvorene-ai-jem-62018",
+      "title": "Slabiji LLM odaje tajne jačega",
+      "link": "https://www.bug.hr/sigurnost/slabiji-llm-odaje-tajne-jacega-62016",
       "source": "Bug.hr"
     },
     {
-      "title": "Claude will apply invisible watermarks to AI text and images",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/977823/anthropic-claude-ai-watermarks-c2pa-text-images",
-      "source": "The Verge"
+      "title": "Sigurnost - slabiji LLM odaje tajne jačega",
+      "link": "https://www.bug.hr/sigurnost/sigurnost-slabiji-llm-odaje-tajne-jacega-62016",
+      "source": "Bug.hr"
+    },
+    {
+      "title": "Open-weight iz Mete – nakon dugo vremena!",
+      "link": "https://www.bug.hr/umjetna-inteligencija/open-weight-iz-mete--nakon-dugo-vremena-62032",
+      "source": "Bug.hr"
+    },
+    {
+      "title": "Some Claude users are mad that Anthropic&#8217;s new watermarks will catch them using it at their jobs, classes",
+      "link": "https://techcrunch.com/2026/08/12/some-claude-users-are-mad-that-anthropics-new-watermarks-will-catch-them-cheating-at-their-jobs-classes/",
+      "source": "TechCrunch AI"
     }
   ],
   "micro_tips": {
     "vscode": {
-      "tip": "Nađi i selektiraj sljedeće pojavljivanje",
-      "keys": "Ctrl+D"
+      "tip": "Multi-cursor: postavi cursor na više mjesta istovremeno",
+      "keys": "Alt+Click"
     },
-    "sql": "EXPLAIN ANALYZE prikazuje stvarne vs procijenjene redove — ključno za tuning",
-    "oracle": "CONNECT BY LEVEL <= n generira broj redova bez pomoćne tablice",
-    "regex": "[^\\n]* svaki znak osim newline — dohvati cijelu liniju bez dotall flaga"
+    "sql": "Partial index s WHERE klauzulom smanjuje veličinu i ubrzava specifična filtriranja",
+    "oracle": "LISTAGG(col, ',') WITHIN GROUP (ORDER BY col) konkatenira u jedan string",
+    "regex": "(?<ime>\\d{4}) named group — referenciraj s \\k<ime> ili $<ime> u replace"
   }
 }
