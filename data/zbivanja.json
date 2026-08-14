@@ -1,25 +1,25 @@
 {
-  "generated_at": "2026-08-13T20:27:43.864Z",
+  "generated_at": "2026-08-14T05:01:11.852Z",
   "stats": {
     "muzika.hr": {
       "ok": true,
       "count": 25
     },
-    "Mochvara": {
-      "ok": true,
-      "count": 14
-    },
-    "Lisinski": {
+    "Gavella": {
       "ok": true,
       "count": 0
     },
-    "Gavella": {
+    "Lisinski": {
       "ok": true,
       "count": 0
     },
     "Tvornica": {
       "ok": true,
       "count": 3
+    },
+    "Mochvara": {
+      "ok": true,
+      "count": 14
     },
     "ZeKaeM": {
       "ok": true,
@@ -29,13 +29,13 @@
       "ok": true,
       "count": 0
     },
-    "HNK Zagreb": {
-      "ok": true,
-      "count": 70
-    },
     "Pogon": {
       "ok": true,
       "count": 0
+    },
+    "HNK Zagreb": {
+      "ok": true,
+      "count": 70
     },
     "Kerempuh": {
       "ok": true,
@@ -571,6 +571,21 @@
       "source": "Mochvara",
       "is_new": false,
       "first_seen": "2026-08-01T11:01:14.622Z"
+    },
+    {
+      "id": "5f63ebf572",
+      "title": "Močvarni birc: Summertime sadness",
+      "venue": "Mochvara",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-08-19T17:00:00",
+      "date_display": "sri, 19. 08. 2026.",
+      "time": "17:00",
+      "link": "https://mochvara.hr/event-detail/6a79b3288235729e39c2589f/?lang=hr",
+      "source": "Mochvara",
+      "is_new": true,
+      "first_seen": "2026-08-14T05:01:11.852Z"
     },
     {
       "id": "bc800c7274",
@@ -1531,6 +1546,21 @@
       "source": "muzika.hr",
       "is_new": false,
       "first_seen": "2026-08-10T05:01:18.922Z"
+    },
+    {
+      "id": "95bfff75eb",
+      "title": "The Romans Friends",
+      "venue": "The Romans Friends Pogon kulture Rijeka",
+      "city": "Croatia",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-09-25T21:00:00",
+      "date_display": "pet, 25. 09. 2026.",
+      "time": "21:00",
+      "link": "https://www.muzika.hr/event/the-romans-friends/",
+      "source": "muzika.hr",
+      "is_new": true,
+      "first_seen": "2026-08-14T05:01:11.852Z"
     },
     {
       "id": "c2bef583e7",
@@ -2827,5 +2857,5 @@
       "first_seen": "2026-08-09T05:01:15.939Z"
     }
   ],
-  "new_count": 9
+  "new_count": 11
 }
