@@ -1,15 +1,15 @@
 {
   "version": 2,
-  "date": "2026-08-13",
-  "generated_at": "2026-08-13T06:13:39.915Z",
-  "date_hr": "Četvrtak, 13. kolovoza 2026.",
+  "date": "2026-08-14",
+  "generated_at": "2026-08-14T05:03:27.479Z",
+  "date_hr": "Petak, 14. kolovoza 2026.",
   "weather": {
-    "icon": "🌤️",
-    "summary": "19–30°C, pretežno vedro",
+    "icon": "☀️",
+    "summary": "17–31°C, vedro",
     "alerts": []
   },
   "fuel": {
-    "current_date": "13.08.2026",
+    "current_date": "14.08.2026",
     "eurodiesel": [
       {
         "company": "Adria Oil",
@@ -46,16 +46,16 @@
         "price": 1.95
       },
       {
-        "company": "Petrol",
-        "price": 1.98
-      },
-      {
         "company": "Tifon",
         "price": 1.99
       },
       {
         "company": "Coral Croatia",
         "price": 2
+      },
+      {
+        "company": "Petrol",
+        "price": 2.02
       }
     ],
     "upcoming_date": null,
@@ -63,46 +63,46 @@
     "upcoming_premium": null
   },
   "market": {
-    "updated_at": "2026-08-13T06:13:39.915Z",
-    "btc_usd": 63769,
-    "btc_eur": 55345,
-    "btc_change_24h": 0.15,
-    "usd_eur": 0.867
+    "updated_at": "2026-08-14T05:03:27.479Z",
+    "btc_usd": 63315,
+    "btc_eur": 54872,
+    "btc_change_24h": -0.49,
+    "usd_eur": 0.8671
   },
   "ai_news": [
     {
-      "title": "Four of five enterprises that secured AI agent identities still can't contain one that goes rogue",
-      "link": "https://venturebeat.com/security/four-of-five-enterprises-that-secured-ai-agent-identities-still-cant-contain-one-that-goes-rogue",
+      "title": "DeepSeek Harness launches as open source rival to Claude Code, alongside V4-Pro on API with higher prices",
+      "link": "https://venturebeat.com/technology/deepseek-harness-launches-as-open-source-rival-to-claude-code-alongside-v4-pro-on-api-with-higher-prices",
       "source": "VentureBeat"
     },
     {
-      "title": "Slabiji LLM odaje tajne jačega",
-      "link": "https://www.bug.hr/sigurnost/slabiji-llm-odaje-tajne-jacega-62016",
-      "source": "Bug.hr"
+      "title": "OpenAI prvi put dolazi na Shift: nakon ChatGPT-ja stižu AI agenti",
+      "link": "https://www.tportal.hr/tehno/clanak/openai-prvi-put-dolazi-na-shift-nakon-chatgpt-ja-stizu-ai-agenti-20260813",
+      "source": "Tportal"
     },
     {
-      "title": "Sigurnost - slabiji LLM odaje tajne jačega",
-      "link": "https://www.bug.hr/sigurnost/sigurnost-slabiji-llm-odaje-tajne-jacega-62016",
-      "source": "Bug.hr"
+      "title": "Three Claude agents given conflicting orders sabotaged each other on a shared server — then didn't tell users what they'd done",
+      "link": "https://venturebeat.com/security/three-claude-agents-given-conflicting-orders-sabotaged-each-other-on-a-shared-server-then-didnt-tell-users-what-theyd-done",
+      "source": "VentureBeat"
     },
     {
-      "title": "Open-weight iz Mete – nakon dugo vremena!",
-      "link": "https://www.bug.hr/umjetna-inteligencija/open-weight-iz-mete--nakon-dugo-vremena-62032",
-      "source": "Bug.hr"
+      "title": "OpenAI introduces &#8216;Ultrafast,&#8217; a new mode that makes GPT-5.6 Sol work at 14x the speed",
+      "link": "https://techcrunch.com/2026/08/13/openai-introduces-ultrafast-a-new-mode-that-makes-gpt-5-6-sol-work-at-14x-the-speed/",
+      "source": "TechCrunch AI"
     },
     {
-      "title": "Some Claude users are mad that Anthropic&#8217;s new watermarks will catch them using it at their jobs, classes",
-      "link": "https://techcrunch.com/2026/08/12/some-claude-users-are-mad-that-anthropics-new-watermarks-will-catch-them-cheating-at-their-jobs-classes/",
+      "title": "Anthropic set AI agents loose on the same task. They started a turf war.",
+      "link": "https://techcrunch.com/2026/08/13/anthropic-set-ai-agents-loose-on-the-same-task-they-started-a-turf-war/",
       "source": "TechCrunch AI"
     }
   ],
   "micro_tips": {
     "vscode": {
-      "tip": "Multi-cursor: postavi cursor na više mjesta istovremeno",
-      "keys": "Alt+Click"
+      "tip": "Command Palette: brzi pristup svim komandama",
+      "keys": "Ctrl+Shift+P"
     },
-    "sql": "Partial index s WHERE klauzulom smanjuje veličinu i ubrzava specifična filtriranja",
-    "oracle": "LISTAGG(col, ',') WITHIN GROUP (ORDER BY col) konkatenira u jedan string",
-    "regex": "(?<ime>\\d{4}) named group — referenciraj s \\k<ime> ili $<ime> u replace"
+    "sql": "GROUP BY s ROLLUP za subtotale u jednom prolasku: GROUP BY ROLLUP(god, mj)",
+    "oracle": "TRUNC(datum_kolona) = TRUNC(SYSDATE) koristi B-tree index na datumskoj koloni",
+    "regex": "\\d{4}-\\d{2}-\\d{2} ISO datum pattern; za validaciju zatvori s ^...$"
   }
 }
