@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-08-14T05:01:09.612Z",
+  "generated_at": "2026-08-14T06:01:09.765Z",
   "stats": {
-    "Lisinski": {
+    "muzika.hr": {
       "ok": true,
-      "count": 0
+      "count": 25
     },
     "Lisinski": {
       "ok": true,
@@ -13,23 +13,19 @@
       "ok": true,
       "count": 14
     },
+    "Gavella": {
+      "ok": true,
+      "count": 0
+    },
     "Tvornica": {
       "ok": true,
       "count": 3
-    },
-    "muzika.hr": {
-      "ok": true,
-      "count": 25
-    },
-    "Komedija": {
-      "ok": true,
-      "count": 0
     },
     "ZeKaeM": {
       "ok": true,
       "count": 0
     },
-    "Pogon": {
+    "Komedija": {
       "ok": true,
       "count": 0
     },
@@ -42,6 +38,10 @@
       "count": 0
     },
     "Trešnja": {
+      "ok": true,
+      "count": 0
+    },
+    "Pogon": {
       "ok": true,
       "count": 0
     }
@@ -584,7 +584,7 @@
       "time": "17:00",
       "link": "https://mochvara.hr/event-detail/6a79b3288235729e39c2589f/?lang=hr",
       "source": "Mochvara",
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-08-14T05:01:09.612Z"
     },
     {
@@ -1559,7 +1559,7 @@
       "time": "21:00",
       "link": "https://www.muzika.hr/event/the-romans-friends/",
       "source": "muzika.hr",
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-08-14T05:01:09.612Z"
     },
     {
@@ -2857,5 +2857,5 @@
       "first_seen": "2026-08-09T05:01:15.939Z"
     }
   ],
-  "new_count": 11
+  "new_count": 9
 }
