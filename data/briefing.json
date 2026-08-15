@@ -1,15 +1,15 @@
 {
   "version": 2,
-  "date": "2026-08-14",
-  "generated_at": "2026-08-14T06:09:51.568Z",
-  "date_hr": "Petak, 14. kolovoza 2026.",
+  "date": "2026-08-15",
+  "generated_at": "2026-08-15T05:02:16.962Z",
+  "date_hr": "Subota, 15. kolovoza 2026.",
   "weather": {
     "icon": "☀️",
-    "summary": "17–31°C, vedro",
+    "summary": "19–33°C, vedro",
     "alerts": []
   },
   "fuel": {
-    "current_date": "14.08.2026",
+    "current_date": "15.08.2026",
     "eurodiesel": [
       {
         "company": "Adria Oil",
@@ -63,22 +63,27 @@
     "upcoming_premium": null
   },
   "market": {
-    "updated_at": "2026-08-14T06:09:51.568Z",
-    "btc_usd": 63301,
-    "btc_eur": 54838,
-    "btc_change_24h": -0.73,
-    "usd_eur": 0.8671
+    "updated_at": "2026-08-15T05:02:16.962Z",
+    "btc_usd": 63064,
+    "btc_eur": 54509,
+    "btc_change_24h": -0.39,
+    "usd_eur": 0.8646
   },
   "ai_news": [
     {
-      "title": "DeepSeek Harness launches as open source rival to Claude Code, alongside V4-Pro on API with higher prices",
-      "link": "https://venturebeat.com/technology/deepseek-harness-launches-as-open-source-rival-to-claude-code-alongside-v4-pro-on-api-with-higher-prices",
-      "source": "VentureBeat"
+      "title": "OpenAI CFO tells shareholders enterprise revenue has overtaken ChatGPT",
+      "link": "https://thenextweb.com/news/openai-enterprise-revenue-overtakes-consumer-friar",
+      "source": "The Next Web"
     },
     {
-      "title": "OpenAI prvi put dolazi na Shift: nakon ChatGPT-ja stižu AI agenti",
-      "link": "https://www.tportal.hr/tehno/clanak/openai-prvi-put-dolazi-na-shift-nakon-chatgpt-ja-stizu-ai-agenti-20260813",
-      "source": "Tportal"
+      "title": "Vulnerability giving attackers full control of Macs is under active exploitation",
+      "link": "https://arstechnica.com/security/2026/08/vulnerability-giving-attackers-full-control-of-macs-is-under-active-exploitation/",
+      "source": "Ars Technica"
+    },
+    {
+      "title": "OpenAI and Anthropic in price war as Chinese AI rivals gain ground",
+      "link": "https://arstechnica.com/ai/2026/08/openai-and-anthropic-in-price-war-as-chinese-ai-rivals-gain-ground/",
+      "source": "Ars Technica"
     },
     {
       "title": "OpenAI’s new Ultrafast mode runs GPT-5.6 Sol 14 times faster, on Cerebras chips",
@@ -86,23 +91,18 @@
       "source": "The Next Web"
     },
     {
-      "title": "Three Claude agents given conflicting orders sabotaged each other on a shared server — then didn't tell users what they'd done",
-      "link": "https://venturebeat.com/security/three-claude-agents-given-conflicting-orders-sabotaged-each-other-on-a-shared-server-then-didnt-tell-users-what-theyd-done",
+      "title": "GLM-5.3 is here with advanced cyber capabilities — and reportedly already found a 'serious vulnerability' in Cursor",
+      "link": "https://venturebeat.com/technology/glm-5-3-is-here-with-advanced-cyber-capabilities-and-reportedly-already-found-a-serious-vulnerability-in-cursor",
       "source": "VentureBeat"
-    },
-    {
-      "title": "OpenAI introduces &#8216;Ultrafast,&#8217; a new mode that makes GPT-5.6 Sol work at 14x the speed",
-      "link": "https://techcrunch.com/2026/08/13/openai-introduces-ultrafast-a-new-mode-that-makes-gpt-5-6-sol-work-at-14x-the-speed/",
-      "source": "TechCrunch AI"
     }
   ],
   "micro_tips": {
     "vscode": {
-      "tip": "Command Palette: brzi pristup svim komandama",
-      "keys": "Ctrl+Shift+P"
+      "tip": "Rename Symbol svuda u projektu (refactoring)",
+      "keys": "F2"
     },
-    "sql": "GROUP BY s ROLLUP za subtotale u jednom prolasku: GROUP BY ROLLUP(god, mj)",
-    "oracle": "TRUNC(datum_kolona) = TRUNC(SYSDATE) koristi B-tree index na datumskoj koloni",
-    "regex": "\\d{4}-\\d{2}-\\d{2} ISO datum pattern; za validaciju zatvori s ^...$"
+    "sql": "NOT EXISTS brži od NOT IN kad subquery može vratiti NULL vrijednost",
+    "oracle": "DBMS_STATS.GATHER_TABLE_STATS osvježava statistike za točniji execution plan",
+    "regex": "(?i) inline flag za case-insensitive bez mijenjanja ostatka patternahe"
   }
 }
