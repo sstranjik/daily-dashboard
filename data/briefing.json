@@ -1,15 +1,20 @@
 {
   "version": 2,
-  "date": "2026-08-15",
-  "generated_at": "2026-08-15T05:21:13.650Z",
-  "date_hr": "Subota, 15. kolovoza 2026.",
+  "date": "2026-08-16",
+  "generated_at": "2026-08-16T05:02:53.878Z",
+  "date_hr": "Nedjelja, 16. kolovoza 2026.",
   "weather": {
-    "icon": "☀️",
-    "summary": "19–33°C, vedro",
-    "alerts": []
+    "icon": "☁️",
+    "summary": "20–36°C, oblačno",
+    "alerts": [
+      {
+        "level": "warning",
+        "text": "Ekstremna vrućina: 36°C"
+      }
+    ]
   },
   "fuel": {
-    "current_date": "15.08.2026",
+    "current_date": "16.08.2026",
     "eurodiesel": [
       {
         "company": "Adria Oil",
@@ -63,46 +68,46 @@
     "upcoming_premium": null
   },
   "market": {
-    "updated_at": "2026-08-15T05:21:13.650Z",
-    "btc_usd": 63094,
-    "btc_eur": 54534,
-    "btc_change_24h": -0.29,
-    "usd_eur": 0.8646
+    "updated_at": "2026-08-16T05:02:53.878Z",
+    "btc_usd": 63028,
+    "btc_eur": 54480,
+    "btc_change_24h": -0.06,
+    "usd_eur": 0.8647
   },
   "ai_news": [
     {
-      "title": "OpenAI CFO tells shareholders enterprise revenue has overtaken ChatGPT",
-      "link": "https://thenextweb.com/news/openai-enterprise-revenue-overtakes-consumer-friar",
-      "source": "The Next Web"
-    },
-    {
-      "title": "Vulnerability giving attackers full control of Macs is under active exploitation",
-      "link": "https://arstechnica.com/security/2026/08/vulnerability-giving-attackers-full-control-of-macs-is-under-active-exploitation/",
-      "source": "Ars Technica"
-    },
-    {
-      "title": "OpenAI and Anthropic in price war as Chinese AI rivals gain ground",
-      "link": "https://arstechnica.com/ai/2026/08/openai-and-anthropic-in-price-war-as-chinese-ai-rivals-gain-ground/",
-      "source": "Ars Technica"
-    },
-    {
-      "title": "OpenAI’s new Ultrafast mode runs GPT-5.6 Sol 14 times faster, on Cerebras chips",
-      "link": "https://thenextweb.com/news/openais-new-ultrafast-mode-runs-gpt-5-6-sol-14-times-faster-on-cerebras-chips",
-      "source": "The Next Web"
-    },
-    {
-      "title": "GLM-5.3 is here with advanced cyber capabilities — and reportedly already found a 'serious vulnerability' in Cursor",
-      "link": "https://venturebeat.com/technology/glm-5-3-is-here-with-advanced-cyber-capabilities-and-reportedly-already-found-a-serious-vulnerability-in-cursor",
+      "title": "An eval harness found what qualitative review couldn't: AI models are most confident when wrong",
+      "link": "https://venturebeat.com/orchestration/an-eval-harness-found-what-qualitative-review-couldnt-ai-models-are-most-confident-when-wrong",
       "source": "VentureBeat"
+    },
+    {
+      "title": "Anthropic shares more details about how Claude’s new watermarks will work",
+      "link": "https://techcrunch.com/2026/08/15/anthropic-shares-more-details-about-how-claudes-new-watermarks-will-work/",
+      "source": "TechCrunch AI"
+    },
+    {
+      "title": "The AI store manager fired its first human. It had to be reminded of its own rules first",
+      "link": "https://thenextweb.com/news/andon-market-luna-ai-store-manager-fires-employee",
+      "source": "The Next Web"
+    },
+    {
+      "title": "ChatGPT i kod nas dobiva reklame već ovog mjeseca",
+      "link": "https://www.bug.hr/biznis/chatgpt-i-kod-nas-dobiva-reklame-vec-ovog-mjeseca-62108",
+      "source": "Bug.hr"
+    },
+    {
+      "title": "Anthropic’s quarterly revenue passed $11.5bn, up more than 14-fold",
+      "link": "https://thenextweb.com/news/anthropic-q2-2026-revenue-11-5-billion-operating-income",
+      "source": "The Next Web"
     }
   ],
   "micro_tips": {
     "vscode": {
-      "tip": "Rename Symbol svuda u projektu (refactoring)",
-      "keys": "F2"
+      "tip": "Quick Fix i Code Actions na trenutnoj poziciji",
+      "keys": "Ctrl+."
     },
-    "sql": "NOT EXISTS brži od NOT IN kad subquery može vratiti NULL vrijednost",
-    "oracle": "DBMS_STATS.GATHER_TABLE_STATS osvježava statistike za točniji execution plan",
-    "regex": "(?i) inline flag za case-insensitive bez mijenjanja ostatka patternahe"
+    "sql": "Parametrizirani upiti = plan cache reuse + SQL injection zaštita istovremeno",
+    "oracle": "NVL2(expr, kad_nije_null, kad_je_null) kompaktnija od dvostrukog NVL-a",
+    "regex": "\\s+ pokriva space, tab i newline; \\S je negacija (svaki ne-whitespace)"
   }
 }
