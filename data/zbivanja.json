@@ -1,10 +1,6 @@
 {
-  "generated_at": "2026-08-16T05:01:08.036Z",
+  "generated_at": "2026-08-16T05:21:59.282Z",
   "stats": {
-    "muzika.hr": {
-      "ok": true,
-      "count": 25
-    },
     "Lisinski": {
       "ok": true,
       "count": 0
@@ -13,13 +9,17 @@
       "ok": true,
       "count": 0
     },
+    "Tvornica": {
+      "ok": true,
+      "count": 3
+    },
     "Mochvara": {
       "ok": true,
       "count": 18
     },
-    "Tvornica": {
+    "muzika.hr": {
       "ok": true,
-      "count": 3
+      "count": 25
     },
     "ZeKaeM": {
       "ok": true,
@@ -29,13 +29,13 @@
       "ok": true,
       "count": 0
     },
-    "Pogon": {
-      "ok": true,
-      "count": 0
-    },
     "HNK Zagreb": {
       "ok": true,
       "count": 70
+    },
+    "Pogon": {
+      "ok": true,
+      "count": 0
     },
     "Kerempuh": {
       "ok": true,
@@ -1604,7 +1604,7 @@
       "time": "21:15",
       "link": "https://www.muzika.hr/event/belfast-food/",
       "source": "muzika.hr",
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-08-16T05:01:08.036Z"
     },
     {
@@ -1649,7 +1649,7 @@
       "time": null,
       "link": "https://www.muzika.hr/event/rock-ko-fol-2/",
       "source": "muzika.hr",
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-08-16T05:01:08.036Z"
     },
     {
@@ -2872,5 +2872,5 @@
       "first_seen": "2026-08-09T05:01:15.939Z"
     }
   ],
-  "new_count": 11
+  "new_count": 9
 }
