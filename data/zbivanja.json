@@ -1,14 +1,6 @@
 {
-  "generated_at": "2026-08-15T20:09:00.233Z",
+  "generated_at": "2026-08-16T05:01:04.966Z",
   "stats": {
-    "Mochvara": {
-      "ok": true,
-      "count": 0
-    },
-    "Pogon": {
-      "ok": true,
-      "count": 0
-    },
     "muzika.hr": {
       "ok": true,
       "count": 25
@@ -21,19 +13,15 @@
       "ok": true,
       "count": 0
     },
-    "ZeKaeM": {
+    "Mochvara": {
       "ok": true,
-      "count": 0
+      "count": 18
     },
     "Tvornica": {
       "ok": true,
       "count": 3
     },
-    "Trešnja": {
-      "ok": true,
-      "count": 0
-    },
-    "Kerempuh": {
+    "Pogon": {
       "ok": true,
       "count": 0
     },
@@ -41,42 +29,24 @@
       "ok": true,
       "count": 0
     },
+    "ZeKaeM": {
+      "ok": true,
+      "count": 0
+    },
     "HNK Zagreb": {
       "ok": true,
       "count": 70
+    },
+    "Kerempuh": {
+      "ok": true,
+      "count": 0
+    },
+    "Trešnja": {
+      "ok": true,
+      "count": 0
     }
   },
   "concerts": [
-    {
-      "id": "41fdcb0fab",
-      "title": "Sjemenište: Emo party",
-      "venue": "Mochvara",
-      "city": "Zagreb",
-      "country": "HR",
-      "category": "concert",
-      "date_iso": "2026-07-31T22:00:00",
-      "date_display": "pet, 31. 07. 2026.",
-      "time": "22:00",
-      "link": "https://mochvara.hr/event-detail/6a4e691b7406b17c5f0a48d3/?lang=hr",
-      "source": "Mochvara",
-      "is_new": false,
-      "first_seen": "2026-07-15T06:01:42.936Z"
-    },
-    {
-      "id": "f659da9696",
-      "title": "Sting",
-      "venue": "Sting Arena Pula Flavijevska ulica",
-      "city": "Pula",
-      "country": "HR",
-      "category": "concert",
-      "date_iso": "2026-08-01T00:00:00",
-      "date_display": "sub, 01. 08. 2026.",
-      "time": null,
-      "link": "https://www.muzika.hr/event/sting-5/",
-      "source": "muzika.hr",
-      "is_new": false,
-      "first_seen": "2026-07-15T21:00:43.042Z"
-    },
     {
       "id": "b1b451be6b",
       "title": "Močvarni birc: Trip-hop & downbeat",
@@ -1623,6 +1593,21 @@
       "first_seen": "2026-06-19T13:01:15.860Z"
     },
     {
+      "id": "4b72704eaf",
+      "title": "Belfast Food",
+      "venue": "Vintage Industrial Bar Savska ulica 160",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-10-01T21:15:00",
+      "date_display": "čet, 01. 10. 2026.",
+      "time": "21:15",
+      "link": "https://www.muzika.hr/event/belfast-food/",
+      "source": "muzika.hr",
+      "is_new": true,
+      "first_seen": "2026-08-16T05:01:04.966Z"
+    },
+    {
       "id": "03c6279b0c",
       "title": "Gioachino Rossini / Dmitrij Šostakovič — Mauro Bigonzetti ROSSINI CARDS / KAZIMIR’S COLOURS",
       "venue": "HNK Zagreb",
@@ -1651,6 +1636,21 @@
       "source": "HNK Zagreb",
       "is_new": false,
       "first_seen": "2026-07-16T11:24:53.922Z"
+    },
+    {
+      "id": "eb87ff9cf8",
+      "title": "Rock ko fol",
+      "venue": "Grada Vukovara 68",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-10-03T00:00:00",
+      "date_display": "sub, 03. 10. 2026.",
+      "time": null,
+      "link": "https://www.muzika.hr/event/rock-ko-fol-2/",
+      "source": "muzika.hr",
+      "is_new": true,
+      "first_seen": "2026-08-16T05:01:04.966Z"
     },
     {
       "id": "e3350b5615",
@@ -2872,5 +2872,5 @@
       "first_seen": "2026-08-09T05:01:15.939Z"
     }
   ],
-  "new_count": 9
+  "new_count": 11
 }
