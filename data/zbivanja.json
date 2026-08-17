@@ -1,11 +1,27 @@
 {
-  "generated_at": "2026-08-17T16:01:19.114Z",
+  "generated_at": "2026-08-17T16:12:50.396Z",
   "stats": {
     "Mochvara": {
       "ok": true,
-      "count": 18
+      "count": 0
+    },
+    "Pogon": {
+      "ok": true,
+      "count": 0
+    },
+    "ZeKaeM": {
+      "ok": true,
+      "count": 0
     },
     "Lisinski": {
+      "ok": true,
+      "count": 0
+    },
+    "Gavella": {
+      "ok": true,
+      "count": 0
+    },
+    "Trešnja": {
       "ok": true,
       "count": 0
     },
@@ -13,7 +29,7 @@
       "ok": true,
       "count": 3
     },
-    "Gavella": {
+    "Komedija": {
       "ok": true,
       "count": 0
     },
@@ -21,27 +37,11 @@
       "ok": true,
       "count": 25
     },
-    "ZeKaeM": {
-      "ok": true,
-      "count": 0
-    },
-    "Komedija": {
-      "ok": true,
-      "count": 0
-    },
-    "Kerempuh": {
-      "ok": true,
-      "count": 0
-    },
     "HNK Zagreb": {
       "ok": true,
       "count": 73
     },
-    "Pogon": {
-      "ok": true,
-      "count": 0
-    },
-    "Trešnja": {
+    "Kerempuh": {
       "ok": true,
       "count": 0
     }
@@ -511,6 +511,21 @@
       "source": "muzika.hr",
       "is_new": false,
       "first_seen": "2026-07-28T05:01:16.269Z"
+    },
+    {
+      "id": "7eae12fd1e",
+      "title": "High Steppers u Vintage Gardenu",
+      "venue": "Vintage Industrial Bar Savska ulica 160",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-08-20T00:00:00",
+      "date_display": "čet, 20. 08. 2026.",
+      "time": null,
+      "link": "https://www.muzika.hr/event/high-steppers-u-vintage-gardenu/",
+      "source": "muzika.hr",
+      "is_new": true,
+      "first_seen": "2026-08-17T16:12:50.396Z"
     },
     {
       "id": "022e730c8b",
@@ -2947,5 +2962,5 @@
       "first_seen": "2026-08-09T05:01:15.939Z"
     }
   ],
-  "new_count": 9
+  "new_count": 10
 }
