@@ -1,10 +1,6 @@
 {
-  "generated_at": "2026-08-16T20:08:14.931Z",
+  "generated_at": "2026-08-17T05:01:05.025Z",
   "stats": {
-    "muzika.hr": {
-      "ok": true,
-      "count": 25
-    },
     "Gavella": {
       "ok": true,
       "count": 0
@@ -21,15 +17,19 @@
       "ok": true,
       "count": 3
     },
+    "muzika.hr": {
+      "ok": true,
+      "count": 25
+    },
     "ZeKaeM": {
       "ok": true,
       "count": 0
     },
-    "Komedija": {
+    "Pogon": {
       "ok": true,
       "count": 0
     },
-    "Pogon": {
+    "Komedija": {
       "ok": true,
       "count": 0
     },
@@ -526,6 +526,21 @@
       "source": "Mochvara",
       "is_new": false,
       "first_seen": "2026-07-29T05:01:14.584Z"
+    },
+    {
+      "id": "0752e9419a",
+      "title": "Močvarni birc: Fallout radio",
+      "venue": "Mochvara",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-08-21T17:00:00",
+      "date_display": "pet, 21. 08. 2026.",
+      "time": "17:00",
+      "link": "https://mochvara.hr/event-detail/6a79b44e8235729e39c3191f/?lang=hr",
+      "source": "Mochvara",
+      "is_new": true,
+      "first_seen": "2026-08-17T05:01:05.025Z"
     },
     {
       "id": "749533e021",
@@ -1743,6 +1758,21 @@
       "first_seen": "2026-07-16T11:24:53.922Z"
     },
     {
+      "id": "27424c7e80",
+      "title": "A$AP Rocky",
+      "venue": "AP Rocky Arena Zagreb Lanište bb",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-10-06T00:00:00",
+      "date_display": "uto, 06. 10. 2026.",
+      "time": null,
+      "link": "https://www.muzika.hr/event/aap-rocky/",
+      "source": "muzika.hr",
+      "is_new": true,
+      "first_seen": "2026-08-17T05:01:05.025Z"
+    },
+    {
       "id": "d1015ce055",
       "title": "Jakov Gotovac STANAC",
       "venue": "HNK Zagreb",
@@ -2857,5 +2887,5 @@
       "first_seen": "2026-08-09T05:01:15.939Z"
     }
   ],
-  "new_count": 9
+  "new_count": 11
 }
