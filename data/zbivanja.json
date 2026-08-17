@@ -1,17 +1,13 @@
 {
-  "generated_at": "2026-08-17T16:12:50.396Z",
+  "generated_at": "2026-08-17T17:01:08.136Z",
   "stats": {
+    "muzika.hr": {
+      "ok": true,
+      "count": 25
+    },
     "Mochvara": {
       "ok": true,
-      "count": 0
-    },
-    "Pogon": {
-      "ok": true,
-      "count": 0
-    },
-    "ZeKaeM": {
-      "ok": true,
-      "count": 0
+      "count": 18
     },
     "Lisinski": {
       "ok": true,
@@ -21,21 +17,21 @@
       "ok": true,
       "count": 0
     },
-    "Trešnja": {
-      "ok": true,
-      "count": 0
-    },
     "Tvornica": {
       "ok": true,
       "count": 3
+    },
+    "ZeKaeM": {
+      "ok": true,
+      "count": 0
     },
     "Komedija": {
       "ok": true,
       "count": 0
     },
-    "muzika.hr": {
+    "Pogon": {
       "ok": true,
-      "count": 25
+      "count": 0
     },
     "HNK Zagreb": {
       "ok": true,
@@ -44,24 +40,13 @@
     "Kerempuh": {
       "ok": true,
       "count": 0
+    },
+    "Trešnja": {
+      "ok": true,
+      "count": 0
     }
   },
   "concerts": [
-    {
-      "id": "060fb26832",
-      "title": "Močvarni birc: 90s Indie radio",
-      "venue": "Mochvara",
-      "city": "Zagreb",
-      "country": "HR",
-      "category": "concert",
-      "date_iso": "2026-08-02T17:00:00",
-      "date_display": "ned, 02. 08. 2026.",
-      "time": "17:00",
-      "link": "https://mochvara.hr/event-detail/6a67316220044b8c4eba8229/?lang=hr",
-      "source": "Mochvara",
-      "is_new": false,
-      "first_seen": "2026-07-28T05:01:16.269Z"
-    },
     {
       "id": "491bb590d1",
       "title": "MoDem Festival",
@@ -524,7 +509,7 @@
       "time": null,
       "link": "https://www.muzika.hr/event/high-steppers-u-vintage-gardenu/",
       "source": "muzika.hr",
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-08-17T16:12:50.396Z"
     },
     {
@@ -2962,5 +2947,5 @@
       "first_seen": "2026-08-09T05:01:15.939Z"
     }
   ],
-  "new_count": 10
+  "new_count": 9
 }
