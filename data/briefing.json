@@ -1,20 +1,20 @@
 {
   "version": 2,
-  "date": "2026-08-16",
-  "generated_at": "2026-08-16T05:23:06.422Z",
-  "date_hr": "Nedjelja, 16. kolovoza 2026.",
+  "date": "2026-08-17",
+  "generated_at": "2026-08-17T05:02:15.935Z",
+  "date_hr": "Ponedjeljak, 17. kolovoza 2026.",
   "weather": {
-    "icon": "☁️",
-    "summary": "20–36°C, oblačno",
+    "icon": "⛈️",
+    "summary": "22–32°C, grmljavina · 1.2 mm",
     "alerts": [
       {
         "level": "warning",
-        "text": "Ekstremna vrućina: 36°C"
+        "text": "Grmljavinska oluja"
       }
     ]
   },
   "fuel": {
-    "current_date": "16.08.2026",
+    "current_date": "17.08.2026",
     "eurodiesel": [
       {
         "company": "Adria Oil",
@@ -68,46 +68,46 @@
     "upcoming_premium": null
   },
   "market": {
-    "updated_at": "2026-08-16T05:23:06.422Z",
-    "btc_usd": 63019,
-    "btc_eur": 54472,
-    "btc_change_24h": -0.1,
-    "usd_eur": 0.8647
+    "updated_at": "2026-08-17T05:02:15.935Z",
+    "btc_usd": 63489,
+    "btc_eur": 54801,
+    "btc_change_24h": 0.73,
+    "usd_eur": 0.8642
   },
   "ai_news": [
     {
-      "title": "An eval harness found what qualitative review couldn't: AI models are most confident when wrong",
-      "link": "https://venturebeat.com/orchestration/an-eval-harness-found-what-qualitative-review-couldnt-ai-models-are-most-confident-when-wrong",
+      "title": "OpenAI’s new ChatGPT feature logs your keystrokes and stores them in plain text",
+      "link": "https://thenextweb.com/news/openai-chatgpt-computer-history-mac-keystrokes",
+      "source": "The Next Web"
+    },
+    {
+      "title": "OpenAI reportedly disbanded its preparedness team",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/980817/openai-disbands-preparedness-team",
+      "source": "The Verge"
+    },
+    {
+      "title": "Dario Amodei admits AI companies have not delivered on their promises",
+      "link": "https://thenextweb.com/news/dario-amodei-ai-public-trust-cure-cancer-ipo",
+      "source": "The Next Web"
+    },
+    {
+      "title": "Cutting RAG inference costs 6x starts with deciding what never reaches the LLM",
+      "link": "https://venturebeat.com/orchestration/cutting-rag-inference-costs-6x-starts-with-deciding-what-never-reaches-the-llm",
       "source": "VentureBeat"
     },
     {
-      "title": "Anthropic shares more details about how Claude’s new watermarks will work",
-      "link": "https://techcrunch.com/2026/08/15/anthropic-shares-more-details-about-how-claudes-new-watermarks-will-work/",
+      "title": "Anthropic CEO says AI backlash is ‘fundamentally a crisis of trust’",
+      "link": "https://techcrunch.com/2026/08/16/anthropic-ceo-says-ai-backlash-is-fundamentally-a-crisis-of-trust/",
       "source": "TechCrunch AI"
-    },
-    {
-      "title": "The AI store manager fired its first human. It had to be reminded of its own rules first",
-      "link": "https://thenextweb.com/news/andon-market-luna-ai-store-manager-fires-employee",
-      "source": "The Next Web"
-    },
-    {
-      "title": "ChatGPT i kod nas dobiva reklame već ovog mjeseca",
-      "link": "https://www.bug.hr/biznis/chatgpt-i-kod-nas-dobiva-reklame-vec-ovog-mjeseca-62108",
-      "source": "Bug.hr"
-    },
-    {
-      "title": "Anthropic’s quarterly revenue passed $11.5bn, up more than 14-fold",
-      "link": "https://thenextweb.com/news/anthropic-q2-2026-revenue-11-5-billion-operating-income",
-      "source": "The Next Web"
     }
   ],
   "micro_tips": {
     "vscode": {
-      "tip": "Quick Fix i Code Actions na trenutnoj poziciji",
-      "keys": "Ctrl+."
+      "tip": "Toggle integrirani terminal",
+      "keys": "Ctrl+`"
     },
-    "sql": "Parametrizirani upiti = plan cache reuse + SQL injection zaštita istovremeno",
-    "oracle": "NVL2(expr, kad_nije_null, kad_je_null) kompaktnija od dvostrukog NVL-a",
-    "regex": "\\s+ pokriva space, tab i newline; \\S je negacija (svaki ne-whitespace)"
+    "sql": "Batch INSERT umjesto jednog-po-jednog: INSERT INTO t VALUES (...),(...),...",
+    "oracle": "FETCH FIRST n ROWS ONLY umjesto ROWNUM — kompatibilno s ORDER BY i čitljivije",
+    "regex": "^(?!.*pattern) negative lookahead: \"ova linija ne smije sadržavati X\""
   }
 }
