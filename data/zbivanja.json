@@ -1,6 +1,10 @@
 {
-  "generated_at": "2026-08-17T05:01:05.874Z",
+  "generated_at": "2026-08-17T05:29:33.992Z",
   "stats": {
+    "muzika.hr": {
+      "ok": true,
+      "count": 25
+    },
     "Lisinski": {
       "ok": true,
       "count": 0
@@ -9,27 +13,23 @@
       "ok": true,
       "count": 0
     },
+    "Tvornica": {
+      "ok": true,
+      "count": 3
+    },
     "Mochvara": {
       "ok": true,
       "count": 18
+    },
+    "Komedija": {
+      "ok": true,
+      "count": 0
     },
     "ZeKaeM": {
       "ok": true,
       "count": 0
     },
-    "Tvornica": {
-      "ok": true,
-      "count": 3
-    },
-    "muzika.hr": {
-      "ok": true,
-      "count": 25
-    },
     "Pogon": {
-      "ok": true,
-      "count": 0
-    },
-    "Komedija": {
       "ok": true,
       "count": 0
     },
@@ -539,7 +539,7 @@
       "time": "17:00",
       "link": "https://mochvara.hr/event-detail/6a79b44e8235729e39c3191f/?lang=hr",
       "source": "Mochvara",
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-08-17T05:01:05.874Z"
     },
     {
@@ -1769,7 +1769,7 @@
       "time": null,
       "link": "https://www.muzika.hr/event/aap-rocky/",
       "source": "muzika.hr",
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-08-17T05:01:05.874Z"
     },
     {
@@ -2887,5 +2887,5 @@
       "first_seen": "2026-08-09T05:01:15.939Z"
     }
   ],
-  "new_count": 11
+  "new_count": 9
 }
