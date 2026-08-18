@@ -1,20 +1,15 @@
 {
   "version": 2,
-  "date": "2026-08-17",
-  "generated_at": "2026-08-17T05:30:55.093Z",
-  "date_hr": "Ponedjeljak, 17. kolovoza 2026.",
+  "date": "2026-08-18",
+  "generated_at": "2026-08-18T05:02:52.203Z",
+  "date_hr": "Utorak, 18. kolovoza 2026.",
   "weather": {
-    "icon": "⛈️",
-    "summary": "22–32°C, grmljavina · 1.2 mm",
-    "alerts": [
-      {
-        "level": "warning",
-        "text": "Grmljavinska oluja"
-      }
-    ]
+    "icon": "🌧️",
+    "summary": "19–29°C, lagana kiša",
+    "alerts": []
   },
   "fuel": {
-    "current_date": "17.08.2026",
+    "current_date": "18.08.2026",
     "eurodiesel": [
       {
         "company": "Adria Oil",
@@ -22,45 +17,45 @@
       },
       {
         "company": "Coral Croatia",
-        "price": 1.71
+        "price": 1.8
       },
       {
         "company": "INA",
-        "price": 1.71
+        "price": 1.8
       },
       {
         "company": "LUKOIL Croatia",
-        "price": 1.71
+        "price": 1.8
       },
       {
         "company": "Petrol",
-        "price": 1.71
+        "price": 1.8
       },
       {
         "company": "Tifon",
-        "price": 1.71
+        "price": 1.8
       }
     ],
     "premium_eurodiesel": [
       {
         "company": "LUKOIL Croatia",
-        "price": 1.87
+        "price": 1.96
       },
       {
         "company": "INA",
-        "price": 1.95
-      },
-      {
-        "company": "Tifon",
-        "price": 1.99
+        "price": 2.06
       },
       {
         "company": "Coral Croatia",
-        "price": 2
+        "price": 2.09
       },
       {
         "company": "Petrol",
-        "price": 2.02
+        "price": 2.09
+      },
+      {
+        "company": "Tifon",
+        "price": 2.1
       }
     ],
     "upcoming_date": null,
@@ -68,46 +63,46 @@
     "upcoming_premium": null
   },
   "market": {
-    "updated_at": "2026-08-17T05:30:55.093Z",
-    "btc_usd": 63476,
-    "btc_eur": 54782,
-    "btc_change_24h": 0.73,
-    "usd_eur": 0.8642
+    "updated_at": "2026-08-18T05:02:52.203Z",
+    "btc_usd": 64153,
+    "btc_eur": 55441,
+    "btc_change_24h": 1.06,
+    "usd_eur": 0.8631
   },
   "ai_news": [
     {
-      "title": "OpenAI’s new ChatGPT feature logs your keystrokes and stores them in plain text",
-      "link": "https://thenextweb.com/news/openai-chatgpt-computer-history-mac-keystrokes",
-      "source": "The Next Web"
-    },
-    {
-      "title": "Aplikacije Copilot i Copilot 365 se, gle čuda, objedinjuju",
-      "link": "https://www.bug.hr/softver/aplikacije-copilot-i-copilot-365-se-gle-cuda-objedinjuju-62107",
-      "source": "Bug.hr"
-    },
-    {
-      "title": "OpenAI reportedly disbanded its preparedness team",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/980817/openai-disbands-preparedness-team",
-      "source": "The Verge"
-    },
-    {
-      "title": "Dario Amodei admits AI companies have not delivered on their promises",
-      "link": "https://thenextweb.com/news/dario-amodei-ai-public-trust-cure-cancer-ipo",
-      "source": "The Next Web"
-    },
-    {
-      "title": "Cutting RAG inference costs 6x starts with deciding what never reaches the LLM",
-      "link": "https://venturebeat.com/orchestration/cutting-rag-inference-costs-6x-starts-with-deciding-what-never-reaches-the-llm",
+      "title": "Qwen3.8-27B runs frontier-class coding agents and reasoning locally, no cloud API required",
+      "link": "https://venturebeat.com/technology/qwen3-8-27b-runs-frontier-class-coding-agents-and-reasoning-locally-no-cloud-api-required",
       "source": "VentureBeat"
+    },
+    {
+      "title": "An AI agent built a working exploit for this macOS flaw in four hours",
+      "link": "https://thenextweb.com/news/macos-screen-sharing-flaw-cve-2026-65400-monero-miner",
+      "source": "The Next Web"
+    },
+    {
+      "title": "Business adoption of AI agents tripled this year - as measurable ROI emerges",
+      "link": "https://www.zdnet.com/article/ai-agent-adoption-tripled-measurable-roi/",
+      "source": "ZDNet"
+    },
+    {
+      "title": "Synchrony wants your Amazon and Walmart store cards inside ChatGPT",
+      "link": "https://thenextweb.com/news/synchrony-openai-chatgpt-shopping-cards-agentic-commerce",
+      "source": "The Next Web"
+    },
+    {
+      "title": "Anthropic explains how Claude&#8217;s invisible text watermarks will work",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/980869/anthropic-claude-watermarks-synthid-text-system",
+      "source": "The Verge"
     }
   ],
   "micro_tips": {
     "vscode": {
-      "tip": "Toggle integrirani terminal",
-      "keys": "Ctrl+`"
+      "tip": "Selektiraj sva pojavljivanja trenutne riječi",
+      "keys": "Ctrl+Shift+L"
     },
-    "sql": "Batch INSERT umjesto jednog-po-jednog: INSERT INTO t VALUES (...),(...),...",
-    "oracle": "FETCH FIRST n ROWS ONLY umjesto ROWNUM — kompatibilno s ORDER BY i čitljivije",
-    "regex": "^(?!.*pattern) negative lookahead: \"ova linija ne smije sadržavati X\""
+    "sql": "EXISTS umjesto IN za subqueries — brže jer stane na prvom podudaranju: WHERE EXISTS (SELECT 1 FROM ...)",
+    "oracle": "/*+ INDEX(t ime_indexa) */ forsira specifičan index kad optimizer bira full scan",
+    "regex": "\\b granica riječi: \\bword\\b podudara cijelu riječ, ne \"password\" ili \"swordfish\""
   }
 }
