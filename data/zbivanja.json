@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-08-18T20:09:51.000Z",
+  "generated_at": "2026-08-19T05:01:04.311Z",
   "stats": {
     "muzika.hr": {
       "ok": true,
       "count": 25
     },
-    "Lisinski": {
+    "Gavella": {
       "ok": true,
       "count": 0
     },
-    "Gavella": {
+    "Lisinski": {
       "ok": true,
       "count": 0
     },
@@ -29,13 +29,13 @@
       "ok": true,
       "count": 0
     },
-    "HNK Zagreb": {
-      "ok": true,
-      "count": 73
-    },
     "Pogon": {
       "ok": true,
       "count": 0
+    },
+    "HNK Zagreb": {
+      "ok": true,
+      "count": 73
     },
     "Kerempuh": {
       "ok": true,
@@ -47,21 +47,6 @@
     }
   },
   "concerts": [
-    {
-      "id": "83e8d53a09",
-      "title": "Nick Cave The Bad Seeds",
-      "venue": "Bad Seeds Arena Pula Flavijevska ulica",
-      "city": "Pula",
-      "country": "HR",
-      "category": "concert",
-      "date_iso": "2026-08-04T00:00:00",
-      "date_display": "uto, 04. 08. 2026.",
-      "time": null,
-      "link": "https://www.muzika.hr/event/nick-cave-the-bad-seeds/",
-      "source": "muzika.hr",
-      "is_new": false,
-      "first_seen": "2026-07-17T05:01:25.773Z"
-    },
     {
       "id": "c2f39966c3",
       "title": "Močvarni birc: Post-punk 2.0",
@@ -541,6 +526,21 @@
       "source": "muzika.hr",
       "is_new": false,
       "first_seen": "2026-07-29T05:01:14.584Z"
+    },
+    {
+      "id": "2cfcde253f",
+      "title": "Močvarni birc: Gorillaz i prijatelji",
+      "venue": "Mochvara",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-08-22T17:00:00",
+      "date_display": "sub, 22. 08. 2026.",
+      "time": "17:00",
+      "link": "https://mochvara.hr/event-detail/6a79b5948235729e39c5ba26/?lang=hr",
+      "source": "Mochvara",
+      "is_new": true,
+      "first_seen": "2026-08-19T05:01:04.311Z"
     },
     {
       "id": "c412cb2a67",
@@ -2707,21 +2707,6 @@
   ],
   "abroad": [
     {
-      "id": "555df06376",
-      "title": "Judas Priest",
-      "venue": "Bratislava",
-      "city": "Slovakia",
-      "country": "EU",
-      "category": "concert",
-      "date_iso": "2026-08-04T00:00:00",
-      "date_display": "uto, 04. 08. 2026.",
-      "time": null,
-      "link": "https://www.muzika.hr/event/judas-priest-3/",
-      "source": "muzika.hr",
-      "is_new": false,
-      "first_seen": "2026-07-18T05:01:14.110Z"
-    },
-    {
       "id": "a983d61e3f",
       "title": "Anna von Hausswolff",
       "venue": "Kino Šiška Trg Prekomorskih brigad 3",
@@ -2872,5 +2857,5 @@
       "first_seen": "2026-08-09T05:01:15.939Z"
     }
   ],
-  "new_count": 9
+  "new_count": 10
 }
