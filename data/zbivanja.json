@@ -1,10 +1,6 @@
 {
-  "generated_at": "2026-08-19T12:19:29.212Z",
+  "generated_at": "2026-08-19T13:01:10.631Z",
   "stats": {
-    "muzika.hr": {
-      "ok": true,
-      "count": 25
-    },
     "Gavella": {
       "ok": true,
       "count": 0
@@ -24,6 +20,10 @@
     "ZeKaeM": {
       "ok": true,
       "count": 0
+    },
+    "muzika.hr": {
+      "ok": true,
+      "count": 25
     },
     "Komedija": {
       "ok": true,
@@ -1848,6 +1848,21 @@
       "first_seen": "2026-07-16T11:24:53.922Z"
     },
     {
+      "id": "a1eb4a1d93",
+      "title": "Jakov Gotovac Stanac Zamjena za predstavu Budi uvijek kao zmaj",
+      "venue": "HNK Zagreb",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-10-09T19:30:00",
+      "date_display": "pet, 09. 10. 2026.",
+      "time": "19:30",
+      "link": "https://hnk.hr/hr/opera/predstave/stanac/#09.10.19.30",
+      "source": "HNK Zagreb",
+      "is_new": true,
+      "first_seen": "2026-08-19T13:01:10.631Z"
+    },
+    {
       "id": "e2f4df1279",
       "title": "Razgled kazališta 165 sezona iza kulisa – kombinirani razgled HNK-a i HNK2",
       "venue": "HNK Zagreb",
@@ -2857,5 +2872,5 @@
       "first_seen": "2026-08-09T05:01:15.939Z"
     }
   ],
-  "new_count": 9
+  "new_count": 10
 }
