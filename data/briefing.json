@@ -1,19 +1,19 @@
 {
   "version": 2,
-  "date": "2026-08-18",
-  "generated_at": "2026-08-18T05:23:42.297Z",
-  "date_hr": "Utorak, 18. kolovoza 2026.",
+  "date": "2026-08-19",
+  "generated_at": "2026-08-19T05:02:16.729Z",
+  "date_hr": "Srijeda, 19. kolovoza 2026.",
   "weather": {
-    "icon": "🌧️",
-    "summary": "19–29°C, lagana kiša",
+    "icon": "☁️",
+    "summary": "21–33°C, oblačno",
     "alerts": []
   },
   "fuel": {
-    "current_date": "18.08.2026",
+    "current_date": "19.08.2026",
     "eurodiesel": [
       {
         "company": "Adria Oil",
-        "price": 1.71
+        "price": 1.8
       },
       {
         "company": "Coral Croatia",
@@ -46,12 +46,12 @@
         "price": 2.06
       },
       {
-        "company": "Coral Croatia",
+        "company": "Petrol",
         "price": 2.09
       },
       {
-        "company": "Petrol",
-        "price": 2.09
+        "company": "Coral Croatia",
+        "price": 2.1
       },
       {
         "company": "Tifon",
@@ -63,46 +63,46 @@
     "upcoming_premium": null
   },
   "market": {
-    "updated_at": "2026-08-18T05:23:42.297Z",
-    "btc_usd": 64180,
-    "btc_eur": 55469,
-    "btc_change_24h": 1.04,
-    "usd_eur": 0.8631
+    "updated_at": "2026-08-19T05:02:16.729Z",
+    "btc_usd": 64270,
+    "btc_eur": 55481,
+    "btc_change_24h": 0.19,
+    "usd_eur": 0.8639
   },
   "ai_news": [
     {
-      "title": "Qwen3.8-27B runs frontier-class coding agents and reasoning locally, no cloud API required",
-      "link": "https://venturebeat.com/technology/qwen3-8-27b-runs-frontier-class-coding-agents-and-reasoning-locally-no-cloud-api-required",
-      "source": "VentureBeat"
-    },
-    {
-      "title": "An AI agent built a working exploit for this macOS flaw in four hours",
-      "link": "https://thenextweb.com/news/macos-screen-sharing-flaw-cve-2026-65400-monero-miner",
+      "title": "OpenAI is rewriting its safety rules after the Hugging Face breach",
+      "link": "https://thenextweb.com/news/openai-preparedness-framework-rewrite-astra-monitoring",
       "source": "The Next Web"
     },
     {
-      "title": "Business adoption of AI agents tripled this year - as measurable ROI emerges",
-      "link": "https://www.zdnet.com/article/ai-agent-adoption-tripled-measurable-roi/",
-      "source": "ZDNet"
-    },
-    {
-      "title": "Synchrony wants your Amazon and Walmart store cards inside ChatGPT",
-      "link": "https://thenextweb.com/news/synchrony-openai-chatgpt-shopping-cards-agentic-commerce",
-      "source": "The Next Web"
-    },
-    {
-      "title": "Anthropic explains how Claude&#8217;s invisible text watermarks will work",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/980869/anthropic-claude-watermarks-synthid-text-system",
+      "title": "OpenAI lays out new security changes after its AI hacked Hugging Face",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/981640/openai-security-changes-ai-hugging-face-hack",
       "source": "The Verge"
+    },
+    {
+      "title": "OpenAI institutes new safeguards after Hugging Face breach",
+      "link": "https://techcrunch.com/2026/08/18/openai-institutes-new-safeguards-after-hugging-face-breach/",
+      "source": "TechCrunch AI"
+    },
+    {
+      "title": "AI-drafted bills are swamping the House office that writes US laws",
+      "link": "https://thenextweb.com/news/ai-drafted-bills-house-legislative-counsel-swamped",
+      "source": "The Next Web"
+    },
+    {
+      "title": "OpenAI launches ChatGPT for Teens and will auto-enrol under-18s",
+      "link": "https://thenextweb.com/news/chatgpt-for-teens-openai-age-prediction-study-mode",
+      "source": "The Next Web"
     }
   ],
   "micro_tips": {
     "vscode": {
-      "tip": "Selektiraj sva pojavljivanja trenutne riječi",
-      "keys": "Ctrl+Shift+L"
+      "tip": "Pomakni liniju gore ili dolje bez cut/paste",
+      "keys": "Alt+↑ / Alt+↓"
     },
-    "sql": "EXISTS umjesto IN za subqueries — brže jer stane na prvom podudaranju: WHERE EXISTS (SELECT 1 FROM ...)",
-    "oracle": "/*+ INDEX(t ime_indexa) */ forsira specifičan index kad optimizer bira full scan",
-    "regex": "\\b granica riječi: \\bword\\b podudara cijelu riječ, ne \"password\" ili \"swordfish\""
+    "sql": "Nikad SELECT * u produkciji — navedi kolone, manji I/O i bolji cache plan",
+    "oracle": "/*+ PARALLEL(t 4) */ paralelno izvršavanje querija na N thread-ova",
+    "regex": "(?:group) non-capturing group: grupiraj bez pamćenja za veće performanse"
   }
 }
