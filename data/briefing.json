@@ -1,15 +1,20 @@
 {
   "version": 2,
-  "date": "2026-08-19",
-  "generated_at": "2026-08-19T05:24:54.097Z",
-  "date_hr": "Srijeda, 19. kolovoza 2026.",
+  "date": "2026-08-20",
+  "generated_at": "2026-08-20T05:02:27.997Z",
+  "date_hr": "Četvrtak, 20. kolovoza 2026.",
   "weather": {
     "icon": "☁️",
-    "summary": "21–33°C, oblačno",
-    "alerts": []
+    "summary": "23–36°C, oblačno",
+    "alerts": [
+      {
+        "level": "warning",
+        "text": "Ekstremna vrućina: 36°C"
+      }
+    ]
   },
   "fuel": {
-    "current_date": "19.08.2026",
+    "current_date": "20.08.2026",
     "eurodiesel": [
       {
         "company": "Adria Oil",
@@ -63,46 +68,46 @@
     "upcoming_premium": null
   },
   "market": {
-    "updated_at": "2026-08-19T05:24:54.097Z",
-    "btc_usd": 64305,
-    "btc_eur": 55499,
-    "btc_change_24h": 0.23,
-    "usd_eur": 0.8639
+    "updated_at": "2026-08-20T05:02:27.997Z",
+    "btc_usd": 69456,
+    "btc_eur": 59485,
+    "btc_change_24h": 8.07,
+    "usd_eur": 0.8584
   },
   "ai_news": [
     {
-      "title": "OpenAI is rewriting its safety rules after the Hugging Face breach",
-      "link": "https://thenextweb.com/news/openai-preparedness-framework-rewrite-astra-monitoring",
-      "source": "The Next Web"
+      "title": "Vlastiti hardver, pametni routeri i agenti u dvije minute: Što za Infobip znači \"AI-first\"",
+      "link": "https://www.bug.hr/intervju/vlastiti-hardver-pametni-routeri-i-agenti-u-dvije-minute-sto-za-infobip-znaci-62166",
+      "source": "Bug.hr"
     },
     {
-      "title": "OpenAI lays out new security changes after its AI hacked Hugging Face",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/981640/openai-security-changes-ai-hugging-face-hack",
-      "source": "The Verge"
+      "title": "TrueFoundry's open source AI agent harness TrueForge boasts 30%-75% cheaper task completion than Claude Managed Agents",
+      "link": "https://venturebeat.com/orchestration/truefoundrys-open-source-ai-agent-harness-trueforge-boasts-30-75-cheaper-task-completion-than-claude-managed-agents",
+      "source": "VentureBeat"
     },
     {
-      "title": "OpenAI institutes new safeguards after Hugging Face breach",
-      "link": "https://techcrunch.com/2026/08/18/openai-institutes-new-safeguards-after-hugging-face-breach/",
+      "title": "OpenAI seeks to one-up Anthropic with new customer privacy protections",
+      "link": "https://techcrunch.com/2026/08/19/openai-seeks-to-one-up-anthropic-with-new-customer-privacy-protections/",
       "source": "TechCrunch AI"
     },
     {
-      "title": "AI-drafted bills are swamping the House office that writes US laws",
-      "link": "https://thenextweb.com/news/ai-drafted-bills-house-legislative-counsel-swamped",
-      "source": "The Next Web"
+      "title": "Cognition CEO denies report that SpaceX tried to acquire the startup",
+      "link": "https://techcrunch.com/2026/08/19/cognition-ceo-denies-report-that-spacex-tried-to-acquire-the-startup/",
+      "source": "TechCrunch AI"
     },
     {
-      "title": "OpenAI launches ChatGPT for Teens and will auto-enrol under-18s",
-      "link": "https://thenextweb.com/news/chatgpt-for-teens-openai-age-prediction-study-mode",
-      "source": "The Next Web"
+      "title": "Google packs Search and Gemini with new AI study tools",
+      "link": "https://techcrunch.com/2026/08/19/google-launches-new-study-tools-for-students-across-search-and-gemini/",
+      "source": "TechCrunch AI"
     }
   ],
   "micro_tips": {
     "vscode": {
-      "tip": "Pomakni liniju gore ili dolje bez cut/paste",
-      "keys": "Alt+↑ / Alt+↓"
+      "tip": "Format Document (auto-format cijelog fajla)",
+      "keys": "Shift+Alt+F"
     },
-    "sql": "Nikad SELECT * u produkciji — navedi kolone, manji I/O i bolji cache plan",
-    "oracle": "/*+ PARALLEL(t 4) */ paralelno izvršavanje querija na N thread-ova",
-    "regex": "(?:group) non-capturing group: grupiraj bez pamćenja za veće performanse"
+    "sql": "Covering index: uključi sve kolone iz WHERE + SELECT u index pa nema pristupa tablici",
+    "oracle": "/*+ NO_MERGE(v) */ sprječava merging inline viewa s parent queryjem",
+    "regex": "(?=pattern) lookahead: \"iza ovog mora slijediti X\" bez konzumiranja znakova"
   }
 }
