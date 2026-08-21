@@ -1,25 +1,21 @@
 {
-  "generated_at": "2026-08-21T10:01:07.028Z",
+  "generated_at": "2026-08-21T10:17:58.442Z",
   "stats": {
-    "muzika.hr": {
-      "ok": true,
-      "count": 25
-    },
-    "Mochvara": {
-      "ok": true,
-      "count": 18
-    },
     "Lisinski": {
-      "ok": true,
-      "count": 0
-    },
-    "Gavella": {
       "ok": true,
       "count": 0
     },
     "Tvornica": {
       "ok": true,
       "count": 3
+    },
+    "Gavella": {
+      "ok": true,
+      "count": 0
+    },
+    "Mochvara": {
+      "ok": true,
+      "count": 18
     },
     "Komedija": {
       "ok": true,
@@ -29,6 +25,14 @@
       "ok": true,
       "count": 0
     },
+    "muzika.hr": {
+      "ok": true,
+      "count": 25
+    },
+    "HNK Zagreb": {
+      "ok": true,
+      "count": 76
+    },
     "Kerempuh": {
       "ok": true,
       "count": 0
@@ -37,13 +41,9 @@
       "ok": true,
       "count": 0
     },
-    "HNK Zagreb": {
-      "ok": true,
-      "count": 76
-    },
     "Trešnja": {
-      "ok": false,
-      "error": "The operation was aborted due to timeout"
+      "ok": true,
+      "count": 0
     }
   },
   "concerts": [
@@ -1109,7 +1109,7 @@
       "time": "12:00",
       "link": "https://hnk.hr/hr/opera/predstave/predstavljanje-knjige-neustra%C5%A1ive-hrvatske-%C5%BEene/#14.09.12.00",
       "source": "HNK Zagreb",
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-08-21T10:01:07.028Z"
     },
     {
@@ -1334,7 +1334,7 @@
       "time": "11:00",
       "link": "https://hnk.hr/hr/opera/predstave/operna-ogrlica-jakova-gotovca/#17.09.11.00",
       "source": "HNK Zagreb",
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-08-21T10:01:07.028Z"
     },
     {
@@ -2932,5 +2932,5 @@
       "first_seen": "2026-08-09T05:01:15.939Z"
     }
   ],
-  "new_count": 11
+  "new_count": 9
 }
