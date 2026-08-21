@@ -1,21 +1,13 @@
 {
-  "generated_at": "2026-08-20T20:15:04.941Z",
+  "generated_at": "2026-08-21T05:01:08.847Z",
   "stats": {
-    "Mochvara": {
-      "ok": true,
-      "count": 0
-    },
-    "Pogon": {
-      "ok": true,
-      "count": 0
-    },
     "muzika.hr": {
       "ok": true,
       "count": 25
     },
-    "Tvornica": {
+    "Mochvara": {
       "ok": true,
-      "count": 3
+      "count": 18
     },
     "Lisinski": {
       "ok": true,
@@ -25,11 +17,11 @@
       "ok": true,
       "count": 0
     },
-    "ZeKaeM": {
+    "Tvornica": {
       "ok": true,
-      "count": 0
+      "count": 3
     },
-    "Kerempuh": {
+    "ZeKaeM": {
       "ok": true,
       "count": 0
     },
@@ -37,31 +29,24 @@
       "ok": true,
       "count": 0
     },
-    "Trešnja": {
-      "ok": true,
-      "count": 0
-    },
     "HNK Zagreb": {
       "ok": true,
       "count": 74
+    },
+    "Pogon": {
+      "ok": true,
+      "count": 0
+    },
+    "Kerempuh": {
+      "ok": true,
+      "count": 0
+    },
+    "Trešnja": {
+      "ok": true,
+      "count": 0
     }
   },
   "concerts": [
-    {
-      "id": "b3e9d9f270",
-      "title": "Fresh Wave Festival",
-      "venue": "",
-      "city": "Zagreb",
-      "country": "HR",
-      "category": "concert",
-      "date_iso": "2026-08-06T00:00:00",
-      "date_display": "čet, 06. 08. 2026.",
-      "time": null,
-      "link": "https://www.muzika.hr/event/fresh-wave-festival/",
-      "source": "muzika.hr",
-      "is_new": false,
-      "first_seen": "2026-07-19T05:01:18.041Z"
-    },
     {
       "id": "fccb1e7800",
       "title": "Močvarni birc: Lo-fi radio",
@@ -571,6 +556,21 @@
       "source": "muzika.hr",
       "is_new": false,
       "first_seen": "2026-07-29T05:01:14.584Z"
+    },
+    {
+      "id": "cdf3b9a335",
+      "title": "Neću na posao, oću na punk!: UxBxTx, Killing Yield, BearxHug",
+      "venue": "Mochvara",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-08-25T20:00:00",
+      "date_display": "uto, 25. 08. 2026.",
+      "time": "20:00",
+      "link": "https://mochvara.hr/event-detail/6a68bdb63d66138e2f424732/?lang=hr",
+      "source": "Mochvara",
+      "is_new": true,
+      "first_seen": "2026-08-21T05:01:08.847Z"
     },
     {
       "id": "272dd1dd50",
@@ -1773,6 +1773,21 @@
       "first_seen": "2026-08-17T05:01:05.874Z"
     },
     {
+      "id": "26c79e402c",
+      "title": "Marduk",
+      "venue": "Vintage Industrial Bar Savska ulica 160",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-10-06T00:00:00",
+      "date_display": "uto, 06. 10. 2026.",
+      "time": null,
+      "link": "https://www.muzika.hr/event/marduk-2/",
+      "source": "muzika.hr",
+      "is_new": true,
+      "first_seen": "2026-08-21T05:01:08.847Z"
+    },
+    {
       "id": "d1015ce055",
       "title": "Jakov Gotovac STANAC",
       "venue": "HNK Zagreb",
@@ -2842,5 +2857,5 @@
       "first_seen": "2026-08-09T05:01:15.939Z"
     }
   ],
-  "new_count": 9
+  "new_count": 11
 }
