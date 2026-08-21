@@ -1,20 +1,20 @@
 {
   "version": 2,
-  "date": "2026-08-20",
-  "generated_at": "2026-08-20T05:25:19.570Z",
-  "date_hr": "Četvrtak, 20. kolovoza 2026.",
+  "date": "2026-08-21",
+  "generated_at": "2026-08-21T05:02:13.719Z",
+  "date_hr": "Petak, 21. kolovoza 2026.",
   "weather": {
-    "icon": "☁️",
-    "summary": "23–36°C, oblačno",
+    "icon": "⛈️",
+    "summary": "21–33°C, grmljavina · 4.5 mm, vjetar 27 km/h",
     "alerts": [
       {
         "level": "warning",
-        "text": "Ekstremna vrućina: 36°C"
+        "text": "Grmljavinska oluja"
       }
     ]
   },
   "fuel": {
-    "current_date": "20.08.2026",
+    "current_date": "21.08.2026",
     "eurodiesel": [
       {
         "company": "Adria Oil",
@@ -51,16 +51,16 @@
         "price": 2.06
       },
       {
-        "company": "Petrol",
-        "price": 2.09
-      },
-      {
         "company": "Coral Croatia",
         "price": 2.1
       },
       {
         "company": "Tifon",
         "price": 2.1
+      },
+      {
+        "company": "Petrol",
+        "price": 2.13
       }
     ],
     "upcoming_date": null,
@@ -68,46 +68,46 @@
     "upcoming_premium": null
   },
   "market": {
-    "updated_at": "2026-08-20T05:25:19.570Z",
-    "btc_usd": 69528,
-    "btc_eur": 59561,
-    "btc_change_24h": 8.17,
-    "usd_eur": 0.8584
+    "updated_at": "2026-08-21T05:02:13.719Z",
+    "btc_usd": 74974,
+    "btc_eur": 64124,
+    "btc_change_24h": 7.95,
+    "usd_eur": 0.856
   },
   "ai_news": [
     {
-      "title": "Vlastiti hardver, pametni routeri i agenti u dvije minute: Što za Infobip znači \"AI-first\"",
-      "link": "https://www.bug.hr/intervju/vlastiti-hardver-pametni-routeri-i-agenti-u-dvije-minute-sto-za-infobip-znaci-62166",
-      "source": "Bug.hr"
-    },
-    {
-      "title": "TrueFoundry's open source AI agent harness TrueForge boasts 30%-75% cheaper task completion than Claude Managed Agents",
-      "link": "https://venturebeat.com/orchestration/truefoundrys-open-source-ai-agent-harness-trueforge-boasts-30-75-cheaper-task-completion-than-claude-managed-agents",
+      "title": "Slack wants to drag AI coding out of the terminal and into the group chat",
+      "link": "https://venturebeat.com/orchestration/slack-wants-to-drag-ai-coding-out-of-the-terminal-and-into-the-group-chat",
       "source": "VentureBeat"
     },
     {
-      "title": "OpenAI seeks to one-up Anthropic with new customer privacy protections",
-      "link": "https://techcrunch.com/2026/08/19/openai-seeks-to-one-up-anthropic-with-new-customer-privacy-protections/",
+      "title": "Binance now lets AI agents trade, but keeping them in check is largely up to users",
+      "link": "https://techcrunch.com/2026/08/20/binance-now-lets-ai-agents-trade-but-keeping-them-in-check-is-largely-up-to-users/",
       "source": "TechCrunch AI"
     },
     {
-      "title": "Cognition CEO denies report that SpaceX tried to acquire the startup",
-      "link": "https://techcrunch.com/2026/08/19/cognition-ceo-denies-report-that-spacex-tried-to-acquire-the-startup/",
+      "title": "OpenAI is gaining on Anthropic with business users, new data indicates",
+      "link": "https://techcrunch.com/2026/08/20/openai-is-gaining-on-anthropic-with-business-users-new-data-indicates/",
       "source": "TechCrunch AI"
     },
     {
-      "title": "Google packs Search and Gemini with new AI study tools",
-      "link": "https://techcrunch.com/2026/08/19/google-launches-new-study-tools-for-students-across-search-and-gemini/",
-      "source": "TechCrunch AI"
+      "title": "OpenAI is bringing ChatGPT ads to 31 European countries",
+      "link": "https://thenextweb.com/news/chatgpt-ads-expand-31-european-markets",
+      "source": "The Next Web"
+    },
+    {
+      "title": "Najpopularniji AI alati u 2026. godini",
+      "link": "https://mreza.bug.hr/umjetna-inteligencija/najpopularniji-ai-alati-u-2026-godini-62185",
+      "source": "Bug.hr"
     }
   ],
   "micro_tips": {
     "vscode": {
-      "tip": "Format Document (auto-format cijelog fajla)",
-      "keys": "Shift+Alt+F"
+      "tip": "Go to Definition simbola",
+      "keys": "F12"
     },
-    "sql": "Covering index: uključi sve kolone iz WHERE + SELECT u index pa nema pristupa tablici",
-    "oracle": "/*+ NO_MERGE(v) */ sprječava merging inline viewa s parent queryjem",
-    "regex": "(?=pattern) lookahead: \"iza ovog mora slijediti X\" bez konzumiranja znakova"
+    "sql": "Window funkcije (ROW_NUMBER, LAG, LEAD) umjesto self-join za redosljed i razlike",
+    "oracle": "/*+ RESULT_CACHE */ cache-ira rezultat funkcije u SGA za ponovljene pozive",
+    "regex": ".+? lazy quantifier: stane na prvom mogućem podudaranju, ne zadnjem"
   }
 }
