@@ -1,15 +1,19 @@
 {
-  "generated_at": "2026-08-21T09:23:32.017Z",
+  "generated_at": "2026-08-21T10:01:07.028Z",
   "stats": {
     "muzika.hr": {
       "ok": true,
       "count": 25
     },
-    "Gavella": {
+    "Mochvara": {
+      "ok": true,
+      "count": 18
+    },
+    "Lisinski": {
       "ok": true,
       "count": 0
     },
-    "Lisinski": {
+    "Gavella": {
       "ok": true,
       "count": 0
     },
@@ -17,23 +21,11 @@
       "ok": true,
       "count": 3
     },
-    "Mochvara": {
-      "ok": true,
-      "count": 18
-    },
-    "ZeKaeM": {
-      "ok": true,
-      "count": 0
-    },
     "Komedija": {
       "ok": true,
       "count": 0
     },
-    "HNK Zagreb": {
-      "ok": true,
-      "count": 74
-    },
-    "Pogon": {
+    "ZeKaeM": {
       "ok": true,
       "count": 0
     },
@@ -41,9 +33,17 @@
       "ok": true,
       "count": 0
     },
-    "Trešnja": {
+    "Pogon": {
       "ok": true,
       "count": 0
+    },
+    "HNK Zagreb": {
+      "ok": true,
+      "count": 76
+    },
+    "Trešnja": {
+      "ok": false,
+      "error": "The operation was aborted due to timeout"
     }
   },
   "concerts": [
@@ -1098,6 +1098,21 @@
       "first_seen": "2026-08-13T11:01:23.559Z"
     },
     {
+      "id": "75ba2c96de",
+      "title": "Tatjana Barat i Yellow Yuri Predstavljanje knjige „Neustrašive hrvatske žene” ZAGREBAČKI OPERNI FESTIVAL 2026.",
+      "venue": "HNK Zagreb",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-09-14T12:00:00",
+      "date_display": "pon, 14. 09. 2026.",
+      "time": "12:00",
+      "link": "https://hnk.hr/hr/opera/predstave/predstavljanje-knjige-neustra%C5%A1ive-hrvatske-%C5%BEene/#14.09.12.00",
+      "source": "HNK Zagreb",
+      "is_new": true,
+      "first_seen": "2026-08-21T10:01:07.028Z"
+    },
+    {
       "id": "76030e12f8",
       "title": "Nota Bene Records Predstavljanje nosača zvuka Glazbena ostavština Bele pl. Adamovića Čepinskog",
       "venue": "HNK Zagreb",
@@ -1306,6 +1321,21 @@
       "source": "HNK Zagreb",
       "is_new": false,
       "first_seen": "2026-08-17T09:28:03.440Z"
+    },
+    {
+      "id": "d504673d37",
+      "title": "Predstavljanje knjige Siniše Vukovića Operna ogrlica Jakova Gotovca ZAGREBAČKI OPERNI FESTIVAL 2026.",
+      "venue": "HNK Zagreb",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-09-17T11:00:00",
+      "date_display": "čet, 17. 09. 2026.",
+      "time": "11:00",
+      "link": "https://hnk.hr/hr/opera/predstave/operna-ogrlica-jakova-gotovca/#17.09.11.00",
+      "source": "HNK Zagreb",
+      "is_new": true,
+      "first_seen": "2026-08-21T10:01:07.028Z"
     },
     {
       "id": "e3fa49cc96",
@@ -2902,5 +2932,5 @@
       "first_seen": "2026-08-09T05:01:15.939Z"
     }
   ],
-  "new_count": 9
+  "new_count": 11
 }
