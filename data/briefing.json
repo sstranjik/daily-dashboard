@@ -1,20 +1,15 @@
 {
   "version": 2,
-  "date": "2026-08-21",
-  "generated_at": "2026-08-21T05:28:08.510Z",
-  "date_hr": "Petak, 21. kolovoza 2026.",
+  "date": "2026-08-22",
+  "generated_at": "2026-08-22T05:02:08.906Z",
+  "date_hr": "Subota, 22. kolovoza 2026.",
   "weather": {
-    "icon": "⛈️",
-    "summary": "21–33°C, grmljavina · 4.5 mm, vjetar 27 km/h",
-    "alerts": [
-      {
-        "level": "warning",
-        "text": "Grmljavinska oluja"
-      }
-    ]
+    "icon": "🌦️",
+    "summary": "20–24°C, pljuskovi · 0.9 mm",
+    "alerts": []
   },
   "fuel": {
-    "current_date": "21.08.2026",
+    "current_date": "22.08.2026",
     "eurodiesel": [
       {
         "company": "Adria Oil",
@@ -51,12 +46,12 @@
         "price": 2.06
       },
       {
-        "company": "Coral Croatia",
+        "company": "Tifon",
         "price": 2.1
       },
       {
-        "company": "Tifon",
-        "price": 2.1
+        "company": "Coral Croatia",
+        "price": 2.13
       },
       {
         "company": "Petrol",
@@ -68,46 +63,46 @@
     "upcoming_premium": null
   },
   "market": {
-    "updated_at": "2026-08-21T05:28:08.510Z",
-    "btc_usd": 75208,
-    "btc_eur": 64325,
-    "btc_change_24h": 8.05,
+    "updated_at": "2026-08-22T05:02:08.906Z",
+    "btc_usd": 78460,
+    "btc_eur": 67177,
+    "btc_change_24h": 4.66,
     "usd_eur": 0.856
   },
   "ai_news": [
     {
-      "title": "Slack wants to drag AI coding out of the terminal and into the group chat",
-      "link": "https://venturebeat.com/orchestration/slack-wants-to-drag-ai-coding-out-of-the-terminal-and-into-the-group-chat",
-      "source": "VentureBeat"
-    },
-    {
-      "title": "Binance now lets AI agents trade, but keeping them in check is largely up to users",
-      "link": "https://techcrunch.com/2026/08/20/binance-now-lets-ai-agents-trade-but-keeping-them-in-check-is-largely-up-to-users/",
+      "title": "Anthropic’s Opus 4.6 is a smut-machine",
+      "link": "https://techcrunch.com/2026/08/21/anthropics-opus-4-6-is-a-smut-machine/",
       "source": "TechCrunch AI"
     },
     {
-      "title": "OpenAI is gaining on Anthropic with business users, new data indicates",
-      "link": "https://techcrunch.com/2026/08/20/openai-is-gaining-on-anthropic-with-business-users-new-data-indicates/",
-      "source": "TechCrunch AI"
-    },
-    {
-      "title": "OpenAI is bringing ChatGPT ads to 31 European countries",
-      "link": "https://thenextweb.com/news/chatgpt-ads-expand-31-european-markets",
+      "title": "Anthropic will give defenders what its strongest model finds, but not the model itself",
+      "link": "https://thenextweb.com/news/anthropic-mythos-5-defenders-open-source-fund",
       "source": "The Next Web"
     },
     {
-      "title": "Najpopularniji AI alati u 2026. godini",
-      "link": "https://mreza.bug.hr/umjetna-inteligencija/najpopularniji-ai-alati-u-2026-godini-62185",
-      "source": "Bug.hr"
+      "title": "Anthropic’s enterprise venture has bought its second consultancy in four months",
+      "link": "https://thenextweb.com/news/anthropic-ode-acquires-casper-studios-enterprise-ai",
+      "source": "The Next Web"
+    },
+    {
+      "title": "OpenAI ships a Messages plugin that summarises who you talk to and what about",
+      "link": "https://thenextweb.com/news/chatgpt-imessage-plugin-apple-privacy",
+      "source": "The Next Web"
+    },
+    {
+      "title": "Nvidia just showed that the harness, not the AI model, is now the real hero",
+      "link": "https://techcrunch.com/2026/08/21/nvidia-just-showed-that-the-harness-not-the-ai-model-is-now-the-real-hero/",
+      "source": "TechCrunch AI"
     }
   ],
   "micro_tips": {
     "vscode": {
-      "tip": "Go to Definition simbola",
-      "keys": "F12"
+      "tip": "Peek Definition bez napuštanja fajla",
+      "keys": "Alt+F12"
     },
-    "sql": "Window funkcije (ROW_NUMBER, LAG, LEAD) umjesto self-join za redosljed i razlike",
-    "oracle": "/*+ RESULT_CACHE */ cache-ira rezultat funkcije u SGA za ponovljene pozive",
-    "regex": ".+? lazy quantifier: stane na prvom mogućem podudaranju, ne zadnjem"
+    "sql": "EXPLAIN ANALYZE prikazuje stvarne vs procijenjene redove — ključno za tuning",
+    "oracle": "CONNECT BY LEVEL <= n generira broj redova bez pomoćne tablice",
+    "regex": "[^\\n]* svaki znak osim newline — dohvati cijelu liniju bez dotall flaga"
   }
 }
