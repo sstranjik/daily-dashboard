@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-08-21T20:11:59.341Z",
+  "generated_at": "2026-08-22T05:01:02.820Z",
   "stats": {
     "muzika.hr": {
       "ok": true,
       "count": 25
     },
-    "Lisinski": {
+    "Gavella": {
       "ok": true,
       "count": 0
     },
-    "Gavella": {
+    "Lisinski": {
       "ok": true,
       "count": 0
     },
@@ -25,11 +25,11 @@
       "ok": true,
       "count": 0
     },
-    "Pogon": {
+    "Komedija": {
       "ok": true,
       "count": 0
     },
-    "Komedija": {
+    "Pogon": {
       "ok": true,
       "count": 0
     },
@@ -47,21 +47,6 @@
     }
   },
   "concerts": [
-    {
-      "id": "cfe04ebd8f",
-      "title": "Preach The RIČ Festival",
-      "venue": "Preach The RIČ Festival Martinska",
-      "city": "Šibenik",
-      "country": "HR",
-      "category": "concert",
-      "date_iso": "2026-08-07T00:00:00",
-      "date_display": "pet, 07. 08. 2026.",
-      "time": null,
-      "link": "https://www.muzika.hr/event/preach-the-ric-festival/",
-      "source": "muzika.hr",
-      "is_new": false,
-      "first_seen": "2026-07-19T05:01:18.041Z"
-    },
     {
       "id": "4a30a981a6",
       "title": "Močvarni birc: West Coast rap",
@@ -579,9 +564,9 @@
       "city": "Zagreb",
       "country": "HR",
       "category": "concert",
-      "date_iso": "2026-08-26T20:00:00",
+      "date_iso": "2026-08-26T19:00:00",
       "date_display": "sri, 26. 08. 2026.",
-      "time": "20:00",
+      "time": "19:00",
       "link": "https://mochvara.hr/event-detail/69c682280f498bf2fd365a63/?lang=hr",
       "source": "Mochvara",
       "is_new": false,
@@ -616,6 +601,21 @@
       "source": "muzika.hr",
       "is_new": false,
       "first_seen": "2026-08-01T05:01:17.236Z"
+    },
+    {
+      "id": "b1ae7aaf27",
+      "title": "Dirty Dancing – 80’s smash hit party",
+      "venue": "Mochvara",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-08-28T22:00:00",
+      "date_display": "pet, 28. 08. 2026.",
+      "time": "22:00",
+      "link": "https://mochvara.hr/event-detail/6a71c0942658293cfbe4cd12/?lang=hr",
+      "source": "Mochvara",
+      "is_new": true,
+      "first_seen": "2026-08-22T05:01:02.820Z"
     },
     {
       "id": "bb48c15171",
@@ -2782,21 +2782,6 @@
   ],
   "abroad": [
     {
-      "id": "b3c4008b1d",
-      "title": "Nick Cave The Bad Seeds",
-      "venue": "Cave The Bad Seeds Kalemegdan Beograd",
-      "city": "Serbia",
-      "country": "EU",
-      "category": "concert",
-      "date_iso": "2026-08-07T00:00:00",
-      "date_display": "pet, 07. 08. 2026.",
-      "time": null,
-      "link": "https://www.muzika.hr/event/nick-cave-the-bad-seeds-beograd/",
-      "source": "muzika.hr",
-      "is_new": false,
-      "first_seen": "2026-07-19T05:01:18.041Z"
-    },
-    {
       "id": "1bad180f03",
       "title": "Sziget Festival 2026",
       "venue": "Sziget Festival 2026 Budapest",
@@ -2917,5 +2902,5 @@
       "first_seen": "2026-08-09T05:01:15.939Z"
     }
   ],
-  "new_count": 9
+  "new_count": 10
 }
