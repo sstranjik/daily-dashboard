@@ -1,9 +1,13 @@
 {
-  "generated_at": "2026-08-23T05:01:05.788Z",
+  "generated_at": "2026-08-23T05:23:19.812Z",
   "stats": {
     "muzika.hr": {
       "ok": true,
       "count": 25
+    },
+    "Gavella": {
+      "ok": true,
+      "count": 0
     },
     "Lisinski": {
       "ok": true,
@@ -12,10 +16,6 @@
     "Mochvara": {
       "ok": true,
       "count": 18
-    },
-    "Gavella": {
-      "ok": true,
-      "count": 0
     },
     "Tvornica": {
       "ok": true,
@@ -1829,7 +1829,7 @@
       "time": null,
       "link": "https://www.muzika.hr/event/elektricni-orgazam-4/",
       "source": "muzika.hr",
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-08-23T05:01:05.788Z"
     },
     {
@@ -2887,5 +2887,5 @@
       "first_seen": "2026-08-09T05:01:15.939Z"
     }
   ],
-  "new_count": 10
+  "new_count": 9
 }
