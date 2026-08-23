@@ -1,15 +1,15 @@
 {
   "version": 2,
-  "date": "2026-08-22",
-  "generated_at": "2026-08-22T05:22:17.890Z",
-  "date_hr": "Subota, 22. kolovoza 2026.",
+  "date": "2026-08-23",
+  "generated_at": "2026-08-23T05:02:27.704Z",
+  "date_hr": "Nedjelja, 23. kolovoza 2026.",
   "weather": {
-    "icon": "🌦️",
-    "summary": "20–24°C, pljuskovi · 0.9 mm",
+    "icon": "☁️",
+    "summary": "17–27°C, oblačno",
     "alerts": []
   },
   "fuel": {
-    "current_date": "22.08.2026",
+    "current_date": "23.08.2026",
     "eurodiesel": [
       {
         "company": "Adria Oil",
@@ -63,46 +63,46 @@
     "upcoming_premium": null
   },
   "market": {
-    "updated_at": "2026-08-22T05:22:17.890Z",
-    "btc_usd": 77139,
-    "btc_eur": 66047,
-    "btc_change_24h": 2.32,
+    "updated_at": "2026-08-23T05:02:27.704Z",
+    "btc_usd": 76624,
+    "btc_eur": 65605,
+    "btc_change_24h": -2.41,
     "usd_eur": 0.856
   },
   "ai_news": [
     {
-      "title": "Anthropic’s Opus 4.6 is a smut-machine",
-      "link": "https://techcrunch.com/2026/08/21/anthropics-opus-4-6-is-a-smut-machine/",
+      "title": "Moguće je pokrenuti veliki jezični model lokalno na mobitelu? Da, pokazat ćemo vam kako",
+      "link": "https://www.tportal.hr/tehno/clanak/moguce-je-pokrenuti-veliki-jezicni-model-lokalno-na-mobitelu-da-pokazat-cemo-vam-kako-20260822",
+      "source": "Tportal"
+    },
+    {
+      "title": "Inherent, founded by DeepMind alumni, says its AI &#8216;teammate&#8217; just outperformed Anthropic and OpenAI at replicating research",
+      "link": "https://techcrunch.com/2026/08/22/inherent-founded-by-deepmind-alumni-says-its-ai-teammate-just-outperformed-anthropic-and-openai-at-replicating-research/",
       "source": "TechCrunch AI"
     },
     {
-      "title": "Anthropic will give defenders what its strongest model finds, but not the model itself",
-      "link": "https://thenextweb.com/news/anthropic-mythos-5-defenders-open-source-fund",
-      "source": "The Next Web"
+      "title": "Enterprises winning with AI agents are limiting how much the agents can do alone",
+      "link": "https://venturebeat.com/orchestration/enterprises-winning-with-ai-agents-are-limiting-how-much-the-agents-can-do-alone",
+      "source": "VentureBeat"
     },
     {
-      "title": "Anthropic’s enterprise venture has bought its second consultancy in four months",
-      "link": "https://thenextweb.com/news/anthropic-ode-acquires-casper-studios-enterprise-ai",
-      "source": "The Next Web"
-    },
-    {
-      "title": "OpenAI ships a Messages plugin that summarises who you talk to and what about",
-      "link": "https://thenextweb.com/news/chatgpt-imessage-plugin-apple-privacy",
-      "source": "The Next Web"
-    },
-    {
-      "title": "Nvidia just showed that the harness, not the AI model, is now the real hero",
-      "link": "https://techcrunch.com/2026/08/21/nvidia-just-showed-that-the-harness-not-the-ai-model-is-now-the-real-hero/",
+      "title": "OpenAI says California should strengthen its AI safety bill",
+      "link": "https://techcrunch.com/2026/08/22/openai-says-california-should-strengthen-its-ai-safety-bill/",
       "source": "TechCrunch AI"
+    },
+    {
+      "title": "Anthropic could raise $100bn, ten times Europe’s largest listing in decades",
+      "link": "https://thenextweb.com/news/anthropic-ipo-100-billion-two-trillion-valuation",
+      "source": "The Next Web"
     }
   ],
   "micro_tips": {
     "vscode": {
-      "tip": "Peek Definition bez napuštanja fajla",
-      "keys": "Alt+F12"
+      "tip": "Dupliciraj trenutnu liniju ispod",
+      "keys": "Shift+Alt+↓"
     },
-    "sql": "EXPLAIN ANALYZE prikazuje stvarne vs procijenjene redove — ključno za tuning",
-    "oracle": "CONNECT BY LEVEL <= n generira broj redova bez pomoćne tablice",
-    "regex": "[^\\n]* svaki znak osim newline — dohvati cijelu liniju bez dotall flaga"
+    "sql": "Partial index s WHERE klauzulom smanjuje veličinu i ubrzava specifična filtriranja",
+    "oracle": "LISTAGG(col, ',') WITHIN GROUP (ORDER BY col) konkatenira u jedan string",
+    "regex": "(?<ime>\\d{4}) named group — referenciraj s \\k<ime> ili $<ime> u replace"
   }
 }
