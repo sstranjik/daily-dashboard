@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-08-24T08:33:57.887Z",
+  "generated_at": "2026-08-24T09:01:08.548Z",
   "stats": {
     "muzika.hr": {
       "ok": true,
       "count": 25
     },
-    "Lisinski": {
+    "Mochvara": {
       "ok": true,
-      "count": 0
+      "count": 18
     },
-    "Gavella": {
+    "Lisinski": {
       "ok": true,
       "count": 0
     },
@@ -17,15 +17,15 @@
       "ok": true,
       "count": 3
     },
-    "Mochvara": {
-      "ok": true,
-      "count": 18
-    },
-    "Komedija": {
+    "Gavella": {
       "ok": true,
       "count": 0
     },
     "ZeKaeM": {
+      "ok": true,
+      "count": 0
+    },
+    "Komedija": {
       "ok": true,
       "count": 0
     },
@@ -558,6 +558,21 @@
       "first_seen": "2026-08-01T05:01:17.236Z"
     },
     {
+      "id": "38f32d554e",
+      "title": "Ivana Starčević Kvartet u Vintage Gardenu",
+      "venue": "Vintage Industrial Bar Savska ulica 160",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-08-28T20:30:00",
+      "date_display": "pet, 28. 08. 2026.",
+      "time": "20:30",
+      "link": "https://www.muzika.hr/event/ivana-starcevic-kvartet-u-vintage-gardenu/",
+      "source": "muzika.hr",
+      "is_new": true,
+      "first_seen": "2026-08-24T09:01:08.548Z"
+    },
+    {
       "id": "b1ae7aaf27",
       "title": "Dirty Dancing – 80’s smash hit party",
       "venue": "Mochvara",
@@ -879,10 +894,10 @@
       "city": "Zagreb",
       "country": "HR",
       "category": "concert",
-      "date_iso": "2026-09-11T11:00:00",
+      "date_iso": "2026-09-11T12:00:00",
       "date_display": "pet, 11. 09. 2026.",
-      "time": "11:00",
-      "link": "https://hnk.hr/hr/opera/predstave/festivalsko-jutro-uvertira-u-nove-operne-sezone/#11.09.11.00",
+      "time": "12:00",
+      "link": "https://hnk.hr/hr/opera/predstave/festivalsko-jutro-uvertira-u-nove-operne-sezone/#11.09.12.00",
       "source": "HNK Zagreb",
       "is_new": false,
       "first_seen": "2026-08-20T09:01:15.625Z"
@@ -2872,6 +2887,21 @@
       "first_seen": "2026-08-01T05:01:17.236Z"
     },
     {
+      "id": "3a067ab44e",
+      "title": "Sunčani fest: SARS, Krankšvester, Kuku$, IDEM",
+      "venue": "SARS",
+      "city": "Krankšvester",
+      "country": "EU",
+      "category": "concert",
+      "date_iso": "2026-09-04T00:00:00",
+      "date_display": "pet, 04. 09. 2026.",
+      "time": null,
+      "link": "https://www.muzika.hr/event/suncani-fest-sars-kranksvester-kuku-idem/",
+      "source": "muzika.hr",
+      "is_new": true,
+      "first_seen": "2026-08-24T09:01:08.548Z"
+    },
+    {
       "id": "56e952fcc5",
       "title": "The Amy Winehouse Band",
       "venue": "Winehouse Band Dorćol Platz Dobračina 59",
@@ -2902,5 +2932,5 @@
       "first_seen": "2026-08-09T05:01:15.939Z"
     }
   ],
-  "new_count": 9
+  "new_count": 11
 }
