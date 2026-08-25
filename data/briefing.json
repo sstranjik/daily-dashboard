@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "date": "2026-08-24",
-  "generated_at": "2026-08-24T05:33:52.740Z",
-  "date_hr": "Ponedjeljak, 24. kolovoza 2026.",
+  "date": "2026-08-25",
+  "generated_at": "2026-08-25T05:02:12.856Z",
+  "date_hr": "Utorak, 25. kolovoza 2026.",
   "weather": {
-    "icon": "☁️",
-    "summary": "17–29°C, oblačno",
+    "icon": "🌦️",
+    "summary": "19–25°C, pljuskovi · 3.3 mm",
     "alerts": []
   },
   "fuel": {
@@ -63,36 +63,46 @@
     "upcoming_premium": null
   },
   "market": {
-    "updated_at": "2026-08-24T05:33:52.740Z",
-    "btc_usd": 76948,
-    "btc_eur": 65885,
-    "btc_change_24h": 0.9,
-    "usd_eur": 0.8562
+    "updated_at": "2026-08-25T05:02:12.856Z",
+    "btc_usd": 80304,
+    "btc_eur": 68899,
+    "btc_change_24h": 4.5,
+    "usd_eur": 0.8572
   },
   "ai_news": [
     {
-      "title": "Enterprise AI agents are only as reliable as the messiest documents behind them",
-      "link": "https://venturebeat.com/orchestration/enterprise-ai-agents-are-only-as-reliable-as-the-messiest-documents-behind-them",
+      "title": "OpenAI is building AI agents for everything. Will everyone use them?",
+      "link": "https://techcrunch.com/2026/08/24/openai-is-building-an-ai-agent-for-everything-will-everyone-use-them/",
+      "source": "TechCrunch AI"
+    },
+    {
+      "title": "Anthropic’s new Claude Tag update lets its Slack agent read the full conversation — and jump in unprompted",
+      "link": "https://venturebeat.com/orchestration/anthropics-new-claude-tag-update-lets-its-slack-agent-read-the-full-conversation-and-jump-in-unprompted",
       "source": "VentureBeat"
     },
     {
-      "title": "ChatGPT for iPhone now grabs your recent photos with a long press",
-      "link": "https://thenextweb.com/news/chatgpt-iphone-recent-photos-shortcut-siri-eu-delay",
+      "title": "How to use ChatGPT Work - and my top 10 tips for getting started with agentic AI",
+      "link": "https://www.zdnet.com/article/how-to-use-chatgpt-work-and-my-top-tips/",
+      "source": "ZDNet"
+    },
+    {
+      "title": "Claude outage hits multiple models again",
+      "link": "https://thenextweb.com/news/claude-outage-multiple-models",
       "source": "The Next Web"
     },
     {
-      "title": "Harvey’s first in-house model for legal work is here",
-      "link": "https://thenextweb.com/news/harvey-tenet-legal-model-kimi-k3-chinese-base",
-      "source": "The Next Web"
+      "title": "ChatGPT uskoro dobiva zaključane razgovore za vaše najosjetljivije upite",
+      "link": "https://www.bug.hr/umjetna-inteligencija/chatgpt-uskoro-dobiva-zakljucane-razgovore-za-vase-najosjetljivije-upite-62284",
+      "source": "Bug.hr"
     }
   ],
   "micro_tips": {
     "vscode": {
-      "tip": "Obriši cijelu liniju odjednom",
-      "keys": "Ctrl+Shift+K"
+      "tip": "Otvori datoteku brzim pretraživanjem",
+      "keys": "Ctrl+P"
     },
-    "sql": "GROUP BY s ROLLUP za subtotale u jednom prolasku: GROUP BY ROLLUP(god, mj)",
-    "oracle": "TRUNC(datum_kolona) = TRUNC(SYSDATE) koristi B-tree index na datumskoj koloni",
-    "regex": "\\d{4}-\\d{2}-\\d{2} ISO datum pattern; za validaciju zatvori s ^...$"
+    "sql": "NOT EXISTS brži od NOT IN kad subquery može vratiti NULL vrijednost",
+    "oracle": "DBMS_STATS.GATHER_TABLE_STATS osvježava statistike za točniji execution plan",
+    "regex": "(?i) inline flag za case-insensitive bez mijenjanja ostatka patternahe"
   }
 }
