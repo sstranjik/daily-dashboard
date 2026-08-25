@@ -1,13 +1,9 @@
 {
-  "generated_at": "2026-08-25T07:34:20.457Z",
+  "generated_at": "2026-08-25T08:01:06.906Z",
   "stats": {
     "muzika.hr": {
       "ok": true,
       "count": 25
-    },
-    "Gavella": {
-      "ok": true,
-      "count": 0
     },
     "Lisinski": {
       "ok": true,
@@ -21,6 +17,10 @@
       "ok": true,
       "count": 3
     },
+    "Gavella": {
+      "ok": true,
+      "count": 0
+    },
     "ZeKaeM": {
       "ok": true,
       "count": 0
@@ -29,21 +29,21 @@
       "ok": true,
       "count": 0
     },
-    "HNK Zagreb": {
-      "ok": true,
-      "count": 76
-    },
     "Pogon": {
       "ok": true,
       "count": 0
+    },
+    "HNK Zagreb": {
+      "ok": true,
+      "count": 76
     },
     "Kerempuh": {
       "ok": true,
       "count": 0
     },
     "Trešnja": {
-      "ok": true,
-      "count": 0
+      "ok": false,
+      "error": "The operation was aborted due to timeout"
     }
   },
   "concerts": [
@@ -2902,6 +2902,21 @@
       "first_seen": "2026-08-04T15:01:21.568Z"
     },
     {
+      "id": "93167c3914",
+      "title": "Frenzee i Grim Rhythm",
+      "venue": "Grim Rhythm AG Club Patriotske lige 30",
+      "city": "Sarajevo",
+      "country": "BA",
+      "category": "concert",
+      "date_iso": "2026-09-16T21:15:00",
+      "date_display": "sri, 16. 09. 2026.",
+      "time": "21:15",
+      "link": "https://www.muzika.hr/event/frenzee-i-grim-rhythm/",
+      "source": "muzika.hr",
+      "is_new": true,
+      "first_seen": "2026-08-25T08:01:06.906Z"
+    },
+    {
       "id": "a2db25b035",
       "title": "Jethro Tull",
       "venue": "Jethro Tull Tvrđava Kastel Banja Luka",
@@ -2917,5 +2932,5 @@
       "first_seen": "2026-08-09T05:01:15.939Z"
     }
   ],
-  "new_count": 9
+  "new_count": 10
 }
