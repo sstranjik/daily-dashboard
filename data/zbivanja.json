@@ -1,9 +1,13 @@
 {
-  "generated_at": "2026-08-25T08:01:06.906Z",
+  "generated_at": "2026-08-25T08:27:20.298Z",
   "stats": {
     "muzika.hr": {
       "ok": true,
       "count": 25
+    },
+    "Gavella": {
+      "ok": true,
+      "count": 0
     },
     "Lisinski": {
       "ok": true,
@@ -16,10 +20,6 @@
     "Tvornica": {
       "ok": true,
       "count": 3
-    },
-    "Gavella": {
-      "ok": true,
-      "count": 0
     },
     "ZeKaeM": {
       "ok": true,
@@ -42,8 +42,8 @@
       "count": 0
     },
     "Trešnja": {
-      "ok": false,
-      "error": "The operation was aborted due to timeout"
+      "ok": true,
+      "count": 0
     }
   },
   "concerts": [
@@ -2913,7 +2913,7 @@
       "time": "21:15",
       "link": "https://www.muzika.hr/event/frenzee-i-grim-rhythm/",
       "source": "muzika.hr",
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-08-25T08:01:06.906Z"
     },
     {
@@ -2932,5 +2932,5 @@
       "first_seen": "2026-08-09T05:01:15.939Z"
     }
   ],
-  "new_count": 10
+  "new_count": 9
 }
