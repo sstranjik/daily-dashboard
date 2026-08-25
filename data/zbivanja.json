@@ -1,25 +1,25 @@
 {
-  "generated_at": "2026-08-25T13:38:56.197Z",
+  "generated_at": "2026-08-25T14:01:13.468Z",
   "stats": {
     "muzika.hr": {
       "ok": true,
       "count": 25
     },
-    "Mochvara": {
-      "ok": true,
-      "count": 18
-    },
-    "Tvornica": {
-      "ok": true,
-      "count": 3
-    },
     "Lisinski": {
       "ok": true,
       "count": 0
     },
+    "Mochvara": {
+      "ok": true,
+      "count": 18
+    },
     "Gavella": {
       "ok": true,
       "count": 0
+    },
+    "Tvornica": {
+      "ok": true,
+      "count": 3
     },
     "ZeKaeM": {
       "ok": true,
@@ -33,17 +33,17 @@
       "ok": true,
       "count": 76
     },
-    "Trešnja": {
+    "Kerempuh": {
       "ok": true,
       "count": 0
     },
     "Pogon": {
-      "ok": true,
-      "count": 0
+      "ok": false,
+      "error": "The operation was aborted due to timeout"
     },
-    "Kerempuh": {
-      "ok": true,
-      "count": 0
+    "Trešnja": {
+      "ok": false,
+      "error": "The operation was aborted due to timeout"
     }
   },
   "concerts": [
@@ -1533,6 +1533,21 @@
       "first_seen": "2026-08-15T05:01:05.962Z"
     },
     {
+      "id": "e53a1a1ac3",
+      "title": "Međunarodni Sajam Gramofonskih Ploča",
+      "venue": "Zagrebački velesajam Avenija Dubrovnik 15",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-09-26T00:00:00",
+      "date_display": "sub, 26. 09. 2026.",
+      "time": null,
+      "link": "https://www.muzika.hr/event/medunarodni-sajam-gramofonskih-ploca/",
+      "source": "muzika.hr",
+      "is_new": true,
+      "first_seen": "2026-08-25T14:01:13.468Z"
+    },
+    {
       "id": "c2bef583e7",
       "title": "Razgled kazališta 165 sezona iza kulisa",
       "venue": "HNK Zagreb",
@@ -2932,5 +2947,5 @@
       "first_seen": "2026-08-09T05:01:15.939Z"
     }
   ],
-  "new_count": 9
+  "new_count": 10
 }
