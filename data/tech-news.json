@@ -1,9 +1,117 @@
 {
-  "last_updated": "2026-08-26T19:01:07.049Z",
+  "last_updated": "2026-08-26T20:01:05.906Z",
   "source_count": 11,
   "items": [
     {
+      "id": "venturebeat-0",
+      "title": "Salesforce just put its entire CRM inside Claude — and says you’ll never need its app again",
+      "summary": "Salesforce and Anthropic announced Tuesday a sweeping expansion of their partnership, called Claudeforce , that pushes the world&#x27;s largest customer relationship management platform directly inside Claude — a tacit acknowledgment that the future of enterprise software may not involve enterprise ",
+      "link": "https://venturebeat.com/orchestration/salesforce-just-put-its-entire-crm-inside-claude-and-says-youll-never-need-its-app-again",
+      "published": "2026-08-26T20:00:00.000Z",
+      "source": "VentureBeat",
+      "category": "ai",
+      "xml_category": "orchestration",
+      "tags": [],
+      "image": "https://images.ctfassets.net/jdtwqhzvc2n1/5b0HuVyEgjT4nhhySGkJrI/638c8608bdd8581050019f1f696c8a00/Nuneybits_Vector_art_of_Salesforce-blue_cloud_entering_Anthropi_4b5f4f7e-ac1f-4543-8a00-fc53aee3b41e.webp?w=300&q=30"
+    },
+    {
       "id": "the-next-web-0",
+      "title": "Qwen4’s architecture is here early, firing 6B parameters out of 125B",
+      "summary": "Alibaba’s Qwen team has released Qwen3.8-Flash-Next, an open-weight preview of the architecture it intends to use for Qwen4, carrying 125B parameters but activating only 6B for each token. Its licence may not qualify for the EU AI Act’s open-source exemption. Alibaba’s Qwen team has published the ar",
+      "link": "https://thenextweb.com/news/qwen38-flash-next-qwen4-architecture-open-licence-ai-act",
+      "published": "2026-08-26T19:55:19.000Z",
+      "source": "The Next Web",
+      "category": "general",
+      "xml_category": "artificial intelligence",
+      "tags": [],
+      "image": "https://media.thenextweb.com/2026/07/alibaba-qwen-apple-intelligence-china-approved.avif"
+    },
+    {
+      "id": "the-next-web-1",
+      "title": "AI receptionists seem like a dangerous idea after a patient revealed her doctor’s system could not understand her speech",
+      "summary": "A GP surgery in South Yorkshire has withdrawn an AI receptionist after a woman recovering from a stroke could not make it understand her and moved to another practice. The NHS Accessible Information Standard has required practices to identify and meet patients’ communication needs since 2016. A woma",
+      "link": "https://thenextweb.com/news/ai-gp-receptionist-stroke-patient-accessible-information-standard",
+      "published": "2026-08-26T19:44:51.000Z",
+      "source": "The Next Web",
+      "category": "ai",
+      "xml_category": "artificial intelligence",
+      "tags": [],
+      "image": "https://media.thenextweb.com/2026/08/AI-agent.avif"
+    },
+    {
+      "id": "techcrunch-ai-0",
+      "title": "Google&#8217;s Gemini has a branding problem, and so does the rest of AI",
+      "summary": "Consumer AI apps need to stop making users learn their product architecture.",
+      "link": "https://techcrunch.com/2026/08/26/googles-gemini-has-a-branding-problem-and-so-does-the-rest-of-ai/",
+      "published": "2026-08-26T19:37:34.000Z",
+      "source": "TechCrunch AI",
+      "category": "ai",
+      "xml_category": "ai",
+      "tags": [],
+      "image": null
+    },
+    {
+      "id": "techcrunch-ai-1",
+      "title": "How do we explain OpenAI&#8217;s executive exodus?",
+      "summary": "Was Greg Brockman the right executive all along?",
+      "link": "https://techcrunch.com/2026/08/26/how-do-we-explain-openais-executive-exodus/",
+      "published": "2026-08-26T19:34:04.000Z",
+      "source": "TechCrunch AI",
+      "category": "ai",
+      "xml_category": "ai",
+      "tags": [],
+      "image": null
+    },
+    {
+      "id": "the-verge-0",
+      "title": "Amazon knocks $150 off Pixel 11 phones, with up to $200 in gift cards",
+      "summary": "If you’ve been on the fence about Google’s latest Pixel phones, this might be your best chance to save some cash. Amazon is offering an extra $150 off the Pixel 11, Pixel 11 Pro, and Pixel 11 Pro XL when you use the coupon code PIXEL11 at checkout. While the discounted price appeared at checkout [&#",
+      "link": "https://www.theverge.com/gadgets/984516/pixel-11-promo-code-doom-dark-ages-deal-sale",
+      "published": "2026-08-26T19:18:23.000Z",
+      "source": "The Verge",
+      "category": "general",
+      "xml_category": "[object object]",
+      "tags": [],
+      "image": null
+    },
+    {
+      "id": "zdnet-0",
+      "title": "Apple sets its iPhone 18 event for September: A new foldable and CEO could steal the show",
+      "summary": "Is a foldable iPhone finally in our future? We'll be on the ground on Sept. 9 to find out.",
+      "link": "https://www.zdnet.com/article/what-to-expect-from-apples-confirmed-sept-9-launch-event/",
+      "published": "2026-08-26T19:18:00.000Z",
+      "source": "ZDNet",
+      "category": "tech",
+      "xml_category": "",
+      "tags": [],
+      "image": null
+    },
+    {
+      "id": "the-next-web-2",
+      "title": "Volvo’s electric cars can now warn you about a deer around a blind corner",
+      "summary": "Volvo is adding alerts for large animals, vulnerable road users, roadworks and accidents ahead to its EX60, EX90 and ES90 electric cars through a software update. In Europe the feature draws on Data for Road Safety, a shared ecosystem that pools hazard reports from rival carmakers and eight national",
+      "link": "https://thenextweb.com/news/volvo-ex60-connected-safety-alerts-eu-data-for-road-safety",
+      "published": "2026-08-26T19:16:21.000Z",
+      "source": "The Next Web",
+      "category": "general",
+      "xml_category": "cars",
+      "tags": [],
+      "image": "https://media.thenextweb.com/2026/08/volvo-ex60-connected-safety-alerts-eu-data-for-road-safety.avif"
+    },
+    {
+      "id": "techcrunch-ai-2",
+      "title": "OpenAI releases its official report on the Hugging Face breach",
+      "summary": "The report, which spans several discrete cybersecurity compromises, is the most complete accounting of the incident to date.",
+      "link": "https://techcrunch.com/2026/08/26/openai-releases-its-official-report-on-the-hugging-face-breach/",
+      "published": "2026-08-26T19:05:22.000Z",
+      "source": "TechCrunch AI",
+      "category": "ai",
+      "xml_category": "ai",
+      "tags": [],
+      "image": null
+    },
+    {
+      "id": "the-next-web-3",
       "title": "Up to half of planned US data centres face delays or cancellation, Kimmeridge says",
       "summary": "Investment firm Kimmeridge says as many as half of the data centres proposed in the United States are at risk of delay or cancellation because of political backlash and the difficulty of building physical infrastructure. It expects that to cut forecasts for US gas demand, most of which Europe now bu",
       "link": "https://thenextweb.com/news/kimmeridge-us-data-centre-delays-gas-demand-europe-lng",
@@ -27,7 +135,7 @@
       "image": "https://magnet.bug.hr/img/netflixov-novi-dokumentarac-slobodni-pad-secira-trulez-u-srcu-boeinga_f1HrUG.jpg"
     },
     {
-      "id": "zdnet-0",
+      "id": "zdnet-1",
       "title": "This 120Hz tablet replaced my Kindle and iPad for $220 - here's why I recommend it",
       "summary": "The TCL Nxtpaper 11 Plus is an 11.5-inch Android tablet that can be all you need, especially with this early Labor Day deal.",
       "link": "https://www.zdnet.com/article/tcl-nxtpaper-11-plus-tablet-deal-labor-day-2026/",
@@ -39,7 +147,7 @@
       "image": null
     },
     {
-      "id": "the-verge-0",
+      "id": "the-verge-1",
       "title": "Being a mom is hard — the heat is making it harder",
       "summary": "It's 8:52 AM and 86 degrees Fahrenheit (30 Celsius) where I live in Southern California. My husband just came back from a morning outing with our four-month-old. \"How was the botanic garden?\" I ask him. \"It was okay. It was just too hot,\" he tells me. I didn't expect us to spend so much of [&#8230;]",
       "link": "https://www.theverge.com/news/985225/heat-stress-children-climate-change-study",
@@ -51,7 +159,7 @@
       "image": null
     },
     {
-      "id": "the-verge-1",
+      "id": "the-verge-2",
       "title": "The Switch 2’s $50 price increase is happening next week",
       "summary": "This is a friendly reminder that the Nintendo Switch 2 will jump in price by $50 starting on September 1st. That’s next Tuesday! The company gave plenty of notice, but the time has finally come. The base 256GB model that ships without a game will go from $449.99 to $499.99. Nintendo recently announc",
       "link": "https://www.theverge.com/gadgets/984331/switch-2-price-increase-psa",
@@ -87,7 +195,7 @@
       "image": "https://autonet.bug.hr/img/rimac-performanse-su-postale-sporedne-ulazimo-u-eru-svicarskih-satova_EM5PMG.jpeg"
     },
     {
-      "id": "the-next-web-1",
+      "id": "the-next-web-4",
       "title": "IDC expects Apple to ship 10 million foldable iPhones in year one at $2,500",
       "summary": "IDC predicts Apple’s first foldable iPhone will ship more than 10 million units in its first year at a price of $2,500, reviving a category that was heading for a double-digit decline. In the EU the device will have to carry an energy label grading its repairability and its survival of repeated drop",
       "link": "https://thenextweb.com/news/apple-foldable-iphone-idc-10-million-eu-energy-label",
@@ -99,7 +207,7 @@
       "image": "https://media.thenextweb.com/2026/07/apple-store-app-ai-shopping-assistant-privacy-policy.avif"
     },
     {
-      "id": "the-next-web-2",
+      "id": "the-next-web-5",
       "title": "Anthropic signs $45B compute deal with Britain’s Nscale",
       "summary": "Anthropic has agreed to spend $45B over six years renting AI computing power from Nscale’s flagship West Virginia data centre development, covering about 460 megawatts. Nscale is a London company preparing a US listing as soon as next month. Anthropic has agreed to spend $45B renting computing power",
       "link": "https://thenextweb.com/news/anthropic-nscale-45b-compute-deal-london-ipo",
@@ -111,7 +219,7 @@
       "image": "https://media.thenextweb.com/2026/08/anthropic-in-house-chip-team-custom-silicon-claude.avif"
     },
     {
-      "id": "the-verge-2",
+      "id": "the-verge-3",
       "title": "Apple Maps has ads now",
       "summary": "Ads have started popping up in Apple Maps, following Apple's announcement in March that it would let businesses pay for top spots. They're appearing on my iPhone as the first entry in the \"suggested places\" section in search, but Apple says they'll also show up at the top of search results. Accordin",
       "link": "https://www.theverge.com/tech/985249/apple-maps-iphone-ads",
@@ -123,7 +231,7 @@
       "image": null
     },
     {
-      "id": "zdnet-1",
+      "id": "zdnet-2",
       "title": "How to sideload Android apps on your phone in 2026 - and what's behind the changes",
       "summary": "If you're into installing Android apps outside the Google Play Store, you should be aware that the process has changed and now includes a waiting period.",
       "link": "https://www.zdnet.com/article/how-to-sideload-android-apps-on-your-phone-in-2026/",
@@ -147,7 +255,7 @@
       "image": "https://www.tportal.hr/media/thumbnail/500x300/2786607.jpeg?cropId=0"
     },
     {
-      "id": "the-verge-3",
+      "id": "the-verge-4",
       "title": "Google’s new AI transcription edits out your &#8216;ums&#8217; and &#8216;ahs&#8217;",
       "summary": "Google has updated Gemini Audio with new transcription capabilities that automatically detect specialized jargon and more than 85 languages. Gemini 3.5 Transcribe is a new addition to the Gemini family that follows the launch of 3.5 Live Translate, and comes as we're still waiting for Google to rele",
       "link": "https://www.theverge.com/tech/985186/google-gemini-3-5-transcribe-audio-ai",
@@ -159,7 +267,7 @@
       "image": null
     },
     {
-      "id": "zdnet-2",
+      "id": "zdnet-3",
       "title": "Will plug-in solar plus batteries solve your power problem? I did the math",
       "summary": "It can't be just about harvesting solar power - it's also about storage, and time-shifting cheap, off-peak power to times when it's more expensive.",
       "link": "https://www.zdnet.com/article/plug-in-solar-plus-batteries-save-money/",
@@ -171,7 +279,7 @@
       "image": null
     },
     {
-      "id": "the-next-web-3",
+      "id": "the-next-web-6",
       "title": "Flipboard acquires Graze, the tool for building your own social algorithm",
       "summary": "Flipboard has acquired Graze, a Portland startup that lets creators build, tune and monetise custom social feeds without writing code, mainly on Bluesky. Graze says it has delivered more than 41 billion posts to 12 million users since forming 21 months ago. Flipboard has bought the plumbing for cust",
       "link": "https://thenextweb.com/news/flipboard-acquires-graze-custom-feeds-dsa-europe",
@@ -195,7 +303,7 @@
       "image": "https://www.bug.hr/img/tijekom-prve-veceri-gamescoma-2026-predstavljena-gomila-zanimljivih-noviteta_EDdD7-.jpg"
     },
     {
-      "id": "venturebeat-0",
+      "id": "venturebeat-1",
       "title": "The fix for the AI agent that hijacked a company's DNS: it can propose the change, but it can't approve it",
       "summary": "A security agent read a Cloudflare log, found an attacker’s prompt-injection payload sitting inside it, and rewrote the company’s DNS. The firewall had already blocked that payload, and blocking it is what wrote it into the log. That chain is GhostJacking , which Tenet Security demonstrated on the D",
       "link": "https://venturebeat.com/security/the-fix-for-the-ai-agent-that-hijacked-a-companys-dns-it-can-propose-the-change-but-it-cant-approve-it",
@@ -207,7 +315,7 @@
       "image": "https://images.ctfassets.net/jdtwqhzvc2n1/28m7aTuL4ti8gVOmBav4Od/54a57f5f3c018f6060177e2d4e971400/hero2.png?w=300&q=30"
     },
     {
-      "id": "the-next-web-4",
+      "id": "the-next-web-7",
       "title": "Hyundai has gained more US market share this decade than any carmaker",
       "summary": "Hyundai Motor Group has grown its US market share faster than any major carmaker this decade and is investing $26B through 2028 to build at least 80% of its American sales domestically. Its European plants already account for around 80% of its European sales. No carmaker has gained American market s",
       "link": "https://thenextweb.com/news/hyundai-us-market-share-26bn-europe-localisation",
@@ -219,7 +327,7 @@
       "image": "https://media.thenextweb.com/2026/08/hyundai-us-market-share-26bn-europe-localisation.avif"
     },
     {
-      "id": "the-verge-4",
+      "id": "the-verge-5",
       "title": "Apple announces September iPhone launch event",
       "summary": "Apple's next launch event will take place on September 9th at 1PM ET. Invites to the event, which has a \"Surprise and shine\" tagline, were sent out on Wednesday. The event will take place at the Steve Jobs Theater in Apple Park, but there will also be a livestream on Apple's website. September's sho",
       "link": "https://www.theverge.com/tech/983407/apple-iphone-launch-event-2026-date",
@@ -231,7 +339,7 @@
       "image": null
     },
     {
-      "id": "zdnet-3",
+      "id": "zdnet-4",
       "title": "Google Pixel 11 review: Why the base model is still my favorite, even this year",
       "summary": "In a year of iterative upgrades, Google is introducing smart features that make the base Pixel still the one to buy for most people.",
       "link": "https://www.zdnet.com/article/google-pixel-11-review/",
@@ -243,7 +351,7 @@
       "image": null
     },
     {
-      "id": "techcrunch-ai-0",
+      "id": "techcrunch-ai-3",
       "title": "Radar makes podcasts searchable — and usable by AI agents",
       "summary": "Particle’s new podcast intelligence platform transcribes and analyzes more than 130,000 podcasts, making their conversations searchable on the web and accessible to AI agents through an API and MCP.",
       "link": "https://techcrunch.com/2026/08/26/radar-makes-podcasts-searchable-and-usable-by-ai-agents/",
@@ -267,7 +375,7 @@
       "image": "https://mreza.bug.hr/img/apple-prednjaci-u-lojalnosti-brendu_ogS7PL.jpg"
     },
     {
-      "id": "the-next-web-5",
+      "id": "the-next-web-8",
       "title": "PayRewards launches in America with $28M and a 1.75% fee to earn points",
       "summary": "An Australian payments company thinks American small businesses will pay for the privilege of earning points. PayRewards, the US arm of Pay.com.au, has launched with $28M in funding and a promise that bank transfers which currently earn nothing can earn something. The parent business is not speculat",
       "link": "https://thenextweb.com/news/payrewards-us-launch-bill-payment-points-europe",
@@ -279,7 +387,7 @@
       "image": "https://media.thenextweb.com/2026/08/payrewards-us-launch-bill-payment-points-europe.avif"
     },
     {
-      "id": "the-verge-5",
+      "id": "the-verge-6",
       "title": "Volvo’s cars will warn one another about hazards in the road",
       "summary": "Volvo is updating three of its electric vehicles with new hazard alerts to warn drivers when there are animals or vulnerable road users ahead. The new connected safety features are based on Volvo's cars talking to one another, as opposed to crowdsourced alert systems used by popular navigation tools",
       "link": "https://www.theverge.com/transportation/985070/volvo-connected-safety-hazard-alert-animal-cyclist",
@@ -303,7 +411,7 @@
       "image": "https://www.tportal.hr/media/thumbnail/500x300/2786566.jpeg?cropId=0"
     },
     {
-      "id": "zdnet-4",
+      "id": "zdnet-5",
       "title": "July was the worst month for ransomware victim claims in 2026 - or was it?",
       "summary": "We shouldn't ignore agentic AI ransomware threats, but the claims of a new ransomware group might be skewing the numbers.",
       "link": "https://www.zdnet.com/article/ransomware-july-victim-count-spiked-in-july-but-whats-behind-it/",
@@ -315,7 +423,7 @@
       "image": null
     },
     {
-      "id": "the-next-web-6",
+      "id": "the-next-web-9",
       "title": "Huawei bid to build Egypt’s AI data centres, and Washington is scrambling",
       "summary": "Huawei has bid to build AI data centres for the Egyptian government. The US State Department is now trying to assemble a rival consortium from Nvidia, AMD and Microsoft. The tender offer proposes exporting 1,408 of Huawei’s top-end Ascend 950-series chips for an AI training cloud. A further 600, eit",
       "link": "https://thenextweb.com/news/huawei-egypt-ai-data-centres-ascend-us-consortium",
@@ -327,7 +435,7 @@
       "image": "https://media.thenextweb.com/2026/08/huawei-logo-mobile-world-congress-2015.avif"
     },
     {
-      "id": "techcrunch-ai-1",
+      "id": "techcrunch-ai-4",
       "title": "Ex-Meta scientists want to bring visual AI to the factory floor",
       "summary": "Perceptron offers an AI model that it says can help machines navigate the world while also providing in-depth visual intelligence.",
       "link": "https://techcrunch.com/2026/08/26/ex-meta-scientists-want-to-bring-visual-ai-to-the-factory-floor/",
@@ -351,7 +459,7 @@
       "image": "https://media.thenextweb.com/2026/08/snapchat-spotlight-bans-ai-generated-videos-recommendations.avif"
     },
     {
-      "id": "techcrunch-ai-2",
+      "id": "techcrunch-ai-5",
       "title": "Bill Gates wants to see a robot tax and &#8216;Human Reserved&#8217; jobs to mitigate harms from AI",
       "summary": "Gates is mostly in the Responsible AI camp, but there are a few ideas in here we hadn't heard before.",
       "link": "https://techcrunch.com/2026/08/26/bill-gates-wants-to-see-a-robot-tax-and-human-reserved-jobs-to-mitigate-harms-from-ai/",
@@ -375,7 +483,7 @@
       "image": "https://media.thenextweb.com/2026/04/Amazon.avif"
     },
     {
-      "id": "the-verge-6",
+      "id": "the-verge-7",
       "title": "Xbox announces disc-to-digital feature that digitizes your physical games",
       "summary": "Microsoft is officially announcing a new Xbox feature that will allow Xbox owners to digitize their existing physical game collections. The disc-to-digital feature, which The Verge exclusively revealed last month, is part of work that Microsoft is doing for game preservation and in preparation for t",
       "link": "https://www.theverge.com/tech/984936/xbox-disc-to-digital-feature-official",
@@ -387,7 +495,7 @@
       "image": null
     },
     {
-      "id": "venturebeat-1",
+      "id": "venturebeat-2",
       "title": "Orchestration is the new challenge for CX in the age of AI agents",
       "summary": "Presented by Tata Communications Enterprises are deploying AI agents, voice AI, and automation across messaging, voice, and digital channels faster than the architecture meant to support it. Most of that deployment has involved attaching conversational AI to legacy systems never built for it, says G",
       "link": "https://venturebeat.com/orchestration/orchestration-is-the-new-challenge-for-cx-in-the-age-of-ai-agents",
@@ -411,7 +519,7 @@
       "image": "https://media.thenextweb.com/2026/04/musk-openai-testimony-charity-precedent.avif"
     },
     {
-      "id": "techcrunch-ai-3",
+      "id": "techcrunch-ai-6",
       "title": "Surprise: Z.ai is the AI lab behind the mysterious Ox Alpha model",
       "summary": "Z.ai confirms it is behind Ox Alpha, the mysterious open AI model topping benchmarks and leaderboards, and its weights are set to be released soon.",
       "link": "https://techcrunch.com/2026/08/26/surprise-z-ai-is-the-ai-lab-behind-the-mysterious-ox-alpha-model/",
@@ -447,7 +555,7 @@
       "image": "https://media.thenextweb.com/2026/08/mate-security-gamebooks-trusted-autonomy-investigations.avif"
     },
     {
-      "id": "the-verge-7",
+      "id": "the-verge-8",
       "title": "Microsoft’s 25th anniversary Xbox will cost $899",
       "summary": "The special-edition translucent green Xbox finally has an official price. Preorders for the console start August 27th at 10AM ET / 7AM PT, although Microsoft says \"some of XBOX's most dedicated fans\" will receive early access preorder emails starting today. The console will launch on November 13th, ",
       "link": "https://www.theverge.com/games/985003/microsoft-xbox-25th-anniversary-console-price",
@@ -459,7 +567,7 @@
       "image": null
     },
     {
-      "id": "the-verge-8",
+      "id": "the-verge-9",
       "title": "Elden Ring on the Switch 2 isn&#8217;t tarnished",
       "summary": "FromSoftware is hoping to make a splash on the Switch 2 later this year when it launches The Duskbloods, a gothic competitive multiplayer game that's unlike anything the studio has made before. But before that, Switch 2 owners have a chance to experience the studio's biggest hit for the first time t",
       "link": "https://www.theverge.com/entertainment/983307/elden-ring-nintendo-switch-2-review",
@@ -567,7 +675,7 @@
       "image": null
     },
     {
-      "id": "techcrunch-ai-4",
+      "id": "techcrunch-ai-7",
       "title": "Robot brain builders are pushing out of their GPT-2 era",
       "summary": "Robot bodies are waiting for their AI brains to catch up.",
       "link": "https://techcrunch.com/2026/08/26/robot-brain-builders-are-pushing-out-of-their-gpt-2-era/",
@@ -615,7 +723,7 @@
       "image": "https://www.tportal.hr/media/thumbnail/500x300/2786480.jpeg?cropId=0"
     },
     {
-      "id": "zdnet-5",
+      "id": "zdnet-6",
       "title": "4 AI development skills you need, according to Andrew Ng - and what experts say he's missing",
       "summary": "The rise of generative and agentic AI has dramatically changed the software-building process - and the skills required.",
       "link": "https://www.zdnet.com/article/4-ai-development-skills-you-need-according-to-andrew-ng-and-what-experts-say-hes-missing/",
@@ -627,7 +735,7 @@
       "image": null
     },
     {
-      "id": "techcrunch-ai-5",
+      "id": "techcrunch-ai-8",
       "title": "QueryStory wants you to believe what AI is telling you",
       "summary": "The startup came out of stealth with $6 million in seed funding and a plan to use LLMs and cybersecurity know-how to make AI queries coherent.",
       "link": "https://techcrunch.com/2026/08/26/querystory-wants-you-to-believe-what-ai-is-telling-you/",
@@ -663,7 +771,7 @@
       "image": null
     },
     {
-      "id": "techcrunch-ai-6",
+      "id": "techcrunch-ai-9",
       "title": "Arga Labs is building a better way to train enterprise AI agents",
       "summary": "Arga has raised $10 million in a seed funding round that was led by General Catalyst, with participation from Box Group, Emergence, Gradient and SV Angel.",
       "link": "https://techcrunch.com/2026/08/26/arga-is-building-a-better-way-to-train-enterprise-ai-agents/",
@@ -723,7 +831,7 @@
       "image": "https://media.thenextweb.com/2026/08/European-flags-Berlaymont.avif"
     },
     {
-      "id": "zdnet-6",
+      "id": "zdnet-7",
       "title": "This simple antivirus tool is the easiest way to scan your Linux PC for threats - for free",
       "summary": "Worried about Linux vulnerabilities or sharing files with Windows users? This ClamAV GUI makes it easy to ensure they're clean.",
       "link": "https://www.zdnet.com/article/clamav-gui-antivirus-tool-is-the-free-easy-way-to-scan-linux-pc-for-threats/",
@@ -747,7 +855,7 @@
       "image": null
     },
     {
-      "id": "techcrunch-ai-7",
+      "id": "techcrunch-ai-10",
       "title": "Hearing tech startup Legato emerges from stealth with $12M and a peek at its AI hearing glasses",
       "summary": "The glasses, called Legato Frames, integrate the company’s patented hearing-assistance technology into the arms of eyewear frames.",
       "link": "https://techcrunch.com/2026/08/26/hearing-tech-startup-legato-emerges-from-stealth-with-12m-and-a-peek-at-its-ai-hearing-glasses/",
@@ -783,7 +891,7 @@
       "image": null
     },
     {
-      "id": "zdnet-7",
+      "id": "zdnet-8",
       "title": "I built my own secure network in the cloud to access my home PCs remotely - for free",
       "summary": "Do you need easy, secure remote access to your home or small business network? Before you pay big bucks for a VPN or remote-access plan, try Tailscale. Did I mention it's free?",
       "link": "https://www.zdnet.com/article/secure-tailscale-network-for-free/",
@@ -915,7 +1023,7 @@
       "image": "https://www.tportal.hr/media/thumbnail/500x300/2786470.jpeg?cropId=0"
     },
     {
-      "id": "zdnet-8",
+      "id": "zdnet-9",
       "title": "The best reading tablets of 2026: Expert tested",
       "summary": "We rounded up the best reading tablets of the year that you can take with you anywhere.",
       "link": "https://www.zdnet.com/article/best-reading-tablet/",
@@ -927,7 +1035,7 @@
       "image": null
     },
     {
-      "id": "techcrunch-ai-8",
+      "id": "techcrunch-ai-11",
       "title": "Runable hits $21M to bet AI agents can go from building businesses to growing them",
       "summary": "Runable says 60% to 70% of its 1 trillion-plus token usage in the last 90 days came from paying customers.",
       "link": "https://techcrunch.com/2026/08/26/runable-hits-21m-to-bet-ai-agents-can-go-from-building-businesses-to-growing-them/",
@@ -1047,7 +1155,7 @@
       "image": "https://media.thenextweb.com/2026/08/MindRank.avif"
     },
     {
-      "id": "zdnet-9",
+      "id": "zdnet-10",
       "title": "Have an old PC monitor laying around? Turning it into a TV is easier than you think",
       "summary": "Give your old monitor a second chance at life as a dedicated streaming screen or over-the-air TV with just a few simple steps.",
       "link": "https://www.zdnet.com/article/how-to-turn-your-monitor-into-a-tv/",
@@ -1455,7 +1563,7 @@
       "image": "https://www.bug.hr/img/tko-je-zasluzan-za-uspon-kineskog-ai-ja_x88HRj.jpg"
     },
     {
-      "id": "techcrunch-ai-9",
+      "id": "techcrunch-ai-12",
       "title": "India&#8217;s Ringg gets backing from Peak XV as it pushes voice AI past the phone call",
       "summary": "Ringg has raised $10 million from Peak XV as a part of its Series A extension.",
       "link": "https://techcrunch.com/2026/08/25/indias-ringg-gets-backing-from-peak-xv-as-it-pushes-voice-ai-past-the-phone-call/",
@@ -1491,7 +1599,7 @@
       "image": "https://autonet.bug.hr/img/neunistiva-toyota-izvezla-se-iz-rusevina-nakon-potresa-u-kolumbiji_jPyTxh.jpg"
     },
     {
-      "id": "techcrunch-ai-10",
+      "id": "techcrunch-ai-13",
       "title": "Robotics startup Generalist reaches $3B valuation, sources say",
       "summary": "The $200 million extension comes just months after the physical AI startup reached a $2 billion valuation.",
       "link": "https://techcrunch.com/2026/08/25/robotics-startup-generalist-reaches-3b-valuation-sources-say/",
@@ -1503,7 +1611,7 @@
       "image": null
     },
     {
-      "id": "techcrunch-ai-11",
+      "id": "techcrunch-ai-14",
       "title": "OpenAI loses a top data center exec as stream of high-profile departures continues",
       "summary": "In a statement to TechCrunch about Malone's departure, OpenAI said it had \"recently reorganized\" its \"infrastructure organization to support the scale and pace of our work.\"",
       "link": "https://techcrunch.com/2026/08/25/openai-loses-a-top-data-center-exec-as-stream-of-high-profile-departures-continues/",
@@ -1515,7 +1623,7 @@
       "image": null
     },
     {
-      "id": "zdnet-10",
+      "id": "zdnet-11",
       "title": "Universal adapter vs. travel charger: Confused? Here's the device you need most",
       "summary": "These are two different products, but consumers end up confused because of misinformation and poor marketing copy.",
       "link": "https://www.zdnet.com/article/universal-travel-adapter-vs-travel-ready-charger-whats-the-difference/",
@@ -1659,7 +1767,7 @@
       "image": "https://media.thenextweb.com/2026/07/meta-leaves-re100-clean-energy-gas-ai-data-centres.avif"
     },
     {
-      "id": "zdnet-11",
+      "id": "zdnet-12",
       "title": "Garmin's new Fenix 9 Pro smartwatch is twice as bright as the previous gen - here's how they compare",
       "summary": "Garmin's new flagship Fenix 9 epitomizes the premium rugged smartwatch - but how much of an upgrade is it from the Fenix 8?",
       "link": "https://www.zdnet.com/article/garmin-fenix-9-vs-garmin-fenix-8/",
@@ -1667,54 +1775,6 @@
       "source": "ZDNet",
       "category": "general",
       "xml_category": "",
-      "tags": [],
-      "image": null
-    },
-    {
-      "id": "the-next-web-8",
-      "title": "Anthropic merges Claude chat and Cowork memory, on by default",
-      "summary": "Anything you tell Claude in a chat window is now available to Claude Cowork. Anything Cowork learns comes back the other way. Anthropic merged the two memory systems on Tuesday. Wherever you work with Claude, it starts from what it already knows about you, the company said in its announcement. The f",
-      "link": "https://thenextweb.com/news/anthropic-claude-cowork-shared-memory-default",
-      "published": "2026-08-25T19:39:09.000Z",
-      "source": "The Next Web",
-      "category": "ai",
-      "xml_category": "anthropic",
-      "tags": [],
-      "image": "https://media.thenextweb.com/2026/08/claude-memory-settings-interface.avif"
-    },
-    {
-      "id": "the-next-web-9",
-      "title": "WhatsApp is replacing its six-digit security PIN with a real password",
-      "summary": "WhatsApp is replacing the six-digit PIN used for two-step verification with a full alphanumeric password, and says more than a billion users have already created a passkey. Android users will also see extra context about calls from people not in their contacts. WhatsApp has quietly become the larges",
-      "link": "https://thenextweb.com/news/whatsapp-passkeys-billion-users-password-europe",
-      "published": "2026-08-25T19:32:50.000Z",
-      "source": "The Next Web",
-      "category": "tech",
-      "xml_category": "business",
-      "tags": [],
-      "image": "https://media.thenextweb.com/2026/07/meta-whatsapp-privacy-lawsuit-dismissed-encryption-whistleblower.avif"
-    },
-    {
-      "id": "the-next-web-7",
-      "title": "Apple gave Tim Cook a farewell party a week before Ternus takes over",
-      "summary": "Apple gave Tim Cook a leaving party on Sunday, a week before he stops being its chief executive. About 200 people attended, almost all of them Apple employees, at the Caffè Macs cafeteria on the company’s Cupertino campus. OneRepublic played. Aaron Tilley reported the evening for The Information, ci",
-      "link": "https://thenextweb.com/news/tim-cook-apple-farewell-party-ternus-handover",
-      "published": "2026-08-25T19:14:56.000Z",
-      "source": "The Next Web",
-      "category": "tech",
-      "xml_category": "apple",
-      "tags": [],
-      "image": "https://media.thenextweb.com/2026/04/apple-smart-glasses-four-frame-designs-testing-2027.avif"
-    },
-    {
-      "id": "techcrunch-ai-12",
-      "title": "Stability AI, maker of image generator Stable Diffusion, raises $76 million in fresh funding",
-      "summary": "The company's new fundraising total now stands at $232 million.",
-      "link": "https://techcrunch.com/2026/08/25/stability-ai-maker-of-image-generator-stable-diffusion-raises-76-million-in-fresh-funding/",
-      "published": "2026-08-25T19:03:47.000Z",
-      "source": "TechCrunch AI",
-      "category": "ai",
-      "xml_category": "ai",
       "tags": [],
       "image": null
     }
