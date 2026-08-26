@@ -1,25 +1,25 @@
 {
-  "generated_at": "2026-08-26T15:02:32.323Z",
+  "generated_at": "2026-08-26T16:01:10.805Z",
   "stats": {
-    "Mochvara": {
-      "ok": true,
-      "count": 18
-    },
     "muzika.hr": {
       "ok": true,
       "count": 25
     },
+    "Mochvara": {
+      "ok": true,
+      "count": 18
+    },
     "Lisinski": {
+      "ok": true,
+      "count": 0
+    },
+    "Gavella": {
       "ok": true,
       "count": 0
     },
     "Tvornica": {
       "ok": true,
       "count": 3
-    },
-    "Gavella": {
-      "ok": true,
-      "count": 0
     },
     "ZeKaeM": {
       "ok": true,
@@ -33,13 +33,13 @@
       "ok": true,
       "count": 0
     },
-    "Kerempuh": {
-      "ok": true,
-      "count": 0
-    },
     "HNK Zagreb": {
       "ok": true,
       "count": 76
+    },
+    "Kerempuh": {
+      "ok": true,
+      "count": 0
     },
     "Trešnja": {
       "ok": true,
@@ -541,6 +541,21 @@
       "source": "muzika.hr",
       "is_new": false,
       "first_seen": "2026-08-24T09:01:08.548Z"
+    },
+    {
+      "id": "8459c62d22",
+      "title": "Diskać: Studio 69",
+      "venue": "Mochvara",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-08-28T22:00:00",
+      "date_display": "pet, 28. 08. 2026.",
+      "time": "22:00",
+      "link": "https://mochvara.hr/event-detail/6a8f07b4213efb5125dfeec8/",
+      "source": "Mochvara",
+      "is_new": true,
+      "first_seen": "2026-08-26T16:01:10.805Z"
     },
     {
       "id": "b1ae7aaf27",
@@ -2902,5 +2917,5 @@
       "first_seen": "2026-08-09T05:01:15.939Z"
     }
   ],
-  "new_count": 9
+  "new_count": 10
 }
