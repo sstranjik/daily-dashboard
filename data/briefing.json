@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "date": "2026-08-25",
-  "generated_at": "2026-08-25T05:27:06.698Z",
-  "date_hr": "Utorak, 25. kolovoza 2026.",
+  "date": "2026-08-26",
+  "generated_at": "2026-08-26T05:02:07.030Z",
+  "date_hr": "Srijeda, 26. kolovoza 2026.",
   "weather": {
-    "icon": "🌦️",
-    "summary": "19–25°C, pljuskovi · 3.3 mm",
+    "icon": "🌫️",
+    "summary": "20–30°C, magla",
     "alerts": []
   },
   "fuel": {
@@ -63,46 +63,46 @@
     "upcoming_premium": null
   },
   "market": {
-    "updated_at": "2026-08-25T05:27:06.698Z",
-    "btc_usd": 80522,
-    "btc_eur": 69084,
-    "btc_change_24h": 4.47,
-    "usd_eur": 0.8572
+    "updated_at": "2026-08-26T05:02:07.030Z",
+    "btc_usd": 78816,
+    "btc_eur": 67585,
+    "btc_change_24h": -1.87,
+    "usd_eur": 0.8569
   },
   "ai_news": [
     {
-      "title": "OpenAI is building AI agents for everything. Will everyone use them?",
-      "link": "https://techcrunch.com/2026/08/24/openai-is-building-an-ai-agent-for-everything-will-everyone-use-them/",
-      "source": "TechCrunch AI"
+      "title": "OpenAI subpoenaed by Alabama AG over Hugging Face hack",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/984239/alabama-attorney-general-subpoena-openai-hugging-face-hack",
+      "source": "The Verge"
     },
     {
-      "title": "Anthropic’s new Claude Tag update lets its Slack agent read the full conversation — and jump in unprompted",
-      "link": "https://venturebeat.com/orchestration/anthropics-new-claude-tag-update-lets-its-slack-agent-read-the-full-conversation-and-jump-in-unprompted",
-      "source": "VentureBeat"
+      "title": "Tko je zaslužan za uspon kineskog AI-ja?",
+      "link": "https://www.bug.hr/umjetna-inteligencija/tko-je-zasluzan-za-uspon-kineskog-ai-ja-62277",
+      "source": "Bug.hr"
     },
     {
-      "title": "How to use ChatGPT Work - and my top 10 tips for getting started with agentic AI",
-      "link": "https://www.zdnet.com/article/how-to-use-chatgpt-work-and-my-top-tips/",
-      "source": "ZDNet"
-    },
-    {
-      "title": "Claude outage hits multiple models again",
-      "link": "https://thenextweb.com/news/claude-outage-multiple-models",
+      "title": "Anthropic merges Claude chat and Cowork memory, on by default",
+      "link": "https://thenextweb.com/news/anthropic-claude-cowork-shared-memory-default",
       "source": "The Next Web"
     },
     {
-      "title": "ChatGPT uskoro dobiva zaključane razgovore za vaše najosjetljivije upite",
-      "link": "https://www.bug.hr/umjetna-inteligencija/chatgpt-uskoro-dobiva-zakljucane-razgovore-za-vase-najosjetljivije-upite-62284",
-      "source": "Bug.hr"
+      "title": "Claude Cowork finally remembers what you told the app in chat",
+      "link": "https://techcrunch.com/2026/08/25/claude-cowork-finally-remembers-what-you-told-the-app-in-chat/",
+      "source": "TechCrunch AI"
+    },
+    {
+      "title": "Prompt injection ranks No. 1 with OWASP and No. 12 in the incident record. The attack itself is invisible to a scan.",
+      "link": "https://venturebeat.com/security/prompt-injection-ranks-no-1-with-owasp-and-no-12-in-the-incident-record-the-attack-itself-is-invisible-to-a-scan",
+      "source": "VentureBeat"
     }
   ],
   "micro_tips": {
     "vscode": {
-      "tip": "Otvori datoteku brzim pretraživanjem",
-      "keys": "Ctrl+P"
+      "tip": "Toggle Word Wrap za dugačke linije",
+      "keys": "Alt+Z"
     },
-    "sql": "NOT EXISTS brži od NOT IN kad subquery može vratiti NULL vrijednost",
-    "oracle": "DBMS_STATS.GATHER_TABLE_STATS osvježava statistike za točniji execution plan",
-    "regex": "(?i) inline flag za case-insensitive bez mijenjanja ostatka patternahe"
+    "sql": "Parametrizirani upiti = plan cache reuse + SQL injection zaštita istovremeno",
+    "oracle": "NVL2(expr, kad_nije_null, kad_je_null) kompaktnija od dvostrukog NVL-a",
+    "regex": "\\s+ pokriva space, tab i newline; \\S je negacija (svaki ne-whitespace)"
   }
 }
