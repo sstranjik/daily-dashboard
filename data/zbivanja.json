@@ -1,9 +1,17 @@
 {
-  "generated_at": "2026-08-27T14:01:12.544Z",
+  "generated_at": "2026-08-27T15:01:20.279Z",
   "stats": {
+    "Mochvara": {
+      "ok": true,
+      "count": 18
+    },
     "muzika.hr": {
       "ok": true,
       "count": 25
+    },
+    "Tvornica": {
+      "ok": true,
+      "count": 3
     },
     "Lisinski": {
       "ok": true,
@@ -13,19 +21,7 @@
       "ok": true,
       "count": 0
     },
-    "Tvornica": {
-      "ok": true,
-      "count": 3
-    },
-    "Mochvara": {
-      "ok": true,
-      "count": 18
-    },
     "ZeKaeM": {
-      "ok": true,
-      "count": 0
-    },
-    "Pogon": {
       "ok": true,
       "count": 0
     },
@@ -33,13 +29,17 @@
       "ok": true,
       "count": 0
     },
-    "HNK Zagreb": {
+    "Pogon": {
       "ok": true,
-      "count": 90
+      "count": 0
     },
     "Kerempuh": {
       "ok": true,
       "count": 0
+    },
+    "HNK Zagreb": {
+      "ok": true,
+      "count": 100
     },
     "Trešnja": {
       "ok": true,
@@ -1769,7 +1769,7 @@
       "time": "11:00",
       "link": "https://hnk.hr/hr/opera/predstave/put-svile-od-hrvatske-do-kine/#04.10.11.00",
       "source": "HNK Zagreb",
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-08-27T14:01:12.544Z"
     },
     {
@@ -2489,7 +2489,7 @@
       "time": "18:00",
       "link": "https://hnk.hr/hr/opera/predstave/ero-s-onoga-svijeta/#07.11.18.00",
       "source": "HNK Zagreb",
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-08-27T14:01:12.544Z"
     },
     {
@@ -2504,7 +2504,7 @@
       "time": "11:00",
       "link": "https://hnk.hr/hr/opera/predstave/ciklis-komornih-koncerata-klasika-nedjeljom/#08.11.11.00",
       "source": "HNK Zagreb",
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-08-27T14:01:12.544Z"
     },
     {
@@ -2519,7 +2519,7 @@
       "time": "11:00",
       "link": "https://hnk.hr/hr/opera/predstave/ero-s-onoga-svijeta/#10.11.11.00",
       "source": "HNK Zagreb",
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-08-27T14:01:12.544Z"
     },
     {
@@ -2534,7 +2534,7 @@
       "time": "19:30",
       "link": "https://hnk.hr/hr/hnk2/cabaret/#11.11.19.30",
       "source": "HNK Zagreb",
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-08-27T14:01:12.544Z"
     },
     {
@@ -2549,7 +2549,7 @@
       "time": "19:30",
       "link": "https://hnk.hr/hr/opera/predstave/ero-s-onoga-svijeta/#12.11.19.30",
       "source": "HNK Zagreb",
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-08-27T14:01:12.544Z"
     },
     {
@@ -2564,7 +2564,7 @@
       "time": "19:30",
       "link": "https://hnk.hr/hr/hnk2/cabaret/#12.11.19.30",
       "source": "HNK Zagreb",
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-08-27T14:01:12.544Z"
     },
     {
@@ -2594,8 +2594,98 @@
       "time": "18:00",
       "link": "https://hnk.hr/hr/hnk2/cabaret/#14.11.18.00",
       "source": "HNK Zagreb",
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-08-27T14:01:12.544Z"
+    },
+    {
+      "id": "69f2c341d7",
+      "title": "Joe Masteroff — John Kander — Fred Ebb CABARET",
+      "venue": "HNK Zagreb",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-11-16T19:30:00",
+      "date_display": "pon, 16. 11. 2026.",
+      "time": "19:30",
+      "link": "https://hnk.hr/hr/hnk2/cabaret/#16.11.19.30",
+      "source": "HNK Zagreb",
+      "is_new": true,
+      "first_seen": "2026-08-27T15:01:20.279Z"
+    },
+    {
+      "id": "ba2c4424a2",
+      "title": "Joe Masteroff — John Kander — Fred Ebb CABARET",
+      "venue": "HNK Zagreb",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-11-17T19:30:00",
+      "date_display": "uto, 17. 11. 2026.",
+      "time": "19:30",
+      "link": "https://hnk.hr/hr/hnk2/cabaret/#17.11.19.30",
+      "source": "HNK Zagreb",
+      "is_new": true,
+      "first_seen": "2026-08-27T15:01:20.279Z"
+    },
+    {
+      "id": "dfc282446b",
+      "title": "Joe Masteroff — John Kander — Fred Ebb CABARET",
+      "venue": "HNK Zagreb",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-11-19T19:30:00",
+      "date_display": "čet, 19. 11. 2026.",
+      "time": "19:30",
+      "link": "https://hnk.hr/hr/hnk2/cabaret/#19.11.19.30",
+      "source": "HNK Zagreb",
+      "is_new": true,
+      "first_seen": "2026-08-27T15:01:20.279Z"
+    },
+    {
+      "id": "e5a579eb7b",
+      "title": "Joe Masteroff — John Kander — Fred Ebb CABARET",
+      "venue": "HNK Zagreb",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-11-20T19:30:00",
+      "date_display": "pet, 20. 11. 2026.",
+      "time": "19:30",
+      "link": "https://hnk.hr/hr/hnk2/cabaret/#20.11.19.30",
+      "source": "HNK Zagreb",
+      "is_new": true,
+      "first_seen": "2026-08-27T15:01:20.279Z"
+    },
+    {
+      "id": "9664086ed6",
+      "title": "Jakov Gotovac Ero s onoga svijeta",
+      "venue": "HNK Zagreb",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-11-21T18:00:00",
+      "date_display": "sub, 21. 11. 2026.",
+      "time": "18:00",
+      "link": "https://hnk.hr/hr/opera/predstave/ero-s-onoga-svijeta/#21.11.18.00",
+      "source": "HNK Zagreb",
+      "is_new": true,
+      "first_seen": "2026-08-27T15:01:20.279Z"
+    },
+    {
+      "id": "41492971db",
+      "title": "Joe Masteroff — John Kander — Fred Ebb CABARET",
+      "venue": "HNK Zagreb",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-11-21T18:00:00",
+      "date_display": "sub, 21. 11. 2026.",
+      "time": "18:00",
+      "link": "https://hnk.hr/hr/hnk2/cabaret/#21.11.18.00",
+      "source": "HNK Zagreb",
+      "is_new": true,
+      "first_seen": "2026-08-27T15:01:20.279Z"
     },
     {
       "id": "abc47ef862",
@@ -2611,6 +2701,36 @@
       "source": "Mochvara",
       "is_new": false,
       "first_seen": "2026-07-11T15:01:38.070Z"
+    },
+    {
+      "id": "bc90cf522f",
+      "title": "Joe Masteroff — John Kander — Fred Ebb CABARET",
+      "venue": "HNK Zagreb",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-11-23T19:30:00",
+      "date_display": "pon, 23. 11. 2026.",
+      "time": "19:30",
+      "link": "https://hnk.hr/hr/hnk2/cabaret/#23.11.19.30",
+      "source": "HNK Zagreb",
+      "is_new": true,
+      "first_seen": "2026-08-27T15:01:20.279Z"
+    },
+    {
+      "id": "331ac3f8ff",
+      "title": "Joe Masteroff — John Kander — Fred Ebb CABARET",
+      "venue": "HNK Zagreb",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-11-24T19:30:00",
+      "date_display": "uto, 24. 11. 2026.",
+      "time": "19:30",
+      "link": "https://hnk.hr/hr/hnk2/cabaret/#24.11.19.30",
+      "source": "HNK Zagreb",
+      "is_new": true,
+      "first_seen": "2026-08-27T15:01:20.279Z"
     },
     {
       "id": "df5490d07d",
@@ -2986,7 +3106,7 @@
       "time": "19:30",
       "link": "https://hnk.hr/hr/drama/predstave/richard-iii/#13.11.19.30",
       "source": "HNK Zagreb",
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-08-27T14:01:12.544Z"
     },
     {
@@ -3001,7 +3121,7 @@
       "time": "18:00",
       "link": "https://hnk.hr/hr/drama/predstave/richard-iii/#14.11.18.00",
       "source": "HNK Zagreb",
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-08-27T14:01:12.544Z"
     },
     {
@@ -3016,8 +3136,38 @@
       "time": "19:30",
       "link": "https://hnk.hr/hr/drama/predstave/richard-iii/#17.11.19.30",
       "source": "HNK Zagreb",
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-08-27T14:01:12.544Z"
+    },
+    {
+      "id": "083de7e73a",
+      "title": "William Shakespeare Richard III.",
+      "venue": "HNK Zagreb",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "theater",
+      "date_iso": "2026-11-19T19:30:00",
+      "date_display": "čet, 19. 11. 2026.",
+      "time": "19:30",
+      "link": "https://hnk.hr/hr/drama/predstave/richard-iii/#19.11.19.30",
+      "source": "HNK Zagreb",
+      "is_new": true,
+      "first_seen": "2026-08-27T15:01:20.279Z"
+    },
+    {
+      "id": "92a2d7bb50",
+      "title": "William Shakespeare Richard III.",
+      "venue": "HNK Zagreb",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "theater",
+      "date_iso": "2026-11-20T19:30:00",
+      "date_display": "pet, 20. 11. 2026.",
+      "time": "19:30",
+      "link": "https://hnk.hr/hr/drama/predstave/richard-iii/#20.11.19.30",
+      "source": "HNK Zagreb",
+      "is_new": true,
+      "first_seen": "2026-08-27T15:01:20.279Z"
     }
   ],
   "abroad": [
@@ -3157,5 +3307,5 @@
       "first_seen": "2026-08-09T05:01:15.939Z"
     }
   ],
-  "new_count": 21
+  "new_count": 20
 }
