@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-27T10:01:07.259Z",
+  "generated_at": "2026-08-27T11:01:08.314Z",
   "stats": {
     "muzika.hr": {
       "ok": true,
@@ -9,13 +9,13 @@
       "ok": true,
       "count": 0
     },
-    "Tvornica": {
-      "ok": true,
-      "count": 3
-    },
     "Gavella": {
       "ok": true,
       "count": 0
+    },
+    "Tvornica": {
+      "ok": true,
+      "count": 3
     },
     "Mochvara": {
       "ok": true,
@@ -25,6 +25,10 @@
       "ok": true,
       "count": 0
     },
+    "HNK Zagreb": {
+      "ok": true,
+      "count": 78
+    },
     "ZeKaeM": {
       "ok": true,
       "count": 0
@@ -33,17 +37,13 @@
       "ok": true,
       "count": 0
     },
-    "HNK Zagreb": {
-      "ok": true,
-      "count": 76
-    },
     "Pogon": {
       "ok": true,
       "count": 0
     },
     "Trešnja": {
-      "ok": false,
-      "error": "The operation was aborted due to timeout"
+      "ok": true,
+      "count": 0
     }
   },
   "concerts": [
@@ -2403,6 +2403,21 @@
       "first_seen": "2026-08-14T12:36:04.489Z"
     },
     {
+      "id": "7b95f380c0",
+      "title": "Georges Bizet Carmen",
+      "venue": "HNK Zagreb",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-11-03T19:30:00",
+      "date_display": "uto, 03. 11. 2026.",
+      "time": "19:30",
+      "link": "https://hnk.hr/hr/opera/predstave/carmen1/#03.11.19.30",
+      "source": "HNK Zagreb",
+      "is_new": true,
+      "first_seen": "2026-08-27T11:01:08.314Z"
+    },
+    {
       "id": "6372b4ae83",
       "title": "Wolves In The Throne Room, Worm, Final Dose Srijeda 4.11.2026.",
       "venue": "Mochvara",
@@ -2416,6 +2431,21 @@
       "source": "Mochvara",
       "is_new": false,
       "first_seen": "2026-07-11T15:01:38.070Z"
+    },
+    {
+      "id": "a2f46472e1",
+      "title": "Georges Bizet Carmen",
+      "venue": "HNK Zagreb",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-11-04T19:30:00",
+      "date_display": "sri, 04. 11. 2026.",
+      "time": "19:30",
+      "link": "https://hnk.hr/hr/opera/predstave/carmen1/#04.11.19.30",
+      "source": "HNK Zagreb",
+      "is_new": true,
+      "first_seen": "2026-08-27T11:01:08.314Z"
     },
     {
       "id": "9dceecb88b",
@@ -2705,6 +2735,21 @@
       "first_seen": "2026-07-02T14:01:25.801Z"
     },
     {
+      "id": "b5d0bc506a",
+      "title": "Espi Tomičić Budi uvijek kao zmaj Zamjena za izvedbu 15.rujna 2026.",
+      "venue": "HNK Zagreb",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "theater",
+      "date_iso": "2026-10-17T20:00:00",
+      "date_display": "sub, 17. 10. 2026.",
+      "time": "20:00",
+      "link": "https://hnk.hr/hr/drama/predstave/budi-uvijek-kao-zmaj/#17.10.20.00",
+      "source": "HNK Zagreb",
+      "is_new": true,
+      "first_seen": "2026-08-27T11:01:08.314Z"
+    },
+    {
       "id": "498e725977",
       "title": "Espi Tomičić Budi uvijek kao zmaj Gostovanje u Slovenskome mladinskom gledališč u Ljubljani",
       "venue": "HNK Zagreb",
@@ -2917,5 +2962,5 @@
       "first_seen": "2026-08-09T05:01:15.939Z"
     }
   ],
-  "new_count": 9
+  "new_count": 12
 }
