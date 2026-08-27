@@ -1,66 +1,61 @@
 {
   "version": 2,
   "date": "2026-08-27",
-  "generated_at": "2026-08-27T05:02:19.980Z",
+  "generated_at": "2026-08-27T16:04:02.278Z",
   "date_hr": "Četvrtak, 27. kolovoza 2026.",
   "weather": {
     "icon": "☁️",
-    "summary": "21–35°C, oblačno",
-    "alerts": [
-      {
-        "level": "warning",
-        "text": "Ekstremna vrućina: 35°C"
-      }
-    ]
+    "summary": "21–34°C, oblačno",
+    "alerts": []
   },
   "fuel": {
-    "current_date": "24.08.2026",
+    "current_date": "27.08.2026",
     "eurodiesel": [
       {
         "company": "Adria Oil",
-        "price": 1.8
+        "price": 1.86
       },
       {
         "company": "Coral Croatia",
-        "price": 1.8
+        "price": 1.86
       },
       {
         "company": "INA",
-        "price": 1.8
+        "price": 1.86
       },
       {
         "company": "LUKOIL Croatia",
-        "price": 1.8
+        "price": 1.86
       },
       {
         "company": "Petrol",
-        "price": 1.8
+        "price": 1.86
       },
       {
         "company": "Tifon",
-        "price": 1.8
+        "price": 1.86
       }
     ],
     "premium_eurodiesel": [
       {
         "company": "LUKOIL Croatia",
-        "price": 1.96
+        "price": 2.02
       },
       {
         "company": "INA",
-        "price": 2.06
-      },
-      {
-        "company": "Tifon",
-        "price": 2.1
-      },
-      {
-        "company": "Coral Croatia",
-        "price": 2.13
+        "price": 2.12
       },
       {
         "company": "Petrol",
-        "price": 2.13
+        "price": 2.15
+      },
+      {
+        "company": "Tifon",
+        "price": 2.16
+      },
+      {
+        "company": "Coral Croatia",
+        "price": 2.19
       }
     ],
     "upcoming_date": null,
@@ -68,13 +63,28 @@
     "upcoming_premium": null
   },
   "market": {
-    "updated_at": "2026-08-27T05:02:19.980Z",
-    "btc_usd": 78760,
-    "btc_eur": 67573,
-    "btc_change_24h": -0.06,
+    "updated_at": "2026-08-27T16:04:02.278Z",
+    "btc_usd": 80328,
+    "btc_eur": 68932,
+    "btc_change_24h": 3.01,
     "usd_eur": 0.8578
   },
   "ai_news": [
+    {
+      "title": "How OpenAI let a mob of LLM agents game a test and ransack Hugging Face",
+      "link": "https://arstechnica.com/security/2026/08/how-openai-let-a-mob-of-llm-agents-game-a-test-and-ransack-hugging-face/",
+      "source": "Ars Technica"
+    },
+    {
+      "title": "Here’s all the times AI has gone rogue and hacked other companies",
+      "link": "https://techcrunch.com/2026/08/27/heres-all-the-times-ai-has-gone-rogue-and-hacked-other-companies/",
+      "source": "TechCrunch AI"
+    },
+    {
+      "title": "ChatGPT can log into your web accounts without you now - but should you let it?",
+      "link": "https://www.zdnet.com/article/chatgpt-can-log-into-your-web-accounts-without-you-now-but-should-you-let-it/",
+      "source": "ZDNet"
+    },
     {
       "title": "OpenAI’s rogue AI model incident was worse than we thought",
       "link": "https://www.theverge.com/ai-artificial-intelligence/985385/openais-rogue-ai-model-hugging-face-cybersecurity-incident-reports-metr",
@@ -84,21 +94,6 @@
       "title": "OpenAI says earlier signals could have prevented the Hugging Face breach",
       "link": "https://thenextweb.com/news/openai-hugging-face-technical-report-missed-signals-article-55",
       "source": "The Next Web"
-    },
-    {
-      "title": "Gemini Live gains agentic tasks, voice inbox control and personal intelligence",
-      "link": "https://thenextweb.com/news/gemini-live-spark-voice-agentic-tasks-dma-rival-assistants",
-      "source": "The Next Web"
-    },
-    {
-      "title": "Salesforce just put its entire CRM inside Claude — and says you’ll never need its app again",
-      "link": "https://venturebeat.com/orchestration/salesforce-just-put-its-entire-crm-inside-claude-and-says-youll-never-need-its-app-again",
-      "source": "VentureBeat"
-    },
-    {
-      "title": "OpenAI releases its official report on the Hugging Face breach",
-      "link": "https://techcrunch.com/2026/08/26/openai-releases-its-official-report-on-the-hugging-face-breach/",
-      "source": "TechCrunch AI"
     }
   ],
   "micro_tips": {
