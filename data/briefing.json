@@ -1,12 +1,17 @@
 {
   "version": 2,
-  "date": "2026-08-26",
-  "generated_at": "2026-08-26T05:29:51.538Z",
-  "date_hr": "Srijeda, 26. kolovoza 2026.",
+  "date": "2026-08-27",
+  "generated_at": "2026-08-27T05:02:19.980Z",
+  "date_hr": "Četvrtak, 27. kolovoza 2026.",
   "weather": {
-    "icon": "🌫️",
-    "summary": "20–30°C, magla",
-    "alerts": []
+    "icon": "☁️",
+    "summary": "21–35°C, oblačno",
+    "alerts": [
+      {
+        "level": "warning",
+        "text": "Ekstremna vrućina: 35°C"
+      }
+    ]
   },
   "fuel": {
     "current_date": "24.08.2026",
@@ -63,46 +68,46 @@
     "upcoming_premium": null
   },
   "market": {
-    "updated_at": "2026-08-26T05:29:51.538Z",
-    "btc_usd": 78960,
-    "btc_eur": 67692,
-    "btc_change_24h": -2.09,
-    "usd_eur": 0.8569
+    "updated_at": "2026-08-27T05:02:19.980Z",
+    "btc_usd": 78760,
+    "btc_eur": 67573,
+    "btc_change_24h": -0.06,
+    "usd_eur": 0.8578
   },
   "ai_news": [
     {
-      "title": "OpenAI subpoenaed by Alabama AG over Hugging Face hack",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/984239/alabama-attorney-general-subpoena-openai-hugging-face-hack",
+      "title": "OpenAI’s rogue AI model incident was worse than we thought",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/985385/openais-rogue-ai-model-hugging-face-cybersecurity-incident-reports-metr",
       "source": "The Verge"
     },
     {
-      "title": "Tko je zaslužan za uspon kineskog AI-ja?",
-      "link": "https://www.bug.hr/umjetna-inteligencija/tko-je-zasluzan-za-uspon-kineskog-ai-ja-62277",
-      "source": "Bug.hr"
-    },
-    {
-      "title": "Anthropic merges Claude chat and Cowork memory, on by default",
-      "link": "https://thenextweb.com/news/anthropic-claude-cowork-shared-memory-default",
+      "title": "OpenAI says earlier signals could have prevented the Hugging Face breach",
+      "link": "https://thenextweb.com/news/openai-hugging-face-technical-report-missed-signals-article-55",
       "source": "The Next Web"
     },
     {
-      "title": "Claude Cowork finally remembers what you told the app in chat",
-      "link": "https://techcrunch.com/2026/08/25/claude-cowork-finally-remembers-what-you-told-the-app-in-chat/",
-      "source": "TechCrunch AI"
+      "title": "Gemini Live gains agentic tasks, voice inbox control and personal intelligence",
+      "link": "https://thenextweb.com/news/gemini-live-spark-voice-agentic-tasks-dma-rival-assistants",
+      "source": "The Next Web"
     },
     {
-      "title": "Prompt injection ranks No. 1 with OWASP and No. 12 in the incident record. The attack itself is invisible to a scan.",
-      "link": "https://venturebeat.com/security/prompt-injection-ranks-no-1-with-owasp-and-no-12-in-the-incident-record-the-attack-itself-is-invisible-to-a-scan",
+      "title": "Salesforce just put its entire CRM inside Claude — and says you’ll never need its app again",
+      "link": "https://venturebeat.com/orchestration/salesforce-just-put-its-entire-crm-inside-claude-and-says-youll-never-need-its-app-again",
       "source": "VentureBeat"
+    },
+    {
+      "title": "OpenAI releases its official report on the Hugging Face breach",
+      "link": "https://techcrunch.com/2026/08/26/openai-releases-its-official-report-on-the-hugging-face-breach/",
+      "source": "TechCrunch AI"
     }
   ],
   "micro_tips": {
     "vscode": {
-      "tip": "Toggle Word Wrap za dugačke linije",
-      "keys": "Alt+Z"
+      "tip": "Nađi i selektiraj sljedeće pojavljivanje",
+      "keys": "Ctrl+D"
     },
-    "sql": "Parametrizirani upiti = plan cache reuse + SQL injection zaštita istovremeno",
-    "oracle": "NVL2(expr, kad_nije_null, kad_je_null) kompaktnija od dvostrukog NVL-a",
-    "regex": "\\s+ pokriva space, tab i newline; \\S je negacija (svaki ne-whitespace)"
+    "sql": "Batch INSERT umjesto jednog-po-jednog: INSERT INTO t VALUES (...),(...),...",
+    "oracle": "FETCH FIRST n ROWS ONLY umjesto ROWNUM — kompatibilno s ORDER BY i čitljivije",
+    "regex": "^(?!.*pattern) negative lookahead: \"ova linija ne smije sadržavati X\""
   }
 }
