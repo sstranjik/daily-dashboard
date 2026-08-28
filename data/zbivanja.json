@@ -1,13 +1,17 @@
 {
-  "generated_at": "2026-08-28T18:01:18.631Z",
+  "generated_at": "2026-08-28T19:01:19.651Z",
   "stats": {
+    "Mochvara": {
+      "ok": true,
+      "count": 18
+    },
     "muzika.hr": {
       "ok": true,
       "count": 25
     },
-    "Mochvara": {
+    "Tvornica": {
       "ok": true,
-      "count": 18
+      "count": 3
     },
     "Lisinski": {
       "ok": true,
@@ -17,10 +21,6 @@
       "ok": true,
       "count": 0
     },
-    "Tvornica": {
-      "ok": true,
-      "count": 3
-    },
     "ZeKaeM": {
       "ok": true,
       "count": 0
@@ -29,19 +29,19 @@
       "ok": true,
       "count": 0
     },
-    "HNK Zagreb": {
-      "ok": true,
-      "count": 123
-    },
     "Kerempuh": {
       "ok": true,
       "count": 0
     },
-    "Trešnja": {
+    "Pogon": {
       "ok": true,
       "count": 0
     },
-    "Pogon": {
+    "HNK Zagreb": {
+      "ok": true,
+      "count": 123
+    },
+    "Trešnja": {
       "ok": true,
       "count": 0
     }
@@ -573,6 +573,21 @@
       "first_seen": "2026-07-25T05:01:14.633Z"
     },
     {
+      "id": "7f79fd124b",
+      "title": "Canto do Brasil u Vintage Gardenu",
+      "venue": "Vintage Industrial Bar Savska ulica 160",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-08-30T20:00:00",
+      "date_display": "ned, 30. 08. 2026.",
+      "time": "20:00",
+      "link": "https://www.muzika.hr/event/canto-do-brasil-u-vintage-gardenu/",
+      "source": "muzika.hr",
+      "is_new": true,
+      "first_seen": "2026-08-28T19:01:19.651Z"
+    },
+    {
       "id": "eefc9ee25f",
       "title": "Začarani birc: Xol Meissner (live)",
       "venue": "Mochvara",
@@ -601,6 +616,21 @@
       "source": "Mochvara",
       "is_new": false,
       "first_seen": "2026-07-26T05:01:11.544Z"
+    },
+    {
+      "id": "79ed10b850",
+      "title": "Domagoj Šimek u Vintage Gardenu",
+      "venue": "Vintage Industrial Bar Savska ulica 160",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-09-02T21:00:00",
+      "date_display": "sri, 02. 09. 2026.",
+      "time": "21:00",
+      "link": "https://www.muzika.hr/event/domagoj-simek-u-vintage-gardenu/",
+      "source": "muzika.hr",
+      "is_new": true,
+      "first_seen": "2026-08-28T19:01:19.651Z"
     },
     {
       "id": "06ca251525",
@@ -646,6 +676,21 @@
       "source": "HNK Zagreb",
       "is_new": false,
       "first_seen": "2026-06-21T16:01:52.924Z"
+    },
+    {
+      "id": "419d0f74d0",
+      "title": "Soul Divas: Petra Antolić & Soulfinders u Vintage Gardenu",
+      "venue": "Vintage Industrial Bar Savska ulica 160",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-09-04T20:30:00",
+      "date_display": "pet, 04. 09. 2026.",
+      "time": "20:30",
+      "link": "https://www.muzika.hr/event/soul-divas-petra-antolic-soulfinders-u-vintage-gardenu/",
+      "source": "muzika.hr",
+      "is_new": true,
+      "first_seen": "2026-08-28T19:01:19.651Z"
     },
     {
       "id": "5dae52292b",
@@ -826,6 +871,21 @@
       "source": "muzika.hr",
       "is_new": false,
       "first_seen": "2026-08-03T18:01:24.050Z"
+    },
+    {
+      "id": "3623be9c30",
+      "title": "Gajnice vrište",
+      "venue": "Zagreb",
+      "city": "Croatia",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-09-11T00:00:00",
+      "date_display": "pet, 11. 09. 2026.",
+      "time": null,
+      "link": "https://www.muzika.hr/event/gajnice-vriste-2/",
+      "source": "muzika.hr",
+      "is_new": true,
+      "first_seen": "2026-08-28T19:01:19.651Z"
     },
     {
       "id": "0fff717cb6",
@@ -1396,6 +1456,21 @@
       "source": "HNK Zagreb",
       "is_new": false,
       "first_seen": "2026-06-19T11:01:10.397Z"
+    },
+    {
+      "id": "9c30792556",
+      "title": "Akustika Session: nast.roje",
+      "venue": "Peti Kupe Trnjanska cesta 5",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-09-20T20:00:00",
+      "date_display": "ned, 20. 09. 2026.",
+      "time": "20:00",
+      "link": "https://www.muzika.hr/event/akustika-session-nast-roje/",
+      "source": "muzika.hr",
+      "is_new": true,
+      "first_seen": "2026-08-28T19:01:19.651Z"
     },
     {
       "id": "3a051b8a94",
@@ -3607,5 +3682,5 @@
       "first_seen": "2026-08-09T05:01:15.939Z"
     }
   ],
-  "new_count": 10
+  "new_count": 15
 }
