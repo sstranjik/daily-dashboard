@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-08-28T12:01:13.470Z",
+  "generated_at": "2026-08-28T13:01:17.348Z",
   "stats": {
-    "muzika.hr": {
-      "ok": true,
-      "count": 25
-    },
     "Lisinski": {
       "ok": true,
       "count": 0
+    },
+    "Tvornica": {
+      "ok": true,
+      "count": 3
     },
     "Mochvara": {
       "ok": true,
@@ -17,9 +17,9 @@
       "ok": true,
       "count": 0
     },
-    "Tvornica": {
+    "muzika.hr": {
       "ok": true,
-      "count": 3
+      "count": 25
     },
     "ZeKaeM": {
       "ok": true,
@@ -31,17 +31,17 @@
     },
     "HNK Zagreb": {
       "ok": true,
-      "count": 117
+      "count": 119
     },
     "Kerempuh": {
       "ok": true,
       "count": 0
     },
-    "Trešnja": {
+    "Pogon": {
       "ok": true,
       "count": 0
     },
-    "Pogon": {
+    "Trešnja": {
       "ok": true,
       "count": 0
     }
@@ -2838,6 +2838,36 @@
       "first_seen": "2026-07-11T15:01:38.070Z"
     },
     {
+      "id": "0c73f63295",
+      "title": "Giacomo Puccini La Bohème",
+      "venue": "HNK Zagreb",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-12-12T18:00:00",
+      "date_display": "sub, 12. 12. 2026.",
+      "time": "18:00",
+      "link": "https://hnk.hr/hr/opera/predstave/la-boh%C3%A8me/#12.12.18.00",
+      "source": "HNK Zagreb",
+      "is_new": true,
+      "first_seen": "2026-08-28T13:01:17.348Z"
+    },
+    {
+      "id": "43c8fdb3d3",
+      "title": "Giacomo Puccini La Bohème",
+      "venue": "HNK Zagreb",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-12-14T19:30:00",
+      "date_display": "pon, 14. 12. 2026.",
+      "time": "19:30",
+      "link": "https://hnk.hr/hr/opera/predstave/la-boh%C3%A8me/#14.12.19.30",
+      "source": "HNK Zagreb",
+      "is_new": true,
+      "first_seen": "2026-08-28T13:01:17.348Z"
+    },
+    {
       "id": "fe96b6c248",
       "title": "Petar Iljič Čajkovski — Rudolf Nurejev Orašar U prodaji na blagajni od 27.listopada 2026. od 10 sati",
       "venue": "HNK Zagreb",
@@ -3532,5 +3562,5 @@
       "first_seen": "2026-08-09T05:01:15.939Z"
     }
   ],
-  "new_count": 10
+  "new_count": 12
 }
