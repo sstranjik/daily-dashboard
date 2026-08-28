@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-08-28T19:01:19.651Z",
+  "generated_at": "2026-08-28T20:01:15.893Z",
   "stats": {
     "Mochvara": {
       "ok": true,
-      "count": 18
+      "count": 0
+    },
+    "Pogon": {
+      "ok": true,
+      "count": 0
     },
     "muzika.hr": {
       "ok": true,
       "count": 25
-    },
-    "Tvornica": {
-      "ok": true,
-      "count": 3
     },
     "Lisinski": {
       "ok": true,
@@ -21,11 +21,11 @@
       "ok": true,
       "count": 0
     },
-    "ZeKaeM": {
+    "Tvornica": {
       "ok": true,
-      "count": 0
+      "count": 3
     },
-    "Komedija": {
+    "ZeKaeM": {
       "ok": true,
       "count": 0
     },
@@ -33,17 +33,17 @@
       "ok": true,
       "count": 0
     },
-    "Pogon": {
+    "Trešnja": {
+      "ok": true,
+      "count": 0
+    },
+    "Komedija": {
       "ok": true,
       "count": 0
     },
     "HNK Zagreb": {
       "ok": true,
       "count": 123
-    },
-    "Trešnja": {
-      "ok": true,
-      "count": 0
     }
   },
   "concerts": [
@@ -584,7 +584,7 @@
       "time": "20:00",
       "link": "https://www.muzika.hr/event/canto-do-brasil-u-vintage-gardenu/",
       "source": "muzika.hr",
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-08-28T19:01:19.651Z"
     },
     {
@@ -629,7 +629,7 @@
       "time": "21:00",
       "link": "https://www.muzika.hr/event/domagoj-simek-u-vintage-gardenu/",
       "source": "muzika.hr",
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-08-28T19:01:19.651Z"
     },
     {
@@ -689,7 +689,7 @@
       "time": "20:30",
       "link": "https://www.muzika.hr/event/soul-divas-petra-antolic-soulfinders-u-vintage-gardenu/",
       "source": "muzika.hr",
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-08-28T19:01:19.651Z"
     },
     {
@@ -884,7 +884,7 @@
       "time": null,
       "link": "https://www.muzika.hr/event/gajnice-vriste-2/",
       "source": "muzika.hr",
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-08-28T19:01:19.651Z"
     },
     {
@@ -1469,7 +1469,7 @@
       "time": "20:00",
       "link": "https://www.muzika.hr/event/akustika-session-nast-roje/",
       "source": "muzika.hr",
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-08-28T19:01:19.651Z"
     },
     {
@@ -3682,5 +3682,5 @@
       "first_seen": "2026-08-09T05:01:15.939Z"
     }
   ],
-  "new_count": 15
+  "new_count": 10
 }
