@@ -1,9 +1,93 @@
 {
-  "last_updated": "2026-08-28T16:01:05.272Z",
+  "last_updated": "2026-08-28T17:01:06.966Z",
   "source_count": 11,
   "items": [
     {
+      "id": "zdnet-0",
+      "title": "3 surveys deliver the same uncomfortable truth about adopting agentic AI",
+      "summary": "Scaling AI in business is less about technology and more about accountability, governance, and healthy relationships between humans and agents.",
+      "link": "https://www.zdnet.com/article/3-surveys-uncomfortable-adopting-agentic-ai/",
+      "published": "2026-08-28T16:52:13.000Z",
+      "source": "ZDNet",
+      "category": "ai",
+      "xml_category": "",
+      "tags": [],
+      "image": null
+    },
+    {
+      "id": "bug.hr-0",
+      "title": "Vivo X500 Pro i Pro Max koristit će 2-nanometarski MediaTekov SoC",
+      "summary": "Vivo je potvrdio da će X500 Pro i Pro Max koristiti novi 2-nanometarski MediaTekov Dimensity SoC. Neslužbene informacije upućuju na Dimensity 9600 Pro, uz koji stiže i novi čip za obradu slike",
+      "link": "https://www.bug.hr/mobiteli/vivo-x500-pro-i-pro-max-koristit-ce-2-nanometarski-mediatekov-soc-62464",
+      "published": "2026-08-28T16:50:00.000Z",
+      "source": "Bug.hr",
+      "category": "general",
+      "xml_category": "mobiteli",
+      "tags": [],
+      "image": "https://www.bug.hr/img/vivo-x500-pro-i-pro-max-koristit-ce-2-nanometarski-mediatekov-soc_HFI06Q.png"
+    },
+    {
+      "id": "bug.hr-1",
+      "title": "Mahir Hodžić: AI ubrzava sigurnosne procese, ali odgovornost mora ostati na čovjeku",
+      "summary": "Uoči ovogodišnjeg Adria Security Summita koji se održava u listopadu u Zagrebu, donosimo intervju s njegovim predsjednikom organizacijskog odbora",
+      "link": "https://www.bug.hr/intervju/mahir-hodzic-ai-ubrzava-sigurnosne-procese-ali-odgovornost-mora-ostati-na-62472",
+      "published": "2026-08-28T16:38:00.000Z",
+      "source": "Bug.hr",
+      "category": "ai",
+      "xml_category": "intervju",
+      "tags": [],
+      "image": "https://www.bug.hr/img/mahir-hodzic-ai-ubrzava-sigurnosne-procese-ali-odgovornost-mora-ostati-na_q--zBv.jpg"
+    },
+    {
       "id": "venturebeat-0",
+      "title": "Meta researchers taught an 8B AI model to match Claude Opus 4.5 — without the frontier price tag",
+      "summary": "Consider an AI agent tasked with a complex enterprise workflow like migrating massive batches of customer records from a legacy CRM to a cloud database. The agent cannot rely solely on its internal context window for a job spanning hours and depends on the runtime layer, aka the harness . This harne",
+      "link": "https://venturebeat.com/orchestration/meta-researchers-taught-an-8b-ai-model-to-match-claude-opus-4-5-without-the-frontier-price-tag",
+      "published": "2026-08-28T16:33:16.000Z",
+      "source": "VentureBeat",
+      "category": "ai",
+      "xml_category": "orchestration",
+      "tags": [],
+      "image": "https://images.ctfassets.net/jdtwqhzvc2n1/74qlOTYyXbU8te5ugdb5DX/f6696a755ed1db9f3a43cdb5ec9219c8/AI_harness.jpg?w=300&q=30"
+    },
+    {
+      "id": "the-verge-0",
+      "title": "Trump’s EPA wants to let data centers hide their air pollution",
+      "summary": "Just as new data centers face growing backlash from neighboring communities, the US Environmental Protection Agency (EPA) is about to make it harder for people to weigh in on any pollution those centers create. The EPA plans to toss out a federal rule requiring public notice and an opportunity to co",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/986176/data-center-pollution-epa-rule-change-air-permit",
+      "published": "2026-08-28T16:28:40.000Z",
+      "source": "The Verge",
+      "category": "ai",
+      "xml_category": "[object object]",
+      "tags": [],
+      "image": null
+    },
+    {
+      "id": "the-verge-1",
+      "title": "DLSS 5 leaked and modders are putting Nvidia&#8217;s AI effects on everything",
+      "summary": "Modders are trying out an unofficial version of Nvidia's DLSS 5 on Skyrim, Cyberpunk 2077, GTA V, and a bunch of other games after code for the AI upscaling tech appeared in an early-access build of NBA 2K27. Members of the RenoDX modding channel on Discord reportedly found a way to extract the DLSS",
+      "link": "https://www.theverge.com/games/986197/nvidia-dlss-5-leak-ai",
+      "published": "2026-08-28T16:22:16.000Z",
+      "source": "The Verge",
+      "category": "ai",
+      "xml_category": "[object object]",
+      "tags": [],
+      "image": null
+    },
+    {
+      "id": "the-next-web-0",
+      "title": "BMW has sold two million electric cars, and Europe bought seven in ten of the ones it shifted last quarter",
+      "summary": "BMW has delivered its two millionth fully electric vehicle, an i5 M60 xDrive built at Dingolfing and handed to a customer in Spain. Europe accounted for 81,445 of the 116,807 battery-electric cars the group sold in the second quarter. BMW has handed over its two millionth fully electric car. The i5 ",
+      "link": "https://thenextweb.com/news/bmw-two-million-electric-cars-europe-seven-in-ten",
+      "published": "2026-08-28T16:16:12.000Z",
+      "source": "The Next Web",
+      "category": "general",
+      "xml_category": "business",
+      "tags": [],
+      "image": "https://media.thenextweb.com/2026/08/bmw-two-million-electric-cars-europe-seven-in-ten.avif"
+    },
+    {
+      "id": "venturebeat-1",
       "title": "Cohere Parse 5 loses the benchmark on points. It wins on cost per page.",
       "summary": "Enterprises trying to feed PDFs, slides and scanned documents into AI pipelines keep running into the same wall: the tools either miss the structure — tables, charts, layout — or cost too much to run at scale. Cohere released Parse 5 on Thursday , positioning it on price-to-performance, not raw accu",
       "link": "https://venturebeat.com/data/cohere-parse-5-loses-the-benchmark-on-points-it-wins-on-cost-per-page",
@@ -15,7 +99,7 @@
       "image": "https://images.ctfassets.net/jdtwqhzvc2n1/4TjUlY3MRMwpmf1ws6gLXB/37ddd10b337d50ad97e92ba8900cd831/ai-parsing-smk1.jpeg?w=300&q=30"
     },
     {
-      "id": "the-verge-0",
+      "id": "the-verge-2",
       "title": "The iPhone Fold could make concerts even worse",
       "summary": "You know the person blocking your view of the concert because their phone is swaying in the air, recording the entire thing? Get ready for the unfolded version of it. This week on The Vergecast, we dive right into the big week of Apple news. First, it's the refreshed Mac Mini and Mac Studio, as [&#8",
       "link": "https://www.theverge.com/podcast/986145/m6-mac-mini-meta-settlement-gta-6-vergecast",
@@ -27,7 +111,7 @@
       "image": null
     },
     {
-      "id": "zdnet-0",
+      "id": "zdnet-1",
       "title": "The best early Labor Day Costco deals 2026: TVs, smartwatches, Apple devices, and more",
       "summary": "Summer may be ending, but Costco deals are heating up in time for Labor Day: Save big on electronics, home essentials, and more now.",
       "link": "https://www.zdnet.com/article/best-early-labor-day-costco-deals-2026/",
@@ -39,7 +123,7 @@
       "image": null
     },
     {
-      "id": "zdnet-1",
+      "id": "zdnet-2",
       "title": "This Linux and Windows app makes managing all your documents easier",
       "summary": "If you're a student, writer, or professional juggling documents, this app can help keep you organized.",
       "link": "https://www.zdnet.com/article/this-linux-and-windows-app-makes-managing-all-of-your-documents-easier/",
@@ -51,7 +135,7 @@
       "image": null
     },
     {
-      "id": "the-next-web-0",
+      "id": "the-next-web-1",
       "title": "France’s Pasqal is public, with $360M and a valuation of about 100 times revenue",
       "summary": "Pasqal began trading on Nasdaq on Friday under the ticker PSQL, five months after announcing it would go public through a special purpose acquisition company. Shares surged on the debut, according to Reuters. The merger with Bleichroeder Acquisition Corp. II closed on 27 August, a day after sharehol",
       "link": "https://thenextweb.com/news/pasqal-nasdaq-debut-psql-360m",
@@ -63,7 +147,7 @@
       "image": "https://media.thenextweb.com/2026/07/Pasqal-leadership-team.avif"
     },
     {
-      "id": "the-next-web-1",
+      "id": "the-next-web-2",
       "title": "a16z has raised $1.1bn to invest in the physical layer of AI",
       "summary": "Andreessen Horowitz has closed a $1.1bn fund that will invest exclusively in hardware. The Machine Age Fund, announced on Friday, covers the physical layer artificial intelligence runs on, from chips to the buildings that house them. The mandate takes in chips, memory, networking and storage, and th",
       "link": "https://thenextweb.com/news/a16z-machine-age-fund-1-1bn-hardware",
@@ -75,7 +159,7 @@
       "image": "https://media.thenextweb.com/2026/08/The-Machine-Age-Fund.avif"
     },
     {
-      "id": "the-verge-1",
+      "id": "the-verge-3",
       "title": "Apple TV now costs $14.99 a month after its fourth price hike in four years",
       "summary": "Apple raised the price of its streaming service for new and current subscribers on Friday, bumping it up from $12.99 per month to $14.99, Deadline and Variety are reporting. An annual subscription now costs $119, up from $99. Apple also increased the cost of its individual Apple One subscription, wh",
       "link": "https://www.theverge.com/tech/986130/apple-tv-plus-price-hike",
@@ -87,7 +171,7 @@
       "image": null
     },
     {
-      "id": "bug.hr-0",
+      "id": "bug.hr-2",
       "title": "Samsung predstavio prvi igraći monitor na svijetu s frekvencijom osvježavanja od čak 1.100 Hz",
       "summary": "Samsungov 27-inčni Odyssey G6 može dosegnuti frekvenciju osvježavanja od čak 1.100 Hz, no samo pri HD razlučivosti. Pri QHD-u frekvencija se spušta na i dalje vrlo visokih 600 Hz",
       "link": "https://www.bug.hr/monitori/samsung-predstavio-prvi-igraci-monitor-na-svijetu-s-frekvencijom-osvjezavanja-od-62457",
@@ -99,7 +183,7 @@
       "image": "https://www.bug.hr/img/samsung-predstavio-prvi-igraci-monitor-na-svijetu-s-frekvencijom-osvjezavanja-od_M_v_M7.jpg"
     },
     {
-      "id": "bug.hr-1",
+      "id": "bug.hr-3",
       "title": "Signal ažuriran za IOT",
       "summary": "Galileo je najprecizniji satelitski navigacijski sustav na svijetu koji od ulaska u otvorenu uporabu 2016. godine opslužuje milijarde korisnika. Svi pametni telefoni koji se prodaju na jedinstvenom europskom tržištu zajamčeno su kompatibilni s Galileom",
       "link": "https://mreza.bug.hr/navigacija/signal-azuriran-za-iot-62356",
@@ -111,7 +195,7 @@
       "image": "https://mreza.bug.hr/img/signal-azuriran-za-iot_KZvpWY.jpg"
     },
     {
-      "id": "bug.hr-2",
+      "id": "bug.hr-4",
       "title": "BBC potvrdio povratak nekad kultnog Top Geara na male ekrane",
       "summary": "Britanska nacionalna TV kuća ipak će, nakon nesreće Andrewa Flintoffa, ponovno početi s produkcijom svojeg nekad najuspješnijeg automobilističkog serijala",
       "link": "https://autonet.bug.hr/televizija/bbc-potvrdio-povratak-nekad-kultnog-top-geara-na-male-ekrane-62444",
@@ -123,7 +207,7 @@
       "image": "https://autonet.bug.hr/img/bbc-potvrdio-povratak-nekad-kultnog-top-geara-na-male-ekrane_OA-dyE.jpg"
     },
     {
-      "id": "zdnet-2",
+      "id": "zdnet-3",
       "title": "91% of professionals say their firm still falls short on AI - how to fix that",
       "summary": "Research suggests a gap between AI ambition and on-the-ground reality, but the good news is that professionals can fill it by focusing on well-grounded explorations and solid production use cases.",
       "link": "https://www.zdnet.com/article/thomson-reuters-report-ai-value-gap-business/",
@@ -135,7 +219,7 @@
       "image": null
     },
     {
-      "id": "bug.hr-3",
+      "id": "bug.hr-5",
       "title": "Od Metallice i Nirvane do Podočnjaka i Six Packa - od danas na Zagrebačkom velesajmu",
       "summary": "Od tribute vikenda i demo bendova do etabliranih domaćih imena, četvrto izdanje „Ljeta na Zagrebačkom velesajmu“ donosi deset dana programa i najveće izdanje festivala dosad",
       "link": "https://magnet.bug.hr/promo/od-metallice-i-nirvane-do-podocnjaka-i-six-packa-od-danas-na-zagrebackom-62471",
@@ -147,7 +231,7 @@
       "image": "https://magnet.bug.hr/img/od-metallice-i-nirvane-do-podocnjaka-i-six-packa-od-danas-na-zagrebackom_ZHvk3h.png"
     },
     {
-      "id": "zdnet-3",
+      "id": "zdnet-4",
       "title": "I've tested dozens of robot vacuums - this new $599 Roborock has all the features I need",
       "summary": "The Roborock Qrevo 2 Pro is a midrange robot vacuum and mop with a hands-free cleaning experience.",
       "link": "https://www.zdnet.com/article/roborock-qrevo-2-pro-review/",
@@ -195,7 +279,7 @@
       "image": null
     },
     {
-      "id": "the-next-web-2",
+      "id": "the-next-web-3",
       "title": "Lovable has the .com now, and it belonged to an Italian lingerie brand",
       "summary": "If you type lovable.com into a browser now, you land on a vibe-coding platform valued at $13.3bn. If you had typed it a month ago, you would have landed on an Italian underwear company, which is the more interesting half of the sentence. We checked the domain on Friday, after seeing some reports, an",
       "link": "https://thenextweb.com/news/lovable-has-the-com-now-and-it-belonged-to-an-italian-lingerie-brand",
@@ -207,7 +291,7 @@
       "image": "https://media.thenextweb.com/2026/08/Anton-Osika.avif"
     },
     {
-      "id": "the-verge-2",
+      "id": "the-verge-4",
       "title": "Apple TV’s sci-fi thriller Dark Matter gets even trippier in season 2",
       "summary": "Confusion is a generally accepted side effect of mystery box shows. They slather on secrets with the promise of a satisfying payoff in the end, and sometimes the cast and crew even have a hard time following what's going on. But even by the standards of the genre, Dark Matter is extreme. Its multive",
       "link": "https://www.theverge.com/entertainment/983263/dark-matter-season-2-review-apple-tv",
@@ -219,7 +303,7 @@
       "image": null
     },
     {
-      "id": "zdnet-4",
+      "id": "zdnet-5",
       "title": "Want a free Apple Watch? Play ZDNET's 'Guessing Game' to win one - only 4 days left",
       "summary": "It's the third and final round of ZDNET's Big Guessing Game. What do you think Apple will announce?",
       "link": "https://www.zdnet.com/article/big-guessing-game-apple-edition-round-3/",
@@ -231,7 +315,7 @@
       "image": null
     },
     {
-      "id": "zdnet-5",
+      "id": "zdnet-6",
       "title": "Even an AI cost-management vendor can lose control of its agent spending",
       "summary": "In one instance, an AI agent stayed open for four days and ran 4,819 calls for almost $4,000. No one had budgeted for this cost.",
       "link": "https://www.zdnet.com/article/even-an-ai-cost-management-vendor-can-lose-control-of-its-agent-spending/",
@@ -243,7 +327,7 @@
       "image": null
     },
     {
-      "id": "zdnet-6",
+      "id": "zdnet-7",
       "title": "How to get free Google AI Pro for an entire year - and save $240: 3 ways",
       "summary": "Google is offering its premium AI subscription plan for free. It usually costs $20 a month - and comes with many benefits.",
       "link": "https://www.zdnet.com/article/how-to-get-free-google-ai-pro-subscription-for-one-year/",
@@ -255,7 +339,7 @@
       "image": null
     },
     {
-      "id": "the-next-web-3",
+      "id": "the-next-web-4",
       "title": "SoftBank seeks a second $10bn loan against its OpenAI stake",
       "summary": "SoftBank is seeking a further $10bn loan to fund its OpenAI stake, Bloomberg reported on Friday. It closed a loan of exactly that size, secured against the same asset, 22 days earlier. TNW has not independently verified the report and could not review its full terms, so what follows sets the reporte",
       "link": "https://thenextweb.com/news/softbank-another-10bn-loan-openai-stake",
@@ -279,7 +363,7 @@
       "image": "https://www.tportal.hr/media/thumbnail/500x300/2787622.jpeg?cropId=0"
     },
     {
-      "id": "the-next-web-4",
+      "id": "the-next-web-5",
       "title": "Nvidia has paused parts of the revenue-sharing programme it launched in July",
       "summary": "Nvidia has halted some of the transactions under the financing programme it introduced eight weeks ago, in which it extends credit to AI cloud companies buying its chips and takes a cut of what those chips later earn, the Wall Street Journal reported on Thursday. The scheme was announced on 1 July, ",
       "link": "https://thenextweb.com/news/nvidia-pauses-ai-cloud-revenue-sharing-deals",
@@ -303,7 +387,7 @@
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/08/teampcp-member-arrest-1152x648.jpg"
     },
     {
-      "id": "bug.hr-4",
+      "id": "bug.hr-6",
       "title": "Povratak plave ptičice: opet postoji društvena mreža pod imenom Twitter",
       "summary": "Tim predvođen bivšim zaposlenicima Twittera pokrenuo je neovisnu platformu Twitter.now, koja obećava povratak povjerenja, transparentnosti i kontrole korisnika nad sadržajem – ali uz naplatu",
       "link": "https://www.bug.hr/drustvene-mreze/povratak-plave-pticice-opet-postoji-drustvena-mreza-pod-imenom-twitter-62452",
@@ -315,7 +399,7 @@
       "image": "https://www.bug.hr/img/povratak-plave-pticice-opet-postoji-drustvena-mreza-pod-imenom-twitter_TW8d0M.jpg"
     },
     {
-      "id": "bug.hr-5",
+      "id": "bug.hr-7",
       "title": "Kopiraj, zalijepi i zarazi računalo: kako ClickFix zaobilazi zaštitu i kako se obraniti",
       "summary": "Istraživanje domaćeg ReversingLabsa razotkriva novu tehniku socijalnog inženjeringa koja iskorištava povjerenje korisnika i samim time uspješno zaobilazi antivirusne sustave",
       "link": "https://www.bug.hr/sigurnost/kopiraj-zalijepi-i-zarazi-racunalo-kako-clickfix-zaobilazi-zastitu-i-kako-se-62454",
@@ -351,7 +435,7 @@
       "image": "https://www.tportal.hr/media/thumbnail/500x300/2787586.jpeg?cropId=0"
     },
     {
-      "id": "bug.hr-6",
+      "id": "bug.hr-8",
       "title": "Revolut pokrenuo vlastiti stablecoin vezan uz euro",
       "summary": "Fintech kompanija Revolut pokrenula je postupno testiranje svojeg prvog stablecoina EURR na Ethereum mreži, namijenjenog lakšem prijenosu vrijednosti između klasičnog novca i blockchaina",
       "link": "https://www.bug.hr/kriptovalute/revolut-pokrenuo-vlastiti-stablecoin-vezan-uz-euro-62450",
@@ -363,7 +447,7 @@
       "image": "https://www.bug.hr/img/revolut-pokrenuo-vlastiti-stablecoin-vezan-uz-euro_Vo7xGq.png"
     },
     {
-      "id": "bug.hr-7",
+      "id": "bug.hr-9",
       "title": "Dubrovačka zračna luka uvodi nove skenere za brži i učinkovitiji pregled prtljage i putnika",
       "summary": "Zračna luka Ruđer Bošković prva u Hrvatskoj uvodi novu generaciju skenera za pregled prtljage, pa tamo više neće biti potrebno iz prtljage vaditi tekućine i elektroničke uređaje pri kontroli",
       "link": "https://www.bug.hr/sigurnost/dubrovacka-zracna-luka-uvodi-nove-skenere-za-brzi-i-ucinkovitiji-pregled-62459",
@@ -375,7 +459,7 @@
       "image": "https://www.bug.hr/img/dubrovacka-zracna-luka-uvodi-nove-skenere-za-brzi-i-ucinkovitiji-pregled_b2dLnS.jpg"
     },
     {
-      "id": "zdnet-7",
+      "id": "zdnet-8",
       "title": "These Mammotion robot lawn mowers can climb hills - and they're up to $560 off right now",
       "summary": "The Mammotion LUBA 3 AWD 3000H and the LUBA Mini 2 mowers are both heavily discounted - here's which you should get.",
       "link": "https://www.zdnet.com/article/mammotion-robot-mowers-deal-luba-3-awd-3000h-luba-mini-2-awd-1500h/",
@@ -387,7 +471,7 @@
       "image": null
     },
     {
-      "id": "the-next-web-5",
+      "id": "the-next-web-6",
       "title": "Anthropic planned a $7bn takeover of chip startup MatX, then walked away",
       "summary": "Anthropic got far enough into a plan to buy the AI chip startup MatX to have a number attached to it, roughly $7bn, before the deal stopped moving. Reuters reported the talks on Thursday, citing people familiar with them, and said the discussions have since evolved into a conversation about a partne",
       "link": "https://thenextweb.com/news/anthropic-matx-7bn-acquisition-abandoned",
@@ -435,7 +519,7 @@
       "image": "https://www.tportal.hr/media/thumbnail/500x300/2787547.jpeg?cropId=0"
     },
     {
-      "id": "the-next-web-6",
+      "id": "the-next-web-7",
       "title": "Google stops demoting EU publishers under its spam policy from Sunday",
       "summary": "From Sunday, a European news publisher that runs sponsored content on its site will no longer be at risk of a manual demotion in Google Search. Google confirmed the change on Friday, and Reuters reported that it is designed to settle a European Commission investigation that could otherwise have ende",
       "link": "https://thenextweb.com/news/google-eu-spam-policy-demotions-dma",
@@ -447,7 +531,7 @@
       "image": "https://media.thenextweb.com/2026/06/Google-mockup.avif"
     },
     {
-      "id": "the-next-web-7",
+      "id": "the-next-web-8",
       "title": "OpenAI hires Meta’s Sandhya Devanathan to lead Southeast Asia and Australia",
       "summary": "OpenAI has hired Meta’s Sandhya Devanathan to lead Southeast Asia and Australia from October, covering consumer growth, enterprise adoption and regulatory engagement across markets of more than 600 million people. Its European expansion has centred on Dublin and Brussels. OpenAI has hired a Meta exe",
       "link": "https://thenextweb.com/news/openai-southeast-asia-australia-hire-europe-dublin-brussels-pattern",
@@ -471,7 +555,7 @@
       "image": "https://www.tportal.hr/media/thumbnail/500x300/2787553.jpeg?cropId=0"
     },
     {
-      "id": "the-next-web-8",
+      "id": "the-next-web-9",
       "title": "Nvidia ships first H200 chips to China, but expects no data-centre revenue from them",
       "summary": "Nvidia shipped its first H200 processors to China under a new US licensing scheme, and they accounted for less than 1% of $89B in quarterly data centre revenue. Its $108B forecast for the current quarter assumes no data centre computing revenue from China at all. Nvidia has started shipping H200 pro",
       "link": "https://thenextweb.com/news/nvidia-h200-china-zero-revenue-guidance-europe-gigafactories",
@@ -579,7 +663,7 @@
       "image": "https://www.tportal.hr/media/thumbnail/500x300/2786938.jpeg?cropId=0"
     },
     {
-      "id": "bug.hr-8",
+      "id": "bug.hr-10",
       "title": "Hrvatska industrija videoigara predstavlja se stotinama tisuća posjetitelja na Gamescomu",
       "summary": "Klaster hrvatskih proizvođača videoigara na ovogodišnjem sajmu Gamescom prvi put predstavlja hrvatske igre u dijelu sajma namijenjenom široj javnosti. Posjetili smo ih i doznali što su pripremili",
       "link": "https://www.bug.hr/intervju/hrvatska-industrija-videoigara-predstavlja-se-stotinama-tisuca-posjetitelja-na-62443",
@@ -603,7 +687,7 @@
       "image": "https://www.tportal.hr/media/thumbnail/500x300/2786905.jpeg?cropId=0"
     },
     {
-      "id": "bug.hr-9",
+      "id": "bug.hr-11",
       "title": "Pripremite se za novu školsku godinu: Windows 11 Pro od 21 € i Office 2024 od 16 €",
       "summary": "Želite li nadograditi svoje računalo ovog ljeta bez trošenja bogatstva na softver? Posjetite VIP-CDKDeals",
       "link": "https://www.bug.hr/promo/pripremite-se-za-novu-skolsku-godinu-windows-11-pro-od-21--i-office-2024-od-16-62446",
@@ -615,7 +699,7 @@
       "image": "https://www.bug.hr/img/pripremite-se-za-novu-skolsku-godinu-windows-11-pro-od-21--i-office-2024-od-16_ruBiMe.png"
     },
     {
-      "id": "bug.hr-10",
+      "id": "bug.hr-12",
       "title": "Dreame L50s Pro Ultra i H15 Mix: dva pametna načina za čišći dom uz manje vremena i truda",
       "summary": "Dreame donosi dva napredna uređaja za različite potrebe: L50s Pro Ultra, robotski usisavač za automatizirano održavanje, te H15 Mix, višenamjenski 7-u-1 mokro-suhi usisavač za temeljito čišćenje",
       "link": "https://www.bug.hr/promo/dreame-l50s-pro-ultra-i-h15-mix-dva-pametna-nacina-za-cisci-dom-uz-manje-62408",
@@ -627,7 +711,7 @@
       "image": "https://www.bug.hr/img/dreame-l50s-pro-ultra-i-h15-mix-dva-pametna-nacina-za-cisci-dom-uz-manje_hSqGyX.jpg"
     },
     {
-      "id": "bug.hr-11",
+      "id": "bug.hr-13",
       "title": "Nvidijine kvartalne brojke su stvarne, no napuhuje li AI-industrija mjehur koji ne može platiti?",
       "summary": "Optimizam koji prati Nvidijine upravo objavljene kvartalne rezultate ne počiva na špekulacijama, nego na stvarnoj potražnji za hardverom. Ipak, ispod površine rekordnih brojki krije se pitanje koje nadilazi jednu tvrtku: financira li se čitav AI-ciklus održivo ili se svi dolari vrte u krug",
       "link": "https://www.bug.hr/biznis/nvidijine-kvartalne-brojke-su-stvarne-no-napuhuje-li-ai-industrija-mjehur-koji-62421",
@@ -639,7 +723,7 @@
       "image": "https://www.bug.hr/img/nvidijine-kvartalne-brojke-su-stvarne-no-napuhuje-li-ai-industrija-mjehur-koji_TqGsbD.jpg"
     },
     {
-      "id": "bug.hr-12",
+      "id": "bug.hr-14",
       "title": "Ovo je 10 najprodavanijih mobitela u drugom kvartalu 2026.",
       "summary": "Apple i Samsung zauzeli su svih deset mjesta na ljestvici najprodavanijih mobitela u drugom kvartalu 2026. godine. Na samom vrhu ponovno se našao osnovni iPhone 17",
       "link": "https://www.bug.hr/mobiteli/ovo-je-10-najprodavanijih-mobitela-u-drugom-kvartalu-2026-62395",
@@ -651,7 +735,7 @@
       "image": "https://www.bug.hr/img/ovo-je-10-najprodavanijih-mobitela-u-drugom-kvartalu-2026_LQdcWv.jpg"
     },
     {
-      "id": "bug.hr-13",
+      "id": "bug.hr-15",
       "title": "Xbox namještaj s IKEA potpisom uklopit će se u moderne sobe, a pogotovo u kućanstvima gamera",
       "summary": "IKEA i Xbox osmislili su kolekciju YXSTABY od devet funkcionalnih proizvoda koji povezuju gaming te digitalni svijet i klasično uređenje doma, a mi smo među prvima imali prilike izbliza vidjeti novu liniju",
       "link": "https://www.bug.hr/dizajn/xbox-namjestaj-s-ikea-potpisom-uklopit-ce-se-u-moderne-sobe-a-pogotovo-u-62439",
@@ -663,7 +747,7 @@
       "image": "https://www.bug.hr/img/xbox-namjestaj-s-ikea-potpisom-uklopit-ce-se-u-moderne-sobe-a-pogotovo-u_Qvc6pJ.jpg"
     },
     {
-      "id": "bug.hr-14",
+      "id": "bug.hr-16",
       "title": "Umami - kolaborativna digitalna kuharica s opcijom planiranja jelovnika",
       "summary": "Umami je zgodno osmišljena digitalna kuharica koja ne služi samo za spremanje i organiziranje recepata, nego ih je moguće dijeliti i uređivati zajedno s drugima, uvoziti izravno s weba, pretvarati u popise za kupnju te raspoređivati u kalendar i tako jednostavnije planirati jelovnik…",
       "link": "https://www.bug.hr/appdana/umami-kolaborativna-digitalna-kuharica-s-opcijom-planiranja-jelovnika-62362",
@@ -675,7 +759,7 @@
       "image": "https://www.bug.hr/img/umami-kolaborativna-digitalna-kuharica-s-opcijom-planiranja-jelovnika_Ks6EXs.jpg"
     },
     {
-      "id": "bug.hr-15",
+      "id": "bug.hr-17",
       "title": "GTA VI kao blockbuster: Više od igre, manje od filma, ali marketinški briljantan potez!",
       "summary": "Nakon tjedana neautoriziranih curenja informacija, Rockstar Games je u partnerstvu s Netflixom predstavio 27-minutni službeni pogled na Grand Theft Auto VI. Reakcije su vrlo pozitivne...",
       "link": "https://magnet.bug.hr/film/gta-vi-kao-blockbuster-vise-od-igre-manje-od-filma-ali-marketinski-briljantan-62449",
@@ -687,7 +771,7 @@
       "image": "https://magnet.bug.hr/img/gta-vi-kao-blockbuster-vise-od-igre-manje-od-filma-ali-marketinski-briljantan_wtwOP8.jpg"
     },
     {
-      "id": "bug.hr-16",
+      "id": "bug.hr-18",
       "title": "AI asistent smanjio upite prema korisničkoj službi za 60%",
       "summary": "Infobipov asistent smanjio upite prema korisničkoj službi Overseas Expressa za 60%, budući da je informacije o dostavi učinio dostupnima na WhatsAppu",
       "link": "https://www.bug.hr/umjetna-inteligencija/ai-asistent-smanjio-upite-prema-korisnickoj-sluzbi-za-60-62441",
@@ -699,7 +783,7 @@
       "image": "https://www.bug.hr/img/ai-asistent-smanjio-upite-prema-korisnickoj-sluzbi-za-60_i7kp75.png"
     },
     {
-      "id": "bug.hr-17",
+      "id": "bug.hr-19",
       "title": "Stigla značajno dotjerana Kia XCeed uz cijenu od 21.349 eura",
       "summary": "Na početnom benzincu od 115 KS dolazi ručni mjenjač, dok ostali motori (mild hibrid od 115 KS, te 1,6 T-GDI od 150 i 180 KS) dolaze upareni 7 DCT mjenjačem",
       "link": "https://autonet.bug.hr/vozili_smo/stigla-znacajno-dotjerana-kia-xceed-uz-cijenu-od-21349-eura-62422",
@@ -723,7 +807,7 @@
       "image": "https://mreza.bug.hr/img/tko-drzi-prekidac_ZfO2B1.png"
     },
     {
-      "id": "the-verge-3",
+      "id": "the-verge-5",
       "title": "Anthropic was illegally blacklisted by the Trump administration, court rules",
       "summary": "On Thursday, a judge ruled that the Pentagon's blacklisting of Anthropic earlier this year was unconstitutional, delivering the AI lab a win in a monthslong rollercoaster of a battle with the Trump administration. The lawsuit, filed in March in a California district court, accused the Trump administ",
       "link": "https://www.theverge.com/ai-artificial-intelligence/985947/anthropic-supply-chain-risk-lawsuit-judge-ruling",
@@ -759,7 +843,7 @@
       "image": "https://magnet.bug.hr/img/sto-slusati-iduci-tjedan-novi-albumi-na-streaming-platformama_rBG31r.png"
     },
     {
-      "id": "the-verge-4",
+      "id": "the-verge-6",
       "title": "The GTA VI ‘extended look’ is now streaming on YouTube",
       "summary": "Rockstar has officially published its \"extended look\" at Grand Theft Auto VI on YouTube and on its website, as promised. The in-depth preview, which \"entirely\" features footage captured from the PS5 version of the game, initially premiered on Netflix at 3PM ET. But because Rockstar allowed creators ",
       "link": "https://www.theverge.com/games/985910/grand-theft-auto-gta-vi-extended-look-youtube-netflix-stream",
@@ -795,7 +879,7 @@
       "image": "https://www.bug.hr/img/u-srbiji-uhiceni-clanovi-hakerske-skupine-koji-su-napadali-i-hrvatske_wWRJXv.jpg"
     },
     {
-      "id": "the-verge-5",
+      "id": "the-verge-7",
       "title": "The biggest video game of all time looks like a movie",
       "summary": "I think I know why Rockstar Games debuted its \"extended look\" of Grand Theft Auto VI on Netflix instead of immediately dropping it for free on YouTube. Unlike most video game trailers, the almost 27-minute preview of GTA VI felt more like a slice of a prestige crime drama than any video game trailer",
       "link": "https://www.theverge.com/games/985891/grand-theft-auto-vi-gta-6-netflix-youtube-extended-look-game-movie",
@@ -843,7 +927,7 @@
       "image": "https://media.thenextweb.com/2026/08/whats-next-ai-how-to-get-there.avif"
     },
     {
-      "id": "the-verge-6",
+      "id": "the-verge-8",
       "title": "Meta addresses ‘pervert glasses’ reputation with a privacy fix and a new marketing campaign",
       "summary": "Meta is updating its AI-powered smart glasses to close a loophole that allowed wearers to keep recording after covering the front-facing LED. Alex Himel, Meta's vice president of augmented reality, writes in a post on Threads that \"the camera will now stop working if the light is covered during a re",
       "link": "https://www.theverge.com/tech/985851/meta-privacy-loophole-fix-marketing-campaign",
@@ -855,7 +939,7 @@
       "image": null
     },
     {
-      "id": "zdnet-8",
+      "id": "zdnet-9",
       "title": "Lawsuit says Oura sleep tracking has 'a coin flip's chance of being correct'",
       "summary": "The class action lawsuit claims that Oura's sleep-tracking mechanisms sell 'faulty AI-based inference as reliable science.'",
       "link": "https://www.zdnet.com/article/lawsuit-says-oura-sleep-tracking-has-a-coin-flips-chance-of-being-correct/",
@@ -879,7 +963,7 @@
       "image": "https://media.thenextweb.com/2026/07/claude-cowork-sandbox-escape-mac-files-sharedroot.avif"
     },
     {
-      "id": "the-verge-7",
+      "id": "the-verge-9",
       "title": "GTA VI: all the news on Rockstar’s next entry in the Grand Theft Auto series",
       "summary": "It’s been over a decade and two console generations since GTA V came out, and its sequel is still a work in progress. GTA VI has faced multiple delays, with developer Rockstar Games bumping back its predicted release date twice, eventually shifting to November 19th, 2026, a full year after its origi",
       "link": "https://www.theverge.com/23987993/gta-6-news-trailers-rockstar-games",
@@ -951,7 +1035,7 @@
       "image": "https://media.thenextweb.com/2026/06/anthropic-claude-tag-slack-always-on-ai-teammate.avif"
     },
     {
-      "id": "zdnet-9",
+      "id": "zdnet-10",
       "title": "Galaxy Z Fold 8 camera trouble? 4 settings I recommend changing now",
       "summary": "The cameras on the Galaxy Z Fold 8 work best when they're pushed to their limits. Here are the settings I changed to get the best results.",
       "link": "https://www.zdnet.com/article/best-camera-settings-galaxy-z-fold-8-camera/",
@@ -1045,114 +1129,6 @@
       "xml_category": "artificial intelligence",
       "tags": [],
       "image": "https://media.thenextweb.com/2026/08/sk-hynix-indiana-hbm-packaging-europe-lost-wroclaw-plant.avif"
-    },
-    {
-      "id": "bug.hr-17",
-      "title": "Garmin predstavio pametne satove Fenix 9 i Fenix 9 Pro",
-      "summary": "Garminovi novi sportski satovi donose svjetlije zaslone, brže karte, a solarna inačica Fenixa 9 Pro može imati i do 57 dana autonomije",
-      "link": "https://www.bug.hr/pametni-satovi/garmin-predstavio-pametne-satove-fenix-9-i-fenix-9-pro-62397",
-      "published": "2026-08-27T16:46:00.000Z",
-      "source": "Bug.hr",
-      "category": "general",
-      "xml_category": "pametni satovi",
-      "tags": [],
-      "image": "https://www.bug.hr/img/garmin-predstavio-pametne-satove-fenix-9-i-fenix-9-pro_vbfx4Y.jpeg"
-    },
-    {
-      "id": "bug.hr-18",
-      "title": "Osvježen Renault 5 E-Tech: veća autonomija, nova baterija i pametniji asistent",
-      "summary": "Iako je riječ o novo modelu, već je stigla nadogradnja, pa novi električni Renault 5 donosi poboljšanu aerodinamiku, veći doseg postojećih baterija te novu izvedbu Five s LFP baterijom i brzim punjenjem",
-      "link": "https://autonet.bug.hr/elektricna-vozila/osvjezen-renault-5-e-tech-veca-autonomija-nova-baterija-i-pametniji-asistent-62377",
-      "published": "2026-08-27T16:44:00.000Z",
-      "source": "Bug.hr",
-      "category": "tech",
-      "xml_category": "električna vozila",
-      "tags": [],
-      "image": "https://autonet.bug.hr/img/osvjezen-renault-5-e-tech-veca-autonomija-nova-baterija-i-pametniji-asistent_fTnfDG.jpg"
-    },
-    {
-      "id": "zdnet-10",
-      "title": "This excellent HP laptop is nearly 50% off at Best Buy - and comes with a cheap TV",
-      "summary": "Snag the HP OmniBook 3 16-inch laptop for under $700, plus get a 43-inch Toshiba smart TV for just $99 when you bundle at Best Buy.",
-      "link": "https://www.zdnet.com/article/hp-omnibook-3-deal/",
-      "published": "2026-08-27T16:41:22.000Z",
-      "source": "ZDNet",
-      "category": "general",
-      "xml_category": "",
-      "tags": [],
-      "image": null
-    },
-    {
-      "id": "the-next-web-8",
-      "title": "The executive assistant of the future: DonnaPro’s approach to human-AI collaboration",
-      "summary": "Every productivity tool on the market right now is telling you the same thing: AI will replace what you do. Cut the middleman. Automate the humans. Do more with less. Filip Pesek disagrees. “The best AI tools still come with a human who knows how to think,” says the founder of DonnaPro, Europe’s pre",
-      "link": "https://thenextweb.com/news/donnapro-executive-assistant-human-ai-collaboration",
-      "published": "2026-08-27T16:40:55.000Z",
-      "source": "The Next Web",
-      "category": "ai",
-      "xml_category": "contributed",
-      "tags": [],
-      "image": "https://media.thenextweb.com/2026/08/donnapro-executive-assistant-human-ai-collaboration.avif"
-    },
-    {
-      "id": "zdnet-11",
-      "title": "Apple escaped Android's 'toxic hellstew' - now Siri AI is creating a new one",
-      "summary": "Apple's new toxic hellstew is a battle over regulation, litigation, and keeping your data safe.",
-      "link": "https://www.zdnet.com/article/apple-escaped-android-toxic-hellstew-siri-ai-creates-a-new-one/",
-      "published": "2026-08-27T16:34:28.000Z",
-      "source": "ZDNet",
-      "category": "ai",
-      "xml_category": "",
-      "tags": [],
-      "image": null
-    },
-    {
-      "id": "the-next-web-9",
-      "title": "JPMorgan leads a $5B debt package for Volta’s AI data centre buildout",
-      "summary": "JPMorgan has begun approaching lenders about a $5B debt package to fund Volta Infra Holdings’ AI data centre buildout, weeks after the seven-month-old company raised $300M at a $2.4B valuation. Its first major site is a 121-megawatt campus in Norway leased from bitcoin miner Bitdeer. JPMorgan has st",
-      "link": "https://thenextweb.com/news/jpmorgan-volta-5b-debt-package-norway-tydal-anthropic",
-      "published": "2026-08-27T16:22:55.000Z",
-      "source": "The Next Web",
-      "category": "ai",
-      "xml_category": "anthropic",
-      "tags": [],
-      "image": "https://media.thenextweb.com/2026/06/JPMorgan.avif"
-    },
-    {
-      "id": "the-verge-9",
-      "title": "Speedo’s new smart goggles module can track all four swim strokes",
-      "summary": "Speedo is launching a removable smart module for its Vanquisher goggles that can analyze a swimmer's performance across all four swim strokes: freestyle, backstroke, breaststroke, and butterfly. The new Speedo iQ system uses swim-specific sensors to analyze head movement in the water, time breaths, ",
-      "link": "https://www.theverge.com/gadgets/985650/speedo-iq-vanquisher-goggles-module",
-      "published": "2026-08-27T16:18:51.000Z",
-      "source": "The Verge",
-      "category": "general",
-      "xml_category": "[object object]",
-      "tags": [],
-      "image": null
-    },
-    {
-      "id": "the-verge-9",
-      "title": "Jensen Huang says Nvidia achieved AGI, again — not that it matters",
-      "summary": "On Nvidia's earnings call Wednesday, CEO Jensen Huang casually announced the company had \"achieved AGI,\" one of the tech industry's ultimate goals some of its biggest players have spent years chasing. Almost immediately, Huang dismissed the coveted milestone as \"senseless.\" He's right. For the suppo",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/985597/jensen-huang-says-nvidia-achieved-senseless-agi",
-      "published": "2026-08-27T16:15:52.000Z",
-      "source": "The Verge",
-      "category": "ai",
-      "xml_category": "[object object]",
-      "tags": [],
-      "image": null
-    },
-    {
-      "id": "zdnet-12",
-      "title": "AI a 'force multiplier' for low-skilled threat actors: 4 ways organizations should respond",
-      "summary": "Low-skill hacktivists are now 'enabled with the same tooling and sophistication as a state-sponsored group,' according to cybersecurity consultant Unit 42.",
-      "link": "https://www.zdnet.com/article/ai-armed-script-kiddies-power-of-state-threat-actors-unit-42/",
-      "published": "2026-08-27T16:02:00.000Z",
-      "source": "ZDNet",
-      "category": "ai",
-      "xml_category": "",
-      "tags": [],
-      "image": null
     }
   ]
 }
