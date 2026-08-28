@@ -1,15 +1,20 @@
 {
   "version": 2,
-  "date": "2026-08-27",
-  "generated_at": "2026-08-27T16:04:02.278Z",
-  "date_hr": "Četvrtak, 27. kolovoza 2026.",
+  "date": "2026-08-28",
+  "generated_at": "2026-08-28T05:02:19.249Z",
+  "date_hr": "Petak, 28. kolovoza 2026.",
   "weather": {
     "icon": "☁️",
-    "summary": "21–34°C, oblačno",
-    "alerts": []
+    "summary": "22–36°C, oblačno",
+    "alerts": [
+      {
+        "level": "warning",
+        "text": "Ekstremna vrućina: 36°C"
+      }
+    ]
   },
   "fuel": {
-    "current_date": "27.08.2026",
+    "current_date": "28.08.2026",
     "eurodiesel": [
       {
         "company": "Adria Oil",
@@ -46,16 +51,16 @@
         "price": 2.12
       },
       {
-        "company": "Petrol",
-        "price": 2.15
-      },
-      {
         "company": "Tifon",
         "price": 2.16
       },
       {
         "company": "Coral Croatia",
         "price": 2.19
+      },
+      {
+        "company": "Petrol",
+        "price": 2.2
       }
     ],
     "upcoming_date": null,
@@ -63,11 +68,11 @@
     "upcoming_premium": null
   },
   "market": {
-    "updated_at": "2026-08-27T16:04:02.278Z",
-    "btc_usd": 80328,
-    "btc_eur": 68932,
-    "btc_change_24h": 3.01,
-    "usd_eur": 0.8578
+    "updated_at": "2026-08-28T05:02:19.249Z",
+    "btc_usd": 79647,
+    "btc_eur": 68390,
+    "btc_change_24h": 1.13,
+    "usd_eur": 0.8583
   },
   "ai_news": [
     {
@@ -86,23 +91,23 @@
       "source": "ZDNet"
     },
     {
-      "title": "OpenAI’s rogue AI model incident was worse than we thought",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/985385/openais-rogue-ai-model-hugging-face-cybersecurity-incident-reports-metr",
-      "source": "The Verge"
+      "title": "Anthropic and OpenAI are joining the AI stage at TechCrunch Disrupt 2026",
+      "link": "https://techcrunch.com/2026/08/27/anthropic-and-openai-are-joining-the-ai-stage-at-techcrunch-disrupt-2026/",
+      "source": "TechCrunch AI"
     },
     {
-      "title": "OpenAI says earlier signals could have prevented the Hugging Face breach",
-      "link": "https://thenextweb.com/news/openai-hugging-face-technical-report-missed-signals-article-55",
+      "title": "Anthropic tests a new standard for Claude to work with factory and lab hardware",
+      "link": "https://thenextweb.com/news/anthropic-model-hardware-standard-mhs-eu-machinery-regulation-2027",
       "source": "The Next Web"
     }
   ],
   "micro_tips": {
     "vscode": {
-      "tip": "Nađi i selektiraj sljedeće pojavljivanje",
-      "keys": "Ctrl+D"
+      "tip": "Multi-cursor: postavi cursor na više mjesta istovremeno",
+      "keys": "Alt+Click"
     },
-    "sql": "Batch INSERT umjesto jednog-po-jednog: INSERT INTO t VALUES (...),(...),...",
-    "oracle": "FETCH FIRST n ROWS ONLY umjesto ROWNUM — kompatibilno s ORDER BY i čitljivije",
-    "regex": "^(?!.*pattern) negative lookahead: \"ova linija ne smije sadržavati X\""
+    "sql": "EXISTS umjesto IN za subqueries — brže jer stane na prvom podudaranju: WHERE EXISTS (SELECT 1 FROM ...)",
+    "oracle": "/*+ INDEX(t ime_indexa) */ forsira specifičan index kad optimizer bira full scan",
+    "regex": "\\b granica riječi: \\bword\\b podudara cijelu riječ, ne \"password\" ili \"swordfish\""
   }
 }
