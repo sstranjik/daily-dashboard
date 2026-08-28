@@ -1,7 +1,15 @@
 {
-  "generated_at": "2026-08-28T13:01:17.348Z",
+  "generated_at": "2026-08-28T14:01:13.149Z",
   "stats": {
+    "muzika.hr": {
+      "ok": true,
+      "count": 25
+    },
     "Lisinski": {
+      "ok": true,
+      "count": 0
+    },
+    "Gavella": {
       "ok": true,
       "count": 0
     },
@@ -13,25 +21,17 @@
       "ok": true,
       "count": 18
     },
-    "Gavella": {
+    "Komedija": {
       "ok": true,
       "count": 0
-    },
-    "muzika.hr": {
-      "ok": true,
-      "count": 25
     },
     "ZeKaeM": {
       "ok": true,
       "count": 0
     },
-    "Komedija": {
-      "ok": true,
-      "count": 0
-    },
     "HNK Zagreb": {
       "ok": true,
-      "count": 119
+      "count": 123
     },
     "Kerempuh": {
       "ok": true,
@@ -2849,7 +2849,7 @@
       "time": "18:00",
       "link": "https://hnk.hr/hr/opera/predstave/la-boh%C3%A8me/#12.12.18.00",
       "source": "HNK Zagreb",
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-08-28T13:01:17.348Z"
     },
     {
@@ -2864,7 +2864,7 @@
       "time": "19:30",
       "link": "https://hnk.hr/hr/opera/predstave/la-boh%C3%A8me/#14.12.19.30",
       "source": "HNK Zagreb",
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-08-28T13:01:17.348Z"
     },
     {
@@ -2881,6 +2881,36 @@
       "source": "HNK Zagreb",
       "is_new": false,
       "first_seen": "2026-08-28T10:01:17.450Z"
+    },
+    {
+      "id": "f223d03244",
+      "title": "Giacomo Puccini La Bohème",
+      "venue": "HNK Zagreb",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-12-18T19:30:00",
+      "date_display": "pet, 18. 12. 2026.",
+      "time": "19:30",
+      "link": "https://hnk.hr/hr/opera/predstave/la-boh%C3%A8me/#18.12.19.30",
+      "source": "HNK Zagreb",
+      "is_new": true,
+      "first_seen": "2026-08-28T14:01:13.149Z"
+    },
+    {
+      "id": "77d0d4c6f4",
+      "title": "Johann Strauss ml. Šišmiš",
+      "venue": "HNK Zagreb",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-12-21T19:30:00",
+      "date_display": "pon, 21. 12. 2026.",
+      "time": "19:30",
+      "link": "https://hnk.hr/hr/opera/predstave/%C5%A1i%C5%A1mi%C5%A1/#21.12.19.30",
+      "source": "HNK Zagreb",
+      "is_new": true,
+      "first_seen": "2026-08-28T14:01:13.149Z"
     },
     {
       "id": "bf62482322",
@@ -2913,6 +2943,21 @@
       "first_seen": "2026-08-28T10:01:17.450Z"
     },
     {
+      "id": "be07c05b31",
+      "title": "Johann Strauss ml. Šišmiš",
+      "venue": "HNK Zagreb",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-12-28T19:30:00",
+      "date_display": "pon, 28. 12. 2026.",
+      "time": "19:30",
+      "link": "https://hnk.hr/hr/opera/predstave/%C5%A1i%C5%A1mi%C5%A1/#28.12.19.30",
+      "source": "HNK Zagreb",
+      "is_new": true,
+      "first_seen": "2026-08-28T14:01:13.149Z"
+    },
+    {
       "id": "d4786930f8",
       "title": "Petar Iljič Čajkovski — Rudolf Nurejev Orašar",
       "venue": "HNK Zagreb",
@@ -2941,6 +2986,21 @@
       "source": "HNK Zagreb",
       "is_new": false,
       "first_seen": "2026-08-28T10:01:17.450Z"
+    },
+    {
+      "id": "289850694e",
+      "title": "Johann Strauss ml. Šišmiš",
+      "venue": "HNK Zagreb",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-12-31T18:00:00",
+      "date_display": "čet, 31. 12. 2026.",
+      "time": "18:00",
+      "link": "https://hnk.hr/hr/opera/predstave/%C5%A1i%C5%A1mi%C5%A1/#31.12.18.00",
+      "source": "HNK Zagreb",
+      "is_new": true,
+      "first_seen": "2026-08-28T14:01:13.149Z"
     },
     {
       "id": "0a5c747bcd",
@@ -3562,5 +3622,5 @@
       "first_seen": "2026-08-09T05:01:15.939Z"
     }
   ],
-  "new_count": 12
+  "new_count": 14
 }
