@@ -1,20 +1,20 @@
 {
   "version": 2,
-  "date": "2026-08-28",
-  "generated_at": "2026-08-28T17:08:06.035Z",
-  "date_hr": "Petak, 28. kolovoza 2026.",
+  "date": "2026-08-29",
+  "generated_at": "2026-08-29T05:02:01.680Z",
+  "date_hr": "Subota, 29. kolovoza 2026.",
   "weather": {
-    "icon": "☁️",
-    "summary": "22–36°C, oblačno",
+    "icon": "⛈️",
+    "summary": "22–29°C, grmljavina s gradom · 10.3 mm",
     "alerts": [
       {
         "level": "warning",
-        "text": "Ekstremna vrućina: 36°C"
+        "text": "Grmljavinska oluja"
       }
     ]
   },
   "fuel": {
-    "current_date": "28.08.2026",
+    "current_date": "29.08.2026",
     "eurodiesel": [
       {
         "company": "Adria Oil",
@@ -68,11 +68,11 @@
     "upcoming_premium": null
   },
   "market": {
-    "updated_at": "2026-08-28T17:08:06.035Z",
-    "btc_usd": 77699,
-    "btc_eur": 67068,
-    "btc_change_24h": -3.35,
-    "usd_eur": 0.8583
+    "updated_at": "2026-08-29T05:02:01.680Z",
+    "btc_usd": 77647,
+    "btc_eur": 67027,
+    "btc_change_24h": -2.49,
+    "usd_eur": 0.8614
   },
   "ai_news": [
     {
@@ -81,33 +81,33 @@
       "source": "VentureBeat"
     },
     {
-      "title": "Anthropic and OpenAI are joining the AI stage at TechCrunch Disrupt 2026",
-      "link": "https://techcrunch.com/2026/08/27/anthropic-and-openai-are-joining-the-ai-stage-at-techcrunch-disrupt-2026/",
+      "title": "AI agenti preuzimaju glavnu riječ u novom Bugu",
+      "link": "https://www.bug.hr/izdavastvo/ai-agenti-preuzimaju-glavnu-rijec-u-novom-bugu-62474",
+      "source": "Bug.hr"
+    },
+    {
+      "title": "Why businesses need clearer limits before AI agents are authorized to act",
+      "link": "https://thenextweb.com/news/ai-agents-clearer-limits-authorization",
+      "source": "The Next Web"
+    },
+    {
+      "title": "Nvidia kupuje Hugging Face: otvoreni AI seli se pod okrilje proizvođača čipova",
+      "link": "https://www.bug.hr/dogadjaji/nvidia-kupuje-hugging-face-otvoreni-ai-seli-se-pod-okrilje-proizvodjaca-cipova-62442",
+      "source": "Bug.hr"
+    },
+    {
+      "title": "An Anthropic researcher just gave us a peek at self-improving AI",
+      "link": "https://techcrunch.com/2026/08/28/an-anthropic-researcher-just-gave-us-a-peek-at-self-improving-ai/",
       "source": "TechCrunch AI"
-    },
-    {
-      "title": "Anthropic tests a new standard for Claude to work with factory and lab hardware",
-      "link": "https://thenextweb.com/news/anthropic-model-hardware-standard-mhs-eu-machinery-regulation-2027",
-      "source": "The Next Web"
-    },
-    {
-      "title": "Claude now has its own browser and no longer needs the Chrome extension",
-      "link": "https://thenextweb.com/news/anthropic-claude-cowork-built-in-browser-dma-choice-screen",
-      "source": "The Next Web"
-    },
-    {
-      "title": "OpenAI, Anthropic, Google and Microsoft want cyber defence treated as a leadership priority",
-      "link": "https://thenextweb.com/news/openai-anthropic-cyber-defence-open-letter-cra-nis2-europe",
-      "source": "The Next Web"
     }
   ],
   "micro_tips": {
     "vscode": {
-      "tip": "Multi-cursor: postavi cursor na više mjesta istovremeno",
-      "keys": "Alt+Click"
+      "tip": "Command Palette: brzi pristup svim komandama",
+      "keys": "Ctrl+Shift+P"
     },
-    "sql": "EXISTS umjesto IN za subqueries — brže jer stane na prvom podudaranju: WHERE EXISTS (SELECT 1 FROM ...)",
-    "oracle": "/*+ INDEX(t ime_indexa) */ forsira specifičan index kad optimizer bira full scan",
-    "regex": "\\b granica riječi: \\bword\\b podudara cijelu riječ, ne \"password\" ili \"swordfish\""
+    "sql": "Nikad SELECT * u produkciji — navedi kolone, manji I/O i bolji cache plan",
+    "oracle": "/*+ PARALLEL(t 4) */ paralelno izvršavanje querija na N thread-ova",
+    "regex": "(?:group) non-capturing group: grupiraj bez pamćenja za veće performanse"
   }
 }
