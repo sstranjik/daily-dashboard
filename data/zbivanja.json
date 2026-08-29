@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-08-29T10:01:18.760Z",
+  "generated_at": "2026-08-29T11:01:12.255Z",
   "stats": {
-    "Mochvara": {
-      "ok": true,
-      "count": 18
-    },
     "Lisinski": {
       "ok": true,
       "count": 0
+    },
+    "Tvornica": {
+      "ok": true,
+      "count": 3
     },
     "muzika.hr": {
       "ok": true,
       "count": 25
     },
-    "Tvornica": {
+    "Mochvara": {
       "ok": true,
-      "count": 3
+      "count": 18
     },
     "Gavella": {
       "ok": true,
@@ -541,6 +541,21 @@
       "source": "Mochvara",
       "is_new": false,
       "first_seen": "2026-07-18T05:01:14.110Z"
+    },
+    {
+      "id": "b93ddb60a7",
+      "title": "akomeneželiš, Honta b2b Laren",
+      "venue": "Mochvara",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-08-29T21:00:00",
+      "date_display": "sub, 29. 08. 2026.",
+      "time": "21:00",
+      "link": "https://mochvara.hr/event-detail/6a468c43356d5f92b9fbc70d/",
+      "source": "Mochvara",
+      "is_new": true,
+      "first_seen": "2026-08-29T11:01:12.255Z"
     },
     {
       "id": "3705951c00",
@@ -3697,5 +3712,5 @@
       "first_seen": "2026-08-09T05:01:15.939Z"
     }
   ],
-  "new_count": 10
+  "new_count": 11
 }
