@@ -1,25 +1,25 @@
 {
-  "generated_at": "2026-08-29T21:28:50.198Z",
+  "generated_at": "2026-08-30T05:01:09.240Z",
   "stats": {
-    "muzika.hr": {
+    "Mochvara": {
       "ok": true,
-      "count": 25
+      "count": 17
     },
-    "Lisinski": {
+    "Gavella": {
       "ok": true,
       "count": 0
     },
-    "Mochvara": {
-      "ok": true,
-      "count": 18
-    },
-    "Gavella": {
+    "Lisinski": {
       "ok": true,
       "count": 0
     },
     "Tvornica": {
       "ok": true,
       "count": 3
+    },
+    "muzika.hr": {
+      "ok": true,
+      "count": 25
     },
     "ZeKaeM": {
       "ok": true,
@@ -781,6 +781,21 @@
       "source": "HNK Zagreb",
       "is_new": false,
       "first_seen": "2026-07-30T14:01:19.113Z"
+    },
+    {
+      "id": "6bbaed13a7",
+      "title": "Indie, pop-rock, shoegaze gig: GULU GULU, Zhivotni, Limunati",
+      "venue": "Mochvara",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-09-06T20:00:00",
+      "date_display": "ned, 06. 09. 2026.",
+      "time": "20:00",
+      "link": "https://mochvara.hr/event-detail/6a6dd2f58871c41bc7263dbf/",
+      "source": "Mochvara",
+      "is_new": true,
+      "first_seen": "2026-08-30T05:01:09.240Z"
     },
     {
       "id": "9252a9bcd5",
@@ -3562,21 +3577,6 @@
   ],
   "abroad": [
     {
-      "id": "fa22631aa2",
-      "title": "SHAKE, RATTLE & ROLL #2",
-      "venue": "Baraka Aleja Vukovar bb",
-      "city": "Kutina",
-      "country": "EU",
-      "category": "concert",
-      "date_iso": "2026-08-15T00:00:00",
-      "date_display": "sub, 15. 08. 2026.",
-      "time": null,
-      "link": "https://www.muzika.hr/event/shake-rattle-roll-2/",
-      "source": "muzika.hr",
-      "is_new": false,
-      "first_seen": "2026-07-21T05:01:19.590Z"
-    },
-    {
       "id": "8cd2240b90",
       "title": "Bait + Crustalno Jasno",
       "venue": "Jasno AG Club Patriotske lige 30",
@@ -3697,5 +3697,5 @@
       "first_seen": "2026-08-09T05:01:15.939Z"
     }
   ],
-  "new_count": 9
+  "new_count": 10
 }
