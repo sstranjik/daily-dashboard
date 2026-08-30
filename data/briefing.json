@@ -1,20 +1,15 @@
 {
   "version": 2,
-  "date": "2026-08-29",
-  "generated_at": "2026-08-29T11:27:58.863Z",
-  "date_hr": "Subota, 29. kolovoza 2026.",
+  "date": "2026-08-30",
+  "generated_at": "2026-08-30T05:02:34.512Z",
+  "date_hr": "Nedjelja, 30. kolovoza 2026.",
   "weather": {
-    "icon": "⛈️",
-    "summary": "20–29°C, grmljavina s gradom · 10.1 mm",
-    "alerts": [
-      {
-        "level": "warning",
-        "text": "Grmljavinska oluja"
-      }
-    ]
+    "icon": "☁️",
+    "summary": "19–31°C, oblačno",
+    "alerts": []
   },
   "fuel": {
-    "current_date": "29.08.2026",
+    "current_date": "30.08.2026",
     "eurodiesel": [
       {
         "company": "Adria Oil",
@@ -68,46 +63,46 @@
     "upcoming_premium": null
   },
   "market": {
-    "updated_at": "2026-08-29T11:27:58.863Z",
-    "btc_usd": 77679,
-    "btc_eur": 67054,
-    "btc_change_24h": -2.54,
-    "usd_eur": 0.8614
+    "updated_at": "2026-08-30T05:02:34.512Z",
+    "btc_usd": 78100,
+    "btc_eur": 67426,
+    "btc_change_24h": 0.59,
+    "usd_eur": 0.8615
   },
   "ai_news": [
     {
-      "title": "Meta researchers taught an 8B AI model to match Claude Opus 4.5 — without the frontier price tag",
-      "link": "https://venturebeat.com/orchestration/meta-researchers-taught-an-8b-ai-model-to-match-claude-opus-4-5-without-the-frontier-price-tag",
-      "source": "VentureBeat"
+      "title": "Hugging Face built a $4.5 billion empire on free AI models. Now Nvidia is buying it for $12.9 billion",
+      "link": "https://thenextweb.com/news/hugging-face-nvidia-acquisition-thomas-wolf-interview",
+      "source": "The Next Web"
+    },
+    {
+      "title": "Sony Music, Warner sue Anthropic, alleging a &#8220;brazen campaign&#8221; of intellectual property theft",
+      "link": "https://techcrunch.com/2026/08/29/sony-music-warner-sue-anthropic-alleging-a-brazen-campaign-of-intellectual-property-theft/",
+      "source": "TechCrunch AI"
+    },
+    {
+      "title": "Sony Music and Warner Chappell are suing Anthropic",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/986438/sony-music-warner-chappell-anthropic-lawsuit-copyright",
+      "source": "The Verge"
+    },
+    {
+      "title": "A week with the Google Pixel 11 changed my mind about Gemini (for the better)",
+      "link": "https://www.zdnet.com/article/google-pixel-11-review/",
+      "source": "ZDNet"
     },
     {
       "title": "OpenAI to stop supplying models to Cursor after SpaceX acquisition",
       "link": "https://thenextweb.com/news/openai-ends-cursor-contract-spacex-acquisition-eu-switching-rules",
       "source": "The Next Web"
-    },
-    {
-      "title": "OpenAI uskratio Cursoru pristup svojim modelima zbog kršenja ugovora i novog vlasnika",
-      "link": "https://www.bug.hr/biznis/openai-uskratio-cursoru-pristup-svojim-modelima-zbog-krsenja-ugovora-i-novog-62478",
-      "source": "Bug.hr"
-    },
-    {
-      "title": "AI agenti preuzimaju glavnu riječ u novom Bugu",
-      "link": "https://www.bug.hr/izdavastvo/ai-agenti-preuzimaju-glavnu-rijec-u-novom-bugu-62474",
-      "source": "Bug.hr"
-    },
-    {
-      "title": "Why businesses need clearer limits before AI agents are authorized to act",
-      "link": "https://thenextweb.com/news/ai-agents-clearer-limits-authorization",
-      "source": "The Next Web"
     }
   ],
   "micro_tips": {
     "vscode": {
-      "tip": "Command Palette: brzi pristup svim komandama",
-      "keys": "Ctrl+Shift+P"
+      "tip": "Rename Symbol svuda u projektu (refactoring)",
+      "keys": "F2"
     },
-    "sql": "Nikad SELECT * u produkciji — navedi kolone, manji I/O i bolji cache plan",
-    "oracle": "/*+ PARALLEL(t 4) */ paralelno izvršavanje querija na N thread-ova",
-    "regex": "(?:group) non-capturing group: grupiraj bez pamćenja za veće performanse"
+    "sql": "Covering index: uključi sve kolone iz WHERE + SELECT u index pa nema pristupa tablici",
+    "oracle": "/*+ NO_MERGE(v) */ sprječava merging inline viewa s parent queryjem",
+    "regex": "(?=pattern) lookahead: \"iza ovog mora slijediti X\" bez konzumiranja znakova"
   }
 }
