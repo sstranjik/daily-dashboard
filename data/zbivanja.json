@@ -1,13 +1,9 @@
 {
-  "generated_at": "2026-08-30T05:01:18.237Z",
+  "generated_at": "2026-08-30T06:01:09.953Z",
   "stats": {
-    "Tvornica": {
-      "ok": true,
-      "count": 3
-    },
     "muzika.hr": {
       "ok": true,
-      "count": 17
+      "count": 25
     },
     "Mochvara": {
       "ok": true,
@@ -16,6 +12,10 @@
     "Lisinski": {
       "ok": true,
       "count": 0
+    },
+    "Tvornica": {
+      "ok": true,
+      "count": 3
     },
     "Gavella": {
       "ok": true,
@@ -33,13 +33,13 @@
       "ok": true,
       "count": 0
     },
-    "Kerempuh": {
-      "ok": true,
-      "count": 0
-    },
     "HNK Zagreb": {
       "ok": true,
       "count": 123
+    },
+    "Kerempuh": {
+      "ok": true,
+      "count": 0
     },
     "Trešnja": {
       "ok": true,
@@ -794,7 +794,7 @@
       "time": "20:00",
       "link": "https://mochvara.hr/event-detail/6a6dd2f58871c41bc7263dbf/",
       "source": "Mochvara",
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-08-30T05:01:18.237Z"
     },
     {
@@ -3697,5 +3697,5 @@
       "first_seen": "2026-08-09T05:01:15.939Z"
     }
   ],
-  "new_count": 10
+  "new_count": 9
 }
