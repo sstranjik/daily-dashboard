@@ -1,10 +1,6 @@
 {
-  "generated_at": "2026-08-31T05:01:12.697Z",
+  "generated_at": "2026-08-31T06:01:14.295Z",
   "stats": {
-    "muzika.hr": {
-      "ok": true,
-      "count": 25
-    },
     "Mochvara": {
       "ok": true,
       "count": 17
@@ -21,6 +17,10 @@
       "ok": true,
       "count": 3
     },
+    "muzika.hr": {
+      "ok": true,
+      "count": 25
+    },
     "ZeKaeM": {
       "ok": true,
       "count": 0
@@ -33,15 +33,15 @@
       "ok": true,
       "count": 123
     },
+    "Pogon": {
+      "ok": true,
+      "count": 0
+    },
     "Kerempuh": {
       "ok": true,
       "count": 0
     },
     "Trešnja": {
-      "ok": true,
-      "count": 0
-    },
-    "Pogon": {
       "ok": true,
       "count": 0
     }
@@ -824,7 +824,7 @@
       "time": "18:30",
       "link": "https://mochvara.hr/event-detail/6a5dfc8b502f8ff80e9e2909/",
       "source": "Mochvara",
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-08-31T05:01:12.697Z"
     },
     {
@@ -3697,5 +3697,5 @@
       "first_seen": "2026-08-09T05:01:15.939Z"
     }
   ],
-  "new_count": 10
+  "new_count": 9
 }
