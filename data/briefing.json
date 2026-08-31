@@ -1,15 +1,15 @@
 {
   "version": 2,
-  "date": "2026-08-30",
-  "generated_at": "2026-08-30T10:15:01.971Z",
-  "date_hr": "Nedjelja, 30. kolovoza 2026.",
+  "date": "2026-08-31",
+  "generated_at": "2026-08-31T05:02:34.357Z",
+  "date_hr": "Ponedjeljak, 31. kolovoza 2026.",
   "weather": {
-    "icon": "☁️",
-    "summary": "19–31°C, oblačno",
+    "icon": "🌤️",
+    "summary": "20–34°C, djelomično oblačno",
     "alerts": []
   },
   "fuel": {
-    "current_date": "30.08.2026",
+    "current_date": "31.08.2026",
     "eurodiesel": [
       {
         "company": "Adria Oil",
@@ -63,11 +63,11 @@
     "upcoming_premium": null
   },
   "market": {
-    "updated_at": "2026-08-30T10:15:01.971Z",
-    "btc_usd": 78023,
-    "btc_eur": 67360,
-    "btc_change_24h": 0.58,
-    "usd_eur": 0.8615
+    "updated_at": "2026-08-31T05:02:34.357Z",
+    "btc_usd": 77621,
+    "btc_eur": 66966,
+    "btc_change_24h": -0.62,
+    "usd_eur": 0.8623
   },
   "ai_news": [
     {
@@ -76,33 +76,33 @@
       "source": "The Next Web"
     },
     {
-      "title": "Hugging Face built a $4.5 billion empire on free AI models. Now Nvidia is buying it for $12.9 billion",
-      "link": "https://thenextweb.com/news/hugging-face-nvidia-acquisition-thomas-wolf-interview",
-      "source": "The Next Web"
+      "title": "Sanjaju li LLM-ovi agentski PC?",
+      "link": "https://www.bug.hr/umjetna-inteligencija/sanjaju-li-llm-ovi-agentski-pc-62467",
+      "source": "Bug.hr"
     },
     {
-      "title": "Sony Music, Warner sue Anthropic, alleging a &#8220;brazen campaign&#8221; of intellectual property theft",
-      "link": "https://techcrunch.com/2026/08/29/sony-music-warner-sue-anthropic-alleging-a-brazen-campaign-of-intellectual-property-theft/",
-      "source": "TechCrunch AI"
+      "title": "AI agents need their own identity before they need a gateway",
+      "link": "https://venturebeat.com/security/ai-agents-need-their-own-identity-before-they-need-a-gateway",
+      "source": "VentureBeat"
     },
     {
-      "title": "Sony Music and Warner Chappell are suing Anthropic",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/986438/sony-music-warner-chappell-anthropic-lawsuit-copyright",
-      "source": "The Verge"
+      "title": "AI agents that pass authentication can still drift, expose data, or get memory-poisoned",
+      "link": "https://venturebeat.com/security/ai-agents-that-pass-authentication-can-still-drift-expose-data-or-get-memory-poisoned",
+      "source": "VentureBeat"
     },
     {
-      "title": "A week with the Google Pixel 11 changed my mind about Gemini (for the better)",
-      "link": "https://www.zdnet.com/article/google-pixel-11-review/",
-      "source": "ZDNet"
+      "title": "Sony Music i Warner Music protiv Anthropica: optužbe za piratstvo i povredu autorskih prava",
+      "link": "https://www.bug.hr/zakonodavstvo/sony-music-i-warner-music-protiv-anthropica-optuzbe-za-piratstvo-i-povredu-62487",
+      "source": "Bug.hr"
     }
   ],
   "micro_tips": {
     "vscode": {
-      "tip": "Rename Symbol svuda u projektu (refactoring)",
-      "keys": "F2"
+      "tip": "Quick Fix i Code Actions na trenutnoj poziciji",
+      "keys": "Ctrl+."
     },
-    "sql": "Covering index: uključi sve kolone iz WHERE + SELECT u index pa nema pristupa tablici",
-    "oracle": "/*+ NO_MERGE(v) */ sprječava merging inline viewa s parent queryjem",
-    "regex": "(?=pattern) lookahead: \"iza ovog mora slijediti X\" bez konzumiranja znakova"
+    "sql": "Window funkcije (ROW_NUMBER, LAG, LEAD) umjesto self-join za redosljed i razlike",
+    "oracle": "/*+ RESULT_CACHE */ cache-ira rezultat funkcije u SGA za ponovljene pozive",
+    "regex": ".+? lazy quantifier: stane na prvom mogućem podudaranju, ne zadnjem"
   }
 }
