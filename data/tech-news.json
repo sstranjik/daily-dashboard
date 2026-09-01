@@ -1,9 +1,81 @@
 {
-  "last_updated": "2026-09-01T19:01:04.725Z",
+  "last_updated": "2026-09-01T20:01:05.555Z",
   "source_count": 11,
   "items": [
     {
+      "id": "the-next-web-0",
+      "title": "John Deere launches JD, an AI assistant that answers questions from a farm’s own data",
+      "summary": "John Deere has launched JD, an AI assistant that answers plain-language questions from a farm’s own machine and field data, alongside a ten-point voluntary Farmer Data Commitment. In the EU those commitments are largely obligations under the Data Act, which also bars a manufacturer from using the da",
+      "link": "https://thenextweb.com/news/john-deere-jd-ai-assistant-farmer-data-commitment-eu-data-act",
+      "published": "2026-09-01T19:48:39.000Z",
+      "source": "The Next Web",
+      "category": "ai",
+      "xml_category": "artificial intelligence",
+      "tags": [],
+      "image": "https://media.thenextweb.com/2026/09/john-deere-jd-ai-assistant-farmer-data-commitment-eu-data-act.avif"
+    },
+    {
+      "id": "the-verge-0",
+      "title": "Tim Cook did alright by the environment — but AI could upend his climate legacy",
+      "summary": "As he steps down from his post as Apple CEO today, Tim Cook leaves behind a mostly positive environmental record. As far as billionaire tech moguls and the environment go, Cook will likely be remembered as one of the better ones - certainly far from the worst. But it will become harder for the compa",
+      "link": "https://www.theverge.com/tech/987550/tim-cook-apple-environment-sustainability-legacy",
+      "published": "2026-09-01T19:43:39.000Z",
+      "source": "The Verge",
+      "category": "ai",
+      "xml_category": "[object object]",
+      "tags": [],
+      "image": null
+    },
+    {
+      "id": "techcrunch-ai-0",
+      "title": "Anthropic&#8217;s new Fable release is cheaper, less restrictive",
+      "summary": "Fable 5.1 includes changes meant to reduce token cost and false-positive restrictions from the model's safeguards.",
+      "link": "https://techcrunch.com/2026/09/01/anthropics-new-fable-release-is-cheaper-less-restrictive/",
+      "published": "2026-09-01T19:39:22.000Z",
+      "source": "TechCrunch AI",
+      "category": "ai",
+      "xml_category": "ai",
+      "tags": [],
+      "image": null
+    },
+    {
       "id": "venturebeat-0",
+      "title": "Frontier models can recover up to 65% of facts they can't directly recall — just by thinking longer",
+      "summary": "When large language models (LLMs) hallucinate, developers typically assume the model lacks the required facts. Engineering teams diagnose the error as missing knowledge. The standard response is to increase model size, expand training data, or build complex retrieval architectures. A new study by re",
+      "link": "https://venturebeat.com/orchestration/frontier-models-can-recover-up-to-65-of-facts-they-cant-directly-recall-just-by-thinking-longer",
+      "published": "2026-09-01T19:20:09.000Z",
+      "source": "VentureBeat",
+      "category": "general",
+      "xml_category": "orchestration",
+      "tags": [],
+      "image": "https://images.ctfassets.net/jdtwqhzvc2n1/2hiACWj4cDtrruFD5zWlbH/bf30942d847e90d079cf3c9cb02273fc/Lost_keys_and_empty_shelves.jpg?w=300&q=30"
+    },
+    {
+      "id": "the-next-web-1",
+      "title": "Meta is dropping Google Chat for Slack because it says agents work better there",
+      "summary": "Meta is migrating internal communications from Google Chat to Slack because Slack is the strongest platform for AI agents, a memo from AI chief Alexandr Wang says. European governments have spent two years moving the other way, onto sovereign suites chosen for control rather than integrations. Meta ",
+      "link": "https://thenextweb.com/news/meta-slack-ai-agents-europe-sovereign-collaboration-data-act-switching",
+      "published": "2026-09-01T19:07:06.000Z",
+      "source": "The Next Web",
+      "category": "general",
+      "xml_category": "artificial intelligence",
+      "tags": [],
+      "image": "https://media.thenextweb.com/2026/07/meta-leaves-re100-clean-energy-gas-ai-data-centres.avif"
+    },
+    {
+      "id": "the-verge-1",
+      "title": "The rise of AI &#8216;civilizations&#8217; and the fall of corporate responsibility",
+      "summary": "Depending on who you ask, developer platform Hugging Face was recently attacked by OpenAI - after it lost control of its own AI tools - or by a succession of AI \"civilizations.\" Welcome to the linguistic battlefield of AI safety, where word choices can shift responsibility for a massive cybersecurit",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/987566/ai-civilizations-opeai-hugging-face-hack",
+      "published": "2026-09-01T19:02:54.000Z",
+      "source": "The Verge",
+      "category": "ai",
+      "xml_category": "[object object]",
+      "tags": [],
+      "image": null
+    },
+    {
+      "id": "venturebeat-1",
       "title": "Closing an Azure OpenAI assistant's retrieval gap didn't take a new identity platform. It took one filter and a narrower assistant.",
       "summary": "Egiziago Cioffi is the IT and Enterprise Architect and CEO of SynSphere Italia, a Microsoft partner based in Milan. He built an agent himself. He wrote the indexing job, configured the Azure OpenAI retrieval pipeline, connected it to SharePoint, and watched it pass every evaluation his team ran. His",
       "link": "https://venturebeat.com/security/azure-openai-agent-passed-every-evaluation-served-files-user-couldnt-open",
@@ -15,7 +87,7 @@
       "image": "https://images.ctfassets.net/jdtwqhzvc2n1/7L0YZywdxd3JEZNU2qqjrP/068a21fca3207dde998faaf50307f194/hero_image_for_the_microsoft_azure_story.png?w=300&q=30"
     },
     {
-      "id": "venturebeat-1",
+      "id": "venturebeat-2",
       "title": "Anthropic's Claude Fable 5.1 and Mythos 5.1 arrive with a 75% cost reduction for Fable cache reads",
       "summary": "It&#x27;s only the first day of September 2026, but the month and fall season are already off to the races in AI land, as Anthropic has just released its latest and most powerful large language models yet — Claude Fable 5.1 and Claude Mythos 5.1 . The two names refer to the same underlying model. Fa",
       "link": "https://venturebeat.com/technology/anthropics-claude-fable-5-1-and-mythos-5-1-arrive-with-a-75-cost-reduction-for-fable-cache-reads",
@@ -27,8 +99,8 @@
       "image": "https://images.ctfassets.net/jdtwqhzvc2n1/31IBxanJPYh7BzlhEZebZT/7e8f8c0a212083694210e1cf220d144e/ChatGPT_Image_Sep_1__2026__02_40_12_PM.png?w=300&q=30"
     },
     {
-      "id": "the-next-web-0",
-      "title": "Toyota’s FSD-Like System Arrives In 2028, But The Driver Stays Liable",
+      "id": "the-next-web-2",
+      "title": "Toyota’s FSD-like system arrives in 2028, but the driver stays liable",
       "summary": "Toyota will put a rival to Tesla’s Full Self-Driving on its 2028 models and sell it as “Level 2++“, a marketing label that keeps the driver in charge, with a guardrail layer over the neural network. Europe approves this class of system under UN Regulation 171, but from 9 December the Product Liabili",
       "link": "https://thenextweb.com/news/toyota-fsd-like-system-2028-driver-stays-liable-eu-product-liability",
       "published": "2026-09-01T18:31:59.000Z",
@@ -39,7 +111,7 @@
       "image": "https://media.thenextweb.com/2026/09/toyota-fsd-like-system-2028-driver-stays-liable-eu-product-liability.avif"
     },
     {
-      "id": "the-verge-0",
+      "id": "the-verge-2",
       "title": "John Ternus sends first memo as Apple CEO teasing a &#8216;huge launch next week&#8217;",
       "summary": "New Apple CEO John Ternus sent out his first staff memo, thanking his predecessor Tim Cook, and quickly turning to what the company will do next, reports Bloomberg. \"We have a huge launch next week that's going to be phenomenal. Thanks for everything you've all done to make it possible,\" writes Tern",
       "link": "https://www.theverge.com/tech/987583/apple-john-ternus-staff-memo",
@@ -63,7 +135,7 @@
       "image": "https://www.bug.hr/img/poznati-youtuber-postao-najveci-dionicar-goproa_6ZzVuj.png"
     },
     {
-      "id": "the-verge-1",
+      "id": "the-verge-3",
       "title": "Apple accuses OpenAI of destroying evidence",
       "summary": "Apple is pushing for \"expedited discovery\" in its legal battle against OpenAI over concerns the company is actively destroying evidence, as reported earlier by Bloomberg. In a filing on Monday, Apple alleges OpenAI only just handed over a MacBook used by a former employee at the center of the lawsui",
       "link": "https://www.theverge.com/tech/987575/apple-openai-destroying-evidence-trade-secrets-lawsuit",
@@ -75,7 +147,7 @@
       "image": null
     },
     {
-      "id": "the-next-web-1",
+      "id": "the-next-web-3",
       "title": "Waymo opens driverless rides in Denver, San Diego and Tampa",
       "summary": "Waymo opened driverless rides in Denver, San Diego and Tampa, and Denver is its first commercial deployment in a city with real snowfall. Under EU rules an automated driving system’s weather envelope is part of a type-approved operational design domain, and the vehicle must perform a minimum risk ma",
       "link": "https://thenextweb.com/news/waymo-denver-snow-eu-operational-design-domain-type-approval-munich",
@@ -87,7 +159,7 @@
       "image": "https://media.thenextweb.com/2026/06/waymo-premier-subscription-29-99-robotaxi.avif"
     },
     {
-      "id": "the-verge-2",
+      "id": "the-verge-4",
       "title": "Google Find Hub will soon help you locate things without a tracker",
       "summary": "Google announced new features coming to Android devices as part of this month's feature drop update. Among the highlights are the introduction of Motion Assist - Android's version of Apple's Motion Cues feature, which tries to reduce motion sickness by overlaying dots on your screen that move in res",
       "link": "https://www.theverge.com/tech/987339/google-september-android-drop-motion-assist-gemini-find-hub",
@@ -99,7 +171,7 @@
       "image": null
     },
     {
-      "id": "techcrunch-ai-0",
+      "id": "techcrunch-ai-1",
       "title": "Google&#8217;s answer to Canva is an AI tool where you prompt instead of design",
       "summary": "With Google Pics, Google is pushing deeper into the creative software market dominated by Canva and Adobe, but with a distinctly AI-first approach.",
       "link": "https://techcrunch.com/2026/09/01/googles-answer-to-canva-is-an-ai-tool-where-you-prompt-instead-of-design/",
@@ -111,7 +183,7 @@
       "image": null
     },
     {
-      "id": "the-next-web-2",
+      "id": "the-next-web-4",
       "title": "Eddy Cue quietly became the most powerful executive at Apple",
       "summary": "Phil Schiller leaving the App Store made Monday’s headlines. The quieter fact underneath it is that Eddy Cue now runs more of Apple than anyone except the new chief executive. Mark Gurman broke the reshuffle for Bloomberg on Monday, hours before John Ternus took over. Apple has not announced any of ",
       "link": "https://thenextweb.com/news/eddy-cue-app-store-arcade-apple-power-shift-ternus",
@@ -123,7 +195,7 @@
       "image": "https://media.thenextweb.com/2026/06/Eddy-Cue.avif"
     },
     {
-      "id": "the-next-web-3",
+      "id": "the-next-web-5",
       "title": "Apple has a new CEO, and Tim Cook signed off quoting Steve Jobs",
       "summary": "John Ternus became chief executive of Apple on Tuesday. He is the eighth person to hold the job in the company’s 50 years, and the first engineer in the seat since Steve Jobs. Tim Cook spent his last day writing to staff. Chance Miller obtained the memo for 9to5Mac on Monday, and Mark Gurman reporte",
       "link": "https://thenextweb.com/news/john-ternus-apple-ceo-tim-cook-final-memo",
@@ -159,7 +231,7 @@
       "image": "https://www.bug.hr/img/kurikuli-o-umjetnoj-inteligenciji-dostupni-od-5-razreda-osnovne-do-kraja_B07Rnr.jpg"
     },
     {
-      "id": "techcrunch-ai-1",
+      "id": "techcrunch-ai-2",
       "title": "ChatGPT Health adds Epic integration for clinicians to import patient data",
       "summary": "OpenAI said that the integration provides read-only access to health records for clinicians.",
       "link": "https://techcrunch.com/2026/09/01/chatgpt-health-adds-epic-integration-for-clinicians-to-import-patient-data/",
@@ -171,7 +243,7 @@
       "image": null
     },
     {
-      "id": "the-verge-3",
+      "id": "the-verge-5",
       "title": "Homey just made the smart home controller I hoped Apple would build",
       "summary": "Smart homes have gotten really good at making things really complicated. Turning on a light can involve multiple steps, compared to just flipping a switch. Homey, the Dutch-based smart home platform owned by LG, thinks it has a solution. This week it launched the Homey Portal, a touchscreen smart ho",
       "link": "https://www.theverge.com/tech/987462/homey-lg-smart-portal-smart-home-controller-price-specs-release-date",
@@ -183,7 +255,7 @@
       "image": null
     },
     {
-      "id": "the-verge-4",
+      "id": "the-verge-6",
       "title": "Samsung’s Galaxy Z Fold 8 Ultra hits its lowest price since launch",
       "summary": "If you missed the release promotions for the recent round of Samsung Galaxy phones, you’re in luck. The Samsung Galaxy Z Fold 8 Ultra is $300 off at Best Buy, the best deal we’ve seen since the phone launched last month. The phone impressed us with its rear triple camera setup, excellent battery lif",
       "link": "https://www.theverge.com/gadgets/987490/galaxy-z-fold-8-ultra-remarkable-paper-pro-move-deal-sale",
@@ -195,7 +267,7 @@
       "image": null
     },
     {
-      "id": "the-verge-5",
+      "id": "the-verge-7",
       "title": "GoPro has been acquired and is getting into &#8216;defense, government, robotics and aerospace&#8217;",
       "summary": "GoPro suddenly looks like a very different company than it did just last week. First, YouTuber Mark \"Markiplier\" Fischbach became the company's single largest shareholder, without disclosing that in a sponsored review that came out a week later. Now, almost the entire company has been bought by Star",
       "link": "https://www.theverge.com/news/987494/gopro-starman-holding-merger-aquisition",
@@ -207,7 +279,7 @@
       "image": null
     },
     {
-      "id": "the-next-web-4",
+      "id": "the-next-web-6",
       "title": "ICE plans to buy Boston Dynamics robot dogs without running a competition",
       "summary": "US Immigration and Customs Enforcement has posted plans to buy a fleet of Boston Dynamics robot dogs. The listing puts the spend at $1m to $2m. It also says ICE does not intend to compete the purchase. Joseph Cox found the plan for 404 Media on Friday. It sits in the Department of Homeland Security’",
       "link": "https://thenextweb.com/news/ice-boston-dynamics-spot-robots-procurement",
@@ -231,7 +303,7 @@
       "image": "https://www.bug.hr/img/marina-burazer-nova-je-direktorica-korporativnih-komunikacija-hrvatskog-telekoma_4JBf85.jpg"
     },
     {
-      "id": "techcrunch-ai-2",
+      "id": "techcrunch-ai-3",
       "title": "Sequoia-incubated Empirik launches with $21M to predict outages before they happen",
       "summary": "The startup wants to do for IT infrastructure what Cursor did for software engineering.",
       "link": "https://techcrunch.com/2026/09/01/sequoia-incubated-empirik-launches-with-21m-to-predict-outages-before-they-happen/",
@@ -255,7 +327,7 @@
       "image": "https://www.bug.hr/img/inovativni-solarni-krov-nad-beckim-postrojenjem-za-prociscavanje-otpadnih-voda_NbFmkk.jpg"
     },
     {
-      "id": "the-next-web-5",
+      "id": "the-next-web-7",
       "title": "A researcher hijacked Claude Code by asking it to summarise a web page",
       "summary": "Ask Claude Code to summarise a web page, and it can end up running an attacker’s code on your machine. A security researcher got that result in up to 80% of his attempts. Jessica Lyons reported the finding for The Register on Friday. The work is by Johann Rehberger, who publishes as wunderwuzzi and ",
       "link": "https://thenextweb.com/news/claude-code-prompt-injection-summarise-website-auto-mode",
@@ -267,7 +339,7 @@
       "image": "https://media.thenextweb.com/2026/09/laptop-code-editor-test-results-desk.avif"
     },
     {
-      "id": "the-verge-6",
+      "id": "the-verge-8",
       "title": "John Deere launched an AI chatbot for farmers",
       "summary": "John Deere is testing a new \"JD\" AI assistant that it says can help farmers make more money, with answers about best practices and historical trends that are based on their own data. It uses their \"field, machine and operational data\" to answer questions on topics like equipment settings, fuel usage",
       "link": "https://www.theverge.com/ai-artificial-intelligence/987486/john-deere-jd-ai-chatbot",
@@ -279,7 +351,7 @@
       "image": null
     },
     {
-      "id": "the-verge-7",
+      "id": "the-verge-9",
       "title": "Sony’s new party speakers have more bass, more LEDs, and more connectivity",
       "summary": "Sony announced three new tower-style party speakers that will now be the largest options in its ULT Power Sound lineup. The new ULT Tower Max, ULT Tower 7, and ULT Tower 5 all feature expanded connectivity including USB-C, RCA, and XLR ports for connecting to audio gear using physical cables. The ne",
       "link": "https://www.theverge.com/tech/986839/sony-ult-power-sound-speaker-tower-max-5-7-xlr-leds",
@@ -303,7 +375,7 @@
       "image": null
     },
     {
-      "id": "the-next-web-6",
+      "id": "the-next-web-8",
       "title": "Florida and Texas both moved against Flock cameras in a single week",
       "summary": "Florida has ordered every automated licence plate reader off its state highways. Agencies have 30 days to take them down. Texas froze state funding for the same cameras four days earlier. Two states run by Republican governors moved against Flock Safety in the space of a week. Zack Whittaker reporte",
       "link": "https://thenextweb.com/news/florida-texas-flock-cameras-highways-funding-freeze",
@@ -327,7 +399,7 @@
       "image": "https://autonet.bug.hr/img/legendarni-yugo-mogao-bi-se-vratiti-i-kao-kabriolet_w5I2oz.jpg"
     },
     {
-      "id": "techcrunch-ai-3",
+      "id": "techcrunch-ai-4",
       "title": "Amazon Alexa can now alert you when something new might tempt you to shop",
       "summary": "Amazon is adding a new Alexa-powered feature called “Update Me When” that can send personalized alerts about product launches, tours, books, shows, and other events that could trigger a purchase.",
       "link": "https://techcrunch.com/2026/09/01/amazon-alexa-can-now-alert-you-when-something-new-might-tempt-you-to-shop/",
@@ -339,7 +411,7 @@
       "image": null
     },
     {
-      "id": "techcrunch-ai-4",
+      "id": "techcrunch-ai-5",
       "title": "AIR raises $50M to help companies vet the skills and add-ons AI agents use",
       "summary": "AIR's platform can discover agents running at a company, continuously vets any skills and add-ons they use, and blocks any unwanted behavior.",
       "link": "https://techcrunch.com/2026/09/01/air-raises-50m-to-help-companies-vet-the-skills-and-add-ons-ai-agents-use/",
@@ -363,7 +435,7 @@
       "image": "https://www.bug.hr/img/innovate-split-2026-okuplja-globalnu-ai-i-tech-scenu-u-splitu_HbxbTr.jpg"
     },
     {
-      "id": "the-next-web-7",
+      "id": "the-next-web-9",
       "title": "X said Chinese bots fuelled the data centre backlash. A researcher checked",
       "summary": "X said it had found a Chinese bot farm pushing Americans to turn against AI data centres. A researcher who went looking for those accounts found that almost nobody had seen them. Darren Linvill, a researcher at Clemson University, identified at least 59 of those accounts with zero engagement. X prob",
       "link": "https://thenextweb.com/news/x-chinese-bots-data-centre-backlash-no-engagement",
@@ -399,7 +471,7 @@
       "image": "https://www.tportal.hr/media/thumbnail/500x300/2771168.jpeg?cropId=0"
     },
     {
-      "id": "techcrunch-ai-5",
+      "id": "techcrunch-ai-6",
       "title": "Fambot introduces an &#8216;AI chief of staff&#8217; for families",
       "summary": "Fambot is building an AI “chief of staff” to help families manage the emails, calendars, school updates, sports schedules, and other logistics of raising kids.",
       "link": "https://techcrunch.com/2026/09/01/fambot-introduces-an-ai-chief-of-staff-for-families/",
@@ -411,7 +483,7 @@
       "image": null
     },
     {
-      "id": "venturebeat-2",
+      "id": "venturebeat-3",
       "title": "Your files stay put: Perplexity’s hybrid AI keeps confidential data off the cloud",
       "summary": "Perplexity today launched hybrid compute for its agentic platform, Computer , a system that lets a single AI agent split its work between frontier models running in the cloud and smaller open-weight models running locally on Apple silicon Macs — routing sensitive data to the local machine so it neve",
       "link": "https://venturebeat.com/orchestration/your-files-stay-put-perplexitys-hybrid-ai-keeps-confidential-data-off-the-cloud",
@@ -471,7 +543,7 @@
       "image": "https://media.thenextweb.com/2026/09/fervo-google-geothermal-utah-eu-capacity-geretsried-strategy1.avif"
     },
     {
-      "id": "venturebeat-3",
+      "id": "venturebeat-4",
       "title": "AI is redefining the workforce — and most planning models aren’t ready",
       "summary": "Presented by SAP HR tracks employees and skills. Finance owns headcount targets and cost. Procurement manages contractors and services spend. Together, they leave executives unable to answer basic questions about how workforce decisions actually translate into business outcomes. Fragmented planning ",
       "link": "https://venturebeat.com/orchestration/ai-is-redefining-the-workforce-and-most-planning-models-arent-ready",
@@ -1167,7 +1239,7 @@
       "image": "https://autonet.bug.hr/img/sto-novi-prekrsajni-zakon-znaci-za-vozace-uhvacene-u-prekrsaju_3dXovT.jpg"
     },
     {
-      "id": "venturebeat-4",
+      "id": "venturebeat-5",
       "title": "OpenClaw 2.0 is here, ushering in the era of 'multiplayer' AI coding: What it means for enterprises",
       "summary": "The viral fervor we saw earlier this year around OpenClaw, the open source AI harness that turns powerful language models into autonomous workers the user can message via their favorite channels (Telegram, iMessage, WhatsApp, Discord etc), has cooled off substantially from its peak in March 2026. Bu",
       "link": "https://venturebeat.com/technology/openclaw-2-0-is-here-what-it-means-for-enterprises",
@@ -1191,7 +1263,7 @@
       "image": "https://www.tportal.hr/media/thumbnail/500x300/2773595.jpeg?cropId=0"
     },
     {
-      "id": "techcrunch-ai-6",
+      "id": "techcrunch-ai-7",
       "title": "Apple shares &#8216;shocking evidence&#8217; against former employee accused of stealing company data for OpenAI",
       "summary": "Apple says it has evidence that a former employee destroyed evidence of data theft after learning he was under investigation.",
       "link": "https://techcrunch.com/2026/08/31/apple-shares-shocking-evidence-against-former-employee-accused-of-stealing-company-data-for-openai/",
@@ -1287,59 +1359,11 @@
       "image": "https://media.thenextweb.com/2026/07/big-tech-2-trillion-ai-spending-commitments-bloomberg.avif"
     },
     {
-      "id": "techcrunch-ai-7",
+      "id": "techcrunch-ai-8",
       "title": "The Pentagon now has its own version of ChatGPT and Grok",
       "summary": "Versions of OpenAI's ChatGPT and SpaceXAI's Grok will join Google's Gemini on the Pentagon's central portal for AI tools.",
       "link": "https://techcrunch.com/2026/08/31/the-pentagon-now-has-its-own-version-of-chatgpt-and-grok/",
       "published": "2026-08-31T20:13:45.000Z",
-      "source": "TechCrunch AI",
-      "category": "ai",
-      "xml_category": "ai",
-      "tags": [],
-      "image": null
-    },
-    {
-      "id": "the-next-web-8",
-      "title": "A solar mobile clinic has successfully driven 800km across Kenya",
-      "summary": "Solar Team Eindhoven drove its solar ambulance Stella Juva more than 800km across Kenya with Amref Health Africa, and found it generated more energy than it used while running an X-ray machine, ultrasound scanner and vaccine fridge at a clinic with no electricity. The vehicle is returning to the Net",
-      "link": "https://thenextweb.com/news/stella-juva-solar-ambulance-kenya-eindhoven-global-gateway",
-      "published": "2026-08-31T20:00:47.000Z",
-      "source": "The Next Web",
-      "category": "general",
-      "xml_category": "ecosystems",
-      "tags": [],
-      "image": "https://media.thenextweb.com/2026/08/stella-juva-solar-ambulance-kenya-eindhoven-global-gateway.avif"
-    },
-    {
-      "id": "the-verge-9",
-      "title": "Alienware’s budget-friendly QD-OLED is discounted for the first time",
-      "summary": "While memory and storage prices are still high, there are still good discounts on other gaming-related hardware. Take Alienware’s AW2726DM, for example. Dell is selling it for $319.99, a $30 break from the usual price of $349.99. The 27-inch gaming monitor features an QD-OLED panel for deep, immersi",
-      "link": "https://www.theverge.com/gadgets/986901/alienware-qdoled-2726dm-deal-sale",
-      "published": "2026-08-31T19:31:59.000Z",
-      "source": "The Verge",
-      "category": "general",
-      "xml_category": "[object object]",
-      "tags": [],
-      "image": null
-    },
-    {
-      "id": "the-next-web-9",
-      "title": "Windows 11 adds toggles to remove Bing results and Store suggestions from Search",
-      "summary": "Windows 11 is rolling out toggles that remove Bing web results and Microsoft Store suggestions from Search, in an optional August update that is being released gradually. Microsoft removed Bing from the Windows Search pane for users in the European Economic Area to meet the Digital Markets Act deadl",
-      "link": "https://thenextweb.com/news/windows-11-bing-search-toggle-dma-eea-two-years-earlier",
-      "published": "2026-08-31T19:30:04.000Z",
-      "source": "The Next Web",
-      "category": "general",
-      "xml_category": "apps",
-      "tags": [],
-      "image": "https://media.thenextweb.com/2026/06/windows-11-search-two-character-fix-patch-tuesday.avif"
-    },
-    {
-      "id": "techcrunch-ai-8",
-      "title": "Instagram puts new limits on undisclosed AI profiles",
-      "summary": "As frustration over AI influencers has been growing, Instagram is limiting the reach of undisclosed AI profiles.",
-      "link": "https://techcrunch.com/2026/08/31/instagram-puts-new-limits-on-undisclosed-ai-profiles/",
-      "published": "2026-08-31T19:16:59.000Z",
       "source": "TechCrunch AI",
       "category": "ai",
       "xml_category": "ai",
