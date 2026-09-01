@@ -1,56 +1,63 @@
 {
-  "last_updated": "2026-09-01T05:02:36.970Z",
+  "last_updated": "2026-09-01T05:02:34.248Z",
   "generator": "dashboard-bot/1.0",
   "sources": {
     "hr_news": {
-      "updated_at": "2026-09-01T05:02:36.970Z",
+      "updated_at": "2026-09-01T05:02:34.248Z",
       "item_count": 716,
       "ok": true
     },
     "world_news": {
-      "updated_at": "2026-09-01T05:02:36.970Z",
+      "updated_at": "2026-09-01T05:02:34.248Z",
       "item_count": 255,
       "ok": true
     },
     "finance_news": {
-      "updated_at": "2026-09-01T05:02:36.970Z",
+      "updated_at": "2026-09-01T05:02:34.248Z",
       "item_count": 92,
       "ok": true
     },
     "tech_news": {
-      "updated_at": "2026-09-01T05:02:36.970Z",
+      "updated_at": "2026-09-01T05:02:34.248Z",
       "item_count": 108,
       "ok": true
     },
     "science": {
-      "updated_at": "2026-09-01T05:02:36.970Z",
+      "updated_at": "2026-09-01T05:02:34.248Z",
       "item_count": 105,
       "ok": true
     },
     "sports": {
-      "updated_at": "2026-09-01T05:02:36.970Z",
+      "updated_at": "2026-09-01T05:02:34.248Z",
       "item_count": 386,
       "ok": true
     },
     "entertainment": {
-      "updated_at": "2026-09-01T05:02:36.970Z",
+      "updated_at": "2026-09-01T05:02:34.248Z",
       "item_count": 189,
       "ok": true
     },
     "health": {
-      "updated_at": "2026-09-01T05:02:36.970Z",
+      "updated_at": "2026-09-01T05:02:34.248Z",
       "item_count": 21,
       "ok": true
     },
     "food": {
-      "updated_at": "2026-09-01T05:02:36.970Z",
+      "updated_at": "2026-09-01T05:02:34.248Z",
       "item_count": 40,
       "ok": true
     },
     "briefing": {
-      "updated_at": "2026-09-01T05:02:36.970Z",
-      "ok": false,
-      "ai_used": false
+      "updated_at": "2026-09-01T05:03:46.352Z",
+      "ok": true,
+      "ai_used": true,
+      "sections": [
+        "weather",
+        "fuel",
+        "market",
+        "ai_news",
+        "micro_tips"
+      ]
     }
   }
 }

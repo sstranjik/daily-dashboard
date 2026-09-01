@@ -1,61 +1,61 @@
 {
   "version": 2,
-  "date": "2026-08-31",
-  "generated_at": "2026-08-31T11:18:59.103Z",
-  "date_hr": "Ponedjeljak, 31. kolovoza 2026.",
+  "date": "2026-09-01",
+  "generated_at": "2026-09-01T05:03:46.352Z",
+  "date_hr": "Utorak, 1. rujna 2026.",
   "weather": {
-    "icon": "🌤️",
-    "summary": "20–34°C, djelomično oblačno",
+    "icon": "☁️",
+    "summary": "20–29°C, oblačno",
     "alerts": []
   },
   "fuel": {
-    "current_date": "31.08.2026",
+    "current_date": "01.09.2026",
     "eurodiesel": [
       {
-        "company": "Adria Oil",
-        "price": 1.86
-      },
-      {
         "company": "Coral Croatia",
-        "price": 1.86
+        "price": 1.79
       },
       {
         "company": "INA",
-        "price": 1.86
+        "price": 1.79
       },
       {
         "company": "LUKOIL Croatia",
-        "price": 1.86
+        "price": 1.79
       },
       {
         "company": "Petrol",
-        "price": 1.86
+        "price": 1.79
       },
       {
         "company": "Tifon",
+        "price": 1.79
+      },
+      {
+        "company": "Adria Oil",
         "price": 1.86
       }
     ],
     "premium_eurodiesel": [
       {
         "company": "LUKOIL Croatia",
-        "price": 2.02
+        "price": 1.95
       },
       {
         "company": "INA",
-        "price": 2.12
-      },
-      {
-        "company": "Tifon",
-        "price": 2.16
-      },
-      {
-        "company": "Coral Croatia",
-        "price": 2.19
+        "price": 2.04
       },
       {
         "company": "Petrol",
-        "price": 2.2
+        "price": 2.07
+      },
+      {
+        "company": "Tifon",
+        "price": 2.08
+      },
+      {
+        "company": "Coral Croatia",
+        "price": 2.12
       }
     ],
     "upcoming_date": null,
@@ -63,46 +63,46 @@
     "upcoming_premium": null
   },
   "market": {
-    "updated_at": "2026-08-31T11:18:59.103Z",
-    "btc_usd": 78544,
-    "btc_eur": 67716,
-    "btc_change_24h": 0.51,
-    "usd_eur": 0.8623
+    "updated_at": "2026-09-01T05:03:46.352Z",
+    "btc_usd": 78717,
+    "btc_eur": 67826,
+    "btc_change_24h": 1.53,
+    "usd_eur": 0.8614
   },
   "ai_news": [
     {
-      "title": "EK: &#039;ChatGPT, Reddit i Roblox bit će pod strožim nadzorom zbog velikog utjecaja&#039;",
-      "link": "https://www.tportal.hr/tehno/clanak/ek-chatgpt-reddit-i-roblox-bit-ce-pod-strozim-nadzorom-zbog-velikog-utjecaja-20260831",
-      "source": "Tportal"
+      "title": "The Pentagon now has its own version of ChatGPT and Grok",
+      "link": "https://techcrunch.com/2026/08/31/the-pentagon-now-has-its-own-version-of-chatgpt-and-grok/",
+      "source": "TechCrunch AI"
     },
     {
-      "title": "OpenAI has started letting some customers pay only when the AI works",
-      "link": "https://thenextweb.com/news/openai-outcome-based-pricing-enterprise",
-      "source": "The Next Web"
+      "title": "Software engineers' new job isn't writing code — it's designing the boundaries AI agents can't break",
+      "link": "https://venturebeat.com/orchestration/software-engineers-new-job-isnt-writing-code-its-designing-the-boundaries-ai-agents-cant-break",
+      "source": "VentureBeat"
     },
     {
-      "title": "Meta projected spending up to $10bn a year on Anthropic’s AI models",
-      "link": "https://thenextweb.com/news/meta-anthropic-10bn-spending-projection",
-      "source": "The Next Web"
-    },
-    {
-      "title": "SB Energy gave OpenAI $5.5bn in warrants to sign a 20-year lease",
-      "link": "https://thenextweb.com/news/sb-energy-openai-warrants-ohio-campus",
-      "source": "The Next Web"
-    },
-    {
-      "title": "Sanjaju li LLM-ovi agentski PC?",
-      "link": "https://www.bug.hr/umjetna-inteligencija/sanjaju-li-llm-ovi-agentski-pc-62467",
+      "title": "Alabama sudskim putem zatražila podatke o hakiranju Hugging Facea",
+      "link": "https://mreza.bug.hr/umjetna-inteligencija/alabama-sudskim-putem-zatrazila-podatke-o-hakiranju-hugging-facea-62345",
       "source": "Bug.hr"
+    },
+    {
+      "title": "ChatGPT Ads hits $1B annualised as the EU brings it under the Digital Services Act",
+      "link": "https://thenextweb.com/news/chatgpt-ads-1bn-run-rate-self-service-europe-dsa-vlose-designation",
+      "source": "The Next Web"
+    },
+    {
+      "title": "ChatGPT to face tougher regulation in the EU",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/986682/openai-chatgpt-eu-dsa",
+      "source": "The Verge"
     }
   ],
   "micro_tips": {
     "vscode": {
-      "tip": "Quick Fix i Code Actions na trenutnoj poziciji",
-      "keys": "Ctrl+."
+      "tip": "Toggle integrirani terminal",
+      "keys": "Ctrl+`"
     },
-    "sql": "Window funkcije (ROW_NUMBER, LAG, LEAD) umjesto self-join za redosljed i razlike",
-    "oracle": "/*+ RESULT_CACHE */ cache-ira rezultat funkcije u SGA za ponovljene pozive",
-    "regex": ".+? lazy quantifier: stane na prvom mogućem podudaranju, ne zadnjem"
+    "sql": "EXPLAIN ANALYZE prikazuje stvarne vs procijenjene redove — ključno za tuning",
+    "oracle": "CONNECT BY LEVEL <= n generira broj redova bez pomoćne tablice",
+    "regex": "[^\\n]* svaki znak osim newline — dohvati cijelu liniju bez dotall flaga"
   }
 }
