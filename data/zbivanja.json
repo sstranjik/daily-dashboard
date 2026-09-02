@@ -1,19 +1,15 @@
 {
-  "generated_at": "2026-09-02T05:01:14.870Z",
+  "generated_at": "2026-09-02T06:01:08.775Z",
   "stats": {
-    "Mochvara": {
-      "ok": true,
-      "count": 0
-    },
-    "Pogon": {
-      "ok": true,
-      "count": 0
-    },
     "muzika.hr": {
       "ok": true,
-      "count": 17
+      "count": 25
     },
     "Lisinski": {
+      "ok": true,
+      "count": 0
+    },
+    "Gavella": {
       "ok": true,
       "count": 0
     },
@@ -21,15 +17,23 @@
       "ok": true,
       "count": 3
     },
-    "Gavella": {
+    "Mochvara": {
+      "ok": true,
+      "count": 17
+    },
+    "Komedija": {
       "ok": true,
       "count": 0
     },
-    "muzika.hr": {
-      "ok": true,
-      "count": 25
-    },
     "ZeKaeM": {
+      "ok": true,
+      "count": 0
+    },
+    "HNK Zagreb": {
+      "ok": true,
+      "count": 122
+    },
+    "Pogon": {
       "ok": true,
       "count": 0
     },
@@ -40,14 +44,6 @@
     "Trešnja": {
       "ok": true,
       "count": 0
-    },
-    "Komedija": {
-      "ok": true,
-      "count": 0
-    },
-    "HNK Zagreb": {
-      "ok": true,
-      "count": 122
     }
   },
   "concerts": [
@@ -843,7 +839,7 @@
       "time": "19:30",
       "link": "https://mochvara.hr/event-detail/6a95f0a8074589408db414df/",
       "source": "Mochvara",
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-09-02T05:01:12.895Z"
     },
     {
@@ -3701,5 +3697,5 @@
       "first_seen": "2026-08-09T05:01:15.939Z"
     }
   ],
-  "new_count": 10
+  "new_count": 9
 }
