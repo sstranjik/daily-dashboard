@@ -1,17 +1,13 @@
 {
-  "generated_at": "2026-09-01T21:29:19.014Z",
+  "generated_at": "2026-09-02T05:01:12.895Z",
   "stats": {
-    "muzika.hr": {
+    "Mochvara": {
       "ok": true,
-      "count": 25
+      "count": 17
     },
     "Lisinski": {
       "ok": true,
       "count": 0
-    },
-    "Mochvara": {
-      "ok": true,
-      "count": 17
     },
     "Tvornica": {
       "ok": true,
@@ -20,6 +16,10 @@
     "Gavella": {
       "ok": true,
       "count": 0
+    },
+    "muzika.hr": {
+      "ok": true,
+      "count": 25
     },
     "ZeKaeM": {
       "ok": true,
@@ -47,21 +47,6 @@
     }
   },
   "concerts": [
-    {
-      "id": "7250836347",
-      "title": "Lorde",
-      "venue": "Lorde Arena Pula Flavijevska ulica",
-      "city": "Pula",
-      "country": "HR",
-      "category": "concert",
-      "date_iso": "2026-08-18T00:00:00",
-      "date_display": "uto, 18. 08. 2026.",
-      "time": null,
-      "link": "https://www.muzika.hr/event/lorde-4/",
-      "source": "muzika.hr",
-      "is_new": false,
-      "first_seen": "2026-07-22T05:01:15.066Z"
-    },
     {
       "id": "0bc258fccf",
       "title": "Začarani birc: Lôba i Yoni Yohai (live)",
@@ -841,6 +826,21 @@
       "source": "HNK Zagreb",
       "is_new": false,
       "first_seen": "2026-07-30T14:01:19.113Z"
+    },
+    {
+      "id": "1bfa282543",
+      "title": "Glazbeni kviz u Močvari #33",
+      "venue": "Mochvara",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-09-08T19:30:00",
+      "date_display": "uto, 08. 09. 2026.",
+      "time": "19:30",
+      "link": "https://mochvara.hr/event-detail/6a95f0a8074589408db414df/",
+      "source": "Mochvara",
+      "is_new": true,
+      "first_seen": "2026-09-02T05:01:12.895Z"
     },
     {
       "id": "a0be8cdab7",
@@ -3697,5 +3697,5 @@
       "first_seen": "2026-08-09T05:01:15.939Z"
     }
   ],
-  "new_count": 9
+  "new_count": 10
 }
