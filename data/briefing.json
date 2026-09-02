@@ -1,16 +1,20 @@
 {
   "version": 2,
-  "date": "2026-09-01",
-  "generated_at": "2026-09-01T09:43:39.614Z",
-  "date_hr": "Utorak, 1. rujna 2026.",
+  "date": "2026-09-02",
+  "generated_at": "2026-09-02T05:02:21.759Z",
+  "date_hr": "Srijeda, 2. rujna 2026.",
   "weather": {
     "icon": "☁️",
-    "summary": "20–29°C, oblačno",
+    "summary": "18–30°C, oblačno",
     "alerts": []
   },
   "fuel": {
-    "current_date": "01.09.2026",
+    "current_date": "02.09.2026",
     "eurodiesel": [
+      {
+        "company": "Adria Oil",
+        "price": 1.79
+      },
       {
         "company": "Coral Croatia",
         "price": 1.79
@@ -30,10 +34,6 @@
       {
         "company": "Tifon",
         "price": 1.79
-      },
-      {
-        "company": "Adria Oil",
-        "price": 1.86
       }
     ],
     "premium_eurodiesel": [
@@ -46,16 +46,16 @@
         "price": 2.04
       },
       {
+        "company": "Tifon",
+        "price": 2.04
+      },
+      {
         "company": "Petrol",
         "price": 2.07
       },
       {
-        "company": "Tifon",
-        "price": 2.08
-      },
-      {
         "company": "Coral Croatia",
-        "price": 2.12
+        "price": 2.1
       }
     ],
     "upcoming_date": null,
@@ -63,46 +63,46 @@
     "upcoming_premium": null
   },
   "market": {
-    "updated_at": "2026-09-01T09:43:39.614Z",
-    "btc_usd": 77938,
-    "btc_eur": 67199,
-    "btc_change_24h": -0.87,
-    "usd_eur": 0.8614
+    "updated_at": "2026-09-02T05:02:21.759Z",
+    "btc_usd": 77525,
+    "btc_eur": 66967,
+    "btc_change_24h": -1.51,
+    "usd_eur": 0.8625
   },
   "ai_news": [
     {
-      "title": "The Pentagon now has its own version of ChatGPT and Grok",
-      "link": "https://techcrunch.com/2026/08/31/the-pentagon-now-has-its-own-version-of-chatgpt-and-grok/",
-      "source": "TechCrunch AI"
+      "title": "Anthropic launches Claude Fable 5.1 and says it&#8217;s up to 45 percent cheaper for agentic work",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/987830/anthropic-claude-fable-mythos-5-1",
+      "source": "The Verge"
     },
     {
-      "title": "Software engineers' new job isn't writing code — it's designing the boundaries AI agents can't break",
-      "link": "https://venturebeat.com/orchestration/software-engineers-new-job-isnt-writing-code-its-designing-the-boundaries-ai-agents-cant-break",
+      "title": "Anthropic's Claude Fable 5.1 and Mythos 5.1 arrive with a 75% cost reduction for Fable cache reads",
+      "link": "https://venturebeat.com/technology/anthropics-claude-fable-5-1-and-mythos-5-1-arrive-with-a-75-cost-reduction-for-fable-cache-reads",
       "source": "VentureBeat"
     },
     {
-      "title": "Alabama sudskim putem zatražila podatke o hakiranju Hugging Facea",
-      "link": "https://mreza.bug.hr/umjetna-inteligencija/alabama-sudskim-putem-zatrazila-podatke-o-hakiranju-hugging-facea-62345",
-      "source": "Bug.hr"
+      "title": "OpenAI&#8217;s Astra model is on the way — and very good at breaking into computer systems",
+      "link": "https://techcrunch.com/2026/09/01/open-ais-astra-model-is-on-the-way-and-very-good-at-breaking-into-computer-systems/",
+      "source": "TechCrunch AI"
     },
     {
-      "title": "ChatGPT Ads hits $1B annualised as the EU brings it under the Digital Services Act",
-      "link": "https://thenextweb.com/news/chatgpt-ads-1bn-run-rate-self-service-europe-dsa-vlose-designation",
-      "source": "The Next Web"
-    },
-    {
-      "title": "ChatGPT to face tougher regulation in the EU",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/986682/openai-chatgpt-eu-dsa",
+      "title": "OpenAI delayed its new model’s development after the Hugging Face hack",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/987695/openai-astra-unreleased-model-cybersecurity-delay",
       "source": "The Verge"
+    },
+    {
+      "title": "Anthropic releases Claude Fable 5.1 and Mythos 5.1, cutting cache read prices by 75%",
+      "link": "https://thenextweb.com/news/claude-fable-mythos-5-1-eu-ai-act-watermark-detection-api-private-preview",
+      "source": "The Next Web"
     }
   ],
   "micro_tips": {
     "vscode": {
-      "tip": "Toggle integrirani terminal",
-      "keys": "Ctrl+`"
+      "tip": "Selektiraj sva pojavljivanja trenutne riječi",
+      "keys": "Ctrl+Shift+L"
     },
-    "sql": "EXPLAIN ANALYZE prikazuje stvarne vs procijenjene redove — ključno za tuning",
-    "oracle": "CONNECT BY LEVEL <= n generira broj redova bez pomoćne tablice",
-    "regex": "[^\\n]* svaki znak osim newline — dohvati cijelu liniju bez dotall flaga"
+    "sql": "Partial index s WHERE klauzulom smanjuje veličinu i ubrzava specifična filtriranja",
+    "oracle": "LISTAGG(col, ',') WITHIN GROUP (ORDER BY col) konkatenira u jedan string",
+    "regex": "(?<ime>\\d{4}) named group — referenciraj s \\k<ime> ili $<ime> u replace"
   }
 }
