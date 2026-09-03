@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-03T16:01:20.318Z",
+  "generated_at": "2026-09-03T17:01:12.759Z",
   "stats": {
     "muzika.hr": {
       "ok": true,
@@ -9,19 +9,15 @@
       "ok": true,
       "count": 0
     },
-    "Mochvara": {
-      "ok": true,
-      "count": 17
-    },
     "Tvornica": {
       "ok": true,
       "count": 3
     },
-    "Gavella": {
+    "Mochvara": {
       "ok": true,
-      "count": 0
+      "count": 17
     },
-    "ZeKaeM": {
+    "Gavella": {
       "ok": true,
       "count": 0
     },
@@ -29,11 +25,15 @@
       "ok": true,
       "count": 0
     },
-    "Pogon": {
+    "ZeKaeM": {
       "ok": true,
       "count": 0
     },
     "Kerempuh": {
+      "ok": true,
+      "count": 0
+    },
+    "Pogon": {
       "ok": true,
       "count": 0
     },
@@ -42,26 +42,11 @@
       "count": 122
     },
     "Trešnja": {
-      "ok": true,
-      "count": 0
+      "ok": false,
+      "error": "The operation was aborted due to timeout"
     }
   },
   "concerts": [
-    {
-      "id": "5f63ebf572",
-      "title": "Močvarni birc: Summertime sadness",
-      "venue": "Mochvara",
-      "city": "Zagreb",
-      "country": "HR",
-      "category": "concert",
-      "date_iso": "2026-08-19T17:00:00",
-      "date_display": "sri, 19. 08. 2026.",
-      "time": "17:00",
-      "link": "https://mochvara.hr/event-detail/6a79b3288235729e39c2589f/?lang=hr",
-      "source": "Mochvara",
-      "is_new": false,
-      "first_seen": "2026-08-14T05:01:09.612Z"
-    },
     {
       "id": "bc800c7274",
       "title": "Anarho-crust-grind gig: Avet, Trulež, Zoiz",
