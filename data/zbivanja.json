@@ -1,19 +1,19 @@
 {
-  "generated_at": "2026-09-03T05:01:11.352Z",
+  "generated_at": "2026-09-03T05:01:19.174Z",
   "stats": {
     "Mochvara": {
       "ok": true,
-      "count": 17
+      "count": 3
     },
     "muzika.hr": {
       "ok": true,
       "count": 25
     },
-    "Tvornica": {
-      "ok": true,
-      "count": 3
-    },
     "Lisinski": {
+      "ok": true,
+      "count": 0
+    },
+    "ZeKaeM": {
       "ok": true,
       "count": 0
     },
@@ -25,25 +25,29 @@
       "ok": false,
       "error": "HTTP 500"
     },
-    "ZeKaeM": {
-      "ok": true,
-      "count": 0
-    },
     "Pogon": {
       "ok": true,
       "count": 0
     },
+    "Komedija": {
+      "ok": false,
+      "error": "fetch failed"
+    },
+    "HNK Zagreb": {
+      "ok": false,
+      "error": "fetch failed"
+    },
     "Kerempuh": {
-      "ok": true,
-      "count": 0
+      "ok": false,
+      "error": "The operation was aborted due to timeout"
     },
     "HNK Zagreb": {
       "ok": true,
       "count": 122
     },
     "Trešnja": {
-      "ok": true,
-      "count": 0
+      "ok": false,
+      "error": "The operation was aborted due to timeout"
     }
   },
   "concerts": [
@@ -855,7 +859,7 @@
       "link": "https://mochvara.hr/event-detail/6a90227c213efb5125034e23/",
       "source": "Mochvara",
       "is_new": true,
-      "first_seen": "2026-09-03T05:01:11.352Z"
+      "first_seen": "2026-09-03T05:01:19.174Z"
     },
     {
       "id": "e8c2ae2fb9",

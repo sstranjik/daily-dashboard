@@ -1,15 +1,15 @@
 {
   "version": 2,
-  "date": "2026-09-02",
-  "generated_at": "2026-09-02T09:16:10.939Z",
-  "date_hr": "Srijeda, 2. rujna 2026.",
+  "date": "2026-09-03",
+  "generated_at": "2026-09-03T05:02:40.954Z",
+  "date_hr": "Četvrtak, 3. rujna 2026.",
   "weather": {
     "icon": "☁️",
-    "summary": "18–30°C, oblačno",
+    "summary": "19–30°C, oblačno",
     "alerts": []
   },
   "fuel": {
-    "current_date": "02.09.2026",
+    "current_date": "03.09.2026",
     "eurodiesel": [
       {
         "company": "Adria Oil",
@@ -63,46 +63,46 @@
     "upcoming_premium": null
   },
   "market": {
-    "updated_at": "2026-09-02T09:16:10.939Z",
-    "btc_usd": 76959,
-    "btc_eur": 66481,
-    "btc_change_24h": -1.09,
-    "usd_eur": 0.8625
+    "updated_at": "2026-09-03T05:02:40.954Z",
+    "btc_usd": 77747,
+    "btc_eur": 67049,
+    "btc_change_24h": 0.34,
+    "usd_eur": 0.8633
   },
   "ai_news": [
     {
-      "title": "Anthropic launches Claude Fable 5.1 and says it&#8217;s up to 45 percent cheaper for agentic work",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/987830/anthropic-claude-fable-mythos-5-1",
-      "source": "The Verge"
-    },
-    {
-      "title": "Anthropic's Claude Fable 5.1 and Mythos 5.1 arrive with a 75% cost reduction for Fable cache reads",
-      "link": "https://venturebeat.com/technology/anthropics-claude-fable-5-1-and-mythos-5-1-arrive-with-a-75-cost-reduction-for-fable-cache-reads",
+      "title": "Google’s Gemini 3.8 Flash is built for agents, while its Cyber twin hunts vulnerabilities",
+      "link": "https://venturebeat.com/security/googles-gemini-3-8-flash-is-built-for-agents-while-its-cyber-twin-hunts-vulnerabilities",
       "source": "VentureBeat"
     },
     {
-      "title": "OpenAI&#8217;s Astra model is on the way — and very good at breaking into computer systems",
-      "link": "https://techcrunch.com/2026/09/01/open-ais-astra-model-is-on-the-way-and-very-good-at-breaking-into-computer-systems/",
+      "title": "Stolen Claude session cookies can reach corporate Gmail through grants no IT admin can revoke",
+      "link": "https://venturebeat.com/security/stolen-claude-session-cookies-can-reach-corporate-gmail-through-grants-no-it-admin-can-revoke",
+      "source": "VentureBeat"
+    },
+    {
+      "title": "US government sides with OpenAI on issue of training LLMs on copyrighted material",
+      "link": "https://techcrunch.com/2026/09/02/u-s-government-sides-with-openai-on-issue-of-training-llms-on-copyrighted-material/",
       "source": "TechCrunch AI"
     },
     {
-      "title": "OpenAI delayed its new model’s development after the Hugging Face hack",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/987695/openai-astra-unreleased-model-cybersecurity-delay",
-      "source": "The Verge"
+      "title": "OpenAI says its next model finds security flaws nobody has found yet",
+      "link": "https://thenextweb.com/news/openai-astra-model-guardrails-cyber",
+      "source": "The Next Web"
     },
     {
-      "title": "Anthropic releases Claude Fable 5.1 and Mythos 5.1, cutting cache read prices by 75%",
-      "link": "https://thenextweb.com/news/claude-fable-mythos-5-1-eu-ai-act-watermark-detection-api-private-preview",
+      "title": "Google releases Gemini 3.8 Flash and a cybersecurity variant limited to governments",
+      "link": "https://thenextweb.com/news/gemini-3-8-flash-cyber-release-cadence-eu-ai-act-gpai-article-53",
       "source": "The Next Web"
     }
   ],
   "micro_tips": {
     "vscode": {
-      "tip": "Selektiraj sva pojavljivanja trenutne riječi",
-      "keys": "Ctrl+Shift+L"
+      "tip": "Pomakni liniju gore ili dolje bez cut/paste",
+      "keys": "Alt+↑ / Alt+↓"
     },
-    "sql": "Partial index s WHERE klauzulom smanjuje veličinu i ubrzava specifična filtriranja",
-    "oracle": "LISTAGG(col, ',') WITHIN GROUP (ORDER BY col) konkatenira u jedan string",
-    "regex": "(?<ime>\\d{4}) named group — referenciraj s \\k<ime> ili $<ime> u replace"
+    "sql": "GROUP BY s ROLLUP za subtotale u jednom prolasku: GROUP BY ROLLUP(god, mj)",
+    "oracle": "TRUNC(datum_kolona) = TRUNC(SYSDATE) koristi B-tree index na datumskoj koloni",
+    "regex": "\\d{4}-\\d{2}-\\d{2} ISO datum pattern; za validaciju zatvori s ^...$"
   }
 }
