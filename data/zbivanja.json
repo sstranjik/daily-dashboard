@@ -1,35 +1,7 @@
 {
-  "generated_at": "2026-09-04T09:01:20.660Z",
+  "generated_at": "2026-09-04T09:23:19.489Z",
   "stats": {
-    "Tvornica": {
-      "ok": true,
-      "count": 3
-    },
-    "Lisinski": {
-      "ok": true,
-      "count": 0
-    },
-    "Gavella": {
-      "ok": true,
-      "count": 0
-    },
     "Mochvara": {
-      "ok": true,
-      "count": 17
-    },
-    "muzika.hr": {
-      "ok": true,
-      "count": 25
-    },
-    "ZeKaeM": {
-      "ok": true,
-      "count": 0
-    },
-    "Komedija": {
-      "ok": true,
-      "count": 0
-    },
-    "Kerempuh": {
       "ok": true,
       "count": 0
     },
@@ -37,13 +9,41 @@
       "ok": true,
       "count": 0
     },
-    "HNK Zagreb": {
+    "muzika.hr": {
       "ok": true,
-      "count": 121
+      "count": 25
+    },
+    "Lisinski": {
+      "ok": true,
+      "count": 0
+    },
+    "Tvornica": {
+      "ok": true,
+      "count": 3
+    },
+    "Gavella": {
+      "ok": true,
+      "count": 0
+    },
+    "ZeKaeM": {
+      "ok": true,
+      "count": 0
     },
     "Trešnja": {
       "ok": true,
       "count": 0
+    },
+    "Kerempuh": {
+      "ok": true,
+      "count": 0
+    },
+    "Komedija": {
+      "ok": true,
+      "count": 0
+    },
+    "HNK Zagreb": {
+      "ok": true,
+      "count": 121
     }
   },
   "concerts": [
@@ -2534,7 +2534,7 @@
       "time": "11:00",
       "link": "https://hnk.hr/hr/opera/predstave/klasika-nedjeljom-2210/#08.11.11.00",
       "source": "HNK Zagreb",
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-09-04T09:01:20.660Z"
     },
     {
@@ -3637,5 +3637,5 @@
       "first_seen": "2026-08-09T05:01:15.939Z"
     }
   ],
-  "new_count": 10
+  "new_count": 9
 }
