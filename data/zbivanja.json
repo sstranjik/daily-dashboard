@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-05T14:01:09.396Z",
+  "generated_at": "2026-09-05T15:01:07.995Z",
   "stats": {
     "muzika.hr": {
       "ok": true,
@@ -21,15 +21,15 @@
       "ok": true,
       "count": 3
     },
-    "ZeKaeM": {
-      "ok": true,
-      "count": 0
-    },
     "Komedija": {
       "ok": true,
       "count": 0
     },
     "Pogon": {
+      "ok": true,
+      "count": 0
+    },
+    "ZeKaeM": {
       "ok": true,
       "count": 0
     },
@@ -916,6 +916,21 @@
       "source": "muzika.hr",
       "is_new": false,
       "first_seen": "2026-08-04T05:01:13.042Z"
+    },
+    {
+      "id": "630babc017",
+      "title": "Back to nulte",
+      "venue": "Mochvara",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-09-11T22:00:00",
+      "date_display": "pet, 11. 09. 2026.",
+      "time": "22:00",
+      "link": "https://mochvara.hr/event-detail/6a902cd2213efb5125144f6a/",
+      "source": "Mochvara",
+      "is_new": true,
+      "first_seen": "2026-09-05T15:01:07.995Z"
     },
     {
       "id": "ee38df851e",
@@ -3952,5 +3967,5 @@
       "first_seen": "2026-08-09T05:01:15.939Z"
     }
   ],
-  "new_count": 9
+  "new_count": 10
 }
