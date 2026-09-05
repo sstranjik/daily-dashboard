@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-05T15:01:07.995Z",
+  "generated_at": "2026-09-05T16:01:06.417Z",
   "stats": {
     "muzika.hr": {
       "ok": true,
@@ -13,19 +13,15 @@
       "ok": true,
       "count": 0
     },
-    "Gavella": {
-      "ok": true,
-      "count": 19
-    },
     "Tvornica": {
       "ok": true,
       "count": 3
     },
-    "Komedija": {
+    "Gavella": {
       "ok": true,
-      "count": 0
+      "count": 19
     },
-    "Pogon": {
+    "Komedija": {
       "ok": true,
       "count": 0
     },
@@ -38,6 +34,10 @@
       "count": 120
     },
     "Kerempuh": {
+      "ok": true,
+      "count": 0
+    },
+    "Pogon": {
       "ok": true,
       "count": 0
     },
@@ -1006,6 +1006,21 @@
       "source": "HNK Zagreb",
       "is_new": false,
       "first_seen": "2026-06-18T13:01:15.839Z"
+    },
+    {
+      "id": "ddfefce30c",
+      "title": "Dirty Dancing – 80’s smash hit party",
+      "venue": "Mochvara",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-09-12T22:00:00",
+      "date_display": "sub, 12. 09. 2026.",
+      "time": "22:00",
+      "link": "https://mochvara.hr/event-detail/6a902c73213efb512513f143/",
+      "source": "Mochvara",
+      "is_new": true,
+      "first_seen": "2026-09-05T16:01:06.417Z"
     },
     {
       "id": "078b470320",
@@ -3967,5 +3982,5 @@
       "first_seen": "2026-08-09T05:01:15.939Z"
     }
   ],
-  "new_count": 10
+  "new_count": 11
 }
