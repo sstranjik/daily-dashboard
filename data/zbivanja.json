@@ -1,23 +1,11 @@
 {
-  "generated_at": "2026-09-04T22:04:34.924Z",
+  "generated_at": "2026-09-05T05:01:03.821Z",
   "stats": {
     "muzika.hr": {
       "ok": true,
       "count": 25
     },
-    "Mochvara": {
-      "ok": true,
-      "count": 17
-    },
     "Lisinski": {
-      "ok": true,
-      "count": 0
-    },
-    "Gavella": {
-      "ok": true,
-      "count": 19
-    },
-    "ZeKaeM": {
       "ok": true,
       "count": 0
     },
@@ -25,11 +13,23 @@
       "ok": true,
       "count": 3
     },
-    "Komedija": {
+    "Gavella": {
+      "ok": true,
+      "count": 19
+    },
+    "Mochvara": {
+      "ok": true,
+      "count": 17
+    },
+    "ZeKaeM": {
       "ok": true,
       "count": 0
     },
     "Pogon": {
+      "ok": true,
+      "count": 0
+    },
+    "Komedija": {
       "ok": true,
       "count": 0
     },
@@ -38,12 +38,12 @@
       "count": 0
     },
     "HNK Zagreb": {
-      "ok": false,
-      "error": "The operation was aborted due to timeout"
+      "ok": true,
+      "count": 120
     },
     "Trešnja": {
-      "ok": false,
-      "error": "The operation was aborted due to timeout"
+      "ok": true,
+      "count": 0
     }
   },
   "concerts": [
@@ -781,6 +781,21 @@
       "source": "Mochvara",
       "is_new": false,
       "first_seen": "2026-09-03T05:01:19.174Z"
+    },
+    {
+      "id": "f076271f33",
+      "title": "Synth-punk/darkwave/post-punk gig: distraction4ever, NECRØ, Estetica Noir",
+      "venue": "Mochvara",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-09-10T19:30:00",
+      "date_display": "čet, 10. 09. 2026.",
+      "time": "19:30",
+      "link": "https://mochvara.hr/event-detail/6a5f73cb331f02318ed463ae/",
+      "source": "Mochvara",
+      "is_new": true,
+      "first_seen": "2026-09-05T05:01:03.821Z"
     },
     {
       "id": "e8c2ae2fb9",
@@ -3907,5 +3922,5 @@
       "first_seen": "2026-08-09T05:01:15.939Z"
     }
   ],
-  "new_count": 9
+  "new_count": 10
 }
