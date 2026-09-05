@@ -1,15 +1,15 @@
 {
   "version": 2,
-  "date": "2026-09-04",
-  "generated_at": "2026-09-04T09:24:25.467Z",
-  "date_hr": "Petak, 4. rujna 2026.",
+  "date": "2026-09-05",
+  "generated_at": "2026-09-05T05:02:20.070Z",
+  "date_hr": "Subota, 5. rujna 2026.",
   "weather": {
-    "icon": "🌧️",
-    "summary": "21–33°C, lagana kiša",
+    "icon": "☁️",
+    "summary": "21–31°C, oblačno",
     "alerts": []
   },
   "fuel": {
-    "current_date": "04.09.2026",
+    "current_date": "05.09.2026",
     "eurodiesel": [
       {
         "company": "Adria Oil",
@@ -63,46 +63,46 @@
     "upcoming_premium": null
   },
   "market": {
-    "updated_at": "2026-09-04T09:24:25.467Z",
-    "btc_usd": 81028,
-    "btc_eur": 69710,
-    "btc_change_24h": 4.12,
-    "usd_eur": 0.8606
+    "updated_at": "2026-09-05T05:02:20.070Z",
+    "btc_usd": 79513,
+    "btc_eur": 68457,
+    "btc_change_24h": -1.83,
+    "usd_eur": 0.8611
   },
   "ai_news": [
     {
-      "title": "ChatGPT, Grok, and Claude all went down at the same time",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/989503/chatgpt-grok-claude-outage-down",
-      "source": "The Verge"
-    },
-    {
-      "title": "OpenAI’s new model aces the benchmarks and admits it is better at hiding",
-      "link": "https://thenextweb.com/news/gpt-6-astra-benchmarks-monitorability-cyber",
+      "title": "OpenAI says it has overtaken Anthropic with a model that sometimes tries to evade oversight",
+      "link": "https://thenextweb.com/news/openai-astra-agi-claim-cybersecurity-containment",
       "source": "The Next Web"
     },
     {
-      "title": "The 24-hour CRA deadline is changing software supply chain visibility",
-      "link": "https://thenextweb.com/news/cra-24-hour-deadline-software-supply-chain-sbom",
+      "title": "OpenAI agents discussed ways to escape their sandbox on public wiki",
+      "link": "https://arstechnica.com/security/2026/09/openai-agents-discussed-ways-to-escape-their-sandbox-on-public-wiki/",
+      "source": "Ars Technica"
+    },
+    {
+      "title": "Google patches multiple Chrome bugs including a V8 flaw being used in attacks",
+      "link": "https://thenextweb.com/news/chrome-v8-zero-day-cve-2026-85046-patch-1000-dollar-bounty-cyber-resilience-act-article-14-enisa-11-september",
       "source": "The Next Web"
     },
     {
-      "title": "Nvidia launches free tool that links idle computers into a personal AI data center",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/989435/nvidia-pair-personal-ai-router-home-local-llm-compute-tool-rtx-macbook",
-      "source": "The Verge"
+      "title": "Microsoft tells court Copilot rarely copies books while selling OpenAI’s most capable model",
+      "link": "https://thenextweb.com/news/microsoft-copilot-fair-use-brief-gpt-6-astra-foundry-eu-ai-act-article-55-systemic-risk-data-zone",
+      "source": "The Next Web"
     },
     {
-      "title": "OpenAI puts $1bn behind cyber defence for water utilities and community banks",
-      "link": "https://thenextweb.com/news/openai-1bn-daybreak-frontline-defenders",
+      "title": "The EU has regulated ChatGPT as a search engine. Calling it a platform would have handed OpenAI a liability shield.",
+      "link": "https://thenextweb.com/news/eu-chatgpt-vlose-designation-safe-harbour-gap",
       "source": "The Next Web"
     }
   ],
   "micro_tips": {
     "vscode": {
-      "tip": "Format Document (auto-format cijelog fajla)",
-      "keys": "Shift+Alt+F"
+      "tip": "Go to Definition simbola",
+      "keys": "F12"
     },
-    "sql": "NOT EXISTS brži od NOT IN kad subquery može vratiti NULL vrijednost",
-    "oracle": "DBMS_STATS.GATHER_TABLE_STATS osvježava statistike za točniji execution plan",
-    "regex": "(?i) inline flag za case-insensitive bez mijenjanja ostatka patternahe"
+    "sql": "Parametrizirani upiti = plan cache reuse + SQL injection zaštita istovremeno",
+    "oracle": "NVL2(expr, kad_nije_null, kad_je_null) kompaktnija od dvostrukog NVL-a",
+    "regex": "\\s+ pokriva space, tab i newline; \\S je negacija (svaki ne-whitespace)"
   }
 }
