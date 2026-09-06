@@ -1,15 +1,15 @@
 {
   "version": 2,
-  "date": "2026-09-05",
-  "generated_at": "2026-09-05T08:47:14.124Z",
-  "date_hr": "Subota, 5. rujna 2026.",
+  "date": "2026-09-06",
+  "generated_at": "2026-09-06T05:02:17.844Z",
+  "date_hr": "Nedjelja, 6. rujna 2026.",
   "weather": {
     "icon": "☁️",
-    "summary": "21–30°C, oblačno",
+    "summary": "21–28°C, oblačno",
     "alerts": []
   },
   "fuel": {
-    "current_date": "05.09.2026",
+    "current_date": "06.09.2026",
     "eurodiesel": [
       {
         "company": "Adria Oil",
@@ -63,46 +63,46 @@
     "upcoming_premium": null
   },
   "market": {
-    "updated_at": "2026-09-05T08:47:14.124Z",
-    "btc_usd": 79615,
-    "btc_eur": 68551,
-    "btc_change_24h": -1.8,
+    "updated_at": "2026-09-06T05:02:17.844Z",
+    "btc_usd": 79863,
+    "btc_eur": 68764,
+    "btc_change_24h": 0.44,
     "usd_eur": 0.8611
   },
   "ai_news": [
     {
-      "title": "OpenAI says it has overtaken Anthropic with a model that sometimes tries to evade oversight",
-      "link": "https://thenextweb.com/news/openai-astra-agi-claim-cybersecurity-containment",
+      "title": "OpenAI priznao: Naši AI agenti oteli su kontrolu nad njemačkom wiki stranicom",
+      "link": "https://www.bug.hr/umjetna-inteligencija/openai-priznao-nasi-ai-agenti-oteli-su-kontrolu-nad-njemackom-wiki-stranicom-62642",
+      "source": "Bug.hr"
+    },
+    {
+      "title": "California is deciding who may verify AI, and one investigation already cost $400,000 in tokens",
+      "link": "https://thenextweb.com/news/california-sb-813-independent-verification-organisations-metr-400000-tokens-openai-paid-eu-ai-act-scientific-panel-article-68",
       "source": "The Next Web"
     },
     {
-      "title": "OpenAI agents discussed ways to escape their sandbox on public wiki",
-      "link": "https://arstechnica.com/security/2026/09/openai-agents-discussed-ways-to-escape-their-sandbox-on-public-wiki/",
-      "source": "Ars Technica"
+      "title": "OpenAI confirms ‘wiki incident,’ says it’s ‘working on a framework’ for more disclosure",
+      "link": "https://techcrunch.com/2026/09/05/openai-confirms-wiki-incident-says-its-working-on-a-framework-for-more-disclosure/",
+      "source": "TechCrunch AI"
     },
     {
-      "title": "Google patches multiple Chrome bugs including a V8 flaw being used in attacks",
-      "link": "https://thenextweb.com/news/chrome-v8-zero-day-cve-2026-85046-patch-1000-dollar-bounty-cyber-resilience-act-article-14-enisa-11-september",
-      "source": "The Next Web"
+      "title": "Seattle Times and Newsday are the latest publications to sue OpenAI and Microsoft",
+      "link": "https://techcrunch.com/2026/09/05/seattle-times-and-newsday-are-the-latest-publications-to-sue-openai-and-microsoft/",
+      "source": "TechCrunch AI"
     },
     {
-      "title": "Microsoft tells court Copilot rarely copies books while selling OpenAI’s most capable model",
-      "link": "https://thenextweb.com/news/microsoft-copilot-fair-use-brief-gpt-6-astra-foundry-eu-ai-act-article-55-systemic-risk-data-zone",
-      "source": "The Next Web"
-    },
-    {
-      "title": "The EU has regulated ChatGPT as a search engine. Calling it a platform would have handed OpenAI a liability shield.",
-      "link": "https://thenextweb.com/news/eu-chatgpt-vlose-designation-safe-harbour-gap",
+      "title": "Two more newsrooms join the case against OpenAI and Microsoft",
+      "link": "https://thenextweb.com/news/seattle-times-newsday-sue-openai-microsoft-copyright-paywall-bypass-gpai-code-of-practice-copyright-chapter-measure-1-2",
       "source": "The Next Web"
     }
   ],
   "micro_tips": {
     "vscode": {
-      "tip": "Go to Definition simbola",
-      "keys": "F12"
+      "tip": "Peek Definition bez napuštanja fajla",
+      "keys": "Alt+F12"
     },
-    "sql": "Parametrizirani upiti = plan cache reuse + SQL injection zaštita istovremeno",
-    "oracle": "NVL2(expr, kad_nije_null, kad_je_null) kompaktnija od dvostrukog NVL-a",
-    "regex": "\\s+ pokriva space, tab i newline; \\S je negacija (svaki ne-whitespace)"
+    "sql": "Batch INSERT umjesto jednog-po-jednog: INSERT INTO t VALUES (...),(...),...",
+    "oracle": "FETCH FIRST n ROWS ONLY umjesto ROWNUM — kompatibilno s ORDER BY i čitljivije",
+    "regex": "^(?!.*pattern) negative lookahead: \"ova linija ne smije sadržavati X\""
   }
 }
