@@ -1,9 +1,81 @@
 {
-  "last_updated": "2026-09-07T17:01:11.214Z",
+  "last_updated": "2026-09-07T18:01:06.500Z",
   "source_count": 11,
   "items": [
     {
+      "id": "bug.hr-0",
+      "title": "Acer je predstavio monitor s osvježavanjem od suludih 1.000 Hz i 5K Mini LED model",
+      "summary": "Predator XB253Q U1 prvi je Acerov monitor s osvježavanjem od 1.000 Hz, dok Nitro XV275X P kombinira 5K razlučivost, 2.304 zone Mini LED pozadinskog osvjetljenja i prebacivanje na 330 Hz",
+      "link": "https://www.bug.hr/dogadjaji/acer-je-predstavio-monitor-s-osvjezavanjem-od-suludih-1000-hz-i-5k-mini-led-62648",
+      "published": "2026-09-07T18:00:00.000Z",
+      "source": "Bug.hr",
+      "category": "general",
+      "xml_category": "događaji",
+      "tags": [],
+      "image": "https://www.bug.hr/img/acer-je-predstavio-monitor-s-osvjezavanjem-od-suludih-1000-hz-i-5k-mini-led_f80xAE.jpg"
+    },
+    {
+      "id": "bug.hr-1",
+      "title": "Xiaomijevi automobili stižu na europsko tržište",
+      "summary": "Nakon golemog uspjeha u Kini, tehnološki div Xiaomi najavio je prodaju svojih električnih automobila u Europi od 2027. godine",
+      "link": "https://autonet.bug.hr/elektricna-vozila/xiaomijevi-automobili-stizu-na-europsko-trziste-62680",
+      "published": "2026-09-07T18:00:00.000Z",
+      "source": "Bug.hr",
+      "category": "general",
+      "xml_category": "električna vozila",
+      "tags": [],
+      "image": "https://autonet.bug.hr/img/xiaomijevi-automobili-stizu-na-europsko-trziste_uvwe1G.jpg"
+    },
+    {
       "id": "the-next-web-0",
+      "title": "Why manufacturers under workforce pressure should look closely at the tool drawer",
+      "summary": "For a manufacturer short on skilled people, time can disappear in routine places. A worker searches a drawer, walks back for a forgotten part, or discovers too late that an item is missing. PwC reported that U.S. manufacturing averaged about 420,000 job openings in 2025. Deloitte has also cited an e",
+      "link": "https://thenextweb.com/news/manufacturers-workforce-tool-drawer-tracemyspace",
+      "published": "2026-09-07T17:47:25.000Z",
+      "source": "The Next Web",
+      "category": "general",
+      "xml_category": "startups and technology",
+      "tags": [],
+      "image": "https://media.thenextweb.com/2026/09/manufacturers-workforce-tool-drawer-tracemyspace2.avif"
+    },
+    {
+      "id": "the-next-web-1",
+      "title": "AI agent reliability requires a new model of observability",
+      "summary": "The rapid adoption of AI agents is changing the architecture of how organizations operate. Agents can interpret information, make decisions, interact with enterprise systems, and execute tasks with a degree of autonomy that would previously have required human involvement. That autonomy creates sign",
+      "link": "https://thenextweb.com/news/ai-agent-reliability-observability-moyai-robert-hommes",
+      "published": "2026-09-07T17:24:46.000Z",
+      "source": "The Next Web",
+      "category": "ai",
+      "xml_category": "artificial intelligence",
+      "tags": [],
+      "image": "https://media.thenextweb.com/2026/09/ai-agent-reliability-observability-moyai-robert-hommes.avif"
+    },
+    {
+      "id": "the-next-web-2",
+      "title": "NEURA and SECO will build robot compute modules in Europe",
+      "summary": "A German company designs the robot. An Italian company builds the board that goes inside it. An American company designs the chip that goes on the board. That is the European Physical AI stack as it actually exists. On Monday, two thirds of it signed a partnership. NEURA Robotics and SECO said in a ",
+      "link": "https://thenextweb.com/news/neura-seco-robot-compute-modules-europe",
+      "published": "2026-09-07T17:16:31.000Z",
+      "source": "The Next Web",
+      "category": "general",
+      "xml_category": "robots",
+      "tags": [],
+      "image": "https://media.thenextweb.com/2026/09/david-reger-neura-max-mauri-seco.avif"
+    },
+    {
+      "id": "the-next-web-3",
+      "title": "Torvalds joked that AI made Linux 7.3-rc2 this big, and nobody checked",
+      "summary": "Linus Torvalds spent Sunday afternoon doing what he does most Sundays. The result was a Linux 7.3-rc2 that came in far heavier than the calendar says it should. He could not find a single cause for it. So he offered the one everybody reaches for. “It might be just random,” he wrote in his rc2 [&hell",
+      "link": "https://thenextweb.com/news/linux-7-3-rc2-torvalds-ai-joke-tooling",
+      "published": "2026-09-07T16:58:25.000Z",
+      "source": "The Next Web",
+      "category": "ai",
+      "xml_category": "artificial intelligence",
+      "tags": [],
+      "image": "https://media.thenextweb.com/2026/09/linus-torvalds-dirk-hohndel-keynote-stage.avif"
+    },
+    {
+      "id": "the-next-web-4",
       "title": "Audi built an efficient EV in Germany. It is 12cm too long for the rules meant to help",
       "summary": "Audi has revealed the A2 e-tron, its cheapest electric car, built in Ingolstadt and priced from EUR 38,200 with up to 646km of WLTP range. At 4.32 metres it is 12 centimetres too long for M1E, the small-car category the Commission proposed in December to make affordable European EVs viable. Audi has",
       "link": "https://thenextweb.com/news/audi-a2-etron-misses-eu-small-car",
@@ -15,7 +87,7 @@
       "image": "https://media.thenextweb.com/2026/09/audi-a2-etron-misses-eu-small-car.avif"
     },
     {
-      "id": "the-next-web-1",
+      "id": "the-next-web-5",
       "title": "OpenAI blocked its agents from posting. They found a wiki that posts on GET",
       "summary": "The engineers who built the sandbox did think about this. They allowed the agents to read the internet and blocked them from writing to it, by permitting GET requests and refusing everything else. It is the obvious control, and on almost every website it works. Then the agents found a wiki that writ",
       "link": "https://thenextweb.com/news/openai-agents-get-requests-usemod-wiki-sandbox-escape",
@@ -27,7 +99,7 @@
       "image": "https://media.thenextweb.com/2026/07/altman-white-house-openai-model-preview-agents.avif"
     },
     {
-      "id": "bug.hr-0",
+      "id": "bug.hr-2",
       "title": "Od Češke do mora: Škoda Peaq s jednim punjenjem baterije prešla čak 936 kilometara",
       "summary": "Dva zaposlenika Škode postavila su službeni češki rekord u vožnji električnim SUV-om Peaq 90, prešavši put od Češke do Nizozemske uz prosječnu potrošnju od samo 9,2 kWh na 100 kilometara",
       "link": "https://autonet.bug.hr/elektricna-vozila/od-ceske-do-mora-skoda-peaq-s-jednim-punjenjem-baterije-presla-cak-936-62665",
@@ -51,7 +123,7 @@
       "image": null
     },
     {
-      "id": "bug.hr-1",
+      "id": "bug.hr-3",
       "title": "Leakeri kažu da će iPhone Air zamijeniti osnovni iPhone 18",
       "summary": "Prema novim glasinama, Apple bi u proljeće 2027. godine mogao spojiti nadolazeći iPhone Air 2 i standardni iPhone 18 u jedan uređaj te pojednostaviti ponudu svojih pametnih telefona",
       "link": "https://www.bug.hr/iphone/leakeri-kazu-da-ce-iphone-air-zamijeniti-osnovni-iphone-18-62673",
@@ -63,7 +135,7 @@
       "image": "https://www.bug.hr/img/leakeri-kazu-da-ce-iphone-air-zamijeniti-osnovni-iphone-18_1GhpKQ.jpg"
     },
     {
-      "id": "the-next-web-2",
+      "id": "the-next-web-6",
       "title": "Hybrids are outselling everything in Europe. That’s bad news for 2035",
       "summary": "American buyers are leaving electric cars for hybrids and petrol after the $7,500 federal credit ended, with 42.6% of second-quarter EV trade-ins going to a combustion car. Hybrids are already the biggest-selling powertrain in the EU at 37.3%, and the Commission has proposed keeping them legal after",
       "link": "https://thenextweb.com/news/us-hybrids-europe-2035-rules",
@@ -75,7 +147,7 @@
       "image": "https://media.thenextweb.com/2026/08/bmw-two-million-electric-cars-europe-seven-in-ten.avif"
     },
     {
-      "id": "the-next-web-3",
+      "id": "the-next-web-7",
       "title": "The US plans to raise AI-directed cyberattacks with China, Nikkei reports",
       "summary": "The rogue-agent stories of the past two months have arrived somewhere nobody planned for. They are on the agenda for a meeting between Donald Trump and Xi Jinping. The United States will raise AI safety with China when Xi visits the White House on 24 September. Nikkei Asia reported that on Sunday, c",
       "link": "https://thenextweb.com/news/us-china-ai-talks-cyberattacks-trump-xi-summit-september",
@@ -87,7 +159,7 @@
       "image": "https://media.thenextweb.com/2026/09/us-china-flags-bilateral-meeting.avif"
     },
     {
-      "id": "the-next-web-4",
+      "id": "the-next-web-8",
       "title": "UBS now wants AI skills from its junior bankers, Financial Times reports",
       "summary": "For two years the AI story in banking has been a headcount story. How many graduates a bank takes, and how many it quietly stops taking. UBS has changed the question. It is no longer asking how many juniors it needs. It is asking what a junior has to be. The change covers anyone applying [&hellip;] ",
       "link": "https://thenextweb.com/news/ubs-ai-skills-junior-bankers-2027-graduate-hiring",
@@ -111,7 +183,7 @@
       "image": null
     },
     {
-      "id": "the-next-web-5",
+      "id": "the-next-web-9",
       "title": "Berlin fears France’s Palantir rival is a new dependency, Politico reports",
       "summary": "France and Germany spent the summer agreeing that Europe needs its own battlefield AI. They have not agreed on whose it should be. Internal German government notes seen by Politico Europe show Berlin is wary of Arcadia, the French-built Palantir rival. The worry is that adopting it would trade relia",
       "link": "https://thenextweb.com/news/germany-france-palantir-rival-arcadia-dependency-eu-funding",
@@ -135,7 +207,7 @@
       "image": "https://media.thenextweb.com/2026/09/shadow-ai-enterprise-security-reco-control2.avif"
     },
     {
-      "id": "bug.hr-2",
+      "id": "bug.hr-4",
       "title": "Talijanski tehno kolektiv ugašen nakon što je proglašen terorističkim",
       "summary": "Zbog američkih vlasti kolektiv je ostao bez domene i bankovnog računa. Zatvaranje utječe na oko 16 tisuća poštanskih sandučića, 1.500 web stranica, 5.500 mailing lista i 10 tisuća blogova",
       "link": "https://mreza.bug.hr/sigurnost/talijanski-tehno-kolektiv-ugasen-nakon-sto-je-proglasen-teroristickim-62679",
@@ -147,7 +219,7 @@
       "image": "https://mreza.bug.hr/img/talijanski-tehno-kolektiv-ugasen-nakon-sto-je-proglasen-teroristickim_2o3Hll.jpg"
     },
     {
-      "id": "bug.hr-3",
+      "id": "bug.hr-5",
       "title": "Pisci na sudu tvrde da je ChatGPT nastao na piratluku",
       "summary": "Skupina autora zatražila je od suda u New Yorku presudu protiv OpenAI-ja zbog neovlaštenog korištenja 194 knjige s piratskih servisa, dok tvrtka tvrdi da je obuka modela zakonita",
       "link": "https://www.bug.hr/parnice/pisci-na-sudu-tvrde-da-je-chatgpt-nastao-na-piratluku-62671",
@@ -159,7 +231,7 @@
       "image": "https://www.bug.hr/img/pisci-na-sudu-tvrde-da-je-chatgpt-nastao-na-piratluku_vW9-Zv.png"
     },
     {
-      "id": "bug.hr-4",
+      "id": "bug.hr-6",
       "title": "Objavljene nove cijene goriva",
       "summary": "Cijene osnovnog benzina i dizela ostaju nepromijenjene još tjedan dana, dok plavi dizel poskupljuje za 13 centi po litri",
       "link": "https://autonet.bug.hr/transport/objavljene-nove-cijene-goriva-62676",
@@ -171,7 +243,7 @@
       "image": "https://autonet.bug.hr/img/objavljene-nove-cijene-goriva_J-AcU8.jpg"
     },
     {
-      "id": "bug.hr-5",
+      "id": "bug.hr-7",
       "title": "Muzej povijesti videoigara otvara izložbu „The Art of the Box Art”",
       "summary": "Muzej povijesti videoigara sutra otvara privremenu izložbu “The Art of the Box Art”, posvećenu vizualnom identitetu i načinu na koji su videoigre kroz fizičke omote predstavljane publici tijekom desetljeća",
       "link": "https://www.bug.hr/dogadjaji/muzej-povijesti-videoigara-otvara-izlozbu-the-art-of-the-box-art-62678",
@@ -207,7 +279,7 @@
       "image": "https://media.thenextweb.com/2026/09/Alex-Zhavoronkov-PhD-founder-and-co-CEO-of-Insilico-Medicine.avif"
     },
     {
-      "id": "bug.hr-6",
+      "id": "bug.hr-8",
       "title": "Radni dani potrebni za kupnju iPhonea 17 Pro po državama",
       "summary": "iPhone 17 Pro može predstavljati manje od tjedan dana prosječne plaće u nekim od najbogatijih država svijeta, ali i više mjeseci rada u siromašnijim zemljama",
       "link": "https://mreza.bug.hr/mobiteli/radni-dani-potrebni-za-kupnju-iphonea-17-pro-po-drzavama-62570",
@@ -243,7 +315,7 @@
       "image": "https://www.tportal.hr/media/thumbnail/500x300/2792366.jpeg?cropId=0"
     },
     {
-      "id": "bug.hr-7",
+      "id": "bug.hr-9",
       "title": "Četiri od pet mobitela u EU nema propisane informacije o popravku",
       "summary": "Godinu dana nakon uvođenja novih pravila, analiza 2.334 modela mobitela pokazala je da tek oko 18 posto njih ima lako dostupne propisane informacije o popravku i cijenama rezervnih dijelova",
       "link": "https://www.bug.hr/propisi/cetiri-od-pet-mobitela-u-eu-nema-propisane-informacije-o-popravku-62669",
@@ -375,7 +447,7 @@
       "image": "https://www.tportal.hr/media/thumbnail/500x300/2787500.jpeg?cropId=0"
     },
     {
-      "id": "bug.hr-8",
+      "id": "bug.hr-10",
       "title": "Hardver mobitela unutar miša pokreće – pravo računalo",
       "summary": "Inovativni projekt prikazuje ugradnju matične ploče, hladnjaka i prilagođenih komponenti pametnog telefona u kućište računalnog miša, koji uz Samsungov sustav DeX postaje računalo unutar miša",
       "link": "https://www.bug.hr/video/hardver-mobitela-unutar-misa-pokrece--pravo-racunalo-62664",
@@ -387,7 +459,7 @@
       "image": "https://www.bug.hr/img/hardver-mobitela-unutar-misa-pokrece--pravo-racunalo_IFXmBD.png"
     },
     {
-      "id": "bug.hr-9",
+      "id": "bug.hr-11",
       "title": "Video otkrio nove boje iPhonea 18 Pro",
       "summary": "Video koji kruži društvenim mrežama prikazuje iPhone 18 Pro i Pro Max u bojama Sky Blue i Dark Cherry. Većih dizajnerskih promjena u odnosu na prethodnike, čini se, neće biti",
       "link": "https://www.bug.hr/mobiteli/video-otkrio-nove-boje-iphonea-18-pro-62668",
@@ -507,7 +579,7 @@
       "image": "https://media.thenextweb.com/2026/08/Taiwanese-flags.-png.avif"
     },
     {
-      "id": "bug.hr-10",
+      "id": "bug.hr-12",
       "title": "Office 2024 Pro Plus od 16,66 € po računalu tijekom Godeal24 Office Mad Sale rasprodaje",
       "summary": "Godeal24 nudi izuzetno povoljne, originalne i trajno aktivirane Windows i Office softverske pakete. Windows 11 Pro samo 12,25 €, Office 2024 Pro samo 19,99 €, Office 2021 Home and Business za Mac 49,99 €",
       "link": "https://www.bug.hr/promo/office-2024-pro-plus-od-1666--po-racunalu-tijekom-godeal24-office-mad-sale-62620",
@@ -591,7 +663,7 @@
       "image": "https://www.tportal.hr/media/thumbnail/500x300/2792136.jpeg?cropId=0"
     },
     {
-      "id": "bug.hr-11",
+      "id": "bug.hr-13",
       "title": "Najurednija smjena u Appleovoj povijesti, ali kada Apple zapravo potpuno postaje Ternusov?",
       "summary": "Cook predaje direktorsku fotelju Ternusu, ali kao izvršni predsjednik zadržava najosjetljivije sektore i paket primanja kakav se rijetko viđa kod predsjednika uprave",
       "link": "https://www.bug.hr/biznis/najurednija-smjena-u-appleovoj-povijesti-ali-kada-apple-zapravo-potpuno-postaje-62660",
@@ -627,7 +699,7 @@
       "image": "https://www.tportal.hr/media/thumbnail/500x300/2792127.jpeg?cropId=0"
     },
     {
-      "id": "bug.hr-12",
+      "id": "bug.hr-14",
       "title": "CD se vratio: generacija Z spašava format koji smo otpisali",
       "summary": "Slično kao s povratkom „glupih\" mobitela, samostalnih digitalnih kompakt-fotoaparata i pisaćih strojeva, kompaktni disk postao je žarište anti-algoritamske, taktilne potrošnje tehnologije, ponajprije među generacijom Z",
       "link": "https://www.bug.hr/glazba/cd-se-vratio-generacija-z-spasava-format-koji-smo-otpisali-62645",
@@ -639,7 +711,7 @@
       "image": "https://www.bug.hr/img/cd-se-vratio-generacija-z-spasava-format-koji-smo-otpisali_US60t7.jpg"
     },
     {
-      "id": "bug.hr-13",
+      "id": "bug.hr-15",
       "title": "Philips 34B2U5900C - 34-inčni poslovni monitor s Dual Mode funkcijom",
       "summary": "Novi Philips 34B2U5900C donosi dvije radne konfiguracije u jednom uređaju, ciljajući korisnike kojima su podjednako važni detalji prikaza i brzina rada.",
       "link": "https://www.bug.hr/monitori/philips-34b2u5900c-34-incni-poslovni-monitor-s-dual-mode-funkcijom-62634",
@@ -675,7 +747,7 @@
       "image": "https://media.thenextweb.com/2026/09/Claret-Capital-Managing-Partners.avif"
     },
     {
-      "id": "bug.hr-14",
+      "id": "bug.hr-16",
       "title": "Lenovo Yoga Pro 9i Gen 11 Aura Edition donosi premium izradu, OLED ekran i snažan hardver",
       "summary": "Malošto se može prigovoriti oko izgleda i kvalitete izrade. Yoga Pro 9i i u jedanaestoj generacji donosi snažan procesor i RTX 5060 grafičku karticu, a dodatnu usmjerenost prema kreatorima sadržaja ističe Force Pad i olovka Yoga Pen Gen 2. Možda i najimpresivniji dio laptopa je OLED ekran visoke rez",
       "link": "https://www.bug.hr/laptopi/lenovo-yoga-pro-9i-gen-11-aura-edition-donosi-premium-izradu-oled-ekran-i-62638",
@@ -687,7 +759,7 @@
       "image": "https://www.bug.hr/img/lenovo-yoga-pro-9i-gen-11-aura-edition-donosi-premium-izradu-oled-ekran-i_kbTDCk.jpg"
     },
     {
-      "id": "bug.hr-15",
+      "id": "bug.hr-17",
       "title": "Acer Swift Blade 14 teži 799 grama, a Swift Air 16 donosi 3K OLED u aluminijskom kućištu",
       "summary": "Oba prijenosnika stižu na Intelovim procesorima serije Core 3 i oba nude OLED panele, ali kompromisi koje su platili da bi ostali tanki nisu isti",
       "link": "https://www.bug.hr/dogadjaji/acer-swift-blade-14-tezi-799-grama-a-swift-air-16-donosi-3k-oled-u-aluminijskom-62647",
@@ -699,7 +771,7 @@
       "image": "https://www.bug.hr/img/acer-swift-blade-14-tezi-799-grama-a-swift-air-16-donosi-3k-oled-u-aluminijskom_e-WXgJ.jpg"
     },
     {
-      "id": "bug.hr-16",
+      "id": "bug.hr-18",
       "title": "ReelCheck - praktična aplikacija koja pomaže odlučiti vrijedi li pogledati neki film",
       "summary": "Katkada nije jednostavno odlučiti koji film vrijedi pogledati, i to pogotovo na brojnim streaming servisima, a ovo je aplikacija koja u tome želi pomoći. Dovoljno je skenirati naslov ili poster filma, a ReelCheck će prikazati ocjenu s IMDb-a i druge podatke...",
       "link": "https://www.bug.hr/appdana/reelcheck-prakticna-aplikacija-koja-pomaze-odluciti-vrijedi-li-pogledati-neki-62656",
@@ -711,7 +783,7 @@
       "image": "https://www.bug.hr/img/reelcheck-prakticna-aplikacija-koja-pomaze-odluciti-vrijedi-li-pogledati-neki_WglW7G.png"
     },
     {
-      "id": "bug.hr-17",
+      "id": "bug.hr-19",
       "title": "Land Rover se novim Defenderom bori za ogroman vojni ugovor",
       "summary": "Land Rover je predstavio Defender Wolf Series II, vojnu zvijer s kojom se natječe za ugovor britanskog Ministarstva obrane. U igri je zamjena više od 9.500 starih vozila, no konkurencija je jača no ikad",
       "link": "https://autonet.bug.hr/automobili/land-rover-se-novim-defenderom-bori-za-ogroman-vojni-ugovor-62643",
@@ -937,18 +1009,6 @@
       "xml_category": "društvene mreže",
       "tags": [],
       "image": "https://www.bug.hr/img/muskov-x-izborio-pravo-na-koristenje-imena-twitter_Xe6yb0.jpg"
-    },
-    {
-      "id": "bug.hr-18",
-      "title": "Saturn nema jednu, već dvije oluje geometrijski pravilnog oblika",
-      "summary": "Slike koje je snimio svemirski teleskop Hubble otkrile su rastući val u obliku deseterokuta oko Saturnovog južnog pola. Deseterokutna oluja razvila se, čini se, između 2023. i 2025.",
-      "link": "https://mreza.bug.hr/istrazivanja/saturn-nema-jednu-vec-dvije-oluje-geometrijski-pravilnog-oblika-62589",
-      "published": "2026-09-06T17:15:00.000Z",
-      "source": "Bug.hr",
-      "category": "general",
-      "xml_category": "istraživanja",
-      "tags": [],
-      "image": "https://mreza.bug.hr/img/saturn-nema-jednu-vec-dvije-oluje-geometrijski-pravilnog-oblika_Z91OhD.jpg"
     }
   ]
 }
