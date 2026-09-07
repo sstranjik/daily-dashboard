@@ -1,9 +1,13 @@
 {
-  "generated_at": "2026-09-07T13:01:05.975Z",
+  "generated_at": "2026-09-07T14:01:16.280Z",
   "stats": {
     "Lisinski": {
       "ok": true,
       "count": 0
+    },
+    "Gavella": {
+      "ok": true,
+      "count": 19
     },
     "Tvornica": {
       "ok": true,
@@ -12,10 +16,6 @@
     "Mochvara": {
       "ok": true,
       "count": 17
-    },
-    "Gavella": {
-      "ok": true,
-      "count": 19
     },
     "ZeKaeM": {
       "ok": true,
@@ -1876,6 +1876,21 @@
       "source": "HNK Zagreb",
       "is_new": false,
       "first_seen": "2026-08-19T13:01:10.631Z"
+    },
+    {
+      "id": "be9bce8937",
+      "title": "Jakov Gotovac Stanac Zamjena za predstavu „Budi uvijek kao zmaj“",
+      "venue": "HNK Zagreb",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-10-09T19:30:00",
+      "date_display": "pet, 09. 10. 2026.",
+      "time": "19:30",
+      "link": "https://hnk.hr/hr/opera/predstave/stanac/#09.10.19.30",
+      "source": "HNK Zagreb",
+      "is_new": true,
+      "first_seen": "2026-09-07T14:01:16.280Z"
     },
     {
       "id": "e2f4df1279",
@@ -3847,5 +3862,5 @@
       "first_seen": "2026-08-09T05:01:15.939Z"
     }
   ],
-  "new_count": 10
+  "new_count": 11
 }
