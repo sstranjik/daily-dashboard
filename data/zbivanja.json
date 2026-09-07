@@ -1,13 +1,9 @@
 {
-  "generated_at": "2026-09-06T20:54:41.116Z",
+  "generated_at": "2026-09-07T05:01:05.603Z",
   "stats": {
     "muzika.hr": {
       "ok": true,
       "count": 25
-    },
-    "Mochvara": {
-      "ok": true,
-      "count": 17
     },
     "Lisinski": {
       "ok": true,
@@ -21,7 +17,11 @@
       "ok": true,
       "count": 3
     },
-    "ZeKaeM": {
+    "Mochvara": {
+      "ok": true,
+      "count": 17
+    },
+    "Pogon": {
       "ok": true,
       "count": 0
     },
@@ -29,17 +29,17 @@
       "ok": true,
       "count": 0
     },
-    "Pogon": {
-      "ok": true,
-      "count": 0
-    },
-    "Kerempuh": {
+    "ZeKaeM": {
       "ok": true,
       "count": 0
     },
     "HNK Zagreb": {
       "ok": true,
-      "count": 118
+      "count": 117
+    },
+    "Kerempuh": {
+      "ok": true,
+      "count": 0
     },
     "Trešnja": {
       "ok": true,
@@ -47,36 +47,6 @@
     }
   },
   "concerts": [
-    {
-      "id": "c412cb2a67",
-      "title": "Sjemenište: Emo party",
-      "venue": "Mochvara",
-      "city": "Zagreb",
-      "country": "HR",
-      "category": "concert",
-      "date_iso": "2026-08-22T22:00:00",
-      "date_display": "sub, 22. 08. 2026.",
-      "time": "22:00",
-      "link": "https://mochvara.hr/event-detail/6a4e69b97406b17c5f0ad71a/?lang=hr",
-      "source": "Mochvara",
-      "is_new": false,
-      "first_seen": "2026-08-09T05:01:15.939Z"
-    },
-    {
-      "id": "5226f1caf2",
-      "title": "Tom Odell",
-      "venue": "Tom Odell Arena Pula Flavijevska ulica",
-      "city": "Pula",
-      "country": "HR",
-      "category": "concert",
-      "date_iso": "2026-08-23T00:00:00",
-      "date_display": "ned, 23. 08. 2026.",
-      "time": null,
-      "link": "https://www.muzika.hr/event/tom-odell/",
-      "source": "muzika.hr",
-      "is_new": false,
-      "first_seen": "2026-07-29T05:01:14.584Z"
-    },
     {
       "id": "b58dba7fe2",
       "title": "Začarani birc: Milibea (live)",
@@ -1051,6 +1021,21 @@
       "source": "HNK Zagreb",
       "is_new": false,
       "first_seen": "2026-06-21T15:01:12.532Z"
+    },
+    {
+      "id": "0f8add5cde",
+      "title": "Vrelo zvuka: Almir i Daniel, Pedro Makay",
+      "venue": "Mochvara",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-09-14T19:30:00",
+      "date_display": "pon, 14. 09. 2026.",
+      "time": "19:30",
+      "link": "https://mochvara.hr/event-detail/6a8d59d0c3276ddebd4f9418/",
+      "source": "Mochvara",
+      "is_new": true,
+      "first_seen": "2026-09-07T05:01:05.603Z"
     },
     {
       "id": "6ae7637dd0",
@@ -3862,5 +3847,5 @@
       "first_seen": "2026-08-09T05:01:15.939Z"
     }
   ],
-  "new_count": 10
+  "new_count": 11
 }
