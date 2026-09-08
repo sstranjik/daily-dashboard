@@ -1,15 +1,15 @@
 {
   "version": 2,
-  "date": "2026-09-07",
-  "generated_at": "2026-09-07T09:54:41.343Z",
-  "date_hr": "Ponedjeljak, 7. rujna 2026.",
+  "date": "2026-09-08",
+  "generated_at": "2026-09-08T05:02:32.774Z",
+  "date_hr": "Utorak, 8. rujna 2026.",
   "weather": {
     "icon": "☁️",
-    "summary": "19–31°C, oblačno",
+    "summary": "19–33°C, oblačno",
     "alerts": []
   },
   "fuel": {
-    "current_date": "07.09.2026",
+    "current_date": "08.09.2026",
     "eurodiesel": [
       {
         "company": "Adria Oil",
@@ -43,11 +43,11 @@
       },
       {
         "company": "INA",
-        "price": 2.04
+        "price": 2.07
       },
       {
         "company": "Tifon",
-        "price": 2.04
+        "price": 2.07
       },
       {
         "company": "Coral Croatia",
@@ -55,7 +55,7 @@
       },
       {
         "company": "Petrol",
-        "price": 2.12
+        "price": 2.1
       }
     ],
     "upcoming_date": null,
@@ -63,46 +63,46 @@
     "upcoming_premium": null
   },
   "market": {
-    "updated_at": "2026-09-07T09:54:41.343Z",
-    "btc_usd": 79363,
-    "btc_eur": 68287,
-    "btc_change_24h": -0.62,
-    "usd_eur": 0.8611
+    "updated_at": "2026-09-08T05:02:32.774Z",
+    "btc_usd": 78678,
+    "btc_eur": 67686,
+    "btc_change_24h": -1.28,
+    "usd_eur": 0.8604
   },
   "ai_news": [
+    {
+      "title": "OpenAI-evi AI agenti preuzeli njemački wiki forum: Tvrtka priznaje da nema jasna pravila za ovakve incidente",
+      "link": "https://www.tportal.hr/tehno/clanak/openai-jevi-ai-agenti-preuzeli-njemacki-wiki-tvrtka-priznaje-da-nema-jasna-pravila-za-ovakve-incidente-20260907",
+      "source": "Tportal"
+    },
+    {
+      "title": "Dubai is training 14,000 companies to run AI agents, on a two-year clock",
+      "link": "https://thenextweb.com/news/dubai-chambers-agentic-ai-training-14000-companies",
+      "source": "The Next Web"
+    },
+    {
+      "title": "Pisci na sudu tvrde da je ChatGPT nastao na piratluku",
+      "link": "https://www.bug.hr/parnice/pisci-na-sudu-tvrde-da-je-chatgpt-nastao-na-piratluku-62671",
+      "source": "Bug.hr"
+    },
+    {
+      "title": "No monitoring system caught the German wiki. Two outside researchers found it by searching the internet.",
+      "link": "https://thenextweb.com/news/openai-disclosure-ledger-german-wiki-detection",
+      "source": "The Next Web"
+    },
     {
       "title": "U kojem vrtiću ima slobodnih mjesta? GIS Cloud je napravio kartu Zagreba i otkrio gdje je situacija najgora",
       "link": "https://www.netokracija.com/gis-cloud-ai-dino-ravnic-246551",
       "source": "Netokracija"
-    },
-    {
-      "title": "Kenya bet its graduates on gig work in 2022. ChatGPT launched that year",
-      "link": "https://thenextweb.com/news/kenya-essay-writing-industry-ai-gig-work-collapse",
-      "source": "The Next Web"
-    },
-    {
-      "title": "The man paid to prove Fermat by hand says Claude did it in 11 days",
-      "link": "https://thenextweb.com/news/anthropic-claude-fermat-last-theorem-lean-buzzard",
-      "source": "The Next Web"
-    },
-    {
-      "title": "Seattle Times and Newsday sue OpenAI and Microsoft for infringement",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/990932/seattle-times-newsday-lawsuit-openai-microsoft",
-      "source": "The Verge"
-    },
-    {
-      "title": "OpenAI’s chief scientist says no lab should keep scaling at maximum speed",
-      "link": "https://thenextweb.com/news/openai-slowdown-pachocki-alien-mind-research-intern-compute",
-      "source": "The Next Web"
     }
   ],
   "micro_tips": {
     "vscode": {
-      "tip": "Dupliciraj trenutnu liniju ispod",
-      "keys": "Shift+Alt+↓"
+      "tip": "Obriši cijelu liniju odjednom",
+      "keys": "Ctrl+Shift+K"
     },
-    "sql": "EXISTS umjesto IN za subqueries — brže jer stane na prvom podudaranju: WHERE EXISTS (SELECT 1 FROM ...)",
-    "oracle": "/*+ INDEX(t ime_indexa) */ forsira specifičan index kad optimizer bira full scan",
-    "regex": "\\b granica riječi: \\bword\\b podudara cijelu riječ, ne \"password\" ili \"swordfish\""
+    "sql": "Nikad SELECT * u produkciji — navedi kolone, manji I/O i bolji cache plan",
+    "oracle": "/*+ PARALLEL(t 4) */ paralelno izvršavanje querija na N thread-ova",
+    "regex": "(?:group) non-capturing group: grupiraj bez pamćenja za veće performanse"
   }
 }
