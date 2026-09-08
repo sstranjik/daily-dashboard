@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-09-08T14:01:23.341Z",
+  "generated_at": "2026-09-08T14:48:17.218Z",
   "stats": {
     "muzika.hr": {
       "ok": true,
       "count": 25
     },
-    "Gavella": {
-      "ok": true,
-      "count": 19
-    },
     "Lisinski": {
       "ok": true,
       "count": 0
+    },
+    "Gavella": {
+      "ok": true,
+      "count": 19
     },
     "Tvornica": {
       "ok": true,
@@ -21,11 +21,15 @@
       "ok": true,
       "count": 17
     },
-    "ZeKaeM": {
+    "Komedija": {
       "ok": true,
       "count": 0
     },
-    "Komedija": {
+    "HNK Zagreb": {
+      "ok": true,
+      "count": 116
+    },
+    "ZeKaeM": {
       "ok": true,
       "count": 0
     },
@@ -36,10 +40,6 @@
     "Kerempuh": {
       "ok": true,
       "count": 0
-    },
-    "HNK Zagreb": {
-      "ok": true,
-      "count": 116
     },
     "Trešnja": {
       "ok": true,
@@ -781,6 +781,21 @@
       "source": "Mochvara",
       "is_new": true,
       "first_seen": "2026-09-05T15:01:07.995Z"
+    },
+    {
+      "id": "8d12c1b3ac",
+      "title": "Sjemenište: U ljubav vjerujem",
+      "venue": "Mochvara",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-09-11T22:00:00",
+      "date_display": "pet, 11. 09. 2026.",
+      "time": "22:00",
+      "link": "https://mochvara.hr/event-detail/6aa01485055593c799bfb006/",
+      "source": "Mochvara",
+      "is_new": true,
+      "first_seen": "2026-09-08T14:48:17.218Z"
     },
     {
       "id": "ee38df851e",
@@ -3877,5 +3892,5 @@
       "first_seen": "2026-08-09T05:01:15.939Z"
     }
   ],
-  "new_count": 10
+  "new_count": 11
 }
