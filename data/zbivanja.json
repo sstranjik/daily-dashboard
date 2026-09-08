@@ -1,13 +1,9 @@
 {
-  "generated_at": "2026-09-08T15:01:15.722Z",
+  "generated_at": "2026-09-08T16:01:16.184Z",
   "stats": {
     "muzika.hr": {
       "ok": true,
       "count": 25
-    },
-    "Mochvara": {
-      "ok": true,
-      "count": 17
     },
     "Lisinski": {
       "ok": true,
@@ -17,13 +13,13 @@
       "ok": true,
       "count": 3
     },
+    "Mochvara": {
+      "ok": true,
+      "count": 17
+    },
     "Gavella": {
       "ok": true,
       "count": 19
-    },
-    "ZeKaeM": {
-      "ok": true,
-      "count": 0
     },
     "Komedija": {
       "ok": true,
@@ -33,11 +29,15 @@
       "ok": true,
       "count": 116
     },
-    "Kerempuh": {
+    "ZeKaeM": {
       "ok": true,
       "count": 0
     },
     "Pogon": {
+      "ok": true,
+      "count": 0
+    },
+    "Kerempuh": {
       "ok": true,
       "count": 0
     },
@@ -676,6 +676,21 @@
       "source": "Mochvara",
       "is_new": false,
       "first_seen": "2026-09-05T05:01:08.346Z"
+    },
+    {
+      "id": "7d4d85b64d",
+      "title": "Brain Holidays u Vintage Gardenu",
+      "venue": "Vintage Industrial Bar Savska ulica 160",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-09-10T20:00:00",
+      "date_display": "čet, 10. 09. 2026.",
+      "time": "20:00",
+      "link": "https://www.muzika.hr/event/brain-holidays-u-vintage-gardenu/",
+      "source": "muzika.hr",
+      "is_new": true,
+      "first_seen": "2026-09-08T16:01:16.184Z"
     },
     {
       "id": "e8c2ae2fb9",
@@ -3892,5 +3907,5 @@
       "first_seen": "2026-08-09T05:01:15.939Z"
     }
   ],
-  "new_count": 10
+  "new_count": 11
 }
