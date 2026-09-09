@@ -1,11 +1,11 @@
 {
   "version": 2,
   "date": "2026-09-09",
-  "generated_at": "2026-09-09T05:02:12.546Z",
+  "generated_at": "2026-09-09T09:22:54.628Z",
   "date_hr": "Srijeda, 9. rujna 2026.",
   "weather": {
-    "icon": "🌦️",
-    "summary": "19–33°C, pljuskovi",
+    "icon": "🌧️",
+    "summary": "19–32°C, lagana kiša · 0.6 mm",
     "alerts": []
   },
   "fuel": {
@@ -63,20 +63,25 @@
     "upcoming_premium": null
   },
   "market": {
-    "updated_at": "2026-09-09T05:02:12.546Z",
-    "btc_usd": 79152,
-    "btc_eur": 68042,
-    "btc_change_24h": 0.62,
+    "updated_at": "2026-09-09T09:22:54.628Z",
+    "btc_usd": 79480,
+    "btc_eur": 68333,
+    "btc_change_24h": 1.39,
     "usd_eur": 0.8603
   },
   "ai_news": [
+    {
+      "title": "An Anthropic researcher quit saying AI labs are gambling with our lives",
+      "link": "https://thenextweb.com/news/anthropic-coxon-resignation-hubinger-alignment",
+      "source": "The Next Web"
+    },
     {
       "title": "Hackers are stealing Claude tokens from subscribers",
       "link": "https://techcrunch.com/2026/09/08/hackers-are-stealing-claude-tokens-from-subscribers/",
       "source": "TechCrunch AI"
     },
     {
-      "title": "OpenAI now supplies the image models inside Adobe’s creative studio. It is also turning prompts into things you pass around.",
+      "title": "OpenAI now supplies the image models inside Adobe’s creative studio",
       "link": "https://thenextweb.com/news/openai-images-25-adobe-firefly-interface-layer",
       "source": "The Next Web"
     },
@@ -89,11 +94,6 @@
       "title": "Logitech predstavio MX Keypad, tipkovnicu za lakši pristup AI alatima",
       "link": "https://www.bug.hr/gadgeti/logitech-predstavio-mx-keypad-tipkovnicu-za-laksi-pristup-ai-alatima-62704",
       "source": "Bug.hr"
-    },
-    {
-      "title": "OpenAI tvrdi da je njegov AI u 88 sati riješio matematički problem star gotovo 90 godina",
-      "link": "https://www.tportal.hr/tehno/clanak/openai-tvrdi-da-je-njegov-ai-u-88-sati-rijesio-matematicki-problem-star-gotovo-90-godina-20260909",
-      "source": "Tportal"
     }
   ],
   "micro_tips": {
