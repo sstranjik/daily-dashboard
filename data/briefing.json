@@ -1,15 +1,15 @@
 {
   "version": 2,
-  "date": "2026-09-08",
-  "generated_at": "2026-09-08T09:19:31.906Z",
-  "date_hr": "Utorak, 8. rujna 2026.",
+  "date": "2026-09-09",
+  "generated_at": "2026-09-09T05:02:12.546Z",
+  "date_hr": "Srijeda, 9. rujna 2026.",
   "weather": {
-    "icon": "☁️",
-    "summary": "19–33°C, oblačno",
+    "icon": "🌦️",
+    "summary": "19–33°C, pljuskovi",
     "alerts": []
   },
   "fuel": {
-    "current_date": "08.09.2026",
+    "current_date": "09.09.2026",
     "eurodiesel": [
       {
         "company": "Adria Oil",
@@ -50,12 +50,12 @@
         "price": 2.07
       },
       {
-        "company": "Coral Croatia",
+        "company": "Petrol",
         "price": 2.1
       },
       {
-        "company": "Petrol",
-        "price": 2.1
+        "company": "Coral Croatia",
+        "price": 2.15
       }
     ],
     "upcoming_date": null,
@@ -63,46 +63,46 @@
     "upcoming_premium": null
   },
   "market": {
-    "updated_at": "2026-09-08T09:19:31.906Z",
-    "btc_usd": 78450,
-    "btc_eur": 67562,
-    "btc_change_24h": -1.34,
-    "usd_eur": 0.8604
+    "updated_at": "2026-09-09T05:02:12.546Z",
+    "btc_usd": 79152,
+    "btc_eur": 68042,
+    "btc_change_24h": 0.62,
+    "usd_eur": 0.8603
   },
   "ai_news": [
     {
-      "title": "OpenAI-evi AI agenti preuzeli njemački wiki forum: Tvrtka priznaje da nema jasna pravila za ovakve incidente",
-      "link": "https://www.tportal.hr/tehno/clanak/openai-jevi-ai-agenti-preuzeli-njemacki-wiki-tvrtka-priznaje-da-nema-jasna-pravila-za-ovakve-incidente-20260907",
-      "source": "Tportal"
+      "title": "Hackers are stealing Claude tokens from subscribers",
+      "link": "https://techcrunch.com/2026/09/08/hackers-are-stealing-claude-tokens-from-subscribers/",
+      "source": "TechCrunch AI"
     },
     {
-      "title": "Dubai is training 14,000 companies to run AI agents, on a two-year clock",
-      "link": "https://thenextweb.com/news/dubai-chambers-agentic-ai-training-14000-companies",
+      "title": "OpenAI now supplies the image models inside Adobe’s creative studio. It is also turning prompts into things you pass around.",
+      "link": "https://thenextweb.com/news/openai-images-25-adobe-firefly-interface-layer",
       "source": "The Next Web"
     },
     {
-      "title": "Pisci na sudu tvrde da je ChatGPT nastao na piratluku",
-      "link": "https://www.bug.hr/parnice/pisci-na-sudu-tvrde-da-je-chatgpt-nastao-na-piratluku-62671",
+      "title": "ChatGPT Sketch turns your bad drawings into detailed AI images",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/991727/openai-chatgpt-images-2-5-sketch",
+      "source": "The Verge"
+    },
+    {
+      "title": "Logitech predstavio MX Keypad, tipkovnicu za lakši pristup AI alatima",
+      "link": "https://www.bug.hr/gadgeti/logitech-predstavio-mx-keypad-tipkovnicu-za-laksi-pristup-ai-alatima-62704",
       "source": "Bug.hr"
     },
     {
-      "title": "No monitoring system caught the German wiki. Two outside researchers found it by searching the internet.",
-      "link": "https://thenextweb.com/news/openai-disclosure-ledger-german-wiki-detection",
-      "source": "The Next Web"
-    },
-    {
-      "title": "Most large organisations think full digital sovereignty is unrealistic, Capgemini finds",
-      "link": "https://thenextweb.com/news/capgemini-digital-sovereignty-survey-2026",
-      "source": "The Next Web"
+      "title": "OpenAI tvrdi da je njegov AI u 88 sati riješio matematički problem star gotovo 90 godina",
+      "link": "https://www.tportal.hr/tehno/clanak/openai-tvrdi-da-je-njegov-ai-u-88-sati-rijesio-matematicki-problem-star-gotovo-90-godina-20260909",
+      "source": "Tportal"
     }
   ],
   "micro_tips": {
     "vscode": {
-      "tip": "Obriši cijelu liniju odjednom",
-      "keys": "Ctrl+Shift+K"
+      "tip": "Otvori datoteku brzim pretraživanjem",
+      "keys": "Ctrl+P"
     },
-    "sql": "Nikad SELECT * u produkciji — navedi kolone, manji I/O i bolji cache plan",
-    "oracle": "/*+ PARALLEL(t 4) */ paralelno izvršavanje querija na N thread-ova",
-    "regex": "(?:group) non-capturing group: grupiraj bez pamćenja za veće performanse"
+    "sql": "Covering index: uključi sve kolone iz WHERE + SELECT u index pa nema pristupa tablici",
+    "oracle": "/*+ NO_MERGE(v) */ sprječava merging inline viewa s parent queryjem",
+    "regex": "(?=pattern) lookahead: \"iza ovog mora slijediti X\" bez konzumiranja znakova"
   }
 }
