@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-09-10T07:01:14.532Z",
+  "generated_at": "2026-09-10T08:01:14.369Z",
   "stats": {
-    "Lisinski": {
-      "ok": true,
-      "count": 0
-    },
     "muzika.hr": {
       "ok": true,
       "count": 25
     },
-    "Mochvara": {
+    "Lisinski": {
       "ok": true,
-      "count": 17
+      "count": 0
     },
     "Tvornica": {
       "ok": true,
       "count": 3
+    },
+    "Mochvara": {
+      "ok": true,
+      "count": 17
     },
     "Gavella": {
       "ok": true,
@@ -33,11 +33,11 @@
       "ok": true,
       "count": 114
     },
-    "Pogon": {
+    "Kerempuh": {
       "ok": true,
       "count": 0
     },
-    "Kerempuh": {
+    "Pogon": {
       "ok": true,
       "count": 0
     },
@@ -1728,6 +1728,21 @@
       "first_seen": "2026-09-08T09:01:10.867Z"
     },
     {
+      "id": "33adaa2b09",
+      "title": "James Carter Quartet \"Trane: A Centennial Supreme\" - 17. Zagreb jazz festival",
+      "venue": "Tvornica kulture Šubićeva 2",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-10-04T20:00:00",
+      "date_display": "ned, 04. 10. 2026.",
+      "time": "20:00",
+      "link": "https://www.muzika.hr/event/james-carter-quartet-trane-a-centennial-supreme-17-zagreb-jazz-festival/",
+      "source": "muzika.hr",
+      "is_new": true,
+      "first_seen": "2026-09-10T08:01:14.369Z"
+    },
+    {
       "id": "8dadea5221",
       "title": "Gioachino Rossini / Dmitrij Šostakovič — Mauro Bigonzetti ROSSINI CARDS / KAZIMIR’S COLOURS",
       "venue": "HNK Zagreb",
@@ -2461,6 +2476,21 @@
       "source": "HNK Zagreb",
       "is_new": false,
       "first_seen": "2026-08-27T11:01:08.314Z"
+    },
+    {
+      "id": "00e086b708",
+      "title": "Ivan pl. Zajc Nikola Šubić Zrinjski",
+      "venue": "HNK Zagreb",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-11-04T19:30:00",
+      "date_display": "sri, 04. 11. 2026.",
+      "time": "19:30",
+      "link": "https://hnk.hr/hr/opera/predstave/nikola-%C5%A1ubi%C4%87-zrinjski/#04.11.19.30",
+      "source": "HNK Zagreb",
+      "is_new": true,
+      "first_seen": "2026-09-10T08:01:14.369Z"
     },
     {
       "id": "300206705e",
@@ -3892,5 +3922,5 @@
       "first_seen": "2026-08-09T05:01:15.939Z"
     }
   ],
-  "new_count": 10
+  "new_count": 12
 }
