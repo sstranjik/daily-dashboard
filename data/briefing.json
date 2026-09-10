@@ -1,15 +1,20 @@
 {
   "version": 2,
-  "date": "2026-09-09",
-  "generated_at": "2026-09-09T09:22:54.628Z",
-  "date_hr": "Srijeda, 9. rujna 2026.",
+  "date": "2026-09-10",
+  "generated_at": "2026-09-10T05:02:23.663Z",
+  "date_hr": "Četvrtak, 10. rujna 2026.",
   "weather": {
-    "icon": "🌧️",
-    "summary": "19–32°C, lagana kiša · 0.6 mm",
-    "alerts": []
+    "icon": "⛈️",
+    "summary": "15–23°C, grmljavina s gradom · 26.6 mm",
+    "alerts": [
+      {
+        "level": "warning",
+        "text": "Grmljavinska oluja"
+      }
+    ]
   },
   "fuel": {
-    "current_date": "09.09.2026",
+    "current_date": "10.09.2026",
     "eurodiesel": [
       {
         "company": "Adria Oil",
@@ -63,46 +68,46 @@
     "upcoming_premium": null
   },
   "market": {
-    "updated_at": "2026-09-09T09:22:54.628Z",
-    "btc_usd": 79480,
-    "btc_eur": 68333,
-    "btc_change_24h": 1.39,
-    "usd_eur": 0.8603
+    "updated_at": "2026-09-10T05:02:23.663Z",
+    "btc_usd": 78374,
+    "btc_eur": 67352,
+    "btc_change_24h": -0.93,
+    "usd_eur": 0.8596
   },
   "ai_news": [
     {
-      "title": "An Anthropic researcher quit saying AI labs are gambling with our lives",
-      "link": "https://thenextweb.com/news/anthropic-coxon-resignation-hubinger-alignment",
-      "source": "The Next Web"
+      "title": "4 groups caught using the same Chrome and Windows exploit kit",
+      "link": "https://arstechnica.com/information-technology/2026/09/4-groups-caught-using-the-same-chrome-and-windows-exploit-kit/",
+      "source": "Ars Technica"
     },
     {
-      "title": "Hackers are stealing Claude tokens from subscribers",
-      "link": "https://techcrunch.com/2026/09/08/hackers-are-stealing-claude-tokens-from-subscribers/",
+      "title": "Sonos 27 od danas dostupan za preuzimanje",
+      "link": "https://magnet.bug.hr/audio/sonos-27-od-danas-dostupan-za-preuzimanje-62717",
+      "source": "Bug.hr"
+    },
+    {
+      "title": "Superintelligence is coming. Should we let it?",
+      "link": "https://techcrunch.com/video/superintelligence-is-coming-should-we-let-it/",
       "source": "TechCrunch AI"
     },
     {
-      "title": "OpenAI now supplies the image models inside Adobe’s creative studio",
-      "link": "https://thenextweb.com/news/openai-images-25-adobe-firefly-interface-layer",
-      "source": "The Next Web"
+      "title": "ControlAI&#8217;s Connor Leahy on why superintelligence is ‘not a weapon, it&#8217;s an adversary’",
+      "link": "https://techcrunch.com/podcast/controlais-connor-leahy-on-why-superintelligence-is-not-a-weapon-its-an-adversary/",
+      "source": "TechCrunch AI"
     },
     {
-      "title": "ChatGPT Sketch turns your bad drawings into detailed AI images",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/991727/openai-chatgpt-images-2-5-sketch",
-      "source": "The Verge"
-    },
-    {
-      "title": "Logitech predstavio MX Keypad, tipkovnicu za lakši pristup AI alatima",
-      "link": "https://www.bug.hr/gadgeti/logitech-predstavio-mx-keypad-tipkovnicu-za-laksi-pristup-ai-alatima-62704",
-      "source": "Bug.hr"
+      "title": "Radio u OpenAI-u i u Anthropicu, a sada upozorava: &#039;AI bi nas mogao sve ubiti do kraja desetljeća&#039;",
+      "link": "https://www.tportal.hr/tehno/clanak/radio-u-openai-u-i-u-anthropicu-a-sada-upozorava-ai-bi-nas-mogao-sve-ubiti-do-kraja-desetljeca-20260909",
+      "source": "Tportal"
     }
   ],
   "micro_tips": {
     "vscode": {
-      "tip": "Otvori datoteku brzim pretraživanjem",
-      "keys": "Ctrl+P"
+      "tip": "Toggle Word Wrap za dugačke linije",
+      "keys": "Alt+Z"
     },
-    "sql": "Covering index: uključi sve kolone iz WHERE + SELECT u index pa nema pristupa tablici",
-    "oracle": "/*+ NO_MERGE(v) */ sprječava merging inline viewa s parent queryjem",
-    "regex": "(?=pattern) lookahead: \"iza ovog mora slijediti X\" bez konzumiranja znakova"
+    "sql": "Window funkcije (ROW_NUMBER, LAG, LEAD) umjesto self-join za redosljed i razlike",
+    "oracle": "/*+ RESULT_CACHE */ cache-ira rezultat funkcije u SGA za ponovljene pozive",
+    "regex": ".+? lazy quantifier: stane na prvom mogućem podudaranju, ne zadnjem"
   }
 }
