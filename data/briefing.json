@@ -1,20 +1,15 @@
 {
   "version": 2,
-  "date": "2026-09-10",
-  "generated_at": "2026-09-10T09:21:20.338Z",
-  "date_hr": "Četvrtak, 10. rujna 2026.",
+  "date": "2026-09-11",
+  "generated_at": "2026-09-11T05:03:06.880Z",
+  "date_hr": "Petak, 11. rujna 2026.",
   "weather": {
-    "icon": "⛈️",
-    "summary": "15–23°C, grmljavina s gradom · 20 mm",
-    "alerts": [
-      {
-        "level": "warning",
-        "text": "Grmljavinska oluja"
-      }
-    ]
+    "icon": "🌦️",
+    "summary": "14–17°C, jaki pljuskovi · 8.7 mm",
+    "alerts": []
   },
   "fuel": {
-    "current_date": "10.09.2026",
+    "current_date": "11.09.2026",
     "eurodiesel": [
       {
         "company": "Adria Oil",
@@ -55,11 +50,11 @@
         "price": 2.07
       },
       {
-        "company": "Petrol",
-        "price": 2.1
+        "company": "Coral Croatia",
+        "price": 2.15
       },
       {
-        "company": "Coral Croatia",
+        "company": "Petrol",
         "price": 2.15
       }
     ],
@@ -68,46 +63,46 @@
     "upcoming_premium": null
   },
   "market": {
-    "updated_at": "2026-09-10T09:21:20.338Z",
-    "btc_usd": 78159,
-    "btc_eur": 67145,
-    "btc_change_24h": -1.66,
-    "usd_eur": 0.8596
+    "updated_at": "2026-09-11T05:03:06.880Z",
+    "btc_usd": 77105,
+    "btc_eur": 66443,
+    "btc_change_24h": -1.62,
+    "usd_eur": 0.8607
   },
   "ai_news": [
     {
-      "title": "4 groups caught using the same Chrome and Windows exploit kit",
-      "link": "https://arstechnica.com/information-technology/2026/09/4-groups-caught-using-the-same-chrome-and-windows-exploit-kit/",
-      "source": "Ars Technica"
+      "title": "Anthropic details how Claude was misused for surveillance and weapons",
+      "link": "https://thenextweb.com/news/anthropic-claude-misuse-threat-intelligence-report",
+      "source": "The Next Web"
     },
     {
-      "title": "Sonos 27 od danas dostupan za preuzimanje",
-      "link": "https://magnet.bug.hr/audio/sonos-27-od-danas-dostupan-za-preuzimanje-62717",
-      "source": "Bug.hr"
-    },
-    {
-      "title": "Superintelligence is coming. Should we let it?",
-      "link": "https://techcrunch.com/video/superintelligence-is-coming-should-we-let-it/",
+      "title": "Anthropic reveals rogue AI agents hate CAPTCHAs, just like you",
+      "link": "https://techcrunch.com/2026/09/10/anthropic-reveals-rogue-ai-agents-hate-captchas-just-like-you/",
       "source": "TechCrunch AI"
     },
     {
-      "title": "ControlAI&#8217;s Connor Leahy on why superintelligence is ‘not a weapon, it&#8217;s an adversary’",
-      "link": "https://techcrunch.com/podcast/controlais-connor-leahy-on-why-superintelligence-is-not-a-weapon-its-an-adversary/",
-      "source": "TechCrunch AI"
+      "title": "Microsoft patches a record 974 flaws, and two are already under attack",
+      "link": "https://thenextweb.com/news/microsoft-september-patch-tuesday-974-flaws-two-zero-days",
+      "source": "The Next Web"
     },
     {
-      "title": "Radio u OpenAI-u i u Anthropicu, a sada upozorava: &#039;AI bi nas mogao sve ubiti do kraja desetljeća&#039;",
-      "link": "https://www.tportal.hr/tehno/clanak/radio-u-openai-u-i-u-anthropicu-a-sada-upozorava-ai-bi-nas-mogao-sve-ubiti-do-kraja-desetljeca-20260909",
-      "source": "Tportal"
+      "title": "OpenAI’s Bubeck denies trying to cut Anthropic mathematician from credit",
+      "link": "https://thenextweb.com/news/bubeck-navier-stokes-account-apology-altman",
+      "source": "The Next Web"
+    },
+    {
+      "title": "A Republican senator is now investigating OpenAI over the Hugging Face incident",
+      "link": "https://thenextweb.com/news/hawley-senate-probe-openai-hugging-face-16-questions",
+      "source": "The Next Web"
     }
   ],
   "micro_tips": {
     "vscode": {
-      "tip": "Toggle Word Wrap za dugačke linije",
-      "keys": "Alt+Z"
+      "tip": "Nađi i selektiraj sljedeće pojavljivanje",
+      "keys": "Ctrl+D"
     },
-    "sql": "Window funkcije (ROW_NUMBER, LAG, LEAD) umjesto self-join za redosljed i razlike",
-    "oracle": "/*+ RESULT_CACHE */ cache-ira rezultat funkcije u SGA za ponovljene pozive",
-    "regex": ".+? lazy quantifier: stane na prvom mogućem podudaranju, ne zadnjem"
+    "sql": "EXPLAIN ANALYZE prikazuje stvarne vs procijenjene redove — ključno za tuning",
+    "oracle": "CONNECT BY LEVEL <= n generira broj redova bez pomoćne tablice",
+    "regex": "[^\\n]* svaki znak osim newline — dohvati cijelu liniju bez dotall flaga"
   }
 }
