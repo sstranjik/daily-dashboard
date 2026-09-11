@@ -1,9 +1,13 @@
 {
-  "generated_at": "2026-09-11T13:01:10.480Z",
+  "generated_at": "2026-09-11T14:01:12.038Z",
   "stats": {
     "muzika.hr": {
       "ok": true,
       "count": 25
+    },
+    "Mochvara": {
+      "ok": true,
+      "count": 17
     },
     "Lisinski": {
       "ok": true,
@@ -11,15 +15,7 @@
     },
     "Gavella": {
       "ok": true,
-      "count": 20
-    },
-    "Mochvara": {
-      "ok": true,
-      "count": 17
-    },
-    "ZeKaeM": {
-      "ok": true,
-      "count": 0
+      "count": 21
     },
     "Tvornica": {
       "ok": true,
@@ -29,11 +25,15 @@
       "ok": true,
       "count": 0
     },
-    "Kerempuh": {
+    "ZeKaeM": {
       "ok": true,
       "count": 0
     },
     "Pogon": {
+      "ok": true,
+      "count": 0
+    },
+    "Kerempuh": {
       "ok": true,
       "count": 0
     },
@@ -42,8 +42,8 @@
       "count": 116
     },
     "Trešnja": {
-      "ok": false,
-      "error": "The operation was aborted due to timeout"
+      "ok": true,
+      "count": 0
     }
   },
   "concerts": [
@@ -3226,7 +3226,7 @@
       "time": null,
       "link": "https://www.gavella.hr/predstave/promo-paket-hoerspiel-predstava-ars-nova-napoli-koncert",
       "source": "Gavella",
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-09-11T13:01:10.480Z"
     },
     {
@@ -3378,6 +3378,21 @@
       "source": "Gavella",
       "is_new": false,
       "first_seen": "2026-09-04T13:01:17.354Z"
+    },
+    {
+      "id": "c63ea955bc",
+      "title": "Love nights by DJ Stankoff",
+      "venue": "Gavella",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "theater",
+      "date_iso": "2026-10-09T00:00:00",
+      "date_display": "pet, 09. 10. 2026.",
+      "time": null,
+      "link": "https://www.gavella.hr/predstave/love-nights-by-dj-stankoff",
+      "source": "Gavella",
+      "is_new": true,
+      "first_seen": "2026-09-11T14:01:12.038Z"
     },
     {
       "id": "b08c8ecdbc",
