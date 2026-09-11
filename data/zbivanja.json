@@ -1,25 +1,25 @@
 {
-  "generated_at": "2026-09-10T20:12:54.465Z",
+  "generated_at": "2026-09-11T05:01:05.589Z",
   "stats": {
+    "muzika.hr": {
+      "ok": true,
+      "count": 25
+    },
     "Lisinski": {
       "ok": true,
       "count": 0
-    },
-    "Mochvara": {
-      "ok": true,
-      "count": 17
-    },
-    "Gavella": {
-      "ok": true,
-      "count": 19
     },
     "Tvornica": {
       "ok": true,
       "count": 3
     },
-    "muzika.hr": {
+    "Gavella": {
       "ok": true,
-      "count": 25
+      "count": 19
+    },
+    "Mochvara": {
+      "ok": true,
+      "count": 17
     },
     "ZeKaeM": {
       "ok": true,
@@ -29,6 +29,10 @@
       "ok": true,
       "count": 0
     },
+    "HNK Zagreb": {
+      "ok": true,
+      "count": 116
+    },
     "Pogon": {
       "ok": true,
       "count": 0
@@ -37,31 +41,12 @@
       "ok": true,
       "count": 0
     },
-    "HNK Zagreb": {
-      "ok": true,
-      "count": 116
-    },
     "Trešnja": {
       "ok": true,
       "count": 0
     }
   },
   "concerts": [
-    {
-      "id": "cece4b311f",
-      "title": "Dekmantel Selectors",
-      "venue": "",
-      "city": "Zagreb",
-      "country": "HR",
-      "category": "concert",
-      "date_iso": "2026-08-27T00:00:00",
-      "date_display": "čet, 27. 08. 2026.",
-      "time": null,
-      "link": "https://www.muzika.hr/event/dekmantel-selectors/",
-      "source": "muzika.hr",
-      "is_new": false,
-      "first_seen": "2026-07-29T05:01:14.584Z"
-    },
     {
       "id": "c6b7d810d2",
       "title": "Ljeto na Zagrebačkom velesajmu",
@@ -1291,6 +1276,21 @@
       "source": "muzika.hr",
       "is_new": false,
       "first_seen": "2026-08-31T11:01:10.153Z"
+    },
+    {
+      "id": "497cbdac51",
+      "title": "Manifest crnila: Beton Armé, Frenzee, Grim Rhythm, Trulež",
+      "venue": "Mochvara",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-09-17T20:00:00",
+      "date_display": "čet, 17. 09. 2026.",
+      "time": "20:00",
+      "link": "https://mochvara.hr/event-detail/6a3e54cdd918ded2b63da18d/",
+      "source": "Mochvara",
+      "is_new": true,
+      "first_seen": "2026-09-11T05:01:05.589Z"
     },
     {
       "id": "f30ecf86dd",
@@ -3967,5 +3967,5 @@
       "first_seen": "2026-08-09T05:01:15.939Z"
     }
   ],
-  "new_count": 10
+  "new_count": 11
 }
