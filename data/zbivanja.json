@@ -1,29 +1,29 @@
 {
-  "generated_at": "2026-09-11T12:01:10.130Z",
+  "generated_at": "2026-09-11T13:01:10.480Z",
   "stats": {
     "muzika.hr": {
       "ok": true,
       "count": 25
     },
-    "Gavella": {
-      "ok": true,
-      "count": 19
-    },
     "Lisinski": {
       "ok": true,
       "count": 0
+    },
+    "Gavella": {
+      "ok": true,
+      "count": 20
     },
     "Mochvara": {
       "ok": true,
       "count": 17
     },
-    "Tvornica": {
-      "ok": true,
-      "count": 3
-    },
     "ZeKaeM": {
       "ok": true,
       "count": 0
+    },
+    "Tvornica": {
+      "ok": true,
+      "count": 3
     },
     "Komedija": {
       "ok": true,
@@ -33,15 +33,15 @@
       "ok": true,
       "count": 0
     },
+    "Pogon": {
+      "ok": true,
+      "count": 0
+    },
     "HNK Zagreb": {
       "ok": true,
       "count": 116
     },
     "Trešnja": {
-      "ok": true,
-      "count": 0
-    },
-    "Pogon": {
       "ok": false,
       "error": "The operation was aborted due to timeout"
     }
@@ -3215,6 +3215,21 @@
       "first_seen": "2026-07-01T08:01:24.271Z"
     },
     {
+      "id": "567c5ef721",
+      "title": "Promo paket: Hoerspiel (predstava) + Ars Nova Napoli (koncert)",
+      "venue": "Gavella",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "theater",
+      "date_iso": "2026-10-01T00:00:00",
+      "date_display": "čet, 01. 10. 2026.",
+      "time": null,
+      "link": "https://www.gavella.hr/predstave/promo-paket-hoerspiel-predstava-ars-nova-napoli-koncert",
+      "source": "Gavella",
+      "is_new": true,
+      "first_seen": "2026-09-11T13:01:10.480Z"
+    },
+    {
       "id": "31e8308460",
       "title": "Mediteranski brevijar, na valovima Radio Mediterana",
       "venue": "Gavella",
@@ -3967,5 +3982,5 @@
       "first_seen": "2026-08-09T05:01:15.939Z"
     }
   ],
-  "new_count": 10
+  "new_count": 11
 }
