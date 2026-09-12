@@ -1,29 +1,17 @@
 {
-  "generated_at": "2026-09-12T05:01:29.142Z",
+  "generated_at": "2026-09-12T06:01:15.949Z",
   "stats": {
-    "Mochvara": {
-      "ok": true,
-      "count": 0
-    },
-    "HNK Zagreb": {
-      "ok": true,
-      "count": 113
-    },
-    "Pogon": {
-      "ok": true,
-      "count": 0
-    },
     "muzika.hr": {
       "ok": true,
       "count": 25
     },
-    "ZeKaeM": {
-      "ok": true,
-      "count": 0
-    },
     "Lisinski": {
       "ok": true,
       "count": 0
+    },
+    "Mochvara": {
+      "ok": true,
+      "count": 17
     },
     "Tvornica": {
       "ok": true,
@@ -33,11 +21,7 @@
       "ok": true,
       "count": 21
     },
-    "Trešnja": {
-      "ok": true,
-      "count": 0
-    },
-    "Kerempuh": {
+    "Pogon": {
       "ok": true,
       "count": 0
     },
@@ -45,9 +29,21 @@
       "ok": true,
       "count": 0
     },
+    "ZeKaeM": {
+      "ok": true,
+      "count": 0
+    },
     "HNK Zagreb": {
       "ok": true,
       "count": 113
+    },
+    "Kerempuh": {
+      "ok": true,
+      "count": 0
+    },
+    "Trešnja": {
+      "ok": true,
+      "count": 0
     }
   },
   "concerts": [
@@ -1323,7 +1319,7 @@
       "time": "20:00",
       "link": "https://mochvara.hr/event-detail/6a02359b7020764f09fbda4e/",
       "source": "Mochvara",
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-09-12T05:01:09.175Z"
     },
     {
@@ -3997,9 +3993,9 @@
       "time": null,
       "link": "https://www.muzika.hr/event/aap-rocky-2/",
       "source": "muzika.hr",
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-09-12T05:01:29.142Z"
     }
   ],
-  "new_count": 11
+  "new_count": 10
 }
