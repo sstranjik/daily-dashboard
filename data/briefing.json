@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "date": "2026-09-11",
-  "generated_at": "2026-09-11T09:19:58.392Z",
-  "date_hr": "Petak, 11. rujna 2026.",
+  "date": "2026-09-12",
+  "generated_at": "2026-09-12T05:02:26.044Z",
+  "date_hr": "Subota, 12. rujna 2026.",
   "weather": {
-    "icon": "🌦️",
-    "summary": "14–17°C, jaki pljuskovi · 9.5 mm",
+    "icon": "🌫️",
+    "summary": "11–22°C, magla",
     "alerts": []
   },
   "fuel": {
@@ -63,46 +63,46 @@
     "upcoming_premium": null
   },
   "market": {
-    "updated_at": "2026-09-11T09:19:58.392Z",
-    "btc_usd": 77263,
-    "btc_eur": 66619,
-    "btc_change_24h": -1.15,
-    "usd_eur": 0.8607
+    "updated_at": "2026-09-12T05:02:26.044Z",
+    "btc_usd": 77217,
+    "btc_eur": 66545,
+    "btc_change_24h": 0.16,
+    "usd_eur": 0.862
   },
   "ai_news": [
+    {
+      "title": "OpenAI pauses $200 ChatGPT Pro sign-ups as Astra demand strains its systems",
+      "link": "https://thenextweb.com/news/openai-pro-pause-astra-eu-zone",
+      "source": "The Next Web"
+    },
+    {
+      "title": "Amazon lets its advertisers buy ads in ChatGPT in a pilot with OpenAI",
+      "link": "https://thenextweb.com/news/amazon-ads-chatgpt-ads-openai-pilot",
+      "source": "The Next Web"
+    },
     {
       "title": "OpenAI launches ChatGPT for Financial Services with data from S&P, LSEG, Moody’s and PitchBook",
       "link": "https://thenextweb.com/news/openai-chatgpt-financial-services-dora-data-residency",
       "source": "The Next Web"
     },
     {
-      "title": "Anthropic details how Claude was misused for surveillance and weapons",
-      "link": "https://thenextweb.com/news/anthropic-claude-misuse-threat-intelligence-report",
-      "source": "The Next Web"
+      "title": "Gemini dobio službenu desktop aplikaciju i za Windowse",
+      "link": "https://www.bug.hr/umjetna-inteligencija/gemini-dobio-sluzbenu-desktop-aplikaciju-i-za-windowse-62771",
+      "source": "Bug.hr"
     },
     {
-      "title": "Anthropic reveals rogue AI agents hate CAPTCHAs, just like you",
-      "link": "https://techcrunch.com/2026/09/10/anthropic-reveals-rogue-ai-agents-hate-captchas-just-like-you/",
+      "title": "OpenAI&#8217;s feud with mathematicians is only escalating",
+      "link": "https://techcrunch.com/2026/09/11/openais-feud-with-mathematicians-is-only-escalating/",
       "source": "TechCrunch AI"
-    },
-    {
-      "title": "Microsoft patches a record 974 flaws, and two are already under attack",
-      "link": "https://thenextweb.com/news/microsoft-september-patch-tuesday-974-flaws-two-zero-days",
-      "source": "The Next Web"
-    },
-    {
-      "title": "OpenAI’s Bubeck denies trying to cut Anthropic mathematician from credit",
-      "link": "https://thenextweb.com/news/bubeck-navier-stokes-account-apology-altman",
-      "source": "The Next Web"
     }
   ],
   "micro_tips": {
     "vscode": {
-      "tip": "Nađi i selektiraj sljedeće pojavljivanje",
-      "keys": "Ctrl+D"
+      "tip": "Multi-cursor: postavi cursor na više mjesta istovremeno",
+      "keys": "Alt+Click"
     },
-    "sql": "EXPLAIN ANALYZE prikazuje stvarne vs procijenjene redove — ključno za tuning",
-    "oracle": "CONNECT BY LEVEL <= n generira broj redova bez pomoćne tablice",
-    "regex": "[^\\n]* svaki znak osim newline — dohvati cijelu liniju bez dotall flaga"
+    "sql": "Partial index s WHERE klauzulom smanjuje veličinu i ubrzava specifična filtriranja",
+    "oracle": "LISTAGG(col, ',') WITHIN GROUP (ORDER BY col) konkatenira u jedan string",
+    "regex": "(?<ime>\\d{4}) named group — referenciraj s \\k<ime> ili $<ime> u replace"
   }
 }
