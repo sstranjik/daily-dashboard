@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-12T10:01:15.473Z",
+  "generated_at": "2026-09-12T11:01:14.043Z",
   "stats": {
     "muzika.hr": {
       "ok": true,
@@ -13,29 +13,29 @@
       "ok": true,
       "count": 17
     },
-    "Gavella": {
-      "ok": true,
-      "count": 21
-    },
     "Tvornica": {
       "ok": true,
       "count": 3
+    },
+    "Gavella": {
+      "ok": true,
+      "count": 22
+    },
+    "Komedija": {
+      "ok": true,
+      "count": 0
     },
     "ZeKaeM": {
       "ok": true,
       "count": 0
     },
-    "Komedija": {
+    "Pogon": {
       "ok": true,
       "count": 0
     },
     "HNK Zagreb": {
       "ok": true,
       "count": 113
-    },
-    "Pogon": {
-      "ok": true,
-      "count": 0
     },
     "Kerempuh": {
       "ok": true,
@@ -3410,6 +3410,21 @@
       "first_seen": "2026-09-04T13:01:17.354Z"
     },
     {
+      "id": "6c088753fb",
+      "title": "Love nights by DJ Stankoff",
+      "venue": "Gavella",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "theater",
+      "date_iso": "2026-10-10T00:00:00",
+      "date_display": "sub, 10. 10. 2026.",
+      "time": null,
+      "link": "https://www.gavella.hr/predstave/love-nights-by-dj-stankoff",
+      "source": "Gavella",
+      "is_new": true,
+      "first_seen": "2026-09-12T11:01:14.043Z"
+    },
+    {
       "id": "20b3ec03f9",
       "title": "Mirisi, zlato i tamjan",
       "venue": "Gavella",
@@ -3997,5 +4012,5 @@
       "first_seen": "2026-09-12T05:01:29.142Z"
     }
   ],
-  "new_count": 10
+  "new_count": 11
 }
