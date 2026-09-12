@@ -1,25 +1,25 @@
 {
-  "generated_at": "2026-09-11T20:21:22.175Z",
+  "generated_at": "2026-09-12T05:01:09.175Z",
   "stats": {
     "muzika.hr": {
       "ok": true,
       "count": 25
     },
-    "Lisinski": {
-      "ok": true,
-      "count": 0
-    },
-    "Mochvara": {
-      "ok": true,
-      "count": 17
-    },
     "Gavella": {
       "ok": true,
       "count": 21
     },
+    "Lisinski": {
+      "ok": true,
+      "count": 0
+    },
     "Tvornica": {
       "ok": true,
       "count": 3
+    },
+    "Mochvara": {
+      "ok": true,
+      "count": 17
     },
     "ZeKaeM": {
       "ok": true,
@@ -29,6 +29,10 @@
       "ok": true,
       "count": 0
     },
+    "HNK Zagreb": {
+      "ok": true,
+      "count": 113
+    },
     "Pogon": {
       "ok": true,
       "count": 0
@@ -37,31 +41,12 @@
       "ok": true,
       "count": 0
     },
-    "HNK Zagreb": {
-      "ok": true,
-      "count": 116
-    },
     "Trešnja": {
       "ok": true,
       "count": 0
     }
   },
   "concerts": [
-    {
-      "id": "c6b7d810d2",
-      "title": "Ljeto na Zagrebačkom velesajmu",
-      "venue": "Zagrebački velesajam Avenija Dubrovnik 15",
-      "city": "Zagreb",
-      "country": "HR",
-      "category": "concert",
-      "date_iso": "2026-08-28T00:00:00",
-      "date_display": "pet, 28. 08. 2026.",
-      "time": null,
-      "link": "https://www.muzika.hr/event/ljeto-na-zagrebackom-velesajmu/",
-      "source": "muzika.hr",
-      "is_new": false,
-      "first_seen": "2026-08-01T05:01:17.236Z"
-    },
     {
       "id": "38f32d554e",
       "title": "Ivana Starčević Kvartet u Vintage Gardenu",
@@ -1321,6 +1306,21 @@
       "source": "HNK Zagreb",
       "is_new": false,
       "first_seen": "2026-08-17T09:28:03.440Z"
+    },
+    {
+      "id": "3b6d0ae966",
+      "title": "Jungle Cakes",
+      "venue": "Mochvara",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-09-18T20:00:00",
+      "date_display": "pet, 18. 09. 2026.",
+      "time": "20:00",
+      "link": "https://mochvara.hr/event-detail/6a02359b7020764f09fbda4e/",
+      "source": "Mochvara",
+      "is_new": true,
+      "first_seen": "2026-09-12T05:01:09.175Z"
     },
     {
       "id": "4505d1d345",
@@ -3907,21 +3907,6 @@
   ],
   "abroad": [
     {
-      "id": "81663d68ba",
-      "title": "Judas Priest",
-      "venue": "Nikole Tesle bb",
-      "city": "Beograd",
-      "country": "RS",
-      "category": "concert",
-      "date_iso": "2026-08-28T00:00:00",
-      "date_display": "pet, 28. 08. 2026.",
-      "time": null,
-      "link": "https://www.muzika.hr/event/judas-priest-4/",
-      "source": "muzika.hr",
-      "is_new": false,
-      "first_seen": "2026-08-01T05:01:17.236Z"
-    },
-    {
       "id": "3a067ab44e",
       "title": "Sunčani fest: SARS, Krankšvester, Kuku$, IDEM",
       "venue": "SARS",
@@ -3995,7 +3980,22 @@
       "source": "muzika.hr",
       "is_new": false,
       "first_seen": "2026-08-09T05:01:15.939Z"
+    },
+    {
+      "id": "5b93a251c7",
+      "title": "A$AP Rocky",
+      "venue": "Arena Bulevar Arsenija Čarnojevića 58",
+      "city": "Beograd",
+      "country": "RS",
+      "category": "concert",
+      "date_iso": "2026-10-08T00:00:00",
+      "date_display": "čet, 08. 10. 2026.",
+      "time": null,
+      "link": "https://www.muzika.hr/event/aap-rocky-2/",
+      "source": "muzika.hr",
+      "is_new": true,
+      "first_seen": "2026-09-12T05:01:09.175Z"
     }
   ],
-  "new_count": 10
+  "new_count": 12
 }
