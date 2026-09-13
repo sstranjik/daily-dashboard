@@ -1,15 +1,15 @@
 {
   "version": 2,
-  "date": "2026-09-12",
-  "generated_at": "2026-09-12T08:59:44.705Z",
-  "date_hr": "Subota, 12. rujna 2026.",
+  "date": "2026-09-13",
+  "generated_at": "2026-09-13T05:02:22.783Z",
+  "date_hr": "Nedjelja, 13. rujna 2026.",
   "weather": {
-    "icon": "🌫️",
-    "summary": "11–22°C, magla",
+    "icon": "☁️",
+    "summary": "12–25°C, oblačno",
     "alerts": []
   },
   "fuel": {
-    "current_date": "12.09.2026",
+    "current_date": "13.09.2026",
     "eurodiesel": [
       {
         "company": "Adria Oil",
@@ -63,46 +63,46 @@
     "upcoming_premium": null
   },
   "market": {
-    "updated_at": "2026-09-12T08:59:44.705Z",
-    "btc_usd": 77331,
-    "btc_eur": 66653,
-    "btc_change_24h": 0,
-    "usd_eur": 0.862
+    "updated_at": "2026-09-13T05:02:22.783Z",
+    "btc_usd": 77192,
+    "btc_eur": 66533,
+    "btc_change_24h": -0.02,
+    "usd_eur": 0.8618
   },
   "ai_news": [
     {
-      "title": "OpenAI pauses $200 ChatGPT Pro sign-ups as Astra demand strains its systems",
-      "link": "https://thenextweb.com/news/openai-pro-pause-astra-eu-zone",
-      "source": "The Next Web"
+      "title": "OpenAI’s rogue AI tried to hack another company in May",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/994383/openais-rogue-ai-rubygems-hack",
+      "source": "The Verge"
     },
     {
-      "title": "Amazon lets its advertisers buy ads in ChatGPT in a pilot with OpenAI",
-      "link": "https://thenextweb.com/news/amazon-ads-chatgpt-ads-openai-pilot",
-      "source": "The Next Web"
+      "title": "Sam Altman says OpenAI going public in 2026 would be ‘ill-advised’",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/994384/sam-altman-no-openai-ipo-ill-advised",
+      "source": "The Verge"
     },
     {
-      "title": "Gemini dobio službenu desktop aplikaciju i za Windowse",
-      "link": "https://www.bug.hr/umjetna-inteligencija/gemini-dobio-sluzbenu-desktop-aplikaciju-i-za-windowse-62771",
-      "source": "Bug.hr"
-    },
-    {
-      "title": "OpenAI&#8217;s feud with mathematicians is only escalating",
-      "link": "https://techcrunch.com/2026/09/11/openais-feud-with-mathematicians-is-only-escalating/",
+      "title": "Anthropic CEO outlines plan to slow AI development",
+      "link": "https://techcrunch.com/2026/09/12/anthropic-ceo-outlines-plan-to-pace-the-frontier/",
       "source": "TechCrunch AI"
     },
     {
-      "title": "An Anthropic researcher’s doomsday warning comes at a very interesting time",
-      "link": "https://techcrunch.com/podcast/an-anthropic-researchers-doomsday-warning-comes-at-a-very-interesting-time/",
-      "source": "TechCrunch AI"
+      "title": "Sam Altman backs Dario Amodei’s call to slow down, and says OpenAI will do the same",
+      "link": "https://thenextweb.com/news/altman-matches-pacing-eu-antitrust",
+      "source": "The Next Web"
+    },
+    {
+      "title": "Nvidia may put $10bn into Anthropic’s IPO, more than Europe’s largest AI round in full",
+      "link": "https://thenextweb.com/news/nvidia-anthropic-ipo-mistral-scale",
+      "source": "The Next Web"
     }
   ],
   "micro_tips": {
     "vscode": {
-      "tip": "Multi-cursor: postavi cursor na više mjesta istovremeno",
-      "keys": "Alt+Click"
+      "tip": "Command Palette: brzi pristup svim komandama",
+      "keys": "Ctrl+Shift+P"
     },
-    "sql": "Partial index s WHERE klauzulom smanjuje veličinu i ubrzava specifična filtriranja",
-    "oracle": "LISTAGG(col, ',') WITHIN GROUP (ORDER BY col) konkatenira u jedan string",
-    "regex": "(?<ime>\\d{4}) named group — referenciraj s \\k<ime> ili $<ime> u replace"
+    "sql": "GROUP BY s ROLLUP za subtotale u jednom prolasku: GROUP BY ROLLUP(god, mj)",
+    "oracle": "TRUNC(datum_kolona) = TRUNC(SYSDATE) koristi B-tree index na datumskoj koloni",
+    "regex": "\\d{4}-\\d{2}-\\d{2} ISO datum pattern; za validaciju zatvori s ^...$"
   }
 }
