@@ -1,13 +1,9 @@
 {
-  "generated_at": "2026-09-13T05:01:09.594Z",
+  "generated_at": "2026-09-13T06:01:12.424Z",
   "stats": {
     "muzika.hr": {
       "ok": true,
       "count": 25
-    },
-    "Lisinski": {
-      "ok": true,
-      "count": 0
     },
     "Mochvara": {
       "ok": true,
@@ -17,11 +13,19 @@
       "ok": true,
       "count": 3
     },
+    "Lisinski": {
+      "ok": true,
+      "count": 0
+    },
     "Gavella": {
       "ok": true,
       "count": 22
     },
     "ZeKaeM": {
+      "ok": true,
+      "count": 0
+    },
+    "Komedija": {
       "ok": true,
       "count": 0
     },
@@ -32,10 +36,6 @@
     "HNK Zagreb": {
       "ok": true,
       "count": 107
-    },
-    "Pogon": {
-      "ok": true,
-      "count": 0
     },
     "Kerempuh": {
       "ok": true,
@@ -1379,7 +1379,7 @@
       "time": "20:00",
       "link": "https://mochvara.hr/event-detail/6a509ca43b7cb975aef1d168/",
       "source": "Mochvara",
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-09-13T05:01:09.594Z"
     },
     {
@@ -1874,7 +1874,7 @@
       "time": null,
       "link": "https://www.muzika.hr/event/mile-kekin/",
       "source": "muzika.hr",
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-09-13T05:01:09.594Z"
     },
     {
@@ -3993,9 +3993,9 @@
       "time": null,
       "link": "https://www.muzika.hr/event/deep-purple-2/",
       "source": "muzika.hr",
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-09-13T05:01:09.594Z"
     }
   ],
-  "new_count": 13
+  "new_count": 10
 }
