@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T20:01:08.835Z",
+  "generated_at": "2026-09-13T21:57:36.507Z",
   "stats": {
     "muzika.hr": {
       "ok": true,
@@ -9,23 +9,27 @@
       "ok": true,
       "count": 0
     },
-    "Mochvara": {
+    "Tvornica": {
       "ok": true,
-      "count": 17
+      "count": 3
     },
     "Gavella": {
       "ok": true,
       "count": 22
     },
-    "Tvornica": {
+    "Mochvara": {
       "ok": true,
-      "count": 3
+      "count": 17
     },
     "ZeKaeM": {
       "ok": true,
       "count": 0
     },
     "Komedija": {
+      "ok": true,
+      "count": 0
+    },
+    "Pogon": {
       "ok": true,
       "count": 0
     },
@@ -37,46 +41,12 @@
       "ok": true,
       "count": 0
     },
-    "Pogon": {
-      "ok": true,
-      "count": 0
-    },
     "Trešnja": {
       "ok": true,
       "count": 0
     }
   },
   "concerts": [
-    {
-      "id": "0f79abf940",
-      "title": "akomeneželiš",
-      "venue": "Mochvara",
-      "city": "Zagreb",
-      "country": "HR",
-      "category": "concert",
-      "date_iso": "2026-08-29T21:00:00",
-      "date_display": "sub, 29. 08. 2026.",
-      "time": "21:00",
-      "link": "https://mochvara.hr/event-detail/6a468c43356d5f92b9fbc70d/",
-      "source": "Mochvara",
-      "is_new": false,
-      "first_seen": "2026-07-18T05:01:14.110Z"
-    },
-    {
-      "id": "b93ddb60a7",
-      "title": "akomeneželiš, Honta b2b Laren",
-      "venue": "Mochvara",
-      "city": "Zagreb",
-      "country": "HR",
-      "category": "concert",
-      "date_iso": "2026-08-29T21:00:00",
-      "date_display": "sub, 29. 08. 2026.",
-      "time": "21:00",
-      "link": "https://mochvara.hr/event-detail/6a468c43356d5f92b9fbc70d/",
-      "source": "Mochvara",
-      "is_new": false,
-      "first_seen": "2026-08-29T11:01:12.255Z"
-    },
     {
       "id": "3705951c00",
       "title": "Death metal koncert: Massacre, Attitudes to Human Extinction, In Dakhma, A Goat As Our Shepherd",
@@ -1951,6 +1921,21 @@
       "source": "HNK Zagreb",
       "is_new": false,
       "first_seen": "2026-09-07T14:01:16.280Z"
+    },
+    {
+      "id": "a5f1598529",
+      "title": "Jasna Zlokić",
+      "venue": "Jasna Zlokić Tvornica kulture Šubićeva 2",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-10-10T00:00:00",
+      "date_display": "sub, 10. 10. 2026.",
+      "time": null,
+      "link": "https://www.muzika.hr/event/jasna-zlokic-3/",
+      "source": "muzika.hr",
+      "is_new": true,
+      "first_seen": "2026-09-13T21:57:36.507Z"
     },
     {
       "id": "e2f4df1279",
@@ -3997,5 +3982,5 @@
       "first_seen": "2026-09-13T05:01:09.594Z"
     }
   ],
-  "new_count": 10
+  "new_count": 11
 }
