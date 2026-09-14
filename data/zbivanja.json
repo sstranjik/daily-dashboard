@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-14T10:15:50.489Z",
+  "generated_at": "2026-09-14T11:01:10.832Z",
   "stats": {
     "muzika.hr": {
       "ok": true,
@@ -9,10 +9,6 @@
       "ok": true,
       "count": 0
     },
-    "Mochvara": {
-      "ok": true,
-      "count": 17
-    },
     "Gavella": {
       "ok": true,
       "count": 22
@@ -21,15 +17,15 @@
       "ok": true,
       "count": 3
     },
+    "Mochvara": {
+      "ok": true,
+      "count": 17
+    },
     "ZeKaeM": {
       "ok": true,
       "count": 0
     },
     "Komedija": {
-      "ok": true,
-      "count": 0
-    },
-    "Pogon": {
       "ok": true,
       "count": 0
     },
@@ -44,6 +40,10 @@
     "Trešnja": {
       "ok": true,
       "count": 0
+    },
+    "Pogon": {
+      "ok": false,
+      "error": "The operation was aborted due to timeout"
     }
   },
   "concerts": [
@@ -1319,7 +1319,7 @@
       "time": "22:00",
       "link": "https://mochvara.hr/event-detail/6aa7c759d71134be61923b72/",
       "source": "Mochvara",
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-09-14T10:15:50.489Z"
     },
     {
@@ -3997,5 +3997,5 @@
       "first_seen": "2026-09-13T05:01:09.594Z"
     }
   ],
-  "new_count": 11
+  "new_count": 10
 }
