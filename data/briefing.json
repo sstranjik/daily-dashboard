@@ -1,26 +1,18 @@
 {
   "version": 2,
-  "date": "2026-09-14",
-  "generated_at": "2026-09-14T10:17:06.618Z",
-  "date_hr": "Ponedjeljak, 14. rujna 2026.",
+  "date": "2026-09-15",
+  "generated_at": "2026-09-15T05:02:27.282Z",
+  "date_hr": "Utorak, 15. rujna 2026.",
   "weather": {
-    "icon": "🌧️",
-    "summary": "17–22°C, lagana kiša · 2.2 mm",
+    "icon": "🌤️",
+    "summary": "14–25°C, djelomično oblačno",
     "alerts": []
   },
   "fuel": {
-    "current_date": "14.09.2026",
+    "current_date": "15.09.2026",
     "eurodiesel": [
       {
         "company": "Adria Oil",
-        "price": 1.79
-      },
-      {
-        "company": "Coral Croatia",
-        "price": 1.79
-      },
-      {
-        "company": "INA",
         "price": 1.79
       },
       {
@@ -28,12 +20,20 @@
         "price": 1.79
       },
       {
+        "company": "Coral Croatia",
+        "price": 1.85
+      },
+      {
+        "company": "INA",
+        "price": 1.85
+      },
+      {
         "company": "Petrol",
-        "price": 1.79
+        "price": 1.85
       },
       {
         "company": "Tifon",
-        "price": 1.79
+        "price": 1.85
       }
     ],
     "premium_eurodiesel": [
@@ -43,19 +43,19 @@
       },
       {
         "company": "INA",
-        "price": 2.07
+        "price": 2.12
       },
       {
         "company": "Tifon",
-        "price": 2.07
-      },
-      {
-        "company": "Coral Croatia",
-        "price": 2.15
+        "price": 2.12
       },
       {
         "company": "Petrol",
         "price": 2.15
+      },
+      {
+        "company": "Coral Croatia",
+        "price": 2.21
       }
     ],
     "upcoming_date": null,
@@ -63,46 +63,46 @@
     "upcoming_premium": null
   },
   "market": {
-    "updated_at": "2026-09-14T10:17:06.618Z",
-    "btc_usd": 78009,
-    "btc_eur": 67596,
-    "btc_change_24h": 1.61,
-    "usd_eur": 0.8622
+    "updated_at": "2026-09-15T05:02:27.282Z",
+    "btc_usd": 77553,
+    "btc_eur": 67218,
+    "btc_change_24h": -0.07,
+    "usd_eur": 0.8657
   },
   "ai_news": [
     {
-      "title": "Strah od AI apokalipse stigao i do kralja Charlesa: Okuplja čelnike AI industrije nakon dramatičnih upozorenja",
-      "link": "https://www.tportal.hr/tehno/clanak/strah-od-ai-apokalipse-stigao-i-do-kralja-charlesa-okuplja-celnike-ai-industrije-nakon-dramaticnih-upozorenja-20260914",
+      "title": "OpenAI agents attacked RubyGems in May, two months before Hugging Face",
+      "link": "https://thenextweb.com/news/openai-agents-rubygems-attack-api-keys-hugging-face",
+      "source": "The Next Web"
+    },
+    {
+      "title": "Uz pomoć Claudea pokušavali razviti napredne projektile, a onda ih je razotkrio neuspješan test",
+      "link": "https://www.tportal.hr/tehno/clanak/uz-pomoc-claudea-pokusavali-razviti-napredne-projektile-a-onda-ih-je-razotkrio-neuspjesan-test-20260914",
       "source": "Tportal"
     },
     {
-      "title": "Trump and Mike Johnson think the AI industry is overreacting",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/994441/trump-mike-johnson-ai-industry-overreacting",
+      "title": "Is Big Tech’s AI slowdown a safety pact or a cartel?",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/995186/is-big-techs-ai-slowdown-a-safety-pact-or-a-cartel",
       "source": "The Verge"
     },
     {
-      "title": "Anthropic has chosen Nasdaq for its October IPO, in the week OpenAI ruled one out",
-      "link": "https://thenextweb.com/news/anthropic-ipo-nasdaq-october-listing",
+      "title": "Auditing the agent economy: what the forecasts actually say",
+      "link": "https://thenextweb.com/news/auditing-agent-economy-agentic-ai-forecasts",
       "source": "The Next Web"
     },
     {
-      "title": "Trump’s former AI czar tells Anthropic and OpenAI to slow down, and to stop asking for anything in return",
-      "link": "https://thenextweb.com/news/sacks-pacing-frontier-eu-liability",
+      "title": "Hundreds of contractors are reportedly reading real ChatGPT conversations",
+      "link": "https://thenextweb.com/news/chatgpt-human-reviewers-gdpr",
       "source": "The Next Web"
-    },
-    {
-      "title": "Poziv na usporavanje AI-a razbjesnio Kinu: &#039;To je tihi hladni rat. Žele nas isključiti iz globalnog razvoja&#039;",
-      "link": "https://www.tportal.hr/tehno/clanak/poziv-na-usporavanje-ai-ja-razbjesnio-kinu-to-je-tihi-hladni-rat-zele-nas-iskljuciti-iz-globalnog-razvoja-20260914",
-      "source": "Tportal"
     }
   ],
   "micro_tips": {
     "vscode": {
-      "tip": "Rename Symbol svuda u projektu (refactoring)",
-      "keys": "F2"
+      "tip": "Quick Fix i Code Actions na trenutnoj poziciji",
+      "keys": "Ctrl+."
     },
-    "sql": "NOT EXISTS brži od NOT IN kad subquery može vratiti NULL vrijednost",
-    "oracle": "DBMS_STATS.GATHER_TABLE_STATS osvježava statistike za točniji execution plan",
-    "regex": "(?i) inline flag za case-insensitive bez mijenjanja ostatka patternahe"
+    "sql": "Parametrizirani upiti = plan cache reuse + SQL injection zaštita istovremeno",
+    "oracle": "NVL2(expr, kad_nije_null, kad_je_null) kompaktnija od dvostrukog NVL-a",
+    "regex": "\\s+ pokriva space, tab i newline; \\S je negacija (svaki ne-whitespace)"
   }
 }
