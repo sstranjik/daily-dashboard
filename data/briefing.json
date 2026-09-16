@@ -1,15 +1,15 @@
 {
   "version": 2,
-  "date": "2026-09-15",
-  "generated_at": "2026-09-15T09:45:10.721Z",
-  "date_hr": "Utorak, 15. rujna 2026.",
+  "date": "2026-09-16",
+  "generated_at": "2026-09-16T05:03:10.969Z",
+  "date_hr": "Srijeda, 16. rujna 2026.",
   "weather": {
     "icon": "🌤️",
-    "summary": "14–25°C, djelomično oblačno",
+    "summary": "13–26°C, pretežno vedro",
     "alerts": []
   },
   "fuel": {
-    "current_date": "15.09.2026",
+    "current_date": "16.09.2026",
     "eurodiesel": [
       {
         "company": "Adria Oil",
@@ -63,46 +63,46 @@
     "upcoming_premium": null
   },
   "market": {
-    "updated_at": "2026-09-15T09:45:10.721Z",
-    "btc_usd": 76939,
-    "btc_eur": 66704,
-    "btc_change_24h": -1.18,
-    "usd_eur": 0.8657
+    "updated_at": "2026-09-16T05:03:10.969Z",
+    "btc_usd": 75812,
+    "btc_eur": 65667,
+    "btc_change_24h": -2.28,
+    "usd_eur": 0.8667
   },
   "ai_news": [
     {
-      "title": "OpenAI agents attacked RubyGems in May, two months before Hugging Face",
-      "link": "https://thenextweb.com/news/openai-agents-rubygems-attack-api-keys-hugging-face",
+      "title": "Meta now lets AI agents handle the boring parts of WhatsApp Business setup",
+      "link": "https://techcrunch.com/2026/09/15/meta-now-lets-ai-agents-handle-the-boring-parts-of-whatsapp-business-setup/",
+      "source": "TechCrunch AI"
+    },
+    {
+      "title": "OpenAI, Anthropic, Google have been in talks on AI safety for weeks",
+      "link": "https://techcrunch.com/2026/09/15/openai-anthropic-google-have-been-in-talks-on-ai-safety-for-weeks/",
+      "source": "TechCrunch AI"
+    },
+    {
+      "title": "SoftBank shares slide up to 13% as AI stocks fall on slowdown calls",
+      "link": "https://thenextweb.com/news/softbank-shares-fall-11-87bn-openai-loan",
       "source": "The Next Web"
     },
     {
-      "title": "Uz pomoć Claudea pokušavali razviti napredne projektile, a onda ih je razotkrio neuspješan test",
-      "link": "https://www.tportal.hr/tehno/clanak/uz-pomoc-claudea-pokusavali-razviti-napredne-projektile-a-onda-ih-je-razotkrio-neuspjesan-test-20260914",
-      "source": "Tportal"
+      "title": "Early Anthropic hire, former METR COO have found a way to rein in rogue AI agents",
+      "link": "https://techcrunch.com/2026/09/15/early-anthropic-hire-former-metr-coo-have-found-a-way-to-rein-in-rogue-ai-agents/",
+      "source": "TechCrunch AI"
     },
     {
-      "title": "Is Big Tech’s AI slowdown a safety pact or a cartel?",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/995186/is-big-techs-ai-slowdown-a-safety-pact-or-a-cartel",
-      "source": "The Verge"
-    },
-    {
-      "title": "Auditing the agent economy: what the forecasts actually say",
-      "link": "https://thenextweb.com/news/auditing-agent-economy-agentic-ai-forecasts",
-      "source": "The Next Web"
-    },
-    {
-      "title": "Hundreds of contractors are reportedly reading real ChatGPT conversations",
-      "link": "https://thenextweb.com/news/chatgpt-human-reviewers-gdpr",
+      "title": "“The world is right to be afraid”: Sam Altman on AI power at Dreamforce",
+      "link": "https://thenextweb.com/news/sam-altman-dreamforce-world-right-to-be-afraid",
       "source": "The Next Web"
     }
   ],
   "micro_tips": {
     "vscode": {
-      "tip": "Quick Fix i Code Actions na trenutnoj poziciji",
-      "keys": "Ctrl+."
+      "tip": "Toggle integrirani terminal",
+      "keys": "Ctrl+`"
     },
-    "sql": "Parametrizirani upiti = plan cache reuse + SQL injection zaštita istovremeno",
-    "oracle": "NVL2(expr, kad_nije_null, kad_je_null) kompaktnija od dvostrukog NVL-a",
-    "regex": "\\s+ pokriva space, tab i newline; \\S je negacija (svaki ne-whitespace)"
+    "sql": "Batch INSERT umjesto jednog-po-jednog: INSERT INTO t VALUES (...),(...),...",
+    "oracle": "FETCH FIRST n ROWS ONLY umjesto ROWNUM — kompatibilno s ORDER BY i čitljivije",
+    "regex": "^(?!.*pattern) negative lookahead: \"ova linija ne smije sadržavati X\""
   }
 }
