@@ -1,15 +1,15 @@
 {
   "version": 2,
-  "date": "2026-09-16",
-  "generated_at": "2026-09-16T09:39:07.829Z",
-  "date_hr": "Srijeda, 16. rujna 2026.",
+  "date": "2026-09-17",
+  "generated_at": "2026-09-17T05:02:35.290Z",
+  "date_hr": "Četvrtak, 17. rujna 2026.",
   "weather": {
-    "icon": "🌤️",
-    "summary": "13–26°C, pretežno vedro",
+    "icon": "🌦️",
+    "summary": "15–20°C, pljuskovi · 6.1 mm",
     "alerts": []
   },
   "fuel": {
-    "current_date": "16.09.2026",
+    "current_date": "17.09.2026",
     "eurodiesel": [
       {
         "company": "Adria Oil",
@@ -63,46 +63,46 @@
     "upcoming_premium": null
   },
   "market": {
-    "updated_at": "2026-09-16T09:39:07.829Z",
-    "btc_usd": 75819,
-    "btc_eur": 65691,
-    "btc_change_24h": -1.45,
-    "usd_eur": 0.8667
+    "updated_at": "2026-09-17T05:02:35.290Z",
+    "btc_usd": 76475,
+    "btc_eur": 66695,
+    "btc_change_24h": 0.9,
+    "usd_eur": 0.8693
   },
   "ai_news": [
     {
-      "title": "Meta now lets AI agents handle the boring parts of WhatsApp Business setup",
-      "link": "https://techcrunch.com/2026/09/15/meta-now-lets-ai-agents-handle-the-boring-parts-of-whatsapp-business-setup/",
+      "title": "Your AI agents can now control your Google Home devices",
+      "link": "https://techcrunch.com/2026/09/16/your-ai-agents-can-now-control-your-google-home-devices/",
       "source": "TechCrunch AI"
     },
     {
-      "title": "Novi standard? Microsoft se obvezao na standarde privatnosti u učionicama vezane uz AI",
-      "link": "https://www.tportal.hr/tehno/clanak/novi-standard-microsoft-se-obvezao-na-standarde-privatnosti-u-ucionicama-vezane-uz-ai-20260915",
-      "source": "Tportal"
+      "title": "Claude comes for Gemini with its own take on Docs and Slides",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/996234/anthropic-one-claude-cowork-docs-slides",
+      "source": "The Verge"
     },
     {
-      "title": "OpenAI, Anthropic, Google have been in talks on AI safety for weeks",
-      "link": "https://techcrunch.com/2026/09/15/openai-anthropic-google-have-been-in-talks-on-ai-safety-for-weeks/",
-      "source": "TechCrunch AI"
-    },
-    {
-      "title": "SoftBank shares slide up to 13% as AI stocks fall on slowdown calls",
-      "link": "https://thenextweb.com/news/softbank-shares-fall-11-87bn-openai-loan",
+      "title": "OpenAI’s rogue agents probed Hugging Face in May, two months before the breach, Reuters reports",
+      "link": "https://thenextweb.com/news/openai-rogue-agents-probed-hugging-face-may",
       "source": "The Next Web"
     },
     {
-      "title": "Early Anthropic hire, former METR COO have found a way to rein in rogue AI agents",
-      "link": "https://techcrunch.com/2026/09/15/early-anthropic-hire-former-metr-coo-have-found-a-way-to-rein-in-rogue-ai-agents/",
+      "title": "Anthropic and OpenAI want to embed safety evaluators. Will they really be independent?",
+      "link": "https://techcrunch.com/2026/09/16/anthropic-and-openai-want-to-embed-safety-evaluators-will-they-really-be-independent/",
       "source": "TechCrunch AI"
+    },
+    {
+      "title": "Google will now let any AI agent run your smart home",
+      "link": "https://www.theverge.com/tech/996310/google-home-mcp-integration-agentic-ai-smart-home-price-release-date",
+      "source": "The Verge"
     }
   ],
   "micro_tips": {
     "vscode": {
-      "tip": "Toggle integrirani terminal",
-      "keys": "Ctrl+`"
+      "tip": "Selektiraj sva pojavljivanja trenutne riječi",
+      "keys": "Ctrl+Shift+L"
     },
-    "sql": "Batch INSERT umjesto jednog-po-jednog: INSERT INTO t VALUES (...),(...),...",
-    "oracle": "FETCH FIRST n ROWS ONLY umjesto ROWNUM — kompatibilno s ORDER BY i čitljivije",
-    "regex": "^(?!.*pattern) negative lookahead: \"ova linija ne smije sadržavati X\""
+    "sql": "EXISTS umjesto IN za subqueries — brže jer stane na prvom podudaranju: WHERE EXISTS (SELECT 1 FROM ...)",
+    "oracle": "/*+ INDEX(t ime_indexa) */ forsira specifičan index kad optimizer bira full scan",
+    "regex": "\\b granica riječi: \\bword\\b podudara cijelu riječ, ne \"password\" ili \"swordfish\""
   }
 }
