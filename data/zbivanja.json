@@ -1,11 +1,7 @@
 {
-  "generated_at": "2026-09-18T19:01:13.729Z",
+  "generated_at": "2026-09-18T20:01:15.085Z",
   "stats": {
     "Mochvara": {
-      "ok": true,
-      "count": 0
-    },
-    "Pogon": {
       "ok": true,
       "count": 0
     },
@@ -21,62 +17,36 @@
       "ok": true,
       "count": 3
     },
-    "ZeKaeM": {
-      "ok": true,
-      "count": 0
-    },
     "Gavella": {
       "ok": true,
-      "count": 35
-    },
-    "Trešnja": {
-      "ok": true,
-      "count": 0
+      "count": 36
     },
     "Komedija": {
-      "ok": true,
-      "count": 0
-    },
-    "Kerempuh": {
       "ok": true,
       "count": 0
     },
     "HNK Zagreb": {
       "ok": true,
       "count": 101
+    },
+    "ZeKaeM": {
+      "ok": false,
+      "error": "fetch failed"
+    },
+    "Trešnja": {
+      "ok": false,
+      "error": "fetch failed"
+    },
+    "Pogon": {
+      "ok": false,
+      "error": "fetch failed"
+    },
+    "Kerempuh": {
+      "ok": false,
+      "error": "fetch failed"
     }
   },
   "concerts": [
-    {
-      "id": "86cc723186",
-      "title": "Jakov Gotovac STANAC Gostovanje u HNK Osijek",
-      "venue": "HNK Zagreb",
-      "city": "Zagreb",
-      "country": "HR",
-      "category": "concert",
-      "date_iso": "2026-09-03T19:30:00",
-      "date_display": "čet, 03. 09. 2026.",
-      "time": "19:30",
-      "link": "https://hnk.hr/hr/opera/predstave/stanac/#03.09.19.30",
-      "source": "HNK Zagreb",
-      "is_new": false,
-      "first_seen": "2026-06-19T13:01:15.860Z"
-    },
-    {
-      "id": "33550f0101",
-      "title": "Jakov Gotovac STANAC Gostovanje u HNK-u u Osijeku u sklopu K-HNK",
-      "venue": "HNK Zagreb",
-      "city": "Zagreb",
-      "country": "HR",
-      "category": "concert",
-      "date_iso": "2026-09-03T20:00:00",
-      "date_display": "čet, 03. 09. 2026.",
-      "time": "20:00",
-      "link": "https://hnk.hr/hr/opera/predstave/stanac/#03.09.20.00",
-      "source": "HNK Zagreb",
-      "is_new": false,
-      "first_seen": "2026-06-21T16:01:52.924Z"
-    },
     {
       "id": "419d0f74d0",
       "title": "Soul Divas: Petra Antolić & Soulfinders u Vintage Gardenu",
@@ -3485,6 +3455,21 @@
       "first_seen": "2026-09-04T13:01:17.354Z"
     },
     {
+      "id": "0aa123085a",
+      "title": "Promocija slikovnice \"Siri\"",
+      "venue": "Gavella",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "theater",
+      "date_iso": "2026-10-13T00:00:00",
+      "date_display": "uto, 13. 10. 2026.",
+      "time": null,
+      "link": "https://www.gavella.hr/predstave/promocija-slikovnice-siri",
+      "source": "Gavella",
+      "is_new": true,
+      "first_seen": "2026-09-18T20:01:15.085Z"
+    },
+    {
       "id": "31f7d96d08",
       "title": "Oscar Wilde IDEALAN MUŽ",
       "venue": "HNK Zagreb",
@@ -4297,5 +4282,5 @@
       "first_seen": "2026-09-13T05:01:09.594Z"
     }
   ],
-  "new_count": 10
+  "new_count": 11
 }
