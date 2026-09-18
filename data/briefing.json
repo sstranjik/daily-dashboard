@@ -1,15 +1,15 @@
 {
   "version": 2,
-  "date": "2026-09-17",
-  "generated_at": "2026-09-17T09:48:22.311Z",
-  "date_hr": "Četvrtak, 17. rujna 2026.",
+  "date": "2026-09-18",
+  "generated_at": "2026-09-18T05:02:55.055Z",
+  "date_hr": "Petak, 18. rujna 2026.",
   "weather": {
-    "icon": "🌦️",
-    "summary": "15–20°C, pljuskovi · 2.1 mm",
+    "icon": "🌫️",
+    "summary": "13–21°C, magla",
     "alerts": []
   },
   "fuel": {
-    "current_date": "17.09.2026",
+    "current_date": "18.09.2026",
     "eurodiesel": [
       {
         "company": "Adria Oil",
@@ -51,7 +51,7 @@
       },
       {
         "company": "Petrol",
-        "price": 2.15
+        "price": 2.2
       },
       {
         "company": "Coral Croatia",
@@ -63,46 +63,46 @@
     "upcoming_premium": null
   },
   "market": {
-    "updated_at": "2026-09-17T09:48:22.311Z",
-    "btc_usd": 76564,
-    "btc_eur": 66722,
-    "btc_change_24h": 0.95,
-    "usd_eur": 0.8693
+    "updated_at": "2026-09-18T05:02:55.055Z",
+    "btc_usd": 77489,
+    "btc_eur": 67458,
+    "btc_change_24h": 1.25,
+    "usd_eur": 0.8706
   },
   "ai_news": [
     {
-      "title": "Your AI agents can now control your Google Home devices",
-      "link": "https://techcrunch.com/2026/09/16/your-ai-agents-can-now-control-your-google-home-devices/",
+      "title": "OpenAI caught its models leaving notes to successors to hide bad behavior",
+      "link": "https://techcrunch.com/2026/09/17/openai-caught-its-models-leaving-notes-to-successors-to-hide-bad-behavior/",
       "source": "TechCrunch AI"
     },
     {
-      "title": "Claude comes for Gemini with its own take on Docs and Slides",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/996234/anthropic-one-claude-cowork-docs-slides",
+      "title": "Claude Code relaunches Projects to manage multiple AI agents in the cloud",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/997134/anthropic-claude-code-projects",
       "source": "The Verge"
     },
     {
-      "title": "OpenAI’s rogue agents probed Hugging Face in May, two months before the breach, Reuters reports",
-      "link": "https://thenextweb.com/news/openai-rogue-agents-probed-hugging-face-may",
+      "title": "Magentic raises $18M to put AI agents to work in manufacturers’ supply chains",
+      "link": "https://thenextweb.com/news/magentic-18m-series-a-ai-agents-procurement",
+      "source": "The Next Web"
+    },
+    {
+      "title": "King Charles to tell AI leaders to keep the technology in the service of humanity",
+      "link": "https://thenextweb.com/news/king-charles-ai-leaders-dumfries-house-humanity",
       "source": "The Next Web"
     },
     {
       "title": "Anthropic folds Cowork into Claude and launches Docs and Slides",
       "link": "https://thenextweb.com/news/anthropic-claude-cowork-merge-docs-slides",
       "source": "The Next Web"
-    },
-    {
-      "title": "Anthropic and OpenAI want to embed safety evaluators. Will they really be independent?",
-      "link": "https://techcrunch.com/2026/09/16/anthropic-and-openai-want-to-embed-safety-evaluators-will-they-really-be-independent/",
-      "source": "TechCrunch AI"
     }
   ],
   "micro_tips": {
     "vscode": {
-      "tip": "Selektiraj sva pojavljivanja trenutne riječi",
-      "keys": "Ctrl+Shift+L"
+      "tip": "Pomakni liniju gore ili dolje bez cut/paste",
+      "keys": "Alt+↑ / Alt+↓"
     },
-    "sql": "EXISTS umjesto IN za subqueries — brže jer stane na prvom podudaranju: WHERE EXISTS (SELECT 1 FROM ...)",
-    "oracle": "/*+ INDEX(t ime_indexa) */ forsira specifičan index kad optimizer bira full scan",
-    "regex": "\\b granica riječi: \\bword\\b podudara cijelu riječ, ne \"password\" ili \"swordfish\""
+    "sql": "Nikad SELECT * u produkciji — navedi kolone, manji I/O i bolji cache plan",
+    "oracle": "/*+ PARALLEL(t 4) */ paralelno izvršavanje querija na N thread-ova",
+    "regex": "(?:group) non-capturing group: grupiraj bez pamćenja za veće performanse"
   }
 }
