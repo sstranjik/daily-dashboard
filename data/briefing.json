@@ -1,15 +1,15 @@
 {
   "version": 2,
-  "date": "2026-09-18",
-  "generated_at": "2026-09-18T09:21:52.499Z",
-  "date_hr": "Petak, 18. rujna 2026.",
+  "date": "2026-09-19",
+  "generated_at": "2026-09-19T05:02:22.180Z",
+  "date_hr": "Subota, 19. rujna 2026.",
   "weather": {
-    "icon": "🌦️",
-    "summary": "13–21°C, pljuskovi",
+    "icon": "🌧️",
+    "summary": "17–23°C, lagana kiša · 1.2 mm",
     "alerts": []
   },
   "fuel": {
-    "current_date": "18.09.2026",
+    "current_date": "19.09.2026",
     "eurodiesel": [
       {
         "company": "Adria Oil",
@@ -63,46 +63,46 @@
     "upcoming_premium": null
   },
   "market": {
-    "updated_at": "2026-09-18T09:21:52.499Z",
-    "btc_usd": 78267,
-    "btc_eur": 68170,
-    "btc_change_24h": 2.1,
-    "usd_eur": 0.8706
+    "updated_at": "2026-09-19T05:02:22.180Z",
+    "btc_usd": 80993,
+    "btc_eur": 70499,
+    "btc_change_24h": 4.47,
+    "usd_eur": 0.8713
   },
   "ai_news": [
     {
-      "title": "OpenAI caught its models leaving notes to successors to hide bad behavior",
-      "link": "https://techcrunch.com/2026/09/17/openai-caught-its-models-leaving-notes-to-successors-to-hide-bad-behavior/",
+      "title": "Researchers used Anthropic&#8217;s Claude to hack into OpenAI",
+      "link": "https://techcrunch.com/2026/09/18/researchers-used-anthropics-claude-to-hack-into-openai/",
       "source": "TechCrunch AI"
     },
     {
-      "title": "Claude Code relaunches Projects to manage multiple AI agents in the cloud",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/997134/anthropic-claude-code-projects",
+      "title": "Security researchers used Claude to help them hack into OpenAI",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/997444/openai-hack-claude-heif-heist",
       "source": "The Verge"
     },
     {
-      "title": "Magentic raises $18M to put AI agents to work in manufacturers’ supply chains",
-      "link": "https://thenextweb.com/news/magentic-18m-series-a-ai-agents-procurement",
+      "title": "Coders lose their DMCA case against GitHub Copilot and Codex",
+      "link": "https://thenextweb.com/news/ninth-circuit-github-copilot-dmca-copyright-ruling",
       "source": "The Next Web"
     },
     {
-      "title": "King Charles to tell AI leaders to keep the technology in the service of humanity",
-      "link": "https://thenextweb.com/news/king-charles-ai-leaders-dumfries-house-humanity",
-      "source": "The Next Web"
+      "title": "Claude izlazi iz računala i ulazi u laboratorij: Anthropic istražuje primjenu AI-a u biologiji",
+      "link": "https://www.tportal.hr/tehno/clanak/claude-izlazi-iz-racunala-i-ulazi-u-laboratorij-anthropic-istrazuje-primjenu-ai-a-u-biologiji-20260918",
+      "source": "Tportal"
     },
     {
-      "title": "OpenAI launches Astra for Law, and its own legal research index",
-      "link": "https://thenextweb.com/news/openai-astra-for-law-gpt-6-legal-search-index",
+      "title": "Google Home opens up to Claude, OpenClaw and any other MCP agent",
+      "link": "https://thenextweb.com/news/google-home-mcp-third-party-ai-agents-claude-openclaw",
       "source": "The Next Web"
     }
   ],
   "micro_tips": {
     "vscode": {
-      "tip": "Pomakni liniju gore ili dolje bez cut/paste",
-      "keys": "Alt+↑ / Alt+↓"
+      "tip": "Format Document (auto-format cijelog fajla)",
+      "keys": "Shift+Alt+F"
     },
-    "sql": "Nikad SELECT * u produkciji — navedi kolone, manji I/O i bolji cache plan",
-    "oracle": "/*+ PARALLEL(t 4) */ paralelno izvršavanje querija na N thread-ova",
-    "regex": "(?:group) non-capturing group: grupiraj bez pamćenja za veće performanse"
+    "sql": "Covering index: uključi sve kolone iz WHERE + SELECT u index pa nema pristupa tablici",
+    "oracle": "/*+ NO_MERGE(v) */ sprječava merging inline viewa s parent queryjem",
+    "regex": "(?=pattern) lookahead: \"iza ovog mora slijediti X\" bez konzumiranja znakova"
   }
 }
