@@ -1,25 +1,25 @@
 {
-  "generated_at": "2026-09-19T05:01:10.498Z",
+  "generated_at": "2026-09-19T06:01:13.133Z",
   "stats": {
-    "muzika.hr": {
-      "ok": true,
-      "count": 25
-    },
     "Lisinski": {
       "ok": true,
       "count": 0
-    },
-    "Mochvara": {
-      "ok": true,
-      "count": 15
     },
     "Gavella": {
       "ok": true,
       "count": 36
     },
+    "Mochvara": {
+      "ok": true,
+      "count": 15
+    },
     "Tvornica": {
       "ok": true,
       "count": 3
+    },
+    "muzika.hr": {
+      "ok": true,
+      "count": 25
     },
     "ZeKaeM": {
       "ok": true,
@@ -29,17 +29,9 @@
       "ok": true,
       "count": 0
     },
-    "ZeKaeM": {
-      "ok": true,
-      "count": 1
-    },
     "Pogon": {
       "ok": true,
       "count": 0
-    },
-    "HNK Zagreb": {
-      "ok": true,
-      "count": 100
     },
     "Kerempuh": {
       "ok": true,
@@ -1327,7 +1319,7 @@
       "time": "20:00",
       "link": "https://mochvara.hr/event-detail/6a50db6d2a586231a9d4934a/",
       "source": "Mochvara",
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-09-19T05:01:10.498Z"
     },
     {
@@ -4209,7 +4201,7 @@
       "time": null,
       "link": "https://virtualna-setnja.zekaem.hr/",
       "source": "ZeKaeM",
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-09-19T05:01:10.498Z"
     }
   ],
@@ -4290,5 +4282,5 @@
       "first_seen": "2026-09-13T05:01:09.594Z"
     }
   ],
-  "new_count": 12
+  "new_count": 10
 }
