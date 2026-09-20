@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-20T17:45:44.694Z",
+  "generated_at": "2026-09-20T18:01:10.461Z",
   "stats": {
     "muzika.hr": {
       "ok": true,
@@ -9,10 +9,6 @@
       "ok": true,
       "count": 0
     },
-    "Tvornica": {
-      "ok": true,
-      "count": 3
-    },
     "Mochvara": {
       "ok": true,
       "count": 15
@@ -20,6 +16,10 @@
     "Gavella": {
       "ok": true,
       "count": 36
+    },
+    "Tvornica": {
+      "ok": true,
+      "count": 3
     },
     "ZeKaeM": {
       "ok": true,
@@ -29,10 +29,6 @@
       "ok": true,
       "count": 0
     },
-    "HNK Zagreb": {
-      "ok": true,
-      "count": 98
-    },
     "Pogon": {
       "ok": true,
       "count": 0
@@ -41,9 +37,13 @@
       "ok": true,
       "count": 0
     },
-    "Trešnja": {
+    "HNK Zagreb": {
       "ok": true,
-      "count": 0
+      "count": 98
+    },
+    "Trešnja": {
+      "ok": false,
+      "error": "fetch failed"
     }
   },
   "concerts": [
