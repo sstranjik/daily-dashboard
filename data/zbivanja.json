@@ -1,45 +1,45 @@
 {
-  "generated_at": "2026-09-19T21:51:49.004Z",
+  "generated_at": "2026-09-20T05:01:06.513Z",
   "stats": {
-    "muzika.hr": {
+    "Lisinski": {
       "ok": true,
-      "count": 25
+      "count": 0
     },
     "Mochvara": {
       "ok": true,
       "count": 15
     },
-    "Lisinski": {
+    "Gavella": {
       "ok": true,
-      "count": 0
+      "count": 36
     },
     "Tvornica": {
       "ok": true,
       "count": 3
     },
-    "Gavella": {
+    "muzika.hr": {
       "ok": true,
-      "count": 36
-    },
-    "ZeKaeM": {
-      "ok": true,
-      "count": 1
+      "count": 25
     },
     "Komedija": {
       "ok": true,
       "count": 0
     },
+    "ZeKaeM": {
+      "ok": true,
+      "count": 1
+    },
     "Pogon": {
+      "ok": true,
+      "count": 0
+    },
+    "Kerempuh": {
       "ok": true,
       "count": 0
     },
     "HNK Zagreb": {
       "ok": true,
-      "count": 100
-    },
-    "Kerempuh": {
-      "ok": true,
-      "count": 0
+      "count": 98
     },
     "Trešnja": {
       "ok": true,
@@ -47,36 +47,6 @@
     }
   },
   "concerts": [
-    {
-      "id": "0d93cba127",
-      "title": "Rokam ja... ROKAONA",
-      "venue": "Mochvara",
-      "city": "Zagreb",
-      "country": "HR",
-      "category": "concert",
-      "date_iso": "2026-09-04T22:00:00",
-      "date_display": "pet, 04. 09. 2026.",
-      "time": "22:00",
-      "link": "https://mochvara.hr/event-detail/6a8d526cdc60aef23f5f4c65/",
-      "source": "Mochvara",
-      "is_new": false,
-      "first_seen": "2026-08-29T05:01:12.029Z"
-    },
-    {
-      "id": "2888c47058",
-      "title": "Goran Bare Majke",
-      "venue": "Goran Bare Majke Šalata Zagreb",
-      "city": "Croatia",
-      "country": "HR",
-      "category": "concert",
-      "date_iso": "2026-09-05T00:00:00",
-      "date_display": "sub, 05. 09. 2026.",
-      "time": null,
-      "link": "https://www.muzika.hr/event/goran-bare-majke-3/",
-      "source": "muzika.hr",
-      "is_new": false,
-      "first_seen": "2026-09-05T09:33:51.333Z"
-    },
     {
       "id": "5dae52292b",
       "title": "Razgled kazališta 165 sezona iza kulisa",
@@ -1368,6 +1338,21 @@
       "first_seen": "2026-06-19T11:01:10.397Z"
     },
     {
+      "id": "a626e63b76",
+      "title": "Vrelo zvuka: Orchestre Tout Puissant Marcel Duchamp",
+      "venue": "Mochvara",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-09-24T20:00:00",
+      "date_display": "čet, 24. 09. 2026.",
+      "time": "20:00",
+      "link": "https://mochvara.hr/event-detail/6a33a383ad796c9981628fef/",
+      "source": "Mochvara",
+      "is_new": true,
+      "first_seen": "2026-09-20T05:01:06.513Z"
+    },
+    {
       "id": "bcc88aa784",
       "title": "Dino Dvornik Tribute Band",
       "venue": "Grada Vukovara 68",
@@ -1919,7 +1904,7 @@
       "time": null,
       "link": "https://www.muzika.hr/event/senidah-10/",
       "source": "muzika.hr",
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-09-19T21:51:49.004Z"
     },
     {
@@ -1934,7 +1919,7 @@
       "time": null,
       "link": "https://www.muzika.hr/event/grandmaster-flash/",
       "source": "muzika.hr",
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-09-19T21:51:49.004Z"
     },
     {
@@ -2054,7 +2039,7 @@
       "time": null,
       "link": "https://www.muzika.hr/event/svoga-tijela-gospodar-16-memorijalni-koncert-antun-krajinovic-tuna/",
       "source": "muzika.hr",
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-09-19T21:51:49.004Z"
     },
     {
@@ -4267,5 +4252,5 @@
       "first_seen": "2026-09-13T05:01:09.594Z"
     }
   ],
-  "new_count": 11
+  "new_count": 9
 }
