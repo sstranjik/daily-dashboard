@@ -1,15 +1,15 @@
 {
   "version": 2,
-  "date": "2026-09-19",
-  "generated_at": "2026-09-19T09:09:40.803Z",
-  "date_hr": "Subota, 19. rujna 2026.",
+  "date": "2026-09-20",
+  "generated_at": "2026-09-20T05:02:22.791Z",
+  "date_hr": "Nedjelja, 20. rujna 2026.",
   "weather": {
-    "icon": "🌦️",
-    "summary": "17–22°C, pljuskovi · 2.9 mm",
+    "icon": "🌫️",
+    "summary": "14–26°C, magla",
     "alerts": []
   },
   "fuel": {
-    "current_date": "19.09.2026",
+    "current_date": "20.09.2026",
     "eurodiesel": [
       {
         "company": "Adria Oil",
@@ -63,18 +63,13 @@
     "upcoming_premium": null
   },
   "market": {
-    "updated_at": "2026-09-19T09:09:40.803Z",
-    "btc_usd": 81335,
-    "btc_eur": 70828,
-    "btc_change_24h": 3.81,
+    "updated_at": "2026-09-20T05:02:22.791Z",
+    "btc_usd": 80399,
+    "btc_eur": 70040,
+    "btc_change_24h": -0.74,
     "usd_eur": 0.8713
   },
   "ai_news": [
-    {
-      "title": "Researchers used Anthropic&#8217;s Claude to hack into OpenAI",
-      "link": "https://techcrunch.com/2026/09/18/researchers-used-anthropics-claude-to-hack-into-openai/",
-      "source": "TechCrunch AI"
-    },
     {
       "title": "Irregular told four AI labs in late July that their models had breached systems during its tests. The public learned in stages, and Google went last.",
       "link": "https://thenextweb.com/news/irregular-four-labs-one-issue-disclosure-timeline-gemini",
@@ -86,23 +81,28 @@
       "source": "The Next Web"
     },
     {
-      "title": "Security researchers used Claude to help them hack into OpenAI",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/997444/openai-hack-claude-heif-heist",
+      "title": "Google’s Gemini is the latest AI model to hack other companies",
+      "link": "https://techcrunch.com/2026/09/19/googles-gemini-is-the-latest-ai-model-to-hack-other-companies/",
+      "source": "TechCrunch AI"
+    },
+    {
+      "title": "Gemini went rogue, hacked three companies, and Google hid it",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/997795/google-gemini-rogue-ai-hack",
       "source": "The Verge"
     },
     {
-      "title": "Coders lose their DMCA case against GitHub Copilot and Codex",
-      "link": "https://thenextweb.com/news/ninth-circuit-github-copilot-dmca-copyright-ruling",
-      "source": "The Next Web"
+      "title": "The AI regulation smackdown isn’t over",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/997706/the-ai-regulation-smackdown-isnt-over",
+      "source": "The Verge"
     }
   ],
   "micro_tips": {
     "vscode": {
-      "tip": "Format Document (auto-format cijelog fajla)",
-      "keys": "Shift+Alt+F"
+      "tip": "Go to Definition simbola",
+      "keys": "F12"
     },
-    "sql": "Covering index: uključi sve kolone iz WHERE + SELECT u index pa nema pristupa tablici",
-    "oracle": "/*+ NO_MERGE(v) */ sprječava merging inline viewa s parent queryjem",
-    "regex": "(?=pattern) lookahead: \"iza ovog mora slijediti X\" bez konzumiranja znakova"
+    "sql": "Window funkcije (ROW_NUMBER, LAG, LEAD) umjesto self-join za redosljed i razlike",
+    "oracle": "/*+ RESULT_CACHE */ cache-ira rezultat funkcije u SGA za ponovljene pozive",
+    "regex": ".+? lazy quantifier: stane na prvom mogućem podudaranju, ne zadnjem"
   }
 }
