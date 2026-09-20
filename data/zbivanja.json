@@ -1,35 +1,27 @@
 {
-  "generated_at": "2026-09-20T20:01:08.187Z",
+  "generated_at": "2026-09-20T21:59:04.884Z",
   "stats": {
     "muzika.hr": {
       "ok": true,
       "count": 25
     },
-    "Mochvara": {
-      "ok": true,
-      "count": 15
-    },
     "Lisinski": {
       "ok": true,
       "count": 0
     },
-    "Tvornica": {
+    "Mochvara": {
       "ok": true,
-      "count": 3
+      "count": 15
     },
     "Gavella": {
       "ok": true,
       "count": 36
     },
-    "ZeKaeM": {
+    "Tvornica": {
       "ok": true,
-      "count": 1
+      "count": 3
     },
     "Komedija": {
-      "ok": true,
-      "count": 0
-    },
-    "Pogon": {
       "ok": true,
       "count": 0
     },
@@ -37,9 +29,17 @@
       "ok": true,
       "count": 98
     },
+    "Pogon": {
+      "ok": true,
+      "count": 0
+    },
     "Kerempuh": {
       "ok": true,
       "count": 0
+    },
+    "ZeKaeM": {
+      "ok": true,
+      "count": 1
     },
     "Trešnja": {
       "ok": true,
@@ -2013,6 +2013,21 @@
       "first_seen": "2026-07-02T13:01:26.613Z"
     },
     {
+      "id": "df290607bd",
+      "title": "Partibrejkers",
+      "venue": "Grada Vukovara 68",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-10-17T00:00:00",
+      "date_display": "sub, 17. 10. 2026.",
+      "time": null,
+      "link": "https://www.muzika.hr/event/partibrejkers-7/",
+      "source": "muzika.hr",
+      "is_new": true,
+      "first_seen": "2026-09-20T21:59:04.884Z"
+    },
+    {
       "id": "5dfef30613",
       "title": "Razgled kazališta 165 sezona iza kulisa – kombinirani razgled HNK-a i HNK2",
       "venue": "HNK Zagreb",
@@ -2056,6 +2071,21 @@
       "source": "HNK Zagreb",
       "is_new": false,
       "first_seen": "2026-07-02T13:01:26.613Z"
+    },
+    {
+      "id": "e7b29f78ee",
+      "title": "Trance Unity 18: Constellation ft. DARREN PORTER",
+      "venue": "Grada Vukovara 68",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-10-17T23:30:00",
+      "date_display": "sub, 17. 10. 2026.",
+      "time": "23:30",
+      "link": "https://www.muzika.hr/event/trance-unity-18-constellation-ft-darren-porter/",
+      "source": "muzika.hr",
+      "is_new": true,
+      "first_seen": "2026-09-20T21:59:04.884Z"
     },
     {
       "id": "95463d7987",
@@ -4207,5 +4237,5 @@
       "first_seen": "2026-09-13T05:01:09.594Z"
     }
   ],
-  "new_count": 8
+  "new_count": 10
 }
