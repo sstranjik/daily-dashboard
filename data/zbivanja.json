@@ -1,10 +1,6 @@
 {
-  "generated_at": "2026-09-20T21:59:04.884Z",
+  "generated_at": "2026-09-21T05:01:08.035Z",
   "stats": {
-    "muzika.hr": {
-      "ok": true,
-      "count": 25
-    },
     "Lisinski": {
       "ok": true,
       "count": 0
@@ -13,33 +9,37 @@
       "ok": true,
       "count": 15
     },
-    "Gavella": {
-      "ok": true,
-      "count": 36
-    },
     "Tvornica": {
       "ok": true,
       "count": 3
     },
+    "muzika.hr": {
+      "ok": true,
+      "count": 25
+    },
+    "Gavella": {
+      "ok": true,
+      "count": 36
+    },
     "Komedija": {
-      "ok": true,
-      "count": 0
-    },
-    "HNK Zagreb": {
-      "ok": true,
-      "count": 98
-    },
-    "Pogon": {
-      "ok": true,
-      "count": 0
-    },
-    "Kerempuh": {
       "ok": true,
       "count": 0
     },
     "ZeKaeM": {
       "ok": true,
       "count": 1
+    },
+    "HNK Zagreb": {
+      "ok": true,
+      "count": 97
+    },
+    "Kerempuh": {
+      "ok": true,
+      "count": 0
+    },
+    "Pogon": {
+      "ok": true,
+      "count": 0
     },
     "Trešnja": {
       "ok": true,
@@ -1323,6 +1323,21 @@
       "first_seen": "2026-08-10T05:01:18.922Z"
     },
     {
+      "id": "b651052375",
+      "title": "Močvarni dnevni boravak: Bela turnir",
+      "venue": "Mochvara",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-09-25T18:00:00",
+      "date_display": "pet, 25. 09. 2026.",
+      "time": "18:00",
+      "link": "https://mochvara.hr/event-detail/6a9ac20d831f075e06514eab/",
+      "source": "Mochvara",
+      "is_new": true,
+      "first_seen": "2026-09-21T05:01:08.035Z"
+    },
+    {
       "id": "95bfff75eb",
       "title": "The Romans Friends",
       "venue": "The Romans Friends Pogon kulture Rijeka",
@@ -2024,7 +2039,7 @@
       "time": null,
       "link": "https://www.muzika.hr/event/partibrejkers-7/",
       "source": "muzika.hr",
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-09-20T21:59:04.884Z"
     },
     {
@@ -2084,7 +2099,7 @@
       "time": "23:30",
       "link": "https://www.muzika.hr/event/trance-unity-18-constellation-ft-darren-porter/",
       "source": "muzika.hr",
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-09-20T21:59:04.884Z"
     },
     {
@@ -4237,5 +4252,5 @@
       "first_seen": "2026-09-13T05:01:09.594Z"
     }
   ],
-  "new_count": 10
+  "new_count": 9
 }
