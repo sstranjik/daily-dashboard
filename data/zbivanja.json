@@ -1,10 +1,6 @@
 {
-  "generated_at": "2026-09-21T10:01:18.869Z",
+  "generated_at": "2026-09-21T10:21:03.316Z",
   "stats": {
-    "muzika.hr": {
-      "ok": true,
-      "count": 25
-    },
     "Mochvara": {
       "ok": true,
       "count": 15
@@ -13,21 +9,25 @@
       "ok": true,
       "count": 0
     },
-    "Gavella": {
-      "ok": true,
-      "count": 36
-    },
     "Tvornica": {
       "ok": true,
       "count": 3
     },
-    "Komedija": {
-      "ok": true,
-      "count": 0
-    },
     "ZeKaeM": {
       "ok": true,
       "count": 1
+    },
+    "Gavella": {
+      "ok": true,
+      "count": 36
+    },
+    "muzika.hr": {
+      "ok": true,
+      "count": 25
+    },
+    "Komedija": {
+      "ok": true,
+      "count": 0
     },
     "Pogon": {
       "ok": true,
@@ -3455,6 +3455,21 @@
       "first_seen": "2026-09-18T20:01:15.085Z"
     },
     {
+      "id": "0053219b6f",
+      "title": "Promocija slikovnice \"Siri\" Antonije Stanišić Šperanda",
+      "venue": "Gavella",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "theater",
+      "date_iso": "2026-10-13T00:00:00",
+      "date_display": "uto, 13. 10. 2026.",
+      "time": null,
+      "link": "https://www.gavella.hr/predstave/promocija-slikovnice-siri-antonije-stanisic-speranda",
+      "source": "Gavella",
+      "is_new": true,
+      "first_seen": "2026-09-21T10:21:03.316Z"
+    },
+    {
       "id": "31f7d96d08",
       "title": "Oscar Wilde IDEALAN MUŽ",
       "venue": "HNK Zagreb",
@@ -4252,5 +4267,5 @@
       "first_seen": "2026-09-13T05:01:09.594Z"
     }
   ],
-  "new_count": 8
+  "new_count": 9
 }
