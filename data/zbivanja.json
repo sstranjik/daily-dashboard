@@ -1,9 +1,13 @@
 {
-  "generated_at": "2026-09-22T09:35:33.307Z",
+  "generated_at": "2026-09-22T10:01:16.826Z",
   "stats": {
     "muzika.hr": {
       "ok": true,
       "count": 25
+    },
+    "Mochvara": {
+      "ok": true,
+      "count": 16
     },
     "Lisinski": {
       "ok": true,
@@ -13,13 +17,9 @@
       "ok": true,
       "count": 3
     },
-    "Mochvara": {
-      "ok": true,
-      "count": 16
-    },
     "Gavella": {
       "ok": true,
-      "count": 36
+      "count": 37
     },
     "ZeKaeM": {
       "ok": true,
@@ -3200,6 +3200,36 @@
       "first_seen": "2026-09-11T13:01:10.480Z"
     },
     {
+      "id": "7b18549bee",
+      "title": "Noći RadioTeatra u Gavelli: predstava \"Hoerspiel: mala igra za slušanje (i gledanje)",
+      "venue": "Gavella",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "theater",
+      "date_iso": "2026-10-01T00:00:00",
+      "date_display": "čet, 01. 10. 2026.",
+      "time": null,
+      "link": "https://www.gavella.hr/predstave/noci-radioteatra-u-gavelli-predstava-hoerspiel-mala-igra-za-slusanje-i-gledanje",
+      "source": "Gavella",
+      "is_new": true,
+      "first_seen": "2026-09-22T10:01:16.826Z"
+    },
+    {
+      "id": "64cd8ad96e",
+      "title": "Noći RadioTeatra: Ars Nova Napoli",
+      "venue": "Gavella",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "theater",
+      "date_iso": "2026-10-01T00:00:00",
+      "date_display": "čet, 01. 10. 2026.",
+      "time": null,
+      "link": "https://www.gavella.hr/predstave/noci-radioteatra-ars-nova-napoli",
+      "source": "Gavella",
+      "is_new": true,
+      "first_seen": "2026-09-22T10:01:16.826Z"
+    },
+    {
       "id": "31e8308460",
       "title": "Mediteranski brevijar, na valovima Radio Mediterana",
       "venue": "Gavella",
@@ -4252,5 +4282,5 @@
       "first_seen": "2026-09-13T05:01:09.594Z"
     }
   ],
-  "new_count": 7
+  "new_count": 9
 }
