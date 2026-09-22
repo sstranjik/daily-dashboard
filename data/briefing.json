@@ -1,15 +1,15 @@
 {
   "version": 2,
-  "date": "2026-09-21",
-  "generated_at": "2026-09-21T10:23:12.201Z",
-  "date_hr": "Ponedjeljak, 21. rujna 2026.",
+  "date": "2026-09-22",
+  "generated_at": "2026-09-22T05:02:59.277Z",
+  "date_hr": "Utorak, 22. rujna 2026.",
   "weather": {
-    "icon": "☁️",
-    "summary": "17–22°C, oblačno",
+    "icon": "🌦️",
+    "summary": "11–18°C, pljuskovi",
     "alerts": []
   },
   "fuel": {
-    "current_date": "21.09.2026",
+    "current_date": "22.09.2026",
     "eurodiesel": [
       {
         "company": "Adria Oil",
@@ -17,45 +17,45 @@
       },
       {
         "company": "Coral Croatia",
-        "price": 1.85
+        "price": 1.91
       },
       {
         "company": "INA",
-        "price": 1.85
+        "price": 1.91
       },
       {
         "company": "LUKOIL Croatia",
-        "price": 1.85
+        "price": 1.91
       },
       {
         "company": "Petrol",
-        "price": 1.85
+        "price": 1.91
       },
       {
         "company": "Tifon",
-        "price": 1.85
+        "price": 1.91
       }
     ],
     "premium_eurodiesel": [
       {
         "company": "LUKOIL Croatia",
-        "price": 2.01
+        "price": 2.07
       },
       {
         "company": "INA",
-        "price": 2.12
-      },
-      {
-        "company": "Tifon",
-        "price": 2.12
+        "price": 2.18
       },
       {
         "company": "Petrol",
-        "price": 2.2
+        "price": 2.21
+      },
+      {
+        "company": "Tifon",
+        "price": 2.22
       },
       {
         "company": "Coral Croatia",
-        "price": 2.21
+        "price": 2.27
       }
     ],
     "upcoming_date": null,
@@ -63,11 +63,11 @@
     "upcoming_premium": null
   },
   "market": {
-    "updated_at": "2026-09-21T10:23:12.201Z",
-    "btc_usd": 84565,
-    "btc_eur": 73658,
-    "btc_change_24h": 5.3,
-    "usd_eur": 0.8713
+    "updated_at": "2026-09-22T05:02:59.277Z",
+    "btc_usd": 85410,
+    "btc_eur": 74405,
+    "btc_change_24h": 4.95,
+    "usd_eur": 0.8718
   },
   "ai_news": [
     {
@@ -76,33 +76,33 @@
       "source": "The Verge"
     },
     {
-      "title": "Amodei wrote that coordinating on pace would need an antitrust waiver. Altman said OpenAI would not wait for one. Both lines are now in a lawsuit.",
-      "link": "https://thenextweb.com/news/buist-v-anthropic-antitrust-waiver-evidence-public-agreement",
+      "title": "Meta&#8217;s Muse is outpacing ChatGPT’s early mobile launch",
+      "link": "https://techcrunch.com/2026/09/21/metas-muse-is-outpacing-chatgpts-early-mobile-launch/",
+      "source": "TechCrunch AI"
+    },
+    {
+      "title": "OpenAI forms math advisory group as its AI resolves more than 100 open problems",
+      "link": "https://techcrunch.com/2026/09/21/openai-forms-math-advisory-group-as-its-ai-resolves-more-than-100-open-problems/",
+      "source": "TechCrunch AI"
+    },
+    {
+      "title": "OpenAI asks Washington to lead a global AI standards push",
+      "link": "https://thenextweb.com/news/openai-global-ai-standards-push",
       "source": "The Next Web"
     },
     {
-      "title": "Nova tužba protiv AI divova: Jesu li Anthropic, OpenAI, xAI i Google dogovorili usporavanje razvoja?",
-      "link": "https://www.tportal.hr/tehno/clanak/nova-tuzba-protiv-ai-divova-jesu-li-anthropic-openai-xai-i-google-dogovorili-usporavanje-razvoja-20260920",
-      "source": "Tportal"
-    },
-    {
-      "title": "Amazon doesn’t trust Meta’s Muse AI agent",
-      "link": "https://www.theverge.com/tech/998078/amazon-blocks-meta-muse-ai-agent-shopping",
-      "source": "The Verge"
-    },
-    {
-      "title": "SoftBank is reportedly raising about $11bn in bonds to cover its next OpenAI payment",
-      "link": "https://thenextweb.com/news/softbank-bond-openai-october-instalment",
-      "source": "The Next Web"
+      "title": "Meta&#8217;s AI agent has been blocked from using Amazon.com",
+      "link": "https://techcrunch.com/2026/09/21/metas-ai-agent-has-been-blocked-from-using-amazon-com/",
+      "source": "TechCrunch AI"
     }
   ],
   "micro_tips": {
     "vscode": {
-      "tip": "Peek Definition bez napuštanja fajla",
-      "keys": "Alt+F12"
+      "tip": "Dupliciraj trenutnu liniju ispod",
+      "keys": "Shift+Alt+↓"
     },
-    "sql": "EXPLAIN ANALYZE prikazuje stvarne vs procijenjene redove — ključno za tuning",
-    "oracle": "CONNECT BY LEVEL <= n generira broj redova bez pomoćne tablice",
-    "regex": "[^\\n]* svaki znak osim newline — dohvati cijelu liniju bez dotall flaga"
+    "sql": "Partial index s WHERE klauzulom smanjuje veličinu i ubrzava specifična filtriranja",
+    "oracle": "LISTAGG(col, ',') WITHIN GROUP (ORDER BY col) konkatenira u jedan string",
+    "regex": "(?<ime>\\d{4}) named group — referenciraj s \\k<ime> ili $<ime> u replace"
   }
 }
