@@ -1,25 +1,25 @@
 {
-  "generated_at": "2026-09-22T18:01:15.691Z",
+  "generated_at": "2026-09-22T19:01:14.693Z",
   "stats": {
     "muzika.hr": {
       "ok": true,
       "count": 25
     },
-    "Lisinski": {
-      "ok": true,
-      "count": 0
-    },
-    "Tvornica": {
-      "ok": true,
-      "count": 3
-    },
     "Mochvara": {
       "ok": true,
       "count": 16
     },
+    "Lisinski": {
+      "ok": true,
+      "count": 0
+    },
     "Gavella": {
       "ok": true,
       "count": 38
+    },
+    "Tvornica": {
+      "ok": true,
+      "count": 3
     },
     "ZeKaeM": {
       "ok": true,
@@ -33,13 +33,13 @@
       "ok": true,
       "count": 0
     },
-    "HNK Zagreb": {
-      "ok": true,
-      "count": 97
-    },
     "Kerempuh": {
       "ok": true,
       "count": 0
+    },
+    "HNK Zagreb": {
+      "ok": true,
+      "count": 97
     },
     "Trešnja": {
       "ok": true,
@@ -47,21 +47,6 @@
     }
   },
   "concerts": [
-    {
-      "id": "dd726981c0",
-      "title": "Filmske večeri u Močvari: Lekcije njenog tate",
-      "venue": "Mochvara",
-      "city": "Zagreb",
-      "country": "HR",
-      "category": "concert",
-      "date_iso": "2026-09-07T18:30:00",
-      "date_display": "pon, 07. 09. 2026.",
-      "time": "18:30",
-      "link": "https://mochvara.hr/event-detail/6a5dfc8b502f8ff80e9e2909/",
-      "source": "Mochvara",
-      "is_new": false,
-      "first_seen": "2026-08-31T05:01:12.697Z"
-    },
     {
       "id": "32423e7887",
       "title": "Festival svjetske književnosti Festival svjetske književnosti",
@@ -1951,6 +1936,21 @@
       "source": "muzika.hr",
       "is_new": false,
       "first_seen": "2026-09-19T21:51:49.004Z"
+    },
+    {
+      "id": "b1f9115ac6",
+      "title": "Svoga tijela gospodar: 16. memorijalni koncert - Antun Krajinović Tuna",
+      "venue": "Vintage Industrial Bar Savska ulica 160",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-10-16T00:00:00",
+      "date_display": "pet, 16. 10. 2026.",
+      "time": null,
+      "link": "https://www.muzika.hr/event/svoga-tijela-gospodar-16-memorijalni-koncert-antun-krajinovic-tuna/",
+      "source": "muzika.hr",
+      "is_new": true,
+      "first_seen": "2026-09-22T19:01:14.693Z"
     },
     {
       "id": "d329c9e169",
@@ -4267,5 +4267,5 @@
       "first_seen": "2026-09-13T05:01:09.594Z"
     }
   ],
-  "new_count": 6
+  "new_count": 7
 }
