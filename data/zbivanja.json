@@ -1,10 +1,6 @@
 {
-  "generated_at": "2026-09-23T20:01:13.150Z",
+  "generated_at": "2026-09-23T22:31:10.170Z",
   "stats": {
-    "muzika.hr": {
-      "ok": true,
-      "count": 25
-    },
     "Mochvara": {
       "ok": true,
       "count": 16
@@ -13,19 +9,27 @@
       "ok": true,
       "count": 0
     },
+    "Tvornica": {
+      "ok": true,
+      "count": 2
+    },
     "Gavella": {
       "ok": true,
       "count": 38
     },
-    "Tvornica": {
+    "muzika.hr": {
       "ok": true,
-      "count": 2
+      "count": 25
+    },
+    "Komedija": {
+      "ok": true,
+      "count": 0
     },
     "ZeKaeM": {
       "ok": true,
       "count": 1
     },
-    "Komedija": {
+    "Pogon": {
       "ok": true,
       "count": 0
     },
@@ -38,10 +42,6 @@
       "count": 98
     },
     "Trešnja": {
-      "ok": true,
-      "count": 0
-    },
-    "Pogon": {
       "ok": true,
       "count": 0
     }
@@ -1233,6 +1233,21 @@
       "first_seen": "2026-08-14T05:01:09.612Z"
     },
     {
+      "id": "ddd9dc30cb",
+      "title": "Back to nulte",
+      "venue": "Mochvara",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-09-25T22:00:00",
+      "date_display": "pet, 25. 09. 2026.",
+      "time": "22:00",
+      "link": "https://mochvara.hr/event-detail/6a902cd2213efb5125144f6a/",
+      "source": "Mochvara",
+      "is_new": true,
+      "first_seen": "2026-09-23T22:31:10.170Z"
+    },
+    {
       "id": "5ec2ae0dc8",
       "title": "Sara Renar",
       "venue": "Sara Renar Močvara Trnjanski nasip bb",
@@ -1306,6 +1321,36 @@
       "source": "HNK Zagreb",
       "is_new": false,
       "first_seen": "2026-06-19T12:01:22.301Z"
+    },
+    {
+      "id": "a576cf5fd7",
+      "title": "KSET50: Sara Renar",
+      "venue": "Mochvara",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-09-26T20:00:00",
+      "date_display": "sub, 26. 09. 2026.",
+      "time": "20:00",
+      "link": "https://mochvara.hr/event-detail/6a7b03904f0744ad488b4960/",
+      "source": "Mochvara",
+      "is_new": true,
+      "first_seen": "2026-09-23T22:31:10.170Z"
+    },
+    {
+      "id": "1b0869df8f",
+      "title": "Močvarni dnevni boravak: Kamen, čvara, papir",
+      "venue": "Mochvara",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-09-27T12:00:00",
+      "date_display": "ned, 27. 09. 2026.",
+      "time": "12:00",
+      "link": "https://mochvara.hr/event-detail/6a8d3f46c3276ddebd260383/",
+      "source": "Mochvara",
+      "is_new": true,
+      "first_seen": "2026-09-23T22:31:10.170Z"
     },
     {
       "id": "d2dbeeae6c",
@@ -2041,6 +2086,21 @@
       "source": "HNK Zagreb",
       "is_new": false,
       "first_seen": "2026-07-02T15:01:22.773Z"
+    },
+    {
+      "id": "c92f8ddb39",
+      "title": "Sarah Brightman u Areni Zagreb",
+      "venue": "Areni Zagreb Arena Zagreb Lanište bb",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-10-22T00:00:00",
+      "date_display": "čet, 22. 10. 2026.",
+      "time": null,
+      "link": "https://www.muzika.hr/event/sarah-brightman-u-areni-zagreb/",
+      "source": "muzika.hr",
+      "is_new": true,
+      "first_seen": "2026-09-23T22:31:10.170Z"
     },
     {
       "id": "cab2e9fd63",
@@ -4282,5 +4342,5 @@
       "first_seen": "2026-09-13T05:01:09.594Z"
     }
   ],
-  "new_count": 6
+  "new_count": 10
 }
