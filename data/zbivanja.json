@@ -1,10 +1,6 @@
 {
-  "generated_at": "2026-09-23T05:01:12.357Z",
+  "generated_at": "2026-09-23T06:01:12.658Z",
   "stats": {
-    "muzika.hr": {
-      "ok": true,
-      "count": 25
-    },
     "Mochvara": {
       "ok": true,
       "count": 16
@@ -13,13 +9,17 @@
       "ok": true,
       "count": 0
     },
+    "Tvornica": {
+      "ok": true,
+      "count": 2
+    },
     "Gavella": {
       "ok": true,
       "count": 38
     },
-    "Tvornica": {
+    "muzika.hr": {
       "ok": true,
-      "count": 2
+      "count": 25
     },
     "ZeKaeM": {
       "ok": true,
@@ -29,11 +29,11 @@
       "ok": true,
       "count": 0
     },
-    "Pogon": {
+    "Kerempuh": {
       "ok": true,
       "count": 0
     },
-    "Kerempuh": {
+    "Pogon": {
       "ok": true,
       "count": 0
     },
@@ -2448,6 +2448,21 @@
       "first_seen": "2026-09-10T08:01:14.369Z"
     },
     {
+      "id": "f0dd011b16",
+      "title": "Ivan pl. Zajc Nikola Šubić Zrinjski Svečana izvedba u povodu 150. obljetnice praizvedbe opere Nikola Šubić Zrinjski i 150 godina hrvatskoga profesiona",
+      "venue": "HNK Zagreb",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-11-04T19:30:00",
+      "date_display": "sri, 04. 11. 2026.",
+      "time": "19:30",
+      "link": "https://hnk.hr/hr/opera/predstave/nikola-%C5%A1ubi%C4%87-zrinjski/#04.11.19.30",
+      "source": "HNK Zagreb",
+      "is_new": true,
+      "first_seen": "2026-09-23T06:01:12.658Z"
+    },
+    {
       "id": "300206705e",
       "title": "Georges Bizet Carmen",
       "venue": "HNK Zagreb",
@@ -4267,5 +4282,5 @@
       "first_seen": "2026-09-13T05:01:09.594Z"
     }
   ],
-  "new_count": 7
+  "new_count": 8
 }
