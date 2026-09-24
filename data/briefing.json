@@ -1,15 +1,15 @@
 {
   "version": 2,
-  "date": "2026-09-23",
-  "generated_at": "2026-09-23T09:42:22.530Z",
-  "date_hr": "Srijeda, 23. rujna 2026.",
+  "date": "2026-09-24",
+  "generated_at": "2026-09-24T05:02:23.089Z",
+  "date_hr": "Četvrtak, 24. rujna 2026.",
   "weather": {
-    "icon": "☁️",
-    "summary": "8–19°C, oblačno",
+    "icon": "🌦️",
+    "summary": "9–21°C, pljuskovi · 1.9 mm",
     "alerts": []
   },
   "fuel": {
-    "current_date": "23.09.2026",
+    "current_date": "24.09.2026",
     "eurodiesel": [
       {
         "company": "Adria Oil",
@@ -63,46 +63,46 @@
     "upcoming_premium": null
   },
   "market": {
-    "updated_at": "2026-09-23T09:42:22.530Z",
-    "btc_usd": 85816,
-    "btc_eur": 75195,
-    "btc_change_24h": -0.16,
-    "usd_eur": 0.8732
+    "updated_at": "2026-09-24T05:02:23.089Z",
+    "btc_usd": 84003,
+    "btc_eur": 73788,
+    "btc_change_24h": -3.57,
+    "usd_eur": 0.8774
   },
   "ai_news": [
     {
-      "title": "Palo Alto Networks launches always-on AI security testing built on Claude Mythos and GPT-5.6-Cyber",
-      "link": "https://thenextweb.com/news/palo-alto-networks-unit-42",
+      "title": "Anthropic says its biology lab has already found something big",
+      "link": "https://techcrunch.com/2026/09/23/anthropic-says-its-biology-lab-has-already-found-something-big/",
+      "source": "TechCrunch AI"
+    },
+    {
+      "title": "Clément Delangue tells UN Security Council open-source AI helps defenders",
+      "link": "https://thenextweb.com/news/clement-delangue-un-security-council-open-source-ai",
       "source": "The Next Web"
     },
     {
-      "title": "Meta patches Muse exploit that let attackers control the AI agent",
-      "link": "https://www.theverge.com/tech/998679/meta-muse-patch-zero-day-exploit-ai-agent",
-      "source": "The Verge"
-    },
-    {
-      "title": "Rabbit’s new AI agent doesn’t need an R1 to run",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/999094/rabbit-ai-agent-os3",
-      "source": "The Verge"
-    },
-    {
-      "title": "Anthropic’s cheaper Opus arrives weeks before its IPO",
-      "link": "https://thenextweb.com/news/anthropic-opus-5-5-price-cut",
+      "title": "Anthropic says Claude found a new enzyme system with CRISPR-like repeats",
+      "link": "https://thenextweb.com/news/anthropic-claude-enzyme-system-crispr-like-repeats",
       "source": "The Next Web"
     },
     {
-      "title": "Andreessen Horowitz is launching an ‘academy’ with no homework and partnerships with Palantir, Google, and Meta",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/998813/andreessen-horowitz-ai-academy",
+      "title": "Anthropic&#8217;s biolab made a discovery it&#8217;s comparing to Crispr",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/999470/anthropic-biolab-claude-crispr",
       "source": "The Verge"
+    },
+    {
+      "title": "ChatGPT mobile app gets voice-based agentic features",
+      "link": "https://techcrunch.com/2026/09/23/chatgpt-mobile-app-gets-voice-based-agentic-features/",
+      "source": "TechCrunch AI"
     }
   ],
   "micro_tips": {
     "vscode": {
-      "tip": "Obriši cijelu liniju odjednom",
-      "keys": "Ctrl+Shift+K"
+      "tip": "Otvori datoteku brzim pretraživanjem",
+      "keys": "Ctrl+P"
     },
-    "sql": "GROUP BY s ROLLUP za subtotale u jednom prolasku: GROUP BY ROLLUP(god, mj)",
-    "oracle": "TRUNC(datum_kolona) = TRUNC(SYSDATE) koristi B-tree index na datumskoj koloni",
-    "regex": "\\d{4}-\\d{2}-\\d{2} ISO datum pattern; za validaciju zatvori s ^...$"
+    "sql": "NOT EXISTS brži od NOT IN kad subquery može vratiti NULL vrijednost",
+    "oracle": "DBMS_STATS.GATHER_TABLE_STATS osvježava statistike za točniji execution plan",
+    "regex": "(?i) inline flag za case-insensitive bez mijenjanja ostatka patternahe"
   }
 }
