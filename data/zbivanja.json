@@ -1,31 +1,7 @@
 {
-  "generated_at": "2026-09-24T14:01:20.188Z",
+  "generated_at": "2026-09-24T15:01:26.619Z",
   "stats": {
     "Mochvara": {
-      "ok": true,
-      "count": 16
-    },
-    "Lisinski": {
-      "ok": true,
-      "count": 0
-    },
-    "Tvornica": {
-      "ok": true,
-      "count": 2
-    },
-    "Gavella": {
-      "ok": true,
-      "count": 38
-    },
-    "muzika.hr": {
-      "ok": true,
-      "count": 25
-    },
-    "ZeKaeM": {
-      "ok": true,
-      "count": 1
-    },
-    "Komedija": {
       "ok": true,
       "count": 0
     },
@@ -33,17 +9,41 @@
       "ok": true,
       "count": 0
     },
+    "Lisinski": {
+      "ok": true,
+      "count": 0
+    },
+    "Gavella": {
+      "ok": true,
+      "count": 38
+    },
+    "Tvornica": {
+      "ok": true,
+      "count": 2
+    },
+    "ZeKaeM": {
+      "ok": true,
+      "count": 0
+    },
     "Kerempuh": {
+      "ok": true,
+      "count": 0
+    },
+    "muzika.hr": {
+      "ok": true,
+      "count": 25
+    },
+    "Trešnja": {
+      "ok": true,
+      "count": 0
+    },
+    "Komedija": {
       "ok": true,
       "count": 0
     },
     "HNK Zagreb": {
       "ok": true,
       "count": 98
-    },
-    "Trešnja": {
-      "ok": true,
-      "count": 0
     }
   },
   "concerts": [
@@ -2879,7 +2879,7 @@
       "time": "19:30",
       "link": "https://hnk.hr/hr/hnk2/cabaret/#23.11.19.30",
       "source": "HNK Zagreb",
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-09-24T14:01:20.188Z"
     },
     {
@@ -4372,5 +4372,5 @@
       "first_seen": "2026-09-13T05:01:09.594Z"
     }
   ],
-  "new_count": 7
+  "new_count": 6
 }
