@@ -1,9 +1,17 @@
 {
-  "generated_at": "2026-09-24T22:47:18.393Z",
+  "generated_at": "2026-09-25T05:01:15.235Z",
   "stats": {
+    "muzika.hr": {
+      "ok": true,
+      "count": 25
+    },
     "Lisinski": {
       "ok": true,
       "count": 0
+    },
+    "Tvornica": {
+      "ok": true,
+      "count": 2
     },
     "Mochvara": {
       "ok": true,
@@ -13,14 +21,6 @@
       "ok": true,
       "count": 38
     },
-    "Tvornica": {
-      "ok": true,
-      "count": 2
-    },
-    "muzika.hr": {
-      "ok": true,
-      "count": 25
-    },
     "ZeKaeM": {
       "ok": true,
       "count": 1
@@ -29,15 +29,15 @@
       "ok": true,
       "count": 0
     },
-    "HNK Zagreb": {
-      "ok": true,
-      "count": 98
-    },
-    "Kerempuh": {
+    "Pogon": {
       "ok": true,
       "count": 0
     },
-    "Pogon": {
+    "HNK Zagreb": {
+      "ok": true,
+      "count": 97
+    },
+    "Kerempuh": {
       "ok": true,
       "count": 0
     },
@@ -1319,7 +1319,7 @@
       "time": "19:30",
       "link": "https://mochvara.hr/event-detail/6a6b3121f243bc870d7d4db8/",
       "source": "Mochvara",
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-09-24T22:47:18.393Z"
     },
     {
@@ -2174,7 +2174,7 @@
       "time": null,
       "link": "https://www.muzika.hr/event/fink/",
       "source": "muzika.hr",
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-09-24T22:47:18.393Z"
     },
     {
@@ -4353,9 +4353,9 @@
       "time": null,
       "link": "https://www.muzika.hr/event/bush-budapest-2/",
       "source": "muzika.hr",
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-09-24T22:47:18.393Z"
     }
   ],
-  "new_count": 8
+  "new_count": 5
 }
