@@ -1,13 +1,9 @@
 {
-  "generated_at": "2026-09-25T20:01:11.399Z",
+  "generated_at": "2026-09-25T22:53:56.822Z",
   "stats": {
     "muzika.hr": {
       "ok": true,
       "count": 25
-    },
-    "Gavella": {
-      "ok": true,
-      "count": 38
     },
     "Mochvara": {
       "ok": true,
@@ -17,19 +13,23 @@
       "ok": true,
       "count": 0
     },
+    "Gavella": {
+      "ok": true,
+      "count": 38
+    },
     "Tvornica": {
       "ok": true,
       "count": 2
-    },
-    "ZeKaeM": {
-      "ok": true,
-      "count": 1
     },
     "Komedija": {
       "ok": true,
       "count": 0
     },
-    "Kerempuh": {
+    "ZeKaeM": {
+      "ok": true,
+      "count": 1
+    },
+    "Pogon": {
       "ok": true,
       "count": 0
     },
@@ -37,7 +37,7 @@
       "ok": true,
       "count": 97
     },
-    "Pogon": {
+    "Kerempuh": {
       "ok": true,
       "count": 0
     },
@@ -1323,6 +1323,21 @@
       "first_seen": "2026-08-14T12:36:04.489Z"
     },
     {
+      "id": "4fd4af572b",
+      "title": "Močvarni dnevni boravak: How I Met Your Mother kviz",
+      "venue": "Mochvara",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-09-30T17:00:00",
+      "date_display": "sri, 30. 09. 2026.",
+      "time": "17:00",
+      "link": "https://mochvara.hr/event-detail/6a9ec54bc5017f0b259b51c3/",
+      "source": "Mochvara",
+      "is_new": true,
+      "first_seen": "2026-09-25T22:53:56.822Z"
+    },
+    {
       "id": "7f2755fc45",
       "title": "AUTECHRE",
       "venue": "Tvornica Kulture",
@@ -2326,6 +2341,21 @@
       "source": "HNK Zagreb",
       "is_new": false,
       "first_seen": "2026-07-02T15:01:22.773Z"
+    },
+    {
+      "id": "efa8b2e1b2",
+      "title": "Elemental",
+      "venue": "Grada Vukovara 68",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-10-30T00:00:00",
+      "date_display": "pet, 30. 10. 2026.",
+      "time": null,
+      "link": "https://www.muzika.hr/event/elemental-2/",
+      "source": "muzika.hr",
+      "is_new": true,
+      "first_seen": "2026-09-25T22:53:56.822Z"
     },
     {
       "id": "b8eb0a8120",
@@ -4372,5 +4402,5 @@
       "first_seen": "2026-09-24T22:47:18.393Z"
     }
   ],
-  "new_count": 5
+  "new_count": 7
 }
