@@ -1,33 +1,37 @@
 {
-  "generated_at": "2026-09-25T10:01:11.491Z",
+  "generated_at": "2026-09-25T10:42:34.223Z",
   "stats": {
-    "muzika.hr": {
-      "ok": true,
-      "count": 25
-    },
     "Lisinski": {
       "ok": true,
       "count": 0
-    },
-    "Tvornica": {
-      "ok": true,
-      "count": 2
     },
     "Gavella": {
       "ok": true,
       "count": 38
     },
-    "ZeKaeM": {
+    "Tvornica": {
       "ok": true,
-      "count": 1
+      "count": 2
     },
     "Mochvara": {
       "ok": true,
       "count": 16
     },
+    "muzika.hr": {
+      "ok": true,
+      "count": 25
+    },
     "Komedija": {
       "ok": true,
       "count": 0
+    },
+    "Kerempuh": {
+      "ok": true,
+      "count": 0
+    },
+    "ZeKaeM": {
+      "ok": true,
+      "count": 1
     },
     "Pogon": {
       "ok": true,
@@ -36,10 +40,6 @@
     "HNK Zagreb": {
       "ok": true,
       "count": 97
-    },
-    "Kerempuh": {
-      "ok": true,
-      "count": 0
     },
     "Trešnja": {
       "ok": true,
@@ -1128,6 +1128,21 @@
       "first_seen": "2026-08-10T05:01:18.922Z"
     },
     {
+      "id": "cf28e7a09e",
+      "title": "Dino Dvornik Tribute Band (muzika.hr fanclub)",
+      "venue": "Grada Vukovara 68",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-09-25T00:00:00",
+      "date_display": "pet, 25. 09. 2026.",
+      "time": null,
+      "link": "https://www.muzika.hr/event/dino-dvornik-tribute-band-2/",
+      "source": "muzika.hr",
+      "is_new": true,
+      "first_seen": "2026-09-25T10:42:34.223Z"
+    },
+    {
       "id": "b651052375",
       "title": "Močvarni dnevni boravak: Bela turnir",
       "venue": "Mochvara",
@@ -1441,6 +1456,21 @@
       "source": "muzika.hr",
       "is_new": false,
       "first_seen": "2026-08-16T05:01:08.036Z"
+    },
+    {
+      "id": "98d49fe1df",
+      "title": "Rock ko fol (muzika.hr fanclub)",
+      "venue": "Grada Vukovara 68",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-10-03T00:00:00",
+      "date_display": "sub, 03. 10. 2026.",
+      "time": null,
+      "link": "https://www.muzika.hr/event/rock-ko-fol-2/",
+      "source": "muzika.hr",
+      "is_new": true,
+      "first_seen": "2026-09-25T10:42:34.223Z"
     },
     {
       "id": "e3350b5615",
@@ -1966,6 +1996,21 @@
       "source": "muzika.hr",
       "is_new": false,
       "first_seen": "2026-09-20T21:59:04.884Z"
+    },
+    {
+      "id": "098caa1ba6",
+      "title": "Partibrejkers (muzika.hr fanclub)",
+      "venue": "Grada Vukovara 68",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-10-17T00:00:00",
+      "date_display": "sub, 17. 10. 2026.",
+      "time": null,
+      "link": "https://www.muzika.hr/event/partibrejkers-7/",
+      "source": "muzika.hr",
+      "is_new": true,
+      "first_seen": "2026-09-25T10:42:34.223Z"
     },
     {
       "id": "5dfef30613",
@@ -4357,5 +4402,5 @@
       "first_seen": "2026-09-24T22:47:18.393Z"
     }
   ],
-  "new_count": 5
+  "new_count": 8
 }
