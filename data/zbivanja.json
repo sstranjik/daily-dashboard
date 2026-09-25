@@ -1,6 +1,10 @@
 {
-  "generated_at": "2026-09-25T07:01:14.903Z",
+  "generated_at": "2026-09-25T08:01:16.501Z",
   "stats": {
+    "muzika.hr": {
+      "ok": true,
+      "count": 25
+    },
     "Mochvara": {
       "ok": true,
       "count": 16
@@ -16,14 +20,6 @@
     "Tvornica": {
       "ok": true,
       "count": 2
-    },
-    "muzika.hr": {
-      "ok": true,
-      "count": 25
-    },
-    "Komedija": {
-      "ok": true,
-      "count": 0
     },
     "ZeKaeM": {
       "ok": true,
@@ -44,6 +40,10 @@
     "Trešnja": {
       "ok": true,
       "count": 0
+    },
+    "Komedija": {
+      "ok": false,
+      "error": "fetch failed"
     }
   },
   "concerts": [
