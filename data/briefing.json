@@ -1,15 +1,15 @@
 {
   "version": 2,
-  "date": "2026-09-25",
-  "generated_at": "2026-09-25T09:59:45.993Z",
-  "date_hr": "Petak, 25. rujna 2026.",
+  "date": "2026-09-26",
+  "generated_at": "2026-09-26T05:03:09.027Z",
+  "date_hr": "Subota, 26. rujna 2026.",
   "weather": {
-    "icon": "☁️",
-    "summary": "10–18°C, oblačno",
+    "icon": "🌤️",
+    "summary": "9–20°C, djelomično oblačno",
     "alerts": []
   },
   "fuel": {
-    "current_date": "25.09.2026",
+    "current_date": "26.09.2026",
     "eurodiesel": [
       {
         "company": "Adria Oil",
@@ -63,46 +63,46 @@
     "upcoming_premium": null
   },
   "market": {
-    "updated_at": "2026-09-25T09:59:45.993Z",
-    "btc_usd": 84599,
-    "btc_eur": 74277,
-    "btc_change_24h": 1.66,
-    "usd_eur": 0.8787
+    "updated_at": "2026-09-26T05:03:09.027Z",
+    "btc_usd": 83972,
+    "btc_eur": 73714,
+    "btc_change_24h": -0.29,
+    "usd_eur": 0.8773
   },
   "ai_news": [
     {
-      "title": "I to se dogodilo: OpenAI-jev AI agent provalio je u web australske vlade",
-      "link": "https://mreza.bug.hr/sigurnost/i-to-se-dogodilo-openai-jev-ai-agent-provalio-je-u-web-australske-vlade-63099",
-      "source": "Bug.hr"
-    },
-    {
-      "title": "ChatGPT now sends 95.1% of AI referral traffic to websites, BrightEdge says",
-      "link": "https://thenextweb.com/news/chatgpt-ai-referral-traffic-95-percent-brightedge",
-      "source": "The Next Web"
-    },
-    {
-      "title": "AWS says almost 90% of Amazon’s early AI agent prototypes never shipped",
-      "link": "https://thenextweb.com/news/aws-swami-sivasubramanian-ai-agents-production-kiro-humanx",
-      "source": "The Next Web"
-    },
-    {
-      "title": "OpenAI agents hacked an Australian government website in search for data",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/999874/openai-agents-hacked-an-australian-government-website-in-search-for-data",
+      "title": "One company is at the center of a wave of rogue AI attacks",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1000644/irregular-rogue-ai-cyberattacks-hacking-openai-meta-anthropic-google",
       "source": "The Verge"
     },
     {
-      "title": "OpenAI is reportedly preparing to preview a GPT-6 Cyber security model",
-      "link": "https://thenextweb.com/news/openai-gpt-6-cyber-preview-fortune",
+      "title": "Unsecured OpenAI agents posted 53 user images on the internet without the lab&#8217;s knowledge",
+      "link": "https://techcrunch.com/2026/09/25/unsecured-openai-agents-posted-53-user-images-on-the-internet-without-the-labs-knowledge/",
+      "source": "TechCrunch AI"
+    },
+    {
+      "title": "Meta’s Muse just stole the AI spotlight from OpenAI and Anthropic",
+      "link": "https://techcrunch.com/podcast/metas-muse-just-stole-the-ai-spotlight-from-openai-and-anthropic/",
+      "source": "TechCrunch AI"
+    },
+    {
+      "title": "US appeals court upholds Pentagon’s supply chain risk label on Anthropic",
+      "link": "https://thenextweb.com/news/anthropic-pentagon-supply-chain-risk-appeals-court-ruling",
       "source": "The Next Web"
+    },
+    {
+      "title": "Meta’s AI Tamagotchi bet is…working?",
+      "link": "https://techcrunch.com/video/will-metas-ai-tamagotchi-bet-isworking/",
+      "source": "TechCrunch AI"
     }
   ],
   "micro_tips": {
     "vscode": {
-      "tip": "Toggle Word Wrap za dugačke linije",
-      "keys": "Alt+Z"
+      "tip": "Nađi i selektiraj sljedeće pojavljivanje",
+      "keys": "Ctrl+D"
     },
-    "sql": "Parametrizirani upiti = plan cache reuse + SQL injection zaštita istovremeno",
-    "oracle": "NVL2(expr, kad_nije_null, kad_je_null) kompaktnija od dvostrukog NVL-a",
-    "regex": "\\s+ pokriva space, tab i newline; \\S je negacija (svaki ne-whitespace)"
+    "sql": "Batch INSERT umjesto jednog-po-jednog: INSERT INTO t VALUES (...),(...),...",
+    "oracle": "FETCH FIRST n ROWS ONLY umjesto ROWNUM — kompatibilno s ORDER BY i čitljivije",
+    "regex": "^(?!.*pattern) negative lookahead: \"ova linija ne smije sadržavati X\""
   }
 }
