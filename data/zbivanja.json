@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-26T20:01:09.363Z",
+  "generated_at": "2026-09-26T21:40:15.499Z",
   "stats": {
     "muzika.hr": {
       "ok": true,
@@ -9,17 +9,21 @@
       "ok": true,
       "count": 0
     },
-    "Mochvara": {
-      "ok": true,
-      "count": 16
-    },
     "Gavella": {
       "ok": true,
       "count": 38
     },
+    "Mochvara": {
+      "ok": true,
+      "count": 16
+    },
     "Tvornica": {
       "ok": true,
       "count": 3
+    },
+    "ZeKaeM": {
+      "ok": true,
+      "count": 1
     },
     "Komedija": {
       "ok": true,
@@ -29,9 +33,9 @@
       "ok": true,
       "count": 97
     },
-    "ZeKaeM": {
+    "Pogon": {
       "ok": true,
-      "count": 1
+      "count": 0
     },
     "Kerempuh": {
       "ok": true,
@@ -40,28 +44,9 @@
     "Trešnja": {
       "ok": true,
       "count": 0
-    },
-    "Pogon": {
-      "ok": true,
-      "count": 0
     }
   },
   "concerts": [
-    {
-      "id": "a4f34f020f",
-      "title": "The Rumjacks u Vintage Industrial Baru",
-      "venue": "Vintage Industrial Bar Savska ulica 160",
-      "city": "Zagreb",
-      "country": "HR",
-      "category": "concert",
-      "date_iso": "2026-09-11T20:30:00",
-      "date_display": "pet, 11. 09. 2026.",
-      "time": "20:30",
-      "link": "https://www.muzika.hr/event/the-rumjacks-u-vintage-industrial-baru/",
-      "source": "muzika.hr",
-      "is_new": false,
-      "first_seen": "2026-08-04T05:01:13.042Z"
-    },
     {
       "id": "630babc017",
       "title": "Back to nulte",
@@ -2478,6 +2463,21 @@
       "first_seen": "2026-09-23T06:01:12.658Z"
     },
     {
+      "id": "b7be065192",
+      "title": "Tommy Emmanuel",
+      "venue": "Tommy Emmanuel Kino SC Zagreb",
+      "city": "Croatia",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-11-06T00:00:00",
+      "date_display": "pet, 06. 11. 2026.",
+      "time": null,
+      "link": "https://www.muzika.hr/event/tommy-emmanuel-2/",
+      "source": "muzika.hr",
+      "is_new": true,
+      "first_seen": "2026-09-26T21:40:15.499Z"
+    },
+    {
       "id": "300206705e",
       "title": "Georges Bizet Carmen",
       "venue": "HNK Zagreb",
@@ -4342,5 +4342,5 @@
       "first_seen": "2026-09-24T22:47:18.393Z"
     }
   ],
-  "new_count": 5
+  "new_count": 6
 }
