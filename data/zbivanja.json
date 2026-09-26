@@ -1,33 +1,33 @@
 {
-  "generated_at": "2026-09-25T22:53:56.822Z",
+  "generated_at": "2026-09-26T05:01:11.954Z",
   "stats": {
     "muzika.hr": {
       "ok": true,
       "count": 25
     },
-    "Mochvara": {
-      "ok": true,
-      "count": 16
-    },
     "Lisinski": {
       "ok": true,
       "count": 0
     },
-    "Gavella": {
+    "Mochvara": {
       "ok": true,
-      "count": 38
+      "count": 16
     },
     "Tvornica": {
       "ok": true,
       "count": 2
     },
-    "Komedija": {
+    "Gavella": {
       "ok": true,
-      "count": 0
+      "count": 38
     },
     "ZeKaeM": {
       "ok": true,
       "count": 1
+    },
+    "Komedija": {
+      "ok": true,
+      "count": 0
     },
     "Pogon": {
       "ok": true,
@@ -37,46 +37,16 @@
       "ok": true,
       "count": 97
     },
-    "Kerempuh": {
+    "Trešnja": {
       "ok": true,
       "count": 0
     },
-    "Trešnja": {
+    "Kerempuh": {
       "ok": true,
       "count": 0
     }
   },
   "concerts": [
-    {
-      "id": "e8c2ae2fb9",
-      "title": "Kawasaki 3P",
-      "venue": "Kawasaki 3P Šalata Zagreb",
-      "city": "Croatia",
-      "country": "HR",
-      "category": "concert",
-      "date_iso": "2026-09-11T00:00:00",
-      "date_display": "pet, 11. 09. 2026.",
-      "time": null,
-      "link": "https://www.muzika.hr/event/kawasaki-3p-3/",
-      "source": "muzika.hr",
-      "is_new": false,
-      "first_seen": "2026-08-03T18:01:24.050Z"
-    },
-    {
-      "id": "3623be9c30",
-      "title": "Gajnice vrište",
-      "venue": "Zagreb",
-      "city": "Croatia",
-      "country": "HR",
-      "category": "concert",
-      "date_iso": "2026-09-11T00:00:00",
-      "date_display": "pet, 11. 09. 2026.",
-      "time": null,
-      "link": "https://www.muzika.hr/event/gajnice-vriste-2/",
-      "source": "muzika.hr",
-      "is_new": false,
-      "first_seen": "2026-08-28T19:01:19.651Z"
-    },
     {
       "id": "0fff717cb6",
       "title": "Hrvatsko narodno kazalište u Zagrebu Festivalsko jutro: Uvertira u nove operne sezone",
@@ -1334,7 +1304,7 @@
       "time": "17:00",
       "link": "https://mochvara.hr/event-detail/6a9ec54bc5017f0b259b51c3/",
       "source": "Mochvara",
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-09-25T22:53:56.822Z"
     },
     {
@@ -1366,6 +1336,21 @@
       "source": "HNK Zagreb",
       "is_new": false,
       "first_seen": "2026-06-19T13:01:15.860Z"
+    },
+    {
+      "id": "ec623648c3",
+      "title": "Turbina – turbo tribina: Uštipak, umak, utjeha",
+      "venue": "Mochvara",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-10-01T19:30:00",
+      "date_display": "čet, 01. 10. 2026.",
+      "time": "19:30",
+      "link": "https://mochvara.hr/event-detail/6ab2efa83219c77377ff28fe/",
+      "source": "Mochvara",
+      "is_new": true,
+      "first_seen": "2026-09-26T05:01:11.954Z"
     },
     {
       "id": "4b72704eaf",
@@ -2354,7 +2339,7 @@
       "time": null,
       "link": "https://www.muzika.hr/event/elemental-2/",
       "source": "muzika.hr",
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-09-25T22:53:56.822Z"
     },
     {
@@ -2386,6 +2371,21 @@
       "source": "Tvornica Kulture",
       "is_new": false,
       "first_seen": "2026-05-26T20:26:55.235Z"
+    },
+    {
+      "id": "5095edc102",
+      "title": "Tito Tarantula (muzika.hr fanclub)",
+      "venue": "Grada Vukovara 68",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-10-31T00:00:00",
+      "date_display": "sub, 31. 10. 2026.",
+      "time": null,
+      "link": "https://www.muzika.hr/event/tito-tarantula-3/",
+      "source": "muzika.hr",
+      "is_new": true,
+      "first_seen": "2026-09-26T05:01:11.954Z"
     },
     {
       "id": "34f0652785",
@@ -4311,21 +4311,6 @@
     }
   ],
   "abroad": [
-    {
-      "id": "56e952fcc5",
-      "title": "The Amy Winehouse Band",
-      "venue": "Winehouse Band Dorćol Platz Dobračina 59",
-      "city": "Beograd",
-      "country": "RS",
-      "category": "concert",
-      "date_iso": "2026-09-11T00:00:00",
-      "date_display": "pet, 11. 09. 2026.",
-      "time": null,
-      "link": "https://www.muzika.hr/event/the-amy-winehouse-band/",
-      "source": "muzika.hr",
-      "is_new": false,
-      "first_seen": "2026-08-04T15:01:21.568Z"
-    },
     {
       "id": "93167c3914",
       "title": "Frenzee i Grim Rhythm",
