@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-26T05:01:10.249Z",
+  "generated_at": "2026-09-26T06:01:14.427Z",
   "stats": {
     "Mochvara": {
       "ok": true,
@@ -17,15 +17,19 @@
       "ok": true,
       "count": 38
     },
-    "muzika.hr": {
-      "ok": true,
-      "count": 25
-    },
     "ZeKaeM": {
       "ok": true,
       "count": 1
     },
+    "muzika.hr": {
+      "ok": true,
+      "count": 25
+    },
     "Komedija": {
+      "ok": true,
+      "count": 0
+    },
+    "Pogon": {
       "ok": true,
       "count": 0
     },
@@ -33,15 +37,11 @@
       "ok": true,
       "count": 97
     },
-    "Pogon": {
-      "ok": true,
-      "count": 0
-    },
     "Kerempuh": {
       "ok": true,
       "count": 0
     },
-    "Kerempuh": {
+    "Trešnja": {
       "ok": true,
       "count": 0
     }
@@ -1349,7 +1349,7 @@
       "time": "19:30",
       "link": "https://mochvara.hr/event-detail/6ab2efa83219c77377ff28fe/",
       "source": "Mochvara",
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-09-26T05:01:10.249Z"
     },
     {
@@ -2384,7 +2384,7 @@
       "time": null,
       "link": "https://www.muzika.hr/event/tito-tarantula-3/",
       "source": "muzika.hr",
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-09-26T05:01:10.249Z"
     },
     {
@@ -4387,5 +4387,5 @@
       "first_seen": "2026-09-24T22:47:18.393Z"
     }
   ],
-  "new_count": 7
+  "new_count": 5
 }
