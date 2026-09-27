@@ -1,25 +1,25 @@
 {
-  "generated_at": "2026-09-27T20:01:10.850Z",
+  "generated_at": "2026-09-27T22:37:54.746Z",
   "stats": {
+    "muzika.hr": {
+      "ok": true,
+      "count": 25
+    },
     "Lisinski": {
       "ok": true,
       "count": 0
-    },
-    "Mochvara": {
-      "ok": true,
-      "count": 16
-    },
-    "Tvornica": {
-      "ok": true,
-      "count": 3
     },
     "Gavella": {
       "ok": true,
       "count": 38
     },
-    "muzika.hr": {
+    "Tvornica": {
       "ok": true,
-      "count": 25
+      "count": 3
+    },
+    "Mochvara": {
+      "ok": true,
+      "count": 16
     },
     "ZeKaeM": {
       "ok": true,
@@ -29,6 +29,10 @@
       "ok": true,
       "count": 0
     },
+    "HNK Zagreb": {
+      "ok": true,
+      "count": 94
+    },
     "Kerempuh": {
       "ok": true,
       "count": 0
@@ -36,10 +40,6 @@
     "Pogon": {
       "ok": true,
       "count": 0
-    },
-    "HNK Zagreb": {
-      "ok": true,
-      "count": 94
     },
     "Trešnja": {
       "ok": true,
@@ -4235,7 +4235,22 @@
       "source": "muzika.hr",
       "is_new": false,
       "first_seen": "2026-09-24T22:47:18.393Z"
+    },
+    {
+      "id": "49c40c94c3",
+      "title": "Bob Dylan",
+      "venue": "Bob Dylan Arena Stožice Stožice",
+      "city": "Ljubljana",
+      "country": "SI",
+      "category": "concert",
+      "date_iso": "2026-11-09T00:00:00",
+      "date_display": "pon, 09. 11. 2026.",
+      "time": null,
+      "link": "https://www.muzika.hr/event/bob-dylan/",
+      "source": "muzika.hr",
+      "is_new": true,
+      "first_seen": "2026-09-27T22:37:54.746Z"
     }
   ],
-  "new_count": 4
+  "new_count": 5
 }
