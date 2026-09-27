@@ -1,25 +1,25 @@
 {
-  "generated_at": "2026-09-26T21:40:15.499Z",
+  "generated_at": "2026-09-27T05:01:09.885Z",
   "stats": {
-    "muzika.hr": {
+    "Mochvara": {
       "ok": true,
-      "count": 25
+      "count": 16
     },
     "Lisinski": {
       "ok": true,
       "count": 0
     },
+    "Tvornica": {
+      "ok": true,
+      "count": 3
+    },
     "Gavella": {
       "ok": true,
       "count": 38
     },
-    "Mochvara": {
+    "muzika.hr": {
       "ok": true,
-      "count": 16
-    },
-    "Tvornica": {
-      "ok": true,
-      "count": 3
+      "count": 25
     },
     "ZeKaeM": {
       "ok": true,
@@ -29,10 +29,6 @@
       "ok": true,
       "count": 0
     },
-    "HNK Zagreb": {
-      "ok": true,
-      "count": 97
-    },
     "Pogon": {
       "ok": true,
       "count": 0
@@ -41,57 +37,16 @@
       "ok": true,
       "count": 0
     },
+    "HNK Zagreb": {
+      "ok": true,
+      "count": 94
+    },
     "Trešnja": {
       "ok": true,
       "count": 0
     }
   },
   "concerts": [
-    {
-      "id": "630babc017",
-      "title": "Back to nulte",
-      "venue": "Mochvara",
-      "city": "Zagreb",
-      "country": "HR",
-      "category": "concert",
-      "date_iso": "2026-09-11T22:00:00",
-      "date_display": "pet, 11. 09. 2026.",
-      "time": "22:00",
-      "link": "https://mochvara.hr/event-detail/6a902cd2213efb5125144f6a/",
-      "source": "Mochvara",
-      "is_new": true,
-      "first_seen": "2026-09-05T15:01:07.995Z"
-    },
-    {
-      "id": "8d12c1b3ac",
-      "title": "Sjemenište: U ljubav vjerujem",
-      "venue": "Mochvara",
-      "city": "Zagreb",
-      "country": "HR",
-      "category": "concert",
-      "date_iso": "2026-09-11T22:00:00",
-      "date_display": "pet, 11. 09. 2026.",
-      "time": "22:00",
-      "link": "https://mochvara.hr/event-detail/6aa01485055593c799bfb006/",
-      "source": "Mochvara",
-      "is_new": false,
-      "first_seen": "2026-09-08T14:48:17.218Z"
-    },
-    {
-      "id": "ee38df851e",
-      "title": "Idem",
-      "venue": "Idem Šalata Zagreb",
-      "city": "Croatia",
-      "country": "HR",
-      "category": "concert",
-      "date_iso": "2026-09-12T00:00:00",
-      "date_display": "sub, 12. 09. 2026.",
-      "time": null,
-      "link": "https://www.muzika.hr/event/idem-salata-zagreb/",
-      "source": "muzika.hr",
-      "is_new": false,
-      "first_seen": "2026-08-05T05:01:15.586Z"
-    },
     {
       "id": "600a9fc3f4",
       "title": "Compagnie Minute Papillon i Hrvatsko narodno kazalište u Zagrebu Music Cuisine",
@@ -1308,6 +1263,21 @@
       "first_seen": "2026-08-16T05:01:08.036Z"
     },
     {
+      "id": "bc77164134",
+      "title": "POPUNJENO Tko ne želi biti milijunaš kviz II. by House of Flamingo",
+      "venue": "Mochvara",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-10-02T18:00:00",
+      "date_display": "pet, 02. 10. 2026.",
+      "time": "18:00",
+      "link": "https://mochvara.hr/event-detail/6ab2569a555a499361bdbde1/",
+      "source": "Mochvara",
+      "is_new": true,
+      "first_seen": "2026-09-27T05:01:09.885Z"
+    },
+    {
       "id": "03c6279b0c",
       "title": "Gioachino Rossini / Dmitrij Šostakovič — Mauro Bigonzetti ROSSINI CARDS / KAZIMIR’S COLOURS",
       "venue": "HNK Zagreb",
@@ -2474,7 +2444,7 @@
       "time": null,
       "link": "https://www.muzika.hr/event/tommy-emmanuel-2/",
       "source": "muzika.hr",
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-09-26T21:40:15.499Z"
     },
     {
@@ -4342,5 +4312,5 @@
       "first_seen": "2026-09-24T22:47:18.393Z"
     }
   ],
-  "new_count": 6
+  "new_count": 5
 }
