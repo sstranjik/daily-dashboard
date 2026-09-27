@@ -1,56 +1,63 @@
 {
-  "last_updated": "2026-09-27T05:01:04.976Z",
+  "last_updated": "2026-09-27T05:01:05.353Z",
   "generator": "dashboard-bot/1.0",
   "sources": {
     "hr_news": {
-      "updated_at": "2026-09-27T05:01:04.976Z",
+      "updated_at": "2026-09-27T05:01:05.353Z",
       "item_count": 505,
       "ok": true
     },
     "world_news": {
-      "updated_at": "2026-09-27T05:01:04.976Z",
+      "updated_at": "2026-09-27T05:01:05.353Z",
       "item_count": 181,
       "ok": true
     },
     "finance_news": {
-      "updated_at": "2026-09-27T05:01:04.976Z",
+      "updated_at": "2026-09-27T05:01:05.353Z",
       "item_count": 47,
       "ok": true
     },
     "tech_news": {
-      "updated_at": "2026-09-27T05:01:04.976Z",
+      "updated_at": "2026-09-27T05:01:05.353Z",
       "item_count": 48,
       "ok": true
     },
     "science": {
-      "updated_at": "2026-09-27T05:01:04.976Z",
-      "item_count": 28,
+      "updated_at": "2026-09-27T05:01:05.353Z",
+      "item_count": 29,
       "ok": true
     },
     "sports": {
-      "updated_at": "2026-09-27T05:01:04.976Z",
+      "updated_at": "2026-09-27T05:01:05.353Z",
       "item_count": 381,
       "ok": true
     },
     "entertainment": {
-      "updated_at": "2026-09-27T05:01:04.976Z",
+      "updated_at": "2026-09-27T05:01:05.353Z",
       "item_count": 125,
       "ok": true
     },
     "health": {
-      "updated_at": "2026-09-27T05:01:04.976Z",
-      "item_count": 13,
+      "updated_at": "2026-09-27T05:01:05.353Z",
+      "item_count": 12,
       "ok": true
     },
     "food": {
-      "updated_at": "2026-09-27T05:01:04.976Z",
+      "updated_at": "2026-09-27T05:01:05.353Z",
       "item_count": 8,
       "ok": true
     },
     "briefing": {
-      "updated_at": "2026-09-27T05:01:04.976Z",
-      "ok": false,
-      "ai_used": false
+      "updated_at": "2026-09-27T05:02:36.983Z",
+      "ok": true,
+      "ai_used": true,
+      "sections": [
+        "weather",
+        "fuel",
+        "market",
+        "ai_news",
+        "micro_tips"
+      ]
     }
   }
 }

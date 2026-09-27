@@ -1,15 +1,15 @@
 {
   "version": 2,
-  "date": "2026-09-26",
-  "generated_at": "2026-09-26T09:42:16.755Z",
-  "date_hr": "Subota, 26. rujna 2026.",
+  "date": "2026-09-27",
+  "generated_at": "2026-09-27T05:02:36.983Z",
+  "date_hr": "Nedjelja, 27. rujna 2026.",
   "weather": {
-    "icon": "🌤️",
-    "summary": "9–20°C, djelomično oblačno",
+    "icon": "🌫️",
+    "summary": "9–22°C, magla",
     "alerts": []
   },
   "fuel": {
-    "current_date": "26.09.2026",
+    "current_date": "27.09.2026",
     "eurodiesel": [
       {
         "company": "Adria Oil",
@@ -63,46 +63,46 @@
     "upcoming_premium": null
   },
   "market": {
-    "updated_at": "2026-09-26T09:42:16.755Z",
-    "btc_usd": 84004,
-    "btc_eur": 73746,
-    "btc_change_24h": -0.75,
-    "usd_eur": 0.8773
+    "updated_at": "2026-09-27T05:02:36.983Z",
+    "btc_usd": 84307,
+    "btc_eur": 74012,
+    "btc_change_24h": 0.4,
+    "usd_eur": 0.8775
   },
   "ai_news": [
     {
-      "title": "One company is at the center of a wave of rogue AI attacks",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1000644/irregular-rogue-ai-cyberattacks-hacking-openai-meta-anthropic-google",
-      "source": "The Verge"
-    },
-    {
-      "title": "Unsecured OpenAI agents posted 53 user images on the internet without the lab&#8217;s knowledge",
-      "link": "https://techcrunch.com/2026/09/25/unsecured-openai-agents-posted-53-user-images-on-the-internet-without-the-labs-knowledge/",
-      "source": "TechCrunch AI"
-    },
-    {
-      "title": "Meta’s Muse just stole the AI spotlight from OpenAI and Anthropic",
-      "link": "https://techcrunch.com/podcast/metas-muse-just-stole-the-ai-spotlight-from-openai-and-anthropic/",
-      "source": "TechCrunch AI"
-    },
-    {
-      "title": "US appeals court upholds Pentagon’s supply chain risk label on Anthropic",
-      "link": "https://thenextweb.com/news/anthropic-pentagon-supply-chain-risk-appeals-court-ruling",
+      "title": "Australian inquiry asks Altman and Amodei to testify",
+      "link": "https://thenextweb.com/news/australia-senate-inquiry-altman-amodei-openai-medicare",
       "source": "The Next Web"
     },
     {
-      "title": "Meta’s AI Tamagotchi bet is…working?",
-      "link": "https://techcrunch.com/video/will-metas-ai-tamagotchi-bet-isworking/",
+      "title": "OpenAI pauses training of its ‘most capable models’",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1001049/openai-training-pause",
+      "source": "The Verge"
+    },
+    {
+      "title": "OpenAI took 2.5 hours to stop an AI agent that escaped its sandbox",
+      "link": "https://thenextweb.com/news/openai-sandbox-agent-ai-kill-switch",
+      "source": "The Next Web"
+    },
+    {
+      "title": "Google tests buying from Walmart-owned Flipkart through Gemini and AI Mode in India",
+      "link": "https://techcrunch.com/2026/09/26/google-tests-buying-from-walmart-owned-flipkart-through-gemini-and-ai-mode-in-india/",
       "source": "TechCrunch AI"
+    },
+    {
+      "title": "Oxford let OpenAI train AI models on Bodleian texts, the Guardian reports",
+      "link": "https://thenextweb.com/news/oxford-bodleian-openai-training-data",
+      "source": "The Next Web"
     }
   ],
   "micro_tips": {
     "vscode": {
-      "tip": "Nađi i selektiraj sljedeće pojavljivanje",
-      "keys": "Ctrl+D"
+      "tip": "Multi-cursor: postavi cursor na više mjesta istovremeno",
+      "keys": "Alt+Click"
     },
-    "sql": "Batch INSERT umjesto jednog-po-jednog: INSERT INTO t VALUES (...),(...),...",
-    "oracle": "FETCH FIRST n ROWS ONLY umjesto ROWNUM — kompatibilno s ORDER BY i čitljivije",
-    "regex": "^(?!.*pattern) negative lookahead: \"ova linija ne smije sadržavati X\""
+    "sql": "EXISTS umjesto IN za subqueries — brže jer stane na prvom podudaranju: WHERE EXISTS (SELECT 1 FROM ...)",
+    "oracle": "/*+ INDEX(t ime_indexa) */ forsira specifičan index kad optimizer bira full scan",
+    "regex": "\\b granica riječi: \\bword\\b podudara cijelu riječ, ne \"password\" ili \"swordfish\""
   }
 }
