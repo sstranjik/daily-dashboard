@@ -1,25 +1,25 @@
 {
-  "generated_at": "2026-09-27T15:27:17.935Z",
+  "generated_at": "2026-09-27T16:01:15.337Z",
   "stats": {
     "muzika.hr": {
       "ok": true,
       "count": 25
     },
-    "Lisinski": {
-      "ok": true,
-      "count": 0
-    },
     "Mochvara": {
       "ok": true,
       "count": 16
     },
-    "Gavella": {
+    "Lisinski": {
       "ok": true,
-      "count": 38
+      "count": 0
     },
     "Tvornica": {
       "ok": true,
       "count": 3
+    },
+    "Gavella": {
+      "ok": true,
+      "count": 38
     },
     "ZeKaeM": {
       "ok": true,
@@ -29,6 +29,10 @@
       "ok": true,
       "count": 0
     },
+    "HNK Zagreb": {
+      "ok": true,
+      "count": 94
+    },
     "Kerempuh": {
       "ok": true,
       "count": 0
@@ -36,10 +40,6 @@
     "Pogon": {
       "ok": true,
       "count": 0
-    },
-    "HNK Zagreb": {
-      "ok": true,
-      "count": 94
     },
     "Trešnja": {
       "ok": true,
@@ -1261,6 +1261,21 @@
       "source": "muzika.hr",
       "is_new": false,
       "first_seen": "2026-09-24T09:01:15.550Z"
+    },
+    {
+      "id": "c1c60cf6fe",
+      "title": "One Tree Hill Party",
+      "venue": "Mochvara",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-10-02T21:00:00",
+      "date_display": "pet, 02. 10. 2026.",
+      "time": "21:00",
+      "link": "https://mochvara.hr/event-detail/6aa28ab29f360e8bb1b23c93/",
+      "source": "Mochvara",
+      "is_new": true,
+      "first_seen": "2026-09-27T16:01:15.337Z"
     },
     {
       "id": "eb87ff9cf8",
@@ -4252,5 +4267,5 @@
       "first_seen": "2026-09-24T22:47:18.393Z"
     }
   ],
-  "new_count": 4
+  "new_count": 5
 }
