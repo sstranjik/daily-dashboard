@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-28T15:01:24.428Z",
+  "generated_at": "2026-09-28T16:01:25.267Z",
   "stats": {
     "muzika.hr": {
       "ok": true,
@@ -9,10 +9,6 @@
       "ok": true,
       "count": 0
     },
-    "Gavella": {
-      "ok": true,
-      "count": 38
-    },
     "Mochvara": {
       "ok": true,
       "count": 16
@@ -20,6 +16,10 @@
     "Tvornica": {
       "ok": true,
       "count": 3
+    },
+    "Gavella": {
+      "ok": true,
+      "count": 38
     },
     "ZeKaeM": {
       "ok": true,
@@ -29,21 +29,21 @@
       "ok": true,
       "count": 0
     },
+    "Kerempuh": {
+      "ok": true,
+      "count": 0
+    },
     "Pogon": {
       "ok": true,
       "count": 0
     },
-    "Kerempuh": {
+    "Trešnja": {
       "ok": true,
       "count": 0
     },
     "HNK Zagreb": {
       "ok": true,
       "count": 95
-    },
-    "Trešnja": {
-      "ok": true,
-      "count": 0
     }
   },
   "concerts": [
@@ -1306,6 +1306,21 @@
       "source": "HNK Zagreb",
       "is_new": false,
       "first_seen": "2026-07-16T11:24:53.922Z"
+    },
+    {
+      "id": "f05aeaa024",
+      "title": "Ajmo u Rodilište! TBF i KNINci",
+      "venue": "TBF i KNINci Sinj Sinj",
+      "city": "Croatia",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-10-03T21:30:00",
+      "date_display": "sub, 03. 10. 2026.",
+      "time": "21:30",
+      "link": "https://www.muzika.hr/event/ajmo-u-rodiliste-tbf-i-kninci/",
+      "source": "muzika.hr",
+      "is_new": true,
+      "first_seen": "2026-09-28T16:01:25.267Z"
     },
     {
       "id": "d4b5dbf783",
@@ -4237,5 +4252,5 @@
       "first_seen": "2026-09-27T22:37:54.746Z"
     }
   ],
-  "new_count": 4
+  "new_count": 5
 }
