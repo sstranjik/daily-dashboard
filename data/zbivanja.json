@@ -1,31 +1,39 @@
 {
-  "generated_at": "2026-09-27T22:37:54.746Z",
+  "generated_at": "2026-09-28T05:01:11.956Z",
   "stats": {
-    "muzika.hr": {
-      "ok": true,
-      "count": 25
-    },
     "Lisinski": {
       "ok": true,
       "count": 0
-    },
-    "Gavella": {
-      "ok": true,
-      "count": 38
-    },
-    "Tvornica": {
-      "ok": true,
-      "count": 3
     },
     "Mochvara": {
       "ok": true,
       "count": 16
     },
+    "Gavella": {
+      "ok": true,
+      "count": 38
+    },
+    "muzika.hr": {
+      "ok": true,
+      "count": 25
+    },
+    "Tvornica": {
+      "ok": true,
+      "count": 3
+    },
+    "Komedija": {
+      "ok": true,
+      "count": 0
+    },
     "ZeKaeM": {
       "ok": true,
       "count": 1
     },
-    "Komedija": {
+    "Pogon": {
+      "ok": true,
+      "count": 0
+    },
+    "Kerempuh": {
       "ok": true,
       "count": 0
     },
@@ -33,50 +41,12 @@
       "ok": true,
       "count": 94
     },
-    "Kerempuh": {
-      "ok": true,
-      "count": 0
-    },
-    "Pogon": {
-      "ok": true,
-      "count": 0
-    },
     "Trešnja": {
       "ok": true,
       "count": 0
     }
   },
   "concerts": [
-    {
-      "id": "ddfefce30c",
-      "title": "Dirty Dancing – 80’s smash hit party",
-      "venue": "Mochvara",
-      "city": "Zagreb",
-      "country": "HR",
-      "category": "concert",
-      "date_iso": "2026-09-12T23:00:00",
-      "date_display": "sub, 12. 09. 2026.",
-      "time": "23:00",
-      "link": "https://mochvara.hr/event-detail/6a902c73213efb512513f143/",
-      "source": "Mochvara",
-      "is_new": false,
-      "first_seen": "2026-09-05T16:01:06.417Z"
-    },
-    {
-      "id": "0a75d8d57d",
-      "title": "6. Dvigrad Blues Festival u Kanfanaru",
-      "venue": "Festival u Kanfanaru Kanfanar Kanfanar",
-      "city": "Croatia",
-      "country": "HR",
-      "category": "concert",
-      "date_iso": "2026-09-13T00:00:00",
-      "date_display": "ned, 13. 09. 2026.",
-      "time": null,
-      "link": "https://www.muzika.hr/event/6-dvigrad-blues-festival-u-kanfanaru/",
-      "source": "muzika.hr",
-      "is_new": false,
-      "first_seen": "2026-09-10T13:01:14.693Z"
-    },
     {
       "id": "078b470320",
       "title": "Borna Erceg Gita i skriveni svijet ZAGREBAČKI OPERNI FESTIVAL 2026.",
@@ -4248,9 +4218,9 @@
       "time": null,
       "link": "https://www.muzika.hr/event/bob-dylan/",
       "source": "muzika.hr",
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-09-27T22:37:54.746Z"
     }
   ],
-  "new_count": 5
+  "new_count": 4
 }
