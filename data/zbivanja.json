@@ -1,25 +1,25 @@
 {
-  "generated_at": "2026-09-29T17:08:56.339Z",
+  "generated_at": "2026-09-29T18:01:55.174Z",
   "stats": {
     "muzika.hr": {
       "ok": true,
       "count": 25
     },
-    "Lisinski": {
-      "ok": true,
-      "count": 0
-    },
-    "Gavella": {
-      "ok": true,
-      "count": 38
-    },
     "Mochvara": {
       "ok": true,
       "count": 16
     },
+    "Lisinski": {
+      "ok": true,
+      "count": 0
+    },
     "Tvornica": {
       "ok": true,
       "count": 2
+    },
+    "Gavella": {
+      "ok": true,
+      "count": 38
     },
     "ZeKaeM": {
       "ok": true,
@@ -33,15 +33,15 @@
       "ok": true,
       "count": 94
     },
-    "Pogon": {
-      "ok": true,
-      "count": 0
-    },
     "Kerempuh": {
       "ok": true,
       "count": 0
     },
     "Trešnja": {
+      "ok": true,
+      "count": 0
+    },
+    "Pogon": {
       "ok": true,
       "count": 0
     }
@@ -1786,6 +1786,21 @@
       "source": "HNK Zagreb",
       "is_new": false,
       "first_seen": "2026-07-02T13:01:26.613Z"
+    },
+    {
+      "id": "b3cdc17ecf",
+      "title": "RING ABBA TRIBUTE BAND",
+      "venue": "ABBA TRIBUTE BAND Lazareti Frana Supila 8",
+      "city": "Dubrovnik",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-10-17T21:00:00",
+      "date_display": "sub, 17. 10. 2026.",
+      "time": "21:00",
+      "link": "https://www.muzika.hr/event/ring-abba-tribute-band/",
+      "source": "muzika.hr",
+      "is_new": true,
+      "first_seen": "2026-09-29T18:01:55.174Z"
     },
     {
       "id": "e7b29f78ee",
@@ -4207,5 +4222,5 @@
       "first_seen": "2026-09-27T22:37:54.746Z"
     }
   ],
-  "new_count": 4
+  "new_count": 5
 }
