@@ -1,61 +1,61 @@
 {
   "version": 2,
-  "date": "2026-09-28",
-  "generated_at": "2026-09-28T11:24:21.967Z",
-  "date_hr": "Ponedjeljak, 28. rujna 2026.",
+  "date": "2026-09-29",
+  "generated_at": "2026-09-29T05:03:05.313Z",
+  "date_hr": "Utorak, 29. rujna 2026.",
   "weather": {
-    "icon": "🌤️",
-    "summary": "11–23°C, djelomično oblačno",
+    "icon": "☀️",
+    "summary": "12–24°C, vedro",
     "alerts": []
   },
   "fuel": {
-    "current_date": "28.09.2026",
+    "current_date": "29.09.2026",
     "eurodiesel": [
       {
-        "company": "Adria Oil",
-        "price": 1.91
-      },
-      {
         "company": "Coral Croatia",
-        "price": 1.91
+        "price": 1.86
       },
       {
         "company": "INA",
-        "price": 1.91
+        "price": 1.86
       },
       {
         "company": "LUKOIL Croatia",
-        "price": 1.91
+        "price": 1.86
       },
       {
         "company": "Petrol",
-        "price": 1.91
+        "price": 1.86
       },
       {
         "company": "Tifon",
+        "price": 1.86
+      },
+      {
+        "company": "Adria Oil",
         "price": 1.91
       }
     ],
     "premium_eurodiesel": [
       {
         "company": "LUKOIL Croatia",
-        "price": 2.07
+        "price": 2.02
       },
       {
         "company": "INA",
-        "price": 2.18
+        "price": 2.13
       },
       {
         "company": "Tifon",
-        "price": 2.18
+        "price": 2.13
       },
       {
         "company": "Petrol",
-        "price": 2.26
+        "price": 2.16
       },
       {
         "company": "Coral Croatia",
-        "price": 2.27
+        "price": 2.22
       }
     ],
     "upcoming_date": null,
@@ -63,46 +63,46 @@
     "upcoming_premium": null
   },
   "market": {
-    "updated_at": "2026-09-28T11:24:21.967Z",
-    "btc_usd": 82971,
-    "btc_eur": 72956,
-    "btc_change_24h": -2.24,
-    "usd_eur": 0.8784
+    "updated_at": "2026-09-29T05:03:05.313Z",
+    "btc_usd": 83193,
+    "btc_eur": 73232,
+    "btc_change_24h": -0.36,
+    "usd_eur": 0.8792
   },
   "ai_news": [
     {
-      "title": "OpenAI agents tried to ‘bruteforce’ a UN website",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1001178/openai-agents-bruteforce-un-website",
+      "title": "Anthropic releases Claude Sonnet 5.5 with the cyber limits it reserved for its best models",
+      "link": "https://thenextweb.com/news/sonnet-5-5-cyber-distillation",
+      "source": "The Next Web"
+    },
+    {
+      "title": "OpenAI says its rogue agents posted 53 ChatGPT users’ images online",
+      "link": "https://thenextweb.com/news/openai-rogue-agents-53-user-images-government-sites",
+      "source": "The Next Web"
+    },
+    {
+      "title": "Hinton, Bengio and AI lab scientists warn of an intelligence explosion",
+      "link": "https://thenextweb.com/news/intelligence-explosion-paper-hinton-bengio-pachocki-clark",
+      "source": "The Next Web"
+    },
+    {
+      "title": "Anthropic ends discounts once tokens run out, The Information reports",
+      "link": "https://thenextweb.com/news/anthropic-openai-enterprise-discounts-tokens-the-information",
+      "source": "The Next Web"
+    },
+    {
+      "title": "OpenAI’s AI agents need to catch up",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1001590/openai-devday-2026-aeon-ai-agent",
       "source": "The Verge"
-    },
-    {
-      "title": "Nvidia launches agent safety platform backed by over 100 companies",
-      "link": "https://thenextweb.com/news/nvidia-open-agent-safety-platform",
-      "source": "The Next Web"
-    },
-    {
-      "title": "Google, OpenAI and Anthropic plan AI safety body, The Information reports",
-      "link": "https://thenextweb.com/news/standards-authority-frontier-ai-google-openai-anthropic",
-      "source": "The Next Web"
-    },
-    {
-      "title": "OpenAI agents scanned a UN statistics site 16,500 times, researcher says",
-      "link": "https://thenextweb.com/news/openai-agents-un-unctad-statistics-site-scans",
-      "source": "The Next Web"
-    },
-    {
-      "title": "Can Muse overcome Meta’s trust issues?",
-      "link": "https://techcrunch.com/2026/09/27/can-muse-overcome-metas-trust-issues/",
-      "source": "TechCrunch AI"
     }
   ],
   "micro_tips": {
     "vscode": {
-      "tip": "Command Palette: brzi pristup svim komandama",
-      "keys": "Ctrl+Shift+P"
+      "tip": "Rename Symbol svuda u projektu (refactoring)",
+      "keys": "F2"
     },
-    "sql": "Nikad SELECT * u produkciji — navedi kolone, manji I/O i bolji cache plan",
-    "oracle": "/*+ PARALLEL(t 4) */ paralelno izvršavanje querija na N thread-ova",
-    "regex": "(?:group) non-capturing group: grupiraj bez pamćenja za veće performanse"
+    "sql": "Covering index: uključi sve kolone iz WHERE + SELECT u index pa nema pristupa tablici",
+    "oracle": "/*+ NO_MERGE(v) */ sprječava merging inline viewa s parent queryjem",
+    "regex": "(?=pattern) lookahead: \"iza ovog mora slijediti X\" bez konzumiranja znakova"
   }
 }
