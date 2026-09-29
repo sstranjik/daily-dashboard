@@ -1,9 +1,105 @@
 {
-  "last_updated": "2026-09-28T20:01:07.984Z",
+  "last_updated": "2026-09-29T00:01:09.771Z",
   "source_count": 11,
   "items": [
     {
       "id": "techcrunch-ai-0",
+      "title": "OpenAI reportedly ditches model over safety concerns",
+      "summary": "A top executive at the AI lab told the Wall Street Journal that the model in question had displayed a poor aptitude for following orders.",
+      "link": "https://techcrunch.com/2026/09/28/openai-reportedly-ditches-model-over-safety-concerns/",
+      "published": "2026-09-28T23:39:20.000Z",
+      "source": "TechCrunch AI",
+      "category": "ai",
+      "xml_category": "ai",
+      "tags": [],
+      "image": null
+    },
+    {
+      "id": "the-verge-0",
+      "title": "AMD is acquiring AI company World Labs in a deal worth more than $8 billion",
+      "summary": "AMD announced today that it's acquiring World Labs, an AI research lab co-founded by the prominent researcher Dr. Fei-Fei Li, in an all-stock deal worth approximately $8.2 billion. World Labs launched in 2024 and was valued at $1 billion in a matter of months. The startup launched its first commerci",
+      "link": "https://www.theverge.com/tech/1001749/amd-world-labs-ai-acquisition-deal",
+      "published": "2026-09-28T21:31:35.000Z",
+      "source": "The Verge",
+      "category": "ai",
+      "xml_category": "[object object]",
+      "tags": [],
+      "image": null
+    },
+    {
+      "id": "techcrunch-ai-1",
+      "title": "Source: Inference provider Modal Labs closing in on $750M round at $15.75B valuation",
+      "summary": "The new financing is expected to more than triples the AI infrastructure startup's valuation from just four months ago.",
+      "link": "https://techcrunch.com/2026/09/28/source-inference-provider-modal-labs-closing-in-on-750m-round-at-15-75b-valuation/",
+      "published": "2026-09-28T21:29:18.000Z",
+      "source": "TechCrunch AI",
+      "category": "general",
+      "xml_category": "ai",
+      "tags": [],
+      "image": null
+    },
+    {
+      "id": "tportal-0",
+      "title": "Trump okuplja šefove tehnoloških divova: &#039;Ne smijemo izgubiti AI utrku s Kinom&#039;",
+      "summary": "Sastanak predsjednika Donalda Trumpa s direktorima tehnoloških tvrtki o umjetnoj inteligenciji, predviđen za utorak, bit će usredotočen na pronalaženje ravnoteže između inovacija i nadzora, izjavio je predsjednik Zastupničkog doma Mike Johnson",
+      "link": "https://www.tportal.hr/tehno/clanak/trump-okuplja-sefove-tehnoloskih-divova-ne-smijemo-izgubiti-ai-utrku-s-kinom-20260928",
+      "published": "2026-09-28T21:05:00.000Z",
+      "source": "Tportal",
+      "category": "ai",
+      "xml_category": "tech",
+      "tags": [],
+      "image": "https://www.tportal.hr/media/thumbnail/500x300/2801903.jpeg?cropId=0"
+    },
+    {
+      "id": "the-next-web-0",
+      "title": "Cloudflare’s Prince tells The Verge bots could be 1,000x human traffic",
+      "summary": "Bots could make up 1,000 times more web traffic than humans within five years, Cloudflare chief executive Matthew Prince told The Verge. He made the forecast on Nilay Patel’s Decoder podcast. He added that each of his earlier predictions on bot traffic had been wrong. They were wrong because bots gr",
+      "link": "https://thenextweb.com/news/cloudflare-matthew-prince-bots-1000x-human-traffic-verge",
+      "published": "2026-09-28T21:01:59.000Z",
+      "source": "The Next Web",
+      "category": "tech",
+      "xml_category": "artificial intelligence",
+      "tags": [],
+      "image": "https://media.thenextweb.com/2026/09/matthew-prince-cloudflare-web-summit-2025-stage.avif"
+    },
+    {
+      "id": "the-next-web-1",
+      "title": "Hinton, Bengio and AI lab scientists warn of an intelligence explosion",
+      "summary": "More than 20 AI researchers have warned that AI systems that automate AI research could set off an “intelligence explosion”. They include OpenAI’s chief scientist and an Anthropic co-founder. Such an event could compress years of progress into months or less, they wrote in a paper published on Monda",
+      "link": "https://thenextweb.com/news/intelligence-explosion-paper-hinton-bengio-pachocki-clark",
+      "published": "2026-09-28T20:45:19.000Z",
+      "source": "The Next Web",
+      "category": "ai",
+      "xml_category": "artificial intelligence",
+      "tags": [],
+      "image": "https://media.thenextweb.com/2026/09/geoffrey-hinton-portrait-2026-blue-collar.avif"
+    },
+    {
+      "id": "zdnet-0",
+      "title": "iOS 27.0.1 released: Apple fixes annoying iPhone 18 Pro restart and freezing issues",
+      "summary": "The first update to iOS 27 squashes a bug in which the iPhone 18 Pro and Pro Max would freeze or restart when you try to use Face ID.",
+      "link": "https://www.zdnet.com/tech/iphone-18-pro-freeze-restart-ios-27-0-1-fix/",
+      "published": "2026-09-28T20:39:56.000Z",
+      "source": "ZDNet",
+      "category": "tech",
+      "xml_category": "[object object]",
+      "tags": [],
+      "image": "https://www.zdnet.com/wp-content/uploads/sites/3/ios-2701.jpg"
+    },
+    {
+      "id": "techcrunch-ai-2",
+      "title": "AMD will acquire Fei-Fei Li&#8217;s World Labs for $8.2 billion",
+      "summary": "The acquisition will see World Labs founder Fei-Fei Li join AMD as executive vice president and chief scientist.",
+      "link": "https://techcrunch.com/2026/09/28/amd-will-acquire-fei-fei-lis-world-labs-for-8-2-billion/",
+      "published": "2026-09-28T20:39:33.000Z",
+      "source": "TechCrunch AI",
+      "category": "general",
+      "xml_category": "ai",
+      "tags": [],
+      "image": null
+    },
+    {
+      "id": "techcrunch-ai-3",
       "title": "Shopify opens checkout to browser-based AI agents",
       "summary": "Shopify is expanding WebMCP support to checkout, allowing browser-based AI agents to update order details and complete purchases with a buyer’s authorization.",
       "link": "https://techcrunch.com/2026/09/28/shopify-opens-checkout-to-browser-based-ai-agents/",
@@ -15,7 +111,7 @@
       "image": null
     },
     {
-      "id": "the-verge-0",
+      "id": "the-verge-1",
       "title": "Bose starts adding Auracast to its headphones",
       "summary": "A new firmware update for the $449 Bose QuietComfort Ultra Headphones Gen 2 adds support for Bluetooth LE Audio and Auracast as beta features. The flagship Ultra headphones are the first from Bose to support the audio sharing technology, which the company plans to bring to more devices soon. Only a ",
       "link": "https://www.theverge.com/tech/1001522/bose-headphones-get-auracast-support",
@@ -27,7 +123,7 @@
       "image": null
     },
     {
-      "id": "the-next-web-0",
+      "id": "the-next-web-2",
       "title": "SiMa.ai raises $150m at a $1.45bn valuation for physical AI chips",
       "summary": "SiMa.ai has raised $150m in a Series C round that values the company at $1.45bn, it announced on Monday. The San Jose startup makes chips and software that let robots, drones and cars run AI on the device itself. Fidelity Management & Research Company and Amplify co-led the round. Alter Venture Part",
       "link": "https://thenextweb.com/news/sima-ai-150m-series-c-1-45bn-valuation-physical-ai",
@@ -39,7 +135,7 @@
       "image": "https://media.thenextweb.com/2026/09/krishna-rangasayee-sima-ai-founder-ceo-portrait.avif"
     },
     {
-      "id": "the-next-web-1",
+      "id": "the-next-web-3",
       "title": "UK AI minister says AI testing is not enough, Fortune reports",
       "summary": "The UK’s AI minister, Kanishka Narayan, says countries must “harden” their defences against AI risk. Testing models is no longer enough, he said. He was answering a question from Fortune at the Labour Party’s annual conference. Fortune’s Kamal Ahmed asked him about a warning from Jacob Coxon, a rese",
       "link": "https://thenextweb.com/news/kanishka-narayan-ai-risk-harden-defences-fortune",
@@ -51,7 +147,7 @@
       "image": "https://media.thenextweb.com/2026/09/kanishka-narayan-uk-ai-minister-portrait-garden.avif"
     },
     {
-      "id": "the-next-web-2",
+      "id": "the-next-web-4",
       "title": "Anthropic ends discounts once tokens run out, The Information reports",
       "summary": "Anthropic ends enterprise customers’ discounts once they use up the tokens covered by their contracts, The Information reported on Monday. OpenAI takes a more flexible approach, the report said. Kevin McLaughlin of The Information spoke to software company managers who buy from both AI companies. Wh",
       "link": "https://thenextweb.com/news/anthropic-openai-enterprise-discounts-tokens-the-information",
@@ -63,7 +159,7 @@
       "image": "https://media.thenextweb.com/2026/09/claude-chat-laptop-screen-model-unavailable-notice.avif"
     },
     {
-      "id": "the-next-web-3",
+      "id": "the-next-web-5",
       "title": "A user says Meta’s Muse gave his address to a Marketplace buyer",
       "summary": "A YouTuber says Meta’s Muse agent gave his home address to a Facebook Marketplace buyer and then told the buyer he was home when he wasn’t. Matt Robb described what happened in a post on Threads. “Just found out it told people my address and agreed a lowball price,” Robb wrote. Robb had let Muse [&h",
       "link": "https://thenextweb.com/news/meta-muse-facebook-marketplace-address-buyer-robb",
@@ -75,7 +171,7 @@
       "image": "https://media.thenextweb.com/2026/09/Meta-Muse.avif"
     },
     {
-      "id": "the-verge-1",
+      "id": "the-verge-2",
       "title": "OpenAI’s AI agents need to catch up",
       "summary": "OpenAI popularized the modern generative AI chatbot, but as its 2026 DevDay event approaches, it's fallen behind in one of the industry's hottest categories: continuously running, consumer-facing AI agents. On Tuesday, it will likely try to capture the lead in that race. Rumors abound that OpenAI wi",
       "link": "https://www.theverge.com/ai-artificial-intelligence/1001590/openai-devday-2026-aeon-ai-agent",
@@ -87,7 +183,7 @@
       "image": null
     },
     {
-      "id": "the-verge-2",
+      "id": "the-verge-3",
       "title": "Trump finalizes rule to make cars less fuel efficient",
       "summary": "The US Department of Transportation finalized its plans today to weaken fuel efficiency standards, calling it \"among the largest deregulatory actions under the second Trump Administration.\" It's a nail in the coffin for Biden-era standards that would have required fleet average fuel economy to reach",
       "link": "https://www.theverge.com/news/1001610/trump-weakens-fuel-efficiency-standards",
@@ -99,7 +195,7 @@
       "image": null
     },
     {
-      "id": "the-next-web-4",
+      "id": "the-next-web-6",
       "title": "Florida asks a court to stop OpenAI building new AI models",
       "summary": "Florida’s attorney general, James Uthmeier, has asked a state court to stop OpenAI from developing new AI models without independent safety guardrails. He made the request in a motion for a temporary injunction filed on Monday. It was filed in the Highlands County circuit court. The motion is part o",
       "link": "https://thenextweb.com/news/florida-openai-temporary-injunction-model-development-uthmeier",
@@ -111,7 +207,7 @@
       "image": "https://media.thenextweb.com/2026/09/florida-attorney-general-james-uthmeier-official-portrait.avif"
     },
     {
-      "id": "techcrunch-ai-1",
+      "id": "techcrunch-ai-4",
       "title": "Nvidia launches new platform for reining in rogue AI agents",
       "summary": "As the debate rages over whether the recent spate of rogue AI agents is a step toward AGI or a more conventional engineering problem, Nvidia is offering its own answer to problem. Nvidia CEO Jensen Huang on Monday introduced a toolkit of software and hardware products that add independent security l",
       "link": "https://techcrunch.com/2026/09/28/nvidia-launches-new-platform-for-reining-in-rogue-ai-agents/",
@@ -123,7 +219,7 @@
       "image": null
     },
     {
-      "id": "the-next-web-5",
+      "id": "the-next-web-7",
       "title": "Anthropic releases Claude Sonnet 5.5 with the cyber limits it reserved for its best models",
       "summary": "Anthropic has released Claude Sonnet 5.5, which scores 70.6% on the Terminal-Bench 4.0 agentic coding test against 10.3% for Sonnet 5 and 66.4% for the more expensive Opus 5.5. It is the first Sonnet to ship with frontier-style cyber safeguards and with classifiers that block reasoning extraction. A",
       "link": "https://thenextweb.com/news/sonnet-5-5-cyber-distillation",
@@ -135,7 +231,7 @@
       "image": "https://media.thenextweb.com/2026/08/anthropic-in-house-chip-team-custom-silicon-claude.avif"
     },
     {
-      "id": "the-verge-3",
+      "id": "the-verge-4",
       "title": "AI is supercharging hacking, and your local hospitals and banks aren’t ready",
       "summary": "In March, Janice Malone began getting calls about suspicious activity from her nonprofit organization, Vivian's Door. Vivian's Door, headquartered in Alabama, typically provided training, resources, and community to underserved and minority-owned businesses. The work sometimes put it in close contac",
       "link": "https://www.theverge.com/ai-artificial-intelligence/1001427/ai-is-supercharging-hacking-and-your-local-hospitals-and-banks-arent-ready",
@@ -147,7 +243,7 @@
       "image": null
     },
     {
-      "id": "the-next-web-6",
+      "id": "the-next-web-8",
       "title": "Nvidia adds a record $150bn to its share buyback",
       "summary": "Nvidia’s board has approved an extra $150bn for share buybacks, the company said on Monday. That lifts the total remaining authorisation to $235bn, which Nvidia expects to use through fiscal year 2028. Nvidia called it the largest increase to a share repurchase authorisation in history. “This author",
       "link": "https://thenextweb.com/news/nvidia-150bn-share-buyback-235bn-record",
@@ -159,7 +255,7 @@
       "image": "https://media.thenextweb.com/2026/09/jensen-huang-marc-benioff-handshake-dreamforce-stage.avif"
     },
     {
-      "id": "the-next-web-7",
+      "id": "the-next-web-9",
       "title": "Meta hires MongoDB CEO CJ Desai to sell its AI to businesses",
       "summary": "Meta has launched a division to sell its AI tools to businesses, Mark Zuckerberg said on X on Monday. MongoDB chief executive Chirantan “CJ” Desai will run it. “Today we are starting the next major pillar of our business, Meta Enterprise Platform,” Zuckerberg wrote. The unit will first offer Meta’s ",
       "link": "https://thenextweb.com/news/meta-enterprise-platform-cj-desai-mongodb-ceo",
@@ -171,7 +267,7 @@
       "image": "https://media.thenextweb.com/2026/09/mark-zuckerberg-meta-connect-2026-stage-bookshelves.avif"
     },
     {
-      "id": "techcrunch-ai-2",
+      "id": "techcrunch-ai-5",
       "title": "Anthropic releases Sonnet 5.5, which it calls a significantly cheaper, faster work partner",
       "summary": "Anthropic has released the newest version of its mid-range model, boasting faster response times and less token burn.",
       "link": "https://techcrunch.com/2026/09/28/anthropic-releases-sonnet-5-5-which-it-calls-a-significantly-cheaper-faster-work-partner/",
@@ -195,7 +291,7 @@
       "image": "https://media.thenextweb.com/2026/07/big-tech-2-trillion-ai-spending-commitments-bloomberg.avif"
     },
     {
-      "id": "tportal-0",
+      "id": "tportal-1",
       "title": "Povijesni uspjeh SpaceX-a: Starship prvi put dosegnuo orbitu i uspješno se spustio u Tihi ocean",
       "summary": "Divovska raketa Starship tvrtke SpaceX u ponedjeljak je prvi put uspješno dosegnula Zemljinu orbitu, nakon čega se vratila na Zemlju poslije neočekivano skraćenog pokusnog leta",
       "link": "https://www.tportal.hr/tehno/clanak/starship-prvi-put-u-orbiti-misija-neocekivano-skracena-letjelica-zavrsila-u-tihom-oceanu-20260928",
@@ -219,9 +315,9 @@
       "image": "https://media.thenextweb.com/2026/09/red-queen-bio-founders-hannu-rajaniemi-nikolai-eroshenko.avif"
     },
     {
-      "id": "techcrunch-ai-3",
+      "id": "techcrunch-ai-6",
       "title": "Google is killing off Gemini&#8217;s Gems in favor of &#8216;skills&#8217;",
-      "summary": "As all-in-one AI agents like Meta's Muse and Instinct take off, Google is opting to end a feature which built task-specific agents.",
+      "summary": "As all-in-one AI agents like Meta's Muse and Instinct take off, Google is opting to end a feature that built task-specific agents.",
       "link": "https://techcrunch.com/2026/09/28/google-is-killing-off-geminis-gems-in-favor-of-skills/",
       "published": "2026-09-28T17:29:50.000Z",
       "source": "TechCrunch AI",
@@ -279,7 +375,7 @@
       "image": "https://www.bug.hr/img/sony-se-povlaci-s-ces-a-nakon-60-godina-sudjelovanja_yC8fnt.png"
     },
     {
-      "id": "techcrunch-ai-4",
+      "id": "techcrunch-ai-7",
       "title": "OpenAI still doesn&#8217;t seem to have a handle on all of its rogue AI activity",
       "summary": "On Friday, OpenAI published a new site devoted to “misalignment reports” and the breadth of the incidents is alarming.",
       "link": "https://techcrunch.com/2026/09/28/openai-still-doesnt-seem-to-have-a-handle-on-all-of-its-rogue-ai-activity/",
@@ -291,7 +387,7 @@
       "image": null
     },
     {
-      "id": "the-verge-4",
+      "id": "the-verge-5",
       "title": "Florida seeks a ban on ChatGPT acting like a person",
       "summary": "Florida Attorney General James Uthmeier is calling for a judge to block OpenAI from \"giving ChatGPT false human attributes,\" a few months after Florida sued the AI company over safety concerns. According to Uthmeier, users are lulled into a false sense of security by the AI bot, as \"ChatGPT's use of",
       "link": "https://www.theverge.com/ai-artificial-intelligence/1001527/chatgpt-florida-ban-first-person-human-attributes-kids",
@@ -315,7 +411,7 @@
       "image": "https://media.thenextweb.com/2026/09/shoppers-glass-storefront-shanghai-mall.avif"
     },
     {
-      "id": "the-verge-5",
+      "id": "the-verge-6",
       "title": "OpenAI keeps bulldozing mathematicians",
       "summary": "In a chaotic few months, OpenAI has demonstrated it can do two things with remarkable consistency: make impressive breakthroughs in mathematics, then colossally screw up announcing them. OpenAI is now trying to do better. Somehow, it has botched that too. OpenAI's latest attempt to repair fractured ",
       "link": "https://www.theverge.com/ai-artificial-intelligence/1001477/openai-math-advisory-group",
@@ -351,7 +447,7 @@
       "image": "https://media.thenextweb.com/2026/06/zhipu-ai-office.avif"
     },
     {
-      "id": "techcrunch-ai-5",
+      "id": "techcrunch-ai-8",
       "title": "Meta launches enterprise AI platform, hires MongoDB CEO to lead new initiative",
       "summary": "Meta says it will focus on bringing its full technology stack, including Muse, Meta Business Agent, Muse API, Muse Code, and more to businesses and developers.",
       "link": "https://techcrunch.com/2026/09/28/meta-launches-enterprise-ai-platform-hires-mongodb-ceo-to-lead-new-initiative/",
@@ -387,7 +483,7 @@
       "image": "https://www.bug.hr/img/ai-agenti-kao-opasni-insideri-i-prevare-u-15-minuta_FSBI2D.jpg"
     },
     {
-      "id": "tportal-1",
+      "id": "tportal-2",
       "title": "ZET je stao, a Svemir se primio posla: Napravio stranicu koja spaja vozače i putnike",
       "summary": "Štrajk ZET-a i Holdinga potaknuo je Svemira Vranka da pokrene &#039;Idemo&#039;, besplatnu internetsku stranicu koja povezuje vozače sa slobodnim mjestima u automobilu i građane kojima treba prijevoz. Vozači objavljuju svoje rute, putnici traže odgovarajuću vožnju, a detalje dogovaraju izravno putem",
       "link": "https://www.tportal.hr/tehno/clanak/zet-je-stao-a-svemir-se-primio-posla-napravio-stranicu-koja-spaja-vozace-i-putnike-20260928",
@@ -411,7 +507,7 @@
       "image": "https://magnet.bug.hr/img/sto-gledati-ovaj-tjedan-filmovi-u-kinima-i-na-streaming-platformama-289-_wI0tkV.png"
     },
     {
-      "id": "the-verge-6",
+      "id": "the-verge-7",
       "title": "Walmart won’t hike prices based on your shopping history, CEO says",
       "summary": "Walmart says it won't change product prices based on your personal information or the time of day, as reported earlier by The Wall Street Journal. In a letter to customers, Walmart CEO John Furner writes that the company's switch to digital shelf labels is meant to save store associates time, rather",
       "link": "https://www.theverge.com/tech/1001492/walmart-dynamic-pricing-digital-shelf-labels",
@@ -483,7 +579,7 @@
       "image": "https://media.thenextweb.com/2026/09/hyundai-dealership-exterior-signage.avif"
     },
     {
-      "id": "zdnet-0",
+      "id": "zdnet-1",
       "title": "Bose’s new wired earbuds aim for the same great sound and ANC – no charging needed",
       "summary": "The new wired USB-C earbuds mix old-school elements with modern audio features.",
       "link": "https://www.zdnet.com/tech/bose-new-hybrid-wired-earbuds-anc/",
@@ -531,7 +627,7 @@
       "image": "https://media.thenextweb.com/2026/09/spacex-starship-launch-tower-starbase-texas.avif"
     },
     {
-      "id": "the-verge-7",
+      "id": "the-verge-8",
       "title": "Volkswagen replaces ID.4 with all-electric Tiguan",
       "summary": "In a widely expected move, Volkswagen announced Monday that it will replace the recently retired ID.4 crossover with the upcoming ID.Tiguan. The decision is an acknowledgment by the German automaker that its more recognizable nameplates like Tiguan are likely an easier sell with consumers, especiall",
       "link": "https://www.theverge.com/transportation/1001418/volkswagen-replaces-id4-id-tiguan-ev",
@@ -543,7 +639,7 @@
       "image": null
     },
     {
-      "id": "techcrunch-ai-6",
+      "id": "techcrunch-ai-9",
       "title": "Anthropic, Gamma, and Clay share what happens when enterprises actually deploy AI at TechCrunch Disrupt 2026",
       "summary": "Anthropic, Clay, and Gamma on what it takes for an AI product to go beyond the demo at the AI Stage at TechCrunchDisrupt 2026. Register to join and get 50% off a second pass.",
       "link": "https://techcrunch.com/2026/09/28/anthropic-gamma-and-clay-share-what-happens-when-enterprises-actually-deploy-ai-at-techcrunch-disrupt-2026/",
@@ -555,7 +651,7 @@
       "image": null
     },
     {
-      "id": "tportal-2",
+      "id": "tportal-3",
       "title": "Roche razvija laboratorije za razvoj novih lijekova kojima upravlja AI",
       "summary": "Švicarski farmaceutski div Roche objavio je u ponedjeljak da planira uspostaviti laboratorije kojima upravlja umjetna inteligencija kako bi ubrzao istraživanje i razvoj novih lijekova",
       "link": "https://www.tportal.hr/tehno/clanak/roche-razvija-laboratorije-za-razvoj-novih-lijekova-kojima-upravlja-ai-20260928",
@@ -579,7 +675,7 @@
       "image": "https://media.thenextweb.com/2026/09/walmart-ceo-john-furner-portrait-blue-blazer.avif"
     },
     {
-      "id": "tportal-3",
+      "id": "tportal-4",
       "title": "Držite stalno računalo na podu? Evo zašto to nije dobra ideja",
       "summary": "Stolna računala koriste složene sustave hlađenja, a uključeni ventilatori s tla povlače nečistoće koje mogu utjecati na performanse",
       "link": "https://www.tportal.hr/tehno/clanak/drzite-stalno-racunalo-na-podu-evo-zasto-to-nije-dobra-ideja-20260928",
@@ -591,7 +687,7 @@
       "image": "https://www.tportal.hr/media/thumbnail/500x300/2802705.jpeg?cropId=0"
     },
     {
-      "id": "techcrunch-ai-7",
+      "id": "techcrunch-ai-10",
       "title": "After a deepfake voice fooled her grandfather, this founder sprang into action",
       "summary": "After her grandfather was scammed by a deepfake of his brother's voice, Tarini Padmanabhuni founded DetectifAI, a San Francisco startup building AI models small enough to run directly on smartphones and flag fake voices in real time, and it's now one of the companies competing in Startup Battlefield",
       "link": "https://techcrunch.com/2026/09/28/after-a-deepfake-voice-fooled-her-grandfather-this-founder-sprang-into-action/",
@@ -603,7 +699,7 @@
       "image": null
     },
     {
-      "id": "the-verge-8",
+      "id": "the-verge-9",
       "title": "Dreame’s step-climbing X50 Ultra mopping vacuum is hundreds off",
       "summary": "It’s been a while since we’ve seen a big price cut on a capable robot vacuum and mop hybrid that can scale over short steps and threshold to hunt messes. Dreame’s X50 Ultra is the model that my colleague Jen recommends for hard floors and carpets, and it’s down to $899.99 at Amazon for Prime [&#8230",
       "link": "https://www.theverge.com/gadgets/1001313/dreame-x50-ultra-robot-vacuum-mop-asus-rog-ally-deal-sale",
@@ -627,7 +723,7 @@
       "image": "https://media.thenextweb.com/2026/09/dario-amodei-marc-benioff-microphone-audience-dreamforce.avif"
     },
     {
-      "id": "zdnet-1",
+      "id": "zdnet-2",
       "title": "Your Bose headphones are getting a major Bluetooth upgrade – what to expect",
       "summary": "Key Bluetooth technologies and upgrades to USB-C audio are coming to the company’s flagship over-ears.",
       "link": "https://www.zdnet.com/tech/your-bose-headphones-are-getting-a-major-bluetooth-upgrade-what-to-expect/",
@@ -663,7 +759,7 @@
       "image": "https://media.thenextweb.com/2026/09/Mike-Pappas-and-Carter-Huffman-of-Modulate.avif"
     },
     {
-      "id": "techcrunch-ai-8",
+      "id": "techcrunch-ai-11",
       "title": "Next 5 VCs judging Startup Battlefield 200 contenders at TechCrunch Disrupt 2026",
       "summary": "Thousands of applications. Multiple rounds of review. Hundreds of hours spent evaluating startups from around the world. Now comes the part everyone has been waiting for. Register for TechCrunch Disrupt 2026 today.",
       "link": "https://techcrunch.com/2026/09/28/next-five-vcs-judging-startup-battlefield-200-contenders-at-techcrunch-disrupt-2026/",
@@ -699,7 +795,7 @@
       "image": null
     },
     {
-      "id": "techcrunch-ai-9",
+      "id": "techcrunch-ai-12",
       "title": "Modulate raises $25M for its voice models and analysis suite",
       "summary": "Modulate deploys its models to detect deepfake, fraud and scam",
       "link": "https://techcrunch.com/2026/09/28/modulate-raises-25m-for-its-voice-models-and-analysis-suite/",
@@ -711,25 +807,25 @@
       "image": null
     },
     {
-      "id": "techcrunch-ai-10",
-      "title": "Insurtech Outmarket raises $34.5M just months after prior round",
-      "summary": "The startup uses AI to automate tedious paperwork for insurance agencies and brokers.",
-      "link": "https://techcrunch.com/2026/09/28/insuretech-outmarket-raises-34-5m-just-months-after-prior-round/",
-      "published": "2026-09-28T14:00:00.000Z",
-      "source": "TechCrunch AI",
-      "category": "ai",
-      "xml_category": "ai",
-      "tags": [],
-      "image": null
-    },
-    {
-      "id": "techcrunch-ai-11",
+      "id": "techcrunch-ai-13",
       "title": "Your final chance to grab your exhibit table at TechCrunch Disrupt 2026 is October 2",
       "summary": "The last day to book your Disrupt 2026 exhibit table is this Friday, October 2 at 11:59 p.m. PT. Secure your exhibit table and get your startup in front of 10,000+ founders, investors, and tech leaders at San Francisco's Moscone West on October 13-15.",
       "link": "https://techcrunch.com/2026/09/28/disrupt-2026-exhibitor-program-extended-until-oct-2/",
       "published": "2026-09-28T14:00:00.000Z",
       "source": "TechCrunch AI",
       "category": "tech",
+      "xml_category": "ai",
+      "tags": [],
+      "image": null
+    },
+    {
+      "id": "techcrunch-ai-14",
+      "title": "Insurtech Outmarket raises $34.5M just months after prior round",
+      "summary": "The startup uses AI to automate tedious paperwork for insurance agencies and brokers.",
+      "link": "https://techcrunch.com/2026/09/28/insuretech-outmarket-raises-34-5m-just-months-after-prior-round/",
+      "published": "2026-09-28T14:00:00.000Z",
+      "source": "TechCrunch AI",
+      "category": "ai",
       "xml_category": "ai",
       "tags": [],
       "image": null
@@ -759,9 +855,9 @@
       "image": "https://media.thenextweb.com/2026/09/elon-musk-onstage-microphone-tesla-fremont.avif"
     },
     {
-      "id": "techcrunch-ai-12",
+      "id": "techcrunch-ai-15",
       "title": "Viral AI agent Instinct raises $1B Series C at a $10B valuation",
-      "summary": "Instinct has raised a $1 billion Series C, saying 'we're just getting started.' The company is now valued at $10 billion.",
+      "summary": "\"This funding helps us bring Instinct to more people and continue building the future of personal AI. It’s an exciting, creative time, and we're just getting started,\" founder Noah Shinn said in a statement.",
       "link": "https://techcrunch.com/2026/09/28/viral-ai-agent-instinct-raises-1b-series-c-at-a-10b-valuation/",
       "published": "2026-09-28T13:38:48.000Z",
       "source": "TechCrunch AI",
@@ -807,7 +903,7 @@
       "image": "https://media.thenextweb.com/2026/09/monzo-business-card-phone-app-table.avif"
     },
     {
-      "id": "tportal-4",
+      "id": "tportal-5",
       "title": "Od perike do avionskih karata, djeci s malignim bolestima pomažu u svemu. Sada ih uče i tome da je matematika zabavna",
       "summary": "Dijagnoza ne zaustavlja djetinjstvo i znatiželju, a STEM je svuda oko nas. Mogli bismo tako sažeti glavne poruke europskog projekta &#039;STEM u zdravstvu s Krijesnicom&#039;, a koji Udruga Krijesnica provodi do 2028. godine. Obilazeći onkološke odjele, pokazuju djeci da je znanost zabavna, a njima ",
       "link": "https://www.tportal.hr/tehno/clanak/od-perike-do-avionskih-karata-djeci-s-malignim-bolestima-pomazu-u-svemu-sada-ih-uce-i-tome-da-je-matematika-zabavna-specijal-107-foto-20260928",
@@ -999,7 +1095,7 @@
       "image": "https://media.thenextweb.com/2026/09/smartphone-screen-grid-gemini-app-icons.avif"
     },
     {
-      "id": "tportal-5",
+      "id": "tportal-6",
       "title": "Otpor građana zaustavio projekt podatkovnog centra vrijedan 842 milijuna dolara",
       "summary": "Australska kompanija Goodman Group objavila je u ponedjeljak da zbog otpora građana odustaje od gradnje podatkovnog centra vrijednog 1,2 milijarde australskih dolara (842 milijuna američkih dolara) u predgrađu Sydneyja",
       "link": "https://www.tportal.hr/tehno/clanak/otpor-gradana-zaustavio-projekt-podatkovnog-centra-vrijedan-842-milijuna-dolara-20260928",
@@ -1059,7 +1155,7 @@
       "image": "https://www.bug.hr/img/tvz-u-novskoj-otvara-preddiplomski-studij-za-izradu-videoigara_hihyM7.jpg"
     },
     {
-      "id": "tportal-6",
+      "id": "tportal-7",
       "title": "Novska postaje studentski grad: Gradi se fakultet posvećen izradi i razvoju videoigara",
       "summary": "Tehničko veleučilište u Zagrebu (TVZ) i Centar gaming industrije, objavili su u ponedjeljak početak suradnje i uspostavu studijskog programa posvećenog izradi i razvoju videoigara u Novskoj, a fakultet koji se još uvijek gradi u prvoj nastavnoj godini 2028/29 trebao bi primiti oko 50 studenata",
       "link": "https://www.tportal.hr/tehno/clanak/novska-postaje-studentski-grad-gradi-se-fakultet-posvecen-izradi-i-razvoju-videoigara-20260928",
@@ -1071,7 +1167,7 @@
       "image": "https://www.tportal.hr/media/thumbnail/500x300/2802676.jpeg?cropId=0"
     },
     {
-      "id": "tportal-7",
+      "id": "tportal-8",
       "title": "Microsoftov CEO o otkazima u Xboxu: Sviđa mu se što rade",
       "summary": "Satya Nadella je pohvalio poslovne poteze unutar Microsoftovog odjela za gejming pod vodstvom Ashe Sharme",
       "link": "https://www.tportal.hr/tehno/clanak/microsoftov-ceo-o-otkazima-u-xboxu-svida-mu-se-sto-rade-20260928",
@@ -1143,7 +1239,7 @@
       "image": "https://media.thenextweb.com/2026/09/hand-holding-smartphone-ai-apps-folder.avif"
     },
     {
-      "id": "tportal-8",
+      "id": "tportal-9",
       "title": "Sunce i Mjesec mogu potaknuti potrese? Znanstvenici objasnili o čemu je riječ",
       "summary": "Sunce i Mjesec neprestano vrlo slabo &#039;povlače&#039; Zemljinu koru. Nova studija sugerira da te sitne plimne sile, pod određenim uvjetima, mogu potaknuti spora seizmička gibanja na rasjedima – kroz svojevrsnu rezonanciju",
       "link": "https://www.tportal.hr/tehno/clanak/sunce-i-mjesec-mogu-potaknuti-potrese-znanstvenici-objasnili-o-cemu-je-rijec-20260928",
@@ -1155,7 +1251,7 @@
       "image": "https://www.tportal.hr/media/thumbnail/500x300/2802549.jpeg?cropId=0"
     },
     {
-      "id": "tportal-9",
+      "id": "tportal-10",
       "title": "Može li Starship konačno u orbitu? Pred SpaceX-om ključan test dug gotovo 10 sati",
       "summary": "Pred SpaceX-om je važan dan. Po prvi će put pokušati poslati svoj Starship u orbitu i postaviti prvu seriju nove generacije Starlink satelita",
       "link": "https://www.tportal.hr/tehno/clanak/moze-li-starship-konacno-u-orbitu-pred-spacex-om-kljucan-test-dug-gotovo-10-sati-20260928",
@@ -1179,7 +1275,7 @@
       "image": "https://media.thenextweb.com/2026/05/spacex-cursor-acquisition-ipo-60-billion-ai-coding.avif"
     },
     {
-      "id": "tportal-10",
+      "id": "tportal-11",
       "title": "Saturnov Enceladus vjerojatno krije mikroorganizme: Znanstvenici vjeruju da ih mogu pronaći",
       "summary": "Saturnov šesti mjesec karakterističan je po ledenoj površini, tekućem oceanu i moćnim izbojima vode na južnom polu",
       "link": "https://www.tportal.hr/tehno/clanak/saturnov-enceladus-vjerojatno-krije-mikroorganizme-znanstvenici-vjeruju-da-ih-mogu-pronaci-20260928",
@@ -1227,7 +1323,7 @@
       "image": "https://media.thenextweb.com/2026/09/openai-logo-smartphone-laptop-zac-wolff-unsplash.avif"
     },
     {
-      "id": "tportal-11",
+      "id": "tportal-12",
       "title": "REDMI Note 17 serija donosi dodatne pogodnosti za dugotrajnije i bezbrižnije korištenje",
       "summary": "Jedna besplatna zamjena zaslona unutar 24 mjeseca od kupnje i jedna besplatna zamjena zaslona unutar 36 mjeseci od kupnje",
       "link": "https://www.tportal.hr/tehno/clanak/redmi-note-17-serija-donosi-dodatne-pogodnosti-za-dugotrajnije-i-bezbriznije-koristenje-20260928",
@@ -1263,7 +1359,7 @@
       "image": "https://www.bug.hr/img/78-godisnjakinja-iz-skotske-drzi-guinnessov-rekord-kao-najstariji-streamer__4kWns.jpg"
     },
     {
-      "id": "tportal-12",
+      "id": "tportal-13",
       "title": "Bill Gates tvrdi da može urazumiti Trumpa: &#039;Razvoj AI-a treba zakonsku regulaciju&#039;",
       "summary": "Bivši direktor Microsofta nedavno je promijenio svoje uglavnom pozitivne stavove o razvoju umjetne inteligencije. Iako poriče najekstremnije predicije oko &#039;AI apokalipse&#039;, uvjeren je da ona može postati vrlo opasna u rukama pogrešnih ljudi",
       "link": "https://www.tportal.hr/tehno/clanak/bill-gates-tvrdi-da-moze-urazumiti-trumpa-razvoj-ai-ja-treba-zakonsku-regulaciju-20260928",
@@ -1357,54 +1453,6 @@
       "xml_category": "maloprodajna ponuda",
       "tags": [],
       "image": "https://www.bug.hr/img/gloriousov-lagani-igraci-mis-sada-mozete-kupiti-za-samo-25-eura_f8Z4tH.png"
-    },
-    {
-      "id": "bug.hr-19",
-      "title": "Otkriven egzoplanet koji ne kruži oko svoje zvijezde kako bi trebao",
-      "summary": "Osim što ima ekstremno velik nagib orbite, egzoplanet GJ 3090 b \"vozi\" u suprotnom smjeru od očekivanog.",
-      "link": "https://mreza.bug.hr/istrazivanja/otkriven-egzoplanet-koji-ne-kruzi-oko-svoje-zvijezde-kako-bi-trebao-63080",
-      "published": "2026-09-27T23:05:00.000Z",
-      "source": "Bug.hr",
-      "category": "general",
-      "xml_category": "istraživanja",
-      "tags": [],
-      "image": "https://mreza.bug.hr/img/otkriven-egzoplanet-koji-ne-kruzi-oko-svoje-zvijezde-kako-bi-trebao_0_J_7n.jpg"
-    },
-    {
-      "id": "the-verge-9",
-      "title": "Out of the Park Baseball lets me enjoy baseball even when the Mets suck",
-      "summary": "If you were to ask me what game or game series I've sunk the most time into, the answer would be easy: Out of the Park Baseball (OOTP). I have spent roughly 2,300 hours, according to Steam, playing various editions of the game. OOTP isn't like MLB The Show or Super Mega Baseball. It's not [&#8230;]",
-      "link": "https://www.theverge.com/games/1001206/out-of-the-park-baseball-cozy-sim-video-game-review",
-      "published": "2026-09-27T21:59:57.000Z",
-      "source": "The Verge",
-      "category": "general",
-      "xml_category": "[object object]",
-      "tags": [],
-      "image": null
-    },
-    {
-      "id": "the-verge-9",
-      "title": "Engram is a sampler that turns broken AI hallucinations into music",
-      "summary": "Music startup Thoughtful Things has just launched the Kickstarter campaign for its first instrument, Engram. It's a sampler and groovebox that uses AI to mangle incoming audio and even hallucinate completely new sounds. This isn't Suno in a box, though. This isn't a \"push-button, get-song\" device, a",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1001193/engram-sampler-ai-hallucinations-music",
-      "published": "2026-09-27T20:46:36.000Z",
-      "source": "The Verge",
-      "category": "ai",
-      "xml_category": "[object object]",
-      "tags": [],
-      "image": null
-    },
-    {
-      "id": "techcrunch-ai-13",
-      "title": "Anthropic’s CEO is about to have dinner with President Trump",
-      "summary": "This will be the first one-on-one meeting between Dario Amodei and Donald Trump",
-      "link": "https://techcrunch.com/2026/09/27/anthropics-ceo-is-about-to-have-dinner-with-president-trump/",
-      "published": "2026-09-27T20:34:28.000Z",
-      "source": "TechCrunch AI",
-      "category": "ai",
-      "xml_category": "ai",
-      "tags": [],
-      "image": null
     }
   ]
 }
