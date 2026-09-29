@@ -1,7 +1,7 @@
 {
   "version": 2,
   "date": "2026-09-29",
-  "generated_at": "2026-09-29T05:03:05.313Z",
+  "generated_at": "2026-09-29T11:02:59.413Z",
   "date_hr": "Utorak, 29. rujna 2026.",
   "weather": {
     "icon": "☀️",
@@ -11,6 +11,10 @@
   "fuel": {
     "current_date": "29.09.2026",
     "eurodiesel": [
+      {
+        "company": "Adria Oil",
+        "price": 1.86
+      },
       {
         "company": "Coral Croatia",
         "price": 1.86
@@ -30,10 +34,6 @@
       {
         "company": "Tifon",
         "price": 1.86
-      },
-      {
-        "company": "Adria Oil",
-        "price": 1.91
       }
     ],
     "premium_eurodiesel": [
@@ -63,10 +63,8 @@
     "upcoming_premium": null
   },
   "market": {
-    "updated_at": "2026-09-29T05:03:05.313Z",
-    "btc_usd": 83193,
-    "btc_eur": 73232,
-    "btc_change_24h": -0.36,
+    "updated_at": "2026-09-29T11:02:59.413Z",
+    "btc_error": "HTTP 403",
     "usd_eur": 0.8792
   },
   "ai_news": [
