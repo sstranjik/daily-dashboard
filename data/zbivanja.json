@@ -1,23 +1,15 @@
 {
-  "generated_at": "2026-09-29T00:01:14.588Z",
+  "generated_at": "2026-09-29T05:01:15.782Z",
   "stats": {
-    "Mochvara": {
-      "ok": true,
-      "count": 0
-    },
-    "Pogon": {
-      "ok": true,
-      "count": 0
-    },
     "muzika.hr": {
       "ok": true,
       "count": 25
     },
-    "Lisinski": {
+    "Mochvara": {
       "ok": true,
-      "count": 0
+      "count": 16
     },
-    "ZeKaeM": {
+    "Lisinski": {
       "ok": true,
       "count": 0
     },
@@ -25,25 +17,33 @@
       "ok": true,
       "count": 38
     },
-    "Kerempuh": {
-      "ok": true,
-      "count": 0
-    },
     "Tvornica": {
       "ok": true,
       "count": 3
     },
+    "ZeKaeM": {
+      "ok": true,
+      "count": 1
+    },
     "Komedija": {
+      "ok": true,
+      "count": 0
+    },
+    "Pogon": {
+      "ok": true,
+      "count": 0
+    },
+    "HNK Zagreb": {
+      "ok": true,
+      "count": 94
+    },
+    "Kerempuh": {
       "ok": true,
       "count": 0
     },
     "Trešnja": {
       "ok": true,
       "count": 0
-    },
-    "HNK Zagreb": {
-      "ok": true,
-      "count": 95
     }
   },
   "concerts": [
@@ -1216,6 +1216,21 @@
       "source": "muzika.hr",
       "is_new": false,
       "first_seen": "2026-09-25T10:42:34.223Z"
+    },
+    {
+      "id": "57af76f579",
+      "title": "Močvarni dnevni boravak: Meridin 10. rođendan",
+      "venue": "Mochvara",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-10-03T11:00:00",
+      "date_display": "sub, 03. 10. 2026.",
+      "time": "11:00",
+      "link": "https://mochvara.hr/event-detail/6ab506dff11bc39a84d06ecf/",
+      "source": "Mochvara",
+      "is_new": true,
+      "first_seen": "2026-09-29T05:01:15.782Z"
     },
     {
       "id": "e3350b5615",
@@ -4222,5 +4237,5 @@
       "first_seen": "2026-09-27T22:37:54.746Z"
     }
   ],
-  "new_count": 4
+  "new_count": 5
 }
