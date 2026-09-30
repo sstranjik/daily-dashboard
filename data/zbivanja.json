@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-29T21:35:20.734Z",
+  "generated_at": "2026-09-30T05:01:18.621Z",
   "stats": {
     "muzika.hr": {
       "ok": true,
@@ -9,35 +9,35 @@
       "ok": true,
       "count": 0
     },
-    "Mochvara": {
-      "ok": true,
-      "count": 16
-    },
     "Gavella": {
       "ok": true,
       "count": 38
+    },
+    "Mochvara": {
+      "ok": true,
+      "count": 15
     },
     "Tvornica": {
       "ok": true,
       "count": 2
     },
-    "Komedija": {
-      "ok": true,
-      "count": 0
-    },
     "ZeKaeM": {
       "ok": true,
       "count": 1
+    },
+    "Komedija": {
+      "ok": true,
+      "count": 0
     },
     "HNK Zagreb": {
       "ok": true,
       "count": 94
     },
-    "Pogon": {
+    "Kerempuh": {
       "ok": true,
       "count": 0
     },
-    "Kerempuh": {
+    "Pogon": {
       "ok": true,
       "count": 0
     },
@@ -1201,6 +1201,21 @@
       "source": "muzika.hr",
       "is_new": false,
       "first_seen": "2026-09-28T16:01:25.267Z"
+    },
+    {
+      "id": "7320b34d7c",
+      "title": "Dirty Dancing – 80’s party",
+      "venue": "Mochvara",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-10-03T22:00:00",
+      "date_display": "sub, 03. 10. 2026.",
+      "time": "22:00",
+      "link": "https://mochvara.hr/event-detail/6ab8165a2e4cd258688dae26/",
+      "source": "Mochvara",
+      "is_new": true,
+      "first_seen": "2026-09-30T05:01:18.621Z"
     },
     {
       "id": "d4b5dbf783",
@@ -4162,5 +4177,5 @@
       "first_seen": "2026-09-27T22:37:54.746Z"
     }
   ],
-  "new_count": 3
+  "new_count": 4
 }
