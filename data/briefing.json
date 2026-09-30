@@ -1,15 +1,15 @@
 {
   "version": 2,
-  "date": "2026-09-29",
-  "generated_at": "2026-09-29T11:02:59.413Z",
-  "date_hr": "Utorak, 29. rujna 2026.",
+  "date": "2026-09-30",
+  "generated_at": "2026-09-30T05:02:28.632Z",
+  "date_hr": "Srijeda, 30. rujna 2026.",
   "weather": {
-    "icon": "☀️",
-    "summary": "12–24°C, vedro",
+    "icon": "🌤️",
+    "summary": "11–24°C, pretežno vedro",
     "alerts": []
   },
   "fuel": {
-    "current_date": "29.09.2026",
+    "current_date": "30.09.2026",
     "eurodiesel": [
       {
         "company": "Adria Oil",
@@ -63,44 +63,46 @@
     "upcoming_premium": null
   },
   "market": {
-    "updated_at": "2026-09-29T11:02:59.413Z",
-    "btc_error": "HTTP 403",
-    "usd_eur": 0.8792
+    "updated_at": "2026-09-30T05:02:28.632Z",
+    "btc_usd": 83199,
+    "btc_eur": 73421,
+    "btc_change_24h": -0.03,
+    "usd_eur": 0.8815
   },
   "ai_news": [
     {
-      "title": "Anthropic releases Claude Sonnet 5.5 with the cyber limits it reserved for its best models",
-      "link": "https://thenextweb.com/news/sonnet-5-5-cyber-distillation",
-      "source": "The Next Web"
+      "title": "OpenAI&#8217;s latest features take direct aim at the app store model",
+      "link": "https://techcrunch.com/2026/09/29/openais-latest-features-take-direct-aim-at-the-app-store-model/",
+      "source": "TechCrunch AI"
     },
     {
-      "title": "OpenAI says its rogue agents posted 53 ChatGPT users’ images online",
-      "link": "https://thenextweb.com/news/openai-rogue-agents-53-user-images-government-sites",
-      "source": "The Next Web"
+      "title": "Is ChatGPT your new Google Workspace alternative? Meet Space, Pages, and slides",
+      "link": "https://www.zdnet.com/innovation/chatgpt-space-pages-slides-google-workspace-alternative/",
+      "source": "ZDNet"
     },
     {
-      "title": "Hinton, Bengio and AI lab scientists warn of an intelligence explosion",
-      "link": "https://thenextweb.com/news/intelligence-explosion-paper-hinton-bengio-pachocki-clark",
-      "source": "The Next Web"
+      "title": "Is ChatGPT your new Google Workspace alternative? Meet Space, Pages, and slides",
+      "link": "https://www.zdnet.com/innovation/openai-devday-enterprise-office-suite-pages-space/",
+      "source": "ZDNet"
     },
     {
-      "title": "Anthropic ends discounts once tokens run out, The Information reports",
-      "link": "https://thenextweb.com/news/anthropic-openai-enterprise-discounts-tokens-the-information",
-      "source": "The Next Web"
+      "title": "The internet is convinced Elon Musk&#8217;s xAI trolled OpenAI&#8217;s &#8216;Dots&#8217; launch",
+      "link": "https://techcrunch.com/2026/09/29/the-internet-is-convinced-elon-musks-xai-trolled-openais-dots-launch/",
+      "source": "TechCrunch AI"
     },
     {
-      "title": "OpenAI’s AI agents need to catch up",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1001590/openai-devday-2026-aeon-ai-agent",
-      "source": "The Verge"
+      "title": "Šef Mistrala upozorava Europu: &#039;Ili ćemo imati vlastiti ili ćemo ovisiti o strancima&#039;",
+      "link": "https://www.tportal.hr/tehno/clanak/sef-mistrala-upozorava-europu-ili-cemo-imati-vlastiti-ili-cemo-ovisiti-o-strancima-20260929",
+      "source": "Tportal"
     }
   ],
   "micro_tips": {
     "vscode": {
-      "tip": "Rename Symbol svuda u projektu (refactoring)",
-      "keys": "F2"
+      "tip": "Quick Fix i Code Actions na trenutnoj poziciji",
+      "keys": "Ctrl+."
     },
-    "sql": "Covering index: uključi sve kolone iz WHERE + SELECT u index pa nema pristupa tablici",
-    "oracle": "/*+ NO_MERGE(v) */ sprječava merging inline viewa s parent queryjem",
-    "regex": "(?=pattern) lookahead: \"iza ovog mora slijediti X\" bez konzumiranja znakova"
+    "sql": "Window funkcije (ROW_NUMBER, LAG, LEAD) umjesto self-join za redosljed i razlike",
+    "oracle": "/*+ RESULT_CACHE */ cache-ira rezultat funkcije u SGA za ponovljene pozive",
+    "regex": ".+? lazy quantifier: stane na prvom mogućem podudaranju, ne zadnjem"
   }
 }
