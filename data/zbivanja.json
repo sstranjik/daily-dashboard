@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-10-01T09:01:20.039Z",
+  "generated_at": "2026-10-01T10:01:19.085Z",
   "stats": {
     "muzika.hr": {
       "ok": true,
       "count": 25
     },
-    "Lisinski": {
-      "ok": true,
-      "count": 0
-    },
     "Mochvara": {
       "ok": true,
       "count": 15
+    },
+    "Lisinski": {
+      "ok": true,
+      "count": 0
     },
     "Tvornica": {
       "ok": true,
@@ -33,11 +33,11 @@
       "ok": true,
       "count": 94
     },
-    "Kerempuh": {
+    "Pogon": {
       "ok": true,
       "count": 0
     },
-    "Pogon": {
+    "Kerempuh": {
       "ok": true,
       "count": 0
     },
@@ -47,21 +47,6 @@
     }
   },
   "concerts": [
-    {
-      "id": "bc5b766ed6",
-      "title": "MEĐUNARODNI FORUM O RAZVOJU PUBLIKE ZAGREBAČKI OPERNI FESTIVAL 2026.",
-      "venue": "HNK Zagreb",
-      "city": "Zagreb",
-      "country": "HR",
-      "category": "concert",
-      "date_iso": "2026-09-16T10:00:00",
-      "date_display": "sri, 16. 09. 2026.",
-      "time": "10:00",
-      "link": "https://hnk.hr/hr/opera/predstave/me%C4%91unarodni-forum-o-razvoju-publike/#16.09.10.00",
-      "source": "HNK Zagreb",
-      "is_new": false,
-      "first_seen": "2026-07-01T08:01:24.271Z"
-    },
     {
       "id": "024c67311c",
       "title": "Opera 65+ — program članova Opernog studija i stipendista u domovima za starije ZAGREBAČKI OPERNI FESTIVAL 2026. - Dom Medveščak",
@@ -3361,7 +3346,7 @@
       "time": "19:30",
       "link": "https://hnk.hr/hr/drama/predstave/budi-uvijek-kao-zmaj/#16.10.19.30",
       "source": "HNK Zagreb",
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-10-01T09:01:20.039Z"
     },
     {
@@ -3421,7 +3406,7 @@
       "time": "16:00",
       "link": "https://hnk.hr/hr/drama/predstave/budi-uvijek-kao-zmaj/#17.10.16.00",
       "source": "HNK Zagreb",
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-10-01T09:01:20.039Z"
     },
     {
@@ -4162,5 +4147,5 @@
       "first_seen": "2026-09-27T22:37:54.746Z"
     }
   ],
-  "new_count": 5
+  "new_count": 3
 }
