@@ -1,15 +1,15 @@
 {
   "version": 2,
-  "date": "2026-09-30",
-  "generated_at": "2026-09-30T10:52:44.811Z",
-  "date_hr": "Srijeda, 30. rujna 2026.",
+  "date": "2026-10-01",
+  "generated_at": "2026-10-01T05:02:30.153Z",
+  "date_hr": "Četvrtak, 1. listopada 2026.",
   "weather": {
     "icon": "🌤️",
-    "summary": "11–24°C, pretežno vedro",
+    "summary": "11–23°C, pretežno vedro",
     "alerts": []
   },
   "fuel": {
-    "current_date": "30.09.2026",
+    "current_date": "01.10.2026",
     "eurodiesel": [
       {
         "company": "Adria Oil",
@@ -63,46 +63,46 @@
     "upcoming_premium": null
   },
   "market": {
-    "updated_at": "2026-09-30T10:52:44.811Z",
-    "btc_usd": 83884,
-    "btc_eur": 73870,
-    "btc_change_24h": -0.16,
-    "usd_eur": 0.8815
+    "updated_at": "2026-10-01T05:02:30.153Z",
+    "btc_usd": 84023,
+    "btc_eur": 74233,
+    "btc_change_24h": 0.88,
+    "usd_eur": 0.8818
   },
   "ai_news": [
     {
-      "title": "OpenAI&#8217;s latest features take direct aim at the app store model",
-      "link": "https://techcrunch.com/2026/09/29/openais-latest-features-take-direct-aim-at-the-app-store-model/",
+      "title": "OpenAI is sued over the rogue agents that hacked Hugging Face",
+      "link": "https://thenextweb.com/news/openai-lawsuit-lasst-hugging-face-hack",
+      "source": "The Next Web"
+    },
+    {
+      "title": "FTC opens probe into OpenAI, Anthropic and other AI labs",
+      "link": "https://thenextweb.com/news/ftc-probe-openai-anthropic-ai-labs-metr",
+      "source": "The Next Web"
+    },
+    {
+      "title": "Jim Lanzone on Yahoo’s plan to fix AI search with more links to publishers",
+      "link": "https://thenextweb.com/news/jim-lanzone-yahoo-ai-agents-email-tnw-podcast",
+      "source": "The Next Web"
+    },
+    {
+      "title": "Google releases Gemini 4 Argon, called its most powerful model yet",
+      "link": "https://techcrunch.com/2026/09/30/google-releases-gemini-4-argon-called-its-most-powerful-model-yet/",
       "source": "TechCrunch AI"
     },
     {
-      "title": "Is ChatGPT your new Google Workspace alternative? Meet Space, Pages, and slides",
-      "link": "https://www.zdnet.com/innovation/chatgpt-space-pages-slides-google-workspace-alternative/",
-      "source": "ZDNet"
-    },
-    {
-      "title": "Is ChatGPT your new Google Workspace alternative? Meet Space, Pages, and slides",
-      "link": "https://www.zdnet.com/innovation/openai-devday-enterprise-office-suite-pages-space/",
-      "source": "ZDNet"
-    },
-    {
-      "title": "The internet is convinced Elon Musk&#8217;s xAI trolled OpenAI&#8217;s &#8216;Dots&#8217; launch",
-      "link": "https://techcrunch.com/2026/09/29/the-internet-is-convinced-elon-musks-xai-trolled-openais-dots-launch/",
-      "source": "TechCrunch AI"
-    },
-    {
-      "title": "Šef Mistrala upozorava Europu: &#039;Ili ćemo imati vlastiti ili ćemo ovisiti o strancima&#039;",
-      "link": "https://www.tportal.hr/tehno/clanak/sef-mistrala-upozorava-europu-ili-cemo-imati-vlastiti-ili-cemo-ovisiti-o-strancima-20260929",
+      "title": "Google predstavio novi AI model s naglaskom na kibernetičku obranu: Prvo ide u ruke stručnjaka",
+      "link": "https://www.tportal.hr/tehno/clanak/google-predstavio-novi-ai-model-s-naglaskom-na-kiberneticku-obranu-prvo-ide-u-ruke-strucnjaka-20260930",
       "source": "Tportal"
     }
   ],
   "micro_tips": {
     "vscode": {
-      "tip": "Quick Fix i Code Actions na trenutnoj poziciji",
-      "keys": "Ctrl+."
+      "tip": "Toggle integrirani terminal",
+      "keys": "Ctrl+`"
     },
-    "sql": "Window funkcije (ROW_NUMBER, LAG, LEAD) umjesto self-join za redosljed i razlike",
-    "oracle": "/*+ RESULT_CACHE */ cache-ira rezultat funkcije u SGA za ponovljene pozive",
-    "regex": ".+? lazy quantifier: stane na prvom mogućem podudaranju, ne zadnjem"
+    "sql": "EXPLAIN ANALYZE prikazuje stvarne vs procijenjene redove — ključno za tuning",
+    "oracle": "CONNECT BY LEVEL <= n generira broj redova bez pomoćne tablice",
+    "regex": "[^\\n]* svaki znak osim newline — dohvati cijelu liniju bez dotall flaga"
   }
 }
