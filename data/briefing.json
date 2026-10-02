@@ -1,15 +1,15 @@
 {
   "version": 2,
-  "date": "2026-10-01",
-  "generated_at": "2026-10-01T11:18:58.630Z",
-  "date_hr": "Četvrtak, 1. listopada 2026.",
+  "date": "2026-10-02",
+  "generated_at": "2026-10-02T05:02:42.214Z",
+  "date_hr": "Petak, 2. listopada 2026.",
   "weather": {
-    "icon": "🌤️",
-    "summary": "11–23°C, pretežno vedro",
+    "icon": "☁️",
+    "summary": "11–23°C, oblačno",
     "alerts": []
   },
   "fuel": {
-    "current_date": "01.10.2026",
+    "current_date": "02.10.2026",
     "eurodiesel": [
       {
         "company": "Adria Oil",
@@ -51,7 +51,7 @@
       },
       {
         "company": "Petrol",
-        "price": 2.16
+        "price": 2.21
       },
       {
         "company": "Coral Croatia",
@@ -63,46 +63,46 @@
     "upcoming_premium": null
   },
   "market": {
-    "updated_at": "2026-10-01T11:18:58.630Z",
-    "btc_usd": 83824,
-    "btc_eur": 74251,
-    "btc_change_24h": 0.06,
-    "usd_eur": 0.8818
+    "updated_at": "2026-10-02T05:02:42.214Z",
+    "btc_usd": 86627,
+    "btc_eur": 76983,
+    "btc_change_24h": 3.12,
+    "usd_eur": 0.8873
   },
   "ai_news": [
     {
-      "title": "OpenAI is sued over the rogue agents that hacked Hugging Face",
-      "link": "https://thenextweb.com/news/openai-lawsuit-lasst-hugging-face-hack",
+      "title": "Anthropic says China’s GLM-5.3 nearly matches Mythos at cyber exploits",
+      "link": "https://thenextweb.com/news/glm-5-3-cyber-exploits-mythos-anthropic-safeguards",
       "source": "The Next Web"
     },
     {
-      "title": "FTC opens probe into OpenAI, Anthropic and other AI labs",
-      "link": "https://thenextweb.com/news/ftc-probe-openai-anthropic-ai-labs-metr",
-      "source": "The Next Web"
+      "title": "ChatGPT sada omogućuje virtualno isprobavanje odjeće",
+      "link": "https://www.bug.hr/tehnologije/chatgpt-sada-omogucuje-virtualno-isprobavanje-odjece-63273",
+      "source": "Bug.hr"
     },
     {
-      "title": "Jim Lanzone on Yahoo’s plan to fix AI search with more links to publishers",
-      "link": "https://thenextweb.com/news/jim-lanzone-yahoo-ai-agents-email-tnw-podcast",
-      "source": "The Next Web"
-    },
-    {
-      "title": "AI agents made failed hacking attempts on Canada’s national archive",
-      "link": "https://thenextweb.com/news/ai-agents-made-failed-hacking-attempts-on-canadas-national-archive",
-      "source": "The Next Web"
-    },
-    {
-      "title": "Google releases Gemini 4 Argon, called its most powerful model yet",
-      "link": "https://techcrunch.com/2026/09/30/google-releases-gemini-4-argon-called-its-most-powerful-model-yet/",
+      "title": "ChatGPT can now virtually try on clothes for you",
+      "link": "https://techcrunch.com/2026/10/01/chatgpt-can-now-virtually-try-on-clothes-for-you/",
       "source": "TechCrunch AI"
+    },
+    {
+      "title": "Trump tells TIME the US might take stakes in OpenAI and Anthropic",
+      "link": "https://thenextweb.com/news/trump-time-interview-stake-openai-anthropic",
+      "source": "The Next Web"
+    },
+    {
+      "title": "OpenAI’s new agent is a shot at Meta — but can it compete with free?",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1003399/meta-openai-ai-agents-muse-dots-battle",
+      "source": "The Verge"
     }
   ],
   "micro_tips": {
     "vscode": {
-      "tip": "Toggle integrirani terminal",
-      "keys": "Ctrl+`"
+      "tip": "Selektiraj sva pojavljivanja trenutne riječi",
+      "keys": "Ctrl+Shift+L"
     },
-    "sql": "EXPLAIN ANALYZE prikazuje stvarne vs procijenjene redove — ključno za tuning",
-    "oracle": "CONNECT BY LEVEL <= n generira broj redova bez pomoćne tablice",
-    "regex": "[^\\n]* svaki znak osim newline — dohvati cijelu liniju bez dotall flaga"
+    "sql": "Partial index s WHERE klauzulom smanjuje veličinu i ubrzava specifična filtriranja",
+    "oracle": "LISTAGG(col, ',') WITHIN GROUP (ORDER BY col) konkatenira u jedan string",
+    "regex": "(?<ime>\\d{4}) named group — referenciraj s \\k<ime> ili $<ime> u replace"
   }
 }
