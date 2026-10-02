@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-10-02T10:50:29.523Z",
+  "generated_at": "2026-10-02T11:01:16.868Z",
   "stats": {
     "muzika.hr": {
       "ok": true,
       "count": 25
     },
-    "Mochvara": {
-      "ok": true,
-      "count": 15
-    },
     "Lisinski": {
       "ok": true,
       "count": 0
+    },
+    "Mochvara": {
+      "ok": true,
+      "count": 15
     },
     "Tvornica": {
       "ok": true,
@@ -29,13 +29,13 @@
       "ok": true,
       "count": 0
     },
-    "HNK Zagreb": {
-      "ok": true,
-      "count": 94
-    },
     "Pogon": {
       "ok": true,
       "count": 0
+    },
+    "HNK Zagreb": {
+      "ok": true,
+      "count": 94
     },
     "Kerempuh": {
       "ok": true,
@@ -47,21 +47,6 @@
     }
   },
   "concerts": [
-    {
-      "id": "d504673d37",
-      "title": "Predstavljanje knjige Siniše Vukovića Operna ogrlica Jakova Gotovca ZAGREBAČKI OPERNI FESTIVAL 2026.",
-      "venue": "HNK Zagreb",
-      "city": "Zagreb",
-      "country": "HR",
-      "category": "concert",
-      "date_iso": "2026-09-17T11:00:00",
-      "date_display": "čet, 17. 09. 2026.",
-      "time": "11:00",
-      "link": "https://hnk.hr/hr/opera/predstave/operna-ogrlica-jakova-gotovca/#17.09.11.00",
-      "source": "HNK Zagreb",
-      "is_new": false,
-      "first_seen": "2026-08-21T10:01:07.028Z"
-    },
     {
       "id": "e3fa49cc96",
       "title": "Léo Delibes Lakmé ZAGREBAČKI OPERNI FESTIVAL 2026.",
@@ -1904,7 +1889,7 @@
       "time": "21:00",
       "link": "https://www.muzika.hr/event/kvart-na-brzaka-podocnjaci-x-giogio-i-smoks-x-toni-sky/",
       "source": "muzika.hr",
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-10-02T10:50:29.523Z"
     },
     {
@@ -3136,7 +3121,7 @@
       "time": null,
       "link": "https://www.gavella.hr/predstave/smrt-ili-o-zivotu",
       "source": "Gavella",
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-10-02T10:50:29.523Z"
     },
     {
@@ -3151,7 +3136,7 @@
       "time": null,
       "link": "https://www.gavella.hr/predstave/smrt-ili-o-zivotu",
       "source": "Gavella",
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-10-02T10:50:29.523Z"
     },
     {
@@ -4222,5 +4207,5 @@
       "first_seen": "2026-09-27T22:37:54.746Z"
     }
   ],
-  "new_count": 6
+  "new_count": 3
 }
