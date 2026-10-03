@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02T21:05:24.281Z",
+  "generated_at": "2026-10-03T05:01:17.703Z",
   "stats": {
     "muzika.hr": {
       "ok": true,
@@ -13,29 +13,29 @@
       "ok": true,
       "count": 15
     },
-    "Tvornica": {
-      "ok": true,
-      "count": 2
-    },
     "Gavella": {
       "ok": true,
       "count": 38
+    },
+    "Tvornica": {
+      "ok": true,
+      "count": 2
     },
     "ZeKaeM": {
       "ok": true,
       "count": 1
     },
-    "Komedija": {
+    "Pogon": {
       "ok": true,
       "count": 0
     },
-    "Pogon": {
+    "Komedija": {
       "ok": true,
       "count": 0
     },
     "HNK Zagreb": {
       "ok": true,
-      "count": 94
+      "count": 92
     },
     "Kerempuh": {
       "ok": true,
@@ -47,21 +47,6 @@
     }
   },
   "concerts": [
-    {
-      "id": "f30ecf86dd",
-      "title": "Jungle Cakes Petak 18.9.2026.",
-      "venue": "Mochvara",
-      "city": "Zagreb",
-      "country": "HR",
-      "category": "concert",
-      "date_iso": "2026-09-18T00:00:00",
-      "date_display": "pet, 18. 09. 2026.",
-      "time": null,
-      "link": "https://mochvara.hr/event-detail/6a02359b7020764f09fbda4e/",
-      "source": "Mochvara",
-      "is_new": false,
-      "first_seen": "2026-06-05T19:28:14.316Z"
-    },
     {
       "id": "be8ed5fee8",
       "title": "Hrvatski Centar ITI Predstavljanje knjige Darka Lukića „Unclaimed Memories, Unsolicited Narratives: Mainstreaming the Marginality in Croatian Drama an",
@@ -1083,6 +1068,21 @@
       "first_seen": "2026-07-16T11:24:53.922Z"
     },
     {
+      "id": "7fff5d15cb",
+      "title": "Impronedjeljak: Eddie Prévost/Silvan Schmid/Tom Wheatley trio",
+      "venue": "Mochvara",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-10-05T20:00:00",
+      "date_display": "pon, 05. 10. 2026.",
+      "time": "20:00",
+      "link": "https://mochvara.hr/event-detail/6aabb555904d7238e5675080/",
+      "source": "Mochvara",
+      "is_new": true,
+      "first_seen": "2026-10-03T05:01:17.703Z"
+    },
+    {
       "id": "27424c7e80",
       "title": "A$AP Rocky",
       "venue": "AP Rocky Arena Zagreb Lanište bb",
@@ -1111,6 +1111,21 @@
       "source": "muzika.hr",
       "is_new": false,
       "first_seen": "2026-08-21T05:01:06.280Z"
+    },
+    {
+      "id": "05e41f7e20",
+      "title": "Filmske večeri u Močvari: Čarobno vrijeme",
+      "venue": "Mochvara",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-10-06T18:30:00",
+      "date_display": "uto, 06. 10. 2026.",
+      "time": "18:30",
+      "link": "https://mochvara.hr/event-detail/6aa7c88dd71134be61c20831/",
+      "source": "Mochvara",
+      "is_new": true,
+      "first_seen": "2026-10-03T05:01:17.703Z"
     },
     {
       "id": "39a103386b",
@@ -4177,5 +4192,5 @@
       "first_seen": "2026-09-27T22:37:54.746Z"
     }
   ],
-  "new_count": 4
+  "new_count": 6
 }
