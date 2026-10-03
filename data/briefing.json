@@ -1,15 +1,15 @@
 {
   "version": 2,
-  "date": "2026-10-02",
-  "generated_at": "2026-10-02T10:51:52.330Z",
-  "date_hr": "Petak, 2. listopada 2026.",
+  "date": "2026-10-03",
+  "generated_at": "2026-10-03T05:03:11.731Z",
+  "date_hr": "Subota, 3. listopada 2026.",
   "weather": {
-    "icon": "☁️",
-    "summary": "10–23°C, oblačno",
+    "icon": "☀️",
+    "summary": "10–22°C, vedro",
     "alerts": []
   },
   "fuel": {
-    "current_date": "02.10.2026",
+    "current_date": "03.10.2026",
     "eurodiesel": [
       {
         "company": "Adria Oil",
@@ -63,46 +63,46 @@
     "upcoming_premium": null
   },
   "market": {
-    "updated_at": "2026-10-02T10:51:52.330Z",
-    "btc_usd": 86294,
-    "btc_eur": 76817,
-    "btc_change_24h": 2.82,
-    "usd_eur": 0.8873
+    "updated_at": "2026-10-03T05:03:11.731Z",
+    "btc_usd": 84551,
+    "btc_eur": 75106,
+    "btc_change_24h": -2.34,
+    "usd_eur": 0.8888
   },
   "ai_news": [
     {
-      "title": "Anthropic says China’s GLM-5.3 nearly matches Mythos at cyber exploits",
-      "link": "https://thenextweb.com/news/glm-5-3-cyber-exploits-mythos-anthropic-safeguards",
+      "title": "Gemini 4 Argon matches GPT-6 Astra and hallucinates far less in early tests",
+      "link": "https://thenextweb.com/news/gemini-4-argon-artificial-analysis-gpt-6-astra-hallucination",
       "source": "The Next Web"
     },
     {
-      "title": "ChatGPT sada omogućuje virtualno isprobavanje odjeće",
-      "link": "https://www.bug.hr/tehnologije/chatgpt-sada-omogucuje-virtualno-isprobavanje-odjece-63273",
-      "source": "Bug.hr"
+      "title": "Apple changes full-disk access permissions to curb abuse from AI agents",
+      "link": "https://arstechnica.com/security/2026/10/apple-changes-full-disk-access-permissions-to-curb-abuse-from-ai-agents/",
+      "source": "Ars Technica"
     },
     {
-      "title": "ChatGPT can now virtually try on clothes for you",
-      "link": "https://techcrunch.com/2026/10/01/chatgpt-can-now-virtually-try-on-clothes-for-you/",
-      "source": "TechCrunch AI"
-    },
-    {
-      "title": "Trump tells TIME the US might take stakes in OpenAI and Anthropic",
-      "link": "https://thenextweb.com/news/trump-time-interview-stake-openai-anthropic",
-      "source": "The Next Web"
-    },
-    {
-      "title": "OpenAI’s new agent is a shot at Meta — but can it compete with free?",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1003399/meta-openai-ai-agents-muse-dots-battle",
+      "title": "Meta open sources code to let you make Muse AI gadgets",
+      "link": "https://www.theverge.com/tech/1004330/meta-muse-ai-gadgets-home-link",
       "source": "The Verge"
+    },
+    {
+      "title": "Apple will limit Mac disk access as AI agents ‘substantially’ increase risk",
+      "link": "https://www.theverge.com/tech/1004295/apple-limit-mac-disk-access-ai-agents",
+      "source": "The Verge"
+    },
+    {
+      "title": "Nvidia hits its first record since May, within $300B of $6T",
+      "link": "https://thenextweb.com/news/nvidia-6-trillion-record-asml-gap",
+      "source": "The Next Web"
     }
   ],
   "micro_tips": {
     "vscode": {
-      "tip": "Selektiraj sva pojavljivanja trenutne riječi",
-      "keys": "Ctrl+Shift+L"
+      "tip": "Pomakni liniju gore ili dolje bez cut/paste",
+      "keys": "Alt+↑ / Alt+↓"
     },
-    "sql": "Partial index s WHERE klauzulom smanjuje veličinu i ubrzava specifična filtriranja",
-    "oracle": "LISTAGG(col, ',') WITHIN GROUP (ORDER BY col) konkatenira u jedan string",
-    "regex": "(?<ime>\\d{4}) named group — referenciraj s \\k<ime> ili $<ime> u replace"
+    "sql": "GROUP BY s ROLLUP za subtotale u jednom prolasku: GROUP BY ROLLUP(god, mj)",
+    "oracle": "TRUNC(datum_kolona) = TRUNC(SYSDATE) koristi B-tree index na datumskoj koloni",
+    "regex": "\\d{4}-\\d{2}-\\d{2} ISO datum pattern; za validaciju zatvori s ^...$"
   }
 }
