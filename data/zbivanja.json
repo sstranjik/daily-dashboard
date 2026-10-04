@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-04T14:01:14.483Z",
+  "generated_at": "2026-10-04T15:01:16.271Z",
   "stats": {
     "Mochvara": {
       "ok": true,
@@ -25,6 +25,10 @@
       "ok": true,
       "count": 1
     },
+    "Pogon": {
+      "ok": true,
+      "count": 0
+    },
     "Komedija": {
       "ok": true,
       "count": 0
@@ -34,10 +38,6 @@
       "count": 89
     },
     "Kerempuh": {
-      "ok": true,
-      "count": 0
-    },
-    "Pogon": {
       "ok": true,
       "count": 0
     },
@@ -1186,6 +1186,21 @@
       "source": "HNK Zagreb",
       "is_new": false,
       "first_seen": "2026-09-07T14:01:16.280Z"
+    },
+    {
+      "id": "2655988d18",
+      "title": "Majmuniranje – indie party",
+      "venue": "Mochvara",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-10-09T22:00:00",
+      "date_display": "pet, 09. 10. 2026.",
+      "time": "22:00",
+      "link": "https://mochvara.hr/event-detail/6abfa3edde115ed6ce92fa8d/",
+      "source": "Mochvara",
+      "is_new": true,
+      "first_seen": "2026-10-04T15:01:16.271Z"
     },
     {
       "id": "a5f1598529",
@@ -4087,5 +4102,5 @@
       "first_seen": "2026-09-27T22:37:54.746Z"
     }
   ],
-  "new_count": 4
+  "new_count": 5
 }
