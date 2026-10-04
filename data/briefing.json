@@ -1,15 +1,15 @@
 {
   "version": 2,
-  "date": "2026-10-03",
-  "generated_at": "2026-10-03T10:11:22.418Z",
-  "date_hr": "Subota, 3. listopada 2026.",
+  "date": "2026-10-04",
+  "generated_at": "2026-10-04T05:02:30.081Z",
+  "date_hr": "Nedjelja, 4. listopada 2026.",
   "weather": {
-    "icon": "☀️",
-    "summary": "10–22°C, vedro",
+    "icon": "🌤️",
+    "summary": "9–22°C, pretežno vedro",
     "alerts": []
   },
   "fuel": {
-    "current_date": "03.10.2026",
+    "current_date": "04.10.2026",
     "eurodiesel": [
       {
         "company": "Adria Oil",
@@ -63,46 +63,41 @@
     "upcoming_premium": null
   },
   "market": {
-    "updated_at": "2026-10-03T10:11:22.418Z",
-    "btc_usd": 84578,
-    "btc_eur": 75131,
-    "btc_change_24h": -2.06,
+    "updated_at": "2026-10-04T05:02:30.081Z",
+    "btc_usd": 84801,
+    "btc_eur": 75332,
+    "btc_change_24h": 0.3,
     "usd_eur": 0.8888
   },
   "ai_news": [
     {
-      "title": "Gemini 4 Argon matches GPT-6 Astra and hallucinates far less in early tests",
-      "link": "https://thenextweb.com/news/gemini-4-argon-artificial-analysis-gpt-6-astra-hallucination",
+      "title": "OpenAI safety staffer quits, says AI labs should run like nuclear plants",
+      "link": "https://thenextweb.com/news/openai-david-robinson-quits-nuclear-safeguards",
       "source": "The Next Web"
     },
     {
-      "title": "Apple changes full-disk access permissions to curb abuse from AI agents",
-      "link": "https://arstechnica.com/security/2026/10/apple-changes-full-disk-access-permissions-to-curb-abuse-from-ai-agents/",
-      "source": "Ars Technica"
+      "title": "OpenAI safety employee resigns, claiming the company’s ‘culture is broken’",
+      "link": "https://techcrunch.com/2026/10/03/openai-safety-employee-resigns-claiming-the-companys-culture-is-broken/",
+      "source": "TechCrunch AI"
     },
     {
-      "title": "Meta open sources code to let you make Muse AI gadgets",
-      "link": "https://www.theverge.com/tech/1004330/meta-muse-ai-gadgets-home-link",
+      "title": "An OpenAI safety employee has quit and is sounding the alarm",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1004408/openai-safety-quits-sounding-the-alarm",
       "source": "The Verge"
     },
     {
-      "title": "Apple will limit Mac disk access as AI agents ‘substantially’ increase risk",
-      "link": "https://www.theverge.com/tech/1004295/apple-limit-mac-disk-access-ai-agents",
-      "source": "The Verge"
-    },
-    {
-      "title": "Nvidia hits its first record since May, within $300B of $6T",
-      "link": "https://thenextweb.com/news/nvidia-6-trillion-record-asml-gap",
-      "source": "The Next Web"
+      "title": "All the AI agents that can live in your text messages",
+      "link": "https://techcrunch.com/2026/10/03/all-the-ai-agents-that-can-live-in-your-text-messages/",
+      "source": "TechCrunch AI"
     }
   ],
   "micro_tips": {
     "vscode": {
-      "tip": "Pomakni liniju gore ili dolje bez cut/paste",
-      "keys": "Alt+↑ / Alt+↓"
+      "tip": "Format Document (auto-format cijelog fajla)",
+      "keys": "Shift+Alt+F"
     },
-    "sql": "GROUP BY s ROLLUP za subtotale u jednom prolasku: GROUP BY ROLLUP(god, mj)",
-    "oracle": "TRUNC(datum_kolona) = TRUNC(SYSDATE) koristi B-tree index na datumskoj koloni",
-    "regex": "\\d{4}-\\d{2}-\\d{2} ISO datum pattern; za validaciju zatvori s ^...$"
+    "sql": "NOT EXISTS brži od NOT IN kad subquery može vratiti NULL vrijednost",
+    "oracle": "DBMS_STATS.GATHER_TABLE_STATS osvježava statistike za točniji execution plan",
+    "regex": "(?i) inline flag za case-insensitive bez mijenjanja ostatka patternahe"
   }
 }
