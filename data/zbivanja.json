@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T21:53:44.593Z",
+  "generated_at": "2026-10-04T05:01:16.567Z",
   "stats": {
     "Mochvara": {
       "ok": true,
@@ -9,10 +9,6 @@
       "ok": true,
       "count": 0
     },
-    "muzika.hr": {
-      "ok": true,
-      "count": 25
-    },
     "Gavella": {
       "ok": true,
       "count": 37
@@ -20,6 +16,10 @@
     "Tvornica": {
       "ok": true,
       "count": 2
+    },
+    "muzika.hr": {
+      "ok": true,
+      "count": 25
     },
     "ZeKaeM": {
       "ok": true,
@@ -35,7 +35,7 @@
     },
     "HNK Zagreb": {
       "ok": true,
-      "count": 92
+      "count": 89
     },
     "Kerempuh": {
       "ok": true,
@@ -47,51 +47,6 @@
     }
   },
   "concerts": [
-    {
-      "id": "3e2f24f32c",
-      "title": "Jungle Cakes w/ Deekline, Killa P, Rahmanee, Ela, Lovro, Atomic Hive",
-      "venue": "Mochvara",
-      "city": "Zagreb",
-      "country": "HR",
-      "category": "concert",
-      "date_iso": "2026-09-18T22:00:00",
-      "date_display": "pet, 18. 09. 2026.",
-      "time": "22:00",
-      "link": "https://mochvara.hr/event-detail/6a02359b7020764f09fbda4e/",
-      "source": "Mochvara",
-      "is_new": false,
-      "first_seen": "2026-09-12T18:50:11.784Z"
-    },
-    {
-      "id": "4505d1d345",
-      "title": "Jazz all day/17. Zagreb jazz festival",
-      "venue": "Peti Kupe Trnjanska cesta 5",
-      "city": "Zagreb",
-      "country": "HR",
-      "category": "concert",
-      "date_iso": "2026-09-19T00:00:00",
-      "date_display": "sub, 19. 09. 2026.",
-      "time": null,
-      "link": "https://www.muzika.hr/event/jazz-all-day-17-zagreb-jazz-festival/",
-      "source": "muzika.hr",
-      "is_new": false,
-      "first_seen": "2026-08-21T08:24:15.018Z"
-    },
-    {
-      "id": "c42e3677dc",
-      "title": "Van Gogh + Grad",
-      "venue": "Grada Vukovara 68",
-      "city": "Zagreb",
-      "country": "HR",
-      "category": "concert",
-      "date_iso": "2026-09-19T00:00:00",
-      "date_display": "sub, 19. 09. 2026.",
-      "time": null,
-      "link": "https://www.muzika.hr/event/van-gogh-grad/",
-      "source": "muzika.hr",
-      "is_new": false,
-      "first_seen": "2026-09-10T13:01:14.693Z"
-    },
     {
       "id": "3dc13dfc19",
       "title": "Borna Erceg Gita i skriveni svijet ZAGREBAČKI OPERNI FESTIVAL 2026.",
@@ -1171,6 +1126,21 @@
       "source": "muzika.hr",
       "is_new": false,
       "first_seen": "2026-08-24T05:01:06.071Z"
+    },
+    {
+      "id": "338e3ddc0d",
+      "title": "Manifest crnila: Iffernet, Crudelis, Kalež",
+      "venue": "Mochvara",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-10-08T20:00:00",
+      "date_display": "čet, 08. 10. 2026.",
+      "time": "20:00",
+      "link": "https://mochvara.hr/event-detail/6a60f932a31cdd2f132d5c59/",
+      "source": "Mochvara",
+      "is_new": true,
+      "first_seen": "2026-10-04T05:01:16.567Z"
     },
     {
       "id": "bc9504b095",
@@ -4087,21 +4057,6 @@
   ],
   "abroad": [
     {
-      "id": "a2db25b035",
-      "title": "Jethro Tull",
-      "venue": "Jethro Tull Tvrđava Kastel Banja Luka",
-      "city": "Bosnia",
-      "country": "EU",
-      "category": "concert",
-      "date_iso": "2026-09-19T00:00:00",
-      "date_display": "sub, 19. 09. 2026.",
-      "time": null,
-      "link": "https://www.muzika.hr/event/jethro-tull/",
-      "source": "muzika.hr",
-      "is_new": false,
-      "first_seen": "2026-08-09T05:01:15.939Z"
-    },
-    {
       "id": "5b93a251c7",
       "title": "A$AP Rocky",
       "venue": "Arena Bulevar Arsenija Čarnojevića 58",
@@ -4177,5 +4132,5 @@
       "first_seen": "2026-09-27T22:37:54.746Z"
     }
   ],
-  "new_count": 4
+  "new_count": 5
 }
