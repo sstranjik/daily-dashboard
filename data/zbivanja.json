@@ -1,10 +1,6 @@
 {
-  "generated_at": "2026-10-05T09:01:22.925Z",
+  "generated_at": "2026-10-05T10:01:27.995Z",
   "stats": {
-    "muzika.hr": {
-      "ok": true,
-      "count": 25
-    },
     "Lisinski": {
       "ok": true,
       "count": 0
@@ -13,17 +9,21 @@
       "ok": true,
       "count": 15
     },
-    "Gavella": {
-      "ok": true,
-      "count": 37
-    },
     "Tvornica": {
       "ok": true,
       "count": 2
     },
+    "Gavella": {
+      "ok": true,
+      "count": 37
+    },
     "ZeKaeM": {
       "ok": true,
       "count": 1
+    },
+    "muzika.hr": {
+      "ok": true,
+      "count": 25
     },
     "Komedija": {
       "ok": true,
@@ -33,13 +33,13 @@
       "ok": true,
       "count": 0
     },
-    "Kerempuh": {
-      "ok": true,
-      "count": 0
-    },
     "HNK Zagreb": {
       "ok": true,
       "count": 88
+    },
+    "Kerempuh": {
+      "ok": true,
+      "count": 0
     },
     "Trešnja": {
       "ok": true,
@@ -1109,7 +1109,7 @@
       "time": null,
       "link": "https://www.muzika.hr/event/war-metal-brutality-fest-zagreb/",
       "source": "muzika.hr",
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-10-05T09:01:22.925Z"
     },
     {
@@ -1124,7 +1124,7 @@
       "time": null,
       "link": "https://www.muzika.hr/event/brkovi-boogaloo-zagreb-2026/",
       "source": "muzika.hr",
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-10-05T09:01:22.925Z"
     },
     {
@@ -2502,7 +2502,7 @@
       "date_iso": "2026-11-23T19:30:00",
       "date_display": "pon, 23. 11. 2026.",
       "time": "19:30",
-      "link": "https://hnk.hr/hr/hnk2/cabaret/#23.11.19.30",
+      "link": "https://hnk.hr/hr/hnk2/hnk2/cabaret/#23.11.19.30",
       "source": "HNK Zagreb",
       "is_new": false,
       "first_seen": "2026-09-24T14:01:20.188Z"
@@ -4132,5 +4132,5 @@
       "first_seen": "2026-09-27T22:37:54.746Z"
     }
   ],
-  "new_count": 6
+  "new_count": 4
 }
