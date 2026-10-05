@@ -1,17 +1,13 @@
 {
-  "generated_at": "2026-10-05T13:01:23.260Z",
+  "generated_at": "2026-10-05T14:01:20.705Z",
   "stats": {
-    "muzika.hr": {
+    "Mochvara": {
       "ok": true,
-      "count": 25
+      "count": 15
     },
     "Lisinski": {
       "ok": true,
       "count": 0
-    },
-    "Mochvara": {
-      "ok": true,
-      "count": 15
     },
     "Gavella": {
       "ok": true,
@@ -20,6 +16,10 @@
     "Tvornica": {
       "ok": true,
       "count": 2
+    },
+    "muzika.hr": {
+      "ok": true,
+      "count": 25
     },
     "ZeKaeM": {
       "ok": true,
@@ -33,13 +33,13 @@
       "ok": true,
       "count": 0
     },
+    "HNK Zagreb": {
+      "ok": true,
+      "count": 89
+    },
     "Kerempuh": {
       "ok": true,
       "count": 0
-    },
-    "HNK Zagreb": {
-      "ok": true,
-      "count": 88
     },
     "Trešnja": {
       "ok": true,
@@ -1053,6 +1053,21 @@
       "first_seen": "2026-10-03T17:01:17.083Z"
     },
     {
+      "id": "b14daa73b2",
+      "title": "Belzebong",
+      "venue": "Vintage Industrial Bar Savska ulica 160",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-10-07T20:00:00",
+      "date_display": "sri, 07. 10. 2026.",
+      "time": "20:00",
+      "link": "https://www.muzika.hr/event/belzebong/",
+      "source": "muzika.hr",
+      "is_new": true,
+      "first_seen": "2026-10-05T14:01:20.705Z"
+    },
+    {
       "id": "9a4f31fce2",
       "title": "Kosheen",
       "venue": "Kosheen Tvornica kulture Šubićeva 2",
@@ -1368,6 +1383,21 @@
       "first_seen": "2026-07-02T15:01:22.773Z"
     },
     {
+      "id": "676e2ea312",
+      "title": "Okrugli stol i predstavljanje knjige „Markiz de Sade i žene žedne žara” (FF Press, Zagreb, 2026.)",
+      "venue": "HNK Zagreb",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-10-12T12:00:00",
+      "date_display": "pon, 12. 10. 2026.",
+      "time": "12:00",
+      "link": "https://hnk.hr/hr/ostalo/predstave/okrugli-stol-i-predstavljanje-knjige-markiz-de-sade-i-%C5%BEene-%C5%BEedne-%C5%BEara-ff-press-zagreb-2026/#12.10.12.00",
+      "source": "HNK Zagreb",
+      "is_new": true,
+      "first_seen": "2026-10-05T14:01:20.705Z"
+    },
+    {
       "id": "ce73e40cd1",
       "title": "Leut Magnetik Četvrtak 15.10.2026.",
       "venue": "Mochvara",
@@ -1606,6 +1636,21 @@
       "source": "HNK Zagreb",
       "is_new": false,
       "first_seen": "2026-07-02T15:01:22.773Z"
+    },
+    {
+      "id": "2b58e9f4cb",
+      "title": "GZUZ",
+      "venue": "GZUZ Tvornica kulture Šubićeva 2",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-10-20T20:00:00",
+      "date_display": "uto, 20. 10. 2026.",
+      "time": "20:00",
+      "link": "https://www.muzika.hr/event/gzuz-u-tvornici-kulture-zagreb-2026/",
+      "source": "muzika.hr",
+      "is_new": true,
+      "first_seen": "2026-10-05T14:01:20.705Z"
     },
     {
       "id": "c92f8ddb39",
@@ -4147,5 +4192,5 @@
       "first_seen": "2026-09-27T22:37:54.746Z"
     }
   ],
-  "new_count": 4
+  "new_count": 7
 }
