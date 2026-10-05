@@ -1,15 +1,15 @@
 {
   "version": 2,
-  "date": "2026-10-04",
-  "generated_at": "2026-10-04T10:52:08.672Z",
-  "date_hr": "Nedjelja, 4. listopada 2026.",
+  "date": "2026-10-05",
+  "generated_at": "2026-10-05T05:02:28.264Z",
+  "date_hr": "Ponedjeljak, 5. listopada 2026.",
   "weather": {
-    "icon": "🌤️",
-    "summary": "9–22°C, pretežno vedro",
+    "icon": "☁️",
+    "summary": "8–21°C, oblačno",
     "alerts": []
   },
   "fuel": {
-    "current_date": "04.10.2026",
+    "current_date": "05.10.2026",
     "eurodiesel": [
       {
         "company": "Adria Oil",
@@ -63,46 +63,41 @@
     "upcoming_premium": null
   },
   "market": {
-    "updated_at": "2026-10-04T10:52:08.672Z",
-    "btc_usd": 85318,
-    "btc_eur": 75764,
-    "btc_change_24h": 0.84,
-    "usd_eur": 0.8888
+    "updated_at": "2026-10-05T05:02:28.264Z",
+    "btc_usd": 85532,
+    "btc_eur": 76487,
+    "btc_change_24h": 0.85,
+    "usd_eur": 0.8889
   },
   "ai_news": [
     {
-      "title": "OpenAI safety staffer quits, says AI labs should run like nuclear plants",
-      "link": "https://thenextweb.com/news/openai-david-robinson-quits-nuclear-safeguards",
+      "title": "An AI couldn’t beat humans at StarCraft, so it decided to cheat",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1004543/openai-gpt-cheat-starcraft",
+      "source": "The Verge"
+    },
+    {
+      "title": "SoftBank’s Masayoshi Son says superintelligence in the wrong hands could be “super dangerous”",
+      "link": "https://thenextweb.com/news/son-ai-safety-kyoto-vision-europe",
       "source": "The Next Web"
+    },
+    {
+      "title": "Google počinje naplaćivati sve osim najosnovnijih Gemini modela",
+      "link": "https://www.bug.hr/biznis/google-pocinje-naplacivati-sve-osim-najosnovnijih-gemini-modela-63315",
+      "source": "Bug.hr"
     },
     {
       "title": "Apple zbog AI agenata mijenja pravila za pristup disku u macOS-u",
       "link": "https://www.bug.hr/sigurnost/apple-zbog-ai-agenata-mijenja-pravila-za-pristup-disku-u-macos-u-63307",
       "source": "Bug.hr"
-    },
-    {
-      "title": "OpenAI safety employee resigns, claiming the company’s ‘culture is broken’",
-      "link": "https://techcrunch.com/2026/10/03/openai-safety-employee-resigns-claiming-the-companys-culture-is-broken/",
-      "source": "TechCrunch AI"
-    },
-    {
-      "title": "An OpenAI safety employee has quit and is sounding the alarm",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1004408/openai-safety-quits-sounding-the-alarm",
-      "source": "The Verge"
-    },
-    {
-      "title": "All the AI agents that can live in your text messages",
-      "link": "https://techcrunch.com/2026/10/03/all-the-ai-agents-that-can-live-in-your-text-messages/",
-      "source": "TechCrunch AI"
     }
   ],
   "micro_tips": {
     "vscode": {
-      "tip": "Format Document (auto-format cijelog fajla)",
-      "keys": "Shift+Alt+F"
+      "tip": "Go to Definition simbola",
+      "keys": "F12"
     },
-    "sql": "NOT EXISTS brži od NOT IN kad subquery može vratiti NULL vrijednost",
-    "oracle": "DBMS_STATS.GATHER_TABLE_STATS osvježava statistike za točniji execution plan",
-    "regex": "(?i) inline flag za case-insensitive bez mijenjanja ostatka patternahe"
+    "sql": "Parametrizirani upiti = plan cache reuse + SQL injection zaštita istovremeno",
+    "oracle": "NVL2(expr, kad_nije_null, kad_je_null) kompaktnija od dvostrukog NVL-a",
+    "regex": "\\s+ pokriva space, tab i newline; \\S je negacija (svaki ne-whitespace)"
   }
 }
