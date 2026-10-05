@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-10-05T08:01:20.532Z",
+  "generated_at": "2026-10-05T09:01:22.925Z",
   "stats": {
     "muzika.hr": {
       "ok": true,
       "count": 25
     },
-    "Mochvara": {
-      "ok": true,
-      "count": 15
-    },
     "Lisinski": {
       "ok": true,
       "count": 0
+    },
+    "Mochvara": {
+      "ok": true,
+      "count": 15
     },
     "Gavella": {
       "ok": true,
@@ -29,10 +29,6 @@
       "ok": true,
       "count": 0
     },
-    "HNK Zagreb": {
-      "ok": true,
-      "count": 88
-    },
     "Pogon": {
       "ok": true,
       "count": 0
@@ -40,6 +36,10 @@
     "Kerempuh": {
       "ok": true,
       "count": 0
+    },
+    "HNK Zagreb": {
+      "ok": true,
+      "count": 88
     },
     "Trešnja": {
       "ok": true,
@@ -1096,6 +1096,36 @@
       "source": "muzika.hr",
       "is_new": false,
       "first_seen": "2026-09-13T05:01:09.594Z"
+    },
+    {
+      "id": "427706b68a",
+      "title": "War Metal Brutality Fest",
+      "venue": "Zagreb",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-10-09T00:00:00",
+      "date_display": "pet, 09. 10. 2026.",
+      "time": null,
+      "link": "https://www.muzika.hr/event/war-metal-brutality-fest-zagreb/",
+      "source": "muzika.hr",
+      "is_new": true,
+      "first_seen": "2026-10-05T09:01:22.925Z"
+    },
+    {
+      "id": "9e8771a87e",
+      "title": "Brkovi",
+      "venue": "Grada Vukovara 68",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-10-09T00:00:00",
+      "date_display": "pet, 09. 10. 2026.",
+      "time": null,
+      "link": "https://www.muzika.hr/event/brkovi-boogaloo-zagreb-2026/",
+      "source": "muzika.hr",
+      "is_new": true,
+      "first_seen": "2026-10-05T09:01:22.925Z"
     },
     {
       "id": "c430b6ff68",
@@ -4102,5 +4132,5 @@
       "first_seen": "2026-09-27T22:37:54.746Z"
     }
   ],
-  "new_count": 4
+  "new_count": 6
 }
