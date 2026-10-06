@@ -1,61 +1,61 @@
 {
   "version": 2,
-  "date": "2026-10-05",
-  "generated_at": "2026-10-05T12:00:36.553Z",
-  "date_hr": "Ponedjeljak, 5. listopada 2026.",
+  "date": "2026-10-06",
+  "generated_at": "2026-10-06T05:03:18.384Z",
+  "date_hr": "Utorak, 6. listopada 2026.",
   "weather": {
-    "icon": "☁️",
-    "summary": "8–21°C, oblačno",
+    "icon": "🌫️",
+    "summary": "7–22°C, magla",
     "alerts": []
   },
   "fuel": {
-    "current_date": "05.10.2026",
+    "current_date": "06.10.2026",
     "eurodiesel": [
       {
-        "company": "Adria Oil",
-        "price": 1.86
-      },
-      {
         "company": "Coral Croatia",
-        "price": 1.86
+        "price": 1.84
       },
       {
         "company": "INA",
-        "price": 1.86
+        "price": 1.84
       },
       {
         "company": "LUKOIL Croatia",
-        "price": 1.86
+        "price": 1.84
       },
       {
         "company": "Petrol",
-        "price": 1.86
+        "price": 1.84
       },
       {
         "company": "Tifon",
+        "price": 1.84
+      },
+      {
+        "company": "Adria Oil",
         "price": 1.86
       }
     ],
     "premium_eurodiesel": [
       {
         "company": "LUKOIL Croatia",
-        "price": 2.02
+        "price": 2
       },
       {
         "company": "INA",
-        "price": 2.13
+        "price": 2.09
       },
       {
         "company": "Tifon",
-        "price": 2.13
+        "price": 2.11
       },
       {
         "company": "Petrol",
-        "price": 2.21
+        "price": 2.12
       },
       {
         "company": "Coral Croatia",
-        "price": 2.22
+        "price": 2.2
       }
     ],
     "upcoming_date": null,
@@ -63,46 +63,46 @@
     "upcoming_premium": null
   },
   "market": {
-    "updated_at": "2026-10-05T12:00:36.553Z",
-    "btc_usd": 86184,
-    "btc_eur": 76905,
-    "btc_change_24h": 1.04,
-    "usd_eur": 0.8889
+    "updated_at": "2026-10-06T05:03:18.384Z",
+    "btc_usd": 85598,
+    "btc_eur": 76311,
+    "btc_change_24h": 0.09,
+    "usd_eur": 0.8921
   },
   "ai_news": [
     {
-      "title": "OpenAI is putting ads inside ChatGPT’s image generation",
-      "link": "https://thenextweb.com/news/chatgpt-visual-ads-dsa-europe",
+      "title": "Pazite što govorite svom chatbotu - prijavit će vas policiji!",
+      "link": "https://www.bug.hr/umjetna-inteligencija/pazite-sto-govorite-svom-chatbotu-prijavit-ce-vas-policiji-63348",
+      "source": "Bug.hr"
+    },
+    {
+      "title": "Florida woman arrested after Anthropic reported her Claude chat to police",
+      "link": "https://thenextweb.com/news/anthropic-claude-chat-reported-police-florida-arrest",
       "source": "The Next Web"
     },
     {
-      "title": "Sukob vizija na vrhu AI industrije: Zašto se šef OpenAI-ja protivi Anthropicovom pristupu?",
-      "link": "https://www.tportal.hr/tehno/clanak/sukob-vizija-na-vrhu-ai-industrije-zasto-se-sef-openai-ja-protivi-anthropicovom-pristupu-20261005",
-      "source": "Tportal"
+      "title": "Wikimedia says rogue OpenAI agents edited its wikis without approval",
+      "link": "https://thenextweb.com/news/wikimedia-openai-agents-wiki-edits-wikidata-outage",
+      "source": "The Next Web"
     },
     {
-      "title": "An AI couldn’t beat humans at StarCraft, so it decided to cheat",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1004543/openai-gpt-cheat-starcraft",
+      "title": "OpenAI will start watermarking ChatGPT&#8217;s text in the EU",
+      "link": "https://techcrunch.com/2026/10/05/openai-will-start-watermarking-chatgpts-text-in-the-eu/",
+      "source": "TechCrunch AI"
+    },
+    {
+      "title": "All the drama around AI&#8217;s takeover of mathematics",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1004933/ai-math-openai-breakthrough-solution",
       "source": "The Verge"
-    },
-    {
-      "title": "Sam Altman tells Politico the world “should accept some harm from AI”",
-      "link": "https://thenextweb.com/news/sam-altman-ai-risks-politico-anthropic",
-      "source": "The Next Web"
-    },
-    {
-      "title": "SoftBank’s Masayoshi Son says superintelligence in the wrong hands could be “super dangerous”",
-      "link": "https://thenextweb.com/news/son-ai-safety-kyoto-vision-europe",
-      "source": "The Next Web"
     }
   ],
   "micro_tips": {
     "vscode": {
-      "tip": "Go to Definition simbola",
-      "keys": "F12"
+      "tip": "Peek Definition bez napuštanja fajla",
+      "keys": "Alt+F12"
     },
-    "sql": "Parametrizirani upiti = plan cache reuse + SQL injection zaštita istovremeno",
-    "oracle": "NVL2(expr, kad_nije_null, kad_je_null) kompaktnija od dvostrukog NVL-a",
-    "regex": "\\s+ pokriva space, tab i newline; \\S je negacija (svaki ne-whitespace)"
+    "sql": "Batch INSERT umjesto jednog-po-jednog: INSERT INTO t VALUES (...),(...),...",
+    "oracle": "FETCH FIRST n ROWS ONLY umjesto ROWNUM — kompatibilno s ORDER BY i čitljivije",
+    "regex": "^(?!.*pattern) negative lookahead: \"ova linija ne smije sadržavati X\""
   }
 }
