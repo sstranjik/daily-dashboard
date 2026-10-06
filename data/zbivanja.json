@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-10-06T20:01:20.734Z",
+  "generated_at": "2026-10-06T22:49:36.616Z",
   "stats": {
     "muzika.hr": {
       "ok": true,
       "count": 25
     },
-    "Mochvara": {
-      "ok": true,
-      "count": 15
-    },
     "Lisinski": {
       "ok": true,
       "count": 0
+    },
+    "Mochvara": {
+      "ok": true,
+      "count": 15
     },
     "Gavella": {
       "ok": true,
@@ -29,15 +29,15 @@
       "ok": true,
       "count": 0
     },
-    "Kerempuh": {
-      "ok": true,
-      "count": 0
-    },
     "HNK Zagreb": {
       "ok": true,
       "count": 87
     },
     "Pogon": {
+      "ok": true,
+      "count": 0
+    },
+    "Kerempuh": {
       "ok": true,
       "count": 0
     },
@@ -1351,6 +1351,21 @@
       "source": "HNK Zagreb",
       "is_new": false,
       "first_seen": "2026-10-05T14:01:20.705Z"
+    },
+    {
+      "id": "63b63ac987",
+      "title": "KUM - Kazalište u Močvari: MC Deda - promocija zbirke poezije Zbrka poezije",
+      "venue": "Mochvara",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-10-12T19:00:00",
+      "date_display": "pon, 12. 10. 2026.",
+      "time": "19:00",
+      "link": "https://mochvara.hr/event-detail/6abd0536f63ef277f595d45c/",
+      "source": "Mochvara",
+      "is_new": true,
+      "first_seen": "2026-10-06T22:49:36.616Z"
     },
     {
       "id": "ce73e40cd1",
@@ -4162,5 +4177,5 @@
       "first_seen": "2026-09-27T22:37:54.746Z"
     }
   ],
-  "new_count": 4
+  "new_count": 5
 }
