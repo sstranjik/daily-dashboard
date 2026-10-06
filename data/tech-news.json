@@ -1,7 +1,295 @@
 {
-  "last_updated": "2026-10-05T21:00:57.514Z",
+  "last_updated": "2026-10-06T05:01:20.378Z",
   "source_count": 11,
   "items": [
+    {
+      "id": "bug.hr-0",
+      "title": "Pazite što govorite svom chatbotu - prijavit će vas policiji!",
+      "summary": "Pored nedavnog skandala s OpenAI-jevom krađom rješenja za Navier-Stokesov matematički problem, za koji su tvrdili da ga je riješio njihov jezični model, sada imamo i drugi primjer \"interakcije\" chatbota sa svojim korisnicima - Claude je prijavio policiji dnevničke zapise svoje korisnice koja je mašt",
+      "link": "https://www.bug.hr/umjetna-inteligencija/pazite-sto-govorite-svom-chatbotu-prijavit-ce-vas-policiji-63348",
+      "published": "2026-10-06T04:30:00.000Z",
+      "source": "Bug.hr",
+      "category": "general",
+      "xml_category": "umjetna inteligencija",
+      "tags": [],
+      "image": "https://www.bug.hr/img/pazite-sto-govorite-svom-chatbotu-prijavit-ce-vas-policiji_WPM_fh.png"
+    },
+    {
+      "id": "bug.hr-1",
+      "title": "Radio Addict - još jedna praktična aplikacija za slušanje internetskih radiopostaja",
+      "summary": "Klasične su radiopostaje već odavno pronašle svoje mjesto na Internetu, pa je samim time nastao i zavidan niz aplikacija koje omogućavaju njihovo slušanje. Ovo je još jedna koje sve želi maksimalno pojednostaviti te olakšati uživanje u glazbi i radijskom programu…",
+      "link": "https://www.bug.hr/appdana/radio-addict-jos-jedna-prakticna-aplikacija-za-slusanje-internetskih-63302",
+      "published": "2026-10-06T04:30:00.000Z",
+      "source": "Bug.hr",
+      "category": "general",
+      "xml_category": "app dana",
+      "tags": [],
+      "image": "https://www.bug.hr/img/radio-addict-jos-jedna-prakticna-aplikacija-za-slusanje-internetskih_MTUmp6.jpg"
+    },
+    {
+      "id": "bug.hr-2",
+      "title": "Impact SEE’26 u Bukureštu: Od Hollywooda do gospodarstva u doba umjetne inteligencije",
+      "summary": "Dvodnevni program okupio je ekonomiste, poslovne čelnike i donositelje odluka iz cijele jugoistočne Europe, Ryan Reynolds govorio je o kreativnosti iz poduzetničke perspektive, a hrvatski predstavnici sudjelovali su u raspravama o gospodarskoj strategiji, budućnosti poslovnog vodstva i europskoj kon",
+      "link": "https://www.bug.hr/konferencije/impact-see26-u-bukurestu-od-hollywooda-do-gospodarstva-u-doba-umjetne-63330",
+      "published": "2026-10-06T04:30:00.000Z",
+      "source": "Bug.hr",
+      "category": "general",
+      "xml_category": "konferencije",
+      "tags": [],
+      "image": "https://www.bug.hr/img/impact-see26-u-bukurestu-od-hollywooda-do-gospodarstva-u-doba-umjetne_GYk6rL.jpg"
+    },
+    {
+      "id": "bug.hr-3",
+      "title": "Hrvatska domaćin sljedećeg Svjetskog prvenstva u radioamaterskom sportu",
+      "summary": "Organizacija najprestižnijeg natjecanja u radioamaterstvu povjerena je Hrvatskom radioamaterskom savezu, a natjecanje će se 2030. godine održati na području Osijeka, Čepina i Đakova",
+      "link": "https://www.bug.hr/natjecanja/hrvatska-domacin-sljedeceg-svjetskog-prvenstva-u-radioamaterskom-sportu-63346",
+      "published": "2026-10-06T04:30:00.000Z",
+      "source": "Bug.hr",
+      "category": "sport",
+      "xml_category": "natjecanja",
+      "tags": [],
+      "image": "https://www.bug.hr/img/hrvatska-domacin-sljedeceg-svjetskog-prvenstva-u-radioamaterskom-sportu_ENo3PI.jpg"
+    },
+    {
+      "id": "bug.hr-4",
+      "title": "Nobelova nagrada za fiziologiju ili medicinu 2026.: svjetlosni prekidači za mozak",
+      "summary": "Protein jednostanične alge postao je alat za upravljanje živčanim stanicama: optogenetika otkriva kako nastaju sjećanja, emocije i ponašanje, a otvara i put pokušajima vraćanja izgubljenog vida",
+      "link": "https://www.bug.hr/znanost/nobelova-nagrada-za-fiziologiju-ili-medicinu-2026-svjetlosni-prekidaci-za-63341",
+      "published": "2026-10-06T04:30:00.000Z",
+      "source": "Bug.hr",
+      "category": "general",
+      "xml_category": "znanost",
+      "tags": [],
+      "image": "https://www.bug.hr/img/nobelova-nagrada-za-fiziologiju-ili-medicinu-2026-svjetlosni-prekidaci-za_CdTnVm.jpg"
+    },
+    {
+      "id": "bug.hr-5",
+      "title": "I to se desilo. Kineski plug-in model Geely Starray EM-i je najtraženiji auto u Hrvatskoj!",
+      "summary": "Uz 4497 registracija tijekom rujna je stiglo 143 vozila odnosno 3,1% manje nego lani, dok se u 'top 5' najtraženijih modela našao još jedan kineski model - Omoda 5",
+      "link": "https://autonet.bug.hr/trziste/i-to-se-desilo-kineski-plug-in-model-geely-starray-em-i-je-najtrazeniji-auto-u-63347",
+      "published": "2026-10-06T04:00:00.000Z",
+      "source": "Bug.hr",
+      "category": "general",
+      "xml_category": "tržište",
+      "tags": [],
+      "image": "https://autonet.bug.hr/img/i-to-se-desilo-kineski-plug-in-model-geely-starray-em-i-je-najtrazeniji-auto-u_XFqq0T.jpg"
+    },
+    {
+      "id": "tportal-0",
+      "title": "AI je već pomogao osvojiti Nobela. Sada se postavlja pitanje koje bi moglo promijeniti znanost",
+      "summary": "Umjetna inteligencija već je postala važan alat u znanstvenim istraživanjima, no sljedeći korak mogao bi biti puno ambiciozniji: što ako AI jednog dana ne bude samo alat, već samostalno osmisli hipotezu, provede istraživanje i dođe do otkrića koje mijenja znanost?",
+      "link": "https://www.tportal.hr/tehno/clanak/ai-je-vec-pomogao-osvojiti-nobela-sada-se-postavlja-pitanje-koje-bi-moglo-promijeniti-znanost-20261005",
+      "published": "2026-10-06T03:00:00.000Z",
+      "source": "Tportal",
+      "category": "ai",
+      "xml_category": "tech",
+      "tags": [],
+      "image": "https://www.tportal.hr/media/thumbnail/500x300/2806192.jpeg?cropId=0"
+    },
+    {
+      "id": "tportal-1",
+      "title": "AI možda već može misliti i osjećati? Anthropic u to želi uvjeriti i Vatikan",
+      "summary": "Može li umjetna inteligencija osjećati i biti svjesna? Ovisi koga pitate",
+      "link": "https://www.tportal.hr/tehno/clanak/ai-mozda-vec-moze-misliti-i-osjecati-anthropic-u-to-zeli-uvjeriti-i-vatikan-20261005",
+      "published": "2026-10-06T02:00:00.000Z",
+      "source": "Tportal",
+      "category": "ai",
+      "xml_category": "tech",
+      "tags": [],
+      "image": "https://www.tportal.hr/media/thumbnail/500x300/2801678.jpeg?cropId=0"
+    },
+    {
+      "id": "tportal-2",
+      "title": "Astronomi predviđaju: Sunčev sustav će se raspasti prije nego što smo mislili",
+      "summary": "Za razliku od dosadašnjeg modela, koji predviđa stabilnost planetarnih orbita dugo nakon što Sunce proguta Zemlju, novi proračuni najavljuju puno turbulentniji kraj",
+      "link": "https://www.tportal.hr/tehno/clanak/astronomi-predvidaju-suncev-sustav-ce-se-raspasti-prije-nego-sto-smo-mislili-20261005",
+      "published": "2026-10-06T01:00:00.000Z",
+      "source": "Tportal",
+      "category": "general",
+      "xml_category": "tech",
+      "tags": [],
+      "image": "https://www.tportal.hr/media/thumbnail/500x300/2806023.jpeg?cropId=0"
+    },
+    {
+      "id": "the-next-web-0",
+      "title": "Google, JPMorgan and two governments fixed the same MCP flaw",
+      "summary": "Security teams at Google, JPMorgan Chase, Weaviate, France’s interministerial digital directorate (DINUM) and the city government of Tangerang in Indonesia have each fixed the same type of flaw in their Model Context Protocol (MCP) servers. Independent researcher Syed Anas Mohiuddin reported all fiv",
+      "link": "https://thenextweb.com/news/mcp-flaw-ssrf-google-jpmorgan-dinum-protocol-pivoting",
+      "published": "2026-10-06T00:00:38.000Z",
+      "source": "The Next Web",
+      "category": "general",
+      "xml_category": "data and security",
+      "tags": [],
+      "image": "https://media.thenextweb.com/2026/10/cables-plugged-into-back-panel-connectors-close-up.avif"
+    },
+    {
+      "id": "tportal-3",
+      "title": "Mali sateliti, 3D modeliranje i raketno modelarstvo: Ovako će škole i muzeji približiti svemir najmlađima",
+      "summary": "Svjetski tjedan svemira, najveća globalna manifestacija posvećena svemirskoj znanosti i tehnologiji, održava se od 4. do 10. listopada, a ovogodišnja tema nosi naziv \"Raketna revolucija\". Nacionalni koordinator za Hrvatsku pozvao je u ponedjeljak sve obrazovne ustanove, udruge, tvrtke i javne ustano",
+      "link": "https://www.tportal.hr/tehno/clanak/mali-sateliti-3d-modeliranje-i-raketno-modelarstvo-ovako-ce-skole-i-muzeji-pribliziti-svemir-najmladima-20261005",
+      "published": "2026-10-06T00:00:00.000Z",
+      "source": "Tportal",
+      "category": "general",
+      "xml_category": "tech",
+      "tags": [],
+      "image": "https://www.tportal.hr/media/thumbnail/500x300/2654347.jpeg?cropId=0"
+    },
+    {
+      "id": "the-next-web-1",
+      "title": "Florida woman arrested after Anthropic reported her Claude chat to police",
+      "summary": "Sheriff’s deputies have arrested a woman in Florida after Anthropic reported her Claude conversation to law enforcement. In the chat she allegedly said she would “shoot up” the Lee County Sheriff’s Office. WINK News first reported the arrest on 30 September. According to the arrest report, she wrote",
+      "link": "https://thenextweb.com/news/anthropic-claude-chat-reported-police-florida-arrest",
+      "published": "2026-10-05T23:48:50.000Z",
+      "source": "The Next Web",
+      "category": "ai",
+      "xml_category": "anthropic",
+      "tags": [],
+      "image": "https://media.thenextweb.com/2026/09/claude-chatgpt-app-icons-iphone.avif"
+    },
+    {
+      "id": "the-next-web-2",
+      "title": "San Diego sues AppLovin over explicit ads on kids’ devices, Bloomberg reports",
+      "summary": "San Diego County has sued AppLovin, a mobile advertising technology company. The county alleges that AppLovin bypassed parental controls to serve ads for adult dating services, alcohol, vaping and graphic sexual content in games played by children. The complaint was filed with San Diego Superior Cou",
+      "link": "https://thenextweb.com/news/applovin-lawsuit-san-diego-county-children-ads-securities-class-action",
+      "published": "2026-10-05T23:16:24.000Z",
+      "source": "The Next Web",
+      "category": "tech",
+      "xml_category": "legal",
+      "tags": [],
+      "image": "https://media.thenextweb.com/2026/10/hands-holding-smartphone-playing-mobile-game-dark-background.avif"
+    },
+    {
+      "id": "the-verge-0",
+      "title": "Gemini Call for Me might tell your mom you&#8217;re running late",
+      "summary": "Google may be expanding its \"Call for Me\" AI feature beyond business calls so you can use it to send messages to friends and family. Android Authority reports finding a \"Gemini Calling\" introductory screen in an APK teardown with examples that include \"Call Mom and tell her I will be 15 minutes late",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1005177/google-gemini-call-for-me-expansion-rumors",
+      "published": "2026-10-05T23:09:55.000Z",
+      "source": "The Verge",
+      "category": "ai",
+      "xml_category": "[object object]",
+      "tags": [],
+      "image": null
+    },
+    {
+      "id": "the-next-web-3",
+      "title": "Nokia CEO says data centres would go up twice as fast if supply allowed",
+      "summary": "Nokia’s chief executive Justin Hotard says the industry would build data centres twice as fast if memory and energy supply allowed, and that demand would hold even without a new frontier model for three years. Bain and a paper presented at the Brookings Papers on Economic Activity both question whet",
+      "link": "https://thenextweb.com/news/nokia-hotard-data-centres-europe",
+      "published": "2026-10-05T22:54:01.000Z",
+      "source": "The Next Web",
+      "category": "general",
+      "xml_category": "artificial intelligence",
+      "tags": [],
+      "image": "https://media.thenextweb.com/2023/11/Untitled-design-19.avif"
+    },
+    {
+      "id": "the-next-web-4",
+      "title": "Senator Bernie Moreno accuses Anthropic’s Amodei of ‘alarmist’ AI talk",
+      "summary": "Republican senator Bernie Moreno has accused Anthropic chief executive Dario Amodei of taking an “alarmist approach” to AI. He did so in a letter sent on Monday, ahead of Anthropic’s expected stock market listing. Axios first reported the letter. “I do not understand how you can ask them to invest t",
+      "link": "https://thenextweb.com/news/bernie-moreno-letter-dario-amodei-anthropic-alarmist",
+      "published": "2026-10-05T22:43:35.000Z",
+      "source": "The Next Web",
+      "category": "ai",
+      "xml_category": "anthropic",
+      "tags": [],
+      "image": "https://media.thenextweb.com/2026/10/bernie-moreno-speaking-stage-red-tie-blue-backdrop.avif"
+    },
+    {
+      "id": "the-next-web-5",
+      "title": "Texas city wants $2.3M for public records on police Flock use",
+      "summary": "A Fort Worth suburb has told a privacy group it would cost $2.3M to release records on how its police use Flock number plate cameras, a figure reached by estimating 14 years of labour at $15 an hour. Under the EU’s law enforcement directive the same information has to be logged as a matter of [&hell",
+      "link": "https://thenextweb.com/news/flock-records-fee-texas-eu-logs",
+      "published": "2026-10-05T22:37:56.000Z",
+      "source": "The Next Web",
+      "category": "general",
+      "xml_category": "artificial intelligence",
+      "tags": [],
+      "image": "https://media.thenextweb.com/2026/10/flock-dual-camera-unit-pole.avif"
+    },
+    {
+      "id": "the-next-web-6",
+      "title": "Meta, TikTok and X challenge Ofcom over online safety data, Reuters reports",
+      "summary": "Meta, TikTok and X are challenging Ofcom in court over its data demands under the UK’s Online Safety Act, Reuters reported on Monday. The challenge is one of the first brought under the 2023 law. In February, Ofcom sent the companies information notices, according to Paul Sandle’s report for Reuters",
+      "link": "https://thenextweb.com/news/meta-tiktok-x-challenge-ofcom-online-safety-act-data",
+      "published": "2026-10-05T22:31:06.000Z",
+      "source": "The Next Web",
+      "category": "general",
+      "xml_category": "legal",
+      "tags": [],
+      "image": "https://media.thenextweb.com/2026/10/hands-holding-phone-social-media-apps-folder.avif"
+    },
+    {
+      "id": "ars-technica-0",
+      "title": "MCP for agent-to-agent comms may be the riskiest protocol you&#039;ve never heard of",
+      "summary": "Trust gaps in the new protocol spread malicious prompts from one agent to another.",
+      "link": "https://arstechnica.com/security/2026/10/vulnerability-in-agents-from-google-and-others-exposes-structural-flaw-in-mcp/",
+      "published": "2026-10-05T22:26:35.000Z",
+      "source": "Ars Technica",
+      "category": "general",
+      "xml_category": "ai",
+      "tags": [],
+      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/ai-agents-1152x648.jpg"
+    },
+    {
+      "id": "the-next-web-7",
+      "title": "TikTok adds an AI shopping assistant and one-click checkout to its app",
+      "summary": "TikTok is adding an AI shopping assistant and one-click checkout to its app. The two features let users buy directly from brands without leaving TikTok, the company said in an announcement at Advertising Week New York on Monday. Buy Direct is an in-app checkout. Users can buy from a brand straight f",
+      "link": "https://thenextweb.com/news/tiktok-ai-shopping-assistant-buy-direct-checkout",
+      "published": "2026-10-05T22:23:11.000Z",
+      "source": "The Next Web",
+      "category": "ai",
+      "xml_category": "tiktok",
+      "tags": [],
+      "image": "https://media.thenextweb.com/2026/10/tiktok-website-browser-tab-for-you-dark-screen.avif"
+    },
+    {
+      "id": "the-next-web-8",
+      "title": "Cheaper EVs are fuelling Europe’s electric car boom, and the rules behind them are up for revision",
+      "summary": "Battery-electric sales in the EU reached 1.64 million in the first eight months of 2026, up 45%, with 16 models under EUR 25,000 due on sale by the end of the year. Transport and Environment says the version of the 2035 target proposed by Parliament’s rapporteur would cut sales of those cheap models",
+      "link": "https://thenextweb.com/news/cheap-evs-europe-salini-targets",
+      "published": "2026-10-05T22:18:32.000Z",
+      "source": "The Next Web",
+      "category": "general",
+      "xml_category": "business",
+      "tags": [],
+      "image": "https://media.thenextweb.com/2026/08/tesla-exhausts-california-myfirstev-rebate-five-days.avif"
+    },
+    {
+      "id": "the-next-web-9",
+      "title": "Pinterest hires Amazon’s advertising finance chief as CFO",
+      "summary": "Pinterest has made James Dibbo its chief financial officer from 26 October, hired out of Amazon where he was finance chief for global entertainment, advertising and corporate development. He replaces Julia Brau Donnelly, who announced her departure in August, and he inherits a business whose Europea",
+      "link": "https://thenextweb.com/news/pinterest-cfo-amazon-ads-europe",
+      "published": "2026-10-05T22:05:42.000Z",
+      "source": "The Next Web",
+      "category": "economy",
+      "xml_category": "artificial intelligence",
+      "tags": [],
+      "image": "https://media.thenextweb.com/2026/09/pinterest-san-francisco-headquarters-lobby.avif"
+    },
+    {
+      "id": "the-verge-1",
+      "title": "Reverse-engineered games: All the news on video game decomps, recomps, VR and web and 3D ports",
+      "summary": "It&#8217;s a wild time for retro gaming. Thanks to decompilations and recompilations of classic titles, those games are becoming unshackled from their proprietary code and original hardware to be ported to new devices or updated in ways to completely change the original game. Ever imagined skateboar",
+      "link": "https://www.theverge.com/games/1004869/reverse-engineered-games-all-the-news-on-video-game-decomps-recomps-vr-and-web-and-3d-ports",
+      "published": "2026-10-05T21:17:45.000Z",
+      "source": "The Verge",
+      "category": "general",
+      "xml_category": "[object object]",
+      "tags": [],
+      "image": null
+    },
+    {
+      "id": "the-verge-2",
+      "title": "The Matic is the first robovac to get an FCC ban waiver, not that it needs it",
+      "summary": "The Matic is our favorite robot vacuum and robo-mop, and it's also now the first to escape the FCC's Roomba ban. Well, sort of - because the Matic wasn't banned to begin with. Here's what's actually happening: On October 2nd, the FCC added the original Matic, model 4MA0001, and its charging dock mod",
+      "link": "https://www.theverge.com/policy/1004926/matic-fcc-ban-waiver-conditional-approval",
+      "published": "2026-10-05T21:15:05.000Z",
+      "source": "The Verge",
+      "category": "ai",
+      "xml_category": "[object object]",
+      "tags": [],
+      "image": null
+    },
     {
       "id": "the-next-web-0",
       "title": "Wikimedia says rogue OpenAI agents edited its wikis without approval",
@@ -15,7 +303,7 @@
       "image": "https://media.thenextweb.com/2026/10/wikimedia-foundation-dell-server-racks-close-up.avif"
     },
     {
-      "id": "tportal-0",
+      "id": "tportal-4",
       "title": "Pentagon više ne koristi Anthropic",
       "summary": "Američko ministarstvo obrane više ne koristi alate tvrtke Anthropic, što je za BBC potvrdio jedan dužnosnik Pentagona. Odluka dolazi nekoliko mjeseci nakon što je tvrtka proglašena sigurnosnim rizikom za opskrbni lanac",
       "link": "https://www.tportal.hr/tehno/clanak/pentagon-vise-ne-koristi-anthropic-20261005",
@@ -39,7 +327,7 @@
       "image": null
     },
     {
-      "id": "the-verge-0",
+      "id": "the-verge-3",
       "title": "This startup is issuing AI-generated acne prescriptions",
       "summary": "People in Utah can now use AI to get a prescription for acne treatment. On Monday, healthcare startup Nolla Health announced that users in the state can scan their faces using its app, allowing its AI system to analyze acne severity and autonomously write a prescription, as reported earlier by Bloom",
       "link": "https://www.theverge.com/ai-artificial-intelligence/1005075/nolla-health-acne-ai-prescriptions",
@@ -63,7 +351,7 @@
       "image": null
     },
     {
-      "id": "the-verge-1",
+      "id": "the-verge-4",
       "title": "All the drama around AI&#8217;s takeover of mathematics",
       "summary": "This past year, OpenAI, Anthropic, and other labs have announced breakthroughs on numerous long-standing mathematical problems, in some cases pushing well beyond what researchers expected current systems to be capable of — including resolving one of the famous Millennium Prize problems. But in class",
       "link": "https://www.theverge.com/ai-artificial-intelligence/1004933/ai-math-openai-breakthrough-solution",
@@ -75,7 +363,7 @@
       "image": null
     },
     {
-      "id": "the-verge-2",
+      "id": "the-verge-5",
       "title": "Wikipedia operator says OpenAI&#8217;s &#8216;rogue&#8217; bots may be linked to a May outage",
       "summary": "Following many recent disclosures about AI agents accessing third-party websites and services, the Wikimedia Foundation, which hosts Wikipedia, says that it \"can confirm that we have discovered some activity\" by \"rogue\" OpenAI agents on Wikimedia platforms. The activity includes edits to Wikimedia w",
       "link": "https://www.theverge.com/news/1004929/wikipedia-openai-rogue-bots-wikimedia-foundation-outage",
@@ -99,7 +387,7 @@
       "image": null
     },
     {
-      "id": "the-verge-3",
+      "id": "the-verge-6",
       "title": "Hyundai CEO says only a ‘level playing field’ can minimize damage from China",
       "summary": "There's been a lot of doom and gloom from the auto industry lately when the subject of China comes up. Automaker CEOs, in particular, warn that allowing low-cost, high-tech Chinese electric vehicles to be sold in the US would effectively spell the end of their businesses. Hyundai CEO Jos&#233; Mu&#2",
       "link": "https://www.theverge.com/transportation/1004785/hyundai-ceo-china-ev-us-market-share",
@@ -123,7 +411,7 @@
       "image": null
     },
     {
-      "id": "bug.hr-0",
+      "id": "bug.hr-6",
       "title": "Huawei i Qualcomm postigli važan patentni dogovor za 5G i AI",
       "summary": "Višegodišnji sporazum obuhvaća 5G, umjetnu inteligenciju, računalne i mrežne tehnologije, a Qualcomm će pritom preuzeti i dio Huaweijevih američkih patenata",
       "link": "https://www.bug.hr/biznis/huawei-i-qualcomm-postigli-vazan-patentni-dogovor-za-5g-i-ai-63338",
@@ -135,7 +423,7 @@
       "image": "https://www.bug.hr/img/huawei-i-qualcomm-postigli-vazan-patentni-dogovor-za-5g-i-ai_zAW1Hn.png"
     },
     {
-      "id": "the-verge-4",
+      "id": "the-verge-7",
       "title": "OpenAI is adding text watermarking in ChatGPT and Codex",
       "summary": "An invisible, machine-readable watermark in text output is rolling out to ChatGPT and Codex, but only for users in the European Union at first. OpenAI says its textGrain watermarking \"matched or exceeded\" other approaches like Google DeepMind's SynthID for text, which is also the basis for the water",
       "link": "https://www.theverge.com/ai-artificial-intelligence/1004880/openai-chatgpt-text-watermarks-eu-ai-act",
@@ -159,7 +447,7 @@
       "image": null
     },
     {
-      "id": "the-verge-5",
+      "id": "the-verge-8",
       "title": "OpenAI PR tells journalist to ‘move on’ while asking Sam Altman about a ChatGPT user&#8217;s suicide",
       "summary": "An OpenAI publicist tried to change the topic of CEO Sam Altman's interview with Vanity Fair's Mark Guiducci after the editor brought up a ChatGPT user's suicide. When Guiducci confronted Altman about the incident, the publicist warned Guiducci about running out of time, saying she'd like to \"move o",
       "link": "https://www.theverge.com/ai-artificial-intelligence/1004827/openai-sam-altman-vanity-fair-interview-pr",
@@ -171,7 +459,7 @@
       "image": null
     },
     {
-      "id": "the-verge-6",
+      "id": "the-verge-9",
       "title": "Sam Altman says ‘some bad things&#8217; will happen, but AI is totally worth it",
       "summary": "Sam Altman thinks that the benefits of AI will be so great that \"the world should accept some bad things happening\" along the way. The OpenAI CEO pointed to hacks, scams, and \"other bad things\" as costs society should expect to tolerate because \"people will do tremendously orders of magnitude more g",
       "link": "https://www.theverge.com/ai-artificial-intelligence/1004811/openai-altman-bad-things-ai-tradeoff",
@@ -195,7 +483,7 @@
       "image": null
     },
     {
-      "id": "bug.hr-1",
+      "id": "bug.hr-7",
       "title": "Podrška za Office 2021 završava 13. listopada: Office 2024 Pro dostupan već od 19,99 €",
       "summary": "Godeal24 nudi izuzetno povoljne, originalne i trajno aktivirane Windows i Office softverske pakete. Windows 11 Pro samo 12,25 € i Office 2024 Pro samo 22,99 €",
       "link": "https://www.bug.hr/promo/podrska-za-office-2021-zavrsava-13-listopada-office-2024-pro-dostupan-vec-od-63337",
@@ -233,7 +521,7 @@
     {
       "id": "techcrunch-ai-6",
       "title": "OpenAI launches visual ads that appear alongside image generation results",
-      "summary": "OpenAI said the new visual ads will show up after your image generation results appear in the U.S. only for now.",
+      "summary": "The new ads will begin to appear later this month in the U.S. only for now, and will feature products and services from an initial test group of advertisers.",
       "link": "https://techcrunch.com/2026/10/05/openai-launches-visual-ads-that-appear-alongside-image-generation-results/",
       "published": "2026-10-05T15:14:24.000Z",
       "source": "TechCrunch AI",
@@ -267,7 +555,7 @@
       "image": null
     },
     {
-      "id": "bug.hr-2",
+      "id": "bug.hr-8",
       "title": "Bivši agent američke Tajne službe: AI kriminalcima nije donio ništa novo, samo bolju bušilicu",
       "summary": "Richard K. LaTulip više je od dvadeset godina na tajnim zadacima razotkrivao kibernetičke kriminalce, a danas je Field CISO tvrtke Recorded Future - razgovarali smo na konferenciji Impact SEE u Bukureštu...",
       "link": "https://www.bug.hr/intervju/bivsi-agent-americke-tajne-sluzbe-ai-kriminalcima-nije-donio-nista-novo-samo-63340",
@@ -291,7 +579,7 @@
       "image": "https://www.netokracija.com/wp-content/uploads/2026/10/podcast-clanak-s7ep1-300x180.png"
     },
     {
-      "id": "bug.hr-3",
+      "id": "bug.hr-9",
       "title": "Remaster The Witchera 3 postavio novi rekord po broju istovremenih igrača",
       "summary": "Jučer je The Witcher 3: Wild Hunt - Remastered u isto vrijeme igralo gotovo 138 tisuća igrača samo na Steamu, što je novi rekord otkako je igra objavljena prije jedanaest godina",
       "link": "https://www.bug.hr/igre/remaster-the-witchera-3-postavio-novi-rekord-po-broju-istovremenih-igraca-63326",
@@ -303,7 +591,7 @@
       "image": "https://www.bug.hr/img/remaster-the-witchera-3-postavio-novi-rekord-po-broju-istovremenih-igraca_2120Tm.jpg"
     },
     {
-      "id": "bug.hr-4",
+      "id": "bug.hr-10",
       "title": "Nova Atlasova šaka s četiri prsta izrađena je za precizne fizičke poslove",
       "summary": "Boston Dynamics razvio je novu naprednu šaku za humanoidnog robota Atlas. Unatoč nedostatku malog prsta, sustav s 13 stupnjeva slobode kretanja omogućuje precizno korištenje alata",
       "link": "https://www.bug.hr/robotika/nova-atlasova-saka-s-cetiri-prsta-izradjena-je-za-precizne-fizicke-poslove-63328",
@@ -399,7 +687,7 @@
       "image": null
     },
     {
-      "id": "bug.hr-5",
+      "id": "bug.hr-11",
       "title": "Od ponoći jeftinije sve vrste goriva",
       "summary": "Benzin i dizel od utorka pojeftinjuju za dva centa po litri, dok će plavi dizel biti jeftiniji za četiri centa. Međutim, UNP za spremnike i boce poskupljuje za tri centa po kilogramu",
       "link": "https://autonet.bug.hr/transport/od-ponoci-jeftinije-sve-vrste-goriva-63332",
@@ -411,7 +699,7 @@
       "image": "https://autonet.bug.hr/img/od-ponoci-jeftinije-sve-vrste-goriva_kYnqmi.jpg"
     },
     {
-      "id": "bug.hr-6",
+      "id": "bug.hr-12",
       "title": "Sofascore i NHL objavili višegodišnje globalno partnerstvo",
       "summary": "Sofascore i National Hockey League (NHL) objavili su višegodišnje globalno partnerstvo koje Sofascoreu omogućuje razvoj nove generacije NHL statistika",
       "link": "https://www.bug.hr/sport/sofascore-i-nhl-objavili-visegodisnje-globalno-partnerstvo-63334",
@@ -423,7 +711,7 @@
       "image": "https://www.bug.hr/img/sofascore-i-nhl-objavili-visegodisnje-globalno-partnerstvo_Eo58rp.jpg"
     },
     {
-      "id": "bug.hr-7",
+      "id": "bug.hr-13",
       "title": "Apple bi već sljedećeg mjeseca mogao predstaviti MacBook Pro sa zaslonom na dodir",
       "summary": "Apple navodno već idućeg mjeseca predstavlja nove 14 i 16-inčne MacBook Pro modele s OLED zaslonima osjetljivima na dodir",
       "link": "https://www.bug.hr/laptopi/apple-bi-vec-sljedeceg-mjeseca-mogao-predstaviti-macbook-pro-sa-zaslonom-na-63339",
@@ -531,7 +819,7 @@
       "image": "https://media.thenextweb.com/2026/08/President-Donald-Trump.avif"
     },
     {
-      "id": "tportal-1",
+      "id": "tportal-5",
       "title": "Poljska istražuje Google: ‘Velike tehnološke kompanije nisu iznad zakona’",
       "summary": "Poljski regulator izvijestio je u ponedjeljak da je otvorio istragu kako bi utvrdio je li Google u pregovorima s poljskim medijima o plaćanju njihovog sadržaja zloupotrijebio dominantni položaj na tržištu kako bi ih doveo u neravnopravnu pregovaračku poziciju",
       "link": "https://www.tportal.hr/tehno/clanak/poljska-istrazuje-google-velike-tehnoloske-kompanije-nisu-iznad-zakona-20261005",
@@ -591,7 +879,7 @@
       "image": "https://media.thenextweb.com/2026/10/reclinker-investors-team-group-photo-office-building.avif"
     },
     {
-      "id": "bug.hr-8",
+      "id": "bug.hr-14",
       "title": "Koliko ste spremni? HUAWEI WATCH GT 7 povezuje podatke o snu, aktivnosti i oporavku u jedan rezultat",
       "summary": "Pametni satovi već godinama prikupljaju velik broj podataka- Huaweijeva funkcija Physical Readiness (Ocjena fizičke spremnosti) na HUAWEI WATCH GT 7 Series sve te podatke promatra ukupno kao jedan rezultat",
       "link": "https://www.bug.hr/promo/koliko-ste-spremni-huawei-watch-gt-7-povezuje-podatke-o-snu-aktivnosti-i-63335",
@@ -627,7 +915,7 @@
       "image": "https://media.thenextweb.com/2026/10/coco-delivery-robot-canary-wharf.avif"
     },
     {
-      "id": "tportal-2",
+      "id": "tportal-6",
       "title": "U afričkim špiljama događa se nešto fascinantno, znanstvenik nam otkrio detalje: &#039;Evoluiraju pred našim očima&#039;",
       "summary": "Duboko u špiljama Gabona, u gotovo potpunom mraku i bez tračka sunca, žive krokodili koji love šišmiše i genetski se već razlikuju od pripadnika iste vrste koji obitavaju u šumi udaljenoj tek nekoliko stotina metara. Za znanstvenika Matta Shirleyja oni su rijetka prilika da evoluciju ne proučava sam",
       "link": "https://www.tportal.hr/tehno/clanak/u-africkim-spiljama-dogada-se-nesto-fascinantno-znanstvenik-nam-otkrio-detalje-evoluiraju-pred-nasim-ocima-foto-20261005",
@@ -699,7 +987,7 @@
       "image": "https://media.thenextweb.com/2026/08/huawei-logo-mobile-world-congress-2015.avif"
     },
     {
-      "id": "tportal-3",
+      "id": "tportal-7",
       "title": "LAUNCHub osigurao 65 milijuna eura za novi fond, Hrvatska među ključnim tržištima",
       "summary": "Hrvatska je među ključnim tržištima novog fonda LAUNCHub Venturesa, za koji su u prvom krugu prikupljanja kapitala osigurane obveze ulaganja od 65 milijuna eura. Fond cilja na više od 75 milijuna eura i planira oko 25 ulaganja u startupove u ranoj fazi razvoja, s početnim iznosima od 300.000 do tri ",
       "link": "https://www.tportal.hr/tehno/clanak/launchub-osigurao-65-milijuna-eura-za-novi-fond-hrvatska-medu-kljucnim-trzistima-20261005",
@@ -711,7 +999,7 @@
       "image": "https://www.tportal.hr/media/thumbnail/500x300/2806168.jpeg?cropId=0"
     },
     {
-      "id": "tportal-4",
+      "id": "tportal-8",
       "title": "Nova studija s Harvarda: Starije srce u mlađem tijelu pokazuje znakove pomlađivanja",
       "summary": "Stručnjaci su nizom eksperimenata postigli efekt pomlađivanja ili starenja presađenih srca kod miševa. Mlado srce je &#039;ostarjelo&#039; u starijem mišu dok se staro srce &#039;pomladilo&#039; u mlađem organizmu",
       "link": "https://www.tportal.hr/tehno/clanak/nova-studija-s-harvarda-starije-srce-u-mladem-tijelu-pokazuje-znakove-pomladivanja-20261005",
@@ -735,7 +1023,7 @@
       "image": null
     },
     {
-      "id": "tportal-5",
+      "id": "tportal-9",
       "title": "Jačanje kibernetičke otpornosti: Predstavnik ENISA-e u Zagrebu govorio o primjeni NIS2 direktive",
       "summary": "Provedba Zakona o kibernetičkoj sigurnosti i izazovi s kojima se tvrtke susreću u zaštiti od kibernetičkih prijetnji bili su teme sastanka predstavnika Infobipa, Agencije Europske unije za kibernetičku sigurnost (ENISA) i Nacionalnog centra za kibernetičku sigurnost (NCSC-HR), održanog u Infobipovu ",
       "link": "https://www.tportal.hr/tehno/clanak/jacanje-kiberneticke-otpornosti-predstavnik-enisa-e-u-zagrebu-razgovarao-o-primjeni-nis2-direktive-20261005",
@@ -747,7 +1035,7 @@
       "image": "https://www.tportal.hr/media/thumbnail/500x300/2806157.jpeg?cropId=0"
     },
     {
-      "id": "tportal-6",
+      "id": "tportal-10",
       "title": "Sukob vizija na vrhu AI industrije: Zašto se šef OpenAI-ja protivi Anthropicovom pristupu?",
       "summary": "OpenAI-jev direktor je u nedavnom intervjuu za Politico objasnio zašto se ne slaže sa Anthropicovim pristupom regulaciji umjetne inteligencije",
       "link": "https://www.tportal.hr/tehno/clanak/sukob-vizija-na-vrhu-ai-industrije-zasto-se-sef-openai-ja-protivi-anthropicovom-pristupu-20261005",
@@ -759,7 +1047,7 @@
       "image": "https://www.tportal.hr/media/thumbnail/500x300/2792316.jpeg?cropId=0"
     },
     {
-      "id": "bug.hr-9",
+      "id": "bug.hr-15",
       "title": "Online rezervacije kratkoročnog smještaja u EU-u porasle 5,3 posto",
       "summary": "Turisti su od travnja do lipnja 2026. u EU-u ostvarili 258,8 milijuna noćenja u kratkoročnom smještaju rezerviranom putem Airbnba, Bookinga i Expedije",
       "link": "https://mreza.bug.hr/biznis/online-rezervacije-kratkorocnog-smjestaja-u-eu-u-porasle-53-posto-63291",
@@ -795,7 +1083,7 @@
       "image": null
     },
     {
-      "id": "bug.hr-10",
+      "id": "bug.hr-16",
       "title": "Posjetili smo tunel od 4,2 milijarde eura: Jedan od najvećih europskih projekata u fazi je opremanja",
       "summary": "Izgradnja tunela Semmering ulazi u završnu fazu opremanja Siemensovom tehnologijom, a očekivano puštanje u promet u prosincu 2029. donijet će brža putovanja i jačanje gospodarstva Austrije",
       "link": "https://www.bug.hr/reportaza/posjetili-smo-tunel-od-42-milijarde-eura-jedan-od-najvecih-europskih-projekata-63327",
@@ -819,7 +1107,7 @@
       "image": "https://media.thenextweb.com/2026/07/meta-ray-ban-smart-glasses-.avif"
     },
     {
-      "id": "tportal-7",
+      "id": "tportal-11",
       "title": "Nobel za medicinu za optogenetiku: &#039;Postavili su temelje nove ere u neuroznanosti&#039;",
       "summary": "Nagrada je dodijeljena &#039;za njihova otkrića u vezi sa svjetlosno kontroliranim ionskim kanalima i optogenetikom&#039;, istaknuli su iz Odbora za Nobela",
       "link": "https://www.tportal.hr/tehno/clanak/nobel-za-medicinu-za-optogenetiku-postavili-su-temelje-nove-ere-u-neuroznanosti-20261005",
@@ -843,7 +1131,7 @@
       "image": "https://media.thenextweb.com/2026/10/schneider-electric-logo-office-facade-berlin.avif"
     },
     {
-      "id": "tportal-8",
+      "id": "tportal-12",
       "title": "Biste li im dozvolili? Meta želi da njihov AI kupuje umjesto vas",
       "summary": "Metin AI Muse može pretraživati internetske trgovine te tražiti najbolje ponude, usporediti cijene i na koncu pripremiti narudžbu za odobrenje",
       "link": "https://www.tportal.hr/tehno/clanak/biste-li-im-dozvolili-meta-zeli-da-njihov-ai-kupuje-umjesto-vas-20261005",
@@ -855,7 +1143,7 @@
       "image": "https://www.tportal.hr/media/thumbnail/500x300/2800371.jpeg?cropId=0"
     },
     {
-      "id": "bug.hr-11",
+      "id": "bug.hr-17",
       "title": "AMD želi olakšati prelazak s CUDA-e na ROCm",
       "summary": "ROCm 10 i novi ROCm.AI donose alate za prijenos postojećeg CUDA koda, jednostavnije postavljanje AI infrastrukture i optimizaciju aplikacija za AMD-ove GPU akceleratore",
       "link": "https://www.bug.hr/softver/amd-zeli-olaksati-prelazak-s-cuda-e-na-rocm-63323",
@@ -879,7 +1167,7 @@
       "image": "https://media.thenextweb.com/2026/09/sam-altman-green-sweater-speaking-dark-stage-devday-livestream-1736.avif"
     },
     {
-      "id": "tportal-9",
+      "id": "tportal-13",
       "title": "Znanstvenici oglasili uzbunu: Pronađen mutirani soj gljivice koja je otporna na lijekove",
       "summary": "Liječnici i znanstvenici već godinama upozoravaju da bi pretjerana upotreba antibiotika mogla stvoriti bakterije koje će biti otporne na sve lijekove. No, čini se da se sad to dogodilo i sa gljivicama",
       "link": "https://www.tportal.hr/tehno/clanak/znanstvenici-oglasili-uzbunu-pronaden-mutirani-soj-gljivice-koja-je-otporna-na-lijekove-20261005",
@@ -903,7 +1191,7 @@
       "image": "https://www.netokracija.com/wp-content/uploads/2026/10/florijan-Krause-geek-gathering-300x180.png"
     },
     {
-      "id": "tportal-10",
+      "id": "tportal-14",
       "title": "Hakiran središnji registar u Danskoj: Kompromitirani podaci 8,8 milijuna ljudi",
       "summary": "Hakiran je središnji registar s popisom osoba i njihovim adresama u Danskoj, što je omogućilo pristup podacima 8,8 milijuna ljudi, objavilo je u ponedjeljak dansko ministarstvo za digitalizaciju",
       "link": "https://www.tportal.hr/tehno/clanak/hakiran-sredisnji-registar-u-danskoj-kompromitirani-podaci-8-8-milijuna-ljudi-20261005",
@@ -927,7 +1215,7 @@
       "image": "https://media.thenextweb.com/2026/09/elonmusk-west-wing-press.avif"
     },
     {
-      "id": "tportal-11",
+      "id": "tportal-15",
       "title": "Tajni puls dubokog svemira: Astronomi ulovili dosad najduži rendgenski bljesak nastao u sudaru dviju zvijezda",
       "summary": "Nova opažanja upućuju na mogućnost da su dugotrajni rendgenski bljeskovi usko povezani sa sudarima neutronskih zvijezda",
       "link": "https://www.tportal.hr/tehno/clanak/tajni-puls-dubokog-svemira-astronomi-ulovili-dosad-najduzi-rendgenski-bljesak-nastao-u-sudaru-dviju-zvijezda-20261005",
@@ -939,7 +1227,7 @@
       "image": "https://www.tportal.hr/media/thumbnail/500x300/2630508.jpeg?cropId=0"
     },
     {
-      "id": "tportal-12",
+      "id": "tportal-16",
       "title": "Hoće li u orbiti brže dozrijevati i dobiti snažniji okus? Škoti i Japanci šalju viski u svemir",
       "summary": "Troje astronauta i jedan ruski kozmonaut u četvrtak su postavili rekord za najbrži let američke svemirske letjelice do Međunarodne svemirske postaje (ISS).",
       "link": "https://www.tportal.hr/tehno/clanak/viski-svemir-20261002",
@@ -951,7 +1239,7 @@
       "image": "https://www.tportal.hr/media/thumbnail/500x300/2805998.jpeg?cropId=0"
     },
     {
-      "id": "tportal-13",
+      "id": "tportal-17",
       "title": "Počinje sezona Nobela: Istraživanja lijekova poput Ozempica i lepezasta znanost u utrci za medicinu",
       "summary": "Istraživanja hormona koji reguliraju apetit spominju se kao mogući kandidati za Nobelovu nagradu za medicinu, koja će biti objavljena u ponedjeljak, čime počinje sezona dodjele Nobelovih nagrada za 2026. godinu",
       "link": "https://www.tportal.hr/tehno/clanak/pocinje-sezona-nobela-istrazivanja-lijekova-poput-ozempica-i-lepezasta-znanost-u-utrci-za-medicinu-20261005",
@@ -975,7 +1263,7 @@
       "image": "https://media.thenextweb.com/2026/10/pandektes-co-founders-studio-portrait.avif"
     },
     {
-      "id": "bug.hr-12",
+      "id": "bug.hr-18",
       "title": "Honorova serija Magic 9 u Europu stiže početkom iduće godine",
       "summary": "Honor je potvrdio da će serija Magic 9 na tržišta Ujedinjenog Kraljevstva i Francuske stići u siječnju, a očekuje se da će se tada pojaviti i u ostatku Europe",
       "link": "https://www.bug.hr/mobiteli/honorova-serija-magic-9-u-europu-stize-pocetkom-iduce-godine-63321",
@@ -985,114 +1273,6 @@
       "xml_category": "mobiteli",
       "tags": [],
       "image": "https://www.bug.hr/img/honorova-serija-magic-9-u-europu-stize-pocetkom-iduce-godine_WrBaKM.jpg"
-    },
-    {
-      "id": "bug.hr-13",
-      "title": "Smrtna kazna: tehnologija „humanog pogubljenja”",
-      "summary": "Od giljotine i omče do električne stolice, lijekova i dušika, svaka nova metoda obećavala je bržu i manje bolnu smrt. Povijest nam pokazuje koliko se teško ta obećanja pretvaraju u pouzdan postupak",
-      "link": "https://www.bug.hr/medicina/smrtna-kazna-tehnologija-humanog-pogubljenja-63324",
-      "published": "2026-10-05T04:25:00.000Z",
-      "source": "Bug.hr",
-      "category": "general",
-      "xml_category": "medicina",
-      "tags": [],
-      "image": "https://www.bug.hr/img/smrtna-kazna-tehnologija-humanog-pogubljenja_sy8cSR.jpg"
-    },
-    {
-      "id": "bug.hr-14",
-      "title": "Amerika gradi svoj Agrokor",
-      "summary": "Jedan kupac o kojem visi cijeli lanac, dobavljači koji kreditiraju vlastite kupce, obveze sklonjene u knjigovodstvene bilješke i u zasebne firme te knjigovodstvo koje uljepšava rezultat. Hrvatska je taj film već gledala 2017. godine, zvalo se \"Afera Agrokor\". Razlika je u tome što je američka verzij",
-      "link": "https://www.bug.hr/biznis/amerika-gradi-svoj-agrokor-63320",
-      "published": "2026-10-05T04:25:00.000Z",
-      "source": "Bug.hr",
-      "category": "general",
-      "xml_category": "biznis",
-      "tags": [],
-      "image": "https://www.bug.hr/img/amerika-gradi-svoj-agrokor_H55ks6.png"
-    },
-    {
-      "id": "bug.hr-15",
-      "title": "Adobe Premiere - slavno rješenje za ozbiljnu montažu videa napokon i na Androidu",
-      "summary": "Mobilna inačica Adobeovog Premierea prilično se dugo iščekivala na Android telefonima, a odnedavno je konačno i dostupna što će zacijelo razveseliti sve one koji traže zapravo prilično ozbiljan alat za montažu videa na svojem Android pametnom telefonu…",
-      "link": "https://www.bug.hr/appdana/adobe-premiere-slavno-rjesenje-za-ozbiljnu-montazu-videa-napokon-i-na-androidu-63300",
-      "published": "2026-10-05T04:25:00.000Z",
-      "source": "Bug.hr",
-      "category": "general",
-      "xml_category": "app dana",
-      "tags": [],
-      "image": "https://www.bug.hr/img/adobe-premiere-slavno-rjesenje-za-ozbiljnu-montazu-videa-napokon-i-na-androidu_pAXH_9.png"
-    },
-    {
-      "id": "bug.hr-1",
-      "title": "Adobe Premiere - slavno rješenje za ozbiljnu montažu videa napokon i Androidu",
-      "summary": "Mobilna inačica Adobeovog Premierea prilično se dugo iščekivala na Android telefonima, a odnedavno je konačno i dostupna što će zacijelo razveseliti sve one koji traže zapravo prilično ozbiljan alat za montažu videa na svojem Android pametnom telefonu…",
-      "link": "https://www.bug.hr/appdana/adobe-premiere-slavno-rjesenje-za-ozbiljnu-montazu-videa-napokon-i-androidu-63300",
-      "published": "2026-10-05T04:25:00.000Z",
-      "source": "Bug.hr",
-      "category": "general",
-      "xml_category": "app dana",
-      "tags": [],
-      "image": "https://www.bug.hr/img/adobe-premiere-slavno-rjesenje-za-ozbiljnu-montazu-videa-napokon-i-androidu_pAXH_9.png"
-    },
-    {
-      "id": "bug.hr-16",
-      "title": "Globalni R&D program dosegnuo je 3,4 bilijuna USD",
-      "summary": "Umjetna inteligencija potiče oporavak financiranja rizičnog kapitala (venture capital, VC) i potrošnje na istraživanje i razvoj (research and development, R&D)",
-      "link": "https://mreza.bug.hr/istrazivanja/globalni-rd-program-dosegnuo-je-34-bilijuna-usd-63272",
-      "published": "2026-10-05T04:10:00.000Z",
-      "source": "Bug.hr",
-      "category": "general",
-      "xml_category": "istraživanja",
-      "tags": [],
-      "image": "https://mreza.bug.hr/img/globalni-rd-program-dosegnuo-je-34-bilijuna-usd_9VUGVP.jpg"
-    },
-    {
-      "id": "bug.hr-17",
-      "title": "Jaecoo 5 SHS-H Elite vs. Jaecoo 7 SHS-H Elite: Slični, a različiti. Koji je model bolji?",
-      "summary": "Iako su usporedivi po dimenzijama, opremi i performansama, Jaecoo 5 i Jaecoo 7 u izvedbama s Elite opremom dijeli 4000 eura. Evo što to znači u stvarnosti...",
-      "link": "https://autonet.bug.hr/test/jaecoo-5-shs-h-elite-vs-jaecoo-7-shs-h-elite-slicni-a-razliciti-koji-je-63325",
-      "published": "2026-10-05T04:09:00.000Z",
-      "source": "Bug.hr",
-      "category": "general",
-      "xml_category": "test",
-      "tags": [],
-      "image": "https://autonet.bug.hr/img/jaecoo-5-shs-h-elite-vs-jaecoo-7-shs-h-elite-slicni-a-razliciti-koji-je_OL2xZq.jpg"
-    },
-    {
-      "id": "bug.hr-18",
-      "title": "„Schumacher ’94“: prvi naslov odlučio je sudar, a Netflix ga prikazuje samo iz jednog kuta",
-      "summary": "Novi dokumentarac o Michaelu Schumacheru na Netflixu prati 1994., godinu prvog naslova, tragedije u Imoli i optužbi za varanje. Njegovo zdravstveno stanje film ne spominje",
-      "link": "https://magnet.bug.hr/film/schumacher-94-prvi-naslov-odlucio-je-sudar-a-netflix-ga-prikazuje-samo-iz-63318",
-      "published": "2026-10-05T04:00:00.000Z",
-      "source": "Bug.hr",
-      "category": "general",
-      "xml_category": "film",
-      "tags": [],
-      "image": "https://magnet.bug.hr/img/schumacher-94-prvi-naslov-odlucio-je-sudar-a-netflix-ga-prikazuje-samo-iz_xfq0w1.png"
-    },
-    {
-      "id": "bug.hr-19",
-      "title": "FIA se oglasila nakon kaotičnog starta VN Bahreina – softver je kriv za sve",
-      "summary": "Još jednom smo ove sezone dobili potvrdu da se softver previše \"petlja\" u utrkivanje, kad je na startu utrke došlo do problema kod dijela momčadi, pa izazvalo odgodu i ponovni start",
-      "link": "https://autonet.bug.hr/formula-1/fia-se-oglasila-nakon-kaoticnog-starta-vn-bahreina--softver-je-kriv-za-sve-63319",
-      "published": "2026-10-04T21:05:00.000Z",
-      "source": "Bug.hr",
-      "category": "general",
-      "xml_category": "formula 1",
-      "tags": [],
-      "image": "https://autonet.bug.hr/img/fia-se-oglasila-nakon-kaoticnog-starta-vn-bahreina--softver-je-kriv-za-sve_srPB3f.jpg"
-    },
-    {
-      "id": "the-verge-8",
-      "title": "The new Fitbit Edge leaks",
-      "summary": "We don't know a ton about the Fitbit Edge, but it appears to be a successor to the midrange Charge line. It had leaked previously, but we can clearly see in these images posted by Android Headlines, you can see that Google's rumored fitness tracker sort of splits the difference between the Pixel Wat",
-      "link": "https://www.theverge.com/gadgets/1004616/the-new-fitbit-edge-leaks",
-      "published": "2026-10-04T21:02:09.000Z",
-      "source": "The Verge",
-      "category": "general",
-      "xml_category": "[object object]",
-      "tags": [],
-      "image": null
     }
   ]
 }
