@@ -1,33 +1,33 @@
 {
-  "generated_at": "2026-10-06T09:01:23.677Z",
+  "generated_at": "2026-10-06T10:01:23.715Z",
   "stats": {
-    "Mochvara": {
+    "muzika.hr": {
       "ok": true,
-      "count": 15
+      "count": 25
     },
     "Lisinski": {
       "ok": true,
       "count": 0
     },
-    "Tvornica": {
-      "ok": true,
-      "count": 2
-    },
     "Gavella": {
       "ok": true,
       "count": 37
     },
-    "muzika.hr": {
+    "Mochvara": {
       "ok": true,
-      "count": 25
+      "count": 15
     },
-    "Komedija": {
+    "Tvornica": {
       "ok": true,
-      "count": 0
+      "count": 2
     },
     "ZeKaeM": {
       "ok": true,
       "count": 1
+    },
+    "Komedija": {
+      "ok": true,
+      "count": 0
     },
     "HNK Zagreb": {
       "ok": true,
@@ -37,13 +37,13 @@
       "ok": true,
       "count": 0
     },
-    "Trešnja": {
+    "Pogon": {
       "ok": true,
       "count": 0
     },
-    "Pogon": {
-      "ok": false,
-      "error": "The operation was aborted due to timeout"
+    "Trešnja": {
+      "ok": true,
+      "count": 0
     }
   },
   "concerts": [
@@ -1501,6 +1501,21 @@
       "source": "HNK Zagreb",
       "is_new": false,
       "first_seen": "2026-07-06T16:01:38.364Z"
+    },
+    {
+      "id": "cd49b2b52c",
+      "title": "Razgled kazališta 166 sezona iza kulisa",
+      "venue": "HNK Zagreb",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-10-17T14:00:00",
+      "date_display": "sub, 17. 10. 2026.",
+      "time": "14:00",
+      "link": "https://hnk.hr/hr/ostalo/predstave/iza-kulisa-166-sezona/#17.10.14.00",
+      "source": "HNK Zagreb",
+      "is_new": true,
+      "first_seen": "2026-10-06T10:01:23.715Z"
     },
     {
       "id": "ff6129adc6",
@@ -4147,5 +4162,5 @@
       "first_seen": "2026-09-27T22:37:54.746Z"
     }
   ],
-  "new_count": 4
+  "new_count": 5
 }
