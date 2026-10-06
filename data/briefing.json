@@ -1,7 +1,7 @@
 {
   "version": 2,
   "date": "2026-10-06",
-  "generated_at": "2026-10-06T05:03:18.384Z",
+  "generated_at": "2026-10-06T11:43:02.705Z",
   "date_hr": "Utorak, 6. listopada 2026.",
   "weather": {
     "icon": "🌫️",
@@ -11,6 +11,10 @@
   "fuel": {
     "current_date": "06.10.2026",
     "eurodiesel": [
+      {
+        "company": "Adria Oil",
+        "price": 1.84
+      },
       {
         "company": "Coral Croatia",
         "price": 1.84
@@ -30,10 +34,6 @@
       {
         "company": "Tifon",
         "price": 1.84
-      },
-      {
-        "company": "Adria Oil",
-        "price": 1.86
       }
     ],
     "premium_eurodiesel": [
@@ -63,13 +63,23 @@
     "upcoming_premium": null
   },
   "market": {
-    "updated_at": "2026-10-06T05:03:18.384Z",
-    "btc_usd": 85598,
-    "btc_eur": 76311,
-    "btc_change_24h": 0.09,
+    "updated_at": "2026-10-06T11:43:02.705Z",
+    "btc_usd": 86305,
+    "btc_eur": 76637,
+    "btc_change_24h": 0.22,
     "usd_eur": 0.8921
   },
   "ai_news": [
+    {
+      "title": "Anthropic IPO filing shows CEO Dario Amodei earned $18M last year",
+      "link": "https://thenextweb.com/news/anthropic-dario-amodei-pay-18m-ipo-filing",
+      "source": "The Next Web"
+    },
+    {
+      "title": "Tekst generiran ChatGPT-jem bit će označen nevidljivim \"vodenim žigom\"",
+      "link": "https://www.bug.hr/umjetna-inteligencija/tekst-generiran-chatgpt-jem-bit-ce-oznacen-nevidljivim-vodenim-zigom-63351",
+      "source": "Bug.hr"
+    },
     {
       "title": "Pazite što govorite svom chatbotu - prijavit će vas policiji!",
       "link": "https://www.bug.hr/umjetna-inteligencija/pazite-sto-govorite-svom-chatbotu-prijavit-ce-vas-policiji-63348",
@@ -84,16 +94,6 @@
       "title": "Wikimedia says rogue OpenAI agents edited its wikis without approval",
       "link": "https://thenextweb.com/news/wikimedia-openai-agents-wiki-edits-wikidata-outage",
       "source": "The Next Web"
-    },
-    {
-      "title": "OpenAI will start watermarking ChatGPT&#8217;s text in the EU",
-      "link": "https://techcrunch.com/2026/10/05/openai-will-start-watermarking-chatgpts-text-in-the-eu/",
-      "source": "TechCrunch AI"
-    },
-    {
-      "title": "All the drama around AI&#8217;s takeover of mathematics",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1004933/ai-math-openai-breakthrough-solution",
-      "source": "The Verge"
     }
   ],
   "micro_tips": {
