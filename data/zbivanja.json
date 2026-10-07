@@ -1,13 +1,9 @@
 {
-  "generated_at": "2026-10-07T14:01:24.330Z",
+  "generated_at": "2026-10-07T15:01:31.602Z",
   "stats": {
     "Lisinski": {
       "ok": true,
       "count": 0
-    },
-    "Tvornica": {
-      "ok": true,
-      "count": 2
     },
     "Mochvara": {
       "ok": true,
@@ -17,15 +13,23 @@
       "ok": true,
       "count": 35
     },
-    "muzika.hr": {
+    "Tvornica": {
       "ok": true,
-      "count": 25
+      "count": 2
     },
     "ZeKaeM": {
       "ok": true,
       "count": 1
     },
+    "muzika.hr": {
+      "ok": true,
+      "count": 25
+    },
     "Komedija": {
+      "ok": true,
+      "count": 0
+    },
+    "Kerempuh": {
       "ok": true,
       "count": 0
     },
@@ -33,15 +37,11 @@
       "ok": true,
       "count": 89
     },
-    "Kerempuh": {
+    "Trešnja": {
       "ok": true,
       "count": 0
     },
     "Pogon": {
-      "ok": true,
-      "count": 0
-    },
-    "Trešnja": {
       "ok": true,
       "count": 0
     }
@@ -2024,7 +2024,7 @@
       "time": null,
       "link": "https://mochvara.hr/event-detail/6abeba817f5e9f461b3eb801/",
       "source": "Mochvara",
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-10-07T14:01:24.330Z"
     },
     {
@@ -4222,5 +4222,5 @@
       "first_seen": "2026-09-27T22:37:54.746Z"
     }
   ],
-  "new_count": 5
+  "new_count": 4
 }
