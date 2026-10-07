@@ -1,15 +1,15 @@
 {
   "version": 2,
-  "date": "2026-10-06",
-  "generated_at": "2026-10-06T11:43:02.705Z",
-  "date_hr": "Utorak, 6. listopada 2026.",
+  "date": "2026-10-07",
+  "generated_at": "2026-10-07T05:02:37.699Z",
+  "date_hr": "Srijeda, 7. listopada 2026.",
   "weather": {
-    "icon": "🌫️",
-    "summary": "7–22°C, magla",
+    "icon": "☁️",
+    "summary": "12–24°C, oblačno",
     "alerts": []
   },
   "fuel": {
-    "current_date": "06.10.2026",
+    "current_date": "07.10.2026",
     "eurodiesel": [
       {
         "company": "Adria Oil",
@@ -63,13 +63,28 @@
     "upcoming_premium": null
   },
   "market": {
-    "updated_at": "2026-10-06T11:43:02.705Z",
-    "btc_usd": 86305,
-    "btc_eur": 76637,
-    "btc_change_24h": 0.22,
-    "usd_eur": 0.8921
+    "updated_at": "2026-10-07T05:02:37.699Z",
+    "btc_usd": 84084,
+    "btc_eur": 74854,
+    "btc_change_24h": -1.76,
+    "usd_eur": 0.8887
   },
   "ai_news": [
+    {
+      "title": "Microsoft i Meta režu upotrebu Claudea u korist vlastitih alata",
+      "link": "https://www.bug.hr/biznis/microsoft-i-meta-rezu-upotrebu-claudea-u-korist-vlastitih-alata-63366",
+      "source": "Bug.hr"
+    },
+    {
+      "title": "Anthropic is giving startups a free year of Claude Team and $1,000 in credits",
+      "link": "https://techcrunch.com/2026/10/06/anthropic-gives-startups-a-free-year-of-enterprise-service-and-1000-in-token-credits/",
+      "source": "TechCrunch AI"
+    },
+    {
+      "title": "OpenAI agents tried to hack Wikipedia tools and flooded it with traffic",
+      "link": "https://arstechnica.com/security/2026/10/openai-agents-tried-to-hack-wikipedia-tools-and-flooded-it-with-traffic/",
+      "source": "Ars Technica"
+    },
     {
       "title": "Anthropic IPO filing shows CEO Dario Amodei earned $18M last year",
       "link": "https://thenextweb.com/news/anthropic-dario-amodei-pay-18m-ipo-filing",
@@ -79,30 +94,15 @@
       "title": "Tekst generiran ChatGPT-jem bit će označen nevidljivim \"vodenim žigom\"",
       "link": "https://www.bug.hr/umjetna-inteligencija/tekst-generiran-chatgpt-jem-bit-ce-oznacen-nevidljivim-vodenim-zigom-63351",
       "source": "Bug.hr"
-    },
-    {
-      "title": "Pazite što govorite svom chatbotu - prijavit će vas policiji!",
-      "link": "https://www.bug.hr/umjetna-inteligencija/pazite-sto-govorite-svom-chatbotu-prijavit-ce-vas-policiji-63348",
-      "source": "Bug.hr"
-    },
-    {
-      "title": "Florida woman arrested after Anthropic reported her Claude chat to police",
-      "link": "https://thenextweb.com/news/anthropic-claude-chat-reported-police-florida-arrest",
-      "source": "The Next Web"
-    },
-    {
-      "title": "Wikimedia says rogue OpenAI agents edited its wikis without approval",
-      "link": "https://thenextweb.com/news/wikimedia-openai-agents-wiki-edits-wikidata-outage",
-      "source": "The Next Web"
     }
   ],
   "micro_tips": {
     "vscode": {
-      "tip": "Peek Definition bez napuštanja fajla",
-      "keys": "Alt+F12"
+      "tip": "Dupliciraj trenutnu liniju ispod",
+      "keys": "Shift+Alt+↓"
     },
-    "sql": "Batch INSERT umjesto jednog-po-jednog: INSERT INTO t VALUES (...),(...),...",
-    "oracle": "FETCH FIRST n ROWS ONLY umjesto ROWNUM — kompatibilno s ORDER BY i čitljivije",
-    "regex": "^(?!.*pattern) negative lookahead: \"ova linija ne smije sadržavati X\""
+    "sql": "EXISTS umjesto IN za subqueries — brže jer stane na prvom podudaranju: WHERE EXISTS (SELECT 1 FROM ...)",
+    "oracle": "/*+ INDEX(t ime_indexa) */ forsira specifičan index kad optimizer bira full scan",
+    "regex": "\\b granica riječi: \\bword\\b podudara cijelu riječ, ne \"password\" ili \"swordfish\""
   }
 }
