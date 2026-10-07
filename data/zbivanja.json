@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-07T20:01:23.932Z",
+  "generated_at": "2026-10-07T23:54:24.653Z",
   "stats": {
     "muzika.hr": {
       "ok": true,
@@ -8,6 +8,10 @@
     "Lisinski": {
       "ok": true,
       "count": 0
+    },
+    "Mochvara": {
+      "ok": true,
+      "count": 16
     },
     "Tvornica": {
       "ok": true,
@@ -29,17 +33,13 @@
       "ok": true,
       "count": 0
     },
-    "Mochvara": {
+    "Kerempuh": {
       "ok": true,
-      "count": 16
+      "count": 0
     },
     "HNK Zagreb": {
       "ok": true,
       "count": 89
-    },
-    "Kerempuh": {
-      "ok": true,
-      "count": 0
     },
     "Trešnja": {
       "ok": true,
@@ -1338,6 +1338,21 @@
       "first_seen": "2026-10-06T22:49:36.616Z"
     },
     {
+      "id": "499b7d4fc4",
+      "title": "Podrži scenu!: Richter, Videokrug, Svijest",
+      "venue": "Mochvara",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-10-14T19:30:00",
+      "date_display": "sri, 14. 10. 2026.",
+      "time": "19:30",
+      "link": "https://mochvara.hr/event-detail/6aaba9ef4608dcb2ec6df8f3/",
+      "source": "Mochvara",
+      "is_new": true,
+      "first_seen": "2026-10-07T23:54:24.653Z"
+    },
+    {
       "id": "ce73e40cd1",
       "title": "Leut Magnetik Četvrtak 15.10.2026.",
       "venue": "Mochvara",
@@ -1966,6 +1981,21 @@
       "source": "Tvornica Kulture",
       "is_new": false,
       "first_seen": "2026-05-26T20:26:55.235Z"
+    },
+    {
+      "id": "49fe6267d4",
+      "title": "Ki Klop",
+      "venue": "Ki Klop Tvornica kulture Šubićeva 2",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-10-30T20:00:00",
+      "date_display": "pet, 30. 10. 2026.",
+      "time": "20:00",
+      "link": "https://www.muzika.hr/event/ki-klop-u-tvornici-kulture-zagreb-2026/",
+      "source": "muzika.hr",
+      "is_new": true,
+      "first_seen": "2026-10-07T23:54:24.653Z"
     },
     {
       "id": "5095edc102",
@@ -4192,5 +4222,5 @@
       "first_seen": "2026-09-27T22:37:54.746Z"
     }
   ],
-  "new_count": 4
+  "new_count": 6
 }
