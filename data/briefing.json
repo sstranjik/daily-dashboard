@@ -1,15 +1,15 @@
 {
   "version": 2,
-  "date": "2026-10-07",
-  "generated_at": "2026-10-07T11:30:07.374Z",
-  "date_hr": "Srijeda, 7. listopada 2026.",
+  "date": "2026-10-08",
+  "generated_at": "2026-10-08T05:03:00.291Z",
+  "date_hr": "Četvrtak, 8. listopada 2026.",
   "weather": {
-    "icon": "☁️",
-    "summary": "11–25°C, oblačno",
+    "icon": "🌦️",
+    "summary": "15–22°C, pljuskovi · 7.8 mm",
     "alerts": []
   },
   "fuel": {
-    "current_date": "07.10.2026",
+    "current_date": "08.10.2026",
     "eurodiesel": [
       {
         "company": "Adria Oil",
@@ -63,46 +63,46 @@
     "upcoming_premium": null
   },
   "market": {
-    "updated_at": "2026-10-07T11:30:07.374Z",
-    "btc_usd": 83674,
-    "btc_eur": 74791,
-    "btc_change_24h": -2.92,
-    "usd_eur": 0.8887
+    "updated_at": "2026-10-08T05:03:00.291Z",
+    "btc_usd": 82614,
+    "btc_eur": 73729,
+    "btc_change_24h": -1.76,
+    "usd_eur": 0.8929
   },
   "ai_news": [
     {
-      "title": "ChatGPT for Teens is unsafe for under-18s, Common Sense Media says",
-      "link": "https://thenextweb.com/news/chatgpt-for-teens-is-unsafe-for-under-18s",
-      "source": "The Next Web"
-    },
-    {
-      "title": "ChatGPT for Teens is an ‘unacceptable risk,’ says Common Sense Media",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1006355/openai-chatgpt-for-teens-common-sense-media",
+      "title": "ChatGPT&#8217;s &#8216;Intelligent UI&#8217; update fills its responses with pictures, charts, and buttons",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1007276/openai-chatgpt-intelligent-ui-gpt-6",
       "source": "The Verge"
     },
     {
-      "title": "OpenAI uvodi novu vrstu oglasa u ChatGPT",
-      "link": "https://www.bug.hr/umjetna-inteligencija/openai-uvodi-novu-vrstu-oglasa-u-chatgpt-63355",
-      "source": "Bug.hr"
-    },
-    {
-      "title": "Microsoft i Meta režu upotrebu Claudea u korist vlastitih alata",
-      "link": "https://www.bug.hr/biznis/microsoft-i-meta-rezu-upotrebu-claudea-u-korist-vlastitih-alata-63366",
-      "source": "Bug.hr"
-    },
-    {
-      "title": "Anthropic is giving startups a free year of Claude Team and $1,000 in credits",
-      "link": "https://techcrunch.com/2026/10/06/anthropic-gives-startups-a-free-year-of-enterprise-service-and-1000-in-token-credits/",
+      "title": "ChatGPT is getting a lot more visual, with the launch of a new interface",
+      "link": "https://techcrunch.com/2026/10/07/chatgpt-is-getting-a-lot-more-visual-with-the-launch-of-a-new-interface/",
       "source": "TechCrunch AI"
+    },
+    {
+      "title": "ChatGPT is getting college planning tools",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1005194/openai-chatgpt-teens-college-planner-notecards",
+      "source": "The Verge"
+    },
+    {
+      "title": "Muse launches on the iPad",
+      "link": "https://www.theverge.com/tech/1006813/muse-ai-agent-ios-app-ipad-support",
+      "source": "The Verge"
+    },
+    {
+      "title": "Musk’s Grok Bot will use Anthropic’s Claude, Midjourney and Suno models",
+      "link": "https://thenextweb.com/news/grok-bot-claude-opus-midjourney-suno-musk",
+      "source": "The Next Web"
     }
   ],
   "micro_tips": {
     "vscode": {
-      "tip": "Dupliciraj trenutnu liniju ispod",
-      "keys": "Shift+Alt+↓"
+      "tip": "Obriši cijelu liniju odjednom",
+      "keys": "Ctrl+Shift+K"
     },
-    "sql": "EXISTS umjesto IN za subqueries — brže jer stane na prvom podudaranju: WHERE EXISTS (SELECT 1 FROM ...)",
-    "oracle": "/*+ INDEX(t ime_indexa) */ forsira specifičan index kad optimizer bira full scan",
-    "regex": "\\b granica riječi: \\bword\\b podudara cijelu riječ, ne \"password\" ili \"swordfish\""
+    "sql": "Nikad SELECT * u produkciji — navedi kolone, manji I/O i bolji cache plan",
+    "oracle": "/*+ PARALLEL(t 4) */ paralelno izvršavanje querija na N thread-ova",
+    "regex": "(?:group) non-capturing group: grupiraj bez pamćenja za veće performanse"
   }
 }
