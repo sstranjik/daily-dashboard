@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-08T13:01:29.678Z",
+  "generated_at": "2026-10-08T14:01:26.373Z",
   "stats": {
     "muzika.hr": {
       "ok": true,
@@ -13,6 +13,10 @@
       "ok": true,
       "count": 16
     },
+    "Tvornica": {
+      "ok": true,
+      "count": 2
+    },
     "Gavella": {
       "ok": true,
       "count": 35
@@ -21,19 +25,11 @@
       "ok": true,
       "count": 1
     },
-    "Pogon": {
-      "ok": true,
-      "count": 0
-    },
-    "Tvornica": {
-      "ok": true,
-      "count": 2
-    },
-    "Trešnja": {
-      "ok": true,
-      "count": 0
-    },
     "Komedija": {
+      "ok": true,
+      "count": 0
+    },
+    "Pogon": {
       "ok": true,
       "count": 0
     },
@@ -42,6 +38,10 @@
       "count": 90
     },
     "Kerempuh": {
+      "ok": true,
+      "count": 0
+    },
+    "Trešnja": {
       "ok": true,
       "count": 0
     }
@@ -3725,6 +3725,21 @@
       "first_seen": "2026-07-02T15:01:22.773Z"
     },
     {
+      "id": "c35954fa5a",
+      "title": "Friedrich Schiller Maria Stuart",
+      "venue": "HNK Zagreb",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "theater",
+      "date_iso": "2026-10-30T19:30:00",
+      "date_display": "pet, 30. 10. 2026.",
+      "time": "19:30",
+      "link": "https://hnk.hr/hr/drama/predstave/maria-stuart/#30.10.19.30",
+      "source": "HNK Zagreb",
+      "is_new": true,
+      "first_seen": "2026-10-08T14:01:26.373Z"
+    },
+    {
       "id": "80006dd6d4",
       "title": "Hotel Zagorje",
       "venue": "Gavella",
@@ -3753,6 +3768,21 @@
       "source": "HNK Zagreb",
       "is_new": false,
       "first_seen": "2026-07-02T15:01:22.773Z"
+    },
+    {
+      "id": "d2b175aa9d",
+      "title": "Friedrich Schiller Maria Stuart",
+      "venue": "HNK Zagreb",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "theater",
+      "date_iso": "2026-10-31T18:00:00",
+      "date_display": "sub, 31. 10. 2026.",
+      "time": "18:00",
+      "link": "https://hnk.hr/hr/drama/predstave/maria-stuart/#31.10.18.00",
+      "source": "HNK Zagreb",
+      "is_new": true,
+      "first_seen": "2026-10-08T14:01:26.373Z"
     },
     {
       "id": "60f8511bc3",
@@ -3886,7 +3916,7 @@
       "time": null,
       "link": "https://www.gavella.hr/predstave/bunike-nisam-stala",
       "source": "Gavella",
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-10-08T13:01:29.678Z"
     },
     {
@@ -4312,5 +4342,5 @@
       "first_seen": "2026-09-27T22:37:54.746Z"
     }
   ],
-  "new_count": 5
+  "new_count": 6
 }
