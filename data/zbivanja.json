@@ -1,21 +1,17 @@
 {
-  "generated_at": "2026-10-08T12:01:28.552Z",
+  "generated_at": "2026-10-08T12:21:45.062Z",
   "stats": {
-    "muzika.hr": {
-      "ok": true,
-      "count": 25
-    },
     "Mochvara": {
       "ok": true,
       "count": 16
     },
+    "muzika.hr": {
+      "ok": true,
+      "count": 25
+    },
     "Lisinski": {
       "ok": true,
       "count": 0
-    },
-    "Tvornica": {
-      "ok": true,
-      "count": 2
     },
     "Gavella": {
       "ok": true,
@@ -25,7 +21,15 @@
       "ok": true,
       "count": 1
     },
+    "Tvornica": {
+      "ok": true,
+      "count": 2
+    },
     "Komedija": {
+      "ok": true,
+      "count": 0
+    },
+    "Kerempuh": {
       "ok": true,
       "count": 0
     },
@@ -33,17 +37,13 @@
       "ok": true,
       "count": 90
     },
-    "Kerempuh": {
-      "ok": true,
-      "count": 0
-    },
     "Pogon": {
-      "ok": true,
-      "count": 0
+      "ok": false,
+      "error": "The operation was aborted due to timeout"
     },
     "Trešnja": {
-      "ok": true,
-      "count": 0
+      "ok": false,
+      "error": "The operation was aborted due to timeout"
     }
   },
   "concerts": [
@@ -1111,6 +1111,21 @@
       "source": "HNK Zagreb",
       "is_new": false,
       "first_seen": "2026-09-07T14:01:16.280Z"
+    },
+    {
+      "id": "a29ed3f606",
+      "title": "Corto svira Azru",
+      "venue": "Vintage Industrial Bar Savska ulica 160",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-10-09T20:00:00",
+      "date_display": "pet, 09. 10. 2026.",
+      "time": "20:00",
+      "link": "https://www.muzika.hr/event/corto-svira-azru-vintage-zagreb/",
+      "source": "muzika.hr",
+      "is_new": true,
+      "first_seen": "2026-10-08T12:21:45.062Z"
     },
     {
       "id": "2655988d18",
@@ -4282,5 +4297,5 @@
       "first_seen": "2026-09-27T22:37:54.746Z"
     }
   ],
-  "new_count": 4
+  "new_count": 5
 }
