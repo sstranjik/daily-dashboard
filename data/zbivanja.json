@@ -1,10 +1,6 @@
 {
-  "generated_at": "2026-10-08T20:01:20.988Z",
+  "generated_at": "2026-10-09T00:01:06.316Z",
   "stats": {
-    "muzika.hr": {
-      "ok": true,
-      "count": 25
-    },
     "Mochvara": {
       "ok": true,
       "count": 16
@@ -21,6 +17,10 @@
       "ok": true,
       "count": 2
     },
+    "muzika.hr": {
+      "ok": true,
+      "count": 25
+    },
     "ZeKaeM": {
       "ok": true,
       "count": 1
@@ -29,54 +29,24 @@
       "ok": true,
       "count": 0
     },
+    "Pogon": {
+      "ok": true,
+      "count": 0
+    },
     "HNK Zagreb": {
       "ok": true,
-      "count": 90
+      "count": 89
     },
     "Kerempuh": {
       "ok": true,
       "count": 0
     },
-    "Pogon": {
+    "Trešnja": {
       "ok": true,
       "count": 0
-    },
-    "Trešnja": {
-      "ok": false,
-      "error": "The operation was aborted due to timeout"
     }
   },
   "concerts": [
-    {
-      "id": "e55d947a18",
-      "title": "Fear Factory",
-      "venue": "Grada Vukovara 68",
-      "city": "Zagreb",
-      "country": "HR",
-      "category": "concert",
-      "date_iso": "2026-09-24T00:00:00",
-      "date_display": "čet, 24. 09. 2026.",
-      "time": null,
-      "link": "https://www.muzika.hr/event/fear-factory/",
-      "source": "muzika.hr",
-      "is_new": false,
-      "first_seen": "2026-08-09T05:01:15.939Z"
-    },
-    {
-      "id": "e6b958248c",
-      "title": "Jonathan",
-      "venue": "Vintage Industrial Bar Savska ulica 160",
-      "city": "Zagreb",
-      "country": "HR",
-      "category": "concert",
-      "date_iso": "2026-09-24T00:00:00",
-      "date_display": "čet, 24. 09. 2026.",
-      "time": null,
-      "link": "https://www.muzika.hr/event/jonathan-3/",
-      "source": "muzika.hr",
-      "is_new": false,
-      "first_seen": "2026-09-15T12:01:11.249Z"
-    },
     {
       "id": "ed7d8b6882",
       "title": "Women in Music Croatia Meetup #1",
@@ -1336,6 +1306,21 @@
       "source": "Mochvara",
       "is_new": false,
       "first_seen": "2026-07-11T15:01:38.070Z"
+    },
+    {
+      "id": "5fd4a22c91",
+      "title": "Leut Magnetik",
+      "venue": "Mochvara",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-10-15T20:00:00",
+      "date_display": "čet, 15. 10. 2026.",
+      "time": "20:00",
+      "link": "https://mochvara.hr/event-detail/6a4e8217b33d8fee6726f390/",
+      "source": "Mochvara",
+      "is_new": true,
+      "first_seen": "2026-10-09T00:01:06.316Z"
     },
     {
       "id": "230d8ac94f",
@@ -4312,5 +4297,5 @@
       "first_seen": "2026-09-27T22:37:54.746Z"
     }
   ],
-  "new_count": 4
+  "new_count": 5
 }
