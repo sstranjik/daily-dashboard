@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-09T00:01:06.316Z",
+  "generated_at": "2026-10-09T05:01:20.564Z",
   "stats": {
     "Mochvara": {
       "ok": true,
@@ -13,10 +13,6 @@
       "ok": true,
       "count": 34
     },
-    "Tvornica": {
-      "ok": true,
-      "count": 2
-    },
     "muzika.hr": {
       "ok": true,
       "count": 25
@@ -29,13 +25,17 @@
       "ok": true,
       "count": 0
     },
+    "HNK Zagreb": {
+      "ok": true,
+      "count": 89
+    },
     "Pogon": {
       "ok": true,
       "count": 0
     },
-    "HNK Zagreb": {
+    "Tvornica": {
       "ok": true,
-      "count": 89
+      "count": 2
     },
     "Kerempuh": {
       "ok": true,
@@ -1319,7 +1319,7 @@
       "time": "20:00",
       "link": "https://mochvara.hr/event-detail/6a4e8217b33d8fee6726f390/",
       "source": "Mochvara",
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-10-09T00:01:06.316Z"
     },
     {
@@ -4297,5 +4297,5 @@
       "first_seen": "2026-09-27T22:37:54.746Z"
     }
   ],
-  "new_count": 5
+  "new_count": 4
 }
