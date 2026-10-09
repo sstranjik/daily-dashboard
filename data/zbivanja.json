@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-09T07:01:21.028Z",
+  "generated_at": "2026-10-09T08:01:55.163Z",
   "stats": {
     "muzika.hr": {
       "ok": true,
@@ -13,17 +13,21 @@
       "ok": true,
       "count": 0
     },
-    "Gavella": {
-      "ok": true,
-      "count": 34
-    },
     "Tvornica": {
       "ok": true,
       "count": 2
     },
+    "Gavella": {
+      "ok": true,
+      "count": 34
+    },
     "ZeKaeM": {
       "ok": true,
       "count": 1
+    },
+    "Pogon": {
+      "ok": true,
+      "count": 0
     },
     "Komedija": {
       "ok": true,
@@ -31,11 +35,7 @@
     },
     "HNK Zagreb": {
       "ok": true,
-      "count": 90
-    },
-    "Pogon": {
-      "ok": true,
-      "count": 0
+      "count": 91
     },
     "Kerempuh": {
       "ok": true,
@@ -2159,7 +2159,7 @@
       "time": "15:00",
       "link": "https://hnk.hr/hr/ostalo/predstave/iza-kulisa-166-sezona/#07.11.15.00",
       "source": "HNK Zagreb",
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-10-09T07:01:21.028Z"
     },
     {
@@ -2326,6 +2326,21 @@
       "source": "Mochvara",
       "is_new": false,
       "first_seen": "2026-09-28T12:11:36.005Z"
+    },
+    {
+      "id": "751ec2610f",
+      "title": "Razgled kazališta 166 sezona iza kulisa – kombinirani razgled HNK-a i HNK2",
+      "venue": "HNK Zagreb",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-11-14T14:00:00",
+      "date_display": "sub, 14. 11. 2026.",
+      "time": "14:00",
+      "link": "https://hnk.hr/hr/ostalo/predstave/166-sezona-iza-kulisa-kombinirani-razgledi-hnk-i-hnk2/#14.11.14.00",
+      "source": "HNK Zagreb",
+      "is_new": true,
+      "first_seen": "2026-10-09T08:01:55.163Z"
     },
     {
       "id": "27747e11d0",
