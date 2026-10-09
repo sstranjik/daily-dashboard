@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-09T20:01:24.072Z",
+  "generated_at": "2026-10-09T22:57:15.772Z",
   "stats": {
     "muzika.hr": {
       "ok": true,
@@ -29,6 +29,10 @@
       "ok": true,
       "count": 0
     },
+    "HNK Zagreb": {
+      "ok": true,
+      "count": 98
+    },
     "Pogon": {
       "ok": true,
       "count": 0
@@ -36,10 +40,6 @@
     "Kerempuh": {
       "ok": true,
       "count": 0
-    },
-    "HNK Zagreb": {
-      "ok": true,
-      "count": 98
     },
     "Trešnja": {
       "ok": true,
@@ -2101,6 +2101,21 @@
       "source": "HNK Zagreb",
       "is_new": false,
       "first_seen": "2026-08-27T12:01:15.264Z"
+    },
+    {
+      "id": "4b88d615a9",
+      "title": "Električni orgazam",
+      "venue": "Tvornica kulture Šubićeva 2",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-11-07T00:00:00",
+      "date_display": "sub, 07. 11. 2026.",
+      "time": null,
+      "link": "https://www.muzika.hr/event/elektricni-orgazam-4/",
+      "source": "muzika.hr",
+      "is_new": true,
+      "first_seen": "2026-10-09T22:57:15.772Z"
     },
     {
       "id": "145751721a",
@@ -4402,5 +4417,5 @@
       "first_seen": "2026-09-27T22:37:54.746Z"
     }
   ],
-  "new_count": 2
+  "new_count": 3
 }
