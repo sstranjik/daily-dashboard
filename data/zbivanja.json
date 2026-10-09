@@ -1,13 +1,9 @@
 {
-  "generated_at": "2026-10-09T05:01:21.441Z",
+  "generated_at": "2026-10-09T06:01:25.223Z",
   "stats": {
     "Mochvara": {
       "ok": true,
       "count": 16
-    },
-    "muzika.hr": {
-      "ok": true,
-      "count": 25
     },
     "Lisinski": {
       "ok": true,
@@ -17,21 +13,29 @@
       "ok": true,
       "count": 34
     },
+    "Tvornica": {
+      "ok": true,
+      "count": 2
+    },
+    "muzika.hr": {
+      "ok": true,
+      "count": 25
+    },
     "ZeKaeM": {
       "ok": true,
       "count": 1
+    },
+    "Pogon": {
+      "ok": true,
+      "count": 0
     },
     "Komedija": {
       "ok": true,
       "count": 0
     },
-    "Tvornica": {
+    "HNK Zagreb": {
       "ok": true,
-      "count": 2
-    },
-    "Pogon": {
-      "ok": true,
-      "count": 0
+      "count": 89
     },
     "Kerempuh": {
       "ok": true,
@@ -40,10 +44,6 @@
     "Trešnja": {
       "ok": true,
       "count": 0
-    },
-    "HNK Zagreb": {
-      "ok": true,
-      "count": 89
     }
   },
   "concerts": [
@@ -1514,7 +1514,7 @@
       "time": "21:00",
       "link": "https://www.muzika.hr/event/ring-abba-tribute-band/",
       "source": "muzika.hr",
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-10-02T12:01:21.576Z"
     },
     {
@@ -1769,7 +1769,7 @@
       "time": "20:00",
       "link": "https://www.muzika.hr/event/imperial-concerts-by-maestro-terza-tribute-to-music-of-hans-zimmer-epic-soundtracks/",
       "source": "muzika.hr",
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-10-02T12:01:21.576Z"
     },
     {
@@ -4297,5 +4297,5 @@
       "first_seen": "2026-09-27T22:37:54.746Z"
     }
   ],
-  "new_count": 4
+  "new_count": 2
 }
