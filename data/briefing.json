@@ -1,15 +1,15 @@
 {
   "version": 2,
-  "date": "2026-10-08",
-  "generated_at": "2026-10-08T11:44:56.978Z",
-  "date_hr": "Četvrtak, 8. listopada 2026.",
+  "date": "2026-10-09",
+  "generated_at": "2026-10-09T05:03:09.363Z",
+  "date_hr": "Petak, 9. listopada 2026.",
   "weather": {
-    "icon": "🌦️",
-    "summary": "15–22°C, pljuskovi · 2.8 mm",
+    "icon": "🌧️",
+    "summary": "13–19°C, lagana kiša · 5.7 mm",
     "alerts": []
   },
   "fuel": {
-    "current_date": "08.10.2026",
+    "current_date": "09.10.2026",
     "eurodiesel": [
       {
         "company": "Adria Oil",
@@ -63,46 +63,46 @@
     "upcoming_premium": null
   },
   "market": {
-    "updated_at": "2026-10-08T11:44:56.978Z",
-    "btc_usd": 82569,
-    "btc_eur": 73877,
-    "btc_change_24h": -1.25,
-    "usd_eur": 0.8929
+    "updated_at": "2026-10-09T05:03:09.363Z",
+    "btc_usd": 82184,
+    "btc_eur": 73185,
+    "btc_change_24h": -0.54,
+    "usd_eur": 0.8923
   },
   "ai_news": [
     {
-      "title": "ChatGPT&#8217;s &#8216;Intelligent UI&#8217; update fills its responses with pictures, charts, and buttons",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1007276/openai-chatgpt-intelligent-ui-gpt-6",
-      "source": "The Verge"
-    },
-    {
-      "title": "ChatGPT is getting a lot more visual, with the launch of a new interface",
-      "link": "https://techcrunch.com/2026/10/07/chatgpt-is-getting-a-lot-more-visual-with-the-launch-of-a-new-interface/",
+      "title": "Google brings agentic AI to Gemini, starting with businesses",
+      "link": "https://techcrunch.com/2026/10/08/google-brings-agentic-ai-to-gemini-starting-with-businesses/",
       "source": "TechCrunch AI"
     },
     {
-      "title": "ChatGPT is getting college planning tools",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1005194/openai-chatgpt-teens-college-planner-notecards",
+      "title": "Anthropic changes usage policy to ban model abuse and election interference",
+      "link": "https://techcrunch.com/2026/10/08/anthropic-changes-usage-policy-to-ban-model-abuse-and-election-interference/",
+      "source": "TechCrunch AI"
+    },
+    {
+      "title": "Anthropic bans ‘abusive or cruel behavior’ toward Claude",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1008100/anthropic-new-usage-policy-abuse-claude",
       "source": "The Verge"
     },
     {
-      "title": "Muse launches on the iPad",
-      "link": "https://www.theverge.com/tech/1006813/muse-ai-agent-ios-app-ipad-support",
-      "source": "The Verge"
-    },
-    {
-      "title": "Musk’s Grok Bot will use Anthropic’s Claude, Midjourney and Suno models",
-      "link": "https://thenextweb.com/news/grok-bot-claude-opus-midjourney-suno-musk",
+      "title": "Google launches workplace AI agent that gets its own email address",
+      "link": "https://thenextweb.com/news/gemini-agent-workspace-identity-europe",
       "source": "The Next Web"
+    },
+    {
+      "title": "Google is launching a one-stop Gemini agent for your work tasks",
+      "link": "https://www.theverge.com/tech/1007904/google-gemini-ai-agent-enterprise",
+      "source": "The Verge"
     }
   ],
   "micro_tips": {
     "vscode": {
-      "tip": "Obriši cijelu liniju odjednom",
-      "keys": "Ctrl+Shift+K"
+      "tip": "Otvori datoteku brzim pretraživanjem",
+      "keys": "Ctrl+P"
     },
-    "sql": "Nikad SELECT * u produkciji — navedi kolone, manji I/O i bolji cache plan",
-    "oracle": "/*+ PARALLEL(t 4) */ paralelno izvršavanje querija na N thread-ova",
-    "regex": "(?:group) non-capturing group: grupiraj bez pamćenja za veće performanse"
+    "sql": "Covering index: uključi sve kolone iz WHERE + SELECT u index pa nema pristupa tablici",
+    "oracle": "/*+ NO_MERGE(v) */ sprječava merging inline viewa s parent queryjem",
+    "regex": "(?=pattern) lookahead: \"iza ovog mora slijediti X\" bez konzumiranja znakova"
   }
 }
