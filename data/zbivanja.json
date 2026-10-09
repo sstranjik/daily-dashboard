@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-10-09T08:01:55.163Z",
+  "generated_at": "2026-10-09T09:01:24.706Z",
   "stats": {
     "muzika.hr": {
       "ok": true,
       "count": 25
     },
-    "Mochvara": {
-      "ok": true,
-      "count": 16
-    },
     "Lisinski": {
       "ok": true,
       "count": 0
+    },
+    "Mochvara": {
+      "ok": true,
+      "count": 16
     },
     "Tvornica": {
       "ok": true,
@@ -25,21 +25,21 @@
       "ok": true,
       "count": 1
     },
+    "Komedija": {
+      "ok": true,
+      "count": 0
+    },
     "Pogon": {
       "ok": true,
       "count": 0
     },
-    "Komedija": {
+    "Kerempuh": {
       "ok": true,
       "count": 0
     },
     "HNK Zagreb": {
       "ok": true,
-      "count": 91
-    },
-    "Kerempuh": {
-      "ok": true,
-      "count": 0
+      "count": 94
     },
     "Trešnja": {
       "ok": true,
@@ -2339,7 +2339,7 @@
       "time": "14:00",
       "link": "https://hnk.hr/hr/ostalo/predstave/166-sezona-iza-kulisa-kombinirani-razgledi-hnk-i-hnk2/#14.11.14.00",
       "source": "HNK Zagreb",
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-10-09T08:01:55.163Z"
     },
     {
@@ -2476,6 +2476,21 @@
       "source": "HNK Zagreb",
       "is_new": false,
       "first_seen": "2026-08-27T15:01:20.279Z"
+    },
+    {
+      "id": "3956daf1e3",
+      "title": "Razgled kazališta 166 sezona iza kulisa",
+      "venue": "HNK Zagreb",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-11-21T15:00:00",
+      "date_display": "sub, 21. 11. 2026.",
+      "time": "15:00",
+      "link": "https://hnk.hr/hr/ostalo/predstave/iza-kulisa-166-sezona/#21.11.15.00",
+      "source": "HNK Zagreb",
+      "is_new": true,
+      "first_seen": "2026-10-09T09:01:24.706Z"
     },
     {
       "id": "9664086ed6",
@@ -2626,6 +2641,36 @@
       "source": "HNK Zagreb",
       "is_new": false,
       "first_seen": "2026-08-28T10:01:17.450Z"
+    },
+    {
+      "id": "0f02330b61",
+      "title": "Razgled kazališta 166 sezona iza kulisa",
+      "venue": "HNK Zagreb",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-11-28T15:00:00",
+      "date_display": "sub, 28. 11. 2026.",
+      "time": "15:00",
+      "link": "https://hnk.hr/hr/ostalo/predstave/iza-kulisa-166-sezona/#28.11.15.00",
+      "source": "HNK Zagreb",
+      "is_new": true,
+      "first_seen": "2026-10-09T09:01:24.706Z"
+    },
+    {
+      "id": "9e75b1374b",
+      "title": "Razgled kazališta 166 sezona iza kulisa Razgled na engleskom jeziku",
+      "venue": "HNK Zagreb",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-11-28T15:30:00",
+      "date_display": "sub, 28. 11. 2026.",
+      "time": "15:30",
+      "link": "https://hnk.hr/hr/ostalo/predstave/iza-kulisa-166-sezona/#28.11.15.30",
+      "source": "HNK Zagreb",
+      "is_new": true,
+      "first_seen": "2026-10-09T09:01:24.706Z"
     },
     {
       "id": "76b96b099f",
@@ -4327,5 +4372,5 @@
       "first_seen": "2026-09-27T22:37:54.746Z"
     }
   ],
-  "new_count": 3
+  "new_count": 5
 }
