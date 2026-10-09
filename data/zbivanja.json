@@ -1,25 +1,25 @@
 {
-  "generated_at": "2026-10-09T18:33:36.024Z",
+  "generated_at": "2026-10-09T19:01:21.596Z",
   "stats": {
     "muzika.hr": {
       "ok": true,
       "count": 25
     },
-    "Lisinski": {
-      "ok": true,
-      "count": 0
-    },
     "Mochvara": {
       "ok": true,
       "count": 16
     },
-    "Tvornica": {
+    "Lisinski": {
       "ok": true,
-      "count": 2
+      "count": 0
     },
     "Gavella": {
       "ok": true,
       "count": 33
+    },
+    "Tvornica": {
+      "ok": true,
+      "count": 2
     },
     "ZeKaeM": {
       "ok": true,
@@ -29,17 +29,17 @@
       "ok": true,
       "count": 0
     },
-    "HNK Zagreb": {
+    "Pogon": {
       "ok": true,
-      "count": 98
+      "count": 0
     },
     "Kerempuh": {
       "ok": true,
       "count": 0
     },
-    "Pogon": {
+    "HNK Zagreb": {
       "ok": true,
-      "count": 0
+      "count": 98
     },
     "Trešnja": {
       "ok": true,
@@ -47,21 +47,6 @@
     }
   },
   "concerts": [
-    {
-      "id": "ed7d8b6882",
-      "title": "Women in Music Croatia Meetup #1",
-      "venue": "Mojo Bar Martićeva 5",
-      "city": "Zagreb",
-      "country": "HR",
-      "category": "concert",
-      "date_iso": "2026-09-24T19:00:00",
-      "date_display": "čet, 24. 09. 2026.",
-      "time": "19:00",
-      "link": "https://www.muzika.hr/event/women-in-music-croatia-meetup-1/",
-      "source": "muzika.hr",
-      "is_new": false,
-      "first_seen": "2026-09-15T12:01:11.249Z"
-    },
     {
       "id": "c59030c372",
       "title": "Giuseppe Verdi AIDA",
@@ -4246,7 +4231,7 @@
       "time": "19:30",
       "link": "https://hnk.hr/hr/drama/predstave/balkanski-spijun-hnk-rijeka/#25.11.19.30",
       "source": "HNK Zagreb",
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-10-09T18:33:36.024Z"
     },
     {
@@ -4447,5 +4432,5 @@
       "first_seen": "2026-09-27T22:37:54.746Z"
     }
   ],
-  "new_count": 3
+  "new_count": 2
 }
