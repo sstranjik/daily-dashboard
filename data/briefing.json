@@ -1,15 +1,15 @@
 {
   "version": 2,
-  "date": "2026-10-09",
-  "generated_at": "2026-10-09T11:38:12.579Z",
-  "date_hr": "Petak, 9. listopada 2026.",
+  "date": "2026-10-10",
+  "generated_at": "2026-10-10T05:02:23.509Z",
+  "date_hr": "Subota, 10. listopada 2026.",
   "weather": {
     "icon": "🌧️",
-    "summary": "14–19°C, lagana kiša · 5.4 mm",
+    "summary": "14–15°C, lagana kiša · 7.6 mm",
     "alerts": []
   },
   "fuel": {
-    "current_date": "09.10.2026",
+    "current_date": "10.10.2026",
     "eurodiesel": [
       {
         "company": "Adria Oil",
@@ -51,7 +51,7 @@
       },
       {
         "company": "Petrol",
-        "price": 2.12
+        "price": 2.17
       },
       {
         "company": "Coral Croatia",
@@ -63,46 +63,46 @@
     "upcoming_premium": null
   },
   "market": {
-    "updated_at": "2026-10-09T11:38:12.579Z",
-    "btc_usd": 82748,
-    "btc_eur": 73792,
-    "btc_change_24h": 0.41,
-    "usd_eur": 0.8923
+    "updated_at": "2026-10-10T05:02:23.509Z",
+    "btc_usd": 82618,
+    "btc_eur": 73746,
+    "btc_change_24h": 0.53,
+    "usd_eur": 0.8924
   },
   "ai_news": [
     {
-      "title": "Google brings agentic AI to Gemini, starting with businesses",
-      "link": "https://techcrunch.com/2026/10/08/google-brings-agentic-ai-to-gemini-starting-with-businesses/",
+      "title": "Anthropic can&#8217;t reliably control its AI agents. It&#8217;s cutting off its internal evals from the live internet instead",
+      "link": "https://techcrunch.com/2026/10/09/anthropic-cant-reliably-control-its-ai-agents-its-cutting-off-its-internal-evals-from-the-live-internet-instead/",
       "source": "TechCrunch AI"
     },
     {
-      "title": "Anthropic changes usage policy to ban model abuse and election interference",
-      "link": "https://techcrunch.com/2026/10/08/anthropic-changes-usage-policy-to-ban-model-abuse-and-election-interference/",
-      "source": "TechCrunch AI"
-    },
-    {
-      "title": "Anthropic bans ‘abusive or cruel behavior’ toward Claude",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1008100/anthropic-new-usage-policy-abuse-claude",
-      "source": "The Verge"
-    },
-    {
-      "title": "Google launches workplace AI agent that gets its own email address",
-      "link": "https://thenextweb.com/news/gemini-agent-workspace-identity-europe",
+      "title": "Anthropic signs CrowdStrike, Hitachi and 9 more to defend power and water",
+      "link": "https://thenextweb.com/news/anthropic-cyber-mission-critical-infrastructure-oss-scanner",
       "source": "The Next Web"
     },
     {
-      "title": "Google is launching a one-stop Gemini agent for your work tasks",
-      "link": "https://www.theverge.com/tech/1007904/google-gemini-ai-agent-enterprise",
+      "title": "The maker of non-text AI model Jev valued at $7.5B just weeks after launch",
+      "link": "https://techcrunch.com/2026/10/09/the-maker-of-non-text-ai-model-jev-valued-at-7-5b-just-weeks-after-launch/",
+      "source": "TechCrunch AI"
+    },
+    {
+      "title": "Anthropic’s AI gave Philadelphia police a fake tip about an unsolved homicide",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1009090/anthropic-fake-homicide-information-philadelphia-pd-tip",
       "source": "The Verge"
+    },
+    {
+      "title": "An Anthropic AI model sent a false homicide tip to Philadelphia police",
+      "link": "https://techcrunch.com/2026/10/09/an-anthropic-ai-model-sent-a-false-homicide-tip-to-philadelphia-police/",
+      "source": "TechCrunch AI"
     }
   ],
   "micro_tips": {
     "vscode": {
-      "tip": "Otvori datoteku brzim pretraživanjem",
-      "keys": "Ctrl+P"
+      "tip": "Toggle Word Wrap za dugačke linije",
+      "keys": "Alt+Z"
     },
-    "sql": "Covering index: uključi sve kolone iz WHERE + SELECT u index pa nema pristupa tablici",
-    "oracle": "/*+ NO_MERGE(v) */ sprječava merging inline viewa s parent queryjem",
-    "regex": "(?=pattern) lookahead: \"iza ovog mora slijediti X\" bez konzumiranja znakova"
+    "sql": "Window funkcije (ROW_NUMBER, LAG, LEAD) umjesto self-join za redosljed i razlike",
+    "oracle": "/*+ RESULT_CACHE */ cache-ira rezultat funkcije u SGA za ponovljene pozive",
+    "regex": ".+? lazy quantifier: stane na prvom mogućem podudaranju, ne zadnjem"
   }
 }
