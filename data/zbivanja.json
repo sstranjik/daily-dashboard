@@ -1,6 +1,10 @@
 {
-  "generated_at": "2026-10-10T20:21:28.598Z",
+  "generated_at": "2026-10-11T05:01:24.828Z",
   "stats": {
+    "Mochvara": {
+      "ok": true,
+      "count": 16
+    },
     "muzika.hr": {
       "ok": true,
       "count": 25
@@ -8,10 +12,6 @@
     "Lisinski": {
       "ok": true,
       "count": 0
-    },
-    "Mochvara": {
-      "ok": true,
-      "count": 16
     },
     "Tvornica": {
       "ok": true,
@@ -31,11 +31,7 @@
     },
     "HNK Zagreb": {
       "ok": true,
-      "count": 96
-    },
-    "Pogon": {
-      "ok": true,
-      "count": 0
+      "count": 94
     },
     "Kerempuh": {
       "ok": true,
@@ -44,69 +40,13 @@
     "Trešnja": {
       "ok": true,
       "count": 0
+    },
+    "Pogon": {
+      "ok": true,
+      "count": 0
     }
   },
   "concerts": [
-    {
-      "id": "95bfff75eb",
-      "title": "The Romans Friends",
-      "venue": "The Romans Friends Pogon kulture Rijeka",
-      "city": "Croatia",
-      "country": "HR",
-      "category": "concert",
-      "date_iso": "2026-09-25T21:00:00",
-      "date_display": "pet, 25. 09. 2026.",
-      "time": "21:00",
-      "link": "https://www.muzika.hr/event/the-romans-friends/",
-      "source": "muzika.hr",
-      "is_new": false,
-      "first_seen": "2026-08-14T05:01:09.612Z"
-    },
-    {
-      "id": "ddd9dc30cb",
-      "title": "Back to nulte",
-      "venue": "Mochvara",
-      "city": "Zagreb",
-      "country": "HR",
-      "category": "concert",
-      "date_iso": "2026-09-25T22:00:00",
-      "date_display": "pet, 25. 09. 2026.",
-      "time": "22:00",
-      "link": "https://mochvara.hr/event-detail/6a902cd2213efb5125144f6a/",
-      "source": "Mochvara",
-      "is_new": false,
-      "first_seen": "2026-09-23T22:31:10.170Z"
-    },
-    {
-      "id": "5ec2ae0dc8",
-      "title": "Sara Renar",
-      "venue": "Sara Renar Močvara Trnjanski nasip bb",
-      "city": "Zagreb",
-      "country": "HR",
-      "category": "concert",
-      "date_iso": "2026-09-26T00:00:00",
-      "date_display": "sub, 26. 09. 2026.",
-      "time": null,
-      "link": "https://www.muzika.hr/event/sara-renar/",
-      "source": "muzika.hr",
-      "is_new": false,
-      "first_seen": "2026-08-15T05:01:05.962Z"
-    },
-    {
-      "id": "e53a1a1ac3",
-      "title": "Međunarodni Sajam Gramofonskih Ploča",
-      "venue": "Zagrebački velesajam Avenija Dubrovnik 15",
-      "city": "Zagreb",
-      "country": "HR",
-      "category": "concert",
-      "date_iso": "2026-09-26T00:00:00",
-      "date_display": "sub, 26. 09. 2026.",
-      "time": null,
-      "link": "https://www.muzika.hr/event/medunarodni-sajam-gramofonskih-ploca/",
-      "source": "muzika.hr",
-      "is_new": false,
-      "first_seen": "2026-08-25T14:01:13.468Z"
-    },
     {
       "id": "c2bef583e7",
       "title": "Razgled kazališta 165 sezona iza kulisa",
@@ -1338,6 +1278,21 @@
       "first_seen": "2026-09-30T17:06:49.482Z"
     },
     {
+      "id": "164b25bf30",
+      "title": "Festival amaterskog filma 2026., prvi dan",
+      "venue": "Mochvara",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-10-17T13:00:00",
+      "date_display": "sub, 17. 10. 2026.",
+      "time": "13:00",
+      "link": "https://mochvara.hr/event-detail/6a142e5598754876036b69cb/",
+      "source": "Mochvara",
+      "is_new": true,
+      "first_seen": "2026-10-11T05:01:24.828Z"
+    },
+    {
       "id": "5dfef30613",
       "title": "Razgled kazališta 165 sezona iza kulisa – kombinirani razgled HNK-a i HNK2",
       "venue": "HNK Zagreb",
@@ -2403,6 +2358,36 @@
       "first_seen": "2026-08-27T15:01:20.279Z"
     },
     {
+      "id": "8d39561c69",
+      "title": "Andre Rieu Johann Strauss Orchestra",
+      "venue": "Strauss Orchestra Arena Zagreb Lanište bb",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-11-20T00:00:00",
+      "date_display": "pet, 20. 11. 2026.",
+      "time": null,
+      "link": "https://www.muzika.hr/event/andre-rieu-johann-strauss-orchestra-arena-zagreb/",
+      "source": "muzika.hr",
+      "is_new": true,
+      "first_seen": "2026-10-11T05:01:24.828Z"
+    },
+    {
+      "id": "ae54e2ef4b",
+      "title": "Psihomodo Pop u Tvornici kulture",
+      "venue": "Tvornica kulture Šubićeva 2",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-11-20T00:00:00",
+      "date_display": "pet, 20. 11. 2026.",
+      "time": null,
+      "link": "https://www.muzika.hr/event/psihomodo-pop-u-tvornici-kulture/",
+      "source": "muzika.hr",
+      "is_new": true,
+      "first_seen": "2026-10-11T05:01:24.828Z"
+    },
+    {
       "id": "e5a579eb7b",
       "title": "Joe Masteroff — John Kander — Fred Ebb CABARET",
       "venue": "HNK Zagreb",
@@ -2416,6 +2401,21 @@
       "source": "HNK Zagreb",
       "is_new": false,
       "first_seen": "2026-08-27T15:01:20.279Z"
+    },
+    {
+      "id": "f978fe5d1a",
+      "title": "Zabranjeno pušenje Neuštekani",
+      "venue": "Vatroslav Lisinski Trg Stjepana Radića 4",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-11-21T00:00:00",
+      "date_display": "sub, 21. 11. 2026.",
+      "time": null,
+      "link": "https://www.muzika.hr/event/zabranjeno-pusenje-neustekani-2/",
+      "source": "muzika.hr",
+      "is_new": true,
+      "first_seen": "2026-10-11T05:01:24.828Z"
     },
     {
       "id": "3956daf1e3",
@@ -4385,7 +4385,37 @@
       "source": "muzika.hr",
       "is_new": false,
       "first_seen": "2026-09-27T22:37:54.746Z"
+    },
+    {
+      "id": "b5fcf1224d",
+      "title": "Pitbull + Lil Jon",
+      "venue": "Arena Bulevar Arsenija Carnojevića 58",
+      "city": "Beograd",
+      "country": "RS",
+      "category": "concert",
+      "date_iso": "2026-11-13T00:00:00",
+      "date_display": "pet, 13. 11. 2026.",
+      "time": null,
+      "link": "https://www.muzika.hr/event/pitbull-lil-jon/",
+      "source": "muzika.hr",
+      "is_new": true,
+      "first_seen": "2026-10-11T05:01:24.828Z"
+    },
+    {
+      "id": "94e514167e",
+      "title": "Korn + Architects",
+      "venue": "Platz 1",
+      "city": "Beč",
+      "country": "AT",
+      "category": "concert",
+      "date_iso": "2026-11-19T00:00:00",
+      "date_display": "čet, 19. 11. 2026.",
+      "time": null,
+      "link": "https://www.muzika.hr/event/korn-architects/",
+      "source": "muzika.hr",
+      "is_new": true,
+      "first_seen": "2026-10-11T05:01:24.828Z"
     }
   ],
-  "new_count": 2
+  "new_count": 8
 }
