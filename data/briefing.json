@@ -1,15 +1,15 @@
 {
   "version": 2,
-  "date": "2026-10-10",
-  "generated_at": "2026-10-10T10:56:03.939Z",
-  "date_hr": "Subota, 10. listopada 2026.",
+  "date": "2026-10-11",
+  "generated_at": "2026-10-11T05:02:20.998Z",
+  "date_hr": "Nedjelja, 11. listopada 2026.",
   "weather": {
     "icon": "🌧️",
-    "summary": "13–15°C, kiša · 18.9 mm",
+    "summary": "12–17°C, lagana kiša · 3.7 mm",
     "alerts": []
   },
   "fuel": {
-    "current_date": "10.10.2026",
+    "current_date": "11.10.2026",
     "eurodiesel": [
       {
         "company": "Adria Oil",
@@ -63,46 +63,46 @@
     "upcoming_premium": null
   },
   "market": {
-    "updated_at": "2026-10-10T10:56:03.939Z",
-    "btc_usd": 82780,
-    "btc_eur": 73891,
-    "btc_change_24h": 0.41,
+    "updated_at": "2026-10-11T05:02:20.998Z",
+    "btc_usd": 82953,
+    "btc_eur": 74045,
+    "btc_change_24h": 0.42,
     "usd_eur": 0.8924
   },
   "ai_news": [
+    {
+      "title": "AI model policiji poslao lažnu dojavu o ubojstvu",
+      "link": "https://www.bug.hr/bizarnosti/ai-model-policiji-poslao-laznu-dojavu-o-ubojstvu-63467",
+      "source": "Bug.hr"
+    },
+    {
+      "title": "Anthropic is cutting off its internal evaluations from the internet",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1009286/anthropic-is-cutting-off-its-internal-evaluations-from-the-internet",
+      "source": "The Verge"
+    },
+    {
+      "title": "AI agent makers are promising privacy — will they deliver?",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1009051/privacy-ai-agent-promises-openai-meta-muse-dots",
+      "source": "The Verge"
+    },
     {
       "title": "Anthropic says Claude sent a fake murder tip to police during testing",
       "link": "https://thenextweb.com/news/anthropic-claude-fake-police-tip-unintended-actions",
       "source": "The Next Web"
     },
     {
-      "title": "Anthropic can&#8217;t reliably control its AI agents. It&#8217;s cutting off its internal evals from the live internet instead",
-      "link": "https://techcrunch.com/2026/10/09/anthropic-cant-reliably-control-its-ai-agents-its-cutting-off-its-internal-evals-from-the-live-internet-instead/",
-      "source": "TechCrunch AI"
-    },
-    {
-      "title": "Anthropic signs CrowdStrike, Hitachi and 9 more to defend power and water",
-      "link": "https://thenextweb.com/news/anthropic-cyber-mission-critical-infrastructure-oss-scanner",
+      "title": "Trump’s AI liability push leaves rogue-agent blame unclear, Bloomberg says",
+      "link": "https://thenextweb.com/news/trump-ai-liability-rogue-agents-blame",
       "source": "The Next Web"
-    },
-    {
-      "title": "Anthropicov AI maltretira policiju: Dao im lažnu dojavu o neriješenom ubojstvu",
-      "link": "https://www.tportal.hr/tehno/clanak/anthropicov-ai-maltretira-policiju-dao-im-laznu-dojavu-o-nerijesenom-ubojstvu-20261010",
-      "source": "Tportal"
-    },
-    {
-      "title": "The maker of non-text AI model Jev valued at $7.5B just weeks after launch",
-      "link": "https://techcrunch.com/2026/10/09/the-maker-of-non-text-ai-model-jev-valued-at-7-5b-just-weeks-after-launch/",
-      "source": "TechCrunch AI"
     }
   ],
   "micro_tips": {
     "vscode": {
-      "tip": "Toggle Word Wrap za dugačke linije",
-      "keys": "Alt+Z"
+      "tip": "Nađi i selektiraj sljedeće pojavljivanje",
+      "keys": "Ctrl+D"
     },
-    "sql": "Window funkcije (ROW_NUMBER, LAG, LEAD) umjesto self-join za redosljed i razlike",
-    "oracle": "/*+ RESULT_CACHE */ cache-ira rezultat funkcije u SGA za ponovljene pozive",
-    "regex": ".+? lazy quantifier: stane na prvom mogućem podudaranju, ne zadnjem"
+    "sql": "EXPLAIN ANALYZE prikazuje stvarne vs procijenjene redove — ključno za tuning",
+    "oracle": "CONNECT BY LEVEL <= n generira broj redova bez pomoćne tablice",
+    "regex": "[^\\n]* svaki znak osim newline — dohvati cijelu liniju bez dotall flaga"
   }
 }
