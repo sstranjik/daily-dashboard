@@ -1,15 +1,15 @@
 {
   "version": 2,
-  "date": "2026-10-11",
-  "generated_at": "2026-10-11T11:10:19.787Z",
-  "date_hr": "Nedjelja, 11. listopada 2026.",
+  "date": "2026-10-12",
+  "generated_at": "2026-10-12T05:03:03.696Z",
+  "date_hr": "Ponedjeljak, 12. listopada 2026.",
   "weather": {
-    "icon": "🌧️",
-    "summary": "12–18°C, lagana kiša · 3.7 mm",
+    "icon": "🌦️",
+    "summary": "9–14°C, pljuskovi · 2.4 mm",
     "alerts": []
   },
   "fuel": {
-    "current_date": "11.10.2026",
+    "current_date": "12.10.2026",
     "eurodiesel": [
       {
         "company": "Adria Oil",
@@ -63,46 +63,26 @@
     "upcoming_premium": null
   },
   "market": {
-    "updated_at": "2026-10-11T11:10:19.787Z",
-    "btc_usd": 82946,
-    "btc_eur": 74039,
-    "btc_change_24h": 0.21,
-    "usd_eur": 0.8924
+    "updated_at": "2026-10-12T05:03:03.696Z",
+    "btc_usd": 84047,
+    "btc_eur": 74995,
+    "btc_change_24h": 1.31,
+    "usd_eur": 0.8926
   },
   "ai_news": [
     {
-      "title": "AI model policiji poslao lažnu dojavu o ubojstvu",
-      "link": "https://www.bug.hr/bizarnosti/ai-model-policiji-poslao-laznu-dojavu-o-ubojstvu-63467",
-      "source": "Bug.hr"
-    },
-    {
-      "title": "Anthropic is cutting off its internal evaluations from the internet",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1009286/anthropic-is-cutting-off-its-internal-evaluations-from-the-internet",
-      "source": "The Verge"
-    },
-    {
-      "title": "AI agent makers are promising privacy — will they deliver?",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1009051/privacy-ai-agent-promises-openai-meta-muse-dots",
-      "source": "The Verge"
-    },
-    {
-      "title": "Trump’s AI liability push leaves rogue-agent blame unclear, Bloomberg says",
-      "link": "https://thenextweb.com/news/trump-ai-liability-rogue-agents-blame",
-      "source": "The Next Web"
-    },
-    {
-      "title": "Here are the top AI agents that can live in your text messages",
-      "link": "https://techcrunch.com/2026/10/10/all-the-ai-agents-that-can-live-in-your-text-messages/",
+      "title": "These execs think voice AI hasn&#8217;t reached its ChatGPT moment yet",
+      "link": "https://techcrunch.com/2026/10/11/these-execs-think-voice-ai-hasnt-reached-its-chatgpt-moment-yet/",
       "source": "TechCrunch AI"
     }
   ],
   "micro_tips": {
     "vscode": {
-      "tip": "Nađi i selektiraj sljedeće pojavljivanje",
-      "keys": "Ctrl+D"
+      "tip": "Multi-cursor: postavi cursor na više mjesta istovremeno",
+      "keys": "Alt+Click"
     },
-    "sql": "EXPLAIN ANALYZE prikazuje stvarne vs procijenjene redove — ključno za tuning",
-    "oracle": "CONNECT BY LEVEL <= n generira broj redova bez pomoćne tablice",
-    "regex": "[^\\n]* svaki znak osim newline — dohvati cijelu liniju bez dotall flaga"
+    "sql": "Partial index s WHERE klauzulom smanjuje veličinu i ubrzava specifična filtriranja",
+    "oracle": "LISTAGG(col, ',') WITHIN GROUP (ORDER BY col) konkatenira u jedan string",
+    "regex": "(?<ime>\\d{4}) named group — referenciraj s \\k<ime> ili $<ime> u replace"
   }
 }
