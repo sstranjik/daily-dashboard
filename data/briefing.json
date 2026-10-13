@@ -1,7 +1,7 @@
 {
   "version": 2,
   "date": "2026-10-13",
-  "generated_at": "2026-10-13T05:02:26.419Z",
+  "generated_at": "2026-10-13T12:27:08.791Z",
   "date_hr": "Utorak, 13. listopada 2026.",
   "weather": {
     "icon": "🌫️",
@@ -11,6 +11,10 @@
   "fuel": {
     "current_date": "13.10.2026",
     "eurodiesel": [
+      {
+        "company": "Adria Oil",
+        "price": 1.83
+      },
       {
         "company": "Coral Croatia",
         "price": 1.83
@@ -30,10 +34,6 @@
       {
         "company": "Tifon",
         "price": 1.83
-      },
-      {
-        "company": "Adria Oil",
-        "price": 1.84
       }
     ],
     "premium_eurodiesel": [
@@ -63,37 +63,37 @@
     "upcoming_premium": null
   },
   "market": {
-    "updated_at": "2026-10-13T05:02:26.419Z",
-    "btc_usd": 83381,
-    "btc_eur": 74638,
-    "btc_change_24h": -0.79,
+    "updated_at": "2026-10-13T12:27:08.791Z",
+    "btc_usd": 83212,
+    "btc_eur": 74379,
+    "btc_change_24h": 0.15,
     "usd_eur": 0.8952
   },
   "ai_news": [
     {
+      "title": "AI labs sought control over what outside evaluators publish, Reuters says",
+      "link": "https://thenextweb.com/news/anthropic-openai-ai-evaluators-publication-control",
+      "source": "The Next Web"
+    },
+    {
+      "title": "ChatGPT leans on news sites more than any other AI platform, Semrush finds",
+      "link": "https://thenextweb.com/news/ai-visibility-index-uk-us-semrush",
+      "source": "The Next Web"
+    },
+    {
+      "title": "AI reputation management: what gets said about you inside ChatGPT, Perplexity & Google Gemini",
+      "link": "https://thenextweb.com/news/ai-reputation-management-chatgpt-perplexity-gemini",
+      "source": "The Next Web"
+    },
+    {
+      "title": "NTT Data reportedly nears deal to build Anthropic’s first Japan data centre",
+      "link": "https://thenextweb.com/news/ntt-data-anthropic-osaka-data-centre",
+      "source": "The Next Web"
+    },
+    {
       "title": "Meta says its new Muse model has reached the AI frontier",
       "link": "https://thenextweb.com/news/meta-muse-wonder-frontier-eu",
       "source": "The Next Web"
-    },
-    {
-      "title": "UK says it will again test OpenAI and Anthropic models before release",
-      "link": "https://thenextweb.com/news/uk-ai-security-institute-pre-release-access-openai-anthropic",
-      "source": "The Next Web"
-    },
-    {
-      "title": "AMD puts 32,768 CPU cores in a rack built for AI agents",
-      "link": "https://thenextweb.com/news/amd-helion-agentic-rack-power",
-      "source": "The Next Web"
-    },
-    {
-      "title": "OpenAI adds 200 Dublin jobs and builds its second applied AI lab",
-      "link": "https://thenextweb.com/news/openai-dublin-applied-ai-lab",
-      "source": "The Next Web"
-    },
-    {
-      "title": "Claude sent a false homicide tip to police – and it’s part of a troubling AI pattern",
-      "link": "https://www.zdnet.com/innovation/claude-false-homicide-tip/",
-      "source": "ZDNet"
     }
   ],
   "micro_tips": {
