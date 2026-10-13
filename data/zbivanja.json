@@ -1,9 +1,13 @@
 {
-  "generated_at": "2026-10-12T21:54:00.309Z",
+  "generated_at": "2026-10-13T05:01:24.909Z",
   "stats": {
     "muzika.hr": {
       "ok": true,
       "count": 24
+    },
+    "Lisinski": {
+      "ok": true,
+      "count": 0
     },
     "Mochvara": {
       "ok": true,
@@ -13,10 +17,6 @@
       "ok": true,
       "count": 29
     },
-    "Lisinski": {
-      "ok": true,
-      "count": 0
-    },
     "Tvornica": {
       "ok": true,
       "count": 2
@@ -25,21 +25,21 @@
       "ok": true,
       "count": 1
     },
-    "Komedija": {
-      "ok": true,
-      "count": 0
-    },
     "Pogon": {
       "ok": true,
       "count": 0
     },
-    "Kerempuh": {
+    "Komedija": {
       "ok": true,
       "count": 0
     },
     "HNK Zagreb": {
       "ok": true,
-      "count": 93
+      "count": 92
+    },
+    "Kerempuh": {
+      "ok": true,
+      "count": 0
     },
     "Trešnja": {
       "ok": true,
@@ -1381,6 +1381,21 @@
       "source": "HNK Zagreb",
       "is_new": false,
       "first_seen": "2026-07-02T14:01:25.801Z"
+    },
+    {
+      "id": "d02eae902f",
+      "title": "FAF - Festival amaterskog filma 2026., drugi dan",
+      "venue": "Mochvara",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-10-18T13:00:00",
+      "date_display": "ned, 18. 10. 2026.",
+      "time": "13:00",
+      "link": "https://mochvara.hr/event-detail/6a14368d98754876037501eb/",
+      "source": "Mochvara",
+      "is_new": true,
+      "first_seen": "2026-10-13T05:01:24.909Z"
     },
     {
       "id": "987a137880",
@@ -4387,5 +4402,5 @@
       "first_seen": "2026-10-11T05:01:21.358Z"
     }
   ],
-  "new_count": 2
+  "new_count": 3
 }
