@@ -1,15 +1,15 @@
 {
   "version": 2,
-  "date": "2026-10-13",
-  "generated_at": "2026-10-13T12:27:08.791Z",
-  "date_hr": "Utorak, 13. listopada 2026.",
+  "date": "2026-10-14",
+  "generated_at": "2026-10-14T05:02:40.699Z",
+  "date_hr": "Srijeda, 14. listopada 2026.",
   "weather": {
-    "icon": "🌫️",
-    "summary": "5–16°C, magla",
+    "icon": "🌧️",
+    "summary": "7–16°C, lagana kiša",
     "alerts": []
   },
   "fuel": {
-    "current_date": "13.10.2026",
+    "current_date": "14.10.2026",
     "eurodiesel": [
       {
         "company": "Adria Oil",
@@ -63,13 +63,23 @@
     "upcoming_premium": null
   },
   "market": {
-    "updated_at": "2026-10-13T12:27:08.791Z",
-    "btc_usd": 83212,
-    "btc_eur": 74379,
-    "btc_change_24h": 0.15,
-    "usd_eur": 0.8952
+    "updated_at": "2026-10-14T05:02:40.699Z",
+    "btc_usd": 83732,
+    "btc_eur": 74699,
+    "btc_change_24h": 0.46,
+    "usd_eur": 0.8934
   },
   "ai_news": [
+    {
+      "title": "Shopify opens its catalog up to more AI agents",
+      "link": "https://www.theverge.com/news/1010365/shopify-opens-its-catalog-up-to-more-ai-agents",
+      "source": "The Verge"
+    },
+    {
+      "title": "Epic shifts to &#8216;AI-accelerated development&#8217; for upcoming Disney game",
+      "link": "https://www.theverge.com/games/1010097/epic-games-disney-project-ai-coding-art",
+      "source": "The Verge"
+    },
     {
       "title": "AI labs sought control over what outside evaluators publish, Reuters says",
       "link": "https://thenextweb.com/news/anthropic-openai-ai-evaluators-publication-control",
@@ -84,25 +94,15 @@
       "title": "AI reputation management: what gets said about you inside ChatGPT, Perplexity & Google Gemini",
       "link": "https://thenextweb.com/news/ai-reputation-management-chatgpt-perplexity-gemini",
       "source": "The Next Web"
-    },
-    {
-      "title": "NTT Data reportedly nears deal to build Anthropic’s first Japan data centre",
-      "link": "https://thenextweb.com/news/ntt-data-anthropic-osaka-data-centre",
-      "source": "The Next Web"
-    },
-    {
-      "title": "Meta says its new Muse model has reached the AI frontier",
-      "link": "https://thenextweb.com/news/meta-muse-wonder-frontier-eu",
-      "source": "The Next Web"
     }
   ],
   "micro_tips": {
     "vscode": {
-      "tip": "Command Palette: brzi pristup svim komandama",
-      "keys": "Ctrl+Shift+P"
+      "tip": "Rename Symbol svuda u projektu (refactoring)",
+      "keys": "F2"
     },
-    "sql": "GROUP BY s ROLLUP za subtotale u jednom prolasku: GROUP BY ROLLUP(god, mj)",
-    "oracle": "TRUNC(datum_kolona) = TRUNC(SYSDATE) koristi B-tree index na datumskoj koloni",
-    "regex": "\\d{4}-\\d{2}-\\d{2} ISO datum pattern; za validaciju zatvori s ^...$"
+    "sql": "NOT EXISTS brži od NOT IN kad subquery može vratiti NULL vrijednost",
+    "oracle": "DBMS_STATS.GATHER_TABLE_STATS osvježava statistike za točniji execution plan",
+    "regex": "(?i) inline flag za case-insensitive bez mijenjanja ostatka patternahe"
   }
 }
