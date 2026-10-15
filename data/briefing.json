@@ -1,15 +1,15 @@
 {
   "version": 2,
-  "date": "2026-10-14",
-  "generated_at": "2026-10-14T09:54:02.761Z",
-  "date_hr": "Srijeda, 14. listopada 2026.",
+  "date": "2026-10-15",
+  "generated_at": "2026-10-15T05:02:40.105Z",
+  "date_hr": "Četvrtak, 15. listopada 2026.",
   "weather": {
-    "icon": "🌧️",
-    "summary": "7–16°C, lagana kiša",
+    "icon": "🌫️",
+    "summary": "6–19°C, magla",
     "alerts": []
   },
   "fuel": {
-    "current_date": "14.10.2026",
+    "current_date": "15.10.2026",
     "eurodiesel": [
       {
         "company": "Adria Oil",
@@ -63,46 +63,46 @@
     "upcoming_premium": null
   },
   "market": {
-    "updated_at": "2026-10-14T09:54:02.761Z",
-    "btc_usd": 83211,
-    "btc_eur": 74343,
-    "btc_change_24h": -0.41,
-    "usd_eur": 0.8934
+    "updated_at": "2026-10-15T05:02:40.105Z",
+    "btc_usd": 81553,
+    "btc_eur": 72709,
+    "btc_change_24h": -2.6,
+    "usd_eur": 0.8944
   },
   "ai_news": [
     {
-      "title": "Shopify opens its catalog up to more AI agents",
-      "link": "https://www.theverge.com/news/1010365/shopify-opens-its-catalog-up-to-more-ai-agents",
+      "title": "Zuckerberg: &#039;Naši novi AI modeli mogu se nositi s Anthropicom i OpenAI-jem&#039;",
+      "link": "https://www.tportal.hr/tehno/clanak/zuckerberg-nasi-novi-ai-modeli-mogu-se-nositi-s-anthropicom-i-openai-jem-20261014",
+      "source": "Tportal"
+    },
+    {
+      "title": "Eight states sue OpenAI, saying ChatGPT isn&#8217;t safe for kids",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1011500/openai-state-lawsuits-chatgpt-safety",
       "source": "The Verge"
     },
     {
-      "title": "Epic shifts to &#8216;AI-accelerated development&#8217; for upcoming Disney game",
-      "link": "https://www.theverge.com/games/1010097/epic-games-disney-project-ai-coding-art",
+      "title": "The AI race is back on",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1011311/the-ai-race-is-back-on",
       "source": "The Verge"
     },
     {
-      "title": "AI labs sought control over what outside evaluators publish, Reuters says",
-      "link": "https://thenextweb.com/news/anthropic-openai-ai-evaluators-publication-control",
+      "title": "Kyndryl will run AI agents inside Toyota Finance’s live IT operations",
+      "link": "https://thenextweb.com/news/kyndryl-toyota-finance-agentic-ai",
       "source": "The Next Web"
     },
     {
-      "title": "ChatGPT leans on news sites more than any other AI platform, Semrush finds",
-      "link": "https://thenextweb.com/news/ai-visibility-index-uk-us-semrush",
-      "source": "The Next Web"
-    },
-    {
-      "title": "Nvidia commits $250M of compute to UK AI safety research",
-      "link": "https://thenextweb.com/news/nvidia-250m-uk-ai-safety",
+      "title": "OpenAI’s CFO says firms using Chinese AI models are risking security",
+      "link": "https://thenextweb.com/news/openai-friar-chinese-models-cyber-risk",
       "source": "The Next Web"
     }
   ],
   "micro_tips": {
     "vscode": {
-      "tip": "Rename Symbol svuda u projektu (refactoring)",
-      "keys": "F2"
+      "tip": "Quick Fix i Code Actions na trenutnoj poziciji",
+      "keys": "Ctrl+."
     },
-    "sql": "NOT EXISTS brži od NOT IN kad subquery može vratiti NULL vrijednost",
-    "oracle": "DBMS_STATS.GATHER_TABLE_STATS osvježava statistike za točniji execution plan",
-    "regex": "(?i) inline flag za case-insensitive bez mijenjanja ostatka patternahe"
+    "sql": "Parametrizirani upiti = plan cache reuse + SQL injection zaštita istovremeno",
+    "oracle": "NVL2(expr, kad_nije_null, kad_je_null) kompaktnija od dvostrukog NVL-a",
+    "regex": "\\s+ pokriva space, tab i newline; \\S je negacija (svaki ne-whitespace)"
   }
 }
