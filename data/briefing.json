@@ -1,15 +1,15 @@
 {
   "version": 2,
-  "date": "2026-10-16",
-  "generated_at": "2026-10-16T09:27:39.291Z",
-  "date_hr": "Petak, 16. listopada 2026.",
+  "date": "2026-10-17",
+  "generated_at": "2026-10-17T05:02:59.900Z",
+  "date_hr": "Subota, 17. listopada 2026.",
   "weather": {
     "icon": "🌫️",
-    "summary": "9–17°C, magla",
+    "summary": "4–17°C, magla",
     "alerts": []
   },
   "fuel": {
-    "current_date": "16.10.2026",
+    "current_date": "17.10.2026",
     "eurodiesel": [
       {
         "company": "Adria Oil",
@@ -51,7 +51,7 @@
       },
       {
         "company": "Petrol",
-        "price": 2.12
+        "price": 2.14
       },
       {
         "company": "Coral Croatia",
@@ -63,11 +63,11 @@
     "upcoming_premium": null
   },
   "market": {
-    "updated_at": "2026-10-16T09:27:39.291Z",
-    "btc_usd": 82063,
-    "btc_eur": 72923,
-    "btc_change_24h": 1.01,
-    "usd_eur": 0.8917
+    "updated_at": "2026-10-17T05:02:59.900Z",
+    "btc_usd": 81467,
+    "btc_eur": 72487,
+    "btc_change_24h": -0.94,
+    "usd_eur": 0.8895
   },
   "ai_news": [
     {
@@ -76,33 +76,33 @@
       "source": "Bug.hr"
     },
     {
-      "title": "Anthropic makes Code Review generally available, with $50,000 in credits attached",
-      "link": "https://thenextweb.com/news/anthropic-code-review-ga-eu-residency",
+      "title": "Nvidia’s RTX Spark laptops are built to run AI agents locally",
+      "link": "https://thenextweb.com/news/nvidia-rtx-spark-laptops-local-ai-agents",
       "source": "The Next Web"
     },
     {
-      "title": "ChatGPT can peek at your Chrome tabs now",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1012510/openai-chatgpt-google-chrome-tabs",
-      "source": "The Verge"
+      "title": "Replit is no longer working with Anthropic, CEO says",
+      "link": "https://techcrunch.com/2026/10/16/replit-is-no-longer-working-with-anthropic-ceo-says/",
+      "source": "TechCrunch AI"
     },
     {
-      "title": "Grab i OpenAI pokreću program edukacije o umjetnoj inteligenciji u Tajlandu",
-      "link": "https://www.tportal.hr/tehno/clanak/grab-i-openai-pokrecu-program-edukacije-o-umjetnoj-inteligenciji-u-tajlandu-20261015",
-      "source": "Tportal"
-    },
-    {
-      "title": "India says AI agents under testing broke into firms’ live systems",
-      "link": "https://thenextweb.com/news/cert-in-ai-agents-broke-into-indian-firms-live-systems",
+      "title": "Accenture caps staff Claude spending at $29 a month, 404 Media reports",
+      "link": "https://thenextweb.com/news/accenture-claude-29-a-month-cap",
       "source": "The Next Web"
+    },
+    {
+      "title": "OpenAI models hacked a crypto wallet and breached more websites",
+      "link": "https://arstechnica.com/security/2026/10/openai-models-hacked-a-crypto-wallet-and-breached-more-websites/",
+      "source": "Ars Technica"
     }
   ],
   "micro_tips": {
     "vscode": {
-      "tip": "Toggle integrirani terminal",
-      "keys": "Ctrl+`"
+      "tip": "Selektiraj sva pojavljivanja trenutne riječi",
+      "keys": "Ctrl+Shift+L"
     },
-    "sql": "Batch INSERT umjesto jednog-po-jednog: INSERT INTO t VALUES (...),(...),...",
-    "oracle": "FETCH FIRST n ROWS ONLY umjesto ROWNUM — kompatibilno s ORDER BY i čitljivije",
-    "regex": "^(?!.*pattern) negative lookahead: \"ova linija ne smije sadržavati X\""
+    "sql": "EXISTS umjesto IN za subqueries — brže jer stane na prvom podudaranju: WHERE EXISTS (SELECT 1 FROM ...)",
+    "oracle": "/*+ INDEX(t ime_indexa) */ forsira specifičan index kad optimizer bira full scan",
+    "regex": "\\b granica riječi: \\bword\\b podudara cijelu riječ, ne \"password\" ili \"swordfish\""
   }
 }
