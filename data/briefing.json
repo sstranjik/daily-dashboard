@@ -1,15 +1,15 @@
 {
   "version": 2,
-  "date": "2026-10-17",
-  "generated_at": "2026-10-17T08:59:36.113Z",
-  "date_hr": "Subota, 17. listopada 2026.",
+  "date": "2026-10-18",
+  "generated_at": "2026-10-18T05:03:09.506Z",
+  "date_hr": "Nedjelja, 18. listopada 2026.",
   "weather": {
     "icon": "🌫️",
-    "summary": "4–17°C, magla",
+    "summary": "6–20°C, magla",
     "alerts": []
   },
   "fuel": {
-    "current_date": "17.10.2026",
+    "current_date": "18.10.2026",
     "eurodiesel": [
       {
         "company": "Adria Oil",
@@ -63,46 +63,46 @@
     "upcoming_premium": null
   },
   "market": {
-    "updated_at": "2026-10-17T08:59:36.113Z",
-    "btc_usd": 81604,
-    "btc_eur": 72631,
-    "btc_change_24h": -0.73,
-    "usd_eur": 0.8895
+    "updated_at": "2026-10-18T05:03:09.506Z",
+    "btc_usd": 81719,
+    "btc_eur": 72733,
+    "btc_change_24h": 0.29,
+    "usd_eur": 0.8896
   },
   "ai_news": [
     {
-      "title": "Nvidia’s RTX Spark laptops are built to run AI agents locally",
-      "link": "https://thenextweb.com/news/nvidia-rtx-spark-laptops-local-ai-agents",
-      "source": "The Next Web"
-    },
-    {
-      "title": "Replit is no longer working with Anthropic, CEO says",
-      "link": "https://techcrunch.com/2026/10/16/replit-is-no-longer-working-with-anthropic-ceo-says/",
+      "title": "Replit makes OpenAI its default over Anthropic, CEO says",
+      "link": "https://techcrunch.com/2026/10/17/replit-is-no-longer-working-with-anthropic-ceo-says/",
       "source": "TechCrunch AI"
     },
     {
-      "title": "Accenture caps staff Claude spending at $29 a month, 404 Media reports",
-      "link": "https://thenextweb.com/news/accenture-claude-29-a-month-cap",
+      "title": "XBOW used GPT-5.6 Sol to build a $250,000 Chrome exploit in six days",
+      "link": "https://thenextweb.com/news/xbow-chrome-exploit-gpt-5-6-sol-250000-six-days",
       "source": "The Next Web"
     },
     {
-      "title": "OpenAI models hacked a crypto wallet and breached more websites",
-      "link": "https://arstechnica.com/security/2026/10/openai-models-hacked-a-crypto-wallet-and-breached-more-websites/",
-      "source": "Ars Technica"
+      "title": "FTC subpoenas OpenAI and Anthropic over AI safety incidents",
+      "link": "https://thenextweb.com/news/ftc-subpoenas-openai-anthropic-ai-safety-incidents",
+      "source": "The Next Web"
     },
     {
-      "title": "RapidCanvas raises $29M to build and run AI apps for enterprises",
-      "link": "https://thenextweb.com/news/rapidcanvas-29m-series-b-enterprise-ai",
+      "title": "Eight US states sue OpenAI, alleging ChatGPT harms children",
+      "link": "https://thenextweb.com/news/states-sue-openai-chatgpt-children-safety",
+      "source": "The Next Web"
+    },
+    {
+      "title": "EU investigates OpenAI and Anthropic over agent hacks, Euronews reports",
+      "link": "https://thenextweb.com/news/eu-ai-act-openai-anthropic-ai-office-investigation",
       "source": "The Next Web"
     }
   ],
   "micro_tips": {
     "vscode": {
-      "tip": "Selektiraj sva pojavljivanja trenutne riječi",
-      "keys": "Ctrl+Shift+L"
+      "tip": "Pomakni liniju gore ili dolje bez cut/paste",
+      "keys": "Alt+↑ / Alt+↓"
     },
-    "sql": "EXISTS umjesto IN za subqueries — brže jer stane na prvom podudaranju: WHERE EXISTS (SELECT 1 FROM ...)",
-    "oracle": "/*+ INDEX(t ime_indexa) */ forsira specifičan index kad optimizer bira full scan",
-    "regex": "\\b granica riječi: \\bword\\b podudara cijelu riječ, ne \"password\" ili \"swordfish\""
+    "sql": "Nikad SELECT * u produkciji — navedi kolone, manji I/O i bolji cache plan",
+    "oracle": "/*+ PARALLEL(t 4) */ paralelno izvršavanje querija na N thread-ova",
+    "regex": "(?:group) non-capturing group: grupiraj bez pamćenja za veće performanse"
   }
 }
