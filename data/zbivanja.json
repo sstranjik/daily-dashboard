@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-18T19:47:01.976Z",
+  "generated_at": "2026-10-18T20:01:24.791Z",
   "stats": {
     "muzika.hr": {
       "ok": true,
@@ -29,21 +29,21 @@
       "ok": true,
       "count": 0
     },
-    "Kerempuh": {
-      "ok": true,
-      "count": 0
-    },
     "Pogon": {
       "ok": true,
       "count": 0
     },
-    "Trešnja": {
+    "Kerempuh": {
       "ok": true,
       "count": 0
     },
     "HNK Zagreb": {
       "ok": true,
       "count": 91
+    },
+    "Trešnja": {
+      "ok": true,
+      "count": 0
     }
   },
   "concerts": [
@@ -1486,6 +1486,21 @@
       "source": "HNK Zagreb",
       "is_new": false,
       "first_seen": "2026-10-07T11:01:20.198Z"
+    },
+    {
+      "id": "60b2e15e6b",
+      "title": "72. Močvarin sajam ploča i stripova",
+      "venue": "Mochvara",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-10-25T12:00:00",
+      "date_display": "ned, 25. 10. 2026.",
+      "time": "12:00",
+      "link": "https://mochvara.hr/event-detail/6ac7668d5c14c721fa3bf529/",
+      "source": "Mochvara",
+      "is_new": true,
+      "first_seen": "2026-10-18T20:01:24.791Z"
     },
     {
       "id": "0e7b9e88b6",
@@ -4357,5 +4372,5 @@
       "first_seen": "2026-10-11T05:01:21.358Z"
     }
   ],
-  "new_count": 2
+  "new_count": 3
 }
