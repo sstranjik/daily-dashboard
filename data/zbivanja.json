@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-18T17:37:44.309Z",
+  "generated_at": "2026-10-18T18:01:27.514Z",
   "stats": {
     "muzika.hr": {
       "ok": true,
@@ -9,6 +9,10 @@
       "ok": true,
       "count": 20
     },
+    "Tvornica": {
+      "ok": true,
+      "count": 2
+    },
     "Lisinski": {
       "ok": true,
       "count": 0
@@ -16,10 +20,6 @@
     "Gavella": {
       "ok": true,
       "count": 23
-    },
-    "Tvornica": {
-      "ok": true,
-      "count": 2
     },
     "ZeKaeM": {
       "ok": true,
@@ -33,13 +33,13 @@
       "ok": true,
       "count": 0
     },
-    "Kerempuh": {
-      "ok": true,
-      "count": 0
-    },
     "HNK Zagreb": {
       "ok": true,
       "count": 91
+    },
+    "Kerempuh": {
+      "ok": true,
+      "count": 0
     },
     "Trešnja": {
       "ok": true,
@@ -47,36 +47,6 @@
     }
   },
   "concerts": [
-    {
-      "id": "0368c330b4",
-      "title": "Gioachino Rossini / Dmitrij Šostakovič — Mauro Bigonzetti ROSSINI CARDS / KAZIMIR’S COLOURS",
-      "venue": "HNK Zagreb",
-      "city": "Zagreb",
-      "country": "HR",
-      "category": "concert",
-      "date_iso": "2026-10-03T18:00:00",
-      "date_display": "sub, 03. 10. 2026.",
-      "time": "18:00",
-      "link": "https://hnk.hr/hr/balet/predstave/rossini-cards-kazimirs-colours/#03.10.18.00",
-      "source": "HNK Zagreb",
-      "is_new": false,
-      "first_seen": "2026-06-19T13:01:15.860Z"
-    },
-    {
-      "id": "bdd9c69d47",
-      "title": "Dmitrij Šostakovič / Gioachino Rossini — Mauro Bigonzetti KAZIMIR’S COLOURS / ROSSINI CARDS",
-      "venue": "HNK Zagreb",
-      "city": "Zagreb",
-      "country": "HR",
-      "category": "concert",
-      "date_iso": "2026-10-03T18:00:00",
-      "date_display": "sub, 03. 10. 2026.",
-      "time": "18:00",
-      "link": "https://hnk.hr/hr/balet/predstave/kazimirs-colours-rossini-cards/#03.10.18.00",
-      "source": "HNK Zagreb",
-      "is_new": false,
-      "first_seen": "2026-07-16T11:24:53.922Z"
-    },
     {
       "id": "f05aeaa024",
       "title": "Ajmo u Rodilište! TBF i KNINci",
@@ -3049,51 +3019,6 @@
     }
   ],
   "theater": [
-    {
-      "id": "15120006c9",
-      "title": "Tena Štivičić Raseljene Berliner Ensemble, Njemačka - Gostovanje u skolpu projekta HNK2EU - Ciklus europskog kazališta u Zagrebu",
-      "venue": "HNK Zagreb",
-      "city": "Zagreb",
-      "country": "HR",
-      "category": "theater",
-      "date_iso": "2026-10-03T18:00:00",
-      "date_display": "sub, 03. 10. 2026.",
-      "time": "18:00",
-      "link": "https://hnk.hr/hr/drama/predstave/raseljene1/#03.10.18.00",
-      "source": "HNK Zagreb",
-      "is_new": false,
-      "first_seen": "2026-07-02T13:01:26.613Z"
-    },
-    {
-      "id": "a90f4e1aec",
-      "title": "Tena Štivičić Raseljene U režiji Laura Linnenbaum, Berliner Ensemble, Njemačka / Gostovanje u sklopu programa HNK2EU — Ciklus europskog kazališta u Za",
-      "venue": "HNK Zagreb",
-      "city": "Zagreb",
-      "country": "HR",
-      "category": "theater",
-      "date_iso": "2026-10-03T18:00:00",
-      "date_display": "sub, 03. 10. 2026.",
-      "time": "18:00",
-      "link": "https://hnk.hr/hr/drama/predstave/raseljene1/#03.10.18.00",
-      "source": "HNK Zagreb",
-      "is_new": false,
-      "first_seen": "2026-08-12T14:01:16.094Z"
-    },
-    {
-      "id": "38f97f5736",
-      "title": "Tena Štivičić Raseljene U režiji Laure Linnenbaum, Berliner Ensemble, Njemačka / Gostovanje u sklopu programa HNK2EU — Ciklus europskoga kazališta u Z",
-      "venue": "HNK Zagreb",
-      "city": "Zagreb",
-      "country": "HR",
-      "category": "theater",
-      "date_iso": "2026-10-03T18:00:00",
-      "date_display": "sub, 03. 10. 2026.",
-      "time": "18:00",
-      "link": "https://hnk.hr/hr/drama/predstave/raseljene1/#03.10.18.00",
-      "source": "HNK Zagreb",
-      "is_new": false,
-      "first_seen": "2026-10-01T17:49:17.322Z"
-    },
     {
       "id": "ff137816c9",
       "title": "Smrt ili o životu",
