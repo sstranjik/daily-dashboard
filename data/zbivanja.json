@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-19T06:01:23.634Z",
+  "generated_at": "2026-10-19T07:01:21.646Z",
   "stats": {
     "muzika.hr": {
       "ok": true,
@@ -33,10 +33,6 @@
       "ok": true,
       "count": 0
     },
-    "Pogon": {
-      "ok": true,
-      "count": 0
-    },
     "Trešnja": {
       "ok": true,
       "count": 0
@@ -44,6 +40,10 @@
     "HNK Zagreb": {
       "ok": true,
       "count": 90
+    },
+    "Pogon": {
+      "ok": false,
+      "error": "The operation was aborted due to timeout"
     }
   },
   "concerts": [
