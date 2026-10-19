@@ -1,15 +1,15 @@
 {
   "version": 2,
-  "date": "2026-10-18",
-  "generated_at": "2026-10-18T09:18:31.441Z",
-  "date_hr": "Nedjelja, 18. listopada 2026.",
+  "date": "2026-10-19",
+  "generated_at": "2026-10-19T05:02:42.454Z",
+  "date_hr": "Ponedjeljak, 19. listopada 2026.",
   "weather": {
     "icon": "🌫️",
-    "summary": "6–19°C, magla",
+    "summary": "7–18°C, magla",
     "alerts": []
   },
   "fuel": {
-    "current_date": "18.10.2026",
+    "current_date": "19.10.2026",
     "eurodiesel": [
       {
         "company": "Adria Oil",
@@ -63,46 +63,36 @@
     "upcoming_premium": null
   },
   "market": {
-    "updated_at": "2026-10-18T09:18:31.441Z",
-    "btc_usd": 81928,
-    "btc_eur": 72919,
-    "btc_change_24h": 0.37,
-    "usd_eur": 0.8896
+    "updated_at": "2026-10-19T05:02:42.454Z",
+    "btc_usd": 82677,
+    "btc_eur": 73612,
+    "btc_change_24h": 1.17,
+    "usd_eur": 0.8909
   },
   "ai_news": [
     {
-      "title": "Replit makes OpenAI its default over Anthropic, CEO says",
-      "link": "https://techcrunch.com/2026/10/17/replit-is-no-longer-working-with-anthropic-ceo-says/",
+      "title": "Anthropic izdvaja pet posto dionica u novi &#039;fond za opće dobro&#039;",
+      "link": "https://www.tportal.hr/tehno/clanak/anthropic-izdvaja-pet-posto-dionica-u-novi-fond-za-opce-dobro-20261019",
+      "source": "Tportal"
+    },
+    {
+      "title": "AI agenti će se za par mjeseci moći samoreplicirati na pametnim uređajima?",
+      "link": "https://mreza.bug.hr/umjetna-inteligencija/ai-agenti-ce-se-za-par-mjeseci-moci-samoreplicirati-na-pametnim-uredjajima-63532",
+      "source": "Bug.hr"
+    },
+    {
+      "title": "Anthropic says it’s committing 5% of its shares to a ‘public benefit fund’",
+      "link": "https://techcrunch.com/2026/10/18/anthropic-says-its-committing-5-of-its-shares-to-a-public-benefit-fund/",
       "source": "TechCrunch AI"
-    },
-    {
-      "title": "XBOW used GPT-5.6 Sol to build a $250,000 Chrome exploit in six days",
-      "link": "https://thenextweb.com/news/xbow-chrome-exploit-gpt-5-6-sol-250000-six-days",
-      "source": "The Next Web"
-    },
-    {
-      "title": "FTC subpoenas OpenAI and Anthropic over AI safety incidents",
-      "link": "https://thenextweb.com/news/ftc-subpoenas-openai-anthropic-ai-safety-incidents",
-      "source": "The Next Web"
-    },
-    {
-      "title": "Eight US states sue OpenAI, alleging ChatGPT harms children",
-      "link": "https://thenextweb.com/news/states-sue-openai-chatgpt-children-safety",
-      "source": "The Next Web"
-    },
-    {
-      "title": "EU investigates OpenAI and Anthropic over agent hacks, Euronews reports",
-      "link": "https://thenextweb.com/news/eu-ai-act-openai-anthropic-ai-office-investigation",
-      "source": "The Next Web"
     }
   ],
   "micro_tips": {
     "vscode": {
-      "tip": "Pomakni liniju gore ili dolje bez cut/paste",
-      "keys": "Alt+↑ / Alt+↓"
+      "tip": "Format Document (auto-format cijelog fajla)",
+      "keys": "Shift+Alt+F"
     },
-    "sql": "Nikad SELECT * u produkciji — navedi kolone, manji I/O i bolji cache plan",
-    "oracle": "/*+ PARALLEL(t 4) */ paralelno izvršavanje querija na N thread-ova",
-    "regex": "(?:group) non-capturing group: grupiraj bez pamćenja za veće performanse"
+    "sql": "Covering index: uključi sve kolone iz WHERE + SELECT u index pa nema pristupa tablici",
+    "oracle": "/*+ NO_MERGE(v) */ sprječava merging inline viewa s parent queryjem",
+    "regex": "(?=pattern) lookahead: \"iza ovog mora slijediti X\" bez konzumiranja znakova"
   }
 }
