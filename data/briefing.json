@@ -1,15 +1,15 @@
 {
   "version": 2,
-  "date": "2026-10-19",
-  "generated_at": "2026-10-19T10:27:52.098Z",
-  "date_hr": "Ponedjeljak, 19. listopada 2026.",
+  "date": "2026-10-20",
+  "generated_at": "2026-10-20T05:03:37.706Z",
+  "date_hr": "Utorak, 20. listopada 2026.",
   "weather": {
     "icon": "🌫️",
-    "summary": "7–18°C, magla",
+    "summary": "9–20°C, magla",
     "alerts": []
   },
   "fuel": {
-    "current_date": "19.10.2026",
+    "current_date": "20.10.2026",
     "eurodiesel": [
       {
         "company": "Adria Oil",
@@ -17,45 +17,45 @@
       },
       {
         "company": "Coral Croatia",
-        "price": 1.83
+        "price": 1.87
       },
       {
         "company": "INA",
-        "price": 1.83
+        "price": 1.87
       },
       {
         "company": "LUKOIL Croatia",
-        "price": 1.83
+        "price": 1.87
       },
       {
         "company": "Petrol",
-        "price": 1.83
+        "price": 1.87
       },
       {
         "company": "Tifon",
-        "price": 1.83
+        "price": 1.87
       }
     ],
     "premium_eurodiesel": [
       {
         "company": "LUKOIL Croatia",
-        "price": 1.99
+        "price": 2.03
       },
       {
         "company": "INA",
-        "price": 2.09
-      },
-      {
-        "company": "Tifon",
-        "price": 2.11
+        "price": 2.12
       },
       {
         "company": "Petrol",
-        "price": 2.14
+        "price": 2.15
+      },
+      {
+        "company": "Tifon",
+        "price": 2.15
       },
       {
         "company": "Coral Croatia",
-        "price": 2.19
+        "price": 2.23
       }
     ],
     "upcoming_date": null,
@@ -63,46 +63,46 @@
     "upcoming_premium": null
   },
   "market": {
-    "updated_at": "2026-10-19T10:27:52.098Z",
-    "btc_usd": 82413,
-    "btc_eur": 73533,
-    "btc_change_24h": 0.35,
-    "usd_eur": 0.8909
+    "updated_at": "2026-10-20T05:03:37.706Z",
+    "btc_usd": 82007,
+    "btc_eur": 73003,
+    "btc_change_24h": -0.66,
+    "usd_eur": 0.8915
   },
   "ai_news": [
+    {
+      "title": "Microsoft says AI agents are like insider threats as &#8216;frontier models can&#8217;t be trusted&#8217;",
+      "link": "https://techcrunch.com/2026/10/19/microsoft-says-ai-agents-are-like-insider-threats-as-frontier-models-cant-be-trusted/",
+      "source": "TechCrunch AI"
+    },
+    {
+      "title": "Cognizant puts 18,000 staff behind Google’s Gemini in AI agent push",
+      "link": "https://thenextweb.com/news/cognizant-google-gemini-18000-engineers",
+      "source": "The Next Web"
+    },
+    {
+      "title": "Four Gemini 4 Argon agents beat Minecraft in 27 hours with no human help",
+      "link": "https://thenextweb.com/news/gemini-4-argon-agents-beat-minecraft-27-hours",
+      "source": "The Next Web"
+    },
     {
       "title": "Meta says a Claude AI tool triggered the No Kings Instagram suspension",
       "link": "https://thenextweb.com/news/meta-claude-no-kings-instagram-suspension",
       "source": "The Next Web"
     },
     {
-      "title": "Anthropic izdvaja pet posto dionica u novi &#039;fond za opće dobro&#039;",
-      "link": "https://www.tportal.hr/tehno/clanak/anthropic-izdvaja-pet-posto-dionica-u-novi-fond-za-opce-dobro-20261019",
-      "source": "Tportal"
-    },
-    {
-      "title": "AI agenti će se za par mjeseci moći samoreplicirati na pametnim uređajima?",
-      "link": "https://mreza.bug.hr/umjetna-inteligencija/ai-agenti-ce-se-za-par-mjeseci-moci-samoreplicirati-na-pametnim-uredjajima-63532",
-      "source": "Bug.hr"
-    },
-    {
-      "title": "Anthropic commits 5% of its shares to a new public benefit fund",
-      "link": "https://thenextweb.com/news/anthropic-public-benefit-fund-5-percent-shares",
-      "source": "The Next Web"
-    },
-    {
-      "title": "Nitko ne voli Metinu ideju: Američke banke blokiraju AI agente koji upravljaju korisničkim novcem",
-      "link": "https://www.tportal.hr/tehno/clanak/nitko-ne-voli-metinu-ideju-americke-banke-blokiraju-ai-agente-koji-upravljaju-korisnickim-novcem-20261019",
-      "source": "Tportal"
+      "title": "Nscale and Anthropic are reportedly in talks for yet another $45B compute deal",
+      "link": "https://techcrunch.com/2026/10/19/nscale-and-anthropic-are-reportedly-in-talks-for-yet-another-45-billion-compute-deal/",
+      "source": "TechCrunch AI"
     }
   ],
   "micro_tips": {
     "vscode": {
-      "tip": "Format Document (auto-format cijelog fajla)",
-      "keys": "Shift+Alt+F"
+      "tip": "Go to Definition simbola",
+      "keys": "F12"
     },
-    "sql": "Covering index: uključi sve kolone iz WHERE + SELECT u index pa nema pristupa tablici",
-    "oracle": "/*+ NO_MERGE(v) */ sprječava merging inline viewa s parent queryjem",
-    "regex": "(?=pattern) lookahead: \"iza ovog mora slijediti X\" bez konzumiranja znakova"
+    "sql": "Window funkcije (ROW_NUMBER, LAG, LEAD) umjesto self-join za redosljed i razlike",
+    "oracle": "/*+ RESULT_CACHE */ cache-ira rezultat funkcije u SGA za ponovljene pozive",
+    "regex": ".+? lazy quantifier: stane na prvom mogućem podudaranju, ne zadnjem"
   }
 }
