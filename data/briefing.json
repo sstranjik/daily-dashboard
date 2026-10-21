@@ -1,15 +1,15 @@
 {
   "version": 2,
-  "date": "2026-10-20",
-  "generated_at": "2026-10-20T09:48:01.297Z",
-  "date_hr": "Utorak, 20. listopada 2026.",
+  "date": "2026-10-21",
+  "generated_at": "2026-10-21T05:03:52.688Z",
+  "date_hr": "Srijeda, 21. listopada 2026.",
   "weather": {
-    "icon": "🌫️",
-    "summary": "8–20°C, magla",
+    "icon": "🌦️",
+    "summary": "9–17°C, pljuskovi · 12.3 mm",
     "alerts": []
   },
   "fuel": {
-    "current_date": "20.10.2026",
+    "current_date": "21.10.2026",
     "eurodiesel": [
       {
         "company": "Adria Oil",
@@ -63,11 +63,11 @@
     "upcoming_premium": null
   },
   "market": {
-    "updated_at": "2026-10-20T09:48:01.297Z",
-    "btc_usd": 81314,
-    "btc_eur": 72498,
-    "btc_change_24h": -1.96,
-    "usd_eur": 0.8915
+    "updated_at": "2026-10-21T05:03:52.688Z",
+    "btc_usd": 82754,
+    "btc_eur": 73728,
+    "btc_change_24h": 0.92,
+    "usd_eur": 0.8908
   },
   "ai_news": [
     {
@@ -76,33 +76,33 @@
       "source": "The Next Web"
     },
     {
-      "title": "Microsoft says AI agents are like insider threats as &#8216;frontier models can&#8217;t be trusted&#8217;",
-      "link": "https://techcrunch.com/2026/10/19/microsoft-says-ai-agents-are-like-insider-threats-as-frontier-models-cant-be-trusted/",
+      "title": "Hugging Face CEO warns that Netflix&#8217;s OpenAI hack documentary isn&#8217;t accurate",
+      "link": "https://techcrunch.com/2026/10/20/hugging-face-ceo-warns-that-netflixs-openai-hack-documentary-isnt-accurate/",
       "source": "TechCrunch AI"
     },
     {
-      "title": "Cognizant puts 18,000 staff behind Google’s Gemini in AI agent push",
-      "link": "https://thenextweb.com/news/cognizant-google-gemini-18000-engineers",
-      "source": "The Next Web"
+      "title": "PHP warns it plans to release 2 emergency patches imminently",
+      "link": "https://arstechnica.com/security/2026/10/php-maintainers-tell-web-devs-to-prepare-themselves-for-critical-security-patches/",
+      "source": "Ars Technica"
     },
     {
-      "title": "Four Gemini 4 Argon agents beat Minecraft in 27 hours with no human help",
-      "link": "https://thenextweb.com/news/gemini-4-argon-agents-beat-minecraft-27-hours",
-      "source": "The Next Web"
+      "title": "Judge dismisses Sam Altman’s sister’s sexual abuse lawsuit",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1014976/sam-altman-ann-altman-lawsuit-dismissed",
+      "source": "The Verge"
     },
     {
-      "title": "Daytona CEO Ivan Burazin says it grows 51% a month with no salespeople",
-      "link": "https://thenextweb.com/news/ivan-burazin-daytona-ai-agent-sandboxes-tnw-podcast",
-      "source": "The Next Web"
+      "title": "Anthropic pitches AI safety bill that may block a model if 50+ people could be killed",
+      "link": "https://techcrunch.com/2026/10/20/anthropic-pitches-ai-safety-bill-that-may-block-a-model-if-50-people-could-be-killed/",
+      "source": "TechCrunch AI"
     }
   ],
   "micro_tips": {
     "vscode": {
-      "tip": "Go to Definition simbola",
-      "keys": "F12"
+      "tip": "Peek Definition bez napuštanja fajla",
+      "keys": "Alt+F12"
     },
-    "sql": "Window funkcije (ROW_NUMBER, LAG, LEAD) umjesto self-join za redosljed i razlike",
-    "oracle": "/*+ RESULT_CACHE */ cache-ira rezultat funkcije u SGA za ponovljene pozive",
-    "regex": ".+? lazy quantifier: stane na prvom mogućem podudaranju, ne zadnjem"
+    "sql": "EXPLAIN ANALYZE prikazuje stvarne vs procijenjene redove — ključno za tuning",
+    "oracle": "CONNECT BY LEVEL <= n generira broj redova bez pomoćne tablice",
+    "regex": "[^\\n]* svaki znak osim newline — dohvati cijelu liniju bez dotall flaga"
   }
 }
