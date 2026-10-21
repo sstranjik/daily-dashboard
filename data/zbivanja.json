@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-21T11:01:27.155Z",
+  "generated_at": "2026-10-21T12:01:27.419Z",
   "stats": {
     "muzika.hr": {
       "ok": true,
@@ -15,7 +15,7 @@
     },
     "Gavella": {
       "ok": true,
-      "count": 34
+      "count": 38
     },
     "Tvornica": {
       "ok": true,
@@ -33,6 +33,10 @@
       "ok": true,
       "count": 86
     },
+    "Pogon": {
+      "ok": true,
+      "count": 0
+    },
     "Kerempuh": {
       "ok": true,
       "count": 0
@@ -40,10 +44,6 @@
     "Trešnja": {
       "ok": true,
       "count": 0
-    },
-    "Pogon": {
-      "ok": false,
-      "error": "The operation was aborted due to timeout"
     }
   },
   "concerts": [
@@ -4250,6 +4250,66 @@
       "first_seen": "2026-10-14T10:01:27.322Z"
     },
     {
+      "id": "b214a0d46e",
+      "title": "Kockar",
+      "venue": "Gavella",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "theater",
+      "date_iso": "2026-12-17T00:00:00",
+      "date_display": "čet, 17. 12. 2026.",
+      "time": null,
+      "link": "https://www.gavella.hr/predstave/predstave-u-pripremi/kockar",
+      "source": "Gavella",
+      "is_new": true,
+      "first_seen": "2026-10-21T12:01:27.419Z"
+    },
+    {
+      "id": "193a2d3664",
+      "title": "Kockar",
+      "venue": "Gavella",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "theater",
+      "date_iso": "2026-12-18T00:00:00",
+      "date_display": "pet, 18. 12. 2026.",
+      "time": null,
+      "link": "https://www.gavella.hr/predstave/predstave-u-pripremi/kockar",
+      "source": "Gavella",
+      "is_new": true,
+      "first_seen": "2026-10-21T12:01:27.419Z"
+    },
+    {
+      "id": "73a8164857",
+      "title": "Kockar",
+      "venue": "Gavella",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "theater",
+      "date_iso": "2026-12-19T00:00:00",
+      "date_display": "sub, 19. 12. 2026.",
+      "time": null,
+      "link": "https://www.gavella.hr/predstave/predstave-u-pripremi/kockar",
+      "source": "Gavella",
+      "is_new": true,
+      "first_seen": "2026-10-21T12:01:27.419Z"
+    },
+    {
+      "id": "5e9ea03a92",
+      "title": "Kockar",
+      "venue": "Gavella",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "theater",
+      "date_iso": "2026-12-21T00:00:00",
+      "date_display": "pon, 21. 12. 2026.",
+      "time": null,
+      "link": "https://www.gavella.hr/predstave/predstave-u-pripremi/kockar",
+      "source": "Gavella",
+      "is_new": true,
+      "first_seen": "2026-10-21T12:01:27.419Z"
+    },
+    {
       "id": "169864ff03",
       "title": "Dugo putovanje u noć",
       "venue": "Gavella",
@@ -4447,5 +4507,5 @@
       "first_seen": "2026-10-11T05:01:21.358Z"
     }
   ],
-  "new_count": 4
+  "new_count": 8
 }
