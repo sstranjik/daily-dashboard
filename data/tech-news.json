@@ -1,9 +1,45 @@
 {
-  "last_updated": "2026-10-21T15:42:20.170Z",
+  "last_updated": "2026-10-21T16:01:23.082Z",
   "source_count": 11,
   "items": [
     {
       "id": "the-next-web-0",
+      "title": "Intel restarts its stalled US factory push as AI chip demand grows",
+      "summary": "Intel has started installing equipment at Fab 62, its new chip plant near Phoenix, which is due to open in early 2028. It has also put up the first major roof truss at its long-delayed Ohio site. The progress comes as demand for its data centre processors outpaces supply. Intel has started installin",
+      "link": "https://thenextweb.com/news/intel-fab-62-ohio-factory-progress",
+      "published": "2026-10-21T15:51:59.000Z",
+      "source": "The Next Web",
+      "category": "ai",
+      "xml_category": "artificial intelligence",
+      "tags": [],
+      "image": "https://media.thenextweb.com/2026/10/intel-logo-3d-glass-letters-blue-background.avif"
+    },
+    {
+      "id": "the-next-web-1",
+      "title": "European governments pull websites offline over two critical PHP flaws",
+      "summary": "Government, hospital and university websites across Europe went dark on Wednesday. Operators pulled them offline to guard against two critical flaws in PHP, the programming language that runs a large share of the web. They judged a few hours of downtime safer than staying exposed while a fix went ou",
+      "link": "https://thenextweb.com/news/europe-governments-websites-offline-php-security-flaws",
+      "published": "2026-10-21T15:48:48.000Z",
+      "source": "The Next Web",
+      "category": "general",
+      "xml_category": "data and security",
+      "tags": [],
+      "image": "https://media.thenextweb.com/2026/10/europe-map-red-hotspots.avif"
+    },
+    {
+      "id": "the-next-web-2",
+      "title": "Anthropic set Claude on 25 open-source projects and it found 493 flaws",
+      "summary": "Anthropic pointed its Claude models at 25 widely used open-source projects and set them a different task: not finding individual bugs, but finding code that attackers can reach when they should not be able to. Claude flagged 493 such issues. One of them had sat in the software for 21 years. The work",
+      "link": "https://thenextweb.com/news/claude-attack-surface-reduction-493-issues-openssh",
+      "published": "2026-10-21T15:39:42.000Z",
+      "source": "The Next Web",
+      "category": "ai",
+      "xml_category": "anthropic",
+      "tags": [],
+      "image": "https://media.thenextweb.com/2026/08/anthropic-in-house-chip-team-custom-silicon-claude.avif"
+    },
+    {
+      "id": "the-next-web-3",
       "title": "PHP rushes out emergency patches for two critical bugs AI found first",
       "summary": "PHP shipped emergency security updates on Wednesday. They fix two critical flaws that let an unauthenticated attacker run code on almost any server running the language. The release capped a frantic two days that pulled websites offline across the internet before the fix was ready. The patched relea",
       "link": "https://thenextweb.com/news/php2shell-php-rce-ai-openai-wiz",
@@ -39,7 +75,7 @@
       "image": null
     },
     {
-      "id": "the-next-web-1",
+      "id": "the-next-web-4",
       "title": "ChatGPT ads reach 89 countries as OpenAI passes 100,000 advertisers",
       "summary": "OpenAI is bringing ads in ChatGPT to 26 more countries, taking the total to 89. More than 100,000 advertisers have now run campaigns on the platform, the company said. It launched ChatGPT ads just over eight months ago. OpenAI announced the expansion in a blog post on Wednesday. The new markets incl",
       "link": "https://thenextweb.com/news/chatgpt-ads-89-countries-100000-advertisers",
@@ -51,9 +87,9 @@
       "image": "https://media.thenextweb.com/2026/08/ChatGPT-Ads.avif"
     },
     {
-      "id": "the-verge-0",
+      "id": "the-verge-2",
       "title": "Apple says it only has &#8216;limited&#8217; iPhone Duo units for in-store sales",
-      "summary": "Apple says it will have \"limited\" iPhone Duo models for sale in stores, according to a report from Reuters. The iPhone Duo launches on Friday, October 23rd, but online preorders quickly sold out, with some delivery estimates extending into next year. The iPhone Duo is Apple's first foldable, offerin",
+      "summary": "Apple says it will have \"limited\" iPhone Duo models for sale in stores, according to a report from Reuters. The iPhone Duo launches on Friday, October 23rd, but online preorders quickly sold out, with some delivery estimates extending into next year. \"On Friday morning, our teams look forward &#8203",
       "link": "https://www.theverge.com/tech/1015372/apple-says-it-only-has-limited-iphone-duo-units-for-in-store-sales",
       "published": "2026-10-21T14:22:59.000Z",
       "source": "The Verge",
@@ -63,7 +99,7 @@
       "image": null
     },
     {
-      "id": "the-next-web-2",
+      "id": "the-next-web-5",
       "title": "Anthropic could spend $750bn on compute, The Wall Street Journal reports",
       "summary": "A new draft of Anthropic’s S-1, the prospectus for its IPO, puts its possible computing spend at $750bn over the coming years. That includes deals it is still negotiating. Anissa Gardizy reported the figures for The Wall Street Journal, which saw the draft. Echo Wang of Reuters also reviewed it and ",
       "link": "https://thenextweb.com/news/anthropic-s-1-750bn-compute-80-7bn-loss",
@@ -75,7 +111,7 @@
       "image": "https://media.thenextweb.com/2026/10/anthropic-sign-office-building-entrance.avif"
     },
     {
-      "id": "the-next-web-3",
+      "id": "the-next-web-6",
       "title": "OpenAI brings GPT-6 Astra and Codex to Google Cloud, a rival’s platform",
       "summary": "OpenAI is bringing its frontier models and its Codex coding agent to Google Cloud, the two companies said on Wednesday. GPT-6 Astra, GPT-6.1 Sol and GPT-6 Luna are rolling out now in private preview in Google Cloud’s Model Garden, Google wrote. Select enterprise customers get them first. OpenAI plan",
       "link": "https://thenextweb.com/news/openai-models-codex-google-cloud",
@@ -87,7 +123,7 @@
       "image": "https://media.thenextweb.com/2026/09/openai-gpt-6-sol-luna-key-art.avif"
     },
     {
-      "id": "the-next-web-4",
+      "id": "the-next-web-7",
       "title": "OpenAI’s GPT-6 Astra agent removed a safety monitor, then denied doing it",
       "summary": "Two OpenAI coding agents weakened the company’s misalignment monitoring while doing routine internal tasks, and one then told a user it had not done so. OpenAI disclosed the incidents in a misalignment report on its alignment blog on Tuesday. One agent ran on GPT-6.1 Sol and the other on GPT-6 Astra",
       "link": "https://thenextweb.com/news/openai-agents-misalignment-monitoring-sol-astra",
@@ -111,18 +147,6 @@
       "image": "https://www.zdnet.com/wp-content/uploads/sites/3/Blink-Frontier-XR_BLK_1600x900-copy.jpg"
     },
     {
-      "id": "the-verge-1",
-      "title": "Blink brings 4K to its low-cost security camera lineup",
-      "summary": "Amazon is launching a new lineup of Blink security cameras, including its first 4K, pan-tilt models, and battery-powered spotlight models. These new additions provide better resolution and extended range for monitoring your property compared to Blink's current Mini 2K, Mini 2K Plus, and Outdoor 2K P",
-      "link": "https://www.theverge.com/tech/1015238/amazon-blink-4k-trail-security-camera-launch",
-      "published": "2026-10-21T14:00:00.000Z",
-      "source": "The Verge",
-      "category": "general",
-      "xml_category": "[object object]",
-      "tags": [],
-      "image": null
-    },
-    {
       "id": "techcrunch-ai-0",
       "title": "AI promises productivity, but for managers, it&#8217;s mostly a headache for now",
       "summary": "More than 50% of managers say they're finding it harder to evaluate employees' work after adopting AI, according to a new survey.",
@@ -135,7 +159,19 @@
       "image": null
     },
     {
-      "id": "the-verge-2",
+      "id": "the-verge-3",
+      "title": "Blink brings 4K to its low-cost security camera lineup",
+      "summary": "Amazon is launching a new lineup of Blink security cameras, including its first 4K, pan-tilt models, and battery-powered spotlight models. These new additions provide better resolution and extended range for monitoring your property compared to Blink's current Mini 2K, Mini 2K Plus, and Outdoor 2K P",
+      "link": "https://www.theverge.com/tech/1015238/amazon-blink-4k-trail-security-camera-launch",
+      "published": "2026-10-21T14:00:00.000Z",
+      "source": "The Verge",
+      "category": "general",
+      "xml_category": "[object object]",
+      "tags": [],
+      "image": null
+    },
+    {
+      "id": "the-verge-4",
       "title": "OpenAI says an AI agent lied about disabling its safety monitoring system",
       "summary": "OpenAI disclosed a pair of safety incidents that involved AI agents weakening their safety monitoring systems during internal coding tasks. In one incident, OpenAI says its GPT-6 Astra agent disabled its safety monitor when copying reference code - and then lied about it. \"The reference didn't confi",
       "link": "https://www.theverge.com/ai-artificial-intelligence/1015316/openai-ai-agent-disabling-monitoring-systems",
@@ -147,7 +183,7 @@
       "image": null
     },
     {
-      "id": "the-next-web-5",
+      "id": "the-next-web-8",
       "title": "Swedish legal AI firm Legora raises $550M led by Atreides at $8.8B valuation",
       "summary": "Swedish legal AI startup Legora has raised $550 million in a Series E funding round, bringing its valuation to $8.8 billion. US investment firm Atreides Management led the round, with several new and existing investors participating. Five new investors joined the round: Baron Capital, Capital Group,",
       "link": "https://thenextweb.com/news/legora-series-e-550m-8-8bn-valuation",
@@ -159,7 +195,7 @@
       "image": "https://media.thenextweb.com/2026/10/legora-co-founders-portrait-light-blue-backdrop.avif"
     },
     {
-      "id": "the-verge-3",
+      "id": "the-verge-5",
       "title": "Now Serato DJ works on your iPhone",
       "summary": "Serato DJ for iOS is finally bringing the company's pro-level DJ suite to the iPhone and iPad. Until now, the company had only dipped its toes into mobile software, with apps like Pyro that basically just added some autofades between songs in a playlist. This is the first time most of the features o",
       "link": "https://www.theverge.com/tech/1015319/serato-dj-for-ios",
@@ -183,7 +219,7 @@
       "image": "https://www.bug.hr/img/slijedi-hitna-nadogradnja-php-krpa-opasnu-rupu-koja-prijeti-milijunima-stranica_nEMZO5.jpg"
     },
     {
-      "id": "the-next-web-6",
+      "id": "the-next-web-9",
       "title": "Dario Amodei says Anthropic held Mythos back for four months for safety",
       "summary": "Anthropic chief executive Dario Amodei has defended the company’s “race to the top” strategy in a long post on X. He was replying to Nathan Calvin, chief strategy officer at the advocacy group Encode AI. Amodei listed nine decisions he said cost Anthropic commercially but made AI safer. He also said",
       "link": "https://thenextweb.com/news/dario-amodei-anthropic-race-to-the-top-nine-safety-decisions",
@@ -219,7 +255,7 @@
       "image": "https://mreza.bug.hr/img/qualcomm-sprema-novu-rundu-otkaza-no-nadaju-se-kako-ce-2027-biti-bolja_uYzZqE.jpg"
     },
     {
-      "id": "the-verge-4",
+      "id": "the-verge-6",
       "title": "Nvidia’s latest GPU driver brings a new way to speed up PC games",
       "summary": "Nvidia is rolling out a new GPU driver today (621.01) that enables Microsoft's new Advanced Shader Delivery technology to speed up game launches. The technology also removes mid-game \"just-in-time\" shader compilation, reducing stuttering and CPU spikes. Microsoft's Advanced Shader Delivery works by ",
       "link": "https://www.theverge.com/news/1015299/nvidia-driver-microsoft-advanced-shader-delivery-support",
@@ -267,7 +303,7 @@
       "image": "https://media.thenextweb.com/2026/10/orange-headquarters-issy-les-moulineaux.avif"
     },
     {
-      "id": "the-verge-5",
+      "id": "the-verge-7",
       "title": "I reviewed the iPhone Duo, ask me anything",
       "summary": "I'm The Verge's senior smartphone reviewer and I've been using the iPhone Duo for the past week. I've unfolded it, flipped it, and folded it more times than I could count as I've been working on the review alongside our editor-in-chief Nilay Patel, and I'm ready to answer your questions about it. Th",
       "link": "https://www.theverge.com/tech/1014316/iphone-duo-review-ama",
@@ -279,7 +315,7 @@
       "image": null
     },
     {
-      "id": "the-verge-6",
+      "id": "the-verge-8",
       "title": "Spotify is busting free of CarPlay with the launch of its first native car app",
       "summary": "Spotify announced Wednesday the launch of its next-generation, fully native in-car app, built directly on Google's Android Automotive operating system. The standalone app, which is launching today in select Audi models, runs directly on the vehicle's infotainment hardware - eliminating the need for ",
       "link": "https://www.theverge.com/entertainment/1014261/spotify-native-car-app-audi-android-automotive-carplay",
@@ -291,7 +327,7 @@
       "image": null
     },
     {
-      "id": "the-verge-7",
+      "id": "the-verge-9",
       "title": "I can’t get enough of the iPhone Duo’s matte inner display",
       "summary": "The iPhone Duo has all the messiness of a first-gen product. And while I'm not sure I love all of the decisions Apple made around its design, it got one thing right: the matte finish on the inner screen. I've been using it for the past week to watch movies on a plane, peruse my [&#8230;]",
       "link": "https://www.theverge.com/tech/1014709/iphone-duo-inner-screen-nano-texture-matte",
@@ -1501,42 +1537,6 @@
       "xml_category": "apps",
       "tags": [],
       "image": "https://media.thenextweb.com/2026/10/spotify-logo-tv-green-backlight.avif"
-    },
-    {
-      "id": "techcrunch-ai-11",
-      "title": "Plants can speak using electricity, so this startup built an AI model to decipher their language",
-      "summary": "Electric Plant has built an AI-powered translator to help humans listen to what plants are saying with the subtle electricity coursing through their stems.",
-      "link": "https://techcrunch.com/2026/10/20/plants-can-speak-using-electricity-so-this-startup-built-an-ai-model-to-decipher-their-language/",
-      "published": "2026-10-20T16:00:00.000Z",
-      "source": "TechCrunch AI",
-      "category": "ai",
-      "xml_category": "climate",
-      "tags": [],
-      "image": null
-    },
-    {
-      "id": "the-verge-7",
-      "title": "Arturia’s MiniFreak 49 makes its Freak synths more professional",
-      "summary": "Arturia is adding to its Freak line of proudly weird digital synths with the MiniFreak 49. Under the hood, it's almost identical to the current MiniFreak, but it adds a number of more professional features and some interface improvements. The most noticeable change is that, rather than the MiniFreak",
-      "link": "https://www.theverge.com/gadgets/1014255/arturias-minifreak-49-synthesizer",
-      "published": "2026-10-20T16:00:00.000Z",
-      "source": "The Verge",
-      "category": "general",
-      "xml_category": "[object object]",
-      "tags": [],
-      "image": null
-    },
-    {
-      "id": "the-verge-8",
-      "title": "The Gospel according to Peter (Thiel)",
-      "summary": "It's a time of apocalyptic worldviews in Silicon Valley. The latest AI doom cycle is driven by effective altruism (EA), a philosophy that has lurked around the fringes for years but recently burst into the mainstream because its adherents are embedded across the AI industry, from Anthropic to newly ",
-      "link": "https://www.theverge.com/tech/1014252/peter-thiel-antichrist-lectures-analysis",
-      "published": "2026-10-20T15:45:00.000Z",
-      "source": "The Verge",
-      "category": "general",
-      "xml_category": "[object object]",
-      "tags": [],
-      "image": null
     }
   ]
 }
