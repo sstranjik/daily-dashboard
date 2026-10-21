@@ -1,9 +1,13 @@
 {
-  "generated_at": "2026-10-21T20:01:23.167Z",
+  "generated_at": "2026-10-21T22:51:35.668Z",
   "stats": {
-    "muzika.hr": {
+    "Mochvara": {
       "ok": true,
-      "count": 25
+      "count": 20
+    },
+    "Tvornica": {
+      "ok": true,
+      "count": 2
     },
     "Gavella": {
       "ok": true,
@@ -13,17 +17,13 @@
       "ok": true,
       "count": 0
     },
-    "Mochvara": {
-      "ok": true,
-      "count": 20
-    },
-    "Tvornica": {
-      "ok": true,
-      "count": 2
-    },
     "ZeKaeM": {
       "ok": true,
       "count": 1
+    },
+    "muzika.hr": {
+      "ok": true,
+      "count": 25
     },
     "Komedija": {
       "ok": true,
@@ -42,8 +42,8 @@
       "count": 0
     },
     "Trešnja": {
-      "ok": false,
-      "error": "The operation was aborted due to timeout"
+      "ok": true,
+      "count": 0
     }
   },
   "concerts": [
@@ -1426,6 +1426,21 @@
       "source": "HNK Zagreb",
       "is_new": false,
       "first_seen": "2026-10-21T09:46:51.833Z"
+    },
+    {
+      "id": "e23f9ae9f1",
+      "title": "Metal koncert: GreyNoise, Klapan, Hyper Tidez",
+      "venue": "Mochvara",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-10-25T19:00:00",
+      "date_display": "ned, 25. 10. 2026.",
+      "time": "19:00",
+      "link": "https://mochvara.hr/event-detail/6aa3dda96a1a7b004b1e2f79/",
+      "source": "Mochvara",
+      "is_new": true,
+      "first_seen": "2026-10-21T22:51:35.668Z"
     },
     {
       "id": "0e7b9e88b6",
@@ -4492,5 +4507,5 @@
       "first_seen": "2026-10-11T05:01:21.358Z"
     }
   ],
-  "new_count": 4
+  "new_count": 5
 }
