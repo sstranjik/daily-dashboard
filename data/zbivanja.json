@@ -1,35 +1,35 @@
 {
-  "generated_at": "2026-10-21T09:46:51.833Z",
+  "generated_at": "2026-10-21T10:01:31.451Z",
   "stats": {
     "muzika.hr": {
       "ok": true,
       "count": 25
     },
-    "Mochvara": {
-      "ok": true,
-      "count": 20
-    },
     "Lisinski": {
       "ok": true,
       "count": 0
     },
-    "Tvornica": {
+    "Mochvara": {
       "ok": true,
-      "count": 2
+      "count": 20
     },
     "Gavella": {
       "ok": true,
       "count": 34
     },
-    "Komedija": {
+    "Tvornica": {
       "ok": true,
-      "count": 0
+      "count": 2
     },
     "ZeKaeM": {
       "ok": true,
       "count": 1
     },
-    "Pogon": {
+    "Komedija": {
+      "ok": true,
+      "count": 0
+    },
+    "Kerempuh": {
       "ok": true,
       "count": 0
     },
@@ -37,13 +37,13 @@
       "ok": true,
       "count": 86
     },
-    "Kerempuh": {
+    "Pogon": {
       "ok": true,
       "count": 0
     },
     "Trešnja": {
-      "ok": false,
-      "error": "The operation was aborted due to timeout"
+      "ok": true,
+      "count": 0
     }
   },
   "concerts": [
@@ -1439,7 +1439,7 @@
       "time": "13:30",
       "link": "https://hnk.hr/hr/ostalo/predstave/posebni-razgled-povodom-svjetskog-dana-opere/#25.10.13.30",
       "source": "HNK Zagreb",
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-10-21T09:46:51.833Z"
     },
     {
@@ -4447,5 +4447,5 @@
       "first_seen": "2026-10-11T05:01:21.358Z"
     }
   ],
-  "new_count": 5
+  "new_count": 4
 }
