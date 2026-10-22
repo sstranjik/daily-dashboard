@@ -1,9 +1,17 @@
 {
-  "generated_at": "2026-10-21T22:51:35.668Z",
+  "generated_at": "2026-10-22T05:01:20.818Z",
   "stats": {
+    "muzika.hr": {
+      "ok": true,
+      "count": 25
+    },
     "Mochvara": {
       "ok": true,
       "count": 20
+    },
+    "Lisinski": {
+      "ok": true,
+      "count": 0
     },
     "Tvornica": {
       "ok": true,
@@ -13,17 +21,9 @@
       "ok": true,
       "count": 37
     },
-    "Lisinski": {
-      "ok": true,
-      "count": 0
-    },
     "ZeKaeM": {
       "ok": true,
       "count": 1
-    },
-    "muzika.hr": {
-      "ok": true,
-      "count": 25
     },
     "Komedija": {
       "ok": true,
@@ -33,13 +33,13 @@
       "ok": true,
       "count": 0
     },
-    "HNK Zagreb": {
-      "ok": true,
-      "count": 86
-    },
     "Kerempuh": {
       "ok": true,
       "count": 0
+    },
+    "HNK Zagreb": {
+      "ok": true,
+      "count": 86
     },
     "Trešnja": {
       "ok": true,
@@ -47,36 +47,6 @@
     }
   },
   "concerts": [
-    {
-      "id": "39a103386b",
-      "title": "Električni orgazam",
-      "venue": "Tvornica kulture Šubićeva 2",
-      "city": "Zagreb",
-      "country": "HR",
-      "category": "concert",
-      "date_iso": "2026-10-07T00:00:00",
-      "date_display": "sri, 07. 10. 2026.",
-      "time": null,
-      "link": "https://www.muzika.hr/event/elektricni-orgazam-4/",
-      "source": "muzika.hr",
-      "is_new": false,
-      "first_seen": "2026-08-23T05:01:05.788Z"
-    },
-    {
-      "id": "9c3584a6e2",
-      "title": "Nazareth",
-      "venue": "Nazareth Tvornica kulture Šubićeva 2",
-      "city": "Zagreb",
-      "country": "HR",
-      "category": "concert",
-      "date_iso": "2026-10-07T00:00:00",
-      "date_display": "sri, 07. 10. 2026.",
-      "time": null,
-      "link": "https://www.muzika.hr/event/nazareth/",
-      "source": "muzika.hr",
-      "is_new": false,
-      "first_seen": "2026-10-01T17:01:18.599Z"
-    },
     {
       "id": "d1015ce055",
       "title": "Jakov Gotovac STANAC",
@@ -1439,7 +1409,7 @@
       "time": "19:00",
       "link": "https://mochvara.hr/event-detail/6aa3dda96a1a7b004b1e2f79/",
       "source": "Mochvara",
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-10-21T22:51:35.668Z"
     },
     {
@@ -2975,21 +2945,6 @@
   ],
   "theater": [
     {
-      "id": "f4acea13be",
-      "title": "Promocija romana \"Pravi život\" Nore Verde",
-      "venue": "Gavella",
-      "city": "Zagreb",
-      "country": "HR",
-      "category": "theater",
-      "date_iso": "2026-10-07T00:00:00",
-      "date_display": "sri, 07. 10. 2026.",
-      "time": null,
-      "link": "https://www.gavella.hr/predstave/promocija-romana-pravi-zivot-nore-verde",
-      "source": "Gavella",
-      "is_new": false,
-      "first_seen": "2026-10-02T12:01:21.576Z"
-    },
-    {
       "id": "9fe22c1f8d",
       "title": "Promocija zbirke drama Eight Plays - Drama of Smaller European Languages",
       "venue": "HNK Zagreb",
@@ -4507,5 +4462,5 @@
       "first_seen": "2026-10-11T05:01:21.358Z"
     }
   ],
-  "new_count": 5
+  "new_count": 4
 }
