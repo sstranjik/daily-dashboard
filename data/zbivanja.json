@@ -1,37 +1,33 @@
 {
-  "generated_at": "2026-10-22T09:01:28.413Z",
+  "generated_at": "2026-10-22T09:47:13.128Z",
   "stats": {
-    "muzika.hr": {
+    "Mochvara": {
       "ok": true,
-      "count": 25
+      "count": 20
     },
     "Lisinski": {
       "ok": true,
       "count": 0
     },
-    "Tvornica": {
-      "ok": true,
-      "count": 2
-    },
     "Gavella": {
       "ok": true,
       "count": 37
     },
-    "Mochvara": {
+    "Tvornica": {
       "ok": true,
-      "count": 20
+      "count": 2
     },
     "ZeKaeM": {
       "ok": true,
       "count": 1
     },
+    "muzika.hr": {
+      "ok": true,
+      "count": 25
+    },
     "Komedija": {
       "ok": true,
       "count": 0
-    },
-    "HNK Zagreb": {
-      "ok": true,
-      "count": 93
     },
     "Pogon": {
       "ok": true,
@@ -40,6 +36,10 @@
     "Kerempuh": {
       "ok": true,
       "count": 0
+    },
+    "HNK Zagreb": {
+      "ok": true,
+      "count": 94
     },
     "Trešnja": {
       "ok": true,
@@ -2894,7 +2894,7 @@
       "time": "19:30",
       "link": "https://hnk.hr/hr/opera/predstave/aida-nova/#11.01.19.30",
       "source": "HNK Zagreb",
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-10-22T09:01:28.413Z"
     },
     {
@@ -2909,7 +2909,7 @@
       "time": "19:30",
       "link": "https://hnk.hr/hr/opera/predstave/aida-nova/#13.01.19.30",
       "source": "HNK Zagreb",
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-10-22T09:01:28.413Z"
     },
     {
@@ -2924,7 +2924,7 @@
       "time": "19:30",
       "link": "https://hnk.hr/hr/opera/predstave/aida-nova/#14.01.19.30",
       "source": "HNK Zagreb",
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-10-22T09:01:28.413Z"
     },
     {
@@ -2939,7 +2939,7 @@
       "time": "18:00",
       "link": "https://hnk.hr/hr/opera/predstave/aida-nova/#16.01.18.00",
       "source": "HNK Zagreb",
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-10-22T09:01:28.413Z"
     },
     {
@@ -2954,8 +2954,23 @@
       "time": "19:30",
       "link": "https://hnk.hr/hr/opera/predstave/nikola-%C5%A1ubi%C4%87-zrinjski/#21.01.19.30",
       "source": "HNK Zagreb",
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-10-22T09:01:28.413Z"
+    },
+    {
+      "id": "6891a64dfe",
+      "title": "Ivan pl. Zajc Nikola Šubić Zrinjski",
+      "venue": "HNK Zagreb",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2027-01-30T18:00:00",
+      "date_display": "sub, 30. 01. 2027.",
+      "time": "18:00",
+      "link": "https://hnk.hr/hr/opera/predstave/nikola-%C5%A1ubi%C4%87-zrinjski/#30.01.18.00",
+      "source": "HNK Zagreb",
+      "is_new": true,
+      "first_seen": "2026-10-22T09:47:13.128Z"
     },
     {
       "id": "6546fe288f",
@@ -4396,7 +4411,7 @@
       "time": "19:30",
       "link": "https://hnk.hr/hr/drama/predstave/zastave/#19.01.19.30",
       "source": "HNK Zagreb",
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-10-22T09:01:28.413Z"
     },
     {
@@ -4411,7 +4426,7 @@
       "time": "18:00",
       "link": "https://hnk.hr/hr/drama/predstave/zastave/#23.01.18.00",
       "source": "HNK Zagreb",
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-10-22T09:01:28.413Z"
     },
     {
@@ -4567,5 +4582,5 @@
       "first_seen": "2026-10-11T05:01:21.358Z"
     }
   ],
-  "new_count": 11
+  "new_count": 5
 }
