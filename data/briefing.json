@@ -1,15 +1,15 @@
 {
   "version": 2,
-  "date": "2026-10-21",
-  "generated_at": "2026-10-21T09:48:42.316Z",
-  "date_hr": "Srijeda, 21. listopada 2026.",
+  "date": "2026-10-22",
+  "generated_at": "2026-10-22T05:02:47.777Z",
+  "date_hr": "Četvrtak, 22. listopada 2026.",
   "weather": {
     "icon": "🌧️",
-    "summary": "9–16°C, kiša · 19.3 mm",
+    "summary": "10–15°C, lagana kiša · 8.4 mm",
     "alerts": []
   },
   "fuel": {
-    "current_date": "21.10.2026",
+    "current_date": "22.10.2026",
     "eurodiesel": [
       {
         "company": "Adria Oil",
@@ -63,46 +63,46 @@
     "upcoming_premium": null
   },
   "market": {
-    "updated_at": "2026-10-21T09:48:42.316Z",
-    "btc_usd": 83355,
-    "btc_eur": 74267,
-    "btc_change_24h": 2.56,
-    "usd_eur": 0.8908
+    "updated_at": "2026-10-22T05:02:47.777Z",
+    "btc_usd": 82846,
+    "btc_eur": 73683,
+    "btc_change_24h": 0.09,
+    "usd_eur": 0.8903
   },
   "ai_news": [
     {
-      "title": "OpenAI unaprijedio GPT modele za efikasniji rad s jezicima COBOL i Fortran",
-      "link": "https://www.bug.hr/umjetna-inteligencija/openai-unaprijedio-gpt-modele-za-efikasniji-rad-s-jezicima-cobol-i-fortran-63688",
-      "source": "Bug.hr"
+      "title": "Anthropic takes on Muse with Claude Duet, its new AI agent",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1015843/anthropic-claude-duet-ai-agent",
+      "source": "The Verge"
     },
     {
-      "title": "Hugging Face CEO warns that Netflix&#8217;s OpenAI hack documentary isn&#8217;t accurate",
-      "link": "https://techcrunch.com/2026/10/20/hugging-face-ceo-warns-that-netflixs-openai-hack-documentary-isnt-accurate/",
-      "source": "TechCrunch AI"
-    },
-    {
-      "title": "QED Science is building a better filter for scientists buried in papers",
-      "link": "https://thenextweb.com/news/qed-science-insights-feed-ai-research-agents-papers",
+      "title": "Nvidia turns OpenShell into a full hardware stack for safe AI agents",
+      "link": "https://thenextweb.com/news/nvidia-openshell-ai-agents-safety-anthropic-openai",
       "source": "The Next Web"
     },
     {
-      "title": "Hrvatski dizajner napravio idealnu mobilnu igru za ribiče sa 76 pravih vrsta riba i 40 lokacija",
-      "link": "https://www.netokracija.com/hrvatski-dizajner-napravio-idealnu-mobilnu-igru-za-ribice-sa-76-pravih-vrsta-riba-i-40-lokacija-248225",
-      "source": "Netokracija"
+      "title": "Anthropic set Claude on 25 open-source projects and it found 493 flaws",
+      "link": "https://thenextweb.com/news/claude-attack-surface-reduction-493-issues-openssh",
+      "source": "The Next Web"
     },
     {
-      "title": "Personalizirani prijevoz: Google uvodi Gemini Personal Intelligence u Android Auto",
-      "link": "https://www.tportal.hr/tehno/clanak/personalizirani-prijevoz-google-uvodi-gemini-personal-intelligence-u-android-auto-20261021",
-      "source": "Tportal"
+      "title": "ChatGPT ads reach 89 countries as OpenAI passes 100,000 advertisers",
+      "link": "https://thenextweb.com/news/chatgpt-ads-89-countries-100000-advertisers",
+      "source": "The Next Web"
+    },
+    {
+      "title": "OpenAI says an AI agent lied about disabling its safety monitoring system",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1015316/openai-ai-agent-disabling-monitoring-systems",
+      "source": "The Verge"
     }
   ],
   "micro_tips": {
     "vscode": {
-      "tip": "Peek Definition bez napuštanja fajla",
-      "keys": "Alt+F12"
+      "tip": "Dupliciraj trenutnu liniju ispod",
+      "keys": "Shift+Alt+↓"
     },
-    "sql": "EXPLAIN ANALYZE prikazuje stvarne vs procijenjene redove — ključno za tuning",
-    "oracle": "CONNECT BY LEVEL <= n generira broj redova bez pomoćne tablice",
-    "regex": "[^\\n]* svaki znak osim newline — dohvati cijelu liniju bez dotall flaga"
+    "sql": "Partial index s WHERE klauzulom smanjuje veličinu i ubrzava specifična filtriranja",
+    "oracle": "LISTAGG(col, ',') WITHIN GROUP (ORDER BY col) konkatenira u jedan string",
+    "regex": "(?<ime>\\d{4}) named group — referenciraj s \\k<ime> ili $<ime> u replace"
   }
 }
