@@ -1,15 +1,15 @@
 {
   "version": 2,
-  "date": "2026-10-22",
-  "generated_at": "2026-10-22T09:48:34.088Z",
-  "date_hr": "Četvrtak, 22. listopada 2026.",
+  "date": "2026-10-23",
+  "generated_at": "2026-10-23T05:02:42.107Z",
+  "date_hr": "Petak, 23. listopada 2026.",
   "weather": {
     "icon": "🌧️",
-    "summary": "9–15°C, kiša · 6.2 mm",
+    "summary": "7–12°C, rosulja",
     "alerts": []
   },
   "fuel": {
-    "current_date": "22.10.2026",
+    "current_date": "23.10.2026",
     "eurodiesel": [
       {
         "company": "Adria Oil",
@@ -63,46 +63,46 @@
     "upcoming_premium": null
   },
   "market": {
-    "updated_at": "2026-10-22T09:48:34.088Z",
-    "btc_usd": 81737,
-    "btc_eur": 72798,
-    "btc_change_24h": -1.94,
-    "usd_eur": 0.8903
+    "updated_at": "2026-10-23T05:02:42.107Z",
+    "btc_usd": 81534,
+    "btc_eur": 72740,
+    "btc_change_24h": -1.58,
+    "usd_eur": 0.8915
   },
   "ai_news": [
     {
-      "title": "Anthropic takes on Muse with Claude Duet, its new AI agent",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1015843/anthropic-claude-duet-ai-agent",
+      "title": "Anthropic predstavio Claude Duet, AI agenta za poslovne korisnike",
+      "link": "https://www.bug.hr/umjetna-inteligencija/anthropic-predstavio-claude-duet-ai-agenta-za-poslovne-korisnike-63761",
+      "source": "Bug.hr"
+    },
+    {
+      "title": "1Password lets AI agents sign in for users without seeing their passwords",
+      "link": "https://thenextweb.com/news/1password-for-agents-ai-agent-logins",
+      "source": "The Next Web"
+    },
+    {
+      "title": "Anthropic previews Claude Duet, an AI agent that works in the background",
+      "link": "https://thenextweb.com/news/anthropic-claude-duet-ai-agent",
+      "source": "The Next Web"
+    },
+    {
+      "title": "Discord now formats Markdown previews right",
+      "link": "https://www.theverge.com/news/1017012/discord-markdown-previews-organize-servers-channels",
       "source": "The Verge"
     },
     {
-      "title": "Nvidia turns OpenShell into a full hardware stack for safe AI agents",
-      "link": "https://thenextweb.com/news/nvidia-openshell-ai-agents-safety-anthropic-openai",
+      "title": "Uber gives more than 30,000 staff OpenAI’s ChatGPT Work agent",
+      "link": "https://thenextweb.com/news/uber-chatgpt-work-30000-employees",
       "source": "The Next Web"
-    },
-    {
-      "title": "Anthropic set Claude on 25 open-source projects and it found 493 flaws",
-      "link": "https://thenextweb.com/news/claude-attack-surface-reduction-493-issues-openssh",
-      "source": "The Next Web"
-    },
-    {
-      "title": "ChatGPT ads reach 89 countries as OpenAI passes 100,000 advertisers",
-      "link": "https://thenextweb.com/news/chatgpt-ads-89-countries-100000-advertisers",
-      "source": "The Next Web"
-    },
-    {
-      "title": "OpenAI says an AI agent lied about disabling its safety monitoring system",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1015316/openai-ai-agent-disabling-monitoring-systems",
-      "source": "The Verge"
     }
   ],
   "micro_tips": {
     "vscode": {
-      "tip": "Dupliciraj trenutnu liniju ispod",
-      "keys": "Shift+Alt+↓"
+      "tip": "Obriši cijelu liniju odjednom",
+      "keys": "Ctrl+Shift+K"
     },
-    "sql": "Partial index s WHERE klauzulom smanjuje veličinu i ubrzava specifična filtriranja",
-    "oracle": "LISTAGG(col, ',') WITHIN GROUP (ORDER BY col) konkatenira u jedan string",
-    "regex": "(?<ime>\\d{4}) named group — referenciraj s \\k<ime> ili $<ime> u replace"
+    "sql": "GROUP BY s ROLLUP za subtotale u jednom prolasku: GROUP BY ROLLUP(god, mj)",
+    "oracle": "TRUNC(datum_kolona) = TRUNC(SYSDATE) koristi B-tree index na datumskoj koloni",
+    "regex": "\\d{4}-\\d{2}-\\d{2} ISO datum pattern; za validaciju zatvori s ^...$"
   }
 }
