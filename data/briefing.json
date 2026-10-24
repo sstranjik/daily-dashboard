@@ -1,15 +1,15 @@
 {
   "version": 2,
-  "date": "2026-10-23",
-  "generated_at": "2026-10-23T09:44:08.227Z",
-  "date_hr": "Petak, 23. listopada 2026.",
+  "date": "2026-10-24",
+  "generated_at": "2026-10-24T05:02:52.976Z",
+  "date_hr": "Subota, 24. listopada 2026.",
   "weather": {
-    "icon": "🌧️",
-    "summary": "6–11°C, rosulja",
+    "icon": "🌦️",
+    "summary": "9–12°C, pljuskovi · 10.4 mm",
     "alerts": []
   },
   "fuel": {
-    "current_date": "23.10.2026",
+    "current_date": "24.10.2026",
     "eurodiesel": [
       {
         "company": "Adria Oil",
@@ -46,12 +46,12 @@
         "price": 2.12
       },
       {
-        "company": "Petrol",
+        "company": "Tifon",
         "price": 2.15
       },
       {
-        "company": "Tifon",
-        "price": 2.15
+        "company": "Petrol",
+        "price": 2.17
       },
       {
         "company": "Coral Croatia",
@@ -63,11 +63,11 @@
     "upcoming_premium": null
   },
   "market": {
-    "updated_at": "2026-10-23T09:44:08.227Z",
-    "btc_usd": 81506,
-    "btc_eur": 72790,
-    "btc_change_24h": -0.24,
-    "usd_eur": 0.8915
+    "updated_at": "2026-10-24T05:02:52.976Z",
+    "btc_usd": 80815,
+    "btc_eur": 72145,
+    "btc_change_24h": -0.9,
+    "usd_eur": 0.8928
   },
   "ai_news": [
     {
@@ -76,33 +76,33 @@
       "source": "Bug.hr"
     },
     {
-      "title": "Anthropic predstavio Claude Duet, AI agenta za poslovne korisnike",
-      "link": "https://www.bug.hr/umjetna-inteligencija/anthropic-predstavio-claude-duet-ai-agenta-za-poslovne-korisnike-63761",
-      "source": "Bug.hr"
-    },
-    {
-      "title": "1Password lets AI agents sign in for users without seeing their passwords",
-      "link": "https://thenextweb.com/news/1password-for-agents-ai-agent-logins",
+      "title": "OpenClaw creator puts last month’s token bill at $10M, The Register reports",
+      "link": "https://thenextweb.com/news/openclaw-steinberger-10m-tokens-cloudflare-connect",
       "source": "The Next Web"
     },
     {
-      "title": "Anthropic previews Claude Duet, an AI agent that works in the background",
-      "link": "https://thenextweb.com/news/anthropic-claude-duet-ai-agent",
+      "title": "OpenAI’s AI agents analyse a mouse brain gene atlas in 32 minutes",
+      "link": "https://thenextweb.com/news/openai-ai-agents-mouse-brain-crispr-atlas",
       "source": "The Next Web"
     },
     {
       "title": "OpenAI signs AI safety research deal with Poland’s NASK institute",
       "link": "https://thenextweb.com/news/openai-nask-poland-ai-safety-research",
       "source": "The Next Web"
+    },
+    {
+      "title": "LiteLLM says hackers poisoned it with GitHub tokens leaked via Claude Code",
+      "link": "https://thenextweb.com/news/litellm-hack-github-tokens-logs-claude-code",
+      "source": "The Next Web"
     }
   ],
   "micro_tips": {
     "vscode": {
-      "tip": "Obriši cijelu liniju odjednom",
-      "keys": "Ctrl+Shift+K"
+      "tip": "Otvori datoteku brzim pretraživanjem",
+      "keys": "Ctrl+P"
     },
-    "sql": "GROUP BY s ROLLUP za subtotale u jednom prolasku: GROUP BY ROLLUP(god, mj)",
-    "oracle": "TRUNC(datum_kolona) = TRUNC(SYSDATE) koristi B-tree index na datumskoj koloni",
-    "regex": "\\d{4}-\\d{2}-\\d{2} ISO datum pattern; za validaciju zatvori s ^...$"
+    "sql": "NOT EXISTS brži od NOT IN kad subquery može vratiti NULL vrijednost",
+    "oracle": "DBMS_STATS.GATHER_TABLE_STATS osvježava statistike za točniji execution plan",
+    "regex": "(?i) inline flag za case-insensitive bez mijenjanja ostatka patternahe"
   }
 }
