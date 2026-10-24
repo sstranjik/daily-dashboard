@@ -1,9 +1,13 @@
 {
-  "generated_at": "2026-10-24T11:01:25.697Z",
+  "generated_at": "2026-10-24T12:01:24.332Z",
   "stats": {
     "muzika.hr": {
-      "ok": false,
-      "error": "HTTP 502"
+      "ok": true,
+      "count": 25
+    },
+    "Lisinski": {
+      "ok": true,
+      "count": 0
     },
     "Mochvara": {
       "ok": true,
@@ -12,10 +16,6 @@
     "Tvornica": {
       "ok": true,
       "count": 2
-    },
-    "Lisinski": {
-      "ok": true,
-      "count": 0
     },
     "Gavella": {
       "ok": true,
@@ -29,10 +29,6 @@
       "ok": true,
       "count": 0
     },
-    "HNK Zagreb": {
-      "ok": true,
-      "count": 91
-    },
     "Pogon": {
       "ok": true,
       "count": 0
@@ -40,6 +36,10 @@
     "Kerempuh": {
       "ok": true,
       "count": 0
+    },
+    "HNK Zagreb": {
+      "ok": true,
+      "count": 91
     },
     "Trešnja": {
       "ok": true,
