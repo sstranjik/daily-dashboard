@@ -1,33 +1,33 @@
 {
-  "generated_at": "2026-10-24T20:01:22.179Z",
+  "generated_at": "2026-10-24T22:03:42.393Z",
   "stats": {
+    "Mochvara": {
+      "ok": true,
+      "count": 19
+    },
     "muzika.hr": {
       "ok": true,
       "count": 25
-    },
-    "Mochvara": {
-      "ok": true,
-      "count": 20
     },
     "Lisinski": {
       "ok": true,
       "count": 0
     },
-    "Gavella": {
-      "ok": true,
-      "count": 34
-    },
     "Tvornica": {
       "ok": true,
       "count": 2
     },
-    "ZeKaeM": {
+    "Gavella": {
       "ok": true,
-      "count": 1
+      "count": 34
     },
     "Komedija": {
       "ok": true,
       "count": 0
+    },
+    "ZeKaeM": {
+      "ok": true,
+      "count": 1
     },
     "Pogon": {
       "ok": true,
@@ -47,21 +47,6 @@
     }
   },
   "concerts": [
-    {
-      "id": "2655988d18",
-      "title": "Majmuniranje – indie party",
-      "venue": "Mochvara",
-      "city": "Zagreb",
-      "country": "HR",
-      "category": "concert",
-      "date_iso": "2026-10-09T22:00:00",
-      "date_display": "pet, 09. 10. 2026.",
-      "time": "22:00",
-      "link": "https://mochvara.hr/event-detail/6abfa3edde115ed6ce92fa8d/",
-      "source": "Mochvara",
-      "is_new": false,
-      "first_seen": "2026-10-04T15:01:16.271Z"
-    },
     {
       "id": "a5f1598529",
       "title": "Jasna Zlokić",
@@ -1413,6 +1398,21 @@
       "first_seen": "2026-10-14T19:01:34.536Z"
     },
     {
+      "id": "10ebd0235f",
+      "title": "Vratimo nežnost u grad — regionalni alt-indie-pop party",
+      "venue": "Mochvara",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-10-30T22:00:00",
+      "date_display": "pet, 30. 10. 2026.",
+      "time": "22:00",
+      "link": "https://mochvara.hr/event-detail/6ad8b11aaf4ecaea5503ed3c/",
+      "source": "Mochvara",
+      "is_new": true,
+      "first_seen": "2026-10-24T22:03:42.393Z"
+    },
+    {
       "id": "5095edc102",
       "title": "Tito Tarantula (muzika.hr fanclub)",
       "venue": "Grada Vukovara 68",
@@ -2178,6 +2178,21 @@
       "first_seen": "2026-08-27T15:01:20.279Z"
     },
     {
+      "id": "a59f23c911",
+      "title": "Rotting Christ",
+      "venue": "Grada Vukovara 68",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-11-22T00:00:00",
+      "date_display": "ned, 22. 11. 2026.",
+      "time": null,
+      "link": "https://www.muzika.hr/event/rotting-christ/",
+      "source": "muzika.hr",
+      "is_new": true,
+      "first_seen": "2026-10-24T22:03:42.393Z"
+    },
+    {
       "id": "51c75280d8",
       "title": "ZAGREBAČKI KVARTET SAKSOFONA",
       "venue": "HNK Zagreb",
@@ -2206,6 +2221,21 @@
       "source": "HNK Zagreb",
       "is_new": false,
       "first_seen": "2026-10-08T10:01:28.308Z"
+    },
+    {
+      "id": "52cfc2a35a",
+      "title": "Sarah Brightman u Areni Zagreb",
+      "venue": "Areni Zagreb Arena Zagreb Lanište bb",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-11-22T19:30:00",
+      "date_display": "ned, 22. 11. 2026.",
+      "time": "19:30",
+      "link": "https://www.muzika.hr/event/sarah-brightman-u-areni-zagreb/",
+      "source": "muzika.hr",
+      "is_new": true,
+      "first_seen": "2026-10-24T22:03:42.393Z"
     },
     {
       "id": "abc47ef862",
@@ -4297,5 +4327,5 @@
       "first_seen": "2026-10-11T05:01:21.358Z"
     }
   ],
-  "new_count": 4
+  "new_count": 7
 }
