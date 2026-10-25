@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-25T17:56:16.196Z",
+  "generated_at": "2026-10-25T18:01:21.038Z",
   "stats": {
     "muzika.hr": {
       "ok": true,
@@ -33,10 +33,6 @@
       "ok": true,
       "count": 89
     },
-    "Pogon": {
-      "ok": true,
-      "count": 0
-    },
     "Kerempuh": {
       "ok": true,
       "count": 0
@@ -44,39 +40,13 @@
     "Trešnja": {
       "ok": true,
       "count": 0
+    },
+    "Pogon": {
+      "ok": false,
+      "error": "The operation was aborted due to timeout"
     }
   },
   "concerts": [
-    {
-      "id": "b4b08c7df1",
-      "title": "Gioachino Rossini / Dmitrij Šostakovič — Mauro Bigonzetti ROSSINI CARDS / KAZIMIR’S COLOURS",
-      "venue": "HNK Zagreb",
-      "city": "Zagreb",
-      "country": "HR",
-      "category": "concert",
-      "date_iso": "2026-10-10T18:00:00",
-      "date_display": "sub, 10. 10. 2026.",
-      "time": "18:00",
-      "link": "https://hnk.hr/hr/balet/predstave/rossini-cards-kazimirs-colours/#10.10.18.00",
-      "source": "HNK Zagreb",
-      "is_new": false,
-      "first_seen": "2026-07-02T11:01:20.410Z"
-    },
-    {
-      "id": "30f119750b",
-      "title": "Dmitrij Šostakovič / Gioachino Rossini — Mauro Bigonzetti KAZIMIR’S COLOURS / ROSSINI CARDS",
-      "venue": "HNK Zagreb",
-      "city": "Zagreb",
-      "country": "HR",
-      "category": "concert",
-      "date_iso": "2026-10-10T18:00:00",
-      "date_display": "sub, 10. 10. 2026.",
-      "time": "18:00",
-      "link": "https://hnk.hr/hr/balet/predstave/kazimirs-colours-rossini-cards/#10.10.18.00",
-      "source": "HNK Zagreb",
-      "is_new": false,
-      "first_seen": "2026-07-16T11:24:53.922Z"
-    },
     {
       "id": "30e9cced67",
       "title": "Ciklus komornih koncerata KLASIKA NEDJELJOM 1",
