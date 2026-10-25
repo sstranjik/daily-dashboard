@@ -1,15 +1,15 @@
 {
   "version": 2,
-  "date": "2026-10-24",
-  "generated_at": "2026-10-24T09:17:24.432Z",
-  "date_hr": "Subota, 24. listopada 2026.",
+  "date": "2026-10-25",
+  "generated_at": "2026-10-25T06:03:08.694Z",
+  "date_hr": "Nedjelja, 25. listopada 2026.",
   "weather": {
-    "icon": "🌦️",
-    "summary": "9–12°C, pljuskovi · 9.9 mm",
+    "icon": "🌧️",
+    "summary": "5–12°C, lagana kiša",
     "alerts": []
   },
   "fuel": {
-    "current_date": "24.10.2026",
+    "current_date": "25.10.2026",
     "eurodiesel": [
       {
         "company": "Adria Oil",
@@ -63,46 +63,46 @@
     "upcoming_premium": null
   },
   "market": {
-    "updated_at": "2026-10-24T09:17:24.432Z",
-    "btc_usd": 80569,
-    "btc_eur": 71911,
-    "btc_change_24h": -1.36,
-    "usd_eur": 0.8928
+    "updated_at": "2026-10-25T06:03:08.694Z",
+    "btc_usd": 80512,
+    "btc_eur": 71860,
+    "btc_change_24h": -0.16,
+    "usd_eur": 0.8926
   },
   "ai_news": [
     {
-      "title": "OpenClaw creator puts last month’s token bill at $10M, The Register reports",
-      "link": "https://thenextweb.com/news/openclaw-steinberger-10m-tokens-cloudflare-connect",
+      "title": "UK funds £100m AI biosecurity lab with OpenAI and Anthropic",
+      "link": "https://thenextweb.com/news/uk-funds-100m-ai-biosecurity-lab-with-openai-and-anthropic",
       "source": "The Next Web"
     },
     {
-      "title": "OpenAI’s AI agents analyse a mouse brain gene atlas in 32 minutes",
-      "link": "https://thenextweb.com/news/openai-ai-agents-mouse-brain-crispr-atlas",
-      "source": "The Next Web"
+      "title": "IMAVES Xurrent - Service Management ulazi u eru AI agenata",
+      "link": "https://mreza.bug.hr/konferencije/imaves-xurrent-service-management-ulazi-u-eru-ai-agenata-63469",
+      "source": "Bug.hr"
     },
     {
-      "title": "OpenAI signs AI safety research deal with Poland’s NASK institute",
-      "link": "https://thenextweb.com/news/openai-nask-poland-ai-safety-research",
-      "source": "The Next Web"
-    },
-    {
-      "title": "OpenAI says it will no longer train its AI models on the live internet, citing “significant risks”",
-      "link": "https://techcrunch.com/2026/10/23/openai-says-it-will-no-longer-train-its-ai-models-on-the-live-internet-citing-significant-risks/",
+      "title": "The AI graveyard: a running list of projects and startups that didn&#8217;t make it",
+      "link": "https://techcrunch.com/2026/10/24/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it/",
       "source": "TechCrunch AI"
     },
     {
-      "title": "OpenAI now trains its frontier AI models with no internet access",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1018021/openai-training-top-ai-models-no-internet",
-      "source": "The Verge"
+      "title": "OpenAI ograničio pristup internetu tijekom treniranja svojih najnaprednijih AI modela",
+      "link": "https://www.bug.hr/umjetna-inteligencija/openai-ogranicio-pristup-internetu-tijekom-treniranja-svojih-najnaprednijih-ai-63796",
+      "source": "Bug.hr"
+    },
+    {
+      "title": "Forced to pick, Grok’s AI model chooses Republicans. OpenAI’s picks Democrats.",
+      "link": "https://techcrunch.com/2026/10/24/forced-to-pick-groks-ai-model-chooses-republicans-openais-picks-democrats/",
+      "source": "TechCrunch AI"
     }
   ],
   "micro_tips": {
     "vscode": {
-      "tip": "Otvori datoteku brzim pretraživanjem",
-      "keys": "Ctrl+P"
+      "tip": "Toggle Word Wrap za dugačke linije",
+      "keys": "Alt+Z"
     },
-    "sql": "NOT EXISTS brži od NOT IN kad subquery može vratiti NULL vrijednost",
-    "oracle": "DBMS_STATS.GATHER_TABLE_STATS osvježava statistike za točniji execution plan",
-    "regex": "(?i) inline flag za case-insensitive bez mijenjanja ostatka patternahe"
+    "sql": "Parametrizirani upiti = plan cache reuse + SQL injection zaštita istovremeno",
+    "oracle": "NVL2(expr, kad_nije_null, kad_je_null) kompaktnija od dvostrukog NVL-a",
+    "regex": "\\s+ pokriva space, tab i newline; \\S je negacija (svaki ne-whitespace)"
   }
 }
