@@ -1,15 +1,15 @@
 {
   "version": 2,
-  "date": "2026-10-25",
-  "generated_at": "2026-10-25T09:34:08.351Z",
-  "date_hr": "Nedjelja, 25. listopada 2026.",
+  "date": "2026-10-26",
+  "generated_at": "2026-10-26T06:03:30.321Z",
+  "date_hr": "Ponedjeljak, 26. listopada 2026.",
   "weather": {
     "icon": "🌧️",
-    "summary": "5–12°C, lagana kiša · 1 mm",
+    "summary": "7–15°C, lagana kiša",
     "alerts": []
   },
   "fuel": {
-    "current_date": "25.10.2026",
+    "current_date": "26.10.2026",
     "eurodiesel": [
       {
         "company": "Adria Oil",
@@ -63,46 +63,41 @@
     "upcoming_premium": null
   },
   "market": {
-    "updated_at": "2026-10-25T09:34:08.351Z",
-    "btc_usd": 80133,
-    "btc_eur": 71522,
-    "btc_change_24h": -0.53,
-    "usd_eur": 0.8926
+    "updated_at": "2026-10-26T06:03:30.321Z",
+    "btc_usd": 80187,
+    "btc_eur": 71489,
+    "btc_change_24h": -0.37,
+    "usd_eur": 0.8921
   },
   "ai_news": [
+    {
+      "title": "Outside evaluators found ways OpenAI’s agents could slip past its monitor",
+      "link": "https://thenextweb.com/news/openai-monitoring-system-metr-redwood-red-team",
+      "source": "The Next Web"
+    },
     {
       "title": "Velika Britanija osniva prvi svjetski laboratorij za AI biosigurnost",
       "link": "https://www.bug.hr/umjetna-inteligencija/velika-britanija-osniva-prvi-svjetski-laboratorij-za-ai-biosigurnost-63793",
       "source": "Bug.hr"
     },
     {
-      "title": "UK funds £100m AI biosecurity lab with OpenAI and Anthropic",
-      "link": "https://thenextweb.com/news/uk-funds-100m-ai-biosecurity-lab-with-openai-and-anthropic",
+      "title": "OpenAI checked fired researchers’ phones for Signal chats, WSJ reports",
+      "link": "https://thenextweb.com/news/openai-safety-researchers-fired-signal-chats-greenblatt-wsj",
       "source": "The Next Web"
     },
     {
-      "title": "IMAVES Xurrent - Service Management ulazi u eru AI agenata",
-      "link": "https://mreza.bug.hr/konferencije/imaves-xurrent-service-management-ulazi-u-eru-ai-agenata-63469",
-      "source": "Bug.hr"
-    },
-    {
-      "title": "The AI graveyard: a running list of projects and startups that didn&#8217;t make it",
-      "link": "https://techcrunch.com/2026/10/24/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it/",
-      "source": "TechCrunch AI"
-    },
-    {
-      "title": "OpenAI ograničio pristup internetu tijekom treniranja svojih najnaprednijih AI modela",
-      "link": "https://www.bug.hr/umjetna-inteligencija/openai-ogranicio-pristup-internetu-tijekom-treniranja-svojih-najnaprednijih-ai-63796",
-      "source": "Bug.hr"
+      "title": "OpenAI cuts its valuation target to $1.25tn as it nears a $30bn round",
+      "link": "https://thenextweb.com/news/openai-funding-round-1-25tn-uae-coatue",
+      "source": "The Next Web"
     }
   ],
   "micro_tips": {
     "vscode": {
-      "tip": "Toggle Word Wrap za dugačke linije",
-      "keys": "Alt+Z"
+      "tip": "Nađi i selektiraj sljedeće pojavljivanje",
+      "keys": "Ctrl+D"
     },
-    "sql": "Parametrizirani upiti = plan cache reuse + SQL injection zaštita istovremeno",
-    "oracle": "NVL2(expr, kad_nije_null, kad_je_null) kompaktnija od dvostrukog NVL-a",
-    "regex": "\\s+ pokriva space, tab i newline; \\S je negacija (svaki ne-whitespace)"
+    "sql": "Batch INSERT umjesto jednog-po-jednog: INSERT INTO t VALUES (...),(...),...",
+    "oracle": "FETCH FIRST n ROWS ONLY umjesto ROWNUM — kompatibilno s ORDER BY i čitljivije",
+    "regex": "^(?!.*pattern) negative lookahead: \"ova linija ne smije sadržavati X\""
   }
 }
