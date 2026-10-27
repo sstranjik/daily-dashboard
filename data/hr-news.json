@@ -1,7 +1,739 @@
 {
-  "last_updated": "2026-10-27T13:01:23.254Z",
+  "last_updated": "2026-10-27T14:01:31.589Z",
   "source_count": 11,
   "items": [
+    {
+      "id": "tportal-0",
+      "title": "Eto nam i aplikacije koja bilježi i prijavljuje otpad nelegalno odložen uz cestu",
+      "summary": "Jednom je britanskom softverskom inženjeru prilično išla na živce količina smeća koju je viđao uz prometnice, pa odlučio nešto poduzeti",
+      "link": "https://www.tportal.hr/tehno/clanak/eto-nam-i-aplikacije-koja-biljezi-i-prijavljuje-otpad-nelegalno-odlozen-uz-cestu-20261027",
+      "published": "2026-10-27T14:00:00.000Z",
+      "source": "Tportal",
+      "category": "general",
+      "xml_category": "tech",
+      "tags": [],
+      "image": "https://www.tportal.hr/media/thumbnail/500x300/2818080.jpeg?cropId=0"
+    },
+    {
+      "id": "večernji-list-0",
+      "title": "Instagram uvodi veliku promjenu: Omiljena aplikacija stiže na televizore, evo što se mijenja",
+      "summary": "Platforma sada aktivno traži najbolje načine da iskustvo opuštenog gledanja televizije učini izrazito interaktivnim i društvenim, po čemu se zapravo želi snažno istaknuti u moru drugih monotonih streaming usluga",
+      "link": "https://www.vecernji.hr/barkod/instagram-uvodi-veliku-promjenu-omiljena-aplikacija-stize-na-televizore-evo-sto-se-mijenja-2008062",
+      "published": "2026-10-27T14:00:00.000Z",
+      "source": "Večernji list",
+      "category": "general",
+      "xml_category": "",
+      "tags": [],
+      "image": "https://www.vecernji.hr/media/img/f3/a7/4acd50659cedbed6b18c.jpeg"
+    },
+    {
+      "id": "večernji-list-1",
+      "title": "'Ljudima iza sebe pržite mrežnicu': Upozorio vozače iz Zagreba da ovo ne čine",
+      "summary": "\"Dijeliti kazne, jer mi učimo jedino kroz novčanik. Drugo apeliranje je kao da se govori zidu\", napisao je jedan od komentatora.",
+      "link": "https://www.vecernji.hr/zagreb/ljudima-iza-sebe-przite-mreznicu-upozorio-vozace-iz-zagreba-da-ovo-ne-cine-2007030",
+      "published": "2026-10-27T14:00:00.000Z",
+      "source": "Večernji list",
+      "category": "general",
+      "xml_category": "",
+      "tags": [],
+      "image": "https://www.vecernji.hr/media/img/fd/3d/cc9ed3e03c54b42f577c.jpeg"
+    },
+    {
+      "id": "večernji-list-2",
+      "title": "Ključni igrač Hajduka se ozlijedio: Nadam se da nije strašno, idem na pregled",
+      "summary": "- Nadam se da nije strašno. Imam hematom. U utorak ću na pregled i vidjeti što je - komentirao je austrijski stoper koji je ključan u sistemu Gonzala Garcije",
+      "link": "https://www.vecernji.hr/sport/kljucni-igrac-hajduka-se-ozlijedio-nadam-se-da-nije-strasno-idem-na-pregled-2008112",
+      "published": "2026-10-27T14:00:00.000Z",
+      "source": "Večernji list",
+      "category": "sport",
+      "xml_category": "",
+      "tags": [],
+      "image": "https://www.vecernji.hr/media/img/ce/06/8eca5909d3f52bf94abc.jpeg"
+    },
+    {
+      "id": "tportal-1",
+      "title": "Astronomi otkrili majku svih svemirskih eksplozija: Trajala je 27 dana",
+      "summary": "Astronomi su zabilježili iznimno dugotrajan izboj gama-zračenja čiji je središnji izvor energije ostao aktivan oko 27 dana. Događaj označen kao GRB 220706A nadmašuje prethodni rekord za približno 20 dana, a znanstvenici još ne znaju što je pokretalo tako dugotrajnu eksploziju",
+      "link": "https://www.tportal.hr/tehno/clanak/astronomi-otkrili-majku-svih-eksplozija-trajala-je-27-dana-20261027",
+      "published": "2026-10-27T13:59:00.000Z",
+      "source": "Tportal",
+      "category": "general",
+      "xml_category": "tech",
+      "tags": [],
+      "image": "https://www.tportal.hr/media/thumbnail/500x300/2818103.jpeg?cropId=0"
+    },
+    {
+      "id": "tportal-0",
+      "title": "Ženi greškom izvadila nekoliko organa, oglasio se KBC: Liječnica i dalje radi",
+      "summary": "Općinsko kazneno državno odvjetništvo u Zagrebu podignulo je optužnicu protiv patologinje KBC-a Sestre milosrdnice zbog sumnje na nesavjesno liječenje pacijentice kojoj su 2023. godine odstranili želudac i još nekoliko organa. Iz bolnice su potvrdili da je liječnica i dalje zaposlena kod njih",
+      "link": "https://www.tportal.hr/vijesti/clanak/zeni-greskom-izvadila-nekoliko-organa-oglasio-se-kbc-lijecnica-i-dalje-radi-20261027",
+      "published": "2026-10-27T13:57:45.000Z",
+      "source": "Tportal",
+      "category": "general",
+      "xml_category": "vijesti",
+      "tags": [],
+      "image": "https://www.tportal.hr/media/thumbnail/500x300/2818100.jpeg?cropId=4321368"
+    },
+    {
+      "id": "tportal-3",
+      "title": "Hoće li i bivši radnici Salonita dobiti odštetu za azbest? Zastupnici najavili potez",
+      "summary": "Na sastanku predstavnika radnika Salonita s predstavnicima triju saborskih odbora, održanom u utorak, rečeno je kako u novo Vladino rješenje za obeštećenje radnika s osnova izloženosti azbestu, treba uključiti i primatelje naknade s osnova gubitka radnog mjesta.",
+      "link": "https://www.tportal.hr/biznis/clanak/hoce-li-i-bivsi-radnici-salonita-dobiti-odstetu-za-azbest-zastupnici-najavili-potez-20261027",
+      "published": "2026-10-27T13:57:00.000Z",
+      "source": "Tportal",
+      "category": "general",
+      "xml_category": "biznis",
+      "tags": [],
+      "image": "https://www.tportal.hr/media/thumbnail/500x300/2818102.jpeg?cropId=0"
+    },
+    {
+      "id": "večernji-list-3",
+      "title": "Ravnateljica DZS: Netočni podaci mogu dovesti do pogrešnih procjena potreba stanovništva",
+      "summary": "Vjera označava pripadnost pojedinca određenom vjerskom sustavu i nije važno je li osoba upisana u knjigu pripadnika neke crkve ili vjerske zajednice niti je li praktični vjernik ili nije",
+      "link": "https://www.vecernji.hr/vijesti/ravnateljica-dzs-netocni-podaci-mogu-dovesti-do-pogresnih-procjena-potreba-stanovnistva-2007544",
+      "published": "2026-10-27T13:57:00.000Z",
+      "source": "Večernji list",
+      "category": "general",
+      "xml_category": "",
+      "tags": [],
+      "image": "https://www.vecernji.hr/media/img/16/80/e40e397e6419e823e2f0.jpeg"
+    },
+    {
+      "id": "index-0",
+      "title": "Ženi u Zagrebu izvadili cijeli želudac, a nije imala rak. Liječnica i dalje radi",
+      "summary": "PODIGNUTA je optužnica protiv patologinje jer je ženi zbog krive dijagnoze izvađen želudac iako nije imala rak, no ona i dalje radi u bolnici.",
+      "link": "https://www.index.hr/vijesti/clanak/zeni-u-zagrebu-izvadili-cijeli-zeludac-a-nije-imala-rak-lijecnica-i-dalje-radi/2850367.aspx",
+      "published": "2026-10-27T13:56:00.000Z",
+      "source": "Index",
+      "category": "general",
+      "xml_category": "vijesti",
+      "tags": [],
+      "image": null
+    },
+    {
+      "id": "tportal-4",
+      "title": "Novi skandal oko Zlatne lopte: Novinar prekršio najvažnije pravilo i objavio svoj neobičan izbor",
+      "summary": "Harry Kane osvojio je Zlatnu loptu, ali rasprave o najprestižnijoj individualnoj nogometnoj nagradi ne prestaju ni dan nakon svečanosti u Londonu. Dok nogometni svijet čeka službenu objavu glasova svih 100 novinara koji su odlučivali o pobjedniku, jedan od njih odlučio je preduhitriti organizatore. ",
+      "link": "https://www.tportal.hr/sport/clanak/najveci-skandal-oko-zlatne-lopte-novinar-prekrsio-najvaznije-pravilo-i-objavio-svoj-neobican-izbor-20261027",
+      "published": "2026-10-27T13:56:00.000Z",
+      "source": "Tportal",
+      "category": "general",
+      "xml_category": "sport",
+      "tags": [],
+      "image": "https://www.tportal.hr/media/thumbnail/500x300/2817175.jpeg?cropId=4319028"
+    },
+    {
+      "id": "tportal-1",
+      "title": "Vučićev prijatelj i vlasnik Informera: Tko je Dragan Vučićević",
+      "summary": "Dragan Vučićević gradio je karijeru u tabloidima koji su obilježili srpsku medijsku scenu, od Nacionala i Kurira do Pressa, a danas je vlasnik Informera i, kako sam kaže, blizak prijatelj Aleksandra Vučića. Nakon što su prosvjednici upali u redakciju njegova tabloida i televizije, ponovno se otvoril",
+      "link": "https://www.tportal.hr/vijesti/clanak/vucicev-prijatelj-i-vlasnik-informera-tko-je-dragan-vucicevic-20261027",
+      "published": "2026-10-27T13:55:00.000Z",
+      "source": "Tportal",
+      "category": "general",
+      "xml_category": "vijesti",
+      "tags": [],
+      "image": "https://www.tportal.hr/media/thumbnail/500x300/2817999.jpeg?cropId=0"
+    },
+    {
+      "id": "n1-info-0",
+      "title": "Vlada žestoko kritizirala Nikolu Grmoju: \"Radi isto što i Vučićeva administracija\"",
+      "summary": "Vlada Republike Hrvatske odbacila je kritike saborskog zastupnika Mosta Nikole Grmoje, koji je, komentirajući rezultate izbora u Srbiji, prozvao premi",
+      "link": "https://n1info.hr/vijesti/vlada-zestoko-kritizirala-nikolu-grmoju-radi-isto-sto-i-vuciceva-administracija/",
+      "published": "2026-10-27T13:51:49.000Z",
+      "source": "N1 Info",
+      "category": "politika",
+      "xml_category": "vijesti",
+      "tags": [],
+      "image": "https://n1info.hr/media/images/2026/10/27/1793109068_PXL_300926_159627475.width-1200.jpg"
+    },
+    {
+      "id": "n1-info-1",
+      "title": "HUP ima prijedlog za veće plaće: Radnicima bi trebalo ostati više novca nakon poreza",
+      "summary": "Hrvatska udruga poslodavaca (HUP) predlaže da se daljnji rast neto plaća snažnije podupre poreznim rasterećenjem rada, uz rast bruto plaća u skladu s",
+      "link": "https://n1info.hr/vijesti/hup-ima-prijedlog-za-vece-place-radnicima-bi-trebalo-ostati-vise-novca-nakon-poreza/",
+      "published": "2026-10-27T13:50:52.000Z",
+      "source": "N1 Info",
+      "category": "general",
+      "xml_category": "vijesti",
+      "tags": [],
+      "image": "https://n1info.hr/media/images/2026/10/27/1793109038_markus-kammermann-BsJlrpz9r1U-unsplash.width-1200.jpg"
+    },
+    {
+      "id": "večernji-list-4",
+      "title": "Plenković objavio kad završava obnova od potresa: 'Očekivali su Sporta Billyja i čarobni štapić, a zaboravili koliko to traje'",
+      "summary": "Od ukupno 5,3 milijardi eura, oko 3,15 milijarde odnosi se na zagrebački potres, a 2,15 milijarde eura na petrinjski potres. Milijarda eura korištena je iz Fonda solidarnosti Europske unije, oko dvije milijarde eura iz Nacionalnog plana oporavka i otpornosti, a po milijardu eura godišnje osigurava s",
+      "link": "https://www.vecernji.hr/vijesti/plenkovic-objavio-kad-zavrsava-obnova-od-potresa-ocekivali-su-sporta-billyja-i-carobni-stapic-a-zaboravili-koliko-to-traje-2008134",
+      "published": "2026-10-27T13:50:00.000Z",
+      "source": "Večernji list",
+      "category": "tech",
+      "xml_category": "",
+      "tags": [],
+      "image": "https://www.vecernji.hr/media/img/be/1f/ebaba99a4a11e52bc24e.jpeg"
+    },
+    {
+      "id": "tportal-2",
+      "title": "Pala dvojica dubrovačkih dilera: Policija zaplijenila više od tri kilograma droge",
+      "summary": "U Dubrovniku su tijekom primopredaje droge uhićena dvojica muškaraca, 41-godišnji hrvatski državljanin i 42-godišnji državljanin BiH, a tom su prilikom policajci pronašli i oduzeli preko tri kilograma amfetamina, izvijestila je u utorak dubrovačko-neretvanska policija",
+      "link": "https://www.tportal.hr/vijesti/clanak/pala-dvojica-dubrovackih-dilera-policija-zaplijenila-vise-od-tri-kilograma-droge-20261027",
+      "published": "2026-10-27T13:47:00.000Z",
+      "source": "Tportal",
+      "category": "general",
+      "xml_category": "vijesti",
+      "tags": [],
+      "image": "https://www.tportal.hr/media/thumbnail/500x300/2813911.jpeg?cropId=0"
+    },
+    {
+      "id": "jutarnji-0",
+      "title": "Osvanuli plakati o važnosti novinarki i novinara: ‘Hrabrost ima ime‘",
+      "summary": "- Novinari i novinarke rade za sve nas. Da nije bilo novinarstva, brojni korumpirani ministri ne bi bili uklonjeni iz vlasti, a problemi poput odlaganja otpada u Lici i diljem zemlje ne bi postali nacionalne teme o kojima se progovara i koje se rješavaju. --- Poruke Sindikata novinara Hrvatske SNH -",
+      "link": "https://www.jutarnji.hr/vijesti/hrvatska/osvanuli-plakati-o-vaznosti-novinarki-i-novinara-hrabrost-ima-ime-15759863",
+      "published": "2026-10-27T13:46:49.000Z",
+      "source": "Jutarnji",
+      "category": "general",
+      "xml_category": "hrvatska",
+      "tags": [],
+      "image": "https://media.jutarnji.hr/images/slike/2026/10/27/f_39853218_1280.jpg?1793108839"
+    },
+    {
+      "id": "večernji-list-5",
+      "title": "Slavni povjesničar o pobjedi studenata u Srbiji: 'Svatko kome je stalo do demokracije trebao bi ovo proučiti'",
+      "summary": "Timothy Snyder, istaknuti američki povjesničar, istaknuo je važnost studentskih prosvjeda u Srbiji kao primjera borbe za demokraciju, pozivajući sve koji se zalažu za vladavinu prava da uče iz ovog pokreta mladih.",
+      "link": "https://www.vecernji.hr/vijesti/slavni-povjesnicar-o-pobjedi-studenata-u-srbiji-svatko-kome-je-stalo-do-demokracije-trebao-bi-ovo-prouciti-2008135",
+      "published": "2026-10-27T13:46:00.000Z",
+      "source": "Večernji list",
+      "category": "general",
+      "xml_category": "",
+      "tags": [],
+      "image": "https://www.vecernji.hr/media/img/38/9d/ac6d5e63de0da13a39f2.jpeg"
+    },
+    {
+      "id": "index-1",
+      "title": "Predstavnici radnika Salonita pred tri saborska odbora predstavili zahtjeve",
+      "summary": "NA DANAS održanom sastanku predstavnika radnika Salonita s predstavnicima triju saborskih odbora rečeno je kako u novo Vladino rješenje za obeštećenje radnika s osnova izloženosti azbestu treba uključiti i primatelje naknade s osnova gubitka radnog mjesta.",
+      "link": "https://www.index.hr/vijesti/clanak/predstavnici-radnika-salonita-pred-tri-saborska-odbora-predstavili-zahtjeve/2850364.aspx",
+      "published": "2026-10-27T13:45:00.000Z",
+      "source": "Index",
+      "category": "politika",
+      "xml_category": "vijesti",
+      "tags": [],
+      "image": null
+    },
+    {
+      "id": "tportal-7",
+      "title": "Bilić objavio širi popis igrača za Ligu nacija. Među njima su i dvije Hajdukove zvijezde",
+      "summary": "Slaven Bilić objavio je popis od 32 igrača za utakmice Lige nacija protiv Engleske u Londonu (Wembley, 12. studenoga) i Češke u Osijeku (Opus Arena, 15. studenoga).",
+      "link": "https://www.tportal.hr/sport/clanak/bilic-objavio-siri-popis-igraca-za-ligu-nacija-medu-njima-su-i-dvije-hajdukove-zvijezde-20261027",
+      "published": "2026-10-27T13:44:00.000Z",
+      "source": "Tportal",
+      "category": "sport",
+      "xml_category": "sport",
+      "tags": [],
+      "image": "https://www.tportal.hr/media/thumbnail/500x300/2808854.jpeg?cropId=0"
+    },
+    {
+      "id": "tportal-3",
+      "title": "Velika promjena na europskim granicama: EU želi ojačati Frontex i ubrzati deportacije",
+      "summary": "Europska komisija predložila je u utorak znatno jačanje uloge Frontexa, agencije za europsku graničnu i obalnu stražu, koji bi, između ostaloga, trebao postati središnji čimbenik u vraćanje nezakonitih migranata",
+      "link": "https://www.tportal.hr/vijesti/clanak/velika-promjena-na-europskim-granicama-eu-zeli-ojacati-frontex-i-ubrzati-deportacije-20261027",
+      "published": "2026-10-27T13:41:00.000Z",
+      "source": "Tportal",
+      "category": "general",
+      "xml_category": "vijesti",
+      "tags": [],
+      "image": "https://www.tportal.hr/media/thumbnail/500x300/2818090.jpeg?cropId=0"
+    },
+    {
+      "id": "večernji-list-6",
+      "title": "Bilić objavio popis igrača za kraj Lige nacija: Pozvao i dva igrača Hajduka",
+      "summary": "Reprezentacija će se okupiti 9. studenoga u Zagrebu, gdje će boraviti do polaska u London 11. studenoga",
+      "link": "https://www.vecernji.hr/sport/bilic-objavio-siri-popis-igraca-za-kraj-lige-nacija-pozvao-i-dva-igraca-hajduka-2008133",
+      "published": "2026-10-27T13:41:00.000Z",
+      "source": "Večernji list",
+      "category": "sport",
+      "xml_category": "",
+      "tags": [],
+      "image": "https://www.vecernji.hr/media/img/4b/61/4ac59db07b087fd27f80.jpeg"
+    },
+    {
+      "id": "večernji-list-7",
+      "title": "Harry Kane zabio je Hrvatskoj, a toga dana pričalo se o Livaji...",
+      "summary": "Harry Kane svoj prvi nastup za Englesku kao Zlatna lopta imat će 12. studenog protiv Hrvatske na Wembleyju, u uzvratnoj utakmici Lige nacija",
+      "link": "https://www.vecernji.hr/sport/harry-kane-zabio-je-hrvatskoj-a-toga-dana-pricalo-se-o-livaji-2007993",
+      "published": "2026-10-27T13:40:00.000Z",
+      "source": "Večernji list",
+      "category": "general",
+      "xml_category": "",
+      "tags": [],
+      "image": "https://www.vecernji.hr/media/img/7f/d1/d969ff666e2b262aa7e6.png"
+    },
+    {
+      "id": "tportal-4",
+      "title": "Odstranili joj želudac iako nije imala rak, oglasila se ministrica",
+      "summary": "Ministarstvo zdravstva u utorak je predstavilo Nacrt izmjena i dopuna Mreže zdravstvene zaštite s ciljem ravnomjernije dostupnosti zdravstvene zaštite u cijeloj Hrvatskoj, kojom se zdravstvena usluga pruža što bliže mjestu stanovanja",
+      "link": "https://www.tportal.hr/vijesti/clanak/odstranili-joj-zeludac-iako-nije-imala-rak-oglasila-se-ministrica-nemam-nikakvu-osnovu-20261027",
+      "published": "2026-10-27T13:39:00.000Z",
+      "source": "Tportal",
+      "category": "general",
+      "xml_category": "vijesti",
+      "tags": [],
+      "image": "https://www.tportal.hr/media/thumbnail/500x300/2818089.jpeg?cropId=4321308"
+    },
+    {
+      "id": "večernji-list-8",
+      "title": "Radiochirurgia Zagreb uvela petodnevnu adaptivnu radioterapiju dojke: Novi standard liječenja dostupan pacijenticama u Hrvatskoj",
+      "summary": "",
+      "link": "https://www.vecernji.hr/lifestyle/radiochirurgia-zagreb-uvela-petodnevnu-adaptivnu-radioterapiju-dojke-novi-standard-lijecenja-dostupan-pacijenticama-u-hrvatskoj-2008132",
+      "published": "2026-10-27T13:34:00.000Z",
+      "source": "Večernji list",
+      "category": "tech",
+      "xml_category": "",
+      "tags": [],
+      "image": "https://www.vecernji.hr/media/img/fc/ff/8329bef50fa4691bb9bf.png"
+    },
+    {
+      "id": "večernji-list-9",
+      "title": "Vlado Šestan u francuskoj regiji Alsace posjetio je vinarije koje goste privlače hotelima i restoranima s Michelinovim zvjezdicama",
+      "summary": "Slavonija, Međimurje i Zagorje imaju što ponuditi, ali za privlačenje turista koji troše više od kupača na plaži potrebno je više od dobre boce vina",
+      "link": "https://www.vecernji.hr/lifestyle/vinski-turizam-puni-francuske-podrume-hotele-i-blagajne-2008118",
+      "published": "2026-10-27T13:34:00.000Z",
+      "source": "Večernji list",
+      "category": "general",
+      "xml_category": "",
+      "tags": [],
+      "image": "https://www.vecernji.hr/media/img/1c/32/5e3294ac4f0fbe005385.jpeg"
+    },
+    {
+      "id": "jutarnji-0",
+      "title": "Baka iz Maksimira (88) izazvala teški kaos, teglom pogodila i ozlijedila policajca, a onda i ugrizla policajku",
+      "summary": "Policija je privela 88-godišnjakinju koja je u ponedjeljak oko 9 sati, u maksimirskoj Eisenhuthovoj ulici, glinenom teglom pogodila policajca i ugrizla policajku tijekom postupanja, izvijestila je Policijska uprava zagrebačka (PUZ). U policiji kažu da su zaprimili dojavu da ženska osoba na stubištu.",
+      "link": "https://www.jutarnji.hr/vijesti/crna-kronika/baka-iz-maksimira-88-izazvala-teski-kaos-teglom-pogodila-i-ozlijedila-policajca-a-onda-i-ugrizla-policajku-15759857",
+      "published": "2026-10-27T13:32:55.000Z",
+      "source": "Jutarnji",
+      "category": "general",
+      "xml_category": "crna kronika",
+      "tags": [],
+      "image": "https://media.jutarnji.hr/images/slike/2026/10/27/f_39749772_1280.jpg?1793108005"
+    },
+    {
+      "id": "index-2",
+      "title": "Ministarstvo branitelja napalo Grmoju: Ponaša se kao Vučićeva vlast",
+      "summary": "MINISTARSTVO branitelja odbacilo je Grmojine kritike o nestalima i oštro ga optužilo za korištenje retorike slične Vučićevoj administraciji.",
+      "link": "https://www.index.hr/vijesti/clanak/ministarstvo-branitelja-napalo-grmoju-ponasa-se-kao-vuciceva-vlast/2850352.aspx",
+      "published": "2026-10-27T13:31:00.000Z",
+      "source": "Index",
+      "category": "politika",
+      "xml_category": "vijesti",
+      "tags": [],
+      "image": null
+    },
+    {
+      "id": "jutarnji-1",
+      "title": "Ružić najavio povećanje satnice osobnih asistenata na 14 eura",
+      "summary": "Ministar rada i socijalne politike Alen Ružić na 20. skupu osoba s neuromuskularnim bolestima najavio je povećanje temeljne satnice osobnih asistenata s 11 na 14 eura te poručio da potpora osobama s invaliditetom mora biti široka i individualizirana kako bi se osigurala ravnopravnost. \"Potpora svim.",
+      "link": "https://www.jutarnji.hr/vijesti/hrvatska/ruzic-najavio-povecanje-satnice-osobnih-asistenata-na-14-eura-15759855",
+      "published": "2026-10-27T13:30:38.000Z",
+      "source": "Jutarnji",
+      "category": "general",
+      "xml_category": "hrvatska",
+      "tags": [],
+      "image": "https://media.jutarnji.hr/images/slike/2026/10/27/f_39765658_1280.jpg?1793108839"
+    },
+    {
+      "id": "dnevnik.hr-1",
+      "title": "Osuđeni mladići iz Srbije koji su ukrali Livajin bicikl: \"Ponijelo nas je, poslao sam mu pismo...\"",
+      "summary": "Trojica mladića, Oliver Ekmešić (21), Dejan Živković (21) i Dejan Moldovan (26), proglašeni su krivima za ukupno osam krađa počinjenih tijekom ljeta.]]>",
+      "link": "https://dnevnik.hr/vijesti/hrvatska/osudjeni-mladici-iz-srbije-koji-su-u-splitu-ukrali-livajin-bicikl---1010392.html",
+      "published": "2026-10-27T13:30:00.000Z",
+      "source": "Dnevnik.hr",
+      "category": "general",
+      "xml_category": "<![cdata[hrvatska]]>>",
+      "tags": [],
+      "image": null
+    },
+    {
+      "id": "večernji-list-10",
+      "title": "Došla na studij u Zagreb, ali nije očekivala da će biti ovako: 'Ostvarilo se ono čega sam se bojala'",
+      "summary": "U komentarima su se ubrzo nanizali razni savjeti i riječi podrške. Javili su se, tako, i oni koji su prošli slično iskustvo.",
+      "link": "https://www.vecernji.hr/zagreb/dosla-na-studij-u-zagreb-ali-nije-ocekivala-da-ce-biti-ovako-ostvarilo-se-ono-cega-sam-se-bojala-2007723",
+      "published": "2026-10-27T13:30:00.000Z",
+      "source": "Večernji list",
+      "category": "general",
+      "xml_category": "",
+      "tags": [],
+      "image": "https://www.vecernji.hr/media/img/b3/a6/4c3564fe2587774146f2.jpeg"
+    },
+    {
+      "id": "večernji-list-11",
+      "title": "Proslavila je 105. rođendan i otkrila tajnu dugovječnosti: 'Osjećam se bolje nego sa 16 godina!'",
+      "summary": "Helen vjeruje da su upravo prehrambene navike koje je usvojila od majke pridonijele njezinu zdravlju. Ipak, ističe i važnost dobrih gena",
+      "link": "https://www.vecernji.hr/lifestyle/proslavila-je-105-rodendan-i-otkrila-tajnu-dugovjecnosti-osjecam-se-bolje-nego-sa-16-godina-2007939",
+      "published": "2026-10-27T13:30:00.000Z",
+      "source": "Večernji list",
+      "category": "general",
+      "xml_category": "",
+      "tags": [],
+      "image": "https://www.vecernji.hr/media/img/f1/89/9beb302df18ca67267bd.jpeg"
+    },
+    {
+      "id": "večernji-list-12",
+      "title": "Zbog pogrešne dijagnoze raka izvadili joj želudac, ministrica Hrstić: 'Sve sam saznala iz medija'",
+      "summary": "\"Ja nemam osnovu na temelju koje bih iznosila vlastiti sud\", poručila je ministrica",
+      "link": "https://www.vecernji.hr/vijesti/zbog-pogresne-dijagnoze-raka-izvadili-joj-zeludac-ministrica-hrstic-sve-sam-saznala-iz-medija-2008126",
+      "published": "2026-10-27T13:30:00.000Z",
+      "source": "Večernji list",
+      "category": "general",
+      "xml_category": "",
+      "tags": [],
+      "image": "https://www.vecernji.hr/media/img/39/6f/152c0323b0078436932f.jpeg"
+    },
+    {
+      "id": "tportal-10",
+      "title": "Kinezi prekinuli prijenose španjolske lige, Kylian Mbappe se odmah ispričao",
+      "summary": "Kylian Mbappe našao se u središtu velikog skandala nakon što je svojom izjavom o nekadašnjem kineskom vođi Mao Ce-tungu izazvao oštre reakcije u Kini. Posljedice su bile brze: dvije kineske kompanije prekinule su suradnju s francuskim nogometašem, a kineska državna televizija odlučila je obustaviti ",
+      "link": "https://www.tportal.hr/sport/clanak/kinezi-prekinuli-prijenose-spanjolske-lige-kylian-mbappe-se-odmah-ispricao-20261027",
+      "published": "2026-10-27T13:29:00.000Z",
+      "source": "Tportal",
+      "category": "tech",
+      "xml_category": "sport",
+      "tags": [],
+      "image": "https://www.tportal.hr/media/thumbnail/500x300/2818081.jpeg?cropId=4321288"
+    },
+    {
+      "id": "večernji-list-13",
+      "title": "Marca posvetila veliki tekst Modriću: Španjolci ne mogu vjerovati što radi s 41 godinom",
+      "summary": "Luka Modrić i u 42. godini života pokazuje zbog čega se godinama ubraja među najbolje veznjake svih vremena",
+      "link": "https://www.vecernji.hr/sport/marca-posvetila-veliki-tekst-modricu-spanjolci-ne-mogu-vjerovati-sto-radi-s-41-godinom-2008128",
+      "published": "2026-10-27T13:28:00.000Z",
+      "source": "Večernji list",
+      "category": "general",
+      "xml_category": "",
+      "tags": [],
+      "image": "https://www.vecernji.hr/media/img/5e/55/2eaed00f63b349e44a80.jpeg"
+    },
+    {
+      "id": "večernji-list-14",
+      "title": "'Što bi bilo da nema novinara? Nek' ti kaže Lika': Sindikat osudio prijetnje i zastrašivanje novinara",
+      "summary": "Sindikat novinara Hrvatske istaknuo je da bez slobodnog i hrabrog novinarstva nema ni demokracije",
+      "link": "https://www.vecernji.hr/vijesti/sto-bi-bilo-da-nema-novinara-nek-ti-kaze-lika-sindikat-osudio-prijetnje-i-zastrasivanje-novinara-2008125",
+      "published": "2026-10-27T13:27:00.000Z",
+      "source": "Večernji list",
+      "category": "general",
+      "xml_category": "",
+      "tags": [],
+      "image": "https://www.vecernji.hr/media/img/6d/b6/783ff87af2b0b69efa9b.jpeg"
+    },
+    {
+      "id": "večernji-list-15",
+      "title": "Francuska vina, šampanjci, senf, foie gras, sirevi i kod nas imaju sve više poklonika",
+      "summary": "Preuzeli smo dućan od našeg prijatelja Francuza, a s obzirom na to da je i moj muž Francuz lako smo nastavili posao. Tako su Francuske delicije Voila ostale u Zagrebu, sada su na tri lokacije, kaže Dora Zane",
+      "link": "https://www.vecernji.hr/lifestyle/francuska-vina-sampanjci-senf-foie-gras-sirevi-i-kod-nas-imaju-sve-vise-poklonika-2008119",
+      "published": "2026-10-27T13:27:00.000Z",
+      "source": "Večernji list",
+      "category": "general",
+      "xml_category": "",
+      "tags": [],
+      "image": "https://www.vecernji.hr/media/img/97/76/c72d23e7135c99dd74d8.jpeg"
+    },
+    {
+      "id": "jutarnji-1",
+      "title": "U Dubrovniku uhićena dvojica muškaraca, zaplijenjeno više od tri kilograma amfetamina",
+      "summary": "U Dubrovniku su tijekom primopredaje droge uhićena dvojica muškaraca, 41-godišnji hrvatski državljanin i 42-godišnji državljanin BiH, a tom su prilikom policajci pronašli i oduzeli preko tri kilograma amfetamina, izvijestila je u utorak dubrovačko-neretvanska policija. Kriminalistička policija dvoji",
+      "link": "https://www.jutarnji.hr/vijesti/crna-kronika/u-dubrovniku-uhicena-dvojica-muskaraca-zaplijenjeno-vise-od-tri-kilograma-amfetamina-15759851",
+      "published": "2026-10-27T13:24:56.000Z",
+      "source": "Jutarnji",
+      "category": "general",
+      "xml_category": "crna kronika",
+      "tags": [],
+      "image": "https://media.jutarnji.hr/images/slike/2026/10/27/f_39749097_1280.jpg?1793108005"
+    },
+    {
+      "id": "tportal-5",
+      "title": "Ružić najavio povećanje satnice osobnih asistenata: Ima nekoliko želja",
+      "summary": "Ministar rada i socijalne politike Alen Ružić na 20. skupu osoba s neuromuskularnim bolestima najavio je povećanje temeljne satnice osobnih asistenata s 11 na 14 eura te poručio da potpora osobama s invaliditetom mora biti široka i individualizirana kako bi se osigurala ravnopravnost",
+      "link": "https://www.tportal.hr/vijesti/clanak/ruzic-najavio-povecanje-satnice-osobnih-asistenata-ima-nekoliko-zelja-20261027",
+      "published": "2026-10-27T13:21:00.000Z",
+      "source": "Tportal",
+      "category": "general",
+      "xml_category": "vijesti",
+      "tags": [],
+      "image": "https://www.tportal.hr/media/thumbnail/500x300/2818082.jpeg?cropId=0"
+    },
+    {
+      "id": "tportal-12",
+      "title": "Nizozemska i iduće godine odbija ići na Eurosong: Presudilo je sudjelovanje Izraela",
+      "summary": "Nizozemska će i iduće godine bojkotirati Euroviziju zbog sudjelovanja Izraela, objavila je u utorak krovna oragnizacija nizozemskih televizija (NPO)",
+      "link": "https://www.tportal.hr/showtime/clanak/nizozemska-i-iduce-godine-odbija-ici-na-eurosong-presudilo-je-sudjelovanje-izraela-20261027",
+      "published": "2026-10-27T13:20:00.000Z",
+      "source": "Tportal",
+      "category": "general",
+      "xml_category": "showtime",
+      "tags": [],
+      "image": "https://www.tportal.hr/media/thumbnail/500x300/2818084.jpeg?cropId=4321297"
+    },
+    {
+      "id": "večernji-list-16",
+      "title": "Franciacorta – talijanski odgovor na champagne s vlastitim identitetom",
+      "summary": "Franciacorta nije samo naziv vinogradarskog područja nego i zaštićena oznaka izvornosti koja jamči da se vino proizvodi prema strogo propisanim pravilima, od dopuštenih sorti grožđa, načina uzgoja vinove loze i prinosa po hektaru do berbe, vinifikacije, odležavanja i stavljanja vina na tržište",
+      "link": "https://www.vecernji.hr/lifestyle/franciacorta-talijanski-odgovor-na-champagne-s-vlastitim-identitetom-2008120",
+      "published": "2026-10-27T13:20:00.000Z",
+      "source": "Večernji list",
+      "category": "general",
+      "xml_category": "",
+      "tags": [],
+      "image": "https://www.vecernji.hr/media/img/9a/e6/d8193b3f526f6de300de.jpeg"
+    },
+    {
+      "id": "večernji-list-17",
+      "title": "Mladi okreću leđa tehnološkim divovima i sve više napuštaju društvene mreže",
+      "summary": "Generacija Z briše aplikacije i platforme koje zarađuju na njihovoj pozornosti",
+      "link": "https://www.vecernji.hr/vijesti/mladi-okrecu-leda-tehnoloskim-divovima-i-sve-vise-napustaju-drustvene-mreze-2008122",
+      "published": "2026-10-27T13:18:00.000Z",
+      "source": "Večernji list",
+      "category": "general",
+      "xml_category": "",
+      "tags": [],
+      "image": "https://www.vecernji.hr/media/img/6b/22/aab01161109b4a3085c1.jpeg"
+    },
+    {
+      "id": "n1-info-7",
+      "title": "Ružić najavio povećanje satnice osobnih asistenata: Evo koliko će iznositi",
+      "summary": "Ministar rada i socijalne politike Alen Ružić na 20. skupu osoba s neuromuskularnim bolestima najavio je povećanje temeljne satnice osobnih asistenata",
+      "link": "https://n1info.hr/vijesti/ruzic-najavio-povecanje-satnice-osobnih-asistenata-evo-koliko-ce-iznositi/",
+      "published": "2026-10-27T13:17:34.000Z",
+      "source": "N1 Info",
+      "category": "general",
+      "xml_category": "vijesti",
+      "tags": [],
+      "image": "https://n1info.hr/media/images/1702546447-josh-appel-0nkFvdcM-X4-unsplash.width-1200.jpg"
+    },
+    {
+      "id": "tportal-6",
+      "title": "Ostavke na RTV Vojvodina nakon promjene vlasti u Srbiji",
+      "summary": "Vršiteljica dužnosti direktorice Prvog radijskog programa Radio-televizije Vojvodine (RTV) Verica Batić i web-urednica tog javnog servisa Vesna Iskrin podnijele su ostavke, objavilo je danas Udruženje novinara Srbije (UNS)",
+      "link": "https://www.tportal.hr/vijesti/clanak/ostavke-na-rtv-vojvodina-nakon-promjene-vlasti-u-srbiji-20261027",
+      "published": "2026-10-27T13:17:00.000Z",
+      "source": "Tportal",
+      "category": "general",
+      "xml_category": "vijesti",
+      "tags": [],
+      "image": "https://www.tportal.hr/media/thumbnail/500x300/2818077.jpeg?cropId=0"
+    },
+    {
+      "id": "dnevnik.hr-6",
+      "title": "Nastavak problema s novom Vladinom odlukom: \"Ne pozdravljam tu ideju sidrenih cijena, donosi komplikacije\"",
+      "summary": "Obrtnici i dalje ne pozdravljaju ideju sidrenih cijena. Iz HOK-a su poručili da obveze moraju biti jasne.]]>",
+      "link": "https://dnevnik.hr/vijesti/hrvatska/obrtnici-se-i-dalje-zale-na-uvodjenje-baznih-cijena---1010387.html",
+      "published": "2026-10-27T13:17:00.000Z",
+      "source": "Dnevnik.hr",
+      "category": "general",
+      "xml_category": "<![cdata[hrvatska]]>>",
+      "tags": [],
+      "image": null
+    },
+    {
+      "id": "dnevnik.hr-7",
+      "title": "VIDEO Ispred Pinka nastao kaos: Policajac palicom razbio staklo automobila, napadnut i novinar",
+      "summary": "Tijekom policijske intervencije ispred televizije Pink zabilježene su uznemirujuće scene. Policajac je razbio staklo na automobilu, a na meti su se našli i građani koji nisu sudjelovali u prosvjedu.]]>",
+      "link": "https://dnevnik.hr/vijesti/svijet/policija-rastjerivala-prosvjednike-ispred-televizije-pink-u-beogradu-zabiljezeni-incidenti---1010384.html",
+      "published": "2026-10-27T13:17:00.000Z",
+      "source": "Dnevnik.hr",
+      "category": "general",
+      "xml_category": "<![cdata[svijet]]>>",
+      "tags": [],
+      "image": null
+    },
+    {
+      "id": "večernji-list-18",
+      "title": "Kako je Lula preokrenuo povijest: Na izborima u Brazilu glavni je gubitnik - Donald Trump",
+      "summary": "Brazil je četvrta najveća demokracija na svijetu, nakon Indije, SAD-a i Indonezije, i ono što se događa u toj zemlji ima posljedice na oba američka kontinenta",
+      "link": "https://www.vecernji.hr/vijesti/na-izborima-u-brazilu-glavni-je-gubitnik-donald-trump-2007783",
+      "published": "2026-10-27T13:17:00.000Z",
+      "source": "Večernji list",
+      "category": "general",
+      "xml_category": "",
+      "tags": [],
+      "image": "https://www.vecernji.hr/media/img/c6/95/980d207e97f43e432958.jpeg"
+    },
+    {
+      "id": "tportal-14",
+      "title": "Ljubljana odbila prikazati film Lordana Zafranovića o logoru Jasenovac",
+      "summary": "Hrvatski redatelj Lordan Zafranović javno je izrazio nezadovoljstvo odlukom Ljubljanskog međunarodnog filmskog festivala da njegov novi film &#039;Zlatni rez &#039;42 – Djeca Kozare&#039;, koji se bavi stradanjima u ustaškom logoru Jasenovac, ne uvrsti u ovogodišnji program",
+      "link": "https://www.tportal.hr/kultura/clanak/ljubljana-odbila-prikazati-film-lordana-zafranovica-o-logoru-jasenovac-20261027",
+      "published": "2026-10-27T13:16:00.000Z",
+      "source": "Tportal",
+      "category": "general",
+      "xml_category": "kultura",
+      "tags": [],
+      "image": "https://www.tportal.hr/media/thumbnail/500x300/2815746.jpeg?cropId=0"
+    },
+    {
+      "id": "index-3",
+      "title": "Našli živu na gradilištu u Sisku. Županija ipak ne odustaje od lječilišta",
+      "summary": "SISAČKO-MOSLAVAČKA županija ne odustaje od projekta lječilišta Jodno vrijednog 28.7 milijuna eura unatoč pronalasku žive na gradilištu.",
+      "link": "https://www.index.hr/vijesti/clanak/nasli-zivu-na-gradilistu-u-sisku-zupanija-ipak-ne-odustaje-od-ljecilista/2850341.aspx",
+      "published": "2026-10-27T13:15:00.000Z",
+      "source": "Index",
+      "category": "general",
+      "xml_category": "vijesti",
+      "tags": [],
+      "image": null
+    },
+    {
+      "id": "index-4",
+      "title": "Iz Varaždina u Austriju odvezene tisuće tona opasnog otpada",
+      "summary": "S LOKACIJE bivše tvornice Mundus u Varaždinu uklonjeno je gotovo 59% ilegalno skladištenog otpada. Do sada je 2956 tona otpremljeno u Austriju na energetsku oporabu. Sanaciju provodi država.",
+      "link": "https://www.index.hr/vijesti/clanak/iz-varazdina-u-austriju-odvezene-tisuce-tona-opasnog-otpada/2850347.aspx",
+      "published": "2026-10-27T13:15:00.000Z",
+      "source": "Index",
+      "category": "general",
+      "xml_category": "vijesti",
+      "tags": [],
+      "image": null
+    },
+    {
+      "id": "dnevnik.hr-5",
+      "title": "Žena (88) policajce gađala teglama za cvijeće, udarala ih i grizla: Ozlijeđeni su",
+      "summary": "Dvoje policajaca lakše je ozlijeđeno tijekom intervencije.]]>",
+      "link": "https://dnevnik.hr/vijesti/crna-kronika/uhicena-88-godisnjakinja-koja-je-u-zagrebu-gadjala-i-grizla-policajce---1010380.html",
+      "published": "2026-10-27T13:10:00.000Z",
+      "source": "Dnevnik.hr",
+      "category": "general",
+      "xml_category": "<![cdata[crna kronika]]>>",
+      "tags": [],
+      "image": null
+    },
+    {
+      "id": "večernji-list-19",
+      "title": "Dodijeljene nagrade Festivala prvih, glavna nagrada performansu Vasje Irme Ivković",
+      "summary": "24. izdanje Festivala prvih održava se u Zagrebu od 19. do 30. listopada u prostorima KNAP-a i KIC-a, a ovogodišnje festivalske nagrade pripale su Vasji Irmi Ivković, Leu Grganiću i Jeleni Martinović",
+      "link": "https://www.vecernji.hr/kultura/dodijeljene-nagrade-festivala-prvih-glavna-nagrada-performansu-vasje-irme-ivkovic-2008115",
+      "published": "2026-10-27T13:10:00.000Z",
+      "source": "Večernji list",
+      "category": "general",
+      "xml_category": "",
+      "tags": [],
+      "image": "https://www.vecernji.hr/media/img/ca/2c/07e6f6ac155848dbc76c.jpeg"
+    },
+    {
+      "id": "index-5",
+      "title": "Vučić održao prilično ratoboran govor. Informeru prijeti zabrana",
+      "summary": "SRBIJA i drugi dan nakon izbornog poraza Aleksandra Vučića prolazi kroz velike političke napetosti. Jučer su građani upali u prostorije provučićevske televizije Informer u Beogradu, gdje je prekinut program uživo, a ispred zgrade došlo je do sukoba s policijom.",
+      "link": "https://www.index.hr/vijesti/clanak/sef-informera-divlja-nakon-upada-ljudi-na-televiziju-vuciceva-tv-je-pred-zabranom/2850193.aspx",
+      "published": "2026-10-27T13:08:41.000Z",
+      "source": "Index",
+      "category": "general",
+      "xml_category": "vijesti",
+      "tags": [],
+      "image": null
+    },
+    {
+      "id": "index-0",
+      "title": "Usred dana opljačkana ljekarna u Zagrebu",
+      "summary": "JUČER je na području zagrebačke Trešnjevke u poslijepodnevnim satima opljačkana ljekarna.",
+      "link": "https://www.index.hr/vijesti/clanak/usred-dana-opljackana-ljekarna-u-zagrebu/2850339.aspx",
+      "published": "2026-10-27T13:07:00.000Z",
+      "source": "Index",
+      "category": "general",
+      "xml_category": "vijesti",
+      "tags": [],
+      "image": null
+    },
+    {
+      "id": "tportal-15",
+      "title": "Nova zvijezda Formule 1 ima neobičan ritual prije svake utrke: &#039;To me opušta&#039;",
+      "summary": "Kimi Antonelli juri prema naslovu svjetskog prvaka Formule 1, ali prije svakog trkaćeg vikenda obavezno pronađe vrijeme za jednu sasvim običnu aktivnost. Svoj Mercedes-AMG GT 63 osobno pere i čisti, a priznaje da ga taj ritual smiruje i pomaže mu zaboraviti pritisak utrkivanja.",
+      "link": "https://www.tportal.hr/autozona/clanak/nova-zvijezda-formule-1-ima-neobican-ritual-prije-svake-utrke-to-me-opusta-20261027",
+      "published": "2026-10-27T13:06:00.000Z",
+      "source": "Tportal",
+      "category": "general",
+      "xml_category": "autozona",
+      "tags": [],
+      "image": "https://www.tportal.hr/media/thumbnail/500x300/2802918.jpeg?cropId=0"
+    },
+    {
+      "id": "tportal-7",
+      "title": "Tone otpada iz Varaždina putuju u Austriju: Evo koliko ga je još ostalo",
+      "summary": "S lokacije bivše tvornice Mundus u Varaždinu do 16. listopada uklonjeno je 2956,62 tone otpada, odnosno gotovo 59 posto ukupno ugovorene količine, a 130 dosad otpremljenih pošiljki oporabljeno je postupkom energetske oporabe, potvrdio je u utorak Hini Državni inspektorat (DIRH)",
+      "link": "https://www.tportal.hr/vijesti/clanak/tone-otpada-iz-varazdina-putuju-u-austriju-evo-koliko-ga-je-jos-ostalo-20261027",
+      "published": "2026-10-27T13:04:00.000Z",
+      "source": "Tportal",
+      "category": "general",
+      "xml_category": "vijesti",
+      "tags": [],
+      "image": "https://www.tportal.hr/media/thumbnail/500x300/2818074.jpeg?cropId=0"
+    },
+    {
+      "id": "jutarnji-1",
+      "title": "U Zagrebu svečano otvorena obnovljena zgrada Farmaceutsko-biokemijskog fakulteta",
+      "summary": "Svečano je otvorena zgrada Farmaceutsko-biokemijskog fakulteta (FBF) u Kovačićevoj ulici u Zagrebu, obnovljena nakon oštećenja u potresu 2020. godine. Obnova je dio projekta obnove fakultetske infrastrukture ‘reSTART Pharma‘ ukupne vrijednosti 23 milijuna eura, od kojih se 20 milijuna eura odnosi na",
+      "link": "https://www.jutarnji.hr/vijesti/zagreb/u-zagrebu-svecano-otvorena-obnovljena-zgrada-farmaceutsko-biokemijskog-fakulteta-15759847",
+      "published": "2026-10-27T13:03:00.000Z",
+      "source": "Jutarnji",
+      "category": "general",
+      "xml_category": "zagreb",
+      "tags": [],
+      "image": "https://media.jutarnji.hr/images/slike/2026/10/27/f_39852831_1280.jpg?1793108377"
+    },
+    {
+      "id": "tportal-17",
+      "title": "Poslodavci poslali važan prijedlog Vladi: Traže veliku promjenu koja bi donijela veće plaće",
+      "summary": "Hrvatska udruga poslodavaca (HUP) predlaže da se minimalna plaća ubuduće usklađuje s inflacijom i rastom dodane vrijednosti u gospodarstvu, a povećanje neto primanja radnika trebalo bi snažnije poduprijeti poreznim rasterećenjem. Poslodavci traže i automatsko povećavanje osobnog odbitka kako radnici",
+      "link": "https://www.tportal.hr/biznis/clanak/poslodavci-poslali-vazan-prijedlog-vladi-traze-veliku-promjenu-koja-bi-donijela-vece-place-20261027",
+      "published": "2026-10-27T13:03:00.000Z",
+      "source": "Tportal",
+      "category": "general",
+      "xml_category": "biznis",
+      "tags": [],
+      "image": "https://www.tportal.hr/media/thumbnail/500x300/2818073.jpeg?cropId=0"
+    },
+    {
+      "id": "tportal-18",
+      "title": "Harry Kane ne štedi na automobilima: Ovo su luksuzni modeli koje vozi osvajač Zlatne lopte",
+      "summary": "Bentley, Jaguar, Range Rover i Audi dio su automobilskog svijeta Harryja Kanea. Engleski reprezentativac poznat je po sklonosti britanskim markama, a prelazak u Bayern donio mu je i pristup najnovijim Audijevim modelima.",
+      "link": "https://www.tportal.hr/autozona/clanak/harry-kane-ne-stedi-na-automobilima-ovo-su-luksuzni-modeli-koje-vozi-osvajac-zlatne-lopte-20261027",
+      "published": "2026-10-27T13:02:00.000Z",
+      "source": "Tportal",
+      "category": "general",
+      "xml_category": "autozona",
+      "tags": [],
+      "image": "https://www.tportal.hr/media/thumbnail/500x300/2818067.jpeg?cropId=0"
+    },
+    {
+      "id": "tportal-19",
+      "title": "Hrvatski povijesni spektakl stiže u kina: Film o Dioklecijanu snimljen je na latinskom jeziku",
+      "summary": "Film „Posljednji rimski bog”, povijesni spektakl redatelja, scenarista i producenta Božidara Domagoja Burića o rimskom caru Dioklecijanu, nakon premijere u Zagrebu imat će 28. listopada splitsku premijeru, a dan kasnije kreće u redovitu kino distribuciju diljem Hrvatske",
+      "link": "https://www.tportal.hr/kultura/clanak/hrvatski-povijesni-spektakl-stize-u-kina-film-o-dioklecijanu-snimljen-je-na-latinskom-jeziku-20261027",
+      "published": "2026-10-27T13:01:00.000Z",
+      "source": "Tportal",
+      "category": "general",
+      "xml_category": "kultura",
+      "tags": [],
+      "image": "https://www.tportal.hr/media/thumbnail/500x300/2818070.png?cropId=0"
+    },
+    {
+      "id": "tportal-8",
+      "title": "Japan se &#039;skida&#039; s ruski energenata, ali ostaje s Moskvom u dva projekta: &#039;Ovo nam treba&#039;",
+      "summary": "Japanska vlada namjerava postupno ublažavati ovisnost o ruskoj nafti i ugljenu, ali neće se povući iz naftno‑plinskih projekata Sahalin 1 i Sahalin 2, izvijestila je ruska novinska agencija Interfax, pozivajući se na izvješće japanskog ministarstva vanjskih poslova.",
+      "link": "https://www.tportal.hr/vijesti/clanak/japan-se-skida-s-ruski-energenata-ali-ostaje-s-moskvom-u-dva-projekta-20261027",
+      "published": "2026-10-27T13:00:00.000Z",
+      "source": "Tportal",
+      "category": "general",
+      "xml_category": "vijesti",
+      "tags": [],
+      "image": "https://www.tportal.hr/media/thumbnail/500x300/2679303.jpeg?cropId=0"
+    },
+    {
+      "id": "dnevnik.hr-3",
+      "title": "Majstorski se snašao na poledici, pogledajte što mu je uspjelo",
+      "summary": "Strmi prilaz mu se zaledio, a njegova spretnost oduševila je promatrače.]]>",
+      "link": "https://dnevnik.hr/vijesti/zanimljivosti/majstorski-se-snasao-na-poledici-pogledajte-sto-mu-je-uspjelo---1010296.html",
+      "published": "2026-10-27T13:00:00.000Z",
+      "source": "Dnevnik.hr",
+      "category": "general",
+      "xml_category": "<![cdata[zanimljivosti]]>>",
+      "tags": [],
+      "image": null
+    },
     {
       "id": "večernji-list-0",
       "title": "Bazen u Španskom otvoren prije mjesec i pol, već se pojavio kvar! U ovom je problem",
@@ -15,7 +747,7 @@
       "image": "https://www.vecernji.hr/media/img/f9/ab/5029644bfb5210233279.jpeg"
     },
     {
-      "id": "n1-info-0",
+      "id": "n1-info-8",
       "title": "Horvatinčić se nagodio: Evo koliko je dobio",
       "summary": "Prema nagodbi, dobio je 13 mjeseci zatvora od kojih je pola godine bezuvjetni dio, dok je ostatak kazne od sedam mjeseci s rokom kušnje na tri godine",
       "link": "https://n1info.hr/vijesti/horvatincic-se-nagodio-evo-koliko-je-dobio/",
@@ -39,9 +771,9 @@
       "image": "https://www.vecernji.hr/media/img/67/cb/e3e8c0773430f203e6f9.jpeg"
     },
     {
-      "id": "tportal-0",
+      "id": "tportal-9",
       "title": "Horvatinčić optužen, ali tužiteljstvo nije o tome izvijestilo javnost",
-      "summary": "Tomislavu Horvatinčiću (78), koji je koncem rujna uhićen nakon što je snimljen kako vozi automobil, iako je imao mjeru zabrane upravljanja vozilom u trajanju od pet godina, produljen je istražni zatvor.",
+      "summary": "Tomislavu Horvatinčiću (78), koji je koncem rujna uhićen nakon što je snimljen kako vozi automobil, iako je imao mjeru zabrane upravljanja vozilom u trajanju od pet godina, produljen je istražni zatvor",
       "link": "https://www.tportal.hr/vijesti/clanak/horvatincic-optuzen-ali-tuziteljstvo-nije-o-tome-izvijestilo-javnost-20261027",
       "published": "2026-10-27T12:53:00.000Z",
       "source": "Tportal",
@@ -75,7 +807,7 @@
       "image": "https://www.vecernji.hr/media/img/16/3b/c5115cd8a47de7ef5415.jpeg"
     },
     {
-      "id": "index-0",
+      "id": "index-1",
       "title": "88-godišnja žena u Zagrebu policajca gađala teglom, policajku ugrizla",
       "summary": "POLICIJA je privela 88-godišnjakinju koja je jučer oko 9 sati, u maksimirskoj Eisenhuthovoj ulici, glinenom teglom pogodila policajca i ugrizla policajku tijekom postupanja, izvijestila je Policijska uprava zagrebačka (PUZ).",
       "link": "https://www.index.hr/vijesti/clanak/88godisnja-zena-u-zagrebu-policajca-gadjala-teglom-policajku-ugrizla/2850330.aspx",
@@ -87,7 +819,7 @@
       "image": null
     },
     {
-      "id": "jutarnji-0",
+      "id": "jutarnji-2",
       "title": "Osuđeni kradljivci Livajina bicikla, njihova obrana je hit: ‘Htio sam vidjeti more prvi put u životu‘",
       "summary": "Trojica mladića iz Novog Sada, optužena za krađu skupocjenog električnog bicikla nogometaša Hajduka Marka Livaje, osuđena su na Općinskom sudu u Splitu na po godinu dana uvjetnog zatvora, uz rok kušnje od tri godine. Nakon dva mjeseca provedenih u istražnom zatvoru na Bilicama, pušteni su na slobodu",
       "link": "https://www.jutarnji.hr/vijesti/crna-kronika/osudeni-kradljivci-livajina-bicikla-njihova-obrana-je-hit-htio-sam-vidjeti-more-prvi-put-u-zivotu-15759840",
@@ -96,10 +828,10 @@
       "category": "general",
       "xml_category": "crna kronika",
       "tags": [],
-      "image": "https://media.jutarnji.hr/images/slike/2026/10/27/f_39853105_1280.jpg?1793105827"
+      "image": "https://media.jutarnji.hr/images/slike/2026/10/27/f_39853105_1280.jpg?1793108005"
     },
     {
-      "id": "index-1",
+      "id": "index-2",
       "title": "Dvojica uhvaćena tijekom primopredaje droge u Dubrovniku",
       "summary": "DUBROVAČKA policija uhitila je dvojicu muškaraca koje je zatekla tijekom primopredaje droge u Dubrovniku.",
       "link": "https://www.index.hr/vijesti/clanak/dvojica-uhvacena-tijekom-primopredaje-droge-u-dubrovniku/2850328.aspx",
@@ -111,7 +843,7 @@
       "image": null
     },
     {
-      "id": "tportal-1",
+      "id": "tportal-10",
       "title": "FOTO Zagrebački fakultet obnovljen nakon potresa: U zgradu uloženo 20 milijuna eura",
       "summary": "Obnovljena zgrada Farmaceutsko-biokemijskog fakulteta (FBF) u Kovačićevoj ulici u Zagrebu, oštećena u potresu 2020. godine, svečano je otvorena u utorak, a u njezinu obnovu uloženo je 20 milijuna eura",
       "link": "https://www.tportal.hr/vijesti/clanak/foto-zagrebacki-fakultet-obnovljen-nakon-potresa-u-zgradu-ulozeno-20-milijuna-eura-foto-20261027",
@@ -123,19 +855,7 @@
       "image": "https://www.tportal.hr/media/thumbnail/500x300/2818046.jpeg?cropId=0"
     },
     {
-      "id": "tportal-2",
-      "title": "Drama u zagrebačkom Maksimiru: Baka (88) bacala tegle na policajce pa ugrizla policajku",
-      "summary": "Policija je privela 88-godišnjakinju koja je u ponedjeljak oko 9 sati, u maksimirskoj Eisenhuthovoj ulici, glinenom teglom pogodila policajca i ugrizla policajku tijekom postupanja, izvijestila je Policijska uprava zagrebačka (PUZ).",
-      "link": "https://www.tportal.hr/vijesti/clanak/drama-u-zagrebackom-maksimiru-baka-88-bacala-tegle-na-policajce-pa-ugrizla-policajku-20261027",
-      "published": "2026-10-27T12:48:05.000Z",
-      "source": "Tportal",
-      "category": "general",
-      "xml_category": "vijesti",
-      "tags": [],
-      "image": "https://www.tportal.hr/media/thumbnail/500x300/2814599.jpeg?cropId=4313428"
-    },
-    {
-      "id": "index-0",
+      "id": "index-6",
       "title": "Hrstić najavila promjene. Nije komentirala pacijenticu kojoj je izvađen želudac",
       "summary": "NOVE izmjene Mreže zdravstvene zaštite omogućuju lakši pristup specijalistima bliže domu te značajno povećavaju broj kreveta za palijativnu skrb.",
       "link": "https://www.index.hr/vijesti/clanak/hrstic-najavila-promjene-nije-komentirala-pacijenticu-kojoj-je-izvadjen-zeludac/2850326.aspx",
@@ -145,6 +865,18 @@
       "xml_category": "vijesti",
       "tags": [],
       "image": null
+    },
+    {
+      "id": "tportal-11",
+      "title": "Drama u zagrebačkom Maksimiru: Baka (88) bacala tegle na policajce pa ugrizla policajku",
+      "summary": "Policija je privela 88-godišnjakinju koja je u ponedjeljak oko 9 sati, u maksimirskoj Eisenhuthovoj ulici, glinenom teglom pogodila policajca i ugrizla policajku tijekom postupanja, izvijestila je Policijska uprava zagrebačka (PUZ).",
+      "link": "https://www.tportal.hr/vijesti/clanak/drama-u-zagrebackom-maksimiru-baka-88-bacala-tegle-na-policajce-pa-ugrizla-policajku-20261027",
+      "published": "2026-10-27T12:48:00.000Z",
+      "source": "Tportal",
+      "category": "general",
+      "xml_category": "vijesti",
+      "tags": [],
+      "image": "https://www.tportal.hr/media/thumbnail/500x300/2814599.jpeg?cropId=4313428"
     },
     {
       "id": "tportal-3",
@@ -159,7 +891,7 @@
       "image": "https://www.tportal.hr/media/thumbnail/500x300/2818054.jpeg?cropId=4321218"
     },
     {
-      "id": "n1-info-1",
+      "id": "n1-info-9",
       "title": "Policija intervenirala zbog 88-godišnjakinje: Jednog policajca pogodila teglom, drugog ugrizla",
       "summary": "Policija je privela 88-godišnjakinju koja je u ponedjeljak oko 9 sati, u maksimirskoj Eisenhuthovoj ulici, glinenom teglom pogodila policajca i ugrizl",
       "link": "https://n1info.hr/crna-kronika/zagreb-maksimir-88-godisnjakinja-tegle-policajci-27-10-2026/",
@@ -183,21 +915,9 @@
       "image": "https://www.tportal.hr/media/thumbnail/500x300/2811755.jpeg?cropId=0"
     },
     {
-      "id": "index-1",
-      "title": "Vučić održao prilično ratoboran govor. Informeru prijeti zabrana",
-      "summary": "SRBIJA i drugi dan nakon izbornog poraza Aleksandra Vučića prolazi kroz velike političke napetosti. Jučer su građani upali u prostorije provučićevske televizije Informer u Beogradu, gdje je prekinut program uživo, a ispred zgrade došlo je do sukoba s policijom.",
-      "link": "https://www.index.hr/vijesti/clanak/sef-informera-divlja-nakon-upada-ljudi-na-televiziju-vuciceva-tv-je-pred-zabranom/2850193.aspx",
-      "published": "2026-10-27T12:42:36.000Z",
-      "source": "Index",
-      "category": "general",
-      "xml_category": "vijesti",
-      "tags": [],
-      "image": null
-    },
-    {
-      "id": "tportal-3",
-      "title": "Trojac iz Srbije krao bicikle po Splitu, pa doznao presudu: Nismo znali da Livajin",
-      "summary": "Brzinski je završeno suđenje trojici mladića iz Novog Sada optuženih za krađu skupocjenih bicikala u Splitu , a među njima i električnog bicikla Marka Livaje. Nakon dva mjeseca na Bilicama, pušteni su na slobodu, a osuđeni na godinu dana zatvora uvjetno s rokom kušnje od tri godine",
+      "id": "tportal-12",
+      "title": "Trojac iz Srbije krao bicikle po Splitu pa doznao presudu: Nismo znali da Livajin",
+      "summary": "Brzinski je završeno suđenje trojici mladića iz Novog Sada, optuženih za krađu skupocjenih bicikala u Splitu, a među njima i električnog bicikla Marka Livaje. Nakon dva mjeseca na Bilicama pušteni su na slobodu, a osuđeni na godinu dana zatvora uvjetno s rokom kušnje od tri godine",
       "link": "https://www.tportal.hr/vijesti/clanak/trojac-iz-srbije-krao-bicikle-po-splitu-pa-doznao-presudu-nismo-znali-da-livajin-20261027",
       "published": "2026-10-27T12:41:00.000Z",
       "source": "Tportal",
@@ -207,7 +927,7 @@
       "image": "https://www.tportal.hr/media/thumbnail/500x300/2818034.png?cropId=0"
     },
     {
-      "id": "index-2",
+      "id": "index-3",
       "title": "Učenik u Splitu rekao da će ozlijediti kolege. Policija: Nema opasnosti",
       "summary": "NAKON prijetnji učenika u Splitu, policija je istragom utvrdila da nema opasnosti te je o slučaju obavijestila Hrvatski zavod za socijalni rad.",
       "link": "https://www.index.hr/vijesti/clanak/ucenik-u-splitu-rekao-da-ce-ozlijediti-kolege-policija-nema-opasnosti/2850325.aspx",
@@ -231,7 +951,7 @@
       "image": "https://www.vecernji.hr/media/img/5b/0a/60549cb7924999d249cc.jpeg"
     },
     {
-      "id": "jutarnji-0",
+      "id": "jutarnji-2",
       "title": "Tomašević o ZET-u: ‘Situacija je urgentna‘",
       "summary": "Što se tiče ZET-a, tamo je urgentna situacija jer kolektivni ugovor nije na snazi nego se trenutačno isplaćuju plaće i druga materijalna prava jednostranom odlukom Uprave ZET-a. Ti pregovori traju. Mislim da je dobro da traju na sastancima s kojih se ne mora svaki detalj izvještavati u javnosti kako",
       "link": "https://www.jutarnji.hr/vijesti/zagreb/tomasevic-o-zet-u-situacija-je-urgentna-15759834",
@@ -240,7 +960,7 @@
       "category": "general",
       "xml_category": "zagreb",
       "tags": [],
-      "image": "https://media.jutarnji.hr/images/slike/2026/10/27/f_39658974_1280.jpg?1793105219"
+      "image": "https://media.jutarnji.hr/images/slike/2026/10/27/f_39658974_1280.jpg?1793108377"
     },
     {
       "id": "večernji-list-5",
@@ -255,7 +975,7 @@
       "image": "https://www.vecernji.hr/media/img/30/4b/3bdf83afef4855298416.jpg"
     },
     {
-      "id": "tportal-4",
+      "id": "tportal-13",
       "title": "Prvi veliki udar na Vučićev medijski sustav: Studenti objavili zahtjeve",
       "summary": "Studenti u blokadi zatražili su hitne ostavke čelnih ljudi Radio-televizije Srbije (RTS), uključujući generalnog direktora, njegova zamjenika i uredništvo Informativnog programa. U otvorenom pismu upućenom vodstvu RTS-a, Vijeću Regulatornog tijela za elektroničke medije (REM) i Narodnoj skupštini Sr",
       "link": "https://www.tportal.hr/vijesti/clanak/studenti-traze-hitne-ostavke-vodstva-rts-a-zele-i-privremenu-upravu-javne-televizije-20261027",
@@ -267,7 +987,7 @@
       "image": "https://www.tportal.hr/media/thumbnail/500x300/2818033.jpeg?cropId=0"
     },
     {
-      "id": "index-3",
+      "id": "index-4",
       "title": "Index snimio Horvatinčića kako vozi pod zabranom. Sad je osuđen, ide u zatvor",
       "summary": "TOMISLAV HORVATINČIĆ nagodio se s tužiteljstvom i priznao krivnju za vožnju pod zabranom nakon što ga je Index snimio kako vozi objavio fotografiju.",
       "link": "https://www.index.hr/vijesti/clanak/horvatincic-u-tajnosti-optuzen-za-voznju-pod-zabranom-ostaje-u-remetincu/2850296.aspx",
@@ -291,7 +1011,7 @@
       "image": "https://www.vecernji.hr/media/img/51/ab/c844459257156cc094dd.jpeg"
     },
     {
-      "id": "tportal-5",
+      "id": "tportal-14",
       "title": "Split otkrio planove za Advent: Evo tko sve stiže na Rivu i Prokurative",
       "summary": "Advent u Splitu počet će 27. studenoga, glavna događanja odvijat će se na Prokurativama i Rivi, uz koncerte domaćih i regionalnih izvođača, a troškovi organizacije procjenjuju se na oko 1,7 milijuna eura",
       "link": "https://www.tportal.hr/vijesti/clanak/split-otkrio-planove-za-advent-evo-tko-sve-stize-na-rivu-i-prokurative-20261027",
@@ -303,7 +1023,7 @@
       "image": "https://www.tportal.hr/media/thumbnail/500x300/2818029.jpeg?cropId=0"
     },
     {
-      "id": "tportal-6",
+      "id": "tportal-15",
       "title": "Prihvaćeni im amandmani, ali IDS svejedno neće podržati rebalans: &#039;Postoji još prostora?",
       "summary": "Zastupnicima IDS-a Daliboru Pausu i NPS-a Ivici Baksi Vlada je u utorak dijelom prihvatila amandmane na rebalans proračuna, no, unatoč tomu najavili su da rebalans neće podržati niti je odobrenje sredstava koje su tražili naznaka da bi se mogli pridružiti vladajućoj većini.",
       "link": "https://www.tportal.hr/vijesti/clanak/prihvaceni-im-amandmani-ali-ids-svejedno-nece-podrzati-rebalans-postoji-jos-prostora-20261027",
@@ -327,7 +1047,7 @@
       "image": "https://www.tportal.hr/media/thumbnail/500x300/2818023.jpeg?cropId=4321162"
     },
     {
-      "id": "index-2",
+      "id": "index-7",
       "title": "Vlada im prihvatila amandmane, ali IDS i NPS neće podržati rebalans",
       "summary": "ZASTUPNICIMA IDS-a Daliboru Pausu i NPS-a Ivici Baksi Vlada je djelomično prihvatila amandmane na rebalans proračuna, no, unatoč tomu, najavili su da rebalans neće podržati, niti je prihvaćanje sredstava koje su tražili naznaka da bi se mogli pridružiti vladajućoj većini.",
       "link": "https://www.index.hr/vijesti/clanak/vlada-im-prihvatila-amandmane-ali-ids-i-nps-nece-podrzati-rebalans/2850323.aspx",
@@ -363,7 +1083,7 @@
       "image": "https://www.vecernji.hr/media/img/f0/c7/e1dcae3e6291576fedd1.jpeg"
     },
     {
-      "id": "dnevnik.hr-0",
+      "id": "dnevnik.hr-4",
       "title": "Drama na letu: Putnik poslao jezivu poruku, avion sa 150 putnika morao se hitno okrenuti",
       "summary": "Zrakoplov koji je poletio iz Las Vegasa hitno se morao vratiti sat vremena nakon polijetanja.]]>",
       "link": "https://dnevnik.hr/vijesti/svijet/putnik-prijetio-da-ce-oteti-zrakoplov---1010374.html",
@@ -375,7 +1095,7 @@
       "image": null
     },
     {
-      "id": "index-4",
+      "id": "index-5",
       "title": "Rumunji uhvaćeni u krijumčarenju stranih državljana kod Jasenovca",
       "summary": "POLICIJA je na području Jasenovca spriječila krijumčarenje više stranih državljana i uhitila dvojicu rumunjskih državljana.",
       "link": "https://www.index.hr/vijesti/clanak/dvojica-rumunja-krijumcarila-strane-drzavljane-kod-jasenovca/2850318.aspx",
@@ -399,7 +1119,7 @@
       "image": "https://www.vecernji.hr/media/img/6a/6b/58222332312b33a2814b.png"
     },
     {
-      "id": "jutarnji-1",
+      "id": "jutarnji-3",
       "title": "Prvi doznajemo: Horvatinčić se nagodio, pušten je iz Remetinca, evo kolika ga kazna čeka!",
       "summary": "Poduzetnik recidivist Tomo Horvatinčić (78) od večeras opet spava u svome domu i to bez nanogice, ali kao ponovno osuđena osoba! Kako doznaje Jutarnji list, zagrebačko tužiteljstvo je odlučilo „popustiti” u pregovorima s moćnim poduzetnikom koji je optužen za neizvršavanje sudske odluke, odnosno da.",
       "link": "https://www.jutarnji.hr/vijesti/zagreb/prvi-doznajemo-horvatincic-se-nagodio-pusten-je-iz-remetinca-evo-kolika-ga-kazna-ceka-15759826",
@@ -408,10 +1128,10 @@
       "category": "general",
       "xml_category": "zagreb",
       "tags": [],
-      "image": "https://media.jutarnji.hr/images/slike/2026/10/27/f_39663258_1280.jpg?1793105219"
+      "image": "https://media.jutarnji.hr/images/slike/2026/10/27/f_39663258_1280.jpg?1793108377"
     },
     {
-      "id": "index-5",
+      "id": "index-6",
       "title": "Osuđeni Srbi koji su ukrali Livajin bicikl",
       "summary": "TROJICA mladića iz Novog Sada osuđena su na uvjetne zatvorske kazne zbog osam krađa električnih vozila u Splitu, uključujući i skupocjeni bicikl Marka Livaje. Izrazili su kajanje.",
       "link": "https://www.index.hr/vijesti/clanak/osudjeni-srbi-koji-su-ukrali-livajin-bicikl/2850317.aspx",
@@ -447,7 +1167,7 @@
       "image": null
     },
     {
-      "id": "tportal-7",
+      "id": "tportal-16",
       "title": "Britanci optuženi za špijunažu u korist Irana: Slučaj vodi do vojne baze RAF-a",
       "summary": "Dvojica britanskih državljana optužena su za zavjeru s ciljem pomaganja iranskoj obavještajnoj službi, u sklopu istrage o incidentu u blizini baze kraljevskog zrakoplovstva Fairforda",
       "link": "https://www.tportal.hr/vijesti/clanak/britanci-optuzeni-za-spijunazu-u-korist-irana-slucaj-vodi-do-vojne-baze-raf-a-20261027",
@@ -459,7 +1179,7 @@
       "image": "https://www.tportal.hr/media/thumbnail/500x300/2818022.jpeg?cropId=0"
     },
     {
-      "id": "tportal-8",
+      "id": "tportal-17",
       "title": "Kod Rijeke odlagao tone otpada: Policija ga prijavila zbog ugrožavanja okoliša",
       "summary": "Policija je kazneno prijavila 69-godišnjeg vlasnika tvrtke iz Rijeke jer ga sumnjiči da je, protivno propisima o gospodarenju otpadom, na zemljištu u Kukuljanovu od 2021. odlagao i skladištio veće količine raznog otpada te je počinio kazneno djelo ugrožavanja okoliša otpadom.",
       "link": "https://www.tportal.hr/vijesti/clanak/kod-rijeke-odlagao-tone-otpada-policija-ga-prijavila-zbog-ugrozavanja-okolisa-20261027",
@@ -471,8 +1191,8 @@
       "image": "https://www.tportal.hr/media/thumbnail/500x300/2818021.jpeg?cropId=0"
     },
     {
-      "id": "tportal-9",
-      "title": "Vučić zaprijetio: &#039;Ako država neće reagirati, bit ćemo prisiljeni samoorganizirati se!&#039;",
+      "id": "tportal-18",
+      "title": "Vučić zaprijetio: &#039;Ako država ne reagira, bit ćemo prisiljeni samoorganizirati se!&#039;",
       "summary": "Aleksandar Vučić, čija je lista izgubila na izvanrednim parlamentarnim izborima u Srbiji, upozorio je da bi se Srpska napredna stranka (SNS) mogla samoorganizirati ako državne institucije ne reagiraju na incidente usmjerene protiv njezinih pristaša",
       "link": "https://www.tportal.hr/vijesti/clanak/vucic-zaprijetio-ako-drzava-nece-reagirati-bit-cemo-prisiljeni-samoorganizirati-se-20261027",
       "published": "2026-10-27T12:16:00.000Z",
@@ -519,7 +1239,7 @@
       "image": null
     },
     {
-      "id": "index-3",
+      "id": "index-8",
       "title": "Studenac reže troškove i broj radnih mjesta, zatvara 79 trgovina",
       "summary": "PREDSJEDNIK Uprave Studenca Teo Vujčić izjavio je da provedene promjene usmjerene na smanjenje operativnih troškova te trgovačke kompanije donose uštede od 33 milijuna eura na godišnjoj razini, a uz dodatne mjere od 2027. očekuje se njihov ukupni godišnji učinak od 41 milijun eura.",
       "link": "https://www.index.hr/vijesti/clanak/veliki-rezovi-u-studencu-podijeljeno-stotine-otkaza/2850293.aspx",
@@ -531,7 +1251,7 @@
       "image": null
     },
     {
-      "id": "tportal-10",
+      "id": "tportal-19",
       "title": "Bježao od policije i dvaput se zabio u njihov auto: Sve je počelo s neregistriranim vozilom",
       "summary": "U istražnom zatvoru završio je 30-godišnjak koji je u Majerju kod Varaždina pokušao pobjeći automobilom unatoč policijskim naredbama, a pritom se dvaput sudario sa službenim vozilom i ozlijedio policajca, priopćila je utorak varaždinska policija.",
       "link": "https://www.tportal.hr/vijesti/clanak/bjezao-od-policije-i-dvaput-se-zabio-u-njihov-auto-sveje-pocelo-s-neregistriranim-vozilom-20261027",
@@ -543,7 +1263,7 @@
       "image": "https://www.tportal.hr/media/thumbnail/500x300/2815723.jpeg?cropId=0"
     },
     {
-      "id": "dnevnik.hr-1",
+      "id": "dnevnik.hr-8",
       "title": "Vučić zaprijetio: \"Ako država ne reagira, samoorganizirat ćemo se. Ugasite li Informer, napravit ćemo ovo\"",
       "summary": "Bivši predsjednik Srbije i gubitnik na parlamentarnim izborima Aleksandar Vučić održao je govor na proslavi stranačke slave Srpske napredne stranke (SNS), dva dana nakon izbornog poraza od Studentske liste.]]>",
       "link": "https://dnevnik.hr/vijesti/svijet/vucic-zaprijetio-ako-drzava-ne-reagira-samoorganizirat-cemo-se---1010372.html",
@@ -555,7 +1275,7 @@
       "image": null
     },
     {
-      "id": "dnevnik.hr-3",
+      "id": "dnevnik.hr-9",
       "title": "Puljak traži odgovornost zbog šest žrtava požara. HDZ-ovac odgovorio: \"Nećete od Omiša raditi Novi Sad\"",
       "summary": "Nakon smrti šeste žrtve požara u Omišu, Marijana Puljak ponovno je otvorila pitanje odgovornosti za neaktiviranje sustava ranog upozoravanja. Uslijedio je oštar odgovor HDZ-ova zastupnika.]]>",
       "link": "https://dnevnik.hr/vijesti/hrvatska/puljak-utvrditi-odgovornost-za-neaktivaciju-sruuk-a-tijekom-pozara-u-omisu---1010366.html",
@@ -699,7 +1419,7 @@
       "image": "https://www.tportal.hr/media/thumbnail/500x300/2818009.jpeg?cropId=0"
     },
     {
-      "id": "n1-info-6",
+      "id": "n1-info-14",
       "title": "Tomašević predstavio veliki plan za zagrebačke kvartove: Četiri ne žele sudjelovati",
       "summary": "Zagrebački gradonačelnik Tomislav Tomašević predstavio je treće izdanje projekta \"Daj prijedlog za bolji kvart\", u sklopu kojeg građani mogu predlagat",
       "link": "https://n1info.hr/vijesti/tomasevic-predstavio-veliki-plan-za-zagrebacke-kvartove-cetiri-nisu-ukljucena-u-projekt/",
@@ -747,7 +1467,7 @@
       "image": "https://www.tportal.hr/media/thumbnail/500x300/2809648.jpeg?cropId=0"
     },
     {
-      "id": "jutarnji-1",
+      "id": "jutarnji-3",
       "title": "Bježeći policiji dvaput udario u službeni auto pa završio u istražnom zatvoru",
       "summary": "U istražnom zatvoru završio je 30-godišnjak koji je u Majerju kod Varaždina pokušao pobjeći automobilom unatoč policijskim naredbama, a pritom se dvaput sudario sa službenim vozilom i ozlijedio policajca, priopćila je u utorak varaždinska policija. Incident se dogodio u subotu, 24. listopada, oko 5,",
       "link": "https://www.jutarnji.hr/vijesti/crna-kronika/bjezeci-policiji-dvaput-udario-u-sluzbeni-auto-pa-zavrsio-u-istraznom-zatvoru-15759813",
@@ -756,7 +1476,7 @@
       "category": "general",
       "xml_category": "crna kronika",
       "tags": [],
-      "image": "https://media.jutarnji.hr/images/slike/2026/10/27/f_35494717_1280.jpg?1793105827"
+      "image": "https://media.jutarnji.hr/images/slike/2026/10/27/f_35494717_1280.jpg?1793108005"
     },
     {
       "id": "večernji-list-17",
@@ -807,7 +1527,7 @@
       "image": "https://www.vecernji.hr/media/img/ab/ae/b3802f6a1041007e6ef1.jpeg"
     },
     {
-      "id": "jutarnji-0",
+      "id": "jutarnji-2",
       "title": "Puljak: ‘Utvrditi odgovornost za neaktivaciju SRUUK-a tijekom požara u Omišu‘",
       "summary": "Saborska zastupnica Marijana Puljak (Centar) ponovno je u utorak zatražila da se utvrdi tko je odgovoran za neaktiviranje sustava ranog upozoravanja tijekom ljetošnjeg požara u Omišu, upozorivši da šest smrtno stradalih ne smije proći bez odgovornosti. - Imamo sustav plaćen 8,4 milijuna eura za rano",
       "link": "https://www.jutarnji.hr/vijesti/hrvatska/puljak-utvrditi-odgovornost-za-neaktivaciju-sruuk-a-tijekom-pozara-u-omisu-15759807",
@@ -816,7 +1536,7 @@
       "category": "general",
       "xml_category": "hrvatska",
       "tags": [],
-      "image": "https://media.jutarnji.hr/images/slike/2026/10/27/f_39807763_1280.jpg?1793104849"
+      "image": "https://media.jutarnji.hr/images/slike/2026/10/27/f_39807763_1280.jpg?1793108839"
     },
     {
       "id": "večernji-list-19",
@@ -867,7 +1587,7 @@
       "image": "https://www.tportal.hr/media/thumbnail/500x300/2818002.jpeg?cropId=0"
     },
     {
-      "id": "index-4",
+      "id": "index-9",
       "title": "VIDEO Opasna vožnja u Osijeku. Na zadnjem kotaču prešao u suprotnu traku",
       "summary": "U BLIZINI trgovačkog centra Portanova u Osijeku jučer je snimljena opasna vožnja.",
       "link": "https://www.index.hr/vijesti/clanak/video-opasna-voznja-u-osijeku-na-zadnjem-kotacu-presao-u-suprotnu-traku/2850284.aspx",
@@ -915,7 +1635,7 @@
       "image": "https://www.vecernji.hr/media/img/2e/78/674d2a4727a1d7398fae.jpeg"
     },
     {
-      "id": "index-5",
+      "id": "index-10",
       "title": "Puljak o Omišu: Najstrašnija tragedija u povijesti Hrvatske, a mi nismo na ulicama",
       "summary": "MARIJANA Puljak traži odgovornost za neaktivaciju SRUUK-a u Omišu.",
       "link": "https://www.index.hr/vijesti/clanak/puljak-o-omisu-najstrasnija-tragedija-u-povijesti-hrvatske-a-mi-nismo-na-ulicama/2850289.aspx",
@@ -927,7 +1647,7 @@
       "image": null
     },
     {
-      "id": "n1-info-9",
+      "id": "n1-info-17",
       "title": "Bježao policiji, dvaput se sudario s njihovim vozilom i ozlijedio policajca: Završio u istražnom zatvoru",
       "summary": "U istražnom zatvoru završio je 30-godišnjak koji je u Majerju kod Varaždina pokušao pobjeći automobilom unatoč policijskim naredbama, a pritom se dvap",
       "link": "https://n1info.hr/crna-kronika/varazdin-majerje-bijeg-policija-ozlijeden-policajac-27-10-2026/",
@@ -1023,7 +1743,7 @@
       "image": "https://www.vecernji.hr/media/img/0e/b5/ad64f346099043877204.jpeg"
     },
     {
-      "id": "index-6",
+      "id": "index-11",
       "title": "Bjelovar gradi centar za osobe s invaliditetom",
       "summary": "DOM ZA ODRASLE osobe Bjelovar raspisao je natječaj za dva odvojena zahvata, preuređenje zgrade iz 18. stoljeća u Frajtićevoj ulici u centar za osobe s invaliditetom i gradnju kuće s dva stana u Markovićevoj, ukupno procijenjena na 3,48 milijuna eura bez PDV-a.",
       "link": "https://www.index.hr/vijesti/clanak/bjelovar-gradi-centar-za-osobe-s-invaliditetom/2850286.aspx",
@@ -1143,7 +1863,7 @@
       "image": "https://www.vecernji.hr/media/img/1a/b1/128f2f9308ff353c1b9e.jpeg"
     },
     {
-      "id": "jutarnji-1",
+      "id": "jutarnji-3",
       "title": "HDZ je DP-u odobrio tek dio amandmana, ali zanimljivije je tko se izborio za 1,5 milijuna eura",
       "summary": "Vlada je na današnjoj sjednici prihvatila tek manji dio amandmana na rebalans državnog proračuna koje su podnijeli zastupnici Domovinskog pokreta kao jedan od uvjeta da ostanu u koaliciji s HDZ-om. Od ukupno sedam amandmana vrijednih čak 22 milijuna eura, Vlada je prihvatila tek tri DP-ova amandmana",
       "link": "https://www.jutarnji.hr/vijesti/hrvatska/hdz-je-dp-u-odobrio-tek-dio-amandmana-ali-zanimljivije-je-tko-se-izborio-za-1-5-milijuna-eura-15759796",
@@ -1152,7 +1872,7 @@
       "category": "general",
       "xml_category": "hrvatska",
       "tags": [],
-      "image": "https://media.jutarnji.hr/images/slike/2026/10/27/f_39122951_1280.jpg?1793104849"
+      "image": "https://media.jutarnji.hr/images/slike/2026/10/27/f_39122951_1280.jpg?1793108839"
     },
     {
       "id": "tportal-16",
@@ -1299,7 +2019,7 @@
       "image": "https://www.tportal.hr/media/thumbnail/500x300/2817942.jpeg?cropId=0"
     },
     {
-      "id": "jutarnji-2",
+      "id": "jutarnji-4",
       "title": "Na stolu je 1,7 milijuna eura, stiglo 500 ideja kako ih potrošiti: ‘To smo htjeli pri dolasku na vlast‘",
       "summary": "Već treću godinu zaredom, Grad Zagreb provodi projekt participativnog budžetiranja naziva \"Daj prijedlog za novi kvart\". U prvoj pilot-godini sudjelovale su četiri gradske četvrti. Druge godine se brojka popela na njih devet, dok će u ovoj godini participirati njih 13 od njih ukupno 17. U ovom izdan",
       "link": "https://www.jutarnji.hr/vijesti/zagreb/na-stolu-je-1-7-milijuna-eura-stiglo-500-ideja-kako-ih-potrositi-to-smo-htjeli-pri-dolasku-na-vlast-15759791",
@@ -1308,7 +2028,7 @@
       "category": "general",
       "xml_category": "zagreb",
       "tags": [],
-      "image": "https://media.jutarnji.hr/images/slike/2026/10/27/f_39739198_1280.jpg?1793105219"
+      "image": "https://media.jutarnji.hr/images/slike/2026/10/27/f_39739198_1280.jpg?1793108377"
     },
     {
       "id": "dnevnik.hr-7",
@@ -1323,7 +2043,19 @@
       "image": null
     },
     {
-      "id": "index-7",
+      "id": "dnevnik.hr-0",
+      "title": "Neki se protive, ali iz automobila nestaje dio koji je tamo bio čitavo stoljeće: \"Proizvođači ne žele da vozači to koriste\"",
+      "summary": "Dio koji je sukus vozačke tradicije nestaje iz modernih automobila...]]>",
+      "link": "https://dnevnik.hr/vijesti/hrvatska/sipke-za-mjerenje-razine-ulja-u-motoru-nestaju-iz-modernih-automobila---1010350.html",
+      "published": "2026-10-27T10:51:00.000Z",
+      "source": "Dnevnik.hr",
+      "category": "general",
+      "xml_category": "<![cdata[hrvatska]]>>",
+      "tags": [],
+      "image": null
+    },
+    {
+      "id": "index-12",
       "title": "Vlada popustila DP-u: Daju još skoro pola milijuna eura za obnovu crkve u Gvozdu",
       "summary": "OD 38 AMANDMANA, koliko su ih na rebalans državnoga proračuna za 2026. godinu podnijeli vladajući i oporbeni saborski zastupnici i klubovi, Vlada ih je prihvatila pet, tri vladajućeg DP-a i dva oporbenih Kluba IDS-a i zastupnika Ivice Bakse (NPS).",
       "link": "https://www.index.hr/vijesti/clanak/vlada-popustila-dpu-daju-jos-skoro-pola-milijuna-eura-za-obnovu-crkve-u-gvozdu/2850276.aspx",
@@ -1347,7 +2079,7 @@
       "image": "https://www.vecernji.hr/media/img/71/10/4a9ec9cbd7966a32d021.jpeg"
     },
     {
-      "id": "jutarnji-2",
+      "id": "jutarnji-4",
       "title": "Od 38 amandmana na rebalans Vlada prihvatila pet, tri DP-ova i dva oporbena",
       "summary": "Od 38 amandmana, koliko su ih na rebalans državnoga proračuna za 2026. godinu podnijeli vladajući i oporbeni saborski zastupnici i klubovi, Vlada ih je prihvatila pet, tri vladajućeg DP-a i dva oporbenih Kluba IDS-a i zastupnika Ivice Bakse (NPS). Vlada je o tome izvijestila u utorak, nakon telefons",
       "link": "https://www.jutarnji.hr/vijesti/hrvatska/od-38-amandmana-na-rebalans-vlada-prihvatila-pet-tri-dp-ova-i-dva-oporbena-15759788",
@@ -1356,7 +2088,7 @@
       "category": "politika",
       "xml_category": "hrvatska",
       "tags": [],
-      "image": "https://media.jutarnji.hr/images/slike/2026/10/27/f_38267502_1280.jpg?1793104849"
+      "image": "https://media.jutarnji.hr/images/slike/2026/10/27/f_38267502_1280.jpg?1793108839"
     },
     {
       "id": "tportal-18",
@@ -1395,7 +2127,7 @@
       "image": "https://www.vecernji.hr/media/img/ef/91/0b6d47d525007eb49744.jpeg"
     },
     {
-      "id": "index-8",
+      "id": "index-13",
       "title": "Most najavio kaznenu prijavu protiv HDZ-ove ministrice",
       "summary": "SABORSKI zastupnik Mosta Ivan Matić najavio je kaznenu prijavu protiv ministrice zaštite okoliša i zelene tranzicije Marije Vučković, predstavnika Fonda za zaštitu okoliša, Grada Varaždina te tvrtki uključenih u sanaciju varaždinskih bala.",
       "link": "https://www.index.hr/vijesti/clanak/most-najavio-kaznenu-prijavu-protiv-hdzove-ministrice/2850271.aspx",
@@ -1443,7 +2175,7 @@
       "image": "https://www.vecernji.hr/media/img/e1/5b/0337701ae220f1126a4b.jpeg"
     },
     {
-      "id": "index-6",
+      "id": "index-7",
       "title": "Bez vozačke vozio cisternu za opasne tvari. Odbio test na droge, završio u zatvoru",
       "summary": "POLICIJA je jučer u Dugopolju kod Splita zaustavila 28-godišnjaka koji je bez važeće vozačke dozvole upravljao cisternom za prijevoz opasnih tvari. Muškarac je odbio testiranje na droge, a policija mu je oduzela cisternu i privela ga na sud. Određeno mu je zadržavanje od 11 dana te je predan u zatvo",
       "link": "https://www.index.hr/vijesti/clanak/bez-vozacke-vozio-cisternu-za-opasne-tvari-odbio-test-na-droge-zavrsio-u-zatvoru/2850274.aspx",
@@ -1539,7 +2271,7 @@
       "image": "https://www.vecernji.hr/media/img/8e/ab/6d39c93c2c5a4ba8f01c.jpeg"
     },
     {
-      "id": "jutarnji-3",
+      "id": "jutarnji-5",
       "title": "Tomašević pojačava kontrolu, stižu ‘ubojita‘ Scan a car vozila: ‘Sami prepoznaju prekršaj‘",
       "summary": "Šest automobila Zagrebparkinga koji danas kamerama čitaju registracije i provjeravaju je li parkiranje plaćeno uskoro bi trebalo dobiti još jedan posao: u vožnji će moći evidentirati i nepropisno zaustavljene ili parkirane automobile po Zagrebu. Istodobno Grad kupuje još tri nova automobila opremlje",
       "link": "https://www.jutarnji.hr/vijesti/zagreb/sprema-se-velika-novost-oko-kontrole-parkinga-u-zagrebu-bit-ce-puno-teze-izbjeci-kaznu-15759783",
@@ -1548,7 +2280,7 @@
       "category": "general",
       "xml_category": "zagreb",
       "tags": [],
-      "image": "https://media.jutarnji.hr/images/slike/2026/10/27/f_36011970_1280.jpg?1793105219"
+      "image": "https://media.jutarnji.hr/images/slike/2026/10/27/f_36011970_1280.jpg?1793108377"
     },
     {
       "id": "tportal-12",
@@ -1587,7 +2319,7 @@
       "image": null
     },
     {
-      "id": "jutarnji-3",
+      "id": "jutarnji-5",
       "title": "Plenković govorio o obnovi pa spomenuo Sport Billyja: ‘Zaboravili smo na ključan faktor...‘",
       "summary": "Hrvatska je u obnovu nakon zagrebačkog i petrinjskog potresa dosad uložila 5,3 milijarde eura, a obnova bi trebala biti dovršena za tri do četiri godine, izjavio je u utorak premijer Andrej Plenković, istaknuvši da je riječ o dugotrajnom i financijski zahtjevnom procesu. Govoreći na svečanom otvoren",
       "link": "https://www.jutarnji.hr/vijesti/hrvatska/plenkovic-govorio-o-obnovi-pa-spomenuo-sport-billyja-zaboravili-smo-na-kljucan-faktor-15759780",
@@ -1596,7 +2328,7 @@
       "category": "sport",
       "xml_category": "hrvatska",
       "tags": [],
-      "image": "https://media.jutarnji.hr/images/slike/2026/10/27/f_39852722_1280.jpg?1793104849"
+      "image": "https://media.jutarnji.hr/images/slike/2026/10/27/f_39852722_1280.jpg?1793108839"
     },
     {
       "id": "index-1",
@@ -1683,7 +2415,7 @@
       "image": "https://n1info.hr/media/images/2025/3/1741872137-pexels-pixabay-248933.width-1200.jpg"
     },
     {
-      "id": "jutarnji-4",
+      "id": "jutarnji-6",
       "title": "HBOR pokreće novi program za ulaganja u preradu poljoprivrednih proizvoda",
       "summary": "Hrvatska banka za obnovu i razvitak (HBOR) od 28. listopada započinje zaprimati zahtjeve za financijski instrument \"Krediti za preradu poljoprivrednih proizvoda“, namijenjen mikro, malim i srednjim poduzetnicima koji ulažu u razvoj i modernizaciju preradbenih kapaciteta u poljoprivredno-prehrambenom",
       "link": "https://www.jutarnji.hr/vijesti/hrvatska/hbor-pokrece-novi-program-za-ulaganja-u-preradu-poljoprivrednih-proizvoda-15759775",
@@ -1692,10 +2424,10 @@
       "category": "general",
       "xml_category": "hrvatska",
       "tags": [],
-      "image": "https://media.jutarnji.hr/images/slike/2026/10/27/f_36409404_1280.jpg?1793104849"
+      "image": "https://media.jutarnji.hr/images/slike/2026/10/27/f_36409404_1280.jpg?1793108839"
     },
     {
-      "id": "index-7",
+      "id": "index-8",
       "title": "Poziv na 112: \"Mislim da ću ubiti gradonačelnika Osijeka. Sigurno ću ga ubiti\"",
       "summary": "52-GODIŠNJI Osječanin koji je prijetio smrću gradonačelniku Ivanu Radiću, smatrajući ga odgovornim za samoubojstvo bratića, osuđen je na 7 mjeseci zatvora zamijenjenih radom za opće dobro.",
       "link": "https://www.index.hr/vijesti/clanak/poziv-na-112-mislim-da-cu-ubiti-gradonacelnika-osijeka-sigurno-cu-ga-ubiti/2850268.aspx",
@@ -1707,7 +2439,7 @@
       "image": null
     },
     {
-      "id": "index-10",
+      "id": "index-15",
       "title": "Od 38 amandmana na proračun Vlada prihvatila pet",
       "summary": "OD 38 AMANDMANA, koliko su ih na rebalans državnoga proračuna za 2026. godinu podnijeli vladajući i oporbeni saborski zastupnici i klubovi, Vlada ih je prihvatila pet, tri vladajućeg DP-a i dva oporbenih Kluba IDS-a i zastupnika Ivice Bakse (NPS).",
       "link": "https://www.index.hr/vijesti/clanak/od-38-amandmana-na-proracun-vlada-prihvatila-pet/2850264.aspx",
@@ -1827,7 +2559,7 @@
       "image": "https://www.vecernji.hr/media/img/71/7b/6fdeb7dc39b6a965185d.jpg"
     },
     {
-      "id": "index-8",
+      "id": "index-9",
       "title": "Otac i sin godinama gomilali opasni otpad kod Velike Gorice. Pokrenuta istraga",
       "summary": "ŽUPANIJSKO državno odvjetništvo u Velikoj Gorici pokrenulo je istragu protiv Krešimira Miličevića (50), njegovog oca Krešimira Miličevića (87) i njegove tvrtke Max logistika zbog sumnje da su proteklih 12 godina gomilali otpad na području Velike Kosnice, izvijestilo je tužiteljstvo.",
       "link": "https://www.index.hr/vijesti/clanak/otac-i-sin-godinama-gomilali-opasni-otpad-kod-velike-gorice-pokrenuta-istraga/2850258.aspx",
@@ -1875,7 +2607,7 @@
       "image": "https://www.tportal.hr/media/thumbnail/500x300/2817820.jpeg?cropId=0"
     },
     {
-      "id": "index-9",
+      "id": "index-10",
       "title": "Teško ozlijeđen na benzinskoj u Čakovcu. Policija objavila detalje napada",
       "summary": "DVOJICA muškaraca uhićena su zbog pokušaja ubojstva 41-godišnjaka kojeg su nakon svađe na benzinskoj u Čakovcu teško ozlijedili.",
       "link": "https://www.index.hr/vijesti/clanak/tesko-ozlijedjen-na-benzinskoj-u-cakovcu-policija-objavila-detalje-napada/2850255.aspx",
@@ -1899,7 +2631,7 @@
       "image": "https://www.tportal.hr/media/thumbnail/500x300/2815997.jpeg?cropId=4316572"
     },
     {
-      "id": "jutarnji-5",
+      "id": "jutarnji-7",
       "title": "Nacionalna platforma znanja i poduzetništva donosi novi Evolution Lab",
       "summary": "Nakon uspješnog prvog izdanja, Evolution Next Level od 12. do 14. ožujka 2027. donosi novi koncept, vodeće hrvatske stručnjake i dva dana posebnih predavanja, savjetovanja i poslovnog povezivanja. Nakon što je već prvim izdanjem otvorio vrata novim poslovnim prilikama, povezivanju i razmjeni znanja,",
       "link": "https://www.jutarnji.hr/vijesti/hrvatska/nacionalna-platforma-znanja-i-poduzetnistva-donosi-novi-evolution-lab-15759769",
@@ -1908,7 +2640,7 @@
       "category": "general",
       "xml_category": "hrvatska",
       "tags": [],
-      "image": "https://media.jutarnji.hr/images/slike/2026/10/27/f_39852539_1280.jpg?1793104849"
+      "image": "https://media.jutarnji.hr/images/slike/2026/10/27/f_39852539_1280.jpg?1793108839"
     },
     {
       "id": "dnevnik.hr-6",
@@ -1959,7 +2691,7 @@
       "image": "https://www.vecernji.hr/media/img/08/74/5c7b5b94f75158ffe208.jpeg"
     },
     {
-      "id": "jutarnji-2",
+      "id": "jutarnji-4",
       "title": "Na 112 stigao jeziv poziv: ‘Dobra večer, mislim da ću ubiti gradonačelnika Osijeka‘",
       "summary": "\"Dobra večer. Ja sam T. B. Ja sam pred bolnicom, mislim da ću ubiti gradonačelnika Osijeka\" – rečenica je koju je izgovorio 5. rujna ove godine 52-godišnji Osječanin prilikom poziva sa svog mobitela na 112. Potom ga je operater začuđeno upitao kako to misli, pa je T. B. detaljnije pojasnio: \"Eto tak",
       "link": "https://www.jutarnji.hr/vijesti/crna-kronika/na-112-stigao-jeziv-poziv-dobra-vecer-mislim-da-cu-ubiti-gradonacelnika-osijeka-15759767",
@@ -1968,7 +2700,7 @@
       "category": "general",
       "xml_category": "crna kronika",
       "tags": [],
-      "image": "https://media.jutarnji.hr/images/slike/2026/10/27/f_36309708_1280.jpg?1793105827"
+      "image": "https://media.jutarnji.hr/images/slike/2026/10/27/f_36309708_1280.jpg?1793108005"
     },
     {
       "id": "večernji-list-19",
@@ -1983,7 +2715,7 @@
       "image": "https://www.vecernji.hr/media/img/2f/1c/817d742e6ff4e36feba5.jpeg"
     },
     {
-      "id": "jutarnji-6",
+      "id": "jutarnji-8",
       "title": "Ogorec: Tehnokratska vlada bila bi najbolje rješenje za Srbiju",
       "summary": "Srbija je ušla u novu političku eru. Na izvanrednim parlamentarnim izborima građani Srbije glas su dali Studentskoj listi i tako prekinuli 14 godina dugu vladavinu Aleksandra Vučića. Danas bira Izrael, za tjedan dana SAD. Iako glasači biraju sastav - u Izraelu parlamenta, u SAD-u Kongresa - ti će re",
       "link": "https://www.jutarnji.hr/vijesti/hrvatska/ogorec-tehnokratska-vlada-bila-bi-najbolje-rjesenje-za-srbiju-15759766",
@@ -1992,7 +2724,7 @@
       "category": "politika",
       "xml_category": "hrvatska",
       "tags": [],
-      "image": "https://media.jutarnji.hr/images/slike/2026/10/27/f_39813780_1280.jpg?1793104849"
+      "image": "https://media.jutarnji.hr/images/slike/2026/10/27/f_39813780_1280.jpg?1793108839"
     },
     {
       "id": "tportal-15",
@@ -2055,7 +2787,7 @@
       "image": "https://www.vecernji.hr/media/img/5e/e3/10a778cf622f5bfac8de.jpeg"
     },
     {
-      "id": "index-11",
+      "id": "index-16",
       "title": "Vučetić: Od studenata ne treba očekivati kritički odnos prema prošlosti. Ni hrvatskih",
       "summary": "MARKO Vučetić kritizirao je hrvatsku poslušnost u kontekstu prosvjeda u Srbiji.",
       "link": "https://www.index.hr/vijesti/clanak/vucetic-od-studenata-ne-treba-ocekivati-kriticki-odnos-prema-proslosti-ni-hrvatskih/2850249.aspx",
@@ -2079,7 +2811,7 @@
       "image": "https://n1info.hr/media/images/1653584452-otpad.width-1200.JPG"
     },
     {
-      "id": "jutarnji-3",
+      "id": "jutarnji-5",
       "title": "Dvojica pritvorena zbog pokušaja ubojstva na benzinskoj postaji u Čakovcu",
       "summary": "Dvojica muškaraca od 34 i 40 godina završila su u pritvoru zbog sumnje u pokušaj ubojstva 41-godišnjaka u Čakovcu, kojeg su nakon verbalnog i fizičkog sukoba napali na parkiralištu benzinske postaje, pri čemu mu je 40-godišnjak hladnim oružjem zadao ubodnu ranu opasnu po život, objavila je policija.",
       "link": "https://www.jutarnji.hr/vijesti/crna-kronika/dvojica-pritvorena-zbog-pokusaja-ubojstva-na-benzinskoj-postaji-u-cakovcu-15759763",
@@ -2088,7 +2820,7 @@
       "category": "general",
       "xml_category": "crna kronika",
       "tags": [],
-      "image": "https://media.jutarnji.hr/images/slike/2026/10/27/f_38465621_1280.jpg?1793105827"
+      "image": "https://media.jutarnji.hr/images/slike/2026/10/27/f_38465621_1280.jpg?1793108005"
     },
     {
       "id": "večernji-list-2",
@@ -2127,7 +2859,7 @@
       "image": "https://www.vecernji.hr/media/img/77/db/010373288a8e0ec910f5.jpeg"
     },
     {
-      "id": "index-10",
+      "id": "index-11",
       "title": "Htjeli ga zaustaviti kod Varaždina. Dvaput se zabio u policijski auto pa pobjegao",
       "summary": "30-GODIŠNJAK je bježao policiji u neregistriranom autu, dvaput se sudario sa službenim vozilom i ozlijedio policajca. Nakon bijega je uhićen te mu je određen istražni zatvor.",
       "link": "https://www.index.hr/vijesti/clanak/htjeli-ga-zaustaviti-kod-varazdina-dvaput-se-zabio-u-policijski-auto-pa-pobjegao/2850246.aspx",
@@ -2199,7 +2931,7 @@
       "image": "https://www.tportal.hr/media/thumbnail/500x300/2817796.jpeg?cropId=4320950"
     },
     {
-      "id": "index-11",
+      "id": "index-12",
       "title": "Netko je provalio u spomen-kuću Alojzija Stepinca i ukrao novac",
       "summary": "U KRAŠIĆU je provaljeno u spomen-kuću Alojzija Stepinca.",
       "link": "https://www.index.hr/vijesti/clanak/netko-je-provalio-u-spomenkucu-alojzija-stepinca-i-ukrao-novac/2850248.aspx",
@@ -2331,7 +3063,7 @@
       "image": "https://www.tportal.hr/media/thumbnail/500x300/2814325.jpeg?cropId=0"
     },
     {
-      "id": "index-13",
+      "id": "index-18",
       "title": "HŽ planira nabaviti gotovo 6000 metli",
       "summary": "HŽ INFRASTRUKTURA planira kupiti ukupno 5819 metli za nešto više od 35.000 eura bez PDV-a.",
       "link": "https://www.index.hr/vijesti/clanak/hz-planira-nabaviti-gotovo-6000-metli/2850237.aspx",
@@ -2463,7 +3195,7 @@
       "image": "https://www.tportal.hr/media/thumbnail/500x300/2804529.jpeg?cropId=0"
     },
     {
-      "id": "index-12",
+      "id": "index-13",
       "title": "Vozač (44) jurio 230 na sat kod tunela Sveti Rok. Kazna 1500 eura",
       "summary": "POLICIJA je na autocesti A1 zaustavila vozača koji je vozio 230 km/h na dionici s ograničenjem od 80 km/h zbog radova.",
       "link": "https://www.index.hr/vijesti/clanak/vozac-44-jurio-230-na-sat-kod-tunela-sveti-rok-kazna-1500-eura/2850228.aspx",
@@ -2499,7 +3231,7 @@
       "image": "https://n1info.hr/media/images/2026/10/27/1793092390_SPECIJAL_FOTKA.width-1200.png"
     },
     {
-      "id": "index-13",
+      "id": "index-14",
       "title": "Turistički vodič napao vozača na zagrebačkom aerodromu",
       "summary": "GRČKI državljanin T. P. (47), turistički vodič porijeklom iz Egipta, nedavno je u Zračnoj luci Franjo Tuđman napao vozača autobusa. Nakon svađe, 47-godišnjak ga je kišobranom udario u glavu, nakon čega ga je uhitila policija.",
       "link": "https://www.index.hr/vijesti/clanak/turisticki-vodic-napao-vozaca-na-zagrebackom-aerodromu/2850225.aspx",
@@ -2547,7 +3279,7 @@
       "image": "https://www.vecernji.hr/media/img/c2/09/4557eaecceaf8f64b29d.jpeg"
     },
     {
-      "id": "index-14",
+      "id": "index-19",
       "title": "Atlantic Grupa ostvarila dvoznamenkasti rast dobiti",
       "summary": "ATLANTIC Grupa je u prvih devet mjeseci ostvarila neto dobit od 46 milijuna eura, što je rast od 42,2 posto u odnosu na isto razdoblje lani, izvijestili su iz te tvrtke, dodavši da je dvoznamenkasti rezultat profitabilnosti ostvaren zahvaljujući snažnim prodajnim rezultatima, poboljšanju bruto marže",
       "link": "https://www.index.hr/vijesti/clanak/atlantic-grupa-ostvarila-dvoznamenkasti-rast-dobiti/2850218.aspx",
@@ -2799,7 +3531,7 @@
       "image": "https://www.vecernji.hr/media/img/c2/d4/d5deb855a7e2a4e16853.jpeg"
     },
     {
-      "id": "jutarnji-7",
+      "id": "jutarnji-9",
       "title": "FOTO Pogledajte što je jutros snimljeno na nebu iznad Splita",
       "summary": "Ako ste jutros nakon svitanja protrljali oči i pomislili da vam iznad glava leti leteći tanjur, ne brinite – niste još popili prvu kavu. Iznad Splita ukazao se spektakularan oblak koji podsjeća na svemirsku letjelicu. Fotografija je pomalo nestvarna zahvaljujući i bojama kojima je jutarnje izlazeće.",
       "link": "https://www.jutarnji.hr/vijesti/hrvatska/pogledajte-sto-je-jutros-snimljeno-na-nebu-iznad-splita-15759737",
@@ -2808,7 +3540,7 @@
       "category": "general",
       "xml_category": "hrvatska",
       "tags": [],
-      "image": "https://media.jutarnji.hr/images/slike/2026/10/27/f_39852251_1280.png?1793104849"
+      "image": "https://media.jutarnji.hr/images/slike/2026/10/27/f_39852251_1280.png?1793108839"
     },
     {
       "id": "index-16",
@@ -2859,7 +3591,7 @@
       "image": "https://www.tportal.hr/media/thumbnail/500x300/2817027.png?cropId=4318702"
     },
     {
-      "id": "index-14",
+      "id": "index-15",
       "title": "Drnišanka (24) ukrala 500 eura iz skladišta trgovine",
       "summary": "POLICIJA sumnjiči 24-godišnjakinju da je iz skladišta trgovine u Drnišu otuđila 500 eura.",
       "link": "https://www.index.hr/vijesti/clanak/drnisanka-24-ukrala-500-eura-iz-skladista-trgovine/2850208.aspx",
@@ -2871,7 +3603,7 @@
       "image": null
     },
     {
-      "id": "index-15",
+      "id": "index-16",
       "title": "Mađar (41) pobjegao policiji u Bjelovaru, u tijeku je potraga",
       "summary": "POLICIJA u Bjelovaru traga za 41-godišnjim Mađarom.",
       "link": "https://www.index.hr/vijesti/clanak/madjar-41-pobjegao-policiji-u-bjelovaru-u-tijeku-je-potraga/2850200.aspx",
@@ -2979,7 +3711,7 @@
       "image": "https://www.vecernji.hr/media/img/fe/13/5d2d785e38350ecf4daf.jpeg"
     },
     {
-      "id": "jutarnji-4",
+      "id": "jutarnji-6",
       "title": "Optužen za muljažu s luksuznom vilom na Braču. Prije 20 godina ubio je prijatelja pa bacio pištolj u more",
       "summary": "Županijsko državno odvjetništvo u Splitu podiglo je optužnicu protiv Dina D., direktora tvrtke Twindor Holding, i njegovog poznanika Stipe B. zbog sumnje da su dogovorili prijenos kuće i zemljišta u Sutivanu na Braču, vrijednih 1,44 milijuna eura, bez plaćanja kupoprodajne cijene. Dino D. se tereti.",
       "link": "https://www.jutarnji.hr/vijesti/crna-kronika/optuzen-za-muljazu-s-luksuznom-vilom-na-bracu-prije-20-godina-ubio-je-prijatelja-pa-bacio-pistolj-u-more-15759729",
@@ -2988,7 +3720,7 @@
       "category": "general",
       "xml_category": "crna kronika",
       "tags": [],
-      "image": "https://media.jutarnji.hr/images/slike/2026/10/22/f_39320867_1280.jpg?1793105827"
+      "image": "https://media.jutarnji.hr/images/slike/2026/10/22/f_39320867_1280.jpg?1793108005"
     },
     {
       "id": "večernji-list-9",
@@ -3051,7 +3783,7 @@
       "image": "https://www.vecernji.hr/media/img/1e/23/b29d9ea9f0b9aa9804bb.jpeg"
     },
     {
-      "id": "jutarnji-4",
+      "id": "jutarnji-6",
       "title": "VIDEO ‘Što se događa?‘: Netko potrgao registracije brojnih auta u jednoj ulici u centru Zagreba",
       "summary": "Prizor parkiranih automobila bez registracijskih tablica u središtu Zagreba je potaknuo raspravu na Redditu. Jedan član Reddit grupe Zagreb je prije tri dana objavio video niza parkiranih automobila bez prednjih registracijskih tablica u Ulici Gjure Deželića i pitao o čemu se radi. Na videu se vidi.",
       "link": "https://www.jutarnji.hr/vijesti/zagreb/video-sto-se-dogada-netko-potrgao-registracije-brojnih-auta-u-jednoj-ulici-u-centru-zagreba-15759727",
@@ -3060,7 +3792,7 @@
       "category": "general",
       "xml_category": "zagreb",
       "tags": [],
-      "image": "https://media.jutarnji.hr/images/slike/2026/10/27/f_39852121_1280.jpg?1793105219"
+      "image": "https://media.jutarnji.hr/images/slike/2026/10/27/f_39852121_1280.jpg?1793108377"
     },
     {
       "id": "večernji-list-11",
@@ -3399,7 +4131,7 @@
       "image": "https://www.tportal.hr/media/thumbnail/500x300/2817634.jpeg?cropId=0"
     },
     {
-      "id": "jutarnji-5",
+      "id": "jutarnji-7",
       "title": "Grk (47) izgubio živce u zagrebačkoj zračnoj luci pa kišobranom u glavu udario vozača autobusa",
       "summary": "Državljanin Grčke T. P. (47), inače turistički vodič rodom iz Egipta, planuo je ispred novog putničkog terminala zagrebačke zračne luke Franjo Tuđman kada se nedavno zatekao ispred vozača autobusa. Obuzela ga je lavina bijesa pa se kišobranom, koji je imao u ruci, kobnog popodneva okomio na vozača..",
       "link": "https://www.jutarnji.hr/vijesti/zagreb/grk-47-izgubio-zivce-u-zagrebackoj-zracnoj-luci-pa-kisobranom-u-glavu-udario-vozaca-autobusa-15759711",
@@ -3408,7 +4140,7 @@
       "category": "general",
       "xml_category": "zagreb",
       "tags": [],
-      "image": "https://media.jutarnji.hr/images/slike/2026/10/27/f_25352041_1280.jpg?1793105219"
+      "image": "https://media.jutarnji.hr/images/slike/2026/10/27/f_25352041_1280.jpg?1793108377"
     },
     {
       "id": "tportal-17",
@@ -3483,7 +4215,7 @@
       "image": "https://www.vecernji.hr/media/img/07/63/678682a16dde65ca1661.jpeg"
     },
     {
-      "id": "index-16",
+      "id": "index-17",
       "title": "Mladić u Požegi oduzeo prednost pa udario u auto policajca",
       "summary": "22-GODIŠNJAK u Požegi nije poštivao prednost prolaska i udario je u vozilo kojim je upravljao policajac izvan službe. Protiv njega slijedi obvezni prekršajni nalog.",
       "link": "https://www.index.hr/vijesti/clanak/mladic-u-pozegi-oduzeo-prednost-pa-udario-u-auto-policajca/2850182.aspx",
@@ -3555,7 +4287,7 @@
       "image": "https://www.tportal.hr/media/thumbnail/500x300/2583336.jpeg?cropId=4315767"
     },
     {
-      "id": "index-17",
+      "id": "index-18",
       "title": "Na Slavonca pao spremnik s vodom sa stroja kojim je upravljao radnik bez dozvole",
       "summary": "NA GRADILIŠTU u Novoj Ljeskovici teško je ozlijeđen radnik.",
       "link": "https://www.index.hr/vijesti/clanak/na-slavonca-pao-spremnik-s-vodom-sa-stroja-kojim-je-upravljao-radnik-bez-dozvole/2850178.aspx",
@@ -3687,7 +4419,7 @@
       "image": null
     },
     {
-      "id": "jutarnji-8",
+      "id": "jutarnji-10",
       "title": "HAK: Kolona pet kilometara na A2 pred čvorom Zagreb zapad",
       "summary": "Na autocesti A2 pred čvorom Zagreb zapad u smjeru Zagreba kolona je oko pet kilometara, a zastoji su povremeno na zagrebačkoj (A3) i riječkoj (A7) obilaznici, Istarskom ipsilonu na čvoru Matulji te na više dionica Jadranske magistrale (DC8), izvijestili su iz Hrvatskog auto-kluba u utorak. Smanjena.",
       "link": "https://www.jutarnji.hr/vijesti/hrvatska/hak-kolona-pet-kilometara-na-a2-pred-cvorom-zagreb-zapad-15759702",
@@ -3696,7 +4428,7 @@
       "category": "general",
       "xml_category": "hrvatska",
       "tags": [],
-      "image": "https://media.jutarnji.hr/images/slike/2026/10/27/f_39374798_1280.jpg?1793104849"
+      "image": "https://media.jutarnji.hr/images/slike/2026/10/27/f_39374798_1280.jpg?1793108839"
     },
     {
       "id": "tportal-14",
@@ -4083,7 +4815,7 @@
       "image": "https://www.vecernji.hr/media/img/e2/81/22bd74ff3cbf75ea5f03.jpeg"
     },
     {
-      "id": "jutarnji-9",
+      "id": "jutarnji-11",
       "title": "Cvjećari: Rast troškova i nelojalna konkurencija najveći problemi",
       "summary": "Uz rast troškova, jedan od najvećih problema s kojima se suočavaju cvjećari je nelojalna konkurencija, a posebno ih zabrinjava prodaja na crno, uključujući neregistriranu prodaju cvijeća na ulicama, tržnicama i putem društvenih mreža, osobito uoči Svih svetih, kazali su iz Hrvatske obrtničke komore.",
       "link": "https://www.jutarnji.hr/vijesti/hrvatska/cvjecari-rast-troskova-i-nelojalna-konkurencija-najveci-problemi-15759693",
@@ -4092,7 +4824,7 @@
       "category": "general",
       "xml_category": "hrvatska",
       "tags": [],
-      "image": "https://media.jutarnji.hr/images/slike/2026/10/27/f_36231665_1280.jpg?1793104849"
+      "image": "https://media.jutarnji.hr/images/slike/2026/10/27/f_36231665_1280.jpg?1793108839"
     },
     {
       "id": "tportal-14",
@@ -4551,7 +5283,7 @@
       "image": "https://www.tportal.hr/media/thumbnail/500x300/2814883.jpeg?cropId=0"
     },
     {
-      "id": "jutarnji-6",
+      "id": "jutarnji-8",
       "title": "Imamo detaljni vodič za Sve svete u Zagrebu: ‘Ovo su zabrane za vozače, slušajte policajce na terenu‘",
       "summary": "Uoči blagdana Svih svetih, Grad Zagreb i ove godine uvodi posebnu organizaciju prometa i javnog prijevoza, uz besplatan prijevoz na izvanrednim autobusnim linijama prema većim gradskim grobljima na blagdan Svih svetih, 1. studenoga. Privremena regulacija prometa trajat će od 24. listopada do 2. stud",
       "link": "https://www.jutarnji.hr/vijesti/zagreb/imamo-detaljni-vodic-za-sve-svete-u-zagrebu-ovo-su-zabrane-za-vozace-slusajte-policajce-na-terenu-15759659",
@@ -4560,7 +5292,7 @@
       "category": "general",
       "xml_category": "zagreb",
       "tags": [],
-      "image": "https://media.jutarnji.hr/images/slike/2026/10/26/f_35631093_1280.jpg?1793105219"
+      "image": "https://media.jutarnji.hr/images/slike/2026/10/26/f_35631093_1280.jpg?1793108377"
     },
     {
       "id": "večernji-list-16",
@@ -4731,7 +5463,7 @@
       "image": "https://www.tportal.hr/media/thumbnail/500x300/2817565.jpeg?cropId=4320173"
     },
     {
-      "id": "index-18",
+      "id": "index-2",
       "title": "Ženi u Zagrebu izvadili cijeli želudac, a nije imala rak. Liječnici prijeti zatvor",
       "summary": "LIJEČNICA iz Zagreba optužena je jer je pacijentici zbog pogrešne dijagnoze raka bespotrebno odstranjen želudac, ostavivši je s teškim invaliditetom.",
       "link": "https://www.index.hr/vijesti/clanak/zeni-u-zagrebu-zbog-pogresne-dijagnoze-izvadili-cijeli-zeludac-lijecnica-optuzena/2850121.aspx",
@@ -4815,7 +5547,7 @@
       "image": "https://www.vecernji.hr/media/img/4b/c2/85819be6662e95389891.jpeg"
     },
     {
-      "id": "jutarnji-10",
+      "id": "jutarnji-12",
       "title": "Kovačević: Vučić je imao planove o otimanju teritorija. Sad se ruši koncept ‘srpskog sveta‘",
       "summary": "Hrvatski političari, vladajući i oni u oporbi, redom su čestitali Studentskoj listi, koja je u nedjelju uvjerljivo pobijedila Aleksandra Vučića i time okončala četrnaestogodišnju vladavinu Srpske napredne stranke, a svi se nadaju i boljim odnosima sa susjednom zemljom nakon prvih izjava nositelja li",
       "link": "https://www.jutarnji.hr/vijesti/hrvatska/kovacevic-vucic-je-imao-planove-o-otimanju-teritorija-sad-se-rusi-koncept-srpskog-sveta-15759639",
@@ -4824,7 +5556,7 @@
       "category": "general",
       "xml_category": "hrvatska",
       "tags": [],
-      "image": "https://media.jutarnji.hr/images/slike/2026/10/26/f_39173502_1280.jpg?1793104849"
+      "image": "https://media.jutarnji.hr/images/slike/2026/10/26/f_39173502_1280.jpg?1793108839"
     },
     {
       "id": "večernji-list-3",
@@ -5175,7 +5907,7 @@
       "image": "https://www.tportal.hr/media/thumbnail/500x300/2817540.jpeg?cropId=4320067"
     },
     {
-      "id": "jutarnji-5",
+      "id": "jutarnji-7",
       "title": "Pacijentici u Vinogradskoj zbog krive dijagnoze izvađen želudac. Liječnici prijeti zatvor",
       "summary": "Zbog pogrešne dijagnoze karcinoma želuca, pacijentici je u KBC Sestre milosrdnice u Zagrebu krajem 2023. godine odstranjen cijeli želudac zajedno s limfnim čvorovima, trbušnom maramom, slijepim crijevom i žučnim mjehurom. Naknadnim je pretragama otkriveno da je pacijentica bolovala od neuroendokrino",
       "link": "https://www.jutarnji.hr/vijesti/crna-kronika/pacijentici-u-vinogradskoj-zbog-krive-dijagnoze-izvaden-zeludac-lijecnici-prijeti-zatvor-15759631",
@@ -5184,7 +5916,7 @@
       "category": "general",
       "xml_category": "crna kronika",
       "tags": [],
-      "image": "https://media.jutarnji.hr/images/slike/2026/10/26/f_39850212_1280.jpg?1793105827"
+      "image": "https://media.jutarnji.hr/images/slike/2026/10/26/f_39850212_1280.jpg?1793108005"
     },
     {
       "id": "tportal-8",
@@ -5799,7 +6531,7 @@
       "image": null
     },
     {
-      "id": "jutarnji-11",
+      "id": "jutarnji-13",
       "title": "Hrvat nestao nakon potonuća naftne platforme u Gabonu. Traje velika potraga",
       "summary": "Riječanin Damir Parać jedan je od petorice radnika koji se vode kao nestali nakon potonuća naftne platforme u Gabonu, državi na zapadnoj obali Afrike. Nesreća se dogodila u subotu, 24. listopada, a za nestalim radnicima pokrenuta je opsežna potraga, piše Fiuman. Prema informacijama koje su objavile.",
       "link": "https://www.jutarnji.hr/vijesti/hrvatska/hrvat-nestao-nakon-potonuca-naftne-platforme-u-gabonu-traje-velika-potraga-15759609",
@@ -5808,7 +6540,7 @@
       "category": "general",
       "xml_category": "hrvatska",
       "tags": [],
-      "image": "https://media.jutarnji.hr/images/slike/2026/10/26/f_39849831_1280.jpg?1793104849"
+      "image": "https://media.jutarnji.hr/images/slike/2026/10/26/f_39849831_1280.jpg?1793108839"
     },
     {
       "id": "večernji-list-18",
@@ -6543,7 +7275,7 @@
       "image": "https://www.vecernji.hr/media/img/e4/08/61e02793f85780308d3c.jpeg"
     },
     {
-      "id": "jutarnji-6",
+      "id": "jutarnji-8",
       "title": "Šincek: ‘Vozimo otpad iz Italije i trpamo gdje stignemo!‘ Zlatar Dodić: ‘Zakopali smo ga sa 300, 400 tisuća...‘",
       "summary": "\"Ja uopće nisam radio s otpadom\", kratka je obrana koju je poznati zlatar Paško Dodić nedavno iznio na USKOK-u neposredno nakon što je istraga zbog ilegalnog odlaganja otpada, kojom je prije obuhvaćena njegova supruga Franciska te bračni par Monika i Josip Šincek, proširena i na njega samoga. Premda",
       "link": "https://www.jutarnji.hr/vijesti/crna-kronika/sincek-vozimo-otpad-iz-italije-i-trpamo-gdje-stignemo-zlatar-dodic-zakopali-smo-ga-sa-300-400-tisuca-15759588",
@@ -6552,7 +7284,7 @@
       "category": "general",
       "xml_category": "crna kronika",
       "tags": [],
-      "image": "https://media.jutarnji.hr/images/slike/2026/10/26/f_39849497_1280.jpg?1793105827"
+      "image": "https://media.jutarnji.hr/images/slike/2026/10/26/f_39849497_1280.jpg?1793108005"
     },
     {
       "id": "index-17",
@@ -6591,7 +7323,7 @@
       "image": "https://www.tportal.hr/media/thumbnail/500x300/2783098.jpeg?cropId=0"
     },
     {
-      "id": "jutarnji-7",
+      "id": "jutarnji-9",
       "title": "Zagreb kupuje dva 3D mamografa, četiri RTG-a i novi CT. Doznajemo gdje će biti dostupni građanima",
       "summary": "Zagreb će u domove zdravlja uložiti 1,72 milijuna eura u novu radiološku opremu: stižu dva digitalna mamografa s tomosintezom, četiri nova RTG uređaja i jedan MSCT. Najskuplji pojedinačni dio nabave je novi CT za Dom zdravlja Zagreb – Centar u Laginjinoj, koji će se moći koristiti i za detaljne preg",
       "link": "https://www.jutarnji.hr/vijesti/zagreb/zagreb-kupuje-dva-3d-mamografa-cetiri-rtg-a-i-novi-ct-doznajemo-gdje-ce-biti-dostupni-gradanima-15759584",
@@ -6600,7 +7332,7 @@
       "category": "general",
       "xml_category": "zagreb",
       "tags": [],
-      "image": "https://media.jutarnji.hr/images/slike/2026/10/26/f_35789838_1280.jpg?1793105219"
+      "image": "https://media.jutarnji.hr/images/slike/2026/10/26/f_35789838_1280.jpg?1793108377"
     },
     {
       "id": "večernji-list-19",
@@ -6627,7 +7359,7 @@
       "image": "https://www.tportal.hr/media/thumbnail/500x300/2817480.jpeg?cropId=4319649"
     },
     {
-      "id": "jutarnji-12",
+      "id": "jutarnji-14",
       "title": "I dalje se ne zna uzrok požara u kojem je poginulo šest ljudi. Policija objavila da provodi izvide",
       "summary": "Služba općeg kriminaliteta PU splitsko-dalmatinske u koordinaciji sa Županijskim državnim odvjetništvom u Splitu provodi izvide postoji li osnovana sumnja u počinjenje teškog kaznenog djela protiv opće sigurnosti iz članka 222. Kaznenog zakona u vezi požara u Lokvi Rogoznici. Požar se dogodio 13. ko",
       "link": "https://www.jutarnji.hr/vijesti/hrvatska/i-dalje-se-ne-zna-uzrok-pozara-u-kojem-je-poginulo-sest-ljudi-policija-objavila-da-provodi-izvide-15759583",
@@ -6636,7 +7368,7 @@
       "category": "general",
       "xml_category": "hrvatska",
       "tags": [],
-      "image": "https://media.jutarnji.hr/images/slike/2026/10/26/f_39637485_1280.jpg?1793104849"
+      "image": "https://media.jutarnji.hr/images/slike/2026/10/26/f_39637485_1280.jpg?1793108839"
     },
     {
       "id": "index-19",
@@ -6675,7 +7407,7 @@
       "image": "https://www.vecernji.hr/media/img/57/fd/15e2de6bb0185cff8d3a.jpeg"
     },
     {
-      "id": "jutarnji-13",
+      "id": "jutarnji-15",
       "title": "Jandroković: Nadam se da će Srbija prihvatiti odgovornost za 90-e",
       "summary": "Predsjednik Hrvatskog sabora Gordan Jandroković je u ponedjeljak u Zagrebu rekao da se nada da će u Srbiji nakon parlamentarnih izbora doći do analize događaja 90-ih te da će prihvatiti odgovornost za njih, no dodao da ne želi preuranjeno donositi konačne stavove. Jandroković je odgovarajući na pita",
       "link": "https://www.jutarnji.hr/vijesti/hrvatska/jandrokovic-nadam-se-da-ce-srbija-prihvatiti-odgovornost-za-90-e-15759582",
@@ -6684,7 +7416,7 @@
       "category": "general",
       "xml_category": "hrvatska",
       "tags": [],
-      "image": "https://media.jutarnji.hr/images/slike/2026/10/26/f_39804637_1280.jpg?1793104849"
+      "image": "https://media.jutarnji.hr/images/slike/2026/10/26/f_39804637_1280.jpg?1793108839"
     },
     {
       "id": "tportal-18",
@@ -6879,7 +7611,7 @@
       "image": "https://www.tportal.hr/media/thumbnail/500x300/2817470.jpeg?cropId=4319566"
     },
     {
-      "id": "jutarnji-14",
+      "id": "jutarnji-16",
       "title": "Grlić Radman: ‘Izjave nositelja Studentske liste u Srbiji ohrabrujuće‘",
       "summary": "Hrvatski šef diplomacije Gordan Grlić Radman je u ponedjeljak u Zagrebu izjave nositelja pobjedničke Studentske liste u Srbiji Ilije Srdanovića nazvao ‘ohrabrujućima‘, dodajući da se Hrvatska nada ‘pozitivnom tonu‘ u odnosima sa susjednom zemljom nakon što su nedjeljni prijevremeni parlamentarni izb",
       "link": "https://www.jutarnji.hr/vijesti/hrvatska/grlic-radman-izjave-nositelja-studentske-liste-u-srbiji-ohrabrujuce-15759575",
@@ -6888,7 +7620,7 @@
       "category": "general",
       "xml_category": "hrvatska",
       "tags": [],
-      "image": "https://media.jutarnji.hr/images/slike/2026/10/26/f_39849369_1280.jpg?1793104849"
+      "image": "https://media.jutarnji.hr/images/slike/2026/10/26/f_39849369_1280.jpg?1793108839"
     },
     {
       "id": "tportal-19",
@@ -7107,7 +7839,7 @@
       "image": null
     },
     {
-      "id": "jutarnji-15",
+      "id": "jutarnji-17",
       "title": "Medved poslao poruku novoj vlasti u Srbiji: ‘Tamo su odgovori na pitanja koje dugo čekamo‘",
       "summary": "Potpredsjednik Vlade i ministar hrvatskih branitelja Tomo Medved izjavio je u ponedjeljak kako od nove vlasti u Srbiji očekuje da otvori arhive i Hrvatskoj dostavi informacije koje je unatrag deset godina tražila puno puta. \"U tim arhivima nalaze se odgovori na pitanja koje mi tako dugo čekamo“, rek",
       "link": "https://www.jutarnji.hr/vijesti/hrvatska/medved-poslao-poruku-novoj-vlasti-u-srbiji-tamo-su-odgovori-na-pitanja-koja-dugo-cekamo-15759566",
@@ -7116,7 +7848,7 @@
       "category": "general",
       "xml_category": "hrvatska",
       "tags": [],
-      "image": "https://media.jutarnji.hr/images/slike/2026/10/26/f_39820284_1280.jpg?1793104849"
+      "image": "https://media.jutarnji.hr/images/slike/2026/10/26/f_39820284_1280.jpg?1793108839"
     },
     {
       "id": "index-19",
@@ -7789,558 +8521,6 @@
       "xml_category": "",
       "tags": [],
       "image": "https://www.vecernji.hr/media/img/97/cb/85b2a84efa62a3a3940a.jpeg"
-    },
-    {
-      "id": "index-19",
-      "title": "Milanović odlikovao 85 darivatelja krvi: Među najplemenitijim smo društvima",
-      "summary": "PREDSJEDNIK Milanović odlikovao je 85 darivatelja krvi, istaknuvši da njihova plemenitost i humanost svrstavaju Hrvatsku među najbolja društva.",
-      "link": "https://www.index.hr/vijesti/clanak/milanovic-odlikovao-85-darivatelja-krvi-medju-najplemenitijim-smo-drustvima/2849933.aspx",
-      "published": "2026-10-26T14:01:00.000Z",
-      "source": "Index",
-      "category": "general",
-      "xml_category": "vijesti",
-      "tags": [],
-      "image": null
-    },
-    {
-      "id": "večernji-list-0",
-      "title": "Špijuniranje, blaćenje i premlaćivanje kod biralište: Što su hrvatski promatrači vidjeli na izborima u Srbiji",
-      "summary": "Večernjakov novinar Hrvoje Zovko u Beogradu je razgovarao sa Sunčanom Glavak i Gordanom Bosancem, koji su kao članovi međunarodne promatračke misije pratili izbore. Govore o neravnopravnoj kampanji, napetostima na biračkim mjestima i izazovima koji čekaju studentski pokret nakon izbornog preokreta.",
-      "link": "https://www.vecernji.hr/vijesti/spijuniranje-blacenje-i-premlacivanje-kod-biraliste-sto-su-hrvatski-promatraci-vidjeli-na-izborima-u-srbiji-2007718",
-      "published": "2026-10-26T14:00:00.000Z",
-      "source": "Večernji list",
-      "category": "general",
-      "xml_category": "",
-      "tags": [],
-      "image": "https://www.vecernji.hr/media/img/7b/0f/17f690aeaee8cfcec8ab.jpeg"
-    },
-    {
-      "id": "večernji-list-1",
-      "title": "Otkriveno koliko Barcelona neće moći računati na sjajnog, mladog braniča",
-      "summary": "S obzirom na predviđeno vrijeme oporavka, moguće je da Espart više neće zaigrati u 2026. godini,",
-      "link": "https://www.vecernji.hr/sport/otkriveno-koliko-barcelona-nece-moci-racunati-na-sjajnog-mladog-branica-2007790",
-      "published": "2026-10-26T14:00:00.000Z",
-      "source": "Večernji list",
-      "category": "general",
-      "xml_category": "",
-      "tags": [],
-      "image": "https://www.vecernji.hr/media/img/aa/14/efecd3a9fce6febbd6cc.jpeg"
-    },
-    {
-      "id": "večernji-list-2",
-      "title": "'Odgovarat ćete, bagro!': Sin Dragana Bjelogrlića uputio oštru poruku nakon poraza Vučića",
-      "summary": "S Aleksejem je ulicama Beograda hodala i njegova djevojka, pjevačica Sara Jo, a Bjelogrlić je na Instagramu podijelio oštru poruku upućenu bivšoj vlasti na čelu s Aleksandrom Vučićem",
-      "link": "https://www.vecernji.hr/showbiz/odgovarat-cete-bagro-sin-dragana-bjelogrlica-uputio-ostru-poruku-nakon-poraza-vucica-2007713",
-      "published": "2026-10-26T14:00:00.000Z",
-      "source": "Večernji list",
-      "category": "general",
-      "xml_category": "",
-      "tags": [],
-      "image": "https://www.vecernji.hr/media/img/9a/84/6aa9e12ca72943c6f96b.jpeg"
-    },
-    {
-      "id": "večernji-list-3",
-      "title": "Ryanair od danas krenuo s novom linijom iz Zagreba: Karte do europske metropole mogu se naći i za 16,99 eura",
-      "summary": "Razlike u cijenama između pojedinih datuma prilično su velike, pa se putnicima koji imaju fleksibilan raspored isplati usporediti više opcija",
-      "link": "https://www.vecernji.hr/barkod/ryanair-od-danas-krenuo-s-novom-linijom-iz-zagreba-karte-do-europske-metropole-mogu-se-naci-i-za-1699-eura-2007726",
-      "published": "2026-10-26T14:00:00.000Z",
-      "source": "Večernji list",
-      "category": "ai",
-      "xml_category": "",
-      "tags": [],
-      "image": "https://www.vecernji.hr/media/img/88/f3/0e83e61657a34eeaa263.jpeg"
-    },
-    {
-      "id": "večernji-list-4",
-      "title": "'Ostavljate samo ružan prizor!': Jedna navika susjeda posebno ljuti stanovnike zagrebačkog kvarta",
-      "summary": "Ostaci hrane na pločnicima i u travnjacima trunu, privlače glodavce, a bacanje istih s visine može nekoga pogoditi u glavu, kazala je.",
-      "link": "https://www.vecernji.hr/zagreb/ostavljate-samo-ruzan-prizor-jedna-navika-susjeda-posebno-ljuti-stanovnike-zagrebackog-kvarta-2007710",
-      "published": "2026-10-26T14:00:00.000Z",
-      "source": "Večernji list",
-      "category": "general",
-      "xml_category": "",
-      "tags": [],
-      "image": "https://www.vecernji.hr/media/img/f0/58/313cf3164e4af7dcdbb5.jpeg"
-    },
-    {
-      "id": "tportal-11",
-      "title": "Zaintrigirala obožavatelje: Heidi Klum tajanstvenom objavom najavila ovogodišnji kostim",
-      "summary": "Slavna manekenka ponovno je zagolicala maštu obožavatelja objavom zagonetne fotografije uoči svoje čuvene godišnje zabave",
-      "link": "https://www.tportal.hr/showtime/clanak/zaintrigirala-obozavatelje-heidi-klum-tajanstvenom-fotkom-najavila-ovogodisnji-kostim-foto-20261026",
-      "published": "2026-10-26T13:59:00.000Z",
-      "source": "Tportal",
-      "category": "ai",
-      "xml_category": "showtime",
-      "tags": [],
-      "image": "https://www.tportal.hr/media/thumbnail/500x300/2817375.jpeg?cropId=4319319"
-    },
-    {
-      "id": "index-16",
-      "title": "HRT vanjskim suradnicima isplatio 8,37 milijuna eura. Revizori našli propuste",
-      "summary": "REVIZIJA je utvrdila propuste u poslovanju HRT-a, od nepravilne javne nabave do isplate 8,37 milijuna eura vanjskim suradnicima tijekom 2024. godine.",
-      "link": "https://www.index.hr/vijesti/clanak/hrt-vanjskim-suradnicima-isplatio-837-milijuna-eura-revizori-nasli-propuste/2849923.aspx",
-      "published": "2026-10-26T13:57:00.000Z",
-      "source": "Index",
-      "category": "general",
-      "xml_category": "vijesti",
-      "tags": [],
-      "image": null
-    },
-    {
-      "id": "večernji-list-5",
-      "title": "Domovinski pokret između vlasti i vlastite nemoći",
-      "summary": "Domovinski pokret suočava se s izazovima vlastite političke pozicije unutar koalicije s HDZ-om, dok nastoji zadržati identitet i podršku birača. U središtu sukoba je slučaj državnog tajnika Tomislava Bilandžića, koji otkriva dublje nesuglasice unutar stranke i vlasti.",
-      "link": "https://www.vecernji.hr/vijesti/domovinski-pokret-izmedu-vlasti-i-vlastite-nemoci-2007526",
-      "published": "2026-10-26T13:57:00.000Z",
-      "source": "Večernji list",
-      "category": "general",
-      "xml_category": "",
-      "tags": [],
-      "image": "https://www.vecernji.hr/media/img/08/77/9e9620d0f0ead999b35d.jpeg"
-    },
-    {
-      "id": "tportal-12",
-      "title": "FOTO Nakon detroniranja Vučića, počelo čišćenje i Ćacilenda",
-      "summary": "Građani su se okupili u Pionirskom parku u Beogradu i krenuli u veliku radnu akciju čišćenja Ćacilenda, a na terenu su i pripadnici JKP-a Grada Beograda i služba Parking servisa",
-      "link": "https://www.tportal.hr/vijesti/clanak/nakon-detroniranja-vucica-pocelo-ciscenje-i-cacilenda-foto-20261026",
-      "published": "2026-10-26T13:52:00.000Z",
-      "source": "Tportal",
-      "category": "general",
-      "xml_category": "vijesti",
-      "tags": [],
-      "image": "https://www.tportal.hr/media/thumbnail/500x300/2817393.jpeg?cropId=0"
-    },
-    {
-      "id": "tportal-13",
-      "title": "Brnabić jasna: &#039;Aleksandar Vučić nije pobjegao, nije se sakrio!&#039;",
-      "summary": "Ana Brnabić, vršiteljica dužnosti predsjednice Srbije i jedna od najistaknutijih dužnosnica Srpske napredne stranke (SNS), poručila je dan nakon izbornog poraza da se Aleksandar Vučić neće povući iz politike. Gostujući na televiziji Informer, optužila je pobjedničku Studentsku listu da nema jasan po",
-      "link": "https://www.tportal.hr/vijesti/clanak/brnabic-jasna-aleksandar-vucic-nije-pobjegao-nije-se-sakrio-foto-20261026",
-      "published": "2026-10-26T13:47:00.000Z",
-      "source": "Tportal",
-      "category": "general",
-      "xml_category": "vijesti",
-      "tags": [],
-      "image": "https://www.tportal.hr/media/thumbnail/500x300/2817374.jpeg?cropId=0"
-    },
-    {
-      "id": "večernji-list-7",
-      "title": "FOTO Ovako izgleda potpuno obnovljena Mimara! Službeno vrata posjetiteljima otvara 7. studenoga",
-      "summary": "",
-      "link": "https://www.vecernji.hr/kultura/foto-ovako-izgleda-potpuno-obnovljena-mimara-sluzbeno-vrata-otvara-7-studenoga-2007796",
-      "published": "2026-10-26T13:46:00.000Z",
-      "source": "Večernji list",
-      "category": "general",
-      "xml_category": "",
-      "tags": [],
-      "image": "https://www.vecernji.hr/media/img/79/2c/3c675a1f5409ae0047eb.jpeg"
-    },
-    {
-      "id": "tportal-14",
-      "title": "Vučić izgubio u 26 od 29 gradova Srbije: Evo gdje je SNS ipak uspio pobijediti",
-      "summary": "Da je, umjesto 29, Srbija imala samo tri grada - Vranje, Leskovac i Prokuplje - SNS bi i dalje vodio državu na čelu s Aleksandrom Vučićem",
-      "link": "https://www.tportal.hr/vijesti/clanak/detalji-birackih-mjesta-ovo-su-gradovi-u-kojima-je-vucic-bio-favorit-20261026",
-      "published": "2026-10-26T13:41:00.000Z",
-      "source": "Tportal",
-      "category": "general",
-      "xml_category": "vijesti",
-      "tags": [],
-      "image": "https://www.tportal.hr/media/thumbnail/500x300/2816683.jpeg?cropId=0"
-    },
-    {
-      "id": "n1-info-17",
-      "title": "Poznat datum kada se obnovljeni Muzej Mimara otvara za javnost",
-      "summary": "Muzej Mimara otvara se za javnost 7. studenog, nakon jedne od najizazovnijih obnova zgrada stradalih u potresima 2020. godine, a uz ono najvidljivije",
-      "link": "https://n1info.hr/vijesti/poznat-datum-kada-se-obnovljeni-muzej-mimara-otvara-za-javnost/",
-      "published": "2026-10-26T13:38:06.000Z",
-      "source": "N1 Info",
-      "category": "general",
-      "xml_category": "vijesti",
-      "tags": [],
-      "image": "https://n1info.hr/media/images/2026/10/26/1793021756_PXL_261026_161325430.width-1200.jpg"
-    },
-    {
-      "id": "tportal-15",
-      "title": "Buduća zastupnica Studentske liste o Vučiću: &#039;Ako ne završi pred sudom, nismo ništa napravili&#039;",
-      "summary": "Beogradska odvjetnica Sarah El Sarag, koja bi nakon pobjede Studentske liste trebala postati zastupnica u srbijanskom parlamentu, poručila je da je jedan od glavnih ciljeva nove vlasti osloboditi institucije političkog utjecaja i omogućiti pravosuđu da neovisno radi svoj posao",
-      "link": "https://www.tportal.hr/vijesti/clanak/el-sarag-ako-ne-dodemo-do-toga-da-i-vucic-moze-zavrsiti-pred-sudom-nismo-nista-napravili-foto-20261026",
-      "published": "2026-10-26T13:38:00.000Z",
-      "source": "Tportal",
-      "category": "general",
-      "xml_category": "vijesti",
-      "tags": [],
-      "image": "https://www.tportal.hr/media/thumbnail/500x300/2817367.png?cropId=0"
-    },
-    {
-      "id": "index-17",
-      "title": "Puhovski upozorava: Pojavilo se drugo lice srpskog nacionalizma",
-      "summary": "POLITIČKI analitičar Žarko Puhovski ocjenjuje da je nova vlast u Srbiji \"neispisana knjiga\". Smatra da će njihovi prvi potezi morati biti smjene u medijima i obavještajnoj službi radi demokratizacije.",
-      "link": "https://www.index.hr/vijesti/clanak/puhovski-upozorava-pojavilo-se-drugo-lice-srpskog-nacionalizma/2849916.aspx",
-      "published": "2026-10-26T13:37:00.000Z",
-      "source": "Index",
-      "category": "general",
-      "xml_category": "vijesti",
-      "tags": [],
-      "image": null
-    },
-    {
-      "id": "tportal-16",
-      "title": "Poznati hrvatski glazbenici udružili se za djecu s EB-om: Traže dostupnost nove genske terapije",
-      "summary": "Povodom Međunarodnog dana (25. listopada) i Međunarodnog tjedna (25.-31. listopada) svjesnosti o buloznoj epidermolizi (EB), brojni poznati hrvatski glazbenici udružili su se u pjesmi Koje su stvari bitne, nastaloj na inicijativu roditelja djece oboljele od ove rijetke i teške nasljedne bolesti",
-      "link": "https://www.tportal.hr/lifestyle/clanak/poznati-hrvatski-glazbenici-udruzili-se-za-djecu-s-eb-om-traze-dostupnost-nove-genske-terapije-20261026",
-      "published": "2026-10-26T13:34:00.000Z",
-      "source": "Tportal",
-      "category": "tech",
-      "xml_category": "lifestyle",
-      "tags": [],
-      "image": "https://www.tportal.hr/media/thumbnail/500x300/2817363.jpeg?cropId=0"
-    },
-    {
-      "id": "dnevnik.hr-6",
-      "title": "Milanović uručio odlikovanja za plemenitu i humanitarnu aktivnost: \"Ono što vas čini posebnima...\"",
-      "summary": "Predsjednik je uručio odlikovanja, a jedna od dobitnica poslala je snažnu poruku.]]>",
-      "link": "https://dnevnik.hr/vijesti/hrvatska/predsjednik-milanovic-urucio-odlikovanja-darivateljima-krvi---1010151.html",
-      "published": "2026-10-26T13:31:00.000Z",
-      "source": "Dnevnik.hr",
-      "category": "general",
-      "xml_category": "<![cdata[hrvatska]]>>",
-      "tags": [],
-      "image": null
-    },
-    {
-      "id": "index-18",
-      "title": "HZMO objasnio tko u Njemačkoj mora slati potvrdu za hrvatsku mirovinu",
-      "summary": "HZMO poziva korisnike mirovina u Njemačkoj da do 30. studenoga 2026. dostave potvrdu o životu kako bi osigurali nastavak isplate svojih primanja.",
-      "link": "https://www.index.hr/vijesti/clanak/zivite-u-njemackoj-i-primate-hrvatsku-mirovinu-provjerite-sto-trazi-hzmo/2849912.aspx",
-      "published": "2026-10-26T13:30:00.000Z",
-      "source": "Index",
-      "category": "general",
-      "xml_category": "vijesti",
-      "tags": [],
-      "image": null
-    },
-    {
-      "id": "tportal-17",
-      "title": "Leonardo DiCaprio trebao je glumiti u kultnom filmu iz 90-ih: Redatelj otkrio što se događalo iza kulisa",
-      "summary": "Kultni Disneyjev klasik &#039;Hocus Pocus&#039; iz 1993. godine već je desetljećima nezaobilazan dio jesenske i blagdanske pop-kulture, no malo je nedostajalo da glumačka postava izgleda sasvim drukčije. Redatelj Kenny Ortega nedavno se na okupljanju glumaca prisjetio audicija za ulogu tinejdžera Ma",
-      "link": "https://www.tportal.hr/showtime/clanak/leonardo-dicaprio-trebao-je-glumiti-u-kultnom-filmu-iz-90-ih-redatelj-otkrio-sto-se-dogadalo-iza-kulisa-foto-20261026",
-      "published": "2026-10-26T13:30:00.000Z",
-      "source": "Tportal",
-      "category": "general",
-      "xml_category": "showtime",
-      "tags": [],
-      "image": "https://www.tportal.hr/media/thumbnail/500x300/2817361.jpeg?cropId=4319308"
-    },
-    {
-      "id": "večernji-list-8",
-      "title": "VIDEO 'Livaja je institucija, ali…' Komljenović objasnio što je Garcia napravio u Hajduku",
-      "summary": "Dinamo prolazi kroz razdoblje u kojem se sve glasnije propituje budućnost trenera Marija Kovačevića, dok Hajduk svojim rezultatima sve više potvrđuje da ove sezone ima ozbiljne ambicije",
-      "link": "https://www.vecernji.hr/sport/video-livaja-je-institucija-ali-komljenovic-objasnio-sto-je-garcia-napravio-u-hajduku-2007784",
-      "published": "2026-10-26T13:30:00.000Z",
-      "source": "Večernji list",
-      "category": "sport",
-      "xml_category": "",
-      "tags": [],
-      "image": "https://www.vecernji.hr/media/img/8c/b2/2e056535ff6cd6b67cba.jpeg"
-    },
-    {
-      "id": "večernji-list-9",
-      "title": "Nemaju gdje parkirati, a Grad im uporno piše kazne: Saznali smo hoće li se riješiti problem zagrebačke ulice",
-      "summary": "U Gradu kažu da su upoznati sa željama stanara da se ondje uvede jednosmjerna regulacija, ali ističu da to nije moguće",
-      "link": "https://www.vecernji.hr/zagreb/nemaju-gdje-parkirati-a-grad-im-uporno-pise-kazne-saznali-smo-hoce-li-se-rijesiti-problem-zagrebacke-ulice-2007756",
-      "published": "2026-10-26T13:30:00.000Z",
-      "source": "Večernji list",
-      "category": "general",
-      "xml_category": "",
-      "tags": [],
-      "image": "https://www.vecernji.hr/media/img/8e/92/17705dac0165230338ba.jpeg"
-    },
-    {
-      "id": "večernji-list-10",
-      "title": "Prehrambeni eksperiment: '30 dana jeo sam samo klice, evo kako se to odrazilo na moje tijelo'",
-      "summary": "Klice su sjemenke koje su proklijale i počele se razvijati u mlade biljke. Mogu se dobiti od različitih mahunarki, žitarica i povrća, a ovisno o vrsti sadrže vitamine, minerale, vlakna i antioksidanse",
-      "link": "https://www.vecernji.hr/lifestyle/prehrambeni-eksperiment-30-dana-jeo-sam-samo-klice-evo-kako-se-to-odrazilo-na-moje-tijelo-2007610",
-      "published": "2026-10-26T13:30:00.000Z",
-      "source": "Večernji list",
-      "category": "general",
-      "xml_category": "",
-      "tags": [],
-      "image": "https://www.vecernji.hr/media/img/cd/86/320e99f97a1df91aab0c.jpeg"
-    },
-    {
-      "id": "večernji-list-11",
-      "title": "Ida Prester javila se nakon izbora u Srbiji: 'Kakva lekcija cijelom svijetu'",
-      "summary": "Ida Prester podijelila je sretne trenutke slavlja iz Beograda nakon pobjede Studentske liste na izvanrednim parlamentarnim izborima, ističući kako je promjena postignuta bez nasilja",
-      "link": "https://www.vecernji.hr/showbiz/ida-prester-javila-se-nakon-izbora-u-srbiji-kakva-lekcija-cijelom-svijetu-2007683",
-      "published": "2026-10-26T13:28:00.000Z",
-      "source": "Večernji list",
-      "category": "general",
-      "xml_category": "",
-      "tags": [],
-      "image": "https://www.vecernji.hr/media/img/cd/5a/f189631a3f6cc7dada6f.jpeg"
-    },
-    {
-      "id": "večernji-list-12",
-      "title": "Milanović odlikovao 85 dobrovoljnih darivatelja krvi: 'Hrvatska je među najplemenitijim društvima'",
-      "summary": "Odlikovanje je pripalo onima koji su u 2024. ispunili kriterij od stotinu, odnosno sedamdeset pet donacija, a svaka od njihovih priča, kaže predsjednik, ima poseban motiv",
-      "link": "https://www.vecernji.hr/vijesti/milanovic-odlikovao-85-dobrovoljnih-darivatelja-krvi-hrvatska-je-medu-najplemenitijim-drustvima-2007780",
-      "published": "2026-10-26T13:27:00.000Z",
-      "source": "Večernji list",
-      "category": "general",
-      "xml_category": "",
-      "tags": [],
-      "image": "https://www.vecernji.hr/media/img/6e/8a/685468f100d5993bc338.jpeg"
-    },
-    {
-      "id": "tportal-18",
-      "title": "Filip Hrgović bez milosti opleo po konkurentima: &#039;Svi su oni lažni prvaci!&#039;",
-      "summary": "Aktualni svjetski prvak po IBF federaciji Filip Hrgović nije birao riječi kada je govorio o stanju u svjetskom teškaškom boksu. Hrvatski boksač oštro je kritizirao nekoliko poznatih imena, dovodeći u pitanje njihove titule i način na koji su došli do pojaseva",
-      "link": "https://www.tportal.hr/sport/clanak/filip-hrgovic-bez-milosti-opleo-po-konkurentima-svi-su-oni-lazni-prvaci-20261026",
-      "published": "2026-10-26T13:26:00.000Z",
-      "source": "Tportal",
-      "category": "general",
-      "xml_category": "sport",
-      "tags": [],
-      "image": "https://www.tportal.hr/media/thumbnail/500x300/2813169.jpeg?cropId=4308995"
-    },
-    {
-      "id": "večernji-list-13",
-      "title": "Mourinho nakon najveće pobjede od povratka u Real: 'Sudac odličan, VAR je zaspao'",
-      "summary": "Ovo je utakmica iz koje smo mogli izaći s tri, šest ili devet bodova zaostatka. S devet je teško. Sa šest je sve izjednačeno. S tri je drukčije. Možete pobijediti uz malo sreće, tako da se puno branite...",
-      "link": "https://www.vecernji.hr/sport/mourinho-nakon-najvece-pobjede-od-povratka-u-real-sudac-odlican-var-je-zaspao-2007777",
-      "published": "2026-10-26T13:23:00.000Z",
-      "source": "Večernji list",
-      "category": "general",
-      "xml_category": "",
-      "tags": [],
-      "image": "https://www.vecernji.hr/media/img/30/48/2e5784be7811d577014d.jpeg"
-    },
-    {
-      "id": "večernji-list-14",
-      "title": "Konkurencija prejaka: Hrvati se sa Svjetskog prvenstva iz Astane vraćaju bez odličja",
-      "summary": "Na sportsko-diplomatskom polju, predsjednik Hrvatskog hrvačkog saveza Vladimir Bregović diči se ulaskom u Izvršni odbor Svjetskog hrvačkog saveza (UWW) što je, nažalost, slaba utjeha za rezultate naših boraca na strunjači",
-      "link": "https://www.vecernji.hr/sport/konkurencija-prejaka-hrvati-se-sa-svjetskog-prvenstva-iz-astane-vracaju-bez-odlicja-2007782",
-      "published": "2026-10-26T13:22:00.000Z",
-      "source": "Večernji list",
-      "category": "general",
-      "xml_category": "",
-      "tags": [],
-      "image": "https://www.vecernji.hr/media/img/6d/c9/afdf0a00db628df2826d.jpeg"
-    },
-    {
-      "id": "n1-info-19",
-      "title": "Položen temeljac za dječju bolnicu, Hrstić odredila datum kada će biti gotova: \"Pišemo povijest\"",
-      "summary": "U zagrebačkom Blatu svečano je u ponedjeljak položen temeljni kamen za Nacionalnu dječju bolnicu čija je izgradnja planirana do kraja 2029. godine. Pr",
-      "link": "https://n1info.hr/vijesti/polozen-temeljac-za-djecju-bolnicu-hrstic-odredila-datum-kada-ce-biti-gotova-pisemo-povijest/",
-      "published": "2026-10-26T13:19:17.000Z",
-      "source": "N1 Info",
-      "category": "general",
-      "xml_category": "vijesti",
-      "tags": [],
-      "image": "https://n1info.hr/media/images/2026/10/26/1793020617_PXL_261026_161323078.width-1200.jpg"
-    },
-    {
-      "id": "tportal-16",
-      "title": "Prvi čovjek Studentske liste jasno poručio: &#039;Vučić nas je osramotio!&#039;",
-      "summary": "Nositelj pobjedničke studentske liste na parlamentarnim izborima u Srbiji Ilija Srdanović ocijenio je kako je bivši predsjednik te zemlje Aleksandar Vučić na sramotan način narušio odnose sa susjednim državama pa je najavio kako će nova vlast i to promijeniti.",
-      "link": "https://www.tportal.hr/vijesti/clanak/pobjednik-izbora-u-srbiji-zestoko-prozvao-vucica-osramotio-je-nas-narod-20261026",
-      "published": "2026-10-26T13:19:00.000Z",
-      "source": "Tportal",
-      "category": "general",
-      "xml_category": "vijesti",
-      "tags": [],
-      "image": "https://www.tportal.hr/media/thumbnail/500x300/2817342.jpeg?cropId=4319242"
-    },
-    {
-      "id": "index-19",
-      "title": "Bjelovar raspisao natječaj za uređenje glavnog gradskog parka",
-      "summary": "BJELOVAR ulaže 2.1 milijun eura u sustav navodnjavanja središnjeg parka te obnovu i izgradnju četiriju dječjih igrališta uz potporu EU fondova.",
-      "link": "https://www.index.hr/vijesti/clanak/bjelovar-raspisao-natjecaj-za-uredjenje-glavnog-gradskog-parka/2849900.aspx",
-      "published": "2026-10-26T13:16:00.000Z",
-      "source": "Index",
-      "category": "general",
-      "xml_category": "vijesti",
-      "tags": [],
-      "image": null
-    },
-    {
-      "id": "tportal-17",
-      "title": "Macronu je dosta prosvjeda u Francuskoj: Spremaju se &#039;jake mjere&#039;",
-      "summary": "Francuski predsjednik Emmanuel Macron u ponedjeljak je izjavio da će premijer Sébastien Lecornu najaviti \"jake mjere\" kako bi se smirili prosvjedi u zemlji, no upozorio je da bi idući vikend ipak mogao donijeti rizik od novih nemira.",
-      "link": "https://www.tportal.hr/vijesti/clanak/macron-dosta-prosvjeda-u-francuskoj-spremaju-se-jake-mjere-foto-20261026",
-      "published": "2026-10-26T13:16:00.000Z",
-      "source": "Tportal",
-      "category": "general",
-      "xml_category": "vijesti",
-      "tags": [],
-      "image": "https://www.tportal.hr/media/thumbnail/500x300/2813127.jpeg?cropId=0"
-    },
-    {
-      "id": "jutarnji-7",
-      "title": "Mladić (22) iz Kutine četiri mjeseca opsjedao azilantice: Skidao hlače, samozadovoljavao se, pratio ih po mraku...",
-      "summary": "Mladić iz Kutine M.T. (22) puna četiri mjeseca sijao je strah uz Prihvatilište za tražitelje azila jer je spolno uznemiravao tražiteljice međunarodne zaštite smještene u toj instituciji. Na kraju je uhićen, odveden u policijsku postaju i prijavljen za kršenje članka 3. Zakona o suzbijanju diskrimina",
-      "link": "https://www.jutarnji.hr/vijesti/crna-kronika/mladic-22-iz-kutine-cetiri-mjeseca-opsjedao-azilantice-skidao-hlace-samozadovoljavao-se-pratio-ih-po-mraku-15759527",
-      "published": "2026-10-26T13:14:56.000Z",
-      "source": "Jutarnji",
-      "category": "general",
-      "xml_category": "crna kronika",
-      "tags": [],
-      "image": "https://media.jutarnji.hr/images/slike/2026/10/26/f_39825001_1280.jpg?1793105827"
-    },
-    {
-      "id": "tportal-10",
-      "title": "Što se događa kada poslovni lider postane vijest? Reputacija u fokusu jubilarne KOMferencije u Splitu",
-      "summary": "Od upravljanja reputacijom i utjecaja umjetne inteligencije do budućnosti odnosa s javnošću – jubilarna 25. KOMferencija od 5. do 7. studenoga okuplja vodeća domaća i međunarodna imena komunikacijske struke",
-      "link": "https://www.tportal.hr/biznis/clanak/sto-se-dogada-kada-poslovni-lider-postane-vijest-reputacija-u-fokusu-jubilarne-komferencije-u-splitu-20261026",
-      "published": "2026-10-26T13:13:00.000Z",
-      "source": "Tportal",
-      "category": "general",
-      "xml_category": "biznis",
-      "tags": [],
-      "image": "https://www.tportal.hr/media/thumbnail/500x300/2817347.jpeg?cropId=0"
-    },
-    {
-      "id": "tportal-11",
-      "title": "FOTO Mimara se vraća u zlatnožutom ruhu: Poznato je kada otvara vrata i što će vas dočekati",
-      "summary": "Nakon obnove, koja je stajala 70 milijuna eura, Muzej Mimara 7. studenoga ponovno otvara vrata. Zgradi je vraćena izvorna zlatnožuta boja, a u novom stalnom postavu bit će izloženo 1200 od oko 3800 predmeta iz fundusa",
-      "link": "https://www.tportal.hr/kultura/clanak/foto-mimara-se-vraca-u-zlatnozutom-ruhu-poznato-je-kada-otvara-vrata-i-sto-ce-vas-docekati-foto-20261026",
-      "published": "2026-10-26T13:12:00.000Z",
-      "source": "Tportal",
-      "category": "general",
-      "xml_category": "kultura",
-      "tags": [],
-      "image": "https://www.tportal.hr/media/thumbnail/500x300/2817339.jpeg?cropId=0"
-    },
-    {
-      "id": "jutarnji-8",
-      "title": "FOTO Nova velika promjena u centru Zagreba, radnici zatvorili ulicu na dan: ‘Pobjeda!‘",
-      "summary": "U Gundulićevoj ulici u središtu Zagreba počelo je premještanje biciklističke trake s nogostupa na kolnik. Radnici iscrtavaju novu horizontalnu prometnu signalizaciju, a crveno označena biciklistička traka već je vidljiva na dijelu ulice između Masarykove i Hebrangove. Time se postojeća biciklistička",
-      "link": "https://www.jutarnji.hr/vijesti/zagreb/nova-velika-promjena-u-centru-zagreba-radnici-zatvorili-ulicu-na-dan-pobjeda-15759525",
-      "published": "2026-10-26T13:10:41.000Z",
-      "source": "Jutarnji",
-      "category": "general",
-      "xml_category": "zagreb",
-      "tags": [],
-      "image": "https://media.jutarnji.hr/images/slike/2026/10/26/f_39839887_1280.jpg?1793105219"
-    },
-    {
-      "id": "večernji-list-15",
-      "title": "Žestok istup vođe studenata: 'Ne zaboravljamo što je govorio 90-ih. To je sramota srpskog naroda!'",
-      "summary": "Potvrdio je kako je za novu vlast u Srbiji prioritet riješiti unutarnje probleme u zemlji no kada je o odnosima s BiH i ostalim zemljama regije riječ očekuje uspostavu davno zamrlog dijaloga",
-      "link": "https://www.vecernji.hr/vijesti/zestok-istup-vode-studenata-ne-zaboravljamo-sto-je-govorio-90-ih-to-je-sramota-srpskog-naroda-2007773",
-      "published": "2026-10-26T13:10:00.000Z",
-      "source": "Večernji list",
-      "category": "general",
-      "xml_category": "",
-      "tags": [],
-      "image": "https://www.vecernji.hr/media/img/c7/48/06edfb0cedf10b44a343.jpeg"
-    },
-    {
-      "id": "tportal-18",
-      "title": "Požar u nedavno obnovljenoj riječkoj toplani: Korisnicima prekinuto grijanje",
-      "summary": "Iz riječkog Energa u ponedjeljak su izvijestili da je na dijelu instalacija u toplani Gornja Vežica jutros došlo do manjeg požara koji je ubrzo ugašen, a korisnicima na području Gornje Vežice i Podvežice privremeno je prekinuta isporuka grijanja i potrošne tople vode.",
-      "link": "https://www.tportal.hr/vijesti/clanak/pozar-u-nedavno-obnovljenoj-rijeckoj-toplani-korisnicima-prekinuto-grijanje-20261026",
-      "published": "2026-10-26T13:09:00.000Z",
-      "source": "Tportal",
-      "category": "general",
-      "xml_category": "vijesti",
-      "tags": [],
-      "image": "https://www.tportal.hr/media/thumbnail/500x300/1784514.jpeg?cropId=0"
-    },
-    {
-      "id": "index-14",
-      "title": "Zračna luka Zagreb došla do 4 milijuna putnika ranije nego lani",
-      "summary": "MEĐUNARODNA zagrebačka Zračna luka Franjo Tuđman je dočekala četirimilijuntog putnike ove godine, ranije nego prošlih godina, što dodatno potvrđuje njezinu poziciju jedne od najbrže rastućih europskih zračnih luka veličine do pet milijuna putnika, ističu iz te luke.",
-      "link": "https://www.index.hr/vijesti/clanak/zracna-luka-zagreb-dosla-do-4-milijuna-putnika-ranije-nego-lani/2849899.aspx",
-      "published": "2026-10-26T13:09:00.000Z",
-      "source": "Index",
-      "category": "general",
-      "xml_category": "vijesti",
-      "tags": [],
-      "image": null
-    },
-    {
-      "id": "dnevnik.hr-8",
-      "title": "Istraživanje otkrilo odlične rezultate: Stranci na Jadranu troše 15 posto više nego ranije",
-      "summary": "Strani turisti na Jadranu za ljetovanje troše 15 posto više nego 2022. godine.]]>",
-      "link": "https://dnevnik.hr/vijesti/hrvatska/strani-turisti-na-jadranu-u-prosjeku-trose-162-eura-dnevno---1010149.html",
-      "published": "2026-10-26T13:06:00.000Z",
-      "source": "Dnevnik.hr",
-      "category": "general",
-      "xml_category": "<![cdata[hrvatska]]>>",
-      "tags": [],
-      "image": null
-    },
-    {
-      "id": "tportal-19",
-      "title": "Split obilježio 82. godišnjicu oslobođenja od fašizma: Svjedočimo prustaškim ispadima na ulicama",
-      "summary": "Polaganjem vijenaca na Gradskom groblju Lovrinac u ponedjeljak je počelo obilježavanje 82. godišnjice oslobođenja Splita od fašizma uz upozorenje da fašizam ne počinje nasiljem već riječima koje veličaju fašizam, a društvo ih je spremno tolerirati",
-      "link": "https://www.tportal.hr/vijesti/clanak/split-obiljezio-82-godisnjicu-oslobodenja-od-fasizma-sjedocimo-prustaskim-ispadima-na-ulicama-20261026",
-      "published": "2026-10-26T13:06:00.000Z",
-      "source": "Tportal",
-      "category": "general",
-      "xml_category": "vijesti",
-      "tags": [],
-      "image": "https://www.tportal.hr/media/thumbnail/500x300/2817344.jpeg?cropId=0"
-    },
-    {
-      "id": "tportal-14",
-      "title": "Netflix ponovno okuplja legende komedije: Neke od njih publika pamti po kultnim filmskim ulogama",
-      "summary": "Dokumentarac &#039;SCTV: The Greatest Show You&#039;ve Never Heard Of&#039; donosi razgovore, arhivske snimke i ponovno okupljanje članova slavne komičarske družine, među kojima su Martin Short, Eugene Levy i Rick Moranis",
-      "link": "https://www.tportal.hr/showtime/clanak/netflix-ponovno-okuplja-legende-komedije-neke-od-njih-publika-pamti-po-kultnim-filmskim-ulogama-20261026",
-      "published": "2026-10-26T13:06:00.000Z",
-      "source": "Tportal",
-      "category": "general",
-      "xml_category": "showtime",
-      "tags": [],
-      "image": "https://www.tportal.hr/media/thumbnail/500x300/2817341.jpeg?cropId=4319255"
-    },
-    {
-      "id": "večernji-list-16",
-      "title": "Zagrebački gradski službenici ponovno u 'školskim klupama'! Idu na poduku o LGBTQ+ pravima",
-      "summary": "Jednoj od odabranih udruga u proteklih je godinu dana iz gradske riznice u 35 transakcija isplaćeno čak 220.700 eura za različite programe, od kulturnih festivala do međunarodnih gostovanja.",
-      "link": "https://www.vecernji.hr/zagreb/zagrebacki-gradski-sluzbenici-ponovno-u-skolskim-klupama-idu-na-poduku-o-lgbtq-pravima-2007720",
-      "published": "2026-10-26T13:05:00.000Z",
-      "source": "Večernji list",
-      "category": "general",
-      "xml_category": "",
-      "tags": [],
-      "image": "https://www.vecernji.hr/media/img/29/37/236335dcccda52ea0f00.jpeg"
-    },
-    {
-      "id": "tportal-17",
-      "title": "Vučić ga je javno napadao, studenti branili: Rektor Đokić sada se oglasio o izbornoj pobjedi",
-      "summary": "Rektor Sveučilišta u Beogradu Vladan Đokić oglasio se dan nakon uvjerljive pobjede Studentske liste na prijevremenim parlamentarnim izborima u Srbiji.",
-      "link": "https://www.tportal.hr/vijesti/clanak/vucic-ga-je-javno-napadao-studenti-branili-rektor-dokic-sada-se-oglasio-o-izbornoj-pobjedi-20261026",
-      "published": "2026-10-26T13:04:00.000Z",
-      "source": "Tportal",
-      "category": "general",
-      "xml_category": "vijesti",
-      "tags": [],
-      "image": "https://www.tportal.hr/media/thumbnail/500x300/2817335.jpeg?cropId=0"
-    },
-    {
-      "id": "tportal-15",
-      "title": "&#039;Gentle parenting&#039;: Odgaja li moderne generacije u razmaženu djecu ili je riječ o zabludi?",
-      "summary": "Zbog sve veće popularnosti &#039;gentle parenting&#039; pristupa na društvenim mrežama, stručnjaci objašnjavaju zašto ga mnogi pogrešno tumače i zamjenjuju s potpunim izostankom granica",
-      "link": "https://www.tportal.hr/showtime/clanak/gentle-parenting-odgaja-li-moderne-generacije-u-razmazenu-djecu-ili-je-rijec-o-zabludi-20261026",
-      "published": "2026-10-26T13:04:00.000Z",
-      "source": "Tportal",
-      "category": "general",
-      "xml_category": "showtime",
-      "tags": [],
-      "image": "https://www.tportal.hr/media/thumbnail/500x300/2817340.jpeg?cropId=4319231"
-    },
-    {
-      "id": "index-17",
-      "title": "Muškarac u Istri sam čistio dimnjak. Izbio požar, policija utvrdila prekršaj",
-      "summary": "U OKOLICI Buzeta prekjučer je izbio požar dimnjaka nakon što je 43-godišnjak naložio peć na kruta goriva.",
-      "link": "https://www.index.hr/vijesti/clanak/muskarac-u-istri-sam-cistio-dimnjak-izbio-pozar-policija-utvrdila-prekrsaj/2849892.aspx",
-      "published": "2026-10-26T13:02:00.000Z",
-      "source": "Index",
-      "category": "general",
-      "xml_category": "vijesti",
-      "tags": [],
-      "image": null
     }
   ]
 }

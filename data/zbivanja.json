@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-27T13:01:27.297Z",
+  "generated_at": "2026-10-27T14:01:36.177Z",
   "stats": {
     "muzika.hr": {
       "ok": true,
@@ -15,7 +15,7 @@
     },
     "Gavella": {
       "ok": true,
-      "count": 35
+      "count": 36
     },
     "Tvornica": {
       "ok": true,
@@ -29,21 +29,21 @@
       "ok": true,
       "count": 0
     },
-    "Kerempuh": {
+    "HNK Zagreb": {
+      "ok": true,
+      "count": 95
+    },
+    "Pogon": {
       "ok": true,
       "count": 0
     },
-    "Pogon": {
+    "Kerempuh": {
       "ok": true,
       "count": 0
     },
     "Trešnja": {
       "ok": true,
       "count": 0
-    },
-    "HNK Zagreb": {
-      "ok": true,
-      "count": 95
     }
   },
   "concerts": [
@@ -3485,6 +3485,21 @@
       "first_seen": "2026-09-14T15:01:15.174Z"
     },
     {
+      "id": "c26432104f",
+      "title": "Mediteranski brevijar, na valovima Radio Mediterana",
+      "venue": "Gavella",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "theater",
+      "date_iso": "2026-11-11T00:00:00",
+      "date_display": "sri, 11. 11. 2026.",
+      "time": null,
+      "link": "https://www.gavella.hr/predstave/aktualne-predstave/mediteranski-brevijar-na-valovima-radio-mediterana",
+      "source": "Gavella",
+      "is_new": true,
+      "first_seen": "2026-10-27T14:01:36.177Z"
+    },
+    {
       "id": "c0dd745fc9",
       "title": "Bunike: Nisam stala",
       "venue": "Gavella",
@@ -4312,5 +4327,5 @@
       "first_seen": "2026-10-11T05:01:21.358Z"
     }
   ],
-  "new_count": 4
+  "new_count": 5
 }
