@@ -1,15 +1,15 @@
 {
   "version": 2,
-  "date": "2026-10-26",
-  "generated_at": "2026-10-26T10:44:38.650Z",
-  "date_hr": "Ponedjeljak, 26. listopada 2026.",
+  "date": "2026-10-27",
+  "generated_at": "2026-10-27T06:03:06.577Z",
+  "date_hr": "Utorak, 27. listopada 2026.",
   "weather": {
-    "icon": "🌧️",
-    "summary": "7–15°C, lagana kiša",
+    "icon": "☁️",
+    "summary": "6–13°C, oblačno",
     "alerts": []
   },
   "fuel": {
-    "current_date": "26.10.2026",
+    "current_date": "27.10.2026",
     "eurodiesel": [
       {
         "company": "Adria Oil",
@@ -17,45 +17,45 @@
       },
       {
         "company": "Coral Croatia",
-        "price": 1.87
+        "price": 1.88
       },
       {
         "company": "INA",
-        "price": 1.87
+        "price": 1.88
       },
       {
         "company": "LUKOIL Croatia",
-        "price": 1.87
+        "price": 1.88
       },
       {
         "company": "Petrol",
-        "price": 1.87
+        "price": 1.88
       },
       {
         "company": "Tifon",
-        "price": 1.87
+        "price": 1.88
       }
     ],
     "premium_eurodiesel": [
       {
         "company": "LUKOIL Croatia",
-        "price": 2.03
+        "price": 2.04
       },
       {
         "company": "INA",
-        "price": 2.12
-      },
-      {
-        "company": "Tifon",
-        "price": 2.15
+        "price": 2.13
       },
       {
         "company": "Petrol",
-        "price": 2.17
+        "price": 2.16
+      },
+      {
+        "company": "Tifon",
+        "price": 2.16
       },
       {
         "company": "Coral Croatia",
-        "price": 2.23
+        "price": 2.24
       }
     ],
     "upcoming_date": null,
@@ -63,41 +63,46 @@
     "upcoming_premium": null
   },
   "market": {
-    "updated_at": "2026-10-26T10:44:38.650Z",
-    "btc_usd": 80333,
-    "btc_eur": 71714,
-    "btc_change_24h": 0.11,
-    "usd_eur": 0.8921
+    "updated_at": "2026-10-27T06:03:06.577Z",
+    "btc_usd": 79862,
+    "btc_eur": 71517,
+    "btc_change_24h": -0.39,
+    "usd_eur": 0.8939
   },
   "ai_news": [
     {
-      "title": "Texas sues OpenAI and Sam Altman over ChatGPT’s safety for children",
-      "link": "https://thenextweb.com/news/texas-openai-lawsuit-chatgpt-children-altman",
+      "title": "Sweden’s Government Offices block ChatGPT and Claude on work computers",
+      "link": "https://thenextweb.com/news/sweden-government-blocks-chatgpt-claude",
       "source": "The Next Web"
     },
     {
-      "title": "Claude Mythos 5 used fake accounts to pressure a real GitHub maintainer",
-      "link": "https://thenextweb.com/news/mythos-5-fake-accounts-github-malware-aisi-anthropic",
+      "title": "Anthropic’s IPO filing lays out a plan to &#8216;revolutionize every area of human endeavor&#8217; with AI",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1018476/anthropic-ipo-details-s1-filed-sec",
+      "source": "The Verge"
+    },
+    {
+      "title": "How OpenAI turned its coding tools into dots, an always-on personal assistant",
+      "link": "https://techcrunch.com/2026/10/26/how-openai-turned-its-coding-tools-into-dots-an-always-on-personal-assistant/",
+      "source": "TechCrunch AI"
+    },
+    {
+      "title": "Microsoft ships emergency .NET fixes for a critical Brotli flaw",
+      "link": "https://thenextweb.com/news/microsoft-net-emergency-patch-brotli-flaw-node2shell",
       "source": "The Next Web"
     },
     {
-      "title": "Nous raises $17M to expand its household AI agent beyond the UK",
-      "link": "https://thenextweb.com/news/nous-raises-17m-household-ai-agent",
-      "source": "The Next Web"
-    },
-    {
-      "title": "OpenAI checked fired researchers’ phones for Signal chats, WSJ reports",
-      "link": "https://thenextweb.com/news/openai-safety-researchers-fired-signal-chats-greenblatt-wsj",
-      "source": "The Next Web"
+      "title": "Tvorac Claudea izlazi na burzu: Hoće li premašiti SpaceX?",
+      "link": "https://www.tportal.hr/tehno/clanak/tvorac-claudea-izlazi-na-burzu-hoce-li-premasiti-spacex-20261026",
+      "source": "Tportal"
     }
   ],
   "micro_tips": {
     "vscode": {
-      "tip": "Nađi i selektiraj sljedeće pojavljivanje",
-      "keys": "Ctrl+D"
+      "tip": "Multi-cursor: postavi cursor na više mjesta istovremeno",
+      "keys": "Alt+Click"
     },
-    "sql": "Batch INSERT umjesto jednog-po-jednog: INSERT INTO t VALUES (...),(...),...",
-    "oracle": "FETCH FIRST n ROWS ONLY umjesto ROWNUM — kompatibilno s ORDER BY i čitljivije",
-    "regex": "^(?!.*pattern) negative lookahead: \"ova linija ne smije sadržavati X\""
+    "sql": "EXISTS umjesto IN za subqueries — brže jer stane na prvom podudaranju: WHERE EXISTS (SELECT 1 FROM ...)",
+    "oracle": "/*+ INDEX(t ime_indexa) */ forsira specifičan index kad optimizer bira full scan",
+    "regex": "\\b granica riječi: \\bword\\b podudara cijelu riječ, ne \"password\" ili \"swordfish\""
   }
 }
