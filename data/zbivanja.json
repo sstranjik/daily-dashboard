@@ -1,6 +1,10 @@
 {
-  "generated_at": "2026-10-27T11:01:29.417Z",
+  "generated_at": "2026-10-27T11:10:45.370Z",
   "stats": {
+    "muzika.hr": {
+      "ok": true,
+      "count": 25
+    },
     "Mochvara": {
       "ok": true,
       "count": 19
@@ -9,21 +13,17 @@
       "ok": true,
       "count": 0
     },
-    "Gavella": {
-      "ok": true,
-      "count": 35
-    },
     "Tvornica": {
       "ok": true,
       "count": 2
     },
+    "Gavella": {
+      "ok": true,
+      "count": 35
+    },
     "ZeKaeM": {
       "ok": true,
       "count": 1
-    },
-    "muzika.hr": {
-      "ok": true,
-      "count": 25
     },
     "Komedija": {
       "ok": true,
@@ -33,13 +33,13 @@
       "ok": true,
       "count": 0
     },
-    "HNK Zagreb": {
-      "ok": true,
-      "count": 95
-    },
     "Kerempuh": {
       "ok": true,
       "count": 0
+    },
+    "HNK Zagreb": {
+      "ok": true,
+      "count": 95
     },
     "Trešnja": {
       "ok": true,
@@ -3241,7 +3241,7 @@
       "time": null,
       "link": "https://www.gavella.hr/predstave/predstavljanje-romana-kuca-pod-prismotrom-ivana-jozica",
       "source": "Gavella",
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-10-27T11:01:29.417Z"
     },
     {
@@ -4327,5 +4327,5 @@
       "first_seen": "2026-10-11T05:01:21.358Z"
     }
   ],
-  "new_count": 5
+  "new_count": 4
 }
