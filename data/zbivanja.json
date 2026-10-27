@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-27T09:01:26.310Z",
+  "generated_at": "2026-10-27T10:01:22.627Z",
   "stats": {
     "muzika.hr": {
       "ok": true,
@@ -9,10 +9,6 @@
       "ok": true,
       "count": 0
     },
-    "Gavella": {
-      "ok": true,
-      "count": 34
-    },
     "Mochvara": {
       "ok": true,
       "count": 19
@@ -20,6 +16,10 @@
     "Tvornica": {
       "ok": true,
       "count": 2
+    },
+    "Gavella": {
+      "ok": true,
+      "count": 34
     },
     "ZeKaeM": {
       "ok": true,
@@ -33,17 +33,17 @@
       "ok": true,
       "count": 0
     },
-    "Pogon": {
+    "HNK Zagreb": {
+      "ok": true,
+      "count": 95
+    },
+    "Trešnja": {
       "ok": true,
       "count": 0
     },
-    "HNK Zagreb": {
-      "ok": false,
-      "error": "The operation was aborted due to timeout"
-    },
-    "Trešnja": {
-      "ok": false,
-      "error": "The operation was aborted due to timeout"
+    "Pogon": {
+      "ok": true,
+      "count": 0
     }
   },
   "concerts": [
@@ -2388,6 +2388,21 @@
       "first_seen": "2026-08-28T10:01:17.450Z"
     },
     {
+      "id": "ca563d1803",
+      "title": "Razgled kazališta",
+      "venue": "HNK Zagreb",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-12-05T15:30:00",
+      "date_display": "sub, 05. 12. 2026.",
+      "time": "15:30",
+      "link": "https://hnk.hr/hr/informacije/posebni-programi/razgled-kazalista-informacije/#05.12.15.30",
+      "source": "HNK Zagreb",
+      "is_new": false,
+      "first_seen": "2026-10-27T10:01:22.627Z"
+    },
+    {
       "id": "4f48848026",
       "title": "Föllakzoid, Beau Wanzer Nedjelja 6.12.2026.",
       "venue": "Mochvara",
@@ -2431,6 +2446,21 @@
       "source": "Mochvara",
       "is_new": false,
       "first_seen": "2026-07-11T15:01:38.070Z"
+    },
+    {
+      "id": "d6b1f0d829",
+      "title": "Razgled kazališta",
+      "venue": "HNK Zagreb",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-12-12T16:30:00",
+      "date_display": "sub, 12. 12. 2026.",
+      "time": "16:30",
+      "link": "https://hnk.hr/hr/informacije/posebni-programi/razgled-kazalista-informacije/#12.12.16.30",
+      "source": "HNK Zagreb",
+      "is_new": false,
+      "first_seen": "2026-10-27T10:01:22.627Z"
     },
     {
       "id": "0c73f63295",
