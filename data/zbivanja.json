@@ -1,67 +1,52 @@
 {
-  "generated_at": "2026-10-27T18:01:28.000Z",
+  "generated_at": "2026-10-27T19:01:25.722Z",
   "stats": {
-    "Lisinski": {
-      "ok": true,
-      "count": 0
-    },
-    "Gavella": {
-      "ok": true,
-      "count": 36
-    },
     "Mochvara": {
       "ok": true,
       "count": 19
     },
     "Tvornica": {
-      "ok": true,
-      "count": 2
+      "ok": false,
+      "error": "fetch failed"
+    },
+    "Pogon": {
+      "ok": false,
+      "error": "fetch failed"
+    },
+    "Komedija": {
+      "ok": false,
+      "error": "fetch failed"
+    },
+    "Trešnja": {
+      "ok": false,
+      "error": "fetch failed"
+    },
+    "Kerempuh": {
+      "ok": false,
+      "error": "fetch failed"
+    },
+    "Gavella": {
+      "ok": false,
+      "error": "fetch failed"
     },
     "ZeKaeM": {
-      "ok": true,
-      "count": 1
+      "ok": false,
+      "error": "fetch failed"
+    },
+    "HNK Zagreb": {
+      "ok": false,
+      "error": "fetch failed"
     },
     "muzika.hr": {
       "ok": true,
       "count": 25
     },
-    "Komedija": {
-      "ok": true,
-      "count": 0
-    },
-    "Kerempuh": {
-      "ok": true,
-      "count": 0
-    },
-    "HNK Zagreb": {
-      "ok": true,
-      "count": 101
-    },
-    "Pogon": {
-      "ok": true,
-      "count": 0
-    },
-    "Trešnja": {
+    "Lisinski": {
       "ok": true,
       "count": 0
     }
   },
   "concerts": [
-    {
-      "id": "63b63ac987",
-      "title": "KUM - Kazalište u Močvari: MC Deda - promocija zbirke poezije Zbrka poezije",
-      "venue": "Mochvara",
-      "city": "Zagreb",
-      "country": "HR",
-      "category": "concert",
-      "date_iso": "2026-10-12T19:00:00",
-      "date_display": "pon, 12. 10. 2026.",
-      "time": "19:00",
-      "link": "https://mochvara.hr/event-detail/6abd0536f63ef277f595d45c/",
-      "source": "Mochvara",
-      "is_new": false,
-      "first_seen": "2026-10-06T22:49:36.616Z"
-    },
     {
       "id": "499b7d4fc4",
       "title": "Podrži scenu!: Richter, Videokrug, Svijest",
