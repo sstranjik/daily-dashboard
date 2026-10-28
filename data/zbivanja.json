@@ -1,10 +1,6 @@
 {
-  "generated_at": "2026-10-28T12:01:25.250Z",
+  "generated_at": "2026-10-28T13:01:28.489Z",
   "stats": {
-    "muzika.hr": {
-      "ok": true,
-      "count": 25
-    },
     "Lisinski": {
       "ok": true,
       "count": 0
@@ -13,17 +9,21 @@
       "ok": true,
       "count": 18
     },
-    "Tvornica": {
-      "ok": true,
-      "count": 2
-    },
     "Gavella": {
       "ok": true,
       "count": 35
     },
+    "Tvornica": {
+      "ok": true,
+      "count": 2
+    },
     "ZeKaeM": {
       "ok": true,
       "count": 1
+    },
+    "muzika.hr": {
+      "ok": true,
+      "count": 25
     },
     "Komedija": {
       "ok": true,
@@ -31,7 +31,11 @@
     },
     "HNK Zagreb": {
       "ok": true,
-      "count": 100
+      "count": 102
+    },
+    "Pogon": {
+      "ok": true,
+      "count": 0
     },
     "Kerempuh": {
       "ok": true,
@@ -40,10 +44,6 @@
     "Trešnja": {
       "ok": true,
       "count": 0
-    },
-    "Pogon": {
-      "ok": false,
-      "error": "The operation was aborted due to timeout"
     }
   },
   "concerts": [
@@ -1861,6 +1861,21 @@
       "source": "HNK Zagreb",
       "is_new": false,
       "first_seen": "2026-09-15T13:01:12.929Z"
+    },
+    {
+      "id": "0d62ac75ce",
+      "title": "Peter Lund Vještica Hillary ide u operu Gostovanje u HNK u Varaždinu u sklopu K-HNK",
+      "venue": "HNK Zagreb",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-11-16T13:00:00",
+      "date_display": "pon, 16. 11. 2026.",
+      "time": "13:00",
+      "link": "https://hnk.hr/hr/opera/predstave/vje%C5%A1tica-hillary-ide-u-operu/#16.11.13.00",
+      "source": "HNK Zagreb",
+      "is_new": false,
+      "first_seen": "2026-10-28T13:01:28.489Z"
     },
     {
       "id": "69f2c341d7",
