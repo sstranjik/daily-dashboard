@@ -1,6 +1,10 @@
 {
-  "generated_at": "2026-10-27T21:03:27.548Z",
+  "generated_at": "2026-10-28T06:01:27.846Z",
   "stats": {
+    "Mochvara": {
+      "ok": true,
+      "count": 18
+    },
     "muzika.hr": {
       "ok": true,
       "count": 25
@@ -9,17 +13,17 @@
       "ok": true,
       "count": 0
     },
-    "Mochvara": {
+    "Tvornica": {
       "ok": true,
-      "count": 18
+      "count": 2
     },
     "Gavella": {
       "ok": true,
       "count": 35
     },
-    "Tvornica": {
+    "ZeKaeM": {
       "ok": true,
-      "count": 2
+      "count": 1
     },
     "Komedija": {
       "ok": true,
@@ -27,11 +31,7 @@
     },
     "HNK Zagreb": {
       "ok": true,
-      "count": 101
-    },
-    "ZeKaeM": {
-      "ok": true,
-      "count": 1
+      "count": 100
     },
     "Kerempuh": {
       "ok": true,
@@ -1426,6 +1426,21 @@
       "source": "HNK Zagreb",
       "is_new": false,
       "first_seen": "2026-09-23T06:01:12.658Z"
+    },
+    {
+      "id": "948873f4e1",
+      "title": "Black metal koncert: Wolves In The Throne Room, Worm, Final Dose",
+      "venue": "Mochvara",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-11-04T20:00:00",
+      "date_display": "sri, 04. 11. 2026.",
+      "time": "20:00",
+      "link": "https://mochvara.hr/event-detail/6a2916e4b7447e7921127707/",
+      "source": "Mochvara",
+      "is_new": true,
+      "first_seen": "2026-10-28T06:01:27.846Z"
     },
     {
       "id": "0b2e60f696",
@@ -2930,51 +2945,6 @@
   ],
   "theater": [
     {
-      "id": "4a4949a160",
-      "title": "Mirisi, zlato i tamjan",
-      "venue": "Gavella",
-      "city": "Zagreb",
-      "country": "HR",
-      "category": "theater",
-      "date_iso": "2026-10-13T00:00:00",
-      "date_display": "uto, 13. 10. 2026.",
-      "time": null,
-      "link": "https://www.gavella.hr/predstave/aktualne-predstave/mirisi-zlato-i-tamjan",
-      "source": "Gavella",
-      "is_new": false,
-      "first_seen": "2026-09-04T13:01:17.354Z"
-    },
-    {
-      "id": "0aa123085a",
-      "title": "Promocija slikovnice \"Siri\"",
-      "venue": "Gavella",
-      "city": "Zagreb",
-      "country": "HR",
-      "category": "theater",
-      "date_iso": "2026-10-13T00:00:00",
-      "date_display": "uto, 13. 10. 2026.",
-      "time": null,
-      "link": "https://www.gavella.hr/predstave/promocija-slikovnice-siri",
-      "source": "Gavella",
-      "is_new": false,
-      "first_seen": "2026-09-18T20:01:15.085Z"
-    },
-    {
-      "id": "0053219b6f",
-      "title": "Promocija slikovnice \"Siri\" Antonije Stanišić Šperanda",
-      "venue": "Gavella",
-      "city": "Zagreb",
-      "country": "HR",
-      "category": "theater",
-      "date_iso": "2026-10-13T00:00:00",
-      "date_display": "uto, 13. 10. 2026.",
-      "time": null,
-      "link": "https://www.gavella.hr/predstave/promocija-slikovnice-siri-antonije-stanisic-speranda",
-      "source": "Gavella",
-      "is_new": false,
-      "first_seen": "2026-09-21T10:21:03.316Z"
-    },
-    {
       "id": "bf75571e71",
       "title": "Multimedijalna koliba: dying duets | shimmering",
       "venue": "Gavella",
@@ -4402,5 +4372,5 @@
       "first_seen": "2026-10-11T05:01:21.358Z"
     }
   ],
-  "new_count": 4
+  "new_count": 5
 }
