@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-10-28T09:01:33.616Z",
+  "generated_at": "2026-10-28T10:01:25.881Z",
   "stats": {
+    "muzika.hr": {
+      "ok": true,
+      "count": 25
+    },
     "Mochvara": {
       "ok": true,
       "count": 18
-    },
-    "Pogon": {
-      "ok": false,
-      "error": "fetch failed"
     },
     "Lisinski": {
       "ok": true,
@@ -21,10 +21,6 @@
       "ok": true,
       "count": 35
     },
-    "muzika.hr": {
-      "ok": true,
-      "count": 25
-    },
     "ZeKaeM": {
       "ok": true,
       "count": 1
@@ -33,13 +29,17 @@
       "ok": true,
       "count": 0
     },
+    "HNK Zagreb": {
+      "ok": true,
+      "count": 100
+    },
     "Kerempuh": {
       "ok": true,
       "count": 0
     },
-    "HNK Zagreb": {
+    "Pogon": {
       "ok": true,
-      "count": 100
+      "count": 0
     },
     "Trešnja": {
       "ok": true,
@@ -1681,6 +1681,21 @@
       "source": "HNK Zagreb",
       "is_new": false,
       "first_seen": "2026-08-27T14:01:12.544Z"
+    },
+    {
+      "id": "6e9b3e1a44",
+      "title": "Gustafi u Tvornici kulture",
+      "venue": "Tvornica kulture Šubićeva 2",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-11-10T20:00:00",
+      "date_display": "uto, 10. 11. 2026.",
+      "time": "20:00",
+      "link": "https://www.muzika.hr/event/gustafi-u-tvornici-kulture-2026/",
+      "source": "muzika.hr",
+      "is_new": true,
+      "first_seen": "2026-10-28T10:01:25.881Z"
     },
     {
       "id": "4f441b10bd",
@@ -4372,5 +4387,5 @@
       "first_seen": "2026-10-11T05:01:21.358Z"
     }
   ],
-  "new_count": 4
+  "new_count": 5
 }
