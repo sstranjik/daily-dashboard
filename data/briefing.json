@@ -1,15 +1,15 @@
 {
   "version": 2,
-  "date": "2026-10-27",
-  "generated_at": "2026-10-27T10:12:04.005Z",
-  "date_hr": "Utorak, 27. listopada 2026.",
+  "date": "2026-10-28",
+  "generated_at": "2026-10-28T06:03:17.306Z",
+  "date_hr": "Srijeda, 28. listopada 2026.",
   "weather": {
-    "icon": "☁️",
-    "summary": "5–13°C, oblačno",
+    "icon": "🌧️",
+    "summary": "2–14°C, lagana kiša",
     "alerts": []
   },
   "fuel": {
-    "current_date": "27.10.2026",
+    "current_date": "28.10.2026",
     "eurodiesel": [
       {
         "company": "Adria Oil",
@@ -63,46 +63,46 @@
     "upcoming_premium": null
   },
   "market": {
-    "updated_at": "2026-10-27T10:12:04.005Z",
-    "btc_usd": 79507,
-    "btc_eur": 71366,
-    "btc_change_24h": -1.08,
-    "usd_eur": 0.8939
+    "updated_at": "2026-10-28T06:03:17.306Z",
+    "btc_usd": 80809,
+    "btc_eur": 72677,
+    "btc_change_24h": 1.27,
+    "usd_eur": 0.8975
   },
   "ai_news": [
     {
-      "title": "Sweden’s Government Offices block ChatGPT and Claude on work computers",
-      "link": "https://thenextweb.com/news/sweden-government-blocks-chatgpt-claude",
-      "source": "The Next Web"
-    },
-    {
-      "title": "Anthropic’s IPO filing lays out a plan to &#8216;revolutionize every area of human endeavor&#8217; with AI",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1018476/anthropic-ipo-details-s1-filed-sec",
-      "source": "The Verge"
-    },
-    {
-      "title": "How OpenAI turned its coding tools into dots, an always-on personal assistant",
-      "link": "https://techcrunch.com/2026/10/26/how-openai-turned-its-coding-tools-into-dots-an-always-on-personal-assistant/",
+      "title": "Parents sue OpenAI, alleging GPT-4o coached their daughter off seizure medication",
+      "link": "https://techcrunch.com/2026/10/27/parents-sue-openai-alleging-gpt-4o-coached-their-daughter-off-seizure-medication/",
       "source": "TechCrunch AI"
     },
     {
-      "title": "Microsoft ships emergency .NET fixes for a critical Brotli flaw",
-      "link": "https://thenextweb.com/news/microsoft-net-emergency-patch-brotli-flaw-node2shell",
+      "title": "Invesco brings its model portfolios into Anthropic’s Claude for advisers",
+      "link": "https://thenextweb.com/news/invesco-anthropic-claude-financial-advisors-connector",
       "source": "The Next Web"
     },
     {
-      "title": "Tvorac Claudea izlazi na burzu: Hoće li premašiti SpaceX?",
-      "link": "https://www.tportal.hr/tehno/clanak/tvorac-claudea-izlazi-na-burzu-hoce-li-premasiti-spacex-20261026",
-      "source": "Tportal"
+      "title": "Švedska vlada blokira ChatGPT i Claude",
+      "link": "https://mreza.bug.hr/sigurnost/svedska-vlada-blokira-chatgpt-i-claude-63858",
+      "source": "Bug.hr"
+    },
+    {
+      "title": "Anthropic službeno predao zahtjev za IPO, ciljaju valuaciju od dva bilijuna dolara",
+      "link": "https://www.bug.hr/biznis/anthropic-sluzbeno-predao-zahtjev-za-ipo-ciljaju-valuaciju-od-dva-bilijuna-63861",
+      "source": "Bug.hr"
+    },
+    {
+      "title": "VCs will make billions on Anthropic&#8217;s IPO, but Amazon is set to make much (much) more",
+      "link": "https://techcrunch.com/2026/10/27/vcs-will-make-billions-on-anthropics-ipo-but-amazon-is-set-to-make-much-much-more/",
+      "source": "TechCrunch AI"
     }
   ],
   "micro_tips": {
     "vscode": {
-      "tip": "Multi-cursor: postavi cursor na više mjesta istovremeno",
-      "keys": "Alt+Click"
+      "tip": "Command Palette: brzi pristup svim komandama",
+      "keys": "Ctrl+Shift+P"
     },
-    "sql": "EXISTS umjesto IN za subqueries — brže jer stane na prvom podudaranju: WHERE EXISTS (SELECT 1 FROM ...)",
-    "oracle": "/*+ INDEX(t ime_indexa) */ forsira specifičan index kad optimizer bira full scan",
-    "regex": "\\b granica riječi: \\bword\\b podudara cijelu riječ, ne \"password\" ili \"swordfish\""
+    "sql": "Nikad SELECT * u produkciji — navedi kolone, manji I/O i bolji cache plan",
+    "oracle": "/*+ PARALLEL(t 4) */ paralelno izvršavanje querija na N thread-ova",
+    "regex": "(?:group) non-capturing group: grupiraj bez pamćenja za veće performanse"
   }
 }
