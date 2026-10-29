@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "date": "2026-10-28",
-  "generated_at": "2026-10-28T10:57:33.090Z",
-  "date_hr": "Srijeda, 28. listopada 2026.",
+  "date": "2026-10-29",
+  "generated_at": "2026-10-29T06:03:29.320Z",
+  "date_hr": "Četvrtak, 29. listopada 2026.",
   "weather": {
-    "icon": "🌫️",
-    "summary": "2–15°C, magla",
+    "icon": "🌧️",
+    "summary": "10–15°C, lagana kiša",
     "alerts": []
   },
   "fuel": {
@@ -63,46 +63,46 @@
     "upcoming_premium": null
   },
   "market": {
-    "updated_at": "2026-10-28T10:57:33.090Z",
-    "btc_usd": 81437,
-    "btc_eur": 73210,
-    "btc_change_24h": 1.97,
-    "usd_eur": 0.8975
+    "updated_at": "2026-10-29T06:03:29.320Z",
+    "btc_usd": 80148,
+    "btc_eur": 71967,
+    "btc_change_24h": -0.82,
+    "usd_eur": 0.8972
   },
   "ai_news": [
     {
-      "title": "Parents sue OpenAI, alleging GPT-4o coached their daughter off seizure medication",
-      "link": "https://techcrunch.com/2026/10/27/parents-sue-openai-alleging-gpt-4o-coached-their-daughter-off-seizure-medication/",
-      "source": "TechCrunch AI"
+      "title": "Industrija na testu: Prihodi skočili 14 puta, gubitak 80 milijardi. Sprema li se najveći balon ili najveći posao desetljeća?",
+      "link": "https://www.tportal.hr/tehno/clanak/industrija-na-testu-prihodi-skocili-14-puta-gubitak-80-milijardi-sprema-li-se-najveci-balon-ili-najveci-posao-desetljeca-20261028",
+      "source": "Tportal"
     },
     {
-      "title": "Invesco brings its model portfolios into Anthropic’s Claude for advisers",
-      "link": "https://thenextweb.com/news/invesco-anthropic-claude-financial-advisors-connector",
+      "title": "Google launches Gemini 4 Carbon with a ‘significant leap’ in cybersecurity",
+      "link": "https://www.theverge.com/tech/1021339/google-gemini-4-carbon-cybersecurity-frontier",
+      "source": "The Verge"
+    },
+    {
+      "title": "Oracle will sell Google’s TPUs in its cloud and put ChatGPT in its apps",
+      "link": "https://thenextweb.com/news/oracle-ai-world-google-tpus-openai-chatgpt",
       "source": "The Next Web"
     },
     {
-      "title": "Švedska vlada blokira ChatGPT i Claude",
-      "link": "https://mreza.bug.hr/sigurnost/svedska-vlada-blokira-chatgpt-i-claude-63858",
-      "source": "Bug.hr"
+      "title": "Anthropic gives US governments 40% off Claude in new GSA deal",
+      "link": "https://thenextweb.com/news/anthropic-gsa-onegov-40-percent-claude-discount",
+      "source": "The Next Web"
     },
     {
-      "title": "Anthropic službeno predao zahtjev za IPO, ciljaju valuaciju od dva bilijuna dolara",
-      "link": "https://www.bug.hr/biznis/anthropic-sluzbeno-predao-zahtjev-za-ipo-ciljaju-valuaciju-od-dva-bilijuna-63861",
-      "source": "Bug.hr"
-    },
-    {
-      "title": "OpenAI reportedly plans to buy Google’s TPU chips alongside Nvidia",
-      "link": "https://thenextweb.com/news/openai-google-tpu-chips",
+      "title": "Anthropic manager drops coding interviews because Claude is better at them",
+      "link": "https://thenextweb.com/news/anthropic-felix-rieseberg-coding-interview-claude",
       "source": "The Next Web"
     }
   ],
   "micro_tips": {
     "vscode": {
-      "tip": "Command Palette: brzi pristup svim komandama",
-      "keys": "Ctrl+Shift+P"
+      "tip": "Rename Symbol svuda u projektu (refactoring)",
+      "keys": "F2"
     },
-    "sql": "Nikad SELECT * u produkciji — navedi kolone, manji I/O i bolji cache plan",
-    "oracle": "/*+ PARALLEL(t 4) */ paralelno izvršavanje querija na N thread-ova",
-    "regex": "(?:group) non-capturing group: grupiraj bez pamćenja za veće performanse"
+    "sql": "Covering index: uključi sve kolone iz WHERE + SELECT u index pa nema pristupa tablici",
+    "oracle": "/*+ NO_MERGE(v) */ sprječava merging inline viewa s parent queryjem",
+    "regex": "(?=pattern) lookahead: \"iza ovog mora slijediti X\" bez konzumiranja znakova"
   }
 }
