@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "date": "2026-10-29",
-  "generated_at": "2026-10-29T11:15:19.665Z",
-  "date_hr": "Četvrtak, 29. listopada 2026.",
+  "date": "2026-10-30",
+  "generated_at": "2026-10-30T06:02:37.674Z",
+  "date_hr": "Petak, 30. listopada 2026.",
   "weather": {
     "icon": "🌧️",
-    "summary": "10–15°C, lagana kiša",
+    "summary": "10–13°C, lagana kiša",
     "alerts": []
   },
   "fuel": {
@@ -63,26 +63,21 @@
     "upcoming_premium": null
   },
   "market": {
-    "updated_at": "2026-10-29T11:15:19.665Z",
-    "btc_usd": 80105,
-    "btc_eur": 71832,
-    "btc_change_24h": -1.44,
-    "usd_eur": 0.8972
+    "updated_at": "2026-10-30T06:02:37.674Z",
+    "btc_usd": 78444,
+    "btc_eur": 70134,
+    "btc_change_24h": -2.13,
+    "usd_eur": 0.8959
   },
   "ai_news": [
     {
-      "title": "Industrija na testu: Prihodi skočili 14 puta, gubitak 80 milijardi. Sprema li se najveći balon ili najveći posao desetljeća?",
-      "link": "https://www.tportal.hr/tehno/clanak/industrija-na-testu-prihodi-skocili-14-puta-gubitak-80-milijardi-sprema-li-se-najveci-balon-ili-najveci-posao-desetljeca-20261028",
-      "source": "Tportal"
+      "title": "Mistral releases open weights for its 1 trillion-parameter Large 4 model",
+      "link": "https://thenextweb.com/news/mistral-large-4-open-weights-release",
+      "source": "The Next Web"
     },
     {
-      "title": "Google launches Gemini 4 Carbon with a ‘significant leap’ in cybersecurity",
-      "link": "https://www.theverge.com/tech/1021339/google-gemini-4-carbon-cybersecurity-frontier",
-      "source": "The Verge"
-    },
-    {
-      "title": "Oracle will sell Google’s TPUs in its cloud and put ChatGPT in its apps",
-      "link": "https://thenextweb.com/news/oracle-ai-world-google-tpus-openai-chatgpt",
+      "title": "Pluto Security details how a trust_remote_code download turns into malware",
+      "link": "https://thenextweb.com/news/pluto-security-hugging-face-trust-remote-code-cryptominer",
       "source": "The Next Web"
     },
     {
@@ -91,18 +86,23 @@
       "source": "Tportal"
     },
     {
-      "title": "Anthropic gives US governments 40% off Claude in new GSA deal",
-      "link": "https://thenextweb.com/news/anthropic-gsa-onegov-40-percent-claude-discount",
+      "title": "Anthropic is SpaceX’s biggest customer, bringing in a third of revenue",
+      "link": "https://thenextweb.com/news/anthropic-spacex-largest-customer-customer-b",
+      "source": "The Next Web"
+    },
+    {
+      "title": "Sam Altman says OpenAI will point its robots at building data centres",
+      "link": "https://thenextweb.com/news/sam-altman-openai-robots-self-replicating-data-centres-cheeky-pint",
       "source": "The Next Web"
     }
   ],
   "micro_tips": {
     "vscode": {
-      "tip": "Rename Symbol svuda u projektu (refactoring)",
-      "keys": "F2"
+      "tip": "Quick Fix i Code Actions na trenutnoj poziciji",
+      "keys": "Ctrl+."
     },
-    "sql": "Covering index: uključi sve kolone iz WHERE + SELECT u index pa nema pristupa tablici",
-    "oracle": "/*+ NO_MERGE(v) */ sprječava merging inline viewa s parent queryjem",
-    "regex": "(?=pattern) lookahead: \"iza ovog mora slijediti X\" bez konzumiranja znakova"
+    "sql": "Window funkcije (ROW_NUMBER, LAG, LEAD) umjesto self-join za redosljed i razlike",
+    "oracle": "/*+ RESULT_CACHE */ cache-ira rezultat funkcije u SGA za ponovljene pozive",
+    "regex": ".+? lazy quantifier: stane na prvom mogućem podudaranju, ne zadnjem"
   }
 }
