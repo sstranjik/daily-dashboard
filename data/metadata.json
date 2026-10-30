@@ -1,56 +1,63 @@
 {
-  "last_updated": "2026-10-30T11:01:18.871Z",
+  "last_updated": "2026-10-30T11:07:54.790Z",
   "generator": "dashboard-bot/1.0",
   "sources": {
     "hr_news": {
-      "updated_at": "2026-10-30T11:01:18.871Z",
-      "item_count": 762,
+      "updated_at": "2026-10-30T11:07:54.790Z",
+      "item_count": 759,
       "ok": true
     },
     "world_news": {
-      "updated_at": "2026-10-30T11:01:18.871Z",
+      "updated_at": "2026-10-30T11:07:54.790Z",
       "item_count": 291,
       "ok": true
     },
     "finance_news": {
-      "updated_at": "2026-10-30T11:01:18.871Z",
+      "updated_at": "2026-10-30T11:07:54.790Z",
       "item_count": 118,
       "ok": true
     },
     "tech_news": {
-      "updated_at": "2026-10-30T11:01:18.871Z",
-      "item_count": 146,
+      "updated_at": "2026-10-30T11:07:54.790Z",
+      "item_count": 145,
       "ok": true
     },
     "science": {
-      "updated_at": "2026-10-30T11:01:18.871Z",
-      "item_count": 134,
+      "updated_at": "2026-10-30T11:07:54.790Z",
+      "item_count": 135,
       "ok": true
     },
     "sports": {
-      "updated_at": "2026-10-30T11:01:18.871Z",
-      "item_count": 297,
+      "updated_at": "2026-10-30T11:07:54.790Z",
+      "item_count": 299,
       "ok": true
     },
     "entertainment": {
-      "updated_at": "2026-10-30T11:01:18.871Z",
-      "item_count": 233,
+      "updated_at": "2026-10-30T11:07:54.790Z",
+      "item_count": 231,
       "ok": true
     },
     "health": {
-      "updated_at": "2026-10-30T11:01:18.871Z",
-      "item_count": 21,
+      "updated_at": "2026-10-30T11:07:54.790Z",
+      "item_count": 22,
       "ok": true
     },
     "food": {
-      "updated_at": "2026-10-30T11:01:18.871Z",
+      "updated_at": "2026-10-30T11:07:54.790Z",
       "item_count": 22,
       "ok": true
     },
     "briefing": {
-      "updated_at": "2026-10-30T11:01:18.871Z",
-      "ok": false,
-      "ai_used": false
+      "updated_at": "2026-10-30T11:10:14.257Z",
+      "ok": true,
+      "ai_used": true,
+      "sections": [
+        "weather",
+        "fuel",
+        "market",
+        "ai_news",
+        "micro_tips"
+      ]
     }
   }
 }

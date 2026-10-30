@@ -1,15 +1,15 @@
 {
   "version": 2,
   "date": "2026-10-30",
-  "generated_at": "2026-10-30T06:02:37.674Z",
+  "generated_at": "2026-10-30T11:10:14.257Z",
   "date_hr": "Petak, 30. listopada 2026.",
   "weather": {
     "icon": "🌧️",
-    "summary": "10–13°C, lagana kiša",
+    "summary": "9–13°C, lagana kiša",
     "alerts": []
   },
   "fuel": {
-    "current_date": "28.10.2026",
+    "current_date": "30.10.2026",
     "eurodiesel": [
       {
         "company": "Adria Oil",
@@ -63,13 +63,18 @@
     "upcoming_premium": null
   },
   "market": {
-    "updated_at": "2026-10-30T06:02:37.674Z",
-    "btc_usd": 78444,
-    "btc_eur": 70134,
-    "btc_change_24h": -2.13,
+    "updated_at": "2026-10-30T11:10:14.257Z",
+    "btc_usd": 77663,
+    "btc_eur": 69343,
+    "btc_change_24h": -3.1,
     "usd_eur": 0.8959
   },
   "ai_news": [
+    {
+      "title": "Wikipedia’s operator says a bad AI copyright ruling could threaten the open web",
+      "link": "https://www.theverge.com/policy/1022880/wikipedia-openai-new-york-times-copyright",
+      "source": "The Verge"
+    },
     {
       "title": "Mistral releases open weights for its 1 trillion-parameter Large 4 model",
       "link": "https://thenextweb.com/news/mistral-large-4-open-weights-release",
@@ -81,18 +86,13 @@
       "source": "The Next Web"
     },
     {
-      "title": "Novi Googleov AI model može danima sam raditi na složenim zadacima",
-      "link": "https://www.tportal.hr/tehno/clanak/novi-googleov-ai-model-moze-danima-sam-raditi-na-slozenim-zadacima-20261029",
-      "source": "Tportal"
-    },
-    {
-      "title": "Anthropic is SpaceX’s biggest customer, bringing in a third of revenue",
-      "link": "https://thenextweb.com/news/anthropic-spacex-largest-customer-customer-b",
+      "title": "Foxconn chairman says new OpenAI tie-up is in the works, Reuters reports",
+      "link": "https://thenextweb.com/news/foxconn-openai-new-tie-up-no-ai-bubble",
       "source": "The Next Web"
     },
     {
-      "title": "Sam Altman says OpenAI will point its robots at building data centres",
-      "link": "https://thenextweb.com/news/sam-altman-openai-robots-self-replicating-data-centres-cheeky-pint",
+      "title": "Wikimedia asks court to rule AI training fair use, but not chatbot copying",
+      "link": "https://thenextweb.com/news/wikimedia-amicus-brief-openai-new-york-times-fair-use-rag",
       "source": "The Next Web"
     }
   ],
