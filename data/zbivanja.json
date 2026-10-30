@@ -1,6 +1,14 @@
 {
-  "generated_at": "2026-10-30T12:01:31.828Z",
+  "generated_at": "2026-10-30T13:01:20.614Z",
   "stats": {
+    "muzika.hr": {
+      "ok": true,
+      "count": 25
+    },
+    "Gavella": {
+      "ok": true,
+      "count": 33
+    },
     "Lisinski": {
       "ok": true,
       "count": 0
@@ -8,10 +16,6 @@
     "Mochvara": {
       "ok": true,
       "count": 18
-    },
-    "Gavella": {
-      "ok": true,
-      "count": 33
     },
     "Tvornica": {
       "ok": true,
@@ -21,13 +25,13 @@
       "ok": true,
       "count": 1
     },
-    "muzika.hr": {
-      "ok": true,
-      "count": 25
-    },
     "Komedija": {
       "ok": true,
       "count": 0
+    },
+    "HNK Zagreb": {
+      "ok": true,
+      "count": 100
     },
     "Pogon": {
       "ok": true,
@@ -36,10 +40,6 @@
     "Kerempuh": {
       "ok": true,
       "count": 0
-    },
-    "HNK Zagreb": {
-      "ok": true,
-      "count": 100
     },
     "Trešnja": {
       "ok": true,
@@ -4342,6 +4342,21 @@
       "first_seen": "2026-10-17T09:49:14.766Z"
     },
     {
+      "id": "f6c08a8a80",
+      "title": "ÁHÁCHÍ (FINSKA) i LOPOČ (BiH) u AG-u!",
+      "venue": "AG Club Patriotske lige 30",
+      "city": "Sarajevo",
+      "country": "BA",
+      "category": "concert",
+      "date_iso": "2026-11-06T21:30:00",
+      "date_display": "pet, 06. 11. 2026.",
+      "time": "21:30",
+      "link": "https://www.muzika.hr/event/ahachi-finska-i-lopoc-bih-u-ag-u/",
+      "source": "muzika.hr",
+      "is_new": true,
+      "first_seen": "2026-10-30T13:01:20.614Z"
+    },
+    {
       "id": "49c40c94c3",
       "title": "Bob Dylan",
       "venue": "Bob Dylan Arena Stožice Stožice",
@@ -4387,5 +4402,5 @@
       "first_seen": "2026-10-11T05:01:21.358Z"
     }
   ],
-  "new_count": 4
+  "new_count": 5
 }
