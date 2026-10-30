@@ -1,25 +1,25 @@
 {
-  "generated_at": "2026-10-29T22:07:13.743Z",
+  "generated_at": "2026-10-30T06:01:17.129Z",
   "stats": {
-    "Mochvara": {
+    "muzika.hr": {
       "ok": true,
-      "count": 18
+      "count": 25
     },
     "Lisinski": {
       "ok": true,
       "count": 0
     },
-    "Tvornica": {
-      "ok": true,
-      "count": 2
-    },
     "Gavella": {
       "ok": true,
       "count": 33
     },
-    "muzika.hr": {
+    "Tvornica": {
       "ok": true,
-      "count": 25
+      "count": 2
+    },
+    "Mochvara": {
+      "ok": true,
+      "count": 18
     },
     "ZeKaeM": {
       "ok": true,
@@ -29,13 +29,13 @@
       "ok": true,
       "count": 0
     },
+    "HNK Zagreb": {
+      "ok": true,
+      "count": 100
+    },
     "Pogon": {
       "ok": true,
       "count": 0
-    },
-    "HNK Zagreb": {
-      "ok": true,
-      "count": 102
     },
     "Kerempuh": {
       "ok": true,
@@ -47,21 +47,6 @@
     }
   },
   "concerts": [
-    {
-      "id": "ce73e40cd1",
-      "title": "Leut Magnetik Četvrtak 15.10.2026.",
-      "venue": "Mochvara",
-      "city": "Zagreb",
-      "country": "HR",
-      "category": "concert",
-      "date_iso": "2026-10-15T00:00:00",
-      "date_display": "čet, 15. 10. 2026.",
-      "time": null,
-      "link": "https://mochvara.hr/event-detail/6a4e8217b33d8fee6726f390/",
-      "source": "Mochvara",
-      "is_new": false,
-      "first_seen": "2026-07-11T15:01:38.070Z"
-    },
     {
       "id": "5fd4a22c91",
       "title": "Leut Magnetik",
@@ -1456,6 +1441,21 @@
       "source": "muzika.hr",
       "is_new": false,
       "first_seen": "2026-10-12T10:01:38.729Z"
+    },
+    {
+      "id": "2f06b35aba",
+      "title": "30. rođendan Radio Studenta: Otok, Elephant Hump, Rens Argoa",
+      "venue": "Mochvara",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-11-05T20:00:00",
+      "date_display": "čet, 05. 11. 2026.",
+      "time": "20:00",
+      "link": "https://mochvara.hr/event-detail/6acf7019dd51d20115492ecb/",
+      "source": "Mochvara",
+      "is_new": true,
+      "first_seen": "2026-10-30T06:01:17.129Z"
     },
     {
       "id": "b7be065192",
@@ -4372,5 +4372,5 @@
       "first_seen": "2026-10-11T05:01:21.358Z"
     }
   ],
-  "new_count": 4
+  "new_count": 5
 }
