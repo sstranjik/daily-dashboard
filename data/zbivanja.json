@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-10-30T21:01:16.399Z",
+  "generated_at": "2026-10-30T21:44:34.653Z",
   "stats": {
-    "Lisinski": {
-      "ok": true,
-      "count": 0
-    },
     "muzika.hr": {
       "ok": true,
       "count": 25
+    },
+    "Lisinski": {
+      "ok": true,
+      "count": 0
     },
     "Mochvara": {
       "ok": true,
@@ -21,25 +21,25 @@
       "ok": true,
       "count": 32
     },
+    "ZeKaeM": {
+      "ok": true,
+      "count": 1
+    },
+    "Komedija": {
+      "ok": true,
+      "count": 0
+    },
     "Pogon": {
+      "ok": true,
+      "count": 0
+    },
+    "Kerempuh": {
       "ok": true,
       "count": 0
     },
     "HNK Zagreb": {
       "ok": true,
       "count": 102
-    },
-    "Komedija": {
-      "ok": true,
-      "count": 0
-    },
-    "ZeKaeM": {
-      "ok": true,
-      "count": 1
-    },
-    "Kerempuh": {
-      "ok": true,
-      "count": 0
     },
     "Trešnja": {
       "ok": true,
@@ -2206,6 +2206,21 @@
       "source": "HNK Zagreb",
       "is_new": false,
       "first_seen": "2026-08-27T15:01:20.279Z"
+    },
+    {
+      "id": "1525622c60",
+      "title": "Zabrahead",
+      "venue": "Grada Vukovara 68",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-11-25T00:00:00",
+      "date_display": "sri, 25. 11. 2026.",
+      "time": null,
+      "link": "https://www.muzika.hr/event/zabrahead-boogaloo-zagreb/",
+      "source": "muzika.hr",
+      "is_new": true,
+      "first_seen": "2026-10-30T21:44:34.653Z"
     },
     {
       "id": "df5490d07d",
@@ -4387,5 +4402,5 @@
       "first_seen": "2026-10-11T05:01:21.358Z"
     }
   ],
-  "new_count": 4
+  "new_count": 5
 }
