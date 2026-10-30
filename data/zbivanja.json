@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-30T19:01:20.832Z",
+  "generated_at": "2026-10-30T20:01:18.893Z",
   "stats": {
     "muzika.hr": {
       "ok": true,
@@ -19,7 +19,7 @@
     },
     "Tvornica": {
       "ok": true,
-      "count": 3
+      "count": 2
     },
     "ZeKaeM": {
       "ok": true,
@@ -28,6 +28,10 @@
     "Komedija": {
       "ok": true,
       "count": 0
+    },
+    "HNK Zagreb": {
+      "ok": true,
+      "count": 102
     },
     "Pogon": {
       "ok": true,
@@ -40,58 +44,9 @@
     "Trešnja": {
       "ok": true,
       "count": 0
-    },
-    "HNK Zagreb": {
-      "ok": true,
-      "count": 102
     }
   },
   "concerts": [
-    {
-      "id": "5fd4a22c91",
-      "title": "Leut Magnetik",
-      "venue": "Mochvara",
-      "city": "Zagreb",
-      "country": "HR",
-      "category": "concert",
-      "date_iso": "2026-10-15T20:00:00",
-      "date_display": "čet, 15. 10. 2026.",
-      "time": "20:00",
-      "link": "https://mochvara.hr/event-detail/6a4e8217b33d8fee6726f390/",
-      "source": "Mochvara",
-      "is_new": false,
-      "first_seen": "2026-10-09T00:01:06.316Z"
-    },
-    {
-      "id": "1fb1cfe30e",
-      "title": "Živa Voda Festival #3",
-      "venue": "Vintage Industrial Bar Savska ulica 160",
-      "city": "Zagreb",
-      "country": "HR",
-      "category": "concert",
-      "date_iso": "2026-10-15T20:00:00",
-      "date_display": "čet, 15. 10. 2026.",
-      "time": "20:00",
-      "link": "https://www.muzika.hr/event/ziva-voda-festival-vintage-insutrial-bar-zagreb-2026/",
-      "source": "muzika.hr",
-      "is_new": false,
-      "first_seen": "2026-10-12T10:01:38.729Z"
-    },
-    {
-      "id": "102d8e92da",
-      "title": "New Model Army",
-      "venue": "Model Army Tvornica kulture Šubićeva 2",
-      "city": "Zagreb",
-      "country": "HR",
-      "category": "concert",
-      "date_iso": "2026-10-15T20:00:00",
-      "date_display": "čet, 15. 10. 2026.",
-      "time": "20:00",
-      "link": "https://www.muzika.hr/event/new-model-army-tvornica-kulture-zagreb-2026/",
-      "source": "muzika.hr",
-      "is_new": false,
-      "first_seen": "2026-10-13T09:01:22.221Z"
-    },
     {
       "id": "230d8ac94f",
       "title": "Svoga tijela gospodar: 16. memorijalni koncert Antun Krajinović Tuna",
@@ -3034,21 +2989,6 @@
     }
   ],
   "theater": [
-    {
-      "id": "fe590cc1c1",
-      "title": "Espi Tomičić Budi uvijek kao zmaj",
-      "venue": "HNK Zagreb",
-      "city": "Zagreb",
-      "country": "HR",
-      "category": "theater",
-      "date_iso": "2026-10-15T19:30:00",
-      "date_display": "čet, 15. 10. 2026.",
-      "time": "19:30",
-      "link": "https://hnk.hr/hr/drama/predstave/budi-uvijek-kao-zmaj/#15.10.19.30",
-      "source": "HNK Zagreb",
-      "is_new": false,
-      "first_seen": "2026-07-02T13:01:26.613Z"
-    },
     {
       "id": "144f19ef5a",
       "title": "Rondo",
