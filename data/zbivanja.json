@@ -1,9 +1,13 @@
 {
-  "generated_at": "2026-10-31T19:01:13.765Z",
+  "generated_at": "2026-10-31T20:01:10.411Z",
   "stats": {
     "muzika.hr": {
       "ok": true,
       "count": 25
+    },
+    "Gavella": {
+      "ok": true,
+      "count": 31
     },
     "Lisinski": {
       "ok": true,
@@ -12,10 +16,6 @@
     "Mochvara": {
       "ok": true,
       "count": 18
-    },
-    "Gavella": {
-      "ok": true,
-      "count": 31
     },
     "Tvornica": {
       "ok": true,
@@ -33,13 +33,13 @@
       "ok": true,
       "count": 0
     },
-    "Kerempuh": {
-      "ok": true,
-      "count": 0
-    },
     "HNK Zagreb": {
       "ok": true,
       "count": 100
+    },
+    "Kerempuh": {
+      "ok": true,
+      "count": 0
     },
     "Trešnja": {
       "ok": true,
@@ -47,21 +47,6 @@
     }
   },
   "concerts": [
-    {
-      "id": "d329c9e169",
-      "title": "William Shakespeare — Valentina Turcu — Gustav Mahler OTHELLO",
-      "venue": "HNK Zagreb",
-      "city": "Zagreb",
-      "country": "HR",
-      "category": "concert",
-      "date_iso": "2026-10-16T19:30:00",
-      "date_display": "pet, 16. 10. 2026.",
-      "time": "19:30",
-      "link": "https://hnk.hr/hr/balet/predstave/othello/#16.10.19.30",
-      "source": "HNK Zagreb",
-      "is_new": false,
-      "first_seen": "2026-07-02T13:01:26.613Z"
-    },
     {
       "id": "69f78bc9ad",
       "title": "House of Ambicía predstavlja: TRADICÍA: Djeve, Djevice i Djeveruše + Premijera dokumentarnog filma: “Više od nastupa: Drag ispod šminke”",
@@ -2989,36 +2974,6 @@
     }
   ],
   "theater": [
-    {
-      "id": "6a8ebf1ecc",
-      "title": "Espi Tomičić Budi uvijek kao zmaj",
-      "venue": "HNK Zagreb",
-      "city": "Zagreb",
-      "country": "HR",
-      "category": "theater",
-      "date_iso": "2026-10-16T19:30:00",
-      "date_display": "pet, 16. 10. 2026.",
-      "time": "19:30",
-      "link": "https://hnk.hr/hr/drama/predstave/budi-uvijek-kao-zmaj/#16.10.19.30",
-      "source": "HNK Zagreb",
-      "is_new": false,
-      "first_seen": "2026-07-02T14:01:25.801Z"
-    },
-    {
-      "id": "e483cc341d",
-      "title": "Espi Tomičić Budi uvijek kao zmaj Za navedeni termin predstave automatski su raspoređeni vlasnici pretplatničkih kartica HNK2 B sa sjedalima od 1. do",
-      "venue": "HNK Zagreb",
-      "city": "Zagreb",
-      "country": "HR",
-      "category": "theater",
-      "date_iso": "2026-10-16T19:30:00",
-      "date_display": "pet, 16. 10. 2026.",
-      "time": "19:30",
-      "link": "https://hnk.hr/hr/drama/predstave/budi-uvijek-kao-zmaj/#16.10.19.30",
-      "source": "HNK Zagreb",
-      "is_new": false,
-      "first_seen": "2026-10-01T09:01:20.039Z"
-    },
     {
       "id": "433d883696",
       "title": "Cyrano de Bergerac",
