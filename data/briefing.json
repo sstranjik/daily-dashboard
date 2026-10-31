@@ -1,15 +1,15 @@
 {
   "version": 2,
-  "date": "2026-10-30",
-  "generated_at": "2026-10-30T11:10:14.257Z",
-  "date_hr": "Petak, 30. listopada 2026.",
+  "date": "2026-10-31",
+  "generated_at": "2026-10-31T06:03:28.421Z",
+  "date_hr": "Subota, 31. listopada 2026.",
   "weather": {
-    "icon": "🌧️",
-    "summary": "9–13°C, lagana kiša",
+    "icon": "☁️",
+    "summary": "5–14°C, oblačno",
     "alerts": []
   },
   "fuel": {
-    "current_date": "30.10.2026",
+    "current_date": "31.10.2026",
     "eurodiesel": [
       {
         "company": "Adria Oil",
@@ -46,12 +46,12 @@
         "price": 2.13
       },
       {
-        "company": "Petrol",
+        "company": "Tifon",
         "price": 2.16
       },
       {
-        "company": "Tifon",
-        "price": 2.16
+        "company": "Petrol",
+        "price": 2.18
       },
       {
         "company": "Coral Croatia",
@@ -63,46 +63,46 @@
     "upcoming_premium": null
   },
   "market": {
-    "updated_at": "2026-10-30T11:10:14.257Z",
-    "btc_usd": 77663,
-    "btc_eur": 69343,
-    "btc_change_24h": -3.1,
-    "usd_eur": 0.8959
+    "updated_at": "2026-10-31T06:03:28.421Z",
+    "btc_usd": 77187,
+    "btc_eur": 68920,
+    "btc_change_24h": -1.63,
+    "usd_eur": 0.8956
   },
   "ai_news": [
     {
-      "title": "Wikipedia’s operator says a bad AI copyright ruling could threaten the open web",
-      "link": "https://www.theverge.com/policy/1022880/wikipedia-openai-new-york-times-copyright",
+      "title": "Cognizant puts 25,000 staff behind OpenAI, days after a Gemini push",
+      "link": "https://thenextweb.com/news/cognizant-openai-frontier-capability-group-25000",
+      "source": "The Next Web"
+    },
+    {
+      "title": "Last-minute Halloween costumes for tech nerds",
+      "link": "https://techcrunch.com/2026/10/30/last-minute-halloween-costumes-for-tech-nerds/",
+      "source": "TechCrunch AI"
+    },
+    {
+      "title": "The biggest names in AI are backing a new way to opt out of scraping",
+      "link": "https://www.theverge.com/tech/1023763/openai-google-microsoft-ai-scraping-standard-opt-out",
       "source": "The Verge"
     },
     {
-      "title": "Mistral releases open weights for its 1 trillion-parameter Large 4 model",
-      "link": "https://thenextweb.com/news/mistral-large-4-open-weights-release",
-      "source": "The Next Web"
+      "title": "Your Netgear router may be vulnerable to a security exploit – how to check and patch it",
+      "link": "https://www.zdnet.com/tech/netgear-routers-vulnerable-security-exploit/",
+      "source": "ZDNet"
     },
     {
-      "title": "Pluto Security details how a trust_remote_code download turns into malware",
-      "link": "https://thenextweb.com/news/pluto-security-hugging-face-trust-remote-code-cryptominer",
-      "source": "The Next Web"
-    },
-    {
-      "title": "Foxconn chairman says new OpenAI tie-up is in the works, Reuters reports",
-      "link": "https://thenextweb.com/news/foxconn-openai-new-tie-up-no-ai-bubble",
-      "source": "The Next Web"
-    },
-    {
-      "title": "Wikimedia asks court to rule AI training fair use, but not chatbot copying",
-      "link": "https://thenextweb.com/news/wikimedia-amicus-brief-openai-new-york-times-fair-use-rag",
-      "source": "The Next Web"
+      "title": "Prvo htjeli prepoloviti limite, pa onda udvostručili tokene pretplatnicima na ChatGPT Pro",
+      "link": "https://www.bug.hr/biznis/prvo-htjeli-prepoloviti-limite-pa-onda-udvostrucili-tokene-pretplatnicima-na-63955",
+      "source": "Bug.hr"
     }
   ],
   "micro_tips": {
     "vscode": {
-      "tip": "Quick Fix i Code Actions na trenutnoj poziciji",
-      "keys": "Ctrl+."
+      "tip": "Toggle integrirani terminal",
+      "keys": "Ctrl+`"
     },
-    "sql": "Window funkcije (ROW_NUMBER, LAG, LEAD) umjesto self-join za redosljed i razlike",
-    "oracle": "/*+ RESULT_CACHE */ cache-ira rezultat funkcije u SGA za ponovljene pozive",
-    "regex": ".+? lazy quantifier: stane na prvom mogućem podudaranju, ne zadnjem"
+    "sql": "EXPLAIN ANALYZE prikazuje stvarne vs procijenjene redove — ključno za tuning",
+    "oracle": "CONNECT BY LEVEL <= n generira broj redova bez pomoćne tablice",
+    "regex": "[^\\n]* svaki znak osim newline — dohvati cijelu liniju bez dotall flaga"
   }
 }
