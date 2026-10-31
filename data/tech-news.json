@@ -1,21 +1,345 @@
 {
-  "last_updated": "2026-10-30T21:44:29.928Z",
+  "last_updated": "2026-10-31T06:01:12.835Z",
   "source_count": 11,
   "items": [
     {
+      "id": "bug.hr-0",
+      "title": "Ne želite za laptop platiti više od 500 eura? Evo što možete dobiti za te novce!",
+      "summary": "U novom Bugu donosimo usporedbu pet ultrapristupačnih prijenosnika, inovativno all-in-one računalo Lenovo ThinkCentre X, recenziju vrhunskog gamerskog miša, upoznavanje s WSL Containers i posebni prilog o hrvatskom tržištu električnih automobila",
+      "link": "https://www.bug.hr/izdavastvo/ne-zelite-za-laptop-platiti-vise-od-500-eura-evo-sto-mozete-dobiti-za-te-novce-63980",
+      "published": "2026-10-31T05:30:00.000Z",
+      "source": "Bug.hr",
+      "category": "general",
+      "xml_category": "izdavaštvo",
+      "tags": [],
+      "image": "https://www.bug.hr/img/ne-zelite-za-laptop-platiti-vise-od-500-eura-evo-sto-mozete-dobiti-za-te-novce_H-Liju.png"
+    },
+    {
+      "id": "bug.hr-1",
+      "title": "WSL Containers (WSLC) - Kontejneri u Windowsima",
+      "summary": "Microsoft već godinama nastoji Windowse učiniti privlačnijim razvojnim inženjerima, a jedna od najvažnijih tehnologija u tom nastojanju postao je Windows Subsystem for Linux (WSL). On je nedavno proširen ugrađenom podrškom za Linux kontejnere, poznatom kao WSLC, pa se sada nameće pitanje koliko nam ",
+      "link": "https://www.bug.hr/softver/wsl-containers-wslc-kontejneri-u-windowsima-63877",
+      "published": "2026-10-31T05:30:00.000Z",
+      "source": "Bug.hr",
+      "category": "ai",
+      "xml_category": "softver",
+      "tags": [],
+      "image": "https://www.bug.hr/img/wsl-containers-wslc-kontejneri-u-windowsima_WdxY1r.png"
+    },
+    {
+      "id": "bug.hr-2",
+      "title": "Pametni vrt izrastao u izlagača na CES-u",
+      "summary": "Bugovo natjecanje poslovnih ideja Idea Knockout u svojem je trinaestom izdanju okupilo je 14 startup projekata, koji su se u finalnom događaju borili za priliku da svoj poslovni put započnu predstavljanjem na najvećoj svjetskoj tehnološkoj pozornici, sajmu potrošačke elektronike CES u Las Vegasu poč",
+      "link": "https://www.bug.hr/idea-knockout/pametni-vrt-izrastao-u-izlagaca-na-ces-u-63881",
+      "published": "2026-10-31T05:30:00.000Z",
+      "source": "Bug.hr",
+      "category": "general",
+      "xml_category": "idea knockout",
+      "tags": [],
+      "image": "https://www.bug.hr/img/pametni-vrt-izrastao-u-izlagaca-na-ces-u_bKxHWi.jpg"
+    },
+    {
+      "id": "bug.hr-3",
+      "title": "Laptopi do 500 eura",
+      "summary": "Tržište laptopa prepuno je krajnje impresivnih modela, koji svojim performansama obaraju rekorde, no prečesto zaboravljamo što se nalazi na drugom kraju spektra, odnosno kakvi su modeli u najnižem cjenovnom razredu. Istražili smo modele u cjenovnom razredu do 500 eura te izdvojili najzanimljivije me",
+      "link": "https://www.bug.hr/tema_broja/laptopi-do-500-eura-63916",
+      "published": "2026-10-31T05:30:00.000Z",
+      "source": "Bug.hr",
+      "category": "general",
+      "xml_category": "tema broja",
+      "tags": [],
+      "image": "https://www.bug.hr/img/laptopi-do-500-eura_I0DHFi.png"
+    },
+    {
+      "id": "bug.hr-4",
+      "title": "Asus Vivobook 15 X1504VA",
+      "summary": "Asusovi laptopi česti su gosti naše redakcije, a na ovom testu tog poznatog tajvanskog proizvođača predstavlja Vivobook 15, jednostavan, no moderan model kojemu je prioritet kvaliteta izrade, ali pritom ne zanemaruje ostale aspekte.",
+      "link": "https://www.bug.hr/tema_broja/asus-vivobook-15-x1504va-63917",
+      "published": "2026-10-31T05:30:00.000Z",
+      "source": "Bug.hr",
+      "category": "general",
+      "xml_category": "tema broja",
+      "tags": [],
+      "image": "https://www.bug.hr/img/asus-vivobook-15-x1504va_xRn6Wz.png"
+    },
+    {
+      "id": "bug.hr-5",
+      "title": "HP 250 R G10 D74XFET i HP 255 R G10 D74XGET",
+      "summary": "Iz HP-a nam dolaze braća blizanci u dvije hardverske konfiguracije. Jednu pokreće Intelov Core 5 120U, dok druga predstavlja tzv. \"crveni tim\" uz AMD-ov Ryzen 5 7520U. Iako je riječ o laptopima s prilično sličnim hardverskim konfiguracijama, između njih ipak postoje neke značajne razlike.",
+      "link": "https://www.bug.hr/tema_broja/hp-250-r-g10-d74xfet-i-hp-255-r-g10-d74xget-63919",
+      "published": "2026-10-31T05:30:00.000Z",
+      "source": "Bug.hr",
+      "category": "general",
+      "xml_category": "tema broja",
+      "tags": [],
+      "image": "https://www.bug.hr/img/hp-250-r-g10-d74xfet-i-hp-255-r-g10-d74xget_Ipbu0F.png"
+    },
+    {
+      "id": "bug.hr-6",
+      "title": "Lenovo IdeaPad Slim 3 82XQ01CTSC",
+      "summary": "Tražite li atraktivan laptop u cjenovnom razredu do 500 eura, Lenovo IdeaPad Slim 3 je neizostavan model. Tim modelom Lenovo je odlučio pokazati koliko je moguće ponuditi u nižem cjenovnom razredu, uz tek minimalne kompromise koji će većini kupaca biti gotovo beznačajni.",
+      "link": "https://www.bug.hr/tema_broja/lenovo-ideapad-slim-3-82xq01ctsc-63920",
+      "published": "2026-10-31T05:30:00.000Z",
+      "source": "Bug.hr",
+      "category": "general",
+      "xml_category": "tema broja",
+      "tags": [],
+      "image": "https://www.bug.hr/img/lenovo-ideapad-slim-3-82xq01ctsc_yrTncW.png"
+    },
+    {
+      "id": "bug.hr-7",
+      "title": "Lenovo V15 G4 82YU0100SC",
+      "summary": "U svijetu uredskih laptopa Lenovo je brend koji se obično prvi spominje, a modeli poput V15 G4 dobrim su dijelom razlog njegove popularnosti. Riječ je o jednostavnom, no modernom laptopu koji u fokus stavlja kvalitetu izrade i povezivost.",
+      "link": "https://www.bug.hr/tema_broja/lenovo-v15-g4-82yu0100sc-63921",
+      "published": "2026-10-31T05:30:00.000Z",
+      "source": "Bug.hr",
+      "category": "general",
+      "xml_category": "tema broja",
+      "tags": [],
+      "image": "https://www.bug.hr/img/lenovo-v15-g4-82yu0100sc_fIQkC0.png"
+    },
+    {
+      "id": "bug.hr-8",
+      "title": "Čišćenje tla od izlivene nafte lakše je nego što mislite",
+      "summary": "Mali dodatak nanočestica tlu može ne samo poboljšati njegovo čišćenje od ugljikovodika iz nafte nego i potaknuti rast biljaka",
+      "link": "https://www.bug.hr/kemija/ciscenje-tla-od-izlivene-nafte-lakse-je-nego-sto-mislite-63829",
+      "published": "2026-10-31T05:30:00.000Z",
+      "source": "Bug.hr",
+      "category": "general",
+      "xml_category": "kemija",
+      "tags": [],
+      "image": "https://www.bug.hr/img/ciscenje-tla-od-izlivene-nafte-lakse-je-nego-sto-mislite_9lJuih.jpg"
+    },
+    {
+      "id": "bug.hr-9",
+      "title": "MAN TGE 3.180 DoKa - Moderan suputnik na svakodnevnim poslovnim zadacima",
+      "summary": "Dvostruka kabina znači da se pored vozača mogu smjestiti dva suputnika te još njih četiri u drugom redu. S obzirom na to da prazan teži 2464 kg do najveće dopuštene mase od 3500 kg ostaje mu deklariranih 1036 kg nosivosti",
+      "link": "https://autonet.bug.hr/test/man-tge-3180-doka-moderan-suputnik-na-svakodnevnim-poslovnim-zadacima-63951",
+      "published": "2026-10-31T05:00:00.000Z",
+      "source": "Bug.hr",
+      "category": "general",
+      "xml_category": "test",
+      "tags": [],
+      "image": "https://autonet.bug.hr/img/man-tge-3180-doka-moderan-suputnik-na-svakodnevnim-poslovnim-zadacima_Uc7mqK.jpg"
+    },
+    {
+      "id": "bug.hr-10",
+      "title": "Dokumentarna serija o Matthewu Perryju otkriva cijenu smijeha na snimanju Prijatelja",
+      "summary": "Netflix prikazuje The One About Matthew Perry, dokumentarnu seriju u tri dijela o životu i nasljeđu glumca koji je utjelovio Chandlera Binga u Prijateljima",
+      "link": "https://magnet.bug.hr/film/dokumentarna-serija-o-matthewu-perryju-otkriva-cijenu-smijeha-na-snimanju-63975",
+      "published": "2026-10-31T05:00:00.000Z",
+      "source": "Bug.hr",
+      "category": "general",
+      "xml_category": "film",
+      "tags": [],
+      "image": "https://magnet.bug.hr/img/dokumentarna-serija-o-matthewu-perryju-otkriva-cijenu-smijeha-na-snimanju_bJfyd5.png"
+    },
+    {
+      "id": "bug.hr-11",
+      "title": "Kanada će se priključiti europskoj mreži superračunala",
+      "summary": "Uključivanje Kanade u mrežu superračunala Unije nadovezuje se na njezino prethodno sudjelovanje u programu Europske unije za istraživanje i razvoj Horizon Europe.",
+      "link": "https://mreza.bug.hr/eu/kanada-ce-se-prikljuciti-europskoj-mrezi-superracunala-63945",
+      "published": "2026-10-31T04:10:00.000Z",
+      "source": "Bug.hr",
+      "category": "general",
+      "xml_category": "eu",
+      "tags": [],
+      "image": "https://mreza.bug.hr/img/kanada-ce-se-prikljuciti-europskoj-mrezi-superracunala_Vtr6lu.jpg"
+    },
+    {
       "id": "techcrunch-ai-0",
+      "title": "Nvidia weighs playing the cosigner for Nscale’s AI data center in West Virginia",
+      "summary": "When investors get nervous about AI spending, it helps to have the chipmaker that sells the chips offer to cosign the loan.",
+      "link": "https://techcrunch.com/2026/10/30/nvidia-weighs-playing-the-cosigner-for-nscales-ai-data-center-in-west-virginia/",
+      "published": "2026-10-31T01:20:05.000Z",
+      "source": "TechCrunch AI",
+      "category": "ai",
+      "xml_category": "ai",
+      "tags": [],
+      "image": null
+    },
+    {
+      "id": "tportal-0",
+      "title": "Novo istraživanje: DeepSeek se poboljšava, ali i dalje ima velike sigurnosne probleme",
+      "summary": "Rizici dolaze od mogućnosti &#039;umanjenja&#039; sigurnosnih ograničenja, a istraživači upozoravaju na probleme u ponašanju autonomnih AI agenata i mogućnost uklanjanja zaštita koje bi im ograničile ovlasti pri obavljanju zadataka",
+      "link": "https://www.tportal.hr/tehno/clanak/novo-istrazivanje-deepseek-se-poboljsava-ali-i-dalje-ima-velike-sigurnosne-probleme-20261029",
+      "published": "2026-10-31T01:00:00.000Z",
+      "source": "Tportal",
+      "category": "general",
+      "xml_category": "tech",
+      "tags": [],
+      "image": "https://www.tportal.hr/media/thumbnail/500x300/2818604.jpeg?cropId=0"
+    },
+    {
+      "id": "bug.hr-12",
+      "title": "Odgovor bez adrese",
+      "summary": "AI tražilice odgovaraju sve sigurnije, provjerava ih sve manje ljudi, a izvora koje bi uopće mogle citirati svakim je danom manje…",
+      "link": "https://www.bug.hr/komentar/odgovor-bez-adrese-63896",
+      "published": "2026-10-31T00:13:00.000Z",
+      "source": "Bug.hr",
+      "category": "general",
+      "xml_category": "komentar",
+      "tags": [],
+      "image": "https://www.bug.hr/img/odgovor-bez-adrese_W9rRoP.png"
+    },
+    {
+      "id": "bug.hr-13",
+      "title": "Tehnološki giganti u slobodnom padu zbog golemih troškova umjetne inteligencije",
+      "summary": "Vrijednosti dionica Intela, Alphabeta i Nvidije značajno su pale na burzama. Investitori se pitaju kada će se stotine milijardi dolara uloženih u umjetnu inteligenciju napokon početi isplaćivati",
+      "link": "https://www.bug.hr/biznis/tehnoloski-giganti-u-slobodnom-padu-zbog-golemih-troskova-umjetne-inteligencije-63981",
+      "published": "2026-10-30T23:36:00.000Z",
+      "source": "Bug.hr",
+      "category": "general",
+      "xml_category": "biznis",
+      "tags": [],
+      "image": "https://www.bug.hr/img/tehnoloski-giganti-u-slobodnom-padu-zbog-golemih-troskova-umjetne-inteligencije_3smbQI.png"
+    },
+    {
+      "id": "bug.hr-14",
+      "title": "Zagrebačka ekipa virtualno leti oko svijeta i prikuplja donacije za Krijesnicu",
+      "summary": "Zagrebačka ekipa The Flight Rooma sudjelovat će u međunarodnoj inicijativi WorldFlight 2026, tijekom koje će u simulatoru Airbusa A320 virtualno letjeti oko svijeta i prikupljati donacije za Udrugu Krijesnica",
+      "link": "https://www.bug.hr/dogadjaji/zagrebacka-ekipa-virtualno-leti-oko-svijeta-i-prikuplja-donacije-za-krijesnicu-63973",
+      "published": "2026-10-30T23:36:00.000Z",
+      "source": "Bug.hr",
+      "category": "general",
+      "xml_category": "događaji",
+      "tags": [],
+      "image": "https://www.bug.hr/img/zagrebacka-ekipa-virtualno-leti-oko-svijeta-i-prikuplja-donacije-za-krijesnicu_4zy_IU.jpeg"
+    },
+    {
+      "id": "the-next-web-0",
+      "title": "Apple confirms its AI features reach China in December, with Qwen",
+      "summary": "Apple says its first Apple Intelligence features will launch in China with iOS 27.3 in December, with a developer beta from 4 November. Alibaba’s Qwen model will work inside Siri, Writing Tools and Visual Intelligence. Siri AI and Apple’s newest features are not included. Apple will launch its first",
+      "link": "https://thenextweb.com/news/apple-intelligence-china-ios-27-3-alibaba-qwen",
+      "published": "2026-10-30T23:24:25.000Z",
+      "source": "The Next Web",
+      "category": "ai",
+      "xml_category": "apple",
+      "tags": [],
+      "image": "https://media.thenextweb.com/2026/10/apple-intelligence-china-iphone-18-pro-genmoji-siri-mail.avif"
+    },
+    {
+      "id": "the-next-web-1",
+      "title": "Databricks and SAP expand their deal to put AI on SAP data",
+      "summary": "Databricks and SAP are expanding their partnership, with Genie, Lakeflow, Unity Gateway and Lakebase coming to SAP Databricks. SAP’s new Application Data Foundation will make data from its business software easier to reach. No release dates were given. Databricks is bringing more of its AI and data ",
+      "link": "https://thenextweb.com/news/databricks-and-sap-expand-their-deal-to-put-ai-on-sap-data",
+      "published": "2026-10-30T23:12:34.000Z",
+      "source": "The Next Web",
+      "category": "ai",
+      "xml_category": "artificial intelligence",
+      "tags": [],
+      "image": "https://media.thenextweb.com/2026/10/databricks-booth-staff-logo-table.avif"
+    },
+    {
+      "id": "techcrunch-ai-1",
+      "title": "Ollie, a privacy-focused AI assistant, is shutting down",
+      "summary": "As an increasing number of AI assistants flood the market, the founder of Ollie, an assistant that respected its users' privacy, says it will be shutting down in a week.",
+      "link": "https://techcrunch.com/2026/10/30/ollie-a-privacy-focused-ai-assistant-is-shutting-down/",
+      "published": "2026-10-30T22:56:13.000Z",
+      "source": "TechCrunch AI",
+      "category": "ai",
+      "xml_category": "ai",
+      "tags": [],
+      "image": null
+    },
+    {
+      "id": "the-next-web-2",
+      "title": "S&P turns negative on Meta as AI spending eats into its cash",
+      "summary": "S&P lowered the outlook on Meta’s AA- credit rating to negative from stable, citing heavy AI spending. It expects Meta’s leverage to rise above 1.0x as soon as 2027, from about 0.1x last year. Meta says it disagrees. S&P Global Ratings has cut its outlook on Meta’s AA- credit rating to negative from",
+      "link": "https://thenextweb.com/news/meta-sp-outlook-negative-ai-spending",
+      "published": "2026-10-30T22:51:07.000Z",
+      "source": "The Next Web",
+      "category": "ai",
+      "xml_category": "artificial intelligence",
+      "tags": [],
+      "image": "https://media.thenextweb.com/2026/10/meta-3d-logo-blue-gradient-background.avif"
+    },
+    {
+      "id": "tportal-1",
+      "title": "Drevni užas koji je oblikovao čovjeka: Golemi grabežljivci otimali su djecu",
+      "summary": "Prije nekoliko milijuna godina naši preci nisu bili gospodari prirode, nego plijen brojnih grabežljivaca. Među najopasnijima bile su goleme ptice koje su napadale iz zraka, a neke su mogle odnijeti i malu djecu. Znanstvenici danas smatraju da je strah od tih predatora mogao imati važnu ulogu u evolu",
+      "link": "https://www.tportal.hr/tehno/clanak/drevni-uzas-koji-je-oblikovao-covjeka-golemi-grabezljivci-otimali-su-djecu-20261030",
+      "published": "2026-10-30T22:41:00.000Z",
+      "source": "Tportal",
+      "category": "general",
+      "xml_category": "tech",
+      "tags": [],
+      "image": "https://www.tportal.hr/media/thumbnail/500x300/2819839.jpeg?cropId=0"
+    },
+    {
+      "id": "the-verge-0",
+      "title": "Apple Intelligence is finally coming to China with iOS 27.3",
+      "summary": "Apple will launch Apple Intelligence in China with iOS 27.3, the company announced on its Chinese newsroom website, as reported by MacRumors. The Apple Intelligence features will be available first in an iOS 27.3 beta that's set to launch on November 4th, with a full iOS 27.3 release scheduled for D",
+      "link": "https://www.theverge.com/tech/1023974/apple-intelligence-china-ios-27-3",
+      "published": "2026-10-30T22:32:53.000Z",
+      "source": "The Verge",
+      "category": "tech",
+      "xml_category": "[object object]",
+      "tags": [],
+      "image": null
+    },
+    {
+      "id": "the-next-web-3",
+      "title": "Amazon can now borrow up to $80B against the AI hardware it buys",
+      "summary": "Amazon has set up a supplier financing facility to borrow up to $80B against the hardware it buys, usable from 2027 to late 2028. It had a $42.4B free cash outflow in the year to September, and its spending commitments reached $883B. Amazon has set up a loan facility that lets it borrow up to [&hell",
+      "link": "https://thenextweb.com/news/amazon-80b-supplier-loan-facility-ai-hardware",
+      "published": "2026-10-30T22:32:26.000Z",
+      "source": "The Next Web",
+      "category": "ai",
+      "xml_category": "amazon",
+      "tags": [],
+      "image": "https://media.thenextweb.com/2026/10/amazon-kindle-back-logo-dark-desk.avif"
+    },
+    {
+      "id": "the-next-web-4",
+      "title": "Big Tech has now committed more than $3 trillion to the AI build-out",
+      "summary": "Alphabet, Meta, Microsoft, Amazon and Oracle have committed more than $3T to future spending on data centres, leases, equipment and energy, Bloomberg reports. Alphabet leads with more than $1T, followed by Meta with over $800B. Some of the leases run for 30 years. Five tech giants have lined up more",
+      "link": "https://thenextweb.com/news/big-tech-3-trillion-ai-spending-commitments",
+      "published": "2026-10-30T22:15:34.000Z",
+      "source": "The Next Web",
+      "category": "ai",
+      "xml_category": "amazon",
+      "tags": [],
+      "image": "https://media.thenextweb.com/2026/10/ai-microchip-green-pastel-reflective-surface.avif"
+    },
+    {
+      "id": "techcrunch-ai-2",
+      "title": "Intel&#8217;s stock crashes, knocking $12B from government&#8217;s stake",
+      "summary": "Intel is being hurt by PC sales as the AI industry gobbles memory and other components causing PC prices to rise.",
+      "link": "https://techcrunch.com/2026/10/30/intels-stock-crashes-knocking-12b-from-governments-stake/",
+      "published": "2026-10-30T21:54:34.000Z",
+      "source": "TechCrunch AI",
+      "category": "economy",
+      "xml_category": "ai",
+      "tags": [],
+      "image": null
+    },
+    {
+      "id": "techcrunch-ai-3",
+      "title": "Anthropic expected to receive high &#8216;junk&#8217; rating from credit agencies following IPO, FT report says",
+      "summary": "Blackstone's forecast is just a prediction, but naturally, a high junk rating would make it more difficult and costlier for Anthropic to raise the money to keep funding its massive spending that has undergirded its business.",
+      "link": "https://techcrunch.com/2026/10/30/anthropic-expected-to-receive-high-junk-rating-from-credit-agencies-following-ipo-report-says/",
+      "published": "2026-10-30T21:52:03.000Z",
+      "source": "TechCrunch AI",
+      "category": "ai",
+      "xml_category": "ai",
+      "tags": [],
+      "image": null
+    },
+    {
+      "id": "techcrunch-ai-4",
       "title": "Last-minute Halloween costumes for tech nerds",
       "summary": "No Halloween costume? Just be a deceptively cute AI agent icon, a PHP vulnerability, or sleepy time Bryan Johnson.",
       "link": "https://techcrunch.com/2026/10/30/last-minute-halloween-costumes-for-tech-nerds/",
       "published": "2026-10-30T21:26:59.000Z",
       "source": "TechCrunch AI",
       "category": "tech",
-      "xml_category": "ai",
+      "xml_category": "tc",
       "tags": [],
       "image": null
     },
     {
-      "id": "techcrunch-ai-1",
+      "id": "techcrunch-ai-5",
       "title": "Cracks are emerging in the AI spending boom",
       "summary": "Big Tech is pouring billions into AI infrastructure, but mounting debt, negative cash flow, and growing investor skepticism are raising questions about the sustainability of the AI spending boom.",
       "link": "https://techcrunch.com/2026/10/30/cracks-are-emerging-in-the-ai-spending-boom/",
@@ -27,7 +351,19 @@
       "image": null
     },
     {
-      "id": "the-verge-0",
+      "id": "ars-technica-0",
+      "title": "Anthropic VS code extension on Cursor backdoored for nearly 12 hours",
+      "summary": "It's still unknown how attackers got access to Anthropic's verified Cursor account.",
+      "link": "https://arstechnica.com/security/2026/10/anthropic-vs-code-extension-on-cursor-backdoored-for-nearly-12-hours/",
+      "published": "2026-10-30T21:09:54.000Z",
+      "source": "Ars Technica",
+      "category": "ai",
+      "xml_category": "ai",
+      "tags": [],
+      "image": "https://cdn.arstechnica.net/wp-content/uploads/2022/05/caution-tape-1000x648.jpeg"
+    },
+    {
+      "id": "the-verge-1",
       "title": "Exclusive details about Akai’s MPC Sample Key",
       "summary": "Akai teased its new MPC Sample Key on Instagram earlier this week, and said it plans to open-source its software so the modding community can hack it to their hearts' delight. While there's no word yet on when the device will launch or how much it will cost, The Verge has received exclusive images o",
       "link": "https://www.theverge.com/gadgets/1023649/akai-mpc-sample-key-exclusive",
@@ -39,7 +375,7 @@
       "image": null
     },
     {
-      "id": "the-verge-1",
+      "id": "the-verge-2",
       "title": "Sam Altman says it’s better for RAM to be in a data center than on your desk",
       "summary": "Asked about supply chain shortages, like the ongoing RAM shortage, OpenAI CEO Sam Altman said in an interview that it's \"terrible\" to have RAM in personal PCs instead of data centers. During his appearance on the Cheeky Pint podcast, where he also commented on AI's impact on math, Altman said: \"A lo",
       "link": "https://www.theverge.com/ai-artificial-intelligence/1023820/sam-altman-ram-shortage-cloud-servers",
@@ -51,7 +387,7 @@
       "image": null
     },
     {
-      "id": "the-verge-2",
+      "id": "the-verge-3",
       "title": "The biggest names in AI are backing a new way to opt out of scraping",
       "summary": "OpenAI, Google, Microsoft, and Anthropic say they will adopt a new standard that publishers can use to opt out of being scraped by AI, as reported earlier by Search Engine Roundtable. With this control, publishers can apply their AI training preferences across multiple AI companies, instead of setti",
       "link": "https://www.theverge.com/tech/1023763/openai-google-microsoft-ai-scraping-standard-opt-out",
@@ -63,7 +399,7 @@
       "image": null
     },
     {
-      "id": "tportal-0",
+      "id": "tportal-2",
       "title": "Potresno otkriće u Europi: Bolesti, neplaćen rad i strah od otkaza na gradilištima giganata",
       "summary": "Teške ozljede na radu, prenapučen smještaj, neplaćeni prekovremeni sati i strah od gubitka posla: iza ubrzane izgradnje europskih podatkovnih centara, ključnih za razvoj umjetne inteligencije, kriju se ozbiljni problemi s radničkim pravima. Petomjesečno istraživanje Guardiana i novinarske organizaci",
       "link": "https://www.tportal.hr/tehno/clanak/data-centri-europa-20261029",
@@ -75,7 +411,7 @@
       "image": "https://www.tportal.hr/media/thumbnail/500x300/2819599.jpeg?cropId=0"
     },
     {
-      "id": "the-verge-3",
+      "id": "the-verge-4",
       "title": "Google&#8217;s satellite AI server transmits its first response to Earth",
       "summary": "Google's AI chip-equipped satellite has generated its first response from space. In a blog post on Friday, Google says it successfully booted up the satellite's Tensor Processing Units (TPUs), allowing the on-board Gemma 4 model to follow through on a prompt to create a haiku about being in space: B",
       "link": "https://www.theverge.com/tech/1023528/google-project-suncatcher-ai-satellite-transmission",
@@ -87,7 +423,7 @@
       "image": null
     },
     {
-      "id": "bug.hr-0",
+      "id": "bug.hr-15",
       "title": "Harley-Davidsonova električna marka LiveWire je pred gašenjem",
       "summary": "Proizvođač električnih motocikala LiveWire povukao je financijske prognoze i osnovao odbor za restrukturiranje nakon što su pad novčanih rezervi i gubici doveli u pitanje daljnji rad tvrtke",
       "link": "https://autonet.bug.hr/elektricna-vozila/harley-davidsonova-elektricna-marka-livewire-je-pred-gasenjem-63960",
@@ -111,7 +447,7 @@
       "image": "https://www.zdnet.com/wp-content/uploads/sites/3/a17hero_14a4bb.jpg"
     },
     {
-      "id": "the-next-web-0",
+      "id": "the-next-web-5",
       "title": "Cognizant puts 25,000 staff behind OpenAI, days after a Gemini push",
       "summary": "Cognizant formed an OpenAI Frontier Capability Group of more than 25,000 staff to deploy Codex and ChatGPT for clients. It will focus on software engineering, updating old systems and customer service. The move comes 11 days after Cognizant put 18,000 staff behind Google’s Gemini. Cognizant has form",
       "link": "https://thenextweb.com/news/cognizant-openai-frontier-capability-group-25000",
@@ -123,7 +459,7 @@
       "image": "https://media.thenextweb.com/2026/10/openai-about-page-laptop-screen-close-up.avif"
     },
     {
-      "id": "techcrunch-ai-2",
+      "id": "techcrunch-ai-6",
       "title": "Zest&#8217;s new AI agent finds restaurants and books reservations over text",
       "summary": "Can't agree on where to eat? Zest's AI concierge can combine everyone's tastes, put restaurant options to a vote, and make the reservation.",
       "link": "https://techcrunch.com/2026/10/30/zests-new-ai-agent-finds-restaurants-and-books-reservations-over-text/",
@@ -135,7 +471,7 @@
       "image": null
     },
     {
-      "id": "the-verge-4",
+      "id": "the-verge-5",
       "title": "Starbucks wants to use AI to show you a ‘personalized digital menu’ at the drive-thru",
       "summary": "Starbucks could eventually show you a personalized digital menu when you pull up to the drive-thru. During an earnings call on Thursday, Starbucks CEO Brian Niccol said the company is going to explore \"experiences that recognize participating customers as they arrive, present personalized digital me",
       "link": "https://www.theverge.com/ai-artificial-intelligence/1023440/starbucks-ai-personalized-menu-drive-thru",
@@ -159,7 +495,7 @@
       "image": "https://www.zdnet.com/wp-content/uploads/sites/3/dsc00152.jpg"
     },
     {
-      "id": "the-verge-5",
+      "id": "the-verge-6",
       "title": "The delightfully messy state of Apple gadgets",
       "summary": "The iPhone has more screens! The MacBook has a touchscreen! The HomeView does CarPlay apps! For the first time in a long time, Apple is in a period of unabashed gadget experimentation, and while the final results aren't always perfect, it's fun to watch the most successful product maker try some new",
       "link": "https://www.theverge.com/podcast/1023194/the-delightfully-messy-state-of-apple-gadgets",
@@ -183,7 +519,7 @@
       "image": "https://www.zdnet.com/wp-content/uploads/sites/3/Echo-Show-16-Features-Alexa-Home-1920x1080-1.png"
     },
     {
-      "id": "the-verge-6",
+      "id": "the-verge-7",
       "title": "Rivian’s autonomy gamble faces its first real test",
       "summary": "During an hourlong earnings call last night, Rivian CEO RJ Scaringe spent less time talking about the production ramp of the all-important R2 SUV than he did hyping the company's still-unproven autonomous vehicle ambitions. But the company faces a crucial test later this year, when it rolls out its ",
       "link": "https://www.theverge.com/transportation/1023143/rivian-autonomy-point-to-point-robotaxi-q3-2026",
@@ -195,7 +531,7 @@
       "image": null
     },
     {
-      "id": "the-next-web-1",
+      "id": "the-next-web-6",
       "title": "New York bans AI chatbots from pretending to be human with children",
       "summary": "New York has banned AI chatbots from pretending to be human with children. Bots also may not build emotional dependency, encourage self-harm or hold sexual conversations with them. Governor Kathy Hochul signed the law on Wednesday, with a second law on baby monitor security. The banned features are ",
       "link": "https://thenextweb.com/news/new-york-ai-chatbots-children-law-hochul-baby-monitors",
@@ -207,7 +543,7 @@
       "image": "https://media.thenextweb.com/2026/10/kathy-hochul-wes-moore-nga-press-conference-2026.avif"
     },
     {
-      "id": "tportal-1",
+      "id": "tportal-3",
       "title": "Uspjeh i pad Binancea obilježili skandali: Jedan od lidera u kripto svijetu ima burnu prošlost",
       "summary": "Iako je kršila sankcije i trgovala bez odgovarajućih dozvola, kontroverzna tvrtka dosad je uspjela preživjeti ne samo slomove tržišta, već i niz tužbi američkih i drugih vlasti",
       "link": "https://www.tportal.hr/tehno/clanak/uspjeh-i-pad-binancea-obiljezili-skandali-jedan-od-lidera-u-kripto-svijetu-ima-burnu-proslost-20261030",
@@ -219,7 +555,7 @@
       "image": "https://www.tportal.hr/media/thumbnail/500x300/2819904.png?cropId=0"
     },
     {
-      "id": "bug.hr-1",
+      "id": "bug.hr-16",
       "title": "Google omogućio izradu i uređivanje dokumenata izravno unutar Geminija",
       "summary": "Korisnici Geminija po novome mogu izrađivati prezentacije, pregledati njezin sadržaj i zatražiti izmjene prije preuzimanja",
       "link": "https://www.bug.hr/umjetna-inteligencija/google-omogucio-izradu-i-uredjivanje-dokumenata-izravno-unutar-geminija-63962",
@@ -231,7 +567,7 @@
       "image": "https://www.bug.hr/img/google-omogucio-izradu-i-uredjivanje-dokumenata-izravno-unutar-geminija_Rb55sa.jpg"
     },
     {
-      "id": "the-verge-7",
+      "id": "the-verge-8",
       "title": "Vizio’s discounted Mini LED TV lets you skip the sign-ups and smarts",
       "summary": "Modern smart TVs let you skip the streaming device, which is convenient, but they also come with their own issues, including privacy concerns and frequent updates. The Vizio Mini LED Quantum TV lets you cut out the rigamarole and just get straight to the HDMI ports. And right now, it’s discounted at",
       "link": "https://www.theverge.com/gadgets/1022794/vizio-mini-led-quantum-tv-65-inch-walmart-deal-sale",
@@ -243,7 +579,7 @@
       "image": null
     },
     {
-      "id": "the-next-web-2",
+      "id": "the-next-web-7",
       "title": "TBC launches Mischief, an AI video model shaped by brain cells",
       "summary": "San Francisco’s Biological Computing Co. released TBC Mischief 1, an image-to-video model built on Wan 2.2. It says insights from living neurons make it about five times faster at the same quality, priced at $0.005 per second of video. It has not published independent benchmarks. San Francisco start",
       "link": "https://thenextweb.com/news/tbc-mischief-neuron-derived-ai-video-model",
@@ -255,7 +591,7 @@
       "image": "https://media.thenextweb.com/2026/10/ai-orange-neon-sign-dark-circuit-wall.avif"
     },
     {
-      "id": "techcrunch-ai-3",
+      "id": "techcrunch-ai-7",
       "title": "Google&#8217;s first data center satellite is online and writing poetry",
       "summary": "The first TPU in space is running a Google DeepMind Gemma 4 model and writing cheesy poetry.",
       "link": "https://techcrunch.com/2026/10/30/googles-first-data-center-satellite-is-online-and-writing-poetry/",
@@ -279,7 +615,7 @@
       "image": "https://www.zdnet.com/wp-content/uploads/sites/3/wirelessred-GettyImages-865321186.jpg"
     },
     {
-      "id": "the-next-web-3",
+      "id": "the-next-web-8",
       "title": "Proton to re-interview staff on AI, with jobs at stake, 404 Media reports",
       "summary": "Proton, the Swiss company behind Proton Mail, will “re-interview” some of its staff about how they use AI at work. The results may affect who keeps their job. Internal messages show chief executive Andy Yen telling engineers to stop hand-writing code and use AI instead, 404 Media reported. Joseph Co",
       "link": "https://thenextweb.com/news/proton-ai-re-interviews-staff-andy-yen-404-media",
@@ -291,7 +627,7 @@
       "image": "https://media.thenextweb.com/2026/10/andy-yen-proton-web-summit-2021.avif"
     },
     {
-      "id": "bug.hr-2",
+      "id": "bug.hr-17",
       "title": "Span raste na stranim tržištima: prihodi skočili 26 posto",
       "summary": "Grupa je u prvih devet mjeseci ostvarila 228 milijuna eura prihoda. Najveći rast bilježe Poljska i Ukrajina, dok su ulaganja u širenje smanjila EBITDA-u i neto dobit",
       "link": "https://www.bug.hr/biznis/span-raste-na-stranim-trzistima-prihodi-skocili-26-posto-63978",
@@ -303,7 +639,7 @@
       "image": "https://www.bug.hr/img/span-raste-na-stranim-trzistima-prihodi-skocili-26-posto_a11TVI.jpg"
     },
     {
-      "id": "the-next-web-4",
+      "id": "the-next-web-9",
       "title": "Joshua Kushner’s Thrive Holdings agrees to buy ADT for $7.6bn in cash",
       "summary": "Thrive Holdings, the holding company set up by Joshua Kushner’s Thrive Capital, has agreed to buy ADT for $10 a share in cash. ADT sells home security systems in the US. The deal values ADT at about $7.6bn in equity and $15.3bn in enterprise value. The price is a 45.6% premium to ADT’s close of [&he",
       "link": "https://thenextweb.com/news/thrive-holdings-acquires-adt-7-6bn-kushner",
@@ -339,7 +675,7 @@
       "image": "https://media.thenextweb.com/2026/10/dario-amodei-fortune-brainstorm-tech-2023.avif"
     },
     {
-      "id": "bug.hr-3",
+      "id": "bug.hr-18",
       "title": "Reddit se sprema prisiliti korisnike na obveznu prijavu",
       "summary": "Oko sadržaja na Redditu bit će podignuta neka vrsta nove barijere koja ograničava ono što neregistrirani korisnici mogu vidjeti. Ne samo na mobitelima, već i na stolnim računalima.",
       "link": "https://mreza.bug.hr/drustvene-mreze/reddit-se-sprema-prisiliti-korisnike-na-obveznu-prijavu-63974",
@@ -351,7 +687,7 @@
       "image": "https://mreza.bug.hr/img/reddit-se-sprema-prisiliti-korisnike-na-obveznu-prijavu_S09cHj.jpg"
     },
     {
-      "id": "bug.hr-4",
+      "id": "bug.hr-19",
       "title": "Apple je navodno žrtvovao kontrolu kvalitete iPhonea Duo zbog veće proizvodnje",
       "summary": "Prema tvrdnjama zaposlenika Foxconna, Apple je ublažio određene standarde kontrole kvalitete kako bi povećao proizvodnju iPhonea Duo uoči blagdana",
       "link": "https://www.bug.hr/mobiteli/apple-je-navodno-zrtvovao-kontrolu-kvalitete-iphonea-duo-zbog-vece-proizvodnje-63965",
@@ -411,7 +747,7 @@
       "image": "https://www.zdnet.com/wp-content/uploads/sites/3/1_341369.jpg"
     },
     {
-      "id": "tportal-2",
+      "id": "tportal-4",
       "title": "Astronomi zabilježili neviđeni kozmički fenomen: Evo što se dogodilo u samo četiri minute",
       "summary": "Astronomi su zabilježili neobičan kozmički događaj koji bi mogao promijeniti dosadašnje razumijevanje jednih od najenergetskijih pojava u svemiru",
       "link": "https://www.tportal.hr/tehno/clanak/astronomi-zabiljezili-nevideni-kozmicki-fenomen-evo-sto-se-dogodilo-u-samo-cetiri-minute-20261030",
@@ -447,7 +783,7 @@
       "image": "https://media.thenextweb.com/2026/10/cognition-logo-code-illustration.avif"
     },
     {
-      "id": "techcrunch-ai-4",
+      "id": "techcrunch-ai-8",
       "title": "Theranos whistleblower Tyler Shultz warns that the AI boom is &#8216;a great opportunity to go deceive people&#8217;",
       "summary": "The cautionary Theranos tale takes on a new significance in the AI era, when companies that have never turned a profit are raising capital at trillion-dollar valuations.",
       "link": "https://techcrunch.com/2026/10/30/theranos-whistleblower-tyler-shultz-warns-that-the-ai-boom-is-a-great-opportunity-to-go-deceive-people/",
@@ -495,7 +831,7 @@
       "image": "https://media.thenextweb.com/2026/10/european-parliament-brussels-facade-eu-flag.avif"
     },
     {
-      "id": "the-verge-8",
+      "id": "the-verge-9",
       "title": "Google’s latest Nest Learning Thermostat is $60 off just in time for sweater weather",
       "summary": "As the weather cools, it may be worth investing in a smart thermostat to help lower your energy bills. Right now, Google&#8217;s fourth-gen Nest Learning Thermostat is on sale in all three colors for $219.99 ($60 off) at Amazon, Best Buy, and The Home Depot, matching its best price of the year and j",
       "link": "https://www.theverge.com/gadgets/1022819/google-nest-learning-thermostat-4th-gen-casio-ws-b1000-watch-deal-sale",
@@ -591,7 +927,7 @@
       "image": "https://media.thenextweb.com/2026/10/elon-musk-world-economic-forum-davos-2026-stage.avif"
     },
     {
-      "id": "tportal-3",
+      "id": "tportal-5",
       "title": "Ostavite mobitele po strani: Probrali smo pet odličnih horor društvenih igara",
       "summary": "Zabavite se uz našu pomno izabranu kolekciju tematskih horor igara stvorenih za dobru zabavu i dobrodošao bijeg od sveprisutnih ekrana",
       "link": "https://www.tportal.hr/tehno/clanak/cudovista-zombiji-i-drevni-bogovi-izabrali-smo-pet-igara-za-noc-punu-strave-i-zabave-20261030",
@@ -603,7 +939,7 @@
       "image": "https://www.tportal.hr/media/thumbnail/500x300/2819869.png?cropId=0"
     },
     {
-      "id": "techcrunch-ai-5",
+      "id": "techcrunch-ai-9",
       "title": "Skip the small talk: Make game-changing connections at TechCrunch Founder Summit with Braindate",
       "summary": "At TechCrunch Founder Summit 2026, happening November 4 at SoWa Power Station in Boston, networking powered by Braindate is designed to make those conversations easier to find, whether they are in 1:1 or small-group on-site meetings. Register before the event starts to save up to $100 on your pass, ",
       "link": "https://techcrunch.com/2026/10/30/skip-the-small-talk-make-game-changing-connections-at-techcrunch-founder-summit-with-braindate/",
@@ -615,7 +951,7 @@
       "image": null
     },
     {
-      "id": "tportal-4",
+      "id": "tportal-6",
       "title": "Tportalov izbor: Usudite li se? Ovo je pet horor igara koje vrijedi zaigrati",
       "summary": "Halloween je sve bliži, a mi smo iskoristili priliku i izabrali pet najboljih horor igara koje jednostavno morate zaigrati... ako ste dovoljno hrabri",
       "link": "https://www.tportal.hr/tehno/clanak/tportalov-izbor-usudite-li-se-ovo-je-pet-horor-igara-koje-vrijedi-zaigrati-20261030",
@@ -627,7 +963,7 @@
       "image": "https://www.tportal.hr/media/thumbnail/500x300/2819891.jpeg?cropId=0"
     },
     {
-      "id": "techcrunch-ai-6",
+      "id": "techcrunch-ai-10",
       "title": "DoorDash said it&#8217;s only received &#8216;several hundred&#8217; orders from AI agents",
       "summary": "DoorDash said that it is open to working with third-party agent makers.",
       "link": "https://techcrunch.com/2026/10/30/doordash-said-its-only-received-several-hundred-orders-from-ai-agents/",
@@ -711,7 +1047,7 @@
       "image": null
     },
     {
-      "id": "techcrunch-ai-7",
+      "id": "techcrunch-ai-11",
       "title": "5 days left: Your last chance to connect, scale, and save at TechCrunch Founder Summit 2026",
       "summary": "5 days to save up to $100, plus a second pass for free to TechCrunch Founder Summit 2026 in Boston on November 4. Register now.",
       "link": "https://techcrunch.com/2026/10/30/5-days-left-your-last-chance-to-connect-scale-and-save-at-techcrunch-founder-summit-2026/",
@@ -723,7 +1059,7 @@
       "image": null
     },
     {
-      "id": "techcrunch-ai-8",
+      "id": "techcrunch-ai-12",
       "title": "Can AI data centers be mass-produced like cars? This startup aims to find out",
       "summary": "Runware is building a factory to turn out prefabricated AI data centers on an assembly line. The real test will be whether it can deliver at that scale.",
       "link": "https://techcrunch.com/2026/10/30/can-ai-data-centers-be-mass-produced-like-cars-and-online-in-48-hours-this-startup-aims-to-find-out/",
@@ -939,7 +1275,7 @@
       "image": "https://www.netokracija.com/wp-content/uploads/2026/10/Horor-price-2026-300x169.jpg"
     },
     {
-      "id": "tportal-5",
+      "id": "tportal-7",
       "title": "GTA 6 stiže, ali prvo ćete morati napraviti mjesta: Otkriveno koliko prostora zauzima",
       "summary": "Standardno izdanje nove Rockstarove igre zahtijevat će 210 GB prostora na disku konzole. Predučitavanje počinje 12. studenoga, a igra izlazi 19. studenoga za PlayStation 5 i Xbox Series X/S",
       "link": "https://www.tportal.hr/tehno/clanak/gta-6-stize-ali-prvo-cete-morati-napraviti-mjesta-otkriveno-koliko-prostora-zauzima-20261030",
@@ -1047,7 +1383,7 @@
       "image": "https://www.netokracija.com/wp-content/uploads/2026/10/Horor-price-2026-2-300x169.jpg"
     },
     {
-      "id": "tportal-6",
+      "id": "tportal-8",
       "title": "Je li Google potajno povezao vaš korisnički račun s brojem telefona? Pogledajte kako to provjeriti",
       "summary": "Ako ste na svom Androidu prijavljeni na osobni, poslovni i privremeni račun, Google je možda tiho verificirao i povezao vaš broj sa svima njima, čak i ako ste ih namjerno držali odvojenima",
       "link": "https://www.tportal.hr/tehno/clanak/je-li-google-potajno-povezao-vas-korisnicki-racun-s-brojem-telefona-provjerite-20261028",
@@ -1083,7 +1419,7 @@
       "image": "https://media.thenextweb.com/2026/10/binance-logo-yellow-diamond-pattern.avif"
     },
     {
-      "id": "tportal-7",
+      "id": "tportal-9",
       "title": "Kliknuli ste na sumnjiv link? Evo što treba napraviti odmah",
       "summary": "Dogodilo se. Kliknuli ste poveznicu koja vam je sekundu kasnije postala sumnjiva. Možda ste samo otvorili stranicu, možda upisali lozinku, a možda i podatke kartice. Najgore što sada možete napraviti jest izgubiti vrijeme na paniku – jer nije svaka situacija jednako ozbiljna, ali u nekima treba reag",
       "link": "https://www.tportal.hr/tehno/clanak/kliknuli-ste-na-sumnjiv-link-evo-sto-treba-napraviti-odmah-20261030",
@@ -1131,7 +1467,7 @@
       "image": "https://www.bug.hr/img/teske-su-tek-nekoliko-grama-a-kriju-tehnologiju-kakvu-donedavno-nismo-mogli_bmXx0G.jpg"
     },
     {
-      "id": "tportal-8",
+      "id": "tportal-10",
       "title": "Neptun skriva tajnu staru 4,5 milijardi godina: Astronomi imaju novu teoriju",
       "summary": "Najnovija studija nalaže da je jedan od tih planeta nastao puno bliže Suncu",
       "link": "https://www.tportal.hr/tehno/clanak/neptun-skriva-tajnu-staru-4-5-milijardi-godina-astronomi-imaju-novu-teoriju-20261028",
@@ -1167,7 +1503,7 @@
       "image": "https://www.bug.hr/img/mjerac-brzine-interneta-u-windowsima-korak-je-blize-javnoj-dostupnosti_z-Y0Tu.jpg"
     },
     {
-      "id": "tportal-9",
+      "id": "tportal-11",
       "title": "Android Auto sam svira i kad to ne želite? Pogledajte kako ga zaustaviti",
       "summary": "Prije je rješavanje ovog problema bilo prilično složeno i zahtijevalo je niz zaobilaznih rješenja. Danas je često dovoljno samo promijeniti jednu postavku",
       "link": "https://www.tportal.hr/tehno/clanak/android-auto-sam-svira-i-kad-to-ne-zelite-evo-kako-ga-zaustaviti-20261028",
@@ -1201,234 +1537,6 @@
       "xml_category": "pametni satovi",
       "tags": [],
       "image": "https://www.bug.hr/img/samsung-poboljsao-otkrivanje-apneje-tijekom-spavanja-na-galaxy-watchu_48fDHR.jpg"
-    },
-    {
-      "id": "tportal-10",
-      "title": "Vaši podaci završili su na dark webu? Evo što trebate odmah napraviti",
-      "summary": "Upozorenje da su vaši podaci pronađeni na dark webu ne znači nužno da je vaš račun upravo hakiran. Važno je provjeriti što je točno procurilo te poduzeti odgovarajuće korake, osobito ako su među njima stvari poput lozinki, bankovnih podataka ili informacija koje bi lopovima omogućile krađu identitet",
-      "link": "https://www.tportal.hr/tehno/clanak/vasi-podaci-zavrsili-su-na-dark-webu-evo-sto-trebate-odmah-napraviti-20261028",
-      "published": "2026-10-30T06:00:00.000Z",
-      "source": "Tportal",
-      "category": "general",
-      "xml_category": "tech",
-      "tags": [],
-      "image": "https://www.tportal.hr/media/thumbnail/500x300/2814289.jpeg?cropId=0"
-    },
-    {
-      "id": "bug.hr-13",
-      "title": "Asus TUF Gaming A16 - Isplativost u prvom planu",
-      "summary": "Zbog neminovnog rasta cijena novog hardvera lanjski modeli laptopa postaju sve privlačniji. Testirali smo Asusov osnovni igraći prijenosnik i uvjerili se da prošlogodišnji hardver i dalje ima mnogo smisla",
-      "link": "https://www.bug.hr/recenzije/asus-tuf-gaming-a16-isplativost-u-prvom-planu-63902",
-      "published": "2026-10-30T05:25:00.000Z",
-      "source": "Bug.hr",
-      "category": "general",
-      "xml_category": "recenzije",
-      "tags": [],
-      "image": "https://www.bug.hr/img/asus-tuf-gaming-a16-isplativost-u-prvom-planu_YzOK8W.png"
-    },
-    {
-      "id": "bug.hr-14",
-      "title": "Virgin Galactic s novom letjelicom započinje pripreme za komercijalne svemirske letove 2027.",
-      "summary": "Prva letjelica nove generacije Virgin Galactica, Apeiron, stigla je u bazu u New Mexicu, čime započinju testne pripreme uoči komercijalnih svemirskih letova planiranih za početak sljedeće godine",
-      "link": "https://www.bug.hr/avijacija/virgin-galactic-s-novom-letjelicom-zapocinje-pripreme-za-komercijalne-svemirske-63926",
-      "published": "2026-10-30T05:25:00.000Z",
-      "source": "Bug.hr",
-      "category": "general",
-      "xml_category": "avijacija",
-      "tags": [],
-      "image": "https://www.bug.hr/img/virgin-galactic-s-novom-letjelicom-zapocinje-pripreme-za-komercijalne-svemirske_3cAs5y.jpg"
-    },
-    {
-      "id": "bug.hr-15",
-      "title": "Pristanak, ali čiji?",
-      "summary": "Desetljećima smo se uvjeravali da nas mobiteli potajno slušaju kako bi nam prodavali stvari. Amazon je sada zaključio da je to zapravo odlična ideja za proizvod",
-      "link": "https://www.bug.hr/komentar/pristanak-ali-ciji-63897",
-      "published": "2026-10-30T05:25:00.000Z",
-      "source": "Bug.hr",
-      "category": "general",
-      "xml_category": "komentar",
-      "tags": [],
-      "image": "https://www.bug.hr/img/pristanak-ali-ciji_BFEC1Q.png"
-    },
-    {
-      "id": "bug.hr-16",
-      "title": "Dextop - omogućuje korištenje Androida telefona poput stolnog računala",
-      "summary": "Dextop je potencijalno korisna aplikacija koja će rad na Android telefonima približiti iskustvu rada na stolnim računalima. Naime, moguće je otvarati više aplikacija u zasebnim prozorima, razmještati ih, mijenjati im veličinu, a pritom nije potreban ni vanjski zaslon…",
-      "link": "https://www.bug.hr/appdana/dextop-omogucuje-koristenje-androida-telefona-poput-stolnog-racunala-63819",
-      "published": "2026-10-30T05:25:00.000Z",
-      "source": "Bug.hr",
-      "category": "general",
-      "xml_category": "app dana",
-      "tags": [],
-      "image": "https://www.bug.hr/img/dextop-omogucuje-koristenje-androida-telefona-poput-stolnog-racunala_Nk123d.jpg"
-    },
-    {
-      "id": "bug.hr-17",
-      "title": "AI većini tvrtki još ne donosi povrat ulaganja",
-      "summary": "Američkim korporacijama bit će teško pretvoriti sve jeftiniju inteligenciju u snažniji rast prihoda i veće profitne marže, uvjeren je glavni ekonomist Apollo Global Managementa",
-      "link": "https://mreza.bug.hr/biznis/ai-vecini-tvrtki-jos-ne-donosi-povrat-ulaganja-63870",
-      "published": "2026-10-30T05:15:00.000Z",
-      "source": "Bug.hr",
-      "category": "ai",
-      "xml_category": "biznis",
-      "tags": [],
-      "image": "https://mreza.bug.hr/img/ai-vecini-tvrtki-jos-ne-donosi-povrat-ulaganja_8MFXty.jpg"
-    },
-    {
-      "id": "tportal-11",
-      "title": "Prije 10.000 godina sjeverni Jadran izgledao je drugačije: More je progutalo krajolike kojima su hodali naši preci",
-      "summary": "Venecija je danas poznata po kanalima, gondolama i građevinama koje se uzdižu iz mora, no prije više tisuća godina krajolik na kojem se nalazi izgledao je potpuno drukčije. Područje današnje Venecijanske lagune nekoć je bilo suho kopno, kilometrima udaljeno od tadašnje obale Jadrana. Novo istraživan",
-      "link": "https://www.tportal.hr/tehno/clanak/prije-10-000-godina-sjeverni-jadran-izgledao-je-drugacije-novi-nalazi-otkrivaju-njegovu-proslost-20261029",
-      "published": "2026-10-30T05:00:00.000Z",
-      "source": "Tportal",
-      "category": "general",
-      "xml_category": "tech",
-      "tags": [],
-      "image": "https://www.tportal.hr/media/thumbnail/500x300/2818942.jpeg?cropId=0"
-    },
-    {
-      "id": "bug.hr-18",
-      "title": "Novi Volkswagen ID. Polo se jako dobro vozi, prostran je i može malo trošiti",
-      "summary": "Cijena osnovnog modela je 24.950 eura, no daleko veći fokus je na idućoj razini opreme koja je skuplja tek tisuću eura",
-      "link": "https://autonet.bug.hr/vozili_smo/novi-volkswagen-id-polo-se-jako-dobro-vozi-prostran-je-i-moze-malo-trositi-63929",
-      "published": "2026-10-30T05:00:00.000Z",
-      "source": "Bug.hr",
-      "category": "general",
-      "xml_category": "vozili smo",
-      "tags": [],
-      "image": "https://autonet.bug.hr/img/novi-volkswagen-id-polo-se-jako-dobro-vozi-prostran-je-i-moze-malo-trositi_Ja5YbC.jpg"
-    },
-    {
-      "id": "bug.hr-19",
-      "title": "Što slušati idući tjedan: novi albumi na streaming platformama",
-      "summary": "Lista posljednjeg listopadskog petka je duga. Uključuje: Queens of the Stone Age objavljuju Perfecth, svoj deveti album a dolaze i dva velika arhivska izdanja: posljednji snimljeni koncert Queena s Freddiejem Mercuryjem i proširena verzija albuma The Who By Numbers.",
-      "link": "https://magnet.bug.hr/glazba/sto-slusati-iduci-tjedan-novi-albumi-na-streaming-platformama-63939",
-      "published": "2026-10-30T04:50:00.000Z",
-      "source": "Bug.hr",
-      "category": "general",
-      "xml_category": "glazba",
-      "tags": [],
-      "image": "https://magnet.bug.hr/img/sto-slusati-iduci-tjedan-novi-albumi-na-streaming-platformama_3en-K4.png"
-    },
-    {
-      "id": "bug.hr-18",
-      "title": "Stižu prozirni dodaci za PlayStation 5",
-      "summary": "Sony je predstavio novu liniju dodataka za PlayStation 5 koja oživljava popularni trend prozirne elektronike iz devedesetih, a donosi tri nove boje kontrolera i poklopaca za konzole",
-      "link": "https://www.bug.hr/igrace-konzole/stizu-prozirni-dodaci-za-playstation-5-63910",
-      "published": "2026-10-30T04:40:00.000Z",
-      "source": "Bug.hr",
-      "category": "general",
-      "xml_category": "igraće konzole",
-      "tags": [],
-      "image": "https://www.bug.hr/img/stizu-prozirni-dodaci-za-playstation-5_EOsoc6.jpg"
-    },
-    {
-      "id": "tportal-12",
-      "title": "Ovaj je IT stručnjak prestao štedjeti za mirovinu: Ono što predviđa nije nimalo ohrabrujuće",
-      "summary": "Nakon više od desetljeća provedenog na usklađivanju umjetne inteligencije Nate Soares vjeruje kako postoji visoka razina vjerojatnosti da će nas zbrisati s lica Zemlje u narednih deset godina",
-      "link": "https://www.tportal.hr/tehno/clanak/ovaj-je-it-strucnjak-prestao-stedjeti-za-mirovinu-ono-sto-predvida-nije-nimalo-ohrabrujuce-20261029",
-      "published": "2026-10-30T04:00:00.000Z",
-      "source": "Tportal",
-      "category": "general",
-      "xml_category": "tech",
-      "tags": [],
-      "image": "https://www.tportal.hr/media/thumbnail/500x300/2819051.png?cropId=0"
-    },
-    {
-      "id": "tportal-13",
-      "title": "Što je MLO na routerima i trebate li ga uključiti? Pogledajmo o čemu se radi",
-      "summary": "Nova značajka trebala bi omogućiti veće brzine interneta i stabilnije veze. U praksi je i dalje obećanje koje tek treba ispuniti",
-      "link": "https://www.tportal.hr/tehno/clanak/sto-je-mlo-na-routerima-i-trebate-li-ga-ukljuciti-pogledajmo-o-cemu-se-radi-20261028",
-      "published": "2026-10-30T03:00:00.000Z",
-      "source": "Tportal",
-      "category": "general",
-      "xml_category": "tech",
-      "tags": [],
-      "image": "https://www.tportal.hr/media/thumbnail/500x300/2759109.jpeg?cropId=0"
-    },
-    {
-      "id": "techcrunch-ai-9",
-      "title": "You don&#8217;t need to believe in a god to get a religious exemption from using AI at work",
-      "summary": "David Durman, a University of Kentucky administrator, recently earned a religious exemption from using AI in the workplace.",
-      "link": "https://techcrunch.com/2026/10/29/you-dont-need-to-believe-in-a-god-to-get-a-religious-exemption-from-using-ai-at-work/",
-      "published": "2026-10-30T01:20:48.000Z",
-      "source": "TechCrunch AI",
-      "category": "ai",
-      "xml_category": "ai",
-      "tags": [],
-      "image": null
-    },
-    {
-      "id": "tportal-14",
-      "title": "Umjetna inteligencija hakiranje čini lakšim i opasnijim. Evo kako se zaštititi",
-      "summary": "Otkrivanje propusta postaje sve brže i lakše, njihovo uklanjanje u cijelom nizu sustava koji se oslanjaju na softver znatno je teže",
-      "link": "https://www.tportal.hr/tehno/clanak/umjetna-inteligencija-hakiranje-cini-laksim-i-opasnijim-kako-se-zastititi-20261028",
-      "published": "2026-10-30T00:00:00.000Z",
-      "source": "Tportal",
-      "category": "general",
-      "xml_category": "tech",
-      "tags": [],
-      "image": "https://www.tportal.hr/media/thumbnail/500x300/2787037.jpeg?cropId=0"
-    },
-    {
-      "id": "the-verge-9",
-      "title": "The director of Obsession put a new horror short on YouTube",
-      "summary": "Curry Barker, the director behind the hit horror film Obsession, just published a new horror short on YouTube. The short, titled \"Mama Bear,\" is nearly five minutes long. The video is pretty unnerving, and fair warning that it gets a little graphic, but it's a fun one to watch if you're looking for ",
-      "link": "https://www.theverge.com/streaming/1022934/curry-barker-obsession-horror-short-youtube-mama-bear",
-      "published": "2026-10-29T23:57:18.000Z",
-      "source": "The Verge",
-      "category": "general",
-      "xml_category": "[object object]",
-      "tags": [],
-      "image": null
-    },
-    {
-      "id": "techcrunch-ai-10",
-      "title": "AWS will be a $1T business, Jassy says — but first, it will spend big",
-      "summary": "Amazon wants to be the king of AI cloud computing and become the first $1 trillion revenue business. But to do that it will have to continue on its capex spending spree, its CEO said Thursday.",
-      "link": "https://techcrunch.com/2026/10/29/aws-will-be-a-1t-business-jassy-says-but-first-it-will-spend-big/",
-      "published": "2026-10-29T23:42:22.000Z",
-      "source": "TechCrunch AI",
-      "category": "general",
-      "xml_category": "ai",
-      "tags": [],
-      "image": null
-    },
-    {
-      "id": "the-verge-7",
-      "title": "Intel says it&#8217;s selling every affordable laptop chip it can make",
-      "summary": "During Intel's latest earnings call, CEO Lip-Bu Tan said that demand for its budget-focused Wildcat Lake chips \"is outstripping supply.\" According to CFO David Zinsner, the chips are now sold out. Zinsner said Intel has \"seen significant growth in Wildcat Lake. It's coming exactly at the right time ",
-      "link": "https://www.theverge.com/tech/1022911/intel-wildcat-lake-sold-out-ram-shortage",
-      "published": "2026-10-29T23:42:21.000Z",
-      "source": "The Verge",
-      "category": "general",
-      "xml_category": "[object object]",
-      "tags": [],
-      "image": null
-    },
-    {
-      "id": "the-verge-8",
-      "title": "Reddit’s CEO says Google’s AI Mode ‘does not drive traffic’",
-      "summary": "Reddit CEO Steve Huffman said in an earnings call today that Google's AI-powered search modes do not help with traffic to the platform, echoing problems facing other websites and publishers. As part of its Q3 2026 earnings, Reddit revealed that search traffic in October has \"dropped by more than 1 m",
-      "link": "https://www.theverge.com/tech/1022848/reddit-ceo-google-ai-mode-traffic",
-      "published": "2026-10-29T22:19:32.000Z",
-      "source": "The Verge",
-      "category": "ai",
-      "xml_category": "[object object]",
-      "tags": [],
-      "image": null
-    },
-    {
-      "id": "tportal-15",
-      "title": "Uhićen dvojac koji je pokušao zapaliti Muskov Starlink u Litvi: Jedan ima putovnicu susjedne zemlje",
-      "summary": "Dvojac koji je pokušao zapaliti Starlinkovu opremu u Litvi uhićen je u Njemačkoj, a to im, prema svemu sudeći, nije prvi požar koji su podmetnuli",
-      "link": "https://www.tportal.hr/tehno/clanak/uhicen-dvojac-koji-je-pokusao-zapaliti-muskov-starlink-u-litvi-jedan-ima-putovnicu-susjedne-zemlje-20261029",
-      "published": "2026-10-29T22:12:00.000Z",
-      "source": "Tportal",
-      "category": "general",
-      "xml_category": "tech",
-      "tags": [],
-      "image": "https://www.tportal.hr/media/thumbnail/500x300/2800496.jpeg?cropId=0"
     }
   ]
 }
