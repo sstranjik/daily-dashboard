@@ -1,21 +1,17 @@
 {
-  "generated_at": "2026-10-31T06:01:17.418Z",
+  "generated_at": "2026-10-31T07:01:23.011Z",
   "stats": {
     "muzika.hr": {
       "ok": true,
       "count": 25
     },
-    "Lisinski": {
-      "ok": true,
-      "count": 0
-    },
-    "Gavella": {
-      "ok": true,
-      "count": 32
-    },
     "Mochvara": {
       "ok": true,
       "count": 19
+    },
+    "Lisinski": {
+      "ok": true,
+      "count": 0
     },
     "Gavella": {
       "ok": true,
@@ -37,10 +33,6 @@
       "ok": true,
       "count": 0
     },
-    "HNK Zagreb": {
-      "ok": true,
-      "count": 100
-    },
     "Kerempuh": {
       "ok": true,
       "count": 0
@@ -48,6 +40,10 @@
     "Trešnja": {
       "ok": true,
       "count": 0
+    },
+    "HNK Zagreb": {
+      "ok": true,
+      "count": 100
     }
   },
   "concerts": [
@@ -1443,7 +1439,7 @@
       "time": "20:00",
       "link": "https://mochvara.hr/event-detail/6ad0bd8dbd7ade09d87de4e8/",
       "source": "Mochvara",
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-10-31T06:01:17.418Z"
     },
     {
@@ -2223,7 +2219,7 @@
       "time": "20:00",
       "link": "https://www.muzika.hr/event/the-witcher-in-concert-arena-zagreb-2026/",
       "source": "muzika.hr",
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-10-31T06:01:17.418Z"
     },
     {
@@ -4387,9 +4383,9 @@
       "time": null,
       "link": "https://www.muzika.hr/event/krushers-of-the-world-kreator-i-overkill/",
       "source": "muzika.hr",
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-10-31T06:01:17.418Z"
     }
   ],
-  "new_count": 7
+  "new_count": 4
 }
