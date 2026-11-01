@@ -1,31 +1,39 @@
 {
-  "generated_at": "2026-11-01T20:01:16.170Z",
+  "generated_at": "2026-11-01T21:01:16.001Z",
   "stats": {
-    "Mochvara": {
-      "ok": true,
-      "count": 18
-    },
     "muzika.hr": {
       "ok": true,
       "count": 25
-    },
-    "Tvornica": {
-      "ok": true,
-      "count": 2
     },
     "Lisinski": {
       "ok": true,
       "count": 0
     },
+    "Mochvara": {
+      "ok": true,
+      "count": 18
+    },
+    "Tvornica": {
+      "ok": true,
+      "count": 2
+    },
     "Gavella": {
       "ok": true,
       "count": 31
+    },
+    "Komedija": {
+      "ok": true,
+      "count": 0
     },
     "ZeKaeM": {
       "ok": true,
       "count": 1
     },
-    "Komedija": {
+    "HNK Zagreb": {
+      "ok": true,
+      "count": 97
+    },
+    "Pogon": {
       "ok": true,
       "count": 0
     },
@@ -33,50 +41,12 @@
       "ok": true,
       "count": 0
     },
-    "Pogon": {
-      "ok": true,
-      "count": 0
-    },
-    "HNK Zagreb": {
-      "ok": true,
-      "count": 97
-    },
     "Trešnja": {
       "ok": true,
       "count": 0
     }
   },
   "concerts": [
-    {
-      "id": "b3cdc17ecf",
-      "title": "RING ABBA TRIBUTE BAND",
-      "venue": "ABBA TRIBUTE BAND Lazareti Frana Supila 8",
-      "city": "Dubrovnik",
-      "country": "HR",
-      "category": "concert",
-      "date_iso": "2026-10-17T21:00:00",
-      "date_display": "sub, 17. 10. 2026.",
-      "time": "21:00",
-      "link": "https://www.muzika.hr/event/ring-abba-tribute-band/",
-      "source": "muzika.hr",
-      "is_new": false,
-      "first_seen": "2026-09-29T18:01:55.174Z"
-    },
-    {
-      "id": "f96f83ad45",
-      "title": "RING - ABBA TRIBUTE BAND",
-      "venue": "ABBA TRIBUTE BAND Lazareti Frana Supila 8",
-      "city": "Dubrovnik",
-      "country": "HR",
-      "category": "concert",
-      "date_iso": "2026-10-17T21:00:00",
-      "date_display": "sub, 17. 10. 2026.",
-      "time": "21:00",
-      "link": "https://www.muzika.hr/event/ring-abba-tribute-band/",
-      "source": "muzika.hr",
-      "is_new": false,
-      "first_seen": "2026-10-02T12:01:21.576Z"
-    },
     {
       "id": "6f70bdfdcd",
       "title": "Back to nulte",
@@ -1128,6 +1098,21 @@
       "first_seen": "2026-10-30T14:01:22.563Z"
     },
     {
+      "id": "948873f4e1",
+      "title": "Black metal koncert: Wolves In The Throne Room, Worm, Final Dose",
+      "venue": "Mochvara",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-11-04T19:00:00",
+      "date_display": "sri, 04. 11. 2026.",
+      "time": "19:00",
+      "link": "https://mochvara.hr/event-detail/6a2916e4b7447e7921127707/",
+      "source": "Mochvara",
+      "is_new": false,
+      "first_seen": "2026-10-28T06:01:29.533Z"
+    },
+    {
       "id": "a2f46472e1",
       "title": "Georges Bizet Carmen",
       "venue": "HNK Zagreb",
@@ -1171,21 +1156,6 @@
       "source": "HNK Zagreb",
       "is_new": false,
       "first_seen": "2026-09-23T06:01:12.658Z"
-    },
-    {
-      "id": "948873f4e1",
-      "title": "Black metal koncert: Wolves In The Throne Room, Worm, Final Dose",
-      "venue": "Mochvara",
-      "city": "Zagreb",
-      "country": "HR",
-      "category": "concert",
-      "date_iso": "2026-11-04T20:00:00",
-      "date_display": "sri, 04. 11. 2026.",
-      "time": "20:00",
-      "link": "https://mochvara.hr/event-detail/6a2916e4b7447e7921127707/",
-      "source": "Mochvara",
-      "is_new": false,
-      "first_seen": "2026-10-28T06:01:29.533Z"
     },
     {
       "id": "0b2e60f696",
