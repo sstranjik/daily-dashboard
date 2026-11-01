@@ -1,25 +1,25 @@
 {
-  "generated_at": "2026-10-31T21:01:16.379Z",
+  "generated_at": "2026-11-01T06:01:14.512Z",
   "stats": {
-    "muzika.hr": {
+    "Mochvara": {
       "ok": true,
-      "count": 25
+      "count": 18
     },
     "Lisinski": {
       "ok": true,
       "count": 0
     },
+    "Gavella": {
+      "ok": true,
+      "count": 31
+    },
     "Tvornica": {
       "ok": true,
       "count": 2
     },
-    "Mochvara": {
+    "muzika.hr": {
       "ok": true,
-      "count": 18
-    },
-    "Gavella": {
-      "ok": true,
-      "count": 31
+      "count": 25
     },
     "ZeKaeM": {
       "ok": true,
@@ -33,13 +33,13 @@
       "ok": true,
       "count": 0
     },
-    "HNK Zagreb": {
-      "ok": true,
-      "count": 100
-    },
     "Kerempuh": {
       "ok": true,
       "count": 0
+    },
+    "HNK Zagreb": {
+      "ok": true,
+      "count": 97
     },
     "Trešnja": {
       "ok": true,
@@ -47,51 +47,6 @@
     }
   },
   "concerts": [
-    {
-      "id": "df290607bd",
-      "title": "Partibrejkers",
-      "venue": "Grada Vukovara 68",
-      "city": "Zagreb",
-      "country": "HR",
-      "category": "concert",
-      "date_iso": "2026-10-17T00:00:00",
-      "date_display": "sub, 17. 10. 2026.",
-      "time": null,
-      "link": "https://www.muzika.hr/event/partibrejkers-7/",
-      "source": "muzika.hr",
-      "is_new": false,
-      "first_seen": "2026-09-20T21:59:04.884Z"
-    },
-    {
-      "id": "098caa1ba6",
-      "title": "Partibrejkers (muzika.hr fanclub)",
-      "venue": "Grada Vukovara 68",
-      "city": "Zagreb",
-      "country": "HR",
-      "category": "concert",
-      "date_iso": "2026-10-17T00:00:00",
-      "date_display": "sub, 17. 10. 2026.",
-      "time": null,
-      "link": "https://www.muzika.hr/event/partibrejkers-7/",
-      "source": "muzika.hr",
-      "is_new": false,
-      "first_seen": "2026-09-25T10:42:34.223Z"
-    },
-    {
-      "id": "f580bd758f",
-      "title": "Porto morto",
-      "venue": "Porto morto Tvornica kulture Šubićeva 2",
-      "city": "Zagreb",
-      "country": "HR",
-      "category": "concert",
-      "date_iso": "2026-10-17T00:00:00",
-      "date_display": "sub, 17. 10. 2026.",
-      "time": null,
-      "link": "https://www.muzika.hr/event/porto-morto-6/",
-      "source": "muzika.hr",
-      "is_new": false,
-      "first_seen": "2026-09-30T17:06:49.482Z"
-    },
     {
       "id": "164b25bf30",
       "title": "Festival amaterskog filma 2026., prvi dan",
@@ -1518,6 +1473,21 @@
       "first_seen": "2026-10-13T07:01:24.921Z"
     },
     {
+      "id": "4c7466fe92",
+      "title": "Dub Engine",
+      "venue": "Mochvara",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-11-07T22:00:00",
+      "date_display": "sub, 07. 11. 2026.",
+      "time": "22:00",
+      "link": "https://mochvara.hr/event-detail/6abcec5a9264105a5bc305ac/",
+      "source": "Mochvara",
+      "is_new": true,
+      "first_seen": "2026-11-01T06:01:14.512Z"
+    },
+    {
       "id": "8ca0dfabfc",
       "title": "Kum grungea u Močvari: Kim Salmon's Smoked Salmon Nedjelja 8.11.2026.",
       "venue": "Mochvara",
@@ -2191,6 +2161,21 @@
       "source": "muzika.hr",
       "is_new": false,
       "first_seen": "2026-10-31T06:01:17.418Z"
+    },
+    {
+      "id": "7b32c8fba1",
+      "title": "Skier and Yeti + Gliste",
+      "venue": "Vintage Industrial Bar Savska ulica 160",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-11-26T21:00:00",
+      "date_display": "čet, 26. 11. 2026.",
+      "time": "21:00",
+      "link": "https://www.muzika.hr/event/skier-and-yeti-gliste/",
+      "source": "muzika.hr",
+      "is_new": true,
+      "first_seen": "2026-11-01T06:01:14.512Z"
     },
     {
       "id": "5ebd766a82",
@@ -2959,36 +2944,6 @@
     }
   ],
   "theater": [
-    {
-      "id": "433d883696",
-      "title": "Cyrano de Bergerac",
-      "venue": "Gavella",
-      "city": "Zagreb",
-      "country": "HR",
-      "category": "theater",
-      "date_iso": "2026-10-17T00:00:00",
-      "date_display": "sub, 17. 10. 2026.",
-      "time": null,
-      "link": "https://www.gavella.hr/predstave/aktualne-predstave/cyrano-de-bergerac",
-      "source": "Gavella",
-      "is_new": false,
-      "first_seen": "2026-09-04T13:01:17.354Z"
-    },
-    {
-      "id": "e0d54c2f17",
-      "title": "Rondo",
-      "venue": "Gavella",
-      "city": "Zagreb",
-      "country": "HR",
-      "category": "theater",
-      "date_iso": "2026-10-17T00:00:00",
-      "date_display": "sub, 17. 10. 2026.",
-      "time": null,
-      "link": "https://www.gavella.hr/predstave/aktualne-predstave/rondo",
-      "source": "Gavella",
-      "is_new": false,
-      "first_seen": "2026-09-04T13:01:17.354Z"
-    },
     {
       "id": "1ad6b31c72",
       "title": "Espi Tomičić Budi uvijek kao zmaj",
@@ -4327,5 +4282,5 @@
       "first_seen": "2026-10-31T06:01:17.418Z"
     }
   ],
-  "new_count": 4
+  "new_count": 6
 }
