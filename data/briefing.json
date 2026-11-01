@@ -1,15 +1,15 @@
 {
   "version": 2,
-  "date": "2026-10-31",
-  "generated_at": "2026-10-31T10:43:05.491Z",
-  "date_hr": "Subota, 31. listopada 2026.",
+  "date": "2026-11-01",
+  "generated_at": "2026-11-01T06:02:34.674Z",
+  "date_hr": "Nedjelja, 1. studenog 2026.",
   "weather": {
-    "icon": "☁️",
-    "summary": "6–14°C, oblačno",
+    "icon": "🌦️",
+    "summary": "8–11°C, pljuskovi · 8.2 mm",
     "alerts": []
   },
   "fuel": {
-    "current_date": "31.10.2026",
+    "current_date": "01.11.2026",
     "eurodiesel": [
       {
         "company": "Adria Oil",
@@ -63,46 +63,46 @@
     "upcoming_premium": null
   },
   "market": {
-    "updated_at": "2026-10-31T10:43:05.491Z",
-    "btc_usd": 77408,
-    "btc_eur": 69118,
-    "btc_change_24h": -0.25,
+    "updated_at": "2026-11-01T06:02:34.674Z",
+    "btc_usd": 77799,
+    "btc_eur": 69467,
+    "btc_change_24h": 0.79,
     "usd_eur": 0.8956
   },
   "ai_news": [
     {
-      "title": "Cognizant puts 25,000 staff behind OpenAI, days after a Gemini push",
-      "link": "https://thenextweb.com/news/cognizant-openai-frontier-capability-group-25000",
+      "title": "OpenAI tightens ChatGPT’s limits on weapons and past mass attacks",
+      "link": "https://thenextweb.com/news/chatgpt-teen-safety-weapons-limits-community-safety-report",
       "source": "The Next Web"
     },
     {
-      "title": "Last-minute Halloween costumes for tech nerds",
-      "link": "https://techcrunch.com/2026/10/30/last-minute-halloween-costumes-for-tech-nerds/",
-      "source": "TechCrunch AI"
+      "title": "Google, Microsoft, OpenAI and Anthropic back one AI training opt-out",
+      "link": "https://thenextweb.com/news/ai-training-opt-out-robots-txt-google-openai-microsoft-anthropic",
+      "source": "The Next Web"
     },
     {
-      "title": "The biggest names in AI are backing a new way to opt out of scraping",
-      "link": "https://www.theverge.com/tech/1023763/openai-google-microsoft-ai-scraping-standard-opt-out",
-      "source": "The Verge"
+      "title": "Anthropic denies breach as tampered Claude Code extension hits Cursor users",
+      "link": "https://thenextweb.com/news/tampered-claude-code-extension-cursor-ssh-backdoor",
+      "source": "The Next Web"
     },
     {
-      "title": "Your Netgear router may be vulnerable to a security exploit – how to check and patch it",
-      "link": "https://www.zdnet.com/tech/netgear-routers-vulnerable-security-exploit/",
-      "source": "ZDNet"
+      "title": "A Claude agent ran inside a Pentagon network for two months, WIRED reports",
+      "link": "https://thenextweb.com/news/accenture-contractor-claude-agent-pentagon-network-wired",
+      "source": "The Next Web"
     },
     {
-      "title": "Prvo htjeli prepoloviti limite, pa onda udvostručili tokene pretplatnicima na ChatGPT Pro",
-      "link": "https://www.bug.hr/biznis/prvo-htjeli-prepoloviti-limite-pa-onda-udvostrucili-tokene-pretplatnicima-na-63955",
-      "source": "Bug.hr"
+      "title": "Big Tech buybacks fall 83% as AI spending eats the cash, Reuters reports",
+      "link": "https://thenextweb.com/news/big-tech-buybacks-fall-ai-spending-reuters",
+      "source": "The Next Web"
     }
   ],
   "micro_tips": {
     "vscode": {
-      "tip": "Toggle integrirani terminal",
-      "keys": "Ctrl+`"
+      "tip": "Selektiraj sva pojavljivanja trenutne riječi",
+      "keys": "Ctrl+Shift+L"
     },
-    "sql": "EXPLAIN ANALYZE prikazuje stvarne vs procijenjene redove — ključno za tuning",
-    "oracle": "CONNECT BY LEVEL <= n generira broj redova bez pomoćne tablice",
-    "regex": "[^\\n]* svaki znak osim newline — dohvati cijelu liniju bez dotall flaga"
+    "sql": "Partial index s WHERE klauzulom smanjuje veličinu i ubrzava specifična filtriranja",
+    "oracle": "LISTAGG(col, ',') WITHIN GROUP (ORDER BY col) konkatenira u jedan string",
+    "regex": "(?<ime>\\d{4}) named group — referenciraj s \\k<ime> ili $<ime> u replace"
   }
 }
