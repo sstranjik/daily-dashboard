@@ -1,15 +1,15 @@
 {
   "version": 2,
-  "date": "2026-11-01",
-  "generated_at": "2026-11-01T11:39:08.294Z",
-  "date_hr": "Nedjelja, 1. studenog 2026.",
+  "date": "2026-11-02",
+  "generated_at": "2026-11-02T06:03:28.842Z",
+  "date_hr": "Ponedjeljak, 2. studenog 2026.",
   "weather": {
-    "icon": "🌦️",
-    "summary": "8–11°C, pljuskovi · 9.7 mm",
+    "icon": "🌧️",
+    "summary": "8–9°C, lagana kiša · 2.7 mm",
     "alerts": []
   },
   "fuel": {
-    "current_date": "01.11.2026",
+    "current_date": "02.11.2026",
     "eurodiesel": [
       {
         "company": "Adria Oil",
@@ -63,46 +63,46 @@
     "upcoming_premium": null
   },
   "market": {
-    "updated_at": "2026-11-01T11:39:08.294Z",
-    "btc_usd": 77870,
-    "btc_eur": 69530,
-    "btc_change_24h": 0.64,
-    "usd_eur": 0.8956
+    "updated_at": "2026-11-02T06:03:28.842Z",
+    "btc_usd": 78311,
+    "btc_eur": 70028,
+    "btc_change_24h": 0.65,
+    "usd_eur": 0.8961
   },
   "ai_news": [
     {
-      "title": "OpenAI tightens ChatGPT’s limits on weapons and past mass attacks",
-      "link": "https://thenextweb.com/news/chatgpt-teen-safety-weapons-limits-community-safety-report",
+      "title": "Anthropic renames Claude Max plans and drops Ultra’s five-hour limit",
+      "link": "https://thenextweb.com/news/claude-ultra-max-plan-rename-five-hour-limit",
       "source": "The Next Web"
     },
     {
-      "title": "Google, Microsoft, OpenAI and Anthropic back one AI training opt-out",
-      "link": "https://thenextweb.com/news/ai-training-opt-out-robots-txt-google-openai-microsoft-anthropic",
+      "title": "Developers say Claude Code now refuses work on recreating existing games",
+      "link": "https://thenextweb.com/news/claude-code-game-recreation-refusals-developers",
+      "source": "The Next Web"
+    },
+    {
+      "title": "OpenAI might rebrand its data centers as ‘AI compute campuses’",
+      "link": "https://techcrunch.com/2026/11/01/openai-might-rebrand-its-data-centers-as-ai-compute-campuses/",
+      "source": "TechCrunch AI"
+    },
+    {
+      "title": "Palantir CTO tells Stratechery he doesn’t regret working with Anthropic",
+      "link": "https://thenextweb.com/news/palantir-shyam-sankar-anthropic-stuck-in-the-middle-stratechery",
       "source": "The Next Web"
     },
     {
       "title": "DeepSeek open-sources Super-Agent, a coding agent that reads team chats",
       "link": "https://thenextweb.com/news/deepseek-super-agent-open-source-coding-agent",
       "source": "The Next Web"
-    },
-    {
-      "title": "UK watchdog opens an investigation into Meta’s AI terms for publishers",
-      "link": "https://thenextweb.com/news/cma-meta-investigation-publishers-ai-terms",
-      "source": "The Next Web"
-    },
-    {
-      "title": "Big Tech buybacks fall 83% as AI spending eats the cash, Reuters reports",
-      "link": "https://thenextweb.com/news/big-tech-buybacks-fall-ai-spending-reuters",
-      "source": "The Next Web"
     }
   ],
   "micro_tips": {
     "vscode": {
-      "tip": "Selektiraj sva pojavljivanja trenutne riječi",
-      "keys": "Ctrl+Shift+L"
+      "tip": "Pomakni liniju gore ili dolje bez cut/paste",
+      "keys": "Alt+↑ / Alt+↓"
     },
-    "sql": "Partial index s WHERE klauzulom smanjuje veličinu i ubrzava specifična filtriranja",
-    "oracle": "LISTAGG(col, ',') WITHIN GROUP (ORDER BY col) konkatenira u jedan string",
-    "regex": "(?<ime>\\d{4}) named group — referenciraj s \\k<ime> ili $<ime> u replace"
+    "sql": "GROUP BY s ROLLUP za subtotale u jednom prolasku: GROUP BY ROLLUP(god, mj)",
+    "oracle": "TRUNC(datum_kolona) = TRUNC(SYSDATE) koristi B-tree index na datumskoj koloni",
+    "regex": "\\d{4}-\\d{2}-\\d{2} ISO datum pattern; za validaciju zatvori s ^...$"
   }
 }
