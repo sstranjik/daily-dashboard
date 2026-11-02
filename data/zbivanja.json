@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-02T10:01:15.454Z",
+  "generated_at": "2026-11-02T11:01:21.659Z",
   "stats": {
     "muzika.hr": {
       "ok": true,
@@ -33,35 +33,20 @@
       "ok": true,
       "count": 0
     },
-    "HNK Zagreb": {
-      "ok": true,
-      "count": 97
-    },
-    "Pogon": {
+    "Trešnja": {
       "ok": true,
       "count": 0
     },
-    "Trešnja": {
+    "HNK Zagreb": {
+      "ok": true,
+      "count": 98
+    },
+    "Pogon": {
       "ok": true,
       "count": 0
     }
   },
   "concerts": [
-    {
-      "id": "95463d7987",
-      "title": "Peter Lund Vještica Hillary ide u operu",
-      "venue": "HNK Zagreb",
-      "city": "Zagreb",
-      "country": "HR",
-      "category": "concert",
-      "date_iso": "2026-10-18T11:00:00",
-      "date_display": "ned, 18. 10. 2026.",
-      "time": "11:00",
-      "link": "https://hnk.hr/hr/opera/predstave/vje%C5%A1tica-hillary-ide-u-operu/#18.10.11.00",
-      "source": "HNK Zagreb",
-      "is_new": false,
-      "first_seen": "2026-07-02T14:01:25.801Z"
-    },
     {
       "id": "d02eae902f",
       "title": "FAF - Festival amaterskog filma 2026., drugi dan",
@@ -2748,6 +2733,21 @@
       "first_seen": "2026-10-22T09:01:28.413Z"
     },
     {
+      "id": "b202eb240e",
+      "title": "Ciklus komornih koncerata KLASIKA NEDJELJOM 3",
+      "venue": "HNK Zagreb",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2027-01-17T11:00:00",
+      "date_display": "ned, 17. 01. 2027.",
+      "time": "11:00",
+      "link": "https://hnk.hr/hr/opera/predstave/klasika-nedjeljom-3/#17.01.11.00",
+      "source": "HNK Zagreb",
+      "is_new": true,
+      "first_seen": "2026-11-02T11:01:21.659Z"
+    },
+    {
       "id": "53859408c2",
       "title": "Ivan pl. Zajc Nikola Šubić Zrinjski",
       "venue": "HNK Zagreb",
@@ -4132,5 +4132,5 @@
       "first_seen": "2026-10-31T06:01:17.418Z"
     }
   ],
-  "new_count": 7
+  "new_count": 8
 }
