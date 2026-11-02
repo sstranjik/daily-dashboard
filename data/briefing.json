@@ -1,11 +1,11 @@
 {
   "version": 2,
   "date": "2026-11-02",
-  "generated_at": "2026-11-02T06:03:28.842Z",
+  "generated_at": "2026-11-02T13:02:01.311Z",
   "date_hr": "Ponedjeljak, 2. studenog 2026.",
   "weather": {
     "icon": "🌧️",
-    "summary": "8–9°C, lagana kiša · 2.7 mm",
+    "summary": "8–9°C, lagana kiša · 2.9 mm",
     "alerts": []
   },
   "fuel": {
@@ -63,13 +63,28 @@
     "upcoming_premium": null
   },
   "market": {
-    "updated_at": "2026-11-02T06:03:28.842Z",
-    "btc_usd": 78311,
-    "btc_eur": 70028,
-    "btc_change_24h": 0.65,
+    "updated_at": "2026-11-02T13:02:01.311Z",
+    "btc_usd": 77726,
+    "btc_eur": 69325,
+    "btc_change_24h": -0.12,
     "usd_eur": 0.8961
   },
   "ai_news": [
+    {
+      "title": "Anthropic zabranio Claudeu rekreiranje postojećih videoigara",
+      "link": "https://www.bug.hr/umjetna-inteligencija/anthropic-zabranio-claudeu-rekreiranje-postojecih-videoigara-64020",
+      "source": "Bug.hr"
+    },
+    {
+      "title": "ADNOC signs deal with OpenAI and G42 to deploy Frontier AI agents",
+      "link": "https://thenextweb.com/news/adnoc-openai-g42-frontier-ai-deal",
+      "source": "The Next Web"
+    },
+    {
+      "title": "OpenAI spaja Chat i Work",
+      "link": "https://www.bug.hr/umjetna-inteligencija/openai-spaja-chat-i-work-64008",
+      "source": "Bug.hr"
+    },
     {
       "title": "Anthropic renames Claude Max plans and drops Ultra’s five-hour limit",
       "link": "https://thenextweb.com/news/claude-ultra-max-plan-rename-five-hour-limit",
@@ -78,21 +93,6 @@
     {
       "title": "Developers say Claude Code now refuses work on recreating existing games",
       "link": "https://thenextweb.com/news/claude-code-game-recreation-refusals-developers",
-      "source": "The Next Web"
-    },
-    {
-      "title": "OpenAI might rebrand its data centers as ‘AI compute campuses’",
-      "link": "https://techcrunch.com/2026/11/01/openai-might-rebrand-its-data-centers-as-ai-compute-campuses/",
-      "source": "TechCrunch AI"
-    },
-    {
-      "title": "Palantir CTO tells Stratechery he doesn’t regret working with Anthropic",
-      "link": "https://thenextweb.com/news/palantir-shyam-sankar-anthropic-stuck-in-the-middle-stratechery",
-      "source": "The Next Web"
-    },
-    {
-      "title": "DeepSeek open-sources Super-Agent, a coding agent that reads team chats",
-      "link": "https://thenextweb.com/news/deepseek-super-agent-open-source-coding-agent",
       "source": "The Next Web"
     }
   ],
