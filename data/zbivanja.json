@@ -1,67 +1,52 @@
 {
-  "generated_at": "2026-11-03T19:01:33.346Z",
+  "generated_at": "2026-11-03T20:01:24.891Z",
   "stats": {
-    "Mochvara": {
-      "ok": true,
-      "count": 18
-    },
-    "muzika.hr": {
-      "ok": true,
-      "count": 25
-    },
     "Lisinski": {
       "ok": true,
       "count": 0
     },
-    "ZeKaeM": {
+    "Mochvara": {
       "ok": true,
-      "count": 1
-    },
-    "Gavella": {
-      "ok": true,
-      "count": 30
+      "count": 18
     },
     "Tvornica": {
       "ok": true,
       "count": 2
     },
+    "Gavella": {
+      "ok": true,
+      "count": 30
+    },
+    "ZeKaeM": {
+      "ok": true,
+      "count": 1
+    },
     "Komedija": {
       "ok": true,
       "count": 0
     },
-    "Pogon": {
-      "ok": false,
-      "error": "fetch failed"
+    "muzika.hr": {
+      "ok": true,
+      "count": 25
     },
-    "HNK Zagreb": {
-      "ok": false,
-      "error": "fetch failed"
+    "Pogon": {
+      "ok": true,
+      "count": 0
     },
     "Kerempuh": {
-      "ok": false,
-      "error": "The operation was aborted due to timeout"
+      "ok": true,
+      "count": 0
+    },
+    "HNK Zagreb": {
+      "ok": true,
+      "count": 108
     },
     "Trešnja": {
-      "ok": false,
-      "error": "The operation was aborted due to timeout"
+      "ok": true,
+      "count": 0
     }
   },
   "concerts": [
-    {
-      "id": "c178e1a156",
-      "title": "Začarani electro dark-pop koncert: Peter Piek, Proxy Fae, Tulpa Tape",
-      "venue": "Mochvara",
-      "city": "Zagreb",
-      "country": "HR",
-      "category": "concert",
-      "date_iso": "2026-10-19T19:30:00",
-      "date_display": "pon, 19. 10. 2026.",
-      "time": "19:30",
-      "link": "https://mochvara.hr/event-detail/6a9aa4a2831f075e0627453f/",
-      "source": "Mochvara",
-      "is_new": false,
-      "first_seen": "2026-10-14T22:46:12.222Z"
-    },
     {
       "id": "84923a9261",
       "title": "Dodjela Nagrade „Dunja Vejzović” i koncert Opernog studija HNK-a",
