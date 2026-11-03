@@ -1,29 +1,29 @@
 {
-  "generated_at": "2026-11-03T13:08:01.292Z",
+  "generated_at": "2026-11-03T14:01:23.290Z",
   "stats": {
-    "Gavella": {
+    "muzika.hr": {
       "ok": true,
-      "count": 31
+      "count": 25
     },
     "Mochvara": {
       "ok": true,
       "count": 18
     },
-    "Lisinski": {
-      "ok": true,
-      "count": 0
-    },
     "Tvornica": {
       "ok": true,
       "count": 2
     },
+    "Lisinski": {
+      "ok": true,
+      "count": 0
+    },
+    "Gavella": {
+      "ok": true,
+      "count": 31
+    },
     "ZeKaeM": {
       "ok": true,
       "count": 1
-    },
-    "muzika.hr": {
-      "ok": true,
-      "count": 25
     },
     "Komedija": {
       "ok": true,
@@ -37,13 +37,13 @@
       "ok": true,
       "count": 0
     },
-    "Trešnja": {
-      "ok": true,
-      "count": 0
-    },
     "HNK Zagreb": {
       "ok": true,
       "count": 108
+    },
+    "Trešnja": {
+      "ok": true,
+      "count": 0
     }
   },
   "concerts": [
@@ -2268,6 +2268,21 @@
       "first_seen": "2026-10-27T11:01:29.417Z"
     },
     {
+      "id": "19929d95e7",
+      "title": "Razgled kazališta The tour is conducted in English.",
+      "venue": "HNK Zagreb",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-12-05T15:30:00",
+      "date_display": "sub, 05. 12. 2026.",
+      "time": "15:30",
+      "link": "https://hnk.hr/hr/informacije/posebni-programi/razgled-kazalista-informacije/#05.12.15.30",
+      "source": "HNK Zagreb",
+      "is_new": false,
+      "first_seen": "2026-11-03T14:01:23.290Z"
+    },
+    {
       "id": "643a67af9e",
       "title": "Petar Iljič Čajkovski — Rudolf Nurejev Orašar",
       "venue": "HNK Zagreb",
@@ -2364,13 +2379,28 @@
       "city": "Zagreb",
       "country": "HR",
       "category": "concert",
+      "date_iso": "2026-12-12T14:00:00",
+      "date_display": "sub, 12. 12. 2026.",
+      "time": "14:00",
+      "link": "https://hnk.hr/hr/informacije/posebni-programi/razgled-kazalista-informacije/#12.12.14.00",
+      "source": "HNK Zagreb",
+      "is_new": false,
+      "first_seen": "2026-10-27T11:01:29.417Z"
+    },
+    {
+      "id": "454f42b016",
+      "title": "Razgled kazališta The tour is conducted in English.",
+      "venue": "HNK Zagreb",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
       "date_iso": "2026-12-12T15:30:00",
       "date_display": "sub, 12. 12. 2026.",
       "time": "15:30",
       "link": "https://hnk.hr/hr/informacije/posebni-programi/razgled-kazalista-informacije/#12.12.15.30",
       "source": "HNK Zagreb",
-      "is_new": false,
-      "first_seen": "2026-10-27T11:01:29.417Z"
+      "is_new": true,
+      "first_seen": "2026-11-03T14:01:23.290Z"
     },
     {
       "id": "d6b1f0d829",
@@ -2461,6 +2491,21 @@
       "source": "HNK Zagreb",
       "is_new": false,
       "first_seen": "2026-10-27T11:01:29.417Z"
+    },
+    {
+      "id": "bdc742bc0d",
+      "title": "Razgled kazališta The tour is conducted in English.",
+      "venue": "HNK Zagreb",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-12-19T15:30:00",
+      "date_display": "sub, 19. 12. 2026.",
+      "time": "15:30",
+      "link": "https://hnk.hr/hr/informacije/posebni-programi/razgled-kazalista-informacije/#19.12.15.30",
+      "source": "HNK Zagreb",
+      "is_new": false,
+      "first_seen": "2026-11-03T14:01:23.290Z"
     },
     {
       "id": "f00113b6cd",
@@ -4051,7 +4096,7 @@
       "time": "19:30",
       "link": "https://hnk.hr/hr/drama/predstave/raseljene/#15.01.19.30",
       "source": "HNK Zagreb",
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-03T13:08:01.292Z"
     },
     {
