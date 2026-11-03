@@ -1,35 +1,31 @@
 {
-  "generated_at": "2026-11-03T08:01:31.114Z",
+  "generated_at": "2026-11-03T09:01:31.367Z",
   "stats": {
-    "Mochvara": {
-      "ok": true,
-      "count": 18
-    },
     "Lisinski": {
       "ok": true,
       "count": 0
     },
-    "Tvornica": {
+    "Mochvara": {
       "ok": true,
-      "count": 2
+      "count": 18
     },
     "Gavella": {
       "ok": true,
       "count": 31
     },
-    "muzika.hr": {
+    "Tvornica": {
       "ok": true,
-      "count": 25
+      "count": 2
     },
     "ZeKaeM": {
       "ok": true,
       "count": 1
     },
-    "Komedija": {
+    "muzika.hr": {
       "ok": true,
-      "count": 0
+      "count": 25
     },
-    "Pogon": {
+    "Komedija": {
       "ok": true,
       "count": 0
     },
@@ -43,7 +39,11 @@
     },
     "HNK Zagreb": {
       "ok": true,
-      "count": 98
+      "count": 97
+    },
+    "Pogon": {
+      "ok": true,
+      "count": 0
     }
   },
   "concerts": [
@@ -1096,6 +1096,21 @@
       "source": "HNK Zagreb",
       "is_new": false,
       "first_seen": "2026-09-23T06:01:12.658Z"
+    },
+    {
+      "id": "73dae85693",
+      "title": "Wolves in the Throne Room u Močvari",
+      "venue": "Room u Močvari Močvara Trnjanski nasip bb",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-11-04T20:00:00",
+      "date_display": "sri, 04. 11. 2026.",
+      "time": "20:00",
+      "link": "https://www.muzika.hr/event/wolves-in-the-throne-room-u-mocvari/",
+      "source": "muzika.hr",
+      "is_new": true,
+      "first_seen": "2026-11-03T09:01:31.367Z"
     },
     {
       "id": "0b2e60f696",
@@ -4102,5 +4117,5 @@
       "first_seen": "2026-10-31T06:01:17.418Z"
     }
   ],
-  "new_count": 7
+  "new_count": 8
 }
