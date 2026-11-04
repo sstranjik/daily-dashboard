@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-04T10:01:22.841Z",
+  "generated_at": "2026-11-04T11:01:25.729Z",
   "stats": {
     "muzika.hr": {
       "ok": true,
@@ -29,10 +29,6 @@
       "ok": true,
       "count": 0
     },
-    "Pogon": {
-      "ok": true,
-      "count": 0
-    },
     "HNK Zagreb": {
       "ok": true,
       "count": 109
@@ -41,9 +37,13 @@
       "ok": true,
       "count": 0
     },
-    "Trešnja": {
+    "Pogon": {
       "ok": true,
       "count": 0
+    },
+    "Trešnja": {
+      "ok": false,
+      "error": "The operation was aborted due to timeout"
     }
   },
   "concerts": [
@@ -2253,6 +2253,21 @@
       "first_seen": "2026-10-27T11:01:29.417Z"
     },
     {
+      "id": "6ee3ebcec8",
+      "title": "Razgled kazališta 166 sezona iza kulisa U sklopu programa Advent u Zagrebu 2026.",
+      "venue": "HNK Zagreb",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-12-05T15:00:00",
+      "date_display": "sub, 05. 12. 2026.",
+      "time": "15:00",
+      "link": "https://hnk.hr/hr/ostalo/predstave/iza-kulisa-166-sezona/#05.12.15.00",
+      "source": "HNK Zagreb",
+      "is_new": true,
+      "first_seen": "2026-11-04T11:01:25.729Z"
+    },
+    {
       "id": "ca563d1803",
       "title": "Razgled kazališta",
       "venue": "HNK Zagreb",
@@ -2281,6 +2296,21 @@
       "source": "HNK Zagreb",
       "is_new": false,
       "first_seen": "2026-11-03T14:01:23.290Z"
+    },
+    {
+      "id": "1c52ac22be",
+      "title": "Razgled kazališta 166 sezona iza kulisa The tour is conducted in English.",
+      "venue": "HNK Zagreb",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-12-05T15:30:00",
+      "date_display": "sub, 05. 12. 2026.",
+      "time": "15:30",
+      "link": "https://hnk.hr/hr/ostalo/predstave/iza-kulisa-166-sezona/#05.12.15.30",
+      "source": "HNK Zagreb",
+      "is_new": true,
+      "first_seen": "2026-11-04T11:01:25.729Z"
     },
     {
       "id": "643a67af9e",
@@ -2388,6 +2418,21 @@
       "first_seen": "2026-10-27T11:01:29.417Z"
     },
     {
+      "id": "94fa0f94df",
+      "title": "Razgled kazališta 166 sezona iza kulisa The tour is conducted in English.",
+      "venue": "HNK Zagreb",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-12-12T14:00:00",
+      "date_display": "sub, 12. 12. 2026.",
+      "time": "14:00",
+      "link": "https://hnk.hr/hr/ostalo/predstave/iza-kulisa-166-sezona/#12.12.14.00",
+      "source": "HNK Zagreb",
+      "is_new": true,
+      "first_seen": "2026-11-04T11:01:25.729Z"
+    },
+    {
       "id": "454f42b016",
       "title": "Razgled kazališta The tour is conducted in English.",
       "venue": "HNK Zagreb",
@@ -2401,6 +2446,21 @@
       "source": "HNK Zagreb",
       "is_new": false,
       "first_seen": "2026-11-03T14:01:23.290Z"
+    },
+    {
+      "id": "256ecdefe9",
+      "title": "Razgled kazališta 166 sezona iza kulisa U sklopu programa Advent u Zagrebu 2026.",
+      "venue": "HNK Zagreb",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-12-12T15:30:00",
+      "date_display": "sub, 12. 12. 2026.",
+      "time": "15:30",
+      "link": "https://hnk.hr/hr/ostalo/predstave/iza-kulisa-166-sezona/#12.12.15.30",
+      "source": "HNK Zagreb",
+      "is_new": true,
+      "first_seen": "2026-11-04T11:01:25.729Z"
     },
     {
       "id": "d6b1f0d829",
@@ -2493,6 +2553,21 @@
       "first_seen": "2026-10-27T11:01:29.417Z"
     },
     {
+      "id": "b580349862",
+      "title": "Razgled kazališta 166 sezona iza kulisa U sklopu programa Advent u Zagrebu 2026.",
+      "venue": "HNK Zagreb",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-12-19T15:00:00",
+      "date_display": "sub, 19. 12. 2026.",
+      "time": "15:00",
+      "link": "https://hnk.hr/hr/ostalo/predstave/iza-kulisa-166-sezona/#19.12.15.00",
+      "source": "HNK Zagreb",
+      "is_new": true,
+      "first_seen": "2026-11-04T11:01:25.729Z"
+    },
+    {
       "id": "bdc742bc0d",
       "title": "Razgled kazališta The tour is conducted in English.",
       "venue": "HNK Zagreb",
@@ -2506,6 +2581,21 @@
       "source": "HNK Zagreb",
       "is_new": false,
       "first_seen": "2026-11-03T14:01:23.290Z"
+    },
+    {
+      "id": "dfb4d5d78f",
+      "title": "Razgled kazališta 166 sezona iza kulisa The tour is conducted in English.",
+      "venue": "HNK Zagreb",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-12-19T15:30:00",
+      "date_display": "sub, 19. 12. 2026.",
+      "time": "15:30",
+      "link": "https://hnk.hr/hr/ostalo/predstave/iza-kulisa-166-sezona/#19.12.15.30",
+      "source": "HNK Zagreb",
+      "is_new": true,
+      "first_seen": "2026-11-04T11:01:25.729Z"
     },
     {
       "id": "f00113b6cd",
@@ -4327,5 +4417,5 @@
       "first_seen": "2026-10-31T06:01:17.418Z"
     }
   ],
-  "new_count": 7
+  "new_count": 13
 }
