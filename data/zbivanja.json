@@ -1,13 +1,17 @@
 {
-  "generated_at": "2026-11-04T11:01:25.729Z",
+  "generated_at": "2026-11-04T12:01:20.407Z",
   "stats": {
+    "Mochvara": {
+      "ok": true,
+      "count": 17
+    },
     "muzika.hr": {
       "ok": true,
       "count": 25
     },
-    "Mochvara": {
+    "Tvornica": {
       "ok": true,
-      "count": 17
+      "count": 2
     },
     "Lisinski": {
       "ok": true,
@@ -17,10 +21,6 @@
       "ok": true,
       "count": 30
     },
-    "Tvornica": {
-      "ok": true,
-      "count": 2
-    },
     "ZeKaeM": {
       "ok": true,
       "count": 1
@@ -29,19 +29,19 @@
       "ok": true,
       "count": 0
     },
-    "HNK Zagreb": {
-      "ok": true,
-      "count": 109
-    },
     "Kerempuh": {
       "ok": true,
       "count": 0
     },
-    "Pogon": {
+    "HNK Zagreb": {
+      "ok": true,
+      "count": 109
+    },
+    "Trešnja": {
       "ok": true,
       "count": 0
     },
-    "Trešnja": {
+    "Pogon": {
       "ok": false,
       "error": "The operation was aborted due to timeout"
     }
@@ -2264,7 +2264,7 @@
       "time": "15:00",
       "link": "https://hnk.hr/hr/ostalo/predstave/iza-kulisa-166-sezona/#05.12.15.00",
       "source": "HNK Zagreb",
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-04T11:01:25.729Z"
     },
     {
@@ -2309,7 +2309,7 @@
       "time": "15:30",
       "link": "https://hnk.hr/hr/ostalo/predstave/iza-kulisa-166-sezona/#05.12.15.30",
       "source": "HNK Zagreb",
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-04T11:01:25.729Z"
     },
     {
@@ -2429,7 +2429,7 @@
       "time": "14:00",
       "link": "https://hnk.hr/hr/ostalo/predstave/iza-kulisa-166-sezona/#12.12.14.00",
       "source": "HNK Zagreb",
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-04T11:01:25.729Z"
     },
     {
@@ -2459,7 +2459,7 @@
       "time": "15:30",
       "link": "https://hnk.hr/hr/ostalo/predstave/iza-kulisa-166-sezona/#12.12.15.30",
       "source": "HNK Zagreb",
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-04T11:01:25.729Z"
     },
     {
@@ -2564,7 +2564,7 @@
       "time": "15:00",
       "link": "https://hnk.hr/hr/ostalo/predstave/iza-kulisa-166-sezona/#19.12.15.00",
       "source": "HNK Zagreb",
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-04T11:01:25.729Z"
     },
     {
@@ -2594,7 +2594,7 @@
       "time": "15:30",
       "link": "https://hnk.hr/hr/ostalo/predstave/iza-kulisa-166-sezona/#19.12.15.30",
       "source": "HNK Zagreb",
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-04T11:01:25.729Z"
     },
     {
@@ -4417,5 +4417,5 @@
       "first_seen": "2026-10-31T06:01:17.418Z"
     }
   ],
-  "new_count": 13
+  "new_count": 7
 }
