@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-04T13:24:03.343Z",
+  "generated_at": "2026-11-04T14:01:26.398Z",
   "stats": {
     "muzika.hr": {
       "ok": true,
@@ -9,6 +9,10 @@
       "ok": true,
       "count": 0
     },
+    "Tvornica": {
+      "ok": true,
+      "count": 2
+    },
     "Mochvara": {
       "ok": true,
       "count": 17
@@ -16,10 +20,6 @@
     "Gavella": {
       "ok": true,
       "count": 38
-    },
-    "Tvornica": {
-      "ok": true,
-      "count": 2
     },
     "ZeKaeM": {
       "ok": true,
@@ -29,19 +29,19 @@
       "ok": true,
       "count": 0
     },
-    "Kerempuh": {
-      "ok": true,
-      "count": 0
-    },
-    "Pogon": {
-      "ok": true,
-      "count": 0
-    },
     "HNK Zagreb": {
       "ok": true,
       "count": 109
     },
+    "Kerempuh": {
+      "ok": true,
+      "count": 0
+    },
     "Trešnja": {
+      "ok": true,
+      "count": 0
+    },
+    "Pogon": {
       "ok": true,
       "count": 0
     }
@@ -1379,7 +1379,7 @@
       "time": "20:00",
       "link": "https://mochvara.hr/event-detail/6a8d4de3c3276ddebd3550f9/",
       "source": "Mochvara",
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-04T13:24:03.343Z"
     },
     {
@@ -2446,6 +2446,21 @@
       "source": "HNK Zagreb",
       "is_new": false,
       "first_seen": "2026-11-04T11:01:25.729Z"
+    },
+    {
+      "id": "7d8f402b4d",
+      "title": "Razgled kazališta 166 sezona iza kulisa – kombinirani razgled HNK-a i HNK2 The tour is conducted in English.",
+      "venue": "HNK Zagreb",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-12-12T14:00:00",
+      "date_display": "sub, 12. 12. 2026.",
+      "time": "14:00",
+      "link": "https://hnk.hr/hr/ostalo/predstave/166-sezona-iza-kulisa-kombinirani-razgledi-hnk-i-hnk2/#12.12.14.00",
+      "source": "HNK Zagreb",
+      "is_new": true,
+      "first_seen": "2026-11-04T14:01:26.398Z"
     },
     {
       "id": "454f42b016",
