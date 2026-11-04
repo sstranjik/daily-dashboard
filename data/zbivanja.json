@@ -1,17 +1,13 @@
 {
-  "generated_at": "2026-11-04T12:01:20.407Z",
+  "generated_at": "2026-11-04T12:43:37.866Z",
   "stats": {
-    "Mochvara": {
-      "ok": true,
-      "count": 17
-    },
     "muzika.hr": {
       "ok": true,
       "count": 25
     },
-    "Tvornica": {
+    "Mochvara": {
       "ok": true,
-      "count": 2
+      "count": 17
     },
     "Lisinski": {
       "ok": true,
@@ -19,7 +15,11 @@
     },
     "Gavella": {
       "ok": true,
-      "count": 30
+      "count": 38
+    },
+    "Tvornica": {
+      "ok": true,
+      "count": 2
     },
     "ZeKaeM": {
       "ok": true,
@@ -29,21 +29,21 @@
       "ok": true,
       "count": 0
     },
-    "Kerempuh": {
-      "ok": true,
-      "count": 0
-    },
     "HNK Zagreb": {
       "ok": true,
       "count": 109
     },
-    "Trešnja": {
+    "Pogon": {
       "ok": true,
       "count": 0
     },
-    "Pogon": {
-      "ok": false,
-      "error": "The operation was aborted due to timeout"
+    "Kerempuh": {
+      "ok": true,
+      "count": 0
+    },
+    "Trešnja": {
+      "ok": true,
+      "count": 0
     }
   },
   "concerts": [
@@ -3650,6 +3650,21 @@
       "first_seen": "2026-08-27T15:01:20.279Z"
     },
     {
+      "id": "7479e3e8df",
+      "title": "Za život cijeli",
+      "venue": "Gavella",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "theater",
+      "date_iso": "2026-11-20T00:00:00",
+      "date_display": "pet, 20. 11. 2026.",
+      "time": null,
+      "link": "https://www.gavella.hr/predstave/za-zivot-cijeli",
+      "source": "Gavella",
+      "is_new": true,
+      "first_seen": "2026-11-04T12:43:37.866Z"
+    },
+    {
       "id": "92a2d7bb50",
       "title": "William Shakespeare Richard III.",
       "venue": "HNK Zagreb",
@@ -3665,6 +3680,36 @@
       "first_seen": "2026-08-27T15:01:20.279Z"
     },
     {
+      "id": "ab40e3b475",
+      "title": "Kuća je velika, ne može se ona nosit",
+      "venue": "Gavella",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "theater",
+      "date_iso": "2026-11-21T00:00:00",
+      "date_display": "sub, 21. 11. 2026.",
+      "time": null,
+      "link": "https://www.gavella.hr/predstave/kuca-je-velika-ne-moze-se-ona-nosit",
+      "source": "Gavella",
+      "is_new": false,
+      "first_seen": "2026-11-04T12:43:37.866Z"
+    },
+    {
+      "id": "a1e36ac262",
+      "title": "Contra mundum",
+      "venue": "Gavella",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "theater",
+      "date_iso": "2026-11-22T00:00:00",
+      "date_display": "ned, 22. 11. 2026.",
+      "time": null,
+      "link": "https://www.gavella.hr/predstave/contra-mundum",
+      "source": "Gavella",
+      "is_new": true,
+      "first_seen": "2026-11-04T12:43:37.866Z"
+    },
+    {
       "id": "b4dddc847c",
       "title": "Sanja Milardović Marija Antoaneta za ovo nema vremena",
       "venue": "HNK Zagreb",
@@ -3678,6 +3723,36 @@
       "source": "HNK Zagreb",
       "is_new": false,
       "first_seen": "2026-09-16T14:01:11.239Z"
+    },
+    {
+      "id": "0da19cd336",
+      "title": "Una",
+      "venue": "Gavella",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "theater",
+      "date_iso": "2026-11-23T00:00:00",
+      "date_display": "pon, 23. 11. 2026.",
+      "time": null,
+      "link": "https://www.gavella.hr/predstave/una",
+      "source": "Gavella",
+      "is_new": true,
+      "first_seen": "2026-11-04T12:43:37.866Z"
+    },
+    {
+      "id": "8b61d5633f",
+      "title": "Ovo bi mogao biti moj razred",
+      "venue": "Gavella",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "theater",
+      "date_iso": "2026-11-24T00:00:00",
+      "date_display": "uto, 24. 11. 2026.",
+      "time": null,
+      "link": "https://www.gavella.hr/predstave/ovo-bi-mogao-biti-moj-razred",
+      "source": "Gavella",
+      "is_new": true,
+      "first_seen": "2026-11-04T12:43:37.866Z"
     },
     {
       "id": "570e1cf144",
@@ -3738,6 +3813,36 @@
       "source": "HNK Zagreb",
       "is_new": false,
       "first_seen": "2026-10-09T18:33:36.024Z"
+    },
+    {
+      "id": "2d64f4a5cd",
+      "title": "Sigurna kuća",
+      "venue": "Gavella",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "theater",
+      "date_iso": "2026-11-27T00:00:00",
+      "date_display": "pet, 27. 11. 2026.",
+      "time": null,
+      "link": "https://www.gavella.hr/predstave/aktualne-predstave/sigurna-kuca",
+      "source": "Gavella",
+      "is_new": true,
+      "first_seen": "2026-11-04T12:43:37.866Z"
+    },
+    {
+      "id": "2d3e06abb6",
+      "title": "Kolumne zaboravljene djece",
+      "venue": "Gavella",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "theater",
+      "date_iso": "2026-11-28T00:00:00",
+      "date_display": "sub, 28. 11. 2026.",
+      "time": null,
+      "link": "https://www.gavella.hr/predstave/kolumne-zaboravljene-djece",
+      "source": "Gavella",
+      "is_new": true,
+      "first_seen": "2026-11-04T12:43:37.866Z"
     },
     {
       "id": "62f5ac0b70",
@@ -4417,5 +4522,5 @@
       "first_seen": "2026-10-31T06:01:17.418Z"
     }
   ],
-  "new_count": 7
+  "new_count": 13
 }
