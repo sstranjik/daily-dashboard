@@ -1,6 +1,10 @@
 {
-  "generated_at": "2026-11-04T19:01:19.600Z",
+  "generated_at": "2026-11-04T20:01:15.577Z",
   "stats": {
+    "muzika.hr": {
+      "ok": true,
+      "count": 25
+    },
     "Lisinski": {
       "ok": true,
       "count": 0
@@ -9,21 +13,17 @@
       "ok": true,
       "count": 17
     },
-    "Gavella": {
-      "ok": true,
-      "count": 37
-    },
     "Tvornica": {
       "ok": true,
       "count": 2
     },
+    "Gavella": {
+      "ok": true,
+      "count": 37
+    },
     "ZeKaeM": {
       "ok": true,
       "count": 1
-    },
-    "muzika.hr": {
-      "ok": true,
-      "count": 25
     },
     "Komedija": {
       "ok": true,
@@ -47,51 +47,6 @@
     }
   },
   "concerts": [
-    {
-      "id": "987a137880",
-      "title": "William Shakespeare — Valentina Turcu — Gustav Mahler OTHELLO",
-      "venue": "HNK Zagreb",
-      "city": "Zagreb",
-      "country": "HR",
-      "category": "concert",
-      "date_iso": "2026-10-20T19:30:00",
-      "date_display": "uto, 20. 10. 2026.",
-      "time": "19:30",
-      "link": "https://hnk.hr/hr/balet/predstave/othello/#20.10.19.30",
-      "source": "HNK Zagreb",
-      "is_new": false,
-      "first_seen": "2026-07-02T15:01:22.773Z"
-    },
-    {
-      "id": "2b58e9f4cb",
-      "title": "GZUZ",
-      "venue": "GZUZ Tvornica kulture Šubićeva 2",
-      "city": "Zagreb",
-      "country": "HR",
-      "category": "concert",
-      "date_iso": "2026-10-20T20:00:00",
-      "date_display": "uto, 20. 10. 2026.",
-      "time": "20:00",
-      "link": "https://www.muzika.hr/event/gzuz-u-tvornici-kulture-zagreb-2026/",
-      "source": "muzika.hr",
-      "is_new": false,
-      "first_seen": "2026-10-05T14:01:20.705Z"
-    },
-    {
-      "id": "613acfb47d",
-      "title": "Tvrdo ili nikako: Synth doom/black metal koncert: Deûle, Bank Myna",
-      "venue": "Mochvara",
-      "city": "Zagreb",
-      "country": "HR",
-      "category": "concert",
-      "date_iso": "2026-10-20T20:00:00",
-      "date_display": "uto, 20. 10. 2026.",
-      "time": "20:00",
-      "link": "https://mochvara.hr/event-detail/6aab0440904d7238e5cae885/",
-      "source": "Mochvara",
-      "is_new": false,
-      "first_seen": "2026-10-15T22:44:09.935Z"
-    },
     {
       "id": "149bfdb84b",
       "title": "Glazbeni kviz u Močvari #33",
@@ -3065,51 +3020,6 @@
   ],
   "theater": [
     {
-      "id": "498e725977",
-      "title": "Espi Tomičić Budi uvijek kao zmaj Gostovanje u Slovenskome mladinskom gledališč u Ljubljani",
-      "venue": "HNK Zagreb",
-      "city": "Zagreb",
-      "country": "HR",
-      "category": "theater",
-      "date_iso": "2026-10-20T19:30:00",
-      "date_display": "uto, 20. 10. 2026.",
-      "time": "19:30",
-      "link": "https://hnk.hr/hr/drama/predstave/budi-uvijek-kao-zmaj/#20.10.19.30",
-      "source": "HNK Zagreb",
-      "is_new": false,
-      "first_seen": "2026-07-02T15:01:22.773Z"
-    },
-    {
-      "id": "bf4df8d87d",
-      "title": "Prema motivima Carmen Georgesa Bizeta u režiji Zane Hoxhe - Slovensko mladinsko gledališče, Ljubljana NE CARMEN!",
-      "venue": "HNK Zagreb",
-      "city": "Zagreb",
-      "country": "HR",
-      "category": "theater",
-      "date_iso": "2026-10-20T19:30:00",
-      "date_display": "uto, 20. 10. 2026.",
-      "time": "19:30",
-      "link": "https://hnk.hr/hr/drama/predstave/ne-carmen/#20.10.19.30",
-      "source": "HNK Zagreb",
-      "is_new": true,
-      "first_seen": "2026-07-16T11:24:53.922Z"
-    },
-    {
-      "id": "f89ba0b6ce",
-      "title": "Prema motivima „Carmen“ Georgesa Bizeta Ne Carmen! U režiji Zane Hoxhe, Slovensko mladinsko gledališče, Ljubljana / Gostovanje u sklopu programa HNK2E",
-      "venue": "HNK Zagreb",
-      "city": "Zagreb",
-      "country": "HR",
-      "category": "theater",
-      "date_iso": "2026-10-20T19:30:00",
-      "date_display": "uto, 20. 10. 2026.",
-      "time": "19:30",
-      "link": "https://hnk.hr/hr/drama/predstave/ne-carmen/#20.10.19.30",
-      "source": "HNK Zagreb",
-      "is_new": false,
-      "first_seen": "2026-08-12T14:01:16.094Z"
-    },
-    {
       "id": "58412e8e46",
       "title": "Majka",
       "venue": "Gavella",
@@ -4522,5 +4432,5 @@
       "first_seen": "2026-10-31T06:01:17.418Z"
     }
   ],
-  "new_count": 7
+  "new_count": 6
 }
