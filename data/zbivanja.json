@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-04T13:01:16.797Z",
+  "generated_at": "2026-11-04T13:24:03.343Z",
   "stats": {
     "muzika.hr": {
       "ok": true,
@@ -9,13 +9,13 @@
       "ok": true,
       "count": 0
     },
-    "Gavella": {
-      "ok": true,
-      "count": 38
-    },
     "Mochvara": {
       "ok": true,
       "count": 17
+    },
+    "Gavella": {
+      "ok": true,
+      "count": 38
     },
     "Tvornica": {
       "ok": true,
@@ -29,10 +29,6 @@
       "ok": true,
       "count": 0
     },
-    "HNK Zagreb": {
-      "ok": true,
-      "count": 109
-    },
     "Kerempuh": {
       "ok": true,
       "count": 0
@@ -40,6 +36,10 @@
     "Pogon": {
       "ok": true,
       "count": 0
+    },
+    "HNK Zagreb": {
+      "ok": true,
+      "count": 109
     },
     "Trešnja": {
       "ok": true,
@@ -1366,6 +1366,21 @@
       "source": "Mochvara",
       "is_new": false,
       "first_seen": "2026-11-04T06:01:18.555Z"
+    },
+    {
+      "id": "6d5ae23dd5",
+      "title": "Post-metal koncert: Sólstafir, Moraines",
+      "venue": "Mochvara",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-11-09T20:00:00",
+      "date_display": "pon, 09. 11. 2026.",
+      "time": "20:00",
+      "link": "https://mochvara.hr/event-detail/6a8d4de3c3276ddebd3550f9/",
+      "source": "Mochvara",
+      "is_new": true,
+      "first_seen": "2026-11-04T13:24:03.343Z"
     },
     {
       "id": "afe28d424c",
@@ -4522,5 +4537,5 @@
       "first_seen": "2026-10-31T06:01:17.418Z"
     }
   ],
-  "new_count": 7
+  "new_count": 8
 }
