@@ -1,10 +1,6 @@
 {
-  "generated_at": "2026-11-05T19:01:16.301Z",
+  "generated_at": "2026-11-05T20:01:16.021Z",
   "stats": {
-    "muzika.hr": {
-      "ok": true,
-      "count": 25
-    },
     "Lisinski": {
       "ok": true,
       "count": 0
@@ -13,13 +9,17 @@
       "ok": true,
       "count": 16
     },
+    "Gavella": {
+      "ok": true,
+      "count": 40
+    },
     "Tvornica": {
       "ok": true,
       "count": 2
     },
-    "Gavella": {
+    "muzika.hr": {
       "ok": true,
-      "count": 37
+      "count": 25
     },
     "ZeKaeM": {
       "ok": true,
@@ -29,13 +29,13 @@
       "ok": true,
       "count": 0
     },
-    "HNK Zagreb": {
-      "ok": true,
-      "count": 105
-    },
     "Pogon": {
       "ok": true,
       "count": 0
+    },
+    "HNK Zagreb": {
+      "ok": true,
+      "count": 105
     },
     "Kerempuh": {
       "ok": true,
@@ -47,36 +47,6 @@
     }
   },
   "concerts": [
-    {
-      "id": "149bfdb84b",
-      "title": "Glazbeni kviz u Močvari #33",
-      "venue": "Mochvara",
-      "city": "Zagreb",
-      "country": "HR",
-      "category": "concert",
-      "date_iso": "2026-10-21T20:00:00",
-      "date_display": "sri, 21. 10. 2026.",
-      "time": "20:00",
-      "link": "https://mochvara.hr/event-detail/6ad60364f22d286bf1dc35ba/",
-      "source": "Mochvara",
-      "is_new": true,
-      "first_seen": "2026-10-19T12:01:27.483Z"
-    },
-    {
-      "id": "b63920c0f6",
-      "title": "Glazbeni kviz u Močvari #34",
-      "venue": "Mochvara",
-      "city": "Zagreb",
-      "country": "HR",
-      "category": "concert",
-      "date_iso": "2026-10-21T20:00:00",
-      "date_display": "sri, 21. 10. 2026.",
-      "time": "20:00",
-      "link": "https://mochvara.hr/event-detail/6ad60364f22d286bf1dc35ba/",
-      "source": "Mochvara",
-      "is_new": false,
-      "first_seen": "2026-10-19T13:01:24.979Z"
-    },
     {
       "id": "c92f8ddb39",
       "title": "Sarah Brightman u Areni Zagreb",
@@ -3935,6 +3905,21 @@
       "first_seen": "2026-10-20T10:31:32.662Z"
     },
     {
+      "id": "4cc2d2076d",
+      "title": "Hirošima, ljubavi moja",
+      "venue": "Gavella",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "theater",
+      "date_iso": "2026-12-07T00:00:00",
+      "date_display": "pon, 07. 12. 2026.",
+      "time": null,
+      "link": "https://www.gavella.hr/predstave/hirosima-ljubavi-moja",
+      "source": "Gavella",
+      "is_new": true,
+      "first_seen": "2026-11-05T20:01:16.021Z"
+    },
+    {
       "id": "784732f89d",
       "title": "Sigurna kuća",
       "venue": "Gavella",
@@ -3950,6 +3935,21 @@
       "first_seen": "2026-10-20T10:31:32.662Z"
     },
     {
+      "id": "742bd759d1",
+      "title": "Hirošima, ljubavi moja",
+      "venue": "Gavella",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "theater",
+      "date_iso": "2026-12-08T00:00:00",
+      "date_display": "uto, 08. 12. 2026.",
+      "time": null,
+      "link": "https://www.gavella.hr/predstave/hirosima-ljubavi-moja",
+      "source": "Gavella",
+      "is_new": true,
+      "first_seen": "2026-11-05T20:01:16.021Z"
+    },
+    {
       "id": "293aabc93e",
       "title": "Vjekoslav Majer — Krešo Golik — Rene Medvešek Tko pjeva zlo ne misli",
       "venue": "HNK Zagreb",
@@ -3963,6 +3963,21 @@
       "source": "HNK Zagreb",
       "is_new": false,
       "first_seen": "2026-08-28T10:01:17.450Z"
+    },
+    {
+      "id": "7d6a32bdd7",
+      "title": "Hirošima, ljubavi moja",
+      "venue": "Gavella",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "theater",
+      "date_iso": "2026-12-09T00:00:00",
+      "date_display": "sri, 09. 12. 2026.",
+      "time": null,
+      "link": "https://www.gavella.hr/predstave/hirosima-ljubavi-moja",
+      "source": "Gavella",
+      "is_new": true,
+      "first_seen": "2026-11-05T20:01:16.021Z"
     },
     {
       "id": "8521a4ba0a",
@@ -4083,6 +4098,21 @@
       "source": "Gavella",
       "is_new": false,
       "first_seen": "2026-10-21T12:01:27.419Z"
+    },
+    {
+      "id": "3a2a40dd64",
+      "title": "Dugo putovanje u noć",
+      "venue": "Gavella",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "theater",
+      "date_iso": "2026-12-21T00:00:00",
+      "date_display": "pon, 21. 12. 2026.",
+      "time": null,
+      "link": "https://www.gavella.hr/predstave/aktualne-predstave/dugo-putovanje-u-noc",
+      "source": "Gavella",
+      "is_new": true,
+      "first_seen": "2026-11-05T20:01:16.021Z"
     },
     {
       "id": "169864ff03",
@@ -4432,5 +4462,5 @@
       "first_seen": "2026-10-31T06:01:17.418Z"
     }
   ],
-  "new_count": 6
+  "new_count": 9
 }
