@@ -1,15 +1,15 @@
 {
   "version": 2,
-  "date": "2026-11-04",
-  "generated_at": "2026-11-04T12:45:34.012Z",
-  "date_hr": "Srijeda, 4. studenog 2026.",
+  "date": "2026-11-05",
+  "generated_at": "2026-11-05T06:02:47.856Z",
+  "date_hr": "Četvrtak, 5. studenog 2026.",
   "weather": {
-    "icon": "🌧️",
-    "summary": "7–9°C, lagana kiša",
+    "icon": "☁️",
+    "summary": "5–11°C, oblačno",
     "alerts": []
   },
   "fuel": {
-    "current_date": "04.11.2026",
+    "current_date": "05.11.2026",
     "eurodiesel": [
       {
         "company": "Adria Oil",
@@ -63,46 +63,46 @@
     "upcoming_premium": null
   },
   "market": {
-    "updated_at": "2026-11-04T12:45:34.012Z",
-    "btc_usd": 78183,
-    "btc_eur": 69436,
-    "btc_change_24h": 1.14,
-    "usd_eur": 0.8934
+    "updated_at": "2026-11-05T06:02:47.856Z",
+    "btc_usd": 80374,
+    "btc_eur": 71379,
+    "btc_change_24h": 3.39,
+    "usd_eur": 0.8899
   },
   "ai_news": [
+    {
+      "title": "Adobe puts its marketing AI agent inside ChatGPT, Claude and Copilot",
+      "link": "https://thenextweb.com/news/adobe-cx-enterprise-coworker-chatgpt-claude-gemini-copilot",
+      "source": "The Next Web"
+    },
+    {
+      "title": "ChatGPT can now make animated GIFs with OpenAI’s Images 2.6",
+      "link": "https://thenextweb.com/news/chatgpt-animated-gifs-images-2-6-openai",
+      "source": "The Next Web"
+    },
+    {
+      "title": "ChatGPT will now make you animated GIFs",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1026474/openai-chatgpt-animated-gifs-images-2-6",
+      "source": "The Verge"
+    },
     {
       "title": "OpenAI employees flagged weak internal security before ChatGPT",
       "link": "https://thenextweb.com/news/openai-staff-warned-security-lapses-years",
       "source": "The Next Web"
     },
     {
-      "title": "OpenAI says ChatGPT is catching up to Google in search",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1025482/openai-says-chatgpt-is-catching-up-to-google-in-search",
-      "source": "The Verge"
-    },
-    {
-      "title": "Alex Stamos says giving AI agents your financial logins is ‘totally insane’",
-      "link": "https://thenextweb.com/news/alex-stamos-ai-agents-financial-logins-insane",
-      "source": "The Next Web"
-    },
-    {
-      "title": "Oracle cancels $7B Tencent AI chip lease under US pressure, FT reports",
-      "link": "https://thenextweb.com/news/oracle-cancels-tencent-ai-chip-lease",
-      "source": "The Next Web"
-    },
-    {
-      "title": "Traversal raises $120M at a $1B valuation to fix what AI code breaks",
-      "link": "https://thenextweb.com/news/traversal-120m-series-b-1b-valuation-ai-sre",
-      "source": "The Next Web"
+      "title": "Stiže sustav za potvrđivanje je li AI model doista napravio neki sadržaj",
+      "link": "https://mreza.bug.hr/umjetna-inteligencija/stize-sustav-za-potvrdjivanje-je-li-ai-model-doista-napravio-neki-sadrzaj-64091",
+      "source": "Bug.hr"
     }
   ],
   "micro_tips": {
     "vscode": {
-      "tip": "Go to Definition simbola",
-      "keys": "F12"
+      "tip": "Peek Definition bez napuštanja fajla",
+      "keys": "Alt+F12"
     },
-    "sql": "Parametrizirani upiti = plan cache reuse + SQL injection zaštita istovremeno",
-    "oracle": "NVL2(expr, kad_nije_null, kad_je_null) kompaktnija od dvostrukog NVL-a",
-    "regex": "\\s+ pokriva space, tab i newline; \\S je negacija (svaki ne-whitespace)"
+    "sql": "Batch INSERT umjesto jednog-po-jednog: INSERT INTO t VALUES (...),(...),...",
+    "oracle": "FETCH FIRST n ROWS ONLY umjesto ROWNUM — kompatibilno s ORDER BY i čitljivije",
+    "regex": "^(?!.*pattern) negative lookahead: \"ova linija ne smije sadržavati X\""
   }
 }
