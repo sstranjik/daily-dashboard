@@ -1,15 +1,15 @@
 {
   "version": 2,
-  "date": "2026-11-05",
-  "generated_at": "2026-11-05T12:55:03.022Z",
-  "date_hr": "Četvrtak, 5. studenog 2026.",
+  "date": "2026-11-06",
+  "generated_at": "2026-11-06T06:03:36.880Z",
+  "date_hr": "Petak, 6. studenog 2026.",
   "weather": {
     "icon": "☁️",
-    "summary": "6–10°C, oblačno",
+    "summary": "7–11°C, oblačno",
     "alerts": []
   },
   "fuel": {
-    "current_date": "05.11.2026",
+    "current_date": "06.11.2026",
     "eurodiesel": [
       {
         "company": "Adria Oil",
@@ -63,46 +63,46 @@
     "upcoming_premium": null
   },
   "market": {
-    "updated_at": "2026-11-05T12:55:03.022Z",
-    "btc_usd": 79575,
-    "btc_eur": 70910,
-    "btc_change_24h": 1.85,
-    "usd_eur": 0.8899
+    "updated_at": "2026-11-06T06:03:36.880Z",
+    "btc_usd": 75556,
+    "btc_eur": 67484,
+    "btc_change_24h": -5.96,
+    "usd_eur": 0.8905
   },
   "ai_news": [
     {
-      "title": "Adobe puts its marketing AI agent inside ChatGPT, Claude and Copilot",
-      "link": "https://thenextweb.com/news/adobe-cx-enterprise-coworker-chatgpt-claude-gemini-copilot",
-      "source": "The Next Web"
-    },
-    {
-      "title": "ChatGPT can now make animated GIFs with OpenAI’s Images 2.6",
-      "link": "https://thenextweb.com/news/chatgpt-animated-gifs-images-2-6-openai",
-      "source": "The Next Web"
-    },
-    {
-      "title": "ChatGPT will now make you animated GIFs",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1026474/openai-chatgpt-animated-gifs-images-2-6",
+      "title": "Perplexity launches its own take on AI agents for work",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1028302/perplexity-teammates-ai-agents-work",
       "source": "The Verge"
     },
     {
-      "title": "OpenAI will be ready for an IPO in 2027, says Greg Brockman",
-      "link": "https://thenextweb.com/news/openai-ipo-2027-brockman-enterprise-revenue",
+      "title": "Claude’s new Personal Finance tool aims to help analyze your spending – read-only, of course",
+      "link": "https://www.zdnet.com/innovation/personal-finance-claude-anthropic/",
+      "source": "ZDNet"
+    },
+    {
+      "title": "Claude Code’s product lead Cat Wu leaves Anthropic to join OpenAI",
+      "link": "https://thenextweb.com/news/cat-wu-claude-code-anthropic-openai-core-products",
       "source": "The Next Web"
     },
     {
-      "title": "Stiže sustav za potvrđivanje je li AI model doista napravio neki sadržaj",
-      "link": "https://mreza.bug.hr/umjetna-inteligencija/stize-sustav-za-potvrdjivanje-je-li-ai-model-doista-napravio-neki-sadrzaj-64091",
-      "source": "Bug.hr"
+      "title": "Claude’s share of UK AI subscription spending quadruples in seven months",
+      "link": "https://thenextweb.com/news/claude-uk-ai-subscription-spending-share-chatgpt",
+      "source": "The Next Web"
+    },
+    {
+      "title": "Anthropic lets Claude read your bank accounts, but not move money",
+      "link": "https://thenextweb.com/news/anthropic-claude-personal-finance-plaid-read-only-beta",
+      "source": "The Next Web"
     }
   ],
   "micro_tips": {
     "vscode": {
-      "tip": "Peek Definition bez napuštanja fajla",
-      "keys": "Alt+F12"
+      "tip": "Dupliciraj trenutnu liniju ispod",
+      "keys": "Shift+Alt+↓"
     },
-    "sql": "Batch INSERT umjesto jednog-po-jednog: INSERT INTO t VALUES (...),(...),...",
-    "oracle": "FETCH FIRST n ROWS ONLY umjesto ROWNUM — kompatibilno s ORDER BY i čitljivije",
-    "regex": "^(?!.*pattern) negative lookahead: \"ova linija ne smije sadržavati X\""
+    "sql": "EXISTS umjesto IN za subqueries — brže jer stane na prvom podudaranju: WHERE EXISTS (SELECT 1 FROM ...)",
+    "oracle": "/*+ INDEX(t ime_indexa) */ forsira specifičan index kad optimizer bira full scan",
+    "regex": "\\b granica riječi: \\bword\\b podudara cijelu riječ, ne \"password\" ili \"swordfish\""
   }
 }
