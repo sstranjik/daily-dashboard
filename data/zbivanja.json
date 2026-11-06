@@ -1,25 +1,25 @@
 {
-  "generated_at": "2026-11-06T11:01:19.569Z",
+  "generated_at": "2026-11-06T12:01:20.285Z",
   "stats": {
     "muzika.hr": {
       "ok": true,
       "count": 25
     },
-    "Mochvara": {
-      "ok": true,
-      "count": 15
-    },
     "Lisinski": {
       "ok": true,
       "count": 0
     },
-    "Gavella": {
+    "Mochvara": {
       "ok": true,
-      "count": 40
+      "count": 15
     },
     "Tvornica": {
       "ok": true,
       "count": 2
+    },
+    "Gavella": {
+      "ok": true,
+      "count": 40
     },
     "ZeKaeM": {
       "ok": true,
@@ -29,10 +29,6 @@
       "ok": true,
       "count": 0
     },
-    "HNK Zagreb": {
-      "ok": true,
-      "count": 106
-    },
     "Pogon": {
       "ok": true,
       "count": 0
@@ -40,6 +36,10 @@
     "Kerempuh": {
       "ok": true,
       "count": 0
+    },
+    "HNK Zagreb": {
+      "ok": true,
+      "count": 106
     },
     "Trešnja": {
       "ok": true,
@@ -1664,7 +1664,7 @@
       "time": null,
       "link": "https://www.muzika.hr/event/zabranjeno-pusenje-neustekani-2/",
       "source": "muzika.hr",
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-01T20:01:16.170Z"
     },
     {
@@ -1814,7 +1814,7 @@
       "time": "20:00",
       "link": "https://www.muzika.hr/event/sajsi-mc-akustika-sessions-zagreb-2026/",
       "source": "muzika.hr",
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-01T20:01:16.170Z"
     },
     {
@@ -1859,7 +1859,7 @@
       "time": null,
       "link": "https://www.muzika.hr/event/mothers-finest/",
       "source": "muzika.hr",
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-01T20:01:16.170Z"
     },
     {
@@ -3346,7 +3346,7 @@
       "time": "12:00",
       "link": "https://hnk.hr/hr/drama/predstave/centrifugalno-kretanje-povijesti-u-tragediji-richard-iii/#09.11.12.00",
       "source": "HNK Zagreb",
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-06T11:01:19.569Z"
     },
     {
@@ -4492,5 +4492,5 @@
       "first_seen": "2026-10-31T06:01:17.418Z"
     }
   ],
-  "new_count": 6
+  "new_count": 2
 }
