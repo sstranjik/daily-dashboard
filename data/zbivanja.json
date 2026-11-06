@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-11-06T06:01:15.909Z",
+  "generated_at": "2026-11-06T07:01:17.709Z",
   "stats": {
-    "Mochvara": {
+    "Gavella": {
       "ok": true,
-      "count": 15
+      "count": 40
     },
     "Lisinski": {
       "ok": true,
@@ -12,10 +12,6 @@
     "Mochvara": {
       "ok": true,
       "count": 15
-    },
-    "Gavella": {
-      "ok": true,
-      "count": 40
     },
     "Tvornica": {
       "ok": true,
@@ -33,13 +29,13 @@
       "ok": true,
       "count": 0
     },
-    "Pogon": {
-      "ok": true,
-      "count": 0
-    },
     "HNK Zagreb": {
       "ok": true,
       "count": 105
+    },
+    "Pogon": {
+      "ok": true,
+      "count": 0
     },
     "Kerempuh": {
       "ok": true,
@@ -48,10 +44,6 @@
     "Trešnja": {
       "ok": true,
       "count": 0
-    },
-    "HNK Zagreb": {
-      "ok": true,
-      "count": 105
     }
   },
   "concerts": [
@@ -1342,7 +1334,7 @@
       "time": "19:30",
       "link": "https://mochvara.hr/event-detail/6ac8bc39027abbb418733ab1/",
       "source": "Mochvara",
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-06T06:01:15.909Z"
     },
     {
@@ -1987,7 +1979,7 @@
       "time": null,
       "link": "https://www.muzika.hr/event/soul-legacy/",
       "source": "muzika.hr",
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-06T06:01:15.909Z"
     },
     {
@@ -4470,5 +4462,5 @@
       "first_seen": "2026-10-31T06:01:17.418Z"
     }
   ],
-  "new_count": 7
+  "new_count": 5
 }
