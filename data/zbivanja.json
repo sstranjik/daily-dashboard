@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-11-05T21:01:17.090Z",
+  "generated_at": "2026-11-06T06:01:20.456Z",
   "stats": {
     "muzika.hr": {
       "ok": true,
       "count": 25
     },
-    "Mochvara": {
-      "ok": true,
-      "count": 16
-    },
     "Lisinski": {
       "ok": true,
       "count": 0
+    },
+    "Mochvara": {
+      "ok": true,
+      "count": 15
     },
     "Gavella": {
       "ok": true,
@@ -29,39 +29,24 @@
       "ok": true,
       "count": 0
     },
-    "HNK Zagreb": {
-      "ok": true,
-      "count": 105
-    },
-    "Kerempuh": {
+    "Pogon": {
       "ok": true,
       "count": 0
     },
-    "Pogon": {
+    "Kerempuh": {
       "ok": true,
       "count": 0
     },
     "Trešnja": {
       "ok": true,
       "count": 0
+    },
+    "HNK Zagreb": {
+      "ok": true,
+      "count": 105
     }
   },
   "concerts": [
-    {
-      "id": "c92f8ddb39",
-      "title": "Sarah Brightman u Areni Zagreb",
-      "venue": "Areni Zagreb Arena Zagreb Lanište bb",
-      "city": "Zagreb",
-      "country": "HR",
-      "category": "concert",
-      "date_iso": "2026-10-22T00:00:00",
-      "date_display": "čet, 22. 10. 2026.",
-      "time": null,
-      "link": "https://www.muzika.hr/event/sarah-brightman-u-areni-zagreb/",
-      "source": "muzika.hr",
-      "is_new": false,
-      "first_seen": "2026-09-23T22:31:10.170Z"
-    },
     {
       "id": "cab2e9fd63",
       "title": "William Shakespeare — Valentina Turcu — Gustav Mahler OTHELLO",
@@ -1338,6 +1323,21 @@
       "first_seen": "2026-08-27T14:01:12.544Z"
     },
     {
+      "id": "7d9f4106a8",
+      "title": "Podrži scenu!: Mladen, Pozeri, Felina",
+      "venue": "Mochvara",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-11-11T19:30:00",
+      "date_display": "sri, 11. 11. 2026.",
+      "time": "19:30",
+      "link": "https://mochvara.hr/event-detail/6ac8bc39027abbb418733ab1/",
+      "source": "Mochvara",
+      "is_new": true,
+      "first_seen": "2026-11-06T06:01:20.456Z"
+    },
+    {
       "id": "e4ea9d9e2b",
       "title": "Jakov Gotovac Ero s onoga svijeta",
       "venue": "HNK Zagreb",
@@ -1966,6 +1966,21 @@
       "source": "muzika.hr",
       "is_new": false,
       "first_seen": "2026-11-01T06:01:17.209Z"
+    },
+    {
+      "id": "90f0a1fcea",
+      "title": "Soul Legacy",
+      "venue": "Soul Legacy Kino SC Zagreb",
+      "city": "Croatia",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-11-27T00:00:00",
+      "date_display": "pet, 27. 11. 2026.",
+      "time": null,
+      "link": "https://www.muzika.hr/event/soul-legacy/",
+      "source": "muzika.hr",
+      "is_new": true,
+      "first_seen": "2026-11-06T06:01:20.456Z"
     },
     {
       "id": "5ebd766a82",
@@ -3004,21 +3019,6 @@
     }
   ],
   "theater": [
-    {
-      "id": "ef64ba8bef",
-      "title": "Majka",
-      "venue": "Gavella",
-      "city": "Zagreb",
-      "country": "HR",
-      "category": "theater",
-      "date_iso": "2026-10-22T00:00:00",
-      "date_display": "čet, 22. 10. 2026.",
-      "time": null,
-      "link": "https://www.gavella.hr/predstave/aktualne-predstave/majka",
-      "source": "Gavella",
-      "is_new": false,
-      "first_seen": "2026-09-04T13:01:17.354Z"
-    },
     {
       "id": "8a2b170f44",
       "title": "Carmina Burana",
@@ -4462,5 +4462,5 @@
       "first_seen": "2026-10-31T06:01:17.418Z"
     }
   ],
-  "new_count": 5
+  "new_count": 7
 }

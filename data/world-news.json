@@ -1,9 +1,645 @@
 {
-  "last_updated": "2026-11-05T21:01:12.476Z",
+  "last_updated": "2026-11-06T06:01:15.884Z",
   "source_count": 6,
   "items": [
     {
       "id": "jutarnji-0",
+      "title": "Težak šamar Vučiću iz Moskve. Zaharova: ‘O tome ćemo razgovarati s novom vlasti‘",
+      "summary": "Pregovori o novom sporazumu o isporuci ruskog plina Srbiji ponovno bi mogli biti otvoreni nakon formiranja nove vlade u Beogradu, najavila je glasnogovornica ruskog Ministarstva vanjskih poslova Marija Zaharova, prenosi Nova.rs. Govoreći na konferenciji za novinare u Moskvi, Zaharova je komentirala.",
+      "link": "https://www.jutarnji.hr/vijesti/svijet/tezak-samar-vucicu-iz-moskve-zaharova-o-tome-cemo-razgovarati-s-novom-vlasti-15762868",
+      "published": "2026-11-06T06:00:21.000Z",
+      "source": "Jutarnji",
+      "category": "general",
+      "xml_category": "svijet",
+      "tags": [],
+      "image": "https://media.jutarnji.hr/images/slike/2026/11/06/f_39913540_1280.png?1793944851"
+    },
+    {
+      "id": "bbc-0",
+      "title": "Global tech stocks plunge as US midterms add to AI slowdown fears",
+      "summary": "Investors have reacted to possible tougher scrutiny of data centre construction and the AI industry.",
+      "link": "https://www.bbc.co.uk/news/articles/cmn04705rd8jo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-06T05:51:16.000Z",
+      "source": "BBC",
+      "category": "ai",
+      "xml_category": "",
+      "tags": [],
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7da8/live/a5c551d0-d996-11f1-9e72-375d6b1d1f05.jpg"
+    },
+    {
+      "id": "index-0",
+      "title": "Trumpov zet predstavio plan za Europu. Rusija ne bi imala pravo veta",
+      "summary": "JARED Kushner predstavio je plan za europsku sigurnost koji Rusiji oduzima pravo veta na odluke suverenih država o ulasku u saveze poput NATO-a.",
+      "link": "https://www.index.hr/vijesti/clanak/trumpov-zet-predstavio-plan-za-europu-rusija-ne-bi-imala-pravo-veta/2853883.aspx",
+      "published": "2026-11-06T05:50:00.000Z",
+      "source": "Index",
+      "category": "general",
+      "xml_category": "vijesti",
+      "tags": [],
+      "image": null
+    },
+    {
+      "id": "index-1",
+      "title": "Povećana kazna ubojici Henryja Nowaka",
+      "summary": "VICKRUM Digwa prvotno je osuđen na doživotni zatvor uz obvezu izdržavanja najmanje 21 godine kazne zbog ubojstva studenta Henryja Nowaka.",
+      "link": "https://www.index.hr/vijesti/clanak/povecana-kazna-ubojici-henryja-nowaka/2853876.aspx",
+      "published": "2026-11-06T05:41:00.000Z",
+      "source": "Index",
+      "category": "general",
+      "xml_category": "vijesti",
+      "tags": [],
+      "image": null
+    },
+    {
+      "id": "index-2",
+      "title": "Trump: JEDNOSTAVNO NISAM BIO NA GLASAČKOM LISTIĆU",
+      "summary": "TRUMP tvrdi da bi republikanci uvjerljivo pobijedili da je on bio na listiću, a za gubitak oba doma Kongresa krivi loše kandidate i slab odaziv.",
+      "link": "https://www.index.hr/vijesti/clanak/trump-jednostavno-nisam-bio-na-glasackom-listicu/2853879.aspx",
+      "published": "2026-11-06T05:38:00.000Z",
+      "source": "Index",
+      "category": "general",
+      "xml_category": "vijesti",
+      "tags": [],
+      "image": null
+    },
+    {
+      "id": "index-3",
+      "title": "Trump izgubio izbore. Sad bi mogao pokušati pridobiti Kima",
+      "summary": "NAKON političkog udarca, Trump bi mogao obnoviti diplomaciju sa Sjevernom Korejom radi ostavštine. Ipak, Kim Jong Un ima malo motiva za pregovore, a mogući ustupci brinu američke saveznike.",
+      "link": "https://www.index.hr/vijesti/clanak/trump-izgubio-izbore-sad-bi-mogao-pokusati-pridobiti-kima/2853874.aspx",
+      "published": "2026-11-06T05:30:00.000Z",
+      "source": "Index",
+      "category": "general",
+      "xml_category": "vijesti",
+      "tags": [],
+      "image": null
+    },
+    {
+      "id": "index-4",
+      "title": "Hegseth: Napadaju nas jer smo učinkoviti, to neće proći",
+      "summary": "BIJELA kuća odbacila je glasine o odlasku ministra obrane Hegsetha i državnog tajnika Rubija nakon izbornog poraza republikanaca, unatoč pritisku zbog rata u Iranu i najavama opoziva.",
+      "link": "https://www.index.hr/vijesti/clanak/hegseth-napadaju-nas-jer-smo-ucinkoviti-to-nece-proci/2853875.aspx",
+      "published": "2026-11-06T05:21:00.000Z",
+      "source": "Index",
+      "category": "general",
+      "xml_category": "vijesti",
+      "tags": [],
+      "image": null
+    },
+    {
+      "id": "jutarnji-1",
+      "title": "Wall Street: Globalna rasprodaja tehnološkog sektora, reagirao i Trump",
+      "summary": "Tehnološki indeks Nasdaq oštro je pao u četvrtak, zabilježivši najveći dnevni pad u proteklih 19 mjeseci te je zašao u područje tehničke korekcije, pod utjecajem potonuća cijena dionica proizvođača čipova, a takva zbivanja na burzi izazvala su i reakciju Donalda Trumpa. Nasdaq indeks potonuo je u sr",
+      "link": "https://www.jutarnji.hr/vijesti/svijet/wall-street-globalna-rasprodaja-tehnoloskog-sektora-reagirao-i-trump-15762864",
+      "published": "2026-11-06T05:18:25.000Z",
+      "source": "Jutarnji",
+      "category": "general",
+      "xml_category": "svijet",
+      "tags": [],
+      "image": "https://media.jutarnji.hr/images/slike/2026/11/06/f_39904944_1280.jpg?1793944851"
+    },
+    {
+      "id": "index-5",
+      "title": "Burze potonule nakon trijumfa demokrata",
+      "summary": "RASPRODAJA dionica dodatno je pojačala već postojeću zabrinutost ulagača oko toga hoće li golema ulaganja u umjetnu inteligenciju u konačnici donijeti očekivanu zaradu.",
+      "link": "https://www.index.hr/vijesti/clanak/burze-potonule-nakon-trijumfa-demokrata/2853873.aspx",
+      "published": "2026-11-06T05:13:00.000Z",
+      "source": "Index",
+      "category": "general",
+      "xml_category": "vijesti",
+      "tags": [],
+      "image": null
+    },
+    {
+      "id": "al-jazeera-0",
+      "title": "Why one Republican won a redrawn Texas district despite blue tsunami",
+      "summary": "Republican redistricting largely backfired in Texas and beyond, but one redrawn district delivered for the party.",
+      "link": "https://www.aljazeera.com/news/2026/11/6/why-one-republican-won-a-redrawn-texas-district-despite-blue-tsunami?traffic_source=rss",
+      "published": "2026-11-06T05:03:57.000Z",
+      "source": "Al Jazeera",
+      "category": "general",
+      "xml_category": "news",
+      "tags": [],
+      "image": null
+    },
+    {
+      "id": "al-jazeera-1",
+      "title": "Iraq’s al-Zaidi talks to Trump as Baghdad seeks to stay out of war on Iran",
+      "summary": "Call comes as Iraq&#039;s top diplomat urges armed groups not to join any Iranian retaliation to US attacks.",
+      "link": "https://www.aljazeera.com/news/2026/11/6/iraqs-al-zaidi-talks-to-trump-as-baghdad-seeks-to-stay-out-of-war-on-iran?traffic_source=rss",
+      "published": "2026-11-06T05:00:47.000Z",
+      "source": "Al Jazeera",
+      "category": "ai",
+      "xml_category": "news",
+      "tags": [],
+      "image": null
+    },
+    {
+      "id": "al-jazeera-2",
+      "title": "Trump issues proclamation declaring Oval Office national monument",
+      "summary": "Following election losses, the signing marks Trump&#039;s third event of the week focused on signature renovation projects.",
+      "link": "https://www.aljazeera.com/news/2026/11/6/trump-issues-proclamation-declaring-oval-office-national-monument?traffic_source=rss",
+      "published": "2026-11-06T04:48:00.000Z",
+      "source": "Al Jazeera",
+      "category": "general",
+      "xml_category": "news",
+      "tags": [],
+      "image": null
+    },
+    {
+      "id": "al-jazeera-3",
+      "title": "Israeli settlers seize 8 Palestinian homes in Jericho, displacing dozens",
+      "summary": "UN says settlers reportedly used live ammunition and beat Palestinians, forcing families to flee for their safety.",
+      "link": "https://www.aljazeera.com/news/2026/11/6/israeli-settlers-seize-8-palestinian-homes-in-jericho-displacing-dozens?traffic_source=rss",
+      "published": "2026-11-06T04:30:26.000Z",
+      "source": "Al Jazeera",
+      "category": "general",
+      "xml_category": "news",
+      "tags": [],
+      "image": null
+    },
+    {
+      "id": "bbc-1",
+      "title": "Trump signs order preventing future presidents from changing Oval Office",
+      "summary": "The order comes after Trump made a series of big changes to the decor of the Oval Office and tore down the White House East Wing.",
+      "link": "https://www.bbc.co.uk/news/articles/cmy0eeg101djo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-06T04:29:25.000Z",
+      "source": "BBC",
+      "category": "general",
+      "xml_category": "",
+      "tags": [],
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6593/live/d5c2e140-d991-11f1-9ebf-51ca702e24e1.jpg"
+    },
+    {
+      "id": "al-jazeera-4",
+      "title": "Democratic Socialist Nithya Raman wins LA mayoral race",
+      "summary": "Nithya Raman&#039;s victory in LA marks the second major win for Democratic Socialists in a year.",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/11/6/democratic-socialist-nithya-raman-wins-la-mayoral-race?traffic_source=rss",
+      "published": "2026-11-06T04:29:04.000Z",
+      "source": "Al Jazeera",
+      "category": "general",
+      "xml_category": "show types",
+      "tags": [],
+      "image": null
+    },
+    {
+      "id": "al-jazeera-5",
+      "title": "Building wind turbines out of parts found in Gaza’s rubble",
+      "summary": "Palestinians in Gaza have made wind turbines to generate electricity, using scraps found in the rubble.",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/11/6/building-wind-turbines-out-of-parts-found-in-gazas-rubble?traffic_source=rss",
+      "published": "2026-11-06T04:20:22.000Z",
+      "source": "Al Jazeera",
+      "category": "general",
+      "xml_category": "show types",
+      "tags": [],
+      "image": null
+    },
+    {
+      "id": "jutarnji-2",
+      "title": "Polovici nacije preko noći blokirani računi, nemaju ni za hranu i režije. U središtu afere - predsjednik države",
+      "summary": "Paragvajski predsjednik Santiago Peña ostat će zasad na dužnosti nakon što parlament zbog nedostatka kvoruma nije uspio odlučiti o njegovoj ostavci, dok se istodobno nastavlja postupak njegova opoziva. Zemlju potresa jedna od najtežih financijskih i političkih kriza u novijoj povijesti, izazvana slo",
+      "link": "https://www.jutarnji.hr/vijesti/svijet/polovici-nacije-preko-noci-blokirani-racuni-ne-mogu-platiti-hranu-i-rezije-u-sredistu-afere-predsjednik-drzave-15762855",
+      "published": "2026-11-06T03:51:00.000Z",
+      "source": "Jutarnji",
+      "category": "politika",
+      "xml_category": "svijet",
+      "tags": [],
+      "image": "https://media.jutarnji.hr/images/slike/2026/11/06/f_39913184_1280.jpg?1793944851"
+    },
+    {
+      "id": "al-jazeera-6",
+      "title": "Paraguay’s president impeached amid bank collapse crisis",
+      "summary": "Lawmakers have voted to impeach Paraguay’s President Santiago Pena amid a banking collapse that has roiled the country.",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/11/6/paraguays-president-impeached-amid-bank-collapse-crisis?traffic_source=rss",
+      "published": "2026-11-06T03:49:33.000Z",
+      "source": "Al Jazeera",
+      "category": "general",
+      "xml_category": "show types",
+      "tags": [],
+      "image": null
+    },
+    {
+      "id": "jutarnji-3",
+      "title": "Najdjetinjastija odluka koju je Trump ikada potpisao? ‘Neće ga dirati glupi ljudi!‘",
+      "summary": "Američki predsjednik Donald Trump potpisao je izvršnu uredbu kojom, kako tvrdi, želi spriječiti buduće predsjednike da provode određene promjene u Ovalnom uredu Bijele kuće. Trump, nekadašnji nekretninski mogul, tijekom svojeg drugog mandata znatno je promijenio izgled službenog predsjedničkog ureda",
+      "link": "https://www.jutarnji.hr/vijesti/svijet/najdjetinjastija-odluka-koju-je-trump-ikada-potpisao-nece-ga-dirati-glupi-ljudi-15762854",
+      "published": "2026-11-06T03:13:00.000Z",
+      "source": "Jutarnji",
+      "category": "general",
+      "xml_category": "svijet",
+      "tags": [],
+      "image": "https://media.jutarnji.hr/images/slike/2026/11/06/f_39913111_1280.jpg?1793944851"
+    },
+    {
+      "id": "al-jazeera-7",
+      "title": "Iran’s security chief meets Putin, delivers message from Khamenei",
+      "summary": "Putin meets Iran&#039;s top security official to discuss regional security and receives a letter from Mojtaba Khamenei.",
+      "link": "https://www.aljazeera.com/news/2026/11/6/irans-security-chief-meets-putin-delivers-message-from-khamenei?traffic_source=rss",
+      "published": "2026-11-06T02:48:19.000Z",
+      "source": "Al Jazeera",
+      "category": "general",
+      "xml_category": "news",
+      "tags": [],
+      "image": null
+    },
+    {
+      "id": "bbc-2",
+      "title": "White House denies Hegseth and Rubio to leave jobs after Republican election losses",
+      "summary": "US media reports there are calls to replace Pete Hegseth, who also faces a possible impeachment vote, while Mark Rubio is rumoured to be eyeing a presidential run.",
+      "link": "https://www.bbc.co.uk/news/articles/cqg7xxg4jdv5o?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-06T02:08:57.000Z",
+      "source": "BBC",
+      "category": "general",
+      "xml_category": "",
+      "tags": [],
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1ee7/live/6a397360-d97f-11f1-9ef8-af6a44fd33d8.jpg"
+    },
+    {
+      "id": "jutarnji-4",
+      "title": "Zabrinjavajuća Trumpova najava nakon sastanka s Rusima: ‘Mogu čak reći da bi moglo obuhvatiti cijelu Europu‘",
+      "summary": "Američki predsjednik Donald Trump ustvrdio je da bi se mogao postići veliki sporazum o okončanju rata u Ukrajini, a nakon sastanka s posebnim izaslanikom ruskog predsjednika Kirilom Dmitrijevom u Bijeloj kući rekao je da bi dogovor mogao obuhvatiti i druge europske zemlje. Trump nije iznio pojedinos",
+      "link": "https://www.jutarnji.hr/vijesti/svijet/zabrinjavajuca-trumpova-najava-nakon-sastanka-s-rusima-mogu-cak-reci-da-bi-moglo-obuhvatiti-cijelu-europu-15762852",
+      "published": "2026-11-06T02:07:00.000Z",
+      "source": "Jutarnji",
+      "category": "general",
+      "xml_category": "svijet",
+      "tags": [],
+      "image": "https://media.jutarnji.hr/images/slike/2026/11/06/f_39912659_1280.gif?1793944851"
+    },
+    {
+      "id": "al-jazeera-8",
+      "title": "Gaza turns discarded cooking pots into seawalls",
+      "summary": "As winter approaches, Palestinians in Gaza are turning damaged cooking pots into makeshift seawalls to avoid flooding.",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/11/6/gaza-turns-discarded-cooking-pots-into-seawalls?traffic_source=rss",
+      "published": "2026-11-06T02:03:47.000Z",
+      "source": "Al Jazeera",
+      "category": "general",
+      "xml_category": "show types",
+      "tags": [],
+      "image": null
+    },
+    {
+      "id": "al-jazeera-9",
+      "title": "California governor commutes sentences of more than 500 people on death row",
+      "summary": "Gavin Newsom cites state values and flaws in the legal system as he grants largest mass clemency in US history.",
+      "link": "https://www.aljazeera.com/news/2026/11/6/california-governor-commutes-sentences-of-more-than-500-people-on-death-row?traffic_source=rss",
+      "published": "2026-11-06T01:39:35.000Z",
+      "source": "Al Jazeera",
+      "category": "general",
+      "xml_category": "news",
+      "tags": [],
+      "image": null
+    },
+    {
+      "id": "jutarnji-5",
+      "title": "VIDEO Zelenski vidi priliku koju nije imao mjesecima",
+      "summary": "Ukrajina se mora prilagoditi novim političkim okolnostima u Sjedinjenim Američkim Državama kako bi ojačala dijalog s Washingtonom i osigurala dodatnu vojnu pomoć, osobito za protuzračnu obranu, izjavio je predsjednik Volodimir Zelenski u intervjuu emitiranom u četvrtak. Zelenski se posljednjih mjese",
+      "link": "https://www.jutarnji.hr/vijesti/svijet/video-zelenski-vidi-priliku-koju-nije-imao-mjesecima-ovo-je-glavni-prioritet-ukrajine-15762851",
+      "published": "2026-11-06T01:38:00.000Z",
+      "source": "Jutarnji",
+      "category": "general",
+      "xml_category": "svijet",
+      "tags": [],
+      "image": "https://media.jutarnji.hr/images/slike/2026/11/06/f_39912658_1280.gif?1793944851"
+    },
+    {
+      "id": "bbc-8",
+      "title": "Democratic socialist defeats incumbent Karen Bass in Los Angeles mayor's race",
+      "summary": "The results mean America's two most populous cities - New York and Los Angeles - will be led by democratic socialists.",
+      "link": "https://www.bbc.co.uk/news/articles/c6e3xxwk3k11o?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-06T01:28:03.000Z",
+      "source": "BBC",
+      "category": "general",
+      "xml_category": "",
+      "tags": [],
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9b37/live/0e287b40-d96e-11f1-9fd0-cdf612d1539f.jpg"
+    },
+    {
+      "id": "jutarnji-6",
+      "title": "Procurilo kome je Viktor Orbán donirao svoju otpremninu. Potez je iznimno znakovit",
+      "summary": "Bivši mađarski premijer Viktor Orbán primio je otpremninu nakon odlaska s mjesta premijera i potom je donirao, baš kao što je obećao u svibnju, piše Index.hu. Odgovarajući u srijedu na upit portala Telex, bivši premijer je putem svog šefa za odnose s javnošću Bertalana Havasija poručio samo ovo: ‘Pr",
+      "link": "https://www.jutarnji.hr/vijesti/svijet/procurilo-kome-je-viktor-orban-donirao-svoju-otpremninu-potez-je-iznimno-znakovit-15762850",
+      "published": "2026-11-06T00:44:35.000Z",
+      "source": "Jutarnji",
+      "category": "general",
+      "xml_category": "svijet",
+      "tags": [],
+      "image": "https://media.jutarnji.hr/images/slike/2026/11/04/f_39912604_1280.jpg?1793944851"
+    },
+    {
+      "id": "al-jazeera-10",
+      "title": "Israeli settlers set fire to Palestinian olive grove near Ramallah",
+      "summary": "Israeli settlers have set fire to olive trees belonging to Palestinian farmers in the village of Burqa, near Ramallah.",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/11/6/israeli-settlers-set-fire-to-palestinian-olive-grove-near-ramallah?traffic_source=rss",
+      "published": "2026-11-06T00:19:57.000Z",
+      "source": "Al Jazeera",
+      "category": "general",
+      "xml_category": "show types",
+      "tags": [],
+      "image": null
+    },
+    {
+      "id": "al-jazeera-11",
+      "title": "Turkiye’s parliament ratifies Mecca defence agreement",
+      "summary": "Parliament&#039;s approval lays the groundwork for further Turkish involvement in Saudi Arabia&#039;s conflict with the Houthis.",
+      "link": "https://www.aljazeera.com/news/2026/11/6/turkiyes-parliament-ratifies-mecca-defence-agreement?traffic_source=rss",
+      "published": "2026-11-06T00:15:22.000Z",
+      "source": "Al Jazeera",
+      "category": "general",
+      "xml_category": "news",
+      "tags": [],
+      "image": null
+    },
+    {
+      "id": "al-jazeera-12",
+      "title": "Trump says Russia-Ukraine deal is near after meeting Putin’s envoy",
+      "summary": "Though the US president said deal was &#039;very close&#039;, he gave no specifics and did not meet visiting Ukrainian delegation.",
+      "link": "https://www.aljazeera.com/news/2026/11/6/trump-met-russian-envoy-after-he-appeared-with-melania-trump-and-ukrainians?traffic_source=rss",
+      "published": "2026-11-06T00:06:31.000Z",
+      "source": "Al Jazeera",
+      "category": "ai",
+      "xml_category": "news",
+      "tags": [],
+      "image": null
+    },
+    {
+      "id": "bbc-3",
+      "title": "Pope begins lengthy trip to Latin America weeks after lung cancer surgery",
+      "summary": "Pope Leo, who had part of a lung removed last month, will visit Uruguay, Argentina and Peru.",
+      "link": "https://www.bbc.co.uk/news/articles/cqn06j0y61k6o?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-06T00:02:57.000Z",
+      "source": "BBC",
+      "category": "health",
+      "xml_category": "",
+      "tags": [],
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d5f5/live/a7b86be0-d96d-11f1-9fd0-cdf612d1539f.jpg"
+    },
+    {
+      "id": "al-jazeera-13",
+      "title": "Iran war live: Trump warns US may have to ‘destroy’ rest of Iran",
+      "summary": "Trump says the US may have to &#039;destroy&#039; the rest of Iran, adding that people will &#039;know soon enough&#039;.",
+      "link": "https://www.aljazeera.com/news/liveblog/2026/11/6/iran-war-live-trump-warns-us-may-have-to-destroy-rest-of-iran?traffic_source=rss",
+      "published": "2026-11-06T00:00:00.000Z",
+      "source": "Al Jazeera",
+      "category": "general",
+      "xml_category": "news",
+      "tags": [],
+      "image": null
+    },
+    {
+      "id": "al-jazeera-14",
+      "title": "Nithya Raman wins LA mayoral race, becoming city’s first South Asian mayor",
+      "summary": "DSA-backed Raman will lead the second-largest US city, promising action on homelessness and affordable housing.",
+      "link": "https://www.aljazeera.com/news/2026/11/5/nithya-raman-wins-la-mayoral-race-becoming-citys-first-south-asian-mayor?traffic_source=rss",
+      "published": "2026-11-05T23:46:52.000Z",
+      "source": "Al Jazeera",
+      "category": "general",
+      "xml_category": "news",
+      "tags": [],
+      "image": null
+    },
+    {
+      "id": "bbc-17",
+      "title": "Delhi's toxic winter air is back - is the Indian capital prepared for pollution?",
+      "summary": "The Delhi government has announced a four-month winter action plan, but experts say that won't be enough.",
+      "link": "https://www.bbc.co.uk/news/articles/cm78p0n09q3xo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-05T23:16:53.000Z",
+      "source": "BBC",
+      "category": "ai",
+      "xml_category": "",
+      "tags": [],
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f26c/live/86fa1990-d94e-11f1-a701-fddedf244c16.jpg"
+    },
+    {
+      "id": "bbc-5",
+      "title": "California governor commutes sentences for state's 548 death row inmates",
+      "summary": "California has historically had the largest population of people on death row in the US.",
+      "link": "https://www.bbc.co.uk/news/articles/cqrkyyd2j8mvo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-05T23:09:33.000Z",
+      "source": "BBC",
+      "category": "general",
+      "xml_category": "",
+      "tags": [],
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6243/live/f34ef550-d982-11f1-9367-d509fddfe31c.jpg"
+    },
+    {
+      "id": "index-6",
+      "title": "Meloni: EU je neusklađena u pregovorima o Ukrajini",
+      "summary": "TALIJANSKA premijerka Giorgia Meloni kritizirala je neusklađenost Europske unije u pregovorima o okončanju rata u Ukrajini i zatražila da čelnici država članica dogovore tko će predstavljati Uniju za pregovaračkim stolom, navodi se u njezinu pismu predsjedniku Europskog vijeća Antoniju Costi, u koje",
+      "link": "https://www.index.hr/vijesti/clanak/meloni-eu-je-neuskladjena-u-pregovorima-o-ukrajini/2853866.aspx",
+      "published": "2026-11-05T22:45:00.000Z",
+      "source": "Index",
+      "category": "general",
+      "xml_category": "vijesti",
+      "tags": [],
+      "image": null
+    },
+    {
+      "id": "jutarnji-7",
+      "title": "Potpuni misterij oko smrti popularnog političara, Berlin i München u šoku: ‘Bio je sportski tip...‘",
+      "summary": "„Njemačka je izgubila polemičnog političara koji se strastveno borio za svoja uvjerenja”, rekao je njemački kancelar Friedrich Merz (Kršćansko-demokratska unija CDU) reagirajući na iznenadnu smrt bavarskog političara Huberta Aiwangera, piše Deutsche Welle. Bavarski premijer Markus Söder, s čijim CSU",
+      "link": "https://www.jutarnji.hr/vijesti/svijet/potpuni-misterij-oko-smrti-popularnog-politicara-berlin-i-munchen-u-soku-bio-je-sportski-tip-15762843",
+      "published": "2026-11-05T22:35:32.000Z",
+      "source": "Jutarnji",
+      "category": "sport",
+      "xml_category": "svijet",
+      "tags": [],
+      "image": "https://media.jutarnji.hr/images/slike/2026/11/05/f_39908907_1280.jpg?1793944851"
+    },
+    {
+      "id": "index-7",
+      "title": "Radiologinja koja je dala otkaz zbog Dijane Zadravec: Ne želimo raditi u strahu",
+      "summary": "OSMERO radiologa KBC-a Sestre milosrdnice dalo je otkaz nakon ponovnog imenovanja Dijane Zadravec za predstojnicu, koju su ranije optužili za mobing. Upozoravaju na ugroženu skrb za pacijente.",
+      "link": "https://www.index.hr/vijesti/clanak/radiologinja-koja-je-dala-otkaz-zbog-dijane-zadravec-ne-zelimo-raditi-u-strahu/2853859.aspx",
+      "published": "2026-11-05T22:17:00.000Z",
+      "source": "Index",
+      "category": "general",
+      "xml_category": "vijesti",
+      "tags": [],
+      "image": null
+    },
+    {
+      "id": "jutarnji-8",
+      "title": "Kalifornijski guverner preinačit će sve smrtne kazne u doživotni zatvor",
+      "summary": "Demokratski guverner Kalifornije Gavin Newsom u četvrtak je objavio da će preinačiti smrtne kazne za svih 548 zatvorenika u toj saveznoj državi te ih zamijeniti doživotnim zatvorom bez mogućnosti pomilovanja ili uvjetnog otpusta, pozivajući se na načelo „ljudskog dostojanstva”. „Ovu odluku donosim j",
+      "link": "https://www.jutarnji.hr/vijesti/svijet/kalifornijski-guverner-newsom-preinacit-ce-sve-smrtne-kazne-u-dozivotni-zatvor-15762837",
+      "published": "2026-11-05T22:16:00.000Z",
+      "source": "Jutarnji",
+      "category": "general",
+      "xml_category": "svijet",
+      "tags": [],
+      "image": "https://media.jutarnji.hr/images/slike/2026/11/05/f_39888714_1280.jpg?1793944851"
+    },
+    {
+      "id": "al-jazeera-15",
+      "title": "Generation Z and young voters help redefine US politics after midterms",
+      "summary": "Melat Kiros becomes the first Generation Z woman elected to Congress, embodying a new era of political representation.",
+      "link": "https://www.aljazeera.com/news/2026/11/5/generation-z-and-diversity-redefine-us-politics-in-groundbreaking-election?traffic_source=rss",
+      "published": "2026-11-05T21:49:31.000Z",
+      "source": "Al Jazeera",
+      "category": "general",
+      "xml_category": "news",
+      "tags": [],
+      "image": null
+    },
+    {
+      "id": "index-8",
+      "title": "Netanyahu na rubu pada. Većina zastupnika podržala njegovog suparnika",
+      "summary": "GLAVNI suparnik Benjamina Netanyahua osigurao je potporu većine zastupnika za pokušaj sastavljanja vlade, no izraelski je predsjednik izjavio kako je i dalje nejasno tko bi mogao prekinuti izbornu pat-poziciju, najavivši da će mandatara imenovati u nedjelju.",
+      "link": "https://www.index.hr/vijesti/clanak/netanyahu-na-rubu-pada-vecina-zastupnika-podrzala-njegovog-suparnika/2853854.aspx",
+      "published": "2026-11-05T21:49:00.000Z",
+      "source": "Index",
+      "category": "general",
+      "xml_category": "vijesti",
+      "tags": [],
+      "image": null
+    },
+    {
+      "id": "al-jazeera-16",
+      "title": "South Africa’s ANC on track for new lows in local polls",
+      "summary": "The ANC was on about 32 percent of the vote with more than 60 percent of votes counted in municipal elections.",
+      "link": "https://www.aljazeera.com/news/2026/11/5/south-africas-anc-on-track-for-new-lows-in-local-polls?traffic_source=rss",
+      "published": "2026-11-05T21:48:16.000Z",
+      "source": "Al Jazeera",
+      "category": "general",
+      "xml_category": "news",
+      "tags": [],
+      "image": null
+    },
+    {
+      "id": "n1-info-1",
+      "title": "Pomoć je stigla, ali do očajnih ljudi nije došla: Neki su bježali pješice, drugi krenuli na put za koji su mislili da je posljednji",
+      "summary": "Humanitarna pomoć koja je tijekom nedavne evakuacije dopremljena u ruski okupirani Oleški u Hersonskoj oblasti ne stiže do stanovnika, a dio ljudi ost",
+      "link": "https://n1info.hr/svijet/pomoc-je-stigla-ali-do-ocajnih-ljudi-nije-dosla-neki-su-bjezali-pjesice-drugi-krenuli-na-put-za-koji-su-mislili-da-je-posljednji/",
+      "published": "2026-11-05T21:44:00.000Z",
+      "source": "N1 Info",
+      "category": "general",
+      "xml_category": "svijet",
+      "tags": [],
+      "image": "https://n1info.hr/media/images/2026/11/5/1793890345_oleski.width-1200.jpg"
+    },
+    {
+      "id": "index-9",
+      "title": "Potop republikanaca, demokrati povećali prednost. \"Trump će biti još žešći\"",
+      "summary": "DOK VANCE za potop republikanaca na izborima krivi rat s Iranom, Trump ustraje pri svojim odlukama i poručuje da bi sve ponovio.",
+      "link": "https://www.index.hr/vijesti/clanak/potop-republikanaca-u-sadu-vance-krivi-rat-s-iranom-trump-kaze-da-bi-sve-ponovio/2853461.aspx",
+      "published": "2026-11-05T21:43:00.000Z",
+      "source": "Index",
+      "category": "general",
+      "xml_category": "vijesti",
+      "tags": [],
+      "image": null
+    },
+    {
+      "id": "al-jazeera-17",
+      "title": "Spanish footballer Jesus de Miguel mourned by family and friends",
+      "summary": "The 30-year-old striker suffered cardiac arrest following an on-field collision.",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/11/5/spanish-footballer-jesus-de-miguel-mourned-by-family-and-friends?traffic_source=rss",
+      "published": "2026-11-05T21:42:30.000Z",
+      "source": "Al Jazeera",
+      "category": "sport",
+      "xml_category": "show types",
+      "tags": [],
+      "image": null
+    },
+    {
+      "id": "index-10",
+      "title": "Izbori u Americi još uvijek traju. Ovo su najzanimljivije utrke",
+      "summary": "DEMOKRATI su preuzeli kontrolu nad Kongresom, no ishod nekoliko ključnih utrka za Senat i Zastupnički dom još je neizvjestan dok se glasovi broje u Aljasci, Mississippiju i drugdje.",
+      "link": "https://www.index.hr/vijesti/clanak/izbori-u-americi-jos-uvijek-traju-ovo-su-najzanimljivije-utrke/2853852.aspx",
+      "published": "2026-11-05T21:41:00.000Z",
+      "source": "Index",
+      "category": "general",
+      "xml_category": "vijesti",
+      "tags": [],
+      "image": null
+    },
+    {
+      "id": "jutarnji-9",
+      "title": "Objavljeni službeni rezultati izbora u Srbiji",
+      "summary": "Državno izborno povjerenstvo (RIK) proglasilo je u četvrtak navečer službene rezultate prijevremenih parlamentarnih izbora u Srbiji 25. listopada na kojima je Studentska lista pobijedila vladajuću Srpsku naprednu stranku, čime formalno počinju teći rokovi za formiranje buduće vlasti. U biračkom popi",
+      "link": "https://www.jutarnji.hr/vijesti/svijet/objavljeni-sluzbeni-rezultati-izbora-u-srbiji-15762822",
+      "published": "2026-11-05T21:37:13.000Z",
+      "source": "Jutarnji",
+      "category": "general",
+      "xml_category": "svijet",
+      "tags": [],
+      "image": "https://media.jutarnji.hr/images/slike/2026/11/05/f_39856039_1280.jpg?1793944851"
+    },
+    {
+      "id": "al-jazeera-18",
+      "title": "Israeli demolitions displace more than 100 Palestinians in Biddu",
+      "summary": "Israeli forces demolished five homes in Biddu, occupied West Bank, displacing more than 100 people.",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/11/5/aje-onl-nf_israeli-demolitions-displace-palestinians-in-biddu-051126?traffic_source=rss",
+      "published": "2026-11-05T21:33:40.000Z",
+      "source": "Al Jazeera",
+      "category": "general",
+      "xml_category": "show types",
+      "tags": [],
+      "image": null
+    },
+    {
+      "id": "n1-info-2",
+      "title": "Jedno pitanje dijeli europske čelnike: Treba li ponovno razgovarati s Putinom?",
+      "summary": "Bez jedinstvenog europskog predstavnika koji bi izravno pregovarao s Moskvom, pojedini čelnici uspostavljaju vlastite komunikacijske kanale, no rezult",
+      "link": "https://n1info.hr/svijet/jedno-pitanje-dijeli-europske-celnike-treba-li-ponovno-razgovarati-s-putinom/",
+      "published": "2026-11-05T21:33:00.000Z",
+      "source": "N1 Info",
+      "category": "general",
+      "xml_category": "svijet",
+      "tags": [],
+      "image": "https://n1info.hr/media/images/2026/3/1772700885_000_99BF2ZQ.width-1200.jpg"
+    },
+    {
+      "id": "index-11",
+      "title": "Scott Galloway: Musk je izdajnik Zapada",
+      "summary": "SCOTT Galloway nazvao je Elona Muska izdajnikom Zapada zbog ometanja obrane Ukrajine te sugerirao da bi za to trebao snositi najstrože kazne.",
+      "link": "https://www.index.hr/vijesti/clanak/scott-galloway-musk-je-izdajnik-zapada/2853839.aspx",
+      "published": "2026-11-05T21:27:00.000Z",
+      "source": "Index",
+      "category": "general",
+      "xml_category": "vijesti",
+      "tags": [],
+      "image": null
+    },
+    {
+      "id": "al-jazeera-19",
+      "title": "Hoax bomb threats force emergency landings, evacuations across Europe",
+      "summary": "Bomb threats are causing travel disruptions at airports across Europe, targeting at least 27 flights.",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/11/5/hoax-bomb-threats-force-emergency-landings-evacuations-across-europe?traffic_source=rss",
+      "published": "2026-11-05T21:26:21.000Z",
+      "source": "Al Jazeera",
+      "category": "general",
+      "xml_category": "show types",
+      "tags": [],
+      "image": null
+    },
+    {
+      "id": "n1-info-3",
+      "title": "VIDEO / \"Jama za vojnika\" — kako funkcioniraju tajni zatvori u ukrajinskoj vojsci",
+      "summary": "Jučerašnji događaji u Petropavlivskoj Borščahivki, u Kijevskoj oblasti, gdje su pripadnici jedne postrojbe Azova optuženi za organiziranje „tajnog zat",
+      "link": "https://n1info.hr/svijet/video-jama-za-vojnika-kako-funkcioniraju-tajni-zatvori-u-ukrajinskoj-vojsci/",
+      "published": "2026-11-05T21:24:37.000Z",
+      "source": "N1 Info",
+      "category": "general",
+      "xml_category": "svijet",
+      "tags": [],
+      "image": "https://n1info.hr/media/images/2026/11/5/1793896312_000_36VN3FW.width-1200.jpg"
+    },
+    {
+      "id": "index-12",
+      "title": "Profesor Kurelić: Trump će nakon poraza prema Europi biti još žešći",
+      "summary": "NAKON pobjede demokrata na međuizborima, analitičari predviđaju da će Trumpu biti teže vladati. Očekuje se da će se oslanjati na izvršne uredbe kako bi zaobišao Kongres i nastavio svoju politiku.",
+      "link": "https://www.index.hr/vijesti/clanak/profesor-kurelic-trump-ce-nakon-poraza-prema-europi-biti-jos-zesci/2853842.aspx",
+      "published": "2026-11-05T21:00:00.000Z",
+      "source": "Index",
+      "category": "general",
+      "xml_category": "vijesti",
+      "tags": [],
+      "image": null
+    },
+    {
+      "id": "jutarnji-10",
       "title": "Loše vijesti za Izrael, odlične za Ukrajinu, dramatične promjene na Bliskom istoku: ‘Iran ih je teško pogodio‘",
       "summary": "Iako je ‘plavi tsunami‘ na međuizborima u utorak potopio republikance i do temelja uzdrmao vladavinu predsjednika Donalda Trumpa, a unutar Republikanske stranke već se pojavljuju prve naznake \"igre traženja krivca\" (blame game), činjenica je da je Trump uzdrman u prvom redu na planu provođenja svoji",
       "link": "https://www.jutarnji.hr/vijesti/svijet/lose-vijesti-za-izrael-odlicne-za-ukrajinu-dramaticne-promjene-na-bliskom-istoku-iran-ih-je-tesko-pogodio-15762813",
@@ -12,19 +648,7 @@
       "category": "general",
       "xml_category": "svijet",
       "tags": [],
-      "image": "https://media.jutarnji.hr/images/slike/2026/11/05/f_38205001_1280.jpg?1793912413"
-    },
-    {
-      "id": "index-0",
-      "title": "Potop republikanaca, demokrati povećali prednost. \"Trump je znao za Vanceovu objavu\"",
-      "summary": "DOK VANCE za potop republikanaca na izborima krivi rat s Iranom, Trump ustraje pri svojim odlukama i poručuje da bi sve ponovio.",
-      "link": "https://www.index.hr/vijesti/clanak/potop-republikanaca-u-sadu-vance-krivi-rat-s-iranom-trump-kaze-da-bi-sve-ponovio/2853461.aspx",
-      "published": "2026-11-05T20:49:00.000Z",
-      "source": "Index",
-      "category": "general",
-      "xml_category": "vijesti",
-      "tags": [],
-      "image": null
+      "image": "https://media.jutarnji.hr/images/slike/2026/11/05/f_38205001_1280.jpg?1793944851"
     },
     {
       "id": "index-0",
@@ -63,19 +687,7 @@
       "image": "https://n1info.hr/media/images/1792910211_2026-10-25T062906Z_910723552_RC26AOAAVC7Y_RTRMADP_3_.width-1200.JPG"
     },
     {
-      "id": "bbc-2",
-      "title": "California governor commutes death sentences for all 548 people on death row",
-      "summary": "California has historically had the largest population of death row inmates in the US.",
-      "link": "https://www.bbc.co.uk/news/articles/cqrkyyd2j8mvo?at_medium=RSS&at_campaign=rss",
-      "published": "2026-11-05T20:28:38.000Z",
-      "source": "BBC",
-      "category": "general",
-      "xml_category": "",
-      "tags": [],
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7e11/live/430c9930-d956-11f1-b7f4-8bd3c0617693.jpg"
-    },
-    {
-      "id": "n1-info-1",
+      "id": "n1-info-7",
       "title": "Britanske elite histeriziraju oko \"rata\" s Rusijom",
       "summary": "Britanski ministar obrane Wes Streeting nedavno je izjavio da Ujedinjeno Kraljevstvo ima 1000 dana da bude „spremno zajedno sa svojim saveznicima bori",
       "link": "https://n1info.hr/svijet/britanske-elite-histeriziraju-oko-rata-s-rusijom/",
@@ -99,7 +711,7 @@
       "image": null
     },
     {
-      "id": "jutarnji-1",
+      "id": "jutarnji-11",
       "title": "Putin prozvao zemlje koje su se usprotivile povratku Rusije na sportska natjecanja",
       "summary": "Ruski predsjednik Vladimir Putin izjavio je u četvrtak da zemlje koje se protive odlukama kojima se Rusiji dopušta sudjelovanje na međunarodnim sportskim natjecanjima, krše prava ruskih sportaša, kao i demokratskih institucija. Putin je to izjavio u trenutku kada su sportska tijela u nekoliko zemalj",
       "link": "https://www.jutarnji.hr/vijesti/svijet/putin-prozvao-zemlje-koje-su-se-usprotivile-povratku-rusije-na-sportska-natjecanja-15762798",
@@ -108,7 +720,7 @@
       "category": "sport",
       "xml_category": "svijet",
       "tags": [],
-      "image": "https://media.jutarnji.hr/images/slike/2026/11/05/f_39909808_1280.jpg?1793912413"
+      "image": "https://media.jutarnji.hr/images/slike/2026/11/05/f_39909808_1280.jpg?1793944851"
     },
     {
       "id": "al-jazeera-2",
@@ -123,7 +735,7 @@
       "image": null
     },
     {
-      "id": "index-1",
+      "id": "index-13",
       "title": "Newsom ublažio kazne svih osuđenika na smrt u Kaliforniji",
       "summary": "GUVERNER Newsom preinačio je smrtne kazne 548 osuđenika u Kaliforniji u doživotni zatvor, smatrajući taj čin nespojivim s vrijednostima te države.",
       "link": "https://www.index.hr/vijesti/clanak/newsom-ublazio-kazne-svih-osudjenika-na-smrt-u-kaliforniji/2853823.aspx",
@@ -135,8 +747,8 @@
       "image": null
     },
     {
-      "id": "jutarnji-2",
-      "title": "Osvojio je hrvatsku publiku i ne krije da mu je Vučićev režim zagorčao život: ‘Pitaj Boga što ćemo sve saznati...‘",
+      "id": "jutarnji-12",
+      "title": "‘Ne možemo odahnuti jer se u Srbiji promijenila vlast. Ja sam sada neki režimski glumac, je li? Ne, Boga mi!‘",
       "summary": "„Nakon naleta euforije koji je trajao nekoliko dana nakon od završetka izbora u Srbiji, sada počinje umjereni optimizam. To je tek prvi korak u oporavku onoga u što se Srbija pretvarala pod Vučićevom vladavinom. Završeno je nekih 30 posto posla i čeka nas još mnogo toga”, kaže u Briefingu Milan Mari",
       "link": "https://www.jutarnji.hr/vijesti/svijet/ne-mozemo-odahnuti-jer-se-u-srbiji-promijenila-vlast-ja-sam-sada-neki-rezimski-glumac-je-li-ne-boga-mi-15762796",
       "published": "2026-11-05T20:01:00.000Z",
@@ -144,10 +756,10 @@
       "category": "general",
       "xml_category": "svijet",
       "tags": [],
-      "image": "https://media.jutarnji.hr/images/slike/2026/11/05/f_39910639_1280.jpg?1793912413"
+      "image": "https://media.jutarnji.hr/images/slike/2026/11/05/f_39910639_1280.jpg?1793944851"
     },
     {
-      "id": "bbc-1",
+      "id": "bbc-10",
       "title": "Who could be behind hoax bomb threats to European air travel?",
       "summary": "There is no hard evidence so far linking airline bomb threats to Russia, Iran or any proxy groups.",
       "link": "https://www.bbc.co.uk/news/articles/cx8dzzjg3g9zo?at_medium=RSS&at_campaign=rss",
@@ -159,7 +771,7 @@
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/feab/live/224ee450-d951-11f1-b441-2b33b063138f.jpg"
     },
     {
-      "id": "jutarnji-3",
+      "id": "jutarnji-13",
       "title": "U pucnjavi na zapadu Turske osmero mrtvih",
       "summary": "Osam osoba poginulo je u pucnjavi u četvrtak u tri sela u središnjem dijelu zapadne Turske, doznaje se od lokalnih dužnosnika. Privatna televizijska postaja NTV izvijestila je da policija traga za osumnjičenikom za upravljačem crvenog automobila, koji je viđen kako bježi s mjesta događaja. - Osam na",
       "link": "https://www.jutarnji.hr/vijesti/svijet/u-pucnjavi-na-zapadu-turske-osmero-mrtvih-15762794",
@@ -168,10 +780,10 @@
       "category": "general",
       "xml_category": "svijet",
       "tags": [],
-      "image": "https://media.jutarnji.hr/images/slike/2026/11/05/f_39911540_1280.jpg?1793912413"
+      "image": "https://media.jutarnji.hr/images/slike/2026/11/05/f_39911540_1280.jpg?1793944851"
     },
     {
-      "id": "n1-info-4",
+      "id": "n1-info-10",
       "title": "U Srbiji se vodi istraga protiv visokih dužnosnika zbog sumnji u kršenje prava glasanja",
       "summary": "Srbijansko Javno tužiteljstvo za organizirani kriminal (JTOK) formiralo je predmete protiv direktora Sigurnosno-obavještajne agencije (BIA) Vladimira",
       "link": "https://n1info.hr/regija/u-srbiji-se-vodi-istraga-protiv-visokih-duznosnika-zbog-sumnji-u-krsenje-prava-glasanja/",
@@ -195,7 +807,7 @@
       "image": null
     },
     {
-      "id": "index-2",
+      "id": "index-14",
       "title": "Putin prozvao zemlje koje su protiv povratka Rusije na sportska natjecanja",
       "summary": "VLADIMIR Putin optužio je zemlje koje se protive povratku ruskih sportaša za politizaciju sporta te kršenje prava i demokratskih načela.",
       "link": "https://www.index.hr/vijesti/clanak/putin-prozvao-zemlje-koje-su-protiv-povratka-rusije-na-sportska-natjecanja/2853820.aspx",
@@ -207,7 +819,7 @@
       "image": null
     },
     {
-      "id": "index-3",
+      "id": "index-15",
       "title": "VIDEO Muškarac u Turskoj ubio osmero ljudi, još nije uhvaćen",
       "summary": "U ORUŽANOM napadu u tri sela na zapadu Turske ubijeno je osam osoba, a policija traga za napadačem koji je pobjegao u crvenom automobilu.",
       "link": "https://www.index.hr/vijesti/clanak/video-muskarac-u-turskoj-ubio-osmero-ljudi-jos-nije-uhvacen/2853817.aspx",
@@ -219,7 +831,7 @@
       "image": null
     },
     {
-      "id": "bbc-5",
+      "id": "bbc-9",
       "title": "Eight killed in series of shootings in western Turkey",
       "summary": "Victims are found in several locations in three separate vehicles, according to local reports.",
       "link": "https://www.bbc.co.uk/news/articles/cvj6jj21pd2ko?at_medium=RSS&at_campaign=rss",
@@ -231,7 +843,7 @@
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/06a9/live/afaf1b30-d947-11f1-93e1-3b657b665bcf.jpg"
     },
     {
-      "id": "jutarnji-4",
+      "id": "jutarnji-14",
       "title": "U Srbiji formirani predmeti protiv direktora BIA-e Vladimira Orlića i ministra pravosuđa Nenada Vujića",
       "summary": "Srbijansko Javno tužiteljstvo za organizirani kriminal (JTOK) formiralo je predmete protiv direktora Sigurnosno-obavještajne agencije (BIA) Vladimira Orlića i više dužnosnika BIA-e, te protiv ministra pravosuđa Nenada Vujića i nekoliko djelatnika tog ministarstva koji se terete za kršenja prava glas",
       "link": "https://www.jutarnji.hr/vijesti/svijet/u-srbiji-formirani-predmeti-protiv-direktora-bia-e-vladimira-orlica-i-ministra-pravosuda-nenada-vujica-15762788",
@@ -240,7 +852,7 @@
       "category": "general",
       "xml_category": "svijet",
       "tags": [],
-      "image": "https://media.jutarnji.hr/images/slike/2026/11/05/f_39911496_1280.jpg?1793912413"
+      "image": "https://media.jutarnji.hr/images/slike/2026/11/05/f_39911496_1280.jpg?1793944851"
     },
     {
       "id": "al-jazeera-4",
@@ -267,7 +879,7 @@
       "image": null
     },
     {
-      "id": "index-4",
+      "id": "index-16",
       "title": "Vidmarović: Američki Gen Z socijalizam ne doživljava kao nešto pogrdno",
       "summary": "ANALITIČAR Branimir Vidmarović analizirao je posljedice poraza republikanaca na izborima.",
       "link": "https://www.index.hr/vijesti/clanak/vidmarovic-americki-gen-z-socijalizam-ne-dozivljava-kao-nesto-pogrdno/2853810.aspx",
@@ -279,7 +891,7 @@
       "image": null
     },
     {
-      "id": "n1-info-5",
+      "id": "n1-info-11",
       "title": "Bivši republikanski kongresman za N1: Amerikanci su promijenili kanal jer nisu zadovoljni onim što gledaju",
       "summary": "Naša Nina Kljenak u Washingtonu je o rezultatima međuizbora i uvjerljivoj pobjedi demokrata razgovarala s bivšim republikanskim kongresmanom Jonom C.",
       "link": "https://n1info.hr/svijet/bivsi-republinanski-kongresman-jon-c-porter-rezultati-midterms/",
@@ -291,7 +903,7 @@
       "image": "https://n1info.hr/media/images/2026/11/5/1793865015_Snimka_zaslona_2026-11-05_084951.width-1200.png"
     },
     {
-      "id": "index-5",
+      "id": "index-17",
       "title": "Demokrati spremaju udar na AI",
       "summary": "NAKON pobjede na izborima, demokrati najavljuju strožu regulaciju umjetne inteligencije i Silicijske doline, odbacujući Trumpov pristup i iskorištavajući zabrinutost birača.",
       "link": "https://www.index.hr/vijesti/clanak/demokrati-spremaju-udar-na-ai/2853809.aspx",
@@ -303,7 +915,7 @@
       "image": null
     },
     {
-      "id": "n1-info-6",
+      "id": "n1-info-12",
       "title": "Masovna pucnjava u Turskoj, osmero mrtvih",
       "summary": "Osam osoba poginulo je u pucnjavi u četvrtak u tri sela u središnjem dijelu zapadne Turske, doznaje se od lokalnih dužnosnika.",
       "link": "https://n1info.hr/svijet/masovna-pucnjava-u-turskoj-osmero-mrtvih/",
@@ -315,7 +927,7 @@
       "image": "https://n1info.hr/media/images/turska-policija-209141.width-1200.jpeg"
     },
     {
-      "id": "n1-info-8",
+      "id": "n1-info-14",
       "title": "Stručnjak: Trump ne voli disidente, a sada bi mu upravo oni mogli biti spas",
       "summary": "Geopolitički stručnjak Mario Guvo u N1 Studiju uživo kod Hanan Nanić komentirao je rezultate američkih međuizbora, veliki poraz republikanaca, budućno",
       "link": "https://n1info.hr/svijet/strucnjak-trump-ne-voli-disidente-a-sada-bi-mu-upravo-oni-mogli-biti-spas/",
@@ -327,7 +939,7 @@
       "image": "https://n1info.hr/media/images/2026/11/5/1793886106_063_2303525167_1.width-1200.jpg"
     },
     {
-      "id": "jutarnji-5",
+      "id": "jutarnji-15",
       "title": "‘Prva meta demokrata već se vidi. Rat u Ukrajini? Putin je zaludio Trumpa, on tu ništa ne razumije’",
       "summary": "- Demokratska stranka ostvarila je veliku pobjedu na ovim izborima, ali treba ipak obuzdati entuzijazam. To je velikim dijelom bilo očekivano, u određenoj mjeri čak i nešto iznad očekivanja, ali se zapravo uklapa u matricu američkih međuizbora. Ključni razlog koji je demokratima dao pobjedu je kriza",
       "link": "https://www.jutarnji.hr/vijesti/svijet/trump-zivi-u-deluziji-a-hegseth-je-ludak-a-jasno-je-i-tko-ce-sad-biti-prva-meta-demokrata-15762784",
@@ -336,10 +948,22 @@
       "category": "general",
       "xml_category": "svijet",
       "tags": [],
-      "image": "https://media.jutarnji.hr/images/slike/2026/11/05/f_39908905_1280.jpg?1793912413"
+      "image": "https://media.jutarnji.hr/images/slike/2026/11/05/f_39908905_1280.jpg?1793944851"
     },
     {
-      "id": "bbc-7",
+      "id": "bbc-13",
+      "title": "Chris vs Chris: Who's running and what's at stake this New Zealand election",
+      "summary": "New Zealanders will head to the polls on 7 November to elect a new government, with rising cost of living a key concern for voters.",
+      "link": "https://www.bbc.co.uk/news/videos/cr86zxe1q5j3o?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-05T19:08:48.000Z",
+      "source": "BBC",
+      "category": "general",
+      "xml_category": "",
+      "tags": [],
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2811/live/420fe4c0-d8c9-11f1-a701-fddedf244c16.jpg"
+    },
+    {
+      "id": "bbc-11",
       "title": "Melania Trump calls for lasting Ukraine truce as she hosts Russian and Ukrainian officials",
       "summary": "The US first lady was credited by all for playing a key though unspecified role in the ceasefire.",
       "link": "https://www.bbc.co.uk/news/articles/c9p8g085mz07o?at_medium=RSS&at_campaign=rss",
@@ -363,7 +987,7 @@
       "image": null
     },
     {
-      "id": "n1-info-11",
+      "id": "n1-info-17",
       "title": "Putin povukao potez koji bi ga mogao skupo stajati: Otvorio novu krizu 8000 kilometara od Ukrajine",
       "summary": "Ruski predsjednik Vladimir Putin, koji već više od četiri godine vodi rat protiv Ukrajine, odlučio je dodatno zaoštriti odnose s Japanom zbog teritori",
       "link": "https://n1info.hr/svijet/putin-povukao-potez-koji-bi-ga-mogao-skupo-stajati-otvorio-novu-krizu-8000-kilometara-od-ukrajine/",
@@ -387,7 +1011,7 @@
       "image": null
     },
     {
-      "id": "jutarnji-6",
+      "id": "jutarnji-16",
       "title": "Melania Trump primila ruske i ukrajinske predstavnike i pozvala na primirje",
       "summary": "Američka prva dama Melania Trump u četvrtak je pozvala na „trajni” prekid vatre u Ukrajine, na konferenciji za medije održane u Bijeloj kući uz prisutnost ruskih i ukrajinskih predstavnika. „Sad moramo pokazati hrabrost kao i u Oleškiju da bismo pronašli zajednički jezik. Zajedno možemo postići nešt",
       "link": "https://www.jutarnji.hr/vijesti/svijet/melania-trump-primila-ruske-i-ukrajinske-predstavnike-i-pozvala-na-primirje-15762777",
@@ -396,7 +1020,7 @@
       "category": "general",
       "xml_category": "svijet",
       "tags": [],
-      "image": "https://media.jutarnji.hr/images/slike/2026/11/05/f_39910758_1280.jpg?1793912413"
+      "image": "https://media.jutarnji.hr/images/slike/2026/11/05/f_39910758_1280.jpg?1793944851"
     },
     {
       "id": "al-jazeera-7",
@@ -411,7 +1035,7 @@
       "image": null
     },
     {
-      "id": "index-6",
+      "id": "index-18",
       "title": "Sirija: Izrael ispalio dvije topničke granate na periferiju Damaska",
       "summary": "IZRAELSKI topnički napadi na okolicu Damaska i Kuneitre produbljuju vojne tenzije na jugu Sirije nakon nedavnog pada režima Bashara al-Assada.",
       "link": "https://www.index.hr/vijesti/clanak/sirija-izrael-ispalio-dvije-topnicke-granate-na-periferiju-damaska/2853799.aspx",
@@ -423,7 +1047,7 @@
       "image": null
     },
     {
-      "id": "index-7",
+      "id": "index-19",
       "title": "Iznenađenje u LA-u. Demokratska socijalistkinja postala nova gradonačelnica",
       "summary": "GRADSKA vijećnica i demokratska socijalistkinja Nithya Raman pobijedila je dosadašnju gradonačelnicu Karen Bass na izborima za gradonačelnicu Los Angelesa, piše NBC News.",
       "link": "https://www.index.hr/vijesti/clanak/iznenadjenje-u-lau-demokratska-socijalistkinja-postala-nova-gradonacelnica/2853777.aspx",
@@ -433,6 +1057,18 @@
       "xml_category": "vijesti",
       "tags": [],
       "image": null
+    },
+    {
+      "id": "bbc-12",
+      "title": "Bomb hoaxes: Messages reveal how threat was passed on by air traffic control",
+      "summary": "BBC Verify has been analysing messages after flights across Europe were targeted by fake bomb threats - the second such incident this week.",
+      "link": "https://www.bbc.co.uk/news/videos/cq398m8w41lyo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-05T18:22:46.000Z",
+      "source": "BBC",
+      "category": "ai",
+      "xml_category": "",
+      "tags": [],
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b8ac/live/89154780-d945-11f1-a701-fddedf244c16.png"
     },
     {
       "id": "al-jazeera-8",
@@ -459,7 +1095,7 @@
       "image": null
     },
     {
-      "id": "bbc-3",
+      "id": "bbc-7",
       "title": "French protests see numbers surge as unions join strikes over high cost of living",
       "summary": "The interior ministry estimates 600,000 people joined protests across France, while the unions say the number was far higher.",
       "link": "https://www.bbc.co.uk/news/articles/ckx2qzv835pgo?at_medium=RSS&at_campaign=rss",
@@ -471,7 +1107,7 @@
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f641/live/977c1840-d91c-11f1-b441-2b33b063138f.jpg"
     },
     {
-      "id": "jutarnji-7",
+      "id": "jutarnji-17",
       "title": "Širom Francuske zasad uglavnom mirni prosvjedi, radnici stupili u štrajk",
       "summary": "U Parizu i Lyonu u četvrtak se dio prosvjednika sukobio s policijom tijekom uglavnom mirnih prosvjeda održanih širom zemlje i jednodnevnog štrajka dijela radnika u javnome sektoru, što predstavlja novi izazov za predsjednika Emmanuela Macrona. Najnoviji prosvjedi su uslijedili nakon niza demonstraci",
       "link": "https://www.jutarnji.hr/vijesti/svijet/sirom-francuske-zasad-uglavnom-mirni-prosvjedi-radnici-stupili-u-strajk-15762769",
@@ -480,22 +1116,10 @@
       "category": "general",
       "xml_category": "svijet",
       "tags": [],
-      "image": "https://media.jutarnji.hr/images/slike/2026/11/05/f_39910748_1280.jpg?1793912413"
+      "image": "https://media.jutarnji.hr/images/slike/2026/11/05/f_39910748_1280.jpg?1793944851"
     },
     {
-      "id": "bbc-6",
-      "title": "Shares in Musk's SpaceX plunge as tech and AI stocks fall",
-      "summary": "The market has been reacting to possible tougher scrutiny of data centre construction and the AI industry following the US mid-terms",
-      "link": "https://www.bbc.co.uk/news/articles/cmn04705rd8jo?at_medium=RSS&at_campaign=rss",
-      "published": "2026-11-05T17:57:57.000Z",
-      "source": "BBC",
-      "category": "ai",
-      "xml_category": "",
-      "tags": [],
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2258/live/1f0da230-d934-11f1-8bce-2396c9c50357.jpg"
-    },
-    {
-      "id": "jutarnji-8",
+      "id": "jutarnji-18",
       "title": "Predsjednik Paragvaja podnio ostavku",
       "summary": "Paragvajski predsjednik Santiago Peña objavio je u četvrtak da podnosi ostavku, neposredno nakon bankarskog skandala koji je prerastao u političku krizu, upravo u trenutku kada su zastupnici raspravljali o njegovu opozivu. „Donio sam odluku da podnesem ostavku na mjesto predsjednika Republike“, reka",
       "link": "https://www.jutarnji.hr/vijesti/svijet/predsjednik-paragvaja-podnio-ostavku-15762767",
@@ -504,7 +1128,7 @@
       "category": "politika",
       "xml_category": "svijet",
       "tags": [],
-      "image": "https://media.jutarnji.hr/images/slike/2026/11/05/f_39910660_1280.jpg?1793912413"
+      "image": "https://media.jutarnji.hr/images/slike/2026/11/05/f_39910660_1280.jpg?1793944851"
     },
     {
       "id": "al-jazeera-9",
@@ -519,7 +1143,7 @@
       "image": null
     },
     {
-      "id": "n1-info-12",
+      "id": "n1-info-18",
       "title": "Melania Trump pozvala na primirje u Ukrajini: \"Sad moramo pokazati hrabrost\"",
       "summary": "Američka prva dama Melania Trump u četvrtak je pozvala na „trajni” prekid vatre u Ukrajine, na konferenciji za medije održane u Bijeloj kući uz prisut",
       "link": "https://n1info.hr/svijet/melania-trump-pozvala-na-primirje-u-ukrajini-sad-moramo-pokazati-hrabrost/",
@@ -531,7 +1155,7 @@
       "image": "https://n1info.hr/media/images/1792765214_2026-10-19T152411Z_698124225_RC2F6OA27GOM_RTRMADP_3_.width-1200.JPG"
     },
     {
-      "id": "bbc-4",
+      "id": "bbc-6",
       "title": "Paraguay President Santiago Peña resigns after bank collapse",
       "summary": "The move follows a bank collapse and after the lower house of congress voted in favour of pursuing an impeachment trial against him.",
       "link": "https://www.bbc.co.uk/news/articles/c6p9g39vln3yo?at_medium=RSS&at_campaign=rss",
@@ -543,7 +1167,7 @@
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/12e6/live/3ccd15c0-d93a-11f1-95ea-8df9a040b6bf.jpg"
     },
     {
-      "id": "bbc-0",
+      "id": "bbc-4",
       "title": "Hoax bomb threats target European airlines and airports for second time in a week",
       "summary": "At least 21 flights across Europe are affected in what the UK government calls a \"malicious hoax threat\".",
       "link": "https://www.bbc.co.uk/news/articles/cmpqg08nz3pqo?at_medium=RSS&at_campaign=rss",
@@ -555,7 +1179,7 @@
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7423/live/1976bf00-d911-11f1-94c6-3f8050561bf5.jpg"
     },
     {
-      "id": "n1-info-13",
+      "id": "n1-info-19",
       "title": "EPPO istražuje veliku prijevaru od 100 milijuna eura, zapljene i u Hrvatskoj",
       "summary": "Europski tužitelji pokrenuli su istragu protiv skupine koja je prekograničnim shemama prevara s PDV-om oko uvoza automobila počinila gubitke od 100 mi",
       "link": "https://n1info.hr/svijet/eppo-istrazuje-veliku-prijevaru-od-100-milijuna-eura-zapljene-i-u-hrvatskoj/",
@@ -567,7 +1191,7 @@
       "image": "https://n1info.hr/media/images/2026/11/5/1793900288_000_33AB9P3.width-1200.jpg"
     },
     {
-      "id": "jutarnji-9",
+      "id": "jutarnji-19",
       "title": "Netanyahu je upravo primio težak udarac!",
       "summary": "Politički položaj Benjamina Netanyahua u postizbornoj borbi za ostanak na mjestu izraelskog premijera u četvrtak je dodatno oslabio nakon što mu je jedna ultraortodoksna stranka uskratila podršku, a dva arapska bloka podržala njegova glavnog suparnika. Izraelski predsjednik Isaac Herzog će se nakon.",
       "link": "https://www.jutarnji.hr/vijesti/svijet/netanyahu-je-upravo-primio-tezak-udarac-15762760",
@@ -576,7 +1200,7 @@
       "category": "general",
       "xml_category": "svijet",
       "tags": [],
-      "image": "https://media.jutarnji.hr/images/slike/2026/11/05/f_39910807_1280.jpg?1793912413"
+      "image": "https://media.jutarnji.hr/images/slike/2026/11/05/f_39910807_1280.jpg?1793944851"
     },
     {
       "id": "index-9",
@@ -1827,7 +2451,7 @@
       "image": null
     },
     {
-      "id": "bbc-12",
+      "id": "bbc-14",
       "title": "Was an Italian chef really fired over refusal to put pineapple on pizza?",
       "summary": "The chef had stated that putting pineapple on pizza was \"offensive to his culture\".",
       "link": "https://www.bbc.co.uk/news/videos/cmvg9yy8wpweo?at_medium=RSS&at_campaign=rss",
@@ -2756,822 +3380,6 @@
       "summary": "NJEMAČKA policija istražuje smrt bavarskog zamjenika premijera Huberta Aiwangera, koji je iznenada pronađen mrtav u hotelskoj sobi u Berlinu.",
       "link": "https://www.index.hr/vijesti/clanak/njemacka-policija-istrazuje-smrt-bavarskog-ministra-u-hotelu/2853448.aspx",
       "published": "2026-11-05T06:07:00.000Z",
-      "source": "Index",
-      "category": "general",
-      "xml_category": "vijesti",
-      "tags": [],
-      "image": null
-    },
-    {
-      "id": "jutarnji-18",
-      "title": "Propada dogovor Putina i Trumpa",
-      "summary": "Plan američkog predsjednika Donalda Trumpa o uvozu ruskog dizela u Sjedinjene Američke Države suočava se s ozbiljnim problemima nakon što su dva tankera, koja su prvotno plovila prema američkoj obali, promijenila smjer i uputila se prema drugim odredištima, piše Financial Times. Trump je uoči međuiz",
-      "link": "https://www.jutarnji.hr/vijesti/svijet/propada-dogovor-putina-i-trumpa-15762520",
-      "published": "2026-11-05T05:58:00.000Z",
-      "source": "Jutarnji",
-      "category": "general",
-      "xml_category": "svijet",
-      "tags": [],
-      "image": "https://media.jutarnji.hr/images/slike/2026/11/05/f_39908235_1280.jpg?1793893349"
-    },
-    {
-      "id": "index-8",
-      "title": "VIDEO Prvi musliman u Senatu novinaru: \"Gleda vas petero ljudi u Americi\"",
-      "summary": "NOVOIZABRANI američki senator Abdul El-Sayed žestoko se sukobio s novinarom britanskog Sky Newsa uoči pobjede na izborima za Senat u saveznoj državi Michigan.",
-      "link": "https://www.index.hr/vijesti/clanak/video-prvi-musliman-u-senatu-napao-novinara-gleda-vas-petero-ljudi-u-americi/2853446.aspx",
-      "published": "2026-11-05T05:56:00.000Z",
-      "source": "Index",
-      "category": "general",
-      "xml_category": "vijesti",
-      "tags": [],
-      "image": null
-    },
-    {
-      "id": "index-9",
-      "title": "Axios: JD Vance je ljut na Netanyahua zbog rata s Iranom",
-      "summary": "DOK JD VANCE krivi Netanyahua i rat s Iranom za izborni poraz, Trump unatoč podjelama i dalje razmatra nove vojne operacije protiv Teherana.",
-      "link": "https://www.index.hr/vijesti/clanak/axios-jd-vance-je-ljut-na-netanyahua-zbog-rata-s-iranom/2853447.aspx",
-      "published": "2026-11-05T05:55:00.000Z",
-      "source": "Index",
-      "category": "general",
-      "xml_category": "vijesti",
-      "tags": [],
-      "image": null
-    },
-    {
-      "id": "n1-info-17",
-      "title": "Zelenski komentirao američke izbore: \"Zahvalan sam republikancima, ali...\"",
-      "summary": "Ukrajinski predsjednik Volodimir Zelenskij izjavio je u intervjuu u srijedu kako se nada da će uspjeh demokrata na američkim izborima na sredini manda",
-      "link": "https://n1info.hr/svijet/zelenski-komentirao-americke-izbore-zahvalan-sam-republikancima-ali/",
-      "published": "2026-11-05T05:51:55.000Z",
-      "source": "N1 Info",
-      "category": "general",
-      "xml_category": "svijet",
-      "tags": [],
-      "image": "https://n1info.hr/media/images/1792347387_2026-10-16T092151Z_101045737_RC294OA4EL1D_RTRMADP_3_.width-1200.JPG"
-    },
-    {
-      "id": "jutarnji-19",
-      "title": "Prva reakcija Zelenskog na izbore u SAD-u",
-      "summary": "Ukrajinski predsjednik Volodimir Zelenski izjavio je u intervjuu u srijedu kako se nada da će uspjeh demokrata na američkim izborima na sredini mandata rezultirati većom pomoći Ukrajini u ratu s Rusijom, koji traje već četiri i pol godine. Zelenski je rekao za njemačku televiziju ZDF kako se nada da",
-      "link": "https://www.jutarnji.hr/vijesti/svijet/prva-reakcija-zelenskog-na-izbore-u-sad-u-15762518",
-      "published": "2026-11-05T05:48:00.000Z",
-      "source": "Jutarnji",
-      "category": "general",
-      "xml_category": "svijet",
-      "tags": [],
-      "image": "https://media.jutarnji.hr/images/slike/2026/11/05/f_39908217_1280.jpg?1793893349"
-    },
-    {
-      "id": "index-10",
-      "title": "Pogledajte reakciju glavnog Putinovog propagandista na Trumpov debakl",
-      "summary": "VLADIMIR Solovjov, vodeći televizijski voditelj ruske državne televizije i najistaknutiji propagandist Kremlja, u svojoj se emisiji osvrnuo na izbore za američki Kongres.",
-      "link": "https://www.index.hr/vijesti/clanak/pogledajte-reakciju-glavnog-putinovog-propagandista-na-trumpov-debakl/2853445.aspx",
-      "published": "2026-11-05T05:46:00.000Z",
-      "source": "Index",
-      "category": "general",
-      "xml_category": "vijesti",
-      "tags": [],
-      "image": null
-    },
-    {
-      "id": "index-11",
-      "title": "Zelenski se nada da će pobjeda demokrata u SAD-u pomoći Ukrajini",
-      "summary": "ZELENSKI se nada da će pobjeda demokrata na kongresnim izborima u SAD-u donijeti veću pomoć Ukrajini i pritisnuti Putina uoči mirovnih pregovora.",
-      "link": "https://www.index.hr/vijesti/clanak/zelenski-se-nada-da-ce-pobjeda-demokrata-u-sadu-pomoci-ukrajini/2853442.aspx",
-      "published": "2026-11-05T05:46:00.000Z",
-      "source": "Index",
-      "category": "general",
-      "xml_category": "vijesti",
-      "tags": [],
-      "image": null
-    },
-    {
-      "id": "n1-info-19",
-      "title": "50 milijuna Europljana ne može si priuštiti grijanje doma. Što EU poduzima kako bi im pomogao?",
-      "summary": "Europa ulazi u zimu s najmanjim zalihama plina od 2011. godine, a ministri Europske unije zasad nisu ponudili mnogo konkretnih i obvezujućih rješenja",
-      "link": "https://n1info.hr/svijet/50-milijuna-europljana-ne-moze-si-priustiti-grijanje-doma-sto-eu-poduzima-kako-bi-im-pomogao/",
-      "published": "2026-11-05T05:42:09.000Z",
-      "source": "N1 Info",
-      "category": "general",
-      "xml_category": "svijet",
-      "tags": [],
-      "image": "https://n1info.hr/media/images/1704797407-pexels-mikhail-nilov-6530539.width-1200.jpg"
-    },
-    {
-      "id": "n1-info-14",
-      "title": "Umjetna inteligencija otkrila pet najsigurnijih zemalja u kojima bi se mogla preživjeti globalna katastrofa – čak četiri su u Europi",
-      "summary": "Sve veći broj zemalja diljem svijeta priprema se za globalne katastrofe, ali gdje bi bilo najsigurnije nalaziti se ako bi do neke od njih došlo?",
-      "link": "https://n1info.hr/svijet/pet-najsigurnijih-zemalja-globalna-katastrofa/",
-      "published": "2026-11-05T05:42:06.000Z",
-      "source": "N1 Info",
-      "category": "general",
-      "xml_category": "svijet",
-      "tags": [],
-      "image": "https://n1info.hr/media/original_images/1793787591_1771004964_shutterstock_26693039.format-avif.width-1.avif"
-    },
-    {
-      "id": "al-jazeera-18",
-      "title": "Israel’s opposition slams ‘toxic Netanyahu’ after Democrats win US Congress",
-      "summary": "Netanyahu&#039;s rivals say US midterm results show Israel &#039;cannot afford&#039; to have the prime minister remain in office.",
-      "link": "https://www.aljazeera.com/news/2026/11/5/israels-opposition-slams-toxic-netanyahu-after-democrats-win-us-congress?traffic_source=rss",
-      "published": "2026-11-05T05:39:31.000Z",
-      "source": "Al Jazeera",
-      "category": "general",
-      "xml_category": "news",
-      "tags": [],
-      "image": null
-    },
-    {
-      "id": "index-12",
-      "title": "Republikanac: Doživjeli smo poraz kakav nije viđen od Watergatea",
-      "summary": "NAKON povijesnog poraza republikanaca, senator Ted Cruz poziva stranku da se usredotoči na ekonomska pitanja koja muče birače. Smatra da su ignorirali stvarne probleme i visoke troškove života.",
-      "link": "https://www.index.hr/vijesti/clanak/republikanac-dozivjeli-smo-poraz-kakav-nije-vidjen-od-watergatea/2853444.aspx",
-      "published": "2026-11-05T05:37:00.000Z",
-      "source": "Index",
-      "category": "general",
-      "xml_category": "vijesti",
-      "tags": [],
-      "image": null
-    },
-    {
-      "id": "index-13",
-      "title": "Majka i kći otišle u šetnju u Kanadi, pronađene su mrtve. Sumnja se na napad grizlija",
-      "summary": "NESTANAK Jennifer Balcarras (48) i njezine kćeri Selah Reed (20) prijavljen je u nedjelju, nakon što se nisu vratile s kratke poslijepodnevne šetnje, priopćila je obitelj.",
-      "link": "https://www.index.hr/vijesti/clanak/majka-i-kci-otisle-u-setnju-u-kanadi-pronadjene-su-mrtve-sumnja-se-na-napad-grizlija/2853441.aspx",
-      "published": "2026-11-05T05:34:00.000Z",
-      "source": "Index",
-      "category": "general",
-      "xml_category": "vijesti",
-      "tags": [],
-      "image": null
-    },
-    {
-      "id": "jutarnji-19",
-      "title": "Sjeverna Koreja testirala novo oružje. Krstareći projektili pogodili simuliranu zračnu luku",
-      "summary": "Sjeverna Koreja je u srijedu testirala novi sustav protuzračne obrane i provela vježbu napada krstarećim projektilima, objavila je u četvrtak državna novinska agencija KCNA. Navodi se da je test protuzračne obrane potvrdio tehničke specifikacije i pouzdanost novih materijala te različite načine navo",
-      "link": "https://www.jutarnji.hr/vijesti/svijet/sjeverna-koreja-testirala-novo-oruzje-krstareci-projektili-pogodili-simuliranu-zracnu-luku-15762517",
-      "published": "2026-11-05T05:33:26.000Z",
-      "source": "Jutarnji",
-      "category": "general",
-      "xml_category": "svijet",
-      "tags": [],
-      "image": "https://media.jutarnji.hr/images/slike/2026/11/05/f_39907236_1280.jpg?1793890727"
-    },
-    {
-      "id": "jutarnji-18",
-      "title": "Visoki njemački političar pronađen mrtav u hotelskoj sobi. Policija istražuje okolnosti",
-      "summary": "Njemačka policija izvijestila je da istražuje iznenadnu smrt Huberta Aiwangera, zamjenika premijera savezne pokrajine Bavarske i čelnika jedne manje konzervativne stranke, čije je tijelo u srijedu navečer pronađeno u hotelskoj sobi u Berlinu. \"Cilj istrage je utvrditi točan uzrok smrti i okolnosti u",
-      "link": "https://www.jutarnji.hr/vijesti/svijet/visoki-njemacki-politicar-pronaden-mrtav-u-hotelskoj-sobi-policija-istrazuje-okolnosti-15762515",
-      "published": "2026-11-05T05:31:09.000Z",
-      "source": "Jutarnji",
-      "category": "general",
-      "xml_category": "svijet",
-      "tags": [],
-      "image": "https://media.jutarnji.hr/images/slike/2026/11/05/f_39896548_1280.jpg?1793887199"
-    },
-    {
-      "id": "index-14",
-      "title": "Moćni republikanac o debaklu: \"Izgubili smo Teksas, bez njega više ne postojimo\"",
-      "summary": "GUVERNER Floride Ron DeSantis jučer je žestoko napao vodstvo vlastite Republikanske stranke nakon teškog poraza na međuizborima za Kongres.",
-      "link": "https://www.index.hr/vijesti/clanak/mocni-republikanac-o-debaklu-ovo-je-za-nas-kao-udar-meteora/2853440.aspx",
-      "published": "2026-11-05T05:31:00.000Z",
-      "source": "Index",
-      "category": "general",
-      "xml_category": "vijesti",
-      "tags": [],
-      "image": null
-    },
-    {
-      "id": "index-15",
-      "title": "Trump: Šteta što Senat nije usvojio zakon o pomicanju sata, prerano je mrak",
-      "summary": "DONALD Trump kritizira američki Senat jer odbija ukinuti pomicanje sata i uvesti trajno ljetno vrijeme, a rani zimski mrak naziva smiješnim.",
-      "link": "https://www.index.hr/vijesti/clanak/trump-steta-sto-senat-nije-usvojio-zakon-o-pomicanju-sata-prerano-je-mrak/2853439.aspx",
-      "published": "2026-11-05T05:24:00.000Z",
-      "source": "Index",
-      "category": "general",
-      "xml_category": "vijesti",
-      "tags": [],
-      "image": null
-    },
-    {
-      "id": "jutarnji-19",
-      "title": "Joshua Wong osuđen na još 10 godina zatvora zbog dosluha sa stranim silama",
-      "summary": "Jedan od najpoznatijih hongkonških aktivista za demokraciju, Joshua Wong, u četvrtak je osuđen na dodatnih 10 godina zatvora zbog dosluha sa stranim silama. \"Sud je... izrekao konačnu kaznu od 10 godina zatvora\" Joshui Wongu, navodi se u priopćenju za javnost koje je objavio sud. Wong, koji je posta",
-      "link": "https://www.jutarnji.hr/vijesti/svijet/joshua-wong-osuden-na-jos-10-godina-zatvora-zbog-dosluha-sa-stranim-silama-15762512",
-      "published": "2026-11-05T05:20:36.000Z",
-      "source": "Jutarnji",
-      "category": "general",
-      "xml_category": "svijet",
-      "tags": [],
-      "image": "https://media.jutarnji.hr/images/slike/2026/11/05/f_39907763_1280.jpg?1793887199"
-    },
-    {
-      "id": "index-16",
-      "title": "Hongkonški aktivist trebao izaći na slobodu. Dobio još 10 godina zatvora",
-      "summary": "HONGKONŠKI aktivist Joshua Wong osuđen je na dodatnih deset godina zatvora zbog dosluha sa stranim silama, što je izazvalo osudu svjetske javnosti.",
-      "link": "https://www.index.hr/vijesti/clanak/hongkonski-aktivist-trebao-izaci-na-slobodu-dobio-jos-10-godina-zatvora/2853437.aspx",
-      "published": "2026-11-05T05:19:00.000Z",
-      "source": "Index",
-      "category": "general",
-      "xml_category": "vijesti",
-      "tags": [],
-      "image": null
-    },
-    {
-      "id": "index-11",
-      "title": "Uhićen zapovjednik srpske Specijalne antiterorističke jedinice",
-      "summary": "MUP JE PRIOPĆIO da je za osam policijskih službenika i jednog bivšeg policajca određeno zadržavanje do 48 sati.",
-      "link": "https://www.index.hr/vijesti/clanak/uhicen-zapovjednik-srpske-specijalne-antiteroristicke-jedinice/2853436.aspx",
-      "published": "2026-11-05T05:18:00.000Z",
-      "source": "Index",
-      "category": "general",
-      "xml_category": "vijesti",
-      "tags": [],
-      "image": null
-    },
-    {
-      "id": "index-17",
-      "title": "Propao dogovor Trumpa i Putina",
-      "summary": "KONTROVERZNI plan Donalda Trumpa o uvozu ruskog dizela u SAD po svemu sudeći propada.",
-      "link": "https://www.index.hr/vijesti/clanak/propao-dogovor-trumpa-i-putina/2853435.aspx",
-      "published": "2026-11-05T05:05:00.000Z",
-      "source": "Index",
-      "category": "general",
-      "xml_category": "vijesti",
-      "tags": [],
-      "image": null
-    },
-    {
-      "id": "al-jazeera-19",
-      "title": "Zelenskyy hopes Democratic Congress will bring more US help for Ukraine",
-      "summary": "EU officials also urge new US Congress to step up pressure on Russia to end the four-and-a-half-year war.",
-      "link": "https://www.aljazeera.com/news/2026/11/5/zelenskyy-hopes-democratic-congress-will-bring-more-us-help-for-ukraine?traffic_source=rss",
-      "published": "2026-11-05T04:49:56.000Z",
-      "source": "Al Jazeera",
-      "category": "ai",
-      "xml_category": "news",
-      "tags": [],
-      "image": null
-    },
-    {
-      "id": "al-jazeera-13",
-      "title": "Mamdani: ‘it’s morning again in America’ after blue wave",
-      "summary": "New York City Mayor Zohran Mamdani urged fellow Democrats to ‘fulfill promises’ after sweeping wins.",
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/11/5/mamdani-its-morning-again-in-america-after-blue-wave?traffic_source=rss",
-      "published": "2026-11-05T04:30:18.000Z",
-      "source": "Al Jazeera",
-      "category": "ai",
-      "xml_category": "show types",
-      "tags": [],
-      "image": null
-    },
-    {
-      "id": "jutarnji-18",
-      "title": "Majka i kći otišle u kratku šetnju, nađene mrtve. Sve upućuje na najstrašniji scenarij koji se može dogoditi u šumi",
-      "summary": "Majka i kći pronađene su mrtve u kanadskoj pokrajini Britanskoj Kolumbiji nakon što su nestale tijekom kratke poslijepodnevne šetnje. Istražitelji sumnjaju da ih je napao grizli, a nadležne službe pokrenule su potragu za medvjedom koji bi mogao biti odgovoran za njihovu smrt, javlja BBC. Žrtve su id",
-      "link": "https://www.jutarnji.hr/vijesti/svijet/majka-i-kci-otisle-u-kratku-setnju-nadene-mrtve-sve-upucuje-na-najstrasniji-scenarij-koji-se-moze-dogoditi-u-sumi-15762506",
-      "published": "2026-11-05T04:16:14.000Z",
-      "source": "Jutarnji",
-      "category": "general",
-      "xml_category": "svijet",
-      "tags": [],
-      "image": "https://media.jutarnji.hr/images/slike/2026/11/05/f_39907953_1280.jpg?1793885106"
-    },
-    {
-      "id": "al-jazeera-14",
-      "title": "Brazilian airport torn apart by violent storm",
-      "summary": "Dramatic footage captured the moment a powerful tornado struck Chapecó Airport in Santa Catarina, Brazil",
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/11/5/brazilian-airport-torn-apart-by-violent-storm?traffic_source=rss",
-      "published": "2026-11-05T04:12:11.000Z",
-      "source": "Al Jazeera",
-      "category": "ai",
-      "xml_category": "show types",
-      "tags": [],
-      "image": null
-    },
-    {
-      "id": "al-jazeera-15",
-      "title": "Paraguay bank collapses with half of population’s savings",
-      "summary": "Protests have erupted across Paraguay after Ueno Bank was shut down in the middle of the night over a solvency crisis.",
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/11/5/paraguay-bank-collapses-with-half-of-populations-savings?traffic_source=rss",
-      "published": "2026-11-05T04:11:45.000Z",
-      "source": "Al Jazeera",
-      "category": "general",
-      "xml_category": "show types",
-      "tags": [],
-      "image": null
-    },
-    {
-      "id": "al-jazeera-16",
-      "title": "Hong Kong activist Joshua Wong sentenced to ten years in jail",
-      "summary": "Hong Kong activist Joshua Wong, who became the global face of Hong Kong’s pro-democracy movement has been sentenced.",
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/11/5/hong-kong-activist-joshua-wong-sentenced-to-ten-years-in-jail?traffic_source=rss",
-      "published": "2026-11-05T04:04:57.000Z",
-      "source": "Al Jazeera",
-      "category": "ai",
-      "xml_category": "news",
-      "tags": [],
-      "image": null
-    },
-    {
-      "id": "jutarnji-19",
-      "title": "VIDEO Poprilično šokantno što je priznao Trump. Ovo je njegovo prvo javno obraćanje nakon poraza",
-      "summary": "Američki predsjednik Donald Trump suočava se s jednim od najtežih političkih trenutaka svojeg drugog mandata. Nakon poraza republikanaca na izborima za Kongres, održanima u utorak, pred njim su tri velika pitanja: hoće li pokušati pronaći izlaz iz rata s Iranom, kako će surađivati s demokratima u no",
-      "link": "https://www.jutarnji.hr/vijesti/svijet/video-poprilicno-sokantno-sto-je-priznao-trump-ovo-je-njegovo-prvo-javno-obracanje-nakon-poraza-15762505",
-      "published": "2026-11-05T03:56:00.000Z",
-      "source": "Jutarnji",
-      "category": "general",
-      "xml_category": "svijet",
-      "tags": [],
-      "image": "https://media.jutarnji.hr/images/slike/2026/11/05/f_39907930_1280.gif?1793885106"
-    },
-    {
-      "id": "al-jazeera-17",
-      "title": "World record 53 red cards shown in Brazil football match",
-      "summary": "Referees have red-carded 53 players and staff after a massive brawl in an under-20s football match in Brazil.",
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/11/5/world-record-53-red-cards-shown-in-brazil-football-match?traffic_source=rss",
-      "published": "2026-11-05T03:48:19.000Z",
-      "source": "Al Jazeera",
-      "category": "sport",
-      "xml_category": "show types",
-      "tags": [],
-      "image": null
-    },
-    {
-      "id": "bbc-16",
-      "title": "Vance walks Trump tightrope with scathing election critique blaming Iran war",
-      "summary": "The vice-president's blunt assessment of Republican election defeat marked one of the sharpest breaks with a sitting president in recent memory.",
-      "link": "https://www.bbc.co.uk/news/articles/crz98zqkz7z0o?at_medium=RSS&at_campaign=rss",
-      "published": "2026-11-05T03:47:56.000Z",
-      "source": "BBC",
-      "category": "general",
-      "xml_category": "",
-      "tags": [],
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3c74/live/1d4cf850-d8e5-11f1-a701-fddedf244c16.jpg"
-    },
-    {
-      "id": "al-jazeera-18",
-      "title": "Syria, Saudi Arabia sign defence cooperation deal, agree $403m in loans",
-      "summary": "Defence cooperation deal signed as Syria&#039;s President al-Sharaa visits Riyadh for the second time in less than a month.",
-      "link": "https://www.aljazeera.com/news/2026/11/5/syria-saudi-arabia-sign-defence-cooperation-deal-agree-403m-in-loans?traffic_source=rss",
-      "published": "2026-11-05T03:46:13.000Z",
-      "source": "Al Jazeera",
-      "category": "general",
-      "xml_category": "news",
-      "tags": [],
-      "image": null
-    },
-    {
-      "id": "jutarnji-18",
-      "title": "Magyar zaista otvorio tajne arhive komunističkih špijuna. Mnogi su zatečeni čije se ime spominje",
-      "summary": "Mađarska je nakon desetljeća političkih rasprava i kontroverzi javnosti otvorila dosad nedostupne dosjee tajnih suradnika komunističkog režima. Time je ispunjeno jedno od ključnih predizbornih obećanja premijera Pétera Magyara, koji je najavio da će građanima omogućiti uvid u dokumente nekadašnjeg r",
-      "link": "https://www.jutarnji.hr/vijesti/svijet/magyar-zaista-otvorio-tajne-arhive-komunistickih-spijuna-mnogi-su-zateceni-cije-se-ime-spominje-15762503",
-      "published": "2026-11-05T03:16:00.000Z",
-      "source": "Jutarnji",
-      "category": "ai",
-      "xml_category": "svijet",
-      "tags": [],
-      "image": "https://media.jutarnji.hr/images/slike/2026/11/05/f_39643916_1280.jpg?1793883344"
-    },
-    {
-      "id": "al-jazeera-19",
-      "title": "What’s delaying the US Senate election results in Mississippi and Alaska?",
-      "summary": "Ranked-choice voting may decide Alaska&#039;s Senate outcome, while Mississippi&#039;s race hangs on a knife&#039;s edge.",
-      "link": "https://www.aljazeera.com/news/2026/11/5/whats-delaying-us-midterm-election-calls-in-mississippi-and-alaska?traffic_source=rss",
-      "published": "2026-11-05T03:13:08.000Z",
-      "source": "Al Jazeera",
-      "category": "general",
-      "xml_category": "news",
-      "tags": [],
-      "image": null
-    },
-    {
-      "id": "jutarnji-19",
-      "title": "Neočekivana pobjednica Trumpovog izbornog debakla?",
-      "summary": "Težak poraz republikanaca američkog predsjednika Donalda Trumpa na izborima za Kongres izazvao je zabrinutost među europskim političkim čelnicima. Poruka koja stiže iz Sjedinjenih Država prilično je jednostavna: birači koji su vas doveli na vlast zbog nezadovoljstva životnim standardom jednako vas l",
-      "link": "https://www.jutarnji.hr/vijesti/svijet/neocekivana-pobjednica-trumpovog-izbornog-debakla-15762502",
-      "published": "2026-11-05T02:57:57.000Z",
-      "source": "Jutarnji",
-      "category": "general",
-      "xml_category": "svijet",
-      "tags": [],
-      "image": "https://media.jutarnji.hr/images/slike/2026/11/05/f_39907634_1280.png?1793883344"
-    },
-    {
-      "id": "al-jazeera-17",
-      "title": "Former Israeli generals help Palestinian olive farmers",
-      "summary": "A group of former Israeli military generals offered their help to Palestinian olive farmers in the occupied West Bank.",
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/11/5/former-israeli-generals-help-palestinian-olive-farmers?traffic_source=rss",
-      "published": "2026-11-05T02:52:30.000Z",
-      "source": "Al Jazeera",
-      "category": "general",
-      "xml_category": "show types",
-      "tags": [],
-      "image": null
-    },
-    {
-      "id": "al-jazeera-18",
-      "title": "Vote counting underway in critical South Africa elections",
-      "summary": "Votes are being counted across South Africa after a record 29.2 million people registered to vote.",
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/11/5/vote-counting-underway-in-critical-south-africa-elections?traffic_source=rss",
-      "published": "2026-11-05T02:43:04.000Z",
-      "source": "Al Jazeera",
-      "category": "general",
-      "xml_category": "show types",
-      "tags": [],
-      "image": null
-    },
-    {
-      "id": "jutarnji-19",
-      "title": "FOTO Ukrajinci mislili da su srušili običan dron. Izgleda da nitko živ nije očekivao što nosi",
-      "summary": "Ruska vojska počela je koristiti bespilotne letjelice za širenje propagandnih materijala i potencijalno opasnih QR kodova kojima bi se mogli prikupljati osobni podaci ukrajinskih građana ili zaraziti njihovi mobilni uređaji. Na takvu je taktiku upozorio zapovjednik ukrajinskih Snaga bespilotnih sust",
-      "link": "https://www.jutarnji.hr/vijesti/svijet/foto-ukrajinci-mislili-da-su-srusili-obican-dron-izgleda-da-nisu-ocekivali-sto-nosi-15762501",
-      "published": "2026-11-05T02:17:00.000Z",
-      "source": "Jutarnji",
-      "category": "general",
-      "xml_category": "svijet",
-      "tags": [],
-      "image": "https://media.jutarnji.hr/images/slike/2026/11/05/f_39907527_1280.jpg?1793883135"
-    },
-    {
-      "id": "al-jazeera-19",
-      "title": "El Salvador’s Bukele touts military intervention in Haiti",
-      "summary": "Haitian police have found a vehicle used by four missing Salvadoran technicians as Salvadoran troops deploy to Haiti.",
-      "link": "https://www.aljazeera.com/news/2026/11/5/el-salvadors-bukele-touts-military-intervention-in-haiti?traffic_source=rss",
-      "published": "2026-11-05T02:10:07.000Z",
-      "source": "Al Jazeera",
-      "category": "ai",
-      "xml_category": "news",
-      "tags": [],
-      "image": null
-    },
-    {
-      "id": "bbc-10",
-      "title": "Pope Leo hosts Bob Dylan at official residence in Rome",
-      "summary": "Pope Leo had previously quoted Dylan's work in the preface of a book warning against nuclear rearmament.",
-      "link": "https://www.bbc.co.uk/news/articles/cm0e035n13ylo?at_medium=RSS&at_campaign=rss",
-      "published": "2026-11-05T02:09:23.000Z",
-      "source": "BBC",
-      "category": "general",
-      "xml_category": "",
-      "tags": [],
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/063d/live/7f72f330-d8eb-11f1-b441-2b33b063138f.jpg"
-    },
-    {
-      "id": "al-jazeera-13",
-      "title": "Election deniers lose races for governor in key US swing states",
-      "summary": "State leaders can hold significant sway over election administration, with implications for the 2028 presidential race.",
-      "link": "https://www.aljazeera.com/news/2026/11/5/election-deniers-lose-races-for-governor-in-key-us-swing-states?traffic_source=rss",
-      "published": "2026-11-05T02:06:07.000Z",
-      "source": "Al Jazeera",
-      "category": "general",
-      "xml_category": "news",
-      "tags": [],
-      "image": null
-    },
-    {
-      "id": "al-jazeera-14",
-      "title": "Israel’s Herzog accepts vote results, opens talks on forming a government",
-      "summary": "Move deals blow to Netanyahu&#039;s efforts to discredit the elections, in which he and his allies lost their majority.",
-      "link": "https://www.aljazeera.com/news/2026/11/5/israels-herzog-accepts-vote-results-opens-talks-on-forming-a-government?traffic_source=rss",
-      "published": "2026-11-05T01:53:30.000Z",
-      "source": "Al Jazeera",
-      "category": "general",
-      "xml_category": "news",
-      "tags": [],
-      "image": null
-    },
-    {
-      "id": "al-jazeera-15",
-      "title": "Africa’s richest man launches mega oil tank farm in Namibia",
-      "summary": "Nigerian billionaire Aliko Dangote launched a fuel storage facility in Namibia to future-proof Southern Africa&#039;s supply.",
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/11/5/africas-richest-man-launches-mega-oil-tank-farm-in-namibia?traffic_source=rss",
-      "published": "2026-11-05T00:39:18.000Z",
-      "source": "Al Jazeera",
-      "category": "general",
-      "xml_category": "show types",
-      "tags": [],
-      "image": null
-    },
-    {
-      "id": "al-jazeera-16",
-      "title": "Ohio’s voters tell Republicans: don’t take us for granted",
-      "summary": "Democrats flipped a Senate seat and recaptured the governor’s mansion in Ohio.",
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/11/5/ohios-voters-tell-republicans-dont-take-us-for-granted?traffic_source=rss",
-      "published": "2026-11-05T00:36:25.000Z",
-      "source": "Al Jazeera",
-      "category": "general",
-      "xml_category": "show types",
-      "tags": [],
-      "image": null
-    },
-    {
-      "id": "jutarnji-19",
-      "title": "Zanimljivo je što krajnja desnica u Europi radi nakon Trumpovog izbornog potopa",
-      "summary": "Krajnje desni političari u Europi u srijedu su se počeli distancirati od Donalda Trumpa nakon pobjede demokrata na američkim međuizborima, no uglavnom su izbjegavali izravno kritizirati samog predsjednika, piše Reuters. Ograđivanje je znakovito s obzirom na to da su se mnogi od čelnika hvalili ideol",
-      "link": "https://www.jutarnji.hr/vijesti/svijet/zanimljivo-je-sto-krajnja-desnica-u-europi-radi-nakon-trumpovog-izbornog-potopa-15762499",
-      "published": "2026-11-05T00:36:00.000Z",
-      "source": "Jutarnji",
-      "category": "general",
-      "xml_category": "svijet",
-      "tags": [],
-      "image": "https://media.jutarnji.hr/images/slike/2026/11/05/f_39907277_1280.gif?1793879423"
-    },
-    {
-      "id": "bbc-17",
-      "title": "Would you take a test to see if your life will be cut short? I did - and it changed me",
-      "summary": "Laura Sides faced a dilemma of whether to find out if she would inherit her father's condition.",
-      "link": "https://www.bbc.co.uk/news/articles/cw62yq9vp7yyo?at_medium=RSS&at_campaign=rss",
-      "published": "2026-11-05T00:32:09.000Z",
-      "source": "BBC",
-      "category": "general",
-      "xml_category": "",
-      "tags": [],
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/612f/live/694ca970-d86e-11f1-b441-2b33b063138f.jpg"
-    },
-    {
-      "id": "bbc-19",
-      "title": "Why a US-funded vaccine trial on babies was cancelled in Guinea-Bissau",
-      "summary": "The trial was condemned as \"unethical\" and \"neocolonial\" because half of the babies would not be given the vaccine.",
-      "link": "https://www.bbc.co.uk/news/articles/cm0rlxq08ejko?at_medium=RSS&at_campaign=rss",
-      "published": "2026-11-05T00:30:37.000Z",
-      "source": "BBC",
-      "category": "general",
-      "xml_category": "",
-      "tags": [],
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c4bf/live/d304fb40-d848-11f1-b870-55415e6a9944.jpg"
-    },
-    {
-      "id": "al-jazeera-17",
-      "title": "Democrats won Congress. But can they deliver on their promises?",
-      "summary": "Despite their midterm election victories, Democrats face major obstacles to reining in Trump on Iran, tariffs and more.",
-      "link": "https://www.aljazeera.com/news/2026/11/5/democrats-won-congress-but-can-they-deliver-on-their-promises?traffic_source=rss",
-      "published": "2026-11-05T00:25:43.000Z",
-      "source": "Al Jazeera",
-      "category": "general",
-      "xml_category": "news analysis",
-      "tags": [],
-      "image": null
-    },
-    {
-      "id": "al-jazeera-18",
-      "title": "Historic firsts redraw US political map in 2026 midterm elections",
-      "summary": "The 2026 US midterms delivered a wave of historic firsts for women, Black, Muslim, gay and Native American politicians.",
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/11/5/historic-firsts-redraw-us-political-map-in-2026-midterm-elections?traffic_source=rss",
-      "published": "2026-11-05T00:24:20.000Z",
-      "source": "Al Jazeera",
-      "category": "general",
-      "xml_category": "show types",
-      "tags": [],
-      "image": null
-    },
-    {
-      "id": "al-jazeera-19",
-      "title": "Iran war live: IRGC says two oil tankers and tugboat caught fire in Hormuz",
-      "summary": "Iran&#039;s IRGC says two tankers and a tugboat caught fire in the Strait of Hormuz after using an \"unauthorised route\".",
-      "link": "https://www.aljazeera.com/news/liveblog/2026/11/5/iran-war-live-trump-admits-war-caused-election-loss-but-had-to-do-it?traffic_source=rss",
-      "published": "2026-11-05T00:00:00.000Z",
-      "source": "Al Jazeera",
-      "category": "general",
-      "xml_category": "news",
-      "tags": [],
-      "image": null
-    },
-    {
-      "id": "bbc-8",
-      "title": "Mother and daughter die after suspected grizzly bear attack in Canada",
-      "summary": "Authorities in British Columbia say evidence suggests an animal may have been involved in the women's deaths.",
-      "link": "https://www.bbc.co.uk/news/articles/cqvgry8k5d01o?at_medium=RSS&at_campaign=rss",
-      "published": "2026-11-04T23:50:40.000Z",
-      "source": "BBC",
-      "category": "general",
-      "xml_category": "",
-      "tags": [],
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9e75/live/6fd142d0-d8a3-11f1-b29d-fbcd9d61c58e.jpg"
-    },
-    {
-      "id": "al-jazeera-19",
-      "title": "Who gets to vote in the US?",
-      "summary": "Tati Abu King lost his voting rights after felony convictions.",
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/11/4/who-gets-to-vote-in-the-us?traffic_source=rss",
-      "published": "2026-11-04T23:50:34.000Z",
-      "source": "Al Jazeera",
-      "category": "general",
-      "xml_category": "show types",
-      "tags": [],
-      "image": null
-    },
-    {
-      "id": "bbc-8",
-      "title": "Typhoons batter East Asia as El Niño makes Pacific 'burn with fever'",
-      "summary": "Even for countries where typhoons are a way of life, the last few months have brought unusually wild weather.",
-      "link": "https://www.bbc.co.uk/news/articles/cw33kgj7nkemo?at_medium=RSS&at_campaign=rss",
-      "published": "2026-11-04T23:12:47.000Z",
-      "source": "BBC",
-      "category": "general",
-      "xml_category": "",
-      "tags": [],
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/30ea/live/eaa602a0-d75b-11f1-8f6b-d71817972456.jpg"
-    },
-    {
-      "id": "index-12",
-      "title": "Nijemci otkrili što je terorist iz Beograda planirao u Münchenu. Deportitali su ga",
-      "summary": "DARIO N. (18) poginuo je kao terorist krajem listopada u Beogradu. Koju sekundu prije, tek je bila prošla ponoć, pojavio se sav u crnom ispred zgrade veleposlanstva Izraela, viknuo \"Alahu akbar\" i s dva noža krenuo na policajca u stražarskoj kućici. Zaustavljen je smrtonosnim hicima iz vatrenog oruž",
-      "link": "https://www.index.hr/vijesti/clanak/nijemci-otkrili-sto-je-terorist-iz-beograda-planirao-u-m%C3%BCnchenu-deportitali-su-ga/2853434.aspx",
-      "published": "2026-11-04T22:58:00.000Z",
-      "source": "Index",
-      "category": "general",
-      "xml_category": "vijesti",
-      "tags": [],
-      "image": null
-    },
-    {
-      "id": "bbc-9",
-      "title": "Ukraine says bodycam video shows deadly Russian double-tap bombing",
-      "summary": "At least 40 people were killed and another 30 may still be under the rubble after Monday's attack on a Ukrainian village, Kyiv says.",
-      "link": "https://www.bbc.co.uk/news/articles/c98rz6penv86o?at_medium=RSS&at_campaign=rss",
-      "published": "2026-11-04T22:48:43.000Z",
-      "source": "BBC",
-      "category": "ai",
-      "xml_category": "",
-      "tags": [],
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3f23/live/c9877cb0-d8a1-11f1-93e1-3b657b665bcf.png"
-    },
-    {
-      "id": "index-19",
-      "title": "Potop republikanaca na izborima. Stigao prvi Trumpov komentar, njegovi našli krivca",
-      "summary": "DEMOKRATSKA stranka je uvjerljivo pobijedila na izborima za američki Kongres na sredini predsjedničkog mandata Donalda Trumpa.",
-      "link": "https://www.index.hr/vijesti/clanak/stizu-prvi-rezultati-izbora-u-americi-vodja-demokrata-na-rubu-smo-osvajanja-vecine/2852994.aspx",
-      "published": "2026-11-04T22:41:57.000Z",
-      "source": "Index",
-      "category": "general",
-      "xml_category": "vijesti",
-      "tags": [],
-      "image": null
-    },
-    {
-      "id": "index-10",
-      "title": "Republikanci su se baš brzo okrenuli protiv Hegsetha",
-      "summary": "NAKON teškog izbornog poraza zbog rata u Iranu, republikanci odgovornost prebacuju na ministra obrane Petea Hegsetha. U Kongresu se priprema glasanje o njegovom opozivu kako bi se zaštitio Trump.",
-      "link": "https://www.index.hr/vijesti/clanak/republikanci-su-se-bas-brzo-okrenuli-protiv-hegsetha/2853433.aspx",
-      "published": "2026-11-04T22:41:00.000Z",
-      "source": "Index",
-      "category": "general",
-      "xml_category": "vijesti",
-      "tags": [],
-      "image": null
-    },
-    {
-      "id": "bbc-11",
-      "title": "'Hopefully things get done': Americans react to historic political shift",
-      "summary": "The BBC spoke to voters from different states for their reaction to Democrats taking control of both the Senate and the House of Representatives.",
-      "link": "https://www.bbc.co.uk/news/videos/cwj0l61e2927o?at_medium=RSS&at_campaign=rss",
-      "published": "2026-11-04T22:34:08.000Z",
-      "source": "BBC",
-      "category": "general",
-      "xml_category": "",
-      "tags": [],
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/61e6/live/144f7f70-d89f-11f1-a701-fddedf244c16.jpg"
-    },
-    {
-      "id": "index-11",
-      "title": "Dvije zemlje na Balkanu traže pomoć NATO-a zbog ruskih hibridnih napada",
-      "summary": "CRNA Gora i Albanija traže od NATO-a slanje stručnih timova koji bi im pomogli u borbi protiv ruskih dezinformacija i hibridnih prijetnji. Ministri obrane dviju zemalja upozoravaju na sve intenzivnije kampanje na društvenim mrežama kojima se, kako tvrde, pokušava destabilizirati zapadni Balkan, piše",
-      "link": "https://www.index.hr/vijesti/clanak/dvije-zemlje-na-balkanu-traze-pomoc-natoa-zbog-ruskih-hibridnih-napada/2853432.aspx",
-      "published": "2026-11-04T22:31:00.000Z",
-      "source": "Index",
-      "category": "general",
-      "xml_category": "vijesti",
-      "tags": [],
-      "image": null
-    },
-    {
-      "id": "jutarnji-18",
-      "title": "Zvali su ga teroristom i džihadistom, sugerirali da će uvesti šerijat. Postao je hit američkih izbora",
-      "summary": "Američki predsjednik više ga je puta nazvao džihadistom, njegov republikanski protukandidat dovodio je u pitanje njegovu odanost Americi, predizborni letci sugerirali su da je povezan s teroristima i upozoravali da će, bude li izabran, uvesti šerijatski zakon u Michiganu. Prije nego što je Abdul El-",
-      "link": "https://www.jutarnji.hr/vijesti/svijet/zvali-su-ga-teroristom-i-dzihadistom-sugerirali-da-ce-uvesti-serijat-postao-je-hit-americkih-izbora-15762492",
-      "published": "2026-11-04T22:27:55.000Z",
-      "source": "Jutarnji",
-      "category": "general",
-      "xml_category": "svijet",
-      "tags": [],
-      "image": "https://media.jutarnji.hr/images/slike/2026/11/04/f_39903521_1280.jpg?1793875602"
-    },
-    {
-      "id": "jutarnji-19",
-      "title": "Iz Beograda stigle nove uznemirujuće informacije: ‘Pratili su ih 0-24, kad su išli u dućan, po djecu...‘",
-      "summary": "Novinar srpskog tjednika Radar Vuk Cvijić je, govoreći o prisluškivanju novinara ove redakcije od strane Sigurnosno-obavještajne agencije (BIA), rekao da bi taj slučaj „mogao biti malo više od zahtjeva za smjenu direktora ove agencije Vladimira Orlića”, javlja N1. „Bojim se da ovo sve upućuje na jed",
-      "link": "https://www.jutarnji.hr/vijesti/svijet/iz-beograda-stigle-nove-uznemirujuce-informacije-pratili-su-ih-0-24-kad-su-isli-u-ducan-po-djecu-15762490",
-      "published": "2026-11-04T22:15:13.000Z",
-      "source": "Jutarnji",
-      "category": "general",
-      "xml_category": "svijet",
-      "tags": [],
-      "image": "https://media.jutarnji.hr/images/slike/2026/11/04/f_39842791_1280.jpg?1793875602"
-    },
-    {
-      "id": "jutarnji-18",
-      "title": "Trump već ima odgovor na debakl: ‘Imat će kontrolu u Kongresu? Zapravo neće, znam kako ću ih zaustaviti!‘",
-      "summary": "Dok se polako zbrajaju i posljednji glasovi birača na američkim izborima na sredini mandata, posve je jasno da Demokratska stranka osvaja većinu i u Zastupničkom domu i Senatu. No, iako su demokrati ostvarili povijesni uspjeh na \"međuizborima\", američki predsjednik Donald Trump već je poručio da će.",
-      "link": "https://www.jutarnji.hr/vijesti/svijet/trump-vec-ima-odgovor-na-debakl-imat-ce-kontrolu-u-kongresu-zapravo-nece-znam-kako-cu-ih-zaustaviti-15762489",
-      "published": "2026-11-04T22:00:23.000Z",
-      "source": "Jutarnji",
-      "category": "general",
-      "xml_category": "svijet",
-      "tags": [],
-      "image": "https://media.jutarnji.hr/images/slike/2026/11/04/f_39777648_1280.jpg?1793872520"
-    },
-    {
-      "id": "index-12",
-      "title": "Politika zastrašivanja nije spriječila El-Sayedovu povijesnu pobjedu za Senat",
-      "summary": "AMERIČKI predsjednik više ga je puta nazvao džihadistom, njegov republikanski protukandidat dovodio je u pitanje njegovu odanost Americi, predizborni leci sugerirali su da je povezan s teroristima i upozoravali da će, bude li izabran, uvesti šerijatski zakon u Michiganu.",
-      "link": "https://www.index.hr/vijesti/clanak/politika-zastrasivanja-nije-sprijecila-elsayedovu-povijesnu-pobjedu-za-senat/2853430.aspx",
-      "published": "2026-11-04T21:54:00.000Z",
-      "source": "Index",
-      "category": "politika",
-      "xml_category": "vijesti",
-      "tags": [],
-      "image": null
-    },
-    {
-      "id": "jutarnji-19",
-      "title": "U Izraelu nakon ‘plavog tsunamija‘ krenula paljba na Netanyahua: ‘Uništit će nam ugled‘",
-      "summary": "Politički suparnici Benjamina Netanyahua iskoristili su protiv njega činjenicu da su demokrati preuzeli kontrolu nad američkim Kongresom, poručivši da je uništio desetljećima građenu dvostranačku američku potporu Izraelu, dok istovremeno traže priliku za sastavljanje vlade bez njega. Izbori u SAD-u.",
-      "link": "https://www.jutarnji.hr/vijesti/svijet/u-izraelu-nakon-plavog-tsunamija-krenula-paljba-na-netanyahua-unistit-ce-nam-ugled-15762485",
-      "published": "2026-11-04T21:49:18.000Z",
-      "source": "Jutarnji",
-      "category": "general",
-      "xml_category": "svijet",
-      "tags": [],
-      "image": "https://media.jutarnji.hr/images/slike/2026/11/04/f_39856108_1280.jpg?1793872520"
-    },
-    {
-      "id": "jutarnji-18",
-      "title": "Sve je očitije što Rusija radi na Balkanu, u NATO stigao hitan apel: ‘Pošaljite timove‘",
-      "summary": "Crna Gora i Albanija žele da NATO pošalje stručne timove koji bi im pomogli u suzbijanju ruskih dezinformacijskih kampanja i hibridnih prijetnji. Ministri obrane dviju zemalja upozoravaju na sve intenzivnije aktivnosti na društvenim mrežama kojima se nastoji destabilizirati zapadni Balkan. Kako piše",
-      "link": "https://www.jutarnji.hr/vijesti/svijet/sve-je-ocitije-sto-rusija-radi-na-balkanu-u-nato-stigao-hitan-apel-posaljite-timove-15762480",
-      "published": "2026-11-04T21:25:23.000Z",
-      "source": "Jutarnji",
-      "category": "general",
-      "xml_category": "svijet",
-      "tags": [],
-      "image": "https://media.jutarnji.hr/images/slike/2026/11/04/f_39906747_1280.jpg?1793868615"
-    },
-    {
-      "id": "n1-info-19",
-      "title": "Politika zastrašivanja nije spriječila El-Sayedovu povijesnu pobjedu",
-      "summary": "Američki predsjednik više ga je puta nazvao džihadistom, njegov republikanski protukandidat dovodio je u pitanje njegovu odanost Americi, predizborni",
-      "link": "https://n1info.hr/svijet/politika-zastrasivanja-nije-sprijecila-el-sayedovu-povijesnu-pobjedu/",
-      "published": "2026-11-04T21:24:52.000Z",
-      "source": "N1 Info",
-      "category": "politika",
-      "xml_category": "svijet",
-      "tags": [],
-      "image": "https://n1info.hr/media/images/1793827268_2026-11-04T084324Z_1173961652_RC2UGOAJ0PQD_RTRMADP_3_.width-1200.JPG"
-    },
-    {
-      "id": "jutarnji-19",
-      "title": "Otkriveni novi detalji o mladom teroristu, Nijemci raskrinkali velik propust srpskih obavještajaca",
-      "summary": "Dario N. (18) poginuo je kao terorist krajem listopada u Beogradu. Koju sekundu prije, tek je bila prošla ponoć, pojavio se sav u crnom ispred zgrade veleposlanstva Izraela, viknuo ‘Alahu akbar‘ i s dva noža krenuo na policajca u stražarskoj kućici. Zaustavljen je smrtonosnim hicima iz vatrenog oruž",
-      "link": "https://www.jutarnji.hr/vijesti/svijet/otkriveni-novi-detalji-o-mladom-teroristu-nijemci-raskrinkali-velik-propust-srpskih-obavjestajaca-15762477",
-      "published": "2026-11-04T21:17:31.000Z",
-      "source": "Jutarnji",
-      "category": "general",
-      "xml_category": "svijet",
-      "tags": [],
-      "image": "https://media.jutarnji.hr/images/slike/2026/11/04/f_39858513_1280.png?1793868615"
-    },
-    {
-      "id": "jutarnji-19",
-      "title": "Zamjenik premijera Bavarske pronađen mrtav u berlinskom hotelu",
-      "summary": "Poznati njemački političar Hubert Aiwanger pronađen je mrtav u 55. godini života. Prema informacijama do kojih je došao Bild, čelnik stranke Slobodni birači (Freie Wähler), koji je obnašao dužnost zamjenika bavarskog premijera i ministra gospodarstva, preminuo je u srijedu u jednom hotelu u Berlinu,",
-      "link": "https://www.jutarnji.hr/vijesti/svijet/zamjenik-premijera-bavarske-pronaden-mrtav-u-berlinskom-hotelu-15762474",
-      "published": "2026-11-04T21:05:21.000Z",
-      "source": "Jutarnji",
-      "category": "general",
-      "xml_category": "svijet",
-      "tags": [],
-      "image": "https://media.jutarnji.hr/images/slike/2026/11/04/f_30234639_1280.jpg?1793864969"
-    },
-    {
-      "id": "index-13",
-      "title": "Netanyahu traži od Trumpa novi veliki napad na Iran. Teheran postavio ultimatum",
-      "summary": "",
-      "link": "https://www.index.hr/vijesti/clanak/netanyahu-trazi-od-trumpa-novi-veliki-napad-na-iran-teheran-postavio-ultimatum/2853424.aspx",
-      "published": "2026-11-04T21:04:00.000Z",
-      "source": "Index",
-      "category": "general",
-      "xml_category": "vijesti",
-      "tags": [],
-      "image": null
-    },
-    {
-      "id": "index-14",
-      "title": "EU razmatra nove sankcije protiv Gruzije zbog sve lošijeg stanja demokracije",
-      "summary": "EU U SIJEČNJU razmatra nove sankcije protiv Gruzije zbog ugrožavanja demokracije.",
-      "link": "https://www.index.hr/vijesti/clanak/eu-razmatra-nove-sankcije-protiv-gruzije-zbog-sve-losijeg-stanja-demokracije/2853422.aspx",
-      "published": "2026-11-04T21:03:00.000Z",
       "source": "Index",
       "category": "general",
       "xml_category": "vijesti",
