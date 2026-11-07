@@ -1,10 +1,6 @@
 {
-  "generated_at": "2026-11-07T14:01:17.018Z",
+  "generated_at": "2026-11-07T15:01:22.090Z",
   "stats": {
-    "muzika.hr": {
-      "ok": true,
-      "count": 25
-    },
     "Mochvara": {
       "ok": true,
       "count": 15
@@ -13,25 +9,25 @@
       "ok": true,
       "count": 0
     },
-    "Gavella": {
-      "ok": true,
-      "count": 39
-    },
     "Tvornica": {
       "ok": true,
       "count": 2
+    },
+    "Gavella": {
+      "ok": true,
+      "count": 39
     },
     "ZeKaeM": {
       "ok": true,
       "count": 1
     },
+    "muzika.hr": {
+      "ok": true,
+      "count": 25
+    },
     "Komedija": {
       "ok": true,
       "count": 0
-    },
-    "HNK Zagreb": {
-      "ok": true,
-      "count": 105
     },
     "Pogon": {
       "ok": true,
@@ -44,6 +40,10 @@
     "Trešnja": {
       "ok": true,
       "count": 0
+    },
+    "HNK Zagreb": {
+      "ok": true,
+      "count": 105
     }
   },
   "concerts": [
@@ -1064,7 +1064,7 @@
       "time": "20:00",
       "link": "https://www.muzika.hr/event/velika-frka-tbf-the-bastardz-et/",
       "source": "muzika.hr",
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-07T14:01:17.018Z"
     },
     {
@@ -1334,7 +1334,7 @@
       "time": "20:30",
       "link": "https://www.muzika.hr/event/evanora-unlimited-emberam-angus-scratch-green-boogaloo-zagreb/",
       "source": "muzika.hr",
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-07T14:01:17.018Z"
     },
     {
@@ -1634,7 +1634,7 @@
       "time": null,
       "link": "https://www.muzika.hr/event/music-mission-vision/",
       "source": "muzika.hr",
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-07T14:01:17.018Z"
     },
     {
@@ -1904,7 +1904,7 @@
       "time": "20:00",
       "link": "https://www.muzika.hr/event/the-witcher-in-concert-arena-zagreb-2026/",
       "source": "muzika.hr",
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-07T14:01:17.018Z"
     },
     {
@@ -4443,7 +4443,7 @@
       "time": "20:00",
       "link": "https://www.muzika.hr/event/brucifer-brucosijada-fera-2026/",
       "source": "muzika.hr",
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-07T14:01:17.018Z"
     },
     {
@@ -4507,5 +4507,5 @@
       "first_seen": "2026-10-31T06:01:17.418Z"
     }
   ],
-  "new_count": 7
+  "new_count": 2
 }
