@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-11-07T13:01:19.919Z",
+  "generated_at": "2026-11-07T14:01:17.018Z",
   "stats": {
+    "muzika.hr": {
+      "ok": true,
+      "count": 25
+    },
     "Mochvara": {
       "ok": true,
       "count": 15
-    },
-    "Tvornica": {
-      "ok": true,
-      "count": 2
     },
     "Lisinski": {
       "ok": true,
@@ -17,9 +17,9 @@
       "ok": true,
       "count": 39
     },
-    "muzika.hr": {
+    "Tvornica": {
       "ok": true,
-      "count": 25
+      "count": 2
     },
     "ZeKaeM": {
       "ok": true,
@@ -29,21 +29,21 @@
       "ok": true,
       "count": 0
     },
-    "Kerempuh": {
-      "ok": true,
-      "count": 0
-    },
     "HNK Zagreb": {
       "ok": true,
       "count": 105
     },
-    "Trešnja": {
+    "Pogon": {
       "ok": true,
       "count": 0
     },
-    "Pogon": {
-      "ok": false,
-      "error": "The operation was aborted due to timeout"
+    "Kerempuh": {
+      "ok": true,
+      "count": 0
+    },
+    "Trešnja": {
+      "ok": true,
+      "count": 0
     }
   },
   "concerts": [
@@ -1053,6 +1053,21 @@
       "first_seen": "2026-10-10T05:01:24.263Z"
     },
     {
+      "id": "0d11648526",
+      "title": "Velika Frka: TBF + The Bastardz + ET",
+      "venue": "",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-11-07T20:00:00",
+      "date_display": "sub, 07. 11. 2026.",
+      "time": "20:00",
+      "link": "https://www.muzika.hr/event/velika-frka-tbf-the-bastardz-et/",
+      "source": "muzika.hr",
+      "is_new": true,
+      "first_seen": "2026-11-07T14:01:17.018Z"
+    },
+    {
       "id": "a556fe4449",
       "title": "(NE)NORMALNI",
       "venue": "NORMALNI Lazareti Frana Supila 8",
@@ -1306,6 +1321,21 @@
       "source": "HNK Zagreb",
       "is_new": false,
       "first_seen": "2026-09-18T10:01:10.835Z"
+    },
+    {
+      "id": "baf6ae1dd4",
+      "title": "Evanora Unlimited + Emberam + Angus Scratch Green",
+      "venue": "Grada Vukovara 68",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-11-12T20:30:00",
+      "date_display": "čet, 12. 11. 2026.",
+      "time": "20:30",
+      "link": "https://www.muzika.hr/event/evanora-unlimited-emberam-angus-scratch-green-boogaloo-zagreb/",
+      "source": "muzika.hr",
+      "is_new": true,
+      "first_seen": "2026-11-07T14:01:17.018Z"
     },
     {
       "id": "9dceecb88b",
@@ -1593,6 +1623,21 @@
       "first_seen": "2026-11-01T20:01:16.170Z"
     },
     {
+      "id": "a0fb58eec2",
+      "title": "Music Mission Vision",
+      "venue": "Vision Centar KNAP Ivanićgradska 41a",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-11-21T00:00:00",
+      "date_display": "sub, 21. 11. 2026.",
+      "time": null,
+      "link": "https://www.muzika.hr/event/music-mission-vision/",
+      "source": "muzika.hr",
+      "is_new": true,
+      "first_seen": "2026-11-07T14:01:17.018Z"
+    },
+    {
       "id": "3956daf1e3",
       "title": "Razgled kazališta 166 sezona iza kulisa",
       "venue": "HNK Zagreb",
@@ -1846,6 +1891,21 @@
       "source": "HNK Zagreb",
       "is_new": false,
       "first_seen": "2026-08-27T15:01:20.279Z"
+    },
+    {
+      "id": "b21b0e4436",
+      "title": "The Witcher in Concert u Areni Zagreb",
+      "venue": "Areni Zagreb Arena Zagreb Lanište bb",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-11-24T20:00:00",
+      "date_display": "uto, 24. 11. 2026.",
+      "time": "20:00",
+      "link": "https://www.muzika.hr/event/the-witcher-in-concert-arena-zagreb-2026/",
+      "source": "muzika.hr",
+      "is_new": true,
+      "first_seen": "2026-11-07T14:01:17.018Z"
     },
     {
       "id": "1525622c60",
@@ -4372,6 +4432,21 @@
       "first_seen": "2026-10-30T13:01:20.614Z"
     },
     {
+      "id": "d27ce7d915",
+      "title": "Brucifer: Vesna Pisarović, Buč Kesidi, Daliborovo granje",
+      "venue": "Vesna Pisarović",
+      "city": "Buč",
+      "country": "EU",
+      "category": "concert",
+      "date_iso": "2026-11-07T20:00:00",
+      "date_display": "sub, 07. 11. 2026.",
+      "time": "20:00",
+      "link": "https://www.muzika.hr/event/brucifer-brucosijada-fera-2026/",
+      "source": "muzika.hr",
+      "is_new": true,
+      "first_seen": "2026-11-07T14:01:17.018Z"
+    },
+    {
       "id": "49c40c94c3",
       "title": "Bob Dylan",
       "venue": "Bob Dylan Arena Stožice Stožice",
@@ -4432,5 +4507,5 @@
       "first_seen": "2026-10-31T06:01:17.418Z"
     }
   ],
-  "new_count": 2
+  "new_count": 7
 }
