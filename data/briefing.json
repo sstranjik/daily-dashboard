@@ -1,15 +1,15 @@
 {
   "version": 2,
-  "date": "2026-11-06",
-  "generated_at": "2026-11-06T12:41:39.903Z",
-  "date_hr": "Petak, 6. studenog 2026.",
+  "date": "2026-11-07",
+  "generated_at": "2026-11-07T06:03:36.450Z",
+  "date_hr": "Subota, 7. studenog 2026.",
   "weather": {
     "icon": "🌧️",
-    "summary": "7–10°C, lagana kiša",
+    "summary": "6–9°C, lagana kiša",
     "alerts": []
   },
   "fuel": {
-    "current_date": "06.11.2026",
+    "current_date": "07.11.2026",
     "eurodiesel": [
       {
         "company": "Adria Oil",
@@ -46,12 +46,12 @@
         "price": 2.14
       },
       {
-        "company": "Petrol",
+        "company": "Tifon",
         "price": 2.17
       },
       {
-        "company": "Tifon",
-        "price": 2.17
+        "company": "Petrol",
+        "price": 2.19
       },
       {
         "company": "Coral Croatia",
@@ -63,46 +63,46 @@
     "upcoming_premium": null
   },
   "market": {
-    "updated_at": "2026-11-06T12:41:39.903Z",
-    "btc_usd": 76132,
-    "btc_eur": 68139,
-    "btc_change_24h": -4.5,
-    "usd_eur": 0.8905
+    "updated_at": "2026-11-07T06:03:36.450Z",
+    "btc_usd": 75962,
+    "btc_eur": 68149,
+    "btc_change_24h": 0.52,
+    "usd_eur": 0.8961
   },
   "ai_news": [
     {
-      "title": "Perplexity launches its own take on AI agents for work",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1028302/perplexity-teammates-ai-agents-work",
+      "title": "OpenAI valued at $1.25 trillion, as rival Anthropic nears its IPO",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1029380/openai-1-25-trillion-investment-valuation",
       "source": "The Verge"
     },
     {
-      "title": "Claude’s new Personal Finance tool aims to help analyze your spending – read-only, of course",
-      "link": "https://www.zdnet.com/innovation/personal-finance-claude-anthropic/",
-      "source": "ZDNet"
+      "title": "OpenAI reportedly raises an additional $11 billion at a $1.25 trillion valuation",
+      "link": "https://techcrunch.com/2026/11/06/openai-reportedly-raises-an-additional-11-billion-at-a-1-25-trillion-valuation/",
+      "source": "TechCrunch AI"
     },
     {
-      "title": "Claude Code’s product lead Cat Wu leaves Anthropic to join OpenAI",
-      "link": "https://thenextweb.com/news/cat-wu-claude-code-anthropic-openai-core-products",
+      "title": "Chainalysis says hackers stole credentials and tokens for all of its customers",
+      "link": "https://arstechnica.com/security/2026/11/chainalysis-says-hackers-stole-credentials-and-tokens-for-all-of-its-customers/",
+      "source": "Ars Technica"
+    },
+    {
+      "title": "Microsoft is winding down its deal to rent AI computing from Oracle",
+      "link": "https://thenextweb.com/news/microsoft-winds-down-oracle-ai-cloud-capacity-deal",
       "source": "The Next Web"
     },
     {
-      "title": "Claude’s share of UK AI subscription spending quadruples in seven months",
-      "link": "https://thenextweb.com/news/claude-uk-ai-subscription-spending-share-chatgpt",
-      "source": "The Next Web"
-    },
-    {
-      "title": "Anthropic lets Claude read your bank accounts, but not move money",
-      "link": "https://thenextweb.com/news/anthropic-claude-personal-finance-plaid-read-only-beta",
+      "title": "Musk says government work will be under 10% of SpaceX revenue",
+      "link": "https://thenextweb.com/news/spacex-government-revenue-under-10-percent-musk-anthropic",
       "source": "The Next Web"
     }
   ],
   "micro_tips": {
     "vscode": {
-      "tip": "Dupliciraj trenutnu liniju ispod",
-      "keys": "Shift+Alt+↓"
+      "tip": "Obriši cijelu liniju odjednom",
+      "keys": "Ctrl+Shift+K"
     },
-    "sql": "EXISTS umjesto IN za subqueries — brže jer stane na prvom podudaranju: WHERE EXISTS (SELECT 1 FROM ...)",
-    "oracle": "/*+ INDEX(t ime_indexa) */ forsira specifičan index kad optimizer bira full scan",
-    "regex": "\\b granica riječi: \\bword\\b podudara cijelu riječ, ne \"password\" ili \"swordfish\""
+    "sql": "Nikad SELECT * u produkciji — navedi kolone, manji I/O i bolji cache plan",
+    "oracle": "/*+ PARALLEL(t 4) */ paralelno izvršavanje querija na N thread-ova",
+    "regex": "(?:group) non-capturing group: grupiraj bez pamćenja za veće performanse"
   }
 }
