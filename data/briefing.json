@@ -1,15 +1,15 @@
 {
   "version": 2,
-  "date": "2026-11-07",
-  "generated_at": "2026-11-07T11:29:14.211Z",
-  "date_hr": "Subota, 7. studenog 2026.",
+  "date": "2026-11-08",
+  "generated_at": "2026-11-08T06:03:41.195Z",
+  "date_hr": "Nedjelja, 8. studenog 2026.",
   "weather": {
-    "icon": "☁️",
-    "summary": "5–9°C, oblačno",
+    "icon": "🌧️",
+    "summary": "5–8°C, lagana kiša",
     "alerts": []
   },
   "fuel": {
-    "current_date": "07.11.2026",
+    "current_date": "08.11.2026",
     "eurodiesel": [
       {
         "company": "Adria Oil",
@@ -63,46 +63,36 @@
     "upcoming_premium": null
   },
   "market": {
-    "updated_at": "2026-11-07T11:29:14.211Z",
-    "btc_usd": 75890,
-    "btc_eur": 68085,
-    "btc_change_24h": -0.19,
-    "usd_eur": 0.8961
+    "updated_at": "2026-11-08T06:03:41.195Z",
+    "btc_usd": 75738,
+    "btc_eur": 67948,
+    "btc_change_24h": -0.3,
+    "usd_eur": 0.8958
   },
   "ai_news": [
     {
-      "title": "OpenAI valued at $1.25 trillion, as rival Anthropic nears its IPO",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1029380/openai-1-25-trillion-investment-valuation",
+      "title": "Anthropic reportedly must face claims its Claude Max ads misled users",
+      "link": "https://thenextweb.com/news/anthropic-claude-max-lawsuit-ruling-usage-claims",
+      "source": "The Next Web"
+    },
+    {
+      "title": "Why a new report on Anthropic automating AI development is alarming researchers",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1029126/anthropic-metr-report-accelerating-ai-development",
       "source": "The Verge"
     },
     {
-      "title": "OpenAI reportedly raises an additional $11 billion at a $1.25 trillion valuation",
-      "link": "https://techcrunch.com/2026/11/06/openai-reportedly-raises-an-additional-11-billion-at-a-1-25-trillion-valuation/",
-      "source": "TechCrunch AI"
-    },
-    {
-      "title": "Chainalysis says hackers stole credentials and tokens for all of its customers",
-      "link": "https://arstechnica.com/security/2026/11/chainalysis-says-hackers-stole-credentials-and-tokens-for-all-of-its-customers/",
-      "source": "Ars Technica"
-    },
-    {
-      "title": "Microsoft is winding down its deal to rent AI computing from Oracle",
-      "link": "https://thenextweb.com/news/microsoft-winds-down-oracle-ai-cloud-capacity-deal",
-      "source": "The Next Web"
-    },
-    {
-      "title": "Musk says government work will be under 10% of SpaceX revenue",
-      "link": "https://thenextweb.com/news/spacex-government-revenue-under-10-percent-musk-anthropic",
-      "source": "The Next Web"
+      "title": "AI agenti preuzeli kormilo na borbenom avionu Gripen E",
+      "link": "https://www.bug.hr/avijacija/ai-agenti-preuzeli-kormilo-na-borbenom-avionu-gripen-e-64145",
+      "source": "Bug.hr"
     }
   ],
   "micro_tips": {
     "vscode": {
-      "tip": "Obriši cijelu liniju odjednom",
-      "keys": "Ctrl+Shift+K"
+      "tip": "Otvori datoteku brzim pretraživanjem",
+      "keys": "Ctrl+P"
     },
-    "sql": "Nikad SELECT * u produkciji — navedi kolone, manji I/O i bolji cache plan",
-    "oracle": "/*+ PARALLEL(t 4) */ paralelno izvršavanje querija na N thread-ova",
-    "regex": "(?:group) non-capturing group: grupiraj bez pamćenja za veće performanse"
+    "sql": "Covering index: uključi sve kolone iz WHERE + SELECT u index pa nema pristupa tablici",
+    "oracle": "/*+ NO_MERGE(v) */ sprječava merging inline viewa s parent queryjem",
+    "regex": "(?=pattern) lookahead: \"iza ovog mora slijediti X\" bez konzumiranja znakova"
   }
 }
