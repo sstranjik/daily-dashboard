@@ -1,9 +1,17 @@
 {
-  "generated_at": "2026-11-08T19:01:22.116Z",
+  "generated_at": "2026-11-08T20:01:15.589Z",
   "stats": {
     "muzika.hr": {
       "ok": true,
       "count": 25
+    },
+    "Tvornica": {
+      "ok": true,
+      "count": 2
+    },
+    "Gavella": {
+      "ok": true,
+      "count": 38
     },
     "Mochvara": {
       "ok": true,
@@ -12,14 +20,6 @@
     "Lisinski": {
       "ok": true,
       "count": 0
-    },
-    "Gavella": {
-      "ok": true,
-      "count": 38
-    },
-    "Tvornica": {
-      "ok": true,
-      "count": 2
     },
     "ZeKaeM": {
       "ok": true,
@@ -47,81 +47,6 @@
     }
   },
   "concerts": [
-    {
-      "id": "026b5d979b",
-      "title": "Fink, Angela Autumn",
-      "venue": "Mochvara",
-      "city": "Zagreb",
-      "country": "HR",
-      "category": "concert",
-      "date_iso": "2026-10-24T19:30:00",
-      "date_display": "sub, 24. 10. 2026.",
-      "time": "19:30",
-      "link": "https://mochvara.hr/event-detail/69ba8afa47421ea21d7901de/",
-      "source": "Mochvara",
-      "is_new": false,
-      "first_seen": "2026-10-18T05:01:21.190Z"
-    },
-    {
-      "id": "829b9c5fd0",
-      "title": "Imperial Concerts by Maestro Terza Tribute to Music of Hans Zimmer Epic Soundtracks",
-      "venue": "Dioklecijanovi podrumi Dioklecijanova",
-      "city": "Split",
-      "country": "HR",
-      "category": "concert",
-      "date_iso": "2026-10-24T20:00:00",
-      "date_display": "sub, 24. 10. 2026.",
-      "time": "20:00",
-      "link": "https://www.muzika.hr/event/imperial-concerts-by-maestro-terza-tribute-to-music-of-hans-zimmer-epic-soundtracks/",
-      "source": "muzika.hr",
-      "is_new": false,
-      "first_seen": "2026-09-29T09:01:18.852Z"
-    },
-    {
-      "id": "530e337698",
-      "title": "Imperial Concerts by Maestro Terza - Tribute to Music of Hans Zimmer Epic Soundtracks",
-      "venue": "Dioklecijanovi podrumi Dioklecijanova",
-      "city": "Split",
-      "country": "HR",
-      "category": "concert",
-      "date_iso": "2026-10-24T20:00:00",
-      "date_display": "sub, 24. 10. 2026.",
-      "time": "20:00",
-      "link": "https://www.muzika.hr/event/imperial-concerts-by-maestro-terza-tribute-to-music-of-hans-zimmer-epic-soundtracks/",
-      "source": "muzika.hr",
-      "is_new": false,
-      "first_seen": "2026-10-02T12:01:21.576Z"
-    },
-    {
-      "id": "89e38578c5",
-      "title": "Grše",
-      "venue": "Grše Arena Zagreb Lanište bb",
-      "city": "Zagreb",
-      "country": "HR",
-      "category": "concert",
-      "date_iso": "2026-10-24T20:00:00",
-      "date_display": "sub, 24. 10. 2026.",
-      "time": "20:00",
-      "link": "https://www.muzika.hr/event/grse-arena-zagreb-2026/",
-      "source": "muzika.hr",
-      "is_new": false,
-      "first_seen": "2026-10-13T07:01:24.921Z"
-    },
-    {
-      "id": "952831ad32",
-      "title": "Grše u Areni Zagreb",
-      "venue": "Areni Zagreb Arena Zagreb Lanište bb",
-      "city": "Zagreb",
-      "country": "HR",
-      "category": "concert",
-      "date_iso": "2026-10-24T20:00:00",
-      "date_display": "sub, 24. 10. 2026.",
-      "time": "20:00",
-      "link": "https://www.muzika.hr/event/grse-arena-zagreb-2026/",
-      "source": "muzika.hr",
-      "is_new": false,
-      "first_seen": "2026-10-19T10:01:31.775Z"
-    },
     {
       "id": "b1219b1008",
       "title": "KVART na brzaka: Podočnjaci x Giogio i Smoks x Toni Sky",
