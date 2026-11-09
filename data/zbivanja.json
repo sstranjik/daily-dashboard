@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-09T09:01:23.308Z",
+  "generated_at": "2026-11-09T10:01:21.241Z",
   "stats": {
     "muzika.hr": {
       "ok": true,
@@ -13,13 +13,13 @@
       "ok": true,
       "count": 14
     },
-    "Tvornica": {
-      "ok": true,
-      "count": 2
-    },
     "Gavella": {
       "ok": true,
       "count": 38
+    },
+    "Tvornica": {
+      "ok": true,
+      "count": 2
     },
     "ZeKaeM": {
       "ok": true,
@@ -33,13 +33,13 @@
       "ok": true,
       "count": 0
     },
-    "Kerempuh": {
-      "ok": true,
-      "count": 0
-    },
     "HNK Zagreb": {
       "ok": true,
       "count": 102
+    },
+    "Kerempuh": {
+      "ok": true,
+      "count": 0
     },
     "Trešnja": {
       "ok": true,
@@ -1216,6 +1216,21 @@
       "source": "HNK Zagreb",
       "is_new": false,
       "first_seen": "2026-09-15T13:01:12.929Z"
+    },
+    {
+      "id": "6ff5849635",
+      "title": "Još gori u Začaranoj Močvari, dan drugi Ponedjeljak 16.11.2026.",
+      "venue": "Mochvara",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-11-16T00:00:00",
+      "date_display": "pon, 16. 11. 2026.",
+      "time": null,
+      "link": "https://mochvara.hr/event-detail/6af18900004429833c744d2d/",
+      "source": "Mochvara",
+      "is_new": true,
+      "first_seen": "2026-11-09T10:01:21.241Z"
     },
     {
       "id": "0d62ac75ce",
@@ -3380,6 +3395,21 @@
       "first_seen": "2026-08-27T15:01:20.279Z"
     },
     {
+      "id": "25656d9736",
+      "title": "William Shakespeare Richard III. Izvedba u sklopu projekta Beyond Drama uz podršku Turističke zajednice grada Zagreba",
+      "venue": "HNK Zagreb",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "theater",
+      "date_iso": "2026-11-20T19:30:00",
+      "date_display": "pet, 20. 11. 2026.",
+      "time": "19:30",
+      "link": "https://hnk.hr/hr/drama/predstave/richard-iii/#20.11.19.30",
+      "source": "HNK Zagreb",
+      "is_new": true,
+      "first_seen": "2026-11-09T10:01:21.241Z"
+    },
+    {
       "id": "ab40e3b475",
       "title": "Kuća je velika, ne može se ona nosit",
       "venue": "Gavella",
@@ -4282,5 +4312,5 @@
       "first_seen": "2026-10-31T06:01:17.418Z"
     }
   ],
-  "new_count": 2
+  "new_count": 4
 }
