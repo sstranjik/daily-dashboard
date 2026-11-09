@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-09T11:01:27.277Z",
+  "generated_at": "2026-11-09T12:01:23.790Z",
   "stats": {
     "muzika.hr": {
       "ok": true,
@@ -9,13 +9,13 @@
       "ok": true,
       "count": 14
     },
-    "Gavella": {
-      "ok": true,
-      "count": 38
-    },
     "Lisinski": {
       "ok": true,
       "count": 0
+    },
+    "Gavella": {
+      "ok": true,
+      "count": 38
     },
     "Tvornica": {
       "ok": true,
@@ -29,15 +29,15 @@
       "ok": true,
       "count": 0
     },
-    "Pogon": {
+    "Kerempuh": {
       "ok": true,
       "count": 0
     },
     "HNK Zagreb": {
       "ok": true,
-      "count": 102
+      "count": 104
     },
-    "Kerempuh": {
+    "Pogon": {
       "ok": true,
       "count": 0
     },
@@ -47,21 +47,6 @@
     }
   },
   "concerts": [
-    {
-      "id": "60b2e15e6b",
-      "title": "72. Močvarin sajam ploča i stripova",
-      "venue": "Mochvara",
-      "city": "Zagreb",
-      "country": "HR",
-      "category": "concert",
-      "date_iso": "2026-10-25T12:00:00",
-      "date_display": "ned, 25. 10. 2026.",
-      "time": "12:00",
-      "link": "https://mochvara.hr/event-detail/6ac7668d5c14c721fa3bf529/",
-      "source": "Mochvara",
-      "is_new": false,
-      "first_seen": "2026-10-18T20:01:24.791Z"
-    },
     {
       "id": "ea26b151b3",
       "title": "Povodom Svjetskog dana opere Razgled kazališta Besplatne ulaznice mogu se podići na blagajni u 13:30",
@@ -3680,6 +3665,21 @@
       "first_seen": "2026-10-20T10:31:32.662Z"
     },
     {
+      "id": "5eca437ea6",
+      "title": "Ronald Harwood Na čijoj strani",
+      "venue": "HNK Zagreb",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "theater",
+      "date_iso": "2026-12-04T19:30:00",
+      "date_display": "pet, 04. 12. 2026.",
+      "time": "19:30",
+      "link": "https://hnk.hr/hr/drama/predstave/na-%C4%8Dijoj-strani/#04.12.19.30",
+      "source": "HNK Zagreb",
+      "is_new": true,
+      "first_seen": "2026-11-09T12:01:23.790Z"
+    },
+    {
       "id": "c1c49c4ac6",
       "title": "Sigurna kuća",
       "venue": "Gavella",
@@ -3693,6 +3693,21 @@
       "source": "Gavella",
       "is_new": false,
       "first_seen": "2026-10-20T10:31:32.662Z"
+    },
+    {
+      "id": "00ec302721",
+      "title": "Ronald Harwood Na čijoj strani",
+      "venue": "HNK Zagreb",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "theater",
+      "date_iso": "2026-12-05T19:30:00",
+      "date_display": "sub, 05. 12. 2026.",
+      "time": "19:30",
+      "link": "https://hnk.hr/hr/drama/predstave/na-%C4%8Dijoj-strani/#05.12.19.30",
+      "source": "HNK Zagreb",
+      "is_new": true,
+      "first_seen": "2026-11-09T12:01:23.790Z"
     },
     {
       "id": "ed674e718f",
@@ -4297,5 +4312,5 @@
       "first_seen": "2026-10-31T06:01:17.418Z"
     }
   ],
-  "new_count": 2
+  "new_count": 4
 }
