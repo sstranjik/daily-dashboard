@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-11-09T21:01:25.751Z",
+  "generated_at": "2026-11-09T23:37:38.909Z",
   "stats": {
     "Mochvara": {
       "ok": true,
-      "count": 14
+      "count": 13
     },
     "Lisinski": {
       "ok": true,
@@ -17,13 +17,13 @@
       "ok": true,
       "count": 2
     },
-    "ZeKaeM": {
-      "ok": true,
-      "count": 1
-    },
     "muzika.hr": {
       "ok": true,
       "count": 25
+    },
+    "ZeKaeM": {
+      "ok": true,
+      "count": 1
     },
     "Komedija": {
       "ok": true,
@@ -1038,6 +1038,21 @@
       "first_seen": "2026-10-18T11:01:27.358Z"
     },
     {
+      "id": "d5d17bbcb3",
+      "title": "Majmuniranje – indie party",
+      "venue": "Mochvara",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-11-13T23:00:00",
+      "date_display": "pet, 13. 11. 2026.",
+      "time": "23:00",
+      "link": "https://mochvara.hr/event-detail/6af0a60f5b67d31433d22702/",
+      "source": "Mochvara",
+      "is_new": true,
+      "first_seen": "2026-11-09T23:37:38.909Z"
+    },
+    {
       "id": "751ec2610f",
       "title": "Razgled kazališta 166 sezona iza kulisa – kombinirani razgled HNK-a i HNK2",
       "venue": "HNK Zagreb",
@@ -1771,6 +1786,21 @@
       "source": "muzika.hr",
       "is_new": false,
       "first_seen": "2026-11-08T06:01:19.614Z"
+    },
+    {
+      "id": "0969ac55f0",
+      "title": "Soul Legacy",
+      "venue": "Lora Poljudsko šetalište bb",
+      "city": "Split",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-11-29T00:00:00",
+      "date_display": "ned, 29. 11. 2026.",
+      "time": null,
+      "link": "https://www.muzika.hr/event/soul-legacy-3/",
+      "source": "muzika.hr",
+      "is_new": true,
+      "first_seen": "2026-11-09T23:37:38.909Z"
     },
     {
       "id": "0d7d7c2844",
@@ -4222,5 +4252,5 @@
       "first_seen": "2026-10-31T06:01:17.418Z"
     }
   ],
-  "new_count": 3
+  "new_count": 5
 }
