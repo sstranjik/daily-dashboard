@@ -1,35 +1,35 @@
 {
-  "generated_at": "2026-11-09T13:01:24.457Z",
+  "generated_at": "2026-11-09T13:32:28.113Z",
   "stats": {
-    "Lisinski": {
-      "ok": true,
-      "count": 0
-    },
     "Mochvara": {
       "ok": true,
       "count": 14
-    },
-    "Gavella": {
-      "ok": true,
-      "count": 38
-    },
-    "Tvornica": {
-      "ok": true,
-      "count": 2
     },
     "muzika.hr": {
       "ok": true,
       "count": 25
     },
+    "Lisinski": {
+      "ok": true,
+      "count": 0
+    },
+    "Tvornica": {
+      "ok": true,
+      "count": 2
+    },
+    "Gavella": {
+      "ok": true,
+      "count": 38
+    },
     "ZeKaeM": {
       "ok": true,
       "count": 1
     },
-    "Pogon": {
+    "Komedija": {
       "ok": true,
       "count": 0
     },
-    "Komedija": {
+    "Pogon": {
       "ok": true,
       "count": 0
     },
@@ -42,56 +42,11 @@
       "count": 0
     },
     "Trešnja": {
-      "ok": false,
-      "error": "The operation was aborted due to timeout"
+      "ok": true,
+      "count": 0
     }
   },
   "concerts": [
-    {
-      "id": "ea26b151b3",
-      "title": "Povodom Svjetskog dana opere Razgled kazališta Besplatne ulaznice mogu se podići na blagajni u 13:30",
-      "venue": "HNK Zagreb",
-      "city": "Zagreb",
-      "country": "HR",
-      "category": "concert",
-      "date_iso": "2026-10-25T13:30:00",
-      "date_display": "ned, 25. 10. 2026.",
-      "time": "13:30",
-      "link": "https://hnk.hr/hr/informacije/posebni-programi/razgled-kazalista-informacije/#25.10.13.30",
-      "source": "HNK Zagreb",
-      "is_new": false,
-      "first_seen": "2026-10-20T14:01:25.997Z"
-    },
-    {
-      "id": "cc1536b5a4",
-      "title": "Povodom Svjetskog dana opere Razgled kazališta Ulaz je besplatan uz predočenje ulaznice. Besplatne ulaznice mogu se preuzeti na blagajni kazališta od",
-      "venue": "HNK Zagreb",
-      "city": "Zagreb",
-      "country": "HR",
-      "category": "concert",
-      "date_iso": "2026-10-25T13:30:00",
-      "date_display": "ned, 25. 10. 2026.",
-      "time": "13:30",
-      "link": "https://hnk.hr/hr/informacije/posebni-programi/razgled-kazalista-informacije/#25.10.13.30",
-      "source": "HNK Zagreb",
-      "is_new": true,
-      "first_seen": "2026-10-21T09:01:25.515Z"
-    },
-    {
-      "id": "74f6276d4d",
-      "title": "Posebni razgled povodom Svjetskog dana opere Ulaz je besplatan uz predočenje ulaznice. Besplatne ulaznice mogu se preuzeti na blagajni kazališta od 21",
-      "venue": "HNK Zagreb",
-      "city": "Zagreb",
-      "country": "HR",
-      "category": "concert",
-      "date_iso": "2026-10-25T13:30:00",
-      "date_display": "ned, 25. 10. 2026.",
-      "time": "13:30",
-      "link": "https://hnk.hr/hr/ostalo/predstave/posebni-razgled-povodom-svjetskog-dana-opere/#25.10.13.30",
-      "source": "HNK Zagreb",
-      "is_new": false,
-      "first_seen": "2026-10-21T09:46:51.833Z"
-    },
     {
       "id": "0e7b9e88b6",
       "title": "Gioachino Rossini / Dmitrij Šostakovič — Mauro Bigonzetti ROSSINI CARDS / KAZIMIR’S COLOURS Gostovanje u SNG-u Opera in Balet Ljubljana",
@@ -4312,5 +4267,5 @@
       "first_seen": "2026-10-31T06:01:17.418Z"
     }
   ],
-  "new_count": 4
+  "new_count": 3
 }
