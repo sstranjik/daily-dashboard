@@ -1,13 +1,9 @@
 {
-  "generated_at": "2026-11-09T10:01:21.241Z",
+  "generated_at": "2026-11-09T11:01:27.277Z",
   "stats": {
     "muzika.hr": {
       "ok": true,
       "count": 25
-    },
-    "Lisinski": {
-      "ok": true,
-      "count": 0
     },
     "Mochvara": {
       "ok": true,
@@ -16,6 +12,10 @@
     "Gavella": {
       "ok": true,
       "count": 38
+    },
+    "Lisinski": {
+      "ok": true,
+      "count": 0
     },
     "Tvornica": {
       "ok": true,
@@ -47,21 +47,6 @@
     }
   },
   "concerts": [
-    {
-      "id": "ccb38d98cd",
-      "title": "Predstavljanje monografije Davor Schopf: „Branka Stilinović, zlatni glas zagrebačke Opere” – uz 100. obljetnicu rođenja, 24. listopada 1926. – 24. lis",
-      "venue": "HNK Zagreb",
-      "city": "Zagreb",
-      "country": "HR",
-      "category": "concert",
-      "date_iso": "2026-10-25T11:00:00",
-      "date_display": "ned, 25. 10. 2026.",
-      "time": "11:00",
-      "link": "https://hnk.hr/hr/opera/predstave/davor-schopf-branka-stilinovic-zlatni-glas-zagrebacke-opere-uz-100-obljetnicu-ro%C4%91enja-24-listopada-1926-24-listopada-2026/#25.10.11.00",
-      "source": "HNK Zagreb",
-      "is_new": false,
-      "first_seen": "2026-10-07T11:01:20.198Z"
-    },
     {
       "id": "60b2e15e6b",
       "title": "72. Močvarin sajam ploča i stripova",
@@ -1229,7 +1214,7 @@
       "time": null,
       "link": "https://mochvara.hr/event-detail/6af18900004429833c744d2d/",
       "source": "Mochvara",
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-09T10:01:21.241Z"
     },
     {
@@ -3406,7 +3391,7 @@
       "time": "19:30",
       "link": "https://hnk.hr/hr/drama/predstave/richard-iii/#20.11.19.30",
       "source": "HNK Zagreb",
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-09T10:01:21.241Z"
     },
     {
@@ -4312,5 +4297,5 @@
       "first_seen": "2026-10-31T06:01:17.418Z"
     }
   ],
-  "new_count": 4
+  "new_count": 2
 }
