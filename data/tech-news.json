@@ -1,9 +1,93 @@
 {
-  "last_updated": "2026-11-09T18:01:32.012Z",
+  "last_updated": "2026-11-09T19:01:20.604Z",
   "source_count": 11,
   "items": [
     {
+      "id": "the-next-web-0",
+      "title": "Apple’s CEO presses Federighi to speed up AI, Bloomberg reports",
+      "summary": "Apple chief executive John Ternus has pushed software chief Craig Federighi to speed up Apple’s AI plans, Mark Gurman reported for Bloomberg on Sunday. Ternus wants Apple to move beyond improving Siri. According to the report, he held a closed-door meeting with Federighi in recent weeks. Ternus is f",
+      "link": "https://thenextweb.com/news/ternus-federighi-agentic-siri-apple-ai-bloomberg",
+      "published": "2026-11-09T18:43:58.000Z",
+      "source": "The Next Web",
+      "category": "ai",
+      "xml_category": "apple",
+      "tags": [],
+      "image": "https://media.thenextweb.com/2026/10/john-ternus-fans-selfie-apple-store.avif"
+    },
+    {
+      "id": "the-next-web-1",
+      "title": "Google lets developers add Maps to AI Studio apps for free",
+      "summary": "Google AI Studio can now set up Google Maps Platform for apps built by prompting Gemini, with a free demo key allowing 100 calls a day per API. Production apps still need a paid Cloud billing account, but the same key and code keep working. Developers can now add Google Maps to apps they build [&hel",
+      "link": "https://thenextweb.com/news/google-maps-platform-ai-studio-demo-key",
+      "published": "2026-11-09T18:40:29.000Z",
+      "source": "The Next Web",
+      "category": "ai",
+      "xml_category": "artificial intelligence",
+      "tags": [],
+      "image": "https://media.thenextweb.com/2026/11/google-maps-pin-badge-local-guides.avif"
+    },
+    {
+      "id": "the-verge-0",
+      "title": "You can grab three months of Game Pass Ultimate for under $20 per month",
+      "summary": "The price of Xbox Game Pass Ultimate has fluctuated between $20 and $30 per month over the last year, but you can get three months of the top plan for around $19 per month. At Newegg, using the coupon code BNWF2656 at checkout knocks $11 off the usual cost of a three-month subscription. That brings ",
+      "link": "https://www.theverge.com/gadgets/1029998/game-pass-ultimate-three-months-lego-pokemon-pikachu-deal-sale",
+      "published": "2026-11-09T18:35:25.000Z",
+      "source": "The Verge",
+      "category": "general",
+      "xml_category": "[object object]",
+      "tags": [],
+      "image": null
+    },
+    {
+      "id": "zdnet-0",
+      "title": "AMD confirms GPU driver bug is wearing out your SSD – how to stop it",
+      "summary": "AMD has admitted a bug within its External Events Utility is wearing out SSDs, and promises a fix.",
+      "link": "https://www.zdnet.com/tech/amd-confirms-gpu-driver-bug-is-wearing-out-your-ssd-how-to-stop-it/",
+      "published": "2026-11-09T18:30:49.000Z",
+      "source": "ZDNet",
+      "category": "general",
+      "xml_category": "[object object]",
+      "tags": [],
+      "image": "https://www.zdnet.com/wp-content/uploads/sites/3/amd33-2259262667.jpg"
+    },
+    {
+      "id": "the-next-web-2",
+      "title": "Nominal raises $240M at $3B, tripling its value since March",
+      "summary": "Nominal, whose software helps engineers test and analyse hardware such as aircraft, satellites and robots, has raised $240M in a Series C round at a $3B valuation. Lightspeed Venture Partners led the round and Insight Partners co-led it, Nominal announced on Monday. That is triple its valuation in M",
+      "link": "https://thenextweb.com/news/nominal-series-c-240m-3b-valuation-hardware-ai",
+      "published": "2026-11-09T18:26:02.000Z",
+      "source": "The Next Web",
+      "category": "ai",
+      "xml_category": "investors and funding",
+      "tags": [],
+      "image": "https://media.thenextweb.com/2026/11/nominal-cofounders-hoch-mccord-strauss-ivy-wall.avif"
+    },
+    {
       "id": "techcrunch-ai-0",
+      "title": "Jensen Huang’s affair with alleged Chinese spy puts Nvidia’s China ambitions under scrutiny",
+      "summary": "Jensen Huang’s alleged affair with a suspected Chinese spy threatens to complicate Nvidia’s lobbying efforts to loosen U.S. chip export restrictions and maintain access to China’s lucrative AI market.",
+      "link": "https://techcrunch.com/2026/11/09/jensen-huangs-affair-with-alleged-chinese-spy-puts-nvidias-china-ambitions-under-scrutiny/",
+      "published": "2026-11-09T18:09:52.000Z",
+      "source": "TechCrunch AI",
+      "category": "ai",
+      "xml_category": "ai",
+      "tags": [],
+      "image": null
+    },
+    {
+      "id": "the-verge-1",
+      "title": "Instagram’s Effect Builder makes new filters from AI prompts",
+      "summary": "After expanding its Edits app to macOS last week, Instagram's next move is launching this Effect Builder that generates custom filters for your Stories posts with AI. Available now for US residents who are over 18, it has a prompt box for describing your filter idea to the chatbot, with an option to",
+      "link": "https://www.theverge.com/tech/1030061/instagram-ai-effect-builder-filters",
+      "published": "2026-11-09T18:07:23.000Z",
+      "source": "The Verge",
+      "category": "ai",
+      "xml_category": "[object object]",
+      "tags": [],
+      "image": null
+    },
+    {
+      "id": "techcrunch-ai-1",
       "title": "Meta releases Muse Ember, a new lightweight model for agent execution",
       "summary": "At 10 cents per million input tokens, Ember is significantly cheaper than frontier competitors like Haiku and Luna.",
       "link": "https://techcrunch.com/2026/11/09/meta-releases-muse-ember-a-new-lightweight-model-for-agent-execution/",
@@ -15,7 +99,19 @@
       "image": null
     },
     {
-      "id": "the-next-web-0",
+      "id": "zdnet-1",
+      "title": "Ready for a Siri AI agent? Apple under pressure to upgrade its assistant faster",
+      "summary": "Apple’s public-facing satisfaction with the Siri AI launch obscures internal pressures and tensions.",
+      "link": "https://www.zdnet.com/home-and-office/apple-siri-ai-agentic-strategy/",
+      "published": "2026-11-09T17:54:25.000Z",
+      "source": "ZDNet",
+      "category": "ai",
+      "xml_category": "[object object]",
+      "tags": [],
+      "image": "https://www.zdnet.com/wp-content/uploads/sites/3/GettyImages-2255802594.jpg"
+    },
+    {
+      "id": "the-next-web-3",
       "title": "Adobe becomes Disney’s AI partner to build models on its characters",
       "summary": "Adobe is now Disney’s “Official AI Innovation Partner” under a multi-year deal to build custom AI models trained on Disney’s characters, settings and styles. It extends work with Walt Disney Imagineering to Disney’s studio and ESPN. No financial terms were disclosed. Adobe has become Disney’s “Offic",
       "link": "https://thenextweb.com/news/adobe-disney-ai-alliance-firefly-foundry",
@@ -25,6 +121,18 @@
       "xml_category": "artificial intelligence",
       "tags": [],
       "image": "https://media.thenextweb.com/2026/11/walt-disney-studios-burbank-entrance-arch.avif"
+    },
+    {
+      "id": "zdnet-2",
+      "title": "Android Auto requires Android 11 or higher now – check your compatibility",
+      "summary": "Android Auto’s minimum requirements have changed. Here’s what to know.",
+      "link": "https://www.zdnet.com/tech/android-auto-new-requirements-android-11/",
+      "published": "2026-11-09T17:46:42.000Z",
+      "source": "ZDNet",
+      "category": "general",
+      "xml_category": "[object object]",
+      "tags": [],
+      "image": "https://www.zdnet.com/wp-content/uploads/sites/3/dsc09984_b07081.jpg"
     },
     {
       "id": "zdnet-0",
@@ -39,7 +147,7 @@
       "image": "https://www.zdnet.com/wp-content/uploads/sites/3/dsc09984_b07081.jpg"
     },
     {
-      "id": "zdnet-1",
+      "id": "zdnet-3",
       "title": "Samsung’s new SmartTag 3 debuts with next-gen Bluetooth – and one big problem",
       "summary": "The Galaxy SmartTag 3 supports emerging Bluetooth tracking tech, but it’s not a match for Samsung’s OS exclusivity.",
       "link": "https://www.zdnet.com/tech/samsung-smart-tag-3-channel-sounding/",
@@ -51,7 +159,7 @@
       "image": "https://www.zdnet.com/wp-content/uploads/sites/3/smarttag_4ee251.jpg"
     },
     {
-      "id": "the-verge-0",
+      "id": "the-verge-2",
       "title": "James Gunn is out as DC movie leader",
       "summary": "Soon, James Gunn and Peter Safran will no longer head up Skydance's DC Studios. After taking the helm of DC Studios as co-CEOs in 2022, Gunn and Safran are being replaced by former Marvel SVP of Production and Development Jeremy Latcham, Deadline reports. However, Gunn and Safran will \"continue to p",
       "link": "https://www.theverge.com/entertainment/1030022/james-gunn-peter-safran-dc-studios-out-leaving",
@@ -63,7 +171,7 @@
       "image": null
     },
     {
-      "id": "the-verge-1",
+      "id": "the-verge-3",
       "title": "The future of AI hinges on… Jensen Huang’s sex life?",
       "summary": "I would prefer that these people's sex lives were none of my business but I guess we have to talk about Jensen Huang and the National Security Incident. Who could have guessed that the guy who was out here signing titties might not have great judgment about how to behave around women? Alice Huang - ",
       "link": "https://www.theverge.com/ai-artificial-intelligence/1029990/jensen-huang-the-spy-who-loved-me",
@@ -75,7 +183,7 @@
       "image": null
     },
     {
-      "id": "the-next-web-1",
+      "id": "the-next-web-4",
       "title": "Uber adds parking reservations to its app, with robotaxis in mind",
       "summary": "Uber launched parking reservations in 15 US cities, using the network of SpotHero, which it agreed to buy in February. The feature targets commuters, but Uber says parking spots near riders could also cut costs for robotaxi fleets on its platform. Uber now lets people reserve parking spots in its ap",
       "link": "https://thenextweb.com/news/uber-parking-reservations-spothero-robotaxis",
@@ -87,7 +195,7 @@
       "image": "https://media.thenextweb.com/2026/11/uber-app-logo-smartphone-hand.avif"
     },
     {
-      "id": "the-verge-2",
+      "id": "the-verge-4",
       "title": "Uber wants to park your car now, too",
       "summary": "Uber announced the launch of Uber Parking, a native in-app reservation feature that allows drivers to find, book, and pay for garage and lot spaces ahead of time. The new feature is a result of Uber's recent acquisition of SpotHero, integrating a network of over 13,000 facilities across more than 40",
       "link": "https://www.theverge.com/transportation/1029776/uber-parking-launch-spothero-robotaxis",
@@ -111,7 +219,7 @@
       "image": "https://www.bug.hr/img/rana-black-friday-ponuda-na-godeal24-office-2024-pro-plus-2211--windows-11_99ZjYr.jpg"
     },
     {
-      "id": "techcrunch-ai-1",
+      "id": "techcrunch-ai-2",
       "title": "Anthropic joins AI’s natural gas frenzy, buys $3.4B worth of turbines",
       "summary": "Anthropic bought billions of dollars worth of natural gas turbines in a deal that could give it buyer's remorse.",
       "link": "https://techcrunch.com/2026/11/09/anthropic-joins-ais-natural-gas-frenzy-buys-3-4b-worth-of-turbines/",
@@ -123,7 +231,7 @@
       "image": null
     },
     {
-      "id": "zdnet-2",
+      "id": "zdnet-4",
       "title": "Samsung mulls Galaxy AI usage limits and subscription tiers – what we know",
       "summary": "Galaxy device owners who are heavy AI users would likely start paying for some features they’ve long enjoyed for free.",
       "link": "https://www.zdnet.com/innovation/samsung-galaxy-ai-paid-subscription/",
@@ -135,7 +243,7 @@
       "image": "https://www.zdnet.com/wp-content/uploads/sites/3/fe11a80b-0164-4255-bb82-12df7762a950.jpg"
     },
     {
-      "id": "the-next-web-3",
+      "id": "the-next-web-6",
       "title": "Wayve will train its self-driving AI on CoreWeave’s cloud",
       "summary": "London self-driving startup Wayve will train, test and simulate its AI Driver on CoreWeave’s Nvidia Blackwell cloud under a multi-year deal. Terms were not disclosed. CoreWeave shares fell about 3% before the market opened. Wayve, the London startup building self-driving software, will train its AI ",
       "link": "https://thenextweb.com/news/wayve-coreweave-ai-driver-training-deal",
@@ -147,7 +255,7 @@
       "image": "https://media.thenextweb.com/2026/10/ai-microchip-green-pastel-reflective-surface.avif"
     },
     {
-      "id": "the-next-web-4",
+      "id": "the-next-web-7",
       "title": "Meta expands AI age checks to move more Instagram teens into Teen Accounts",
       "summary": "Meta is expanding its AI age-detection technology to Instagram users worldwide, aiming to identify more teenage accounts and automatically place them under its Teen Account protections, even when users have registered as adults. The technology looks for signs that an account belongs to someone under",
       "link": "https://thenextweb.com/news/meta-instagram-ai-age-estimation-global",
@@ -159,7 +267,7 @@
       "image": "https://media.thenextweb.com/2026/10/meta-logo-terracotta-tile-wall-arch.avif"
     },
     {
-      "id": "the-next-web-5",
+      "id": "the-next-web-8",
       "title": "Honda will spend $3B on a new Ohio car plant built around hybrids",
       "summary": "Honda will invest $3B in a new Ohio assembly plant, its first new US vehicle plant since 2008, opening in 2029 with capacity for 240,000 mostly hybrid vehicles a year. It follows Honda’s retreat from EVs and a wider push to build cars in the US to avoid tariffs. Honda will spend $3B on a [&hellip;] ",
       "link": "https://thenextweb.com/news/honda-3b-ohio-hybrid-assembly-plant",
@@ -171,7 +279,7 @@
       "image": "https://media.thenextweb.com/2026/11/honda-logo-smartphone-wooden-table.avif"
     },
     {
-      "id": "the-verge-3",
+      "id": "the-verge-5",
       "title": "Sony’s new PlayStation Portal handheld includes ‘additional’ internal storage",
       "summary": "Sony is launching a new version of its PlayStation Portal exclusively in Japan next month. The updated model will launch in the midnight black color option we've seen before, and will include \"additional\" internal storage for future-looking features. It's the additional internal storage that's the s",
       "link": "https://www.theverge.com/news/1029822/sony-playstation-portal-japan-model-additional-storage",
@@ -183,7 +291,7 @@
       "image": null
     },
     {
-      "id": "techcrunch-ai-2",
+      "id": "techcrunch-ai-3",
       "title": "Medium&#8217;s new TK app brings AI assistance directly into the writing process",
       "summary": "Medium's new writing app embraces AI-assisted writing, despite growing controversy over the technology's role in publishing.",
       "link": "https://techcrunch.com/2026/11/09/mediums-new-tk-app-brings-ai-assistance-directly-into-the-writing-process/",
@@ -195,7 +303,7 @@
       "image": null
     },
     {
-      "id": "the-next-web-6",
+      "id": "the-next-web-9",
       "title": "Exclusive: Skyfall AI launches Steve-001 to run 3 businesses it acquired",
       "summary": "During a routine website update at one of Skyfall AI’s businesses, two software agents got stuck passing the same task back and forth. A growth agent assigned the deployment to an engineering agent, which sent it straight back. The cycle continued because neither agent took responsibility, and one d",
       "link": "https://thenextweb.com/news/skyfall-ai-steve-001-autonomous-business",
@@ -219,7 +327,7 @@
       "image": "https://www.bug.hr/img/ternus-tjera-federighija-i-pita-sto-i-ostali-svijet-kad-ce-siri-napokon-postati_9ABrjC.jpg"
     },
     {
-      "id": "the-verge-4",
+      "id": "the-verge-6",
       "title": "Trump’s 60 Minutes interview touched on AI safety, threat to arrest an AI exec",
       "summary": "Asked about AI executives' warnings about their models' safety on 60 Minutes, Trump said, \"I think that the risk is not nearly as real as it- as they talk, and I think the risk can be managed, and it's managed.\" He claimed the DOJ is managing that risk, saying, \"We had a situation where somebody [&#",
       "link": "https://www.theverge.com/ai-artificial-intelligence/1029802/trump-60-minutes-ai",
@@ -243,7 +351,7 @@
       "image": "https://media.thenextweb.com/2026/11/skyways-skyreach-autonomous-cargo-drone-render.avif"
     },
     {
-      "id": "the-verge-5",
+      "id": "the-verge-7",
       "title": "Disney and Adobe are building generative AI tools together",
       "summary": "The Walt Disney Company has teamed up with Adobe to develop proprietary \"artist-led\" generative AI models to support Disney's production pipeline. The multiyear partnership was announced today at Adobe's MAX conference, and it will see Adobe providing Disney with early access to its latest technolog",
       "link": "https://www.theverge.com/tech/1029773/disney-adobe-generative-ai-partnership",
@@ -267,7 +375,7 @@
       "image": "https://media.thenextweb.com/2026/10/nvidia-logo-3d-green-glass-icon-dark-background.avif"
     },
     {
-      "id": "the-verge-6",
+      "id": "the-verge-8",
       "title": "Hold up — I had a great time talking to the RIAA guy",
       "summary": "Today, I’m talking with Mitch Glazier, who is CEO and chairman of the RIAA. This conversation was a real full-circle moment for me: I was in college when Napster hit, and the RIAA became everyone’s villain for suing kids for downloading music. That was when I decided to go be a copyright lawyer, whi",
       "link": "https://www.theverge.com/podcast/1029684/riaa-mitch-glazier-napster-ai-labels-music",
@@ -315,7 +423,7 @@
       "image": "https://www.bug.hr/img/poznato-je-kada-samsungove-galaxy-buds-on-slusalice-stizu-u-europu_0cbYi5.jpg"
     },
     {
-      "id": "the-verge-7",
+      "id": "the-verge-9",
       "title": "Medium is launching a new note-taking app called TK",
       "summary": "For the first time ever, Medium is becoming more than just a blogging platform. The company is launching a new app, called TK, that combines note taking and journaling with something resembling a private social network. The app is meant to get you writing more, and help you share that writing with f",
       "link": "https://www.theverge.com/tech/1029676/medium-tk-notes-app",
@@ -411,7 +519,7 @@
       "image": null
     },
     {
-      "id": "the-next-web-2",
+      "id": "the-next-web-5",
       "title": "Google unveils TPU 8tx and 8i Max chips for secure and long-context AI",
       "summary": "Google has introduced two new versions of its in-house AI chips, known as tensor processing units (TPUs). The TPU 8tx is designed for running AI workloads on sensitive data, while the TPU 8i Max targets large-scale applications that need more computing power and memory. The launch brings Google’s ei",
       "link": "https://thenextweb.com/news/google-reportedly-adds-two-tpu-variants",
@@ -495,7 +603,7 @@
       "image": "https://media.thenextweb.com/2026/10/apple-store-nanjing-illuminated-logo-night.avif"
     },
     {
-      "id": "techcrunch-ai-3",
+      "id": "techcrunch-ai-4",
       "title": "Automattic debuts a platform to deploy vibe-coding apps amid a changing internet",
       "summary": "Automattic aims to compete with the likes of Lovable with Spacefast.",
       "link": "https://techcrunch.com/2026/11/09/automattic-debuts-a-platform-to-deploy-vibe-coding-apps-amid-a-changing-internet/",
@@ -903,7 +1011,7 @@
       "image": "https://www.bug.hr/img/na-kineskoj-svemirskoj-postaji-tiangong-zabiljezena-najniza-temperatura-ikad_OgNyns.jpg"
     },
     {
-      "id": "techcrunch-ai-4",
+      "id": "techcrunch-ai-5",
       "title": "Is Jensen Huang’s job on the line? Yale’s Jeffrey Sonnenfeld estimates it’s &#8216;about a 50-50&#8217;",
       "summary": "Nvidia’s board is investigating Jensen Huang over his relationship with a suspected Chinese spy, and Yale’s Jeffrey Sonnenfeld thinks it’s roughly a coin flip whether Huang stays on as CEO.",
       "link": "https://techcrunch.com/2026/11/08/is-jensen-huangs-job-on-the-line-yales-jeffrey-sonnenfeld-estimates-its-about-a-50-50/",
@@ -1035,7 +1143,7 @@
       "image": null
     },
     {
-      "id": "techcrunch-ai-5",
+      "id": "techcrunch-ai-6",
       "title": "Nvidia will investigate CEO Jensen Huang’s relationship with possible Chinese spy",
       "summary": "In a memo to the company, Huang admitted that he had an affair.",
       "link": "https://techcrunch.com/2026/11/08/nvidia-says-its-investigating-ceo-jensen-huangs-relationship-with-possible-chinese-spy/",
