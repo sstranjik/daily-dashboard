@@ -1,16 +1,20 @@
 {
   "version": 2,
   "date": "2026-11-10",
-  "generated_at": "2026-11-10T06:03:29.069Z",
+  "generated_at": "2026-11-10T13:13:28.709Z",
   "date_hr": "Utorak, 10. studenog 2026.",
   "weather": {
     "icon": "🌧️",
-    "summary": "9–15°C, lagana kiša",
+    "summary": "9–13°C, lagana kiša · 2.5 mm",
     "alerts": []
   },
   "fuel": {
     "current_date": "10.11.2026",
     "eurodiesel": [
+      {
+        "company": "Adria Oil",
+        "price": 1.85
+      },
       {
         "company": "Coral Croatia",
         "price": 1.85
@@ -30,10 +34,6 @@
       {
         "company": "Tifon",
         "price": 1.85
-      },
-      {
-        "company": "Adria Oil",
-        "price": 1.89
       }
     ],
     "premium_eurodiesel": [
@@ -63,16 +63,21 @@
     "upcoming_premium": null
   },
   "market": {
-    "updated_at": "2026-11-10T06:03:29.069Z",
-    "btc_usd": 74681,
-    "btc_eur": 66534,
-    "btc_change_24h": 0.33,
+    "updated_at": "2026-11-10T13:13:28.709Z",
+    "btc_usd": 74322,
+    "btc_eur": 66279,
+    "btc_change_24h": -0.5,
     "usd_eur": 0.8924
   },
   "ai_news": [
     {
       "title": "IBM plans to bring Anthropic’s Claude Mythos to enterprise customers",
       "link": "https://thenextweb.com/news/ibm-concert-protect-claude-mythos-vulnerability-scanning",
+      "source": "The Next Web"
+    },
+    {
+      "title": "Australia plans AI safety regulator after OpenAI agent breach",
+      "link": "https://thenextweb.com/news/australia-plans-ai-safety-regulator-after-openai-agent-breach",
       "source": "The Next Web"
     },
     {
@@ -88,11 +93,6 @@
     {
       "title": "Meta’s Muse Ember matches Claude Haiku at a third of the cost per task",
       "link": "https://thenextweb.com/news/meta-muse-ember-small-ai-model-haiku-luna",
-      "source": "The Next Web"
-    },
-    {
-      "title": "Anthropic launches Claude Fable 5.2 and Mythos 5.2, and cuts Fable’s price",
-      "link": "https://thenextweb.com/news/claude-fable-5-2-mythos-5-2-anthropic-launch-price",
       "source": "The Next Web"
     }
   ],
