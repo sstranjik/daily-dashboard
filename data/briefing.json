@@ -1,61 +1,61 @@
 {
   "version": 2,
-  "date": "2026-11-09",
-  "generated_at": "2026-11-09T13:33:42.205Z",
-  "date_hr": "Ponedjeljak, 9. studenog 2026.",
+  "date": "2026-11-10",
+  "generated_at": "2026-11-10T06:03:29.069Z",
+  "date_hr": "Utorak, 10. studenog 2026.",
   "weather": {
-    "icon": "🌦️",
-    "summary": "4–11°C, pljuskovi · 0.6 mm",
+    "icon": "🌧️",
+    "summary": "9–15°C, lagana kiša",
     "alerts": []
   },
   "fuel": {
-    "current_date": "09.11.2026",
+    "current_date": "10.11.2026",
     "eurodiesel": [
       {
-        "company": "Adria Oil",
-        "price": 1.89
-      },
-      {
         "company": "Coral Croatia",
-        "price": 1.89
+        "price": 1.85
       },
       {
         "company": "INA",
-        "price": 1.89
+        "price": 1.85
       },
       {
         "company": "LUKOIL Croatia",
-        "price": 1.89
+        "price": 1.85
       },
       {
         "company": "Petrol",
-        "price": 1.89
+        "price": 1.85
       },
       {
         "company": "Tifon",
+        "price": 1.85
+      },
+      {
+        "company": "Adria Oil",
         "price": 1.89
       }
     ],
     "premium_eurodiesel": [
       {
         "company": "LUKOIL Croatia",
-        "price": 2.05
+        "price": 2.01
       },
       {
         "company": "INA",
-        "price": 2.14
+        "price": 2.08
       },
       {
         "company": "Tifon",
-        "price": 2.17
+        "price": 2.1
       },
       {
         "company": "Petrol",
-        "price": 2.19
+        "price": 2.11
       },
       {
         "company": "Coral Croatia",
-        "price": 2.25
+        "price": 2.21
       }
     ],
     "upcoming_date": null,
@@ -63,46 +63,46 @@
     "upcoming_premium": null
   },
   "market": {
-    "updated_at": "2026-11-09T13:33:42.205Z",
-    "btc_usd": 74702,
-    "btc_eur": 66743,
-    "btc_change_24h": -1.66,
-    "usd_eur": 0.8969
+    "updated_at": "2026-11-10T06:03:29.069Z",
+    "btc_usd": 74681,
+    "btc_eur": 66534,
+    "btc_change_24h": 0.33,
+    "usd_eur": 0.8924
   },
   "ai_news": [
     {
-      "title": "Apple is racing to make Siri more agentic",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1029552/apple-siri-ai-agentic",
-      "source": "The Verge"
-    },
-    {
-      "title": "Chatbots might be coming to Apple’s HomeView",
-      "link": "https://www.theverge.com/tech/1029526/chatbots-might-be-coming-to-apples-homeview",
-      "source": "The Verge"
-    },
-    {
-      "title": "Meet Sola Security: the enterprise security brain behind the agentic era",
-      "link": "https://thenextweb.com/news/sola-security-enterprise-security-brain-ai-agents",
+      "title": "IBM plans to bring Anthropic’s Claude Mythos to enterprise customers",
+      "link": "https://thenextweb.com/news/ibm-concert-protect-claude-mythos-vulnerability-scanning",
       "source": "The Next Web"
     },
     {
-      "title": "Programer napravio skriptu koja Samu Altmanu svakodnevno prijavljuje neiskorišteni RAM",
-      "link": "https://www.bug.hr/softver/programer-napravio-skriptu-koja-samu-altmanu-svakodnevno-prijavljuje-64191",
-      "source": "Bug.hr"
+      "title": "Cisco adds Anthropic’s Claude Mythos to AI Defense for red teaming",
+      "link": "https://thenextweb.com/news/cisco-ai-defense-claude-mythos-red-teaming",
+      "source": "The Next Web"
     },
     {
-      "title": "$1bn start-up Rillet makes London its first European base",
-      "link": "https://thenextweb.com/news/rillet-london-office-uk-europe-expansion",
+      "title": "Vulnerability that lets hackers SSH into Linux devices is under active exploitation",
+      "link": "https://arstechnica.com/security/2026/11/vulnerability-that-lets-hackers-ssh-into-linux-devices-is-under-active-exploitation/",
+      "source": "Ars Technica"
+    },
+    {
+      "title": "Meta’s Muse Ember matches Claude Haiku at a third of the cost per task",
+      "link": "https://thenextweb.com/news/meta-muse-ember-small-ai-model-haiku-luna",
+      "source": "The Next Web"
+    },
+    {
+      "title": "Anthropic launches Claude Fable 5.2 and Mythos 5.2, and cuts Fable’s price",
+      "link": "https://thenextweb.com/news/claude-fable-5-2-mythos-5-2-anthropic-launch-price",
       "source": "The Next Web"
     }
   ],
   "micro_tips": {
     "vscode": {
-      "tip": "Toggle Word Wrap za dugačke linije",
-      "keys": "Alt+Z"
+      "tip": "Nađi i selektiraj sljedeće pojavljivanje",
+      "keys": "Ctrl+D"
     },
-    "sql": "Window funkcije (ROW_NUMBER, LAG, LEAD) umjesto self-join za redosljed i razlike",
-    "oracle": "/*+ RESULT_CACHE */ cache-ira rezultat funkcije u SGA za ponovljene pozive",
-    "regex": ".+? lazy quantifier: stane na prvom mogućem podudaranju, ne zadnjem"
+    "sql": "EXPLAIN ANALYZE prikazuje stvarne vs procijenjene redove — ključno za tuning",
+    "oracle": "CONNECT BY LEVEL <= n generira broj redova bez pomoćne tablice",
+    "regex": "[^\\n]* svaki znak osim newline — dohvati cijelu liniju bez dotall flaga"
   }
 }
