@@ -1,13 +1,9 @@
 {
-  "generated_at": "2026-11-10T19:01:24.145Z",
+  "generated_at": "2026-11-10T20:01:21.582Z",
   "stats": {
     "muzika.hr": {
       "ok": true,
       "count": 25
-    },
-    "Mochvara": {
-      "ok": true,
-      "count": 13
     },
     "Lisinski": {
       "ok": true,
@@ -15,7 +11,15 @@
     },
     "Gavella": {
       "ok": true,
-      "count": 38
+      "count": 37
+    },
+    "Mochvara": {
+      "ok": true,
+      "count": 13
+    },
+    "Tvornica": {
+      "ok": true,
+      "count": 2
     },
     "ZeKaeM": {
       "ok": true,
@@ -25,58 +29,24 @@
       "ok": true,
       "count": 0
     },
-    "Tvornica": {
+    "Pogon": {
       "ok": true,
-      "count": 2
-    },
-    "HNK Zagreb": {
-      "ok": true,
-      "count": 101
+      "count": 0
     },
     "Kerempuh": {
       "ok": true,
       "count": 0
     },
-    "Pogon": {
+    "HNK Zagreb": {
       "ok": true,
-      "count": 0
+      "count": 101
     },
     "Trešnja": {
-      "ok": false,
-      "error": "The operation was aborted due to timeout"
+      "ok": true,
+      "count": 0
     }
   },
   "concerts": [
-    {
-      "id": "63dead28a0",
-      "title": "Georges Bizet Carmen",
-      "venue": "HNK Zagreb",
-      "city": "Zagreb",
-      "country": "HR",
-      "category": "concert",
-      "date_iso": "2026-10-26T19:30:00",
-      "date_display": "pon, 26. 10. 2026.",
-      "time": "19:30",
-      "link": "https://hnk.hr/hr/opera/predstave/carmen1/#26.10.19.30",
-      "source": "HNK Zagreb",
-      "is_new": false,
-      "first_seen": "2026-07-02T15:01:22.773Z"
-    },
-    {
-      "id": "ddf3210775",
-      "title": "KUM – Kazalište u Močvari: Sve što nisam znala reći",
-      "venue": "Mochvara",
-      "city": "Zagreb",
-      "country": "HR",
-      "category": "concert",
-      "date_iso": "2026-10-26T19:30:00",
-      "date_display": "pon, 26. 10. 2026.",
-      "time": "19:30",
-      "link": "https://mochvara.hr/event-detail/6ab651abd02cd1d2eca13567/",
-      "source": "Mochvara",
-      "is_new": false,
-      "first_seen": "2026-10-22T22:49:40.331Z"
-    },
     {
       "id": "d0c9f53ddb",
       "title": "Georges Bizet Carmen",
