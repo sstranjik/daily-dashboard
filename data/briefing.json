@@ -1,15 +1,15 @@
 {
   "version": 2,
-  "date": "2026-11-10",
-  "generated_at": "2026-11-10T13:13:28.709Z",
-  "date_hr": "Utorak, 10. studenog 2026.",
+  "date": "2026-11-11",
+  "generated_at": "2026-11-11T06:03:06.783Z",
+  "date_hr": "Srijeda, 11. studenog 2026.",
   "weather": {
-    "icon": "🌧️",
-    "summary": "9–13°C, lagana kiša · 2.5 mm",
+    "icon": "🌦️",
+    "summary": "9–12°C, pljuskovi · 11.3 mm",
     "alerts": []
   },
   "fuel": {
-    "current_date": "10.11.2026",
+    "current_date": "11.11.2026",
     "eurodiesel": [
       {
         "company": "Adria Oil",
@@ -63,46 +63,46 @@
     "upcoming_premium": null
   },
   "market": {
-    "updated_at": "2026-11-10T13:13:28.709Z",
-    "btc_usd": 74322,
-    "btc_eur": 66279,
-    "btc_change_24h": -0.5,
-    "usd_eur": 0.8924
+    "updated_at": "2026-11-11T06:03:06.783Z",
+    "btc_usd": 73852,
+    "btc_eur": 66173,
+    "btc_change_24h": -1.11,
+    "usd_eur": 0.8939
   },
   "ai_news": [
     {
-      "title": "IBM plans to bring Anthropic’s Claude Mythos to enterprise customers",
-      "link": "https://thenextweb.com/news/ibm-concert-protect-claude-mythos-vulnerability-scanning",
+      "title": "AI firms sign Macron’s Paris Call, but safety group says it lacks teeth",
+      "link": "https://thenextweb.com/news/paris-call-ai-safety-openai-anthropic-cesia",
       "source": "The Next Web"
     },
     {
-      "title": "Australia plans AI safety regulator after OpenAI agent breach",
-      "link": "https://thenextweb.com/news/australia-plans-ai-safety-regulator-after-openai-agent-breach",
-      "source": "The Next Web"
+      "title": "Anthropic has its own AI-powered office suite now",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1030709/anthropic-has-its-own-ai-powered-office-suite-now",
+      "source": "The Verge"
     },
     {
-      "title": "Cisco adds Anthropic’s Claude Mythos to AI Defense for red teaming",
-      "link": "https://thenextweb.com/news/cisco-ai-defense-claude-mythos-red-teaming",
-      "source": "The Next Web"
+      "title": "Google releases Gemini 4 Carbon with agent ‘swarm’ feature",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1030787/google-gemini-4-carbon-public-rollout",
+      "source": "The Verge"
     },
     {
-      "title": "Vulnerability that lets hackers SSH into Linux devices is under active exploitation",
-      "link": "https://arstechnica.com/security/2026/11/vulnerability-that-lets-hackers-ssh-into-linux-devices-is-under-active-exploitation/",
-      "source": "Ars Technica"
+      "title": "OpenAI, Anthropic face new oversight as New York’s AI safety law takes effect",
+      "link": "https://techcrunch.com/2026/11/10/openai-anthropic-face-new-oversight-as-new-yorks-ai-safety-law-takes-effect/",
+      "source": "TechCrunch AI"
     },
     {
-      "title": "Meta’s Muse Ember matches Claude Haiku at a third of the cost per task",
-      "link": "https://thenextweb.com/news/meta-muse-ember-small-ai-model-haiku-luna",
-      "source": "The Next Web"
+      "title": "Anthropic smanjio apetite pa na IPO-u cilja valuaciju od \"samo\" bilijun dolara",
+      "link": "https://www.bug.hr/biznis/anthropic-smanjio-apetite-pa-na-ipo-u-cilja-valuaciju-od-samo-bilijun-dolara-64226",
+      "source": "Bug.hr"
     }
   ],
   "micro_tips": {
     "vscode": {
-      "tip": "Nađi i selektiraj sljedeće pojavljivanje",
-      "keys": "Ctrl+D"
+      "tip": "Multi-cursor: postavi cursor na više mjesta istovremeno",
+      "keys": "Alt+Click"
     },
-    "sql": "EXPLAIN ANALYZE prikazuje stvarne vs procijenjene redove — ključno za tuning",
-    "oracle": "CONNECT BY LEVEL <= n generira broj redova bez pomoćne tablice",
-    "regex": "[^\\n]* svaki znak osim newline — dohvati cijelu liniju bez dotall flaga"
+    "sql": "Partial index s WHERE klauzulom smanjuje veličinu i ubrzava specifična filtriranja",
+    "oracle": "LISTAGG(col, ',') WITHIN GROUP (ORDER BY col) konkatenira u jedan string",
+    "regex": "(?<ime>\\d{4}) named group — referenciraj s \\k<ime> ili $<ime> u replace"
   }
 }
