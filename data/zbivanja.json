@@ -1,6 +1,10 @@
 {
-  "generated_at": "2026-11-11T14:01:20.714Z",
+  "generated_at": "2026-11-11T15:01:22.385Z",
   "stats": {
+    "muzika.hr": {
+      "ok": true,
+      "count": 25
+    },
     "Lisinski": {
       "ok": true,
       "count": 0
@@ -12,14 +16,6 @@
     "Gavella": {
       "ok": true,
       "count": 37
-    },
-    "muzika.hr": {
-      "ok": true,
-      "count": 25
-    },
-    "Tvornica": {
-      "ok": true,
-      "count": 2
     },
     "ZeKaeM": {
       "ok": true,
@@ -44,6 +40,10 @@
     "Trešnja": {
       "ok": true,
       "count": 0
+    },
+    "Tvornica": {
+      "ok": false,
+      "error": "The operation was aborted due to timeout"
     }
   },
   "concerts": [
@@ -959,7 +959,7 @@
       "time": "19:30",
       "link": "https://www.muzika.hr/event/jazzurania-new-boilers/",
       "source": "muzika.hr",
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-11T14:01:20.714Z"
     },
     {
@@ -1589,7 +1589,7 @@
       "time": "20:00",
       "link": "https://www.muzika.hr/event/mary-halvorson-canis-major-17-zagreb-jazz-festival/",
       "source": "muzika.hr",
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-11T14:01:20.714Z"
     },
     {
@@ -1829,7 +1829,7 @@
       "time": "18:00",
       "link": "https://hnk.hr/hr/balet/predstave/ora%C5%A1arr2025/#28.11.18.00",
       "source": "HNK Zagreb",
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-11T14:01:20.714Z"
     },
     {
@@ -1891,6 +1891,21 @@
       "source": "HNK Zagreb",
       "is_new": false,
       "first_seen": "2026-08-28T10:01:17.450Z"
+    },
+    {
+      "id": "31483e4d01",
+      "title": "Petar Iljič Čajkovski — Rudolf Nurejev Orašar",
+      "venue": "HNK Zagreb",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-11-30T19:30:00",
+      "date_display": "pon, 30. 11. 2026.",
+      "time": "19:30",
+      "link": "https://hnk.hr/hr/balet/predstave/ora%C5%A1arr2025/#30.11.19.30",
+      "source": "HNK Zagreb",
+      "is_new": true,
+      "first_seen": "2026-11-11T15:01:22.385Z"
     },
     {
       "id": "07bb4a8025",
@@ -4156,7 +4171,7 @@
       "time": "19:30",
       "link": "https://hnk.hr/hr/drama/predstave/zastave/#22.01.19.30",
       "source": "HNK Zagreb",
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-11T14:01:20.714Z"
     },
     {
@@ -4342,5 +4357,5 @@
       "first_seen": "2026-10-31T06:01:17.418Z"
     }
   ],
-  "new_count": 7
+  "new_count": 4
 }
