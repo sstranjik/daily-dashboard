@@ -1,13 +1,9 @@
 {
-  "generated_at": "2026-11-11T16:01:22.811Z",
+  "generated_at": "2026-11-11T17:01:21.660Z",
   "stats": {
     "muzika.hr": {
       "ok": true,
       "count": 25
-    },
-    "Lisinski": {
-      "ok": true,
-      "count": 0
     },
     "Mochvara": {
       "ok": true,
@@ -17,11 +13,23 @@
       "ok": true,
       "count": 37
     },
+    "Lisinski": {
+      "ok": true,
+      "count": 0
+    },
+    "Tvornica": {
+      "ok": true,
+      "count": 2
+    },
+    "Komedija": {
+      "ok": true,
+      "count": 0
+    },
     "ZeKaeM": {
       "ok": true,
       "count": 1
     },
-    "Komedija": {
+    "Pogon": {
       "ok": true,
       "count": 0
     },
@@ -29,21 +37,13 @@
       "ok": true,
       "count": 0
     },
-    "Pogon": {
+    "Trešnja": {
       "ok": true,
       "count": 0
     },
     "HNK Zagreb": {
       "ok": true,
       "count": 104
-    },
-    "Trešnja": {
-      "ok": true,
-      "count": 0
-    },
-    "Tvornica": {
-      "ok": false,
-      "error": "The operation was aborted due to timeout"
     }
   },
   "concerts": [
@@ -4216,7 +4216,7 @@
       "time": "19:30",
       "link": "https://hnk.hr/hr/drama/predstave/godine/#01.02.19.30",
       "source": "HNK Zagreb",
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-11T16:01:22.811Z"
     },
     {
@@ -4231,7 +4231,7 @@
       "time": "19:30",
       "link": "https://hnk.hr/hr/drama/predstave/godine/#02.02.19.30",
       "source": "HNK Zagreb",
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-11T16:01:22.811Z"
     },
     {
@@ -4387,5 +4387,5 @@
       "first_seen": "2026-10-31T06:01:17.418Z"
     }
   ],
-  "new_count": 5
+  "new_count": 3
 }
