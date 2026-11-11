@@ -1,6 +1,10 @@
 {
-  "generated_at": "2026-11-11T11:01:21.515Z",
+  "generated_at": "2026-11-11T12:01:20.172Z",
   "stats": {
+    "Mochvara": {
+      "ok": true,
+      "count": 13
+    },
     "muzika.hr": {
       "ok": true,
       "count": 25
@@ -9,23 +13,23 @@
       "ok": true,
       "count": 0
     },
-    "Mochvara": {
-      "ok": true,
-      "count": 13
-    },
     "Gavella": {
       "ok": true,
       "count": 37
-    },
-    "ZeKaeM": {
-      "ok": true,
-      "count": 1
     },
     "Tvornica": {
       "ok": true,
       "count": 2
     },
+    "ZeKaeM": {
+      "ok": true,
+      "count": 1
+    },
     "Komedija": {
+      "ok": true,
+      "count": 0
+    },
+    "Pogon": {
       "ok": true,
       "count": 0
     },
@@ -35,11 +39,7 @@
     },
     "HNK Zagreb": {
       "ok": true,
-      "count": 100
-    },
-    "Pogon": {
-      "ok": true,
-      "count": 0
+      "count": 101
     },
     "Trešnja": {
       "ok": true,
@@ -4085,6 +4085,21 @@
       "first_seen": "2026-10-22T09:01:28.413Z"
     },
     {
+      "id": "f9cbdf3524",
+      "title": "Miroslav Krleža Zastave",
+      "venue": "HNK Zagreb",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "theater",
+      "date_iso": "2027-01-20T19:30:00",
+      "date_display": "sri, 20. 01. 2027.",
+      "time": "19:30",
+      "link": "https://hnk.hr/hr/drama/predstave/zastave/#20.01.19.30",
+      "source": "HNK Zagreb",
+      "is_new": true,
+      "first_seen": "2026-11-11T12:01:20.172Z"
+    },
+    {
       "id": "43f5db7f04",
       "title": "Miroslav Krleža Zastave",
       "venue": "HNK Zagreb",
@@ -4267,5 +4282,5 @@
       "first_seen": "2026-10-31T06:01:17.418Z"
     }
   ],
-  "new_count": 3
+  "new_count": 4
 }
