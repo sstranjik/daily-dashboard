@@ -1,15 +1,15 @@
 {
   "version": 2,
-  "date": "2026-11-11",
-  "generated_at": "2026-11-11T12:22:05.632Z",
-  "date_hr": "Srijeda, 11. studenog 2026.",
+  "date": "2026-11-12",
+  "generated_at": "2026-11-12T06:03:16.671Z",
+  "date_hr": "Četvrtak, 12. studenog 2026.",
   "weather": {
-    "icon": "🌦️",
-    "summary": "9–11°C, pljuskovi · 5 mm",
+    "icon": "🌧️",
+    "summary": "10–15°C, kiša · 25.3 mm",
     "alerts": []
   },
   "fuel": {
-    "current_date": "11.11.2026",
+    "current_date": "12.11.2026",
     "eurodiesel": [
       {
         "company": "Adria Oil",
@@ -63,27 +63,27 @@
     "upcoming_premium": null
   },
   "market": {
-    "updated_at": "2026-11-11T12:22:05.632Z",
-    "btc_usd": 73996,
-    "btc_eur": 66447,
-    "btc_change_24h": -0.38,
-    "usd_eur": 0.8939
+    "updated_at": "2026-11-12T06:03:16.671Z",
+    "btc_usd": 73582,
+    "btc_eur": 66399,
+    "btc_change_24h": -0.28,
+    "usd_eur": 0.8999
   },
   "ai_news": [
     {
-      "title": "AI firms sign Macron’s Paris Call, but safety group says it lacks teeth",
-      "link": "https://thenextweb.com/news/paris-call-ai-safety-openai-anthropic-cesia",
+      "title": "Microsoft turns on Claude by default in UK Copilot, The Register reports",
+      "link": "https://thenextweb.com/news/microsoft-claude-default-uk-copilot-9-december",
       "source": "The Next Web"
     },
     {
-      "title": "Anthropic has its own AI-powered office suite now",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1030709/anthropic-has-its-own-ai-powered-office-suite-now",
-      "source": "The Verge"
+      "title": "Best AI reputation management firms in 2026 vs traditional ORM",
+      "link": "https://thenextweb.com/news/best-ai-reputation-management-firms-2026",
+      "source": "The Next Web"
     },
     {
-      "title": "Google releases Gemini 4 Carbon with agent ‘swarm’ feature",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1030787/google-gemini-4-carbon-public-rollout",
-      "source": "The Verge"
+      "title": "Claude can collaborate in your team meetings soon – like an intern",
+      "link": "https://www.zdnet.com/innovation/claude-meetings-workplace-features/",
+      "source": "ZDNet"
     },
     {
       "title": "Anthropic’s IPO seeks up to $64.4B at a $1.4 trillion valuation",
@@ -98,11 +98,11 @@
   ],
   "micro_tips": {
     "vscode": {
-      "tip": "Multi-cursor: postavi cursor na više mjesta istovremeno",
-      "keys": "Alt+Click"
+      "tip": "Command Palette: brzi pristup svim komandama",
+      "keys": "Ctrl+Shift+P"
     },
-    "sql": "Partial index s WHERE klauzulom smanjuje veličinu i ubrzava specifična filtriranja",
-    "oracle": "LISTAGG(col, ',') WITHIN GROUP (ORDER BY col) konkatenira u jedan string",
-    "regex": "(?<ime>\\d{4}) named group — referenciraj s \\k<ime> ili $<ime> u replace"
+    "sql": "GROUP BY s ROLLUP za subtotale u jednom prolasku: GROUP BY ROLLUP(god, mj)",
+    "oracle": "TRUNC(datum_kolona) = TRUNC(SYSDATE) koristi B-tree index na datumskoj koloni",
+    "regex": "\\d{4}-\\d{2}-\\d{2} ISO datum pattern; za validaciju zatvori s ^...$"
   }
 }
