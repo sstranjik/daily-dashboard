@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-13T19:01:22.115Z",
+  "generated_at": "2026-11-13T20:01:19.105Z",
   "stats": {
     "muzika.hr": {
       "ok": true,
@@ -9,13 +9,13 @@
       "ok": true,
       "count": 13
     },
+    "Gavella": {
+      "ok": true,
+      "count": 32
+    },
     "Lisinski": {
       "ok": true,
       "count": 0
-    },
-    "Gavella": {
-      "ok": true,
-      "count": 33
     },
     "Tvornica": {
       "ok": true,
@@ -29,17 +29,17 @@
       "ok": true,
       "count": 1
     },
-    "Pogon": {
+    "HNK Zagreb": {
       "ok": true,
-      "count": 0
+      "count": 123
     },
     "Kerempuh": {
       "ok": true,
       "count": 0
     },
-    "HNK Zagreb": {
+    "Pogon": {
       "ok": true,
-      "count": 123
+      "count": 0
     },
     "Trešnja": {
       "ok": true,
@@ -47,36 +47,6 @@
     }
   },
   "concerts": [
-    {
-      "id": "db01057baf",
-      "title": "Georges Bizet Carmen",
-      "venue": "HNK Zagreb",
-      "city": "Zagreb",
-      "country": "HR",
-      "category": "concert",
-      "date_iso": "2026-10-29T19:30:00",
-      "date_display": "čet, 29. 10. 2026.",
-      "time": "19:30",
-      "link": "https://hnk.hr/hr/opera/predstave/carmen1/#29.10.19.30",
-      "source": "HNK Zagreb",
-      "is_new": false,
-      "first_seen": "2026-07-02T15:01:22.773Z"
-    },
-    {
-      "id": "c7ab0b1d8f",
-      "title": "Impronedjeljak & Jazz u Močvari: Swell/Tokar/Kugel, Roger and the Pacemaker",
-      "venue": "Mochvara",
-      "city": "Zagreb",
-      "country": "HR",
-      "category": "concert",
-      "date_iso": "2026-10-29T20:00:00",
-      "date_display": "čet, 29. 10. 2026.",
-      "time": "20:00",
-      "link": "https://mochvara.hr/event-detail/6ad76b792924c2ecf5f133df/",
-      "source": "Mochvara",
-      "is_new": false,
-      "first_seen": "2026-10-24T05:01:21.329Z"
-    },
     {
       "id": "efa8b2e1b2",
       "title": "Elemental",
@@ -3094,21 +3064,6 @@
     }
   ],
   "theater": [
-    {
-      "id": "aea190ea79",
-      "title": "Friedrich Schiller MARIA STUART",
-      "venue": "HNK Zagreb",
-      "city": "Zagreb",
-      "country": "HR",
-      "category": "theater",
-      "date_iso": "2026-10-29T19:30:00",
-      "date_display": "čet, 29. 10. 2026.",
-      "time": "19:30",
-      "link": "https://hnk.hr/hr/drama/predstave/maria-stuart/#29.10.19.30",
-      "source": "HNK Zagreb",
-      "is_new": false,
-      "first_seen": "2026-07-02T15:01:22.773Z"
-    },
     {
       "id": "9053963bfb",
       "title": "Hotel Zagorje",
