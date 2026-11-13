@@ -1,33 +1,29 @@
 {
-  "generated_at": "2026-11-13T13:01:21.543Z",
+  "generated_at": "2026-11-13T13:31:35.188Z",
   "stats": {
     "muzika.hr": {
       "ok": true,
       "count": 25
     },
-    "Gavella": {
+    "Mochvara": {
       "ok": true,
-      "count": 34
+      "count": 13
     },
     "Lisinski": {
       "ok": true,
       "count": 0
     },
-    "Tvornica": {
+    "Gavella": {
       "ok": true,
-      "count": 2
-    },
-    "Mochvara": {
-      "ok": true,
-      "count": 13
-    },
-    "Komedija": {
-      "ok": true,
-      "count": 0
+      "count": 34
     },
     "ZeKaeM": {
       "ok": true,
       "count": 1
+    },
+    "Komedija": {
+      "ok": true,
+      "count": 0
     },
     "Pogon": {
       "ok": true,
@@ -39,11 +35,15 @@
     },
     "HNK Zagreb": {
       "ok": true,
-      "count": 113
+      "count": 117
     },
     "Trešnja": {
       "ok": true,
       "count": 0
+    },
+    "Tvornica": {
+      "ok": true,
+      "count": 2
     }
   },
   "concerts": [
@@ -2883,6 +2883,21 @@
       "first_seen": "2026-11-12T09:01:19.641Z"
     },
     {
+      "id": "8827ca4828",
+      "title": "Petar Iljič Čajkovski — Paul Chalmer Trnoružica",
+      "venue": "HNK Zagreb",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2027-02-11T19:30:00",
+      "date_display": "čet, 11. 02. 2027.",
+      "time": "19:30",
+      "link": "https://hnk.hr/hr/balet/predstave/trnoru%C5%BEica/#11.02.19.30",
+      "source": "HNK Zagreb",
+      "is_new": true,
+      "first_seen": "2026-11-13T13:31:35.188Z"
+    },
+    {
       "id": "2666b9295c",
       "title": "Richard Strauss Saloma",
       "venue": "HNK Zagreb",
@@ -2896,6 +2911,51 @@
       "source": "HNK Zagreb",
       "is_new": false,
       "first_seen": "2026-11-12T09:01:19.641Z"
+    },
+    {
+      "id": "ea71c76cf5",
+      "title": "Petar Iljič Čajkovski — Paul Chalmer Trnoružica",
+      "venue": "HNK Zagreb",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2027-02-17T19:30:00",
+      "date_display": "sri, 17. 02. 2027.",
+      "time": "19:30",
+      "link": "https://hnk.hr/hr/balet/predstave/trnoru%C5%BEica/#17.02.19.30",
+      "source": "HNK Zagreb",
+      "is_new": true,
+      "first_seen": "2026-11-13T13:31:35.188Z"
+    },
+    {
+      "id": "77804680cd",
+      "title": "Petar Iljič Čajkovski — Paul Chalmer Trnoružica",
+      "venue": "HNK Zagreb",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2027-02-18T19:30:00",
+      "date_display": "čet, 18. 02. 2027.",
+      "time": "19:30",
+      "link": "https://hnk.hr/hr/balet/predstave/trnoru%C5%BEica/#18.02.19.30",
+      "source": "HNK Zagreb",
+      "is_new": true,
+      "first_seen": "2026-11-13T13:31:35.188Z"
+    },
+    {
+      "id": "35471120cc",
+      "title": "Petar Iljič Čajkovski — Paul Chalmer Trnoružica",
+      "venue": "HNK Zagreb",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2027-02-19T19:30:00",
+      "date_display": "pet, 19. 02. 2027.",
+      "time": "19:30",
+      "link": "https://hnk.hr/hr/balet/predstave/trnoru%C5%BEica/#19.02.19.30",
+      "source": "HNK Zagreb",
+      "is_new": true,
+      "first_seen": "2026-11-13T13:31:35.188Z"
     },
     {
       "id": "6546fe288f",
@@ -4522,5 +4582,5 @@
       "first_seen": "2026-10-31T06:01:17.418Z"
     }
   ],
-  "new_count": 1
+  "new_count": 5
 }
