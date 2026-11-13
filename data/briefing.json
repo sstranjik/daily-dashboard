@@ -1,15 +1,20 @@
 {
   "version": 2,
-  "date": "2026-11-12",
-  "generated_at": "2026-11-12T13:31:46.641Z",
-  "date_hr": "Četvrtak, 12. studenog 2026.",
+  "date": "2026-11-13",
+  "generated_at": "2026-11-13T06:02:24.954Z",
+  "date_hr": "Petak, 13. studenog 2026.",
   "weather": {
-    "icon": "🌧️",
-    "summary": "10–15°C, kiša · 15.3 mm",
-    "alerts": []
+    "icon": "⛈️",
+    "summary": "4–15°C, grmljavina · 28.3 mm",
+    "alerts": [
+      {
+        "level": "warning",
+        "text": "Grmljavinska oluja"
+      }
+    ]
   },
   "fuel": {
-    "current_date": "12.11.2026",
+    "current_date": "13.11.2026",
     "eurodiesel": [
       {
         "company": "Adria Oil",
@@ -63,46 +68,46 @@
     "upcoming_premium": null
   },
   "market": {
-    "updated_at": "2026-11-12T13:31:46.641Z",
-    "btc_usd": 72539,
-    "btc_eur": 65435,
-    "btc_change_24h": -1.68,
-    "usd_eur": 0.8999
+    "updated_at": "2026-11-13T06:02:24.954Z",
+    "btc_usd": 67983,
+    "btc_eur": 61473,
+    "btc_change_24h": -7.58,
+    "usd_eur": 0.9035
   },
   "ai_news": [
     {
-      "title": "Microsoft turns on Claude by default in UK Copilot, The Register reports",
-      "link": "https://thenextweb.com/news/microsoft-claude-default-uk-copilot-9-december",
+      "title": "Google’s Gemini 4 Hydrogen brings a fast, cheaper model to everyone",
+      "link": "https://thenextweb.com/news/google-gemini-4-hydrogen-fast-cheap-model-everyone",
       "source": "The Next Web"
     },
     {
-      "title": "Aleph preuzima prodaju ChatGPT oglasa u Hrvatskoj i još 43 zemlje",
-      "link": "https://www.netokracija.com/aleph-preuzima-prodaju-chatgpt-oglasa-u-hrvatskoj-i-jos-43-zemlje-249202",
-      "source": "Netokracija"
+      "title": "Anthropic lets companies run Claude’s agent service on their own servers",
+      "link": "https://thenextweb.com/news/anthropic-self-hosted-claude-managed-agents",
+      "source": "The Next Web"
     },
     {
-      "title": "Claude can collaborate in your team meetings soon – like an intern",
-      "link": "https://www.zdnet.com/innovation/claude-meetings-workplace-features/",
-      "source": "ZDNet"
+      "title": "J.Crew launches an AI stylist built on Anthropic’s Claude",
+      "link": "https://thenextweb.com/news/jcrew-style-advisor-claude-ai-stylist",
+      "source": "The Next Web"
     },
     {
-      "title": "OpenAI sad ima kill switch. Treba mu 35 sekundi za isključivanje modela",
-      "link": "https://mreza.bug.hr/sigurnost/openai-sad-ima-kill-switch-treba-mu-35-sekundi-za-iskljucivanje-modela-64255",
-      "source": "Bug.hr"
+      "title": "AI chatbots are recommending fake retail websites, study finds",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1032020/gemini-chatgpt-perplexity-shopping-test-risky-fake-websites-citations",
+      "source": "The Verge"
     },
     {
-      "title": "Terra Security brings continuous, agentic offensive security to every layer",
-      "link": "https://thenextweb.com/news/terra-security-agentic-pentesting-continuous-offensive-security",
+      "title": "Upwind launches Response as AI-powered exploits outrun the patch cycle",
+      "link": "https://thenextweb.com/news/upwind-response-ai-exploits-patch-cycle",
       "source": "The Next Web"
     }
   ],
   "micro_tips": {
     "vscode": {
-      "tip": "Command Palette: brzi pristup svim komandama",
-      "keys": "Ctrl+Shift+P"
+      "tip": "Rename Symbol svuda u projektu (refactoring)",
+      "keys": "F2"
     },
-    "sql": "GROUP BY s ROLLUP za subtotale u jednom prolasku: GROUP BY ROLLUP(god, mj)",
-    "oracle": "TRUNC(datum_kolona) = TRUNC(SYSDATE) koristi B-tree index na datumskoj koloni",
-    "regex": "\\d{4}-\\d{2}-\\d{2} ISO datum pattern; za validaciju zatvori s ^...$"
+    "sql": "NOT EXISTS brži od NOT IN kad subquery može vratiti NULL vrijednost",
+    "oracle": "DBMS_STATS.GATHER_TABLE_STATS osvježava statistike za točniji execution plan",
+    "regex": "(?i) inline flag za case-insensitive bez mijenjanja ostatka patternahe"
   }
 }
