@@ -1,13 +1,9 @@
 {
-  "generated_at": "2026-11-13T14:01:18.633Z",
+  "generated_at": "2026-11-13T15:01:21.538Z",
   "stats": {
     "Lisinski": {
       "ok": true,
       "count": 0
-    },
-    "Mochvara": {
-      "ok": true,
-      "count": 13
     },
     "Gavella": {
       "ok": true,
@@ -17,21 +13,21 @@
       "ok": true,
       "count": 2
     },
+    "Mochvara": {
+      "ok": true,
+      "count": 13
+    },
     "muzika.hr": {
       "ok": true,
       "count": 25
-    },
-    "Komedija": {
-      "ok": true,
-      "count": 0
     },
     "ZeKaeM": {
       "ok": true,
       "count": 1
     },
-    "HNK Zagreb": {
+    "Komedija": {
       "ok": true,
-      "count": 122
+      "count": 0
     },
     "Kerempuh": {
       "ok": true,
@@ -44,6 +40,10 @@
     "Trešnja": {
       "ok": true,
       "count": 0
+    },
+    "HNK Zagreb": {
+      "ok": true,
+      "count": 123
     }
   },
   "concerts": [
@@ -2969,7 +2969,7 @@
       "time": "18:00",
       "link": "https://hnk.hr/hr/balet/predstave/trnoru%C5%BEica/#20.02.18.00",
       "source": "HNK Zagreb",
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-13T14:01:18.633Z"
     },
     {
@@ -2984,7 +2984,7 @@
       "time": "11:00",
       "link": "https://hnk.hr/hr/opera/predstave/klasika-nedjeljom-4/#21.02.11.00",
       "source": "HNK Zagreb",
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-13T14:01:18.633Z"
     },
     {
@@ -2999,7 +2999,7 @@
       "time": "19:30",
       "link": "https://hnk.hr/hr/balet/predstave/trnoru%C5%BEica/#22.02.19.30",
       "source": "HNK Zagreb",
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-13T14:01:18.633Z"
     },
     {
@@ -3014,7 +3014,7 @@
       "time": "19:30",
       "link": "https://hnk.hr/hr/balet/predstave/trnoru%C5%BEica/#23.02.19.30",
       "source": "HNK Zagreb",
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-13T14:01:18.633Z"
     },
     {
@@ -3029,7 +3029,7 @@
       "time": "19:30",
       "link": "https://hnk.hr/hr/balet/predstave/trnoru%C5%BEica/#24.02.19.30",
       "source": "HNK Zagreb",
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-13T14:01:18.633Z"
     },
     {
@@ -4657,5 +4657,5 @@
       "first_seen": "2026-10-31T06:01:17.418Z"
     }
   ],
-  "new_count": 6
+  "new_count": 1
 }
