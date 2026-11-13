@@ -1,17 +1,13 @@
 {
   "version": 2,
   "date": "2026-11-13",
-  "generated_at": "2026-11-13T06:02:24.954Z",
+  "generated_at": "2026-11-13T12:48:28.522Z",
   "date_hr": "Petak, 13. studenog 2026.",
   "weather": {
-    "icon": "⛈️",
-    "summary": "4–15°C, grmljavina · 28.3 mm",
-    "alerts": [
-      {
-        "level": "warning",
-        "text": "Grmljavinska oluja"
-      }
-    ]
+    "icon": "🌡️",
+    "summary": "Vremenski podaci nedostupni",
+    "alerts": [],
+    "error": "HTTP 503"
   },
   "fuel": {
     "current_date": "13.11.2026",
@@ -68,13 +64,18 @@
     "upcoming_premium": null
   },
   "market": {
-    "updated_at": "2026-11-13T06:02:24.954Z",
-    "btc_usd": 67983,
-    "btc_eur": 61473,
-    "btc_change_24h": -7.58,
+    "updated_at": "2026-11-13T12:48:28.522Z",
+    "btc_usd": 69248,
+    "btc_eur": 62655,
+    "btc_change_24h": -4.96,
     "usd_eur": 0.9035
   },
   "ai_news": [
+    {
+      "title": "Microsoft’s Outlook and Teams outage passes 12 hours, disrupting AI services and businesses worldwide",
+      "link": "https://thenextweb.com/news/microsoft-outage-outlook-teams-12-hours-global",
+      "source": "The Next Web"
+    },
     {
       "title": "Google’s Gemini 4 Hydrogen brings a fast, cheaper model to everyone",
       "link": "https://thenextweb.com/news/google-gemini-4-hydrogen-fast-cheap-model-everyone",
@@ -94,11 +95,6 @@
       "title": "AI chatbots are recommending fake retail websites, study finds",
       "link": "https://www.theverge.com/ai-artificial-intelligence/1032020/gemini-chatgpt-perplexity-shopping-test-risky-fake-websites-citations",
       "source": "The Verge"
-    },
-    {
-      "title": "Upwind launches Response as AI-powered exploits outrun the patch cycle",
-      "link": "https://thenextweb.com/news/upwind-response-ai-exploits-patch-cycle",
-      "source": "The Next Web"
     }
   ],
   "micro_tips": {
