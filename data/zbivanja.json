@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-14T06:01:17.416Z",
+  "generated_at": "2026-11-14T07:01:16.255Z",
   "stats": {
     "muzika.hr": {
       "ok": true,
@@ -27,23 +27,23 @@
     },
     "ZeKaeM": {
       "ok": true,
-      "count": 2
+      "count": 1
     },
     "HNK Zagreb": {
       "ok": true,
       "count": 122
     },
-    "Pogon": {
+    "Kerempuh": {
       "ok": true,
       "count": 0
-    },
-    "ZeKaeM": {
-      "ok": true,
-      "count": 1
     },
     "Trešnja": {
       "ok": true,
       "count": 0
+    },
+    "Pogon": {
+      "ok": false,
+      "error": "The operation was aborted due to timeout"
     }
   },
   "concerts": [
@@ -1214,7 +1214,7 @@
       "time": "20:00",
       "link": "https://mochvara.hr/event-detail/6accf83f5e5f72dd4ba8a6ac/",
       "source": "Mochvara",
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-14T06:01:17.416Z"
     },
     {
@@ -1259,7 +1259,7 @@
       "time": "20:00",
       "link": "https://mochvara.hr/event-detail/6ae20789ca71fac878b0f24d/",
       "source": "Mochvara",
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-14T06:01:17.416Z"
     },
     {
@@ -1889,7 +1889,7 @@
       "time": null,
       "link": "https://www.muzika.hr/event/kovacs-2/",
       "source": "muzika.hr",
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-14T06:01:17.416Z"
     },
     {
@@ -4627,5 +4627,5 @@
       "first_seen": "2026-10-31T06:01:17.418Z"
     }
   ],
-  "new_count": 4
+  "new_count": 1
 }
