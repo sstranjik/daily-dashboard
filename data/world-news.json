@@ -1,9 +1,561 @@
 {
-  "last_updated": "2026-11-13T21:01:16.641Z",
+  "last_updated": "2026-11-14T06:01:09.623Z",
   "source_count": 6,
   "items": [
     {
+      "id": "n1-info-0",
+      "title": "Trump, Xi i Putin sastaju se u četvrtak u Kini",
+      "summary": "Bijela kuća potvrdila je u petak da će se idući četvrtak u Kini održati sastanak Donalda Trumpa, Xi Jinpinga i Vladimira Putina, na marginama samita A",
+      "link": "https://n1info.hr/svijet/trump-xi-i-putin-sastaju-se-u-cetvrtak-u-kini/",
+      "published": "2026-11-14T05:56:57.000Z",
+      "source": "N1 Info",
+      "category": "general",
+      "xml_category": "svijet",
+      "tags": [],
+      "image": "https://n1info.hr/media/images/2026/10/23/1792757514_savez.width-1200.png"
+    },
+    {
+      "id": "jutarnji-0",
+      "title": "Spašeni svi putnici iz kruzera koji se zabio u tanker u New Orleansu",
+      "summary": "Svi su putnici na broju nakon što se u petak u New Orleansu na rijeci Mississippiju tanker sudario s riječnim kruzerom, pri čemu je 32 ljudi završilo u bolnici, izjavila je gradska dužnosnica. \"Prema informacijama kojima trenutno raspolažemo, nitko se ne vodi kao nestao, što je uistinu pravo čudo na",
+      "link": "https://www.jutarnji.hr/vijesti/svijet/spaseni-svi-putnici-iz-kruzera-koji-se-zabio-u-tanker-u-new-orleansu-15765305",
+      "published": "2026-11-14T05:50:42.000Z",
+      "source": "Jutarnji",
+      "category": "general",
+      "xml_category": "svijet",
+      "tags": [],
+      "image": "https://media.jutarnji.hr/images/slike/2026/11/14/f_39962127_1280.jpg?1794635534"
+    },
+    {
+      "id": "al-jazeera-0",
+      "title": "FAA ground stop disrupts NBA, NHL and college football weekend travel",
+      "summary": "More than 1.5 million passengers face travel disruption as domestic and international airlines warn of knock-on delays.",
+      "link": "https://www.aljazeera.com/news/2026/11/14/faa-ground-stop-disrupts-nba-nhl-and-college-football-weekend-travel?traffic_source=rss",
+      "published": "2026-11-14T05:42:41.000Z",
+      "source": "Al Jazeera",
+      "category": "sport",
+      "xml_category": "sport",
+      "tags": [],
+      "image": null
+    },
+    {
+      "id": "jutarnji-1",
+      "title": "Ameriku paralizirao najveći prekid zračnog prometa u 25 godina: letovi nastavljeni, otkriven uzrok problema",
+      "summary": "Američka savezna uprava za zrakoplovstvo (FAA) u petak je ukinula zabranu letenja u zemlji uvedenu zbog komunikacijskog kvara u centrima za kontrolu zračnog prometa koji je izazvao kaos u zračnim lukama i doveo do najduže nacionalne blokade od napada 11. rujna 2001. Ministar prometa Sean Duffy rekao",
+      "link": "https://www.jutarnji.hr/vijesti/svijet/sad-paralizirao-najveci-prekid-zracnog-prometa-u-25-godina-letovi-nastavljeni-otkriven-uzrok-problema-15765301",
+      "published": "2026-11-14T05:11:00.000Z",
+      "source": "Jutarnji",
+      "category": "general",
+      "xml_category": "svijet",
+      "tags": [],
+      "image": "https://media.jutarnji.hr/images/slike/2026/11/14/f_39962199_1280.jpg?1794635534"
+    },
+    {
+      "id": "al-jazeera-1",
+      "title": "Trump, Xi and Putin to hold first three-way summit in China",
+      "summary": "White House says Trump plans to discuss the Iran war and nuclear arms at a meeting on the sidelines of APEC next week.",
+      "link": "https://www.aljazeera.com/news/2026/11/14/trump-xi-and-putin-to-hold-first-three-way-summit-in-china?traffic_source=rss",
+      "published": "2026-11-14T04:55:58.000Z",
+      "source": "Al Jazeera",
+      "category": "general",
+      "xml_category": "news",
+      "tags": [],
+      "image": null
+    },
+    {
+      "id": "al-jazeera-2",
+      "title": "Lagos Art Week confronts history, identity and belonging",
+      "summary": "ART X Lagos celebrates Africa&#039;s heritage and contemporary creativity.",
+      "link": "https://www.aljazeera.com/news/2026/11/14/lagos-art-week-confronts-history-identity-and-belonging?traffic_source=rss",
+      "published": "2026-11-14T04:46:01.000Z",
+      "source": "Al Jazeera",
+      "category": "general",
+      "xml_category": "news",
+      "tags": [],
+      "image": null
+    },
+    {
+      "id": "al-jazeera-3",
+      "title": "German spies granted sweeping new powers",
+      "summary": "Parliament passes legislation months after a thwarted attack at Leipzig-Halle airport, which Berlin linked to Russia.",
+      "link": "https://www.aljazeera.com/news/2026/11/14/german-spies-granted-sweeping-new-powers?traffic_source=rss",
+      "published": "2026-11-14T04:41:11.000Z",
+      "source": "Al Jazeera",
+      "category": "general",
+      "xml_category": "news",
+      "tags": [],
+      "image": null
+    },
+    {
+      "id": "al-jazeera-4",
+      "title": "Iranian shopkeeper goes viral for Netanyahu resemblance",
+      "summary": "A shopkeeper in Tehran has become an unlikely social media sensation because of his striking resemblance to Netanyahu.",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/11/14/iranian-shopkeeper-goes-viral-for-netanyahu-resemblance?traffic_source=rss",
+      "published": "2026-11-14T04:29:08.000Z",
+      "source": "Al Jazeera",
+      "category": "general",
+      "xml_category": "show types",
+      "tags": [],
+      "image": null
+    },
+    {
+      "id": "al-jazeera-5",
+      "title": "UN says Israeli policies worsened deadly impact of Gaza winter storm",
+      "summary": "The UN says Israel could have prevented death and destruction caused by the storm in Gaza had it allowed sufficient aid.",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/11/14/aje-onl-nf_un-israeli-policies-worsened-gaza-storms-impact-131126?traffic_source=rss",
+      "published": "2026-11-14T04:12:15.000Z",
+      "source": "Al Jazeera",
+      "category": "general",
+      "xml_category": "show types",
+      "tags": [],
+      "image": null
+    },
+    {
+      "id": "al-jazeera-6",
+      "title": "ICC stops probe into alleged crimes by US troops in Afghanistan",
+      "summary": "The decision follows feuds between the United States and the Hague-based International Criminal Court.",
+      "link": "https://www.aljazeera.com/news/2026/11/14/icc-stops-probe-into-alleged-crimes-by-us-troops-in-afghanistan?traffic_source=rss",
+      "published": "2026-11-14T04:03:49.000Z",
+      "source": "Al Jazeera",
+      "category": "general",
+      "xml_category": "news",
+      "tags": [],
+      "image": null
+    },
+    {
+      "id": "al-jazeera-7",
+      "title": "FAA ground stop lifted: Why were US flights grounded, and what’s next?",
+      "summary": "The FAA says nationwide ground stop disrupting thousands of US flights was caused by a telecommunications outage.",
+      "link": "https://www.aljazeera.com/news/2026/11/14/faa-ground-stop-lifted-why-were-us-flights-grounded-and-whats-next?traffic_source=rss",
+      "published": "2026-11-14T03:32:07.000Z",
+      "source": "Al Jazeera",
+      "category": "general",
+      "xml_category": "news",
+      "tags": [],
+      "image": null
+    },
+    {
+      "id": "al-jazeera-8",
+      "title": "Measles-associated deaths reach 10 in US after two more deaths reported",
+      "summary": "More than 5,400 confirmed measles cases have been recorded in the US to date this year.",
+      "link": "https://www.aljazeera.com/news/2026/11/14/measles-associated-deaths-reach-10-in-us-after-two-more-deaths-reported?traffic_source=rss",
+      "published": "2026-11-14T02:34:50.000Z",
+      "source": "Al Jazeera",
+      "category": "general",
+      "xml_category": "news",
+      "tags": [],
+      "image": null
+    },
+    {
+      "id": "bbc-14",
+      "title": "'We'll get home one day' - US travellers impacted by nationwide ground stop",
+      "summary": "Passengers throughout the country were impacted over what the Federal Aviation Administration (FAA) describes as “safety and communication issues”.",
+      "link": "https://www.bbc.co.uk/news/videos/c893ryz7lw33o?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-14T01:47:36.000Z",
+      "source": "BBC",
+      "category": "general",
+      "xml_category": "",
+      "tags": [],
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/41c9/live/7d390f90-dfcc-11f1-b441-2b33b063138f.jpg"
+    },
+    {
+      "id": "al-jazeera-9",
+      "title": "Tanker collision leaves riverboat passengers clinging to railings",
+      "summary": "Passengers were rescued after a tanker ship collided with a riverboat docked on the Mississippi River in New Orleans.",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/11/14/aje-onl-nf_tanker-collision-in-new-orleans-131126?traffic_source=rss",
+      "published": "2026-11-14T01:37:08.000Z",
+      "source": "Al Jazeera",
+      "category": "ai",
+      "xml_category": "show types",
+      "tags": [],
+      "image": null
+    },
+    {
+      "id": "al-jazeera-10",
+      "title": "Former FAA official says ‘nobody really knows what is going on’",
+      "summary": "Former FAA safety team representative Kyle Bailey says grounding flights is the safest course of action.",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/11/14/former-faa-official-says-nobody-really-knows-what-is-going?traffic_source=rss",
+      "published": "2026-11-14T01:28:46.000Z",
+      "source": "Al Jazeera",
+      "category": "general",
+      "xml_category": "tv news",
+      "tags": [],
+      "image": null
+    },
+    {
       "id": "index-0",
+      "title": "Kruzer se prevrnuo nakon sudara s tankerom u Americi. Nitko nije poginuo",
+      "summary": "U SUDARU s tankerom u New Orleansu prevrnuo se riječni kruzer, ali unatoč dramatičnoj nesreći nema poginulih ni životno ugroženih osoba.",
+      "link": "https://www.index.hr/vijesti/clanak/kruzer-se-prevrnuo-nakon-sudara-s-tankerom-u-americi-nitko-nije-poginuo/2856888.aspx",
+      "published": "2026-11-14T00:24:00.000Z",
+      "source": "Index",
+      "category": "general",
+      "xml_category": "vijesti",
+      "tags": [],
+      "image": null
+    },
+    {
+      "id": "al-jazeera-11",
+      "title": "UK police open sex offence probe into comedian and author David Walliams",
+      "summary": "The British TV personality, 55, denies sexual assault allegations, saying he has not broken the law.",
+      "link": "https://www.aljazeera.com/news/2026/11/14/uk-police-open-sex-offence-probe-into-comedian-and-author-david-walliams?traffic_source=rss",
+      "published": "2026-11-14T00:22:07.000Z",
+      "source": "Al Jazeera",
+      "category": "general",
+      "xml_category": "news",
+      "tags": [],
+      "image": null
+    },
+    {
+      "id": "index-1",
+      "title": "Zračni promet u SAD-u paraliziran, tisuće letova otkazane. Oglasio se Trump",
+      "summary": "TOČAN uzrok prekida komunikacija još se istražuje, a američke vlasti zasad nisu objavile kada bi se promet mogao potpuno normalizirati.",
+      "link": "https://www.index.hr/vijesti/clanak/sad-prizemljio-sve-letove-zbog-izvanrednih-okolnosti/2856873.aspx",
+      "published": "2026-11-14T00:20:00.000Z",
+      "source": "Index",
+      "category": "general",
+      "xml_category": "vijesti",
+      "tags": [],
+      "image": null
+    },
+    {
+      "id": "al-jazeera-12",
+      "title": "Microsoft services begin recovering after global outage",
+      "summary": "Microsoft services began recovering on Friday after a global outage disrupted Outlook and Teams.",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/11/14/microsoft-services-begin-recovering-after-global-outage?traffic_source=rss",
+      "published": "2026-11-14T00:17:59.000Z",
+      "source": "Al Jazeera",
+      "category": "general",
+      "xml_category": "show types",
+      "tags": [],
+      "image": null
+    },
+    {
+      "id": "al-jazeera-13",
+      "title": "Afghanistan’s new road to China ends at a closed border",
+      "summary": "Taliban government hopes its Wakhan Corridor road will open new trade routes and reduce reliance on Pakistan.",
+      "link": "https://www.aljazeera.com/features/2026/11/14/wakhan-corridor-afghanistan-china-taliban?traffic_source=rss",
+      "published": "2026-11-14T00:06:43.000Z",
+      "source": "Al Jazeera",
+      "category": "general",
+      "xml_category": "news",
+      "tags": [],
+      "image": null
+    },
+    {
+      "id": "bbc-4",
+      "title": "Setback for SpaceX Starship rocket's double-catch test",
+      "summary": "Elon Musk’s company aborted an attempted catch of the rocket’s booster - instead it came down in the ocean.",
+      "link": "https://www.bbc.co.uk/news/articles/ckregdgnl0xpo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-14T00:01:01.000Z",
+      "source": "BBC",
+      "category": "space",
+      "xml_category": "",
+      "tags": [],
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1b1a/live/3f2ee680-dfbc-11f1-9e98-11d1980367a2.jpg"
+    },
+    {
+      "id": "al-jazeera-14",
+      "title": "Iran war live: Tehran says tanker hit naval mine, caught fire",
+      "summary": "Tehran has said that a tanker hit a naval mine and caught fire, accusing the vessel of operating in a prohibited area.",
+      "link": "https://www.aljazeera.com/news/liveblog/2026/11/14/iran-war-live-fighting-grips-yemen-as-qatar-turkiye-sign-defence-deal?traffic_source=rss",
+      "published": "2026-11-14T00:00:25.000Z",
+      "source": "Al Jazeera",
+      "category": "general",
+      "xml_category": "news",
+      "tags": [],
+      "image": null
+    },
+    {
+      "id": "al-jazeera-15",
+      "title": "FAA grounds all fights across the US over ‘telecommunication outage’",
+      "summary": "The FAA has issued a ground stop for departing flights in the US after a communications failure disrupted air traffic.",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/11/13/faa-grounds-all-fights-across-the-us-over-telecommunication?traffic_source=rss",
+      "published": "2026-11-13T23:45:22.000Z",
+      "source": "Al Jazeera",
+      "category": "general",
+      "xml_category": "show types",
+      "tags": [],
+      "image": null
+    },
+    {
+      "id": "bbc-0",
+      "title": "'Miracle on Mississippi' - All passengers rescued after New Orleans cruise ship collision",
+      "summary": "The collision leaves 32 people in hospital with non-critical injuries, but no-one unaccounted for.",
+      "link": "https://www.bbc.co.uk/news/articles/cw20xmy0m5yyo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-13T23:40:45.000Z",
+      "source": "BBC",
+      "category": "general",
+      "xml_category": "",
+      "tags": [],
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0a5e/live/65a2f270-dfad-11f1-be1f-9dae57fabf82.jpg"
+    },
+    {
+      "id": "index-2",
+      "title": "CNN: Diljem SAD-a istodobno otkazuju radari i radijske veze kontrole leta",
+      "summary": "SJEDINJENE Američke Države obustavile su sva polijetanja zbog masovnog kvara radarskih i komunikacijskih sustava čiji uzrok još uvijek nije utvrđen.",
+      "link": "https://www.index.hr/vijesti/clanak/cnn-diljem-sada-istodobno-otkazuju-radari-i-radijske-veze-kontrole-leta/2856886.aspx",
+      "published": "2026-11-13T22:58:00.000Z",
+      "source": "Index",
+      "category": "general",
+      "xml_category": "vijesti",
+      "tags": [],
+      "image": null
+    },
+    {
+      "id": "index-3",
+      "title": "Zbog obustave letova u Americi ograničenja uvedena i u Europi",
+      "summary": "KVAR u američkoj kontroli leta privremeno je obustavio polijetanja iz 44 europske zemlje, uključujući Hrvatsku, što stvara velike zastoje u prometu.",
+      "link": "https://www.index.hr/vijesti/clanak/zbog-obustave-letova-u-americi-ogranicenja-uvedena-i-u-europi/2856884.aspx",
+      "published": "2026-11-13T22:50:00.000Z",
+      "source": "Index",
+      "category": "general",
+      "xml_category": "vijesti",
+      "tags": [],
+      "image": null
+    },
+    {
+      "id": "al-jazeera-16",
+      "title": "32 passengers taken to hospital after tanker hits river cruise boat in US",
+      "summary": "American Heritage paddleboat with 129 passengers on board is partially submerged on Mississippi River in New Orleans.",
+      "link": "https://www.aljazeera.com/news/2026/11/13/rescue-efforts-under-way-after-tanker-strikes-river-cruise-boat-in-us?traffic_source=rss",
+      "published": "2026-11-13T22:47:16.000Z",
+      "source": "Al Jazeera",
+      "category": "general",
+      "xml_category": "news",
+      "tags": [],
+      "image": null
+    },
+    {
+      "id": "index-4",
+      "title": "Američka kontrola leta još koristi diskete i prastara računala",
+      "summary": "KVAR komunikacijskog sustava prizemljio je avione diljem SAD-a, razotkrivši kritične slabosti zastarjele tehnologije koja još uvijek koristi diskete.",
+      "link": "https://www.index.hr/vijesti/clanak/americka-kontrola-leta-jos-koristi-diskete-i-prastara-racunala/2856883.aspx",
+      "published": "2026-11-13T22:32:00.000Z",
+      "source": "Index",
+      "category": "general",
+      "xml_category": "vijesti",
+      "tags": [],
+      "image": null
+    },
+    {
+      "id": "jutarnji-2",
+      "title": "FOTO Nekad elitno odredište, danas grad duhova. Priroda je progutala gotovo sve, prizori su nestvarni",
+      "summary": "Nekadašnje napredno rudarsko naselje i lječilišno odredište Akarmara, smješteno u planinskom području pokrajine Tkvarčeli u Abhaziji, danas stoji gotovo potpuno napušteno. Naselje u kojem su u drugoj polovici dvadesetog stoljeća živjele tisuće ljudi u potpunosti guta suptropska vegetacija, dok u nje",
+      "link": "https://www.jutarnji.hr/vijesti/svijet/nekad-elitno-odrediste-danas-grad-duhova-priroda-je-progutala-gotovo-sve-prizori-su-nestvarni-15765293",
+      "published": "2026-11-13T22:30:00.000Z",
+      "source": "Jutarnji",
+      "category": "general",
+      "xml_category": "svijet",
+      "tags": [],
+      "image": "https://media.jutarnji.hr/images/slike/2026/11/11/f_39947633_1280.jpg?1794635534"
+    },
+    {
+      "id": "index-5",
+      "title": "Američki ministar: Ovo neće biti riješeno u sat vremena. Nije novi 11. rujna",
+      "summary": "AMERIČKI ministar Mullin kaže da prekid letova u SAD-u nije novi 11. rujna već kvar, no upozorava da normalizacija prometa neće biti brza.",
+      "link": "https://www.index.hr/vijesti/clanak/americki-ministar-ovo-nece-biti-rijeseno-u-sat-vremena-nije-novi-11-rujna/2856882.aspx",
+      "published": "2026-11-13T22:23:00.000Z",
+      "source": "Index",
+      "category": "politika",
+      "xml_category": "vijesti",
+      "tags": [],
+      "image": null
+    },
+    {
+      "id": "index-6",
+      "title": "SAD prije tri dana proširio novi AI sustav na sve centre kontrole leta",
+      "summary": "SAD JE PRIZEMLJIO sve letove zbog kvara komunikacija, samo tri dana nakon širenja novog AI sustava SMART na kontrolu leta u cijeloj zemlji.",
+      "link": "https://www.index.hr/vijesti/clanak/sad-prije-tri-dana-prosirio-novi-ai-sustav-na-sve-centre-kontrole-leta/2856880.aspx",
+      "published": "2026-11-13T22:13:00.000Z",
+      "source": "Index",
+      "category": "ai",
+      "xml_category": "vijesti",
+      "tags": [],
+      "image": null
+    },
+    {
+      "id": "al-jazeera-17",
+      "title": "LIVE: FAA reopens airspace after ground stop blamed on ‘outdated equipment’",
+      "summary": "US air regulators have reopened airspace hours after a ground stop halted flights nationwide.",
+      "link": "https://www.aljazeera.com/news/liveblog/2026/11/13/groundling-live?traffic_source=rss",
+      "published": "2026-11-13T22:02:07.000Z",
+      "source": "Al Jazeera",
+      "category": "ai",
+      "xml_category": "news",
+      "tags": [],
+      "image": null
+    },
+    {
+      "id": "jutarnji-3",
+      "title": "Podaci iz supermarketa, barova i restorana zaprepastili Francusku: ‘Šok. Ovo je talijanska invazija!‘",
+      "summary": "Talijanski prosecco prvi put u povijesti prestigao je francuski šampanjac u tamošnjim supermarketima, pokazali su podaci časopisa Rayon Boissons. Kod francuskih potrošača, unazad godinu dana, prodaja prosecca porasla je za 10,1 posto, na 25,31 milijun boca, dok je prodaja šampanjca pala za 4,6 posto",
+      "link": "https://www.jutarnji.hr/vijesti/svijet/podaci-iz-supermarketa-barova-i-restorana-zaprepastili-francusku-sok-ovo-je-talijanska-invazija-15765289",
+      "published": "2026-11-13T21:59:00.000Z",
+      "source": "Jutarnji",
+      "category": "economy",
+      "xml_category": "svijet",
+      "tags": [],
+      "image": "https://media.jutarnji.hr/images/slike/2026/11/12/f_39951092_1280.jpg?1794635534"
+    },
+    {
+      "id": "index-7",
+      "title": "Preko 3000 aviona leti prema SAD-u, gotovo 7000 letova kasni ili je otkazano",
+      "summary": "POSLJEDICE se već osjećaju na svim američkim aerodromima.",
+      "link": "https://www.index.hr/vijesti/clanak/preko-3000-aviona-leti-prema-sadu-gotovo-7000-letova-kasni-ili-je-otkazano/2856878.aspx",
+      "published": "2026-11-13T21:52:00.000Z",
+      "source": "Index",
+      "category": "general",
+      "xml_category": "vijesti",
+      "tags": [],
+      "image": null
+    },
+    {
+      "id": "jutarnji-4",
+      "title": "Sklopljen je novi moćan vojni savez na Bliskom istoku",
+      "summary": "Turska i Katar u petak su potpisali sporazum o uzajamnoj obrani s ciljem jačanja kolektivne obrane i promoviranja regionalne sigurnosti, te su obećali zajednički odgovor protiv bilo kakvog izvanjskog oružanog napada na bilo koju od zemalja, stoji u zajedničkoj izjavi nakon sastanka čelnika te dvije.",
+      "link": "https://www.jutarnji.hr/vijesti/svijet/sklopljen-je-novi-mocan-vojni-savez-na-bliskom-istoku-15765288",
+      "published": "2026-11-13T21:48:00.000Z",
+      "source": "Jutarnji",
+      "category": "general",
+      "xml_category": "svijet",
+      "tags": [],
+      "image": "https://media.jutarnji.hr/images/slike/2026/11/13/f_39944591_1280.jpg?1794635534"
+    },
+    {
+      "id": "n1-info-1",
+      "title": "Paraliziran zračni promet u SAD-u, zabranjena polijetanja u svim zračnim lukama",
+      "summary": "Zračni promet diljem Sjedinjenih Američkih Država u petak je suočen s velikim poremećajima nakon kvara na komunikacijskim sustavima kontrole zračnog p",
+      "link": "https://n1info.hr/svijet/paraliziran-zracni-promet-u-sad-u-obustavljena-polijetanja-u-svim-zracnim-lukama/",
+      "published": "2026-11-13T21:33:00.000Z",
+      "source": "N1 Info",
+      "category": "general",
+      "xml_category": "svijet",
+      "tags": [],
+      "image": "https://n1info.hr/media/images/2026/11/13/1794606919_izyan-sultanali-5bW0VFvX1_M-unsplash.width-1200.jpg"
+    },
+    {
+      "id": "al-jazeera-18",
+      "title": "US flights resume after FAA lifts hours-long nationwide ground stop",
+      "summary": "US officials say air control centres affected by &#039;communication issues&#039;, but no threat detected.",
+      "link": "https://www.aljazeera.com/news/2026/11/13/us-grounds-all-flights-after-communication-issue?traffic_source=rss",
+      "published": "2026-11-13T21:32:08.000Z",
+      "source": "Al Jazeera",
+      "category": "general",
+      "xml_category": "news",
+      "tags": [],
+      "image": null
+    },
+    {
+      "id": "index-8",
+      "title": "Francuska i Njemačka biraju novog šefa Europske središnje banke",
+      "summary": "DVA SU KANDIDATA za novog predsjednika Europske središnje banke. Španjolac Pablo Hernández de Cos favorit je zahvaljujući dogovoru Francuske i Njemačke o raspodjeli ključnih funkcija u banci.",
+      "link": "https://www.index.hr/vijesti/clanak/francuska-i-njemacka-biraju-novog-sefa-europske-sredisnje-banke/2856871.aspx",
+      "published": "2026-11-13T21:22:00.000Z",
+      "source": "Index",
+      "category": "general",
+      "xml_category": "vijesti",
+      "tags": [],
+      "image": null
+    },
+    {
+      "id": "jutarnji-5",
+      "title": "Obustavljeni svi letovi u SAD-u, zabrana će trajati satima. Američki ministar: ‘Ovo nije novi 11. rujna‘",
+      "summary": "Na snazi je obustava svih letova u SAD-u Zbog zabrane je došlo do problema u sustavu komunikacije Ministar prometa: Zahvaćene su sve kontrole zračnog prometa Ministar domovinske sigurnosti: Svi su na sigurnom, ovo nije novi 11. rujna NOVO 23.50 - Dvije zračne luke u SAD-u navodno su već popunile sv.",
+      "link": "https://www.jutarnji.hr/vijesti/svijet/izvanredna-situacija-u-sad-u-obustavljeni-svi-odlazni-letovi-15765283",
+      "published": "2026-11-13T21:22:00.000Z",
+      "source": "Jutarnji",
+      "category": "politika",
+      "xml_category": "svijet",
+      "tags": [],
+      "image": "https://media.jutarnji.hr/images/slike/2026/11/13/f_39961724_1280.jpg?1794635534"
+    },
+    {
+      "id": "bbc-15",
+      "title": "Watch: Cruise ship seen sinking after collision with cargo ship in New Orleans",
+      "summary": "All passengers have been accounted for after a cargo ship collided with a docked cruise ship.",
+      "link": "https://www.bbc.co.uk/news/videos/ck4gn4y77m40o?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-13T21:15:24.000Z",
+      "source": "BBC",
+      "category": "general",
+      "xml_category": "",
+      "tags": [],
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/880d/live/7334ea60-dfad-11f1-b441-2b33b063138f.jpg"
+    },
+    {
+      "id": "bbc-1",
+      "title": "Microsoft 'deeply sorry' for global outage as it reports broad recovery",
+      "summary": "Experts say the event is a \"stark reminder\" of how heavily the world relies on a small group of big tech providers.",
+      "link": "https://www.bbc.co.uk/news/articles/c6rrg51rkz09o?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-13T21:14:22.000Z",
+      "source": "BBC",
+      "category": "general",
+      "xml_category": "",
+      "tags": [],
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5f18/live/9b3a5370-df98-11f1-a9ad-6774a3284d10.jpg"
+    },
+    {
+      "id": "index-9",
+      "title": "Američka vojska intervenirala zbog dronova iznad baze u Britaniji",
+      "summary": "AMERIČKO ratno zrakoplovstvo interveniralo je zbog sumnjivih dronova iznad baze RAF Lakenheath, no sigurnost osoblja i opreme nije ugrožena.",
+      "link": "https://www.index.hr/vijesti/clanak/americka-vojska-intervenirala-zbog-dronova-iznad-baze-u-britaniji/2856868.aspx",
+      "published": "2026-11-13T21:05:00.000Z",
+      "source": "Index",
+      "category": "general",
+      "xml_category": "vijesti",
+      "tags": [],
+      "image": null
+    },
+    {
+      "id": "jutarnji-6",
+      "title": "Tvrda desnica mogla bi preuzeti četvrtu najveću zemlju EU: ‘Počinje čišćenje‘",
+      "summary": "U noći s četvrtka na petak u Španjolskoj, četvrtoj najbrojnijoj članici EU, započela je službena kampanja za izbore zakazane za 29. studenoga, a desnica je uvjerena da će postići većinu koja joj je 2023. godine izmakla u posljednji čas. Prvo istraživanje javnog mnijenja koje su proveli dnevni list E",
+      "link": "https://www.jutarnji.hr/vijesti/svijet/tvrda-desnica-mogla-bi-preuzeti-cetvrtu-najvecu-zemlju-eu-pocinje-ciscenje-15765278",
+      "published": "2026-11-13T21:03:53.000Z",
+      "source": "Jutarnji",
+      "category": "general",
+      "xml_category": "svijet",
+      "tags": [],
+      "image": "https://media.jutarnji.hr/images/slike/2026/11/13/f_39951473_1280.jpg?1794635534"
+    },
+    {
+      "id": "index-10",
+      "title": "Izrael ponovno napada Gazu unatoč primirju. Poginulo šestero Palestinaca",
+      "summary": "ŠEST Palestinaca je poginulo, a deseci su ranjeni u izraelskim napadima širom Gaze, unatoč primirju. Napadi su se dogodili u središnjoj i sjevernoj Gazi te na jugu enklave, uzrokujući nove žrtve.",
+      "link": "https://www.index.hr/vijesti/clanak/izrael-ponovno-napada-gazu-unatoc-primirju-poginulo-sestero-palestinaca/2856861.aspx",
+      "published": "2026-11-13T21:01:00.000Z",
+      "source": "Index",
+      "category": "general",
+      "xml_category": "vijesti",
+      "tags": [],
+      "image": null
+    },
+    {
+      "id": "index-11",
+      "title": "Sin bivšeg šefa CIA-e uhićen zbog dječje pornografije",
+      "summary": "SIN BIVŠEG direktora CIA-e, Kyle Brennan, optužen je za prijenos dječje pornografije. Istraga je pokrenuta 2024. godine nakon dojave, a FBI je na njegovom mobitelu pronašao 88 spornih fotografija.",
+      "link": "https://www.index.hr/vijesti/clanak/sin-bivseg-sefa-ciae-uhicen-zbog-djecje-pornografije/2856862.aspx",
+      "published": "2026-11-13T20:53:00.000Z",
+      "source": "Index",
+      "category": "general",
+      "xml_category": "vijesti",
+      "tags": [],
+      "image": null
+    },
+    {
+      "id": "al-jazeera-19",
+      "title": "Pope Leo cheered on return to Peru city where he served as bishop",
+      "summary": "An estimated 1.5 million people have welcomed Pope Leo XIV back to the city in Peru where he once served as bishop.",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/11/13/pope-leo-cheered-on-return-to-peru-city-where-he-served-as-bishop?traffic_source=rss",
+      "published": "2026-11-13T20:52:31.000Z",
+      "source": "Al Jazeera",
+      "category": "general",
+      "xml_category": "news",
+      "tags": [],
+      "image": null
+    },
+    {
+      "id": "index-12",
       "title": "Erdogan potpisao novi obrambeni sporazum s Katarom",
       "summary": "TURSKA i Katar potpisali su sporazum o uzajamnoj obrani koji jamči zajednički odgovor na napade te jača vojnu i energetsku suradnju dviju zemalja.",
       "link": "https://www.index.hr/vijesti/clanak/erdogan-potpisao-novi-obrambeni-sporazum-s-katarom/2856864.aspx",
@@ -15,7 +567,7 @@
       "image": null
     },
     {
-      "id": "n1-info-0",
+      "id": "n1-info-3",
       "title": "Microsoft se ispričao zbog globalnog pada svojih usluga",
       "summary": "Microsoft se u petak ispričao zbog globalnog pada svojih internetskih alata, poput Outlooka, koji od četvrtka pogađa brojne korisnike i organizacije d",
       "link": "https://n1info.hr/svijet/microsoft-se-ispricao-zbog-globalnog-pada-svojih-usluga/",
@@ -27,7 +579,7 @@
       "image": "https://n1info.hr/media/images/2026/11/13/1794602576_000_D7DX7NQ.width-1200.jpg"
     },
     {
-      "id": "index-1",
+      "id": "index-13",
       "title": "Biden: Netanyahu mi je obećavao zaštititi civile, a onda bi ih opet napao",
       "summary": "BIDEN u memoarima optužuje Netanyahua za kršenje obećanja o zaštiti civila u Gazi te brani svoju mentalnu oštrinu tijekom vođenja države u krizi.",
       "link": "https://www.index.hr/vijesti/clanak/biden-netanyahu-mi-je-obecavao-zastititi-civile-a-onda-bi-ih-opet-napao/2856859.aspx",
@@ -39,7 +591,7 @@
       "image": null
     },
     {
-      "id": "jutarnji-0",
+      "id": "jutarnji-7",
       "title": "Vojna groznica u Berlinu: Otkriveno na što će Nijemci potrošiti rekordni iznos!",
       "summary": "Lijeva stranka pozvala je na oporezivanje ekstraprofita tvornica oružja uoči rasprave u Bundestagu o proračunu za 2027. Izdvajanje za obranu doseže petinu godišnjeg njemačkog saveznog proračuna, a vlada je u ponedjeljak dogovorila izdvajanje dodatnih 300 milijuna eura za daljnji razvoj borbenog zrak",
       "link": "https://www.jutarnji.hr/vijesti/svijet/vojna-groznica-u-berlinu-otkriveno-na-sto-ce-nijemci-potrositi-rekordni-iznos-15765267",
@@ -48,7 +600,7 @@
       "category": "general",
       "xml_category": "svijet",
       "tags": [],
-      "image": "https://media.jutarnji.hr/images/slike/2026/11/11/f_27752749_1280.jpg?1794602165"
+      "image": "https://media.jutarnji.hr/images/slike/2026/11/11/f_27752749_1280.jpg?1794635534"
     },
     {
       "id": "al-jazeera-0",
@@ -63,7 +615,7 @@
       "image": null
     },
     {
-      "id": "index-2",
+      "id": "index-14",
       "title": "SpaceX danas lansira najveću raketu na svijetu. Čeka je povijesni test",
       "summary": "SPACEX danas lansira najveću raketu Starship u povijesnom pokušaju hvatanja oba dijela mehaničkim rukama radi misija na Mjesec i Mars.",
       "link": "https://www.index.hr/vijesti/clanak/spacex-danas-lansira-najvecu-raketu-na-svijetu-ceka-je-povijesni-test/2856857.aspx",
@@ -87,7 +639,7 @@
       "image": null
     },
     {
-      "id": "index-3",
+      "id": "index-15",
       "title": "VIDEO Tanker udario u turistički brod u SAD-u. Ljudi završili u rijeci",
       "summary": "SNIMKE koje su se pojavile na društvenim mrežama prikazuju trenutak kada znatno veći tanker udara u turistički brod s karakterističnim velikim kotačem na krmi.",
       "link": "https://www.index.hr/vijesti/clanak/video-tanker-udario-u-turisticki-brod-u-sadu-ljudi-zavrsili-u-rijeci/2856854.aspx",
@@ -99,7 +651,7 @@
       "image": null
     },
     {
-      "id": "index-4",
+      "id": "index-16",
       "title": "Putin je prije rata tražio puno. Sad, nakon gotovo pet godina, traži još više",
       "summary": "PUTIN kao uvjet za mir u Ukrajini ponovno traži izmjenu sigurnosnog sustava Europe po mjeri Rusije, ponavljajući zahtjeve iz 2021. koje je Zapad već odbio. Europa je isključena iz pregovora.",
       "link": "https://www.index.hr/vijesti/clanak/putin-je-prije-rata-trazio-puno-sad-nakon-gotovo-pet-godina-trazi-jos-vise/2856853.aspx",
@@ -111,7 +663,7 @@
       "image": null
     },
     {
-      "id": "n1-info-2",
+      "id": "n1-info-5",
       "title": "Upozorenje iz Europe: Rusi žele preoblikovati budućnost kontinenta po svojim uvjetima",
       "summary": "Dok pregovori o završetku ruskog rata u Ukrajini donose malo napretka, Moskva nastoji postići širi sporazum o europskoj sigurnosti, što izaziva zabrin",
       "link": "https://n1info.hr/svijet/upozorenje-iz-europe-rusi-zele-preoblikovati-buducnost-kontinenta-po-svojim-uvjetima/",
@@ -147,7 +699,7 @@
       "image": null
     },
     {
-      "id": "index-5",
+      "id": "index-17",
       "title": "Trump ulagao u Nvidiju dok je donosio odluke koje su joj išle u korist",
       "summary": "NOVA analiza otkriva da je Trump kupio dionice Nvidije vrijedne milijune dolara netom prije nego što je njegova administracija donijela odluke koje su pogodovale tvrtki u poslovanju s Kinom.",
       "link": "https://www.index.hr/vijesti/clanak/trump-ulagao-u-nvidiju-dok-je-donosio-odluke-koje-su-joj-isle-u-korist/2856847.aspx",
@@ -171,7 +723,7 @@
       "image": null
     },
     {
-      "id": "index-6",
+      "id": "index-18",
       "title": "VIDEO Vozač u Detroitu pustio dva konja u bus",
       "summary": "DVA MUŠKARCA uvela su konje u gradski autobus u Detroitu kako bi snimili video za promociju crnih kauboja. Iako je cilj bio pozitivan, prijevoznik istražuje incident zbog sigurnosnih rizika.",
       "link": "https://www.index.hr/vijesti/clanak/video-vozac-u-detroitu-pustio-dva-konja-u-bus/2856846.aspx",
@@ -183,7 +735,7 @@
       "image": null
     },
     {
-      "id": "n1-info-4",
+      "id": "n1-info-7",
       "title": "Europa dogovorila tko ići na pregovore o Ukrajini. Moskva: Nemamo ništa protiv, ali imamo uvjet",
       "summary": "Europski čelnici dogovorili su da će u budućim pregovorima o završetku rata u Ukrajini Europu predstavljati pet država, zajedno s institucijama Europs",
       "link": "https://n1info.hr/svijet/europa-dogovorila-tko-ici-na-pregovore-o-ukrajini-moskva-nemamo-nista-protiv-ali-imamo-uvjet/",
@@ -195,7 +747,7 @@
       "image": "https://n1info.hr/media/images/2026/11/13/1794600017_000_D3GD4MA.width-1200.jpg"
     },
     {
-      "id": "index-7",
+      "id": "index-19",
       "title": "Kako strani influenceri pomažu Rusiji prodati rat",
       "summary": "RUSIJA je organizirala plaćeno putovanje za mlade strance u okupiranu Ukrajinu kako bi stvorila lažnu, pozitivnu sliku života pod svojom vlašću i širila propagandu putem društvenih mreža.",
       "link": "https://www.index.hr/vijesti/clanak/kako-strani-influenceri-pomazu-rusiji-prodati-rat/2856844.aspx",
@@ -219,7 +771,7 @@
       "image": null
     },
     {
-      "id": "bbc-3",
+      "id": "bbc-6",
       "title": "Nvidia scandal fallout widens as Trump's treasury secretary blames cabinet colleague",
       "summary": "Scott Bessent suggests Howard Lutnick’s commerce department failed to ban exports of Nvidia's chips to a firm thought to have links with China.",
       "link": "https://www.bbc.co.uk/news/articles/cqvg2d1eg7zro?at_medium=RSS&at_campaign=rss",
@@ -255,7 +807,7 @@
       "image": null
     },
     {
-      "id": "jutarnji-1",
+      "id": "jutarnji-8",
       "title": "Najbogatija država Europske unije hitno traži radnike, prosječna plaća je veća od 7000 eura",
       "summary": "Jedna od najbogatijih europskih država suočava se s velikim nedostatkom radne snage. Luksemburg, zemlja s najvišim prosječnim plaćama u Europskoj uniji, sve teže pronalazi kvalificirane radnike, zbog čega su tamošnje vlasti odlučile olakšati zapošljavanje stranaca u 20 deficitarnih zanimanja. Prema.",
       "link": "https://www.jutarnji.hr/vijesti/svijet/najbogatija-drzava-europske-unije-hitno-trazi-radnike-prosjecna-placa-je-veca-od-7000-eura-15765253",
@@ -264,7 +816,7 @@
       "category": "general",
       "xml_category": "svijet",
       "tags": [],
-      "image": "https://media.jutarnji.hr/images/slike/2026/11/13/f_39957727_1280.jpg?1794602165"
+      "image": "https://media.jutarnji.hr/images/slike/2026/11/13/f_39957727_1280.jpg?1794635534"
     },
     {
       "id": "index-10",
@@ -351,7 +903,7 @@
       "image": null
     },
     {
-      "id": "n1-info-5",
+      "id": "n1-info-8",
       "title": "Kako je CIA koristila Ukrajinu kao polazište za tajni rat protiv Rusije",
       "summary": "Projekt Aerodynamic postao je hladnoratovski obrazac prema kojem je Washington iskorištavao poslijeratno siromaštvo i antisovjetsko raspoloženje. Kakv",
       "link": "https://n1info.hr/svijet/cia-i-ukrajina-tajni-hladni-rat-protiv-rusije/",
@@ -363,7 +915,7 @@
       "image": "https://n1info.hr/media/images/2026/11/13/1794574734_photo-collage.width-1200.png_79.png"
     },
     {
-      "id": "bbc-6",
+      "id": "bbc-9",
       "title": "Democratic Senate leader Schumer set to face leadership challenge",
       "summary": "Maryland Senator Van Hollen says \"new leadership\" is needed for Democrats following the party's recent midterm successes.",
       "link": "https://www.bbc.co.uk/news/articles/cmy4930jq749o?at_medium=RSS&at_campaign=rss",
@@ -483,7 +1035,7 @@
       "image": null
     },
     {
-      "id": "jutarnji-2",
+      "id": "jutarnji-9",
       "title": "Plenković otkrio tko će pregovarati s Rusima, Merz prijeti zbog Ukrajine: ‘Ili svi ili blokiramo cijeli proračun!‘",
       "summary": "Europu će u pregovorima između Ukrajine i Rusije predstavljati čelnici europskih institucija i pet zemalja, Njemačke, Francuske, Velike Britanije, Italije i Poljske, rekao je u petak u Dublinu hrvatski premijer Andrej Plenković. “Dogovorili smo se da uz čelnike europskih institucija, zemlje tzv. For",
       "link": "https://www.jutarnji.hr/vijesti/svijet/plenkovic-otkrio-tko-ce-pregovarati-s-rusima-merz-prijeti-zbog-ukrajine-ili-svi-ili-blokiramo-cijeli-proracun-15765235",
@@ -492,10 +1044,10 @@
       "category": "general",
       "xml_category": "svijet",
       "tags": [],
-      "image": "https://media.jutarnji.hr/images/slike/2026/11/13/f_39958064_1280.jpg?1794602165"
+      "image": "https://media.jutarnji.hr/images/slike/2026/11/13/f_39958064_1280.jpg?1794635534"
     },
     {
-      "id": "bbc-0",
+      "id": "bbc-2",
       "title": "Why is Microsoft's outage lasting so long and will emails be lost?",
       "summary": "Microsoft says it is continuing to restore services including Outlook and Teams following a global outage.",
       "link": "https://www.bbc.co.uk/news/articles/cwvg238zrnm5o?at_medium=RSS&at_campaign=rss",
@@ -507,7 +1059,7 @@
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/dddf/live/8578f720-df49-11f1-b441-2b33b063138f.jpg"
     },
     {
-      "id": "bbc-5",
+      "id": "bbc-7",
       "title": "The Peruvian city that has embraced Pope Leo as one of its own",
       "summary": "Pope Leo XIV is in Peru as part of his Latin America tour, just weeks after having surgery for lung cancer.",
       "link": "https://www.bbc.co.uk/news/articles/cwg7l8n7dx5mo?at_medium=RSS&at_campaign=rss",
@@ -687,7 +1239,7 @@
       "image": null
     },
     {
-      "id": "n1-info-14",
+      "id": "n1-info-17",
       "title": "\"Rasistička kampanja\": Eisenkot žestoko prozvao Netanyahua zbog napada na Arape",
       "summary": "General Gadi Eisenkot, zadužen za formiranje izraelske vlade, u petak je osudio, kako je kazao, \"rasističku i agresivnu kampanju\" koju premijer u odla",
       "link": "https://n1info.hr/svijet/rasisticka-kampanja-eisenkot-zestoko-prozvao-netanyahua-zbog-napada-na-arape/",
@@ -711,7 +1263,7 @@
       "image": null
     },
     {
-      "id": "jutarnji-3",
+      "id": "jutarnji-10",
       "title": "Procurio još jedan skandal Jensena Huanga, mobilizacija u Washingtonu: ‘Potencijalno, ovo je za opoziv!‘",
       "summary": "Suosnivač i dosadašnji izvršni direktor Nvidije Jensen Huang (63) napustio je čelo tvrtke nakon niza otkrića o izvanbračnim vezama, među kojima je i ona sa ženom koju američke obavještajne službe sumnjiče za špijunažu u korist Kine, a dionice tehnološkog diva nakon objave su pale i do 14 posto. Prem",
       "link": "https://www.jutarnji.hr/vijesti/svijet/procurio-jos-jedan-skandal-jensena-huanga-mobilizacija-u-washingtonu-potencijalno-ovo-je-za-opoziv-15765209",
@@ -720,7 +1272,7 @@
       "category": "general",
       "xml_category": "svijet",
       "tags": [],
-      "image": "https://media.jutarnji.hr/images/slike/2026/11/13/f_39951945_1280.jpg?1794602165"
+      "image": "https://media.jutarnji.hr/images/slike/2026/11/13/f_39951945_1280.jpg?1794635534"
     },
     {
       "id": "al-jazeera-14",
@@ -747,7 +1299,7 @@
       "image": null
     },
     {
-      "id": "bbc-2",
+      "id": "bbc-5",
       "title": "Rosenberg: Uncompromising Putin ups demands for peace with Ukraine",
       "summary": "The fact the question of European security now features in discussions is viewed in Moscow as a victory, BBC Russia Editor Steve Rosenberg says.",
       "link": "https://www.bbc.co.uk/news/articles/cq39glwprknjo?at_medium=RSS&at_campaign=rss",
@@ -759,16 +1311,16 @@
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7a8d/live/606ff370-df85-11f1-93e1-3b657b665bcf.jpg"
     },
     {
-      "id": "jutarnji-1",
-      "title": "Nijemcima su haračili morem, Britanci su bili na rubu, a onda je jedan podvig promijenio sve",
+      "id": "jutarnji-11",
+      "title": "Nijemci su haračili morem, Britanci su bili na rubu, a onda je jedan podvig promijenio sve",
       "summary": "- Sredinom i krajem 1940. i Nijemcima se sve poklopilo. Dobili su pristup norveškoj i francuskoj obali, a to je njihovim podmornicama enormno olakšalo izlazak u Atlantik - kraće su putovale i postale su puno efikasnije. To je bila ta prva prekretnica u ratu, kad je sve kliknulo. Tako da su Nijemci..",
       "link": "https://www.jutarnji.hr/vijesti/svijet/nijemcima-su-haracili-morem-britanci-su-bili-na-rubu-a-onda-je-jedan-podvig-promijenio-sve-15765207",
-      "published": "2026-11-13T16:40:31.000Z",
+      "published": "2026-11-13T16:40:00.000Z",
       "source": "Jutarnji",
       "category": "general",
       "xml_category": "svijet",
       "tags": [],
-      "image": "https://media.jutarnji.hr/images/slike/2026/11/13/f_39958118_1280.jpg?1794588812"
+      "image": "https://media.jutarnji.hr/images/slike/2026/11/13/f_39958117_1280.jpg?1794635534"
     },
     {
       "id": "al-jazeera-15",
@@ -831,7 +1383,7 @@
       "image": null
     },
     {
-      "id": "n1-info-16",
+      "id": "n1-info-19",
       "title": "Kako Peking provodi operacije utjecaja? \"Šapnula je Huangu, on Trumpu – i Kina je dobila što je htjela\"",
       "summary": "Profesor Anthony Glees, stručnjak za obavještajne službe i politiku, upozorio je u razgovoru za N1 BiH da se Zapad već nalazi u svojevrsnom hibridnom",
       "link": "https://n1info.hr/svijet/kako-peking-provodi-operacije-utjecaja-sapnula-je-huangu-on-trumpu-i-kina-je-dobila-sto-je-htjela/",
@@ -915,7 +1467,7 @@
       "image": null
     },
     {
-      "id": "bbc-4",
+      "id": "bbc-8",
       "title": "German spies handed new powers to tackle 'hybrid threats' from abroad",
       "summary": "German reforms mean foreign and domestic intelligence services will have greater powers to combat espionage, terrorism and sabotage.",
       "link": "https://www.bbc.co.uk/news/articles/c6jre3z03w4go?at_medium=RSS&at_campaign=rss",
@@ -951,7 +1503,7 @@
       "image": null
     },
     {
-      "id": "jutarnji-4",
+      "id": "jutarnji-12",
       "title": "‘Neki se boje reprize Anchoragea. Imam jednu veliku molbu za Trumpa uoči susreta s Putinom‘",
       "summary": "Njemački kancelar Friedrich Merz pozvao je u petak američkog predsjednika Donalda Trumpa da tijekom očekivanih razgovora o Ukrajini s ruskim predsjednikom Vladimirom Putinom sljedećeg tjedna u Kini ne priređuje iznenađenja europskim saveznicima. \"Neki ovdje u Dublinu strahuju da bi se mogao ponoviti",
       "link": "https://www.jutarnji.hr/vijesti/svijet/neki-se-boje-reprize-anchoragea-imam-jednu-veliku-molbu-za-trumpa-uoci-susreta-s-putinom-15765193",
@@ -960,7 +1512,7 @@
       "category": "general",
       "xml_category": "svijet",
       "tags": [],
-      "image": "https://media.jutarnji.hr/images/slike/2026/11/13/f_39951312_1280.jpg?1794602165"
+      "image": "https://media.jutarnji.hr/images/slike/2026/11/13/f_39951312_1280.jpg?1794635534"
     },
     {
       "id": "index-19",
@@ -999,7 +1551,7 @@
       "image": null
     },
     {
-      "id": "bbc-12",
+      "id": "bbc-13",
       "title": "At least 24 killed after bus collides with truck in north-east India",
       "summary": "Several of the deceased are college students, according to local official Atul Bora, but they have not yet been publicly identified.",
       "link": "https://www.bbc.co.uk/news/articles/c6r7g5lp1zrxo?at_medium=RSS&at_campaign=rss",
@@ -1011,7 +1563,7 @@
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d6d0/live/abb1cd00-df75-11f1-b844-3146c4983677.jpg"
     },
     {
-      "id": "bbc-13",
+      "id": "bbc-16",
       "title": "Watch: Divers explore US ship sunk off Florida coast to create new reef",
       "summary": "The ship was intentionally sunk off the coast of Florida in order to create the world's largest artificial ocean reef.",
       "link": "https://www.bbc.co.uk/news/videos/ckqx5ryx905qo?at_medium=RSS&at_campaign=rss",
@@ -1071,7 +1623,7 @@
       "image": null
     },
     {
-      "id": "jutarnji-5",
+      "id": "jutarnji-13",
       "title": "VIDEO Premijer i ministar uhvaćeni u bizarnom razgovoru, nisu znali da ih snimaju: ‘Zbog svog ku**a?‘",
       "summary": "Australski premijer Anthony Albanese i ministar energetike Chris Bowen našli su se u pomalo neugodnoj situaciji nakon što su tijekom međunarodne klimatske konferencije COP31 u Turskoj snimljeni kako razgovaraju o tome gdje drže mobitele i kakve bi posljedice njihovo zračenje moglo imati na zdravlje.",
       "link": "https://www.jutarnji.hr/vijesti/svijet/video-premijer-i-ministar-uhvaceni-u-bizarnom-razgovoru-nisu-znali-da-ih-snimaju-zbog-svog-ku-ca-15765181",
@@ -1080,10 +1632,10 @@
       "category": "politika",
       "xml_category": "svijet",
       "tags": [],
-      "image": "https://media.jutarnji.hr/images/slike/2026/11/13/f_39958841_1280.jpg?1794602165"
+      "image": "https://media.jutarnji.hr/images/slike/2026/11/13/f_39958841_1280.jpg?1794635534"
     },
     {
-      "id": "jutarnji-6",
+      "id": "jutarnji-14",
       "title": "Vladimir Putin sprema novu veliku prevaru, Amerikanci su pristali!?",
       "summary": "Ruski čelnik Vladimir Putin pojačava svoje napore kako bi uvjerio američke dužnosnike da prihvate rusku izmišljenu sliku stanja na bojištu. Tijekom sastanka u četvrtak s posebnim izaslanicima američkog predsjednika Donalda Trumpa - njegovim dugogodišnjim prijateljem i poslovnim suradnikom Steveom Wi",
       "link": "https://www.jutarnji.hr/vijesti/svijet/vladimir-putin-sprema-novu-veliku-prevaru-amerikanci-su-pristali-15765177",
@@ -1092,7 +1644,7 @@
       "category": "general",
       "xml_category": "svijet",
       "tags": [],
-      "image": "https://media.jutarnji.hr/images/slike/2026/11/13/f_39958048_1280.gif?1794602165"
+      "image": "https://media.jutarnji.hr/images/slike/2026/11/13/f_39958048_1280.gif?1794635534"
     },
     {
       "id": "index-2",
@@ -1203,7 +1755,7 @@
       "image": null
     },
     {
-      "id": "jutarnji-7",
+      "id": "jutarnji-15",
       "title": "Diljem svijeta kaos zbog Microsofta, šteta u Japanu i Australiji golema, a u Hrvatskoj - gotovo ništa!",
       "summary": "Britanska policija pozvala je građane da ih nazovu, umjesto da kaznena djela prijavljuju internetom, a sustav javnog zdravstva u toj zemlji prebacio se djelomično na izdavanje papirnatih recepata zbog prekida rada Microsoftovih računalnih sustava diljem svijeta. Prekid rada Microsoftova e-mail servi",
       "link": "https://www.jutarnji.hr/vijesti/svijet/diljem-svijeta-kaos-zbog-microsofta-steta-u-japanu-i-australiji-golema-a-hrvatska-gotovo-nista-15765164",
@@ -1212,10 +1764,10 @@
       "category": "general",
       "xml_category": "svijet",
       "tags": [],
-      "image": "https://media.jutarnji.hr/images/slike/2026/11/13/f_39957430_1280.jpg?1794602165"
+      "image": "https://media.jutarnji.hr/images/slike/2026/11/13/f_39957430_1280.jpg?1794635534"
     },
     {
-      "id": "jutarnji-8",
+      "id": "jutarnji-16",
       "title": "Novi udarac za Informer",
       "summary": "Informer TV, Aleksandru Vučiću najodanije medijsko uporište, doživio je novi udarac tako što se pozicija te televizije drastično izmijenila na popisima kanala kabelskih i telekomunikacijskih operatera u Srbiji. Kod Yettela, odnosno na platformi EON, Informer TV je s dosadašnjeg 11. mjesta premješten",
       "link": "https://www.jutarnji.hr/vijesti/svijet/novi-udarac-za-informer-15765161",
@@ -1224,10 +1776,10 @@
       "category": "general",
       "xml_category": "svijet",
       "tags": [],
-      "image": "https://media.jutarnji.hr/images/slike/2026/11/13/f_39904338_1280.gif?1794602165"
+      "image": "https://media.jutarnji.hr/images/slike/2026/11/13/f_39904338_1280.gif?1794635534"
     },
     {
-      "id": "jutarnji-9",
+      "id": "jutarnji-17",
       "title": "Bivši zapovjednik Armije BiH osuđen na 10 godina zatvora. Dokazano da je ubio ranjenog časnika HVO-a",
       "summary": "Sud Bosne i Hercegovine u petak je nepravomoćno proglasio krivim za ratne zločine nad pripadnicima HVO-a bivšeg zapovjednika Armije BiH Šerifa Patkovića i osudio ga na deset godina zatvora. Patković, umirovljen u činu pukovnika, osuđen je jer je potkraj siječnja 1993. godine u selu Dusina na područj",
       "link": "https://www.jutarnji.hr/vijesti/svijet/bivsi-zapovjednik-armije-bih-osuden-na-10-godina-zatvora-dokazano-da-je-ubio-ranjenog-casnika-hvo-a-15765158",
@@ -1236,7 +1788,7 @@
       "category": "general",
       "xml_category": "svijet",
       "tags": [],
-      "image": "https://media.jutarnji.hr/images/slike/2026/11/13/f_31112875_1280.jpg?1794602165"
+      "image": "https://media.jutarnji.hr/images/slike/2026/11/13/f_31112875_1280.jpg?1794635534"
     },
     {
       "id": "al-jazeera-16",
@@ -1335,7 +1887,7 @@
       "image": null
     },
     {
-      "id": "bbc-7",
+      "id": "bbc-10",
       "title": "Aide to fugitive Ukrainian ex-PM wounded in latest Moscow car bombing",
       "summary": "Sergei Zavorotny, now a journalist and commentator, was previously an adviser to Ukrainian ex-prime minister Mykola Azarov.",
       "link": "https://www.bbc.co.uk/news/articles/c5gm3gnwl42eo?at_medium=RSS&at_campaign=rss",
@@ -1383,7 +1935,7 @@
       "image": null
     },
     {
-      "id": "jutarnji-10",
+      "id": "jutarnji-18",
       "title": "Ovo su frapantni zahtjevi Rusije na pregovorima u Abu Dhabiju: ‘Njih izbacite iz NATO-a‘",
       "summary": "Tijekom ovotjednih multilateralnih pregovora o okončanju rata u Ukrajini u Abu Dhabiju, rusko izaslanstvo neformalno je iznijelo odredbe prijedloga \"novog europskog sigurnosnog poretka\" - na čemu Kremlj trenutačno inzistira kao širem okviru u sklopu kojeg bi se rješavalo i ukrajinsko pitanje - koje.",
       "link": "https://www.jutarnji.hr/vijesti/svijet/ovo-su-frapantni-zahtjevi-rusije-na-pregovorima-u-abu-dhabiju-zelimo-da-njih-izbacite-iz-nato-a-15765139",
@@ -1392,7 +1944,7 @@
       "category": "general",
       "xml_category": "svijet",
       "tags": [],
-      "image": "https://media.jutarnji.hr/images/slike/2026/11/13/f_33323751_1280.jpg?1794602165"
+      "image": "https://media.jutarnji.hr/images/slike/2026/11/13/f_33323751_1280.jpg?1794635534"
     },
     {
       "id": "index-19",
@@ -1467,7 +2019,7 @@
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2ab0/live/068591d0-dee5-11f1-9bb0-8de7754c4db5.jpg"
     },
     {
-      "id": "jutarnji-11",
+      "id": "jutarnji-19",
       "title": "VIDEO Drama pred Macronovim očima, gardisti počeli padati u nesvijest!",
       "summary": "Dvojica pripadnika francuske Republikanske garde srušila su se u razmaku od nekoliko sekundi tijekom svečanog dočeka slovačkog predsjednika Petera Pellegrinija u pariškoj Elizejskoj palači. Prvi gardist počeo se njihati dok je stajao na vrhu stubišta, na kojem je francuski predsjednik Emmanuel Macro",
       "link": "https://www.jutarnji.hr/vijesti/svijet/kolaps-gardista-pred-macronom-elizejska-palaca-pellegrini-pariz-15765110",
@@ -1476,7 +2028,7 @@
       "category": "general",
       "xml_category": "svijet",
       "tags": [],
-      "image": "https://media.jutarnji.hr/images/slike/2026/11/13/f_39958178_1280.png?1794602165"
+      "image": "https://media.jutarnji.hr/images/slike/2026/11/13/f_39958178_1280.png?1794635534"
     },
     {
       "id": "al-jazeera-16",
@@ -1527,7 +2079,7 @@
       "image": null
     },
     {
-      "id": "bbc-1",
+      "id": "bbc-3",
       "title": "Watch: How a server outage took down Microsoft Teams and Outlook",
       "summary": "A Microsoft outage is affecting services including Teams, Outlook and AI software Copilot.",
       "link": "https://www.bbc.co.uk/news/videos/cqzjr903n01po?at_medium=RSS&at_campaign=rss",
@@ -1539,7 +2091,7 @@
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e30a/live/54c2fe10-df57-11f1-a701-fddedf244c16.jpg"
     },
     {
-      "id": "bbc-8",
+      "id": "bbc-11",
       "title": "Rosalía scoops historic third best album award at Latin Grammys",
       "summary": "The Spanish singer is recognised for her fourth album Lux which was released last year to rave reviews.",
       "link": "https://www.bbc.co.uk/news/articles/cr3eg97eqde1o?at_medium=RSS&at_campaign=rss",
@@ -2283,7 +2835,7 @@
       "image": "https://n1info.hr/media/images/2026/11/12/1794489137_photo-collage.width-1200.png_78.png"
     },
     {
-      "id": "bbc-9",
+      "id": "bbc-12",
       "title": "African Miss Universe beauty queens in limbo as US visa restrictions bite",
       "summary": "Hall has been seeking a US visa in South Africa as other African beauty queens face similar hurdles.",
       "link": "https://www.bbc.co.uk/news/articles/cklyw3neqg2wo?at_medium=RSS&at_campaign=rss",
@@ -2399,738 +2951,6 @@
       "source": "Index",
       "category": "general",
       "xml_category": "vijesti",
-      "tags": [],
-      "image": null
-    },
-    {
-      "id": "jutarnji-19",
-      "title": "Microsoft u golemim problemima, brojne usluge u prekidu, otklanjanje poteškoća ne ide po planu",
-      "summary": "Microsoftove usluge poput Outlooka i Teamsa bile su u četvrtak u prekidu oko deset sati, a tehnološki div mučio se s otklanjanjem problema na pojedinim serverima, što je pogodilo tvrtke i državne institucije diljem svijeta koje koriste te popularne platforme. Prema zadnjim informacijama, Microsoft j",
-      "link": "https://www.jutarnji.hr/vijesti/svijet/visesatni-prekid-microsoftovih-usluga-diljem-svijeta-pogodio-tvrtke-i-institucije-15764989",
-      "published": "2026-11-13T06:00:00.000Z",
-      "source": "Jutarnji",
-      "category": "general",
-      "xml_category": "svijet",
-      "tags": [],
-      "image": "https://media.jutarnji.hr/images/slike/2026/11/13/f_39957329_1280.jpg?1794602165"
-    },
-    {
-      "id": "index-19",
-      "title": "Zašto je Hrvatska svoj Medicinski fakultet dobila tek u 20. stoljeću?",
-      "summary": "MEF ZAGREB osnovan je na današnji dan 1917. godine.",
-      "link": "https://www.index.hr/vijesti/clanak/zasto-je-hrvatska-svoj-medicinski-fakultet-dobila-tek-u-20-stoljecu/2615187.aspx",
-      "published": "2026-11-13T06:00:00.000Z",
-      "source": "Index",
-      "category": "general",
-      "xml_category": "vijesti",
-      "tags": [],
-      "image": null
-    },
-    {
-      "id": "index-16",
-      "title": "Ovako danas izgleda ruski Volgograd",
-      "summary": "UKRAJINSKE snage napale su sinoć veliku rafineriju nafte u ruskom gradu Volgogradu i proizvodni pogon u Rostovu na Donu, javlja Kyiv Independent.",
-      "link": "https://www.index.hr/vijesti/clanak/ovako-danas-izgleda-ruski-volgograd/2856486.aspx",
-      "published": "2026-11-13T05:54:00.000Z",
-      "source": "Index",
-      "category": "general",
-      "xml_category": "vijesti",
-      "tags": [],
-      "image": null
-    },
-    {
-      "id": "index-9",
-      "title": "Ruski ambasador se sastao s predstavnicima Studentske liste u Srbiji",
-      "summary": "RUSKI veleposlanik u Srbiji Aleksandar Bocan-Harčenko sastao se jučer s predstavnicima Studentske liste, pobjednicima nedavnih parlamentarnih izbora u Srbiji, kako bi razgovarali o budućnosti rusko-srpskih odnosa i suradnje na međunarodnoj sceni.",
-      "link": "https://www.index.hr/vijesti/clanak/ruski-ambasador-se-sastao-s-predstavnicima-studentske-liste-u-srbiji/2856487.aspx",
-      "published": "2026-11-13T05:46:00.000Z",
-      "source": "Index",
-      "category": "general",
-      "xml_category": "vijesti",
-      "tags": [],
-      "image": null
-    },
-    {
-      "id": "index-17",
-      "title": "Identificiran američki vojnik koji je špijunirao za Rusiju",
-      "summary": "AMERIČKI pukovnik Brandon Tyner uhićen je u Engleskoj pod sumnjom da je pokušao predati povjerljive informacije Rusiji. Tyner je bio stacioniran u NATO bazi, a Kremlj negira povezanost.",
-      "link": "https://www.index.hr/vijesti/clanak/identificiran-americki-vojnik-koji-je-spijunirao-za-rusiju/2856488.aspx",
-      "published": "2026-11-13T05:46:00.000Z",
-      "source": "Index",
-      "category": "general",
-      "xml_category": "vijesti",
-      "tags": [],
-      "image": null
-    },
-    {
-      "id": "jutarnji-19",
-      "title": "Odlazak šefa Nvidije ruši Wall Street i trese tehnološke divove",
-      "summary": "Na Wall Streetu su u četvrtak burzovni indeksi pali jer je ostavka čelnika Nvidije Jensena Huanga izazvala oštar pad cijene dionice te kompanije i izazvala velike oscilacije u cijelom tehnološkom sektoru. Dow Jones indeks oslabio je 0,36 posto, na 52.297 bodova, dok je S&P 500 skliznuo 0,35 posto, n",
-      "link": "https://www.jutarnji.hr/vijesti/svijet/odlazak-sefa-nvidije-rusi-wall-street-i-trese-tehnoloske-divove-15764988",
-      "published": "2026-11-13T05:40:58.000Z",
-      "source": "Jutarnji",
-      "category": "general",
-      "xml_category": "svijet",
-      "tags": [],
-      "image": "https://media.jutarnji.hr/images/slike/2026/11/13/f_39940619_1280.jpg?1794599804"
-    },
-    {
-      "id": "al-jazeera-19",
-      "title": "Harry Kane breaks caps record as England reach Nations League knockouts",
-      "summary": "England moved to second spot in Group A3 behind Spain, confirming their place in the Nations League last eight in March.",
-      "link": "https://www.aljazeera.com/sports/2026/11/13/harry-kane-england-appearance-record-126-croatia-nations-league-quarterfinals?traffic_source=rss",
-      "published": "2026-11-13T05:38:36.000Z",
-      "source": "Al Jazeera",
-      "category": "general",
-      "xml_category": "sport",
-      "tags": [],
-      "image": null
-    },
-    {
-      "id": "index-18",
-      "title": "Silovatelj Russel Brand ide u ozloglašeni zatvor. \"Čeka ga pakao\"",
-      "summary": "RUSSELL Brand, osuđen za silovanje, služi kaznu u zloglasnom zatvoru Wandsworth. Bivši zatvorenik opisuje uvjete kao \"pakao na zemlji\", a Brand je zbog prirode zločina i slave izložen opasnosti.",
-      "link": "https://www.index.hr/vijesti/clanak/bivsi-zatvorenik-osudjenog-silovatelja-russela-branda-ceka-pakao/2856483.aspx",
-      "published": "2026-11-13T05:36:00.000Z",
-      "source": "Index",
-      "category": "general",
-      "xml_category": "vijesti",
-      "tags": [],
-      "image": null
-    },
-    {
-      "id": "jutarnji-19",
-      "title": "Kushner: ‘SAD rade na najvećoj razmjeni ratnih zarobljenika od početka rata u Ukrajini‘",
-      "summary": "Posebni izaslanik američkog predsjednika Donalda Trumpa i njegov zet Jared Kushner izjavio je u četvrtak da su se Rusija i Ukrajina složile da će u sljedeći krug pregovora uključiti i europske zemlje te da Washington radi na ‘najvećoj razmjeni zarobljenika‘ u ovom ratu. Kushnerove izjave uslijedile.",
-      "link": "https://www.jutarnji.hr/vijesti/svijet/kushner-sad-rade-na-najvecoj-razmjeni-ratnih-zarobljenika-od-pocetka-rata-u-ukrajini-15764984",
-      "published": "2026-11-13T05:30:00.000Z",
-      "source": "Jutarnji",
-      "category": "general",
-      "xml_category": "svijet",
-      "tags": [],
-      "image": "https://media.jutarnji.hr/images/slike/2026/11/13/f_39955045_1280.jpg?1794595570"
-    },
-    {
-      "id": "index-19",
-      "title": "Šef Nvidije pozvan na saslušanje u Senat. \"Amerikanci zaslužuju odgovore\"",
-      "summary": "PREDSJEDNIK Odbora za bankarstvo američkog Senata Tim Scott uputio je pisma ministru trgovine Howardu Lutnicku i bivšem izvršnom direktoru Nvidije Jensenu Huangu, pozivajući ih da svjedoče o nedavnim događajima povezanima s tom tvrtkom.",
-      "link": "https://www.index.hr/vijesti/clanak/sef-nvidije-pozvan-na-saslusanje-u-senat-amerikanci-zasluzuju-odgovore/2856481.aspx",
-      "published": "2026-11-13T05:26:00.000Z",
-      "source": "Index",
-      "category": "general",
-      "xml_category": "vijesti",
-      "tags": [],
-      "image": null
-    },
-    {
-      "id": "jutarnji-19",
-      "title": "Predsjednik odbora američkog Senata pozvao Huanga i Lutnicka na saslušanje",
-      "summary": "Predsjednik Odbora za bankarstvo američkog Senata Tim Scott uputio je u četvrtak pisma ministru trgovine Howardu Lutnicku i bivšem izvršnom direktoru Nvidije Jensenu Huangu, pozivajući ih da svjedoče o nedavnim događajima povezanima s tom tvrtkom. Huang se povukao s čelne pozicije u Nvidiji, jednoj.",
-      "link": "https://www.jutarnji.hr/vijesti/svijet/predsjednik-odbora-americkog-senata-pozvao-huanga-i-lutnicka-na-saslusanje-15764981",
-      "published": "2026-11-13T05:25:20.000Z",
-      "source": "Jutarnji",
-      "category": "politika",
-      "xml_category": "svijet",
-      "tags": [],
-      "image": "https://media.jutarnji.hr/images/slike/2026/11/13/f_39951942_1280.jpg?1794590592"
-    },
-    {
-      "id": "index-14",
-      "title": "Trumpov zet: Radimo na najvećoj razmjeni zarobljenika u ovom ratu",
-      "summary": "KUSHNER najavljuje najveću razmjenu zarobljenika i uključivanje europskih zemalja u mirovne pregovore za okončanje rata u Ukrajini.",
-      "link": "https://www.index.hr/vijesti/clanak/trumpov-zet-radimo-na-najvecoj-razmjeni-zarobljenika-u-ovom-ratu/2856479.aspx",
-      "published": "2026-11-13T05:24:00.000Z",
-      "source": "Index",
-      "category": "general",
-      "xml_category": "vijesti",
-      "tags": [],
-      "image": null
-    },
-    {
-      "id": "al-jazeera-17",
-      "title": "Burkina Faso’s rival armed groups turn on each other as state loses ground",
-      "summary": "JNIM and ISIL intensify their fight for control as Burkina Faso struggles to contain the wider armed conflict.",
-      "link": "https://www.aljazeera.com/news/2026/11/13/burkina-fasos-rival-armed-groups-turn-on-each-other-as-state-loses-ground?traffic_source=rss",
-      "published": "2026-11-13T05:23:31.000Z",
-      "source": "Al Jazeera",
-      "category": "general",
-      "xml_category": "news",
-      "tags": [],
-      "image": null
-    },
-    {
-      "id": "jutarnji-19",
-      "title": "Hrvatski svećenik iz Lime: ‘Papa je donio poruku nade kontinentu‘",
-      "summary": "Posjet pape Lava XIV. Peruu predstavlja poseban događaj za stanovnike Južne Amerike, kojima su u vremenu društvenih i političkih izazova potrebni poruka nade i poticaj za očuvanje kršćanskih vrijednosti, izjavio je hrvatski svećenik Marko Jukić koji djeluje u Limi. - Ljudima je ponovno potrebna poru",
-      "link": "https://www.jutarnji.hr/vijesti/svijet/hrvatski-svecenik-iz-lime-papa-je-donio-poruku-nade-kontinentu-15764979",
-      "published": "2026-11-13T05:19:23.000Z",
-      "source": "Jutarnji",
-      "category": "general",
-      "xml_category": "svijet",
-      "tags": [],
-      "image": "https://media.jutarnji.hr/images/slike/2026/11/13/f_39956758_1280.jpg?1794584314"
-    },
-    {
-      "id": "index-15",
-      "title": "NYT: Trump rekao šefu Nvidije da ne daje ostavku zbog afere s kineskom špijunkom",
-      "summary": "DONALD Trump poticao je šefa Nvidije da ne odstupi zbog špijunske afere, no Jensen Huang ipak je odstupio s čela tehnološkog diva.",
-      "link": "https://www.index.hr/vijesti/clanak/nyt-trump-rekao-sefu-nvidije-da-ne-daje-ostavku-zbog-afere-s-kineskom-spijunkom/2856480.aspx",
-      "published": "2026-11-13T05:18:00.000Z",
-      "source": "Index",
-      "category": "general",
-      "xml_category": "vijesti",
-      "tags": [],
-      "image": null
-    },
-    {
-      "id": "jutarnji-19",
-      "title": "Zelenski se nada da će se na pregovorima s Rusijom razgovarati o prekidu vatre",
-      "summary": "Ukrajinski predsjednik Volodimir Zelenski pozdravio je vijest da će europski predstavnici sudjelovati u sljedećem krugu mirovnih pregovora s Rusijom, kojima posreduje SAD, te izrazio nadu da će dnevni red pregovora obuhvatiti korake prema prekidu vatre i deeskalaciji sukoba. Govoreći nakon sastanka.",
-      "link": "https://www.jutarnji.hr/vijesti/svijet/zelenski-se-nada-da-ce-se-na-pregovorima-s-rusijom-razgovarati-o-prekidu-vatre-15764977",
-      "published": "2026-11-13T05:15:07.000Z",
-      "source": "Jutarnji",
-      "category": "general",
-      "xml_category": "svijet",
-      "tags": [],
-      "image": "https://media.jutarnji.hr/images/slike/2026/11/13/f_39955051_1280.jpg?1794581929"
-    },
-    {
-      "id": "index-16",
-      "title": "Zelenski: Nadam se da će se na pregovorima s Rusijom razgovarati o prekidu vatre",
-      "summary": "ZELENSKI pozdravlja uključivanje Europe u mirovne pregovore s Rusijom te se nada skorom dogovoru o prekidu vatre i deeskalaciji sukoba.",
-      "link": "https://www.index.hr/vijesti/clanak/zelenski-nadam-se-da-ce-se-na-pregovorima-s-rusijom-razgovarati-o-prekidu-vatre/2856477.aspx",
-      "published": "2026-11-13T05:08:00.000Z",
-      "source": "Index",
-      "category": "general",
-      "xml_category": "vijesti",
-      "tags": [],
-      "image": null
-    },
-    {
-      "id": "al-jazeera-18",
-      "title": "Pope Leo meets clergy abuse survivors in Peru amid calls for justice",
-      "summary": "Pope Leo met six clergy abuse survivors in Peru, while hundreds more say they remain excluded as they seek justice.",
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/11/13/aje-onl-nf_pope-leo-meets-clergy-abuse-survivors-in-peru-121126?traffic_source=rss",
-      "published": "2026-11-13T05:05:50.000Z",
-      "source": "Al Jazeera",
-      "category": "general",
-      "xml_category": "show types",
-      "tags": [],
-      "image": null
-    },
-    {
-      "id": "al-jazeera-19",
-      "title": "UNRWA funding cuts deepen hardship for Palestinian refugees in Lebanon",
-      "summary": "Funding cuts and Israel&#039;s war have left Palestinians in Lebanon in increasingly dire circumstances.",
-      "link": "https://www.aljazeera.com/features/2026/11/13/unrwa-funding-cuts-deepen-hardship-for-palestinian-refugees-in-lebanon?traffic_source=rss",
-      "published": "2026-11-13T04:51:56.000Z",
-      "source": "Al Jazeera",
-      "category": "general",
-      "xml_category": "news",
-      "tags": [],
-      "image": null
-    },
-    {
-      "id": "al-jazeera-17",
-      "title": "Iranophobia: Netanyahu’s bid to transform fear into political survival",
-      "summary": "Despite knowing a war with Iran would be manufactured for Netanyahu&#039;s survival, many would still rally behind it.",
-      "link": "https://www.aljazeera.com/news/2026/11/13/iranophobia-netanyahus-bid-to-transform-fear-into-political-survival?traffic_source=rss",
-      "published": "2026-11-13T04:48:40.000Z",
-      "source": "Al Jazeera",
-      "category": "general",
-      "xml_category": "news",
-      "tags": [],
-      "image": null
-    },
-    {
-      "id": "al-jazeera-18",
-      "title": "From ocean legend to undersea reef: Why has the SS United States been sunk?",
-      "summary": "The ship had been inactive for years despite various owners attempting to save and restore it.",
-      "link": "https://www.aljazeera.com/news/2026/11/13/from-ocean-legend-to-undersea-reef-why-has-the-ss-united-states-been-sunk?traffic_source=rss",
-      "published": "2026-11-13T04:39:33.000Z",
-      "source": "Al Jazeera",
-      "category": "general",
-      "xml_category": "news",
-      "tags": [],
-      "image": null
-    },
-    {
-      "id": "al-jazeera-19",
-      "title": "Talarico appeals to Trump’s legacy in bid for bipartisan reforms",
-      "summary": "Texas Democrat Senator-elect James Talarico has urged his party to work with President Trump.",
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/11/13/talarico-appeals-to-trumps-legacy-in-bid-for-bipartisan-reforms?traffic_source=rss",
-      "published": "2026-11-13T04:36:45.000Z",
-      "source": "Al Jazeera",
-      "category": "tech",
-      "xml_category": "show types",
-      "tags": [],
-      "image": null
-    },
-    {
-      "id": "jutarnji-17",
-      "title": "Zelenski gubi strpljenje, otkriveno tko bi mogao pred Putina: ‘Šalite se, zar ne?‘",
-      "summary": "Europski čelnici koji se u petak okupljaju u Dublinu nastavit će raspravu o tome tko bi trebao predstavljati Europsku uniju u pregovorima o budućnosti Ukrajine, nakon dana obilježenog intenzivnim diplomatskim aktivnostima i sve otvorenijim nesuglasicama među državama članicama, piše Politico. Dok ad",
-      "link": "https://www.jutarnji.hr/vijesti/svijet/raskol-u-europi-zelenski-gubi-strpljenje-otkriveno-tko-bi-mogao-pred-putina-salite-se-zar-ne-najgora-moguca-osoba-15764973",
-      "published": "2026-11-13T04:33:00.000Z",
-      "source": "Jutarnji",
-      "category": "general",
-      "xml_category": "svijet",
-      "tags": [],
-      "image": "https://media.jutarnji.hr/images/slike/2026/11/13/f_39956981_1280.gif?1794578368"
-    },
-    {
-      "id": "al-jazeera-15",
-      "title": "US Senator Chris Van Hollen seeks to lead Democrats: Who is he?",
-      "summary": "Van Hollen is known for his antiwar positions and championing progressive causes.",
-      "link": "https://www.aljazeera.com/news/2026/11/13/who-is-us-senator-chris-van-hollen?traffic_source=rss",
-      "published": "2026-11-13T04:28:45.000Z",
-      "source": "Al Jazeera",
-      "category": "general",
-      "xml_category": "news",
-      "tags": [],
-      "image": null
-    },
-    {
-      "id": "al-jazeera-16",
-      "title": "US envoys shuttle between Putin and Zelenskyy",
-      "summary": "US envoys Witkoff and Kushner have shuttled between Dublin and Moscow in efforts to broker a Russia-Ukraine peace deal.",
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/11/13/aje-onl-nf_us-envoys-shuttle-between-putin-and-zelenskyy-121126?traffic_source=rss",
-      "published": "2026-11-13T04:12:01.000Z",
-      "source": "Al Jazeera",
-      "category": "general",
-      "xml_category": "show types",
-      "tags": [],
-      "image": null
-    },
-    {
-      "id": "bbc-2",
-      "title": "Ex-Nvidia CEO Jensen Huang summoned to testify before Congress about affair with alleged Chinese spy",
-      "summary": "Huang abruptly quit on Thursday as head of one of the world's most valuable companies after revelations of alleged extramarital affairs.",
-      "link": "https://www.bbc.co.uk/news/articles/cmq5vd1wdgz6o?at_medium=RSS&at_campaign=rss",
-      "published": "2026-11-13T03:57:01.000Z",
-      "source": "BBC",
-      "category": "ai",
-      "xml_category": "",
-      "tags": [],
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f66c/live/4f0358a0-def1-11f1-bb80-c5cef03337ce.jpg"
-    },
-    {
-      "id": "jutarnji-18",
-      "title": "Užasno krvoproliće u Njemačkoj, progovorio čovjek iz sustava: ‘Hrvati nisu previše susretljivi. To traje tjednima‘",
-      "summary": "U njemačkom gradu Dürenu u ponedjeljak poslijepodne ubijena je 35-godišnja majka petero djece, a policija je zbog sumnje na ubojstvo uhitila njezina supruga. Kako piše njemački Focus, pozivajući se na izvore iz sigurnosnih službi, osumnjičeni muškarac već je ranije bio deportiran u Hrvatsku, a njema",
-      "link": "https://www.jutarnji.hr/vijesti/svijet/uzasno-krvoprolice-u-njemackoj-progovorio-covjek-iz-sustava-hrvati-nisu-previse-susretljivi-to-traje-tjednima-15764972",
-      "published": "2026-11-13T03:39:00.000Z",
-      "source": "Jutarnji",
-      "category": "general",
-      "xml_category": "svijet",
-      "tags": [],
-      "image": "https://media.jutarnji.hr/images/slike/2026/11/13/f_39956638_1280.png?1794578368"
-    },
-    {
-      "id": "al-jazeera-17",
-      "title": "Mississippi elects first black senator in nearly 150 years",
-      "summary": "Scott Colom will be the first black senator to represent Mississippi since 1881.",
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/11/13/mississippi-elects-first-black-senator-in-nearly-150-years?traffic_source=rss",
-      "published": "2026-11-13T03:21:25.000Z",
-      "source": "Al Jazeera",
-      "category": "general",
-      "xml_category": "show types",
-      "tags": [],
-      "image": null
-    },
-    {
-      "id": "al-jazeera-18",
-      "title": "Iran says it targeted US radar site in Bahrain",
-      "summary": "IRGC says it hit radar in retaliation for an &#039;enemy&#039; air attack on a telecom tower in Iran&#039;s Hormozgan province.",
-      "link": "https://www.aljazeera.com/news/2026/11/13/iran-says-it-struck-us-radar-site-in-bahrain?traffic_source=rss",
-      "published": "2026-11-13T03:17:27.000Z",
-      "source": "Al Jazeera",
-      "category": "ai",
-      "xml_category": "news",
-      "tags": [],
-      "image": null
-    },
-    {
-      "id": "al-jazeera-19",
-      "title": "Gaza surgeon films aftermath of Israeli strike",
-      "summary": "British volunteer surgeon films the terrifying aftermath of an Israeli strike on Gaza’s Nasser Hospital.",
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/11/13/gaza-surgeon-films-aftermath-of-israeli-strike?traffic_source=rss",
-      "published": "2026-11-13T03:11:43.000Z",
-      "source": "Al Jazeera",
-      "category": "general",
-      "xml_category": "show types",
-      "tags": [],
-      "image": null
-    },
-    {
-      "id": "bbc-10",
-      "title": "Australian footballers will not be charged after hotel incident, police say",
-      "summary": "Four Sydney Swans players had been under investigation after an alleged sexual assault after a game in Melbourne.",
-      "link": "https://www.bbc.co.uk/news/articles/ckregjwr7njqo?at_medium=RSS&at_campaign=rss",
-      "published": "2026-11-13T03:02:54.000Z",
-      "source": "BBC",
-      "category": "sport",
-      "xml_category": "",
-      "tags": [],
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e9a2/live/04510720-defc-11f1-9b2e-c7d61d5838d4.jpg"
-    },
-    {
-      "id": "jutarnji-19",
-      "title": "Kremlj je sve ove godine skrivao možda i najvažniju ratnu informaciju. Više ne može",
-      "summary": "Ruske vlasti nastoje prikriti stvarne razmjere gubitaka u Ukrajini, a na meti sigurnosnih službi našli su se i građani koji fotografiraju grobove poginulih vojnika. Neovisni novinari upozoravaju da Kremlj sustavno zatvara gotovo sve izvore informacija o broju mrtvih. Ruski sud u Jaroslavlju osudio j",
-      "link": "https://www.jutarnji.hr/vijesti/svijet/kremlj-je-sve-ove-godine-skrivao-mozda-i-najvazniju-ratnu-informaciju-vise-ne-moze-15764970",
-      "published": "2026-11-13T02:57:00.000Z",
-      "source": "Jutarnji",
-      "category": "general",
-      "xml_category": "svijet",
-      "tags": [],
-      "image": "https://media.jutarnji.hr/images/slike/2026/11/13/f_39956494_1280.jpg?1794578368"
-    },
-    {
-      "id": "al-jazeera-18",
-      "title": "Spanish court suspends far-right group over alleged hate crimes",
-      "summary": "Judge orders office shut and accounts blocked after 14 arrests and the seizure of more than 20 firearms.",
-      "link": "https://www.aljazeera.com/news/2026/11/13/spanish-court-suspends-far-right-group-over-alleged-hate-crimes?traffic_source=rss",
-      "published": "2026-11-13T02:52:25.000Z",
-      "source": "Al Jazeera",
-      "category": "general",
-      "xml_category": "news",
-      "tags": [],
-      "image": null
-    },
-    {
-      "id": "bbc-11",
-      "title": "North Korean hackers used fake video calls in $400m crypto hack, says FBI",
-      "summary": "More than 900 victims are thought to have fallen prey to the FaceStealer scheme in the last 18 months.",
-      "link": "https://www.bbc.co.uk/news/articles/cqdj1ellpd70o?at_medium=RSS&at_campaign=rss",
-      "published": "2026-11-13T02:48:29.000Z",
-      "source": "BBC",
-      "category": "economy",
-      "xml_category": "",
-      "tags": [],
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c16a/live/65ee22f0-df02-11f1-b6e1-5b169363fed4.jpg"
-    },
-    {
-      "id": "al-jazeera-19",
-      "title": "Chris Van Hollen launches bid to lead Democrats in US Senate",
-      "summary": "Van Hollen&#039;s leadership drive follows Democratic sweeps in elections and challenges veteran leader Schumer.",
-      "link": "https://www.aljazeera.com/news/2026/11/13/chris-van-hollen-to-run-for-us-senate-majority-leader?traffic_source=rss",
-      "published": "2026-11-13T02:42:41.000Z",
-      "source": "Al Jazeera",
-      "category": "general",
-      "xml_category": "news",
-      "tags": [],
-      "image": null
-    },
-    {
-      "id": "al-jazeera-15",
-      "title": "Finland detects strike on Russian warship as Zelenskyy meets US envoys",
-      "summary": "Reports of attack in Baltic came before US envoys met with Russian and Ukrainian presidents.",
-      "link": "https://www.aljazeera.com/news/2026/11/13/finland-detects-strike-on-russian-warship-as-zelenskyy-meets-us-envoys?traffic_source=rss",
-      "published": "2026-11-13T02:35:21.000Z",
-      "source": "Al Jazeera",
-      "category": "general",
-      "xml_category": "news",
-      "tags": [],
-      "image": null
-    },
-    {
-      "id": "al-jazeera-16",
-      "title": "Trump moots toppling Cuba authorities before leaving office",
-      "summary": "Calling Cuba a failed nation, the US president hints at attack on the country before his term ends.",
-      "link": "https://www.aljazeera.com/news/2026/11/13/trump-moots-toppling-cuba-authorities-before-leaving-office?traffic_source=rss",
-      "published": "2026-11-13T02:33:28.000Z",
-      "source": "Al Jazeera",
-      "category": "general",
-      "xml_category": "news",
-      "tags": [],
-      "image": null
-    },
-    {
-      "id": "bbc-14",
-      "title": "Will the Eurovision Song Contest succeed in Asia?",
-      "summary": "The world’s biggest and longest-running song contest is coming to Asia, with eleven countries competing in Bangkok, Thailand on Saturday.",
-      "link": "https://www.bbc.co.uk/news/videos/cxvg23n59y1ro?at_medium=RSS&at_campaign=rss",
-      "published": "2026-11-13T02:24:11.000Z",
-      "source": "BBC",
-      "category": "general",
-      "xml_category": "",
-      "tags": [],
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1f20/live/af01cfe0-df08-11f1-a701-fddedf244c16.jpg"
-    },
-    {
-      "id": "bbc-3",
-      "title": "Zelensky welcomes US bringing Europe into Russia-Ukraine peace talks",
-      "summary": "The Ukrainian president says it makes sense for European leaders to be involved as Ukraine hopes to eventually join the EU.",
-      "link": "https://www.bbc.co.uk/news/articles/ckn80j9jv3jxo?at_medium=RSS&at_campaign=rss",
-      "published": "2026-11-13T02:01:35.000Z",
-      "source": "BBC",
-      "category": "ai",
-      "xml_category": "",
-      "tags": [],
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9462/live/a60e9f80-df2b-11f1-a701-fddedf244c16.jpg"
-    },
-    {
-      "id": "al-jazeera-17",
-      "title": "After Iraq ex-MP’s killing, Lebanon asks Syria to extradite suspects",
-      "summary": "Longtime Sunni politician and Iran critic was reportedly strangled in Beirut, sparking investigation.",
-      "link": "https://www.aljazeera.com/news/2026/11/13/after-iraq-ex-mps-killing-lebanon-asks-syria-to-extradite-suspects?traffic_source=rss",
-      "published": "2026-11-13T01:44:55.000Z",
-      "source": "Al Jazeera",
-      "category": "general",
-      "xml_category": "news",
-      "tags": [],
-      "image": null
-    },
-    {
-      "id": "al-jazeera-18",
-      "title": "Albania’s PM says 2027 NATO summit will not be held in Tirana",
-      "summary": "Albania has faced criticism over low defence spending, as Rama is under pressure at home amid months of protests.",
-      "link": "https://www.aljazeera.com/news/2026/11/13/albanias-pm-says-2027-nato-summit-will-not-be-held-in-tirana?traffic_source=rss",
-      "published": "2026-11-13T01:43:17.000Z",
-      "source": "Al Jazeera",
-      "category": "general",
-      "xml_category": "news",
-      "tags": [],
-      "image": null
-    },
-    {
-      "id": "jutarnji-18",
-      "title": "Ni Trump u najluđim snovima nije mogao očekivati potez koji su demokrati upravo najavili",
-      "summary": "Nekoliko dana prije izbora za Kongres demokrati su najavljivali da će, osvoje li jedan ili oba doma, pokretati istrage o Trumpovoj administraciji. Činilo se kao da se natječu tko će izdati ozbiljnije upozorenje. Zastupnica Analilia Mejia iz New Jerseyja na X-u je, primjerice, poručila da će \"bacati.",
-      "link": "https://www.jutarnji.hr/vijesti/svijet/ni-trump-u-najludim-snovima-nije-mogao-ocekivati-potez-koji-su-demokrati-upravo-najavili-15764969",
-      "published": "2026-11-13T00:57:00.000Z",
-      "source": "Jutarnji",
-      "category": "general",
-      "xml_category": "svijet",
-      "tags": [],
-      "image": "https://media.jutarnji.hr/images/slike/2026/11/12/f_39955840_1280.jpg?1794576504"
-    },
-    {
-      "id": "jutarnji-19",
-      "title": "Stranka koja je promijenila svjetsku povijest doživjela je debakl. Nakon 30 godina vlasti, dočekali su kraj",
-      "summary": "Politička situacija u Južnoj Africi drastično se mijenja, pokazuju najnoviji rezultati lokalnih izbora. Afrički nacionalni kongres (ANC), koji je na vlasti od pobjede Nelsona Mandele na izborima 1994. godine kada je okončana vladavina bijele manjine, osvojio je manje od trećine glasova na prošlotjed",
-      "link": "https://www.jutarnji.hr/vijesti/svijet/stranka-koja-je-promijenila-svjetsku-povijest-dozivjela-je-katastrofu-nakon-30-godina-vlasti-docekali-su-kraj-15764968",
-      "published": "2026-11-13T00:43:00.000Z",
-      "source": "Jutarnji",
-      "category": "general",
-      "xml_category": "svijet",
-      "tags": [],
-      "image": "https://media.jutarnji.hr/images/slike/2026/11/11/f_39955757_1280.jpg?1794576504"
-    },
-    {
-      "id": "bbc-18",
-      "title": "Why midterm vote-counting is taking so long in America's largest state",
-      "summary": "Alaskans are still waiting for the full results, including in the close Senate race between Republican Dan Sullivan and Democrat Mary Peltola.",
-      "link": "https://www.bbc.co.uk/news/articles/cqly4ljvr4pjo?at_medium=RSS&at_campaign=rss",
-      "published": "2026-11-13T00:35:05.000Z",
-      "source": "BBC",
-      "category": "general",
-      "xml_category": "",
-      "tags": [],
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/000f/live/a2f3fa00-ded3-11f1-8afb-c1f8fc064db2.jpg"
-    },
-    {
-      "id": "bbc-19",
-      "title": "Neither war nor peace in Tigray - is Ethiopia's latest conflict really over?",
-      "summary": "The army has taken control of most of Tigray's main towns - it is unclear if the TPLF is capable of fighting back.",
-      "link": "https://www.bbc.co.uk/news/articles/cm3egjgvp794o?at_medium=RSS&at_campaign=rss",
-      "published": "2026-11-13T00:20:24.000Z",
-      "source": "BBC",
-      "category": "general",
-      "xml_category": "",
-      "tags": [],
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6dca/live/418b2150-de90-11f1-a701-fddedf244c16.jpg"
-    },
-    {
-      "id": "al-jazeera-19",
-      "title": "Iran war live: Trump says Gulf allies urged pause in Iran strikes",
-      "summary": "Trump says Gulf countries asked him to hold off on further attacks against Iran as Tehran targets US radar in Bahrain.",
-      "link": "https://www.aljazeera.com/news/liveblog/2026/11/13/iran-war-live-riyadh-china-discuss-houthis-as-group-claims-aramco-attacks?traffic_source=rss",
-      "published": "2026-11-13T00:00:26.000Z",
-      "source": "Al Jazeera",
-      "category": "general",
-      "xml_category": "news",
-      "tags": [],
-      "image": null
-    },
-    {
-      "id": "al-jazeera-18",
-      "title": "Yemen’s Houthis renew strikes on Saudi Arabia as UNSC extends sanctions",
-      "summary": "Saudi-led coalition intercepts flurry of suspected Houthi drones targeting oil and military infrastructure.",
-      "link": "https://www.aljazeera.com/news/2026/11/12/yemens-houthis-renew-strikes-on-saudi-arabia-as-unsc-extends-sanctions?traffic_source=rss",
-      "published": "2026-11-12T23:52:38.000Z",
-      "source": "Al Jazeera",
-      "category": "general",
-      "xml_category": "news",
-      "tags": [],
-      "image": null
-    },
-    {
-      "id": "bbc-15",
-      "title": "Military cemetery decorum: The tradition behind Hegseth's Veterans Day reprimand",
-      "summary": "BBC's Bernd Debusmann breaks down why Defence Secretary Hegseth's group was reprimanded at Arlington National Cemetery and the history behind its strict rules of conduct.",
-      "link": "https://www.bbc.co.uk/news/videos/cv5y1309dg3go?at_medium=RSS&at_campaign=rss",
-      "published": "2026-11-12T23:42:52.000Z",
-      "source": "BBC",
-      "category": "general",
-      "xml_category": "",
-      "tags": [],
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/63ae/live/32b2b320-def2-11f1-a701-fddedf244c16.jpg"
-    },
-    {
-      "id": "al-jazeera-19",
-      "title": "Russian court jails rights lawyer for 12 years on treason charge",
-      "summary": "Prosecutors say the woman shared security details with Ukraine, while her lawyers argue the information was not secret.",
-      "link": "https://www.aljazeera.com/news/2026/11/12/russian-court-jails-rights-lawyer-for-12-years-on-treason-charge?traffic_source=rss",
-      "published": "2026-11-12T23:18:50.000Z",
-      "source": "Al Jazeera",
-      "category": "ai",
-      "xml_category": "news",
-      "tags": [],
-      "image": null
-    },
-    {
-      "id": "index-17",
-      "title": "Nakon rušenja zgrade u New Yorku gradonačelnik naredio istragu 100 gradilišta",
-      "summary": "U URUŠAVANJU stambene zgrade u New Yorku poginulo je osmero ljudi, uključujući dvoje djece. Gradonačelnik je naložio istragu tvrtki koje su izvodile radove na susjednoj parceli.",
-      "link": "https://www.index.hr/vijesti/clanak/nakon-rusenja-zgrade-u-new-yorku-gradonacelnik-naredio-istragu-100-gradilista/2856474.aspx",
-      "published": "2026-11-12T23:04:00.000Z",
-      "source": "Index",
-      "category": "general",
-      "xml_category": "vijesti",
-      "tags": [],
-      "image": null
-    },
-    {
-      "id": "index-18",
-      "title": "Kina odustala od organizacije klimatskog samita 2028. godine",
-      "summary": "KINA je odustala od domaćinstva UN-ovog klimatskog samita Cop33 2028., razočaravši stručnjake. Odluka otvara prostor drugim azijskim zemljama, a kao mogući razlog navode se izbori u SAD-u.",
-      "link": "https://www.index.hr/vijesti/clanak/kina-odustala-od-organizacije-klimatskog-samita-2028-godine/2856471.aspx",
-      "published": "2026-11-12T22:39:00.000Z",
-      "source": "Index",
-      "category": "general",
-      "xml_category": "vijesti",
-      "tags": [],
-      "image": null
-    },
-    {
-      "id": "index-19",
-      "title": "FBI: Hakeri iz Sjeverne Koreje snimali ljude preko lažnog Zooma",
-      "summary": "FBI UPOZORAVA na sjevernokorejske hakere koji su ukrali preko 400 mil. dolara u kriptovalutama. Koriste lažne video pozive i AI za širenje napada na nove žrtve putem njihovih kontakata.",
-      "link": "https://www.index.hr/vijesti/clanak/fbi-hakeri-iz-sjeverne-koreje-snimali-ljude-preko-laznog-zooma/2856467.aspx",
-      "published": "2026-11-12T22:17:00.000Z",
-      "source": "Index",
-      "category": "general",
-      "xml_category": "vijesti",
-      "tags": [],
-      "image": null
-    },
-    {
-      "id": "index-15",
-      "title": "Nakon Madurova uhićenja SAD upravlja milijardama od venezuelanske nafte",
-      "summary": "SAD UPRAVLJA s 12 milijardi dolara od venezuelanske nafte, financirajući javne usluge i ekonomsku stabilnost nakon Madurova uhićenja.",
-      "link": "https://www.index.hr/vijesti/clanak/nakon-madurova-uhicenja-sad-upravlja-milijardama-od-venezuelanske-nafte/2856462.aspx",
-      "published": "2026-11-12T22:07:00.000Z",
-      "source": "Index",
-      "category": "general",
-      "xml_category": "vijesti",
-      "tags": [],
-      "image": null
-    },
-    {
-      "id": "jutarnji-19",
-      "title": "Umirovljenika napao medvjed, lovci krenuli u akciju",
-      "summary": "Umirovljenika iz Račjeg Sela u Sloveniji napao je medvjed dok je bio u svakodnevnoj šetnji, a od kuće je bio udaljen svega stotinjak metara. Prema pisanju lokalnog lista Dolenjski list, muškarac je navodno šetao svoja dva psa kada ga je životinja iznenadila i napala. Uspio se otrgnuti i vratiti kući",
-      "link": "https://www.jutarnji.hr/vijesti/svijet/umirovljenika-napao-medvjed-lovci-krenuli-u-akciju-15764953",
-      "published": "2026-11-12T22:03:45.000Z",
-      "source": "Jutarnji",
-      "category": "general",
-      "xml_category": "svijet",
-      "tags": [],
-      "image": "https://media.jutarnji.hr/images/slike/2026/11/12/f_32889323_1280.jpg?1794571769"
-    },
-    {
-      "id": "bbc-13",
-      "title": "Search for British woman missing from Tui cruise in Atlantic called off",
-      "summary": "The 72-year-old is believed to have gone overboard from the Tui ship on Monday as it headed towards the Caribbean.",
-      "link": "https://www.bbc.co.uk/news/articles/cmy0enrkwkklo?at_medium=RSS&at_campaign=rss",
-      "published": "2026-11-12T21:27:21.000Z",
-      "source": "BBC",
-      "category": "general",
-      "xml_category": "",
-      "tags": [],
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/477b/live/13c10780-def4-11f1-a80a-b5f2d117704d.png"
-    },
-    {
-      "id": "index-16",
-      "title": "U Sankt Peterburgu ubijen ruski pukovnik. Nagađa se koji točno, procurila tri imena",
-      "summary": "U SANKT Peterburgu je u eksploziji automobila ubijen ruski pukovnik, a sumnja se na jednog od trojice visokih časnika strateške zračne obrane.",
-      "link": "https://www.index.hr/vijesti/clanak/u-sankt-peterburgu-ubijen-ruski-pukovnik-nagadja-se-koji-tocno-procurila-tri-imena/2856455.aspx",
-      "published": "2026-11-12T21:23:00.000Z",
-      "source": "Index",
-      "category": "general",
-      "xml_category": "vijesti",
-      "tags": [],
-      "image": null
-    },
-    {
-      "id": "al-jazeera-0",
-      "title": "Deadly shooting in Washington DC",
-      "summary": "Police in the US capital are investigating a shooting around a mile from the White House that led to one person killed",
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/11/12/deadly-shooting-in-washington-dc?traffic_source=rss",
-      "published": "2026-11-12T21:18:24.000Z",
-      "source": "Al Jazeera",
-      "category": "general",
-      "xml_category": "show types",
-      "tags": [],
-      "image": null
-    },
-    {
-      "id": "index-17",
-      "title": "Musk ubrzao pregovore o spajanju Tesle i SpaceX-a",
-      "summary": "PREGOVORI o spajanju Tesle i SpaceX-a napreduju, s mogućom objavom do kraja 2026. Cilj je stvoriti tehnološki konglomerat, no postoje regulatorni i politički izazovi vezani uz Kinu i SAD.",
-      "link": "https://www.index.hr/vijesti/clanak/musk-ubrzao-pregovore-o-spajanju-tesle-i-spacexa/2856449.aspx",
-      "published": "2026-11-12T21:18:00.000Z",
-      "source": "Index",
-      "category": "space",
-      "xml_category": "vijesti",
-      "tags": [],
-      "image": null
-    },
-    {
-      "id": "jutarnji-19",
-      "title": "Najdugovječniji direktor u Srbiji podnio ostavku: ‘Živio je poput afričkog diktatora, samo pogledajte fotke!‘",
-      "summary": "Goran Puzović podnio je danas neopozivu ostavku na dužnost direktora javnog poduzeća ‘Srbijavode‘ nakon punih 14 godina provedenih na toj funkciji, ističe se u službenom priopćenju objavljenom na internetskim stranicama te tvrtke, a prenosi Nova.rs. Kako se navodi, Puzović se na ovaj korak odlučio z",
-      "link": "https://www.jutarnji.hr/vijesti/svijet/najdugovjecniji-direktor-u-srbiji-podnio-ostavku-zivio-je-poput-africkog-diktatora-samo-pogledajte-fotke-15764940",
-      "published": "2026-11-12T21:10:08.000Z",
-      "source": "Jutarnji",
-      "category": "general",
-      "xml_category": "svijet",
-      "tags": [],
-      "image": "https://media.jutarnji.hr/images/slike/2026/11/12/f_39951625_1280.png?1794570657"
-    },
-    {
-      "id": "jutarnji-18",
-      "title": "Brutalni atentat u drugom najvećem ruskom gradu, Ukrajinci otkrili mete: ‘Njihova armija štiti golemi prostor!‘",
-      "summary": "Prema navodima ukrajinskih kanala koji prate vojna zbivanja, trojica su visokih časnika iz sastava 6. armije ratnog zrakoplovstva i protuzračne obrane Rusije možda mogli biti mete napada automobilom bombom koji se dogodio u četvrtak u ranim jutarnjim satima u Sankt Peterburgu. Time je, barem prema t",
-      "link": "https://www.jutarnji.hr/vijesti/svijet/brutalni-atentat-u-drugom-najvecem-ruskom-gradu-ukrajinci-otkrili-mete-njihova-armija-stiti-golemi-prostor-15764939",
-      "published": "2026-11-12T21:07:48.000Z",
-      "source": "Jutarnji",
-      "category": "general",
-      "xml_category": "svijet",
-      "tags": [],
-      "image": "https://media.jutarnji.hr/images/slike/2026/11/12/f_39952035_1280.jpg?1794567594"
-    },
-    {
-      "id": "al-jazeera-1",
-      "title": "Microsoft outage hits tens of thousands of users",
-      "summary": "Microsoft says servers unexpectedly went offline, disrupting Outlook email, Teams, Copilot and other services.",
-      "link": "https://www.aljazeera.com/news/2026/11/12/microsoft-outage-hits-tens-of-thousands-of-users?traffic_source=rss",
-      "published": "2026-11-12T21:03:09.000Z",
-      "source": "Al Jazeera",
-      "category": "general",
-      "xml_category": "news",
       "tags": [],
       "image": null
     }

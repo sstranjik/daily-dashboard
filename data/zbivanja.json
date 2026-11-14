@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-13T21:01:20.957Z",
+  "generated_at": "2026-11-14T06:01:14.148Z",
   "stats": {
     "muzika.hr": {
       "ok": true,
@@ -7,61 +7,46 @@
     },
     "Mochvara": {
       "ok": true,
-      "count": 13
+      "count": 12
     },
     "Lisinski": {
       "ok": true,
       "count": 0
     },
-    "Tvornica": {
-      "ok": true,
-      "count": 2
-    },
     "Gavella": {
       "ok": true,
       "count": 32
     },
-    "ZeKaeM": {
+    "Tvornica": {
       "ok": true,
-      "count": 1
+      "count": 2
     },
     "Komedija": {
       "ok": true,
       "count": 0
     },
-    "Kerempuh": {
+    "ZeKaeM": {
       "ok": true,
-      "count": 0
+      "count": 1
     },
     "HNK Zagreb": {
       "ok": true,
-      "count": 123
+      "count": 122
     },
-    "Trešnja": {
+    "Kerempuh": {
       "ok": true,
       "count": 0
     },
     "Pogon": {
       "ok": true,
       "count": 0
+    },
+    "Trešnja": {
+      "ok": true,
+      "count": 0
     }
   },
   "concerts": [
-    {
-      "id": "efa8b2e1b2",
-      "title": "Elemental",
-      "venue": "Grada Vukovara 68",
-      "city": "Zagreb",
-      "country": "HR",
-      "category": "concert",
-      "date_iso": "2026-10-30T00:00:00",
-      "date_display": "pet, 30. 10. 2026.",
-      "time": null,
-      "link": "https://www.muzika.hr/event/elemental-2/",
-      "source": "muzika.hr",
-      "is_new": false,
-      "first_seen": "2026-09-25T22:53:56.822Z"
-    },
     {
       "id": "b8eb0a8120",
       "title": "Georges Bizet Carmen",
@@ -1218,6 +1203,21 @@
       "first_seen": "2026-10-18T05:01:21.190Z"
     },
     {
+      "id": "be7db76427",
+      "title": "Manifest crnila: Search Eternal, Pasja Kola, Voltage",
+      "venue": "Mochvara",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-11-17T20:00:00",
+      "date_display": "uto, 17. 11. 2026.",
+      "time": "20:00",
+      "link": "https://mochvara.hr/event-detail/6accf83f5e5f72dd4ba8a6ac/",
+      "source": "Mochvara",
+      "is_new": true,
+      "first_seen": "2026-11-14T06:01:14.148Z"
+    },
+    {
       "id": "dfc282446b",
       "title": "Joe Masteroff — John Kander — Fred Ebb CABARET",
       "venue": "HNK Zagreb",
@@ -1246,6 +1246,21 @@
       "source": "muzika.hr",
       "is_new": false,
       "first_seen": "2026-11-12T14:01:21.573Z"
+    },
+    {
+      "id": "62e1f989ff",
+      "title": "onkraj / SUUTOO presents STARFIRE, Ribeiroia, kaleido",
+      "venue": "Mochvara",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-11-19T20:00:00",
+      "date_display": "čet, 19. 11. 2026.",
+      "time": "20:00",
+      "link": "https://mochvara.hr/event-detail/6ae20789ca71fac878b0f24d/",
+      "source": "Mochvara",
+      "is_new": true,
+      "first_seen": "2026-11-14T06:01:14.148Z"
     },
     {
       "id": "8d39561c69",
@@ -1861,6 +1876,21 @@
       "source": "muzika.hr",
       "is_new": false,
       "first_seen": "2026-11-09T23:37:38.909Z"
+    },
+    {
+      "id": "5eb21db5f5",
+      "title": "KOVACS",
+      "venue": "KOVACS Tvornica kulture Šubićeva 2",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-11-29T00:00:00",
+      "date_display": "ned, 29. 11. 2026.",
+      "time": null,
+      "link": "https://www.muzika.hr/event/kovacs-2/",
+      "source": "muzika.hr",
+      "is_new": true,
+      "first_seen": "2026-11-14T06:01:14.148Z"
     },
     {
       "id": "0d7d7c2844",
@@ -3064,21 +3094,6 @@
     }
   ],
   "theater": [
-    {
-      "id": "9053963bfb",
-      "title": "Hotel Zagorje",
-      "venue": "Gavella",
-      "city": "Zagreb",
-      "country": "HR",
-      "category": "theater",
-      "date_iso": "2026-10-30T00:00:00",
-      "date_display": "pet, 30. 10. 2026.",
-      "time": null,
-      "link": "https://www.gavella.hr/predstave/aktualne-predstave/hotel-zagorje",
-      "source": "Gavella",
-      "is_new": false,
-      "first_seen": "2026-09-04T12:01:11.646Z"
-    },
     {
       "id": "60fa469249",
       "title": "Friedrich Schiller MARIA STUART Preuzimanje ulaznica prema raspoloživosti na blagajni HNK-a u Zagrebu",
@@ -4612,5 +4627,5 @@
       "first_seen": "2026-10-31T06:01:17.418Z"
     }
   ],
-  "new_count": 1
+  "new_count": 4
 }
