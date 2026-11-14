@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-14T10:01:15.706Z",
+  "generated_at": "2026-11-14T11:01:18.153Z",
   "stats": {
     "muzika.hr": {
       "ok": true,
@@ -9,6 +9,10 @@
       "ok": true,
       "count": 0
     },
+    "Mochvara": {
+      "ok": true,
+      "count": 12
+    },
     "Tvornica": {
       "ok": true,
       "count": 2
@@ -16,10 +20,6 @@
     "Gavella": {
       "ok": true,
       "count": 32
-    },
-    "Mochvara": {
-      "ok": true,
-      "count": 12
     },
     "ZeKaeM": {
       "ok": true,
@@ -42,8 +42,8 @@
       "count": 0
     },
     "Pogon": {
-      "ok": false,
-      "error": "The operation was aborted due to timeout"
+      "ok": true,
+      "count": 0
     }
   },
   "concerts": [
@@ -1231,6 +1231,21 @@
       "source": "muzika.hr",
       "is_new": true,
       "first_seen": "2026-11-14T10:01:15.706Z"
+    },
+    {
+      "id": "727df88164",
+      "title": "Ajngemahtec kvintet Večer posvećena Stjepanu Jimmyju Staniću",
+      "venue": "Vintage Industrial Bar Savska ulica 160",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-11-18T21:00:00",
+      "date_display": "sri, 18. 11. 2026.",
+      "time": "21:00",
+      "link": "https://www.muzika.hr/event/ajngemahtec-kvintet-vecer-posvecena-stjepanu-jimmyju-stanicu/",
+      "source": "muzika.hr",
+      "is_new": true,
+      "first_seen": "2026-11-14T11:01:18.153Z"
     },
     {
       "id": "dfc282446b",
@@ -4657,5 +4672,5 @@
       "first_seen": "2026-10-31T06:01:17.418Z"
     }
   ],
-  "new_count": 3
+  "new_count": 4
 }
