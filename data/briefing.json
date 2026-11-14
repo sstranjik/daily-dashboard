@@ -1,16 +1,16 @@
 {
   "version": 2,
-  "date": "2026-11-13",
-  "generated_at": "2026-11-13T12:48:28.522Z",
-  "date_hr": "Petak, 13. studenog 2026.",
+  "date": "2026-11-14",
+  "generated_at": "2026-11-14T06:03:47.562Z",
+  "date_hr": "Subota, 14. studenog 2026.",
   "weather": {
     "icon": "🌡️",
     "summary": "Vremenski podaci nedostupni",
     "alerts": [],
-    "error": "HTTP 503"
+    "error": "The operation was aborted due to timeout"
   },
   "fuel": {
-    "current_date": "13.11.2026",
+    "current_date": "14.11.2026",
     "eurodiesel": [
       {
         "company": "Adria Oil",
@@ -52,7 +52,7 @@
       },
       {
         "company": "Petrol",
-        "price": 2.11
+        "price": 2.13
       },
       {
         "company": "Coral Croatia",
@@ -64,46 +64,46 @@
     "upcoming_premium": null
   },
   "market": {
-    "updated_at": "2026-11-13T12:48:28.522Z",
-    "btc_usd": 69248,
-    "btc_eur": 62655,
-    "btc_change_24h": -4.96,
-    "usd_eur": 0.9035
+    "updated_at": "2026-11-14T06:03:47.562Z",
+    "btc_usd": 67251,
+    "btc_eur": 61007,
+    "btc_change_24h": -1.17,
+    "usd_eur": 0.906
   },
   "ai_news": [
     {
-      "title": "Microsoft’s Outlook and Teams outage passes 12 hours, disrupting AI services and businesses worldwide",
-      "link": "https://thenextweb.com/news/microsoft-outage-outlook-teams-12-hours-global",
-      "source": "The Next Web"
-    },
-    {
-      "title": "Google’s Gemini 4 Hydrogen brings a fast, cheaper model to everyone",
-      "link": "https://thenextweb.com/news/google-gemini-4-hydrogen-fast-cheap-model-everyone",
-      "source": "The Next Web"
-    },
-    {
-      "title": "Anthropic lets companies run Claude’s agent service on their own servers",
-      "link": "https://thenextweb.com/news/anthropic-self-hosted-claude-managed-agents",
-      "source": "The Next Web"
-    },
-    {
-      "title": "J.Crew launches an AI stylist built on Anthropic’s Claude",
-      "link": "https://thenextweb.com/news/jcrew-style-advisor-claude-ai-stylist",
-      "source": "The Next Web"
-    },
-    {
-      "title": "AI chatbots are recommending fake retail websites, study finds",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1032020/gemini-chatgpt-perplexity-shopping-test-risky-fake-websites-citations",
+      "title": "ChatGPT Wallet lets OpenAI’s Dots agents make purchases for you",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1033425/openai-chatgpt-wallet",
       "source": "The Verge"
+    },
+    {
+      "title": "OpenAI’s ChatGPT Wallet lets its AI agents shop without seeing your card",
+      "link": "https://thenextweb.com/news/chatgpt-wallet-openai-dots-agents-payments",
+      "source": "The Next Web"
+    },
+    {
+      "title": "Claude’s Duet agent is a little neurotic and surprisingly helpful",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1032518/claude-duet-ai-agent-hands-on",
+      "source": "The Verge"
+    },
+    {
+      "title": "Anthropic says its AI safety scores depend heavily on how they’re measured",
+      "link": "https://thenextweb.com/news/anthropic-safety-evaluations-guidance-fable-self-harm",
+      "source": "The Next Web"
+    },
+    {
+      "title": "ChatGPT&#8217;s new Wallet lets AI agents shop and check out for you",
+      "link": "https://techcrunch.com/2026/11/13/chatgpts-new-wallet-lets-ai-agents-shop-and-check-out-for-you/",
+      "source": "TechCrunch AI"
     }
   ],
   "micro_tips": {
     "vscode": {
-      "tip": "Rename Symbol svuda u projektu (refactoring)",
-      "keys": "F2"
+      "tip": "Quick Fix i Code Actions na trenutnoj poziciji",
+      "keys": "Ctrl+."
     },
-    "sql": "NOT EXISTS brži od NOT IN kad subquery može vratiti NULL vrijednost",
-    "oracle": "DBMS_STATS.GATHER_TABLE_STATS osvježava statistike za točniji execution plan",
-    "regex": "(?i) inline flag za case-insensitive bez mijenjanja ostatka patternahe"
+    "sql": "Parametrizirani upiti = plan cache reuse + SQL injection zaštita istovremeno",
+    "oracle": "NVL2(expr, kad_nije_null, kad_je_null) kompaktnija od dvostrukog NVL-a",
+    "regex": "\\s+ pokriva space, tab i newline; \\S je negacija (svaki ne-whitespace)"
   }
 }
