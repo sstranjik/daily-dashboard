@@ -1,39 +1,7 @@
 {
-  "generated_at": "2026-11-14T21:01:16.145Z",
+  "generated_at": "2026-11-14T22:46:55.589Z",
   "stats": {
-    "muzika.hr": {
-      "ok": true,
-      "count": 25
-    },
     "Mochvara": {
-      "ok": true,
-      "count": 12
-    },
-    "Lisinski": {
-      "ok": true,
-      "count": 0
-    },
-    "Gavella": {
-      "ok": true,
-      "count": 30
-    },
-    "Tvornica": {
-      "ok": true,
-      "count": 2
-    },
-    "ZeKaeM": {
-      "ok": true,
-      "count": 1
-    },
-    "Komedija": {
-      "ok": true,
-      "count": 0
-    },
-    "HNK Zagreb": {
-      "ok": true,
-      "count": 122
-    },
-    "Kerempuh": {
       "ok": true,
       "count": 0
     },
@@ -41,27 +9,44 @@
       "ok": true,
       "count": 0
     },
+    "ZeKaeM": {
+      "ok": true,
+      "count": 0
+    },
+    "Kerempuh": {
+      "ok": true,
+      "count": 0
+    },
+    "Gavella": {
+      "ok": true,
+      "count": 30
+    },
     "Trešnja": {
       "ok": true,
       "count": 0
+    },
+    "Lisinski": {
+      "ok": true,
+      "count": 0
+    },
+    "Komedija": {
+      "ok": true,
+      "count": 0
+    },
+    "Tvornica": {
+      "ok": true,
+      "count": 2
+    },
+    "muzika.hr": {
+      "ok": true,
+      "count": 25
+    },
+    "HNK Zagreb": {
+      "ok": true,
+      "count": 122
     }
   },
   "concerts": [
-    {
-      "id": "10ebd0235f",
-      "title": "Vratimo nežnost u grad — regionalni alt-indie-pop party",
-      "venue": "Mochvara",
-      "city": "Zagreb",
-      "country": "HR",
-      "category": "concert",
-      "date_iso": "2026-10-30T22:00:00",
-      "date_display": "pet, 30. 10. 2026.",
-      "time": "22:00",
-      "link": "https://mochvara.hr/event-detail/6ad8b11aaf4ecaea5503ed3c/",
-      "source": "Mochvara",
-      "is_new": false,
-      "first_seen": "2026-10-24T22:03:42.393Z"
-    },
     {
       "id": "5095edc102",
       "title": "Tito Tarantula (muzika.hr fanclub)",
@@ -2039,7 +2024,7 @@
       "time": "19:30",
       "link": "https://hnk.hr/hr/balet/predstave/ora%C5%A1arr2025/#04.12.19.30",
       "source": "HNK Zagreb",
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-14T21:01:16.145Z"
     },
     {
@@ -2176,6 +2161,21 @@
       "source": "HNK Zagreb",
       "is_new": false,
       "first_seen": "2026-08-28T10:01:17.450Z"
+    },
+    {
+      "id": "9a46a71f1e",
+      "title": "Petar Iljič Čajkovski — Rudolf Nurejev Orašar",
+      "venue": "HNK Zagreb",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-12-07T19:30:00",
+      "date_display": "pon, 07. 12. 2026.",
+      "time": "19:30",
+      "link": "https://hnk.hr/hr/balet/predstave/ora%C5%A1arr2025/#07.12.19.30",
+      "source": "HNK Zagreb",
+      "is_new": true,
+      "first_seen": "2026-11-14T22:46:55.589Z"
     },
     {
       "id": "f034d2f710",
@@ -3710,6 +3710,21 @@
       "first_seen": "2026-11-04T09:01:23.878Z"
     },
     {
+      "id": "7f6d1be77a",
+      "title": "Nina Ramšak Marković i Milan Ramšak Marković Überkrajina — SNG Maribor Gostovanje P6 u SNG Maribor. Polazak autobusa u 14 sati ispred HNK u Zagrebu",
+      "venue": "HNK Zagreb",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "theater",
+      "date_iso": "2026-11-28T18:00:00",
+      "date_display": "sub, 28. 11. 2026.",
+      "time": "18:00",
+      "link": "https://hnk.hr/hr/drama/predstave/%C3%BCberkrajina/#28.11.18.00",
+      "source": "HNK Zagreb",
+      "is_new": true,
+      "first_seen": "2026-11-14T22:46:55.589Z"
+    },
+    {
       "id": "83e9121b0a",
       "title": "Sanja Milardović Marija Antoaneta za ovo nema vremena",
       "venue": "HNK Zagreb",
@@ -4582,5 +4597,5 @@
       "first_seen": "2026-10-31T06:01:17.418Z"
     }
   ],
-  "new_count": 2
+  "new_count": 3
 }
