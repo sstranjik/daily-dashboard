@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-15T14:01:19.950Z",
+  "generated_at": "2026-11-15T15:01:21.481Z",
   "stats": {
     "muzika.hr": {
       "ok": true,
@@ -9,13 +9,13 @@
       "ok": true,
       "count": 12
     },
-    "Lisinski": {
-      "ok": true,
-      "count": 0
-    },
     "Gavella": {
       "ok": true,
       "count": 30
+    },
+    "Lisinski": {
+      "ok": true,
+      "count": 0
     },
     "Tvornica": {
       "ok": true,
@@ -29,6 +29,10 @@
       "ok": true,
       "count": 0
     },
+    "HNK Zagreb": {
+      "ok": false,
+      "error": "HTTP 404"
+    },
     "Pogon": {
       "ok": true,
       "count": 0
@@ -37,46 +41,12 @@
       "ok": true,
       "count": 0
     },
-    "HNK Zagreb": {
-      "ok": true,
-      "count": 119
-    },
     "Trešnja": {
       "ok": true,
       "count": 0
     }
   },
   "concerts": [
-    {
-      "id": "9ba9887a02",
-      "title": "Razgled kazališta 165 sezona iza kulisa",
-      "venue": "HNK Zagreb",
-      "city": "Zagreb",
-      "country": "HR",
-      "category": "concert",
-      "date_iso": "2026-10-31T15:00:00",
-      "date_display": "sub, 31. 10. 2026.",
-      "time": "15:00",
-      "link": "https://hnk.hr/hr/ostalo/predstave/iza-kulisa-165-sezona/#31.10.15.00",
-      "source": "HNK Zagreb",
-      "is_new": false,
-      "first_seen": "2026-07-06T13:36:18.558Z"
-    },
-    {
-      "id": "122e415927",
-      "title": "Razgled kazališta 166 sezona iza kulisa",
-      "venue": "HNK Zagreb",
-      "city": "Zagreb",
-      "country": "HR",
-      "category": "concert",
-      "date_iso": "2026-10-31T15:00:00",
-      "date_display": "sub, 31. 10. 2026.",
-      "time": "15:00",
-      "link": "https://hnk.hr/hr/ostalo/predstave/iza-kulisa-166-sezona/#31.10.15.00",
-      "source": "HNK Zagreb",
-      "is_new": false,
-      "first_seen": "2026-07-06T16:01:38.364Z"
-    },
     {
       "id": "9a18e155ee",
       "title": "Rasprodano: Močvarni Halloween party",
@@ -1051,6 +1021,21 @@
       "source": "Mochvara",
       "is_new": false,
       "first_seen": "2026-11-13T06:01:14.485Z"
+    },
+    {
+      "id": "d6463b6b42",
+      "title": "Rasprodano: Još gori u Začaranoj Močvari, dan drugi",
+      "venue": "Mochvara",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-11-16T20:00:00",
+      "date_display": "pon, 16. 11. 2026.",
+      "time": "20:00",
+      "link": "https://mochvara.hr/event-detail/6af18900004429833c744d2d/",
+      "source": "Mochvara",
+      "is_new": true,
+      "first_seen": "2026-11-15T15:01:21.481Z"
     },
     {
       "id": "ba2c4424a2",
@@ -4567,5 +4552,5 @@
       "first_seen": "2026-10-31T06:01:17.418Z"
     }
   ],
-  "new_count": 2
+  "new_count": 3
 }
