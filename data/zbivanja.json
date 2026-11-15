@@ -1,27 +1,35 @@
 {
-  "generated_at": "2026-11-15T21:01:21.957Z",
+  "generated_at": "2026-11-15T23:37:31.591Z",
   "stats": {
     "muzika.hr": {
       "ok": true,
       "count": 25
     },
-    "Gavella": {
+    "Mochvara": {
       "ok": true,
-      "count": 30
+      "count": 12
     },
     "Lisinski": {
       "ok": true,
       "count": 0
     },
+    "Gavella": {
+      "ok": true,
+      "count": 30
+    },
     "Tvornica": {
       "ok": true,
       "count": 2
     },
-    "Mochvara": {
+    "ZeKaeM": {
       "ok": true,
-      "count": 12
+      "count": 1
     },
     "Komedija": {
+      "ok": true,
+      "count": 0
+    },
+    "Kerempuh": {
       "ok": true,
       "count": 0
     },
@@ -29,19 +37,11 @@
       "ok": true,
       "count": 119
     },
-    "ZeKaeM": {
-      "ok": true,
-      "count": 1
-    },
-    "Kerempuh": {
+    "Trešnja": {
       "ok": true,
       "count": 0
     },
     "Pogon": {
-      "ok": true,
-      "count": 0
-    },
-    "Trešnja": {
       "ok": true,
       "count": 0
     }
@@ -1203,6 +1203,21 @@
       "first_seen": "2026-08-27T15:01:20.279Z"
     },
     {
+      "id": "18a0e7489b",
+      "title": "Dirty Dancing – 80’s party",
+      "venue": "Mochvara",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-11-20T22:00:00",
+      "date_display": "pet, 20. 11. 2026.",
+      "time": "22:00",
+      "link": "https://mochvara.hr/event-detail/6ac8ad71653eb342985b8702/",
+      "source": "Mochvara",
+      "is_new": true,
+      "first_seen": "2026-11-15T23:37:31.591Z"
+    },
+    {
       "id": "f978fe5d1a",
       "title": "Zabranjeno pušenje Neuštekani",
       "venue": "Vatroslav Lisinski Trg Stjepana Radića 4",
@@ -2309,7 +2324,7 @@
       "time": "19:30",
       "link": "https://hnk.hr/hr/balet/predstave/ora%C5%A1arr2025/#15.12.19.30",
       "source": "HNK Zagreb",
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-15T21:01:21.957Z"
     },
     {
@@ -2459,7 +2474,7 @@
       "time": "19:30",
       "link": "https://hnk.hr/hr/balet/predstave/ora%C5%A1arr2025/#22.12.19.30",
       "source": "HNK Zagreb",
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-15T21:01:21.957Z"
     },
     {
@@ -2504,7 +2519,7 @@
       "time": "12:00",
       "link": "https://hnk.hr/hr/balet/predstave/ora%C5%A1arr2025/#24.12.12.00",
       "source": "HNK Zagreb",
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-15T21:01:21.957Z"
     },
     {
@@ -4537,5 +4552,5 @@
       "first_seen": "2026-10-31T06:01:17.418Z"
     }
   ],
-  "new_count": 5
+  "new_count": 3
 }
