@@ -1,21 +1,29 @@
 {
-  "generated_at": "2026-11-15T09:01:15.343Z",
+  "generated_at": "2026-11-15T10:01:24.417Z",
   "stats": {
-    "Mochvara": {
-      "ok": true,
-      "count": 12
-    },
     "Lisinski": {
       "ok": true,
       "count": 0
+    },
+    "Gavella": {
+      "ok": true,
+      "count": 30
+    },
+    "Mochvara": {
+      "ok": true,
+      "count": 12
     },
     "Tvornica": {
       "ok": true,
       "count": 2
     },
-    "Gavella": {
+    "HNK Zagreb": {
+      "ok": false,
+      "error": "HTTP 404"
+    },
+    "Komedija": {
       "ok": true,
-      "count": 30
+      "count": 0
     },
     "muzika.hr": {
       "ok": true,
@@ -24,14 +32,6 @@
     "ZeKaeM": {
       "ok": true,
       "count": 1
-    },
-    "Komedija": {
-      "ok": true,
-      "count": 0
-    },
-    "HNK Zagreb": {
-      "ok": false,
-      "error": "HTTP 404"
     },
     "Pogon": {
       "ok": true,
