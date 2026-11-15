@@ -1,15 +1,15 @@
 {
   "version": 2,
-  "date": "2026-11-14",
-  "generated_at": "2026-11-14T11:55:36.097Z",
-  "date_hr": "Subota, 14. studenog 2026.",
+  "date": "2026-11-15",
+  "generated_at": "2026-11-15T06:03:35.257Z",
+  "date_hr": "Nedjelja, 15. studenog 2026.",
   "weather": {
     "icon": "🌫️",
-    "summary": "0–8°C, magla",
+    "summary": "-1–5°C, magla",
     "alerts": []
   },
   "fuel": {
-    "current_date": "14.11.2026",
+    "current_date": "15.11.2026",
     "eurodiesel": [
       {
         "company": "Adria Oil",
@@ -63,46 +63,36 @@
     "upcoming_premium": null
   },
   "market": {
-    "updated_at": "2026-11-14T11:55:36.097Z",
-    "btc_usd": 67223,
-    "btc_eur": 60981,
-    "btc_change_24h": -3.01,
+    "updated_at": "2026-11-15T06:03:35.257Z",
+    "btc_usd": 64370,
+    "btc_eur": 58396,
+    "btc_change_24h": -4.27,
     "usd_eur": 0.906
   },
   "ai_news": [
     {
-      "title": "ChatGPT Wallet lets OpenAI’s Dots agents make purchases for you",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1033425/openai-chatgpt-wallet",
-      "source": "The Verge"
-    },
-    {
-      "title": "OpenAI’s ChatGPT Wallet lets its AI agents shop without seeing your card",
-      "link": "https://thenextweb.com/news/chatgpt-wallet-openai-dots-agents-payments",
-      "source": "The Next Web"
-    },
-    {
-      "title": "Claude’s Duet agent is a little neurotic and surprisingly helpful",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1032518/claude-duet-ai-agent-hands-on",
-      "source": "The Verge"
-    },
-    {
-      "title": "Anthropic says its AI safety scores depend heavily on how they’re measured",
-      "link": "https://thenextweb.com/news/anthropic-safety-evaluations-guidance-fable-self-harm",
-      "source": "The Next Web"
-    },
-    {
-      "title": "ChatGPT&#8217;s new Wallet lets AI agents shop and check out for you",
-      "link": "https://techcrunch.com/2026/11/13/chatgpts-new-wallet-lets-ai-agents-shop-and-check-out-for-you/",
+      "title": "The AI graveyard: a running list of projects and startups that didn&#8217;t make it",
+      "link": "https://techcrunch.com/2026/11/14/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it/",
       "source": "TechCrunch AI"
+    },
+    {
+      "title": "The OpenAI board member who fired Sam Altman says we still can&#8217;t trust AI CEOs",
+      "link": "https://www.theverge.com/podcast/1032907/helen-toner-openai-cset-ai-safety-policy-interview",
+      "source": "The Verge"
+    },
+    {
+      "title": "Microsoft se javio nakon velikog pada sustava: Znaju uzrok incidenta",
+      "link": "https://www.tportal.hr/tehno/clanak/microsoft-se-javio-nakon-velikog-pada-sustava-znaju-uzrok-incidenta-20261114",
+      "source": "Tportal"
     }
   ],
   "micro_tips": {
     "vscode": {
-      "tip": "Quick Fix i Code Actions na trenutnoj poziciji",
-      "keys": "Ctrl+."
+      "tip": "Toggle integrirani terminal",
+      "keys": "Ctrl+`"
     },
-    "sql": "Parametrizirani upiti = plan cache reuse + SQL injection zaštita istovremeno",
-    "oracle": "NVL2(expr, kad_nije_null, kad_je_null) kompaktnija od dvostrukog NVL-a",
-    "regex": "\\s+ pokriva space, tab i newline; \\S je negacija (svaki ne-whitespace)"
+    "sql": "Batch INSERT umjesto jednog-po-jednog: INSERT INTO t VALUES (...),(...),...",
+    "oracle": "FETCH FIRST n ROWS ONLY umjesto ROWNUM — kompatibilno s ORDER BY i čitljivije",
+    "regex": "^(?!.*pattern) negative lookahead: \"ova linija ne smije sadržavati X\""
   }
 }
