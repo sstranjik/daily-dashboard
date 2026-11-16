@@ -1,17 +1,13 @@
 {
-  "generated_at": "2026-11-16T21:01:25.605Z",
+  "generated_at": "2026-11-16T23:33:17.060Z",
   "stats": {
-    "muzika.hr": {
+    "Mochvara": {
       "ok": true,
-      "count": 25
+      "count": 11
     },
     "Lisinski": {
       "ok": true,
       "count": 0
-    },
-    "Mochvara": {
-      "ok": true,
-      "count": 12
     },
     "Gavella": {
       "ok": true,
@@ -20,6 +16,10 @@
     "Tvornica": {
       "ok": true,
       "count": 2
+    },
+    "muzika.hr": {
+      "ok": true,
+      "count": 25
     },
     "ZeKaeM": {
       "ok": true,
@@ -1338,6 +1338,21 @@
       "first_seen": "2026-11-06T10:01:18.427Z"
     },
     {
+      "id": "3fe08b35eb",
+      "title": "Idu Hobiti – promocija albuma \"Idu Dalje\"",
+      "venue": "Mochvara",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-11-21T20:00:00",
+      "date_display": "sub, 21. 11. 2026.",
+      "time": "20:00",
+      "link": "https://mochvara.hr/event-detail/6ab51108f11bc39a84ef59cf/",
+      "source": "Mochvara",
+      "is_new": true,
+      "first_seen": "2026-11-16T23:33:17.060Z"
+    },
+    {
       "id": "a59f23c911",
       "title": "Rotting Christ",
       "venue": "Grada Vukovara 68",
@@ -1426,6 +1441,21 @@
       "source": "muzika.hr",
       "is_new": false,
       "first_seen": "2026-11-01T20:01:16.170Z"
+    },
+    {
+      "id": "ddac10e81b",
+      "title": "Začarana Močvara: Picastro, GALLT1",
+      "venue": "Mochvara",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-11-22T20:00:00",
+      "date_display": "ned, 22. 11. 2026.",
+      "time": "20:00",
+      "link": "https://mochvara.hr/event-detail/6ad0bb06bd7ade09d875b314/",
+      "source": "Mochvara",
+      "is_new": true,
+      "first_seen": "2026-11-16T23:33:17.060Z"
     },
     {
       "id": "abc47ef862",
@@ -4627,5 +4657,5 @@
       "first_seen": "2026-10-31T06:01:17.418Z"
     }
   ],
-  "new_count": 3
+  "new_count": 5
 }
