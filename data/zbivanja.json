@@ -1,43 +1,43 @@
 {
-  "generated_at": "2026-11-16T13:17:55.856Z",
+  "generated_at": "2026-11-16T14:01:30.172Z",
   "stats": {
     "muzika.hr": {
       "ok": true,
       "count": 25
     },
-    "Mochvara": {
-      "ok": true,
-      "count": 12
-    },
     "Lisinski": {
       "ok": true,
       "count": 0
-    },
-    "Gavella": {
-      "ok": true,
-      "count": 30
     },
     "Tvornica": {
       "ok": true,
       "count": 2
     },
+    "Mochvara": {
+      "ok": true,
+      "count": 12
+    },
+    "Gavella": {
+      "ok": true,
+      "count": 30
+    },
     "ZeKaeM": {
       "ok": true,
       "count": 1
-    },
-    "HNK Zagreb": {
-      "ok": false,
-      "error": "HTTP 404"
     },
     "Komedija": {
       "ok": true,
       "count": 0
     },
-    "Pogon": {
+    "HNK Zagreb": {
+      "ok": true,
+      "count": 122
+    },
+    "Kerempuh": {
       "ok": true,
       "count": 0
     },
-    "Kerempuh": {
+    "Pogon": {
       "ok": true,
       "count": 0
     },
@@ -3048,6 +3048,21 @@
       "first_seen": "2026-11-13T14:01:18.633Z"
     },
     {
+      "id": "1ec1edfe8e",
+      "title": "Winfried Radeke – Peter Lund Vještica Hillary i uvrijeđeni kontrabas",
+      "venue": "HNK Zagreb",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2027-02-27T11:00:00",
+      "date_display": "sub, 27. 02. 2027.",
+      "time": "11:00",
+      "link": "https://hnk.hr/hr/opera/predstave/vje%C5%A1tica-hillary-i-uvrije%C4%91eni-kontrabas/#27.02.11.00",
+      "source": "HNK Zagreb",
+      "is_new": true,
+      "first_seen": "2026-11-16T14:01:30.172Z"
+    },
+    {
       "id": "6546fe288f",
       "title": "Dmitrij Šostakovič / Gioachino Rossini — Mauro Bigonzetti Kazimir’s Colours / Rossini Cards",
       "venue": "HNK Zagreb",
@@ -4351,7 +4366,7 @@
       "time": "19:30",
       "link": "https://hnk.hr/hr/drama/predstave/zlo%C4%8D-i-kazna/#05.02.19.30",
       "source": "HNK Zagreb",
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-16T12:01:27.170Z"
     },
     {
@@ -4366,7 +4381,7 @@
       "time": "18:00",
       "link": "https://hnk.hr/hr/drama/predstave/zlo%C4%8D-i-kazna/#06.02.18.00",
       "source": "HNK Zagreb",
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-16T12:01:27.170Z"
     },
     {
@@ -4411,7 +4426,7 @@
       "time": "19:30",
       "link": "https://hnk.hr/hr/drama/predstave/zlo%C4%8D-i-kazna/#10.02.19.30",
       "source": "HNK Zagreb",
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-16T12:01:27.170Z"
     },
     {
@@ -4456,7 +4471,7 @@
       "time": "18:00",
       "link": "https://hnk.hr/hr/drama/predstave/godine/#13.02.18.00",
       "source": "HNK Zagreb",
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-16T12:01:27.170Z"
     },
     {
@@ -4612,5 +4627,5 @@
       "first_seen": "2026-10-31T06:01:17.418Z"
     }
   ],
-  "new_count": 6
+  "new_count": 3
 }
