@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-11-16T11:01:24.263Z",
+  "generated_at": "2026-11-16T12:01:27.170Z",
   "stats": {
     "muzika.hr": {
       "ok": true,
       "count": 25
     },
-    "Lisinski": {
-      "ok": true,
-      "count": 0
-    },
     "Mochvara": {
       "ok": true,
       "count": 12
+    },
+    "Lisinski": {
+      "ok": true,
+      "count": 0
     },
     "Gavella": {
       "ok": true,
@@ -29,13 +29,13 @@
       "ok": true,
       "count": 0
     },
-    "HNK Zagreb": {
-      "ok": false,
-      "error": "HTTP 404"
-    },
     "Pogon": {
       "ok": true,
       "count": 0
+    },
+    "HNK Zagreb": {
+      "ok": true,
+      "count": 121
     },
     "Kerempuh": {
       "ok": true,
@@ -4340,6 +4340,36 @@
       "first_seen": "2026-11-11T16:01:22.811Z"
     },
     {
+      "id": "e07ed230e5",
+      "title": "Fjodor M. Dostojevski Zločin i kazna",
+      "venue": "HNK Zagreb",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "theater",
+      "date_iso": "2027-02-05T19:30:00",
+      "date_display": "pet, 05. 02. 2027.",
+      "time": "19:30",
+      "link": "https://hnk.hr/hr/drama/predstave/zlo%C4%8D-i-kazna/#05.02.19.30",
+      "source": "HNK Zagreb",
+      "is_new": true,
+      "first_seen": "2026-11-16T12:01:27.170Z"
+    },
+    {
+      "id": "a22a7f35f3",
+      "title": "Fjodor M. Dostojevski Zločin i kazna",
+      "venue": "HNK Zagreb",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "theater",
+      "date_iso": "2027-02-06T18:00:00",
+      "date_display": "sub, 06. 02. 2027.",
+      "time": "18:00",
+      "link": "https://hnk.hr/hr/drama/predstave/zlo%C4%8D-i-kazna/#06.02.18.00",
+      "source": "HNK Zagreb",
+      "is_new": true,
+      "first_seen": "2026-11-16T12:01:27.170Z"
+    },
+    {
       "id": "601c8f3b0a",
       "title": "Fjodor M. Dostojevski Zločin i kazna",
       "venue": "HNK Zagreb",
@@ -4370,6 +4400,21 @@
       "first_seen": "2026-11-12T09:01:19.641Z"
     },
     {
+      "id": "66ecc88b5c",
+      "title": "Fjodor M. Dostojevski Zločin i kazna",
+      "venue": "HNK Zagreb",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "theater",
+      "date_iso": "2027-02-10T19:30:00",
+      "date_display": "sri, 10. 02. 2027.",
+      "time": "19:30",
+      "link": "https://hnk.hr/hr/drama/predstave/zlo%C4%8D-i-kazna/#10.02.19.30",
+      "source": "HNK Zagreb",
+      "is_new": true,
+      "first_seen": "2026-11-16T12:01:27.170Z"
+    },
+    {
       "id": "e7af8da894",
       "title": "Oscar Wilde Idealan muž",
       "venue": "HNK Zagreb",
@@ -4398,6 +4443,21 @@
       "source": "HNK Zagreb",
       "is_new": false,
       "first_seen": "2026-11-12T14:01:21.573Z"
+    },
+    {
+      "id": "e87315d823",
+      "title": "Annie Ernaux Godine",
+      "venue": "HNK Zagreb",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "theater",
+      "date_iso": "2027-02-13T18:00:00",
+      "date_display": "sub, 13. 02. 2027.",
+      "time": "18:00",
+      "link": "https://hnk.hr/hr/drama/predstave/godine/#13.02.18.00",
+      "source": "HNK Zagreb",
+      "is_new": true,
+      "first_seen": "2026-11-16T12:01:27.170Z"
     },
     {
       "id": "0914b08862",
@@ -4552,5 +4612,5 @@
       "first_seen": "2026-10-31T06:01:17.418Z"
     }
   ],
-  "new_count": 2
+  "new_count": 6
 }
