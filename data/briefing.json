@@ -1,15 +1,15 @@
 {
   "version": 2,
-  "date": "2026-11-15",
-  "generated_at": "2026-11-15T12:27:04.264Z",
-  "date_hr": "Nedjelja, 15. studenog 2026.",
+  "date": "2026-11-16",
+  "generated_at": "2026-11-16T06:03:09.868Z",
+  "date_hr": "Ponedjeljak, 16. studenog 2026.",
   "weather": {
-    "icon": "🌫️",
-    "summary": "-1–5°C, magla",
+    "icon": "🌦️",
+    "summary": "3–8°C, pljuskovi · 1.6 mm",
     "alerts": []
   },
   "fuel": {
-    "current_date": "15.11.2026",
+    "current_date": "16.11.2026",
     "eurodiesel": [
       {
         "company": "Adria Oil",
@@ -63,31 +63,26 @@
     "upcoming_premium": null
   },
   "market": {
-    "updated_at": "2026-11-15T12:27:04.264Z",
-    "btc_usd": 65430,
-    "btc_eur": 59358,
-    "btc_change_24h": -2.49,
-    "usd_eur": 0.906
+    "updated_at": "2026-11-16T06:03:09.868Z",
+    "btc_usd": 64351,
+    "btc_eur": 58389,
+    "btc_change_24h": 0.04,
+    "usd_eur": 0.9066
   },
   "ai_news": [
     {
-      "title": "The AI graveyard: a running list of projects and startups that didn&#8217;t make it",
-      "link": "https://techcrunch.com/2026/11/14/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it/",
-      "source": "TechCrunch AI"
-    },
-    {
-      "title": "The OpenAI board member who fired Sam Altman says we still can&#8217;t trust AI CEOs",
-      "link": "https://www.theverge.com/podcast/1032907/helen-toner-openai-cset-ai-safety-policy-interview",
-      "source": "The Verge"
+      "title": "Applied Digital wants power guarantees from Oracle and Meta, Bloomberg says",
+      "link": "https://thenextweb.com/news/applied-digital-power-guarantees-oracle-meta-grid-costs",
+      "source": "The Next Web"
     }
   ],
   "micro_tips": {
     "vscode": {
-      "tip": "Toggle integrirani terminal",
-      "keys": "Ctrl+`"
+      "tip": "Selektiraj sva pojavljivanja trenutne riječi",
+      "keys": "Ctrl+Shift+L"
     },
-    "sql": "Batch INSERT umjesto jednog-po-jednog: INSERT INTO t VALUES (...),(...),...",
-    "oracle": "FETCH FIRST n ROWS ONLY umjesto ROWNUM — kompatibilno s ORDER BY i čitljivije",
-    "regex": "^(?!.*pattern) negative lookahead: \"ova linija ne smije sadržavati X\""
+    "sql": "EXISTS umjesto IN za subqueries — brže jer stane na prvom podudaranju: WHERE EXISTS (SELECT 1 FROM ...)",
+    "oracle": "/*+ INDEX(t ime_indexa) */ forsira specifičan index kad optimizer bira full scan",
+    "regex": "\\b granica riječi: \\bword\\b podudara cijelu riječ, ne \"password\" ili \"swordfish\""
   }
 }
