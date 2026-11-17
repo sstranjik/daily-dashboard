@@ -1,61 +1,61 @@
 {
   "version": 2,
-  "date": "2026-11-16",
-  "generated_at": "2026-11-16T13:20:06.013Z",
-  "date_hr": "Ponedjeljak, 16. studenog 2026.",
+  "date": "2026-11-17",
+  "generated_at": "2026-11-17T06:03:05.771Z",
+  "date_hr": "Utorak, 17. studenog 2026.",
   "weather": {
-    "icon": "🌧️",
-    "summary": "3–9°C, lagana kiša · 2.6 mm",
+    "icon": "🌦️",
+    "summary": "6–16°C, pljuskovi · 5.2 mm",
     "alerts": []
   },
   "fuel": {
-    "current_date": "16.11.2026",
+    "current_date": "17.11.2026",
     "eurodiesel": [
       {
-        "company": "Adria Oil",
-        "price": 1.85
-      },
-      {
         "company": "Coral Croatia",
-        "price": 1.85
+        "price": 1.82
       },
       {
         "company": "INA",
-        "price": 1.85
+        "price": 1.82
       },
       {
         "company": "LUKOIL Croatia",
-        "price": 1.85
+        "price": 1.82
       },
       {
         "company": "Petrol",
-        "price": 1.85
+        "price": 1.82
       },
       {
         "company": "Tifon",
+        "price": 1.82
+      },
+      {
+        "company": "Adria Oil",
         "price": 1.85
       }
     ],
     "premium_eurodiesel": [
       {
         "company": "LUKOIL Croatia",
-        "price": 2.01
+        "price": 1.98
       },
       {
         "company": "INA",
-        "price": 2.08
+        "price": 2.05
       },
       {
         "company": "Tifon",
-        "price": 2.1
+        "price": 2.07
       },
       {
         "company": "Petrol",
-        "price": 2.13
+        "price": 2.08
       },
       {
         "company": "Coral Croatia",
-        "price": 2.21
+        "price": 2.18
       }
     ],
     "upcoming_date": null,
@@ -63,41 +63,46 @@
     "upcoming_premium": null
   },
   "market": {
-    "updated_at": "2026-11-16T13:20:06.013Z",
-    "btc_usd": 64186,
-    "btc_eur": 58275,
-    "btc_change_24h": -2.12,
-    "usd_eur": 0.9066
+    "updated_at": "2026-11-17T06:03:05.771Z",
+    "btc_usd": 64762,
+    "btc_eur": 58814,
+    "btc_change_24h": 0.5,
+    "usd_eur": 0.9086
   },
   "ai_news": [
     {
-      "title": "Nvidia, OpenAI and Anthropic to be named AI national champions, WSJ reports",
-      "link": "https://thenextweb.com/news/ai-national-champions-nvidia-openai-anthropic-trump",
+      "title": "California sues OpenAI over the rogue AI agents that hacked Hugging Face",
+      "link": "https://thenextweb.com/news/california-sues-openai-hugging-face-attack-rogue-agents",
       "source": "The Next Web"
     },
     {
-      "title": "Anthropic’s IPO draws more demand than SpaceX’s ahead of Thursday’s debut",
-      "link": "https://thenextweb.com/news/anthropic-ipo-orders-seven-times-spacex-pricing-week",
+      "title": "California sues OpenAI over rogue AI hacking incidents",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1034815/california-openai-hugging-face-lawsuit",
+      "source": "The Verge"
+    },
+    {
+      "title": "Google’s AdMob lets AI agents like Claude Code set up app ads",
+      "link": "https://thenextweb.com/news/google-admob-ai-agents-claude-code-codex-ask-admob",
       "source": "The Next Web"
     },
     {
-      "title": "ChatGPT želi ući u svijet u AI bankarstva: Biste li mu vjerovali?",
-      "link": "https://www.tportal.hr/tehno/clanak/chatgpt-zeli-uci-u-svijet-u-ai-bankarstva-biste-li-mu-vjerovali-20261116",
-      "source": "Tportal"
+      "title": "Satya Nadella says Claude Code caught Microsoft off guard and the IDE faded",
+      "link": "https://thenextweb.com/news/satya-nadella-claude-code-ide-pragmatic-engineer",
+      "source": "The Next Web"
     },
     {
-      "title": "Applied Digital wants power guarantees from Oracle and Meta, Bloomberg says",
-      "link": "https://thenextweb.com/news/applied-digital-power-guarantees-oracle-meta-grid-costs",
+      "title": "OpenAI widens free ChatGPT for researchers but swaps Pro for Plus",
+      "link": "https://thenextweb.com/news/openai-chatgpt-academic-researchers-50000-grants-plus",
       "source": "The Next Web"
     }
   ],
   "micro_tips": {
     "vscode": {
-      "tip": "Selektiraj sva pojavljivanja trenutne riječi",
-      "keys": "Ctrl+Shift+L"
+      "tip": "Pomakni liniju gore ili dolje bez cut/paste",
+      "keys": "Alt+↑ / Alt+↓"
     },
-    "sql": "EXISTS umjesto IN za subqueries — brže jer stane na prvom podudaranju: WHERE EXISTS (SELECT 1 FROM ...)",
-    "oracle": "/*+ INDEX(t ime_indexa) */ forsira specifičan index kad optimizer bira full scan",
-    "regex": "\\b granica riječi: \\bword\\b podudara cijelu riječ, ne \"password\" ili \"swordfish\""
+    "sql": "Nikad SELECT * u produkciji — navedi kolone, manji I/O i bolji cache plan",
+    "oracle": "/*+ PARALLEL(t 4) */ paralelno izvršavanje querija na N thread-ova",
+    "regex": "(?:group) non-capturing group: grupiraj bez pamćenja za veće performanse"
   }
 }
