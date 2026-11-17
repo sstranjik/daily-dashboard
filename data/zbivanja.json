@@ -1,25 +1,25 @@
 {
-  "generated_at": "2026-11-17T19:01:28.910Z",
+  "generated_at": "2026-11-17T20:01:21.789Z",
   "stats": {
-    "Mochvara": {
-      "ok": true,
-      "count": 11
-    },
     "muzika.hr": {
       "ok": true,
       "count": 25
+    },
+    "Gavella": {
+      "ok": true,
+      "count": 28
     },
     "Lisinski": {
       "ok": true,
       "count": 0
     },
+    "Mochvara": {
+      "ok": true,
+      "count": 11
+    },
     "Tvornica": {
       "ok": true,
       "count": 2
-    },
-    "Gavella": {
-      "ok": true,
-      "count": 29
     },
     "ZeKaeM": {
       "ok": true,
@@ -42,26 +42,11 @@
       "count": 0
     },
     "Trešnja": {
-      "ok": false,
-      "error": "The operation was aborted due to timeout"
+      "ok": true,
+      "count": 0
     }
   },
   "concerts": [
-    {
-      "id": "82bd0f594b",
-      "title": "Post-punk electro-pop gig: System Exclusive, Cabrio Cat, Denevér",
-      "venue": "Mochvara",
-      "city": "Zagreb",
-      "country": "HR",
-      "category": "concert",
-      "date_iso": "2026-11-02T19:30:00",
-      "date_display": "pon, 02. 11. 2026.",
-      "time": "19:30",
-      "link": "https://mochvara.hr/event-detail/6ab64eb0d02cd1d2ec979c5e/",
-      "source": "Mochvara",
-      "is_new": false,
-      "first_seen": "2026-10-26T06:01:20.567Z"
-    },
     {
       "id": "747a9d4974",
       "title": "Jozef Van Wissem Utorak 3.11.2026.",
@@ -3556,7 +3541,7 @@
       "time": "19:30",
       "link": "https://hnk.hr/hr/drama/predstave/richard-iii/#20.11.19.30",
       "source": "HNK Zagreb",
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-17T19:01:28.910Z"
     },
     {
@@ -4325,6 +4310,21 @@
       "first_seen": "2026-11-17T19:01:28.910Z"
     },
     {
+      "id": "3f4c8cd90e",
+      "title": "Tena Štivičić Raseljene Izvedba s titlovima na engleskom jeziku održava se u sklopu projekta Beyond Drama uz podršku Turističke zajednice grada Zagreb",
+      "venue": "HNK Zagreb",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "theater",
+      "date_iso": "2027-01-15T19:30:00",
+      "date_display": "pet, 15. 01. 2027.",
+      "time": "19:30",
+      "link": "https://hnk.hr/hr/drama/predstave/raseljene/#15.01.19.30",
+      "source": "HNK Zagreb",
+      "is_new": true,
+      "first_seen": "2026-11-17T20:01:21.789Z"
+    },
+    {
       "id": "5ef095b8aa",
       "title": "Sanja Milardović Marija Antoaneta za ovo nema vremena Izvedba u sklopu projekta Beyond Drama uz podršku Turističke zajednice grada Zagreba",
       "venue": "HNK Zagreb",
@@ -4366,7 +4366,7 @@
       "time": "18:00",
       "link": "https://hnk.hr/hr/drama/predstave/maria-stuart/#16.01.18.00",
       "source": "HNK Zagreb",
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-17T19:01:28.910Z"
     },
     {
@@ -4396,7 +4396,7 @@
       "time": "19:30",
       "link": "https://hnk.hr/hr/drama/predstave/zastave/#19.01.19.30",
       "source": "HNK Zagreb",
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-17T19:01:28.910Z"
     },
     {
@@ -4606,7 +4606,7 @@
       "time": "19:30",
       "link": "https://hnk.hr/hr/drama/predstave/idealan-mu%C5%BE/#11.02.19.30",
       "source": "HNK Zagreb",
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-17T19:01:28.910Z"
     },
     {
@@ -4777,5 +4777,5 @@
       "first_seen": "2026-10-31T06:01:17.418Z"
     }
   ],
-  "new_count": 8
+  "new_count": 5
 }
