@@ -1,17 +1,13 @@
 {
-  "generated_at": "2026-11-17T07:01:23.123Z",
+  "generated_at": "2026-11-17T08:01:28.000Z",
   "stats": {
-    "muzika.hr": {
+    "Mochvara": {
       "ok": true,
-      "count": 25
+      "count": 11
     },
     "Lisinski": {
       "ok": true,
       "count": 0
-    },
-    "Mochvara": {
-      "ok": true,
-      "count": 11
     },
     "Gavella": {
       "ok": true,
@@ -21,23 +17,27 @@
       "ok": true,
       "count": 2
     },
-    "ZeKaeM": {
+    "muzika.hr": {
       "ok": true,
-      "count": 1
+      "count": 25
     },
     "Komedija": {
       "ok": true,
       "count": 0
     },
-    "HNK Zagreb": {
-      "ok": false,
-      "error": "HTTP 404"
+    "ZeKaeM": {
+      "ok": true,
+      "count": 1
     },
-    "Kerempuh": {
+    "HNK Zagreb": {
+      "ok": true,
+      "count": 118
+    },
+    "Pogon": {
       "ok": true,
       "count": 0
     },
-    "Pogon": {
+    "Kerempuh": {
       "ok": true,
       "count": 0
     },
@@ -2103,6 +2103,21 @@
       "first_seen": "2026-11-04T11:01:25.729Z"
     },
     {
+      "id": "2a26f79020",
+      "title": "Razgled kazališta 166 sezona iza kulisa Razgled na engleskom jeziku",
+      "venue": "HNK Zagreb",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-12-05T15:30:00",
+      "date_display": "sub, 05. 12. 2026.",
+      "time": "15:30",
+      "link": "https://hnk.hr/hr/ostalo/predstave/iza-kulisa-166-sezona/#05.12.15.30",
+      "source": "HNK Zagreb",
+      "is_new": true,
+      "first_seen": "2026-11-17T08:01:28.000Z"
+    },
+    {
       "id": "643a67af9e",
       "title": "Petar Iljič Čajkovski — Rudolf Nurejev Orašar",
       "venue": "HNK Zagreb",
@@ -2431,6 +2446,21 @@
       "source": "HNK Zagreb",
       "is_new": false,
       "first_seen": "2026-11-04T11:01:25.729Z"
+    },
+    {
+      "id": "e55bae52f5",
+      "title": "Razgled kazališta 166 sezona iza kulisa Razgled na engleskom jeziku",
+      "venue": "HNK Zagreb",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-12-19T15:30:00",
+      "date_display": "sub, 19. 12. 2026.",
+      "time": "15:30",
+      "link": "https://hnk.hr/hr/ostalo/predstave/iza-kulisa-166-sezona/#19.12.15.30",
+      "source": "HNK Zagreb",
+      "is_new": true,
+      "first_seen": "2026-11-17T08:01:28.000Z"
     },
     {
       "id": "f00113b6cd",
@@ -3089,7 +3119,7 @@
       "time": "11:00",
       "link": "https://hnk.hr/hr/opera/predstave/vje%C5%A1tica-hillary-i-uvrije%C4%91eni-kontrabas/#27.02.11.00",
       "source": "HNK Zagreb",
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-16T14:01:30.172Z"
     },
     {
@@ -4657,5 +4687,5 @@
       "first_seen": "2026-10-31T06:01:17.418Z"
     }
   ],
-  "new_count": 3
+  "new_count": 4
 }
