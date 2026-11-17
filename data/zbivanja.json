@@ -1,14 +1,6 @@
 {
-  "generated_at": "2026-11-17T21:01:27.713Z",
+  "generated_at": "2026-11-17T23:12:47.117Z",
   "stats": {
-    "muzika.hr": {
-      "ok": true,
-      "count": 25
-    },
-    "Mochvara": {
-      "ok": true,
-      "count": 11
-    },
     "Lisinski": {
       "ok": true,
       "count": 0
@@ -16,6 +8,10 @@
     "Gavella": {
       "ok": true,
       "count": 28
+    },
+    "Mochvara": {
+      "ok": true,
+      "count": 11
     },
     "Tvornica": {
       "ok": true,
@@ -25,6 +21,10 @@
       "ok": true,
       "count": 0
     },
+    "muzika.hr": {
+      "ok": true,
+      "count": 25
+    },
     "ZeKaeM": {
       "ok": true,
       "count": 1
@@ -33,11 +33,11 @@
       "ok": false,
       "error": "HTTP 404"
     },
-    "Kerempuh": {
+    "Pogon": {
       "ok": true,
       "count": 0
     },
-    "Pogon": {
+    "Kerempuh": {
       "ok": true,
       "count": 0
     },
@@ -1488,6 +1488,21 @@
       "first_seen": "2026-11-01T20:01:16.170Z"
     },
     {
+      "id": "42b0a0fc96",
+      "title": "Čuvam ti leđa! - Tvoja snaga, moja inspiracija!",
+      "venue": "Mochvara",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-11-23T19:00:00",
+      "date_display": "pon, 23. 11. 2026.",
+      "time": "19:00",
+      "link": "https://mochvara.hr/event-detail/6af2fa890029ced1861010c8/",
+      "source": "Mochvara",
+      "is_new": true,
+      "first_seen": "2026-11-17T23:12:47.117Z"
+    },
+    {
       "id": "bc90cf522f",
       "title": "Joe Masteroff — John Kander — Fred Ebb CABARET",
       "venue": "HNK Zagreb",
@@ -1846,6 +1861,21 @@
       "source": "muzika.hr",
       "is_new": false,
       "first_seen": "2026-11-14T06:01:17.416Z"
+    },
+    {
+      "id": "39c35508ca",
+      "title": "The Ocean",
+      "venue": "Vintage Industrial Bar Savska ulica 160",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-11-29T21:00:00",
+      "date_display": "ned, 29. 11. 2026.",
+      "time": "21:00",
+      "link": "https://www.muzika.hr/event/the-ocean/",
+      "source": "muzika.hr",
+      "is_new": true,
+      "first_seen": "2026-11-17T23:12:47.117Z"
     },
     {
       "id": "0d7d7c2844",
@@ -4777,5 +4807,5 @@
       "first_seen": "2026-10-31T06:01:17.418Z"
     }
   ],
-  "new_count": 5
+  "new_count": 7
 }
