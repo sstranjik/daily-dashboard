@@ -1,16 +1,20 @@
 {
   "version": 2,
   "date": "2026-11-17",
-  "generated_at": "2026-11-17T06:03:05.771Z",
+  "generated_at": "2026-11-17T14:05:22.642Z",
   "date_hr": "Utorak, 17. studenog 2026.",
   "weather": {
     "icon": "🌦️",
-    "summary": "6–16°C, pljuskovi · 5.2 mm",
+    "summary": "6–15°C, pljuskovi · 2.1 mm",
     "alerts": []
   },
   "fuel": {
     "current_date": "17.11.2026",
     "eurodiesel": [
+      {
+        "company": "Adria Oil",
+        "price": 1.82
+      },
       {
         "company": "Coral Croatia",
         "price": 1.82
@@ -30,10 +34,6 @@
       {
         "company": "Tifon",
         "price": 1.82
-      },
-      {
-        "company": "Adria Oil",
-        "price": 1.85
       }
     ],
     "premium_eurodiesel": [
@@ -63,10 +63,10 @@
     "upcoming_premium": null
   },
   "market": {
-    "updated_at": "2026-11-17T06:03:05.771Z",
-    "btc_usd": 64762,
-    "btc_eur": 58814,
-    "btc_change_24h": 0.5,
+    "updated_at": "2026-11-17T14:05:22.642Z",
+    "btc_usd": 65017,
+    "btc_eur": 59202,
+    "btc_change_24h": 1.49,
     "usd_eur": 0.9086
   },
   "ai_news": [
@@ -86,13 +86,13 @@
       "source": "The Next Web"
     },
     {
-      "title": "Satya Nadella says Claude Code caught Microsoft off guard and the IDE faded",
-      "link": "https://thenextweb.com/news/satya-nadella-claude-code-ide-pragmatic-engineer",
+      "title": "Google DeepMind’s strategy chief Jasjeet Sekhon leaves for Anthropic",
+      "link": "https://thenextweb.com/news/jasjeet-sekhon-google-deepmind-anthropic",
       "source": "The Next Web"
     },
     {
-      "title": "OpenAI widens free ChatGPT for researchers but swaps Pro for Plus",
-      "link": "https://thenextweb.com/news/openai-chatgpt-academic-researchers-50000-grants-plus",
+      "title": "OpenAI bosses shrug off Anthropic’s IPO",
+      "link": "https://thenextweb.com/news/openai-bosses-shrug-off-anthropics-ipo",
       "source": "The Next Web"
     }
   ],
