@@ -1,13 +1,9 @@
 {
-  "generated_at": "2026-11-18T11:01:30.087Z",
+  "generated_at": "2026-11-18T12:01:25.395Z",
   "stats": {
     "Mochvara": {
       "ok": true,
       "count": 11
-    },
-    "Lisinski": {
-      "ok": true,
-      "count": 0
     },
     "Gavella": {
       "ok": true,
@@ -17,13 +13,9 @@
       "ok": true,
       "count": 2
     },
-    "muzika.hr": {
+    "Lisinski": {
       "ok": true,
-      "count": 25
-    },
-    "HNK Zagreb": {
-      "ok": false,
-      "error": "HTTP 404"
+      "count": 0
     },
     "ZeKaeM": {
       "ok": true,
@@ -33,11 +25,19 @@
       "ok": true,
       "count": 0
     },
-    "Pogon": {
+    "muzika.hr": {
+      "ok": true,
+      "count": 25
+    },
+    "HNK Zagreb": {
+      "ok": true,
+      "count": 116
+    },
+    "Kerempuh": {
       "ok": true,
       "count": 0
     },
-    "Kerempuh": {
+    "Pogon": {
       "ok": true,
       "count": 0
     },
@@ -4321,7 +4321,7 @@
       "time": "19:30",
       "link": "https://hnk.hr/hr/drama/predstave/raseljene/#15.01.19.30",
       "source": "HNK Zagreb",
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-17T20:01:21.789Z"
     },
     {
@@ -4745,6 +4745,21 @@
       "source": "muzika.hr",
       "is_new": false,
       "first_seen": "2026-10-11T05:01:21.358Z"
+    },
+    {
+      "id": "aa4af20360",
+      "title": "André Rieu u Areni Zagreb",
+      "venue": "Arena Zagreb",
+      "city": "Ulica",
+      "country": "EU",
+      "category": "concert",
+      "date_iso": "2026-11-18T17:00:00",
+      "date_display": "sri, 18. 11. 2026.",
+      "time": "17:00",
+      "link": "https://www.muzika.hr/event/andre-rieu-u-areni-zagreb/",
+      "source": "muzika.hr",
+      "is_new": true,
+      "first_seen": "2026-11-18T12:01:25.395Z"
     },
     {
       "id": "94e514167e",
