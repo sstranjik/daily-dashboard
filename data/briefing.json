@@ -1,15 +1,15 @@
 {
   "version": 2,
-  "date": "2026-11-17",
-  "generated_at": "2026-11-17T14:05:22.642Z",
-  "date_hr": "Utorak, 17. studenog 2026.",
+  "date": "2026-11-18",
+  "generated_at": "2026-11-18T06:03:01.842Z",
+  "date_hr": "Srijeda, 18. studenog 2026.",
   "weather": {
-    "icon": "🌦️",
-    "summary": "6–15°C, pljuskovi · 2.1 mm",
+    "icon": "☁️",
+    "summary": "11–17°C, oblačno",
     "alerts": []
   },
   "fuel": {
-    "current_date": "17.11.2026",
+    "current_date": "18.11.2026",
     "eurodiesel": [
       {
         "company": "Adria Oil",
@@ -63,46 +63,46 @@
     "upcoming_premium": null
   },
   "market": {
-    "updated_at": "2026-11-17T14:05:22.642Z",
-    "btc_usd": 65017,
-    "btc_eur": 59202,
-    "btc_change_24h": 1.49,
-    "usd_eur": 0.9086
+    "updated_at": "2026-11-18T06:03:01.842Z",
+    "btc_usd": 64581,
+    "btc_eur": 58801,
+    "btc_change_24h": -0.28,
+    "usd_eur": 0.9092
   },
   "ai_news": [
     {
-      "title": "California sues OpenAI over the rogue AI agents that hacked Hugging Face",
-      "link": "https://thenextweb.com/news/california-sues-openai-hugging-face-attack-rogue-agents",
+      "title": "Microsoft says its new AI coding model rivals Claude Opus 5.5 at 5% of the cost",
+      "link": "https://www.zdnet.com/innovation/microsoft-ai-coding-model-rivals-claude-opus-5-5-ignite/",
+      "source": "ZDNet"
+    },
+    {
+      "title": "Anthropic lets apps bill Claude costs to their customers",
+      "link": "https://thenextweb.com/news/anthropic-linked-billing-claude-api-customers-pay",
       "source": "The Next Web"
     },
     {
-      "title": "California sues OpenAI over rogue AI hacking incidents",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1034815/california-openai-hugging-face-lawsuit",
+      "title": "Google’s Spark AI agent becomes ‘Tasks’ — and now it’s free",
+      "link": "https://www.theverge.com/tech/1035756/google-spark-ai-tasks-free",
       "source": "The Verge"
     },
     {
-      "title": "Google’s AdMob lets AI agents like Claude Code set up app ads",
-      "link": "https://thenextweb.com/news/google-admob-ai-agents-claude-code-codex-ask-admob",
-      "source": "The Next Web"
+      "title": "Proton&#8217;s Lumo, a privacy-focused alternative to ChatGPT and Claude, arrives on desktop",
+      "link": "https://techcrunch.com/2026/11/17/protons-lumo-a-privacy-focused-alternative-to-chatgpt-and-claude-arrives-on-desktop/",
+      "source": "TechCrunch AI"
     },
     {
       "title": "Google DeepMind’s strategy chief Jasjeet Sekhon leaves for Anthropic",
       "link": "https://thenextweb.com/news/jasjeet-sekhon-google-deepmind-anthropic",
       "source": "The Next Web"
-    },
-    {
-      "title": "OpenAI bosses shrug off Anthropic’s IPO",
-      "link": "https://thenextweb.com/news/openai-bosses-shrug-off-anthropics-ipo",
-      "source": "The Next Web"
     }
   ],
   "micro_tips": {
     "vscode": {
-      "tip": "Pomakni liniju gore ili dolje bez cut/paste",
-      "keys": "Alt+↑ / Alt+↓"
+      "tip": "Format Document (auto-format cijelog fajla)",
+      "keys": "Shift+Alt+F"
     },
-    "sql": "Nikad SELECT * u produkciji — navedi kolone, manji I/O i bolji cache plan",
-    "oracle": "/*+ PARALLEL(t 4) */ paralelno izvršavanje querija na N thread-ova",
-    "regex": "(?:group) non-capturing group: grupiraj bez pamćenja za veće performanse"
+    "sql": "Covering index: uključi sve kolone iz WHERE + SELECT u index pa nema pristupa tablici",
+    "oracle": "/*+ NO_MERGE(v) */ sprječava merging inline viewa s parent queryjem",
+    "regex": "(?=pattern) lookahead: \"iza ovog mora slijediti X\" bez konzumiranja znakova"
   }
 }
