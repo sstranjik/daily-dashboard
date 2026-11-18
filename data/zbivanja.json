@@ -1,6 +1,14 @@
 {
-  "generated_at": "2026-11-17T23:12:47.117Z",
+  "generated_at": "2026-11-18T06:01:19.353Z",
   "stats": {
+    "muzika.hr": {
+      "ok": true,
+      "count": 25
+    },
+    "Mochvara": {
+      "ok": true,
+      "count": 11
+    },
     "Lisinski": {
       "ok": true,
       "count": 0
@@ -9,29 +17,21 @@
       "ok": true,
       "count": 28
     },
-    "Mochvara": {
-      "ok": true,
-      "count": 11
-    },
     "Tvornica": {
       "ok": true,
       "count": 2
+    },
+    "HNK Zagreb": {
+      "ok": false,
+      "error": "HTTP 404"
     },
     "Komedija": {
       "ok": true,
       "count": 0
     },
-    "muzika.hr": {
-      "ok": true,
-      "count": 25
-    },
     "ZeKaeM": {
       "ok": true,
       "count": 1
-    },
-    "HNK Zagreb": {
-      "ok": false,
-      "error": "HTTP 404"
     },
     "Pogon": {
       "ok": true,
@@ -47,21 +47,6 @@
     }
   },
   "concerts": [
-    {
-      "id": "747a9d4974",
-      "title": "Jozef Van Wissem Utorak 3.11.2026.",
-      "venue": "Mochvara",
-      "city": "Zagreb",
-      "country": "HR",
-      "category": "concert",
-      "date_iso": "2026-11-03T00:00:00",
-      "date_display": "uto, 03. 11. 2026.",
-      "time": null,
-      "link": "https://mochvara.hr/event-detail/6a6b68761601923766575530/",
-      "source": "Mochvara",
-      "is_new": false,
-      "first_seen": "2026-08-14T12:36:04.489Z"
-    },
     {
       "id": "7b95f380c0",
       "title": "Georges Bizet Carmen",
@@ -1499,7 +1484,7 @@
       "time": "19:00",
       "link": "https://mochvara.hr/event-detail/6af2fa890029ced1861010c8/",
       "source": "Mochvara",
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-17T23:12:47.117Z"
     },
     {
@@ -1874,7 +1859,7 @@
       "time": "21:00",
       "link": "https://www.muzika.hr/event/the-ocean/",
       "source": "muzika.hr",
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-17T23:12:47.117Z"
     },
     {
@@ -3199,21 +3184,6 @@
     }
   ],
   "theater": [
-    {
-      "id": "60f8511bc3",
-      "title": "Medeja",
-      "venue": "Gavella",
-      "city": "Zagreb",
-      "country": "HR",
-      "category": "theater",
-      "date_iso": "2026-11-03T00:00:00",
-      "date_display": "uto, 03. 11. 2026.",
-      "time": null,
-      "link": "https://www.gavella.hr/predstave/aktualne-predstave/medeja",
-      "source": "Gavella",
-      "is_new": false,
-      "first_seen": "2026-09-14T15:01:15.174Z"
-    },
     {
       "id": "2a45cc4bde",
       "title": "Medeja",
@@ -4807,5 +4777,5 @@
       "first_seen": "2026-10-31T06:01:17.418Z"
     }
   ],
-  "new_count": 7
+  "new_count": 5
 }
