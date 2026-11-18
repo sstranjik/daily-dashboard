@@ -1,17 +1,13 @@
 {
-  "generated_at": "2026-11-18T21:01:30.284Z",
+  "generated_at": "2026-11-18T22:24:18.618Z",
   "stats": {
-    "muzika.hr": {
+    "Lisinski": {
       "ok": true,
-      "count": 25
+      "count": 0
     },
     "Gavella": {
       "ok": true,
       "count": 28
-    },
-    "Lisinski": {
-      "ok": true,
-      "count": 0
     },
     "Mochvara": {
       "ok": true,
@@ -21,9 +17,9 @@
       "ok": true,
       "count": 2
     },
-    "HNK Zagreb": {
-      "ok": false,
-      "error": "HTTP 404"
+    "muzika.hr": {
+      "ok": true,
+      "count": 25
     },
     "ZeKaeM": {
       "ok": true,
@@ -33,11 +29,15 @@
       "ok": true,
       "count": 0
     },
-    "Kerempuh": {
+    "Pogon": {
       "ok": true,
       "count": 0
     },
-    "Pogon": {
+    "HNK Zagreb": {
+      "ok": false,
+      "error": "HTTP 404"
+    },
+    "Kerempuh": {
       "ok": true,
       "count": 0
     },
@@ -1936,6 +1936,21 @@
       "source": "Mochvara",
       "is_new": false,
       "first_seen": "2026-10-18T11:01:27.358Z"
+    },
+    {
+      "id": "61959cac70",
+      "title": "Eagle-Eye Cherry (muzika.hr fanclub)",
+      "venue": "Grada Vukovara 68",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-12-03T00:00:00",
+      "date_display": "čet, 03. 12. 2026.",
+      "time": null,
+      "link": "https://www.muzika.hr/event/eagle-eye-cherry/",
+      "source": "muzika.hr",
+      "is_new": true,
+      "first_seen": "2026-11-18T22:24:18.618Z"
     },
     {
       "id": "cc00f8f270",
@@ -4762,5 +4777,5 @@
       "first_seen": "2026-10-31T06:01:17.418Z"
     }
   ],
-  "new_count": 4
+  "new_count": 5
 }
