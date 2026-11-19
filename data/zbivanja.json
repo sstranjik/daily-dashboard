@@ -1,21 +1,29 @@
 {
-  "generated_at": "2026-11-19T09:01:32.137Z",
+  "generated_at": "2026-11-19T10:01:25.353Z",
   "stats": {
-    "Gavella": {
+    "muzika.hr": {
       "ok": true,
-      "count": 28
+      "count": 25
+    },
+    "Mochvara": {
+      "ok": true,
+      "count": 11
     },
     "Lisinski": {
       "ok": true,
       "count": 0
     },
+    "Gavella": {
+      "ok": true,
+      "count": 28
+    },
     "Tvornica": {
       "ok": true,
       "count": 2
     },
-    "Mochvara": {
+    "ZeKaeM": {
       "ok": true,
-      "count": 11
+      "count": 1
     },
     "Komedija": {
       "ok": true,
@@ -25,13 +33,9 @@
       "ok": false,
       "error": "HTTP 404"
     },
-    "muzika.hr": {
+    "Pogon": {
       "ok": true,
-      "count": 25
-    },
-    "ZeKaeM": {
-      "ok": true,
-      "count": 1
+      "count": 0
     },
     "Kerempuh": {
       "ok": true,
@@ -40,10 +44,6 @@
     "Trešnja": {
       "ok": true,
       "count": 0
-    },
-    "Pogon": {
-      "ok": false,
-      "error": "The operation was aborted due to timeout"
     }
   },
   "concerts": [
@@ -4758,9 +4758,9 @@
       "time": "21:30",
       "link": "https://www.muzika.hr/event/kriva-istina-jesus-rashiid-sarajevo/",
       "source": "muzika.hr",
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-19T09:01:32.137Z"
     }
   ],
-  "new_count": 5
+  "new_count": 4
 }
