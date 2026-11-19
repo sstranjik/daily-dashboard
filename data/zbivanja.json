@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-19T14:48:41.202Z",
+  "generated_at": "2026-11-19T15:01:32.389Z",
   "stats": {
     "muzika.hr": {
       "ok": true,
@@ -9,13 +9,13 @@
       "ok": true,
       "count": 0
     },
-    "Mochvara": {
-      "ok": true,
-      "count": 11
-    },
     "Gavella": {
       "ok": true,
       "count": 28
+    },
+    "Mochvara": {
+      "ok": true,
+      "count": 11
     },
     "Tvornica": {
       "ok": true,
@@ -26,8 +26,8 @@
       "count": 0
     },
     "HNK Zagreb": {
-      "ok": false,
-      "error": "HTTP 404"
+      "ok": true,
+      "count": 125
     },
     "ZeKaeM": {
       "ok": true,
@@ -47,21 +47,6 @@
     }
   },
   "concerts": [
-    {
-      "id": "95cfa3b59f",
-      "title": "Hrvatsko društvo profesionalnih baletnih umjetnika Svečana skupština povodom Dana hrvatskog baleta i 150. obljetnice profesionalnog baleta u Hrvatskoj",
-      "venue": "HNK Zagreb",
-      "city": "Zagreb",
-      "country": "HR",
-      "category": "concert",
-      "date_iso": "2026-11-04T15:00:00",
-      "date_display": "sri, 04. 11. 2026.",
-      "time": "15:00",
-      "link": "https://hnk.hr/hr/balet/predstave/sve%C4%8Dana-skup%C5%A1tina-povodom-dana-hrvatskog-baleta-i-150-obljetnice-profesionalnog-baleta-u-hrvatskoj/#04.11.15.00",
-      "source": "HNK Zagreb",
-      "is_new": false,
-      "first_seen": "2026-10-30T14:01:22.563Z"
-    },
     {
       "id": "948873f4e1",
       "title": "Black metal koncert: Wolves In The Throne Room, Worm, Final Dose",
@@ -4516,7 +4501,7 @@
       "time": "21:00",
       "link": "https://hnk.hr/hr/drama/predstave/marija-antoaneta-za-ovo-nema-vremena/#28.01.21.00",
       "source": "HNK Zagreb",
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-19T14:01:25.984Z"
     },
     {
@@ -4882,5 +4867,5 @@
       "first_seen": "2026-11-19T09:01:32.137Z"
     }
   ],
-  "new_count": 5
+  "new_count": 4
 }
