@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-11-18T22:24:18.618Z",
+  "generated_at": "2026-11-19T06:01:25.074Z",
   "stats": {
     "Lisinski": {
       "ok": true,
       "count": 0
     },
-    "Gavella": {
-      "ok": true,
-      "count": 28
-    },
     "Mochvara": {
       "ok": true,
       "count": 11
+    },
+    "Gavella": {
+      "ok": true,
+      "count": 28
     },
     "Tvornica": {
       "ok": true,
@@ -29,13 +29,13 @@
       "ok": true,
       "count": 0
     },
-    "Pogon": {
-      "ok": true,
-      "count": 0
-    },
     "HNK Zagreb": {
       "ok": false,
       "error": "HTTP 404"
+    },
+    "Pogon": {
+      "ok": true,
+      "count": 0
     },
     "Kerempuh": {
       "ok": true,
@@ -47,21 +47,6 @@
     }
   },
   "concerts": [
-    {
-      "id": "6372b4ae83",
-      "title": "Wolves In The Throne Room, Worm, Final Dose Srijeda 4.11.2026.",
-      "venue": "Mochvara",
-      "city": "Zagreb",
-      "country": "HR",
-      "category": "concert",
-      "date_iso": "2026-11-04T00:00:00",
-      "date_display": "sri, 04. 11. 2026.",
-      "time": null,
-      "link": "https://mochvara.hr/event-detail/6a2916e4b7447e7921127707/",
-      "source": "Mochvara",
-      "is_new": false,
-      "first_seen": "2026-07-11T15:01:38.070Z"
-    },
     {
       "id": "7f1df5956c",
       "title": "Hrvatsko narodno kazalište u Zagrebu Okret prema budućnosti Baleta Obilježavanje Dana hrvatskog baleta i njegove 150. obljetnice uz predstavljanje nov",
@@ -1949,7 +1934,7 @@
       "time": null,
       "link": "https://www.muzika.hr/event/eagle-eye-cherry/",
       "source": "muzika.hr",
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-18T22:24:18.618Z"
     },
     {
@@ -3169,21 +3154,6 @@
     }
   ],
   "theater": [
-    {
-      "id": "2a45cc4bde",
-      "title": "Medeja",
-      "venue": "Gavella",
-      "city": "Zagreb",
-      "country": "HR",
-      "category": "theater",
-      "date_iso": "2026-11-04T00:00:00",
-      "date_display": "sri, 04. 11. 2026.",
-      "time": null,
-      "link": "https://www.gavella.hr/predstave/aktualne-predstave/medeja",
-      "source": "Gavella",
-      "is_new": false,
-      "first_seen": "2026-09-14T15:01:15.174Z"
-    },
     {
       "id": "1c7adf7aee",
       "title": "Autorski projekt Tomija Janežiča 1973 Gostovanje SNG Nova Gorica u sklopu projekta HNK2EU",
@@ -4777,5 +4747,5 @@
       "first_seen": "2026-10-31T06:01:17.418Z"
     }
   ],
-  "new_count": 5
+  "new_count": 4
 }
