@@ -1,41 +1,37 @@
 {
-  "generated_at": "2026-11-19T08:01:25.996Z",
+  "generated_at": "2026-11-19T09:01:32.137Z",
   "stats": {
-    "Mochvara": {
+    "Gavella": {
       "ok": true,
-      "count": 11
-    },
-    "muzika.hr": {
-      "ok": true,
-      "count": 25
+      "count": 28
     },
     "Lisinski": {
       "ok": true,
       "count": 0
     },
-    "Gavella": {
-      "ok": true,
-      "count": 28
-    },
     "Tvornica": {
       "ok": true,
       "count": 2
     },
-    "ZeKaeM": {
+    "Mochvara": {
       "ok": true,
-      "count": 1
-    },
-    "HNK Zagreb": {
-      "ok": false,
-      "error": "HTTP 404"
+      "count": 11
     },
     "Komedija": {
       "ok": true,
       "count": 0
     },
-    "Pogon": {
+    "HNK Zagreb": {
+      "ok": false,
+      "error": "HTTP 404"
+    },
+    "muzika.hr": {
       "ok": true,
-      "count": 0
+      "count": 25
+    },
+    "ZeKaeM": {
+      "ok": true,
+      "count": 1
     },
     "Kerempuh": {
       "ok": true,
@@ -44,6 +40,10 @@
     "Trešnja": {
       "ok": true,
       "count": 0
+    },
+    "Pogon": {
+      "ok": false,
+      "error": "The operation was aborted due to timeout"
     }
   },
   "concerts": [
@@ -4745,7 +4745,22 @@
       "source": "muzika.hr",
       "is_new": false,
       "first_seen": "2026-10-31T06:01:17.418Z"
+    },
+    {
+      "id": "c137cc1e98",
+      "title": "Kriva Istina + Jesus, Rashiid!?",
+      "venue": "Jesus",
+      "city": "Rashiid",
+      "country": "EU",
+      "category": "concert",
+      "date_iso": "2026-11-28T21:30:00",
+      "date_display": "sub, 28. 11. 2026.",
+      "time": "21:30",
+      "link": "https://www.muzika.hr/event/kriva-istina-jesus-rashiid-sarajevo/",
+      "source": "muzika.hr",
+      "is_new": true,
+      "first_seen": "2026-11-19T09:01:32.137Z"
     }
   ],
-  "new_count": 4
+  "new_count": 5
 }
