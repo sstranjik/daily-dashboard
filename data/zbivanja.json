@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-19T10:01:25.353Z",
+  "generated_at": "2026-11-19T11:01:27.427Z",
   "stats": {
     "muzika.hr": {
       "ok": true,
@@ -21,23 +21,23 @@
       "ok": true,
       "count": 2
     },
-    "ZeKaeM": {
-      "ok": true,
-      "count": 1
-    },
     "Komedija": {
       "ok": true,
       "count": 0
     },
-    "HNK Zagreb": {
-      "ok": false,
-      "error": "HTTP 404"
+    "ZeKaeM": {
+      "ok": true,
+      "count": 1
     },
-    "Pogon": {
+    "HNK Zagreb": {
+      "ok": true,
+      "count": 124
+    },
+    "Kerempuh": {
       "ok": true,
       "count": 0
     },
-    "Kerempuh": {
+    "Pogon": {
       "ok": true,
       "count": 0
     },
@@ -47,21 +47,6 @@
     }
   },
   "concerts": [
-    {
-      "id": "7f1df5956c",
-      "title": "Hrvatsko narodno kazalište u Zagrebu Okret prema budućnosti Baleta Obilježavanje Dana hrvatskog baleta i njegove 150. obljetnice uz predstavljanje nov",
-      "venue": "HNK Zagreb",
-      "city": "Zagreb",
-      "country": "HR",
-      "category": "concert",
-      "date_iso": "2026-11-04T11:00:00",
-      "date_display": "sri, 04. 11. 2026.",
-      "time": "11:00",
-      "link": "https://hnk.hr/hr/balet/predstave/okret-prema-budu%C4%87nosti-baleta/#04.11.11.00",
-      "source": "HNK Zagreb",
-      "is_new": false,
-      "first_seen": "2026-10-30T14:01:22.563Z"
-    },
     {
       "id": "95cfa3b59f",
       "title": "Hrvatsko društvo profesionalnih baletnih umjetnika Svečana skupština povodom Dana hrvatskog baleta i 150. obljetnice profesionalnog baleta u Hrvatskoj",
@@ -1263,6 +1248,21 @@
       "first_seen": "2026-11-06T10:01:18.427Z"
     },
     {
+      "id": "fba3484e65",
+      "title": "Joe Masteroff — John Kander — Fred Ebb Cabaret Izvedba se održava u sklopu manifestacije Noć kazališta, u posebnoj suradnji sa Sveučilištem Josipa Jur",
+      "venue": "HNK Zagreb",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-11-21T18:00:00",
+      "date_display": "sub, 21. 11. 2026.",
+      "time": "18:00",
+      "link": "https://hnk.hr/hr/hnk2/hnk2/cabaret/#21.11.18.00",
+      "source": "HNK Zagreb",
+      "is_new": true,
+      "first_seen": "2026-11-19T11:01:27.427Z"
+    },
+    {
       "id": "3fe08b35eb",
       "title": "Idu Hobiti – promocija albuma \"Idu Dalje\"",
       "venue": "Mochvara",
@@ -2358,6 +2358,21 @@
       "first_seen": "2026-08-28T14:01:13.149Z"
     },
     {
+      "id": "43828eeec7",
+      "title": "Winfried Radeke – Peter Lund Vještica Hillary i uvrijeđeni kontrabas",
+      "venue": "HNK Zagreb",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-12-19T12:30:00",
+      "date_display": "sub, 19. 12. 2026.",
+      "time": "12:30",
+      "link": "https://hnk.hr/hr/opera/predstave/vje%C5%A1tica-hillary-i-uvrije%C4%91eni-kontrabas/#19.12.12.30",
+      "source": "HNK Zagreb",
+      "is_new": false,
+      "first_seen": "2026-11-19T11:01:27.427Z"
+    },
+    {
       "id": "99a8495db5",
       "title": "Razgled kazališta U sklopu programa Advent u Zagrebu 2026.",
       "venue": "HNK Zagreb",
@@ -2958,6 +2973,21 @@
       "first_seen": "2026-11-12T09:01:19.641Z"
     },
     {
+      "id": "a7af7dd4fe",
+      "title": "Richard Strauss Saloma",
+      "venue": "HNK Zagreb",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2027-02-13T18:00:00",
+      "date_display": "sub, 13. 02. 2027.",
+      "time": "18:00",
+      "link": "https://hnk.hr/hr/opera/predstave/saloma/#13.02.18.00",
+      "source": "HNK Zagreb",
+      "is_new": true,
+      "first_seen": "2026-11-19T11:01:27.427Z"
+    },
+    {
       "id": "ea71c76cf5",
       "title": "Petar Iljič Čajkovski — Paul Chalmer Trnoružica",
       "venue": "HNK Zagreb",
@@ -3076,6 +3106,21 @@
       "source": "HNK Zagreb",
       "is_new": false,
       "first_seen": "2026-11-13T14:01:18.633Z"
+    },
+    {
+      "id": "f2cb6bd503",
+      "title": "Winfried Radeke – Peter Lund Vještica Hillary i uvrijeđeni kontrabas",
+      "venue": "HNK Zagreb",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2027-02-26T11:00:00",
+      "date_display": "pet, 26. 02. 2027.",
+      "time": "11:00",
+      "link": "https://hnk.hr/hr/opera/predstave/vje%C5%A1tica-hillary-i-uvrije%C4%91eni-kontrabas/#26.02.11.00",
+      "source": "HNK Zagreb",
+      "is_new": true,
+      "first_seen": "2026-11-19T11:01:27.427Z"
     },
     {
       "id": "1ec1edfe8e",
@@ -4280,6 +4325,21 @@
       "first_seen": "2026-11-17T20:01:21.789Z"
     },
     {
+      "id": "082bbc7350",
+      "title": "Sanja Milardović Marija Antoaneta za ovo nema vremena",
+      "venue": "HNK Zagreb",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "theater",
+      "date_iso": "2027-01-15T19:30:00",
+      "date_display": "pet, 15. 01. 2027.",
+      "time": "19:30",
+      "link": "https://hnk.hr/hr/drama/predstave/marija-antoaneta-za-ovo-nema-vremena/#15.01.19.30",
+      "source": "HNK Zagreb",
+      "is_new": true,
+      "first_seen": "2026-11-19T11:01:27.427Z"
+    },
+    {
       "id": "5ef095b8aa",
       "title": "Sanja Milardović Marija Antoaneta za ovo nema vremena Izvedba u sklopu projekta Beyond Drama uz podršku Turističke zajednice grada Zagreba",
       "venue": "HNK Zagreb",
@@ -4398,6 +4458,51 @@
       "source": "HNK Zagreb",
       "is_new": false,
       "first_seen": "2026-10-22T09:01:28.413Z"
+    },
+    {
+      "id": "0646a58b32",
+      "title": "Sanja Milardović Marija Antoaneta za ovo nema vremena",
+      "venue": "HNK Zagreb",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "theater",
+      "date_iso": "2027-01-25T21:00:00",
+      "date_display": "pon, 25. 01. 2027.",
+      "time": "21:00",
+      "link": "https://hnk.hr/hr/drama/predstave/marija-antoaneta-za-ovo-nema-vremena/#25.01.21.00",
+      "source": "HNK Zagreb",
+      "is_new": true,
+      "first_seen": "2026-11-19T11:01:27.427Z"
+    },
+    {
+      "id": "e8d042a3e0",
+      "title": "Sanja Milardović Marija Antoaneta za ovo nema vremena",
+      "venue": "HNK Zagreb",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "theater",
+      "date_iso": "2027-01-26T21:00:00",
+      "date_display": "uto, 26. 01. 2027.",
+      "time": "21:00",
+      "link": "https://hnk.hr/hr/drama/predstave/marija-antoaneta-za-ovo-nema-vremena/#26.01.21.00",
+      "source": "HNK Zagreb",
+      "is_new": true,
+      "first_seen": "2026-11-19T11:01:27.427Z"
+    },
+    {
+      "id": "2e0ef455dc",
+      "title": "Sanja Milardović Marija Antoaneta za ovo nema vremena",
+      "venue": "HNK Zagreb",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "theater",
+      "date_iso": "2027-01-27T21:00:00",
+      "date_display": "sri, 27. 01. 2027.",
+      "time": "21:00",
+      "link": "https://hnk.hr/hr/drama/predstave/marija-antoaneta-za-ovo-nema-vremena/#27.01.21.00",
+      "source": "HNK Zagreb",
+      "is_new": true,
+      "first_seen": "2026-11-19T11:01:27.427Z"
     },
     {
       "id": "2b366ff27a",
@@ -4762,5 +4867,5 @@
       "first_seen": "2026-11-19T09:01:32.137Z"
     }
   ],
-  "new_count": 4
+  "new_count": 11
 }
