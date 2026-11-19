@@ -1,15 +1,15 @@
 {
   "version": 2,
-  "date": "2026-11-18",
-  "generated_at": "2026-11-18T13:38:25.636Z",
-  "date_hr": "Srijeda, 18. studenog 2026.",
+  "date": "2026-11-19",
+  "generated_at": "2026-11-19T06:03:18.857Z",
+  "date_hr": "Četvrtak, 19. studenog 2026.",
   "weather": {
-    "icon": "☁️",
-    "summary": "11–18°C, oblačno",
+    "icon": "🌦️",
+    "summary": "6–13°C, pljuskovi · 30.8 mm",
     "alerts": []
   },
   "fuel": {
-    "current_date": "18.11.2026",
+    "current_date": "19.11.2026",
     "eurodiesel": [
       {
         "company": "Adria Oil",
@@ -63,46 +63,46 @@
     "upcoming_premium": null
   },
   "market": {
-    "updated_at": "2026-11-18T13:38:25.636Z",
-    "btc_usd": 64033,
-    "btc_eur": 58364,
-    "btc_change_24h": -1.39,
-    "usd_eur": 0.9092
+    "updated_at": "2026-11-19T06:03:18.857Z",
+    "btc_usd": 63374,
+    "btc_eur": 57792,
+    "btc_change_24h": -1.81,
+    "usd_eur": 0.9113
   },
   "ai_news": [
     {
-      "title": "Microsoft says its new AI coding model rivals Claude Opus 5.5 at 5% of the cost",
-      "link": "https://www.zdnet.com/innovation/microsoft-ai-coding-model-rivals-claude-opus-5-5-ignite/",
-      "source": "ZDNet"
-    },
-    {
-      "title": "Anthropic lets apps bill Claude costs to their customers",
-      "link": "https://thenextweb.com/news/anthropic-linked-billing-claude-api-customers-pay",
+      "title": "Microsoft says Copilot beats Claude and ChatGPT on price",
+      "link": "https://thenextweb.com/news/microsoft-copilot-cheaper-than-claude-chatgpt-ignite",
       "source": "The Next Web"
     },
     {
-      "title": "Google’s Spark AI agent becomes ‘Tasks’ — and now it’s free",
-      "link": "https://www.theverge.com/tech/1035756/google-spark-ai-tasks-free",
+      "title": "Remember the frontier AI pause? Chip companies don’t either",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1036549/nvidia-amd-earnings-fall-2026-chips-pause-frontier-models",
       "source": "The Verge"
     },
     {
-      "title": "Proton&#8217;s Lumo, a privacy-focused alternative to ChatGPT and Claude, arrives on desktop",
-      "link": "https://techcrunch.com/2026/11/17/protons-lumo-a-privacy-focused-alternative-to-chatgpt-and-claude-arrives-on-desktop/",
-      "source": "TechCrunch AI"
+      "title": "You can use Google’s Spark AI agent, renamed Tasks, for free now – with limits",
+      "link": "https://www.zdnet.com/innovation/gemini-spark-tasks-free-personal-agent/",
+      "source": "ZDNet"
     },
     {
-      "title": "Anthropic’s IPO prices today as SoftBank’s Son calls missing it a ‘mistake’",
-      "link": "https://thenextweb.com/news/anthropic-ipo-pricing-day-vc-10x-returns-softbank-son-mistake",
+      "title": "Google Wallet comes to your iPhone – but without this feature",
+      "link": "https://www.zdnet.com/tech/google-wallet-iphone-ios-no-tap-to-pay/",
+      "source": "ZDNet"
+    },
+    {
+      "title": "OpenAI launches GPT-6.2 Astra and Sol, and early testers push back",
+      "link": "https://thenextweb.com/news/gpt-6-2-astra-sol-openai-launch-price-epoch-testers",
       "source": "The Next Web"
     }
   ],
   "micro_tips": {
     "vscode": {
-      "tip": "Format Document (auto-format cijelog fajla)",
-      "keys": "Shift+Alt+F"
+      "tip": "Go to Definition simbola",
+      "keys": "F12"
     },
-    "sql": "Covering index: uključi sve kolone iz WHERE + SELECT u index pa nema pristupa tablici",
-    "oracle": "/*+ NO_MERGE(v) */ sprječava merging inline viewa s parent queryjem",
-    "regex": "(?=pattern) lookahead: \"iza ovog mora slijediti X\" bez konzumiranja znakova"
+    "sql": "Window funkcije (ROW_NUMBER, LAG, LEAD) umjesto self-join za redosljed i razlike",
+    "oracle": "/*+ RESULT_CACHE */ cache-ira rezultat funkcije u SGA za ponovljene pozive",
+    "regex": ".+? lazy quantifier: stane na prvom mogućem podudaranju, ne zadnjem"
   }
 }
