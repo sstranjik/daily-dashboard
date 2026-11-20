@@ -1,9 +1,13 @@
 {
-  "generated_at": "2026-11-20T12:01:21.563Z",
+  "generated_at": "2026-11-20T13:01:23.445Z",
   "stats": {
     "muzika.hr": {
       "ok": true,
       "count": 25
+    },
+    "Gavella": {
+      "ok": true,
+      "count": 28
     },
     "Mochvara": {
       "ok": true,
@@ -13,31 +17,27 @@
       "ok": true,
       "count": 0
     },
-    "Gavella": {
-      "ok": true,
-      "count": 28
-    },
     "Tvornica": {
       "ok": true,
       "count": 2
-    },
-    "HNK Zagreb": {
-      "ok": false,
-      "error": "HTTP 500"
-    },
-    "ZeKaeM": {
-      "ok": true,
-      "count": 1
     },
     "Komedija": {
       "ok": true,
       "count": 0
     },
-    "Pogon": {
+    "ZeKaeM": {
+      "ok": true,
+      "count": 1
+    },
+    "Kerempuh": {
       "ok": true,
       "count": 0
     },
-    "Kerempuh": {
+    "HNK Zagreb": {
+      "ok": true,
+      "count": 123
+    },
+    "Pogon": {
       "ok": true,
       "count": 0
     },
@@ -1124,7 +1124,7 @@
       "time": "15:00",
       "link": "https://hnk.hr/hr/ostalo/predstave/iza-kulisa-166-sezona/#21.11.15.00",
       "source": "HNK Zagreb",
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-20T06:01:23.470Z"
     },
     {
@@ -4807,5 +4807,5 @@
       "first_seen": "2026-11-19T09:01:32.137Z"
     }
   ],
-  "new_count": 5
+  "new_count": 4
 }
