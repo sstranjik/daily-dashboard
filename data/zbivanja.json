@@ -1,9 +1,13 @@
 {
-  "generated_at": "2026-11-19T22:29:45.124Z",
+  "generated_at": "2026-11-20T06:01:23.470Z",
   "stats": {
     "muzika.hr": {
       "ok": true,
       "count": 25
+    },
+    "Mochvara": {
+      "ok": true,
+      "count": 11
     },
     "Lisinski": {
       "ok": true,
@@ -12,10 +16,6 @@
     "Gavella": {
       "ok": true,
       "count": 28
-    },
-    "Mochvara": {
-      "ok": true,
-      "count": 11
     },
     "Tvornica": {
       "ok": true,
@@ -29,10 +29,6 @@
       "ok": true,
       "count": 0
     },
-    "HNK Zagreb": {
-      "ok": false,
-      "error": "HTTP 404"
-    },
     "Pogon": {
       "ok": true,
       "count": 0
@@ -41,27 +37,16 @@
       "ok": true,
       "count": 0
     },
+    "HNK Zagreb": {
+      "ok": true,
+      "count": 123
+    },
     "Trešnja": {
       "ok": true,
       "count": 0
     }
   },
   "concerts": [
-    {
-      "id": "0b2e60f696",
-      "title": "30. rođendan Radio Studenta Četvrtak 5.11.2026.",
-      "venue": "Mochvara",
-      "city": "Zagreb",
-      "country": "HR",
-      "category": "concert",
-      "date_iso": "2026-11-05T00:00:00",
-      "date_display": "čet, 05. 11. 2026.",
-      "time": null,
-      "link": "https://mochvara.hr/event-detail/6acf7019dd51d20115492ecb/",
-      "source": "Mochvara",
-      "is_new": false,
-      "first_seen": "2026-10-18T11:01:27.358Z"
-    },
     {
       "id": "ca7e2f5a5f",
       "title": "ŠPIC: Fargo + The Mayor Is Stoned + Noa Klem",
@@ -1113,6 +1098,21 @@
       "first_seen": "2026-10-09T09:01:24.706Z"
     },
     {
+      "id": "3d247b5d9b",
+      "title": "Razgled kazališta 166 sezona iza kulisa U sklopu manifestacije Noć kazališta",
+      "venue": "HNK Zagreb",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-11-21T15:00:00",
+      "date_display": "sub, 21. 11. 2026.",
+      "time": "15:00",
+      "link": "https://hnk.hr/hr/ostalo/predstave/iza-kulisa-166-sezona/#21.11.15.00",
+      "source": "HNK Zagreb",
+      "is_new": true,
+      "first_seen": "2026-11-20T06:01:23.470Z"
+    },
+    {
       "id": "9664086ed6",
       "title": "Jakov Gotovac Ero s onoga svijeta",
       "venue": "HNK Zagreb",
@@ -1396,6 +1396,21 @@
       "source": "muzika.hr",
       "is_new": false,
       "first_seen": "2026-11-11T14:01:20.714Z"
+    },
+    {
+      "id": "6825be587a",
+      "title": "Country gothic gospel kabaret: Munly & The Lupercalians",
+      "venue": "Mochvara",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-11-23T20:00:00",
+      "date_display": "pon, 23. 11. 2026.",
+      "time": "20:00",
+      "link": "https://mochvara.hr/event-detail/6a462acf52370eea066a1efe/",
+      "source": "Mochvara",
+      "is_new": true,
+      "first_seen": "2026-11-20T06:01:23.470Z"
     },
     {
       "id": "0ec9d5a6e1",
@@ -1906,6 +1921,21 @@
       "source": "HNK Zagreb",
       "is_new": false,
       "first_seen": "2026-11-14T21:01:16.145Z"
+    },
+    {
+      "id": "4c6f31c053",
+      "title": "Daft Funk Live (muzika.hr fanclub)",
+      "venue": "Grada Vukovara 68",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-12-05T00:00:00",
+      "date_display": "sub, 05. 12. 2026.",
+      "time": null,
+      "link": "https://www.muzika.hr/event/daft-funk-live-muzika-hr-fanclub/",
+      "source": "muzika.hr",
+      "is_new": true,
+      "first_seen": "2026-11-20T06:01:23.470Z"
     },
     {
       "id": "59e8c51b58",
@@ -3109,21 +3139,6 @@
     }
   ],
   "theater": [
-    {
-      "id": "ec2498878f",
-      "title": "Dugo putovanje u noć",
-      "venue": "Gavella",
-      "city": "Zagreb",
-      "country": "HR",
-      "category": "theater",
-      "date_iso": "2026-11-05T00:00:00",
-      "date_display": "čet, 05. 11. 2026.",
-      "time": null,
-      "link": "https://www.gavella.hr/predstave/aktualne-predstave/dugo-putovanje-u-noc",
-      "source": "Gavella",
-      "is_new": false,
-      "first_seen": "2026-09-14T15:01:15.174Z"
-    },
     {
       "id": "5df7b02d8f",
       "title": "Dugo putovanje u noć",
@@ -4642,21 +4657,6 @@
   ],
   "abroad": [
     {
-      "id": "852854de5d",
-      "title": "Festival SONICA 2026: Celestial Shelters",
-      "venue": "Celestial Shelters Ljubljana Ljubljana",
-      "city": "Slovenia",
-      "country": "EU",
-      "category": "concert",
-      "date_iso": "2026-11-05T00:00:00",
-      "date_display": "čet, 05. 11. 2026.",
-      "time": null,
-      "link": "https://www.muzika.hr/event/festival-sonica-2026-celestial-shelters-ljubljana/",
-      "source": "muzika.hr",
-      "is_new": false,
-      "first_seen": "2026-10-17T09:49:14.766Z"
-    },
-    {
       "id": "f6c08a8a80",
       "title": "ÁHÁCHÍ (FINSKA) i LOPOČ (BiH) u AG-u!",
       "venue": "AG Club Patriotske lige 30",
@@ -4777,5 +4777,5 @@
       "first_seen": "2026-11-19T09:01:32.137Z"
     }
   ],
-  "new_count": 4
+  "new_count": 7
 }
