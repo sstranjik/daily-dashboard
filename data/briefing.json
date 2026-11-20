@@ -1,15 +1,15 @@
 {
   "version": 2,
-  "date": "2026-11-19",
-  "generated_at": "2026-11-19T14:05:00.336Z",
-  "date_hr": "Četvrtak, 19. studenog 2026.",
+  "date": "2026-11-20",
+  "generated_at": "2026-11-20T06:02:29.711Z",
+  "date_hr": "Petak, 20. studenog 2026.",
   "weather": {
-    "icon": "🌦️",
-    "summary": "6–13°C, jaki pljuskovi · 22.1 mm",
+    "icon": "🌫️",
+    "summary": "4–14°C, magla",
     "alerts": []
   },
   "fuel": {
-    "current_date": "19.11.2026",
+    "current_date": "20.11.2026",
     "eurodiesel": [
       {
         "company": "Adria Oil",
@@ -63,46 +63,46 @@
     "upcoming_premium": null
   },
   "market": {
-    "updated_at": "2026-11-19T14:05:00.336Z",
-    "btc_usd": 63964,
-    "btc_eur": 58155,
-    "btc_change_24h": 0.12,
-    "usd_eur": 0.9113
+    "updated_at": "2026-11-20T06:02:29.711Z",
+    "btc_usd": 61835,
+    "btc_eur": 56325,
+    "btc_change_24h": -2.45,
+    "usd_eur": 0.9107
   },
   "ai_news": [
     {
-      "title": "Microsoft says Copilot beats Claude and ChatGPT on price",
-      "link": "https://thenextweb.com/news/microsoft-copilot-cheaper-than-claude-chatgpt-ignite",
-      "source": "The Next Web"
+      "title": "Apple may be developing its own AI agent that runs your Mac",
+      "link": "https://techcrunch.com/2026/11/19/apple-may-be-developing-its-own-ai-agent-that-runs-your-mac/",
+      "source": "TechCrunch AI"
     },
     {
-      "title": "Remember the frontier AI pause? Chip companies don’t either",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1036549/nvidia-amd-earnings-fall-2026-chips-pause-frontier-models",
+      "title": "Rekordna burzovna premijera: Anthropic pokazao da ulagači još vjeruju u AI",
+      "link": "https://www.tportal.hr/tehno/clanak/rekordna-burzovna-premijera-anthropic-pokazao-da-ulagaci-jos-vjeruju-u-ai-20261119",
+      "source": "Tportal"
+    },
+    {
+      "title": "Anthropic vs. OpenAI: Tko pobjeđuje u utrci?",
+      "link": "https://mreza.bug.hr/biznis/anthropic-vs-openai-tko-pobjedjuje-u-utrci-64467",
+      "source": "Bug.hr"
+    },
+    {
+      "title": "Zaposlenici Anthropica su preko noći postali milijunaši. Evo koliko su zaradili vlasnici tvrtke",
+      "link": "https://www.tportal.hr/tehno/clanak/zaposlenici-anthropica-su-preko-noci-postali-milijunasi-evo-koliko-su-zaradili-vlasnici-tvrtke-20261120",
+      "source": "Tportal"
+    },
+    {
+      "title": "Apple is hiring engineers to build its own AI agent",
+      "link": "https://www.theverge.com/tech/1038227/apple-ai-agent-engineer-job-listing",
       "source": "The Verge"
-    },
-    {
-      "title": "You can use Google’s Spark AI agent, renamed Tasks, for free now – with limits",
-      "link": "https://www.zdnet.com/innovation/gemini-spark-tasks-free-personal-agent/",
-      "source": "ZDNet"
-    },
-    {
-      "title": "Nobel and Turing winners sign statement calling Anthropic unsafe before IPO",
-      "link": "https://thenextweb.com/news/misanthropic-statement-anthropic-not-safe-ai-company-cais-ipo",
-      "source": "The Next Web"
-    },
-    {
-      "title": "Google Wallet comes to your iPhone – but without this feature",
-      "link": "https://www.zdnet.com/tech/google-wallet-iphone-ios-no-tap-to-pay/",
-      "source": "ZDNet"
     }
   ],
   "micro_tips": {
     "vscode": {
-      "tip": "Go to Definition simbola",
-      "keys": "F12"
+      "tip": "Peek Definition bez napuštanja fajla",
+      "keys": "Alt+F12"
     },
-    "sql": "Window funkcije (ROW_NUMBER, LAG, LEAD) umjesto self-join za redosljed i razlike",
-    "oracle": "/*+ RESULT_CACHE */ cache-ira rezultat funkcije u SGA za ponovljene pozive",
-    "regex": ".+? lazy quantifier: stane na prvom mogućem podudaranju, ne zadnjem"
+    "sql": "EXPLAIN ANALYZE prikazuje stvarne vs procijenjene redove — ključno za tuning",
+    "oracle": "CONNECT BY LEVEL <= n generira broj redova bez pomoćne tablice",
+    "regex": "[^\\n]* svaki znak osim newline — dohvati cijelu liniju bez dotall flaga"
   }
 }
