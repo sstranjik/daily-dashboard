@@ -1,6 +1,10 @@
 {
-  "generated_at": "2026-11-20T11:01:22.307Z",
+  "generated_at": "2026-11-20T12:01:21.563Z",
   "stats": {
+    "muzika.hr": {
+      "ok": true,
+      "count": 25
+    },
     "Mochvara": {
       "ok": true,
       "count": 13
@@ -17,9 +21,9 @@
       "ok": true,
       "count": 2
     },
-    "muzika.hr": {
-      "ok": true,
-      "count": 25
+    "HNK Zagreb": {
+      "ok": false,
+      "error": "HTTP 500"
     },
     "ZeKaeM": {
       "ok": true,
@@ -28,10 +32,6 @@
     "Komedija": {
       "ok": true,
       "count": 0
-    },
-    "HNK Zagreb": {
-      "ok": false,
-      "error": "HTTP 404"
     },
     "Pogon": {
       "ok": true,
@@ -1094,7 +1094,7 @@
       "time": null,
       "link": "https://mochvara.hr/event-detail/6ab51108f11bc39a84ef59cf/",
       "source": "Mochvara",
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-20T11:01:22.307Z"
     },
     {
@@ -3104,7 +3104,7 @@
       "time": null,
       "link": "https://mochvara.hr/event-detail/6afec77b8c62b05525e32f0d/",
       "source": "Mochvara",
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-20T11:01:22.307Z"
     },
     {
@@ -4807,5 +4807,5 @@
       "first_seen": "2026-11-19T09:01:32.137Z"
     }
   ],
-  "new_count": 7
+  "new_count": 5
 }
