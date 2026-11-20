@@ -1,12 +1,13 @@
 {
   "version": 2,
   "date": "2026-11-20",
-  "generated_at": "2026-11-20T06:02:29.711Z",
+  "generated_at": "2026-11-20T13:48:32.506Z",
   "date_hr": "Petak, 20. studenog 2026.",
   "weather": {
-    "icon": "🌫️",
-    "summary": "4–14°C, magla",
-    "alerts": []
+    "icon": "🌡️",
+    "summary": "Vremenski podaci nedostupni",
+    "alerts": [],
+    "error": "The operation was aborted due to timeout"
   },
   "fuel": {
     "current_date": "20.11.2026",
@@ -63,13 +64,18 @@
     "upcoming_premium": null
   },
   "market": {
-    "updated_at": "2026-11-20T06:02:29.711Z",
-    "btc_usd": 61835,
-    "btc_eur": 56325,
-    "btc_change_24h": -2.45,
+    "updated_at": "2026-11-20T13:48:32.506Z",
+    "btc_usd": 61433,
+    "btc_eur": 55896,
+    "btc_change_24h": -3.55,
     "usd_eur": 0.9107
   },
   "ai_news": [
+    {
+      "title": "Signal is blocking Gemini and Siri AI from reading your screen",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1038390/signal-blocking-ai-agent-screenshots-mobile-app",
+      "source": "The Verge"
+    },
     {
       "title": "Apple may be developing its own AI agent that runs your Mac",
       "link": "https://techcrunch.com/2026/11/19/apple-may-be-developing-its-own-ai-agent-that-runs-your-mac/",
@@ -81,19 +87,14 @@
       "source": "Tportal"
     },
     {
+      "title": "Signal locks out Siri AI and Gemini, but says it cannot protect the Mac",
+      "link": "https://thenextweb.com/news/signal-ai-agents-blocks-screenshots-siri-gemini-whittaker",
+      "source": "The Next Web"
+    },
+    {
       "title": "Anthropic vs. OpenAI: Tko pobjeđuje u utrci?",
       "link": "https://mreza.bug.hr/biznis/anthropic-vs-openai-tko-pobjedjuje-u-utrci-64467",
       "source": "Bug.hr"
-    },
-    {
-      "title": "Zaposlenici Anthropica su preko noći postali milijunaši. Evo koliko su zaradili vlasnici tvrtke",
-      "link": "https://www.tportal.hr/tehno/clanak/zaposlenici-anthropica-su-preko-noci-postali-milijunasi-evo-koliko-su-zaradili-vlasnici-tvrtke-20261120",
-      "source": "Tportal"
-    },
-    {
-      "title": "Apple is hiring engineers to build its own AI agent",
-      "link": "https://www.theverge.com/tech/1038227/apple-ai-agent-engineer-job-listing",
-      "source": "The Verge"
     }
   ],
   "micro_tips": {
