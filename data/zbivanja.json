@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-11-20T06:01:19.735Z",
+  "generated_at": "2026-11-20T07:01:24.464Z",
   "stats": {
     "muzika.hr": {
       "ok": true,
       "count": 25
     },
-    "Mochvara": {
+    "Gavella": {
       "ok": true,
-      "count": 11
+      "count": 28
     },
     "Lisinski": {
       "ok": true,
@@ -17,17 +17,9 @@
       "ok": true,
       "count": 11
     },
-    "Gavella": {
-      "ok": true,
-      "count": 28
-    },
     "Tvornica": {
       "ok": true,
       "count": 2
-    },
-    "HNK Zagreb": {
-      "ok": false,
-      "error": "HTTP 404"
     },
     "Komedija": {
       "ok": true,
@@ -37,6 +29,10 @@
       "ok": true,
       "count": 1
     },
+    "HNK Zagreb": {
+      "ok": false,
+      "error": "HTTP 404"
+    },
     "Pogon": {
       "ok": true,
       "count": 0
@@ -44,10 +40,6 @@
     "Kerempuh": {
       "ok": true,
       "count": 0
-    },
-    "HNK Zagreb": {
-      "ok": true,
-      "count": 123
     },
     "Trešnja": {
       "ok": true,
@@ -1417,7 +1409,7 @@
       "time": "20:00",
       "link": "https://mochvara.hr/event-detail/6a462acf52370eea066a1efe/",
       "source": "Mochvara",
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-20T06:01:19.735Z"
     },
     {
@@ -1942,7 +1934,7 @@
       "time": null,
       "link": "https://www.muzika.hr/event/daft-funk-live-muzika-hr-fanclub/",
       "source": "muzika.hr",
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-20T06:01:19.735Z"
     },
     {
@@ -4785,5 +4777,5 @@
       "first_seen": "2026-11-19T09:01:32.137Z"
     }
   ],
-  "new_count": 6
+  "new_count": 5
 }
