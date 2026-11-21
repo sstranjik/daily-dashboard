@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-20T22:01:15.922Z",
+  "generated_at": "2026-11-21T06:01:13.497Z",
   "stats": {
     "muzika.hr": {
       "ok": true,
@@ -9,37 +9,37 @@
       "ok": true,
       "count": 0
     },
-    "Tvornica": {
+    "Gavella": {
       "ok": true,
-      "count": 2
+      "count": 29
     },
     "Mochvara": {
       "ok": true,
       "count": 13
     },
-    "Gavella": {
+    "Tvornica": {
       "ok": true,
-      "count": 29
+      "count": 2
     },
     "ZeKaeM": {
       "ok": true,
       "count": 1
     },
-    "Komedija": {
+    "Pogon": {
       "ok": true,
       "count": 0
     },
-    "HNK Zagreb": {
+    "Komedija": {
       "ok": true,
-      "count": 123
+      "count": 0
     },
     "Kerempuh": {
       "ok": true,
       "count": 0
     },
-    "Pogon": {
+    "HNK Zagreb": {
       "ok": true,
-      "count": 0
+      "count": 121
     },
     "Trešnja": {
       "ok": true,
@@ -47,21 +47,6 @@
     }
   },
   "concerts": [
-    {
-      "id": "b7be065192",
-      "title": "Tommy Emmanuel",
-      "venue": "Tommy Emmanuel Kino SC Zagreb",
-      "city": "Croatia",
-      "country": "HR",
-      "category": "concert",
-      "date_iso": "2026-11-06T00:00:00",
-      "date_display": "pet, 06. 11. 2026.",
-      "time": null,
-      "link": "https://www.muzika.hr/event/tommy-emmanuel-2/",
-      "source": "muzika.hr",
-      "is_new": false,
-      "first_seen": "2026-09-26T21:40:15.499Z"
-    },
     {
       "id": "300206705e",
       "title": "Georges Bizet Carmen",
@@ -1413,6 +1398,21 @@
       "first_seen": "2026-10-29T06:01:27.957Z"
     },
     {
+      "id": "2acf6ac9e2",
+      "title": "Čuvam ti leđa! – Debatna radionica: \"Žene između društvenih normi i odnosa moći\"",
+      "venue": "Mochvara",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-11-24T11:00:00",
+      "date_display": "uto, 24. 11. 2026.",
+      "time": "11:00",
+      "link": "https://mochvara.hr/event-detail/6af2fea4c919d00386e98e41/",
+      "source": "Mochvara",
+      "is_new": true,
+      "first_seen": "2026-11-21T06:01:13.497Z"
+    },
+    {
       "id": "331ac3f8ff",
       "title": "Joe Masteroff — John Kander — Fred Ebb CABARET",
       "venue": "HNK Zagreb",
@@ -1441,6 +1441,21 @@
       "source": "muzika.hr",
       "is_new": false,
       "first_seen": "2026-11-07T14:01:17.018Z"
+    },
+    {
+      "id": "f37a1ec753",
+      "title": "Post-punk gig: Plattenbau, Vurma",
+      "venue": "Mochvara",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-11-24T20:00:00",
+      "date_display": "uto, 24. 11. 2026.",
+      "time": "20:00",
+      "link": "https://mochvara.hr/event-detail/6a90272cd74b7987d607140d/",
+      "source": "Mochvara",
+      "is_new": true,
+      "first_seen": "2026-11-21T06:01:13.497Z"
     },
     {
       "id": "1525622c60",
@@ -2043,6 +2058,21 @@
       "first_seen": "2026-10-18T11:01:27.358Z"
     },
     {
+      "id": "65b02a4ed0",
+      "title": "CALIBRO 35! VS. L.A.",
+      "venue": "Vintage Industrial Bar Savska ulica 160",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-12-06T00:00:00",
+      "date_display": "ned, 06. 12. 2026.",
+      "time": null,
+      "link": "https://www.muzika.hr/event/calibro-35-vs-l-a-vintage-industrial-bar-zagreb/",
+      "source": "muzika.hr",
+      "is_new": true,
+      "first_seen": "2026-11-21T06:01:13.497Z"
+    },
+    {
       "id": "523b851c6a",
       "title": "Avant-garde electronics / experimental post-punk koncert: UREDDA Ponedjeljak 7.12.2026.",
       "venue": "Mochvara",
@@ -2101,6 +2131,21 @@
       "source": "Mochvara",
       "is_new": false,
       "first_seen": "2026-07-11T15:01:38.070Z"
+    },
+    {
+      "id": "5132fde9be",
+      "title": "Desire",
+      "venue": "Desire Močvara Trnjanski nasip bb",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-12-08T00:00:00",
+      "date_display": "uto, 08. 12. 2026.",
+      "time": null,
+      "link": "https://www.muzika.hr/event/desire-2/",
+      "source": "muzika.hr",
+      "is_new": true,
+      "first_seen": "2026-11-21T06:01:13.497Z"
     },
     {
       "id": "e9b89f4b73",
@@ -3139,21 +3184,6 @@
     }
   ],
   "theater": [
-    {
-      "id": "5df7b02d8f",
-      "title": "Dugo putovanje u noć",
-      "venue": "Gavella",
-      "city": "Zagreb",
-      "country": "HR",
-      "category": "theater",
-      "date_iso": "2026-11-06T00:00:00",
-      "date_display": "pet, 06. 11. 2026.",
-      "time": null,
-      "link": "https://www.gavella.hr/predstave/aktualne-predstave/dugo-putovanje-u-noc",
-      "source": "Gavella",
-      "is_new": false,
-      "first_seen": "2026-09-14T15:01:15.174Z"
-    },
     {
       "id": "4ef2598e70",
       "title": "Dugo putovanje u noć",
@@ -4792,5 +4822,5 @@
       "first_seen": "2026-11-19T09:01:32.137Z"
     }
   ],
-  "new_count": 4
+  "new_count": 8
 }
