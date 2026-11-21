@@ -1,11 +1,11 @@
 {
   "version": 2,
   "date": "2026-11-21",
-  "generated_at": "2026-11-21T06:03:07.254Z",
+  "generated_at": "2026-11-21T13:13:01.020Z",
   "date_hr": "Subota, 21. studenog 2026.",
   "weather": {
-    "icon": "🌫️",
-    "summary": "5–14°C, magla",
+    "icon": "🌦️",
+    "summary": "5–14°C, pljuskovi",
     "alerts": []
   },
   "fuel": {
@@ -63,10 +63,10 @@
     "upcoming_premium": null
   },
   "market": {
-    "updated_at": "2026-11-21T06:03:07.254Z",
-    "btc_usd": 55675,
-    "btc_eur": 50749,
-    "btc_change_24h": -10.02,
+    "updated_at": "2026-11-21T13:13:01.020Z",
+    "btc_usd": 59219,
+    "btc_eur": 53993,
+    "btc_change_24h": -3.67,
     "usd_eur": 0.9107
   },
   "ai_news": [
@@ -81,11 +81,6 @@
       "source": "Bug.hr"
     },
     {
-      "title": "Signal is blocking Gemini and Siri AI from reading your screen",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1038390/signal-blocking-ai-agent-screenshots-mobile-app",
-      "source": "The Verge"
-    },
-    {
       "title": "Anthropic mathematician claims to have solved prestigious Millennium Prize problem with Claude",
       "link": "https://www.theverge.com/ai-artificial-intelligence/1010051/anthropic-riemann-hypothesis-millennium-prize-problem",
       "source": "The Verge"
@@ -94,6 +89,11 @@
       "title": "Signal locks out Siri AI and Gemini, but says it cannot protect the Mac",
       "link": "https://thenextweb.com/news/signal-ai-agents-blocks-screenshots-siri-gemini-whittaker",
       "source": "The Next Web"
+    },
+    {
+      "title": "Kako su agenti kompromitirali Hugging Face",
+      "link": "https://mreza.bug.hr/umjetna-inteligencija/kako-su-agenti-kompromitirali-hugging-face-64477",
+      "source": "Bug.hr"
     }
   ],
   "micro_tips": {
