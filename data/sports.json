@@ -1,9 +1,549 @@
 {
-  "last_updated": "2026-11-21T16:01:18.317Z",
+  "last_updated": "2026-11-21T17:01:23.725Z",
   "source_count": 10,
   "items": [
     {
       "id": "sportklub-0",
+      "title": "VIDEO / Perišić zabio za PSV nakon skoro tri mjeseca čekanja",
+      "summary": "Hrvatski reprezentativac Ivan Perišić upisao se među strijelce u gostujućoj utakmici PSV-a protiv NEC Nijmegena. Iskusni 37-godišnjak bio je precizan s bijele točke u 24. minuti te je svojoj momčadi donio vodstvo od 2:0. Prethodno je PSV u prednost doveo Filip Kostić pogotkom u 14. minuti.",
+      "link": "https://sportklub.hr/nogomet/video-perisic-zabio-za-psv-nakon-skoro-tri-mjeseca-cekanja/",
+      "published": "2026-11-21T16:59:20.000Z",
+      "source": "SportKlub",
+      "category": "general",
+      "xml_category": "nogomet",
+      "tags": [],
+      "image": null
+    },
+    {
+      "id": "sportklub-1",
+      "title": "Silić: Imamo jako dobar karakter, idemo to potvrditi u Europi",
+      "summary": "Nogometaši Hajduka slavili su na Maksimiru protiv Lokomotive rezultatom 2:1 u susretu 14. kola HNL-a. Domaćini su poveli u 8. minuti pogotkom Dušana Vukovića, no Splićani su preokrenuli još u prvom dijelu golovima Darija Marešića iz kaznenog udarca u 23. minuti i Rona Racija glavom u 45. minuti.",
+      "link": "https://sportklub.hr/nogomet/silic-imamo-jako-dobar-karakter-idemo-to-potvrditi-u-europi/",
+      "published": "2026-11-21T16:58:58.000Z",
+      "source": "SportKlub",
+      "category": "general",
+      "xml_category": "nogomet",
+      "tags": [],
+      "image": null
+    },
+    {
+      "id": "24sata-0",
+      "title": "Gonzalo Garcia: Sramota je što smo imali ovakav teren. Jelavić: Suspendirao sam neke igrače",
+      "summary": "Svaka ozbiljna liga morala bi imati čovjeka koji bi se bavio tim pitanjima, a ne da je to u rukama sudaca, komentirao je Garcia nakon utakmice",
+      "link": "https://www.24sata.hr/sport/uzivo-donosimo-prve-reakcije-s-utakmice-lokomotive-i-hajduka-1170143",
+      "published": "2026-11-21T16:58:00.000Z",
+      "source": "24sata",
+      "category": "general",
+      "xml_category": "sport",
+      "tags": [],
+      "image": "https://img.24sata.hr/GJK23qEmwdUKfEt-rFVf0NXA4TE=/800x450/smart/media/images/2026-46/pxl-211126-162865648.jpg"
+    },
+    {
+      "id": "sportklub-2",
+      "title": "Jelavić odbio komentirati kontroverzni penal za Hajduk: &#8216;Neka drugi to analiziraju&#8217;",
+      "summary": "Lokomotiva je u susretu 14. kola HNL-a poražena od Hajduka rezultatom 2:1, čime je produžila niz bez pobjede.",
+      "link": "https://sportklub.hr/nogomet/jelavic-odbio-komentirati-kontroverzni-penal-za-hajduk-neka-drugi-to-analiziraju/",
+      "published": "2026-11-21T16:53:45.000Z",
+      "source": "SportKlub",
+      "category": "sport",
+      "xml_category": "nogomet",
+      "tags": [],
+      "image": null
+    },
+    {
+      "id": "tportal-0",
+      "title": "Kovač iskoristio Bayernov kiks i nevjerojatnim golom zasjeo na vrh Bundeslige",
+      "summary": "Bayern je u 10. kolu Bundeslige pobijedio imenjaka u Monchengladbachu 1:0.",
+      "link": "https://www.tportal.hr/sport/clanak/kovac-iskoristio-bayernov-kiks-i-nevjerojatnim-golom-zasjeo-na-vrh-bundeslige-20261121",
+      "published": "2026-11-21T16:52:00.000Z",
+      "source": "Tportal",
+      "category": "general",
+      "xml_category": "sport",
+      "tags": [],
+      "image": "https://www.tportal.hr/media/thumbnail/500x300/2831058.jpeg?cropId=4353732"
+    },
+    {
+      "id": "24sata-1",
+      "title": "Gattuso s Lazijom na vrhu. Novo slavlje Baturine, Paza i društva",
+      "summary": "Lazio drži prvo mjesto na ljestvici. Ima 32 boda, odnosno, četiri više od aktualnog prvaka Intera koji ima utakmicu manje",
+      "link": "https://www.24sata.hr/sport/gattuso-s-lazijom-ostao-na-vrhu-slavlje-baturine-i-drustva-1170163",
+      "published": "2026-11-21T16:50:00.000Z",
+      "source": "24sata",
+      "category": "general",
+      "xml_category": "sport",
+      "tags": [],
+      "image": "https://img.24sata.hr/Y66BrCYlaIDIcbiRKTSXhZJfSNU=/800x450/smart/media/images/2026-46/2026-11-21t142643z-1373393465-up1embl144hd8-rtrmadp-3-soccer-italy-com-cag.jpg"
+    },
+    {
+      "id": "jutarnji-0",
+      "title": "‘Nevjerojatno da to nisu išli pogledati! Hajduk je napravio pritisak na suce i Erceg je pao‘",
+      "summary": "U našoj anketi tijekom utakmice 70-ak posto čitatelja izjasnilo se da sudac Mateo Erceg nije trebao dosuditi jedanaesterac za Hajduk, iz kojeg je Dario Marešić postigao gol za 1:1, nakon čega je Raci zabio za pobjedu Splićana 2:1. Dogodilo se to u 23. minuti, nakon duela Triantafylloua i Šege. - Ja.",
+      "link": "https://www.jutarnji.hr/sportske/nogomet/hnl/klubovi/hajduk/sporni-penal-za-hajduk-erceg-pod-pritiskom-anketa-vecina-protiv-15767539",
+      "published": "2026-11-21T16:48:54.000Z",
+      "source": "Jutarnji",
+      "category": "sport",
+      "xml_category": "hajduk",
+      "tags": [],
+      "image": "https://media.jutarnji.hr/images/slike/2026/11/21/f_40006601_1280.jpg?1795280119"
+    },
+    {
+      "id": "sportklub-3",
+      "title": "Garcia oštro o uvjetima na Maksimiru: &#8216;Ne postoji nijedna druga zemlja u kojoj se to događa&#8217;",
+      "summary": "Nogometaši Hajduka uspješno su apsolvirali povratak prvenstvenim obvezama nakon reprezentativne stanke, svladavši na Maksimiru Lokomotivu rezultatom 2:1 preokretom u prvom poluvremenu.",
+      "link": "https://sportklub.hr/nogomet/garcia-ostro-o-uvjetima-na-maksimiru-ne-postoji-nijedna-druga-zemlja-u-kojoj-se-to-dogada/",
+      "published": "2026-11-21T16:48:23.000Z",
+      "source": "SportKlub",
+      "category": "general",
+      "xml_category": "nogomet",
+      "tags": [],
+      "image": null
+    },
+    {
+      "id": "24sata-2",
+      "title": "VIDEO Matanović zabija kao na traci: Zabio već šesti gol u ligi",
+      "summary": "Matanovićev Freiburg nakon osvojena tri boda je trenutačno treća momčad u Bundesligi s 22 boda, jednako toliko ima Bayern dok prvo mjesto drži Borussia Dortmund koju vodi hrvatski trener Niko Kovač.",
+      "link": "https://www.24sata.hr/sport/video-matanovic-zabija-kao-na-traci-zabio-vec-sesti-gol-u-ligi-1170162",
+      "published": "2026-11-21T16:46:00.000Z",
+      "source": "24sata",
+      "category": "general",
+      "xml_category": "sport",
+      "tags": [],
+      "image": "https://img.24sata.hr/-fU3LkoYE63oXQqcENCAu2iqttQ=/800x450/smart/media/images/2026-46/snimka-zaslona-2026-11-21-174337.png.jpg"
+    },
+    {
+      "id": "tportal-1",
+      "title": "Garcia: Ne postoji nijedna liga na svijetu u kojoj se ovo radi",
+      "summary": "Hajduk je u 14. kolu SHNL-a pobijedio Lokomotivu u Maksimriu 2:1.",
+      "link": "https://www.tportal.hr/sport/clanak/garcia-ne-postoji-nijedna-liga-na-svijetu-u-kojoj-se-ovo-radi-20261121",
+      "published": "2026-11-21T16:45:00.000Z",
+      "source": "Tportal",
+      "category": "general",
+      "xml_category": "sport",
+      "tags": [],
+      "image": "https://www.tportal.hr/media/thumbnail/500x300/2831056.png?cropId=4353722"
+    },
+    {
+      "id": "index-0",
+      "title": "Gattuso ne staje, uspješni i Baturina i Smolčić",
+      "summary": "LAZIO i dalje vodi u Serie A.",
+      "link": "https://www.index.hr/sport/clanak/gattuso-ne-staje-uspjesni-i-baturina-i-smolcic/2859378.aspx",
+      "published": "2026-11-21T16:39:00.000Z",
+      "source": "Index",
+      "category": "general",
+      "xml_category": "sport",
+      "tags": [],
+      "image": null
+    },
+    {
+      "id": "index-1",
+      "title": "Silić: Guramo dobro, pobjeđujemo. Imamo jako dobar karakter",
+      "summary": "HAJDUK je pobijedio Lokomotivu na Maksimiru s 1:2 u utakmici 14. kola SuperSport HNL-a.",
+      "link": "https://www.index.hr/sport/clanak/silic-guramo-dobro-pobjedjujemo-imamo-jako-dobar-karakter/2859384.aspx",
+      "published": "2026-11-21T16:36:00.000Z",
+      "source": "Index",
+      "category": "general",
+      "xml_category": "sport",
+      "tags": [],
+      "image": null
+    },
+    {
+      "id": "tportal-2",
+      "title": "Toplak: Hajduk je napravio pritisak na sudačku organizaciju i to mu se isplatilo",
+      "summary": "Hajduk je u 14. kolu SHNL-a pobijedio Lokomotivu u gostima 2:1.",
+      "link": "https://www.tportal.hr/sport/clanak/toplak-hajduk-je-napravio-pritisak-na-sudacku-organizaciju-i-to-mu-se-isplatilo-20261121",
+      "published": "2026-11-21T16:35:00.000Z",
+      "source": "Tportal",
+      "category": "sport",
+      "xml_category": "sport",
+      "tags": [],
+      "image": "https://www.tportal.hr/media/thumbnail/500x300/2831055.png?cropId=4353710"
+    },
+    {
+      "id": "index-2",
+      "title": "Jelavić o penalu za Hajduk: Neću komentirati",
+      "summary": "TRENER Lokomotive osvrnuo se na poraz od Hajduka.",
+      "link": "https://www.index.hr/sport/clanak/jelavic-o-penalu-za-hajduk-necu-komentirati/2859385.aspx",
+      "published": "2026-11-21T16:34:00.000Z",
+      "source": "Index",
+      "category": "sport",
+      "xml_category": "sport",
+      "tags": [],
+      "image": null
+    },
+    {
+      "id": "index-3",
+      "title": "Rudeš na Varaždin u borbi za europske pozicije. Tko bi rekao?",
+      "summary": "RUDEŠ u 14. kolu SuperSport HNL-a dočekuje Varaždin u Velikoj Gorici. Tekstualni prijenos utakmice pratite uživo na Indexu.",
+      "link": "https://www.index.hr/sport/clanak/rudes-na-varazdin-u-borbi-za-europske-pozicije-tko-bi-rekao/2859256.aspx",
+      "published": "2026-11-21T16:33:00.000Z",
+      "source": "Index",
+      "category": "general",
+      "xml_category": "sport",
+      "tags": [],
+      "image": null
+    },
+    {
+      "id": "tportal-3",
+      "title": "Jelavić o penalu za Hajduk: To komentirajte vi i vaše kolege. Ja neću",
+      "summary": "Nogometaši Lokomotive poraženi su u 14. kolu SuperSport HNL-a od Hajduka 2:1. S time što su Lokosi poveli već u 8. minuti dvoboja",
+      "link": "https://www.tportal.hr/sport/clanak/jelavic-o-penalu-za-hajduk-to-komentirajte-vi-i-vase-kolege-ja-necu-20261121",
+      "published": "2026-11-21T16:33:00.000Z",
+      "source": "Tportal",
+      "category": "sport",
+      "xml_category": "sport",
+      "tags": [],
+      "image": "https://www.tportal.hr/media/thumbnail/500x300/2831054.jpeg?cropId=4353696"
+    },
+    {
+      "id": "sportklub-4",
+      "title": "Moćno izdanje prije Maksimira: Leverkusen uoči Dinama pregazio suparnika u Bundesligi",
+      "summary": "Nogometaši Bayer Leverkusena slavili su na domaćem terenu protiv SC Paderborna rezultatom 4:0 u utakmici 10. kola njemačke Bundeslige. Apotekari u četvrtak stižu na Maksimiru gdje od 18:45 sati igraju utakmicu 5. kola Europske lige protiv Dinama.",
+      "link": "https://sportklub.hr/nogomet/bundesliga/mocno-izdanje-prije-maksimira-leverkusen-uoci-dinama-pregazio-suparnika-u-bundesligi/",
+      "published": "2026-11-21T16:32:53.000Z",
+      "source": "SportKlub",
+      "category": "general",
+      "xml_category": "bundesliga",
+      "tags": [],
+      "image": null
+    },
+    {
+      "id": "jutarnji-1",
+      "title": "VIDEO: Engleski velikani žele ga za 60 milijuna eura, a on je odmah pokazao zašto! Vatreni nastavlja briljirati",
+      "summary": "Hrvatski reprezentativac Igor Matanović nastavio je odličnu sezonu u dresu Freiburga. Samo nekoliko sati nakon što su se pojavile konkretne informacije o velikom interesu engleskih klubova, 23-godišnji napadač ponovno se upisao među strijelce u njemačkoj Bundesligi. Matanović je pogodio u 68. minuti",
+      "link": "https://www.jutarnji.hr/sportske/nogomet/video-engleski-velikani-zele-ga-za-60-milijuna-eura-a-on-je-odmah-pokazao-zasto-vatreni-nastavlja-briljirati-15767535",
+      "published": "2026-11-21T16:32:00.000Z",
+      "source": "Jutarnji",
+      "category": "general",
+      "xml_category": "nogomet",
+      "tags": [],
+      "image": "https://media.jutarnji.hr/images/slike/2026/11/21/f_40007313_1280.jpg?1795280119"
+    },
+    {
+      "id": "jutarnji-2",
+      "title": "Garcia zagrmio nakon utakmice: ‘U 2026. godini se ovakve stvari ne smiju raditi!‘",
+      "summary": "Hajduk je u Maksimiru pobijedio Lokomotivu 2:1 i zadržao prvo mjesto na ljestvici. Pogotke su postigli Dario Marešić iz dvojbenog jedanaesterca i Ron Raci, nakon što su Lokosi rano poveli pogotkom Vukovića. - Neki su kasno stigli zbog problema s putovanjima, bili su umorni. Zaslužili smo pobjedu. Ma",
+      "link": "https://www.jutarnji.hr/sportske/nogomet/hnl/klubovi/hajduk/hajduk-pobijedio-lokomotivu-2-1-u-maksimiru-i-zadrzao-prvo-mjesto-15767537",
+      "published": "2026-11-21T16:32:00.000Z",
+      "source": "Jutarnji",
+      "category": "general",
+      "xml_category": "hajduk",
+      "tags": [],
+      "image": "https://media.jutarnji.hr/images/slike/2026/11/21/f_40006407_1280.jpg?1795280119"
+    },
+    {
+      "id": "24sata-3",
+      "title": "FOTO Torcida bakljadom slavila pobjedu Hajduka na Maksimiru",
+      "summary": "LOKOMOTIVA - HAJDUK 1-2 Vodeća momčad HNL-a stigla je do vrlo važne pobjede kod 'lokosa'",
+      "link": "https://www.24sata.hr/sport/foto-torcida-bakljadom-slavila-pobjedu-hajduka-na-maksimiru-1170158",
+      "published": "2026-11-21T16:32:00.000Z",
+      "source": "24sata",
+      "category": "sport",
+      "xml_category": "sport",
+      "tags": [],
+      "image": "https://img.24sata.hr/DvTcW2lcoioKavzqo4bUwDieW1Q=/800x450/smart/media/images/2026-46/pxl-211126-162875424.jpg"
+    },
+    {
+      "id": "tportal-4",
+      "title": "Jelavić: Zadovoljan sam kako smo izgledali do tog penala",
+      "summary": "Lokomotiva je svoj crni niz produljila na čak četiri uzastopna poraza u svim natjecanjima.",
+      "link": "https://www.tportal.hr/sport/clanak/jelavic-zadovoljan-sam-kako-smo-izgledali-do-tog-penala-20261121",
+      "published": "2026-11-21T16:32:00.000Z",
+      "source": "Tportal",
+      "category": "general",
+      "xml_category": "sport",
+      "tags": [],
+      "image": "https://www.tportal.hr/media/thumbnail/500x300/2831041.jpeg?cropId=4353667"
+    },
+    {
+      "id": "sportklub-5",
+      "title": "VIDEO / Kovačeva Borussia slavila protiv Gladbacha i preuzela vrh Bundeslige",
+      "summary": "Niko Kovač i njegova Borussia Dortmund su u desetom kolu Bundeslige došli do pobjede od 1:0 na gostovanju kod Borussije Monchengladbach. Dortmundska momčad dominirala je većim dijelom utakmice, a do gola za pobjedu došli su tek u 80. minuti. Lukas Nmecha dobio je loptu na rub kaznenog prostora te je",
+      "link": "https://sportklub.hr/video/video-kovaceva-borussia-slavila-i-preuzela-vrh-bundeslige/",
+      "published": "2026-11-21T16:28:23.000Z",
+      "source": "SportKlub",
+      "category": "general",
+      "xml_category": "bundesliga",
+      "tags": [],
+      "image": null
+    },
+    {
+      "id": "bbc-7",
+      "title": "England beat New Zealand by record margin",
+      "summary": "England stun New Zealand, beating the three-time world champions by 25 points - compounding the All Blacks' disappointment after their loss to Wales last week.",
+      "link": "https://www.bbc.co.uk/sport/rugby-union/videos/c6742znzggeyo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-21T16:28:09.000Z",
+      "source": "BBC",
+      "category": "general",
+      "xml_category": "",
+      "tags": [],
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e4b8/live/234086c0-e5c7-11f1-a094-5fdc692f3e33.jpg"
+    },
+    {
+      "id": "jutarnji-3",
+      "title": "Na Maksimiru je presudio - Ples sa zvijezdama! Da je protiv Hajduka dosuđen takav penal, bilo bi svega...",
+      "summary": "Polupuna čaša uvijek je i poluprazna. Iz Hajdukovog kuta gledanja najvažnija je nova pobjeda do koje je momčad Gonzala Garcije u Maksimiru došla vozeći se u leru. Tako se osvajaju prvenstva ili ovo je premalo ako želiš biti prvak, izaberite sami dražu vam floskulu. Bodovi se pamte, ostalo će se zabo",
+      "link": "https://www.jutarnji.hr/sportske/nogomet/hajduk-preokretom-u-maksimiru-pobjegao-dinamu-sedam-bodova-15767533",
+      "published": "2026-11-21T16:26:00.000Z",
+      "source": "Jutarnji",
+      "category": "sport",
+      "xml_category": "nogomet",
+      "tags": [],
+      "image": "https://media.jutarnji.hr/images/slike/2026/11/21/f_40006601_1280.jpg?1795280119"
+    },
+    {
+      "id": "index-4",
+      "title": "Garcia o uvjetima na Maksimiru: Ne postoji nijedna druga zemlja u kojoj se ovo događa",
+      "summary": "TRENER Hajduka osvrnuo se na pobjedu nad Lokomotivom.",
+      "link": "https://www.index.hr/sport/clanak/garcia-o-uvjetima-na-maksimiru-ne-postoji-nijedna-druga-zemlja-u-kojoj-se-ovo-dogadja/2859382.aspx",
+      "published": "2026-11-21T16:25:00.000Z",
+      "source": "Index",
+      "category": "general",
+      "xml_category": "sport",
+      "tags": [],
+      "image": null
+    },
+    {
+      "id": "tportal-5",
+      "title": "Garcia nakon pobjede ljutit: &#039;To se ne smije događati. Nije dobro za ligu&#039;",
+      "summary": "Hajduk je stigao do nove pobjede u SuperSport HNL-u.",
+      "link": "https://www.tportal.hr/sport/clanak/garcia-nakon-pobjede-ljutit-to-se-ne-smije-dogadati-nije-dobro-za-ligu-20261121",
+      "published": "2026-11-21T16:24:00.000Z",
+      "source": "Tportal",
+      "category": "general",
+      "xml_category": "sport",
+      "tags": [],
+      "image": "https://www.tportal.hr/media/thumbnail/500x300/2831039.jpeg?cropId=0"
+    },
+    {
+      "id": "bbc-1",
+      "title": "McConnell shines as 11-try Scotland dismantle Japan",
+      "summary": "A Liam McConnell hat-trick inspires Scotland in an 11-try Nations Championship rout of Japan at Murrayfield.",
+      "link": "https://www.bbc.co.uk/sport/rugby-union/articles/cmx2x00w08keo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-21T16:23:11.000Z",
+      "source": "BBC",
+      "category": "general",
+      "xml_category": "",
+      "tags": [],
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/50cd/live/3dcd9c90-e5c1-11f1-a188-ff49e70cc466.jpg"
+    },
+    {
+      "id": "index-5",
+      "title": "Perišić zabio za PSV",
+      "summary": "HRVATSKI reprezentativac pogodio je za 0:2 iz penala u 24. minuti.",
+      "link": "https://www.index.hr/sport/clanak/perisic-zabio-za-psv/2859373.aspx",
+      "published": "2026-11-21T16:22:00.000Z",
+      "source": "Index",
+      "category": "general",
+      "xml_category": "sport",
+      "tags": [],
+      "image": null
+    },
+    {
+      "id": "sportklub-6",
+      "title": "Toplak o spornom penalu: &#8216;Erceg je pao na pritisak Bijelih, napadač Hajduka se bacio&#8217;",
+      "summary": "Hajduk je na Maksimiru došao do treće uzastopne pobjede slavljem protiv Lokomotive rezultatom 2:1, ali trijumf nije prošao bez kontroverzi.",
+      "link": "https://sportklub.hr/nogomet/toplak-o-spornom-penalu-erceg-je-pao-na-pritisak-bijelih-napadac-hajduka-se-bacio/",
+      "published": "2026-11-21T16:21:41.000Z",
+      "source": "SportKlub",
+      "category": "sport",
+      "xml_category": "nogomet",
+      "tags": [],
+      "image": null
+    },
+    {
+      "id": "index-6",
+      "title": "Sljedeći Dinamov suparnik do vrha napunio mrežu Paderborna",
+      "summary": "UVJERLJIVA pobjeda Bayera.",
+      "link": "https://www.index.hr/sport/clanak/sljedeci-dinamov-suparnik-do-vrha-napunio-mrezu-paderborna/2859366.aspx",
+      "published": "2026-11-21T16:20:00.000Z",
+      "source": "Index",
+      "category": "sport",
+      "xml_category": "sport",
+      "tags": [],
+      "image": null
+    },
+    {
+      "id": "index-7",
+      "title": "VIDEO Matanović zabio šesti gol ove sezone u Bundesligi",
+      "summary": "HRVATSKI napadač postigao je još jedan gol.",
+      "link": "https://www.index.hr/sport/clanak/video-matanovic-zabio-sesti-gol-ove-sezone-u-bundesligi/2859374.aspx",
+      "published": "2026-11-21T16:19:00.000Z",
+      "source": "Index",
+      "category": "general",
+      "xml_category": "sport",
+      "tags": [],
+      "image": null
+    },
+    {
+      "id": "jutarnji-4",
+      "title": "UŽIVO Rudeš - Varaždin: Domaćini idu po novu senzaciju i četvrtu pobjedu u nizu, gosti traže izlaz iz male krize",
+      "summary": "Rudeš - Varaždin (od 18:00) RUDEŠ: Rogić - Unušić, Zebić, Stolnik, Bralić, Curcio - Skoko, Xavi - El Haddad, Poldrugač - Fernandes VARAŽDIN: Silić - Posinković, Mladenovski, Tepšić, Barać, Duraković - Canjuga, Duvnjak - Latković, Mamić, Tavares VELIKA GORICA - Gradski stadion, sudac: Patrik Pavlešić",
+      "link": "https://www.jutarnji.hr/sportske/nogomet/uzivo-rudes-varazdin-domacini-idu-po-novu-senzaciju-i-cetvrtu-pobjedu-u-nizu-gosti-traze-izlaz-iz-male-krize-15767530",
+      "published": "2026-11-21T16:18:17.000Z",
+      "source": "Jutarnji",
+      "category": "general",
+      "xml_category": "nogomet",
+      "tags": [],
+      "image": "https://media.jutarnji.hr/images/slike/2026/11/21/f_39503678_1280.jpg?1795280119"
+    },
+    {
+      "id": "tportal-6",
+      "title": "Pogledajte kako je Torcida ispratila igrače Hajduka nakon okršaja s Lokomotivom",
+      "summary": "Nogometaši Hajduka, vodeći na ljestvici SuperSport HNL-a, ostvarili su novu prvenstvenu pobjedu te su u 14. kolu, na maksimirskom stadionu, svladali Lokomotivu s 2:1 (2:1).",
+      "link": "https://www.tportal.hr/sport/clanak/pogledajte-kako-je-torcida-ispratila-igrace-hajduka-nakon-okrsaja-s-lokomotivom-20261121",
+      "published": "2026-11-21T16:18:00.000Z",
+      "source": "Tportal",
+      "category": "sport",
+      "xml_category": "sport",
+      "tags": [],
+      "image": "https://www.tportal.hr/media/thumbnail/500x300/2831044.jpeg?cropId=0"
+    },
+    {
+      "id": "index-8",
+      "title": "Lokomotivin strijelac: Hajduk je jači i bolji od nas",
+      "summary": "DUŠAN VUKOVIĆ osvrnuo se na poraz.",
+      "link": "https://www.index.hr/sport/clanak/lokomotivin-strijelac-hajduk-je-jaci-i-bolji-od-nas/2859377.aspx",
+      "published": "2026-11-21T16:17:00.000Z",
+      "source": "Index",
+      "category": "sport",
+      "xml_category": "sport",
+      "tags": [],
+      "image": null
+    },
+    {
+      "id": "index-9",
+      "title": "Toplak o jedanaestercu za Hajduk: Nevjerojatno",
+      "summary": "SAMIR TOPLAK analizirao je pobjedu Hajduka protiv Lokomotive.",
+      "link": "https://www.index.hr/sport/clanak/toplak-o-jedanaestercu-za-hajduk-ne-treba-mi-objasnjenje-vidim-bolje-od-njih/2859380.aspx",
+      "published": "2026-11-21T16:14:31.000Z",
+      "source": "Index",
+      "category": "sport",
+      "xml_category": "sport",
+      "tags": [],
+      "image": null
+    },
+    {
+      "id": "jutarnji-5",
+      "title": "On je pokretao sve napade Hajduka i još zabio, Fayad je popio lijepe batine, Huram bolji od Šutala...",
+      "summary": "LOKOMOTIVA NAJBOLJI U MOMČADI: Vuković 6,5 - Opasan, voli zabiti Hajduku. Posavec 6 - Imao par obrana. Čabrajić 6 - Aktivan. Čabraja 5 - Požutio, nesiguran. Triantafyllou 5 - Skrivio jedanaesterac. Katić 6 - Lavovski se borio. Subotić 6 - Ima u njemu zanimljivog materijala. Smiljanić 6 - Puno trke..",
+      "link": "https://www.jutarnji.hr/sportske/nogomet/on-je-pokretao-sve-napade-hajduka-i-jos-zabio-fayad-je-popio-lijepe-batine-huram-bolji-od-sutala-15767527",
+      "published": "2026-11-21T16:14:21.000Z",
+      "source": "Jutarnji",
+      "category": "sport",
+      "xml_category": "nogomet",
+      "tags": [],
+      "image": "https://media.jutarnji.hr/images/slike/2026/11/21/f_40006707_1280.jpg?1795280119"
+    },
+    {
+      "id": "jutarnji-6",
+      "title": "Gattusov Lazio stigao do jubilarne desete ligaške pobjede, novo slavlje Baturine i društva",
+      "summary": "Nogometaši Lazija ostali su na samom vrhu ljestvice talijanske Serie A nakon što su na domaćem terenu, u dvoboju 12. kola, svladali Lecce s 3-0. Junak pobjede rimske momčadi bio je Nizozemac Tijjani Noslin koji je postigao uvodna dva pogotka na susretu, strijelac je bio u 25. i 68. minuti. Zaslužena",
+      "link": "https://www.jutarnji.hr/sportske/nogomet/lazio-stigao-do-jubilarne-desete-ligaske-pobjede-novo-slavlje-baturine-i-drustva-15767528",
+      "published": "2026-11-21T16:14:00.000Z",
+      "source": "Jutarnji",
+      "category": "general",
+      "xml_category": "nogomet",
+      "tags": [],
+      "image": "https://media.jutarnji.hr/images/slike/2026/11/21/f_40007016_1280.jpg?1795280119"
+    },
+    {
+      "id": "24sata-4",
+      "title": "UŽIVO Rudeš - Varaždin: Stigli sastavi. Varaždinci traže izlaz iz mini krize protiv Rudešana...",
+      "summary": "Od 18 sati Rudeš i Varaždin će odmjeriti snage u sklopu 14. kola HNL-a na stadionu u Gorici. Rudeš je slavio na zadnja tri susreta, a Varaždin za pobjedu ne zna od početka listopada. Susret će biti na kanalu MAXSport1",
+      "link": "https://www.24sata.hr/sport/uzivo-rudes-varazdin-stigli-sastavi-varazdinci-traze-izlaz-iz-mini-krize-protiv-rudesana-1170059",
+      "published": "2026-11-21T16:13:00.000Z",
+      "source": "24sata",
+      "category": "general",
+      "xml_category": "sport",
+      "tags": [],
+      "image": "https://img.24sata.hr/swRC0FPc9omcSI6xY6JJ2fuW_rQ=/800x450/smart/media/images/2026-46/pxl-290826-157519364_g5lCGHo.jpg"
+    },
+    {
+      "id": "index-10",
+      "title": "Šef La Lige žestoko napao Pereza: Florentino, kako baš sada imaš integriteta?",
+      "summary": "NASTAVLJEN je sukob predsjednika Reala Florentina Pereza i šefa La Lige Javiera Tebasa. Perez traži Tebasovu ostavku zbog slučaja Negreira, a Tebas ga optužuje za lobiranje i sumnjive motive.",
+      "link": "https://www.index.hr/sport/clanak/sef-la-lige-zestoko-napao-pereza-florentino-kako-bas-sada-imas-integriteta/2859368.aspx",
+      "published": "2026-11-21T16:12:00.000Z",
+      "source": "Index",
+      "category": "general",
+      "xml_category": "sport",
+      "tags": [],
+      "image": null
+    },
+    {
+      "id": "sportklub-7",
+      "title": "VIDEO / Matanović ponovno zabio gol u Bundesligi, pogledajte sjajnu realizaciju",
+      "summary": "Hrvatski reprezentativac Igor Matanović ponovno trese mreže u njemačkoj Bundesligi.",
+      "link": "https://sportklub.hr/video/nogomet-video/video-matanovic-ponovno-zabio-gol-u-bundesligi-pogledajte-sjajnu-realizaciju/",
+      "published": "2026-11-21T16:10:41.000Z",
+      "source": "SportKlub",
+      "category": "general",
+      "xml_category": "bundesliga",
+      "tags": [],
+      "image": null
+    },
+    {
+      "id": "bbc-0",
+      "title": "Superb England run up record win over New Zealand",
+      "summary": "England's revival roars up a gear as they beat New Zealand by a record margin after former captain Lewis Moody leads the hosts' response to the haka.",
+      "link": "https://www.bbc.co.uk/sport/rugby-union/articles/cwm2jxd8k15mo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-21T16:08:59.000Z",
+      "source": "BBC",
+      "category": "general",
+      "xml_category": "",
+      "tags": [],
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/afc0/live/c8a34840-e5c8-11f1-99a1-253766e7ad8b.jpg"
+    },
+    {
+      "id": "jutarnji-7",
+      "title": "VIDEO: Bjeličina momčad izazvala veliku pažnju, što znači ovaj broj na dresu? ‘2446 prekinutih života...‘",
+      "summary": "Nogometaši turskog Samsunspora, momčadi koju vodi Nenad Bjelica, u današnjoj utakmici 12. kola protiv Galatasaraya na teren su istrčali u posebnim dresovima s brojem 2446. Riječ je o akciji kojom žele skrenuti pozornost javnosti na ozbiljan problem nasilja nad ženama u Turskoj. Broj 2446 predstavlja",
+      "link": "https://www.jutarnji.hr/sportske/nogomet/video-bjelicina-momcad-izazvala-veliku-paznju-sto-znaci-ovaj-broj-na-dresu-2446-prekinutih-zivota-15767524",
+      "published": "2026-11-21T16:08:52.000Z",
+      "source": "Jutarnji",
+      "category": "general",
+      "xml_category": "nogomet",
+      "tags": [],
+      "image": "https://media.jutarnji.hr/images/slike/2026/11/21/f_39838864_1280.jpg?1795280119"
+    },
+    {
+      "id": "tportal-7",
+      "title": "Baturina s Comom do nove pobjede, Lazio s tri gola do tri boda za ostanak na vrhu",
+      "summary": "U utakmicama 12. kola talijanske Serie A, nove su pobjede upisali Lazio i Como",
+      "link": "https://www.tportal.hr/sport/clanak/baturina-s-comom-do-nove-pobjede-lazio-s-tri-gola-do-tri-boda-za-ostanak-na-vrhu-20261121",
+      "published": "2026-11-21T16:08:00.000Z",
+      "source": "Tportal",
+      "category": "general",
+      "xml_category": "sport",
+      "tags": [],
+      "image": "https://www.tportal.hr/media/thumbnail/500x300/2831040.jpeg?cropId=4353653"
+    },
+    {
+      "id": "bbc-2",
+      "title": "Fernandez dropped, Anderson scores - Man City's £327m midfield dilemma",
+      "summary": "Manchester City spent £327m overhauling their midfield in the summer - but how does Enzo Maresca find the right balance?",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cxe8944j188yo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-21T16:07:19.000Z",
+      "source": "BBC",
+      "category": "general",
+      "xml_category": "",
+      "tags": [],
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2997/live/fc265c50-e5c0-11f1-a188-ff49e70cc466.jpg"
+    },
+    {
+      "id": "24sata-5",
+      "title": "Lokomotiva - Hajduk 1-2: Lokosi iznenadili, Splićani odgovorili te su na +7 od rivala Dinama",
+      "summary": "LOKOMOTIVA - HAJDUK 1-2 Nogometaši Lokomotive u 14. kolu HNL-a poraženi su od Hajduka. Domaćin je poveo u 8. minuti preko Vukovića, a onda su gosti preokrenuli golovima Marešića i Racija. Imaju +7 od Dinama",
+      "link": "https://www.24sata.hr/sport/uzivo-lokomotiva-hajduk-dvoboj-dna-i-vrha-hnl-tablice-nakon-reprezentativne-pauze-1170058",
+      "published": "2026-11-21T16:02:00.000Z",
+      "source": "24sata",
+      "category": "sport",
+      "xml_category": "sport",
+      "tags": [],
+      "image": "https://img.24sata.hr/DmkuMeBr5cYWRAI_YRm86_YDjsE=/800x450/smart/media/images/2026-46/pxl-211126-162875419.jpg"
+    },
+    {
+      "id": "sportklub-8",
       "title": "Gattusov Lazio je nezaustavljiv, upisao je novu pobjedu i pobjegao Interu na +4",
       "summary": "U talijanskoj Serie A na vrhu lige je nakon subotnjeg poslijepodneva i dalje rimski Lazio. Momčad bivšeg trenera Hajduka Gennara Gattusa je s 3:0 slavila protiv Leccea te je nastavila sjajan niz u Italiji.",
       "link": "https://sportklub.hr/nogomet/gattusov-lazio-je-nezaustavljiv-upisao-je-novu-pobjedu-i-pobjegao-interu-na-4/",
@@ -15,9 +555,33 @@
       "image": null
     },
     {
-      "id": "sportklub-1",
+      "id": "sky-sports-10",
+      "title": "Tennis scores: Zverev vs Medvedev in ATP Finals last four after Alcaraz wins",
+      "summary": "",
+      "link": "https://www.skysports.com/tennis/scores-schedule",
+      "published": "2026-11-21T16:00:00.000Z",
+      "source": "Sky Sports",
+      "category": "sport",
+      "xml_category": "news story",
+      "tags": [],
+      "image": "https://e1.365dm.com/26/11/1920x1080/skysports-alexander-zverev_7410975.jpg?20261119220535"
+    },
+    {
+      "id": "index-11",
+      "title": "ANKETA Ocijenite trenera i igrače Hajduka nakon današnje utakmice",
+      "summary": "HAJDUK je pobijedio Lokomotivu na Maksimiru s 1:2 u utakmici 14. kola SuperSport HNL-a.",
+      "link": "https://www.index.hr/sport/clanak/anketa-ocijenite-trenera-i-igrace-hajduka-nakon-danasnje-utakmice/2859363.aspx",
+      "published": "2026-11-21T15:58:00.000Z",
+      "source": "Index",
+      "category": "sport",
+      "xml_category": "sport",
+      "tags": [],
+      "image": null
+    },
+    {
+      "id": "sportklub-9",
       "title": "Stoperi Hajduka kreirali preokret na Maksimiru, Bijeli bježe Dinamu sedam bodova",
-      "summary": "Hajduk u 14. kolu HNL-a gostuje na Maksimiru kod Lokomotive gdje traži nastavak pobjedničkog niza uz koji bi zadržao najmanje četiri boda prednosti pred Dinamom (s utakmicom više). Sva zbivanja pratite uživo u tekstualnom prijenosu na Sport Klubu.",
+      "summary": "Nogometaši Hajduka, vodeći na ljestvici HNL-a, ostvarili su novu prvenstvenu pobjedu te su u 14. kolu, na maksimirskom stadionu, svladali Lokomotivu s 2:1.",
       "link": "https://sportklub.hr/nogomet/stoperi-hajduka-kreirali-preokret-na-maksimiru-bijeli-bjeze-dinamu-sedam-bodova/",
       "published": "2026-11-21T15:56:10.000Z",
       "source": "SportKlub",
@@ -27,7 +591,31 @@
       "image": null
     },
     {
-      "id": "tportal-0",
+      "id": "index-12",
+      "title": "Hajduk opet pobijedio",
+      "summary": "HAJDUK je u 14. kolu SHNL-a preokretom svladao Lokomotivu 2:1.",
+      "link": "https://www.index.hr/sport/clanak/hajduk-je-na-maksimiru-favorit-trazi-desetu-shnl-pobjedu-sezone/2859251.aspx",
+      "published": "2026-11-21T15:55:00.000Z",
+      "source": "Index",
+      "category": "sport",
+      "xml_category": "sport",
+      "tags": [],
+      "image": null
+    },
+    {
+      "id": "sky-sports-0",
+      "title": "Alcaraz defeats Shelton to reach championship match at ATP Finals",
+      "summary": "Carlos Alcaraz made it a lucky 13 wins in a row against Ben Shelton to reach Sunday's showpiece of the ATP Finals in Turin.",
+      "link": "https://www.skysports.com/tennis/news/12040/13614778/carlos-alcaraz-seven-time-grand-slam-champion-sinks-ben-shelton-to-reach-championship-match-at-atp-finals",
+      "published": "2026-11-21T15:55:00.000Z",
+      "source": "Sky Sports",
+      "category": "general",
+      "xml_category": "news story",
+      "tags": [],
+      "image": "https://e2.365dm.com/26/11/1920x1080/skysports-carlos-alcaraz-tennis_7412548.jpg?20261121164619"
+    },
+    {
+      "id": "tportal-8",
       "title": "Hajduk preokretom svladao Lokose i pobjegao Dinamu na +7: Pogledajte golove",
       "summary": "Prvu utakmicu subotnjeg programa 14. kola SuperSport HNL-a u Maksimiru od 15 sati igraju Lokomotiva i Hajduk. Susret gledajte putem MAXTV-a na kanalu MAXSporta 1 te na HDTV-u, a sve golove i najzanimljivije situacije ponovno pogledajte samo na tportalu.",
       "link": "https://www.tportal.hr/sport/clanak/hajduk-lokmotiva-supersport-hnl-prijenos-golovi",
@@ -39,7 +627,7 @@
       "image": "https://www.tportal.hr/media/thumbnail/500x300/2831030.jpeg?cropId=0"
     },
     {
-      "id": "24sata-0",
+      "id": "24sata-6",
       "title": "FOTO Bivši 'vatreni' Ante Rebić u lijepom društvu na Cvjetnom",
       "summary": "Rebić je od 1. srpnja slobodan igrač, nakon što mu je istekao ugovor s Hajdukom i rijetko se pojavljuje u javnosti",
       "link": "https://www.24sata.hr/sport/foto-bivsi-vatreni-ante-rebic-u-lijepom-drustvu-na-cvjetnom-1170153",
@@ -51,7 +639,19 @@
       "image": "https://img.24sata.hr/fPlGBJM-t-UzI6yNOe65oD0alfY=/800x450/smart/media/images/2026-46/pxl-211126-162859809_5GrsuPA.jpg"
     },
     {
-      "id": "tportal-1",
+      "id": "sky-sports-1",
+      "title": "Grey Dawning oozes class in Betfair Chase repeat",
+      "summary": "Grey Dawning joined an illustrious list when following up his success of 12 months ago with a smooth performance in the Betfair Chase at Haydock.",
+      "link": "https://www.skysports.com/racing/news/12040/13614799/haydock-dan-skeltons-grey-dawning-oozes-class-in-betfair-chase-repeat",
+      "published": "2026-11-21T15:52:00.000Z",
+      "source": "Sky Sports",
+      "category": "ai",
+      "xml_category": "news story",
+      "tags": [],
+      "image": "https://e1.365dm.com/26/11/1920x1080/skysports-grey-dawning-racing_7412525.jpg?20261121162703"
+    },
+    {
+      "id": "tportal-9",
       "title": "Igrači Nenada Bjelice na dresovima imali poseban broj, a on predstavlja...",
       "summary": "Nogometaši Samsunspora istrčali su protiv Galatasaraya s brojem 2446 na leđima, želeći skrenuti pozornost na nasilje nad ženama u Turskoj.",
       "link": "https://www.tportal.hr/sport/clanak/igraci-nenada-bjelice-na-dresovima-imali-poseban-broj-a-on-predstavlja-20261121",
@@ -63,7 +663,7 @@
       "image": "https://www.tportal.hr/media/thumbnail/500x300/2831037.jpeg?cropId=0"
     },
     {
-      "id": "jutarnji-0",
+      "id": "jutarnji-8",
       "title": "Alcaraz se izvukao iz teške situacije i izborio veliko finale! Za titulu će igrati protiv Zvereva ili Medvjedeva",
       "summary": "Španjolski tenisač Carlos Alcaraz prvi je finalist završnog turnira u Torinu, ATP Finala, nakon što je u polufinalnom dvoboju nadigrao Amerikanca Bena Sheltona s 3-6, 6-3, 7-6(1). U nedjeljnom će finalu Alcaraz igrati protiv pobjednika meča u kojem se sastaju Nijemac Alexander Zverev i Rus Danil Med",
       "link": "https://www.jutarnji.hr/sportske/tenis/atp-wta-turniri/alcaraz-se-izvukao-iz-teske-situacije-i-izborio-veliko-finale-za-titulu-ce-igrati-protiv-zvereva-ili-medvjedeva-15767520",
@@ -72,23 +672,11 @@
       "category": "general",
       "xml_category": "atp/wta turniri",
       "tags": [],
-      "image": "https://media.jutarnji.hr/images/slike/2026/11/21/f_40006543_1280.jpg?1795276686"
+      "image": "https://media.jutarnji.hr/images/slike/2026/11/21/f_40006543_1280.jpg?1795280119"
     },
     {
-      "id": "index-0",
-      "title": "UŽIVO Uspavanka u drugom poluvremenu, Hajduk drži prednost",
-      "summary": "TEKSTUALNI prijenos utakmice pratite na Indexu.",
-      "link": "https://www.index.hr/sport/clanak/hajduk-je-na-maksimiru-favorit-trazi-desetu-shnl-pobjedu-sezone/2859251.aspx",
-      "published": "2026-11-21T15:49:00.000Z",
-      "source": "Index",
-      "category": "sport",
-      "xml_category": "sport",
-      "tags": [],
-      "image": null
-    },
-    {
-      "id": "index-1",
-      "title": "Alcaraz preokretom protiv Sheltona izborio finale u Torinu",
+      "id": "index-13",
+      "title": "Alcaraz izborio finale u Torinu",
       "summary": "ODLIČAN preokret za Španjolca.",
       "link": "https://www.index.hr/sport/clanak/alcaraz-preokretom-protiv-sheltona-izborio-finale-u-torinu/2859364.aspx",
       "published": "2026-11-21T15:48:00.000Z",
@@ -99,7 +687,7 @@
       "image": null
     },
     {
-      "id": "tportal-2",
+      "id": "tportal-10",
       "title": "Pogledajte kako je Kramarić promašio penal za Hoffenheim. Golman ga je izludio...",
       "summary": "Andrej Kramarić je tek peti put u karijeri u Bundesligi promašio penal.",
       "link": "https://www.tportal.hr/sport/clanak/pogledajte-kako-je-kramaric-promasio-penal-za-hoffenheim-golman-ga-je-izludio-20261121",
@@ -111,7 +699,7 @@
       "image": "https://www.tportal.hr/media/thumbnail/500x300/2831034.png?cropId=4353621"
     },
     {
-      "id": "sportklub-2",
+      "id": "sportklub-10",
       "title": "VIDEO / Alcaraz preokretom protiv Sheltona došao do finala u Torinu!",
       "summary": "Nakon što je Mate Pavić s Marcelom Arevalom u prvom meču dana na Finalsu u Torinu izborio finale parova, na teren su izašli Carlos Alcaraz i Ben Shelton kako bi otvorili polufinale pojedinačne konkurencije. Iako je prvi set osvojio Shelton, do pobjede je na kraju došao Alcaraz.",
       "link": "https://sportklub.hr/tenis/video-alcaraz-preokretom-protiv-sheltona-dosao-do-finala-u-torinu/",
@@ -123,19 +711,19 @@
       "image": null
     },
     {
-      "id": "jutarnji-1",
-      "title": "VIDEO: Kramarić promašio penal pa se uhvatio za glavu, ovo mu se dogodilo tek peti put u Bundesligi",
+      "id": "jutarnji-9",
+      "title": "VIDEO: Kramarić promašio penal pa se uhvatio za glavu, Kovač preuzeo vrh Bundeslige",
       "summary": "Hrvatski nogometaš Andrej Kramarić našao se u središtu pozornosti tijekom gostovanja Hoffenheima kod Eintrachta u Frankfurtu u 10. kolu njemačke Bundeslige, ali ne zbog pogotka. Jedan od najpouzdanijih izvođača kaznenih udaraca u njemačkom prvenstvu propustio je veliku priliku za izjednačenje. Eintr",
       "link": "https://www.jutarnji.hr/sportske/nogomet/video-kramaric-promasio-penal-pa-se-uhvatio-za-glavu-ovo-mu-se-dogodilo-tek-peti-put-u-bundesligi-15767517",
-      "published": "2026-11-21T15:42:23.000Z",
+      "published": "2026-11-21T15:42:00.000Z",
       "source": "Jutarnji",
       "category": "general",
       "xml_category": "nogomet",
       "tags": [],
-      "image": "https://media.jutarnji.hr/images/slike/2026/11/21/f_40007007_1280.jpg?1795276686"
+      "image": "https://media.jutarnji.hr/images/slike/2026/11/21/f_40007007_1280.jpg?1795280119"
     },
     {
-      "id": "24sata-1",
+      "id": "24sata-7",
       "title": "Momčad Nenada Bjelice poslala je snažnu poruku, no nije imala šanse protiv vodeće ekipe lige",
       "summary": "Nakon 12 odigranih utakmica Bjeličina momčad drži pretposljednje mjesto najvišeg ranga turskog nogometa",
       "link": "https://www.24sata.hr/sport/momcad-nenada-bjelice-poslala-je-snaznu-poruku-no-nije-imala-sanse-protiv-vodece-ekipe-lige-1170148",
@@ -159,7 +747,7 @@
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4933/live/61e22920-e5bc-11f1-99a1-253766e7ad8b.jpg"
     },
     {
-      "id": "index-2",
+      "id": "index-14",
       "title": "VIDEO Kramarić promašio penal",
       "summary": "HRVATSKI reprezentativac Andrej Kramarić promašio je penal, odnosno obranio mu je udarac bijele točke golman Eintracht Frankfurta.",
       "link": "https://www.index.hr/sport/clanak/video-kramaric-promasio-penal/2859355.aspx",
@@ -171,7 +759,7 @@
       "image": null
     },
     {
-      "id": "sportklub-3",
+      "id": "sportklub-11",
       "title": "VIDEO / Marquez je imao titulu u svojim rukama, a onda je krug i pol prije kraja izletio sa staze",
       "summary": "Vozač Ducatija Marc Marquez propustio je priliku osigurati naslov svjetskog prvaka MotoGP-a već u sprint utrci Velike nagrade Portugala. Španjolac je pao dva kruga prije kraja utrke u Portimãu, čime je odgodio odluku o prvaku.",
       "link": "https://sportklub.hr/automoto/video-marquez-je-imao-titulu-u-svojim-rukama-a-onda-je-krug-i-pol-prije-kraja-izletio-sa-staze/",
@@ -183,7 +771,7 @@
       "image": null
     },
     {
-      "id": "index-3",
+      "id": "index-15",
       "title": "Pogledajte dresove Bjeličine momčadi protiv Galatasaraya. Imaju posebno značenje",
       "summary": "MOMČAD Nenada Bjelice izgubila je 1:2.",
       "link": "https://www.index.hr/sport/clanak/zasto-su-igraci-nenada-bjelice-na-dresu-nosili-broj-2446/2859358.aspx",
@@ -195,7 +783,7 @@
       "image": null
     },
     {
-      "id": "jutarnji-2",
+      "id": "jutarnji-10",
       "title": "Nema kraja ratu nogometnih šefova: ‘Postao si pokvarena ploča, zaslužuješ titulu kralja lobiranja!‘",
       "summary": "Nastavljaju se sukobi na relaciji Javier Tebas - Florentino Perez. Predsjednik Real Madrida na sjednici kluba izrazio je nezadovoljstvo činjenicom da Tebas još uvijek nije podnio ostavku na mjesto predsjednika La Lige, a usput je kritizirao i način na koji Španjolski nogometni savez tretira slučaj N",
       "link": "https://www.jutarnji.hr/sportske/nogomet/nema-kraja-ratu-nogometnih-sefova-postao-si-pokvarena-ploca-zasluzujes-titulu-kralja-lobiranja-15767514",
@@ -204,10 +792,10 @@
       "category": "general",
       "xml_category": "nogomet",
       "tags": [],
-      "image": "https://media.jutarnji.hr/images/slike/2026/11/21/f_29148671_1280.jpg?1795276686"
+      "image": "https://media.jutarnji.hr/images/slike/2026/11/21/f_29148671_1280.jpg?1795280119"
     },
     {
-      "id": "sportklub-4",
+      "id": "sportklub-12",
       "title": "VIDEO / Ovo mu se rijetko događa: Kramarić tek peti put promašio penal u Bundesligi",
       "summary": "Andrej Kramarić je propustio posljednje okupljanje hrvatske reprezentacije kako bi što spremnije dočekao nastavak sezone u Bundesligi gdje je u 10. kolu njegov Hoffenheim gostovao kod Eintrachta iz Frankfurta. Kramarić je taj susret počeo od prve minute, a u 41. minuti mogao je zabiti i pogodak. Hof",
       "link": "https://sportklub.hr/video/video-ovo-mu-se-rijetko-dogada-kramaric-tek-peti-put-promasio-penal-u-bundesligi/",
@@ -219,7 +807,7 @@
       "image": null
     },
     {
-      "id": "jutarnji-3",
+      "id": "jutarnji-11",
       "title": "Zrinka Ljutić ponovno u top 10: ‘Dobar rezultat. Prije drugog laufa sam odlučila poboljšati plasman...‘",
       "summary": "U konačnici sam zadovoljna nastupom i rezultatom, rekla je hrvatska skijašica Zrinka Ljutić koja je u slalomu Svjetskog kupa u austrijskom Gurglu zauzela sedmo mjesto. - Bilo je zabavno skijati, a rezultat je dobar. Novi slalomski rezultat dovoljan za deset najboljih. Bilo je stvarno nekoliko vrlo d",
       "link": "https://www.jutarnji.hr/sportske/sport-mix/skijanje/zrinka-ljutic-ponovno-u-top-10-dobar-rezultat-prije-drugog-laufa-sam-odlucila-dodatno-poboljsati-plasman-15767512",
@@ -228,10 +816,10 @@
       "category": "general",
       "xml_category": "skijanje",
       "tags": [],
-      "image": "https://media.jutarnji.hr/images/slike/2026/11/21/f_40000668_1280.jpg?1795276686"
+      "image": "https://media.jutarnji.hr/images/slike/2026/11/21/f_40000668_1280.jpg?1795280119"
     },
     {
-      "id": "sportklub-5",
+      "id": "sportklub-13",
       "title": "VIDEO / Bjeličina momčad na dresovima je imala posebne brojeve, evo o čemu je riječ",
       "summary": "Nogometaši Samsunspora poslali su snažnu poruku u borbi protiv nasilja nad ženama tijekom utakmice 12. kola turske Superlige protiv vodećeg Galatasaraya, kojeg vodi Okan Buruk. Igrači gostujuće momčadi na dresovima su nosili istaknut broj 2446, kojim su željeli upozoriti na zabrinjavajuće razmjere n",
       "link": "https://sportklub.hr/nogomet/video-bjelicina-momcad-na-dresovima-je-imala-posebne-brojeve-evo-o-cemu-je-rijec/",
@@ -243,7 +831,7 @@
       "image": null
     },
     {
-      "id": "index-4",
+      "id": "index-16",
       "title": "Evo koliko je Zrinka Ljutić zaradila od današnje utrke",
       "summary": "NAJBOLJA hrvatska skijašica nakon prve vožnje bila je deveta, a u drugoj je uspjela popraviti plasman za dvije pozicije.",
       "link": "https://www.index.hr/sport/clanak/evo-koliko-je-zrinka-ljutic-zaradila-od-danasnje-utrke/2859351.aspx",
@@ -255,7 +843,7 @@
       "image": null
     },
     {
-      "id": "tportal-3",
+      "id": "tportal-11",
       "title": "Evo kako je Zrinka Ljutić komentirala današnje sedmo mjesto",
       "summary": "Hrvatska skijašica Zrinka Ljutić zauzela je sedmo mjesto u drugom slalomu sezone kojeg su skijašice u subotu vozile za Svjetski kup u Gurglu u Austriji, dok je pobjeda, prva u karijeri pripala Lari Coluturi iz Albanije.",
       "link": "https://www.tportal.hr/sport/clanak/evo-kako-je-zrinka-ljutic-komentirala-danasnje-sedmo-mjesto-20261121",
@@ -267,7 +855,7 @@
       "image": "https://www.tportal.hr/media/thumbnail/500x300/2831014.jpeg?cropId=4353607"
     },
     {
-      "id": "24sata-2",
+      "id": "24sata-8",
       "title": "VIDEO Novi kiks Cityja: Uzeo bod protiv Fulhama na Etihadu, Joško Gvardiol ušao s klupe",
       "summary": "Šok na Etihadu! City prekinuo crni niz, ali protiv Fulhama jedva izvukao 1-1 nakon poništenog gola Haalanda",
       "link": "https://www.24sata.hr/sport/video-novi-kiks-cityja-uzeo-bod-protiv-fulhama-na-etihadu-josko-gvardiol-usao-s-klupe-1170142",
@@ -279,7 +867,7 @@
       "image": "https://img.24sata.hr/ac57mRQja7pTmKestEJBRaro8Ao=/800x450/smart/media/images/2026-46/2026-11-21t130926z-1120111506-up1embl10jo82-rtrmadp-3-soccer-england-mci-ful.jpg"
     },
     {
-      "id": "jutarnji-4",
+      "id": "jutarnji-12",
       "title": "FOTO Pogledajte kako je Torcida odala počast Kristianu Perišu i žrtvama Vukovara: ‘Majko stara nemoj plakat...‘",
       "summary": "Hajduk je na poluvremenu utakmice protiv Lokomotive na Maksimiru vodio 2:1, a susret je obilježila i emotivna poruka Torcide. Hajdukovi navijači odali su počast Kristianu Josipu Perišu, koji je preminuo prije točno mjesec dana, istaknuvši bijeli jastuk iznad svojeg glavnog transparenta. Simbolična p",
       "link": "https://www.jutarnji.hr/sportske/nogomet/hnl/klubovi/hajduk/foto-pogledajte-kako-je-torcida-odala-pocast-kristianu-perisu-i-zrtvama-vukovara-majko-stara-nemoj-plakat-15767508",
@@ -288,10 +876,10 @@
       "category": "general",
       "xml_category": "hajduk",
       "tags": [],
-      "image": "https://media.jutarnji.hr/images/slike/2026/11/21/f_40006785_1280.jpg?1795276686"
+      "image": "https://media.jutarnji.hr/images/slike/2026/11/21/f_40006785_1280.jpg?1795280119"
     },
     {
-      "id": "jutarnji-5",
+      "id": "jutarnji-13",
       "title": "VIDEO/ANKETA Hajduk izjednačio nakon dvojbene odluke, je li to bio penal?",
       "summary": "Hajduk se u Maksimiru rano našao u rezultatskom zaostatku, Dušan Vuković u osmoj je minuti doveo Lokomotivu u vodstvo, ali vrlo je brzo lider prvenstva izjednačio. Dogodilo se to u 23. minuti, kada je nakon duela Triantafylloua i Šege sudac Mateo Erceg dosudio jedanaesterac. Gonzalo Garcia promijeni",
       "link": "https://www.jutarnji.hr/sportske/nogomet/hnl/klubovi/hajduk/sporni-penal-u-maksimiru-donio-preokret-hajduku-i-potaknuo-polemike-15767507",
@@ -300,10 +888,10 @@
       "category": "sport",
       "xml_category": "hajduk",
       "tags": [],
-      "image": "https://media.jutarnji.hr/images/slike/2026/11/21/f_40006563_1280.jpg?1795276686"
+      "image": "https://media.jutarnji.hr/images/slike/2026/11/21/f_40006563_1280.jpg?1795280119"
     },
     {
-      "id": "24sata-3",
+      "id": "24sata-9",
       "title": "Ljutić nakon 7. mjesta u Gurglu: Pozitivan dan, bilo je zabavno",
       "summary": "Nakon dva slaloma u sezoni Zrinka Ljutić je peta u poretku slalomašica s 86 bodova, a vodeća je Colturi sa 180 bodova",
       "link": "https://www.24sata.hr/sport/ljutic-nakon-7-mjesta-u-gurglu-pozitivan-dan-bilo-je-zabavno-1170141",
@@ -315,7 +903,7 @@
       "image": "https://img.24sata.hr/gTapwIfcScR7ebfmj-mBWiZOYiw=/800x450/smart/media/images/2026-46/2026-11-14t105405z-680256456-rc2mnoay6crw-rtrmadp-3-alpine-skiing-women_pMKImZV.jpg"
     },
     {
-      "id": "jutarnji-6",
+      "id": "jutarnji-14",
       "title": "Kek: ‘Sami smo krivi i sad moramo uzeti bodove. Jedno je ozljeda, drugo bolest, a treće - glupost!‘",
       "summary": "Rijeka u nedjeljnu (18 sati) utakmicu protiv Gorice ulazi s problemima zbog bolesti, ozljeda i suspenzija, ali trener Kek jasno poručuje da je cilj doći do bodova. Gorica je promijenila trenera i na Rujevicu stiže s novom energijom, no odgovornost za izlazak iz rezultatskih problema prije svega je n",
       "link": "https://www.jutarnji.hr/sportske/nogomet/kek-sami-smo-krivi-i-sad-moramo-uzeti-bodove-jedno-je-ozljeda-drugo-bolest-a-trece-glupost-15767505",
@@ -324,7 +912,7 @@
       "category": "general",
       "xml_category": "nogomet",
       "tags": [],
-      "image": "https://media.jutarnji.hr/images/slike/2026/11/21/f_39854195_1280.jpg?1795276686"
+      "image": "https://media.jutarnji.hr/images/slike/2026/11/21/f_39854195_1280.jpg?1795280119"
     },
     {
       "id": "bbc-1",
@@ -339,7 +927,7 @@
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4d0c/live/0a8a2760-e5ba-11f1-99b6-a35a62fa4264.jpg"
     },
     {
-      "id": "sky-sports-11",
+      "id": "sky-sports-15",
       "title": "Liverpool frustrate Chelsea as Keating heroics leave WSL title race wide open",
       "summary": "Liverpool frustrated Women's Super League leaders Chelsea with a stubborn defensive display to earn a goalless draw at the BrewDog Stadium leaving Manchester City with the opportunity to move top of the table.",
       "link": "https://www.skysports.com/football/liverpool-women-vs-chelsea-women/report/575829",
@@ -351,7 +939,7 @@
       "image": "https://e1.365dm.com/26/11/1920x1080/skysports-keating-liverpool_7412357.jpg?20261121152757"
     },
     {
-      "id": "tportal-4",
+      "id": "tportal-12",
       "title": "Pogledajte koreografiju Torcide na Maksimiru",
       "summary": "Torcida je na utakmici Lokomotive i Hajduka u Maksimiru istaknula koreografiju u spomen na Vukovar.",
       "link": "https://www.tportal.hr/sport/clanak/pogledajte-koreografiju-torcide-na-maksimiru-20261121",
@@ -363,7 +951,7 @@
       "image": "https://www.tportal.hr/media/thumbnail/500x300/2831004.jpeg?cropId=4353563"
     },
     {
-      "id": "sky-sports-0",
+      "id": "sky-sports-2",
       "title": "Lossiemouth imperious in Morgiana repeat",
       "summary": "Lossiemouth made every yard of the running as she coasted to victory to make it back-to-back wins in the William Hill Morgiana Hurdle at Punchestown.",
       "link": "https://www.skysports.com/racing/news/12040/13614759/punchestown-champion-hurdle-heroine-lossiemouth-imperious-in-morgiana-repeat",
@@ -375,7 +963,7 @@
       "image": "https://e2.365dm.com/26/11/1920x1080/skysports-lossiemouth-racing_7412454.jpg?20261121155031"
     },
     {
-      "id": "index-5",
+      "id": "index-17",
       "title": "Ovo je Torcidina poruka majkama heroja Domovinskog rata",
       "summary": "TORCIDA je poruka digla na utakmici protiv Lokomotive.",
       "link": "https://www.index.hr/sport/clanak/ovo-je-torcidina-poruka-majkama-heroja-domovinskog-rata/2859343.aspx",
@@ -387,7 +975,7 @@
       "image": null
     },
     {
-      "id": "index-6",
+      "id": "index-18",
       "title": "Ljutić: Zadovoljna sam. Jako pozitivan dan za mene",
       "summary": "ZRINKA LJUTIĆ osvojila je sedmo mjesto u slalomu Svjetskog skijaškog kupa u austrijskom Gurglu.",
       "link": "https://www.index.hr/sport/clanak/ljutic-jako-pozitivan-dan-za-mene-bilo-je-zabavno-skijati/2859346.aspx",
@@ -399,7 +987,7 @@
       "image": null
     },
     {
-      "id": "24sata-4",
+      "id": "24sata-10",
       "title": "VIDEO Lokomotiva šokirala Hajduk pa Splićani preokrenuli",
       "summary": "Lokomotiva je dočekala Hajduk u 14. kolu Hnl-a. Domaćini su poveli preko Vukovića u 8. minuti, ali onda je slijedio preokret gostiju za 2-1",
       "link": "https://www.24sata.hr/sport/video-lokomotiva-sokirala-hajduk-pa-splicani-preokrenuli-1170138",
@@ -411,7 +999,7 @@
       "image": "https://img.24sata.hr/iYs66yPrLrNmbDPDU-dwdCUvQUE=/800x450/smart/media/images/2026-46/snimka-zaslona-2026-11-21-154229.png.jpg"
     },
     {
-      "id": "tportal-5",
+      "id": "tportal-13",
       "title": "Pogledajte gol Racija kojim je Hajduk stigao u vodstvo",
       "summary": "Dvobojem Lokomotive i Hajduka otvoreno je 14. kolo SuperSport Hrvatske nogometne lige",
       "link": "https://www.tportal.hr/sport/clanak/pogledajte-gol-racija-kojim-je-hajduk-stigao-u-vodstvo-20261121",
@@ -423,7 +1011,7 @@
       "image": "https://www.tportal.hr/media/thumbnail/500x300/2831005.jpeg?cropId=4353577"
     },
     {
-      "id": "bbc-7",
+      "id": "bbc-14",
       "title": "Northern Ireland seal comfortable win over Gibraltar",
       "summary": "Northern Ireland secure a dominant 74-29 victory over Gibraltar in their first game of their double-header at Antrim Forum.",
       "link": "https://www.bbc.co.uk/sport/netball/articles/cq5y1grd6726o?at_medium=RSS&at_campaign=rss",
@@ -447,7 +1035,7 @@
       "image": null
     },
     {
-      "id": "sportklub-6",
+      "id": "sportklub-14",
       "title": "Torcida na Maksimiru odala počast preminulom Perišu",
       "summary": "Tijekom susreta 14. kola HNL-a između Lokomotive i Hajduka pripadnici Torcide su iznad svog središnjeg transparenta izvjesili bijeli jastuk, odavši tako počast preminulom Kristianu Josipu Perišu.",
       "link": "https://sportklub.hr/nogomet/torcida-na-maksimiru-odala-pocast-preminulom-perisu/",
@@ -459,7 +1047,7 @@
       "image": null
     },
     {
-      "id": "jutarnji-7",
+      "id": "jutarnji-15",
       "title": "Infantino pobjeđuje već u prvom krugu? ‘Otkako sam na čelu saveza, svjedočio sam njegovoj velikoj predanosti‘",
       "summary": "Gianni Infantino, predsjednik Međunarodne federacije nogometnih saveza (FIFA), uoči ožujskih izbora za novi mandat na čelu te krovne organizacije mogao bi hipotetski računati na potporu 142 od ukupno 211 nacionalnih saveza. Takvu procjenu iznosi britanski list The Independent, koji je svoj izračun t",
       "link": "https://www.jutarnji.hr/sportske/nogomet/nogomet-mix/infantino-pobjeduje-vec-u-prvom-krugu-otkako-sam-na-celu-saveza-svjedocio-sam-njegovoj-velikoj-predanosti-15767502",
@@ -468,10 +1056,10 @@
       "category": "general",
       "xml_category": "nogomet - ostalo",
       "tags": [],
-      "image": "https://media.jutarnji.hr/images/slike/2026/11/21/f_40005955_1280.jpg?1795276686"
+      "image": "https://media.jutarnji.hr/images/slike/2026/11/21/f_40005955_1280.jpg?1795280119"
     },
     {
-      "id": "tportal-6",
+      "id": "tportal-14",
       "title": "Pogledajte nevjerojatan promašaj igrača Hajduka. Imao je prazan gol",
       "summary": "Šimun Hrgović je u 36. minuti utakmice Lokomotive i Hajduka promašio veliku šansu.",
       "link": "https://www.tportal.hr/sport/clanak/pogledajte-nevjerojatan-promasaj-igraca-hajduka-imao-je-prazan-gol-20261121",
@@ -495,7 +1083,7 @@
       "image": "https://www.tportal.hr/media/thumbnail/500x300/2830988.jpeg?cropId=4353474"
     },
     {
-      "id": "index-7",
+      "id": "index-19",
       "title": "Bijeli jastuk Torcide za Kristiana Periša",
       "summary": "TORCIDINA poruka na Maksimiru.",
       "link": "https://www.index.hr/sport/clanak/torcida-bijelim-jastukom-odala-pocast-kristianu-perisu/2859341.aspx",
@@ -507,7 +1095,7 @@
       "image": null
     },
     {
-      "id": "jutarnji-8",
+      "id": "jutarnji-16",
       "title": "VIDEO: Veliki kiks Cityja, u Manchesteru bjesne zbog poništenog gola Haalandu, pogledajte situaciju",
       "summary": "U prvom susretu 11. kola engleske Premier lige nogometaši Manchester Cityja i Fulhama su remizirali 1-1 na Etihad stadionu. Manchester City je prekinuo negativan ligaški niz od tri poraza, ali sigurno nije zadovoljan tek jednim bodom protiv sastava iz donjeg doma ljestvice. Prije ove subote Manchest",
       "link": "https://www.jutarnji.hr/sportske/nogomet/video-gradani-bijesni-nakon-remija-protiv-fulhama-sporna-situacija-zapaprila-utakmicu-15767499",
@@ -516,10 +1104,10 @@
       "category": "general",
       "xml_category": "nogomet",
       "tags": [],
-      "image": "https://media.jutarnji.hr/images/slike/2026/11/21/f_40006428_1280.jpg?1795276686"
+      "image": "https://media.jutarnji.hr/images/slike/2026/11/21/f_40006428_1280.jpg?1795280119"
     },
     {
-      "id": "tportal-7",
+      "id": "tportal-15",
       "title": "Igrači Lokomotive su nekoliko minuta bili u šoku: Pogledajte zašto je Hajduk dobio penal",
       "summary": "Nogometaši Lokomotive i Hajduka otvorili su 14. kolo SuperSport Hrvatske nogometne lige",
       "link": "https://www.tportal.hr/sport/clanak/igraci-lokomotive-su-nekoliko-minuta-bili-u-soku-pogledajte-zasto-je-hajduk-dobio-penal-20261121",
@@ -531,7 +1119,7 @@
       "image": "https://www.tportal.hr/media/thumbnail/500x300/2830992.jpeg?cropId=0"
     },
     {
-      "id": "24sata-5",
+      "id": "24sata-11",
       "title": "Tko je Lara Colturi? Albanija ima senzaciju na skijama. Mama joj je pobijedila Janicu na vrhuncu",
       "summary": "Lara Colturi (20) u Gurglu je donijela Albaniji prvu pobjedu u povijesti Svjetskog kupa. Njezina majka Daniela je 2002. osvojila olimpijsko zlato u superveleslalomu s pet stotinki prednosti pred Janicom Kostelić",
       "link": "https://www.24sata.hr/sport/tko-je-lara-colturi-albanija-ima-senzaciju-na-skijama-mama-joj-je-pobijedila-janicu-na-vrhuncu-1170125",
@@ -543,7 +1131,7 @@
       "image": "https://img.24sata.hr/rDuTvy0sfOL_mhyiiGkc-UomwXU=/800x450/smart/media/images/2026-46/2026-11-21t141135z-520674666-up1embl13f9bq-rtrmadp-3-alpine-skiing-women.jpg"
     },
     {
-      "id": "tportal-8",
+      "id": "tportal-16",
       "title": "Novi kiks Cityja, u kontroverznoj utakmici ostao bez bodova na Etihadu",
       "summary": "Manchester City je u 11. kolu Premier lige odigrao samo 1:1 kod kuće protiv Fulhama.",
       "link": "https://www.tportal.hr/sport/clanak/novi-kiks-cityja-u-kontroverznoj-utakmici-ostao-bez-bodova-na-etihadu-20261121",
@@ -555,7 +1143,7 @@
       "image": "https://www.tportal.hr/media/thumbnail/500x300/2830989.jpeg?cropId=4353485"
     },
     {
-      "id": "sportklub-7",
+      "id": "sportklub-15",
       "title": "VIDEO / City prekinuo negativan niz: Gvardiol igrao od 78., Kovačić na klupi",
       "summary": "Nogometaši Manchester Cityja na svom su Etihadu odigrali neriješeno 1:1 protiv Fulhama u sklopu 11. kola Premier lige.",
       "link": "https://sportklub.hr/video/video-city-prekinuo-negativan-niz-gvardiol-igrao-od-78-kovacic-na-klupi/",
@@ -567,7 +1155,7 @@
       "image": null
     },
     {
-      "id": "jutarnji-9",
+      "id": "jutarnji-17",
       "title": "Novi veliki uspjeh hrvatskog majstora parova: Pavić može osvojiti jedini veliki trofej koji mu nedostaje!",
       "summary": "Hrvatski tenisač Mate Pavić i njegov partner Marcelo Arevalo iz Salvadora izborili su nedjeljni završni meč na ATP Finalu kojem je domaćin Torino. U dramatičnom polufinalu, koje je trajalo dva sata i devet minuta, Pavić i Arevalo su svladali Amerikanca Christiana Harrisona i Britanca Neala Skupskog.",
       "link": "https://www.jutarnji.hr/sportske/tenis/atp-wta-turniri/novi-veliki-uspjeh-hrvatskog-majstora-parova-pavic-i-arevalo-izborili-finale-nakon-maratonskih-tie-breakova-15767496",
@@ -576,7 +1164,7 @@
       "category": "general",
       "xml_category": "atp/wta turniri",
       "tags": [],
-      "image": "https://media.jutarnji.hr/images/slike/2026/11/21/f_39982810_1280.jpg?1795276686"
+      "image": "https://media.jutarnji.hr/images/slike/2026/11/21/f_39982810_1280.jpg?1795280119"
     },
     {
       "id": "index-8",
@@ -603,7 +1191,7 @@
       "image": null
     },
     {
-      "id": "bbc-0",
+      "id": "bbc-6",
       "title": "Anderson steps up, Berge impresses - player ratings for Man City v Fulham",
       "summary": "How Manchester City and Fulham players rated in their Premier League match.",
       "link": "https://www.bbc.co.uk/sport/football/articles/cqwy06p44g3no?at_medium=RSS&at_campaign=rss",
@@ -615,7 +1203,7 @@
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/71ea/live/83478520-e5c0-11f1-a094-5fdc692f3e33.jpg"
     },
     {
-      "id": "sky-sports-4",
+      "id": "sky-sports-7",
       "title": "Norwich hit back to beat Cardiff",
       "summary": "Norwich came from behind to beat Cardiff 2-1 and make it five straight Championship victories - after losing their previous five.",
       "link": "https://www.skysports.com/football/norwich-city-vs-cardiff-city/report/560683",
@@ -627,7 +1215,7 @@
       "image": "https://e2.365dm.com/26/11/1920x1080/skysports-paris-maghoma-norwich-city_7412281.jpg?20261121142700"
     },
     {
-      "id": "tportal-9",
+      "id": "tportal-17",
       "title": "Mate Pavić i Marcelo Arevalo nakon drame u velikom nedjeljnom finalu",
       "summary": "Hrvatski tenisač Mate Pavić i njegov partner Marcelo Arevalo iz Salvadora izborili su nedjeljni završni meč na ATP Finalu kojem je domaćin Torino.",
       "link": "https://www.tportal.hr/sport/clanak/mate-pavic-i-marcelo-arevalo-nakon-drame-u-velikom-nedjeljnom-finalu-20261121",
@@ -637,6 +1225,18 @@
       "xml_category": "sport",
       "tags": [],
       "image": "https://www.tportal.hr/media/thumbnail/500x300/2830984.jpeg?cropId=4353461"
+    },
+    {
+      "id": "tportal-18",
+      "title": "Pogledajte kako je Lokomotiva šokirala Hajduk. Nikome ništa nije bilo jasno...",
+      "summary": "Lokomotiva je povela u 8. minuti susreta 14. kola SHNL-a protiv Hajduka.",
+      "link": "https://www.tportal.hr/sport/clanak/pogledajte-kako-je-lokomotiva-sokirala-hajduk-nikome-nista-nije-bilo-jasno-20261121",
+      "published": "2026-11-21T14:18:00.000Z",
+      "source": "Tportal",
+      "category": "sport",
+      "xml_category": "sport",
+      "tags": [],
+      "image": "https://www.tportal.hr/media/thumbnail/500x300/2830983.png?cropId=0"
     },
     {
       "id": "index-10",
@@ -651,19 +1251,7 @@
       "image": null
     },
     {
-      "id": "tportal-10",
-      "title": "Pogledajte kako je Lokomotiva šokirala Hajduk. Nikome ništa nije bilo jasno...",
-      "summary": "Lokomotiva je povela u 8. minuti susreta 14. kola SHNL-a protiv Hajduka.",
-      "link": "https://www.tportal.hr/sport/clanak/pogledajte-kako-je-lokomotiva-sokirala-hajduk-nikome-nista-nije-bilo-jasno-20261121",
-      "published": "2026-11-21T14:18:00.000Z",
-      "source": "Tportal",
-      "category": "sport",
-      "xml_category": "sport",
-      "tags": [],
-      "image": "https://www.tportal.hr/media/thumbnail/500x300/2830983.png?cropId=0"
-    },
-    {
-      "id": "sportklub-8",
+      "id": "sportklub-16",
       "title": "VIDEO / Pavić i Arevalo u velikom finalu u Torinu, Hrvat može osvojiti jedini veliki trofej koji mu nedostaje",
       "summary": "Mate Pavić i Marcelo Arevalo igrat će u nedjeljnoj završnici ATP Finala u Torinu.",
       "link": "https://sportklub.hr/video/pavic-i-arevalo-u-velikom-finalu-u-torinu-hrvat-moze-osvojiti-jedini-veliki-trofej-koji-mu-nedostaje/",
@@ -675,7 +1263,7 @@
       "image": null
     },
     {
-      "id": "sky-sports-6",
+      "id": "sky-sports-9",
       "title": "Southampton see off Derby to return to winning ways",
       "summary": "Cyle Larin returned to action with a bang as Southampton extended their unbeaten run at home in the Championship to 18 games with a 2-0 victory over second-bottom Derby.",
       "link": "https://www.skysports.com/football/southampton-vs-derby-county/report/560685",
@@ -687,19 +1275,7 @@
       "image": "https://e1.365dm.com/26/11/1920x1080/skysports-cyle-larin-southampton_7412265.jpg?20261121140715"
     },
     {
-      "id": "24sata-6",
-      "title": "Lokomotiva - Hajduk 1-2: Lokosi iznenadili, Splićani odgovorili te su na +7 od rivala Dinama",
-      "summary": "Od 15 sati nogometaši Lokomotive i Hajduka će na Maksimiru zaigrati utakmicu 14. kola HNL-a. Susret ćete moći pratiti na kanalu MAXSport 1",
-      "link": "https://www.24sata.hr/sport/uzivo-lokomotiva-hajduk-dvoboj-dna-i-vrha-hnl-tablice-nakon-reprezentativne-pauze-1170058",
-      "published": "2026-11-21T14:10:00.000Z",
-      "source": "24sata",
-      "category": "sport",
-      "xml_category": "sport",
-      "tags": [],
-      "image": "https://img.24sata.hr/rjHgPg00LzVO2bB2lplST7MYK8E=/800x450/smart/media/images/2026-46/pxl-211126-162865876.jpg"
-    },
-    {
-      "id": "sportklub-9",
+      "id": "sportklub-17",
       "title": "Kaos u Srbiji: Golman Zemuna ostao bez svijesti nakon sudara, ovaj dobio tek žuti",
       "summary": "U prvoj utakmici 16. kola Super lige Srbije viđena je neugodna situacija na samom početku drugog poluvremena.",
       "link": "https://sportklub.hr/nogomet/kaos-u-srbiji-golman-zemuna-ostao-bez-svijesti-nakon-sudara-ovaj-dobio-tek-zuti/",
@@ -711,7 +1287,7 @@
       "image": null
     },
     {
-      "id": "tportal-11",
+      "id": "tportal-19",
       "title": "Harry Kane poslao poruku Bayernovim navijačima: &#039;Naravno da sam jako razočaran...&#039;",
       "summary": "Napadač Bayerna ozlijedio je lijevi gležanj u utakmici s Kölnom, a nakon uspješne operacije javio se navijačima. Nada se povratku za završnicu sezone.",
       "link": "https://www.tportal.hr/sport/clanak/harry-kane-poslao-poruku-bayernovim-navijacima-naravno-da-sam-jako-razocaran-20261121",
@@ -723,7 +1299,7 @@
       "image": "https://www.tportal.hr/media/thumbnail/500x300/2830955.jpeg?cropId=4353405"
     },
     {
-      "id": "sky-sports-7",
+      "id": "sky-sports-11",
       "title": "QPR battle to victory at 10-man Millwall",
       "summary": "Nicolas Madsen's scruffy winner gave Queens Park Rangers their first away victory since August as they defeated Millwall 1-0 at The Den.",
       "link": "https://www.skysports.com/football/millwall-vs-queens-park-rangers/report/560682",
@@ -747,7 +1323,7 @@
       "image": null
     },
     {
-      "id": "sportklub-10",
+      "id": "sportklub-18",
       "title": "Evo zašto nema Šotičeka u okršaju protiv Lokomotive",
       "summary": "Hajduk će u današnji maksimirski ogled protiv Lokomotive ući oslabljen za Marina Šotičeka (23).",
       "link": "https://sportklub.hr/nogomet/evo-zasto-nema-soticeka-u-okrsaju-protiv-lokomotive/",
@@ -759,7 +1335,7 @@
       "image": null
     },
     {
-      "id": "sportklub-11",
+      "id": "sportklub-19",
       "title": "Milan već traži nasljednika za Modrića: Evo tko su kandidati",
       "summary": "Iako je sezona još u ranoj fazi, a Luka Modrić igra na visokoj razini pa njegova budućnost trenutno nije prioritet na San Siru, u AC Milanu polako razmišljaju o scenariju u kojem bi hrvatski veznjak na kraju sezone mogao zaključiti svoju priču s Rossonerima.",
       "link": "https://sportklub.hr/nogomet/milan-vec-trazi-nasljednike-za-modrica-evo-tko-su-kandidati/",
@@ -771,7 +1347,7 @@
       "image": null
     },
     {
-      "id": "24sata-7",
+      "id": "24sata-12",
       "title": "Sjajni Pavić i Arevalo u novom finalu! Hrvatu nedostaje jedna pobjeda od neviđene senzacije",
       "summary": "Pavić i Arevalo izborili finale u Torinu nakon drame bez breaka, a hrvatski majstor je na korak do nove titule u parovima. S eventualnom pobjedom osvojit će sve najveće turnire i titule u tenisu",
       "link": "https://www.24sata.hr/sport/sjajni-pavic-i-arevalo-u-novom-finalu-hrvatu-nedostaje-jedna-pobjeda-od-nevidene-senzacije-1170127",
@@ -795,7 +1371,7 @@
       "image": "https://www.tportal.hr/media/thumbnail/500x300/2830945.jpeg?cropId=0"
     },
     {
-      "id": "bbc-13",
+      "id": "bbc-15",
       "title": "'Best in world' Price set for Cardiff stadium fight",
       "summary": "Lauren Price is one of the most decorated fighters in British boxing history and is now set to headline a summer stadium show in Cardiff.",
       "link": "https://www.bbc.co.uk/sport/boxing/articles/cmly5w82gq0zo?at_medium=RSS&at_campaign=rss",
@@ -831,7 +1407,7 @@
       "image": "https://media.jutarnji.hr/images/slike/2026/11/21/f_40006254_1280.webp?1795269475"
     },
     {
-      "id": "jutarnji-10",
+      "id": "jutarnji-18",
       "title": "Brat proslavljenog hrvatskog reprezentativca ostao nepomično ležati na terenu, odvezla ga je Hitna",
       "summary": "Nakon jako dobrog otvaranja sezone u kojem je Zrinjski ostvario 11 pobjeda u 13 kola, ove subote je momčad iz Mostara stigla na gostovanje u Banja Luku kod BSK-a u potrazi za nova tri boda. Nemanja Biblija je Zrinjski doveo u vodstvo u šestoj minuti, izjednačenje je stiglo u 18. minuti kada je mrežu",
       "link": "https://www.jutarnji.hr/sportske/nogomet/nogomet-medjunarodni/brat-proslavljenog-hrvatskog-reprezentativca-ostao-nepomicno-lezati-na-terenu-odvezla-ga-je-hitna-15767490",
@@ -840,7 +1416,7 @@
       "category": "general",
       "xml_category": "međunarodni nogomet",
       "tags": [],
-      "image": "https://media.jutarnji.hr/images/slike/2026/11/21/f_40006254_1280.webp?1795276686"
+      "image": "https://media.jutarnji.hr/images/slike/2026/11/21/f_40006254_1280.webp?1795280119"
     },
     {
       "id": "index-11",
@@ -855,8 +1431,8 @@
       "image": null
     },
     {
-      "id": "sky-sports-9",
-      "title": "Sunderland frustrating Aston Villa LIVE!",
+      "id": "sky-sports-13",
+      "title": "Sunderland come close to winner but it ends goalless at Aston Villa LIVE!",
       "summary": "",
       "link": "https://www.skysports.com/football/aston-villa-vs-sunderland/live/559544",
       "published": "2026-11-21T13:30:00.000Z",
@@ -867,8 +1443,8 @@
       "image": "https://e0.365dm.com/26/11/1920x1080/skysports-jules-ahoka-boubacar-kamara_7412456.jpg?20261121155113"
     },
     {
-      "id": "sky-sports-12",
-      "title": "Brilliant Evanilson strikes puts Bournemouth ahead vs Forest LIVE!",
+      "id": "sky-sports-16",
+      "title": "Bournemouth comfortably beat Forest LIVE!",
       "summary": "",
       "link": "https://www.skysports.com/football/bournemouth-vs-nottingham-forest/live/559545",
       "published": "2026-11-21T13:30:00.000Z",
@@ -876,11 +1452,11 @@
       "category": "general",
       "xml_category": "liveblog",
       "tags": [],
-      "image": "https://e1.365dm.com/26/11/1920x1080/skysports-evanilson-bournemouth_7412394.jpg?20261121152231"
+      "image": "https://e1.365dm.com/26/11/1920x1080/skysports-justin-kluivert-bournemouth_7412484.jpg?20261121160937"
     },
     {
-      "id": "sky-sports-15",
-      "title": "Celtic three up vs St Mirren LIVE!",
+      "id": "sky-sports-19",
+      "title": "Celtic ease to victory vs St Mirren LIVE!",
       "summary": "",
       "link": "https://www.skysports.com/football/celtic-vs-st-mirren/live/558411",
       "published": "2026-11-21T13:30:00.000Z",
@@ -888,7 +1464,7 @@
       "category": "general",
       "xml_category": "liveblog",
       "tags": [],
-      "image": "https://e0.365dm.com/26/11/1920x1080/skysports-celtic-oxlade-chamberlain_7412449.jpg?20261121154731"
+      "image": "https://e0.365dm.com/26/11/1920x1080/skysports-luke-mccowan-celtic_7412519.jpg?20261121162038"
     },
     {
       "id": "tportal-13",
@@ -915,13 +1491,13 @@
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9d89/live/9aee2530-e5ac-11f1-99a1-253766e7ad8b.jpg"
     },
     {
-      "id": "sky-sports-14",
-      "title": "Frank's Palace hit back AGAIN at Coventry LIVE!",
+      "id": "sky-sports-17",
+      "title": "McNeil own goal gives Coventry win over Frank's Palace LIVE!",
       "summary": "",
       "link": "https://www.skysports.com/football/coventry-city-vs-crystal-palace/live/559548",
       "published": "2026-11-21T13:29:00.000Z",
       "source": "Sky Sports",
-      "category": "ai",
+      "category": "general",
       "xml_category": "liveblog",
       "tags": [],
       "image": "https://e2.365dm.com/26/11/1920x1080/skysports-jorgen-strand-larsen_7412461.jpg?20261121155255"
@@ -951,7 +1527,7 @@
       "image": null
     },
     {
-      "id": "jutarnji-11",
+      "id": "jutarnji-19",
       "title": "Vraća se najvažniji igrač Osijeka, Bessone otkrio: ‘Njemu sam rekao da ne sluša idiote‘",
       "summary": "Trener Osijeka Federico Bessone konačno je dobio malo dobrih vijesti. Zapravo odličnih vijesti uoči gostovanja u Koprivnici. - Stanka je dobro došla za neke igrače, pogotovo Vrbančića koji se vraća u momčad, sada je 100 posto spreman. Ljatifi je zasad upitan, Kruvier je bolestan i vidjet ćemo hoće l",
       "link": "https://www.jutarnji.hr/sportske/nogomet/hnl/klubovi/osijek/vrbancic-se-vraca-bessone-razmislja-o-16-godisnjem-adutu-za-koprivnicu-15767485",
@@ -960,7 +1536,7 @@
       "category": "general",
       "xml_category": "osijek",
       "tags": [],
-      "image": "https://media.jutarnji.hr/images/slike/2026/11/21/f_39784867_1280.jpg?1795276686"
+      "image": "https://media.jutarnji.hr/images/slike/2026/11/21/f_39784867_1280.jpg?1795280119"
     },
     {
       "id": "index-12",
@@ -987,8 +1563,8 @@
       "image": "https://media.jutarnji.hr/images/slike/2026/11/21/f_39784867_1280.jpg?1795269475"
     },
     {
-      "id": "sky-sports-13",
-      "title": "Teenager Williams-Barnett scores on full debut to give Spurs lead over Ipswich LIVE!",
+      "id": "sky-sports-18",
+      "title": "Williams-Barnett stars in Spurs' win over Ipswich LIVE!",
       "summary": "",
       "link": "https://www.skysports.com/football/tottenham-hotspur-vs-ipswich-town/live/559553",
       "published": "2026-11-21T13:24:00.000Z",
@@ -996,7 +1572,7 @@
       "category": "general",
       "xml_category": "liveblog",
       "tags": [],
-      "image": "https://e1.365dm.com/26/11/1920x1080/skysports-luca-williams-barnett_7412400.jpg?20261121152456"
+      "image": "https://e0.365dm.com/26/11/1920x1080/skysports-dominic-solanke-spurs_7412522.jpg?20261121162329"
     },
     {
       "id": "sportklub-13",
@@ -1035,7 +1611,7 @@
       "image": null
     },
     {
-      "id": "sky-sports-1",
+      "id": "sky-sports-5",
       "title": "McKinney earns England Test call up for South Africa series",
       "summary": "England have added Ben McKinney to their Test squad touring South Africa next month, with the uncapped Durham&#160;opener serving as a replacement for the injured Jacob Bethell.",
       "link": "https://www.skysports.com/cricket/news/12040/13614675/ben-mckinney-earns-england-test-call-up-for-south-africa-series-as-jacob-bethells-replacement",
@@ -1047,8 +1623,8 @@
       "image": "https://e0.365dm.com/25/03/1920x1080/skysports-ben-mckinney-durham_6872153.jpg?20250331131010"
     },
     {
-      "id": "sky-sports-10",
-      "title": "Chelsea booed off with Leeds dominating at Stamford Bridge LIVE!",
+      "id": "sky-sports-14",
+      "title": "Leeds dismantle Chelsea as pressure grows on Alonso LIVE!",
       "summary": "",
       "link": "https://www.skysports.com/football/chelsea-vs-leeds-united/live/559547",
       "published": "2026-11-21T13:03:00.000Z",
@@ -1071,7 +1647,7 @@
       "image": "https://www.tportal.hr/media/thumbnail/500x300/2830924.jpeg?cropId=4353211"
     },
     {
-      "id": "bbc-4",
+      "id": "bbc-5",
       "title": "England call up McKinney for South Africa Tests",
       "summary": "England call up uncapped Durham opener Ben McKinney for the Test tour of South Africa after Jacob Bethell's injury withdrawal.",
       "link": "https://www.bbc.co.uk/sport/cricket/articles/cwx2evg5pez6o?at_medium=RSS&at_campaign=rss",
@@ -1275,7 +1851,7 @@
       "image": null
     },
     {
-      "id": "24sata-8",
+      "id": "24sata-13",
       "title": "FOTO Opet je to napravila! Dok se većina pokriva od hladnoće, ona je pokazala adute u bikiniju",
       "summary": "Trčim okolo po plažama i teniskim terenima, objavila je druga tenisačica svijeta Arina Sabalenka dok uveseljava milijune pratitelja atraktivnim fotografijama",
       "link": "https://www.24sata.hr/sport/opet-je-to-napravila-teniska-ikona-puni-baterije-u-tangama-1164630",
@@ -1287,7 +1863,7 @@
       "image": "https://img.24sata.hr/rruAPlXIyqfAl6EC6ELqcCsT-70=/800x450/smart/media/images/2026-46/arynasabalenka-1795195179-4034711938314910037-700634530_MWqKN0i.jpg"
     },
     {
-      "id": "24sata-9",
+      "id": "24sata-14",
       "title": "Premierligaši su u borbi za potpis hrvatskog topnika! Klub će tražiti čak 60 milijuna eura",
       "summary": "Matanović je zapalio englesko tržište: Manchester United i Tottenham jure za njim, a Freiburg traži nevjerojatnih 60 milijuna eura",
       "link": "https://www.24sata.hr/sport/premierligasi-su-u-borbi-za-potpis-hrvatskog-topnika-klub-ce-traziti-cak-60-milijuna-eura-1170102",
@@ -1311,19 +1887,19 @@
       "image": null
     },
     {
-      "id": "sky-sports-2",
-      "title": "Preston take the lead at West Ham LIVE!",
+      "id": "sky-sports-4",
+      "title": "West Ham held by Preston as Parker remains winless LIVE!",
       "summary": "",
       "link": "https://www.skysports.com/football/west-ham-united-vs-preston-north-end/live/560688",
       "published": "2026-11-21T12:00:00.000Z",
       "source": "Sky Sports",
-      "category": "general",
+      "category": "ai",
       "xml_category": "liveblog",
       "tags": [],
-      "image": "https://e1.365dm.com/26/11/1920x1080/skysports-preston-west-ham_7412424.jpg?20261121153933"
+      "image": "https://e2.365dm.com/26/11/1920x1080/skysports-west-ham-preston_7412518.jpg?20261121162022"
     },
     {
-      "id": "24sata-10",
+      "id": "24sata-15",
       "title": "Odlična Zrinka Ljutić je završila sedma u Gurglu, prvu pobjedu ostvarila je mlada Lara Colturi",
       "summary": "Hrvatska predstavnica Zrinka Ljutić završila je deveta nakon prve vožnje, a u drugoj je odlično odskijala i na kraju završila kao sedma. Albanka Lara Colturi (20) je prvi put u karijeri slavila na utrci",
       "link": "https://www.24sata.hr/sport/uzivo-zrinka-ljutic-u-gurglu-lovi-prvo-postolje-nove-sezone-1170090",
@@ -1395,7 +1971,7 @@
       "image": null
     },
     {
-      "id": "24sata-11",
+      "id": "24sata-16",
       "title": "'Tome se nisam nadal'! Perez je objavio novog člana upravnog odbora Reala, legendu Nadala",
       "summary": "Rafael Nadal dobio je mjesto u upravi Reala; Pérez ga je predstavio kao novo lice kluba, a legenda tenisa ulazi u sam vrh 'kraljevskog kluba'",
       "link": "https://www.24sata.hr/sport/tome-se-nisam-nadal-perez-je-objavio-novog-clana-upravnog-odbora-reala-legendu-nadala-1170098",
@@ -1407,7 +1983,7 @@
       "image": "https://img.24sata.hr/qPSITUzX8ZSsOXMWiSxrf24i6tI=/800x450/smart/media/images/2026-46/nd-asambleapresinadal_LonejA8.webp"
     },
     {
-      "id": "24sata-12",
+      "id": "24sata-17",
       "title": "Trener Tottenhama o izlasku GTA 6: Ući ću igračima u sobe i razbiti im PlayStatione...",
       "summary": "Trener Tottenhama Roberto de Zerbi komentirao je potencijalne probleme koje bi izlazak videoigre GTA 6 mogao izazvati među igračima, istaknuvši kako će osobno reagirati ako primijeti da zanemaruju svoje obveze",
       "link": "https://www.24sata.hr/sport/trener-tottenhama-o-izlasku-gta-6-uci-cu-igracima-u-sobe-i-razbiti-im-playstatione-1170094",
@@ -1431,7 +2007,7 @@
       "image": null
     },
     {
-      "id": "bbc-6",
+      "id": "bbc-12",
       "title": "Lehmann again denies knowing about sandpaper plot",
       "summary": "Former Australia coach Darren Lehmann says he and his staff did not encourage players to use sandpaper on the ball in 2018 despite detailed claims by Cameron Bancroft.",
       "link": "https://www.bbc.co.uk/sport/cricket/articles/cm62pxqwzw9go?at_medium=RSS&at_campaign=rss",
@@ -1527,7 +2103,7 @@
       "image": null
     },
     {
-      "id": "24sata-13",
+      "id": "24sata-18",
       "title": "Dvije 'generalke' za Svjetsko prvenstvo: Hrvatska protiv Slovenije u Areni pa u gostima",
       "summary": "Pripremnog Croatia Cupa više nema, pa ćemo kao i uoči Europskog prvenstva ove godine odigrati dvije prijateljske utakmice s istim protivnikom. Prošli je put to bila Njemačka, a ovaj će put biti Slovenija",
       "link": "https://www.24sata.hr/sport/dvije-generalke-za-svjetsko-prvenstvo-hrvatska-protiv-slovenije-u-areni-pa-u-gostima-1170086",
@@ -1599,7 +2175,7 @@
       "image": "https://media.jutarnji.hr/images/slike/2026/11/21/f_40005735_1280.jpg?1795276686"
     },
     {
-      "id": "24sata-14",
+      "id": "24sata-19",
       "title": "Odlična Ljutić izborila je drugu vožnju i borit će se za Top 10",
       "summary": "Zrinka je vrlo dobro odskijala prvu vožnju sa zaostatkom od 74 stotinke za vodećom Larsson i nalazi se na devetom mjestu, Popović nije izborila drugi lauf. Druga vožnja je u 13.30 sati",
       "link": "https://www.24sata.hr/sport/uzivo-zrinka-i-leona-u-lovu-na-bodove-u-austrijskom-gurglu-1170057",
@@ -1839,7 +2415,7 @@
       "image": null
     },
     {
-      "id": "sky-sports-5",
+      "id": "sky-sports-8",
       "title": "Australia complete record T20I chase at MCG to edge England in thriller",
       "summary": "Australia pulled off a record T20I run chase of 188 at the MCG to beat England by three wickets with a ball to spare in a thrilling series opener in Melbourne on Saturday.",
       "link": "https://www.skysports.com/cricket/news/12040/13614645/australia-beat-england-in-first-t20i-as-mcg-record-run-chase-earns-hosts-1-0-lead-in-five-match-series",
@@ -1935,7 +2511,7 @@
       "image": null
     },
     {
-      "id": "bbc-18",
+      "id": "bbc-19",
       "title": "Cummins' integrity not compromised - Cricket Australia",
       "summary": "Cricket Australia has \"unequivocally rejected\" the suggestion that captain Pat Cummins' integrity has been compromised by the sandpaper scandal.",
       "link": "https://www.bbc.co.uk/sport/cricket/articles/c65y1gjnqe50o?at_medium=RSS&at_campaign=rss",
@@ -1983,7 +2559,7 @@
       "image": "https://media.jutarnji.hr/images/slike/2026/11/21/f_40005813_1280.jpg?1795272754"
     },
     {
-      "id": "bbc-15",
+      "id": "bbc-17",
       "title": "Harden passes Bryant for 50-point games",
       "summary": "James Harden moves third on the all-time list for 50-point NBA games as the Cleveland Cavaliers beat the Indiana Pacers 128-119 in the NBA Cup.",
       "link": "https://www.bbc.co.uk/sport/basketball/articles/cwx2e8y1lr8lo?at_medium=RSS&at_campaign=rss",
@@ -2195,18 +2771,6 @@
       "source": "SportKlub",
       "category": "general",
       "xml_category": "nogomet",
-      "tags": [],
-      "image": null
-    },
-    {
-      "id": "index-16",
-      "title": "Rudeš na Varaždin u borbi za europske pozicije. Tko bi rekao?",
-      "summary": "RUDEŠ u 14. kolu SuperSport HNL-a dočekuje Varaždin u Velikoj Gorici. Tekstualni prijenos utakmice pratite uživo na Indexu.",
-      "link": "https://www.index.hr/sport/clanak/rudes-na-varazdin-u-borbi-za-europske-pozicije-tko-bi-rekao/2859256.aspx",
-      "published": "2026-11-21T08:36:00.000Z",
-      "source": "Index",
-      "category": "general",
-      "xml_category": "sport",
       "tags": [],
       "image": null
     },
@@ -2451,7 +3015,7 @@
       "image": "https://e1.365dm.com/26/11/1920x1080/skysports-darren-lehmann-australia_7412107.jpg?20261121094537"
     },
     {
-      "id": "bbc-19",
+      "id": "bbc-4",
       "title": "Wales hungry to show they are not one-hit wonders",
       "summary": "Wales must kick on when they host Australia in the Nations Championship on Saturday, fresh from making history against New Zealand.",
       "link": "https://www.bbc.co.uk/sport/rugby-union/articles/c6n83rj3v9zmo?at_medium=RSS&at_campaign=rss",
@@ -2727,7 +3291,7 @@
       "image": "https://e1.365dm.com/26/11/1920x1080/skysports-lewis-hamilton-ferrari_7412042.jpg?20261121064438"
     },
     {
-      "id": "bbc-5",
+      "id": "bbc-13",
       "title": "Athlete who lost hand saving friends in attack 'would do it again'",
       "summary": "Ismael Ox was 11 years old when he lost his hand trying to protect his friends from a grenade - and now competes in Para-taekwondo for the USA.",
       "link": "https://www.bbc.co.uk/sport/taekwondo/articles/crpdwljj0v89o?at_medium=RSS&at_campaign=rss",
@@ -2799,7 +3363,7 @@
       "image": "https://www.tportal.hr/media/thumbnail/500x300/2821226.jpeg?cropId=4329445"
     },
     {
-      "id": "bbc-17",
+      "id": "bbc-18",
       "title": "Jeers, injuries and doubters - White's journey back to the top",
       "summary": "When Ben White wheeled away after scoring England's third goal against world champions Spain, it was more than just a strike which ended up being the winner in a special win.",
       "link": "https://www.bbc.co.uk/sport/football/articles/cv7028xeler2o?at_medium=RSS&at_campaign=rss",
@@ -3819,7 +4383,7 @@
       "image": null
     },
     {
-      "id": "bbc-14",
+      "id": "bbc-16",
       "title": "Osimhen keen on Man Utd move - Saturday's gossip",
       "summary": "Victor Osimhen is keen on a move to Manchester United, Aston Villa are interested in Amad Diallo and Ivan Toney is a target for Crystal Palace, plus more.",
       "link": "https://www.bbc.co.uk/sport/football/articles/c60qj1924wyeo?at_medium=RSS&at_campaign=rss",
@@ -4693,270 +5257,6 @@
       "xml_category": "sport",
       "tags": [],
       "image": null
-    },
-    {
-      "id": "sky-sports-18",
-      "title": "Anderson beaten in Italia T10 league comeback after Lancashire exit",
-      "summary": "James Anderson&#8217;s franchise cricket return ended in defeat as Napoli Knights lost to Rome Gladiators by six wickets in their Italia T10 league opener.",
-      "link": "https://www.skysports.com/cricket/news/12040/13614432/james-anderson-england-legend-loses-italia-t10-league-debut-for-napoli-knights-in-first-match-since-lancashire-exit",
-      "published": "2026-11-20T17:00:00.000Z",
-      "source": "Sky Sports",
-      "category": "general",
-      "xml_category": "news story",
-      "tags": [],
-      "image": "https://e0.365dm.com/26/10/1920x1080/skysports-james-anderson-cricket_7382950.jpg?20261024092442"
-    },
-    {
-      "id": "sky-sports-10",
-      "title": "Clarke: 'I am world class, I was just waiting for the world to see'",
-      "summary": "Cheavon Clarke catapulted himself into the top tier of the cruiserweight division with his stunning stoppage victory over Chris Billam-Smith.",
-      "link": "https://www.skysports.com/boxing/news/12040/13614327/cheavon-clarke-ive-always-been-world-class-i-was-just-waiting-for-the-world-to-catch-up-and-see-it",
-      "published": "2026-11-20T17:00:00.000Z",
-      "source": "Sky Sports",
-      "category": "ai",
-      "xml_category": "news story",
-      "tags": [],
-      "image": "https://e0.365dm.com/26/11/1920x1080/skysports-cheavon-clarke-clarke_7411341.jpg?20261120114413"
-    },
-    {
-      "id": "jutarnji-19",
-      "title": "GTA groznica drma i svijet sporta, oglasili se i Hrvati, treneri na mukama: ‘Što je uopće to?!‘",
-      "summary": "Računam da i moji igrači igraju tu igru. Nadam se samo da neće pretjerivati toliko da više ne znaju razlikovati dan od noći. To bi moglo biti problematično. Rekao je to Niko Kovač na konferenciji za medije uoči utakmice Borussije iz Dortmunda i one iz Mönchengladbacha. Da, na druženju s novinarima d",
-      "link": "https://www.jutarnji.hr/sportske/sport-mix/ostali-sportovi/gta-6-zahvatio-sport-kovac-i-gattuso-traze-disciplinu-i-san-15767275",
-      "published": "2026-11-20T16:59:23.000Z",
-      "source": "Jutarnji",
-      "category": "sport",
-      "xml_category": "ostali sportovi 2. razina",
-      "tags": [],
-      "image": "https://media.jutarnji.hr/images/slike/2026/11/20/f_39992620_1280.jpg?1795208359"
-    },
-    {
-      "id": "sportklub-19",
-      "title": "Sunderland je igrao za Inter Miami, sad stiže u Lokose",
-      "summary": "Hrvatski nogometni prvoligaš Lokomotiva objavio je kako je angažirao 25-godišnjeg američkog veznjaka Lawsona Conneryja Sunderlanda.",
-      "link": "https://sportklub.hr/nogomet/sunderland-je-igrao-za-inter-miami-sad-stize-u-lokose/",
-      "published": "2026-11-20T16:57:15.000Z",
-      "source": "SportKlub",
-      "category": "general",
-      "xml_category": "nogomet",
-      "tags": [],
-      "image": null
-    },
-    {
-      "id": "bbc-15",
-      "title": "Man Utd fan criticism has gone too far at times - Berrada",
-      "summary": "Manchester United chief executive Omar Berrada says some of the recent criticism of the club's hierarchy has \"crossed a line\".",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cwz0k32j9kr9o?at_medium=RSS&at_campaign=rss",
-      "published": "2026-11-20T16:55:11.000Z",
-      "source": "BBC",
-      "category": "general",
-      "xml_category": "",
-      "tags": [],
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f72e/live/c613bd70-e4fc-11f1-99b6-a35a62fa4264.jpg"
-    },
-    {
-      "id": "index-15",
-      "title": "Dominacija Modrića u jednoj statističkoj kategoriji. Iza njega su Rodri, Pedri...",
-      "summary": "SJAJNA statistika Luke Modrića.",
-      "link": "https://www.index.hr/sport/clanak/dominacija-modrica-u-jednoj-statistickoj-kategoriji-iza-njega-su-rodri-pedri/2859136.aspx",
-      "published": "2026-11-20T16:53:00.000Z",
-      "source": "Index",
-      "category": "general",
-      "xml_category": "sport",
-      "tags": [],
-      "image": null
-    },
-    {
-      "id": "bbc-9",
-      "title": "Stacked England aim to pile on style and add to All Black misery",
-      "summary": "England's easy-on-the-eye revival will be stress-tested by a New Zealand side under sudden pressure on Saturday",
-      "link": "https://www.bbc.co.uk/sport/rugby-union/articles/cqrmgjpp0l48o?at_medium=RSS&at_campaign=rss",
-      "published": "2026-11-20T16:51:17.000Z",
-      "source": "BBC",
-      "category": "ai",
-      "xml_category": "",
-      "tags": [],
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7e87/live/68fccf90-e502-11f1-9e2f-7fb5281f0b3c.jpg"
-    },
-    {
-      "id": "24sata-19",
-      "title": "Gattuso je nasmijao sve nakon pitanja novinara o GTA 6: Je li to auto? Vidjet ću tko je igrao...",
-      "summary": "Gattuso se na presici zbunio zbog GTA 6 i nasmijao novinare: pitao je je li to auto, pa poručio da ga ne brine PlayStation nego profesionalizam igrača",
-      "link": "https://www.24sata.hr/sport/gattuso-je-nasmijao-sve-nakon-pitanja-novinara-o-gta-6-je-li-to-auto-vidjet-cu-tko-je-igrao-1170002",
-      "published": "2026-11-20T16:50:00.000Z",
-      "source": "24sata",
-      "category": "general",
-      "xml_category": "sport",
-      "tags": [],
-      "image": "https://img.24sata.hr/qWhn8_J_cpPI4iNr00Ce2TSzW0s=/800x450/smart/media/images/2026-46/2026-11-08t114611z-1538417859-up1emb80woybh-rtrmadp-3-soccer-italy-nap-laz_kGS40VC.jpg"
-    },
-    {
-      "id": "index-0",
-      "title": "UŽIVO Hrvatska U-17 lovi pobjedu u nastavku s igračem više",
-      "summary": "TEKSTUALNI prijenos utakmice pratite na Indexu.",
-      "link": "https://www.index.hr/sport/clanak/od-1630-prva-utakmica-hrvatske-na-u17-svjetskom-prvenstvu-evo-gdje-gledati/2858943.aspx",
-      "published": "2026-11-20T16:48:30.000Z",
-      "source": "Index",
-      "category": "general",
-      "xml_category": "sport",
-      "tags": [],
-      "image": null
-    },
-    {
-      "id": "tportal-19",
-      "title": "Planas se oglasio nakon pobjedničkog debija u Dinamu",
-      "summary": "Španjolski trener Pol Planas pobjedom je započeo mandat na klupi druge momčadi Dinama. Mladi dinamovci u 13. kolu SuperSport Prve NL svladali su Opatiju u gostima 2:1, a bivši trener Barcelonine akademije nakon utakmice otkrio je što očekuje od svojih igrača i na čemu će posebno inzistirati.",
-      "link": "https://www.tportal.hr/sport/clanak/planas-se-oglasio-nakon-pobjednickog-debija-u-dinamu-20261120",
-      "published": "2026-11-20T16:48:00.000Z",
-      "source": "Tportal",
-      "category": "general",
-      "xml_category": "sport",
-      "tags": [],
-      "image": "https://www.tportal.hr/media/thumbnail/500x300/2829186.jpeg?cropId=4349174"
-    },
-    {
-      "id": "jutarnji-13",
-      "title": "Modrićev suigrač otkrio: ‘Metode su mu bile poput Hitlerovih! Zabranio je Nutellu, imao špijune...‘",
-      "summary": "Srpski reprezentativac, nogometaš Milana i suigrač našeg Luke Modrića, Strahinja Pavlović, prisjetio se suradnje s bivšim trenerom Rossonera Sérgiom Conceiçãom. U razgovoru za srpski podcast ‘SS Calcio‘ otkrio je nekoliko zanimljivih detalja iz svlačionice milanskog kluba, a posebno se osvrnuo na st",
-      "link": "https://www.jutarnji.hr/sportske/nogomet/nogomet-mix/modricev-suigrac-otkrio-metode-su-mu-bile-poput-hitlerovih-zabranio-je-nutellu-imao-spijune-15767270",
-      "published": "2026-11-20T16:38:16.000Z",
-      "source": "Jutarnji",
-      "category": "general",
-      "xml_category": "nogomet - ostalo",
-      "tags": [],
-      "image": "https://media.jutarnji.hr/images/slike/2026/11/20/f_38770997_1280.jpg?1795204146"
-    },
-    {
-      "id": "index-16",
-      "title": "Planas nakon pobjede u debiju: Igrači moraju shvatiti jednu stvar",
-      "summary": "NOVI trener Dinama 2, Španjolac Pol Planas, pobjedom 2:1 protiv Opatije započeo je mandat. Naglasio je važnost veznog reda i pobjedničkog mentaliteta za razvoj igrača u velikom klubu.",
-      "link": "https://www.index.hr/sport/clanak/planas-nakon-pobjede-u-debiju-igraci-moraju-shvatiti-jednu-stvar/2859132.aspx",
-      "published": "2026-11-20T16:37:00.000Z",
-      "source": "Index",
-      "category": "general",
-      "xml_category": "sport",
-      "tags": [],
-      "image": null
-    },
-    {
-      "id": "sportklub-17",
-      "title": "Gattuso o igrici o kojoj priča cijeli svijet: &#8216;Je li to neki automobil? Sutra ujutro u devet&#8230;&#8217;",
-      "summary": "Gennaro Gattuso, trener Lazija, nasmijao je novinare na konferenciji za medije uoči subotnje utakmice protiv Leccea u 12. kolu Serie A.",
-      "link": "https://sportklub.hr/nogomet/gattuso-o-igrici-o-kojoj-prica-cijeli-svijet-je-li-to-neki-automobil-sutra-ujutro-u-devet/",
-      "published": "2026-11-20T16:36:59.000Z",
-      "source": "SportKlub",
-      "category": "general",
-      "xml_category": "nogomet",
-      "tags": [],
-      "image": null
-    },
-    {
-      "id": "tportal-15",
-      "title": "Josip Stanišić na korak do povijesti Bundeslige. Večeras može ući u elitno društvo",
-      "summary": "Hrvatski reprezentativac Josip Stanišić (26) nalazi se na korak do velikog postignuća u njemačkoj Bundesligi.",
-      "link": "https://www.tportal.hr/sport/clanak/josip-stanisic-na-korak-do-povijesti-bundeslige-veceras-moze-uci-u-elitno-drustvo-20261120",
-      "published": "2026-11-20T16:33:00.000Z",
-      "source": "Tportal",
-      "category": "general",
-      "xml_category": "sport",
-      "tags": [],
-      "image": "https://www.tportal.hr/media/thumbnail/500x300/2823937.jpeg?cropId=4336533"
-    },
-    {
-      "id": "bbc-16",
-      "title": "'No-one is going to break us' - defiant Boks face Ireland without Erasmus",
-      "summary": "South Africa prepare to face Ireland in a much-anticipated Nations Championship Test in Dublin without banned head coach Rassie Erasmus.",
-      "link": "https://www.bbc.co.uk/sport/rugby-union/articles/cm930nj435dvo?at_medium=RSS&at_campaign=rss",
-      "published": "2026-11-20T16:28:47.000Z",
-      "source": "BBC",
-      "category": "general",
-      "xml_category": "",
-      "tags": [],
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6c16/live/39a07c70-e4f7-11f1-a8e4-b1e12a49db15.jpg"
-    },
-    {
-      "id": "bbc-17",
-      "title": "Mowbray support no surprise, says interim boss Johnson",
-      "summary": "Blackburn Rovers interim boss Damien Johnson says the support shown for head coach Tony Mowbray shows the high regard he is held in.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c5m2lnp387kmo?at_medium=RSS&at_campaign=rss",
-      "published": "2026-11-20T16:27:19.000Z",
-      "source": "BBC",
-      "category": "general",
-      "xml_category": "",
-      "tags": [],
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/09e9/live/06156b60-e4fa-11f1-a8e4-b1e12a49db15.jpg"
-    },
-    {
-      "id": "24sata-15",
-      "title": "FOTO Planasov debi iz snova! Španjolac je pobijedio Opatiju, pogledajte fotografije s trijumfa",
-      "summary": "OPATIJA - DINAMO B 1-2 Planas debitirao na klupi Dinama B pobjedom 2-1 u Opatiji, a mladi Modri bljesnuli su i pokazali potencijal za veliku budućnost",
-      "link": "https://www.24sata.hr/sport/foto-planasov-debi-iz-snova-spanjolac-je-pobijedio-opatiju-pogledajte-fotografije-s-trijumfa-1169999",
-      "published": "2026-11-20T16:24:00.000Z",
-      "source": "24sata",
-      "category": "general",
-      "xml_category": "sport",
-      "tags": [],
-      "image": "https://img.24sata.hr/n5T603juAg_GpLtFCG1nJQEwtiw=/800x450/smart/media/images/2026-46/pxl-201126-162805902.jpg"
-    },
-    {
-      "id": "sportklub-18",
-      "title": "Evo koliko su šanse Hrvatskoj protiv Iraca, Bosni i Hercegovini se daje najmanje izgleda",
-      "summary": "Hrvatska će za četiri mjeseca igrati protiv Irske za ostanak u elitnom društvu Lige nacija.",
-      "link": "https://sportklub.hr/nogomet/evo-koliko-su-sanse-hrvatskoj-protiv-iraca-bosni-i-hercegovini-se-daje-najmanje-izgleda/",
-      "published": "2026-11-20T16:18:22.000Z",
-      "source": "SportKlub",
-      "category": "general",
-      "xml_category": "nations league",
-      "tags": [],
-      "image": null
-    },
-    {
-      "id": "jutarnji-14",
-      "title": "Omiljena legenda na udaru: ‘Ja to ne bih napravio ni za 20 milijuna eura! Sramota, farsa, neugodno za gledati‘",
-      "summary": "Ronaldinho je s 46 godina ponovno obuo kopačke i odigrao poluvrijeme za Ravennu u nedjelju, a jedan od najglasnijih kritičara njegova povratka je Antonio Cassano, koji smatra da je takav povratak ispod časti brazilske legende. Brazilac je prošloga vikenda proveo 45 minuta na terenu u dresu kluba iz.",
-      "link": "https://www.jutarnji.hr/sportske/nogomet/nogomet-mix/omiljena-legenda-na-udaru-ja-to-ne-bih-napravio-ni-za-20-milijuna-eura-sramota-farsa-neugodno-za-gledati-15767263",
-      "published": "2026-11-20T16:14:00.000Z",
-      "source": "Jutarnji",
-      "category": "general",
-      "xml_category": "nogomet - ostalo",
-      "tags": [],
-      "image": "https://media.jutarnji.hr/images/slike/2026/11/20/f_39972169_1280.jpg?1795204146"
-    },
-    {
-      "id": "index-17",
-      "title": "As: Olmo je ključ",
-      "summary": "ŠPANJOLSKI medij piše o povratku Danija Olma (28) nakon ozljede.",
-      "link": "https://www.index.hr/sport/clanak/as-olmo-je-kljuc/2859118.aspx",
-      "published": "2026-11-20T16:10:00.000Z",
-      "source": "Index",
-      "category": "general",
-      "xml_category": "sport",
-      "tags": [],
-      "image": null
-    },
-    {
-      "id": "sportklub-19",
-      "title": "VIDEO / Uskoro kreće pikado groznica! Littler je napravio drugu revoluciju, imamo jednu i pol priliku kada je riječ o Hrvatima",
-      "summary": "Za nešto malo manje od mjesec dana počinje Svjetsko prvenstvo u pikadu, turnir koji je milijune prikovao ispred TV ekrana i ove će godine biti posebno zanimljiv. O svemu je pričao komentator pikada Alan Eder koji je najavio da je Luke Littler ranjiv i da će drugi imati veliku šansu. Najavio je i pot",
-      "link": "https://sportklub.hr/ostali-sportovi/video-littler-je-napravio-drugu-revoluciju-u-pikadu-imamo-jednu-i-pol-priliku-kada-je-rijec-o-hrvatima/",
-      "published": "2026-11-20T16:05:35.000Z",
-      "source": "SportKlub",
-      "category": "general",
-      "xml_category": "ostali sportovi",
-      "tags": [],
-      "image": null
-    },
-    {
-      "id": "bbc-10",
-      "title": "We want to have a positive impact - Pochettino",
-      "summary": "Mauricio Pochettino talks for the first time about his arrival at Manchester United and what his goals are ahead of his first game.",
-      "link": "https://www.bbc.co.uk/sport/football/videos/cw20xd2zgl0xo?at_medium=RSS&at_campaign=rss",
-      "published": "2026-11-20T16:01:53.000Z",
-      "source": "BBC",
-      "category": "general",
-      "xml_category": "",
-      "tags": [],
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4c37/live/64c931a0-e4fa-11f1-99b6-a35a62fa4264.jpg"
     }
   ]
 }
