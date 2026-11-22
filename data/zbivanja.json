@@ -1,39 +1,31 @@
 {
-  "generated_at": "2026-11-21T21:01:18.917Z",
+  "generated_at": "2026-11-22T06:01:11.380Z",
   "stats": {
-    "muzika.hr": {
-      "ok": true,
-      "count": 25
-    },
     "Mochvara": {
       "ok": true,
-      "count": 13
+      "count": 12
     },
     "Lisinski": {
       "ok": true,
       "count": 0
     },
-    "Tvornica": {
-      "ok": true,
-      "count": 2
-    },
     "Gavella": {
       "ok": true,
       "count": 27
     },
-    "Komedija": {
+    "Tvornica": {
       "ok": true,
-      "count": 0
+      "count": 2
+    },
+    "muzika.hr": {
+      "ok": true,
+      "count": 25
     },
     "ZeKaeM": {
       "ok": true,
       "count": 1
     },
-    "HNK Zagreb": {
-      "ok": true,
-      "count": 121
-    },
-    "Kerempuh": {
+    "Komedija": {
       "ok": true,
       "count": 0
     },
@@ -41,27 +33,20 @@
       "ok": true,
       "count": 0
     },
+    "Kerempuh": {
+      "ok": true,
+      "count": 0
+    },
     "Trešnja": {
       "ok": true,
       "count": 0
+    },
+    "HNK Zagreb": {
+      "ok": true,
+      "count": 117
     }
   },
   "concerts": [
-    {
-      "id": "4b88d615a9",
-      "title": "Električni orgazam",
-      "venue": "Tvornica kulture Šubićeva 2",
-      "city": "Zagreb",
-      "country": "HR",
-      "category": "concert",
-      "date_iso": "2026-11-07T00:00:00",
-      "date_display": "sub, 07. 11. 2026.",
-      "time": null,
-      "link": "https://www.muzika.hr/event/elektricni-orgazam-4/",
-      "source": "muzika.hr",
-      "is_new": false,
-      "first_seen": "2026-10-09T22:57:15.772Z"
-    },
     {
       "id": "145751721a",
       "title": "Razgled kazališta 166 sezona iza kulisa",
@@ -1428,6 +1413,21 @@
       "first_seen": "2026-10-30T21:44:34.653Z"
     },
     {
+      "id": "87887086dd",
+      "title": "Galerija Močvara Andrea Bambini i Elena Francalanci: Passo Falso",
+      "venue": "Mochvara",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-11-25T19:00:00",
+      "date_display": "sri, 25. 11. 2026.",
+      "time": "19:00",
+      "link": "https://mochvara.hr/event-detail/6afb0f56322483ef651df021/",
+      "source": "Mochvara",
+      "is_new": true,
+      "first_seen": "2026-11-22T06:01:11.380Z"
+    },
+    {
       "id": "df5490d07d",
       "title": "MARKO VUKES prvi solistički koncert",
       "venue": "Tvornica Kulture",
@@ -2101,6 +2101,21 @@
       "source": "muzika.hr",
       "is_new": false,
       "first_seen": "2026-11-21T06:01:18.378Z"
+    },
+    {
+      "id": "e284ae753e",
+      "title": "Šo!Mazgoon",
+      "venue": "Vintage Industrial Bar Savska ulica 160",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-12-09T21:00:00",
+      "date_display": "sri, 09. 12. 2026.",
+      "time": "21:00",
+      "link": "https://www.muzika.hr/event/somazgoon-zagreb/",
+      "source": "muzika.hr",
+      "is_new": true,
+      "first_seen": "2026-11-22T06:01:11.380Z"
     },
     {
       "id": "e9b89f4b73",
@@ -3139,21 +3154,6 @@
     }
   ],
   "theater": [
-    {
-      "id": "4ef2598e70",
-      "title": "Dugo putovanje u noć",
-      "venue": "Gavella",
-      "city": "Zagreb",
-      "country": "HR",
-      "category": "theater",
-      "date_iso": "2026-11-07T00:00:00",
-      "date_display": "sub, 07. 11. 2026.",
-      "time": null,
-      "link": "https://www.gavella.hr/predstave/aktualne-predstave/dugo-putovanje-u-noc",
-      "source": "Gavella",
-      "is_new": false,
-      "first_seen": "2026-09-14T15:01:15.174Z"
-    },
     {
       "id": "a6e2523ad3",
       "title": "Kazališni doručak Centrifugalno kretanje povijesti u tragediji „Richard III.”",
@@ -4657,21 +4657,6 @@
   ],
   "abroad": [
     {
-      "id": "f6c08a8a80",
-      "title": "ÁHÁCHÍ (FINSKA) i LOPOČ (BiH) u AG-u!",
-      "venue": "AG Club Patriotske lige 30",
-      "city": "Sarajevo",
-      "country": "BA",
-      "category": "concert",
-      "date_iso": "2026-11-06T21:30:00",
-      "date_display": "pet, 06. 11. 2026.",
-      "time": "21:30",
-      "link": "https://www.muzika.hr/event/ahachi-finska-i-lopoc-bih-u-ag-u/",
-      "source": "muzika.hr",
-      "is_new": false,
-      "first_seen": "2026-10-30T13:01:20.614Z"
-    },
-    {
       "id": "d27ce7d915",
       "title": "Brucifer: Vesna Pisarović, Buč Kesidi, Daliborovo granje",
       "venue": "Vesna Pisarović",
@@ -4777,5 +4762,5 @@
       "first_seen": "2026-11-19T09:01:32.137Z"
     }
   ],
-  "new_count": 4
+  "new_count": 6
 }
