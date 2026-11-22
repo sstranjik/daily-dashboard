@@ -1,37 +1,41 @@
 {
-  "generated_at": "2026-11-22T19:01:17.535Z",
+  "generated_at": "2026-11-22T20:02:11.110Z",
   "stats": {
-    "muzika.hr": {
-      "ok": true,
-      "count": 25
-    },
     "Lisinski": {
       "ok": true,
       "count": 0
-    },
-    "Gavella": {
-      "ok": true,
-      "count": 26
     },
     "Mochvara": {
       "ok": true,
       "count": 12
     },
+    "Gavella": {
+      "ok": true,
+      "count": 26
+    },
     "Tvornica": {
       "ok": true,
       "count": 2
     },
-    "Komedija": {
+    "muzika.hr": {
       "ok": true,
-      "count": 0
+      "count": 25
     },
     "ZeKaeM": {
       "ok": true,
       "count": 1
     },
+    "Komedija": {
+      "ok": true,
+      "count": 0
+    },
     "HNK Zagreb": {
       "ok": true,
       "count": 117
+    },
+    "Kerempuh": {
+      "ok": true,
+      "count": 0
     },
     "Pogon": {
       "ok": true,
@@ -40,43 +44,9 @@
     "Trešnja": {
       "ok": true,
       "count": 0
-    },
-    "Kerempuh": {
-      "ok": true,
-      "count": 0
     }
   },
   "concerts": [
-    {
-      "id": "314b05c65f",
-      "title": "Slušaj ovo: ELEPHARMERS + IZET/BORGIE + ASTRO GLITCH SHIFTERS",
-      "venue": "STRO GLITCH SHIFTERS Nemo klub Ružićeva 2",
-      "city": "Rijeka",
-      "country": "HR",
-      "category": "concert",
-      "date_iso": "2026-11-07T20:00:00",
-      "date_display": "sub, 07. 11. 2026.",
-      "time": "20:00",
-      "link": "https://www.muzika.hr/event/slusaj-ovo-elepharmers-izet-borgie-astro-glitch-shifters-nemo-rijeka/",
-      "source": "muzika.hr",
-      "is_new": false,
-      "first_seen": "2026-10-10T05:01:24.263Z"
-    },
-    {
-      "id": "0d11648526",
-      "title": "Velika Frka: TBF + The Bastardz + ET",
-      "venue": "",
-      "city": "Zagreb",
-      "country": "HR",
-      "category": "concert",
-      "date_iso": "2026-11-07T20:00:00",
-      "date_display": "sub, 07. 11. 2026.",
-      "time": "20:00",
-      "link": "https://www.muzika.hr/event/velika-frka-tbf-the-bastardz-et/",
-      "source": "muzika.hr",
-      "is_new": false,
-      "first_seen": "2026-11-07T14:01:17.018Z"
-    },
     {
       "id": "a556fe4449",
       "title": "(NE)NORMALNI",
@@ -2071,6 +2041,21 @@
       "source": "muzika.hr",
       "is_new": false,
       "first_seen": "2026-11-22T06:01:14.039Z"
+    },
+    {
+      "id": "35f8bd40b8",
+      "title": "Lang Lang",
+      "venue": "Vatroslav Lisinski Trg Stjepana Radića 4",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-12-11T00:00:00",
+      "date_display": "pet, 11. 12. 2026.",
+      "time": null,
+      "link": "https://www.muzika.hr/event/lang-lang/",
+      "source": "muzika.hr",
+      "is_new": true,
+      "first_seen": "2026-11-22T20:02:11.110Z"
     },
     {
       "id": "e9b89f4b73",
@@ -4612,21 +4597,6 @@
   ],
   "abroad": [
     {
-      "id": "d27ce7d915",
-      "title": "Brucifer: Vesna Pisarović, Buč Kesidi, Daliborovo granje",
-      "venue": "Vesna Pisarović",
-      "city": "Buč",
-      "country": "EU",
-      "category": "concert",
-      "date_iso": "2026-11-07T20:00:00",
-      "date_display": "sub, 07. 11. 2026.",
-      "time": "20:00",
-      "link": "https://www.muzika.hr/event/brucifer-brucosijada-fera-2026/",
-      "source": "muzika.hr",
-      "is_new": false,
-      "first_seen": "2026-11-07T14:01:17.018Z"
-    },
-    {
       "id": "49c40c94c3",
       "title": "Bob Dylan",
       "venue": "Bob Dylan Arena Stožice Stožice",
@@ -4717,5 +4687,5 @@
       "first_seen": "2026-11-19T09:01:32.137Z"
     }
   ],
-  "new_count": 4
+  "new_count": 5
 }
