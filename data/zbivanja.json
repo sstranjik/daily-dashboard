@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-22T06:01:14.039Z",
+  "generated_at": "2026-11-22T07:01:17.542Z",
   "stats": {
     "Mochvara": {
       "ok": true,
@@ -17,6 +17,10 @@
       "ok": true,
       "count": 2
     },
+    "muzika.hr": {
+      "ok": true,
+      "count": 25
+    },
     "ZeKaeM": {
       "ok": true,
       "count": 1
@@ -29,21 +33,17 @@
       "ok": true,
       "count": 0
     },
+    "HNK Zagreb": {
+      "ok": true,
+      "count": 117
+    },
     "Kerempuh": {
       "ok": true,
       "count": 0
     },
-    "HNK Zagreb": {
-      "ok": true,
-      "count": 117
-    },
     "Trešnja": {
       "ok": true,
       "count": 0
-    },
-    "HNK Zagreb": {
-      "ok": true,
-      "count": 117
     }
   },
   "concerts": [
@@ -1424,7 +1424,7 @@
       "time": "19:00",
       "link": "https://mochvara.hr/event-detail/6afb0f56322483ef651df021/",
       "source": "Mochvara",
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-22T06:01:14.039Z"
     },
     {
@@ -2114,7 +2114,7 @@
       "time": "21:00",
       "link": "https://www.muzika.hr/event/somazgoon-zagreb/",
       "source": "muzika.hr",
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-22T06:01:14.039Z"
     },
     {
@@ -4762,5 +4762,5 @@
       "first_seen": "2026-11-19T09:01:32.137Z"
     }
   ],
-  "new_count": 6
+  "new_count": 4
 }
