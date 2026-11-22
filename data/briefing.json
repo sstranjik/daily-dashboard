@@ -1,15 +1,15 @@
 {
   "version": 2,
-  "date": "2026-11-21",
-  "generated_at": "2026-11-21T13:13:01.020Z",
-  "date_hr": "Subota, 21. studenog 2026.",
+  "date": "2026-11-22",
+  "generated_at": "2026-11-22T06:03:23.579Z",
+  "date_hr": "Nedjelja, 22. studenog 2026.",
   "weather": {
-    "icon": "🌦️",
-    "summary": "5–14°C, pljuskovi",
+    "icon": "🌧️",
+    "summary": "5–8°C, kiša · 39.8 mm",
     "alerts": []
   },
   "fuel": {
-    "current_date": "21.11.2026",
+    "current_date": "22.11.2026",
     "eurodiesel": [
       {
         "company": "Adria Oil",
@@ -63,46 +63,46 @@
     "upcoming_premium": null
   },
   "market": {
-    "updated_at": "2026-11-21T13:13:01.020Z",
-    "btc_usd": 59219,
-    "btc_eur": 53993,
-    "btc_change_24h": -3.67,
-    "usd_eur": 0.9107
+    "updated_at": "2026-11-22T06:03:23.579Z",
+    "btc_usd": 58902,
+    "btc_eur": 53703,
+    "btc_change_24h": 5.71,
+    "usd_eur": 0.9113
   },
   "ai_news": [
     {
-      "title": "OpenAI starts testing its dots agents with some ChatGPT Plus users",
-      "link": "https://thenextweb.com/news/openai-dots-chatgpt-plus-test-business-standard",
-      "source": "The Next Web"
-    },
-    {
-      "title": "Veličanstvena sedmorka: Tko će se obogatiti na Anthropicovom IPO-u?",
-      "link": "https://mreza.bug.hr/biznis/velicanstvena-sedmorka-tko-ce-se-obogatiti-na-anthropicovom-ipo-u-64456",
+      "title": "Je li Claude riješio 167 godina star, najveći matematički misterij na svijetu?",
+      "link": "https://www.bug.hr/umjetna-inteligencija/je-li-claude-rijesio-167-godina-star-najveci-matematicki-misterij-na-svijetu-64518",
       "source": "Bug.hr"
     },
     {
-      "title": "Anthropic mathematician claims to have solved prestigious Millennium Prize problem with Claude",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1010051/anthropic-riemann-hypothesis-millennium-prize-problem",
+      "title": "Can Anthropic afford to put safety first?",
+      "link": "https://www.theverge.com/podcast/1038701/anthropic-ipo-ai-safety-openai-nvidia-structure",
       "source": "The Verge"
     },
     {
-      "title": "Signal locks out Siri AI and Gemini, but says it cannot protect the Mac",
-      "link": "https://thenextweb.com/news/signal-ai-agents-blocks-screenshots-siri-gemini-whittaker",
+      "title": "Oracle says its OpenAI contract is fully funded and pre-empts media reports",
+      "link": "https://thenextweb.com/news/oracle-openai-contract-fully-funded-20bn-raise",
       "source": "The Next Web"
     },
     {
-      "title": "Kako su agenti kompromitirali Hugging Face",
-      "link": "https://mreza.bug.hr/umjetna-inteligencija/kako-su-agenti-kompromitirali-hugging-face-64477",
+      "title": "Anthropic mathematician says he and Claude proved the Riemann hypothesis",
+      "link": "https://thenextweb.com/news/anthropic-alpoge-claude-riemann-hypothesis-proof-lean",
+      "source": "The Next Web"
+    },
+    {
+      "title": "Agentska plaćanja: HTTP 402 i protokol x402  - Stroj s novčanikom",
+      "link": "https://mreza.bug.hr/tehnologije/agentska-placanja-http-402-i-protokol-x402-stroj-s-novcanikom-64478",
       "source": "Bug.hr"
     }
   ],
   "micro_tips": {
     "vscode": {
-      "tip": "Dupliciraj trenutnu liniju ispod",
-      "keys": "Shift+Alt+↓"
+      "tip": "Obriši cijelu liniju odjednom",
+      "keys": "Ctrl+Shift+K"
     },
-    "sql": "Partial index s WHERE klauzulom smanjuje veličinu i ubrzava specifična filtriranja",
-    "oracle": "LISTAGG(col, ',') WITHIN GROUP (ORDER BY col) konkatenira u jedan string",
-    "regex": "(?<ime>\\d{4}) named group — referenciraj s \\k<ime> ili $<ime> u replace"
+    "sql": "GROUP BY s ROLLUP za subtotale u jednom prolasku: GROUP BY ROLLUP(god, mj)",
+    "oracle": "TRUNC(datum_kolona) = TRUNC(SYSDATE) koristi B-tree index na datumskoj koloni",
+    "regex": "\\d{4}-\\d{2}-\\d{2} ISO datum pattern; za validaciju zatvori s ^...$"
   }
 }
