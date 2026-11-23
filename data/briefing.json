@@ -1,15 +1,15 @@
 {
   "version": 2,
-  "date": "2026-11-22",
-  "generated_at": "2026-11-22T13:01:02.994Z",
-  "date_hr": "Nedjelja, 22. studenog 2026.",
+  "date": "2026-11-23",
+  "generated_at": "2026-11-23T06:03:58.541Z",
+  "date_hr": "Ponedjeljak, 23. studenog 2026.",
   "weather": {
     "icon": "🌧️",
-    "summary": "5–8°C, kiša · 21.5 mm",
+    "summary": "2–6°C, kiša · 6.2 mm",
     "alerts": []
   },
   "fuel": {
-    "current_date": "22.11.2026",
+    "current_date": "23.11.2026",
     "eurodiesel": [
       {
         "company": "Adria Oil",
@@ -63,32 +63,32 @@
     "upcoming_premium": null
   },
   "market": {
-    "updated_at": "2026-11-22T13:01:02.994Z",
-    "btc_usd": 60763,
-    "btc_eur": 55400,
-    "btc_change_24h": 3.43,
-    "usd_eur": 0.9113
+    "updated_at": "2026-11-23T06:03:58.541Z",
+    "btc_usd": 61610,
+    "btc_eur": 56044,
+    "btc_change_24h": 4.58,
+    "usd_eur": 0.9111
   },
   "ai_news": [
     {
-      "title": "Je li Claude riješio 167 godina star, najveći matematički misterij na svijetu?",
-      "link": "https://www.bug.hr/umjetna-inteligencija/je-li-claude-rijesio-167-godina-star-najveci-matematicki-misterij-na-svijetu-64518",
+      "title": "Anthropic researcher claims Claude helped him prove the Riemann hypothesis",
+      "link": "https://thenextweb.com/news/anthropic-researcher-claims-claude-helped-him-prove-the-riemann-hypothesis",
+      "source": "The Next Web"
+    },
+    {
+      "title": "How Notable Capital, GIC, and Baillie Gifford bet big on Anthropic before its IPO",
+      "link": "https://techcrunch.com/2026/11/22/how-notable-capital-gic-and-baillie-gifford-bet-big-on-anthropic-before-its-ipo/",
+      "source": "TechCrunch AI"
+    },
+    {
+      "title": "Deutsche Telekom ulaže 100 milijuna eura u Mistral AI",
+      "link": "https://mreza.bug.hr/biznis/deutsche-telekom-ulaze-100-milijuna-eura-u-mistral-ai-64509",
       "source": "Bug.hr"
     },
     {
-      "title": "Can Anthropic afford to put safety first?",
-      "link": "https://www.theverge.com/podcast/1038701/anthropic-ipo-ai-safety-openai-nvidia-structure",
-      "source": "The Verge"
-    },
-    {
-      "title": "Oracle says its OpenAI contract is fully funded and pre-empts media reports",
-      "link": "https://thenextweb.com/news/oracle-openai-contract-fully-funded-20bn-raise",
-      "source": "The Next Web"
-    },
-    {
-      "title": "Anthropic mathematician says he and Claude proved the Riemann hypothesis",
-      "link": "https://thenextweb.com/news/anthropic-alpoge-claude-riemann-hypothesis-proof-lean",
-      "source": "The Next Web"
+      "title": "OpenAI’s chief scientist has thoughts on how to limit AI development",
+      "link": "https://techcrunch.com/2026/11/22/openais-chief-scientist-has-thoughts-on-how-to-limit-ai-development/",
+      "source": "TechCrunch AI"
     },
     {
       "title": "Googleov Gemini sada može generirati GIF-ove - idealno za izradu memova",
@@ -98,11 +98,11 @@
   ],
   "micro_tips": {
     "vscode": {
-      "tip": "Obriši cijelu liniju odjednom",
-      "keys": "Ctrl+Shift+K"
+      "tip": "Otvori datoteku brzim pretraživanjem",
+      "keys": "Ctrl+P"
     },
-    "sql": "GROUP BY s ROLLUP za subtotale u jednom prolasku: GROUP BY ROLLUP(god, mj)",
-    "oracle": "TRUNC(datum_kolona) = TRUNC(SYSDATE) koristi B-tree index na datumskoj koloni",
-    "regex": "\\d{4}-\\d{2}-\\d{2} ISO datum pattern; za validaciju zatvori s ^...$"
+    "sql": "NOT EXISTS brži od NOT IN kad subquery može vratiti NULL vrijednost",
+    "oracle": "DBMS_STATS.GATHER_TABLE_STATS osvježava statistike za točniji execution plan",
+    "regex": "(?i) inline flag za case-insensitive bez mijenjanja ostatka patternahe"
   }
 }
