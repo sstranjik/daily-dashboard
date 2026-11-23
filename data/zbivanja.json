@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-23T20:01:15.754Z",
+  "generated_at": "2026-11-23T21:01:23.279Z",
   "stats": {
     "muzika.hr": {
       "ok": true,
@@ -9,10 +9,6 @@
       "ok": true,
       "count": 0
     },
-    "Mochvara": {
-      "ok": true,
-      "count": 12
-    },
     "Gavella": {
       "ok": true,
       "count": 25
@@ -21,23 +17,27 @@
       "ok": true,
       "count": 2
     },
+    "Mochvara": {
+      "ok": true,
+      "count": 12
+    },
     "Komedija": {
       "ok": true,
       "count": 0
-    },
-    "ZeKaeM": {
-      "ok": true,
-      "count": 1
     },
     "HNK Zagreb": {
       "ok": true,
       "count": 115
     },
-    "Kerempuh": {
+    "ZeKaeM": {
+      "ok": true,
+      "count": 1
+    },
+    "Pogon": {
       "ok": true,
       "count": 0
     },
-    "Pogon": {
+    "Kerempuh": {
       "ok": true,
       "count": 0
     },
@@ -2161,6 +2161,21 @@
       "source": "muzika.hr",
       "is_new": false,
       "first_seen": "2026-11-23T06:01:28.078Z"
+    },
+    {
+      "id": "d22ff0a9bf",
+      "title": "Buzzcocks",
+      "venue": "Buzzcocks Tvornica kulture Šubićeva 2",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-12-13T20:00:00",
+      "date_display": "ned, 13. 12. 2026.",
+      "time": "20:00",
+      "link": "https://www.muzika.hr/event/buzzcocks-tvornica-kulture-zagreb-2026/",
+      "source": "muzika.hr",
+      "is_new": true,
+      "first_seen": "2026-11-23T21:01:23.279Z"
     },
     {
       "id": "43c8fdb3d3",
@@ -4687,5 +4702,5 @@
       "first_seen": "2026-11-19T09:01:32.137Z"
     }
   ],
-  "new_count": 3
+  "new_count": 4
 }
