@@ -1,21 +1,17 @@
 {
-  "generated_at": "2026-11-22T21:01:14.411Z",
+  "generated_at": "2026-11-23T06:01:19.200Z",
   "stats": {
-    "muzika.hr": {
+    "Gavella": {
       "ok": true,
-      "count": 25
-    },
-    "Mochvara": {
-      "ok": true,
-      "count": 12
+      "count": 26
     },
     "Lisinski": {
       "ok": true,
       "count": 0
     },
-    "Gavella": {
+    "Mochvara": {
       "ok": true,
-      "count": 26
+      "count": 12
     },
     "Tvornica": {
       "ok": true,
@@ -25,19 +21,23 @@
       "ok": true,
       "count": 0
     },
+    "muzika.hr": {
+      "ok": true,
+      "count": 25
+    },
+    "HNK Zagreb": {
+      "ok": true,
+      "count": 115
+    },
     "ZeKaeM": {
       "ok": true,
       "count": 1
     },
-    "HNK Zagreb": {
-      "ok": true,
-      "count": 117
-    },
-    "Pogon": {
+    "Kerempuh": {
       "ok": true,
       "count": 0
     },
-    "Kerempuh": {
+    "Pogon": {
       "ok": true,
       "count": 0
     },
@@ -47,36 +47,6 @@
     }
   },
   "concerts": [
-    {
-      "id": "4c7466fe92",
-      "title": "Dub Engine",
-      "venue": "Mochvara",
-      "city": "Zagreb",
-      "country": "HR",
-      "category": "concert",
-      "date_iso": "2026-11-07T22:00:00",
-      "date_display": "sub, 07. 11. 2026.",
-      "time": "22:00",
-      "link": "https://mochvara.hr/event-detail/6abcec5a9264105a5bc305ac/",
-      "source": "Mochvara",
-      "is_new": false,
-      "first_seen": "2026-11-01T06:01:17.209Z"
-    },
-    {
-      "id": "8ca0dfabfc",
-      "title": "Kum grungea u Močvari: Kim Salmon's Smoked Salmon Nedjelja 8.11.2026.",
-      "venue": "Mochvara",
-      "city": "Zagreb",
-      "country": "HR",
-      "category": "concert",
-      "date_iso": "2026-11-08T00:00:00",
-      "date_display": "ned, 08. 11. 2026.",
-      "time": null,
-      "link": "https://mochvara.hr/event-detail/6ab2ebfe555a499361f92587/",
-      "source": "Mochvara",
-      "is_new": false,
-      "first_seen": "2026-10-18T11:01:27.358Z"
-    },
     {
       "id": "01f1cd186b",
       "title": "Ciklus komornih koncerata KLASIKA NEDJELJOM",
@@ -1428,6 +1398,21 @@
       "first_seen": "2026-08-28T10:01:17.450Z"
     },
     {
+      "id": "39f88a69c1",
+      "title": "SRCE Super sedmica, prvi dan",
+      "venue": "Mochvara",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-11-27T22:00:00",
+      "date_display": "pet, 27. 11. 2026.",
+      "time": "22:00",
+      "link": "https://mochvara.hr/event-detail/6aeb18ef63694136b1d58ad2/",
+      "source": "Mochvara",
+      "is_new": true,
+      "first_seen": "2026-11-23T06:01:19.200Z"
+    },
+    {
       "id": "650c3d9038",
       "title": "Spike And The Gimme Gimmes",
       "venue": "Grada Vukovara 68",
@@ -2058,6 +2043,21 @@
       "first_seen": "2026-10-27T16:01:26.594Z"
     },
     {
+      "id": "0670a4b282",
+      "title": "Buč Kesidi",
+      "venue": "Vintage Industrial Bar Savska ulica 160",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-12-11T20:00:00",
+      "date_display": "pet, 11. 12. 2026.",
+      "time": "20:00",
+      "link": "https://www.muzika.hr/event/buc-kesidi-vintage-industrial-bar-zagreb-2026/",
+      "source": "muzika.hr",
+      "is_new": true,
+      "first_seen": "2026-11-23T06:01:19.200Z"
+    },
+    {
       "id": "df32219488",
       "title": "Razgled kazališta U sklopu programa Advent u Zagrebu 2026.",
       "venue": "HNK Zagreb",
@@ -2161,6 +2161,21 @@
       "source": "HNK Zagreb",
       "is_new": false,
       "first_seen": "2026-08-28T13:01:17.348Z"
+    },
+    {
+      "id": "0a9cfd39ab",
+      "title": "Ružno pače",
+      "venue": "Ružno pače Tvornica kulture Šubićeva 2",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-12-12T20:00:00",
+      "date_display": "sub, 12. 12. 2026.",
+      "time": "20:00",
+      "link": "https://www.muzika.hr/event/ruzno-pace-tvornica-kulture-zagreb-2026/",
+      "source": "muzika.hr",
+      "is_new": true,
+      "first_seen": "2026-11-23T06:01:19.200Z"
     },
     {
       "id": "43c8fdb3d3",
@@ -2476,6 +2491,21 @@
       "source": "HNK Zagreb",
       "is_new": false,
       "first_seen": "2026-08-28T10:01:17.450Z"
+    },
+    {
+      "id": "d6b5f49190",
+      "title": "Petar Iljič Čajkovski — Rudolf Nurejev Orašar",
+      "venue": "HNK Zagreb",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-12-30T19:30:00",
+      "date_display": "sri, 30. 12. 2026.",
+      "time": "19:30",
+      "link": "https://hnk.hr/hr/balet/predstave/ora%C5%A1arr2025/#30.12.19.30",
+      "source": "HNK Zagreb",
+      "is_new": true,
+      "first_seen": "2026-11-23T06:01:19.200Z"
     },
     {
       "id": "289850694e",
@@ -4672,5 +4702,5 @@
       "first_seen": "2026-11-19T09:01:32.137Z"
     }
   ],
-  "new_count": 4
+  "new_count": 8
 }
