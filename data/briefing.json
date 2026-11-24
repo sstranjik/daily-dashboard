@@ -1,17 +1,20 @@
 {
   "version": 2,
   "date": "2026-11-24",
-  "generated_at": "2026-11-24T06:03:07.335Z",
+  "generated_at": "2026-11-24T15:30:04.099Z",
   "date_hr": "Utorak, 24. studenog 2026.",
   "weather": {
-    "icon": "🌡️",
-    "summary": "Vremenski podaci nedostupni",
-    "alerts": [],
-    "error": "The operation was aborted due to timeout"
+    "icon": "☁️",
+    "summary": "-1–6°C, oblačno",
+    "alerts": []
   },
   "fuel": {
     "current_date": "24.11.2026",
     "eurodiesel": [
+      {
+        "company": "Adria Oil",
+        "price": 1.79
+      },
       {
         "company": "Coral Croatia",
         "price": 1.79
@@ -31,10 +34,6 @@
       {
         "company": "Tifon",
         "price": 1.79
-      },
-      {
-        "company": "Adria Oil",
-        "price": 1.82
       }
     ],
     "premium_eurodiesel": [
@@ -64,36 +63,36 @@
     "upcoming_premium": null
   },
   "market": {
-    "updated_at": "2026-11-24T06:03:07.335Z",
-    "btc_usd": 60570,
-    "btc_eur": 55524,
-    "btc_change_24h": -1.74,
+    "updated_at": "2026-11-24T15:30:04.099Z",
+    "btc_usd": 59763,
+    "btc_eur": 54488,
+    "btc_change_24h": -5.67,
     "usd_eur": 0.9156
   },
   "ai_news": [
+    {
+      "title": "Orange’s French-hosted Protected Mode runs OpenAI and Qwen, not Anthropic",
+      "link": "https://thenextweb.com/news/orange-business-live-intelligence-protected-mode-france",
+      "source": "The Next Web"
+    },
     {
       "title": "Anthropic launches Claude Ship, letting AI agents review, fix, and approve code changes",
       "link": "https://techcrunch.com/2026/11/23/anthropic-launches-claude-ship-letting-ai-agents-review-fix-and-approve-code-changes/",
       "source": "TechCrunch AI"
     },
     {
-      "title": "Can AI plan terrorist attacks? The US tested ChatGPT, Claude, Gemini, and Grok",
-      "link": "https://www.zdnet.com/innovation/ai-chatbots-terrorist-attack-plans-us-government-test/",
-      "source": "ZDNet"
-    },
-    {
-      "title": "Anthropic can now watch for Claude misuse without keeping firms’ data",
-      "link": "https://thenextweb.com/news/anthropic-enterprise-frontier-safeguards-zero-data-retention-beta",
+      "title": "Anthropic’s Alpöge says the 250,000-page Riemann proof figure was a joke",
+      "link": "https://thenextweb.com/news/alpoge-250000-page-riemann-proof-figure-joke-lean-clay-active",
       "source": "The Next Web"
     },
     {
-      "title": "Claude AI can review pull requests and ship fixes on its own now",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1040134/anthropic-claude-ship-ai-pull-requests",
-      "source": "The Verge"
+      "title": "AI lab staff reportedly fear unreleased models are too powerful to release",
+      "link": "https://thenextweb.com/news/anthropic-openai-staff-fear-unreleased-models-unsafe-axios",
+      "source": "The Next Web"
     },
     {
-      "title": "DeepMind’s AI agents found cheaper quantum algorithms, and proved them",
-      "link": "https://thenextweb.com/news/google-deepmind-gemini-agents-quantum-algorithms-lean",
+      "title": "Automation Anywhere completes Boost.ai deal to give its AI agents a voice",
+      "link": "https://thenextweb.com/news/automation-anywhere-completes-boost-ai-acquisition-customer-service",
       "source": "The Next Web"
     }
   ],
