@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-24T11:01:20.858Z",
+  "generated_at": "2026-11-24T12:01:22.364Z",
   "stats": {
     "muzika.hr": {
       "ok": true,
@@ -21,13 +21,13 @@
       "ok": true,
       "count": 2
     },
-    "Komedija": {
-      "ok": true,
-      "count": 0
-    },
     "ZeKaeM": {
       "ok": true,
       "count": 1
+    },
+    "Komedija": {
+      "ok": true,
+      "count": 0
     },
     "HNK Zagreb": {
       "ok": true,
@@ -37,13 +37,13 @@
       "ok": true,
       "count": 0
     },
-    "Trešnja": {
+    "Pogon": {
       "ok": true,
       "count": 0
     },
-    "Pogon": {
-      "ok": false,
-      "error": "The operation was aborted due to timeout"
+    "Trešnja": {
+      "ok": true,
+      "count": 0
     }
   },
   "concerts": [
@@ -1289,7 +1289,7 @@
       "time": "19:00",
       "link": "https://www.muzika.hr/event/svibanj-vol-2-promocija-vinila-zarkoff-live-klet/",
       "source": "muzika.hr",
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-24T11:01:20.858Z"
     },
     {
@@ -3170,21 +3170,6 @@
   ],
   "theater": [
     {
-      "id": "a6e2523ad3",
-      "title": "Kazališni doručak Centrifugalno kretanje povijesti u tragediji „Richard III.”",
-      "venue": "HNK Zagreb",
-      "city": "Zagreb",
-      "country": "HR",
-      "category": "theater",
-      "date_iso": "2026-11-09T12:00:00",
-      "date_display": "pon, 09. 11. 2026.",
-      "time": "12:00",
-      "link": "https://hnk.hr/hr/drama/predstave/centrifugalno-kretanje-povijesti-u-tragediji-richard-iii/#09.11.12.00",
-      "source": "HNK Zagreb",
-      "is_new": false,
-      "first_seen": "2026-11-06T11:01:19.569Z"
-    },
-    {
       "id": "2761b090ee",
       "title": "Dugo putovanje u noć",
       "venue": "Gavella",
@@ -4762,5 +4747,5 @@
       "first_seen": "2026-11-19T09:01:32.137Z"
     }
   ],
-  "new_count": 4
+  "new_count": 3
 }
