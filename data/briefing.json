@@ -1,61 +1,62 @@
 {
   "version": 2,
-  "date": "2026-11-23",
-  "generated_at": "2026-11-23T15:39:06.928Z",
-  "date_hr": "Ponedjeljak, 23. studenog 2026.",
+  "date": "2026-11-24",
+  "generated_at": "2026-11-24T06:03:07.335Z",
+  "date_hr": "Utorak, 24. studenog 2026.",
   "weather": {
-    "icon": "🌧️",
-    "summary": "3–7°C, kiša · 6.2 mm",
-    "alerts": []
+    "icon": "🌡️",
+    "summary": "Vremenski podaci nedostupni",
+    "alerts": [],
+    "error": "The operation was aborted due to timeout"
   },
   "fuel": {
-    "current_date": "23.11.2026",
+    "current_date": "24.11.2026",
     "eurodiesel": [
       {
-        "company": "Adria Oil",
-        "price": 1.82
-      },
-      {
         "company": "Coral Croatia",
-        "price": 1.82
+        "price": 1.79
       },
       {
         "company": "INA",
-        "price": 1.82
+        "price": 1.79
       },
       {
         "company": "LUKOIL Croatia",
-        "price": 1.82
+        "price": 1.79
       },
       {
         "company": "Petrol",
-        "price": 1.82
+        "price": 1.79
       },
       {
         "company": "Tifon",
+        "price": 1.79
+      },
+      {
+        "company": "Adria Oil",
         "price": 1.82
       }
     ],
     "premium_eurodiesel": [
       {
         "company": "LUKOIL Croatia",
-        "price": 1.98
+        "price": 1.95
       },
       {
         "company": "INA",
-        "price": 2.05
+        "price": 2.02
       },
       {
         "company": "Tifon",
-        "price": 2.07
+        "price": 2.04
       },
       {
         "company": "Petrol",
-        "price": 2.1
+        "price": 2.05
       },
       {
         "company": "Coral Croatia",
-        "price": 2.18
+        "price": 2.15
       }
     ],
     "upcoming_date": null,
@@ -63,46 +64,46 @@
     "upcoming_premium": null
   },
   "market": {
-    "updated_at": "2026-11-23T15:39:06.928Z",
-    "btc_usd": 63112,
-    "btc_eur": 57820,
-    "btc_change_24h": 3.84,
-    "usd_eur": 0.9111
+    "updated_at": "2026-11-24T06:03:07.335Z",
+    "btc_usd": 60570,
+    "btc_eur": 55524,
+    "btc_change_24h": -1.74,
+    "usd_eur": 0.9156
   },
   "ai_news": [
+    {
+      "title": "Anthropic launches Claude Ship, letting AI agents review, fix, and approve code changes",
+      "link": "https://techcrunch.com/2026/11/23/anthropic-launches-claude-ship-letting-ai-agents-review-fix-and-approve-code-changes/",
+      "source": "TechCrunch AI"
+    },
     {
       "title": "Can AI plan terrorist attacks? The US tested ChatGPT, Claude, Gemini, and Grok",
       "link": "https://www.zdnet.com/innovation/ai-chatbots-terrorist-attack-plans-us-government-test/",
       "source": "ZDNet"
     },
     {
-      "title": "Anthropicov IPO označava novu fazu utrke za dominaciju u AI industriji",
-      "link": "https://www.netokracija.com/anthropic-ipo-claude-ai-google-microsoft-249590",
-      "source": "Netokracija"
-    },
-    {
-      "title": "Dwelly’s AI agents now complete 55% of the steps in letting a UK home",
-      "link": "https://thenextweb.com/news/dwelly-ai-agents-55-percent-tenancy-steps-lifshits",
+      "title": "Anthropic can now watch for Claude misuse without keeping firms’ data",
+      "link": "https://thenextweb.com/news/anthropic-enterprise-frontier-safeguards-zero-data-retention-beta",
       "source": "The Next Web"
     },
     {
-      "title": "Google will shut the Nest app in January and swap Assistant for Gemini",
-      "link": "https://thenextweb.com/news/google-nest-app-shutdown-assistant-gemini-for-home",
-      "source": "The Next Web"
+      "title": "Claude AI can review pull requests and ship fixes on its own now",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1040134/anthropic-claude-ship-ai-pull-requests",
+      "source": "The Verge"
     },
     {
-      "title": "Levenza launches personal AI agents globally for the enterprise",
-      "link": "https://thenextweb.com/news/levenza-personal-ai-agents-enterprise-fluid-inference",
+      "title": "DeepMind’s AI agents found cheaper quantum algorithms, and proved them",
+      "link": "https://thenextweb.com/news/google-deepmind-gemini-agents-quantum-algorithms-lean",
       "source": "The Next Web"
     }
   ],
   "micro_tips": {
     "vscode": {
-      "tip": "Otvori datoteku brzim pretraživanjem",
-      "keys": "Ctrl+P"
+      "tip": "Toggle Word Wrap za dugačke linije",
+      "keys": "Alt+Z"
     },
-    "sql": "NOT EXISTS brži od NOT IN kad subquery može vratiti NULL vrijednost",
-    "oracle": "DBMS_STATS.GATHER_TABLE_STATS osvježava statistike za točniji execution plan",
-    "regex": "(?i) inline flag za case-insensitive bez mijenjanja ostatka patternahe"
+    "sql": "Parametrizirani upiti = plan cache reuse + SQL injection zaštita istovremeno",
+    "oracle": "NVL2(expr, kad_nije_null, kad_je_null) kompaktnija od dvostrukog NVL-a",
+    "regex": "\\s+ pokriva space, tab i newline; \\S je negacija (svaki ne-whitespace)"
   }
 }
