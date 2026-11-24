@@ -1,13 +1,9 @@
 {
-  "generated_at": "2026-11-23T21:01:23.279Z",
+  "generated_at": "2026-11-24T03:05:14.109Z",
   "stats": {
-    "muzika.hr": {
+    "Mochvara": {
       "ok": true,
-      "count": 25
-    },
-    "Lisinski": {
-      "ok": true,
-      "count": 0
+      "count": 11
     },
     "Gavella": {
       "ok": true,
@@ -17,17 +13,17 @@
       "ok": true,
       "count": 2
     },
-    "Mochvara": {
+    "Lisinski": {
       "ok": true,
-      "count": 12
+      "count": 0
+    },
+    "muzika.hr": {
+      "ok": true,
+      "count": 25
     },
     "Komedija": {
       "ok": true,
       "count": 0
-    },
-    "HNK Zagreb": {
-      "ok": true,
-      "count": 115
     },
     "ZeKaeM": {
       "ok": true,
@@ -36,6 +32,10 @@
     "Pogon": {
       "ok": true,
       "count": 0
+    },
+    "HNK Zagreb": {
+      "ok": true,
+      "count": 114
     },
     "Kerempuh": {
       "ok": true,
@@ -47,21 +47,6 @@
     }
   },
   "concerts": [
-    {
-      "id": "7754737bf9",
-      "title": "Sólstafir Ponedjeljak 9.11.2026.",
-      "venue": "Mochvara",
-      "city": "Zagreb",
-      "country": "HR",
-      "category": "concert",
-      "date_iso": "2026-11-09T00:00:00",
-      "date_display": "pon, 09. 11. 2026.",
-      "time": null,
-      "link": "https://mochvara.hr/event-detail/6a8d4de3c3276ddebd3550f9/",
-      "source": "Mochvara",
-      "is_new": false,
-      "first_seen": "2026-10-18T11:01:27.358Z"
-    },
     {
       "id": "39f2888ede",
       "title": "Post-metal koncert: Sólstafir",
@@ -1533,6 +1518,21 @@
       "first_seen": "2026-11-14T10:01:15.706Z"
     },
     {
+      "id": "546ed616d5",
+      "title": "SRCE Super sedmica, drugi dan",
+      "venue": "Mochvara",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-11-28T22:00:00",
+      "date_display": "sub, 28. 11. 2026.",
+      "time": "22:00",
+      "link": "https://mochvara.hr/event-detail/6aeb190663694136b1d5ad87/",
+      "source": "Mochvara",
+      "is_new": true,
+      "first_seen": "2026-11-24T03:05:14.109Z"
+    },
+    {
       "id": "0969ac55f0",
       "title": "Soul Legacy",
       "venue": "Lora Poljudsko šetalište bb",
@@ -2174,7 +2174,7 @@
       "time": "20:00",
       "link": "https://www.muzika.hr/event/buzzcocks-tvornica-kulture-zagreb-2026/",
       "source": "muzika.hr",
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-23T21:01:23.279Z"
     },
     {
@@ -2191,6 +2191,21 @@
       "source": "HNK Zagreb",
       "is_new": false,
       "first_seen": "2026-08-28T13:01:17.348Z"
+    },
+    {
+      "id": "5dde08398c",
+      "title": "Bilal",
+      "venue": "Grada Vukovara 68",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-12-15T00:00:00",
+      "date_display": "uto, 15. 12. 2026.",
+      "time": null,
+      "link": "https://www.muzika.hr/event/bilal/",
+      "source": "muzika.hr",
+      "is_new": true,
+      "first_seen": "2026-11-24T03:05:14.109Z"
     },
     {
       "id": "fe96b6c248",
@@ -2221,6 +2236,21 @@
       "source": "HNK Zagreb",
       "is_new": false,
       "first_seen": "2026-11-15T21:01:21.957Z"
+    },
+    {
+      "id": "5d9e8be306",
+      "title": "Avatar",
+      "venue": "Grada Vukovara 68",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-12-17T00:00:00",
+      "date_display": "čet, 17. 12. 2026.",
+      "time": null,
+      "link": "https://www.muzika.hr/event/avatar/",
+      "source": "muzika.hr",
+      "is_new": true,
+      "first_seen": "2026-11-24T03:05:14.109Z"
     },
     {
       "id": "f223d03244",
@@ -4612,21 +4642,6 @@
   ],
   "abroad": [
     {
-      "id": "49c40c94c3",
-      "title": "Bob Dylan",
-      "venue": "Bob Dylan Arena Stožice Stožice",
-      "city": "Ljubljana",
-      "country": "SI",
-      "category": "concert",
-      "date_iso": "2026-11-09T00:00:00",
-      "date_display": "pon, 09. 11. 2026.",
-      "time": null,
-      "link": "https://www.muzika.hr/event/bob-dylan/",
-      "source": "muzika.hr",
-      "is_new": false,
-      "first_seen": "2026-09-27T22:37:54.746Z"
-    },
-    {
       "id": "b5fcf1224d",
       "title": "Pitbull + Lil Jon",
       "venue": "Arena Bulevar Arsenija Carnojevića 58",
@@ -4702,5 +4717,5 @@
       "first_seen": "2026-11-19T09:01:32.137Z"
     }
   ],
-  "new_count": 4
+  "new_count": 6
 }
