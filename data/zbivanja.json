@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-24T09:01:21.463Z",
+  "generated_at": "2026-11-24T10:01:17.610Z",
   "stats": {
     "Mochvara": {
       "ok": true,
@@ -30,20 +30,20 @@
       "count": 0
     },
     "Pogon": {
-      "ok": false,
-      "error": "The operation was aborted due to timeout"
-    },
-    "HNK Zagreb": {
-      "ok": false,
-      "error": "The operation was aborted due to timeout"
+      "ok": true,
+      "count": 0
     },
     "Kerempuh": {
-      "ok": false,
-      "error": "The operation was aborted due to timeout"
+      "ok": true,
+      "count": 0
     },
     "Trešnja": {
-      "ok": false,
-      "error": "The operation was aborted due to timeout"
+      "ok": true,
+      "count": 0
+    },
+    "HNK Zagreb": {
+      "ok": true,
+      "count": 115
     }
   },
   "concerts": [
@@ -1576,6 +1576,21 @@
       "source": "muzika.hr",
       "is_new": false,
       "first_seen": "2026-11-17T23:12:47.117Z"
+    },
+    {
+      "id": "a46656e13a",
+      "title": "Znanstveno-umjetnički simpozij 1. Ludio doctus – Plesno kazalište: perspektive i prakse",
+      "venue": "HNK Zagreb",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-11-30T10:00:00",
+      "date_display": "pon, 30. 11. 2026.",
+      "time": "10:00",
+      "link": "https://hnk.hr/hr/novosti/znanstveno-umjetni%C4%8Dki-simpozij-1-ludio-doctus-plesno-kazali%C5%A1te-perspektive-i-prakse/#30.11.10.00",
+      "source": "HNK Zagreb",
+      "is_new": true,
+      "first_seen": "2026-11-24T10:01:17.610Z"
     },
     {
       "id": "0d7d7c2844",
@@ -4610,6 +4625,21 @@
       "first_seen": "2026-11-12T15:01:27.232Z"
     },
     {
+      "id": "f9862f48e2",
+      "title": "Oscar Wilde Idealan muž Velika predstave za mini publiku",
+      "venue": "HNK Zagreb",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "theater",
+      "date_iso": "2027-02-15T19:30:00",
+      "date_display": "pon, 15. 02. 2027.",
+      "time": "19:30",
+      "link": "https://hnk.hr/hr/drama/predstave/idealan-mu%C5%BE/#15.02.19.30",
+      "source": "HNK Zagreb",
+      "is_new": true,
+      "first_seen": "2026-11-24T10:01:17.610Z"
+    },
+    {
       "id": "bba462016c",
       "title": "Oscar Wilde Idealan muž",
       "venue": "HNK Zagreb",
@@ -4717,5 +4747,5 @@
       "first_seen": "2026-11-19T09:01:32.137Z"
     }
   ],
-  "new_count": 3
+  "new_count": 5
 }
