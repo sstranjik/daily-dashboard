@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-24T03:05:14.109Z",
+  "generated_at": "2026-11-24T06:01:16.641Z",
   "stats": {
     "Mochvara": {
       "ok": true,
@@ -9,33 +9,33 @@
       "ok": true,
       "count": 25
     },
-    "Tvornica": {
-      "ok": true,
-      "count": 2
-    },
     "Lisinski": {
       "ok": true,
       "count": 0
+    },
+    "Tvornica": {
+      "ok": true,
+      "count": 2
     },
     "muzika.hr": {
       "ok": true,
       "count": 25
     },
-    "Komedija": {
-      "ok": true,
-      "count": 0
-    },
     "ZeKaeM": {
       "ok": true,
       "count": 1
     },
-    "Pogon": {
+    "Komedija": {
       "ok": true,
       "count": 0
     },
     "HNK Zagreb": {
       "ok": true,
       "count": 114
+    },
+    "Pogon": {
+      "ok": true,
+      "count": 0
     },
     "Kerempuh": {
       "ok": true,
@@ -1529,7 +1529,7 @@
       "time": "22:00",
       "link": "https://mochvara.hr/event-detail/6aeb190663694136b1d5ad87/",
       "source": "Mochvara",
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-24T03:05:14.109Z"
     },
     {
@@ -2204,7 +2204,7 @@
       "time": null,
       "link": "https://www.muzika.hr/event/bilal/",
       "source": "muzika.hr",
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-24T03:05:14.109Z"
     },
     {
@@ -2249,7 +2249,7 @@
       "time": null,
       "link": "https://www.muzika.hr/event/avatar/",
       "source": "muzika.hr",
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-24T03:05:14.109Z"
     },
     {
@@ -4717,5 +4717,5 @@
       "first_seen": "2026-11-19T09:01:32.137Z"
     }
   ],
-  "new_count": 6
+  "new_count": 3
 }
