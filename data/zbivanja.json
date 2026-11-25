@@ -1,41 +1,37 @@
 {
-  "generated_at": "2026-11-25T09:01:26.347Z",
+  "generated_at": "2026-11-25T10:01:24.521Z",
   "stats": {
     "muzika.hr": {
       "ok": true,
       "count": 25
     },
-    "Mochvara": {
-      "ok": true,
-      "count": 11
-    },
     "Lisinski": {
       "ok": true,
       "count": 0
     },
-    "Gavella": {
+    "Mochvara": {
       "ok": true,
-      "count": 26
+      "count": 11
     },
     "Tvornica": {
       "ok": true,
       "count": 2
     },
-    "ZeKaeM": {
+    "Gavella": {
       "ok": true,
-      "count": 1
+      "count": 26
     },
     "Komedija": {
       "ok": true,
       "count": 0
     },
+    "ZeKaeM": {
+      "ok": true,
+      "count": 1
+    },
     "HNK Zagreb": {
       "ok": true,
       "count": 114
-    },
-    "Pogon": {
-      "ok": true,
-      "count": 0
     },
     "Kerempuh": {
       "ok": true,
@@ -44,6 +40,10 @@
     "Trešnja": {
       "ok": true,
       "count": 0
+    },
+    "Pogon": {
+      "ok": false,
+      "error": "The operation was aborted due to timeout"
     }
   },
   "concerts": [
@@ -1484,7 +1484,7 @@
       "time": "20:30",
       "link": "https://www.muzika.hr/event/domagoj-vukovic-vuk-u-koprivi/",
       "source": "muzika.hr",
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-25T09:01:26.347Z"
     },
     {
@@ -4777,5 +4777,5 @@
       "first_seen": "2026-11-19T09:01:32.137Z"
     }
   ],
-  "new_count": 4
+  "new_count": 3
 }
