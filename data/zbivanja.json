@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-25T13:01:21.988Z",
+  "generated_at": "2026-11-25T14:01:27.250Z",
   "stats": {
     "muzika.hr": {
       "ok": true,
@@ -13,13 +13,13 @@
       "ok": true,
       "count": 0
     },
-    "Gavella": {
-      "ok": true,
-      "count": 29
-    },
     "Tvornica": {
       "ok": true,
       "count": 2
+    },
+    "Gavella": {
+      "ok": true,
+      "count": 58
     },
     "ZeKaeM": {
       "ok": true,
@@ -29,21 +29,21 @@
       "ok": true,
       "count": 0
     },
-    "Kerempuh": {
-      "ok": true,
-      "count": 0
-    },
-    "Pogon": {
-      "ok": true,
-      "count": 0
-    },
     "HNK Zagreb": {
       "ok": true,
       "count": 114
     },
+    "Kerempuh": {
+      "ok": true,
+      "count": 0
+    },
     "Trešnja": {
       "ok": true,
       "count": 0
+    },
+    "Pogon": {
+      "ok": false,
+      "error": "The operation was aborted due to timeout"
     }
   },
   "concerts": [
@@ -4111,7 +4111,7 @@
       "time": null,
       "link": "https://www.gavella.hr/predstave/aktualne-predstave/dugo-putovanje-u-noc",
       "source": "Gavella",
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-25T13:01:21.988Z"
     },
     {
@@ -4126,7 +4126,7 @@
       "time": null,
       "link": "https://www.gavella.hr/predstave/aktualne-predstave/sigurna-kuca",
       "source": "Gavella",
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-25T13:01:21.988Z"
     },
     {
@@ -4143,6 +4143,21 @@
       "source": "HNK Zagreb",
       "is_new": false,
       "first_seen": "2026-10-26T14:01:29.147Z"
+    },
+    {
+      "id": "fefee50d37",
+      "title": "Sigurna kuća",
+      "venue": "Gavella",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "theater",
+      "date_iso": "2027-01-09T00:00:00",
+      "date_display": "sub, 09. 01. 2027.",
+      "time": null,
+      "link": "https://www.gavella.hr/predstave/aktualne-predstave/sigurna-kuca",
+      "source": "Gavella",
+      "is_new": true,
+      "first_seen": "2026-11-25T14:01:27.250Z"
     },
     {
       "id": "bfa7269ddf",
@@ -4175,6 +4190,21 @@
       "first_seen": "2026-10-26T14:01:29.147Z"
     },
     {
+      "id": "45ee51abf0",
+      "title": "Kockar",
+      "venue": "Gavella",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "theater",
+      "date_iso": "2027-01-12T00:00:00",
+      "date_display": "uto, 12. 01. 2027.",
+      "time": null,
+      "link": "https://www.gavella.hr/predstave/predstave-u-pripremi/kockar",
+      "source": "Gavella",
+      "is_new": true,
+      "first_seen": "2026-11-25T14:01:27.250Z"
+    },
+    {
       "id": "8c21f78b0b",
       "title": "Tena Štivičić Raseljene",
       "venue": "HNK Zagreb",
@@ -4190,6 +4220,36 @@
       "first_seen": "2026-10-26T14:01:29.147Z"
     },
     {
+      "id": "dd91ee5bb9",
+      "title": "Kockar",
+      "venue": "Gavella",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "theater",
+      "date_iso": "2027-01-13T00:00:00",
+      "date_display": "sri, 13. 01. 2027.",
+      "time": null,
+      "link": "https://www.gavella.hr/predstave/predstave-u-pripremi/kockar",
+      "source": "Gavella",
+      "is_new": true,
+      "first_seen": "2026-11-25T14:01:27.250Z"
+    },
+    {
+      "id": "5c7a3882b1",
+      "title": "Majka",
+      "venue": "Gavella",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "theater",
+      "date_iso": "2027-01-14T00:00:00",
+      "date_display": "čet, 14. 01. 2027.",
+      "time": null,
+      "link": "https://www.gavella.hr/predstave/aktualne-predstave/majka",
+      "source": "Gavella",
+      "is_new": true,
+      "first_seen": "2026-11-25T14:01:27.250Z"
+    },
+    {
       "id": "d75e871c62",
       "title": "Tena Štivičić Raseljene",
       "venue": "HNK Zagreb",
@@ -4203,6 +4263,21 @@
       "source": "HNK Zagreb",
       "is_new": false,
       "first_seen": "2026-11-03T12:33:37.704Z"
+    },
+    {
+      "id": "0ea94fb647",
+      "title": "Majka",
+      "venue": "Gavella",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "theater",
+      "date_iso": "2027-01-15T00:00:00",
+      "date_display": "pet, 15. 01. 2027.",
+      "time": null,
+      "link": "https://www.gavella.hr/predstave/aktualne-predstave/majka",
+      "source": "Gavella",
+      "is_new": true,
+      "first_seen": "2026-11-25T14:01:27.250Z"
     },
     {
       "id": "03e4faf825",
@@ -4355,6 +4430,36 @@
       "first_seen": "2026-11-11T12:01:20.172Z"
     },
     {
+      "id": "ad2c11f734",
+      "title": "Michelangelo Buonarroti",
+      "venue": "Gavella",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "theater",
+      "date_iso": "2027-01-21T00:00:00",
+      "date_display": "čet, 21. 01. 2027.",
+      "time": null,
+      "link": "https://www.gavella.hr/predstave/aktualne-predstave/michelangelo-buonarroti",
+      "source": "Gavella",
+      "is_new": true,
+      "first_seen": "2026-11-25T14:01:27.250Z"
+    },
+    {
+      "id": "66d64d29e1",
+      "title": "Michelangelo Buonarroti",
+      "venue": "Gavella",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "theater",
+      "date_iso": "2027-01-22T00:00:00",
+      "date_display": "pet, 22. 01. 2027.",
+      "time": null,
+      "link": "https://www.gavella.hr/predstave/aktualne-predstave/michelangelo-buonarroti",
+      "source": "Gavella",
+      "is_new": true,
+      "first_seen": "2026-11-25T14:01:27.250Z"
+    },
+    {
       "id": "d4b7c2fe10",
       "title": "Miroslav Krleža Zastave",
       "venue": "HNK Zagreb",
@@ -4368,6 +4473,21 @@
       "source": "HNK Zagreb",
       "is_new": false,
       "first_seen": "2026-11-11T14:01:20.714Z"
+    },
+    {
+      "id": "b6b12e5f47",
+      "title": "Michelangelo Buonarroti",
+      "venue": "Gavella",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "theater",
+      "date_iso": "2027-01-23T00:00:00",
+      "date_display": "sub, 23. 01. 2027.",
+      "time": null,
+      "link": "https://www.gavella.hr/predstave/aktualne-predstave/michelangelo-buonarroti",
+      "source": "Gavella",
+      "is_new": true,
+      "first_seen": "2026-11-25T14:01:27.250Z"
     },
     {
       "id": "43f5db7f04",
@@ -4385,6 +4505,21 @@
       "first_seen": "2026-10-22T09:01:28.413Z"
     },
     {
+      "id": "c167f3f57f",
+      "title": "Medeja",
+      "venue": "Gavella",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "theater",
+      "date_iso": "2027-01-25T00:00:00",
+      "date_display": "pon, 25. 01. 2027.",
+      "time": null,
+      "link": "https://www.gavella.hr/predstave/aktualne-predstave/medeja",
+      "source": "Gavella",
+      "is_new": true,
+      "first_seen": "2026-11-25T14:01:27.250Z"
+    },
+    {
       "id": "0646a58b32",
       "title": "Sanja Milardović Marija Antoaneta za ovo nema vremena",
       "venue": "HNK Zagreb",
@@ -4398,6 +4533,21 @@
       "source": "HNK Zagreb",
       "is_new": false,
       "first_seen": "2026-11-19T11:01:27.427Z"
+    },
+    {
+      "id": "eded36e458",
+      "title": "Medeja",
+      "venue": "Gavella",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "theater",
+      "date_iso": "2027-01-26T00:00:00",
+      "date_display": "uto, 26. 01. 2027.",
+      "time": null,
+      "link": "https://www.gavella.hr/predstave/aktualne-predstave/medeja",
+      "source": "Gavella",
+      "is_new": true,
+      "first_seen": "2026-11-25T14:01:27.250Z"
     },
     {
       "id": "e8d042a3e0",
@@ -4430,6 +4580,21 @@
       "first_seen": "2026-11-19T11:01:27.427Z"
     },
     {
+      "id": "48b535765c",
+      "title": "Cyrano de Bergerac",
+      "venue": "Gavella",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "theater",
+      "date_iso": "2027-01-28T00:00:00",
+      "date_display": "čet, 28. 01. 2027.",
+      "time": null,
+      "link": "https://www.gavella.hr/predstave/aktualne-predstave/cyrano-de-bergerac",
+      "source": "Gavella",
+      "is_new": true,
+      "first_seen": "2026-11-25T14:01:27.250Z"
+    },
+    {
       "id": "0d6c151eed",
       "title": "Sanja Milardović Marija Antoaneta za ovo nema vremena",
       "venue": "HNK Zagreb",
@@ -4443,6 +4608,21 @@
       "source": "HNK Zagreb",
       "is_new": false,
       "first_seen": "2026-11-19T14:01:25.984Z"
+    },
+    {
+      "id": "62efd484a7",
+      "title": "Cyrano de Bergerac",
+      "venue": "Gavella",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "theater",
+      "date_iso": "2027-01-29T00:00:00",
+      "date_display": "pet, 29. 01. 2027.",
+      "time": null,
+      "link": "https://www.gavella.hr/predstave/aktualne-predstave/cyrano-de-bergerac",
+      "source": "Gavella",
+      "is_new": true,
+      "first_seen": "2026-11-25T14:01:27.250Z"
     },
     {
       "id": "2b366ff27a",
@@ -4475,6 +4655,21 @@
       "first_seen": "2026-11-11T16:01:22.811Z"
     },
     {
+      "id": "2dd67ba880",
+      "title": "Carmina Burana",
+      "venue": "Gavella",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "theater",
+      "date_iso": "2027-02-02T00:00:00",
+      "date_display": "uto, 02. 02. 2027.",
+      "time": null,
+      "link": "https://www.gavella.hr/predstave/aktualne-predstave/carmina-burana",
+      "source": "Gavella",
+      "is_new": true,
+      "first_seen": "2026-11-25T14:01:27.250Z"
+    },
+    {
       "id": "3e1f1b8930",
       "title": "Annie Ernaux Godine",
       "venue": "HNK Zagreb",
@@ -4488,6 +4683,36 @@
       "source": "HNK Zagreb",
       "is_new": false,
       "first_seen": "2026-11-11T16:01:22.811Z"
+    },
+    {
+      "id": "4978bb1df8",
+      "title": "Carmina Burana",
+      "venue": "Gavella",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "theater",
+      "date_iso": "2027-02-03T00:00:00",
+      "date_display": "sri, 03. 02. 2027.",
+      "time": null,
+      "link": "https://www.gavella.hr/predstave/aktualne-predstave/carmina-burana",
+      "source": "Gavella",
+      "is_new": true,
+      "first_seen": "2026-11-25T14:01:27.250Z"
+    },
+    {
+      "id": "a65ac7af38",
+      "title": "Sigurna kuća",
+      "venue": "Gavella",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "theater",
+      "date_iso": "2027-02-05T00:00:00",
+      "date_display": "pet, 05. 02. 2027.",
+      "time": null,
+      "link": "https://www.gavella.hr/predstave/aktualne-predstave/sigurna-kuca",
+      "source": "Gavella",
+      "is_new": true,
+      "first_seen": "2026-11-25T14:01:27.250Z"
     },
     {
       "id": "e07ed230e5",
@@ -4505,6 +4730,21 @@
       "first_seen": "2026-11-16T12:01:27.170Z"
     },
     {
+      "id": "d10f478587",
+      "title": "Sigurna kuća",
+      "venue": "Gavella",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "theater",
+      "date_iso": "2027-02-06T00:00:00",
+      "date_display": "sub, 06. 02. 2027.",
+      "time": null,
+      "link": "https://www.gavella.hr/predstave/aktualne-predstave/sigurna-kuca",
+      "source": "Gavella",
+      "is_new": true,
+      "first_seen": "2026-11-25T14:01:27.250Z"
+    },
+    {
       "id": "a22a7f35f3",
       "title": "Fjodor M. Dostojevski Zločin i kazna",
       "venue": "HNK Zagreb",
@@ -4518,6 +4758,21 @@
       "source": "HNK Zagreb",
       "is_new": false,
       "first_seen": "2026-11-16T12:01:27.170Z"
+    },
+    {
+      "id": "bc3adea7cf",
+      "title": "Rondo",
+      "venue": "Gavella",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "theater",
+      "date_iso": "2027-02-08T00:00:00",
+      "date_display": "pon, 08. 02. 2027.",
+      "time": null,
+      "link": "https://www.gavella.hr/predstave/aktualne-predstave/rondo",
+      "source": "Gavella",
+      "is_new": true,
+      "first_seen": "2026-11-25T14:01:27.250Z"
     },
     {
       "id": "601c8f3b0a",
@@ -4535,6 +4790,36 @@
       "first_seen": "2026-11-12T15:01:27.232Z"
     },
     {
+      "id": "316f4101f9",
+      "title": "Mirisi, zlato i tamjan",
+      "venue": "Gavella",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "theater",
+      "date_iso": "2027-02-09T00:00:00",
+      "date_display": "uto, 09. 02. 2027.",
+      "time": null,
+      "link": "https://www.gavella.hr/predstave/aktualne-predstave/mirisi-zlato-i-tamjan",
+      "source": "Gavella",
+      "is_new": true,
+      "first_seen": "2026-11-25T14:01:27.250Z"
+    },
+    {
+      "id": "1bfe7bf7ec",
+      "title": "Rondo",
+      "venue": "Gavella",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "theater",
+      "date_iso": "2027-02-09T00:00:00",
+      "date_display": "uto, 09. 02. 2027.",
+      "time": null,
+      "link": "https://www.gavella.hr/predstave/aktualne-predstave/rondo",
+      "source": "Gavella",
+      "is_new": true,
+      "first_seen": "2026-11-25T14:01:27.250Z"
+    },
+    {
       "id": "d864c07799",
       "title": "Oscar Wilde Idealan muž",
       "venue": "HNK Zagreb",
@@ -4548,6 +4833,21 @@
       "source": "HNK Zagreb",
       "is_new": false,
       "first_seen": "2026-11-12T09:01:19.641Z"
+    },
+    {
+      "id": "47ee5b6d13",
+      "title": "Mirisi, zlato i tamjan",
+      "venue": "Gavella",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "theater",
+      "date_iso": "2027-02-10T00:00:00",
+      "date_display": "sri, 10. 02. 2027.",
+      "time": null,
+      "link": "https://www.gavella.hr/predstave/predstave-u-pripremi/mirisi-zlato-i-tamjan",
+      "source": "Gavella",
+      "is_new": true,
+      "first_seen": "2026-11-25T14:01:27.250Z"
     },
     {
       "id": "66ecc88b5c",
@@ -4700,6 +5000,126 @@
       "first_seen": "2026-11-12T15:01:27.232Z"
     },
     {
+      "id": "560a69c482",
+      "title": "Mediteranski brevijar, na valovima Radio Mediterana",
+      "venue": "Gavella",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "theater",
+      "date_iso": "2027-02-22T00:00:00",
+      "date_display": "pon, 22. 02. 2027.",
+      "time": null,
+      "link": "https://www.gavella.hr/predstave/aktualne-predstave/mediteranski-brevijar-na-valovima-radio-mediterana",
+      "source": "Gavella",
+      "is_new": true,
+      "first_seen": "2026-11-25T14:01:27.250Z"
+    },
+    {
+      "id": "13a1164fde",
+      "title": "Mediteranski brevijar, na valovima Radio Mediterana",
+      "venue": "Gavella",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "theater",
+      "date_iso": "2027-02-23T00:00:00",
+      "date_display": "uto, 23. 02. 2027.",
+      "time": null,
+      "link": "https://www.gavella.hr/predstave/aktualne-predstave/mediteranski-brevijar-na-valovima-radio-mediterana",
+      "source": "Gavella",
+      "is_new": true,
+      "first_seen": "2026-11-25T14:01:27.250Z"
+    },
+    {
+      "id": "f9ce6f0895",
+      "title": "Mediteranski brevijar, na valovima Radio Mediterana",
+      "venue": "Gavella",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "theater",
+      "date_iso": "2027-02-24T00:00:00",
+      "date_display": "sri, 24. 02. 2027.",
+      "time": null,
+      "link": "https://www.gavella.hr/predstave/aktualne-predstave/mediteranski-brevijar-na-valovima-radio-mediterana",
+      "source": "Gavella",
+      "is_new": true,
+      "first_seen": "2026-11-25T14:01:27.250Z"
+    },
+    {
+      "id": "f059919e3d",
+      "title": "Kockar",
+      "venue": "Gavella",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "theater",
+      "date_iso": "2027-02-25T00:00:00",
+      "date_display": "čet, 25. 02. 2027.",
+      "time": null,
+      "link": "https://www.gavella.hr/predstave/predstave-u-pripremi/kockar",
+      "source": "Gavella",
+      "is_new": true,
+      "first_seen": "2026-11-25T14:01:27.250Z"
+    },
+    {
+      "id": "09d61e55b8",
+      "title": "Kockar",
+      "venue": "Gavella",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "theater",
+      "date_iso": "2027-02-26T00:00:00",
+      "date_display": "pet, 26. 02. 2027.",
+      "time": null,
+      "link": "https://www.gavella.hr/predstave/predstave-u-pripremi/kockar",
+      "source": "Gavella",
+      "is_new": true,
+      "first_seen": "2026-11-25T14:01:27.250Z"
+    },
+    {
+      "id": "96d336830e",
+      "title": "Dugo putovanje u noć",
+      "venue": "Gavella",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "theater",
+      "date_iso": "2027-02-26T00:00:00",
+      "date_display": "pet, 26. 02. 2027.",
+      "time": null,
+      "link": "https://www.gavella.hr/predstave/aktualne-predstave/dugo-putovanje-u-noc",
+      "source": "Gavella",
+      "is_new": true,
+      "first_seen": "2026-11-25T14:01:27.250Z"
+    },
+    {
+      "id": "234e8d555f",
+      "title": "Kockar",
+      "venue": "Gavella",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "theater",
+      "date_iso": "2027-02-27T00:00:00",
+      "date_display": "sub, 27. 02. 2027.",
+      "time": null,
+      "link": "https://www.gavella.hr/predstave/predstave-u-pripremi/kockar",
+      "source": "Gavella",
+      "is_new": true,
+      "first_seen": "2026-11-25T14:01:27.250Z"
+    },
+    {
+      "id": "1a0d40267b",
+      "title": "Dugo putovanje u noć",
+      "venue": "Gavella",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "theater",
+      "date_iso": "2027-02-27T00:00:00",
+      "date_display": "sub, 27. 02. 2027.",
+      "time": null,
+      "link": "https://www.gavella.hr/predstave/aktualne-predstave/dugo-putovanje-u-noc",
+      "source": "Gavella",
+      "is_new": true,
+      "first_seen": "2026-11-25T14:01:27.250Z"
+    },
+    {
       "id": "33c79e4871",
       "title": "VIRTUALNA ŠETNJA KAZALIŠTEM",
       "venue": "ZeKaeM",
@@ -4792,5 +5212,5 @@
       "first_seen": "2026-11-19T09:01:32.137Z"
     }
   ],
-  "new_count": 5
+  "new_count": 31
 }
