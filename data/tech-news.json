@@ -1,7 +1,79 @@
 {
-  "last_updated": "2026-11-25T18:01:16.812Z",
+  "last_updated": "2026-11-25T19:01:18.265Z",
   "source_count": 11,
   "items": [
+    {
+      "id": "zdnet-0",
+      "title": "You can turn Claude artifacts into Windows and Mac apps now – here’s how",
+      "summary": "Anthropic’s new ‘install as app’ feature makes it easy to turn your Claude artifacts into desktop apps on your computer – with some limitations.",
+      "link": "https://www.zdnet.com/innovation/claude-artifacts-desktop-apps-mac-windows/",
+      "published": "2026-11-25T18:54:05.000Z",
+      "source": "ZDNet",
+      "category": "ai",
+      "xml_category": "[object object]",
+      "tags": [],
+      "image": "https://www.zdnet.com/wp-content/uploads/sites/3/How-to-turn-Claude-artifact-into-desktop-app-on-Mac-or-Windows-computer.jpg"
+    },
+    {
+      "id": "bug.hr-0",
+      "title": "Samsungov igraći monitor od 1.100 Hz uskoro kreće u prodaju",
+      "summary": "Novi Samsung Odyssey G6 omogućuje prebacivanje između HD rezolucije uz frekvenciju osvježavanja od 1.100 Hz i QHD rezolucije uz 600 Hz.",
+      "link": "https://www.bug.hr/monitori/samsungov-igraci-monitor-od-1100-hz-uskoro-krece-u-prodaju-64608",
+      "published": "2026-11-25T18:45:00.000Z",
+      "source": "Bug.hr",
+      "category": "general",
+      "xml_category": "monitori",
+      "tags": [],
+      "image": "https://www.bug.hr/img/samsungov-igraci-monitor-od-1100-hz-uskoro-krece-u-prodaju_NOW1Xq.jpg"
+    },
+    {
+      "id": "ars-technica-0",
+      "title": "Backblaze explains why it&#039;s sharing customer information with advertisers",
+      "summary": "Backblaze tells Ars it won't share users' backup, storage files with advertisers.",
+      "link": "https://arstechnica.com/information-technology/2026/11/backblaze-explains-why-its-sharing-customer-information-with-advertisers/",
+      "published": "2026-11-25T18:38:29.000Z",
+      "source": "Ars Technica",
+      "category": "ai",
+      "xml_category": "biz & it",
+      "tags": [],
+      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/GettyImages-1219679299-1152x648.jpg"
+    },
+    {
+      "id": "techcrunch-ai-0",
+      "title": "Want to buy your kid an AI toy this Christmas? Not in New York",
+      "summary": "New York has banned AI chatbot toys for five years as new research from Common Sense Media reveals troubling safety failures, including exposure to inappropriate content and risks to emotional development.",
+      "link": "https://techcrunch.com/2026/11/25/want-to-buy-your-kid-an-ai-toy-this-christmas-not-in-new-york/",
+      "published": "2026-11-25T18:11:46.000Z",
+      "source": "TechCrunch AI",
+      "category": "ai",
+      "xml_category": "ai",
+      "tags": [],
+      "image": null
+    },
+    {
+      "id": "zdnet-1",
+      "title": "Gen Z is the least interested in AI at work – and it’s not even close",
+      "summary": "Younger workers don’t find AI useful, according to a recent survey.",
+      "link": "https://www.zdnet.com/innovation/gen-z-employees-ai-survey/",
+      "published": "2026-11-25T18:07:00.000Z",
+      "source": "ZDNet",
+      "category": "ai",
+      "xml_category": "[object object]",
+      "tags": [],
+      "image": "https://www.zdnet.com/wp-content/uploads/sites/3/GettyImages-1183759564.jpg"
+    },
+    {
+      "id": "the-next-web-0",
+      "title": "Claude rewrote the API that serves Claude. Checking its work was harder",
+      "summary": "Anthropic has moved its Messages API from Python to Rust with Claude agents writing and fixing much of the code. Its tests could not be trusted, so it compared the two versions on live traffic, and says the new API uses about 70% less CPU per request. Anthropic has moved the main API behind Claude [",
+      "link": "https://thenextweb.com/news/anthropic-claude-messages-api-rust-migration",
+      "published": "2026-11-25T18:04:59.000Z",
+      "source": "The Next Web",
+      "category": "ai",
+      "xml_category": "anthropic",
+      "tags": [],
+      "image": "https://media.thenextweb.com/2026/10/anthropic-sign-office-building-entrance.avif"
+    },
     {
       "id": "the-verge-0",
       "title": "The Fairphone 6 Plus is modular, repairable, and $100 off right now",
@@ -27,7 +99,7 @@
       "image": null
     },
     {
-      "id": "the-next-web-0",
+      "id": "the-next-web-1",
       "title": "SAP staffer allegedly gave a startup partner’s demo to its rival",
       "summary": "An SAP employee allegedly passed confidential material from British AI startup Conduct, an SAP partner, to Berlin rival Qorelo, then joined Qorelo, Bloomberg reported. SAP did not tell Conduct after a whistleblower flagged it in October; SAP says the parties deny the claims. An SAP employee allegedl",
       "link": "https://thenextweb.com/news/sap-employee-conduct-qorelo-espionage-complaint",
@@ -51,7 +123,7 @@
       "image": null
     },
     {
-      "id": "techcrunch-ai-0",
+      "id": "techcrunch-ai-1",
       "title": "State AGs fight Character AI&#8217;s plan to auction off users&#8217; private chats",
       "summary": "The proposed Character.ai bankruptcy sale includes sensitive personal data from more than 21 million U.S. accounts, including 2.1 million registered to minors, the state AGs said.",
       "link": "https://techcrunch.com/2026/11/25/state-ags-fight-character-ais-plan-to-auction-off-users-private-chats/",
@@ -75,7 +147,7 @@
       "image": null
     },
     {
-      "id": "the-next-web-1",
+      "id": "the-next-web-2",
       "title": "Siemens is building an AI robot to unpack parts at its Erlangen plant",
       "summary": "Siemens is developing a robot that uses AI foundation models to unpack component deliveries at its Erlangen electronics plant, a job fixed robot programs cannot handle. At SPS 2026 it also showed an AI planner that it expects to cut manual planning work by 70% and costs by up to 20%. Siemens is deve",
       "link": "https://thenextweb.com/news/siemens-ai-unpacking-robot-production-planner-sps-2026",
@@ -99,31 +171,7 @@
       "image": "https://www.tportal.hr/media/thumbnail/500x300/2833206.png?cropId=0"
     },
     {
-      "id": "bug.hr-0",
-      "title": "Rockstar ponovo ima superhit, slijede – otkazi zaposlenima",
-      "summary": "GTA 6 je prema procjenama prvog dana zaradio više od dvije milijarde dolara, a ljudi koji su ga napravili boje se za posao. Razloga imaju: u zadnjih godinu i pol otkaze su dobivali timovi najprodavanijih igara jednako kao i timovi promašaja, a studiji su se zatvarali bez obzira na to što su napravil",
-      "link": "https://www.bug.hr/komentar/rockstar-ponovo-ima-superhit-slijede--otkazi-zaposlenima-64600",
-      "published": "2026-11-25T16:40:00.000Z",
-      "source": "Bug.hr",
-      "category": "general",
-      "xml_category": "komentar",
-      "tags": [],
-      "image": "https://www.bug.hr/img/rockstar-ponovo-ima-superhit-slijede--otkazi-zaposlenima_U_c8RF.jpg"
-    },
-    {
       "id": "bug.hr-1",
-      "title": "Prvi hrvatski satelit CroCube dobio svoju poštansku marku",
-      "summary": "Prigodna poštanska marka s motivom nanosatelita CroCube izlazi 27. studenog u nakladi od 20.000 primjeraka, čime Hrvatska pošta obilježava prvi hrvatski korak u svemir i uspjehe te pionirske misije",
-      "link": "https://www.bug.hr/dizajn/prvi-hrvatski-satelit-crocube-dobio-svoju-postansku-marku-64634",
-      "published": "2026-11-25T16:40:00.000Z",
-      "source": "Bug.hr",
-      "category": "general",
-      "xml_category": "dizajn",
-      "tags": [],
-      "image": "https://www.bug.hr/img/prvi-hrvatski-satelit-crocube-dobio-svoju-postansku-marku_GANNOk.jpg"
-    },
-    {
-      "id": "bug.hr-2",
       "title": "AI je stigao u kutiju za alat: kamera fotografira vijak i kaže koji nastavak uzeti za odvijač",
       "summary": "Arrowspace S1 prepoznaje vrstu i veličinu vijka, u kutiji osvijetli pravi nastavak i sam namjesti okretni moment",
       "link": "https://www.bug.hr/gadgeti/ai-je-stigao-u-kutiju-za-alat-kamera-fotografira-vijak-i-kaze-koji-nastavak-64630",
@@ -135,7 +183,31 @@
       "image": "https://www.bug.hr/img/ai-je-stigao-u-kutiju-za-alat-kamera-fotografira-vijak-i-kaze-koji-nastavak_ENtkPU.jpg"
     },
     {
-      "id": "the-next-web-2",
+      "id": "bug.hr-2",
+      "title": "Rockstar ponovo ima superhit, slijede – otkazi zaposlenima",
+      "summary": "GTA 6 je prema procjenama prvog dana zaradio više od dvije milijarde dolara, a ljudi koji su ga napravili boje se za posao. Razloga imaju: u zadnjih godinu i pol otkaze su dobivali timovi najprodavanijih igara jednako kao i timovi promašaja, a studiji su se zatvarali bez obzira na to što su napravil",
+      "link": "https://www.bug.hr/komentar/rockstar-ponovo-ima-superhit-slijede--otkazi-zaposlenima-64600",
+      "published": "2026-11-25T16:40:00.000Z",
+      "source": "Bug.hr",
+      "category": "general",
+      "xml_category": "komentar",
+      "tags": [],
+      "image": "https://www.bug.hr/img/rockstar-ponovo-ima-superhit-slijede--otkazi-zaposlenima_U_c8RF.jpg"
+    },
+    {
+      "id": "bug.hr-3",
+      "title": "Prvi hrvatski satelit CroCube dobio svoju poštansku marku",
+      "summary": "Prigodna poštanska marka s motivom nanosatelita CroCube izlazi 27. studenog u nakladi od 20.000 primjeraka, čime Hrvatska pošta obilježava prvi hrvatski korak u svemir i uspjehe te pionirske misije",
+      "link": "https://www.bug.hr/dizajn/prvi-hrvatski-satelit-crocube-dobio-svoju-postansku-marku-64634",
+      "published": "2026-11-25T16:40:00.000Z",
+      "source": "Bug.hr",
+      "category": "general",
+      "xml_category": "dizajn",
+      "tags": [],
+      "image": "https://www.bug.hr/img/prvi-hrvatski-satelit-crocube-dobio-svoju-postansku-marku_GANNOk.jpg"
+    },
+    {
+      "id": "the-next-web-3",
       "title": "Claude can now turn its artifacts into Mac and Windows desktop apps",
       "summary": "Claude can now turn the artifacts it builds into desktop apps for Mac and Windows. Anthropic began rolling out the “Install as app” feature in beta on Tuesday, on every plan, it said. After installation, an artifact gets its own icon and opens in its own window instead of inside Claude. It can still",
       "link": "https://thenextweb.com/news/claude-install-as-app-artifacts-mac-windows-desktop",
@@ -147,7 +219,7 @@
       "image": "https://media.thenextweb.com/2026/11/claude-website-thinking-partner-screen.avif"
     },
     {
-      "id": "bug.hr-3",
+      "id": "bug.hr-4",
       "title": "Pritužba: Mogu li znanstvenici povjeriti Claudeu neobjavljena istraživanja?",
       "summary": "Nastavno na nedavnu vijest o tome da je jezični model \"dokazao\" Riemannovu hipotezu, evo i pisma na tu temu matematičara koji se sam bavi tim istim istraživanjem",
       "link": "https://www.bug.hr/reagiranja/prituzba-mogu-li-znanstvenici-povjeriti-claudeu-neobjavljena-istrazivanja-64645",
@@ -159,7 +231,7 @@
       "image": "https://www.bug.hr/img/prituzba-mogu-li-znanstvenici-povjeriti-claudeu-neobjavljena-istrazivanja_ZGAQaj.jpg"
     },
     {
-      "id": "the-next-web-3",
+      "id": "the-next-web-4",
       "title": "Cloudflare wants AI agents to search websites, not crawl them",
       "summary": "Cloudflare has launched Search for Agents in beta for all customers, including free ones. Switching it on indexes a site and adds a search endpoint on its own domain, advertised on every page, so AI agents can search the site instead of crawling it page by page. Cloudflare has launched a switch that",
       "link": "https://thenextweb.com/news/cloudflare-search-for-agents-ai-website-search",
@@ -171,7 +243,7 @@
       "image": "https://media.thenextweb.com/2026/11/cloudflare-search-for-agents-graphic.avif"
     },
     {
-      "id": "the-next-web-4",
+      "id": "the-next-web-5",
       "title": "Ariane 6 launches 36 Amazon Leo satellites nine days after Vulcan failure",
       "summary": "Amazon is moving its next SpaceX launch for Amazon Leo forward to December. On Tuesday, Europe’s Ariane 6 put 36 more of its satellites into orbit. An Amazon official told Stephen Clark of Ars Technica that the Falcon 9 flight was originally due next year. Several more Falcon 9 launches will follow ",
       "link": "https://thenextweb.com/news/ariane-6-amazon-leo-36-satellites-falcon-9-december",
@@ -183,7 +255,7 @@
       "image": "https://media.thenextweb.com/2026/11/ariane-6-upper-stage-dlr-p5-2-test-stand-lampoldshausen.avif"
     },
     {
-      "id": "bug.hr-4",
+      "id": "bug.hr-5",
       "title": "Zemlje u kojima najviše gledaju podcaste",
       "summary": "Sjedinjene Američke Države dom su nekih od najpopularnijih podcasta na svijetu, no kada je riječ o njihovu praćenju, deseci zemalja nalaze se ispred SAD-a",
       "link": "https://mreza.bug.hr/internet/zemlje-u-kojima-najvise-gledaju-podcaste-64578",
@@ -195,7 +267,7 @@
       "image": "https://mreza.bug.hr/img/zemlje-u-kojima-najvise-gledaju-podcaste_H_ymRk.jpg"
     },
     {
-      "id": "bug.hr-5",
+      "id": "bug.hr-6",
       "title": "Deseti F2 - Future of Fintech: \"Novac u doba neizvjesnosti\"",
       "summary": "Konferencija o financijama ide online streamingom, 26. studenog....",
       "link": "https://www.bug.hr/konferencije/deseti-f2-future-of-fintech-novac-u-doba-neizvjesnosti-64647",
@@ -207,7 +279,7 @@
       "image": "https://www.bug.hr/img/deseti-f2-future-of-fintech-novac-u-doba-neizvjesnosti_qEz0ar.jpg"
     },
     {
-      "id": "bug.hr-6",
+      "id": "bug.hr-7",
       "title": "New York stao na kraj pretplatama za funkcije koje su već ugrađene u automobil",
       "summary": "Američka savezna država New York donijela je zakon kojim se proizvođačima i trgovcima vozila zabranjuje naplata pretplata za funkcije temeljene na već ugrađenom hardveru",
       "link": "https://autonet.bug.hr/propisi/new-york-stao-na-kraj-pretplatama-za-funkcije-koje-su-vec-ugradjene-u-automobil-64622",
@@ -231,7 +303,7 @@
       "image": "https://www.bug.hr/img/deseti-f2-future-of-fintech_qEz0ar.jpg"
     },
     {
-      "id": "the-next-web-5",
+      "id": "the-next-web-6",
       "title": "HPE shares fall the most since 2015 as memory costs squeeze HP and HPE",
       "summary": "HP and Hewlett Packard Enterprise split from Hewlett-Packard in 2015. This week both told investors that memory costs are squeezing their profits. HPE’s shares had their worst day since the split. HP gave a cautious outlook for its new fiscal year. HP: AI PCs and costly memory HP’s revenue rose 9.3%",
       "link": "https://thenextweb.com/news/hp-hpe-earnings-memory-costs-hpe-shares-fall",
@@ -267,7 +339,7 @@
       "image": "https://www.tportal.hr/media/thumbnail/500x300/2831920.jpeg?cropId=0"
     },
     {
-      "id": "the-next-web-6",
+      "id": "the-next-web-7",
       "title": "Asian data centres look to US buyers as US chip rules bite, Bloomberg says",
       "summary": "Data centres across Asia are trying to sell computing power meant for Chinese customers to buyers in the US. Washington has closed a loophole that let Chinese firms rent Nvidia’s top chips abroad. Newley Purnell reported it for Bloomberg on Wednesday, citing Ronit Jain, chief executive of Liquid Com",
       "link": "https://thenextweb.com/news/asia-data-centres-b300-prices-us-buyers-chip-rules",
@@ -279,7 +351,7 @@
       "image": "https://media.thenextweb.com/2026/11/data-centre-server-racks-corridor-blue-purple-lights-render.avif"
     },
     {
-      "id": "techcrunch-ai-1",
+      "id": "techcrunch-ai-2",
       "title": "AI data centers are becoming harder to build, and neoclouds are feeling it",
       "summary": "⁠Nvidia has made clear⁠ it won&#8217;t backstop an AI data center until it&#8217;s nearly ready to run, and that&#8217;s landing just as neoclouds report construction delays and more expensive debt. The message to developers is that land, power, and a finished building matter more than a pitch deck.",
       "link": "https://techcrunch.com/podcast/ai-data-centers-are-becoming-harder-to-build-and-neoclouds-are-feeling-it/",
@@ -291,7 +363,7 @@
       "image": null
     },
     {
-      "id": "the-next-web-7",
+      "id": "the-next-web-8",
       "title": "Adyen co-founder Pieter van der Does retires as Ingo Uytdehaage takes over",
       "summary": "The Dutch payments company Adyen will have a single chief executive from January. Co-founder Pieter van der Does leaves the co-CEO role on 31 December, and Ingo Uytdehaage, co-CEO since 2023, will run Adyen alone, Adyen said on Monday, the company’s 20th anniversary. Van der Does will stay on as an ",
       "link": "https://thenextweb.com/news/pieter-van-der-does-adyen-retires-ingo-uytdehaage-sole-ceo",
@@ -303,7 +375,7 @@
       "image": "https://media.thenextweb.com/2026/11/pieter-van-der-does-adyen-co-founder-smiling-booth.avif"
     },
     {
-      "id": "the-next-web-8",
+      "id": "the-next-web-9",
       "title": "BYD eyes a French plant days after a Dutch court bars its Ti7 from the EU",
       "summary": "BYD has entered exclusive talks to take over Ineos Automotive’s car plant in Hambach, France. It would be the Chinese carmaker’s second factory in Europe. The talks come days after a Dutch court barred BYD from selling its Ti7 SUV in the EU. The court found it infringes JLR’s design for the Land Rov",
       "link": "https://thenextweb.com/news/byd-ti7-eu-ban-land-rover-defender-hambach-ineos",
@@ -351,7 +423,7 @@
       "image": null
     },
     {
-      "id": "techcrunch-ai-2",
+      "id": "techcrunch-ai-3",
       "title": "Amazon and Meta reportedly in talks to lift blockade on AI agent Muse",
       "summary": "Amazon and Meta are discussing a potential deal that would end a two-month-long blockade of Muse.",
       "link": "https://techcrunch.com/2026/11/25/amazon-and-meta-reportedly-in-talks-to-lift-blockade-on-ai-agent-muse/",
@@ -423,7 +495,7 @@
       "image": "https://media.thenextweb.com/2026/11/quantum-computer-cryostat-gold-plates.avif"
     },
     {
-      "id": "bug.hr-7",
+      "id": "bug.hr-8",
       "title": "Black Friday ponuda na MMORC.com - Windows 11 Pro 12 €, Office 2024 Pro Plus 28 €",
       "summary": "MMORC.com nudi povoljan softver - kupite paket koji uključuje Office 2021 Pro i Windows 11 Pro za samo 36,44 € i opremite računalo novim trajno aktiviranim originalnim softverom",
       "link": "https://www.bug.hr/promo/black-friday-ponuda-na-mmorccom-windows-11-pro-12--office-2024-pro-plus-28-64640",
@@ -435,7 +507,7 @@
       "image": "https://www.bug.hr/img/black-friday-ponuda-na-mmorccom-windows-11-pro-12--office-2024-pro-plus-28_zVLnur.png"
     },
     {
-      "id": "bug.hr-8",
+      "id": "bug.hr-9",
       "title": "Skijaška sezona je pred vratima: Evo kako vam pametni sat može biti saveznik na skijaškim stazama",
       "summary": "Od navigacije na više od 3.000 skijališta do detaljne analize svakog zavoja, HUAWEI WATCH GT 7 Series donosi nove mogućnosti za ljubitelje zimskih sportova.",
       "link": "https://www.bug.hr/promo/skijaska-sezona-je-pred-vratima-evo-kako-vam-pametni-sat-moze-biti-saveznik-na-64639",
@@ -471,7 +543,7 @@
       "image": null
     },
     {
-      "id": "bug.hr-9",
+      "id": "bug.hr-10",
       "title": "Hrvatska najbolja među razvijenim zemljama po napretku kvalitete mreže u proteklih pet godina",
       "summary": "Usporedba ocjena za razdoblja 2020./2021. i 2025./2026. pokazuje da je Hrvatska ostvarila najveći napredak u ukupnoj kvaliteti mreže među 31 razvijenim gospodarstvom u ovom pregledu",
       "link": "https://www.bug.hr/istrazivanja/hrvatska-najbolja-medju-razvijenim-zemljama-po-napretku-kvalitete-mreze-u-64636",
@@ -507,7 +579,7 @@
       "image": "https://www.tportal.hr/media/thumbnail/500x300/2833103.jpeg?cropId=0"
     },
     {
-      "id": "techcrunch-ai-3",
+      "id": "techcrunch-ai-4",
       "title": "The questions Jensen Huang and Nvidia will still have to answer about Megaspeed",
       "summary": "The central question for investigators is what Nvidia knew about where those chips ended up and whether Huang's affair with a Megaspeed executive gave the company reason to doubt Megaspeed's assurances.",
       "link": "https://techcrunch.com/2026/11/25/the-questions-jensen-huang-and-nvidia-will-still-have-to-answer-about-megaspeed/",
@@ -567,7 +639,7 @@
       "image": "https://media.thenextweb.com/2026/11/3d-printers-printing-blue-plastic-parts-workbench.avif"
     },
     {
-      "id": "bug.hr-10",
+      "id": "bug.hr-11",
       "title": "Koji su novi automobili najsigurniji? Crash test Euro NCAP 2026, Škoda na vrhu",
       "summary": "Organizacija Euro NCAP je 18. studenoga objavila ocjene za deset novih modela, uglavnom SUV-ova, i samo Nissan Leaf nije dobio pet zvjezdica. Rezultate svih deset automobila po četirima područjima donosimo u tablici na kraju teksta",
       "link": "https://autonet.bug.hr/automobili/koji-su-novi-automobili-najsigurniji-crash-test-euro-ncap-2026-skoda-na-vrhu-64559",
@@ -579,7 +651,7 @@
       "image": "https://autonet.bug.hr/img/koji-su-novi-automobili-najsigurniji-crash-test-euro-ncap-2026-skoda-na-vrhu_MHHzQl.jpeg"
     },
     {
-      "id": "bug.hr-11",
+      "id": "bug.hr-12",
       "title": "Europol ugasio 57 ilegalnih IPTV usluga praćenjem traga novca u kriptovalutama",
       "summary": "Tijekom petodnevne operacije istražitelji, među kojima i oni iz Hrvatske, su uz pomoć kriptomjenjačnica identificirali 321 piratsku stranicu i ušli u trag transakcijama od 26 milijuna eura",
       "link": "https://www.bug.hr/pravosudje/europol-ugasio-57-ilegalnih-iptv-usluga-pracenjem-traga-novca-u-kriptovalutama-64633",
@@ -699,7 +771,7 @@
       "image": "https://media.thenextweb.com/2026/10/eu-flags-waving-blue-sky.avif"
     },
     {
-      "id": "bug.hr-12",
+      "id": "bug.hr-13",
       "title": "Skriva li se iza Neptuna još jedan planet Sunčevog sustava? Ili možda čak dva?",
       "summary": "Pluton smo otkrili još 1930., ali astronomi danas sumnjaju da se daleko iza Neptuna skrivaju znatno veći planeti od njega. Kako je moguće da ih ne vidimo, a ipak naslućujemo njihovo postojanje?",
       "link": "https://www.bug.hr/znanost/skriva-li-se-iza-neptuna-jos-jedan-planet-suncevog-sustava-ili-mozda-cak-dva-64625",
@@ -747,7 +819,7 @@
       "image": "https://www.tportal.hr/media/thumbnail/500x300/2832972.jpeg?cropId=0"
     },
     {
-      "id": "bug.hr-13",
+      "id": "bug.hr-14",
       "title": "Sljedeća generacija Xboxa ipak bi mogla zadržati naplatu multiplayera",
       "summary": "Zbog sve većih troškova hardvera i nestašice radne memorije, novo vodstvo Xboxa navodno odustaje od prvotne ideje prema kojoj je Project Helix trebao ponuditi potpuno besplatno mrežno igranje",
       "link": "https://www.bug.hr/igrace-konzole/sljedeca-generacija-xboxa-ipak-bi-mogla-zadrzati-naplatu-multiplayera-64609",
@@ -783,7 +855,7 @@
       "image": "https://media.thenextweb.com/2026/10/european-parliament-brussels-facade-eu-flag.avif"
     },
     {
-      "id": "bug.hr-14",
+      "id": "bug.hr-15",
       "title": "Span nudi besplatnu edukaciju o kibernetičkoj sigurnosti za poduzetnike",
       "summary": "Besplatna online edukacija dostupna je malim i srednjim poduzećima koja žele povećati svoju digitalnu otpornost",
       "link": "https://mreza.bug.hr/sigurnost/span-nudi-besplatnu-edukaciju-o-kibernetickoj-sigurnosti-za-poduzetnike-64635",
@@ -831,7 +903,7 @@
       "image": "https://media.thenextweb.com/2026/11/ftc-building-entrance-sign.avif"
     },
     {
-      "id": "bug.hr-15",
+      "id": "bug.hr-16",
       "title": "Uz pomoć lifta iz 1950-tih otkriven način kako slati poruke gravitacijom",
       "summary": "Iako je daleko od praktičnog, novootkriveni sustav dokazuje mogućnost komunikacije metodom koju uobičajene fizičke prepreke ne mogu zaustaviti",
       "link": "https://mreza.bug.hr/istrazivanja/uz-pomoc-lifta-iz-1950-tih-otkriven-nacin-kako-slati-poruke-gravitacijom-64605",
@@ -855,7 +927,7 @@
       "image": "https://www.tportal.hr/media/thumbnail/500x300/2832842.jpeg?cropId=0"
     },
     {
-      "id": "bug.hr-16",
+      "id": "bug.hr-17",
       "title": "TCL 27C2A Pro je mini LED 4K gaming monitor s Quantum Dot tehnologijom i vrlo visokom svjetlinom",
       "summary": "TCL se počeo i u segmentu monitora probijati na europsko tržište, a ovaj mini LED model ima napredne mogućnosti, bogat volumen boja, ergonomskih opcija i opremljenost",
       "link": "https://www.bug.hr/monitori/tcl-27c2a-pro-je-mini-led-4k-gaming-monitor-s-quantum-dot-tehnologijom-i-vrlo-64536",
@@ -867,7 +939,7 @@
       "image": "https://www.bug.hr/img/tcl-27c2a-pro-je-mini-led-4k-gaming-monitor-s-quantum-dot-tehnologijom-i-vrlo_dgjMJy.jpg"
     },
     {
-      "id": "bug.hr-17",
+      "id": "bug.hr-18",
       "title": "Ratna soba Silicijske doline: FT otkriva tko je zapravo vratio Jensena Huanga u Nvidiju",
       "summary": "Jensen Huang se nije vratio na čelo Nvidije zato što se upravni odbor predomislio sam od sebe. Iza povratka stoji mala skupina utjecajnih ljudi iz Silicijske doline koja je odmah nakon njegove ostavke formirala svojevrsnu \"ratnu sobu\" i u igru uvukla Bijelu kuću",
       "link": "https://www.bug.hr/biznis/ratna-soba-silicijske-doline-ft-otkriva-tko-je-zapravo-vratio-jensena-huanga-u-64621",
@@ -891,7 +963,7 @@
       "image": "https://media.thenextweb.com/2026/11/virkkunen-quantum-act-presser-strasbourg.avif"
     },
     {
-      "id": "bug.hr-18",
+      "id": "bug.hr-19",
       "title": "Triglav osiguranje predstavilo digitalna rješenja za bržu uslugu",
       "summary": "Na događanju \"NEXTmas by Triglav\" predstavljeni su novi proizvodi i usluge u sklopu Triglav kluba, od isplate štete za samo tri dana do novih usluga dostupnih na WhatsAppu",
       "link": "https://www.bug.hr/biznis/triglav-osiguranje-predstavilo-digitalna-rjesenja-za-brzu-uslugu-64614",
@@ -1083,7 +1155,7 @@
       "image": null
     },
     {
-      "id": "techcrunch-ai-4",
+      "id": "techcrunch-ai-5",
       "title": "Yale&#8217;s Sonnenfeld: Nvidia is a &#8216;detriment&#8217; to US industrial might — not a champion",
       "summary": "Yale's Jeffrey Sonnenfeld warns that what the market cheered Monday, Jensen Huang's White House–backed return as Nvidia's CEO and board member, could prove a giant mistake, exposing the directors to \"historic\" personal liability from a growing pile of lawsuits and raising the question of whether the",
       "link": "https://techcrunch.com/2026/11/24/yales-sonnenfeld-nvidia-is-a-detriment-to-u-s-industrial-might-not-a-champion/",
@@ -1131,7 +1203,7 @@
       "image": "https://www.tportal.hr/media/thumbnail/500x300/2832769.jpeg?cropId=0"
     },
     {
-      "id": "techcrunch-ai-5",
+      "id": "techcrunch-ai-6",
       "title": "Jensen Huang still thinks a succession plan creates unnecessary hierarchy",
       "summary": "It's a remarkable stance for a company that spent the last two weeks finding out what happens without its founder.",
       "link": "https://techcrunch.com/2026/11/24/jensen-huang-still-thinks-a-succession-plan-creates-unnecessary-hierarchy/",
@@ -1167,7 +1239,7 @@
       "image": "https://www.tportal.hr/media/thumbnail/500x300/2832604.jpeg?cropId=0"
     },
     {
-      "id": "techcrunch-ai-6",
+      "id": "techcrunch-ai-7",
       "title": "In all-hands meeting, Jensen Huang thanks White House and says he&#8217;s in therapy",
       "summary": "The Nvidia founder apologized to his staff on Tuesday and said he was grateful for a second chance to lead the company.",
       "link": "https://techcrunch.com/2026/11/24/in-all-hands-meeting-jensen-huang-thanks-white-house-and-says-hes-in-therapy/",
@@ -1203,7 +1275,7 @@
       "image": null
     },
     {
-      "id": "techcrunch-ai-7",
+      "id": "techcrunch-ai-8",
       "title": "Even the best AI agents struggle with everyday life",
       "summary": "As millions embrace personal AI assistants, a new benchmark reveals that even the most advanced AI models struggle to complete everyday tasks reliably and safely without introducing potential new problems.",
       "link": "https://techcrunch.com/2026/11/24/even-the-best-ai-agents-struggle-with-everyday-life/",
@@ -1215,7 +1287,7 @@
       "image": null
     },
     {
-      "id": "techcrunch-ai-8",
+      "id": "techcrunch-ai-9",
       "title": "Walmart teams up with Meta to bring Black Friday deals to AI agent Muse",
       "summary": "Walmart now lets customers shop Black Friday deals through Muse, Meta’s AI agent.",
       "link": "https://techcrunch.com/2026/11/24/walmart-teams-up-with-meta-to-bring-black-friday-deals-to-ai-agent-muse/",
@@ -1239,7 +1311,7 @@
       "image": "https://www.tportal.hr/media/thumbnail/500x300/2831917.jpeg?cropId=0"
     },
     {
-      "id": "techcrunch-ai-9",
+      "id": "techcrunch-ai-10",
       "title": "Maple raises $5.3M to build AI products that protect your data, even from itself",
       "summary": "The startup's encrypted AI architecture is designed to prevent even the company itself from accessing users' private data.",
       "link": "https://techcrunch.com/2026/11/24/maple-raises-5-3m-to-build-ai-products-that-protect-your-data-even-from-itself/",
@@ -1263,7 +1335,7 @@
       "image": null
     },
     {
-      "id": "zdnet-0",
+      "id": "zdnet-2",
       "title": "I gave Gemini access to my Wallet, and it immediately started saving me money",
       "summary": "Gemini gave me a little tough love and told me what I needed to hear about my finances.",
       "link": "https://www.zdnet.com/innovation/gemini-wallet-personal-intelligence/",
@@ -1405,114 +1477,6 @@
       "xml_category": "sigurnost",
       "tags": [],
       "image": "https://mreza.bug.hr/img/hakirana-europska-komisija-nijemci-digli-procjenu-prijetnje-na-kriticnu_zZx7BC.jpg"
-    },
-    {
-      "id": "the-verge-9",
-      "title": "Amazon is knocking almost $50 off six months of Apple TV",
-      "summary": "Streaming deals aren’t as plentiful as they used to be, but they’re still around if you know where to look. One that caught our eye is an offer for Apple TV for those with an Amazon account in the US. Apple’s streaming service usually costs $14.99 per month, but following this page will let you [&#8",
-      "link": "https://www.theverge.com/gadgets/1040046/apple-tv-subscription-streaming-sale-deal-black-friday",
-      "published": "2026-11-24T19:00:00.000Z",
-      "source": "The Verge",
-      "category": "tech",
-      "xml_category": "[object object]",
-      "tags": [],
-      "image": null
-    },
-    {
-      "id": "zdnet-1",
-      "title": "This hidden iOS 27 feature ensures you’ll never sleep through an alarm again",
-      "summary": "Say goodbye to accidentally silencing your alarms.",
-      "link": "https://www.zdnet.com/tech/iphone-hidden-alarm-volume-ios-27/",
-      "published": "2026-11-24T18:54:41.000Z",
-      "source": "ZDNet",
-      "category": "ai",
-      "xml_category": "[object object]",
-      "tags": [],
-      "image": "https://www.zdnet.com/wp-content/uploads/sites/3/4b53d313-b3d5-48a2-b812-ffe468e67652.jpg"
-    },
-    {
-      "id": "the-next-web-9",
-      "title": "You can now DM Meta’s Muse on Instagram to turn saves into plans",
-      "summary": "Meta has added its Muse AI agent to Instagram direct messages, inviting users to send it a DM to turn saved posts into plans, such as a trip. Muse already worked in its own app, in WhatsApp and on Instagram profiles, and Meta says it does not read private messages unless users allow it, though [&hel",
-      "link": "https://thenextweb.com/news/meta-muse-instagram-dms-saves-plans",
-      "published": "2026-11-24T18:50:37.000Z",
-      "source": "The Next Web",
-      "category": "general",
-      "xml_category": "apps",
-      "tags": [],
-      "image": "https://media.thenextweb.com/2026/10/meta-3d-logo-blue-gradient-background.avif"
-    },
-    {
-      "id": "tportal-17",
-      "title": "Austrija u strahu od podatkovnih centara jer bi mogli bi trošiti kao država: &#039;Moramo povući kočnicu&#039;",
-      "summary": "Gerhard Christiner, predsjednik uprave austrijskog operatora prijenosnog elektroenergetskog sustava APG, založio se na radiju Ö1 za jedinstvenu nacionalnu strategiju razvoja podatkovnih centara. Razlog je njihova golema potrošnja električne energije",
-      "link": "https://www.tportal.hr/tehno/clanak/austrija-u-strahu-od-podatkovnih-centara-jer-bi-mogli-bi-trositi-kao-drzava-moramo-povuci-kocnicu-20261124",
-      "published": "2026-11-24T18:45:00.000Z",
-      "source": "Tportal",
-      "category": "general",
-      "xml_category": "tech",
-      "tags": [],
-      "image": "https://www.tportal.hr/media/thumbnail/500x300/2832642.jpeg?cropId=0"
-    },
-    {
-      "id": "the-verge-4",
-      "title": "Now Firefox can select which sites use its VPN, and clear your browsing history with one click",
-      "summary": "Mozilla released Firefox 161 on Tuesday with a new setting you can use to choose which pages automatically open with the browser's VPN active. Using the \"Manage VPN rules\" option in Firefox's VPN panel, you can set it to \"always on\" or \"always off\" for specific sites, so you don't have to toggle it ",
-      "link": "https://www.theverge.com/tech/1041474/firefox-161-vpn-rules-fire-button",
-      "published": "2026-11-24T18:44:57.000Z",
-      "source": "The Verge",
-      "category": "general",
-      "xml_category": "[object object]",
-      "tags": [],
-      "image": null
-    },
-    {
-      "id": "techcrunch-ai-10",
-      "title": "Anthropic shares fall below IPO price, a worrying sign for AI startups",
-      "summary": "Anthropic’s post-IPO slump could put pressure on AI startup valuations.",
-      "link": "https://techcrunch.com/2026/11/24/anthropic-shares-fall-below-ipo-price-a-worrying-sign-for-ai-startups/",
-      "published": "2026-11-24T18:30:42.000Z",
-      "source": "TechCrunch AI",
-      "category": "ai",
-      "xml_category": "ai",
-      "tags": [],
-      "image": null
-    },
-    {
-      "id": "the-next-web-8",
-      "title": "Google will make AI agents use new gateways to reach Gmail and Drive",
-      "summary": "Google has made its Workspace MCP servers and CLI generally available and says AI agents must use them instead of existing REST APIs from February 1, 2027. Every call is checked against company policies, sensitive actions need user confirmation, and a new addendum bars AI tools from training on Work",
-      "link": "https://thenextweb.com/news/google-workspace-ai-agents-mcp-servers-rules",
-      "published": "2026-11-24T18:24:54.000Z",
-      "source": "The Next Web",
-      "category": "ai",
-      "xml_category": "artificial intelligence",
-      "tags": [],
-      "image": "https://media.thenextweb.com/2026/11/google-logo-neon-sign-office-wall-sydney.avif"
-    },
-    {
-      "id": "the-verge-5",
-      "title": "David Fincher is being dragged for suspected use of AI in his latest film",
-      "summary": "Though David Fincher's fans had been eagerly anticipating The Further Mis-Adventures of Cliff Booth, early screenings of the Once Upon a Time in Hollywood sequel starring Brad Pitt have raised questions about whether generative AI was used in the film. People have claimed that the movie is chock-ful",
-      "link": "https://www.theverge.com/entertainment/1041417/david-fincher-netflix-cliff-booth-ai-interpositive",
-      "published": "2026-11-24T18:15:00.000Z",
-      "source": "The Verge",
-      "category": "ai",
-      "xml_category": "[object object]",
-      "tags": [],
-      "image": null
-    },
-    {
-      "id": "techcrunch-ai-11",
-      "title": "UK warns AI-driven cyberattacks are exposing years of weak security",
-      "summary": "The British cyber agency says that \"building strong foundations has never mattered more\" as AI hacking tools rely on exploiting simple security flaws.",
-      "link": "https://techcrunch.com/2026/11/24/uk-warns-ai-driven-cyberattacks-are-exposing-years-of-weak-security/",
-      "published": "2026-11-24T18:02:59.000Z",
-      "source": "TechCrunch AI",
-      "category": "ai",
-      "xml_category": "ai",
-      "tags": [],
-      "image": null
     }
   ]
 }
