@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-25T08:01:21.030Z",
+  "generated_at": "2026-11-25T09:01:26.347Z",
   "stats": {
     "muzika.hr": {
       "ok": true,
@@ -13,13 +13,13 @@
       "ok": true,
       "count": 0
     },
-    "Tvornica": {
-      "ok": true,
-      "count": 2
-    },
     "Gavella": {
       "ok": true,
       "count": 26
+    },
+    "Tvornica": {
+      "ok": true,
+      "count": 2
     },
     "ZeKaeM": {
       "ok": true,
@@ -33,11 +33,11 @@
       "ok": true,
       "count": 114
     },
-    "Kerempuh": {
+    "Pogon": {
       "ok": true,
       "count": 0
     },
-    "Pogon": {
+    "Kerempuh": {
       "ok": true,
       "count": 0
     },
@@ -1471,6 +1471,21 @@
       "source": "muzika.hr",
       "is_new": false,
       "first_seen": "2026-11-07T06:01:18.891Z"
+    },
+    {
+      "id": "d4022e75ee",
+      "title": "Domagoj Vuković Vuk u Koprivi",
+      "venue": "Vuk u Koprivi MMC Kopriva Ilica 196",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-11-28T20:30:00",
+      "date_display": "sub, 28. 11. 2026.",
+      "time": "20:30",
+      "link": "https://www.muzika.hr/event/domagoj-vukovic-vuk-u-koprivi/",
+      "source": "muzika.hr",
+      "is_new": true,
+      "first_seen": "2026-11-25T09:01:26.347Z"
     },
     {
       "id": "6687fe4f2a",
@@ -4762,5 +4777,5 @@
       "first_seen": "2026-11-19T09:01:32.137Z"
     }
   ],
-  "new_count": 3
+  "new_count": 4
 }
