@@ -1,15 +1,15 @@
 {
   "version": 2,
-  "date": "2026-11-24",
-  "generated_at": "2026-11-24T15:30:04.099Z",
-  "date_hr": "Utorak, 24. studenog 2026.",
+  "date": "2026-11-25",
+  "generated_at": "2026-11-25T06:03:47.768Z",
+  "date_hr": "Srijeda, 25. studenog 2026.",
   "weather": {
-    "icon": "☁️",
-    "summary": "-1–6°C, oblačno",
+    "icon": "🌧️",
+    "summary": "3–5°C, lagana kiša",
     "alerts": []
   },
   "fuel": {
-    "current_date": "24.11.2026",
+    "current_date": "25.11.2026",
     "eurodiesel": [
       {
         "company": "Adria Oil",
@@ -63,11 +63,11 @@
     "upcoming_premium": null
   },
   "market": {
-    "updated_at": "2026-11-24T15:30:04.099Z",
-    "btc_usd": 59763,
-    "btc_eur": 54488,
-    "btc_change_24h": -5.67,
-    "usd_eur": 0.9156
+    "updated_at": "2026-11-25T06:03:47.768Z",
+    "btc_usd": 59031,
+    "btc_eur": 53954,
+    "btc_change_24h": -2.33,
+    "usd_eur": 0.9124
   },
   "ai_news": [
     {
@@ -76,33 +76,33 @@
       "source": "The Next Web"
     },
     {
-      "title": "Anthropic launches Claude Ship, letting AI agents review, fix, and approve code changes",
-      "link": "https://techcrunch.com/2026/11/23/anthropic-launches-claude-ship-letting-ai-agents-review-fix-and-approve-code-changes/",
-      "source": "TechCrunch AI"
-    },
-    {
-      "title": "Anthropic’s Alpöge says the 250,000-page Riemann proof figure was a joke",
-      "link": "https://thenextweb.com/news/alpoge-250000-page-riemann-proof-figure-joke-lean-clay-active",
+      "title": "Anthropic lets MCP servers ship skills and run background jobs in Claude",
+      "link": "https://thenextweb.com/news/anthropic-claude-skills-over-mcp-tasks-elicitation",
       "source": "The Next Web"
     },
     {
-      "title": "AI lab staff reportedly fear unreleased models are too powerful to release",
-      "link": "https://thenextweb.com/news/anthropic-openai-staff-fear-unreleased-models-unsafe-axios",
+      "title": "Anthropic’s new Siren test tempts Claude to break out of its sandbox",
+      "link": "https://thenextweb.com/news/anthropic-siren-claude-sandbox-escape-test",
       "source": "The Next Web"
     },
     {
-      "title": "Automation Anywhere completes Boost.ai deal to give its AI agents a voice",
-      "link": "https://thenextweb.com/news/automation-anywhere-completes-boost-ai-acquisition-customer-service",
+      "title": "OpenAI reportedly hires from the CIA as foreign spies target AI labs",
+      "link": "https://thenextweb.com/news/openai-anthropic-us-intelligence-hires-state-espionage-ft",
+      "source": "The Next Web"
+    },
+    {
+      "title": "US tells agencies to patch a flaw hackers’ AI agents found on their own",
+      "link": "https://thenextweb.com/news/cairn-ai-agents-zero-day-monai-label-cisa-amazon",
       "source": "The Next Web"
     }
   ],
   "micro_tips": {
     "vscode": {
-      "tip": "Toggle Word Wrap za dugačke linije",
-      "keys": "Alt+Z"
+      "tip": "Nađi i selektiraj sljedeće pojavljivanje",
+      "keys": "Ctrl+D"
     },
-    "sql": "Parametrizirani upiti = plan cache reuse + SQL injection zaštita istovremeno",
-    "oracle": "NVL2(expr, kad_nije_null, kad_je_null) kompaktnija od dvostrukog NVL-a",
-    "regex": "\\s+ pokriva space, tab i newline; \\S je negacija (svaki ne-whitespace)"
+    "sql": "Batch INSERT umjesto jednog-po-jednog: INSERT INTO t VALUES (...),(...),...",
+    "oracle": "FETCH FIRST n ROWS ONLY umjesto ROWNUM — kompatibilno s ORDER BY i čitljivije",
+    "regex": "^(?!.*pattern) negative lookahead: \"ova linija ne smije sadržavati X\""
   }
 }
