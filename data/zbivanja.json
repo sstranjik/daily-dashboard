@@ -1,25 +1,25 @@
 {
-  "generated_at": "2026-11-25T12:01:23.043Z",
+  "generated_at": "2026-11-25T13:01:21.988Z",
   "stats": {
-    "Lisinski": {
+    "muzika.hr": {
       "ok": true,
-      "count": 0
+      "count": 25
     },
     "Mochvara": {
       "ok": true,
       "count": 11
     },
+    "Lisinski": {
+      "ok": true,
+      "count": 0
+    },
     "Gavella": {
       "ok": true,
-      "count": 26
+      "count": 29
     },
     "Tvornica": {
       "ok": true,
       "count": 2
-    },
-    "muzika.hr": {
-      "ok": true,
-      "count": 25
     },
     "ZeKaeM": {
       "ok": true,
@@ -33,6 +33,10 @@
       "ok": true,
       "count": 0
     },
+    "Pogon": {
+      "ok": true,
+      "count": 0
+    },
     "HNK Zagreb": {
       "ok": true,
       "count": 114
@@ -40,10 +44,6 @@
     "Trešnja": {
       "ok": true,
       "count": 0
-    },
-    "Pogon": {
-      "ok": false,
-      "error": "The operation was aborted due to timeout"
     }
   },
   "concerts": [
@@ -4100,6 +4100,36 @@
       "first_seen": "2026-10-20T10:31:32.662Z"
     },
     {
+      "id": "2bb1b0d254",
+      "title": "Dugo putovanje u noć",
+      "venue": "Gavella",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "theater",
+      "date_iso": "2027-01-07T00:00:00",
+      "date_display": "čet, 07. 01. 2027.",
+      "time": null,
+      "link": "https://www.gavella.hr/predstave/aktualne-predstave/dugo-putovanje-u-noc",
+      "source": "Gavella",
+      "is_new": true,
+      "first_seen": "2026-11-25T13:01:21.988Z"
+    },
+    {
+      "id": "d1467c16fb",
+      "title": "Sigurna kuća",
+      "venue": "Gavella",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "theater",
+      "date_iso": "2027-01-08T00:00:00",
+      "date_display": "pet, 08. 01. 2027.",
+      "time": null,
+      "link": "https://www.gavella.hr/predstave/aktualne-predstave/sigurna-kuca",
+      "source": "Gavella",
+      "is_new": true,
+      "first_seen": "2026-11-25T13:01:21.988Z"
+    },
+    {
       "id": "67966a5b15",
       "title": "Tena Štivičić Raseljene",
       "venue": "HNK Zagreb",
@@ -4762,5 +4792,5 @@
       "first_seen": "2026-11-19T09:01:32.137Z"
     }
   ],
-  "new_count": 3
+  "new_count": 5
 }
