@@ -1,14 +1,6 @@
 {
-  "generated_at": "2026-11-25T01:10:08.190Z",
+  "generated_at": "2026-11-25T06:01:19.644Z",
   "stats": {
-    "muzika.hr": {
-      "ok": true,
-      "count": 25
-    },
-    "Mochvara": {
-      "ok": true,
-      "count": 11
-    },
     "Lisinski": {
       "ok": true,
       "count": 0
@@ -17,27 +9,35 @@
       "ok": true,
       "count": 2
     },
+    "Mochvara": {
+      "ok": true,
+      "count": 11
+    },
     "Gavella": {
       "ok": true,
       "count": 26
     },
-    "ZeKaeM": {
+    "muzika.hr": {
       "ok": true,
-      "count": 1
+      "count": 25
     },
     "Komedija": {
       "ok": true,
       "count": 0
     },
-    "Pogon": {
+    "ZeKaeM": {
       "ok": true,
-      "count": 0
+      "count": 1
     },
     "HNK Zagreb": {
       "ok": true,
       "count": 114
     },
     "Kerempuh": {
+      "ok": true,
+      "count": 0
+    },
+    "Pogon": {
       "ok": true,
       "count": 0
     },
@@ -1559,7 +1559,7 @@
       "time": "12:00",
       "link": "https://mochvara.hr/event-detail/6b01728bd339d69a335e3d2e/",
       "source": "Mochvara",
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-25T01:10:08.190Z"
     },
     {
@@ -1574,7 +1574,7 @@
       "time": "19:30",
       "link": "https://mochvara.hr/event-detail/6ae094d81a65fb5fc59790e8/",
       "source": "Mochvara",
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-25T01:10:08.190Z"
     },
     {
@@ -4762,5 +4762,5 @@
       "first_seen": "2026-11-19T09:01:32.137Z"
     }
   ],
-  "new_count": 5
+  "new_count": 3
 }
