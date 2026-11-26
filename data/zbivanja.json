@@ -1,21 +1,25 @@
 {
-  "generated_at": "2026-11-26T08:01:17.053Z",
+  "generated_at": "2026-11-26T09:01:25.064Z",
   "stats": {
-    "Mochvara": {
+    "Lisinski": {
       "ok": true,
-      "count": 11
+      "count": 0
     },
     "Tvornica": {
       "ok": true,
       "count": 1
     },
-    "Lisinski": {
-      "ok": true,
-      "count": 0
-    },
     "Gavella": {
       "ok": true,
       "count": 58
+    },
+    "Mochvara": {
+      "ok": true,
+      "count": 11
+    },
+    "Komedija": {
+      "ok": true,
+      "count": 0
     },
     "ZeKaeM": {
       "ok": true,
@@ -25,21 +29,17 @@
       "ok": true,
       "count": 25
     },
-    "Komedija": {
+    "Pogon": {
       "ok": true,
       "count": 0
     },
-    "Pogon": {
+    "Kerempuh": {
       "ok": true,
       "count": 0
     },
     "HNK Zagreb": {
       "ok": true,
-      "count": 113
-    },
-    "Kerempuh": {
-      "ok": true,
-      "count": 0
+      "count": 114
     },
     "Trešnja": {
       "ok": true,
@@ -2176,6 +2176,21 @@
       "source": "muzika.hr",
       "is_new": false,
       "first_seen": "2026-11-23T06:01:28.078Z"
+    },
+    {
+      "id": "88448eb5a5",
+      "title": "Nagrade Hrvatske glazbene mladeži Gala koncert laureata i svečana dodjela 38. Nagrade „Ivo Vuljević“",
+      "venue": "HNK Zagreb",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-12-13T11:00:00",
+      "date_display": "ned, 13. 12. 2026.",
+      "time": "11:00",
+      "link": "https://hnk.hr/hr/opera/predstave/gala-koncert-laureata-i-sve%C4%8Dana-dodjela-38-nagrade-ivo-vuljevi%C4%87/#13.12.11.00",
+      "source": "HNK Zagreb",
+      "is_new": true,
+      "first_seen": "2026-11-26T09:01:25.064Z"
     },
     {
       "id": "d22ff0a9bf",
@@ -5197,5 +5212,5 @@
       "first_seen": "2026-11-25T16:19:45.545Z"
     }
   ],
-  "new_count": 3
+  "new_count": 4
 }
