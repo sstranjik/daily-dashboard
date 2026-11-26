@@ -1,15 +1,15 @@
 {
   "version": 2,
-  "date": "2026-11-25",
-  "generated_at": "2026-11-25T15:15:58.304Z",
-  "date_hr": "Srijeda, 25. studenog 2026.",
+  "date": "2026-11-26",
+  "generated_at": "2026-11-26T06:02:54.139Z",
+  "date_hr": "Četvrtak, 26. studenog 2026.",
   "weather": {
     "icon": "🌧️",
-    "summary": "2–6°C, lagana kiša · 1.1 mm",
+    "summary": "2–4°C, kiša · 11.3 mm",
     "alerts": []
   },
   "fuel": {
-    "current_date": "25.11.2026",
+    "current_date": "26.11.2026",
     "eurodiesel": [
       {
         "company": "Adria Oil",
@@ -63,46 +63,46 @@
     "upcoming_premium": null
   },
   "market": {
-    "updated_at": "2026-11-25T15:15:58.304Z",
-    "btc_usd": 57899,
-    "btc_eur": 52931,
-    "btc_change_24h": -3.27,
+    "updated_at": "2026-11-26T06:02:54.139Z",
+    "btc_usd": 60697,
+    "btc_eur": 55376,
+    "btc_change_24h": 2.86,
     "usd_eur": 0.9124
   },
   "ai_news": [
     {
-      "title": "Anthropic lets MCP servers ship skills and run background jobs in Claude",
-      "link": "https://thenextweb.com/news/anthropic-claude-skills-over-mcp-tasks-elicitation",
+      "title": "OpenAI says heavy ChatGPT users may hit limits sooner as it merges Chat and Work",
+      "link": "https://techcrunch.com/2026/11/25/openai-says-heavy-chatgpt-users-may-hit-limits-sooner-as-it-merges-chat-and-work/",
+      "source": "TechCrunch AI"
+    },
+    {
+      "title": "OpenAI is testing a way to shield business prompts while its models run",
+      "link": "https://thenextweb.com/news/openai-private-inference-testing-customers",
       "source": "The Next Web"
     },
     {
-      "title": "Anthropic’s new Siren test tempts Claude to break out of its sandbox",
-      "link": "https://thenextweb.com/news/anthropic-siren-claude-sandbox-escape-test",
+      "title": "You can turn Claude artifacts into Windows and Mac apps now – here’s how",
+      "link": "https://www.zdnet.com/innovation/claude-artifacts-desktop-apps-mac-windows/",
+      "source": "ZDNet"
+    },
+    {
+      "title": "Claude rewrote the API that serves Claude. Checking its work was harder",
+      "link": "https://thenextweb.com/news/anthropic-claude-messages-api-rust-migration",
       "source": "The Next Web"
     },
     {
-      "title": "OpenAI reportedly hires from the CIA as foreign spies target AI labs",
-      "link": "https://thenextweb.com/news/openai-anthropic-us-intelligence-hires-state-espionage-ft",
-      "source": "The Next Web"
-    },
-    {
-      "title": "US tells agencies to patch a flaw hackers’ AI agents found on their own",
-      "link": "https://thenextweb.com/news/cairn-ai-agents-zero-day-monai-label-cisa-amazon",
-      "source": "The Next Web"
-    },
-    {
-      "title": "Amazon and Meta in talks to end the Muse blockade, Fortune reports",
-      "link": "https://thenextweb.com/news/amazon-and-meta-talks-muse-blockade-ads-fortune",
+      "title": "Claude can now turn its artifacts into Mac and Windows desktop apps",
+      "link": "https://thenextweb.com/news/claude-install-as-app-artifacts-mac-windows-desktop",
       "source": "The Next Web"
     }
   ],
   "micro_tips": {
     "vscode": {
-      "tip": "Nađi i selektiraj sljedeće pojavljivanje",
-      "keys": "Ctrl+D"
+      "tip": "Multi-cursor: postavi cursor na više mjesta istovremeno",
+      "keys": "Alt+Click"
     },
-    "sql": "Batch INSERT umjesto jednog-po-jednog: INSERT INTO t VALUES (...),(...),...",
-    "oracle": "FETCH FIRST n ROWS ONLY umjesto ROWNUM — kompatibilno s ORDER BY i čitljivije",
-    "regex": "^(?!.*pattern) negative lookahead: \"ova linija ne smije sadržavati X\""
+    "sql": "EXISTS umjesto IN za subqueries — brže jer stane na prvom podudaranju: WHERE EXISTS (SELECT 1 FROM ...)",
+    "oracle": "/*+ INDEX(t ime_indexa) */ forsira specifičan index kad optimizer bira full scan",
+    "regex": "\\b granica riječi: \\bword\\b podudara cijelu riječ, ne \"password\" ili \"swordfish\""
   }
 }
