@@ -1,11 +1,11 @@
 {
   "version": 2,
   "date": "2026-11-26",
-  "generated_at": "2026-11-26T06:02:54.139Z",
+  "generated_at": "2026-11-26T14:40:50.614Z",
   "date_hr": "Četvrtak, 26. studenog 2026.",
   "weather": {
     "icon": "🌧️",
-    "summary": "2–4°C, kiša · 11.3 mm",
+    "summary": "1–4°C, kiša · 13.1 mm",
     "alerts": []
   },
   "fuel": {
@@ -63,13 +63,18 @@
     "upcoming_premium": null
   },
   "market": {
-    "updated_at": "2026-11-26T06:02:54.139Z",
-    "btc_usd": 60697,
-    "btc_eur": 55376,
-    "btc_change_24h": 2.86,
-    "usd_eur": 0.9124
+    "updated_at": "2026-11-26T14:40:50.614Z",
+    "btc_usd": 60715,
+    "btc_eur": 55273,
+    "btc_change_24h": 5.1,
+    "usd_eur": 0.9121
   },
   "ai_news": [
+    {
+      "title": "OpenAI fixes a GPT-6.2 billing mistake, and users hit limits 40% faster",
+      "link": "https://thenextweb.com/news/openai-billing-mistake-gpt-6-2-usage-limits",
+      "source": "The Next Web"
+    },
     {
       "title": "OpenAI says heavy ChatGPT users may hit limits sooner as it merges Chat and Work",
       "link": "https://techcrunch.com/2026/11/25/openai-says-heavy-chatgpt-users-may-hit-limits-sooner-as-it-merges-chat-and-work/",
@@ -88,11 +93,6 @@
     {
       "title": "Claude rewrote the API that serves Claude. Checking its work was harder",
       "link": "https://thenextweb.com/news/anthropic-claude-messages-api-rust-migration",
-      "source": "The Next Web"
-    },
-    {
-      "title": "Claude can now turn its artifacts into Mac and Windows desktop apps",
-      "link": "https://thenextweb.com/news/claude-install-as-app-artifacts-mac-windows-desktop",
       "source": "The Next Web"
     }
   ],
