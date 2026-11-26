@@ -1,17 +1,9 @@
 {
-  "generated_at": "2026-11-26T11:01:31.286Z",
+  "generated_at": "2026-11-26T12:01:18.716Z",
   "stats": {
     "muzika.hr": {
       "ok": true,
       "count": 25
-    },
-    "Mochvara": {
-      "ok": true,
-      "count": 11
-    },
-    "Tvornica": {
-      "ok": true,
-      "count": 1
     },
     "Lisinski": {
       "ok": true,
@@ -21,6 +13,14 @@
       "ok": true,
       "count": 61
     },
+    "Tvornica": {
+      "ok": true,
+      "count": 1
+    },
+    "Mochvara": {
+      "ok": true,
+      "count": 11
+    },
     "ZeKaeM": {
       "ok": true,
       "count": 1
@@ -29,21 +29,21 @@
       "ok": true,
       "count": 0
     },
-    "Kerempuh": {
-      "ok": true,
-      "count": 0
-    },
     "HNK Zagreb": {
       "ok": true,
       "count": 114
     },
-    "Trešnja": {
+    "Kerempuh": {
       "ok": true,
       "count": 0
     },
     "Pogon": {
-      "ok": false,
-      "error": "The operation was aborted due to timeout"
+      "ok": true,
+      "count": 0
+    },
+    "Trešnja": {
+      "ok": true,
+      "count": 0
     }
   },
   "concerts": [
@@ -3736,7 +3736,7 @@
       "time": null,
       "link": "https://www.gavella.hr/predstave/roquette-market-ljubav-u-glavnoj-ulozi",
       "source": "Gavella",
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-26T11:01:31.286Z"
     },
     {
@@ -4651,7 +4651,7 @@
       "time": null,
       "link": "https://www.gavella.hr/predstave/hirosima-ljubavi-moja",
       "source": "Gavella",
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-26T11:01:31.286Z"
     },
     {
@@ -4696,7 +4696,7 @@
       "time": null,
       "link": "https://www.gavella.hr/predstave/hirosima-ljubavi-moja",
       "source": "Gavella",
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-26T11:01:31.286Z"
     },
     {
@@ -5257,5 +5257,5 @@
       "first_seen": "2026-11-25T16:19:45.545Z"
     }
   ],
-  "new_count": 6
+  "new_count": 3
 }
