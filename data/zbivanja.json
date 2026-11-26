@@ -1,25 +1,25 @@
 {
-  "generated_at": "2026-11-26T10:01:18.917Z",
+  "generated_at": "2026-11-26T11:01:31.286Z",
   "stats": {
     "muzika.hr": {
       "ok": true,
       "count": 25
     },
-    "Lisinski": {
-      "ok": true,
-      "count": 0
-    },
     "Mochvara": {
       "ok": true,
       "count": 11
     },
-    "Gavella": {
-      "ok": true,
-      "count": 58
-    },
     "Tvornica": {
       "ok": true,
       "count": 1
+    },
+    "Lisinski": {
+      "ok": true,
+      "count": 0
+    },
+    "Gavella": {
+      "ok": true,
+      "count": 61
     },
     "ZeKaeM": {
       "ok": true,
@@ -29,7 +29,7 @@
       "ok": true,
       "count": 0
     },
-    "Pogon": {
+    "Kerempuh": {
       "ok": true,
       "count": 0
     },
@@ -37,13 +37,13 @@
       "ok": true,
       "count": 114
     },
-    "Kerempuh": {
-      "ok": true,
-      "count": 0
-    },
     "Trešnja": {
       "ok": true,
       "count": 0
+    },
+    "Pogon": {
+      "ok": false,
+      "error": "The operation was aborted due to timeout"
     }
   },
   "concerts": [
@@ -3725,6 +3725,21 @@
       "first_seen": "2026-10-20T10:31:32.662Z"
     },
     {
+      "id": "92dc575af0",
+      "title": "Roquette Market: Ljubav u glavnoj ulozi",
+      "venue": "Gavella",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "theater",
+      "date_iso": "2026-12-04T00:00:00",
+      "date_display": "pet, 04. 12. 2026.",
+      "time": null,
+      "link": "https://www.gavella.hr/predstave/roquette-market-ljubav-u-glavnoj-ulozi",
+      "source": "Gavella",
+      "is_new": true,
+      "first_seen": "2026-11-26T11:01:31.286Z"
+    },
+    {
       "id": "5eca437ea6",
       "title": "Ronald Harwood Na čijoj strani",
       "venue": "HNK Zagreb",
@@ -4625,6 +4640,21 @@
       "first_seen": "2026-11-03T12:33:37.704Z"
     },
     {
+      "id": "76a8a379fb",
+      "title": "Hirošima, ljubavi moja",
+      "venue": "Gavella",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "theater",
+      "date_iso": "2027-02-01T00:00:00",
+      "date_display": "pon, 01. 02. 2027.",
+      "time": null,
+      "link": "https://www.gavella.hr/predstave/hirosima-ljubavi-moja",
+      "source": "Gavella",
+      "is_new": true,
+      "first_seen": "2026-11-26T11:01:31.286Z"
+    },
+    {
       "id": "6c2f0f72d6",
       "title": "Annie Ernaux Godine",
       "venue": "HNK Zagreb",
@@ -4653,6 +4683,21 @@
       "source": "Gavella",
       "is_new": false,
       "first_seen": "2026-11-25T14:01:27.250Z"
+    },
+    {
+      "id": "b25039558f",
+      "title": "Hirošima, ljubavi moja",
+      "venue": "Gavella",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "theater",
+      "date_iso": "2027-02-02T00:00:00",
+      "date_display": "uto, 02. 02. 2027.",
+      "time": null,
+      "link": "https://www.gavella.hr/predstave/hirosima-ljubavi-moja",
+      "source": "Gavella",
+      "is_new": true,
+      "first_seen": "2026-11-26T11:01:31.286Z"
     },
     {
       "id": "3e1f1b8930",
@@ -5212,5 +5257,5 @@
       "first_seen": "2026-11-25T16:19:45.545Z"
     }
   ],
-  "new_count": 3
+  "new_count": 6
 }
