@@ -1,23 +1,27 @@
 {
-  "generated_at": "2026-11-26T00:45:00.371Z",
+  "generated_at": "2026-11-26T06:01:18.742Z",
   "stats": {
     "muzika.hr": {
       "ok": true,
       "count": 25
     },
+    "Mochvara": {
+      "ok": true,
+      "count": 11
+    },
     "Lisinski": {
       "ok": true,
       "count": 0
+    },
+    "Tvornica": {
+      "ok": true,
+      "count": 1
     },
     "Gavella": {
       "ok": true,
       "count": 58
     },
-    "Mochvara": {
-      "ok": true,
-      "count": 11
-    },
-    "Tvornica": {
+    "ZeKaeM": {
       "ok": true,
       "count": 1
     },
@@ -25,23 +29,19 @@
       "ok": true,
       "count": 0
     },
-    "HNK Zagreb": {
-      "ok": true,
-      "count": 113
-    },
     "Pogon": {
       "ok": true,
       "count": 0
     },
-    "ZeKaeM": {
+    "HNK Zagreb": {
       "ok": true,
-      "count": 1
+      "count": 113
     },
-    "Trešnja": {
+    "Kerempuh": {
       "ok": true,
       "count": 0
     },
-    "Kerempuh": {
+    "Trešnja": {
       "ok": true,
       "count": 0
     }
@@ -1649,7 +1649,7 @@
       "time": "20:00",
       "link": "https://mochvara.hr/event-detail/6af30013c919d00386ecf869/",
       "source": "Mochvara",
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-26T00:45:00.371Z"
     },
     {
@@ -2279,7 +2279,7 @@
       "time": "20:00",
       "link": "https://www.muzika.hr/event/lika-kolorado-vintage-industrial-bar-zagreb-2026/",
       "source": "muzika.hr",
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-26T00:45:00.371Z"
     },
     {
@@ -5197,5 +5197,5 @@
       "first_seen": "2026-11-25T16:19:45.545Z"
     }
   ],
-  "new_count": 5
+  "new_count": 3
 }
