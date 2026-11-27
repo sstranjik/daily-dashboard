@@ -1,6 +1,10 @@
 {
-  "generated_at": "2026-11-27T00:08:09.296Z",
+  "generated_at": "2026-11-27T06:01:19.469Z",
   "stats": {
+    "Gavella": {
+      "ok": true,
+      "count": 61
+    },
     "Mochvara": {
       "ok": true,
       "count": 11
@@ -12,10 +16,6 @@
     "Tvornica": {
       "ok": true,
       "count": 1
-    },
-    "Gavella": {
-      "ok": true,
-      "count": 61
     },
     "muzika.hr": {
       "ok": true,
@@ -29,15 +29,15 @@
       "ok": true,
       "count": 0
     },
+    "Pogon": {
+      "ok": true,
+      "count": 0
+    },
     "HNK Zagreb": {
       "ok": true,
       "count": 114
     },
     "Kerempuh": {
-      "ok": true,
-      "count": 0
-    },
-    "Pogon": {
       "ok": true,
       "count": 0
     },
@@ -2294,7 +2294,7 @@
       "time": null,
       "link": "https://www.muzika.hr/event/she-loves-pablo-lazarvs-from-another-mother-vintage-industrial-bar-zagreb/",
       "source": "muzika.hr",
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-27T00:08:09.296Z"
     },
     {
@@ -5242,5 +5242,5 @@
       "first_seen": "2026-11-25T16:19:45.545Z"
     }
   ],
-  "new_count": 4
+  "new_count": 3
 }
