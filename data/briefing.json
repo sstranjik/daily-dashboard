@@ -1,15 +1,15 @@
 {
   "version": 2,
-  "date": "2026-11-26",
-  "generated_at": "2026-11-26T14:40:50.614Z",
-  "date_hr": "Četvrtak, 26. studenog 2026.",
+  "date": "2026-11-27",
+  "generated_at": "2026-11-27T06:03:04.580Z",
+  "date_hr": "Petak, 27. studenog 2026.",
   "weather": {
-    "icon": "🌧️",
-    "summary": "1–4°C, kiša · 13.1 mm",
+    "icon": "❄️",
+    "summary": "0–4°C, snijeg · 3 mm",
     "alerts": []
   },
   "fuel": {
-    "current_date": "26.11.2026",
+    "current_date": "27.11.2026",
     "eurodiesel": [
       {
         "company": "Adria Oil",
@@ -63,46 +63,46 @@
     "upcoming_premium": null
   },
   "market": {
-    "updated_at": "2026-11-26T14:40:50.614Z",
-    "btc_usd": 60715,
-    "btc_eur": 55273,
-    "btc_change_24h": 5.1,
-    "usd_eur": 0.9121
+    "updated_at": "2026-11-27T06:03:04.580Z",
+    "btc_usd": 61718,
+    "btc_eur": 56211,
+    "btc_change_24h": 1.83,
+    "usd_eur": 0.9113
   },
   "ai_news": [
+    {
+      "title": "Firefox now spends 27% of its effort on security fixes, up from 10%",
+      "link": "https://thenextweb.com/news/firefox-mozilla-security-effort-27-percent-ai-bugs",
+      "source": "The Next Web"
+    },
+    {
+      "title": "Moonshot reportedly turns to Google and Meta models for distillation",
+      "link": "https://thenextweb.com/news/moonshot-distilling-google-meta-zai-glm-5-5-delay",
+      "source": "The Next Web"
+    },
     {
       "title": "OpenAI fixes a GPT-6.2 billing mistake, and users hit limits 40% faster",
       "link": "https://thenextweb.com/news/openai-billing-mistake-gpt-6-2-usage-limits",
       "source": "The Next Web"
     },
     {
-      "title": "OpenAI says heavy ChatGPT users may hit limits sooner as it merges Chat and Work",
-      "link": "https://techcrunch.com/2026/11/25/openai-says-heavy-chatgpt-users-may-hit-limits-sooner-as-it-merges-chat-and-work/",
-      "source": "TechCrunch AI"
+      "title": "Anthropic sad testira modele tako što ih stavlja u iskušenje",
+      "link": "https://www.tportal.hr/tehno/clanak/anthropic-sad-testira-modele-tako-sto-ih-stavlja-u-iskusenje-20261126",
+      "source": "Tportal"
     },
     {
-      "title": "OpenAI is testing a way to shield business prompts while its models run",
-      "link": "https://thenextweb.com/news/openai-private-inference-testing-customers",
-      "source": "The Next Web"
-    },
-    {
-      "title": "You can turn Claude artifacts into Windows and Mac apps now – here’s how",
-      "link": "https://www.zdnet.com/innovation/claude-artifacts-desktop-apps-mac-windows/",
-      "source": "ZDNet"
-    },
-    {
-      "title": "Claude rewrote the API that serves Claude. Checking its work was harder",
-      "link": "https://thenextweb.com/news/anthropic-claude-messages-api-rust-migration",
+      "title": "Anthropic’s Amodei hits back at Axios and rival CEOs over AI and free will",
+      "link": "https://thenextweb.com/news/amodei-free-will-ai-axios-vibes-rival-ceos-suleyman",
       "source": "The Next Web"
     }
   ],
   "micro_tips": {
     "vscode": {
-      "tip": "Multi-cursor: postavi cursor na više mjesta istovremeno",
-      "keys": "Alt+Click"
+      "tip": "Command Palette: brzi pristup svim komandama",
+      "keys": "Ctrl+Shift+P"
     },
-    "sql": "EXISTS umjesto IN za subqueries — brže jer stane na prvom podudaranju: WHERE EXISTS (SELECT 1 FROM ...)",
-    "oracle": "/*+ INDEX(t ime_indexa) */ forsira specifičan index kad optimizer bira full scan",
-    "regex": "\\b granica riječi: \\bword\\b podudara cijelu riječ, ne \"password\" ili \"swordfish\""
+    "sql": "Nikad SELECT * u produkciji — navedi kolone, manji I/O i bolji cache plan",
+    "oracle": "/*+ PARALLEL(t 4) */ paralelno izvršavanje querija na N thread-ova",
+    "regex": "(?:group) non-capturing group: grupiraj bez pamćenja za veće performanse"
   }
 }
