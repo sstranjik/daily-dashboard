@@ -1,31 +1,7 @@
 {
-  "generated_at": "2026-11-27T21:01:22.931Z",
+  "generated_at": "2026-11-27T23:47:42.832Z",
   "stats": {
-    "muzika.hr": {
-      "ok": true,
-      "count": 25
-    },
     "Mochvara": {
-      "ok": true,
-      "count": 11
-    },
-    "Lisinski": {
-      "ok": true,
-      "count": 0
-    },
-    "Tvornica": {
-      "ok": true,
-      "count": 1
-    },
-    "Gavella": {
-      "ok": true,
-      "count": 60
-    },
-    "ZeKaeM": {
-      "ok": true,
-      "count": 1
-    },
-    "Komedija": {
       "ok": true,
       "count": 0
     },
@@ -33,17 +9,41 @@
       "ok": true,
       "count": 0
     },
+    "Lisinski": {
+      "ok": true,
+      "count": 0
+    },
+    "Gavella": {
+      "ok": true,
+      "count": 60
+    },
+    "Tvornica": {
+      "ok": true,
+      "count": 1
+    },
+    "ZeKaeM": {
+      "ok": true,
+      "count": 0
+    },
+    "muzika.hr": {
+      "ok": true,
+      "count": 25
+    },
+    "Trešnja": {
+      "ok": true,
+      "count": 0
+    },
     "Kerempuh": {
+      "ok": true,
+      "count": 0
+    },
+    "Komedija": {
       "ok": true,
       "count": 0
     },
     "HNK Zagreb": {
       "ok": true,
       "count": 114
-    },
-    "Trešnja": {
-      "ok": true,
-      "count": 0
     }
   },
   "concerts": [
@@ -2356,6 +2356,21 @@
       "source": "Tvornica Kulture",
       "is_new": false,
       "first_seen": "2026-10-30T09:01:28.986Z"
+    },
+    {
+      "id": "675a7392ec",
+      "title": "Baby Lasagna",
+      "venue": "Grada Vukovara 68",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-12-19T20:00:00",
+      "date_display": "sub, 19. 12. 2026.",
+      "time": "20:00",
+      "link": "https://www.muzika.hr/event/baby-lasagna-boogaloo-zagreb-2026/",
+      "source": "muzika.hr",
+      "is_new": true,
+      "first_seen": "2026-11-27T23:47:42.832Z"
     },
     {
       "id": "77d0d4c6f4",
@@ -5165,7 +5180,22 @@
       "source": "muzika.hr",
       "is_new": false,
       "first_seen": "2026-11-25T16:19:45.545Z"
+    },
+    {
+      "id": "5175c6a94e",
+      "title": "Bob Vylan",
+      "venue": "Kino Šiška Trg Prekomorskih brigad 3",
+      "city": "Ljubljana",
+      "country": "SI",
+      "category": "concert",
+      "date_iso": "2026-12-18T20:00:00",
+      "date_display": "pet, 18. 12. 2026.",
+      "time": "20:00",
+      "link": "https://www.muzika.hr/event/bob-vylan-kino-siska-ljubljana-2026/",
+      "source": "muzika.hr",
+      "is_new": true,
+      "first_seen": "2026-11-27T23:47:42.832Z"
     }
   ],
-  "new_count": 3
+  "new_count": 5
 }
