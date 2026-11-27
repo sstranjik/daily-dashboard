@@ -1,13 +1,21 @@
 {
-  "generated_at": "2026-11-26T21:01:19.247Z",
+  "generated_at": "2026-11-27T00:08:09.296Z",
   "stats": {
     "Mochvara": {
       "ok": true,
-      "count": 0
+      "count": 11
     },
-    "Pogon": {
+    "Lisinski": {
       "ok": true,
       "count": 0
+    },
+    "Tvornica": {
+      "ok": true,
+      "count": 1
+    },
+    "Gavella": {
+      "ok": true,
+      "count": 61
     },
     "muzika.hr": {
       "ok": true,
@@ -15,27 +23,7 @@
     },
     "ZeKaeM": {
       "ok": true,
-      "count": 0
-    },
-    "Lisinski": {
-      "ok": true,
-      "count": 0
-    },
-    "Gavella": {
-      "ok": true,
-      "count": 61
-    },
-    "Tvornica": {
-      "ok": true,
       "count": 1
-    },
-    "Kerempuh": {
-      "ok": true,
-      "count": 0
-    },
-    "Trešnja": {
-      "ok": true,
-      "count": 0
     },
     "Komedija": {
       "ok": true,
@@ -44,6 +32,18 @@
     "HNK Zagreb": {
       "ok": true,
       "count": 114
+    },
+    "Kerempuh": {
+      "ok": true,
+      "count": 0
+    },
+    "Pogon": {
+      "ok": true,
+      "count": 0
+    },
+    "Trešnja": {
+      "ok": true,
+      "count": 0
     }
   },
   "concerts": [
@@ -2283,6 +2283,21 @@
       "first_seen": "2026-11-26T00:45:00.371Z"
     },
     {
+      "id": "32ad753c89",
+      "title": "She Loves Pablo + Lazarvs + From Another Mother",
+      "venue": "Vintage Industrial Bar Savska ulica 160",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-12-18T00:00:00",
+      "date_display": "pet, 18. 12. 2026.",
+      "time": null,
+      "link": "https://www.muzika.hr/event/she-loves-pablo-lazarvs-from-another-mother-vintage-industrial-bar-zagreb/",
+      "source": "muzika.hr",
+      "is_new": true,
+      "first_seen": "2026-11-27T00:08:09.296Z"
+    },
+    {
       "id": "f223d03244",
       "title": "Giacomo Puccini La Bohème",
       "venue": "HNK Zagreb",
@@ -3169,21 +3184,6 @@
     }
   ],
   "theater": [
-    {
-      "id": "c0dd745fc9",
-      "title": "Bunike: Nisam stala",
-      "venue": "Gavella",
-      "city": "Zagreb",
-      "country": "HR",
-      "category": "theater",
-      "date_iso": "2026-11-12T00:00:00",
-      "date_display": "čet, 12. 11. 2026.",
-      "time": null,
-      "link": "https://www.gavella.hr/predstave/bunike-nisam-stala",
-      "source": "Gavella",
-      "is_new": false,
-      "first_seen": "2026-10-08T13:01:29.678Z"
-    },
     {
       "id": "24c404de68",
       "title": "Cyrano de Bergerac",
@@ -5242,5 +5242,5 @@
       "first_seen": "2026-11-25T16:19:45.545Z"
     }
   ],
-  "new_count": 3
+  "new_count": 4
 }
