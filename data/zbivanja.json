@@ -1,19 +1,31 @@
 {
-  "generated_at": "2026-11-27T10:01:29.029Z",
+  "generated_at": "2026-11-27T11:01:23.365Z",
   "stats": {
+    "Mochvara": {
+      "ok": true,
+      "count": 11
+    },
+    "Lisinski": {
+      "ok": true,
+      "count": 0
+    },
     "Tvornica": {
       "ok": true,
       "count": 1
-    },
-    "Mochvara": {
-      "ok": true,
-      "count": 0
     },
     "muzika.hr": {
       "ok": true,
       "count": 25
     },
+    "Gavella": {
+      "ok": true,
+      "count": 61
+    },
     "ZeKaeM": {
+      "ok": true,
+      "count": 1
+    },
+    "Komedija": {
       "ok": true,
       "count": 0
     },
@@ -21,29 +33,17 @@
       "ok": true,
       "count": 0
     },
-    "Lisinski": {
+    "HNK Zagreb": {
       "ok": true,
-      "count": 0
-    },
-    "Gavella": {
-      "ok": true,
-      "count": 61
-    },
-    "Trešnja": {
-      "ok": true,
-      "count": 0
-    },
-    "Komedija": {
-      "ok": true,
-      "count": 0
+      "count": 114
     },
     "Kerempuh": {
       "ok": true,
       "count": 0
     },
-    "HNK Zagreb": {
-      "ok": true,
-      "count": 114
+    "Trešnja": {
+      "ok": false,
+      "error": "The operation was aborted due to timeout"
     }
   },
   "concerts": [
@@ -1651,6 +1651,21 @@
       "source": "Mochvara",
       "is_new": false,
       "first_seen": "2026-11-26T14:39:07.256Z"
+    },
+    {
+      "id": "2c53d643d4",
+      "title": "Književnost u Močvari: Lara Mitraković, Nora Verde",
+      "venue": "Mochvara",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-12-02T19:00:00",
+      "date_display": "sri, 02. 12. 2026.",
+      "time": "19:00",
+      "link": "https://mochvara.hr/event-detail/6b0957add1495caf2417cc61/",
+      "source": "Mochvara",
+      "is_new": true,
+      "first_seen": "2026-11-27T11:01:23.365Z"
     },
     {
       "id": "81ce92621a",
@@ -5242,5 +5257,5 @@
       "first_seen": "2026-11-25T16:19:45.545Z"
     }
   ],
-  "new_count": 3
+  "new_count": 4
 }
