@@ -1,12 +1,13 @@
 {
   "version": 2,
   "date": "2026-11-27",
-  "generated_at": "2026-11-27T06:03:04.580Z",
+  "generated_at": "2026-11-27T14:38:11.230Z",
   "date_hr": "Petak, 27. studenog 2026.",
   "weather": {
-    "icon": "❄️",
-    "summary": "0–4°C, snijeg · 3 mm",
-    "alerts": []
+    "icon": "🌡️",
+    "summary": "Vremenski podaci nedostupni",
+    "alerts": [],
+    "error": "The operation was aborted due to timeout"
   },
   "fuel": {
     "current_date": "27.11.2026",
@@ -63,10 +64,10 @@
     "upcoming_premium": null
   },
   "market": {
-    "updated_at": "2026-11-27T06:03:04.580Z",
-    "btc_usd": 61718,
-    "btc_eur": 56211,
-    "btc_change_24h": 1.83,
+    "updated_at": "2026-11-27T14:38:11.230Z",
+    "btc_usd": 60694,
+    "btc_eur": 55427,
+    "btc_change_24h": -0.07,
     "usd_eur": 0.9113
   },
   "ai_news": [
@@ -81,8 +82,8 @@
       "source": "The Next Web"
     },
     {
-      "title": "OpenAI fixes a GPT-6.2 billing mistake, and users hit limits 40% faster",
-      "link": "https://thenextweb.com/news/openai-billing-mistake-gpt-6-2-usage-limits",
+      "title": "Switzerland confirms first AI agent cyberattacks on critical infrastructure",
+      "link": "https://thenextweb.com/news/switzerland-ai-agent-cyberattacks-critical-infrastructure",
       "source": "The Next Web"
     },
     {
