@@ -1,16 +1,15 @@
 {
   "version": 2,
-  "date": "2026-11-27",
-  "generated_at": "2026-11-27T14:38:11.230Z",
-  "date_hr": "Petak, 27. studenog 2026.",
+  "date": "2026-11-28",
+  "generated_at": "2026-11-28T06:03:24.106Z",
+  "date_hr": "Subota, 28. studenog 2026.",
   "weather": {
-    "icon": "🌡️",
-    "summary": "Vremenski podaci nedostupni",
-    "alerts": [],
-    "error": "The operation was aborted due to timeout"
+    "icon": "🌧️",
+    "summary": "1–3°C, lagana kiša",
+    "alerts": []
   },
   "fuel": {
-    "current_date": "27.11.2026",
+    "current_date": "28.11.2026",
     "eurodiesel": [
       {
         "company": "Adria Oil",
@@ -52,7 +51,7 @@
       },
       {
         "company": "Petrol",
-        "price": 2.05
+        "price": 2.07
       },
       {
         "company": "Coral Croatia",
@@ -64,46 +63,46 @@
     "upcoming_premium": null
   },
   "market": {
-    "updated_at": "2026-11-27T14:38:11.230Z",
-    "btc_usd": 60694,
-    "btc_eur": 55427,
-    "btc_change_24h": -0.07,
-    "usd_eur": 0.9113
+    "updated_at": "2026-11-28T06:03:24.106Z",
+    "btc_usd": 59715,
+    "btc_eur": 54561,
+    "btc_change_24h": -3.24,
+    "usd_eur": 0.9136
   },
   "ai_news": [
     {
-      "title": "Firefox now spends 27% of its effort on security fixes, up from 10%",
-      "link": "https://thenextweb.com/news/firefox-mozilla-security-effort-27-percent-ai-bugs",
+      "title": "Papa John’s AI agent pays by bank, not card, in TrueLayer’s FCA pilot",
+      "link": "https://thenextweb.com/news/papa-johns-ai-agent-pay-by-bank-truelayer-fca-pilot",
       "source": "The Next Web"
     },
     {
-      "title": "Moonshot reportedly turns to Google and Meta models for distillation",
-      "link": "https://thenextweb.com/news/moonshot-distilling-google-meta-zai-glm-5-5-delay",
+      "title": "Pet komunikacijskih AI predviđanja za 2027. godinu",
+      "link": "https://www.bug.hr/trendovi/pet-komunikacijskih-ai-predvidjanja-za-2027-godinu-64713",
+      "source": "Bug.hr"
+    },
+    {
+      "title": "OpenAI countersues Apple, accusing it of pressuring suppliers",
+      "link": "https://thenextweb.com/news/openai-countersues-apple-suppliers-pressure-devices",
+      "source": "The Next Web"
+    },
+    {
+      "title": "Shoppers ask AI for Black Friday deals, but few let the bots pay",
+      "link": "https://thenextweb.com/news/ai-shopping-agents-black-friday-retailers-trust",
       "source": "The Next Web"
     },
     {
       "title": "Switzerland confirms first AI agent cyberattacks on critical infrastructure",
       "link": "https://thenextweb.com/news/switzerland-ai-agent-cyberattacks-critical-infrastructure",
       "source": "The Next Web"
-    },
-    {
-      "title": "Anthropic sad testira modele tako što ih stavlja u iskušenje",
-      "link": "https://www.tportal.hr/tehno/clanak/anthropic-sad-testira-modele-tako-sto-ih-stavlja-u-iskusenje-20261126",
-      "source": "Tportal"
-    },
-    {
-      "title": "Anthropic’s Amodei hits back at Axios and rival CEOs over AI and free will",
-      "link": "https://thenextweb.com/news/amodei-free-will-ai-axios-vibes-rival-ceos-suleyman",
-      "source": "The Next Web"
     }
   ],
   "micro_tips": {
     "vscode": {
-      "tip": "Command Palette: brzi pristup svim komandama",
-      "keys": "Ctrl+Shift+P"
+      "tip": "Rename Symbol svuda u projektu (refactoring)",
+      "keys": "F2"
     },
-    "sql": "Nikad SELECT * u produkciji — navedi kolone, manji I/O i bolji cache plan",
-    "oracle": "/*+ PARALLEL(t 4) */ paralelno izvršavanje querija na N thread-ova",
-    "regex": "(?:group) non-capturing group: grupiraj bez pamćenja za veće performanse"
+    "sql": "Covering index: uključi sve kolone iz WHERE + SELECT u index pa nema pristupa tablici",
+    "oracle": "/*+ NO_MERGE(v) */ sprječava merging inline viewa s parent queryjem",
+    "regex": "(?=pattern) lookahead: \"iza ovog mora slijediti X\" bez konzumiranja znakova"
   }
 }
