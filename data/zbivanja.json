@@ -1,14 +1,6 @@
 {
-  "generated_at": "2026-11-28T16:01:19.963Z",
+  "generated_at": "2026-11-28T17:01:21.587Z",
   "stats": {
-    "Mochvara": {
-      "ok": true,
-      "count": 0
-    },
-    "Pogon": {
-      "ok": true,
-      "count": 0
-    },
     "muzika.hr": {
       "ok": true,
       "count": 25
@@ -17,9 +9,9 @@
       "ok": true,
       "count": 0
     },
-    "ZeKaeM": {
+    "Mochvara": {
       "ok": true,
-      "count": 0
+      "count": 11
     },
     "Gavella": {
       "ok": true,
@@ -29,15 +21,23 @@
       "ok": true,
       "count": 1
     },
+    "ZeKaeM": {
+      "ok": true,
+      "count": 1
+    },
+    "Komedija": {
+      "ok": true,
+      "count": 0
+    },
     "Kerempuh": {
       "ok": true,
       "count": 0
     },
-    "Trešnja": {
+    "Pogon": {
       "ok": true,
       "count": 0
     },
-    "Komedija": {
+    "Trešnja": {
       "ok": true,
       "count": 0
     },
@@ -1441,6 +1441,21 @@
       "source": "HNK Zagreb",
       "is_new": false,
       "first_seen": "2026-11-11T15:01:22.385Z"
+    },
+    {
+      "id": "55be19a85c",
+      "title": "Noć mračnog cirkusa 10",
+      "venue": "Mochvara",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-11-30T20:00:00",
+      "date_display": "pon, 30. 11. 2026.",
+      "time": "20:00",
+      "link": "https://mochvara.hr/event-detail/6b0afea35d34a3346fac6492/",
+      "source": "Mochvara",
+      "is_new": true,
+      "first_seen": "2026-11-28T17:01:21.587Z"
     },
     {
       "id": "07bb4a8025",
@@ -5167,5 +5182,5 @@
       "first_seen": "2026-11-27T23:47:42.832Z"
     }
   ],
-  "new_count": 3
+  "new_count": 4
 }
