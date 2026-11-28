@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-28T14:01:22.832Z",
+  "generated_at": "2026-11-28T14:39:50.938Z",
   "stats": {
     "muzika.hr": {
       "ok": true,
@@ -13,15 +13,11 @@
       "ok": true,
       "count": 0
     },
-    "Tvornica": {
-      "ok": true,
-      "count": 1
-    },
     "Gavella": {
       "ok": true,
       "count": 60
     },
-    "ZeKaeM": {
+    "Tvornica": {
       "ok": true,
       "count": 1
     },
@@ -29,9 +25,9 @@
       "ok": true,
       "count": 0
     },
-    "HNK Zagreb": {
+    "ZeKaeM": {
       "ok": true,
-      "count": 113
+      "count": 1
     },
     "Kerempuh": {
       "ok": true,
@@ -44,6 +40,10 @@
     "Trešnja": {
       "ok": true,
       "count": 0
+    },
+    "HNK Zagreb": {
+      "ok": true,
+      "count": 113
     }
   },
   "concerts": [
@@ -1548,6 +1548,21 @@
       "first_seen": "2026-10-14T12:01:25.678Z"
     },
     {
+      "id": "14a78874ba",
+      "title": "Mate Ponjević Tigrovi + Reper iz sobe",
+      "venue": "Vintage Industrial Bar Savska ulica 160",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-12-02T21:00:00",
+      "date_display": "sri, 02. 12. 2026.",
+      "time": "21:00",
+      "link": "https://www.muzika.hr/event/mate-ponjevic-tigrovi-reper-iz-sobe-zagreb/",
+      "source": "muzika.hr",
+      "is_new": true,
+      "first_seen": "2026-11-28T14:39:50.938Z"
+    },
+    {
       "id": "8a407a0784",
       "title": "Foltin Četvrtak 3.12.2026.",
       "venue": "Mochvara",
@@ -1878,6 +1893,21 @@
       "first_seen": "2026-11-22T06:01:14.039Z"
     },
     {
+      "id": "f2110e9033",
+      "title": "Pekinška patka + Mrva",
+      "venue": "Vintage Industrial Bar Savska ulica 160",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-12-10T21:00:00",
+      "date_display": "čet, 10. 12. 2026.",
+      "time": "21:00",
+      "link": "https://www.muzika.hr/event/pekinska-patka-mrva-zagreb/",
+      "source": "muzika.hr",
+      "is_new": true,
+      "first_seen": "2026-11-28T14:39:50.938Z"
+    },
+    {
       "id": "35f8bd40b8",
       "title": "Lang Lang",
       "venue": "Vatroslav Lisinski Trg Stjepana Radića 4",
@@ -1921,6 +1951,21 @@
       "source": "muzika.hr",
       "is_new": false,
       "first_seen": "2026-11-23T06:01:28.078Z"
+    },
+    {
+      "id": "11226f5cab",
+      "title": "JeboTon fešta",
+      "venue": "Grada Vukovara 68",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-12-11T20:00:00",
+      "date_display": "pet, 11. 12. 2026.",
+      "time": "20:00",
+      "link": "https://www.muzika.hr/event/jeboton-festa-zagreb/",
+      "source": "muzika.hr",
+      "is_new": true,
+      "first_seen": "2026-11-28T14:39:50.938Z"
     },
     {
       "id": "df32219488",
@@ -2056,6 +2101,21 @@
       "source": "HNK Zagreb",
       "is_new": false,
       "first_seen": "2026-11-26T09:01:25.064Z"
+    },
+    {
+      "id": "f6dd3ec2a7",
+      "title": "Hrvatska glazbena mladež Gala koncert laureata i svečana dodjela 39. Nagrade „Ivo Vuljević“",
+      "venue": "HNK Zagreb",
+      "city": "Zagreb",
+      "country": "HR",
+      "category": "concert",
+      "date_iso": "2026-12-13T11:00:00",
+      "date_display": "ned, 13. 12. 2026.",
+      "time": "11:00",
+      "link": "https://hnk.hr/hr/opera/predstave/gala-koncert-laureata-i-sve%C4%8Dana-dodjela-39-nagrade-ivo-vuljevi%C4%87/#13.12.11.00",
+      "source": "HNK Zagreb",
+      "is_new": true,
+      "first_seen": "2026-11-28T14:39:50.938Z"
     },
     {
       "id": "d22ff0a9bf",
@@ -5107,5 +5167,5 @@
       "first_seen": "2026-11-27T23:47:42.832Z"
     }
   ],
-  "new_count": 3
+  "new_count": 7
 }
